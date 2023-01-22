@@ -1,0 +1,10 @@
+<section>
+  <h4>{{.title}}</h4>
+
+  <nav id="{{.id}}">
+    {{ range .pages }}
+      {{ partial "tree.html" (dict "context" . "collapse" true) }}
+    {{ end }}
+  </nav>
+
+</section>
