@@ -11,6 +11,11 @@ macros:
 - name: cons
   args: 1
   body: '\mathsf{#1}'
+  doc: Denotes a constant
+- name: hom
+  args: 0
+  body: '\mathrm{hom}'
+  doc: The hom-set
 - name: floors
   args: 1
   body: '\lfloor #1 \rfloor'
