@@ -14,7 +14,7 @@ For finite groups {#G, H, K#}, we have
 Take any finite group {#L#}, then we have 
 {##
 \begin{aligned}
-\hom(L, G) \times \hom(L, K)\\
+&\phantom{\cong}\hom(L, G) \times \hom(L, K)\\
 &\cong \hom(L, G\times K)\\
 &\cong \hom(L, H\times K)\\
 &\cong \hom(L, H) \times \hom(L, K).
