@@ -6,6 +6,8 @@ macros:
   - include: base-macros
 ---
 
+{{ .TableOfContents }}
+
 # Motivation
 
 - Infinity groupoids, homotopy theory
