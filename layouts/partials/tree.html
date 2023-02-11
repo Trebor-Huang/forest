@@ -46,19 +46,23 @@
       {{ end }}
     </summary>
     
-    {{ if and (not .parent) (default true .context.Page.Params.showtoc) }}
-      {{ with site.Data.forest }}
-        {{ with .childrenOf }}
-          {{ $children := index . $slug }}
-          {{ with $children }}
-            <nav class="block" id="toc">
-              <details open>
-              <summary><h3>Table of Contents</h3></summary>
-              {{ partial "toc_items.html" . }}
-              </details>
-            </nav>
+    {{ if not .parent }}
+      {{ if not (default true .context.Page.Params.headertoc) }}
+        {{ with site.Data.forest }}
+          {{ with .childrenOf }}
+            {{ $children := index . $slug }}
+            {{ with $children }}
+              <nav class="block" id="toc">
+                <details open>
+                <summary><h3>Table of Contents</h3></summary>
+                {{ partial "toc_items.html" . }}
+                </details>
+              </nav>
+            {{ end }}
           {{ end }}
         {{ end }}
+      {{ else }}
+        {{ .context.Page.TableOfContents }}
       {{ end }}
     {{ end }}
 
