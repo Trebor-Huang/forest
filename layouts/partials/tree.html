@@ -62,7 +62,12 @@
           {{ end }}
         {{ end }}
       {{ else }}
-        {{ .context.Page.TableOfContents }}
+        <nav class="block" id="toc">
+          <details open>
+          <summary><h3>Table of Contents</h3></summary>
+          {{ .context.Page.TableOfContents }}
+          </details>
+        </nav>
       {{ end }}
     {{ end }}
 

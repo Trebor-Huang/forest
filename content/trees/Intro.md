@@ -12,7 +12,7 @@ This forest will hold some intuitions of stuff.
 - [ ] Develop a small commandline tool (so I don't have to install go or other things).
 - [ ] Develop a VSCode plugin.
 
-# Tests
+Here are some tests:
 
 ![](Ontology)
 

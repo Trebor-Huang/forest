@@ -1,4 +1,14 @@
-This is a delinked fork of [Jon Sterling's forest](https://github.com/jonsterling/forest).
+This originates from a delinked fork of [Jon Sterling's forest](https://github.com/jonsterling/forest).
+
+# Organizing of contents
+
+Mostly it follows Sterling's organization. But sometimes there will be blogpost-like content, or otherwise more traditional stuff. They are not divided or embedded elsewhere. These contents will use a more traditional table of contents (`headertoc: true`).
+
+# Commandline tool
+
+`tree` is a python 3 script for misc purposes. It's not finished yet.
+
+# Build
 
 Requirements:
 
