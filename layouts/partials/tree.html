@@ -46,7 +46,7 @@
       {{ end }}
     </summary>
     
-    {{ if not .parent }}
+    {{ if and (not .parent) (default true .context.Page.Params.showtoc) }}
       {{ with site.Data.forest }}
         {{ with .childrenOf }}
           {{ $children := index . $slug }}
@@ -57,7 +57,6 @@
               {{ partial "toc_items.html" . }}
               </details>
             </nav>
-            {{.TableOfContents}}
           {{ end }}
         {{ end }}
       {{ end }}

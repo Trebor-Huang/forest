@@ -2,6 +2,7 @@
 title: Ontology of infinity categories
 author: Trebor
 date: 2023-01-30
+showtoc: false
 macros:
   - include: base-macros
 ---
