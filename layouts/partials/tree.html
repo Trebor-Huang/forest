@@ -47,7 +47,7 @@
     </summary>
     
     {{ if not .parent }}
-      {{ if not (default true .context.Page.Params.headertoc) }}
+      {{ if not (default false .context.Page.Params.headertoc) }}
         {{ with site.Data.forest }}
           {{ with .childrenOf }}
             {{ $children := index . $slug }}
