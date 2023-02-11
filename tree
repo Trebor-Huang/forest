@@ -1,0 +1,29 @@
+#! python3
+import argparse, datetime
+from ruamel.yaml import YAML
+
+MACROS = [{"include": "base-macros"}]
+
+parser = argparse.ArgumentParser(
+    prog="Tree",
+    description="A simple commandline helper for your forest."
+)
+subcmd = parser.add_subparsers(dest='subcmd')
+subcmd_new = subcmd.add_parser('tree', help="Creates a new tree")
+subcmd_new.add_argument('filename', type=str, help="Filename of the new tree")
+
+args = parser.parse_args()
+
+match args.subcmd:
+    case 'tree':
+        yaml = YAML()
+        # Get the data
+        with open("archetypes/default.md") as template:
+            data = yaml.load(template.read().strip('---'))
+            data['date'] = datetime.date.today()
+            data['macros'] = MACROS
+        # TODO Compute the filename?
+        with open(f'content/trees/{args.filename}.md', 'x') as out:
+            out.write('---\n')
+            yaml.dump(data, out)
+            out.write('---\n')

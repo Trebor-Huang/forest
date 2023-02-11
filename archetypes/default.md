@@ -1,7 +1,6 @@
 ---
-title: 
+title: Title
 author: Trebor
-date: {{date}}
-draft: true
+date: 2021-10-11
+macros:
 ---
-
