@@ -25,10 +25,18 @@ to be invertible reduces the amount of mental work, and is often sufficient in
 many use cases. We use {#r#} to denote the highest level that can contain
 non-invertible morphisms.
 
-We can produce a periodic table of {#(n-r)#}-categories using these parameters.
+We can produce a periodic table of {#(n,r)#}-categories using these parameters.
 
-(...)
+{{< todo >}}
 
 Additionally, there is another notion from the bottom up: A monoid is the
 same thing as a {#1#}-category with one object, and a group is a
-{#(1,0)#}-category with one object. (...)
+{#(1,0)#}-category with one object. Going higher, a monoidal category is
+a {#(2,2)#}-category with only one object, where the monoidal product is
+composition. Following this, we can define a {#k#}-degenerate {#(n,r)#}-category
+as a category with only one {#i#}-morphism, {#0 \le i \le k#}. This is also
+called a **{#(k+1)#}-tuply monoidal {#(n-k, r-k)#}-category**. However,
+when {#k = -1#}, the natural generalization requires the category to be
+pointed.
+
+{{< todo `Write about commutativity and Eckmann–Hilton` >}}

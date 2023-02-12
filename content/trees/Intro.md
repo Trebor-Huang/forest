@@ -4,6 +4,7 @@ author: Trebor
 date: 2023-01-23
 macros:
   - include: base-macros
+collapseChildren: true
 ---
 
 This forest will hold some intuitions of stuff.
