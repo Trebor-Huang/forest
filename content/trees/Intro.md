@@ -7,14 +7,14 @@ macros:
 collapseChildren: true
 ---
 
-This forest will hold some intuitions of stuff.
+This forest will hold some intuitions and explanations of mathematical concepts.
 
 - [ ] Learn about various usages.
-- [ ] Develop a small commandline tool (so I don't have to install go or other things).
+- [ ] Develop a small commandline tool (so I don't have to install go).
 - [ ] Develop a VSCode plugin.
 
 Here are some tests:
 
 ![](Ontology)
 
-![](Theorem)
+![](Localization)
