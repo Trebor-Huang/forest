@@ -6,11 +6,7 @@ macros:
 - include: base-macros
 ---
 
-{{< todo `Localization of commutative rings` >}}
-(multiplicative subset, calculus of fractions)
-
-{{< todo `Localization of general rings` >}}
-(Ore condition)
+![](Localization-Rings)
 
 {{< todo `Localization of categories` >}}
 (Weird conditions)
