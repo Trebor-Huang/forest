@@ -18,7 +18,3 @@ Here are some tests:
 ![](Ontology)
 
 ![](Localization)
-
-Okay I can't resist this:
-
-![](Intro)
