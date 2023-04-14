@@ -12,7 +12,6 @@ language: en
 timezone: 'Asia/Shanghai'
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://trebor-huang.github.io/forest
 permalink: :title/
 permalink_defaults:
@@ -66,6 +65,7 @@ prismjs:
 #   order_by: -date
 
 # Category & Tag
+## Unneeded
 default_category: uncategorized
 category_map:
 tag_map:
@@ -94,12 +94,12 @@ include:
 exclude:
 ignore:
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
 theme: forestry
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/Trebor-Huang/forest.git
+  # branch: gh-pages
+  # message: [message]
