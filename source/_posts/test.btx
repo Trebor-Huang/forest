@@ -1,0 +1,27 @@
+---
+title: Testing bananas
+---
+
+BTeX can handle formulas like \(x^2 + 1\),
+\[\int f(x) \mathop{\mathrm{d}\mu}.\]
+We have \code{cd} diagrams too:
+\[\begin{cd}
+A \ar[r] & B \ar[d]\\
+C & D \ar[l, dashed]
+\end{cd}\]
+Ti\emph{k}Z is also supported:
+\[\begin{tikzcd}
+A \arrow[rd] \arrow[r, "\phi"] & B \\
+& C
+\end{tikzcd}\]
+
+The following is a graft of other trees.
+
+{{other}}
+
+The following is a link: [[other]].
+[[Links that do not exist]] is shown thus.
+
+I can graft it again:
+
+{{other}}

@@ -1,0 +1,23 @@
+<!--
+  Partial for a single tree.
+
+  spliced: Whether the tree is being spliced. If true,
+    the title is not displayed, and the layout is
+    somewhat more compact.
+  expanded: Whether the tree should be expanded by default.
+  content: The tree content, an html string.
+  title: The title.
+-->
+
+<% if (spliced) { %>
+<article class="tree splice">
+  <%- content %>
+</article>
+<% } else { %>
+<article class="tree">
+  <details <%= expanded ? "open" : "" %> >
+    <summary><b><%= title %></b></summary>
+    <%- content %>
+  </details>
+</article>
+<% } %>
