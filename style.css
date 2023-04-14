@@ -1,0 +1,106 @@
+/** Basics */
+
+article.tree {
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p:last-child {
+    margin-block-end: 0;
+}
+
+/** Links */
+
+.missing {
+    color: #5F5660;
+}
+
+a {
+    color: #3F3F43;
+}
+
+a:link,
+a:visited,
+a:hover {
+    text-decoration: underline dotted;
+}
+
+a:hover {
+    color: #838383;
+}
+
+a:active {
+    text-decoration: underline solid;
+}
+
+/** BTeX styling */
+
+.btex-output {
+    font-family: 'CMU Sans Serif', system-ui, -apple-system, sans-serif;
+}
+
+/* .katex {
+    font-size: 90.91%
+} */
+
+span.display-math.tikz-in-math {
+    align-items: center
+}
+
+span.btex-diagram {
+    display: inline-block
+}
+
+span.btex-diagram span.cell,
+span.btex-diagram span.label {
+    display: flex;
+    position: relative;
+    width: 0;
+    height: 0;
+    align-items: center;
+    justify-content: center
+}
+
+span.btex-diagram .katex {
+    font-size: 1em !important
+}
+
+span.btex-diagram .katex span.rlap {
+    user-select: none
+}
+
+span.display-math {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: stretch
+}
+
+span.display-math.tikz-in-math {
+    align-items: center
+}
+
+span.display-math span.katex-display {
+    flex-grow: 1;
+    overflow-x: auto;
+    overflow-y: hidden
+}
+
+span.display-math span.equation-tag-left,
+span.display-math span.equation-tag-right {
+    flex-shrink: 0;
+    flex-grow: 0
+}
+
+span.display-math svg {
+    margin: 0 auto;
+    max-width: 100%
+}
+
+span.display-math .overlay > svg {
+    max-width: none;
+}
