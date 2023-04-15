@@ -1,0 +1,27 @@
+---
+title: Convergence of functions
+---
+
+There are many notions of convergence of functions in analysis.
+The most natural one is \textbf{pointwise convergence}, or more
+leniently \textbf{almost everywhere convergence}. These generally
+produces very wild functions, as the convergence rate at each
+point is completely unrelated. We may also require \textbf{uniform
+convergence}. This is the strictest kind of convergence. It also
+has an ``almost everywhere'' variant, where there is a measure zero
+set \(Z\) outside of which the function converges uniformly.
+
+There are other notions in between. In complex analysis we often
+encounter \textbf{uniform convergence on all compact sets}. This is
+the sequential version of the compact-open topology. In real analysis,
+a function may converge uniformly on a set whose complement can be
+made arbitrarily small (but non-zero). This is called \textbf{nearly
+uniform convergence}. Note that this makes sense because uniform
+convergence is a \emph{global} concept. In contrast, ``nearly everywhere
+convergence'' is simply almost everywhere convergence, because pointwise
+convergence is completely local.
+
+Finally, there is \textbf{convergence in measure}, which comes from
+the study of probability. It requires that for every \(\epsilon\),
+the measure of the set on which the functions differ by more than
+\(\epsilon\) tends to zero.
