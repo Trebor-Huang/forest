@@ -9,23 +9,31 @@ article.tree {
     margin-right: auto;
 }
 
-p:last-child {
-    margin-block-end: 0;
+details > summary {
+    list-style-type: "⊖ ";
+}
+
+details[open] > summary {
+    margin-bottom: 0.3em;
+    list-style-type: "⊕ ";
+}
+
+p, .p {
+    margin: 0 0 1em 0;
+}
+
+p:last-child, .p:last-child {
+    margin-bottom: 0;
 }
 
 /** Links */
 
 .missing {
-    color: #5F5660;
+    color: #526068;
 }
 
 a {
-    color: #3F3F43;
-}
-
-a:link,
-a:visited,
-a:hover {
+    color: #191919;
     text-decoration: underline dotted;
 }
 
@@ -39,13 +47,22 @@ a:active {
 
 /** BTeX styling */
 
-.btex-output {
+body {
     font-family: 'CMU Sans Serif', system-ui, -apple-system, sans-serif;
 }
 
-/* .katex {
-    font-size: 90.91%
-} */
+.katex {
+    font-size: 1em !important;
+    letter-spacing: normal
+}
+
+.block {
+    margin: 0 0 1em 0;
+}
+
+.proof {
+    overflow: hidden
+}
 
 span.display-math.tikz-in-math {
     align-items: center
@@ -74,10 +91,15 @@ span.btex-diagram .katex span.rlap {
 }
 
 span.display-math {
+    margin: 1em 0;
     display: flex;
     flex-direction: row;
     align-items: baseline;
     justify-content: stretch
+}
+
+span.katex-display {
+    margin: 0
 }
 
 span.display-math.tikz-in-math {
@@ -103,4 +125,13 @@ span.display-math svg {
 
 span.display-math .overlay > svg {
     max-width: none;
+}
+
+div.floatright {
+    float: right;
+    margin: 0
+}
+
+.toc {
+    display: none
 }
