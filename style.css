@@ -4,9 +4,8 @@ article.tree {
     border-radius: 10px;
     border-style: solid;
     padding: 10px 10px 10px 10px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    hyphens: auto;
+    text-align: justify;
 }
 
 details > summary {
@@ -24,6 +23,40 @@ p, .p {
 
 p:last-child, .p:last-child {
     margin-bottom: 0;
+}
+
+header {
+    display: block;
+    margin: 20px auto 15px auto;
+    max-width: 900px;
+}
+
+header>nav {
+    font-size: large;
+    font-weight: bold;
+}
+
+header>nav>a {
+    text-decoration: none;
+}
+
+header>nav::before {
+    content: "";
+    background-image: url("icon.png");
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 1.5em;
+    width: 1.5em;
+    margin-left: 10px;
+    vertical-align: middle;
+    /* border: black solid;
+    border-radius: 5px; */
+}
+
+main {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /** Links */
