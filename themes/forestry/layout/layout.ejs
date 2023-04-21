@@ -1,19 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="<%= config.language %>" >
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="icon" type="image/x-icon" href="<%= url_for('favicon.ico') %>">
   <%- css('katex/katex.min.css') %>
   <%- css('style.css') %>
   <%- js('katex/katex.min.js') %>
   <%- js('jquery/jquery-3.6.4.min.js') %>
 </head>
 <body>
-<!-- header -->
 
-<!-- content -->
+<header>
+  <nav>
+    <a href="<%= config.url %>"><%= config.title %></a>
+  </nav>
+</header>
+
+<main>
 <%- body %>
+</main>
 
-<!-- footer -->
+<footer>
+  <!-- Some script-sized phrases -->
+</footer>
 </body>
 </html>

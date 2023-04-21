@@ -1,1 +1,6 @@
-Hello, world!
+<%= config.description %>
+<ul> <!-- List of posts -->
+<% site.posts.forEach(function(post) { %>
+    <li> <a href="<%= url_for(post.path) %>"> <%= post.title %> </a> </li>
+<% }); %>
+</ul>
