@@ -6,5 +6,4 @@ Forest written with bTeX.
 
 * Theming
 * Automation
-* Deal with theorems etc somehow
 * Linking
