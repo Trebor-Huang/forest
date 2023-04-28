@@ -21,7 +21,7 @@ p, .p {
     margin: 0 0 1em 0;
 }
 
-p:last-child, .p:last-child {
+div.btex-output :last-child {
     margin-bottom: 0;
 }
 
@@ -45,10 +45,10 @@ header>nav::before {
     background-image: url("icon.png");
     background-size: 100% 100%;
     display: inline-block;
-    height: 1.5em;
-    width: 1.5em;
+    height: 1em;
+    width: 1.2em;
     margin-left: 10px;
-    vertical-align: middle;
+    vertical-align: text-top;
     /* border: black solid;
     border-radius: 5px; */
 }
@@ -59,6 +59,13 @@ main {
     margin-right: auto;
 }
 
+footer {
+    padding-top: 2em;
+    text-align: center;
+    font-size: smaller;
+    color: #838383;
+}
+
 /** Links */
 
 .missing {
@@ -66,7 +73,7 @@ main {
 }
 
 a {
-    color: #191919;
+    color: inherit;  /* Do not get blue or purple! */
     text-decoration: underline dotted;
 }
 
@@ -163,6 +170,21 @@ span.display-math .overlay > svg {
 div.floatright {
     float: right;
     margin: 0
+}
+
+table.list td.list-item-label {
+    width: 1.5em;
+    max-width: 16em;
+    overflow-x: clip;
+    white-space: nowrap;
+    text-align: right;
+    padding-right: 0.75em;
+    user-select: none;
+    /* -webkit-user-select: none; */
+}
+
+table.list td {
+    vertical-align: baseline;
 }
 
 .toc {
