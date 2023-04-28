@@ -45,10 +45,10 @@ header>nav::before {
     background-image: url("icon.png");
     background-size: 100% 100%;
     display: inline-block;
-    height: 1.5em;
-    width: 1.5em;
+    height: 1em;
+    width: 1.2em;
     margin-left: 10px;
-    vertical-align: middle;
+    vertical-align: text-top;
     /* border: black solid;
     border-radius: 5px; */
 }
@@ -59,6 +59,13 @@ main {
     margin-right: auto;
 }
 
+footer {
+    padding-top: 2em;
+    text-align: center;
+    font-size: smaller;
+    color: #838383;
+}
+
 /** Links */
 
 .missing {
@@ -66,7 +73,7 @@ main {
 }
 
 a {
-    color: #191919;
+    color: inherit;  /* Do not get blue or purple! */
     text-decoration: underline dotted;
 }
 
