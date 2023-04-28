@@ -1,6 +1,4 @@
----
-title: Cofinal Subdiagram
----
+\setdisplaytitle{Cofinal Subdiagram}
 
 \begin{definition}
 A functor \(F : \mathcal J \to \mathcal D\) is said to be \textbf{cofinal} if
@@ -13,3 +11,5 @@ F(C) \ar[r, "F(v)"'] & F(D)
 \end{cd}
 \end{itemize}
 \end{definition}
+
+Note that "cofinal" roughly means the two things have a common (i.e. \emph{co-}) tail (i.e. \emph{final}). These two components have no relation to the usual categorical notion of duality or terminal objects.

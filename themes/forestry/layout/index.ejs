@@ -1,6 +1,8 @@
 <%= config.description %>
 <ul> <!-- List of posts -->
 <% site.posts.forEach(function(post) { %>
-    <li> <a href="<%= url_for(post.path) %>"> <%= post.title %> </a> </li>
+    <li> <a href="<%= url_for(post.path) %>"> (?) </a> </li>
 <% }); %>
 </ul>
+
+(Todo: Get the title properly. This should eventually be a pretty graph of every node.)
