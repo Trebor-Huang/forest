@@ -1,0 +1,15 @@
+---
+title: Cofinal Subdiagram
+---
+
+\begin{definition}
+A functor \(F : \mathcal J \to \mathcal D\) is said to be \textbf{cofinal} if
+\begin{itemize}
+\item For every object \(A \in \mathcal D\) there is an object \(B \in \mathcal J\) with a morphism \(f : A \to F(B)\).
+\item For any two such morphisms \(f, g\), there are two more morphisms in \(\mathcal J\) such that the following commutes:
+\begin{cd}
+A \ar[d, "g"'] \ar[r, "f"] & F(B) \ar[d, "F(u)"] \\
+F(C) \ar[r, "F(v)"'] & F(D)
+\end{cd}
+\end{itemize}
+\end{definition}
