@@ -1,0 +1,32 @@
+\setdisplaytitle{Cocone Category of a Cofinal Subdiagram}
+\begin{theorem}
+Given a functor \(F : \mathcal J \to \mathcal D\) and a diagram \(D : \mathcal D \to \mathcal C\), it induces a restriction functor between cocone categories \(\mathsf{Cocone}_{\mathcal D}(D) \to \mathsf{Cocone}_{\mathcal J}(D \circ F)\). If \(F\) is [[Cofinal-Subdiagram|cofinal]], then the induced functor is an equivalence.
+\end{theorem}
+\begin{proof}
+Given a cocone over \(D \circ F\) with apex \(X\), we construct a cocone over \(D\).
+
+For every object \(A \in \mathcal D\), by cofinality we have an arrow \(A \to F(B)\). And the cocone over \(D \circ F\) gives an arrow \(D(F(B)) \to X\). By composition we have the desired arrow \(D(A) \to X\). Such a construction is choice-independent because given another such arrow \(A \to F(B')\), by cofinality we have the diagram
+\begin{cd}
+D(A)\ar[r]\ar[d] & D(F(B'))\ar[d]\ar[rdd, bend left]\\
+D(F(B))\ar[r]\ar[rrd, bend right] & D(F(C))\ar[rd]\\
+&& X
+\end{cd}
+Since the lower-right part is given by a cocone, it commutes. The upper-left square commutes by cofinality. And therefore the two ways of obtaining \(D(A) \to X\) turns out to be equal.
+
+This indeed produces a cocone, because given any arrow \(A \to A'\), we have the following diagram:
+\begin{cd}
+A\ar[r]\ar[d] & A'\ar[d]\\
+F(B) & F(B')
+\end{cd}
+where \(B, B'\) are chosen as above. Now since \(A \to F(B')\) is also a choice, we know that the arrow \(D(A) \to X\) is equal to \(D(A) \to D(A') \to X\). This proves that the cocone commutes.
+
+This construction is functorial, because given a morphism of cocones \(X \to Y\) over \(D \circ F\), we have the diagram
+\begin{cd}
+&& X \ar[dd]\\
+D(A)\ar[r] & D(F(B))\ar[ur] \ar[dr]\\
+&& Y
+\end{cd}
+And since the arrows \(D(A) \to X, D(A) \to Y\) factors through \(D(F(B))\) by construction, we get the required commutativity.
+
+Finally, this construction is indeed an inverse of restriction along \(F\). In fact, in strict categories we see that the above construction yields an isomorphism of categories.
+\end{proof}
