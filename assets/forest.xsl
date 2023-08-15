@@ -27,7 +27,7 @@
   </xsl:template>
 
   <xsl:template
-    match="p | img | code | pre | a | em | b | strong | ol | ul | li | center | blockquote | table | tr | th | td ">
+    match="p | img | code | pre | a | em | b | strong | ol | ul | li | center | blockquote | table | tr | th | td | ruby | rb | rt | rp | span">
     <xsl:copy>
       <xsl:apply-templates select="node()|@*" />
     </xsl:copy>
@@ -221,6 +221,17 @@
         <xsl:value-of select="addr" />
         <xsl:text>]</xsl:text>
       </a>
+      <xsl:if test="sourcePath">
+        <xsl:text> </xsl:text>
+        <a class="edit-button">
+          <xsl:attribute name="href">
+            <xsl:text>vscode://file/</xsl:text>
+            <xsl:value-of select="sourcePath" />
+          </xsl:attribute>
+          <xsl:text>[edit]</xsl:text>
+        </a>
+      </xsl:if>
+
     </xsl:if>
   </xsl:template>
 
