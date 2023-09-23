@@ -80,7 +80,7 @@
   </xsl:template>
 
   <xsl:template
-    match="p | img | code | pre | a | em | b | strong | ol | ul | li | center | blockquote | table | tr | th | td | ruby | rb | rt | rp | span">
+    match="p | img | code | pre | a | em | b | strong | ol | ul | li | center | blockquote | table | tr | th | td | ruby | rb | rt | rp | span | figure | figcaption | mark | div | hr | abbr">
     <xsl:copy>
       <xsl:apply-templates select="node()|@*" />
     </xsl:copy>
@@ -213,7 +213,7 @@
           </xsl:if>
         </xsl:for-each>
         <xsl:if test="contributor">
-          <xsl:text> with contributions from </xsl:text>
+          <xsl:text> with transitive contributions from </xsl:text>
           <xsl:for-each select="contributor">
             <xsl:apply-templates />
             <xsl:if test="position()!=last()">
