@@ -1,0 +1,9 @@
+\title{chain complex of #{R}-modules}
+\date{2024-02-17}
+\taxon{definition}
+\meta{generalizes}{hmlg-0002}
+\import{common}
+
+\p{
+  A chain complex of #{R}-modules is given by a sequence of modules #{M_\bullet} together with #{R}-linear maps #{d_n : R_n \to R_{n-1}}, such that #{d_{n-1} \circ d_n = 0}.
+}

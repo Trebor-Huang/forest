@@ -1,0 +1,33 @@
+\title{common import}
+
+% Formatting primitives
+\def\mark[body]{\xml{mark}{\body}}
+
+\def\proof[body]{
+  \scope{
+    \put\transclude/toc{false}
+    \subtree{
+      \taxon{proof}
+      \body
+    }
+  }
+}
+
+% Mathematical macros
+\def\Cat[name]{
+  #{\mathsf{\name}}
+}
+\def\CatVar[name]{
+  #{\mathcal{\name}}
+}
+\def\inject{
+  #{\rightarrowtail}
+}
+\def\include{
+  #{\hookrightarrow}
+}
+\def\surject{
+  #{\twoheadrightarrow}
+}
+
+\p{This tree defines some commonly imported stuff.}
