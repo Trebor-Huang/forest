@@ -1,0 +1,13 @@
+\date{2024-02-17}
+\title{chain maps induce maps on homology}
+\taxon{construction}
+\author{trebor}
+\import{common}
+
+\p{
+  A chain map #{f : C \to D} induces a family of homomorphisms #{f_* : H_n (C) \to H_n (D)} on the homology groups. The identity map induces the identity morphism, and a composition of maps #{f \circ g} induces composition homomorphism #{(f \circ g)_* = f_* \circ g_*}.
+}
+
+\proof{
+  Referring to the [visualization](hmlg-0009) makes all the moving parts clear here. Since #{f} commutes with the boundary maps, it maps the boundaries in #{C_n} to the boundaries in #{D_n}. Therefore the map is well-defined after passing to the quotient.
+}

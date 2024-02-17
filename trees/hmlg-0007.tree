@@ -1,0 +1,9 @@
+\date{2024-02-17}
+\title{components of a chain complex}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [chain complex](hmlg-0003), the \strong{cycles} #{Z_n} of dimension #{n} are given by the kernel of #{d_n : C_n \to C_{n-1}}. The \strong{boundaries} #{B_n} are given by the image of #{d_{n+1} : C_{n+1} \to C_n}. The equation #{d^2 = 0} is equivalent to ##{0 \subseteq B_n \subseteq Z_n \subseteq C_n.} We can define quotient groups to measure the gaps in the inclusion chain. By the [homomorphism theorem](https://en.wikipedia.org/wiki/Fundamental_theorem_on_homomorphisms), the quotient #{C_n / Z_n} is isomorphic to the image of #{d_n}, which is the next boundary #{B_{n-1}}. On the other hand, the \strong{homology groups} #{H_n(C)} are defined as the quotient #{Z_n/B_n}.
+}
