@@ -1,11 +1,12 @@
 #!/bin/bash
 
-forester build --root=trebor-0001 trees/
+rm -rf build/
+forester build --dev --root=trebor-0001 trees/
 
 fswatch -o trees/ | while read num ; \
   do \
+    clear
     echo "Rebuilding forest"
-    time forester build --root=trebor-0001 trees/
+    time forester build --dev --root=trebor-0001 trees/
     echo "Done"
-    echo
   done

@@ -1,6 +1,6 @@
 \title{common import}
 
-% Formatting primitives
+% ===== Formatting primitives
 \def\mark[body]{\xml{mark}{\body}}
 
 \def\proof[body]{
@@ -13,21 +13,29 @@
   }
 }
 
-% Mathematical macros
-\def\Cat[name]{
-  #{\mathsf{\name}}
+% ===== TeX embeddings
+% Since the main styling uses 12pt, we change the font to fit
+% Also we give a little more space to avoid clipping
+\def\tikz[body]{
+  \tex{
+    \startverb
+    \usepackage{tikz, tikz-cd, mathtools, amssymb, stmaryrd}
+    \stopverb
+  }{
+    \begin{tikzpicture}\body\end{tikzpicture}
+  }
 }
-\def\CatVar[name]{
-  #{\mathcal{\name}}
-}
-\def\inject{
-  #{\rightarrowtail}
-}
-\def\include{
-  #{\hookrightarrow}
-}
-\def\surject{
-  #{\twoheadrightarrow}
-}
+
+% ===== Mathematical macros
+\def\Cat[name]{#{\mathsf{\name}}}
+\def\CatVar[name]{#{\mathcal{\name}}}
+\def\inject{#{\rightarrowtail}}
+\def\include{#{\hookrightarrow}}
+\def\surject{#{\twoheadrightarrow}}
+\def\ModL[ring]{#{\ring\text{-}\Cat{Mod}}}
+\def\ModR[ring]{#{\Cat{Mod}\text{-}\ring}}
+\def\Mod[left][right]{#{\left\text{-}\Cat{Mod}\text{-}\right}}
+\def\Tot{#{\textrm{Tot}}}
+
 
 \p{This tree defines some commonly imported stuff.}

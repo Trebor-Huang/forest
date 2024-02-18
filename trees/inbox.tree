@@ -1,0 +1,17 @@
+\title{Inbox}
+\taxon{meta}
+
+\p{
+  This is where I sort through my forest. Unwritten links are recorded [here](todo).
+}
+
+\p{
+  Here is a list of all the trees. It uses a non-standard query command, so this will not build using the standard [Forester](https://www.jonmsterling.com/jms-005P.xml) software.
+}
+
+\query{
+  \query/not{
+    \query/taxon{meta}
+  }
+}
+
