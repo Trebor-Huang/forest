@@ -1,0 +1,13 @@
+\date{2024-02-18}
+\title{total complex}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [bicomplex](hmlg-000K) #{C_{\bullet, \bullet}}, we can collapse it into a chain complex in two ways. In either way, #{C_{p, q}} is contained in the total complex at degree #{(m+n)}. We can use the direct sum to combine them: ##{\Tot^\oplus(C)_n = \bigoplus_{n = p+q} C_{p, q},} or the direct product: ##{\Tot^\Pi(C)_n = \prod_{n=p+q} C_{p,q}.}
+}
+
+\p{
+  The total differential acts on elements in #{C_{p, q}} by ##{\partial(x) = d(x) + (-1)^q \delta(x),} where #{d} is the vertical map, and #{\delta} the horizontal map. The [sign](hmlg-000N) here is to ensure that #{\partial^2 = 0}.
+}

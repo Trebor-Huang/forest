@@ -3,3 +3,37 @@
 \taxon{visualization}
 \author{trebor}
 \import{common}
+
+\p{
+  Since the boundary subgroup in one dimension can also be considered as a quotient in a lower dimension, it may be beneficial to identify the two in a visualization. This leads to the following picture. Regions appearing to the right are to be considered as quotient, and those to the left as subobjects. Further development of this visualization scheme can be seen [here](https://www.3blue1brown.com/blog/exact-sequence-picturebook).
+}
+
+\tikz{
+  \startverb
+  \clip (-1.9, -2.4) rectangle (5.9, 2);
+  \tikzset{every path/.style={thick}}
+
+  % The circles
+  \draw (-2,0) circle (1.6);
+
+  \draw (0,0) circle (1.6);
+  \node at (0, -2) {\(C_{n+1}\)};
+  \node at (0,1) {\(H_{n+1}\)};
+
+  \node at (1,0) {\(B_n\)};
+  \draw (2,0) circle (1.6);
+  \node at (2, -2) {\(C_{n}\)};
+  \node at (2,1) {\(H_n\)};
+
+  \node at (3,0) {\(B_{n-1}\)};
+  \draw (4,0) circle (1.6);
+  \node at (4, -2) {\(C_{n-1}\)};
+  \node at (4,1) {\(H_{n-1}\)};
+
+  \draw (6,0) circle (1.6);
+  \stopverb
+}
+
+\p{
+  We chose to draw circles to emphasize the individual chain groups. In more complicated situations, it is more convenient to draw a chain of rectangles, with each chain group spanning three rectangular regions. We would then need other means to convey the confines of each object.
+}

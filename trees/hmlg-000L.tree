@@ -1,0 +1,18 @@
+\date{2024-02-18}
+\title{operations on chain complexes}
+\author{trebor}
+\import{common}
+
+\p{
+  It is fruitful to manipulate chain complexes as a whole. This allows us to neatly package some common algebraic operations.
+}
+
+\transclude{hmlg-000I}
+
+\p{
+  As another example, the consideration of quotienting out a subspace #{Y \subseteq X} naturally leads us to relative homology. We construct a chain complex by taking a quotient in each dimension: ##{0 \to C_\bullet(Y) \include C_\bullet(X) \to C_\bullet(X, Y) \to 0.} These maps commute with the boundary maps, so it can be regarded as an exact sequence of chain complexes.
+}
+
+\transclude{hmlg-000K}
+
+\transclude{hmlg-000J}

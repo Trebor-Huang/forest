@@ -1,0 +1,9 @@
+\date{2024-02-18}
+\title{#{\Cat{Ab}}-enriched category}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a category #{\CatVar{C}}, an #{\Cat{Ab}}-enrichment is given by abelian group structures on every hom-set, such that composition is linear in each argument. In other words, we have a homomorphism #{\hom(Y, Z) \otimes \hom(X, Y) \to \hom(X, Z)}.
+}

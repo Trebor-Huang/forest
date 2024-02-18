@@ -1,0 +1,13 @@
+\date{2024-02-18}
+\title{bicomplex}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  A \strong{bicomplex} is a chain complex of chain complexes. More specifically, we have a grid of objects #{A_{m, n}}, vertical maps #{d : A_{m, n} \to A_{m, n-1}} and horizontal maps #{\delta : A_{m, n} \to A_{m-1, n}}. Every square in the grid commutes, and #{d^2 = \delta^2 = 0}.
+}
+
+\p{
+  Each column #{A_{m, \bullet}} in the bicomplex is a chain complex, and #{\delta} are chain maps between the column complexes. Similarly, each row forms a chain complex, and #{d} are chain maps between the row complexes.
+}
