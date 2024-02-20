@@ -1,0 +1,19 @@
+\date{2024-02-19}
+\title{kernel, image, cokernel and coimage of chain complexes}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a chain map #{f_\bullet : C_\bullet \to D_\bullet}, we can take the kernel, image, cokernel and coimage in each dimension, to obtain new chain complexes. It is a matter of unpacking and repacking quotients to verify that the relevant squares commute, rendering the following diagram of chain complexes.
+}
+
+\tikzcd{
+  && {\im f} & {\coim f} \\
+  & C &&& D \\
+  {\ker f} &&&&& {\coker f}
+  \arrow["\sim", from=1-3, to=1-4]
+  \arrow[from=2-2, to=1-3]
+  \arrow[from=1-4, to=2-5]
+  \arrow[from=3-1, to=2-2]
+  \arrow[from=2-5, to=3-6]
+}

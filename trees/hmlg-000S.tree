@@ -1,0 +1,29 @@
+\date{2024-02-18}
+\title{additive functor}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given two [additive categories](hmlg-000P) and a functor #{F : \CatVar{C} \to \CatVar{D}} between them, the following are equivalent:
+  \ul{
+    \li{The functor preserves finite products.}
+    \li{The functor preserves finite coproducts.}
+    \li{The functor is a homomorphism on the abelian groups #{\hom_{\CatVar{C}}(X, Y)}, i.e. it is an #{\Cat{Ab}}-enriched functor.}
+  }
+  In this case, we call the functor \strong{additive}.
+}
+
+\proof{
+  \p{
+    For the equivalence of the first two claims, we have a composition
+    ##{F(X) + F(Y) \to F(X + Y) \iso F(X \times Y) \to F(X) \times F(Y),}
+    where the middle morphism comes from the canonical isomorphism #{X + Y \iso F(X \times Y)}. The first two claim is equivalent to the right and left arrows being iso, respectively. Recall that a morphism from a coproduct to a product is determined by a matrix of morphisms. With this fact and the functoriality of #{F}, we can compute that the composition is the canonical isomorphism from #{F(X) + F(Y)} to #{F(X) \times F(Y)}. Therefore the leftmost arrow being iso is equivalent to the rightmost arrow being iso.
+  }
+
+  \p{
+    Since the abelian group structure on morphisms is [uniquely determined](hmlg-000R) from the finite products and coproducts in an additive category, a functor satisfying the first two conditions automatically satisfies the third. Conversely, we need to prove the canonical maps #{F(1) \to 1} and #{F(X \times Y) \to F(X) \times F(Y)} are isomorphisms. For the first one, since #{1} is also the initial object, any morphism into it is automatically iso. For the second one, we again look at the diagram which composes to an isomorphism:
+    ##{F(X) + F(Y) \to F(X + Y) \iso F(X \times Y) \to F(X) \times F(Y).}
+    Using the bilinearity of composition and that #{F} preserves addition on morphisms, we can verify that this provides a two-sided inverse.
+  }
+}

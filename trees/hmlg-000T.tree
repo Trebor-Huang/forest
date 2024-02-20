@@ -1,0 +1,11 @@
+\date{2024-02-18}
+\title{adjunctions are additive}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  In an adjunction #{F \dashv G}, both functors are automatically additive.
+}
+
+\proof{\p{Since the left adjoint preserves colimits, it preserves finite coproducts. Therefore by \ref{hmlg-000S} it is an additive functor. Dually, the right adjoint preserves limits, and is also additive.}}

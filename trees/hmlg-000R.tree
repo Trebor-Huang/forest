@@ -1,0 +1,27 @@
+\date{2024-02-18}
+\title{being an additive category is a [property](todo)}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a category, if it can be endowed with an [#{\Cat{Ab}}-enrichment](hmlg-000O) that makes it an [additive category](hmlg-000P), then it only has one possible enrichment. In particular, there is at most one way to turn a category into an additive category.
+}
+
+\proof{
+  \p{
+    Notice that having finite products and coproducts is a [property](todo), and the canonical morphism between them being an isomorphism is also a [property](todo). These do not mention the enrichment structure.
+  }
+
+  \p{
+    With these properties satisfied, the addition structure on the #{\hom}-sets are fixed. We claim that the additive neutral element is given by the composition
+    ##{X \to 0 \to Y,}
+    and given two parallel morphisms #{f, g : X \to Y}, the following composition
+    ##{X \xto{\Delta} X \oplus X \xto{f \oplus g} Y \oplus Y \xto{\nabla} Y.}
+    is equal to the addition #{f + g}. For disambiguation, we temporarily denote these constructions as #{0'} and #{f +' g}. By interpreting #{\oplus} as a product or a coproduct at appropriate times, it is easy to see that #{0'} is indeed the neutral element for #{+'}.
+  }
+
+  \p{
+    Recall that arrows #{X \oplus X \to Y \oplus Y} is given by a #{2 \times 2} matrix, and this correspondence is an abelian group isomorphism by general enriched category theory. #{f \oplus g} comes from a diagonal matrix with #{f, g} as entries, so this operation is linear, which entails #{+'} is also linear. By the [Eckmann–Hilton argument](todo), the two addition operations must coincide.
+  }
+}

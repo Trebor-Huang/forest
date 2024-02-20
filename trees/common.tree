@@ -26,16 +26,35 @@
   }
 }
 
+\def\tikzcd[body]{
+  \tex{
+    \startverb
+    \usepackage{tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd}
+    \stopverb
+  }{
+    \begin{tikzcd}\body\end{tikzcd}
+  }
+}
+
 % ===== Mathematical macros
 \def\Cat[name]{#{\mathsf{\name}}}
 \def\CatVar[name]{#{\mathcal{\name}}}
-\def\inject{#{\rightarrowtail}}
-\def\include{#{\hookrightarrow}}
-\def\surject{#{\twoheadrightarrow}}
+\def\id{#{\textrm{id}}}
+\def\im{#{\operatorname{im}}}
+\def\coim{#{\operatorname{coim}}}
+\def\coker{#{\operatorname{coker}}}
+\def\pair[content]{#{\left\langle \content \right\rangle}}
+
 \def\ModL[ring]{#{\ring\text{-}\Cat{Mod}}}
 \def\ModR[ring]{#{\Cat{Mod}\text{-}\ring}}
 \def\Mod[left][right]{#{\left\text{-}\Cat{Mod}\text{-}\right}}
 \def\Tot{#{\textrm{Tot}}}
+% Arrows
+\def\inject{#{\rightarrowtail}}
+\def\include{#{\hookrightarrow}}
+\def\surject{#{\twoheadrightarrow}}
+\def\xto[arg]{#{\xrightarrow{\arg}}}
+\def\iso{#{\stackrel{\sim\,}{\to}}}
 
 
 \p{This tree defines some commonly imported stuff.}

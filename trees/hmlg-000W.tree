@@ -1,0 +1,9 @@
+\date{2024-02-19}
+\title{abelian categories}
+\taxon{intuition}
+\author{trebor}
+\import{common}
+
+\p{
+  [Abelian categories](hmlg-000Q) are one step further from [additive categories](hmlg-000P). Similar to the situation of abelian groups or modules, every morphism #{f : X \to Y} has four key components, the image, the kernel, the coimage #{X / \ker f}, and the cokernel #{Y / \im f}. The image is always identical with the coimage, representing the core part of the homomorphism. The kernel perfectly measures the failure of injectivity, and the cokernel perfectly measures the failure of surjectivity. This is in stark constrast with general maps, where the failure of injectivity may be heterogeneous, and thus cannot be simply characterized.
+}

@@ -1,0 +1,35 @@
+\date{2024-02-19}
+\title{left and right exact functor}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  An [additive functor](hmlg-000S) #{F : \CatVar{A} \to \CatVar{B}} between abelian categories is \strong{left exact} if it satisfies the following equivalent conditions.
+
+  \ul{
+    \li{It preserves kernels.}
+    \li{It preserves finite limits.}
+    \li{It preserves the exactness of sequences ##{0 \to A \to B \to C.}}
+  }
+}
+
+\p{
+  Dually, an additive functor is \strong{right exact} if it satisfies the following equivalent conditions.
+  \ul{
+    \li{It preserves cokernels.}
+    \li{It preserves finite colimits.}
+    \li{It preserves the exactness of sequences ##{A \to B \to C \to 0.}}
+  }
+  If a functor is both left exact and right exact, it is simply called an \strong{exact functor}.
+}
+
+\proof{
+  \p{
+    Since additive functors already preserves finite products, and [kernels are equivalent to general coequalizers](hmlg-000Y) using the additive structure, the first two conditions are equivalent.
+  }
+
+  \p{
+    The sequence #{A \inject B \to C} being exact is equivalent to #{A} being a kernel of #{B \to C}. So the third condition is equivalent to the first. This completes the equivalence proof.
+  }
+}

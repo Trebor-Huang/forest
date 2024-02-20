@@ -9,5 +9,16 @@
 }
 
 \proof{
-  
+  \p{
+    By the universal property of products and coproducts, a map from the coproduct of some objects #{X_i} to their product is given by a matrix of morphisms #{f_{ij} : X_i \to X_j}. We choose the identity matrix
+    ##{f_{ij} = \begin{cases}
+      \id & (i = j) \\
+      0 & (i \ne j)
+    \end{cases}}
+    where #{0} is the additive neutral element in the abelian group #{\hom(X_i, X_j)}. This gives a canonical map #{\coprod_i X_i \to \prod_i X_i}.
+  }
+
+  \p{
+    When there are finitely many objects involved, we can construct an inverse. Consider the morphisms ##{\prod_i X_i \xto{\pi_j} X_j \xto{\iota_j} \coprod_i X_i.} We claim the sum of these morphisms is the desired inverse. To verify this, we compose them. Using bilinearity, we are reduced to showing that the coproduct and product of the identity map is the identity, which is true.
+  }
 }

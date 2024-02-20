@@ -1,0 +1,46 @@
+\date{2024-02-19}
+\title{additive and abelian categories}
+\author{trebor}
+\import{common}
+
+\p{
+  Since many [operations](hmlg-000L) on abelian groups and #{R}-modules can be performed on chain complexes, we wish to axiomatize an abstract notion to encapsulate them all. This motivates the definition of additive and abelian categories. We can use the three examples mentioned above as the source for intuitions for abelian categories.
+}
+
+\p{
+  First, we wish to let the morphisms form abelian groups. This turns out to have a surprising impact on the structure of categories, the most important of which is the coincidence of finite products and coproducts.
+}
+
+\transclude{hmlg-000O}
+
+\transclude{hmlg-000P}
+
+\p{
+  Due to this coincidence creating gadgets with \em{two universal properties}, the structure of additive categories are uniquely determined. This also means that we only need very mild conditions on functors to preserve the structures of an additive category.
+}
+
+\transclude{hmlg-000R}
+
+\transclude{hmlg-000S}
+
+\transclude{hmlg-000T}
+
+\p{
+  Kernels and cokernels are also greatly simplified in additive categories.
+}
+
+\transclude{hmlg-000Y}
+
+\transclude{hmlg-000W}
+
+\transclude{hmlg-000Q}
+
+\p{
+  The definition of abelian categories may look intimidating, but thinking of it as #{R}-modules is a very effective way to reduce mental load. In fact, [the Freyd–Mitchell embedding theorem](hmlg-000F) justifies this to some extent, allowing us to use familiar language such as taking and manipulating elements.
+}
+
+\p{
+  Although practically every important functor between additive categories is additive, the same cannot be said for abelian categories. Functors preserving the structure of abelian categories are called [exact](hmlg-000X), but many functors fail to satisfy this for various reasons. \mark{One of the main endeavours of homological algebra is to characterize the failures of exactness, and study their consequences.} This leads to intricate and beautiful structures emerging.
+}
+
+\transclude{hmlg-000X}

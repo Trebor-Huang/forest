@@ -1,0 +1,15 @@
+\date{2024-02-19}
+\title{equalizers can be reduced to kernels in #{\Cat{Ab}}-enriched categories}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  We can express equalizers with kernels (which are equalizers with the zero morphism).
+}
+
+\proof{
+  \p{
+    We simply need to note that an equalizer for #{f} and #{g} is equivalent to an equalizer for #{(f-g)} and #{0}, by bilinearity of composition.
+  }
+}

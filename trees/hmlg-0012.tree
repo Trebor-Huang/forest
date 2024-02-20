@@ -1,0 +1,13 @@
+\date{2024-02-20}
+\title{long exact sequence of homologies}
+\taxon{construction}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a short exact sequence of chain complexes
+  ##{0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0,}
+  there is a long exact sequence of homology groups
+  ##{\cdots \to H_{n+1}(C) \xto{\partial} H_n(A) \to H_n (B) \to H_n (C) \xto{\partial} H_{n-1} (A) \to \cdots}
+  The map #{\partial} here is, after unpacking some quotients, simply the boundary map #{B_n \to B_{n-1}}.
+}

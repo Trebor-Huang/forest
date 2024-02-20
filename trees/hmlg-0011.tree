@@ -1,0 +1,16 @@
+\date{2024-02-20}
+\title{using the [Freyd–Mitchell embedding](hmlg-000F) to prove theorems}
+\author{trebor}
+\import{common}
+
+\p{
+  We use the [snake lemma](hmlg-0010) as an example to demonstrate how the embedding theorem works in practice. The main technique is to avoid dealing with large categories.
+}
+
+\p{
+  Suppose we have already [proved](todo) the theorem in module categories. Given a snake lemma diagram in an arbitrary (locally small) [abelian category](hmlg-000Q) #{\CatVar{C}}, we take the smallest full subcategory closed under finite limits and colimits. This results in a small category #{\CatVar{D}}, which we can embed in a module category #{\ModL{R}}.
+}
+
+\p{
+  Now, the snake lemma in module categories implies that we have the required maps that forms an exact sequence. Since #{\CatVar{D}} is a full abelian subcategory of #{\ModL{R}}, these morphisms are contained in #{\CatVar{D}}, and the sequence is still exact. And since #{\CatVar{D}} is a full abelian subcategory of #{\CatVar{C}}, the sequence is again exact in #{\CatVar{C}}.
+}
