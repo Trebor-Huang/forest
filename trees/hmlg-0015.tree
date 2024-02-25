@@ -1,0 +1,47 @@
+\date{2024-02-20}
+\title{filtered chain complex}
+\taxon{visualization}
+\author{trebor}
+\import{common}
+
+\p{
+  Combining \ref{hmlg-000A} and \ref{hmlg-0014}, we arrive at the following picture. Each family of colors corresponds to the filtration #{F_\bullet C_n} in one dimension, and the different shades corresponds to the degree in the filtration.
+}
+
+\tikz{
+  \tikzset{every path/.style={thick, fill opacity = 0.2, line join = round}}
+  \foreach \depth in {4,3,2,1} {
+    \fill[blue!80!yellow] (-4,4) -- (0,0) -- ({\depth}, 0) -- ({\depth - 4}, 4) -- cycle;
+    \fill[green!80!purple] (0,0) -- (4,4) -- ({\depth + 4}, 4) -- ({\depth}, 0) -- cycle;
+    \fill[yellow!80!red] (4,4) -- (8,0) -- ({\depth + 8}, 0) -- ({\depth + 4}, 4) -- cycle;
+  }
+
+  \foreach \depth in {4,3,2,1} {
+    \draw ({\depth - 5},4) -- ({\depth - 1},0) -- ({\depth}, 0) -- ({\depth - 4}, 4) -- cycle;
+    \draw ({\depth - 1},0) -- ({\depth + 3},4) -- ({\depth + 4}, 4) -- ({\depth}, 0) -- cycle;
+    \draw ({\depth + 3},4) -- ({\depth + 7},0) -- ({\depth + 8}, 0) -- ({\depth + 4}, 4) -- cycle;
+  }
+}
+
+\p{
+  Note that we arranged so that only the higher degree (i.e. the lighter color) components may touch the lower degree components in the next dimension. So the intersection is a triangle shape instead of a complete diamond grid. This corresponds to the requirement that the boundary map sends #{F_i C_j} to #{F_i C_{j+1}}.
+}
+
+\p{
+  We can see the associated spectral sequences directly from the visualization. We start with the graded components, which form strands of chain complexes. Here the second degree is highlighted.
+  \tikz{
+    \tikzset{every path/.style={thick, fill opacity = 0.4, line join = round}}
+    \foreach \depth in {2} {
+      \fill[blue!80!yellow] ({\depth - 5},4) -- ({\depth - 1},0) -- ({\depth}, 0) -- ({\depth - 4}, 4) -- cycle;
+      \fill[green!80!purple] ({\depth - 1},0) -- ({\depth + 3},4) -- ({\depth + 4}, 4) -- ({\depth}, 0) -- cycle;
+      \fill[yellow!80!red] ({\depth + 3},4) -- ({\depth + 7},0) -- ({\depth + 8}, 0) -- ({\depth + 4}, 4) -- cycle;
+    }
+
+    \foreach \depth in {4,3,2,1} {
+      \draw ({\depth - 5},4) -- ({\depth - 1},0) -- ({\depth}, 0) -- ({\depth - 4}, 4) -- cycle;
+      \draw ({\depth - 1},0) -- ({\depth + 3},4) -- ({\depth + 4}, 4) -- ({\depth}, 0) -- cycle;
+      \draw ({\depth + 3},4) -- ({\depth + 7},0) -- ({\depth + 8}, 0) -- ({\depth + 4}, 4) -- cycle;
+    }
+  }
+  The homology chops off the intersections, and so we enter the first page of the spectral sequence, consisting of strands with the top and bottom part cut off. Repeatedly taking homology, we are finally left with the rectangular part in the middle, which is the graded components of the desired homology group of the entire complex.
+}

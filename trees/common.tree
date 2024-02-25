@@ -19,7 +19,8 @@
 \def\tikz[body]{
   \tex{
     \startverb
-    \usepackage{tikz, tikz-cd, mathtools, amssymb, stmaryrd}
+    \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd}
+    \usetikzlibrary{decorations.pathreplacing}
     \stopverb
   }{
     \begin{tikzpicture}\body\end{tikzpicture}
@@ -29,7 +30,7 @@
 \def\tikzcd[body]{
   \tex{
     \startverb
-    \usepackage{tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd}
+    \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd}
     \stopverb
   }{
     \begin{tikzcd}\body\end{tikzcd}
@@ -55,6 +56,6 @@
 \def\surject{#{\twoheadrightarrow}}
 \def\xto[arg]{#{\xrightarrow{\arg}}}
 \def\iso{#{\stackrel{\sim\,}{\to}}}
-
+\def\Reduce{#{\Rightarrow\mkern{-14mu}\Rightarrow}}
 
 \p{This tree defines some commonly imported stuff.}

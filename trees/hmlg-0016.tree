@@ -1,0 +1,11 @@
+\date{2024-02-21}
+\title{chain homotopy}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given two chain complexes #{C_\bullet} and #{D_\bullet} with two [chain maps](hmlg-0008) #{f, g : C \to D} between them, a \strong{chain homotopy} from #{f} to #{g} is given by a family of maps #{h_n : C_n \to D_{n+1}}, such that
+  ##{d_{n+1} \circ h_n + h_{n-1} \circ d_n = f_n - g_n.}
+  Note that the two #{d}'s denote the boundary map of different chain complexes.
+}

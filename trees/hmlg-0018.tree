@@ -1,0 +1,19 @@
+\date{2024-02-21}
+\title{an additive functor is exact iff it preserves quasi-isomorphisms}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  Given an [additive functor](hmlg-000S) #{F : \CatVar{A} \to \CatVar{B}} between [abelian categories](hmlg-000Q), it is [exact](hmlg-000X) iff it sends [quasi-isomorphisms](hmlg-000C) to quasi-isomorphisms.
+}
+
+\proof{
+  \p{
+    Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.
+  }
+
+  \p{
+    On the other hand, [exact functors commute with homology functors](todo). Therefore if #{f : C_\bullet \to D_\bullet} is a quasi-isomorphism, #{H_n (f)} are all isomorphisms. Therefore #{H_n (F(f)) = F(H_n(f))} is the functorial action on an isomorphism, which must also produce an isomorphism.
+  }
+}
