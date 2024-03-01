@@ -5,7 +5,7 @@
 \import{common}
 
 \p{
-  A chain map #{f : C \to D} induces a family of homomorphisms #{f_* : H_n (C) \to H_n (D)} on the homology groups. The identity map induces the identity morphism, and a composition of maps #{f \circ g} induces composition homomorphism #{(f \circ g)_* = f_* \circ g_*}.
+  A chain map #{f : C \to D} induces a family of homomorphisms #{f_* : H_n (C) \to H_n (D)} on the homology groups. The identity map induces the identity morphism, and a composition of maps #{f \compose g} induces composition homomorphism #{(f \compose g)_* = f_* \compose g_*}.
 }
 
 \proof{\p{

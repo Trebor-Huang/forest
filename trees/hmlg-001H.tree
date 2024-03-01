@@ -1,0 +1,44 @@
+\date{2024-02-27}
+\title{characterization of [[hmlg-0017]]}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  The following data are equivalent:
+  \ul{
+    \li{A [[hmlg-0017]] #{\rho : C \Reduce D}.}
+    \li{A splitting #{C \cong D \oplus E}, where #{E} is a [split exact](todo).}
+    \li{A [[hmlg-0016]] #{h : C \to C} satisfying #{h \compose h = 0} and #{h \compose d_C \compose h = h}.}
+  }
+}
+
+\proof{
+  \p{
+    A chain reduction consists of maps #{C_k \mathrel{\smash{\xtofrom[g_k]{f_k}}} D_k} such that #{f_k \compose g_k = \id}. Therefore #{C_\bullet} [splits](todo) as #{D_\bullet \oplus E_\bullet}, and the boundary maps are preserved since #{f, g} are chain maps. We have a homotopy #{h_k : D_k \oplus E_k \to D_{k+1} \oplus E_{k+1}}, which we may write as a #{(2 \times 2)}-matrix. #{f \compose h = 0} demands the first row to be zero, and #{h \compose g = 0} requires the first column to vanish. This leaves us with
+    ##{\begin{bmatrix}
+      0 & 0 \\
+      0 & r_k
+    \end{bmatrix}}
+    such that #{r_{k+1} \compose r_k = 0}, since #{h \compose h = 0}.
+  }
+
+  \p{
+    Substituting the requirement that #{h} is a homotopy #{\id \to g \compose f}, we get the equation ##{d_{k+1} \compose r_k + r_{k-1} \compose d_k = \id,} where #{d} is the boundary operator on #{E_\bullet}. In other words, #{r} is a null-homotopy of #{E_\bullet}, rendering it [split exact](todo). Conversely, given #{C \cong D \oplus E}, we can reconstruct #{f} and #{g} as the projection and inclusion maps, with #{h} obtained out of #{r} in the manner depicted above.
+  }
+
+  \p{
+    On the other hand, given only the homotopy operator, we expect to have #{d \compose h + h \compose d = \id - g \compose f}. And since #{g \compose f} should be the projector of #{C} onto the subspace #{D}, #{\id - g \compose f} should be the projector onto #{E}. We are thus led to proving #{p = d \compose h + h \compose d} is indeed a projector.
+    ##{\begin{aligned}
+      p_k \compose p_k &= (d_{k+1} \compose h_k + h_{k-1} \compose d_k) \compose (d_{k+1} \compose h_k + h_{k-1} \compose d_k) \\
+      &= d_{k+1} \compose \overbrace{h_k \compose d_{k+1} \compose h_k}^{h_k} + d_{k+1} \compose \overbrace{h_k \compose h_{k-1}}^{0} \compose d_k \\
+      &\qquad + h_{k-1} \compose \underbrace{d_k \compose d_{k+1}}_{0} \compose h_k + \underbrace{h_{k-1} \compose d_k \compose h_{k-1}}_{h_{k-1}} \compose d_k \\
+      &= d_{k+1} \compose h_k + h_{k-1} \compose d_k = p_k.
+    \end{aligned}}
+    Therefore we conclude that #{p_k} splits #{C_k \cong D_k \oplus E_k}. More over, #{p \compose d = d \compose h \compose d = d \compose p}, meaning #{p} is a chain map, and therefore the splitting is compatible with the boundary operator. Since #{h \compose p = p \compose h = h \compose d \compose h = h}, the homotopy is also compatible with the splitting, so we can restrict it onto #{E_k} to get a homotopy from #{\id_E} to #{0}.
+  }
+
+  \p{
+    Finally, restricting #{h} onto #{D_k} we see that it must be zero, since #{h(\id - p) = h - h \compose d \compose h = 0}. This means that all the information of #{h} can be reconstructed from the splitting, and thus all three sets of data are equivalent.
+  }
+}

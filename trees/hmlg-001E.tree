@@ -1,0 +1,15 @@
+\date{2024-02-26}
+\title{[perturbation](hmlg-001C) of the smaller chain complex in a [[hmlg-0017]]}
+\taxon{construction}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a reduction #{\rho : C \Reduce D} and a perturbation #{\delta_D} for #{D}, we can construct a perturbation #{\delta_C} for #{C}, such that the same #{\rho} can serve as a reduction of the perturbed chain complexes.
+}
+
+\proof{
+  \p{
+    Let the reduction #{\rho} be made out of the three maps #{\ReduceProj{\rho} : C \to D}, #{\ReduceIncl{\rho} : D \to C} and #{\ReduceHomo{\rho} : C \to C}. Then since #{C} splits as the direct sum of #{D} and an [acyclic](hmlg-000D) complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition #{\delta_C = \ReduceIncl{\rho} \compose \delta_D \compose \ReduceProj{\rho}}. A quick computation shows that #{\rho} is still a reduction of the perturbed chain complexes.
+  }
+}

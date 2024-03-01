@@ -5,5 +5,9 @@
 \import{common}
 
 \p{
-  An \strong{algebraic cellular complex} is a [chain complex](hmlg-0002) of free abelian groups, with designated generators. The generators are called \strong{cells}, and the boundary maps can be expressed using the generators as a basis, yielding the \strong{incidence matrices}.
+  An \strong{algebraic cellular complex} (or ACC) is a [chain complex](hmlg-0002) of free abelian groups, with designated generators. The generators are called \strong{cells}, and the boundary maps can be expressed using the generators as a basis, yielding the \strong{incidence matrices}.
+}
+
+\p{
+  More precisely, we may define an ACC as a sequence of sets #{C_\bullet}, with a sequence of functions #{C_k \to \mathbb{Z}^{(C_{k-1})}}, such that #{d^2 = 0} is satisfied.
 }

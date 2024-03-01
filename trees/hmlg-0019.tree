@@ -5,12 +5,11 @@
 \import{common}
 
 \p{
-  For a [chain reduction](hmlg-0017) #{C \Reduce D}, #{D} is embedded as a subcomplex of #{C}. It is cleanly separated, indicating that it is [split](todo). % TODO: visualization for split
-  The other part of #{C} is acyclic, and so its homology component is drawn as empty.
+  For a [chain reduction](hmlg-0017) #{C \Reduce D}, #{D} is embedded as a subcomplex of #{C}. It is cleanly separated, indicating that [it is split](hmlg-001H). The other part of #{C} is [split exact](todo), and so its homology component is drawn as empty, with the components separated.
 }
 
 \tikz{
-  \startverb
+  \startverb%tex
   \begin{scope}
     \clip (-1.9, -1.4) rectangle (5.9, 1.7);
     \tikzset{every path/.style={thick}}

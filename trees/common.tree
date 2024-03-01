@@ -45,6 +45,7 @@
 \def\coim{#{\operatorname{coim}}}
 \def\coker{#{\operatorname{coker}}}
 \def\pair[content]{#{\left\langle \content \right\rangle}}
+\def\compose{#{\circ}}
 
 \def\ModL[ring]{#{\ring\text{-}\Cat{Mod}}}
 \def\ModR[ring]{#{\Cat{Mod}\text{-}\ring}}
@@ -56,6 +57,10 @@
 \def\surject{#{\twoheadrightarrow}}
 \def\xto[arg]{#{\xrightarrow{\arg}}}
 \def\iso{#{\stackrel{\sim\,}{\to}}}
+
 \def\Reduce{#{\Rightarrow\mkern{-14mu}\Rightarrow}}
+\def\ReduceProj[red]{#{\pi_{\red}}}
+\def\ReduceIncl[red]{#{\iota_{\red}}}
+\def\ReduceHomo[red]{#{h_{\red}}}
 
 \p{This tree defines some commonly imported stuff.}

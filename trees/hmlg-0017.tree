@@ -5,5 +5,9 @@
 \import{common}
 
 \p{
-  Given two chain complexes #{C, D}, a \strong{chain reduction} consists of a chain map #{f : C \to D}, a chain map #{g : D \to C} and a [chain homotopy](hmlg-0016) #{h : \id \to g \circ f}, such that #{f \circ g = \id}, and ##{f \circ h = h \circ g = h \circ h = 0.} Here the compositions are understood to have the appropriate subscript so the degrees match. We write the reduction as #{C \Reduce D}.
+  Given two chain complexes #{C, D}, a \strong{chain reduction} consists of a chain map #{\pi : C \to D}, a chain map #{\iota : D \to C} and a [chain homotopy](hmlg-0016) #{h : \id \to g \compose f}, such that #{\pi \compose \iota = \id}, and ##{\pi \compose h = h \compose \iota = h \compose h = 0.} Here the compositions are understood to have the appropriate subscript so the degrees match.
+}
+
+\p{
+  We write the reduction as #{\rho : C \Reduce D}. The three components are denoted #{\ReduceProj{\rho} : C \to D}, #{\ReduceIncl{\rho} : D \to C} and #{\ReduceHomo{\rho} : C \to C}, respectively.
 }
