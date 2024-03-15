@@ -1,0 +1,10 @@
+\date{2024-03-06}
+\title{filter-quotient of #{\Cat{Set}}}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Consider a set #{N} equipped with an filter. We can construct a new category whose objects are families of sets #{X_i}, where #{i} only ranges over a large subset of #{N}. The morphisms are families of maps #{f_i : X_i \to Y_i}. If two maps agree on a large common subset of #{N}, they are considered equal. This category is called the \strong{filter-quotient}. The set families can also be expressed as bundles, which is more natural in some situations.
+}
+

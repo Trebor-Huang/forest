@@ -1,0 +1,23 @@
+\date{2024-03-07}
+\title{morphism of locally ringed spaces}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given two [locally ringed spaces](algm-000L), a [[algm-000S]] #{\varphi} between them is \strong{local} when sections of #{\varphi^{-1}\sheaf{O}_Y} are invertible iff their images in #{\sheaf{O}_X} are invertible, i.e. the following diagram is a pullback:
+}
+
+\tikzcd{
+  {\varphi^{-1}\sheaf{O}_Y^\times} & {\sheaf{O}_X^\times} \\
+  {\varphi^{-1}\sheaf{O}_Y} & {\sheaf{O}_X}
+  \arrow[hook, from=1-1, to=2-1]
+  \arrow[hook, from=1-2, to=2-2]
+  \arrow[from=1-1, to=1-2]
+  \arrow[from=2-1, to=2-2]
+  \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+}
+
+\p{
+  Note that the [[algm-000T]] is given by a finite limit, hence #{\varphi^{-1}} preserves it. Since the lower map map #{\varphi^{-1} \sheaf{O}_Y \to \sheaf{O}_X} is a ring homomorphism on the sections, it maps units to units. Hence restriction to the upper map makes sense.
+}

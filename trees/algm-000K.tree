@@ -1,0 +1,9 @@
+\date{2024-03-05}
+\title{sheaf and stalk from #{R}-modules}
+\taxon{remark}
+\author{trebor}
+\import{common}
+
+\p{
+  The proofs in \ref{algm-000I} and \ref{algm-000J} do not make use of the multiplication on the numerators. Therefore they immediately generalizes to modules. In particular, we have a sheaf corresponding to an #{R}-module #{M}, whose sections over #{D(f)} form the #{R[f^{-1}]}-module #{M[f^{-1}]}. The stalk on #{\point{p}} is isomorphic to #{M_{\point{p}}}.
+}

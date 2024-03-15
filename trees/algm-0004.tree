@@ -1,0 +1,15 @@
+\date{2024-03-03}
+\title{distinguished opens of #{\Spec(R)}}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  We define a basis of opens on [#{\Spec(R)}](algm-0001) by #{D(f)} for every element #{f \in R}. These are called \strong{distinguished opens}.
+}
+
+\proof{
+  \p{
+    We claim that ##{D(\ideal{a}) = \bigcup_{\ideal{a} \mid f} D(f).} Alternatively, #{V(\ideal{a}) = \bigcap_{\ideal{a} \mid f} V(f)}. Since #{\ideal{a} \mid f} implies #{V(\ideal{a}) \subseteq V(f)}, we have the forward inclusion. For the backwards inclusion, suppose #{\point{p} \notin V(\ideal{a})}, i.e. #{\ideal{p} \nmid \ideal{a}}, then by definition there is an element #{\ideal{a} \mid f} such that #{\ideal{p} \nmid f}, meaning that #{\point{p} \notin V(f)}.
+  }
+}

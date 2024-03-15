@@ -1,0 +1,21 @@
+\date{2024-03-02}
+\title{radical ideals bijectively correspond to open sets}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  In an arbitrary [[algm-0001]], we have #{D(\ideal{a}) = D(\sqrt{\ideal{a}})}. There is a containment of opens #{D(\ideal{a}) \subseteq D(\ideal{b})} — equivalently #{V(\ideal{b}) \subseteq V(\ideal{a})} — iff #{\sqrt{\ideal{b}} \mid \sqrt{\ideal{a}}}, and the points contained in an open set completely determines the radical ideal.
+}
+
+\proof{
+  \p{
+    Since #{\ideal{p} \mid \ideal{a}} implies #{\sqrt{\ideal{p}} \mid \sqrt{\ideal{a}}}, but #{\ideal{p} = \sqrt{\ideal{p}}}, we see that #{D(\ideal{a}) = D(\sqrt{\ideal{a}})}. We just have to prove the forward implication of the last statement. Suppose for all prime ideals #{\ideal{p}} we have #{\ideal{p} \mid \ideal{b} \implies \ideal{p} \mid \ideal{a}}. We need to prove that #{\sqrt{\ideal{a}} \mid f \implies \sqrt{\ideal{b}} \mid f}.
+  }
+
+  \p{
+    Given #{\sqrt{\ideal{a}} \mid f}, we have #{\ideal{p} \mid f} for all prime ideals #{\ideal{p} \mid \sqrt{\ideal{a}}} (which is equivalent to #{\ideal{p} \mid \ideal{a}}). So we know that for all #{\ideal{p} \mid \ideal{b}}, #{\ideal{p} \mid f}. This is now purely a condition on #{\ideal{b}}. The next lemma finishes the proof.
+  }
+
+  \transclude{algm-0003}
+}

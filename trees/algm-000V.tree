@@ -1,0 +1,17 @@
+\date{2024-03-08}
+\title{terminology of pullbacks}
+\taxon{remark}
+\author{trebor}
+\import{common}
+
+\p{
+  In general, a pullback is any contravariant functorial action. In other words, we have a functor #{F : \CatVar{C}^\op \to \CatVar{D}}, and pulling back along a morphism #{f} in #{\CatVar{C}} means the action of #{F(f)}.
+}
+
+\p{
+  In differential geometry, we have a set of #{k}-forms #{\Omega^k(M)}, which forms a functor #{\Cat{Mfd}^\op \to \Cat{Set}}. Pullbacks of differential forms is then the functorial action. In the special case of #{k = 0}, this corresponds to composition, which is sometimes also referred to as pullbacks.
+}
+
+\p{
+  The categorical pullback can also be construed as a contravariant action, which forms the functor from #{\CatVar{C}^\op} to the #{2}-category #{\Cat{Cat}} given by taking slices.
+}

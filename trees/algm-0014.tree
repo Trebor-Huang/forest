@@ -1,0 +1,21 @@
+\date{2024-03-12}
+\title{adjunction of global section and #{\Spec}}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  We have an adjunction of functors ##{\Cat{CRing}^\op \xtofrom[\section(\top, \sheaf{O}_{(-)})]{\Spec} \Cat{Sch},} with #{\Spec} being the right adjoint (or #{\Spec : \Cat{CRing} \to \Cat{Sch}^\op} being the left adjoint). In fact, we can replace #{\Cat{Sch}} with the category of [locally ringed spaces](algm-000L) #{\Cat{LRS}}, of whom #{\Cat{Sch}} is a full subcategory.
+}
+
+\proof{
+  \p{
+    We need to give a natural bijection
+    ##{\hom(X, \Spec(R)) \cong \hom(R, \section(\top, \sheaf{O}_X)).}
+    In other words, maps #{X \to \Spec(R)} between locally ringed spaces are uniquely specified by the action of global sections.
+  }
+
+  \p{
+    Since #{X} is glued from affine open subschemes, a map from #{X} is equivalent to a map from each open subscheme #{\Spec(S_i)} that agree on common restrictions (which again can be checked on an affine covering). Since the codomain is affine, these maps are equivalently ring homomorphisms #{R \to S_i} by \ref{algm-000X}. The elements of #{\section(\top, \sheaf{O}_X)} are also given by a set of compatible elements from #{S_i}. Hence these two sets are naturally bijective.
+  }
+}

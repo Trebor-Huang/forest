@@ -1,0 +1,19 @@
+\date{2024-03-05}
+\title{stalks of locally ringed topological space}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [ringed](algm-000M) topological space, it is [locally ringed](algm-000L) iff every stalk is a local ring.
+}
+
+\proof{
+  \p{
+    Recall the axiom for a local ring: if any sum is invertible, then one of the summand is invertible. When applied to the direct limit in each stalk, this immediately expands to the definition of a locally ringed space.
+  }
+
+  \p{
+    In particular, a crucial property is used in the reverse implication, i.e. if one open contains all the points of another, then the former covers the latter. This is equivalent to the condition of having enough points.
+  }
+}

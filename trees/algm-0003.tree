@@ -1,0 +1,19 @@
+\date{2024-03-03}
+\title{the radical ideal is the lcm of prime ideal divisors}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  For any ideal #{\ideal{a}} of a commutative ring, the radical #{\sqrt{\ideal{a}}} is the lowest common multiple of the prime ideals #{\ideal{p} \mid \ideal{a}}.
+}
+
+\proof{
+  \p{
+    On one hand, if #{\sqrt{\ideal{a}} \mid f}, then #{\ideal{a} \mid f^n} for some natural number #{n}. This means for all #{\ideal{p} \mid \ideal{a}}, we have #{\ideal{p} \mid f^n}, which by being a prime ideal implies #{\ideal{p} \mid f}.
+  }
+
+  \p{
+    On the other hand, suppose #{\ideal{a} \nmid f^n} for any #{n}, we construct a prime ideal divisor of #{\ideal{a}} that is not a divisor of #{f}. Consider the set of all ideals not a divisor of #{f^n} for any #{n}. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor #{\ideal{d}} still in this set, since #{\ideal{d}} divides exactly the elements divided by some ideal in the chain. By [Zorn's lemma](https://en.wikipedia.org/wiki/Zorn\%27s_lemma), the set contains some #{\ideal{q}} not divided by any other ideal in the set. This ideal must be prime: take #{\ideal{q} \nmid x, y} such that #{\ideal{q} \mid x y}, then #{\ideal{q}' = \gcd(\ideal{q}, x y)} is a proper divisor of #{\ideal{q}}, and by construction it cannot be in the previously constructed set. Hence there is some #{n} such that #{x y \mid f^n}, so #{\ideal{q} \mid x y \mid f^n}, contradiction.
+  }
+}

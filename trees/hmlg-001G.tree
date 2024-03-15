@@ -18,7 +18,7 @@
   }
 
   \p{
-    We need to construct a new homotopy operator such that #{h' \compose h' = 0} and #{h' \compose (d_C + \delta_C) \compose h' = h'}. We approach this through a “perturbative” mindset. Starting with #{h_0 = h}, the second equation is off by a difference of #{h_0 \delta_C h_0}. We simply add this as a correction term, #{h_1 = h_0 + \alpha h_0 \delta_C h_0} where #{\alpha} is some coefficient. We still have #{h_1 \compose h_1 = 0}, and for the second equation this creates a new error term
+    We need to construct a new homotopy operator such that #{h' \compose h' = 0} and #{h' \compose (d_C + \delta_C) \compose h' = h'}. We approach this through a “perturbative” mindset. Starting with #{h_0 = h}, the second equation is off by a difference of #{h_0 \delta_C h_0}. We simply add this as a correction term, #{h_1 = h_0 + \alpha h_0 \delta_C h_0} where #{\alpha} is some coefficient. (Note that essentially the only terms we can consider are of the form #{h_0 \delta_C h_0 \delta_C \cdots h_0}, since nothing else has the same type.) We still have #{h_1 \compose h_1 = 0}, and for the second equation this creates a new error term
     ##{\begin{aligned}
       &\quad h_1 (d_C + \delta_C) h_1 - h_1 \\
       &= (1 + \alpha) h_0 \delta_C h_0 + 2 (\alpha + \alpha^2) h_0 \delta_C h_0 \delta_C h_0 + \alpha^2 h_0 \delta_C h_0 \delta_C h_0 \delta_C h_0
@@ -29,7 +29,7 @@
   \p{
     From the informal discussion above, we can conjecture the formula
     ##{h' = \sum_{k=0}^\infty (-1)^k (h \delta_C)^k h.}
-    This reveals the reason for our pointwise nilpotency condition. (On the other hand, we may also motivate this through [geometrical means](todo).) With a little bit of care manipulating the infinite sum, we can prove that #{h' \compose h' = 0} from #{h \compose h = 0}, and the second equation follows from a nice telescopic sum
+    This reveals the reason for our pointwise nilpotency condition. With a little bit of care manipulating the infinite sum, we can prove that #{h' \compose h' = 0} from #{h \compose h = 0}, and the second equation follows from a nice telescopic sum
     ##{\begin{aligned}
       h' \compose (d_C + \delta_C) \compose h'
       &= \sum_{i, j} (-1)^{i + j} (h \delta_C)^i h (d_C + \delta_C) (h \delta_C)^j h \\

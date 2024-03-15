@@ -1,0 +1,9 @@
+\date{2024-03-06}
+\title{morphism of ringed spaces}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given two [ringed spaces](algm-000M) #{X, Y}, a morphism #{\varphi : X \to Y} is given by a continuous map of the underlying spaces, and a sheaf morphism #{\varphi^{-1} \sheaf{O}_Y \to \sheaf{O}_X}, equivalently #{\sheaf{O}_Y \to \varphi_* \sheaf{O}_X}.
+}

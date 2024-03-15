@@ -1,0 +1,9 @@
+\date{2024-03-12}
+\title{projective spectrum of a graded ring}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a #{\mathbb N}-graded ring #{S_\bullet}, we construct a locale analogous to [the #{\Spec} construction](algm-0007) for affine schemes. We start with symbols of \strong{distinguished opens} #{D_+ (f)} for each positively graded element #{f}, and impose the same relations: #{D_+} sends finite products to finite intersections, and for elements of the same grade, #{D_+ (\sum_i f_i) \subseteq \bigcup_i D_+(f_i)}.
+}

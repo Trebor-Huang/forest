@@ -1,0 +1,23 @@
+\date{2024-03-03}
+\title{#{\Spec{R}} is disconnected iff #{R} is a product of non-zero rings}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a commutative ring #{R}, #{\Spec{R}} is disconnected iff #{R \cong R_1 \times R_2}, where #{R_1, R_2} are non-zero commutative rings.
+}
+
+\proof{
+  \p{
+    In one direction, if #{\Spec{R}} is disconnected, we have two opens #{D(\ideal{a})} and #{D(\ideal{b})} whose intersection is empty and union is the entire space. In other words radical ideals #{\ideal{a}, \ideal{b}} such that #{\sqrt{\gcd(\ideal{a}, \ideal{b})} = 1} (equivalent to #{\gcd(\ideal{a}, \ideal{b}) = 1}) and #{\lcm(\ideal{a}, \ideal{b}) = 0}. We have #{\ideal{a} \mid a} and #{\ideal{b} \mid b} such that #{a + b = 1}. But #{\lcm(\ideal{a}, \ideal{b}) \mid a b}, therefore #{a b = 0}. This implies #{a(1-a) = 0}, or #{a^2 = a}. The same goes for #{b}.
+  }
+
+  \p{
+    Let #{R_1} be the subset of #{R} consisting of multiples of #{a}. It contains an identity #{a}, since #{a \cdot a x = a x} by idempotence. Hence this subset forms a ring with the same addition and multiplication but a different identity. The same goes for #{R_2}, the multiples of #{b}. There is an obvious map #{R_1 \times R_2 \to R}, given by #{(ax, by) \mapsto ax + by}. This is an injection since #{z \mapsto a z} recovers the first argument, and #{z \mapsto b z} recovers the second. It is also a surjection because #{z = a z + b z} is the image of #{(az, bz)}. Hence we found an isomorphism.
+  }
+
+  \p{
+    In the other direction, suppose #{R \cong R_1 \times R_2}, then #{D((1,0))} and #{D((0,1))} separates the spectrum into two disjoint parts.
+  }
+}

@@ -1,0 +1,13 @@
+\date{2024-03-12}
+\title{graded ring}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  A D-\strong{graded ring} is a sequence of abelian groups #{R_d}, where #{d \in D} are elements of a commutative monoid called the \strong{grading}. We have a bilinear multiplication map ##{R_p \otimes R_q \to R_{p+q}} and a identity element #{1 \in R_0} satisfying the associativity and identity laws.
+}
+
+\p{
+  Usually, the grading is one of #{\mathbb Z} or #{\mathbb N}. A \strong{bigraded ring} is graded over #{D^2} instead of #{D}, whatever the context implies the grading is.
+}

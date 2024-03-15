@@ -1,0 +1,13 @@
+\date{2024-03-07}
+\title{subsheaf of units}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a sheaf #{\sheaf{O}} of rings, we can define a subsheaf #{\sheaf{O}^\times} consisting of the invertible elements, i.e. #{\section(U, \sheaf{O}^\times) = \section(U, \sheaf{O})^\times}. This is the \strong{subsheaf of units}.
+}
+
+\p{
+  This can be equivalently expressed as a pullback of #{\sheaf{O} \times \sheaf{O} \xto{(f,g) \mapsto f g} \sheaf{O}} and #{1 \xto{1} \sheaf{O}}.
+}

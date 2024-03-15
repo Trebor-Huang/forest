@@ -1,0 +1,31 @@
+\date{2024-03-12}
+\title{points of the projective spectrum}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  The points of the [projective scheme](algm-000Y) #{\Proj(S)} are given by prime ideals not dividing the [[algm-0013]] #{\irr}. This is in bijection with ideals with #{\ideal{p}_0 = 0} (equivalently #{\irr \nmid \ideal{p}}), and the condition for prime ideals holds for positively graded elements, i.e. ##{\ideal{p} \mid x y \iff (\ideal{p} \mid x \lor \ideal{p} \mid y)} for positively graded #{x} and #{y}.
+}
+
+\proof{
+  \p{
+    To specify a point #{P}, we need to specify which opens #{D_+(f)} it belongs to, where #{f} ranges over positively graded elements. Equivalently, we specify the closeds #{V_+(f)}. Since #{V_+(f) \cap V_+(g) \subseteq V_+(f + g)}, if #{P \in V_+(f)} and #{P \in V_+(g)} then #{P \in V_+(f + g)}. Similarly since #{V_+(f) \subseteq V_+(f g)}, #{P \in V_+(f)} implies #{P \in V_+(f g)}. Collecting all the elements whose distinguished closed contains #{P}, we get an ideal #{\ideal{a}} whose zeroth degree vanishes.
+  }
+
+  \p{
+    We have #{V_+(f g) = V_+(f) \cup V_+(g)}, so if #{\ideal{a} \mid f g}, then either #{\ideal{a} \mid f} or #{\ideal{a} \mid g}. This is almost the condition for prime ideals, but recall that #{f} and #{g} must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with \ref{algm-0011}.
+  }
+
+  \p{
+    Next, we prove these ideals are in bijection with prime ideals not dividing #{\irr}. One direction of the correspondence is obvious: we take a prime ideal #{\ideal{p}} and remove the zeroth degree, which amounts to taking #{\lcm(\ideal{p}, \irr)}.
+  }
+
+  \p{
+    We prove injectivity. Suppose primes #{\ideal{p}} and #{\ideal{q}} satisfy #{\lcm(\ideal{p}, \irr) = \lcm(\ideal{q}, \irr)}, then #{\ideal{p} \mid \lcm(\ideal{q}, \irr) \mid \ideal{q} \cdot \irr}, so either #{\ideal{p} \mid \irr} which is forbidden, or #{\ideal{p} \mid \ideal{q}}. Conversely we must have #{\ideal{q} \mid \ideal{p}}, hence #{\ideal{p} = \ideal{q}}.
+  }
+
+  \p{
+    We prove surjectivity. Given an ideal #{\ideal{a}}, we need to supplement it with a zeroth degree component #{\ideal{a}_0} so that together they make a prime ideal not divided by #{\irr}. We define #{\ideal{a}_0 \mid c} iff there exists some positively graded #{\ideal{a} \nmid f} such that #{\ideal{a} \mid cf}. The verification is routine element chasing.
+  }
+}

@@ -1,0 +1,15 @@
+\date{2024-03-05}
+\title{stalk of the structure sheaf on #{\Spec(R)}}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a point #{\point{p} \in \Spec(R)}, the stalk at the point is the localization #{R_{\ideal{p}}}. In particular, the ring spectrum is a [[algm-000L]] by \ref{algm-000N}.
+}
+
+\proof{
+  \p{
+    We take a directed limit. The elements are from some #{R[f^{-1}]} with #{\ideal{p} \nmid f}, i.e. the elements can be written as #{g/f^n}. Two elements are equal iff their common restriction to some #{D(f)} is equal, i.e. #{g_1/f_1^n = g_2/f_2^m} iff #{(g_1 f_2^m - g_2 f_1^n) f^k = 0}. These are exactly the definition of the localization away from #{\ideal{p}}.
+  }
+}

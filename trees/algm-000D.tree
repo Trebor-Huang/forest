@@ -1,0 +1,21 @@
+\date{2024-03-03}
+\title{a closed in a noetherian space is uniquely a finite union of irreducible closeds}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  If #{X} is a [[algm-000C]], then a closed #{Z \subseteq X} can be written uniquely as the union of finitely many irreducible closeds.
+}
+
+\proof{
+  \p{
+    We first deal with existence. By noetherianness, we perform well-founded induction. Suppose all the closed subsets of #{Z} can be written as a finite union. If #{Z} is irreducible then we're done. Otherwise #{Z = Z_1 \cup Z_2} is a non-trivial union of two closeds. By the induction hypothesis #{Z_1} and #{Z_2} can be written as a finite union of irreducible closeds, which we can combine to get the desired union.
+  }
+
+  \p{
+    We then prove uniqueness. Suppose
+    ##{Z_1 \cup \cdots \cup Z_n = Z'_1 \cup \cdots \cup Z'_m.}
+    Consider the intersection with #{Z_1}. The left hand side collapses to #{Z_1}. The right hand side becomes #{\bigcup_{i=1}^m (Z'_i \cap Z_1)}. Since #{Z_1} is irreducible, #{Z'_i \cap Z_1} must be either #{Z_1} or empty. In the former case, since #{Z'_i} is also irreducible, #{Z'_i = Z_1}. Therefore each #{Z_j} appears in the right hand side, and vice versa. Therefore the two sides are the same up to reordering and repetition.
+  }
+}

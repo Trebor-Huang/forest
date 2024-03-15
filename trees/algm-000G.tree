@@ -1,0 +1,8 @@
+\date{2024-03-04}
+\title{noetherian rings and [noetherian spaces](algm-000C)}
+\author{trebor}
+\import{common}
+
+\p{
+  The [spectrum](algm-0001) of a noetherian ring is always noetherian: the closeds corresponds to radical ideals. The converse does not hold. Consider a polynomial ring with infinitely many indeterminates #{x_1, x_2, \dots} quotiented by the relations #{x_k^k = 0}. [The ideals in the quotient ring](algm-000E) correspond to ideals in the polynomial ring dividing #{x_k^k} for every #{k}. So there are only two radical ideals: the trivial one, and the one that divides all indeterminates, but not constants. Hence the spectrum must be a noetherian space, but the ring is obviously not noetherian since it is not finitely generated itself.
+}

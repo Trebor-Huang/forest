@@ -1,0 +1,12 @@
+\date{2024-03-03}
+\title{rational functions not definable via a single expression}
+\author{trebor}
+\import{common}
+
+\p{
+  We can sometimes define two functions that agree on their common domain, which suggests we should be able to piece them together into a larger function. But this may not always be expressible with one single expression.
+}
+
+\p{
+  For example, on the space given by #{xy = zw}, we can define a funtion given by #{x/w}, which is equal to #{z/y}. They are only jointly undefined on #{w = z = 0}, but there is no single expression that achieves this.
+}

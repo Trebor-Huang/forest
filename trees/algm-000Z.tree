@@ -1,0 +1,27 @@
+\date{2024-03-12}
+\title{geometry of graded rings}
+\taxon{intuition}
+\author{trebor}
+\import{common}
+
+\p{
+  To define projective spaces, we start with an affine space, and restricts ourselves to regions invariant under dilation — or using the language of points, we consider lines through the origin as points. Hence we need to define how an element of a ring (which is geometrically a function on the affine space) behaves under dilation.
+}
+
+\p{
+  In polynomial rings, for example, the polynomial #{x^2 + 2y + 7} becomes #{\lambda^2 x^2 + 2 \lambda y + 7} under a dilation by #{\lambda}. Note how each term can be classified by the power of #{\lambda} it obtains. Hence, what we need is a \strong{grading} on the ring, which partitions #{R = \bigoplus_d R_d} (as abelian groups). #{R_d} is intuitively the elements that get the factor #{\lambda^d} upon dilation. The multiplication of a degree #{p} element with a degree #{q} element should produce a degree #{(p+q)} element, since #{\lambda^p \lambda^q = \lambda^{p+q}}.
+}
+
+\transclude{hmlg-001L}
+
+\p{
+  The opens of a projective space should come from the non-vanishing region of a homogeneous function, i.e. elements with a single degree. This ensures that dilation doesn't change the opens. However, we would have multiple ways to represent the entire space: in a two-dimensional affine space, #{D(x) \cup D(y)} and #{D(1)} are both invariant under dilation, but the former excludes the origin, while the latter does not. In a projective setting, we don't care about the origin at all, and considering that all homogeneous polynomials of positive degree vanish at the origin, we should make that mandatory. Hence, we only consider the opens corresponding to positively graded elements, which we write as #{D_+ (f)}. We can construct a space similar to the [[algm-0007]].
+}
+
+\transclude{algm-000Y}
+
+\p{
+  As for the structure sheaf, we need to decide what the sections over #{D_+ (f)} are. They should be functions defined on the affine space #{D(f) \subseteq \Spec(S)}, but invariant under dilation. Note that it is stronger than requiring vanishing region be invariant. We actually need the grade #{0} elements here. Recalling from [[algm-000I]] that #{\section(D(f), \sheaf{O}_{\Spec(S)}) = S[f^{-1}]} (which can be given a canonical grading since #{f} is a graded element), we can make the following definition.
+}
+
+\transclude{algm-0010}

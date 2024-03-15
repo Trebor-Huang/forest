@@ -19,7 +19,7 @@
 \def\tikz[body]{
   \tex{
     \startverb
-    \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd}
+    \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
     \usetikzlibrary{decorations.pathreplacing}
     \stopverb
   }{
@@ -30,7 +30,7 @@
 \def\tikzcd[body]{
   \tex{
     \startverb
-    \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd}
+    \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
     \stopverb
   }{
     \begin{tikzcd}\body\end{tikzcd}
@@ -40,17 +40,27 @@
 % ===== Mathematical macros
 \def\Cat[name]{#{\mathsf{\name}}}
 \def\CatVar[name]{#{\mathcal{\name}}}
-\def\id{#{\textrm{id}}}
+\def\op{#{\textrm{op}}}
+\def\id{#{\operatorname{id}}}
+\def\pair[content]{#{\left\langle \content \right\rangle}}
+\def\compose{#{\circ}}
+
+% Algebra
+\def\lcm{#{\operatorname{lcm}}}
 \def\im{#{\operatorname{im}}}
 \def\coim{#{\operatorname{coim}}}
 \def\coker{#{\operatorname{coker}}}
-\def\pair[content]{#{\left\langle \content \right\rangle}}
-\def\compose{#{\circ}}
+\def\Spec{#{\operatorname{Spec}}}
+\def\Proj{#{\operatorname{Proj}}}
+\def\ideal[name]{#{\mathfrak{\name}}}
+\def\point[name]{#{\left[\ideal{\name}\right]}}
+\def\irr{#{\mathord{\odot}}}
 
 \def\ModL[ring]{#{\ring\text{-}\Cat{Mod}}}
 \def\ModR[ring]{#{\Cat{Mod}\text{-}\ring}}
 \def\Mod[left][right]{#{\left\text{-}\Cat{Mod}\text{-}\right}}
 \def\Tot{#{\textrm{Tot}}}
+
 % Arrows
 \def\inject{#{\rightarrowtail}}
 \def\include{#{\hookrightarrow}}
@@ -59,8 +69,16 @@
 \def\iso{#{\stackrel{\sim\,}{\to}}}
 
 \def\Reduce{#{\Rightarrow\mkern{-14mu}\Rightarrow}}
+\def\xReduce[r]{#{\xRightarrow{\r}\mkern{-14mu}\Rightarrow}}
 \def\ReduceProj[red]{#{\pi_{\red}}}
 \def\ReduceIncl[red]{#{\iota_{\red}}}
 \def\ReduceHomo[red]{#{h_{\red}}}
+
+\def\SEquiv{#{\Leftarrow \mkern{-13mu} \Leftrightarrow \mkern{-13mu} \Rightarrow}}
+\def\xSEquiv[r]{#{\Leftarrow \mkern{-13mu} \xLeftrightarrow{\r} \mkern{-13mu} \Rightarrow}}
+
+% Geometry
+\def\sheaf[name]{#{\mathscr{\name}}}
+\def\section{#{\Gamma}}
 
 \p{This tree defines some commonly imported stuff.}

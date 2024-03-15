@@ -1,0 +1,22 @@
+\date{2024-03-03}
+\title{localic spectrum of a commutative ring}
+\author{trebor}
+\import{common}
+
+\p{
+  To define functions on an “algebraic space”, we need to define the possible domains. The correct structure formed by the domains is a locale. Intuitively, the only algebraic way for a function to become partially defined is by having zero in the denominator #{f/g}, so the domain should be the non-vanishing part of #{g}, which we denote as #{D(g)}.
+}
+
+\transclude{algm-0006}
+
+\p{
+  Recognizing this, we can try to freely generate a locale using #{D(g)} as generators. We would like some obvious relations corresponding to each algebraic operation in the ring.
+}
+
+\transclude{algm-0007}
+
+\p{
+  We can actually produce a characterization of these generated opens. The following theorem is best read by skipping the statement and jump right into the proof, allowing the correct statement to gradually reveal itself.
+}
+
+\transclude{algm-0008}

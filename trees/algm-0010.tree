@@ -1,0 +1,15 @@
+\date{2024-03-12}
+\title{structure sheaf of #{\Proj(S)}}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Fix a [[hmlg-001L]] #{S}. For a positively graded element #{f}, we have a graded ring localization #{S[f^{-1}]_\bullet}. Let #{\section(D_+(f), \sheaf{O})} be the zeroth degree component #{S[f^{-1}]_0}. This defines a sheaf over the [projective spectrum](algm-000Y), and moreover gives a [[algm-000R]] #{\Proj(S)}.
+}
+
+\proof{
+  \p{
+    We claim that #{\Proj(S)} can alternatively be given by gluing affine schemes. We assign #{D_+ (f)} the affine scheme #{\Spec(S[f^{-1}]_0)} (which is possible because the open subspace #{D_+ (f)} is homeomorphic to #{\Spec(S[f^{-1}]_0)} as a space). Given two positively graded elements #{f} and #{g}, we have an isomorphism between #{\Proj(S)} restricted to #{D_+ (f g)} and #{\Spec(S[f^{-1}]_0)} restricted to #{D(g^{\deg f}/f^{\deg g})}, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.
+  }
+}

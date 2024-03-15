@@ -1,0 +1,38 @@
+\date{2024-03-08}
+\title{morphisms of affine schemes}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  [Morphism](algm-000U) of [affine schemes](algm-000Q) are in natural bijection with ring homomorphisms in the opposite direction. In other words, there is a fully faithful embedding #{\Cat{CRing}^\op \to \Cat{Sch}}.
+}
+
+\proof{
+  \p{
+    Given two rings #{R}, #{S}, a ring homomorphism #{\varphi : S \to R} naturally induces a map of radical ideals #{\ideal{r} \mapsto \varphi^{-1}(\ideal{r})}. This is a continuous map #{\Spec(R) \to \Spec(S)}, because #{\varphi^{-1}} preserves #{\lcm} and #{\gcd}. For the structure sheaf, we can use the [distinguished basis](algm-0004), thus we need to supply a ring homomorphism #{\section(D(s), \sheaf{O}_{\Spec(S)}) \to \section(D(r), \sheaf{O}_{\Spec(R)})} whenever #{D(s) \subseteq \varphi^{-1}D(r)}. This is just a homomorphism #{S[s^{-1}] \to R[r^{-1}]}, this is obvious because #{\varphi(s)} must be invertible in #{R[r^{-1}]}.
+  }
+
+  \p{
+    We need to prove our map is [local](algm-000U). Using the [characterization on stalks](algm-000W), we just need to verify that #{S_{\varphi^{-1}(\ideal{p})} \to R_{\ideal{p}}} reflects invertibility. This is true by construction. Hence we have a map #{\hom_{\Cat{CRing}}(S, R) \to \hom_{\Cat{Sch}}(\Spec(R), \Spec(S))}.
+  }
+
+  \p{
+    In the reverse direction, given a morphism #{\varphi : \Spec(R) \to \Spec(S)}, we can extract a ring homomorphism by looking at the global sections
+    ##{S \cong \section(\top, \varphi^{-1}\sheaf{O}_{\Spec(S)}) \to \section(\top, \sheaf{O}_{\Spec(R)}) \cong R.}
+    We obviously have going from #{\Cat{CRing}} to #{\Cat{Sch}} and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
+  }
+
+  \tikzcd{
+    S & R \\
+    {S_{\ideal{q}}} & {R_{\ideal{p}}}
+    \arrow[from=1-1, to=1-2]
+    \arrow[from=2-1, to=2-2]
+    \arrow[two heads, from=1-1, to=2-1]
+    \arrow[two heads, from=1-2, to=2-2]
+  }
+
+  \p{
+    where #{\point{q}} is the image of the point #{\point{p}} under the underlying continuous map of #{\varphi}. This fixes the action of #{\varphi} on the stalks. Furthermore, the [locality](algm-000W) implies the preimage of #{\ideal{p}} under the ring homomorphism divides #{\ideal{q}}, and since #{\ideal{q}} is maximal, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.
+  }
+}

@@ -1,0 +1,15 @@
+\date{2024-03-03}
+\title{a [ring spectrum](algm-0001) is quasi-compact}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  The space #{\Spec(R)} is always [quasi-compact](algm-000A).
+}
+
+\proof{
+  \p{
+    Since quasi-compectness can be tested on a basis, we just have to show that if #{\bigcup_i D(f_i) = \top}, then there is a finite union equal to #{\top}. Algebraically this means #{\sqrt{\gcd\{f_i\}} = 1}, equivalently #{\gcd\{f_i\} = 1}. So we have a linear combination #{\sum_k a_k f_k = 1}. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.
+  }
+}

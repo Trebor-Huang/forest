@@ -1,0 +1,19 @@
+\date{2024-03-08}
+\title{action of morphisms on stalks of locally ringed spaces}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [[algm-000S]] #{\varphi : X \to Y}, if it is [local](algm-000U), a germ is invertible iff its [pullback](algm-000V) under #{\varphi} is invertible. If the space #{X} has enough points, then the inverse implication is also true.
+}
+
+\proof{
+  \p{
+    Note that the stalk #{(\varphi^{-1}\sheaf{O}_{Y})_x = \sheaf{O}_{Y, \varphi(x)}}. A germ being invertible implies for some neighborhood #{U} of #{x}, it comes from an invertible section #{f \in \section(U, \varphi^{-1}\sheaf{O}_Y)}, so the image in #{\section(U, \sheaf{O}_X)} is also invertible, and hence the image germ. The locality condition gives the converse.
+  }
+
+  \p{
+    On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.
+  }
+}

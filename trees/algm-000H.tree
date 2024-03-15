@@ -1,0 +1,24 @@
+\date{2024-03-04}
+\title{irreducible closeds in a ring spectrum}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  A closed #{V(\ideal{r})} in #{\Spec(R)} is irreducible iff #{\ideal{r}} is prime, and it is an irreducible component iff #{\ideal{r}} is a minimal prime ideal, i.e. prime ideals that divide no other prime ideals.
+}
+
+\proof{
+  \p{
+    Translating via \ref{algm-0002}, we have a proper ideal #{\ideal{r}} that cannot be written as #{\lcm(\ideal{r}_1, \ideal{r}_2)} non-trivially. Suppose #{\ideal{r} \mid f g}, then #{\ideal{r} \mid \sqrt{f g} \mid \lcm(f, g)}. So
+    ##{\begin{aligned}
+      \ideal{r} &= \gcd(\ideal{r}, \lcm(f, g)) \\
+      &= \lcm(\gcd(\ideal{r}, f), \gcd(\ideal{r}, g)).
+    \end{aligned}}
+    Hence at least one of the two must be equal to #{\ideal{r}}. So #{\ideal{r} \mid f} or #{\ideal{r} \mid g}.
+  }
+
+  \p{
+    An irreducible closed is an irreducible \em{component} if it is contained in no other irreducible closed. We immediately get the definition of minimal prime ideals translating to the algebraic realm.
+  }
+}
