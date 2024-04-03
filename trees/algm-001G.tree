@@ -1,0 +1,23 @@
+\date{2024-04-02}
+\title{iterated [[algm-001E]] produces a sheaf}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  Given any presheaf #{P}, #{P^+} is a [separated presheaf](algm-001F), and if #{P} is already separated, #{P^+} is a [[algm-001F]]. Therefore #{P^{++}} is always a sheaf.
+}
+
+\proof{
+  \p{
+    We first prove that #{P^+} is separated. Suppose there are two gluings of a set of descent data on a [covering sieve](algm-001A) #{S} over #{A}, then we have two sieves #{S_1, S_2} over #{A} with compatible families #{s_{1, f}, s_{2, f}}. Since they are gluings of the same descent data, the restriction along any morphism #{g : U \to A} in #{S} would be equal. Hence there is a common refinement of #{g^* S_1} and #{g^* S_2} where the two families become equal. Expanding this, there is a covering sieve on #{U} such that #{g \compose h \in S_1 \cap S_2} for every #{h} in the sieve, and #{s_{1, g \compose h} = s_{2, g \compose h}}. But then by the axioms of a [[algm-001A]], #{g \compose h} for all #{h} in the said sieve and #{g \in S} also generates a covering sieve. Hence #{s_1} and #{s_2} are already equal on a covering subsieve, and so they are equal in #{\section(A, P^+)}.
+  }
+
+  \p{
+    Let’s see why #{P^+} is not necessarily a sheaf. To be a sheaf, we need to find a gluing for each compatible family. A [compatible family](algm-001D) of local sections of #{P^+} is a family of covering sieves #{S_f} over #{U} for each morphism #{f : U \to A} in #{S}, and for each #{S_f} a family of sections #{s_{f, g} \in \section(V, P)} where #{g : V \to U} lies in #{S_f}. By the axioms of a [[algm-001A]], the union #{\bigcup_{f \in S} f \compose S_f} is a sieve, since #{S_f \subseteq f^* (f \compose S_f)}. (Warning: #{f \compose S_f} is not a covering sieve itself.) So we are tempted to simply construct a glued section #{s'} by #{s'_{f \compose g} = s_{f, g}}. Hence we need to prove #{s_{f, g} = s_{f', g'}} if #{f \compose g = f' \compose g'}.
+  }
+
+  \p{
+    Since the families #{s_{f}} are compatible, given any #{g : V \to U} we have #{s_{f, g \compose r} = s_{f \compose g, r}} for a family of arrows #{r} that generates a covering sieve on #{V}. However we cannot necessarily take #{r = \id}, so this is not necessarily well-defined. Here is where the separatedness comes in. Notice that #{s_{f, g \compose r} = s_{f \compose g, r}} forms a compatible family over #{V} as #{r} ranges over the covering sieve. And therefore #{s_{f, g}} and #{s_{f \compose g, \id}} are both a gluing of the family. By separatedness, they must be equal. Hence our problem is solved.
+  }
+}

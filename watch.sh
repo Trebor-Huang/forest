@@ -2,12 +2,12 @@
 
 rm -rf build/
 rm -rf output/
-forester build --dev --root=trebor-0001 trees/
+forester build forest.toml --dev
 
 fswatch -o trees/ theme/ | while read num ; \
   do \
     clear
     echo "Rebuilding forest"
-    time forester build --dev --root=trebor-0001 trees/
+    time forester build forest.toml --dev
     echo "Done"
   done

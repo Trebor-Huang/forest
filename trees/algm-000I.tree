@@ -18,7 +18,7 @@
   }
 
   \p{
-    We first describe the intuition. Since we know #{\Spec(S)} is [quasi-compact](algm-000B), we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don't have them, we have elements #{g_i/f_i^{d_i} \in S[f_i^{-1}]} that are equal in their common domain. Since #{D(f_i) = D(f_i^{d_i})} covers #{\Spec(S)}, we have a linear combination #{1 = \sum_i c_i f_i^{d_i}}, which is akin to a partition of unity. Suppose the putative gluing is #{f}, multiplying with the partition of unity we get
+    We first describe the intuition. Since we know #{\Spec(S)} is [quasi-compact](algm-000B), we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements #{g_i/f_i^{d_i} \in S[f_i^{-1}]} that are equal in their common domain. Since #{D(f_i) = D(f_i^{d_i})} covers #{\Spec(S)}, we have a linear combination #{1 = \sum_i c_i f_i^{d_i}}, which is akin to a partition of unity. Suppose the putative gluing is #{f}, multiplying with the partition of unity we get
     ##{\begin{aligned}
       f &= \sum_{i \in I} c_i f_i^{d_i} f \\
       &= \sum c_i f_i^{d_i} \frac{g_i}{f_i^{d_i}} \\

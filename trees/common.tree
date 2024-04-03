@@ -42,8 +42,10 @@
 \def\CatVar[name]{#{\mathcal{\name}}}
 \def\op{#{\textrm{op}}}
 \def\id{#{\operatorname{id}}}
+\def\colim{#{\operatorname*{colim}}}
 \def\pair[content]{#{\left\langle \content \right\rangle}}
 \def\compose{#{\circ}}
+\def\yo{#{\mathop{\text{よ}\mkern{-2mu}}}}
 
 % Algebra
 \def\lcm{#{\operatorname{lcm}}}
@@ -59,13 +61,14 @@
 \def\ModL[ring]{#{\ring\text{-}\Cat{Mod}}}
 \def\ModR[ring]{#{\Cat{Mod}\text{-}\ring}}
 \def\Mod[left][right]{#{\left\text{-}\Cat{Mod}\text{-}\right}}
-\def\Tot{#{\textrm{Tot}}}
+\def\Tot{#{\operatorname{Tot}}}
+\def\Cone{#{\operatorname{Cone}}}
 
 % Arrows
 \def\inject{#{\rightarrowtail}}
 \def\include{#{\hookrightarrow}}
 \def\surject{#{\twoheadrightarrow}}
-\def\xto[arg]{#{\xrightarrow{\arg}}}
+\def\xto{#{\xrightarrow}}
 \def\iso{#{\stackrel{\sim\,}{\to}}}
 
 \def\Reduce{#{\Rightarrow\mkern{-14mu}\Rightarrow}}

@@ -1,0 +1,19 @@
+\date{2024-03-15}
+\title{affine local properties}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Suppose a property on affine subschemes #{\Spec(R) \include X} is closed under taking distinguished subsets #{\Spec(R_f) \include X}, and for #{\gcd\{f_i\} = 1}, the property being true on #{\Spec(R_{f_i}) \include X} implies it being true on #{\Spec(R) \include X}. Then such a property is called \strong{affine local}. We then say that #{X} has such a property if some affine cover has such a property: the result doesn’t depend on the chosen cover.
+}
+
+\p{
+  If the property #{P} only depends on #{\Spec(R)} and not #{X} (or the inclusion map), it can be simplified as a property on affine schemes. In this case, the above definition extends it to a property #{P'} on schemes, which we will usually refer to as \strong{locally} #{P}. Suppose the scheme is furthermore [quasi-compact](algm-000A), we say the scheme satisfies #{P}.
+}
+
+\proof{
+  \p{
+    We prove that if some affine cover #{\{\Spec(R_i) \include X\}} has such a property, then all the affine subschemes has it, hence we can check on any affine cover. Given an affine subscheme #{\Spec(S) \include X}, using [[algm-0016]], we see that the intersection with #{\Spec(R_i)} is covered by affine subschemes, which will all have the said property. Hence we get a cover of #{\Spec(S) \include X} with the said property, and therefore itself also.
+  }
+}

@@ -1,0 +1,9 @@
+\date{2024-04-02}
+\title{coverage}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  A \strong{coverage} on an arbitrary category #{\CatVar{C}} is given by a family of covers. A \strong{cover} of some object #{A} in #{\CatVar{C}} is a family of maps with codomain #{A}. Given a cover #{f_i : U_i \to A} and a map #{g : B \to A}, there is a cover of #{B} such that its composition with #{g} is a \strong{refinement} of #{f_i}, in the sense that every map in the cover factors through one of #{f_i}.
+}

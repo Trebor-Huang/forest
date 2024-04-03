@@ -1,0 +1,19 @@
+\date{2024-03-16}
+\title{a space is noetherian iff hereditarily quasi-compact}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  A space is [noetherian](algm-000C) iff it is \em{hereditarily} [quasi-compact](algm-000A), that is, if all its opens are quasi-compact.
+}
+
+\proof{
+  \p{
+    We first show the forward direction. By the definition of being noetherian, all its opens are automatically noetherian. So we just need to prove that noetherian spaces are quasi-compact. This is obvious, since taking unions of the open covers we have an ascending chain of opens, which must terminate.
+  }
+
+  \p{
+    For the other direction, given an ascending chain of opens, they form a cover of their union. Since the union is an open, it is quasi-compact by hypothesis, and therefore the cover has a finite subcover, proving that the chain stabilizes after finitely many terms.
+  }
+}

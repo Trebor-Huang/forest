@@ -1,0 +1,17 @@
+\date{2024-04-03}
+\title{sheafification}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  \strong{Sheafification} is defined as the left adjoint of the inclusion from [sheaves](algm-001F) to the category of presheaves. Hence it freely constructs a sheaf from a presheaf.
+}
+
+\proof{
+  \p{
+    We construct sheafification as [an iterated plus construction](algm-001G). This produces a functor. By \ref{algm-001H} we have a natural bijection
+    ##{\hom(P^{++}, F) \cong \hom(P^+, F) \cong \hom(P, F).}
+    Hence it is indeed the left adjoint. Since the bijections are given by composition with #{P \to P^+} and #{P^+ \to P^{++}}, we see that the unit of the adjunction is given by the composition #{P \to P^{++}}.
+  }
+}

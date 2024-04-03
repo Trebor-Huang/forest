@@ -1,0 +1,15 @@
+\date{2024-04-03}
+\title{universal property of [[algm-001E]]}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  For any presheaf #{P} and sheaf #{F}, there is a natural bijection ##{\hom(P, F) \cong \hom(P^+, F)} given by composition with #{\eta_P : P \to P^+}.
+}
+
+\proof{
+  \p{
+    For every morphism #{P \to F}, there is a unique way to extend the map to #{P^+} using the [sheaf condition](algm-001F) of #{F}. A section of #{P^+} consists of a matching family #{s_f}, and it is also the gluing of #{\eta_P(s_f)}.
+  }
+}

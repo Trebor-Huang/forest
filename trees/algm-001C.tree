@@ -1,0 +1,9 @@
+\date{2024-04-02}
+\title{pullback of sieves}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [[algm-001B]] #{S} over #{A} and a morphism #{g : B \to A}, the \strong{pullback} #{g^* S} is a sieve over #{B}. #{h : C \to B} is in this sieve iff #{g \compose h} is in #{S}. There is a natural map #{g^* S \to S} given by #{g \compose -}.
+}

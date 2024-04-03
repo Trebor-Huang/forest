@@ -1,0 +1,9 @@
+\date{2024-04-02}
+\title{sheaf}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a category #{\CatVar{C}} equipped with a [[algm-0019]], we define a presheaf #{P : \CatVar{C}^\op \to \Cat{Set}} to be a \strong{sheaf} if it satisfies the \strong{sheaf condition}: for every cover of #{A}, the map from sections of #{A} to [descent data](algm-001D) of the cover is a bijection. It is a \strong{separated presheaf} if the map is an injection.
+}

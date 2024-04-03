@@ -10,7 +10,7 @@
 
 \proof{
   \p{
-    Given two rings #{R}, #{S}, a ring homomorphism #{\varphi : S \to R} naturally induces a map of radical ideals #{\ideal{r} \mapsto \varphi^{-1}(\ideal{r})}. This is a continuous map #{\Spec(R) \to \Spec(S)}, because #{\varphi^{-1}} preserves #{\lcm} and #{\gcd}. For the structure sheaf, we can use the [distinguished basis](algm-0004), thus we need to supply a ring homomorphism #{\section(D(s), \sheaf{O}_{\Spec(S)}) \to \section(D(r), \sheaf{O}_{\Spec(R)})} whenever #{D(s) \subseteq \varphi^{-1}D(r)}. This is just a homomorphism #{S[s^{-1}] \to R[r^{-1}]}, this is obvious because #{\varphi(s)} must be invertible in #{R[r^{-1}]}.
+    Given two rings #{R}, #{S}, a ring homomorphism #{\varphi : S \to R} naturally induces a map of [distinguished opens](algm-0004) #{f \mapsto \varphi(f)}. This is a continuous map #{\Spec(R) \to \Spec(S)}, because #{\varphi} preserves #{\lcm} and #{\gcd} on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism #{\section(D(s), \sheaf{O}_{\Spec(S)}) \to \section(D(r), \sheaf{O}_{\Spec(R)})} whenever #{D(r) \subseteq \varphi^{-1}D(s) = D(\varphi(s))}. This is just a homomorphism #{S[s^{-1}] \to R[r^{-1}]}, which is obvious because #{\varphi(s)} must be invertible in #{R[r^{-1}]}.
   }
 
   \p{
@@ -33,6 +33,6 @@
   }
 
   \p{
-    where #{\point{q}} is the image of the point #{\point{p}} under the underlying continuous map of #{\varphi}. This fixes the action of #{\varphi} on the stalks. Furthermore, the [locality](algm-000W) implies the preimage of #{\ideal{p}} under the ring homomorphism divides #{\ideal{q}}, and since #{\ideal{q}} is maximal, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.
+    where #{\point{q}} is the image of the point #{\point{p}} under the underlying continuous map of #{\varphi}. This fixes the action of #{\varphi} on the stalks. Furthermore, the [locality](algm-000W) implies the preimage of #{\ideal{p}} under the ring homomorphism divides #{\ideal{q}}, and since #{\ideal{q}} is maximal in the local ring #{S_{\ideal{q}}}, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.
   }
 }

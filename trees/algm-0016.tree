@@ -1,0 +1,19 @@
+\date{2024-03-15}
+\title{Nike’s trick}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  The intersections of two [affine](algm-000Q) subschemes #{\Spec(R_1), \Spec(R_2) \include X} can be covered by affine schemes distinguished in both of them.
+}
+
+\proof{
+  \p{
+    We just need to cover each point of the intersection. Suppose a point in the intersection is given by a prime ideal #{\ideal{p}} of #{R_1}. We can pick a distinguished open #{D(f)} of #{\Spec(R_2)} contained in the intersection and containing #{\ideal{p}}, and a distinguished open #{D(g)} of #{\Spec(R_1)} contained in #{D(f)} and containing #{\ideal{p}}. Now we prove that #{D(g)} is a distinguished open in #{\Spec(R_2)}.
+  }
+
+  \p{
+    It suffices to prove that #{D(g)} is a distinguished open in #{\Spec(R_2 [f^{-1}])}, since this would imply the existence of an element #{g'/f^{n} \in R_2[f^{-1}]}, and we can take #{D(g') \cap D(f) = D(g' f)} in #{\Spec(R_2)}. Now there is an inclusion map #{\Spec(R_2[f^{-1}]) \to \Spec(R_1)}, which amounts to a ring homomorphism #{\varphi} by \ref{algm-000X}. In this case, #{D(\varphi(g))} is the required distinguished open, since #{\varphi^{-1}D(u)} is equal to #{D(\varphi(u))} in #{\Spec(R_2 [f^{-1}])}.
+  }
+}

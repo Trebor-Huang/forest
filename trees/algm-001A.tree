@@ -1,0 +1,16 @@
+\date{2024-04-02}
+\title{Grothendieck coverage}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a category #{\CatVar{C}}, a \strong{Grothendieck coverage} declares some [sieves](algm-001B) to be coverings, such that
+  \ul{
+    \li{The maximal sieve #{\yo(A) \subseteq \yo(A)} is always a covering.}
+    \li{Covering sieves are upwards closed, i.e. if #{S \subseteq S'} and #{S} is a covering sieve, then so is #{S'}.}
+    \li{If #{S} is a covering sieve of #{A}, and #{g : B \to A} is a morphism, then the [pullback](algm-001C) #{g^* S} is also a covering.}
+    \li{Suppose #{S} is a sieve, then the collection of arrows #{g} such that #{g^* S} is a covering is a sieve itself. If this sieve is a covering, then #{S} is also a covering.}
+  }
+  A Grothendieck coverage can be viewed as a [[algm-0019]].
+}

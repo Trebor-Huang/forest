@@ -1,0 +1,13 @@
+\date{2024-04-02}
+\title{plus construction}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [[algm-001A]] on #{\CatVar{C}} and a presheaf #{P : \CatVar{C}^\op \to \Cat{Set}}, the \strong{plus construction} produces a new presheaf #{P^+} by taking a directed limit over all the [descent data](algm-001D). More precisely, we assign ##{\section(A, P^+) = \colim_{S \text{ covers } A} \hom(S, P).} This means the sections of #{P^+} are compatible families of sections of #{P}, and two families are considered equal if they are equal on a common covering subsieve.
+}
+
+\p{
+  Given a map #{g : B \to A}, we have a [pullback](algm-001C) #{\hom(S, P) \to \hom(g^*S, P)}. This induces the functorial action of #{P^+}. There is an obvious natural transformation #{P \to P^+}.
+}
