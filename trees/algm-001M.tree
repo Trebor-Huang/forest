@@ -1,0 +1,13 @@
+\date{2024-04-04}
+\title{subobject classifier of presheaves}
+\taxon{construction}
+\author{trebor}
+\import{common}
+
+\p{
+  The subobject classifier #{\Omega} of presheaves can be given by a quick calculation.
+  ##{\section(U, \Omega)
+  \cong \hom(\yo(U), \Omega)
+  \cong \operatorname{Sub}(\yo(U))}
+  By definition, this is the set of [sieves](algm-001B) on #{U}, and the functorial action is the [pullback](algm-001C). For a monomorphism #{F \include G}, an element #{s \in \section(U, G)} is sent to the sieve consisting of arrows #{f : V \to U} such that the restriction along #{f} is included in #{F}.
+}

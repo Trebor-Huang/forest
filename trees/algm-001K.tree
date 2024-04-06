@@ -1,0 +1,17 @@
+\date{2024-04-03}
+\title{separation of presheaf}
+\taxon{construction}
+\author{trebor}
+\import{common}
+\def\sep{#{{\operatorname{sep}}}}
+
+
+\p{
+  Given a [[algm-001A]], the inclusion of [separated presheaves](algm-001F) to presheaves has a left adjoint #{(-)^\sep}.
+}
+
+\proof{
+  \p{
+    We define #{\section(U, P^\sep)} to be a quotient of #{\section(U, P)}. Two sections are considered the same if they are equal on a covering sieve. It is obvious that this is separated, and in a morphism #{P \to Q} to a separated presheaf, if two sections of #{P} are equal on a covering sieve, then their image will also be, and by separatedness they must be actually equal in #{Q}.
+  }
+}

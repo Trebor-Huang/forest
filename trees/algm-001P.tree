@@ -1,0 +1,31 @@
+\date{2024-04-05}
+\title{sheaf condition using Lawvere–Tierney operators}
+\author{trebor}
+\import{common}
+
+\p{
+  Knowing the [correspondence](algm-001N) of Grothendieck coverages on #{\CatVar{C}} and Lawvere–Tierney operators on #{\Cat{Psh}(\CatVar{C})}, we naturally want to rewrite the [sheaf condition](algm-001F) to use [Lawvere–Tierney operators](algm-001L) instead of [Grothendieck coverages](algm-001A).
+}
+
+\p{
+  Recall that the [sheaf condition](algm-001F) requires for every covering sieve #{S \include \yo(U)} that the composition #{\hom(\yo(U), X) \to \hom(S, X)} is an isomorphism. We can reify this to a definition.
+}
+
+\transclude{algm-001R}
+
+\p{
+  Now we just need to pick out the class of morphisms #{S \include \yo(U)} using the Lawvere–Tierney operator #{j}. Note that this operator does not necessarily live in a presheaf topos, so we must find a way to generalize this class of arrows to not necessarily representable presheaves. Since every presheaf is a colimit of representables, we can look at the corresponding colimit of morphisms #{\colim S_i \include \colim \yo(U_i)}. A local object will satisfy
+  ##{\begin{aligned}
+    \hom(\colim\yo(U_i), X) \cong \lim\hom(\yo(U_i), X) \quad \\
+    \xto{\sim} \lim\hom(S_i, X) \cong \hom(\colim S_i, X).
+  \end{aligned}}
+  Hence we can safely include these arrows into the class and still get the same concept of local objects. Now it's illuminating to look at the characteristic maps. A sieve #{S \to \yo(U)} corresponds to a characteristic map in #{\hom(\yo(U), \Omega) \cong \section(U, \Omega)}. Generalizing to an arbitrary presheaf expressed (canonically) as a colimit of representables, we need the image of every section to be a covering sieve.
+}
+
+\transclude{algm-001Q}
+
+\p{
+  In terms of sieves, for every section #{s \in \section(U, G)}, the sieve of arrows on #{U} along whom the restriction of #{s} is in #{F} must be a covering sieve. We have arrived at the desired reformulation of the sheaf condition.
+}
+
+\transclude{algm-001S}

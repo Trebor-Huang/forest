@@ -1,0 +1,9 @@
+\date{2024-04-05}
+\title{dense subobject of a Lawvere–Tierney operator}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [[algm-001L]] #{j}, a subobject #{F \include G} is #{j}-\strong{dense} if #{G \to \Omega \xto{j} \Omega} is the constant true. In terms of the corresponding #{J \include \Omega}, we need the pullback of it with #{G \to \Omega} to be #{\id : G \to G}.
+}

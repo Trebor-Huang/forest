@@ -1,0 +1,9 @@
+\date{2024-04-04}
+\title{Lawvere–Tierney operator}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a category #{\CatVar{C}}, a \strong{Lawvere–Tierney operator} is a morphism #{j : \Omega \to \Omega} where #{\Omega} is the subobject classifier, such that #{j} preserves finite intersections, and #{j \compose j = j}.
+}

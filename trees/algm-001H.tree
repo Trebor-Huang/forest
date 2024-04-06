@@ -8,6 +8,10 @@
   For any presheaf #{P} and sheaf #{F}, there is a natural bijection ##{\hom(P, F) \cong \hom(P^+, F)} given by composition with #{\eta_P : P \to P^+}.
 }
 
+\p{
+  As a corollary of this and \ref{algm-001G}, when restricted to separated presheaves, it is left adjoint to the forgetful functor from sheaves to separated presheaves.
+}
+
 \proof{
   \p{
     For every morphism #{P \to F}, there is a unique way to extend the map to #{P^+} using the [sheaf condition](algm-001F) of #{F}. A section of #{P^+} consists of a matching family #{s_f}, and it is also the gluing of #{\eta_P(s_f)}.

@@ -1,0 +1,23 @@
+\date{2024-04-05}
+\title{exponentials of sheaves}
+\taxon{construction}
+\author{trebor}
+\import{common}
+
+\p{
+  The exponentials of sheaves coincide with those of presheaves. To see this, we assume #{X^Y} is the exponential of sheaves and calculate
+  ##{\begin{aligned}
+    \section(U, X^Y)
+    &= \hom_{\Cat{Psh}}(\yo(U), X^Y) \\
+    &= \hom_{\Cat{Sh}}(\yo(U)^{++}, X^Y) \\
+    &= \hom_{\Cat{Sh}}(Y \times \yo(U)^{++}, X) \\
+    &= \hom_{\Cat{Sh}}(Y^{++} \times \yo(U)^{++}, X) \\
+    &= \hom_{\Cat{Sh}}((Y \times \yo(U))^{++}, X) \\
+    &= \hom_{\Cat{Psh}}(Y \times \yo(U), X) \\
+  \end{aligned}}
+  which is evidently #{\section(U, X^Y)} but this time the exponential is taken in the category of presheaves. We used the fact that [the plus construction preserves finite product](todo). However, we still need to prove that this indeed forms a sheaf.
+}
+
+\p{
+  Expressing the [[algm-001P]], we only need to show for [dense subobjects](algm-001Q) #{F \include G} that #{\hom(G, X^Y) \to \hom(F, X^Y)} is a bijection. This is equivalent to ##{\hom(Y \times G, X) \to \hom(Y \times F, X).} Note that the subobject #{Y \times F \include Y \times G} corresponds to the characteristic function #{Y \times G \to G \to \Omega}. Hence the denseness of #{F \include G} implies the denseness of #{Y \times F \include Y \times G}. Since #{X} is a sheaf, we conclude that #{X^Y} is also a sheaf.
+}

@@ -14,4 +14,8 @@
     ##{\hom(P^{++}, F) \cong \hom(P^+, F) \cong \hom(P, F).}
     Hence it is indeed the left adjoint. Since the bijections are given by composition with #{P \to P^+} and #{P^+ \to P^{++}}, we see that the unit of the adjunction is given by the composition #{P \to P^{++}}.
   }
+
+  \p{
+    Alternatively, using \ref{algm-001K}, we may compose two adjunctions to first [separate](algm-001K) the presheaf, and then perform the plus construction. By uniqueness of adjunction these two constructions are equivalent.
+  }
 }
