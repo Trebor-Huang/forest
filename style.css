@@ -1,192 +1,627 @@
-/** Basics */
+﻿/* SPDX-License-Identifier: CC0-1.0 */
 
-article.tree {
-    border-radius: 10px;
-    border-style: solid;
-    padding: 10px 10px 10px 10px;
-    hyphens: auto;
-    text-align: justify;
+:root {
+  --content-gap: 15px;
+  --radius: 5px;
+  --font: "Computer Modern Serif", "Source Han Serif SC VF", serif;
+  --monospace: "Computer Modern Typewriter", monospace;
 }
-
-details > summary {
-    list-style-type: "⊖ ";
-}
-
-details[open] > summary {
-    margin-bottom: 0.3em;
-    list-style-type: "⊕ ";
-}
-
-p, .p {
-    margin: 0 0 1em 0;
-}
-
-div.btex-output :last-child {
-    margin-bottom: 0;
-}
-
-header {
-    display: block;
-    margin: 20px auto 15px auto;
-    max-width: 900px;
-}
-
-header>nav {
-    font-size: large;
-    font-weight: bold;
-}
-
-header>nav>a {
-    text-decoration: none;
-}
-
-header>nav::before {
-    content: "";
-    background-image: url("icon.png");
-    background-size: 100% 100%;
-    display: inline-block;
-    height: 1em;
-    width: 1.2em;
-    margin-left: 10px;
-    vertical-align: text-top;
-    /* border: black solid;
-    border-radius: 5px; */
-}
-
-main {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer {
-    padding-top: 2em;
-    text-align: center;
-    font-size: smaller;
-    color: #838383;
-}
-
-/** Links */
-
-.missing {
-    color: #526068;
-}
-
-a {
-    color: inherit;  /* Do not get blue or purple! */
-    text-decoration: underline dotted;
-}
-
-a:hover {
-    color: #838383;
-}
-
-a:active {
-    text-decoration: underline solid;
-}
-
-/** BTeX styling */
 
 body {
-    font-family: 'CMU Sans Serif', system-ui, -apple-system, sans-serif;
+  font-family: var(--font);
+  text-underline-position: from-font;
+  font-size: 12pt;
+  /* Subtly make it thicker */
+  -webkit-text-stroke-width: 0.25pt;
+  line-height: 1.5em;
+  hyphens: auto;
+}
+
+/* .tree-content {
+  text-align: justify;
+  word-spacing: -0.05em;
+} 
+
+summary {
+  text-align: initial;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0.8em;
+}
+
+p {
+  margin-left: 0.3em;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+p:empty {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: .5em;
+}
+
+pre,
+section,
+center {
+  overflow-y: hidden;
+}
+
+.katex-display,
+img.embedded-tex {
+  overflow-y: visible;
+}
+
+.katex-display { margin: 0.4em 0 !important }
+
+pre {
+  border-radius: var(--radius);
+  background-color: rgba(0, 100, 100, 0.04);
+  padding: .5em;
+  font-size: 11pt;
+  margin-top: 0em;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+code {
+  font-family: var(--monospace);
+  border-radius: var(--radius);
+  background-color: rgba(0, 100, 100, 0.04);
+  padding: 0.2em;
+  font-size: 0.9em;
+}
+
+.logo {
+  font-weight: 1000;
+  font-size: 24px;
+}
+
+.logo a {
+  color: #666;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: #aaa;
+}
+
+.block.hide-metadata>details>summary>header>.metadata {
+  display: none;
+}
+
+article>section>details>summary>header>h1>.taxon {
+  display: block;
+  font-size: .9em;
+  color: #888;
+}
+
+section section[data-taxon="Reference"]>details>summary>header>h1>.taxon,
+section section[data-taxon="Person"]>details>summary>header>h1>.taxon {
+  display: none;
+}
+
+footer>section {
+  margin-bottom: 1em;
+}
+
+footer h2 {
+  font-size: 14pt;
+}
+
+.metadata>address {
+  display: inline;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    margin-top: 1em;
+    margin-left: .5em;
+    margin-right: .5em;
+    transition: ease all .2s;
+  }
+
+  #grid-wrapper>nav {
+    display: none;
+    transition: ease all .2s;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    margin-top: 2em;
+    margin-left: 2em;
+    transition: ease all .2s;
+  }
+
+  #grid-wrapper {
+    display: grid;
+    grid-template-columns: 90ex;
+  }
+}
+
+body>header {
+  margin-bottom: 2em;
+}
+
+#grid-wrapper>article {
+  max-width: 40em;
+  grid-column: 1;
+}
+
+#grid-wrapper>nav {
+  grid-column: 2;
+}
+
+details>summary>header {
+  display: inline;
+}
+
+a.heading-link {
+  box-shadow: none;
+}
+
+details h1 {
+  font-size: 13pt;
+  display: inline;
+}
+
+section .block[data-taxon] details>summary>header>h1 {
+  font-size: 12pt;
+}
+
+span.taxon {
+  color: #444;
+  font-weight: bolder;
+}
+
+.link-list>section>details>summary>header h1 {
+  font-size: 12pt;
+}
+
+
+article>section>details>summary>header>h1 {
+  font-size: 1.5em;
+}
+
+details>summary {
+  list-style-type: none;
+}
+
+details>summary::marker,
+details>summary::-webkit-details-marker {
+  display: none;
+}
+
+article>section>details>summary>header {
+  display: block;
+  margin-bottom: .5em;
+}
+
+section.block>details:not(:last-child) {
+  margin-bottom: 0.3em;
+}
+
+
+.link-list>section.block>details {
+  margin-bottom: .25em;
+}
+
+nav#toc {
+  margin-left: 1em;
+}
+
+nav#toc h1 {
+  margin-top: 0;
+  font-size: 16pt;
+}
+
+nav#toc,
+nav#toc a {
+  color: #555;
+}
+
+nav#toc .link {
+ box-shadow: none;
+ text-decoration: none;
+}
+
+/* Triangle bullet */
+/* nav#toc a.bullet {
+ opacity: 0.7;
+ margin-left: 0.4em;
+ margin-right: 0.3em;
+ display: inline-block;
+ border-right: 0.6em solid;
+ border-top: 0.35em solid transparent;
+ border-bottom: 0.35em solid transparent;
+ vertical-align: baseline;
+ width: 0px;
+ height: 0px;
+} */
+
+nav#toc a.bullet {
+  opacity: 0.7;
+  margin-left: 0.4em;
+  margin-right: 0.3em;
+  display: inline-block;
+  vertical-align: baseline;
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 50%;
+  border: 1px solid #555;
+}
+
+nav#toc a.bullet:hover {
+  background-color: rgba(0, 100, 255, .2)
+}
+
+nav#toc h2 {
+  font-size: 1.1em;
+}
+
+nav#toc ul {
+  list-style-type: none;
+  margin: auto;
+}
+
+nav#toc li > ul {
+ padding-left: 1em;
+}
+
+nav#toc li {
+ list-style-position: inside;
 }
 
 .katex {
-    font-size: 1em !important;
-    letter-spacing: normal
+  font-size: 1em !important;
+  -webkit-text-stroke-width: 0pt;
+}
+
+/* Simple hack to get a font. Maybe we can read the context for more variations. */
+.katex .cjk_fallback {
+  font-family: "Source Han Serif SC VF"
 }
 
 .block {
-    margin: 0 0 1em 0;
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  transition: all .2s ease-in
 }
 
-.proof {
-    overflow: hidden
+.block:first-child {
+  margin-top: 0.3em;
 }
 
-span.display-math.tikz-in-math {
-    align-items: center
+.block:not(:last-child) {
+  margin-bottom: 0.5em;
 }
 
-span.btex-diagram {
-    display: inline-block
+.block:hover {
+  background-color: rgba(0, 100, 255, 0.04);
+  border: 1px solid rgb(0, 100, 255, .5);
 }
 
-span.btex-diagram span.cell,
-span.btex-diagram span.label {
-    display: flex;
-    position: relative;
-    width: 0;
-    height: 0;
-    align-items: center;
-    justify-content: center
+.block.highlighted {
+  border-style: solid;
+  border-width: 1pt;
 }
 
-span.btex-diagram .katex {
-    font-size: 1em !important
+.highlighted {
+  background-color: rgba(255, 255, 140, .3);
+  border-color: #ccc;
 }
 
-span.btex-diagram .katex span.rlap {
-    user-select: none
+.highlighted:hover {
+  background-color: rgba(255, 255, 140, .6);
+  border-color: #aaa;
 }
 
-span.display-math {
-    margin: 1em 0;
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: stretch
+.slug,
+.doi,
+.orcid,
+.edit-button,
+.link.raw {
+  color: gray;
+  font-weight: 200;
+  font-family: var(--monospace);
+  hyphenate-character: "";
 }
 
-span.katex-display {
-    margin: 0
+.doi, .orcid, .link.raw {
+  line-break: anywhere;
 }
 
-span.display-math.tikz-in-math {
-    align-items: center
+a.link.local .slug {
+  color: inherit;
 }
 
-span.display-math span.katex-display {
-    flex-grow: 1;
-    overflow-x: auto;
-    overflow-y: hidden
+.error {
+  color: rgb(255, 50, 50, .8);
 }
 
-span.display-math span.equation-tag-left,
-span.display-math span.equation-tag-right {
-    flex-shrink: 0;
-    flex-grow: 0
+.block {
+  padding-left: 2px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  border-radius: 5px;
 }
 
-span.display-math svg {
-    margin: 0 auto;
-    max-width: 100%
+.link.external,
+a.link.local,
+.link.local a,
+a.slug {
+  text-decoration: underline 1px #11222255;
 }
 
-span.display-math .overlay > svg {
-    max-width: none;
+.link.external::after, .edit-button::after {
+  background-size: 100% 100%;
+  content: "";
+  display: inline-block;
+  height: 0.7em;
+  width: 0.7em;
+  vertical-align: text-top;
+  margin-top: 0.1em;
 }
 
-div.floatright {
-    float: right;
-    margin: 0
+.link.external::after {
+  background-image: url("link-external.svg");
+  margin-left: 1pt;
 }
 
-table.list td.list-item-label {
-    width: 1.5em;
-    max-width: 16em;
-    overflow-x: clip;
-    white-space: nowrap;
-    text-align: right;
-    padding-right: 0.75em;
-    user-select: none;
-    /* -webkit-user-select: none; */
+.edit-button::after {
+  background-image: url("edit.svg");
+  margin-left: -2pt;
 }
 
-table.list td {
-    vertical-align: baseline;
+ninja-keys::part(ninja-action) {
+  white-space: nowrap;
 }
 
-.toc {
-    display: none
+table {
+  margin-bottom: 1em;
+}
+
+table.macros {
+  overflow-x: visible;
+  overflow-y: visible;
+  font-size: 0.9em;
+}
+
+table.macros td {
+  padding-left: 5pt;
+  padding-right: 15pt;
+  vertical-align: baseline;
+}
+
+th {
+  text-align: left;
+}
+
+th,
+td {
+  padding: 0 15px;
+  vertical-align: top;
+}
+
+td.macro-name,
+td.macro-body {
+  white-space: nowrap;
+}
+
+td.macro-doc {
+  font-size: .9em;
+}
+
+.enclosing.macro-scope>.enclosing {
+  border-radius: 2px;
+}
+
+.enclosing.macro-scope>.enclosing:hover {
+  background-color: rgba(0, 100, 255, 0.1);
+}
+
+[aria-label][role~="tooltip"]::after {
+  font-family: var(--font);
+}
+
+.tooltip {
+  position: relative;
+}
+
+.inline.tooltip {
+  display: inline-block;
+}
+
+.display.tooltip {
+  display: block;
+}
+
+
+/* The tooltip class is applied to the span element that is the tooltip */
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  white-space: nowrap;
+  min-width: fit-content;
+  background-color: black;
+  color: #fff;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+}
+
+
+/* Show the tooltip */
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltiptext a {
+  color: white
+}
+
+.macro-doc {
+  font-style: italic;
+}
+
+.macro-name {
+  white-space: nowrap;
+}
+
+.macro-is-private {
+  color: var(--secondary);
+}
+
+blockquote {
+  border-inline-start: 1px solid var(--secondary);
+}
+
+a.slug:hover,
+.edit-button:hover,
+.link:hover {
+  background-color: rgba(0, 100, 255, .1);
+}
+
+
+
+a.bullet:hover {
+  color: black;
+}
+
+.link {
+ cursor: pointer;
+}
+
+a {
+  color: black;
+  text-decoration: inherit;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.nocite {
+  display: none
+}
+
+blockquote {
+  font-style: italic;
+}
+
+address {
+  display: inline;
+}
+
+.metadata ul {
+  padding-left: 0;
+  display: inline;
+}
+
+.metadata ul:not(:empty) {
+  padding-block-start: 0.3em;
+}
+
+.metadata li::before {
+  content: " · ";
+}
+
+.metadata li:first-child::before {
+  content: "— ";
+}
+
+.metadata ul li {
+  display: inline
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+figcaption {
+  font-style: italic;
+  padding: 3px;
+  text-align: center;
+}
+
+mark {
+  background-color: rgb(255, 255, 151);
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: gainsboro;
+  border: 0 none;
+  width: 100%;
+  height: 2px;
+}
+
+ul, ol {
+ padding-bottom: .5em;
+ margin: auto;
+}
+
+ol {
+ list-style-type: decimal;
+}
+
+ol li ol {
+ list-style-type: lower-alpha;
+}
+
+ol li ol li ol {
+ list-style-type: lower-roman;
+}
+
+.error {
+ background-color: red;
+ font-weight: bold;
+ color: white;
 }

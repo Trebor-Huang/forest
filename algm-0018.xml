@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?><tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>318</anchor> <taxon>Theorem</taxon> <addr>algm-0018</addr><route>algm-0018.xml</route>  <date><year>2024</year> <month>3</month> <day>16</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>A space is noetherian iff hereditarily quasi-compact</title>   </frontmatter> <mainmatter><p>
+  A space is <link href="algm-000C.xml" type="local" addr="algm-000C" title="Noetherian space">noetherian</link> iff it is <em>hereditarily</em> <link href="algm-000A.xml" type="local" addr="algm-000A" title="Terminology of compactness in algebraic geometry">quasi-compact</link>, that is, if all its opens are quasi-compact.
+</p>
+  
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>319</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>16</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>    </frontmatter> <mainmatter>
+  <p>
+    We first show the forward direction. By the definition of being noetherian, all its opens are automatically noetherian. So we just need to prove that noetherian spaces are quasi-compact. This is obvious, since taking unions of the open covers we have an ascending chain of opens, which must terminate.
+  </p>
+
+  <p>
+    For the other direction, given an ascending chain of opens, they form a cover of their union. Since the union is an open, it is quasi-compact by hypothesis, and therefore the cover has a finite subcover, proving that the chain stabilizes after finitely many terms.
+  </p>
+</mainmatter> </tree>
+  
+</mainmatter> <backmatter><contributions></contributions> <context></context> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>320</anchor> <taxon>Definition</taxon> <addr>algm-000C</addr><route>algm-000C.xml</route>  <date><year>2024</year> <month>3</month> <day>3</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Noetherian space</title>   </frontmatter> <mainmatter><p>
+  A space is <strong>noetherian</strong> if every descending chain of closeds, or equivalently every ascending chain of opens stabilizes. In other words, the partial order of closeds is well-founded.
+</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>321</anchor> <taxon>Remark</taxon> <addr>algm-000A</addr><route>algm-000A.xml</route>  <date><year>2024</year> <month>3</month> <day>3</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Terminology of compactness in algebraic geometry</title>   </frontmatter> <mainmatter><p>
+  The word compactness historically required the space to be Hausdorff. And the modern meaning of compactness was called quasi-compact. In algebraic geometry, most spaces are never Hausdorff, and the topological compactness condition does not lead to similar behavior. There is another notion more suitable as an analog of topological compactness. Therefore, we choose to always use the word “quasi-compact”.
+</p></mainmatter> </tree></related> <backlinks></backlinks> <references></references></backmatter></tree>
