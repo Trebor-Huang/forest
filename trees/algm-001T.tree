@@ -1,0 +1,12 @@
+\date{2024-04-07}
+\title{slice of presheaf category}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  We have an equivalence of categories
+  ##{\Cat{Psh}(\CatVar{C})/P \cong \Cat{Psh}\left(\int_{\CatVar{C}} P\right).}
+  In the special case that #{P = \yo(U)}, we have
+  ##{\Cat{Psh}(\CatVar{C})/\yo(U) \cong \Cat{Psh}(\CatVar{C}/U).}
+}

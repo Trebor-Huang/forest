@@ -1,0 +1,20 @@
+\date{2024-04-07}
+\title{slice of sheaf category}
+\taxon{construction}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a category #{\CatVar{C}} with a [[algm-001A]] #{J} and a sheaf #{F}, there is a Grothendieck coverage #{J'} on #{\int_{\CatVar{C}} F} such that the equivalence in \ref{algm-001T} restricts to an equivalence
+  ##{\Cat{Sh}(\CatVar{C}, J)/F \cong \Cat{Sh}\left(\int_{\CatVar{C}} F, J'\right).}
+}
+
+\proof{
+  \p{
+    Suppose we have a covering sieve #{S \include \yo(U)} in #{\CatVar{C}}, then an element #{f \in \section(U, F)} uniquely corresponds to a matching family #{s \in \hom(S, F)}. In the category of elements #{\int_{\CatVar{C}} F}, #{s} corresponds to a sieve over #{f}. This is the required Grothendieck coverage.
+  }
+
+  \p{
+    Another way to construct this is through the [[algm-001L]] #{j}. The subobject classifier of a slice category is simply #{\Omega \times F \to F}. Hence we can let #{j} act on the #{\Omega} factor. This gives a Lawvere–Tierney operator on the slice category and it coincides with the Grothendieck coverage constructed above.
+  }
+}

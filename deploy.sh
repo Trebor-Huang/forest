@@ -2,7 +2,8 @@
 rm -rf build/
 rm -rf output/
 forester build forest.toml
-./compile-katex.sh
+# Since firefox doesn't want to work
+# ./compile-katex.sh
 
 cd ../forest-deploy
 git rm -rf .
