@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>159</anchor> <taxon>Theorem</taxon> <addr>algm-001T</addr><route>algm-001T.xml</route>  <date><year>2024</year> <month>4</month> <day>7</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Slice of presheaf category</title>   </frontmatter> <mainmatter><p>
+  We have an equivalence of categories
+  <tex display="block">\mathsf { Psh } ( \mathcal { C } )/P  \cong   \mathsf { Psh } \left ( \int _{ \mathcal { C } } P \right ).</tex>
+  In the special case that <tex>P =  \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U)</tex>, we have
+  <tex display="block">\mathsf { Psh } ( \mathcal { C } )/ \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U)  \cong   \mathsf { Psh } ( \mathcal { C } /U).</tex></p></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>160</anchor> <taxon>Construction</taxon> <addr>algm-001U</addr><route>algm-001U.xml</route>  <date><year>2024</year> <month>4</month> <day>7</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Slice of sheaf category</title>   </frontmatter> <mainmatter><p>
+  Given a category <tex>\mathcal { C }</tex> with a <link href="algm-001A.xml" type="local" addr="algm-001A" title="Grothendieck coverage">Grothendieck coverage</link> <tex>J</tex> and a sheaf <tex>F</tex>, there is a Grothendieck coverage <tex>J'</tex> on <tex>\int _{ \mathcal { C } } F</tex> such that the equivalence in <ref addr="algm-001T" href="algm-001T.xml" taxon="Theorem"/> restricts to an equivalence
+  <tex display="block">\mathsf { Sh } ( \mathcal { C } , J)/F  \cong   \mathsf { Sh } \left ( \int _{ \mathcal { C } } F, J' \right ).</tex></p>
+  
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>161</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>4</month> <day>7</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>algm-001U</parent> </frontmatter> <mainmatter>
+  <p>
+    Suppose we have a covering sieve <tex>S  \hookrightarrow   \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U)</tex> in <tex>\mathcal { C }</tex>, then an element <tex>f  \in   \Gamma (U, F)</tex> uniquely corresponds to a matching family <tex>s  \in   \hom (S, F)</tex>. In the category of elements <tex>\int _{ \mathcal { C } } F</tex>, <tex>s</tex> corresponds to a sieve over <tex>f</tex>. This is the required Grothendieck coverage.
+  </p>
+
+  <p>
+    Another way to construct this is through the <link href="algm-001L.xml" type="local" addr="algm-001L" title="Lawvere–Tierney operator">Lawvere–Tierney operator</link> <tex>j</tex>. The subobject classifier of a slice category is simply <tex>\Omega   \times  F  \to  F</tex>. Hence we can let <tex>j</tex> act on the <tex>\Omega</tex> factor. This gives a Lawvere–Tierney operator on the slice category and it coincides with the Grothendieck coverage constructed above.
+  </p>
+</mainmatter> </tree>
+  
+</mainmatter> </tree></backlinks> <references/></backmatter></tree>

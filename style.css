@@ -34,6 +34,14 @@ h5,
 h6 {
   line-height: 1.2;
   margin-bottom: 0;
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: .5em;
 }
 
 h5,
@@ -55,11 +63,8 @@ p:empty {
   margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  margin-top: .5em;
+strong {
+  font-weight: 600;
 }
 
 pre,
@@ -187,7 +192,7 @@ a.heading-link {
 }
 
 details h1 {
-  font-size: 13pt;
+  font-size: 12pt;
   display: inline;
 }
 
@@ -251,20 +256,6 @@ nav#toc .link {
  text-decoration: none;
 }
 
-/* Triangle bullet */
-/* nav#toc a.bullet {
- opacity: 0.7;
- margin-left: 0.4em;
- margin-right: 0.3em;
- display: inline-block;
- border-right: 0.6em solid;
- border-top: 0.35em solid transparent;
- border-bottom: 0.35em solid transparent;
- vertical-align: baseline;
- width: 0px;
- height: 0px;
-} */
-
 nav#toc a.bullet {
   opacity: 0.7;
   margin-left: 0.4em;
@@ -288,6 +279,10 @@ nav#toc h2 {
 nav#toc ul {
   list-style-type: none;
   margin: auto;
+}
+
+nav#toc ul:empty {
+  display: none;
 }
 
 nav#toc li > ul {
@@ -376,7 +371,9 @@ a.link.local .slug {
 a.link.local,
 .link.local a,
 a.slug {
-  text-decoration: underline 1px #11222255;
+  text-decoration: underline #11222255;
+  -webkit-text-decoration: underline #11222255;
+  text-decoration-thickness: 1px;
 }
 
 .link.external::after, .edit-button::after {
