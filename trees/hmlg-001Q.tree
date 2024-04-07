@@ -1,0 +1,15 @@
+\date{2024-04-07}
+\title{discrete field line}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [[hmlg-001N]], the discrete version of \strong{field lines} is defined as a sequence of cells alternating between degree #{p} and #{(p-1)} starting and ending with lower-degree cells, with a few requirements.
+}
+
+\ul{
+  \li{When the degree increases, the two cells must occur as a vector in the DVF.}
+  \li{When the degree decreases, the degree #{(p-1)} cell must be a (possible non-[regular](hmlg-001O)) face of the degree #{p} cell.}
+  \li{Two degree #{(p-1)} cells separated by a degree #{p} cell must not be the same.}
+}
