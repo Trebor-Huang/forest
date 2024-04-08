@@ -79,7 +79,7 @@
    <head>
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cn-fontsource-source-han-serif-sc-vf@1.0.9/font.min.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css"/>
+    <link rel="stylesheet" href="computer-modern.css"/>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="katex.min.css" />
     <xsl:apply-templates select="/tree/frontmatter/rss" />

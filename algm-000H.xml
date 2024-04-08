@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>506</anchor> <taxon>Theorem</taxon> <addr>algm-000H</addr><route>algm-000H.xml</route>  <date><year>2024</year> <month>3</month> <day>4</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Irreducible closeds in a ring spectrum</title>   </frontmatter> <mainmatter><p>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>531</anchor> <taxon>Theorem</taxon> <addr>algm-000H</addr><route>algm-000H.xml</route>  <date><year>2024</year> <month>3</month> <day>4</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Irreducible closeds in a ring spectrum</title>   </frontmatter> <mainmatter><p>
   A closed <tex>V( \mathfrak { r } )</tex> in <tex>\operatorname {Spec} (R)</tex> is irreducible iff <tex>\mathfrak { r }</tex> is prime, and it is an irreducible component iff <tex>\mathfrak { r }</tex> is a minimal prime ideal, i.e. prime ideals that divide no other prime ideals.
 </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>507</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>4</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>    </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>532</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>4</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>    </frontmatter> <mainmatter>
   <p>
     Translating via <ref addr="algm-0002" href="algm-0002.xml" taxon="Theorem"/>, we have a proper ideal <tex>\mathfrak { r }</tex> that cannot be written as <tex>\operatorname {lcm} ( \mathfrak { r } _1,  \mathfrak { r } _2)</tex> non-trivially. Suppose <tex>\mathfrak { r }   \mid  f g</tex>, then <tex>\mathfrak { r }   \mid   \sqrt {f g}  \mid   \operatorname {lcm} (f, g)</tex>. So
     <tex display="block">\begin {aligned}        \mathfrak { r }  &amp;=  \gcd ( \mathfrak { r } ,  \operatorname {lcm} (f, g))  \\        &amp;=  \operatorname {lcm} ( \gcd ( \mathfrak { r } , f),  \gcd ( \mathfrak { r } , g)).      \end {aligned}</tex>
@@ -17,12 +17,12 @@
   </p>
 </mainmatter> </tree>
   
-</mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>508</anchor> <taxon>Theorem</taxon> <addr>algm-0002</addr><route>algm-0002.xml</route>  <date><year>2024</year> <month>3</month> <day>2</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Radical ideals bijectively correspond to open sets</title>   </frontmatter> <mainmatter><p>
+</mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>533</anchor> <taxon>Theorem</taxon> <addr>algm-0002</addr><route>algm-0002.xml</route>  <date><year>2024</year> <month>3</month> <day>2</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Radical ideals bijectively correspond to open sets</title>   </frontmatter> <mainmatter><p>
   In an arbitrary <link href="algm-0001.xml" type="local" addr="algm-0001" title="Topological spectrum of a commutative ring">topological spectrum of a commutative ring</link>, we have <tex>D( \mathfrak { a } ) = D( \sqrt { \mathfrak { a } })</tex>. There is a containment of opens <tex>D( \mathfrak { a } )  \subseteq  D( \mathfrak { b } )</tex> — equivalently <tex>V( \mathfrak { b } )  \subseteq  V( \mathfrak { a } )</tex> — iff <tex>\sqrt { \mathfrak { b } }  \mid   \sqrt { \mathfrak { a } }</tex>, and the points contained in an open set completely determines the radical ideal.
 </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>509</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>2</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>algm-0002</parent> </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>534</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>2</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>algm-0002</parent> </frontmatter> <mainmatter>
   <p>
     Since <tex>\mathfrak { p }   \mid   \mathfrak { a }</tex> implies <tex>\sqrt { \mathfrak { p } }  \mid   \sqrt { \mathfrak { a } }</tex>, but <tex>\mathfrak { p }  =  \sqrt { \mathfrak { p } }</tex>, we see that <tex>D( \mathfrak { a } ) = D( \sqrt { \mathfrak { a } })</tex>. We just have to prove the forward implication of the last statement. Suppose for all prime ideals <tex>\mathfrak { p }</tex> we have <tex>\mathfrak { p }   \mid   \mathfrak { b }   \implies   \mathfrak { p }   \mid   \mathfrak { a }</tex>. We need to prove that <tex>\sqrt { \mathfrak { a } }  \mid  f  \implies   \sqrt { \mathfrak { b } }  \mid  f</tex>.
   </p>
@@ -31,12 +31,12 @@
     Given <tex>\sqrt { \mathfrak { a } }  \mid  f</tex>, we have <tex>\mathfrak { p }   \mid  f</tex> for all prime ideals <tex>\mathfrak { p }   \mid   \sqrt { \mathfrak { a } }</tex> (which is equivalent to <tex>\mathfrak { p }   \mid   \mathfrak { a }</tex>). So we know that for all <tex>\mathfrak { p }   \mid   \mathfrak { b }</tex>, <tex>\mathfrak { p }   \mid  f</tex>. This is now purely a condition on <tex>\mathfrak { b }</tex>. The next lemma finishes the proof.
   </p>
 
-  <tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>510</anchor> <taxon>Theorem</taxon> <addr>algm-0003</addr><route>algm-0003.xml</route>  <date><year>2024</year> <month>3</month> <day>3</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>The radical ideal is the lcm of prime ideal divisors</title>   </frontmatter> <mainmatter><p>
+  <tree expanded="true" show-heading="true" show-metadata="false" toc="true" numbered="true" root="false"><frontmatter><anchor>535</anchor> <taxon>Theorem</taxon> <addr>algm-0003</addr><route>algm-0003.xml</route>  <date><year>2024</year> <month>3</month> <day>3</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>The radical ideal is the lcm of prime ideal divisors</title>   </frontmatter> <mainmatter><p>
   For any ideal <tex>\mathfrak { a }</tex> of a commutative ring, the radical <tex>\sqrt { \mathfrak { a } }</tex> is the lowest common multiple of the prime ideals <tex>\mathfrak { p }   \mid   \mathfrak { a }</tex>.
 </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>511</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>3</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>    </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>536</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>3</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>    </frontmatter> <mainmatter>
   <p>
     On one hand, if <tex>\sqrt { \mathfrak { a } }  \mid  f</tex>, then <tex>\mathfrak { a }   \mid  f^n</tex> for some natural number <tex>n</tex>. This means for all <tex>\mathfrak { p }   \mid   \mathfrak { a }</tex>, we have <tex>\mathfrak { p }   \mid  f^n</tex>, which by being a prime ideal implies <tex>\mathfrak { p }   \mid  f</tex>.
   </p>

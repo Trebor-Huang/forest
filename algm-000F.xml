@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>536</anchor> <taxon>Theorem</taxon> <addr>algm-000F</addr><route>algm-000F.xml</route>  <date><year>2024</year> <month>3</month> <day>3</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Hilbert basis theorem</title>   </frontmatter> <mainmatter><p>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>561</anchor> <taxon>Theorem</taxon> <addr>algm-000F</addr><route>algm-000F.xml</route>  <date><year>2024</year> <month>3</month> <day>3</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Hilbert basis theorem</title>   </frontmatter> <mainmatter><p>
   If a commutative ring <tex>R</tex> is noetherian, then <tex>R[x]</tex> is also noetherian.
 </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>537</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>3</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>    </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>562</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>3</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>    </frontmatter> <mainmatter>
   <p>
     Being noetherian is equivalent to having all ideals finitely generated. Suppose we have an ideal <tex>\mathfrak { a } R  \subseteq  R</tex>. We recursively produce a list of generators. Suppose we have already selected <tex>f_1,  \dots , f_n</tex>. If this doesn’t generate <tex>\mathfrak { a } R</tex>, then we select another one of the lowest degree. We prove that this procedure terminates.
   </p>
