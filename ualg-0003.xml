@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>181</anchor> <taxon>Construction</taxon> <addr>ualg-0003</addr><route>ualg-0003.xml</route>  <date><year>2024</year> <month>4</month> <day>10</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Free monad algebras</title>   </frontmatter> <mainmatter><p>
+  Given a <link href="ualg-0001.xml" type="local" addr="ualg-0001" title="Monad on a category">monad</link> <tex>M</tex> on a category <tex>\mathcal { C }</tex>, there is a canonical adjunction between the <link href="ualg-0002.xml" type="local" addr="ualg-0002" title="Algebra of a monad">category of algebras</link> <tex>\mathcal { C } ^M</tex> and <tex>\mathcal { C }</tex>. The <strong>forgetful functor</strong> <tex>U_M</tex> takes an <link href="ualg-0002.xml" type="local" addr="ualg-0002" title="Algebra of a monad">algebra</link> and forgets the algebra structure. The <strong>free functor</strong> <tex>F_M</tex> takes an object <tex>X</tex> and produces an algebra on <tex>MX</tex> given by the monad multiplication map <tex>\mu  : M^2 X  \to  MX</tex>, called the <strong>free algebra</strong>.
+</p>
+  
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>182</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>4</month> <day>10</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>    </frontmatter> <mainmatter>
+  <p>
+    We verify that they form an adjunction. Algebra homomorphisms <tex>\varphi  : F_M X  \to  Y</tex> are given by commutative squares
+    
+  <embedded-tex hash="2df961505e4885814f77b83a22844397"><embedded-tex-preamble>
+        \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+  </embedded-tex-preamble> <embedded-tex-body>
+     \begin {tikzcd} %tex
+      {M^2 X} &amp; MY \\
+      MX &amp; Y
+      \arrow[&quot;{\alpha_Y}&quot;, from=1-2, to=2-2]
+      \arrow[&quot;\mu&quot;', from=1-1, to=2-1]
+      \arrow[&quot;\varphi&quot;, from=2-1, to=2-2]
+      \arrow[&quot;{M\varphi}&quot;, from=1-1, to=1-2] \end {tikzcd}
+  </embedded-tex-body></embedded-tex>
+
+    while morphisms <tex>f : X  \to  Y</tex> fits in the diagram as such: 
+    
+  <embedded-tex hash="d543f469e36ecc7b3d602c8f674a7893"><embedded-tex-preamble>
+        \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+  </embedded-tex-preamble> <embedded-tex-body>
+     \begin {tikzcd} %tex
+      {M^2 X} &amp; MY \\
+      MX &amp; Y \\
+      X
+      \arrow[&quot;{\alpha_Y}&quot;, from=1-2, to=2-2]
+      \arrow[&quot;\mu&quot;', from=1-1, to=2-1]
+      \arrow[&quot;\varphi&quot;, from=2-1, to=2-2]
+      \arrow[&quot;{M\varphi}&quot;, from=1-1, to=1-2]
+      \arrow[&quot;f&quot;', from=3-1, to=2-2]
+      \arrow[&quot;\eta&quot;, from=3-1, to=2-1]
+      \arrow[from=2-1, to=1-2] \end {tikzcd}
+  </embedded-tex-body></embedded-tex>
+
+    Given a homomorphism <tex>\varphi</tex> of algebras, we can compute <tex>f</tex> by composing with <tex>\eta</tex>. On the other hand, given <tex>f</tex>, we define <tex>\varphi</tex> by <tex>\alpha _Y  \circ  Mf</tex>. This creates a commutative square because
+    <tex display="block">\begin {aligned}        \alpha _Y  \circ  M  \varphi        &amp;=  \alpha _Y  \circ  M \alpha _Y  \circ  M^2 f  \\        &amp;=  \alpha _Y  \circ   \mu   \circ  M^2 f  \\        &amp;=  \alpha _Y  \circ  M f  \circ   \mu   \\        &amp;=  \varphi   \circ   \mu .      \end {aligned}</tex></p>
+
+  <p>
+    We just have to verify that the two conversions are mutual inverses. In one way, we need to verify <tex>\alpha _Y  \circ  M f  \circ   \eta  = f</tex>. This is true because by the naturality of <tex>\eta</tex> we get <tex>M f  \circ   \eta  =  \eta   \circ  f</tex>. Then by the definition of <link href="ualg-0002.xml" type="local" addr="ualg-0002" title="Algebra of a monad">algebra</link> <tex>\alpha _Y  \circ   \eta  =  \operatorname {id}</tex>, proving the equality. On the other hand, we need to show <tex>\alpha _Y  \circ  M( \varphi   \circ   \eta ) =  \varphi</tex>. This follows from the algebra identity <tex>\alpha _Y  \circ  M  \alpha _Y =  \alpha _Y  \circ   \mu</tex> and the monad identity <tex>\mu   \circ  M  \eta  =  \operatorname {id}</tex>.
+  </p>
+</mainmatter> </tree>
+  
+</mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>183</anchor>  <addr>ualg-0002</addr><route>ualg-0002.xml</route>  <date><year>2024</year> <month>4</month> <day>10</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Algebra of a monad</title>   </frontmatter> <mainmatter><p>
+  Given a <link href="ualg-0001.xml" type="local" addr="ualg-0001" title="Monad on a category">monad</link> <tex>M :  \mathcal { C }   \to   \mathcal { C }</tex>, an <tex>M</tex>-<strong>algebra</strong> is defined as an object <tex>X</tex> equipped with a morphism <tex>\alpha  : MX  \to  X</tex>, such that the following two diagrams commute.
+</p>
+  <embedded-tex hash="9c45257a7aae686a35f58cc8772710bd"><embedded-tex-preamble>
+        \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+  </embedded-tex-preamble> <embedded-tex-body>
+     \begin {tikzcd} %tex
+  {M^2X} &amp; MX &amp; X &amp; MX \\
+  MX &amp; X &amp;&amp; X
+  \arrow[&quot;\alpha&quot;', from=2-1, to=2-2]
+  \arrow[&quot;\alpha&quot;, from=1-2, to=2-2]
+  \arrow[&quot;\mu&quot;', from=1-1, to=2-1]
+  \arrow[&quot;M\alpha&quot;, from=1-1, to=1-2]
+  \arrow[&quot;\operatorname{id}&quot;', from=1-3, to=2-4]
+  \arrow[&quot;\eta&quot;, from=1-3, to=1-4]
+  \arrow[&quot;\alpha&quot;, from=1-4, to=2-4] \end {tikzcd}
+  </embedded-tex-body></embedded-tex>
+<p>
+  In an unbiased formulation, we require the natural transformation <tex>M^n  \to  M</tex> of the monad evaluated at the object <tex>X</tex> composed with <tex>\alpha  : MX  \to  X</tex> to be equal to <tex display="block">M^n X  \xrightarrow {M^{n-1} \alpha } M^{n-1}X  \to   \cdots   \xrightarrow { \alpha } X.</tex></p><p>
+  The algebras of a monad form a category <tex>\mathcal { C } ^M</tex>, whose morphisms are commutative squares. This is also known as the <strong>Eilenberg–Moore category</strong>.
+</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>184</anchor> <taxon>Definition</taxon> <addr>ualg-0001</addr><route>ualg-0001.xml</route>  <date><year>2024</year> <month>4</month> <day>9</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Monad on a category</title>   </frontmatter> <mainmatter><p>
+  A <strong>monad</strong> on a category <tex>\mathcal { C }</tex> is a functor <tex>M :  \mathcal { C }   \to   \mathcal { C }</tex> equipped with natural transformations <tex>\eta  :  \operatorname {Id}   \to  M</tex> and <tex>\mu  : M  \circ  M  \to  M</tex> satisfying identity and associativity laws. In an unbiased way, we have a family of natural transformations <tex>M^n  \to  M</tex> with associativity.
+</p><p>
+  In short, it is a monoid in the category of endofunctors equipped with composition as the monoidal product.
+</p></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>185</anchor> <taxon>Remark</taxon> <addr>ualg-0006</addr><route>ualg-0006.xml</route>  <date><year>2024</year> <month>4</month> <day>14</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Objects of the Kleisli category</title>   </frontmatter> <mainmatter><p>
+  An object of <link href="ualg-0004.xml" type="local" addr="ualg-0004" title="The Kleisli category of a monad">the Kleisli category of a monad</link> can be considered as a <link href="ualg-0003.xml" type="local" addr="ualg-0003" title="Free monad algebras">free algebra</link>, but <mark>equipped with a canonical choice of generators</mark>. Hence although <link href="ualg-0005.xml" type="local" addr="ualg-0005" title="The Kleisli category is equivalent to the category of free algebras">the Kleisli category is equivalent to the category of free algebras</link>, the objects are essentially different. This manifests as the curious fact that the Kleisli category is not univalent, since an equality of Kleisli objects requires an isomorphism of the generators, but an isomorphism only requires the two free algebras to be isomorphic.
+</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>186</anchor> <taxon>Theorem</taxon> <addr>ualg-0005</addr><route>ualg-0005.xml</route>  <date><year>2024</year> <month>4</month> <day>14</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>The Kleisli category is equivalent to the category of free algebras</title>   </frontmatter> <mainmatter><p>
+  Given category <tex>\mathcal { C }</tex>, <link href="ualg-0004.xml" type="local" addr="ualg-0004" title="The Kleisli category of a monad">the Kleisli category of a monad</link> <tex>M :  \mathcal { C }   \to   \mathcal { C }</tex> is equivalent to the full subcategory of the <tex>M</tex>-<link href="ualg-0002.xml" type="local" addr="ualg-0002" title="Algebra of a monad">algebras</link> spanned by the <link href="ualg-0003.xml" type="local" addr="ualg-0003" title="Free monad algebras">free algebras</link>.
+</p>
+  
+    
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>187</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>4</month> <day>14</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>ualg-0005</parent> </frontmatter> <mainmatter>
+  <p>
+    Consider the functor from the Kleisli category to the category of free algebras, sending <tex>X</tex> to the free algebra on <tex>X</tex>. This is fully faithful and surjective on objects.
+  </p>
+</mainmatter> </tree>
+  
+</mainmatter> </tree></backlinks> <references/></backmatter></tree>

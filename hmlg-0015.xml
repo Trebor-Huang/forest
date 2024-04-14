@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>769</anchor> <taxon>Visualization</taxon> <addr>hmlg-0015</addr><route>hmlg-0015.xml</route>  <date><year>2024</year> <month>2</month> <day>20</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Filtered chain complex</title>   </frontmatter> <mainmatter><p>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>819</anchor> <taxon>Visualization</taxon> <addr>hmlg-0015</addr><route>hmlg-0015.xml</route>  <date><year>2024</year> <month>2</month> <day>20</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Filtered chain complex</title>   </frontmatter> <mainmatter><p>
   Combining <ref addr="hmlg-000A" href="hmlg-000A.xml" taxon="Visualization"/> and <ref addr="hmlg-0014" href="hmlg-0014.xml" taxon="Visualization"/>, we arrive at the following picture. Each family of colors corresponds to the filtration <tex>F_ \bullet  C_n</tex> in one dimension, and the different shades corresponds to the degree in the filtration.
 </p>
   <embedded-tex hash="a9c6c901bdc2a89b19b8d769a0865f82"><embedded-tex-preamble>
@@ -48,7 +48,7 @@
   </embedded-tex-body></embedded-tex>
 
   The homology chops off the intersections, and so we enter the first page of the spectral sequence, consisting of strands with the top and bottom part cut off. Repeatedly taking homology, we are finally left with the rectangular part in the middle, which is the graded components of the desired homology group of the entire complex.
-</p></mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>770</anchor> <taxon>Visualization</taxon> <addr>hmlg-0014</addr><route>hmlg-0014.xml</route>  <date><year>2024</year> <month>2</month> <day>20</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Filtered object</title>   </frontmatter> <mainmatter><p>
+</p></mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>820</anchor> <taxon>Visualization</taxon> <addr>hmlg-0014</addr><route>hmlg-0014.xml</route>  <date><year>2024</year> <month>2</month> <day>20</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Filtered object</title>   </frontmatter> <mainmatter><p>
   We can visualize a filtered object <tex>F_1 A  \subseteq  F_2 A  \subseteq  F_3 A  \subseteq  A</tex> as nested rectangles.
 </p>
   <embedded-tex hash="d3dc80106e5931a76b7bad463be6bd50"><embedded-tex-preamble>
@@ -65,7 +65,7 @@
   </embedded-tex-body></embedded-tex>
 <p>
   The graded components of this filtration are the individual rectangular regions.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>771</anchor> <taxon>Visualization</taxon> <addr>hmlg-000A</addr><route>hmlg-000A.xml</route>  <date><year>2024</year> <month>2</month> <day>17</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Chain complex</title>   </frontmatter> <mainmatter><p>
+</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>821</anchor> <taxon>Visualization</taxon> <addr>hmlg-000A</addr><route>hmlg-000A.xml</route>  <date><year>2024</year> <month>2</month> <day>17</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Chain complex</title>   </frontmatter> <mainmatter><p>
   Since the boundary subgroup in one dimension can also be considered as a quotient in a lower dimension, it may be beneficial to identify the two in a visualization. This leads to the following picture. Regions appearing to the right are to be considered as quotients, and those to the left as subobjects. Further development of this visualization scheme can be seen <link href="https://www.3blue1brown.com/blog/exact-sequence-picturebook" type="external">here</link>.
 </p>
   <embedded-tex hash="f54725dcd4c386fc74f41f8d152fec4a"><embedded-tex-preamble>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>729</anchor> <taxon>Theorem</taxon> <addr>hmlg-0018</addr><route>hmlg-0018.xml</route>  <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>An additive functor is exact iff it preserves quasi-isomorphisms</title>   </frontmatter> <mainmatter><p>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>777</anchor> <taxon>Theorem</taxon> <addr>hmlg-0018</addr><route>hmlg-0018.xml</route>  <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>An additive functor is exact iff it preserves quasi-isomorphisms</title>   </frontmatter> <mainmatter><p>
   Given an <link href="hmlg-000S.xml" type="local" addr="hmlg-000S" title="Additive functor">additive functor</link> <tex>F :  \mathcal { A }   \to   \mathcal { B }</tex> between <link href="hmlg-000Q.xml" type="local" addr="hmlg-000Q" title="Abelian category">abelian categories</link>, it is <link href="hmlg-000X.xml" type="local" addr="hmlg-000X" title="Left and right exact functor">exact</link> iff it sends <link href="hmlg-000C.xml" type="local" addr="hmlg-000C" title="Quasi-isomorphism">quasi-isomorphisms</link> to quasi-isomorphisms.
 </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>730</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>    </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>778</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>2</month> <day>21</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>    </frontmatter> <mainmatter>
   <p>
     Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.
   </p>
 
   <p>
-    On the other hand, <link href="todo.xml" type="local" addr="todo" title="Placeholder tree">exact functors commute with homology functors</link>. Therefore if <tex>f : C_ \bullet   \to  D_ \bullet</tex> is a quasi-isomorphism, <tex>H_n (f)</tex> are all isomorphisms. Therefore <tex>H_n (F(f)) = F(H_n(f))</tex> is the functorial action on an isomorphism, which must also produce an isomorphism.
+    On the other hand, <link href="todo.xml" type="local" addr="todo" title="Unfinished trees">exact functors commute with homology functors</link>. Therefore if <tex>f : C_ \bullet   \to  D_ \bullet</tex> is a quasi-isomorphism, <tex>H_n (f)</tex> are all isomorphisms. Therefore <tex>H_n (F(f)) = F(H_n(f))</tex> is the functorial action on an isomorphism, which must also produce an isomorphism.
   </p>
 </mainmatter> </tree>
   
-</mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>731</anchor> <taxon>Definition</taxon> <addr>hmlg-000X</addr><route>hmlg-000X.xml</route>  <date><year>2024</year> <month>2</month> <day>19</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Left and right exact functor</title>   </frontmatter> <mainmatter><p>
+</mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>779</anchor> <taxon>Definition</taxon> <addr>hmlg-000X</addr><route>hmlg-000X.xml</route>  <date><year>2024</year> <month>2</month> <day>19</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Left and right exact functor</title>   </frontmatter> <mainmatter><p>
   An <link href="hmlg-000S.xml" type="local" addr="hmlg-000S" title="Additive functor">additive functor</link> <tex>F :  \mathcal { A }   \to   \mathcal { B }</tex> between abelian categories is <strong>left exact</strong> if it satisfies the following equivalent conditions.
 
   <ul><li>It preserves kernels.</li>
@@ -29,7 +29,7 @@
 </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>732</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>2</month> <day>19</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>hmlg-000X</parent> </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>780</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>2</month> <day>19</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>hmlg-000X</parent> </frontmatter> <mainmatter>
   <p>
     Since additive functors already preserves finite products, and <link href="hmlg-000Y.xml" type="local" addr="hmlg-000Y" title="Equalizers can be reduced to kernels in {Ab}-enriched categories">kernels are equivalent to general coequalizers</link> using the additive structure, the first two conditions are equivalent.
   </p>
@@ -39,11 +39,11 @@
   </p>
 </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>733</anchor> <taxon>Definition</taxon> <addr>hmlg-000Q</addr><route>hmlg-000Q.xml</route>  <date><year>2024</year> <month>2</month> <day>18</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Abelian category</title>   </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>781</anchor> <taxon>Definition</taxon> <addr>hmlg-000Q</addr><route>hmlg-000Q.xml</route>  <date><year>2024</year> <month>2</month> <day>18</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Abelian category</title>   </frontmatter> <mainmatter><p>
   Given an <link href="hmlg-000P.xml" type="local" addr="hmlg-000P" title="Additive category">additive category</link>, it is an <strong>abelian category</strong> if the following condition holds:
   <ul><li>Every morphism has a kernel and a cokernel.</li>
     <li>Every monomorphism is the kernel of its cokernel.</li>
-    <li>Every epimorphism is the cokernel of its kernel.</li></ul></p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>734</anchor> <taxon>Definition</taxon> <addr>hmlg-000S</addr><route>hmlg-000S.xml</route>  <date><year>2024</year> <month>2</month> <day>18</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Additive functor</title>   </frontmatter> <mainmatter><p>
+    <li>Every epimorphism is the cokernel of its kernel.</li></ul></p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>782</anchor> <taxon>Definition</taxon> <addr>hmlg-000S</addr><route>hmlg-000S.xml</route>  <date><year>2024</year> <month>2</month> <day>18</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Additive functor</title>   </frontmatter> <mainmatter><p>
   Given two <link href="hmlg-000P.xml" type="local" addr="hmlg-000P" title="Additive category">additive categories</link> and a functor <tex>F :  \mathcal { C }   \to   \mathcal { D }</tex> between them, the following are equivalent:
   <ul><li>The functor preserves finite products.</li>
     <li>The functor preserves finite coproducts.</li>
@@ -52,7 +52,7 @@
 </p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>735</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>2</month> <day>18</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>hmlg-000S</parent> </frontmatter> <mainmatter>
+    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>783</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>2</month> <day>18</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>hmlg-000S</parent> </frontmatter> <mainmatter>
   <p>
     For the equivalence of the first two claims, we have a composition
     <tex display="block">F(X) + F(Y)  \to  F(X + Y)  \stackrel { \sim \, }{ \to }  F(X  \times  Y)  \to  F(X)  \times  F(Y),</tex>
@@ -66,6 +66,6 @@
   </p>
 </mainmatter> </tree>
   
-</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>736</anchor> <taxon>Definition</taxon> <addr>hmlg-000C</addr><route>hmlg-000C.xml</route>  <date><year>2024</year> <month>2</month> <day>17</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Quasi-isomorphism</title>   </frontmatter> <mainmatter><p>
+</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>784</anchor> <taxon>Definition</taxon> <addr>hmlg-000C</addr><route>hmlg-000C.xml</route>  <date><year>2024</year> <month>2</month> <day>17</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Quasi-isomorphism</title>   </frontmatter> <mainmatter><p>
   A <link href="hmlg-0008.xml" type="local" addr="hmlg-0008" title="Chain map">chain map</link> is a <strong>quasi-isomorphism</strong> if it induces isomorphisms on the <link href="hmlg-0007.xml" type="local" addr="hmlg-0007" title="Components of a chain complex">homology groups</link>.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>737</anchor> <taxon>Meta</taxon> <addr>todo</addr><route>todo.xml</route>    <title>Placeholder tree</title>   </frontmatter> <mainmatter><p>This is a placeholder tree for links.</p></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
+</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>785</anchor> <taxon>Meta</taxon> <addr>todo</addr><route>todo.xml</route>    <title>Unfinished trees</title>   </frontmatter> <mainmatter><p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</p></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
