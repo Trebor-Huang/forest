@@ -1,0 +1,13 @@
+\date{2024-04-09}
+\title{monad on a category}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  A \strong{monad} on a category #{\CatVar{C}} is a functor #{M : \CatVar{C} \to \CatVar{C}} equipped with natural transformations #{\eta : \Id \to M} and #{\mu : M \compose M \to M} satisfying identity and associativity laws. In an unbiased way, we have a family of natural transformations #{M^n \to M} with associativity.
+}
+
+\p{
+  In short, it is a monoid in the category of endofunctors equipped with composition as the monoidal product.
+}

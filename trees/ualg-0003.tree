@@ -1,0 +1,48 @@
+\date{2024-04-10}
+\title{free monad algebras}
+\taxon{construction}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [monad](ualg-0001) #{M} on a category #{\CatVar{C}}, there is a canonical adjunction between the [category of algebras](ualg-0002) #{\CatVar{C}^M} and #{\CatVar{C}}. The \strong{forgetful functor} #{U_M} takes an [algebra](ualg-0002) and forgets the algebra structure. The \strong{free functor} #{F_M} takes an object #{X} and produces an algebra on #{MX} given by the monad multiplication map #{\mu : M^2 X \to MX}, called the \strong{free algebra}.
+}
+
+\proof{
+  \p{
+    We verify that they form an adjunction. Algebra homomorphisms #{\varphi : F_M X \to Y} are given by commutative squares
+    \tikzcd{\startverb%tex
+      {M^2 X} & MY \\
+      MX & Y
+      \arrow["{\alpha_Y}", from=1-2, to=2-2]
+      \arrow["\mu"', from=1-1, to=2-1]
+      \arrow["\varphi", from=2-1, to=2-2]
+      \arrow["{M\varphi}", from=1-1, to=1-2]
+    \stopverb}
+    while morphisms #{f : X \to Y} fits in the diagram as such: 
+    \tikzcd{\startverb%tex
+      {M^2 X} & MY \\
+      MX & Y \\
+      X
+      \arrow["{\alpha_Y}", from=1-2, to=2-2]
+      \arrow["\mu"', from=1-1, to=2-1]
+      \arrow["\varphi", from=2-1, to=2-2]
+      \arrow["{M\varphi}", from=1-1, to=1-2]
+      \arrow["f"', from=3-1, to=2-2]
+      \arrow["\eta", from=3-1, to=2-1]
+      \arrow[from=2-1, to=1-2]
+    \stopverb}
+    Given a homomorphism #{\varphi} of algebras, we can compute #{f} by composing with #{\eta}. On the other hand, given #{f}, we define #{\varphi} by #{\alpha_Y \compose Mf}. This creates a commutative square because
+    ##{\begin{aligned}
+      \alpha_Y \compose M \varphi
+      &= \alpha_Y \compose M\alpha_Y \compose M^2 f \\
+      &= \alpha_Y \compose \mu \compose M^2 f \\
+      &= \alpha_Y \compose M f \compose \mu \\
+      &= \varphi \compose \mu.
+    \end{aligned}}
+  }
+
+  \p{
+    We just have to verify that the two conversions are mutual inverses. In one way, we need to verify #{\alpha_Y \compose M f \compose \eta = f}. This is true because by the naturality of #{\eta} we get #{M f \compose \eta = \eta \compose f}. Then by the definition of [algebra](ualg-0002) #{\alpha_Y \compose \eta = \id}, proving the equality. On the other hand, we need to show #{\alpha_Y \compose M(\varphi \compose \eta) = \varphi}. This follows from the algebra identity #{\alpha_Y \compose M \alpha_Y = \alpha_Y \compose \mu} and the monad identity #{\mu \compose M \eta = \id}.
+  }
+}

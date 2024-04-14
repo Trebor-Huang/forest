@@ -1,0 +1,28 @@
+\date{2024-04-10}
+\title{algebra of a monad}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [monad](ualg-0001) #{M : \CatVar{C} \to \CatVar{C}}, an #{M}-\strong{algebra} is defined as an object #{X} equipped with a morphism #{\alpha : MX \to X}, such that the following two diagrams commute.
+}
+
+\tikzcd{\startverb%tex
+  {M^2X} & MX & X & MX \\
+  MX & X && X
+  \arrow["\alpha"', from=2-1, to=2-2]
+  \arrow["\alpha", from=1-2, to=2-2]
+  \arrow["\mu"', from=1-1, to=2-1]
+  \arrow["M\alpha", from=1-1, to=1-2]
+  \arrow["\operatorname{id}"', from=1-3, to=2-4]
+  \arrow["\eta", from=1-3, to=1-4]
+  \arrow["\alpha", from=1-4, to=2-4]
+\stopverb}
+
+\p{
+  In an unbiased formulation, we require the natural transformation #{M^n \to M} of the monad evaluated at the object #{X} composed with #{\alpha : MX \to X} to be equal to ##{M^n X \xto{M^{n-1}\alpha} M^{n-1}X \to \cdots \xto{\alpha} X.}
+}
+
+\p{
+  The algebras of a monad form a category #{\CatVar{C}^M}, whose morphisms are commutative squares. This is also known as the \strong{Eilenberg–Moore category}.
+}
