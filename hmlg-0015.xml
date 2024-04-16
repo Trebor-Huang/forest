@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>819</anchor> <taxon>Visualization</taxon> <addr>hmlg-0015</addr><route>hmlg-0015.xml</route>  <date><year>2024</year> <month>2</month> <day>20</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Filtered chain complex</title>   </frontmatter> <mainmatter><p>
-  Combining <ref addr="hmlg-000A" href="hmlg-000A.xml" taxon="Visualization"/> and <ref addr="hmlg-0014" href="hmlg-0014.xml" taxon="Visualization"/>, we arrive at the following picture. Each family of colors corresponds to the filtration <tex>F_ \bullet  C_n</tex> in one dimension, and the different shades corresponds to the degree in the filtration.
-</p>
-  <embedded-tex hash="a9c6c901bdc2a89b19b8d769a0865f82"><embedded-tex-preamble>
-        \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
-    \usetikzlibrary{decorations.pathreplacing}
-  </embedded-tex-preamble> <embedded-tex-body>
-     \begin {tikzpicture} 
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1287</fr:anchor><fr:taxon>Visualization</fr:taxon><fr:addr>hmlg-0015</fr:addr><fr:route>hmlg-0015.xml</fr:route><fr:title>Filtered chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Combining <fr:ref
+addr="hmlg-000A"
+href="hmlg-000A.xml"
+taxon="Visualization"></fr:ref> and <fr:ref
+addr="hmlg-0014"
+href="hmlg-0014.xml"
+taxon="Visualization"></fr:ref>, we arrive at the following picture. Each family of colors corresponds to the filtration <fr:tex>F_ \bullet  C_n</fr:tex> in one dimension, and the different shades corresponds to the degree in the filtration.
+</fr:p>
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz">
+    <fr:embedded-tex
+hash="5edffb1224886d5cf123812f3dbf58f4"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
+      \usetikzlibrary{decorations.pathreplacing}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzpicture} 
    \tikzset {every path/.style={thick, fill opacity = 0.2, line join = round}}
    \foreach   \depth  in {4,3,2,1} {
      \fill [blue!80!yellow] (-4,4) -- (0,0) -- ({ \depth }, 0) -- ({ \depth  - 4}, 4) -- cycle;
@@ -21,17 +41,22 @@
      \draw  ({ \depth  + 3},4) -- ({ \depth  + 7},0) -- ({ \depth  + 8}, 0) -- ({ \depth  + 4}, 4) -- cycle;
   }
  \end {tikzpicture}
-  </embedded-tex-body></embedded-tex>
-<p>
-  Note that we arranged so that only the higher degree (i.e. the lighter color) components may touch the lower degree components in the next dimension. So the intersection is a triangle shape instead of a complete diamond grid. This corresponds to the requirement that the boundary map sends <tex>F_i C_j</tex> to <tex>F_i C_{j+1}</tex>.
-</p><p>
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+<fr:p>
+  Note that we arranged so that only the higher degree (i.e. the lighter color) components may touch the lower degree components in the next dimension. So the intersection is a triangle shape instead of a complete diamond grid. This corresponds to the requirement that the boundary map sends <fr:tex>F_i C_j</fr:tex> to <fr:tex>F_i C_{j+1}</fr:tex>.
+</fr:p><fr:p>
   We can see the associated spectral sequences directly from the visualization. We start with the graded components, which form strands of chain complexes. Here the second degree is highlighted.
   
-  <embedded-tex hash="983018d43c8358bce43cb22365996fde"><embedded-tex-preamble>
-        \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
-    \usetikzlibrary{decorations.pathreplacing}
-  </embedded-tex-preamble> <embedded-tex-body>
-     \begin {tikzpicture} 
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz">
+    <fr:embedded-tex
+hash="edacd3ac0aa6b36988f534239518c954"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
+      \usetikzlibrary{decorations.pathreplacing}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzpicture} 
      \tikzset {every path/.style={thick, fill opacity = 0.4, line join = round}}
      \foreach   \depth  in {2} {
        \fill [blue!80!yellow] ({ \depth  - 5},4) -- ({ \depth  - 1},0) -- ({ \depth }, 0) -- ({ \depth  - 4}, 4) -- cycle;
@@ -45,34 +70,66 @@
        \draw  ({ \depth  + 3},4) -- ({ \depth  + 7},0) -- ({ \depth  + 8}, 0) -- ({ \depth  + 4}, 4) -- cycle;
     }
    \end {tikzpicture}
-  </embedded-tex-body></embedded-tex>
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
 
   The homology chops off the intersections, and so we enter the first page of the spectral sequence, consisting of strands with the top and bottom part cut off. Repeatedly taking homology, we are finally left with the rectangular part in the middle, which is the graded components of the desired homology group of the entire complex.
-</p></mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>820</anchor> <taxon>Visualization</taxon> <addr>hmlg-0014</addr><route>hmlg-0014.xml</route>  <date><year>2024</year> <month>2</month> <day>20</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Filtered object</title>   </frontmatter> <mainmatter><p>
-  We can visualize a filtered object <tex>F_1 A  \subseteq  F_2 A  \subseteq  F_3 A  \subseteq  A</tex> as nested rectangles.
-</p>
-  <embedded-tex hash="d3dc80106e5931a76b7bad463be6bd50"><embedded-tex-preamble>
-        \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
-    \usetikzlibrary{decorations.pathreplacing}
-  </embedded-tex-preamble> <embedded-tex-body>
-     \begin {tikzpicture} 
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1280</fr:anchor><fr:taxon>Visualization</fr:taxon><fr:addr>hmlg-0014</fr:addr><fr:route>hmlg-0014.xml</fr:route><fr:title>Filtered object</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  We can visualize a filtered object <fr:tex>F_1 A  \subseteq  F_2 A  \subseteq  F_3 A  \subseteq  A</fr:tex> as nested rectangles.
+</fr:p>
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz">
+    <fr:embedded-tex
+hash="360b99de446e14c5d12fdd97287432e2"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
+      \usetikzlibrary{decorations.pathreplacing}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzpicture} 
    \tikzset {every path/.style={thick, fill = blue!80!yellow, fill opacity = 0.1}}
    \filldraw  (0,-1) rectangle (4,1);
    \filldraw  (0,-1) rectangle (3,1);
    \filldraw  (0,-1) rectangle (2,1);
    \filldraw  (0,-1) rectangle (1,1);
  \end {tikzpicture}
-  </embedded-tex-body></embedded-tex>
-<p>
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+<fr:p>
   The graded components of this filtration are the individual rectangular regions.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>821</anchor> <taxon>Visualization</taxon> <addr>hmlg-000A</addr><route>hmlg-000A.xml</route>  <date><year>2024</year> <month>2</month> <day>17</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Chain complex</title>   </frontmatter> <mainmatter><p>
-  Since the boundary subgroup in one dimension can also be considered as a quotient in a lower dimension, it may be beneficial to identify the two in a visualization. This leads to the following picture. Regions appearing to the right are to be considered as quotients, and those to the left as subobjects. Further development of this visualization scheme can be seen <link href="https://www.3blue1brown.com/blog/exact-sequence-picturebook" type="external">here</link>.
-</p>
-  <embedded-tex hash="f54725dcd4c386fc74f41f8d152fec4a"><embedded-tex-preamble>
-        \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
-    \usetikzlibrary{decorations.pathreplacing}
-  </embedded-tex-preamble> <embedded-tex-body>
-     \begin {tikzpicture} 
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1283</fr:anchor><fr:taxon>Visualization</fr:taxon><fr:addr>hmlg-000A</fr:addr><fr:route>hmlg-000A.xml</fr:route><fr:title>Chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Since the boundary subgroup in one dimension can also be considered as a quotient in a lower dimension, it may be beneficial to identify the two in a visualization. This leads to the following picture. Regions appearing to the right are to be considered as quotients, and those to the left as subobjects. Further development of this visualization scheme can be seen <fr:link
+href="https://www.3blue1brown.com/blog/exact-sequence-picturebook"
+type="external">here</fr:link>.
+</fr:p>
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz">
+    <fr:embedded-tex
+hash="0a3470a2b5e0555203bd72cc6278c23f"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
+      \usetikzlibrary{decorations.pathreplacing}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzpicture} 
     \clip (-1.9, -2.4) rectangle (5.9, 2);
   \tikzset{every path/.style={thick}}
 
@@ -95,7 +152,8 @@
 
   \draw (6,0) circle (1.6);
  \end {tikzpicture}
-  </embedded-tex-body></embedded-tex>
-<p>
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+<fr:p>
   We chose to draw circles to emphasize the individual chain groups. In more complicated situations, it is more convenient to draw a chain of rectangles, with each chain group spanning three rectangular regions. We would then need other means to convey the confines of each object.
-</p></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

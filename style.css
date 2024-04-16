@@ -356,10 +356,6 @@ a.link.local .slug {
   color: inherit;
 }
 
-.error {
-  color: rgb(255, 50, 50, .8);
-}
-
 .block {
   padding-left: 2px;
   padding-right: 5px;
@@ -581,6 +577,36 @@ img {
   max-width: 100%;
 }
 
+span.tikz {
+  display: block;
+  text-align: center;
+}
+
+span.tikzcd img {
+  filter: url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg">\
+    <filter id="filter">\
+      <feColorMatrix\
+        in="SourceGraphic"\
+        type="luminanceToAlpha" />\
+      <feComponentTransfer result="mask">\
+        <feFuncA type="gamma" amplitude="1" exponent="50" offset="0"></feFuncA>\
+      </feComponentTransfer>\
+      <feComposite in="SourceGraphic" in2="mask" operator="out" />\
+    </filter>\
+    </svg>#filter'
+  );
+}
+
+/* <feColorMatrix
+in="SourceGraphic"
+type="luminanceToAlpha" />
+<feComponentTransfer result="mask">
+<feFuncA type="gamma" amplitude="1" exponent="50" offset="0"></feFuncA>
+</feComponentTransfer>
+<feComposite in="SourceGraphic" in2="mask" operator="out" /> */
+
+
 figcaption {
   font-style: italic;
   padding: 3px;
@@ -617,8 +643,22 @@ ol li ol li ol {
  list-style-type: lower-roman;
 }
 
+.error, .info {
+  border-radius: 4pt;
+  padding-left: 3pt;
+  padding-right: 3pt;
+  padding-top: 1pt;
+  padding-bottom: 2pt;
+  font-weight: bold;
+}
+
 .error {
  background-color: red;
- font-weight: bold;
+ color: white;
+}
+
+
+.info {
+ background-color: #bbb;
  color: white;
 }

@@ -1,22 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>372</anchor> <taxon>Definition</taxon> <addr>algm-001C</addr><route>algm-001C.xml</route>  <date><year>2024</year> <month>4</month> <day>2</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Pullback of sieves</title>   </frontmatter> <mainmatter><p>
-  Given a <link href="algm-001B.xml" type="local" addr="algm-001B" title="Sieve">sieve</link> <tex>S</tex> over <tex>A</tex> and a morphism <tex>g : B  \to  A</tex>, the <strong>pullback</strong> <tex>g^* S</tex> is a sieve over <tex>B</tex>. <tex>h : C  \to  B</tex> is in this sieve iff <tex>g  \circ  h</tex> is in <tex>S</tex>. There is a natural map <tex>g^* S  \to  S</tex> given by <tex>g  \circ  -</tex>.
-</p></mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>373</anchor> <taxon>Definition</taxon> <addr>algm-001B</addr><route>algm-001B.xml</route>  <date><year>2024</year> <month>4</month> <day>2</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Sieve</title>   </frontmatter> <mainmatter><p>
-  A <strong>sieve</strong> over an object <tex>A</tex> of an arbitrary category <tex>\mathcal { C }</tex> is a subfunctor of <tex>\mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (A)</tex>. More explicitly, it selects some arrows with codomain <tex>A</tex>, such that the selected arrows absorbs composition (i.e. if <tex>f : B  \to  A</tex> is selected and <tex>g : C  \to  B</tex>, then <tex>g  \circ  f</tex> is also selected).
-</p></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>374</anchor> <taxon>Construction</taxon> <addr>algm-001M</addr><route>algm-001M.xml</route>  <date><year>2024</year> <month>4</month> <day>4</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Subobject classifier of presheaves</title>   </frontmatter> <mainmatter><p>
-  The subobject classifier <tex>\Omega</tex> of presheaves can be given by a quick calculation.
-  <tex display="block">\Gamma (U,  \Omega )    \cong   \hom ( \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U),  \Omega )    \cong   \operatorname {Sub}( \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U))</tex>
-  By definition, this is the set of <link href="algm-001B.xml" type="local" addr="algm-001B" title="Sieve">sieves</link> on <tex>U</tex>, and the functorial action is the <link href="algm-001C.xml" type="local" addr="algm-001C" title="Pullback of sieves">pullback</link>. For a monomorphism <tex>F  \hookrightarrow  G</tex>, an element <tex>s  \in   \Gamma (U, G)</tex> is sent to the sieve consisting of arrows <tex>f : V  \to  U</tex> such that the restriction along <tex>f</tex> is included in <tex>F</tex>.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>375</anchor> <taxon>Definition</taxon> <addr>algm-001A</addr><route>algm-001A.xml</route>  <date><year>2024</year> <month>4</month> <day>2</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Grothendieck coverage</title>   </frontmatter> <mainmatter><p>
-  Given a category <tex>\mathcal { C }</tex>, a <strong>Grothendieck coverage</strong> declares some <link href="algm-001B.xml" type="local" addr="algm-001B" title="Sieve">sieves</link> to be coverings, such that
-  <ul><li>The maximal sieve <tex>\mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (A)  \subseteq   \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (A)</tex> is always a covering.</li>
-    <li>Covering sieves are upwards closed, i.e. if <tex>S  \subseteq  S'</tex> and <tex>S</tex> is a covering sieve, then so is <tex>S'</tex>.</li>
-    <li>If <tex>S</tex> is a covering sieve of <tex>A</tex>, and <tex>g : B  \to  A</tex> is a morphism, then the <link href="algm-001C.xml" type="local" addr="algm-001C" title="Pullback of sieves">pullback</link> <tex>g^* S</tex> is also a covering.</li>
-    <li>Suppose <tex>S</tex> is a sieve, then the collection of arrows <tex>g</tex> such that <tex>g^* S</tex> is a covering is a sieve itself. If this sieve is a covering, then <tex>S</tex> is also a covering.</li></ul>
-  A Grothendieck coverage can be viewed as a <link href="algm-0019.xml" type="local" addr="algm-0019" title="Coverage">coverage</link>.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>376</anchor> <taxon>Definition</taxon> <addr>algm-001E</addr><route>algm-001E.xml</route>  <date><year>2024</year> <month>4</month> <day>2</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Plus construction</title>   </frontmatter> <mainmatter><p>
-  Given a <link href="algm-001A.xml" type="local" addr="algm-001A" title="Grothendieck coverage">Grothendieck coverage</link> on <tex>\mathcal { C }</tex> and a presheaf <tex>P :  \mathcal { C } ^ \textrm {op}   \to   \mathsf { Set }</tex>, the <strong>plus construction</strong> produces a new presheaf <tex>P^+</tex> by taking a directed limit over all the <link href="algm-001D.xml" type="local" addr="algm-001D" title="Descent data of presheaves">descent data</link>. More precisely, we assign <tex display="block">\Gamma (A, P^+) =  \operatorname *{colim} _{S  \text { covers } A}  \hom (S, P).</tex> This means the sections of <tex>P^+</tex> are compatible families of sections of <tex>P</tex>, and two families are considered equal if they are equal on a common covering subsieve.
-</p><p>
-  Given a map <tex>g : B  \to  A</tex>, we have a <link href="algm-001C.xml" type="local" addr="algm-001C" title="Pullback of sieves">pullback</link> <tex>\hom (S, P)  \to   \hom (g^*S, P)</tex>. This induces the functorial action of <tex>P^+</tex>. There is an obvious natural transformation <tex>P  \to  P^+</tex>.
-</p></mainmatter> </tree></backlinks> <references/></backmatter></tree>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>646</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001C</fr:addr><fr:route>algm-001C.xml</fr:route><fr:title>Pullback of sieves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a <fr:link
+href="algm-001B.xml"
+type="local"
+addr="algm-001B">sieve</fr:link> <fr:tex>S</fr:tex> over <fr:tex>A</fr:tex> and a morphism <fr:tex>g : B  \to  A</fr:tex>, the <fr:strong>pullback</fr:strong> <fr:tex>g^* S</fr:tex> is a sieve over <fr:tex>B</fr:tex>. <fr:tex>h : C  \to  B</fr:tex> is in this sieve iff <fr:tex>g  \circ  h</fr:tex> is in <fr:tex>S</fr:tex>. There is a natural map <fr:tex>g^* S  \to  S</fr:tex> given by <fr:tex>g  \circ  -</fr:tex>.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>644</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001B</fr:addr><fr:route>algm-001B.xml</fr:route><fr:title>Sieve</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  A <fr:strong>sieve</fr:strong> over an object <fr:tex>A</fr:tex> of an arbitrary category <fr:tex>\mathcal { C }</fr:tex> is a subfunctor of <fr:tex>\mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (A)</fr:tex>. More explicitly, it selects some arrows with codomain <fr:tex>A</fr:tex>, such that the selected arrows absorbs composition (i.e. if <fr:tex>f : B  \to  A</fr:tex> is selected and <fr:tex>g : C  \to  B</fr:tex>, then <fr:tex>g  \circ  f</fr:tex> is also selected).
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>638</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>algm-001M</fr:addr><fr:route>algm-001M.xml</fr:route><fr:title>Subobject classifier of presheaves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The subobject classifier <fr:tex>\Omega</fr:tex> of presheaves can be given by a quick calculation.
+  <fr:tex
+display="block">\Gamma (U,  \Omega )    \cong   \hom ( \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U),  \Omega )    \cong   \operatorname {Sub}( \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U))</fr:tex>
+  By definition, this is the set of <fr:link
+href="algm-001B.xml"
+type="local"
+addr="algm-001B">sieves</fr:link> on <fr:tex>U</fr:tex>, and the functorial action is the <fr:link
+href="algm-001C.xml"
+type="local"
+addr="algm-001C">pullback</fr:link>. For a monomorphism <fr:tex>F  \hookrightarrow  G</fr:tex>, an element <fr:tex>s  \in   \Gamma (U, G)</fr:tex> is sent to the sieve consisting of arrows <fr:tex>f : V  \to  U</fr:tex> such that the restriction along <fr:tex>f</fr:tex> is included in <fr:tex>F</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>640</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001A</fr:addr><fr:route>algm-001A.xml</fr:route><fr:title>Grothendieck coverage</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a category <fr:tex>\mathcal { C }</fr:tex>, a <fr:strong>Grothendieck coverage</fr:strong> declares some <fr:link
+href="algm-001B.xml"
+type="local"
+addr="algm-001B">sieves</fr:link> to be coverings, such that
+  <fr:ul><fr:li>The maximal sieve <fr:tex>\mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (A)  \subseteq   \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (A)</fr:tex> is always a covering.</fr:li>
+    <fr:li>Covering sieves are upwards closed, i.e. if <fr:tex>S  \subseteq  S'</fr:tex> and <fr:tex>S</fr:tex> is a covering sieve, then so is <fr:tex>S'</fr:tex>.</fr:li>
+    <fr:li>If <fr:tex>S</fr:tex> is a covering sieve of <fr:tex>A</fr:tex>, and <fr:tex>g : B  \to  A</fr:tex> is a morphism, then the <fr:link
+href="algm-001C.xml"
+type="local"
+addr="algm-001C">pullback</fr:link> <fr:tex>g^* S</fr:tex> is also a covering.</fr:li>
+    <fr:li>Suppose <fr:tex>S</fr:tex> is a sieve, then the collection of arrows <fr:tex>g</fr:tex> such that <fr:tex>g^* S</fr:tex> is a covering is a sieve itself. If this sieve is a covering, then <fr:tex>S</fr:tex> is also a covering.</fr:li></fr:ul>
+  A Grothendieck coverage can be viewed as a <fr:link
+href="algm-0019.xml"
+type="local"
+addr="algm-0019">coverage</fr:link>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>642</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001E</fr:addr><fr:route>algm-001E.xml</fr:route><fr:title>Plus construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a <fr:link
+href="algm-001A.xml"
+type="local"
+addr="algm-001A">Grothendieck coverage</fr:link> on <fr:tex>\mathcal { C }</fr:tex> and a presheaf <fr:tex>P :  \mathcal { C } ^ \textrm {op}   \to   \mathsf { Set }</fr:tex>, the <fr:strong>plus construction</fr:strong> produces a new presheaf <fr:tex>P^+</fr:tex> by taking a directed limit over all the <fr:link
+href="algm-001D.xml"
+type="local"
+addr="algm-001D">descent data</fr:link>. More precisely, we assign <fr:tex
+display="block">\Gamma (A, P^+) =  \operatorname *{colim} _{S  \text { covers } A}  \hom (S, P).</fr:tex> This means the sections of <fr:tex>P^+</fr:tex> are compatible families of sections of <fr:tex>P</fr:tex>, and two families are considered equal if they are equal on a common covering subsieve.
+</fr:p><fr:p>
+  Given a map <fr:tex>g : B  \to  A</fr:tex>, we have a <fr:link
+href="algm-001C.xml"
+type="local"
+addr="algm-001C">pullback</fr:link> <fr:tex>\hom (S, P)  \to   \hom (g^*S, P)</fr:tex>. This induces the functorial action of <fr:tex>P^+</fr:tex>. There is an obvious natural transformation <fr:tex>P  \to  P^+</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

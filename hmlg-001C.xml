@@ -1,18 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>766</anchor> <taxon>Definition</taxon> <addr>hmlg-001C</addr><route>hmlg-001C.xml</route>  <date><year>2024</year> <month>2</month> <day>26</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Perturbation of chain complex</title>   </frontmatter> <mainmatter><p>
-  A <strong>perturbation</strong> of a chain complex with boundary operator <tex>d</tex> is an operator <tex>\delta</tex> of degree <tex>(-1)</tex> such that <tex>d +  \delta</tex> also forms a boundary operator.
-</p></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>767</anchor> <taxon>Construction</taxon> <addr>hmlg-001E</addr><route>hmlg-001E.xml</route>  <date><year>2024</year> <month>2</month> <day>26</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title><link href="hmlg-001C.xml" type="local" addr="hmlg-001C" title="Perturbation of chain complex">Perturbation</link> of the smaller chain complex in a <link href="hmlg-0017.xml" type="local" addr="hmlg-0017" title="Chain reduction">chain reduction</link></title>   </frontmatter> <mainmatter><p>
-  Given a reduction <tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</tex> and a perturbation <tex>\delta _D</tex> for <tex>D</tex>, we can construct a perturbation <tex>\delta _C</tex> for <tex>C</tex>, such that the same <tex>\rho</tex> can serve as a reduction of the perturbed chain complexes.
-</p>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1198</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001C</fr:addr><fr:route>hmlg-001C.xml</fr:route><fr:title>Perturbation of chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  A <fr:strong>perturbation</fr:strong> of a chain complex with boundary operator <fr:tex>d</fr:tex> is an operator <fr:tex>\delta</fr:tex> of degree <fr:tex>(-1)</fr:tex> such that <fr:tex>d +  \delta</fr:tex> also forms a boundary operator.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1194</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001E</fr:addr><fr:route>hmlg-001E.xml</fr:route><fr:title><fr:link
+href="hmlg-001C.xml"
+type="local"
+addr="hmlg-001C">Perturbation</fr:link> of the smaller chain complex in a <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a reduction <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex> and a perturbation <fr:tex>\delta _D</fr:tex> for <fr:tex>D</fr:tex>, we can construct a perturbation <fr:tex>\delta _C</fr:tex> for <fr:tex>C</fr:tex>, such that the same <fr:tex>\rho</fr:tex> can serve as a reduction of the perturbed chain complexes.
+</fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>768</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>2</month> <day>26</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>hmlg-001E</parent> </frontmatter> <mainmatter>
-  <p>
-    Let the reduction <tex>\rho</tex> be made out of the three maps <tex>\pi _{ \rho }  : C  \to  D</tex>, <tex>\iota _{ \rho }  : D  \to  C</tex> and <tex>h_{ \rho }  : C  \to  C</tex>. Then since <tex>C</tex> splits as the direct sum of <tex>D</tex> and an <link href="hmlg-000D.xml" type="local" addr="hmlg-000D" title="Acyclic chain complex">acyclic</link> complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition <tex>\delta _C =  \iota _{ \rho }   \circ   \delta _D  \circ   \pi _{ \rho }</tex>. A quick computation shows that <tex>\rho</tex> is still a reduction of the perturbed chain complexes.
-  </p>
-</mainmatter> </tree>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1135</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001E</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    Let the reduction <fr:tex>\rho</fr:tex> be made out of the three maps <fr:tex>\pi _{ \rho }  : C  \to  D</fr:tex>, <fr:tex>\iota _{ \rho }  : D  \to  C</fr:tex> and <fr:tex>h_{ \rho }  : C  \to  C</fr:tex>. Then since <fr:tex>C</fr:tex> splits as the direct sum of <fr:tex>D</fr:tex> and an <fr:link
+href="hmlg-000D.xml"
+type="local"
+addr="hmlg-000D">acyclic</fr:link> complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition <fr:tex>\delta _C =  \iota _{ \rho }   \circ   \delta _D  \circ   \pi _{ \rho }</fr:tex>. A quick computation shows that <fr:tex>\rho</fr:tex> is still a reduction of the perturbed chain complexes.
+  </fr:p>
+</fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>769</anchor>  <addr>hmlg-001F</addr><route>hmlg-001F.xml</route>  <date><year>2024</year> <month>2</month> <day>26</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Geometric interpretation of <link href="hmlg-001C.xml" type="local" addr="hmlg-001C" title="Perturbation of chain complex">perturbations</link></title>   </frontmatter> <mainmatter><p>
-  For <link href="hmlg-0013.xml" type="local" addr="hmlg-0013" title="Algebraic cellular complex">ACCs</link>, the effect of a perturbation is to “reconnect” the cells. But it may not create or delete cells, since the abelian groups are unchanged.
-</p></mainmatter> </tree></backlinks> <references/></backmatter></tree>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1196</fr:anchor><fr:addr>hmlg-001F</fr:addr><fr:route>hmlg-001F.xml</fr:route><fr:title>Geometric interpretation of <fr:link
+href="hmlg-001C.xml"
+type="local"
+addr="hmlg-001C">perturbations</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  For <fr:link
+href="hmlg-0013.xml"
+type="local"
+addr="hmlg-0013">ACCs</fr:link>, the effect of a perturbation is to “reconnect” the cells. But it may not create or delete cells, since the abelian groups are unchanged.
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

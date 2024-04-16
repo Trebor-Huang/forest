@@ -1,55 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>431</anchor> <taxon>Theorem</taxon> <addr>algm-0011</addr><route>algm-0011.xml</route>  <date><year>2024</year> <month>3</month> <day>12</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Characterization of the locale <tex>\operatorname {Proj} (S)</tex></title>   </frontmatter> <mainmatter><p>
-  The opens of the <link href="algm-000Y.xml" type="local" addr="algm-000Y" title="Projective spectrum of a graded ring">projective spectrum</link> <tex>\operatorname {Proj} (S)</tex> are in bijection with graded radical ideals with <tex>\mathfrak { r } _0 = 0</tex>. Hence we write <tex>D_+ ( \mathfrak { r } )</tex> for this open. The proof is exactly the same as <ref addr="algm-0008" href="algm-0008.xml" taxon="Theorem"/>.
-</p></mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>432</anchor> <taxon>Definition</taxon> <addr>algm-000Y</addr><route>algm-000Y.xml</route>  <date><year>2024</year> <month>3</month> <day>12</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Projective spectrum of a graded ring</title>   </frontmatter> <mainmatter><p>
-  Given a <tex>\mathbb  N</tex>-graded ring <tex>S_ \bullet</tex>, we construct a locale analogous to <link href="algm-0007.xml" type="local" addr="algm-0007" title="Localic spectrum of a commutative ring">the <tex>\operatorname {Spec}</tex> construction</link> for affine schemes. We start with symbols of <strong>distinguished opens</strong> <tex>D_+ (f)</tex> for each positively graded element <tex>f</tex>, and impose the same relations: <tex>D_+</tex> sends finite products to finite intersections, and for elements of the same grade, <tex>D_+ ( \sum _i f_i)  \subseteq   \bigcup _i D_+(f_i)</tex>.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>433</anchor> <taxon>Theorem</taxon> <addr>algm-0008</addr><route>algm-0008.xml</route>  <date><year>2024</year> <month>3</month> <day>3</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Characterization of the locale <tex>\operatorname {Spec} (R)</tex></title>   </frontmatter> <mainmatter><p>
-  The opens in <link href="algm-0007.xml" type="local" addr="algm-0007" title="Localic spectrum of a commutative ring">the locale</link> <tex>\operatorname {Spec} (R)</tex> bijectively corresponds to radical ideals of <tex>R</tex>, whose divisibility relation agree with the inverse inclusion relation of opens. Intersections correspond to lowest common multiple, and unions correspond to the radical of the greatest common divisor. In other words, the locale is isomorphic to the locale corresponding to the <link href="algm-0001.xml" type="local" addr="algm-0001" title="Topological spectrum of a commutative ring">topological spectrum of a commutative ring</link> by <ref addr="algm-0002" href="algm-0002.xml" taxon="Theorem"/>.
-</p>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>747</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0011</fr:addr><fr:route>algm-0011.xml</fr:route><fr:title>Characterization of the locale <fr:tex>\operatorname {Proj} (S)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The opens of the <fr:link
+href="algm-000Y.xml"
+type="local"
+addr="algm-000Y">projective spectrum</fr:link> <fr:tex>\operatorname {Proj} (S)</fr:tex> are in bijection with graded radical ideals with <fr:tex>\mathfrak { r } _0 = 0</fr:tex>. Hence we write <fr:tex>D_+ ( \mathfrak { r } )</fr:tex> for this open. The proof is exactly the same as <fr:ref
+addr="algm-0008"
+href="algm-0008.xml"
+taxon="Theorem"></fr:ref>.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>741</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000Y</fr:addr><fr:route>algm-000Y.xml</fr:route><fr:title>Projective spectrum of a graded ring</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a <fr:tex>\mathbb  N</fr:tex>-graded ring <fr:tex>S_ \bullet</fr:tex>, we construct a locale analogous to <fr:link
+href="algm-0007.xml"
+type="local"
+addr="algm-0007">the <fr:tex>\operatorname {Spec}</fr:tex> construction</fr:link> for affine schemes. We start with symbols of <fr:strong>distinguished opens</fr:strong> <fr:tex>D_+ (f)</fr:tex> for each positively graded element <fr:tex>f</fr:tex>, and impose the same relations: <fr:tex>D_+</fr:tex> sends finite products to finite intersections, and for elements of the same grade, <fr:tex>D_+ ( \sum _i f_i)  \subseteq   \bigcup _i D_+(f_i)</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>745</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0008</fr:addr><fr:route>algm-0008.xml</fr:route><fr:title>Characterization of the locale <fr:tex>\operatorname {Spec} (R)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The opens in <fr:link
+href="algm-0007.xml"
+type="local"
+addr="algm-0007">the locale</fr:link> <fr:tex>\operatorname {Spec} (R)</fr:tex> bijectively corresponds to radical ideals of <fr:tex>R</fr:tex>, whose divisibility relation agree with the inverse inclusion relation of opens. Intersections correspond to lowest common multiple, and unions correspond to the radical of the greatest common divisor. In other words, the locale is isomorphic to the locale corresponding to the <fr:link
+href="algm-0001.xml"
+type="local"
+addr="algm-0001">topological spectrum of a commutative ring</fr:link> by <fr:ref
+addr="algm-0002"
+href="algm-0002.xml"
+taxon="Theorem"></fr:ref>.
+</fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>434</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>3</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>algm-0008</parent> </frontmatter> <mainmatter>
-  <p>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>743</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0008</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
     We can first put the opens in disjunctive normal form
-    <tex display="block">U =  \bigcup _{i  \in  I}  \bigcap _{j=1}^{n_i} D(f_{i, j}).</tex>
-    By the definition we can reduce the intersections into products. Write <tex>f_i =  \prod _j f_{i, j}</tex>, we have <tex>U =  \bigcup _i D(f_i)</tex>. Given this form, we can try to <em>saturate</em> the union, by throwing in everything that doesn’t enlarge <tex>U</tex>. In other words, we only consider the unions such that no other generator <tex>D(f)</tex> can be added, i.e. <tex>D(f)  \nsubseteq  U</tex>. This would uniquely determine <tex>U</tex>.
-  </p>
+    <fr:tex
+display="block">U =  \bigcup _{i  \in  I}  \bigcap _{j=1}^{n_i} D(f_{i, j}).</fr:tex>
+    By the definition we can reduce the intersections into products. Write <fr:tex>f_i =  \prod _j f_{i, j}</fr:tex>, we have <fr:tex>U =  \bigcup _i D(f_i)</fr:tex>. Given this form, we can try to <fr:em>saturate</fr:em> the union, by throwing in everything that doesn’t enlarge <fr:tex>U</fr:tex>. In other words, we only consider the unions such that no other generator <fr:tex>D(f)</fr:tex> can be added, i.e. <fr:tex>D(f)  \nsubseteq  U</fr:tex>. This would uniquely determine <fr:tex>U</fr:tex>.
+  </fr:p>
 
-  <p>
-    Such a saturated set would have to be closed under addition since <tex>D(f+g)  \subseteq  D(f)  \cup  D(g)</tex>, and for the nullary case it must include <tex>D(0) =  \bot</tex>. It also has to absorb multiplication, because <tex>D(f  \cdot  g)  \subseteq  D(f)</tex>. This means we are dealing with ideals. Henceforth, we write <tex>D( \mathfrak { a } )</tex> for the union <tex>\bigcup _{ \mathfrak { a }   \mid  f} D(f)</tex>.
-  </p>
+  <fr:p>
+    Such a saturated set would have to be closed under addition since <fr:tex>D(f+g)  \subseteq  D(f)  \cup  D(g)</fr:tex>, and for the nullary case it must include <fr:tex>D(0) =  \bot</fr:tex>. It also has to absorb multiplication, because <fr:tex>D(f  \cdot  g)  \subseteq  D(f)</fr:tex>. This means we are dealing with ideals. Henceforth, we write <fr:tex>D( \mathfrak { a } )</fr:tex> for the union <fr:tex>\bigcup _{ \mathfrak { a }   \mid  f} D(f)</fr:tex>.
+  </fr:p>
 
-  <p>
-    There is one last requirement we haven’t dealt with, i.e. <tex>D(f  \cdot  g)</tex> is the <em>greatest</em> lower bound of <tex>D(f)</tex> and <tex>D(g)</tex>, instead of simply a lower bound. For example, this gives the equality <tex>D(f^n) = D(f)</tex>, so we need to restrict our attention to radical ideals. It then suffices to prove that the radical ideal generated by <tex>f  \cdot  g</tex> is equal to the lowest common multiple of the radical ideals generated by <tex>f</tex> and <tex>g</tex>, which is true.
-  </p>
-</mainmatter> </tree>
+  <fr:p>
+    There is one last requirement we haven’t dealt with, i.e. <fr:tex>D(f  \cdot  g)</fr:tex> is the <fr:em>greatest</fr:em> lower bound of <fr:tex>D(f)</fr:tex> and <fr:tex>D(g)</fr:tex>, instead of simply a lower bound. For example, this gives the equality <fr:tex>D(f^n) = D(f)</fr:tex>, so we need to restrict our attention to radical ideals. It then suffices to prove that the radical ideal generated by <fr:tex>f  \cdot  g</fr:tex> is equal to the lowest common multiple of the radical ideals generated by <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex>, which is true.
+  </fr:p>
+</fr:mainmatter></fr:tree>
   
-</mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>435</anchor> <taxon>Theorem</taxon> <addr>algm-0012</addr><route>algm-0012.xml</route>  <date><year>2024</year> <month>3</month> <day>12</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Points of the projective spectrum</title>   </frontmatter> <mainmatter><p>
-  The points of the <link href="algm-000Y.xml" type="local" addr="algm-000Y" title="Projective spectrum of a graded ring">projective scheme</link> <tex>\operatorname {Proj} (S)</tex> are given by prime ideals not dividing the <link href="algm-0013.xml" type="local" addr="algm-0013" title="Irrelevant ideal">irrelevant ideal</link> <tex>\mathord { \odot }</tex>. This is in bijection with ideals with <tex>\mathfrak { p } _0 = 0</tex> (equivalently <tex>\mathord { \odot }   \nmid   \mathfrak { p }</tex>), and the condition for prime ideals holds for positively graded elements, i.e. <tex display="block">\mathfrak { p }   \mid  x y  \iff  ( \mathfrak { p }   \mid  x  \lor   \mathfrak { p }   \mid  y)</tex> for positively graded <tex>x</tex> and <tex>y</tex>.
-</p>
+</fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>739</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0012</fr:addr><fr:route>algm-0012.xml</fr:route><fr:title>Points of the projective spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The points of the <fr:link
+href="algm-000Y.xml"
+type="local"
+addr="algm-000Y">projective scheme</fr:link> <fr:tex>\operatorname {Proj} (S)</fr:tex> are given by prime ideals not dividing the <fr:link
+href="algm-0013.xml"
+type="local"
+addr="algm-0013">irrelevant ideal</fr:link> <fr:tex>\mathord { \odot }</fr:tex>. This is in bijection with ideals with <fr:tex>\mathfrak { p } _0 = 0</fr:tex> (equivalently <fr:tex>\mathord { \odot }   \nmid   \mathfrak { p }</fr:tex>), and the condition for prime ideals holds for positively graded elements, i.e. <fr:tex
+display="block">\mathfrak { p }   \mid  x y  \iff  ( \mathfrak { p }   \mid  x  \lor   \mathfrak { p }   \mid  y)</fr:tex> for positively graded <fr:tex>x</fr:tex> and <fr:tex>y</fr:tex>.
+</fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>436</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>12</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>algm-0012</parent> </frontmatter> <mainmatter>
-  <p>
-    To specify a point <tex>P</tex>, we need to specify which opens <tex>D_+(f)</tex> it belongs to, where <tex>f</tex> ranges over positively graded elements. Equivalently, we specify the closeds <tex>V_+(f)</tex>. Since <tex>V_+(f)  \cap  V_+(g)  \subseteq  V_+(f + g)</tex>, if <tex>P  \in  V_+(f)</tex> and <tex>P  \in  V_+(g)</tex> then <tex>P  \in  V_+(f + g)</tex>. Similarly since <tex>V_+(f)  \subseteq  V_+(f g)</tex>, <tex>P  \in  V_+(f)</tex> implies <tex>P  \in  V_+(f g)</tex>. Collecting all the elements whose distinguished closed contains <tex>P</tex>, we get an ideal <tex>\mathfrak { a }</tex> whose zeroth degree vanishes.
-  </p>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>737</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0012</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    To specify a point <fr:tex>P</fr:tex>, we need to specify which opens <fr:tex>D_+(f)</fr:tex> it belongs to, where <fr:tex>f</fr:tex> ranges over positively graded elements. Equivalently, we specify the closeds <fr:tex>V_+(f)</fr:tex>. Since <fr:tex>V_+(f)  \cap  V_+(g)  \subseteq  V_+(f + g)</fr:tex>, if <fr:tex>P  \in  V_+(f)</fr:tex> and <fr:tex>P  \in  V_+(g)</fr:tex> then <fr:tex>P  \in  V_+(f + g)</fr:tex>. Similarly since <fr:tex>V_+(f)  \subseteq  V_+(f g)</fr:tex>, <fr:tex>P  \in  V_+(f)</fr:tex> implies <fr:tex>P  \in  V_+(f g)</fr:tex>. Collecting all the elements whose distinguished closed contains <fr:tex>P</fr:tex>, we get an ideal <fr:tex>\mathfrak { a }</fr:tex> whose zeroth degree vanishes.
+  </fr:p>
 
-  <p>
-    We have <tex>V_+(f g) = V_+(f)  \cup  V_+(g)</tex>, so if <tex>\mathfrak { a }   \mid  f g</tex>, then either <tex>\mathfrak { a }   \mid  f</tex> or <tex>\mathfrak { a }   \mid  g</tex>. This is almost the condition for prime ideals, but recall that <tex>f</tex> and <tex>g</tex> must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with <ref addr="algm-0011" href="algm-0011.xml" taxon="Theorem"/>.
-  </p>
+  <fr:p>
+    We have <fr:tex>V_+(f g) = V_+(f)  \cup  V_+(g)</fr:tex>, so if <fr:tex>\mathfrak { a }   \mid  f g</fr:tex>, then either <fr:tex>\mathfrak { a }   \mid  f</fr:tex> or <fr:tex>\mathfrak { a }   \mid  g</fr:tex>. This is almost the condition for prime ideals, but recall that <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with <fr:ref
+addr="algm-0011"
+href="algm-0011.xml"
+taxon="Theorem"></fr:ref>.
+  </fr:p>
 
-  <p>
-    Next, we prove these ideals are in bijection with prime ideals not dividing <tex>\mathord { \odot }</tex>. One direction of the correspondence is obvious: we take a prime ideal <tex>\mathfrak { p }</tex> and remove the zeroth degree, which amounts to taking <tex>\operatorname {lcm} ( \mathfrak { p } ,  \mathord { \odot } )</tex>.
-  </p>
+  <fr:p>
+    Next, we prove these ideals are in bijection with prime ideals not dividing <fr:tex>\mathord { \odot }</fr:tex>. One direction of the correspondence is obvious: we take a prime ideal <fr:tex>\mathfrak { p }</fr:tex> and remove the zeroth degree, which amounts to taking <fr:tex>\operatorname {lcm} ( \mathfrak { p } ,  \mathord { \odot } )</fr:tex>.
+  </fr:p>
 
-  <p>
-    We prove injectivity. Suppose primes <tex>\mathfrak { p }</tex> and <tex>\mathfrak { q }</tex> satisfy <tex>\operatorname {lcm} ( \mathfrak { p } ,  \mathord { \odot } ) =  \operatorname {lcm} ( \mathfrak { q } ,  \mathord { \odot } )</tex>, then <tex>\mathfrak { p }   \mid   \operatorname {lcm} ( \mathfrak { q } ,  \mathord { \odot } )  \mid   \mathfrak { q }   \cdot   \mathord { \odot }</tex>, so either <tex>\mathfrak { p }   \mid   \mathord { \odot }</tex> which is forbidden, or <tex>\mathfrak { p }   \mid   \mathfrak { q }</tex>. Conversely we must have <tex>\mathfrak { q }   \mid   \mathfrak { p }</tex>, hence <tex>\mathfrak { p }  =  \mathfrak { q }</tex>.
-  </p>
+  <fr:p>
+    We prove injectivity. Suppose primes <fr:tex>\mathfrak { p }</fr:tex> and <fr:tex>\mathfrak { q }</fr:tex> satisfy <fr:tex>\operatorname {lcm} ( \mathfrak { p } ,  \mathord { \odot } ) =  \operatorname {lcm} ( \mathfrak { q } ,  \mathord { \odot } )</fr:tex>, then <fr:tex>\mathfrak { p }   \mid   \operatorname {lcm} ( \mathfrak { q } ,  \mathord { \odot } )  \mid   \mathfrak { q }   \cdot   \mathord { \odot }</fr:tex>, so either <fr:tex>\mathfrak { p }   \mid   \mathord { \odot }</fr:tex> which is forbidden, or <fr:tex>\mathfrak { p }   \mid   \mathfrak { q }</fr:tex>. Conversely we must have <fr:tex>\mathfrak { q }   \mid   \mathfrak { p }</fr:tex>, hence <fr:tex>\mathfrak { p }  =  \mathfrak { q }</fr:tex>.
+  </fr:p>
 
-  <p>
-    We prove surjectivity. Given an ideal <tex>\mathfrak { a }</tex>, we need to supplement it with a zeroth degree component <tex>\mathfrak { a } _0</tex> so that together they make a prime ideal not divided by <tex>\mathord { \odot }</tex>. We define <tex>\mathfrak { a } _0  \mid  c</tex> iff there exists some positively graded <tex>\mathfrak { a }   \nmid  f</tex> such that <tex>\mathfrak { a }   \mid  cf</tex>. The verification is routine element chasing.
-  </p>
-</mainmatter> </tree>
+  <fr:p>
+    We prove surjectivity. Given an ideal <fr:tex>\mathfrak { a }</fr:tex>, we need to supplement it with a zeroth degree component <fr:tex>\mathfrak { a } _0</fr:tex> so that together they make a prime ideal not divided by <fr:tex>\mathord { \odot }</fr:tex>. We define <fr:tex>\mathfrak { a } _0  \mid  c</fr:tex> iff there exists some positively graded <fr:tex>\mathfrak { a }   \nmid  f</fr:tex> such that <fr:tex>\mathfrak { a }   \mid  cf</fr:tex>. The verification is routine element chasing.
+  </fr:p>
+</fr:mainmatter></fr:tree>
   
-</mainmatter> </tree></backlinks> <references/></backmatter></tree>
+</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

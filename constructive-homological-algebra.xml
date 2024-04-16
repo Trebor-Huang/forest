@@ -1,38 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>734</anchor> <taxon>Reference</taxon> <addr>constructive-homological-algebra</addr><route>constructive-homological-algebra.xml</route>  <date><year>2024</year> <month>2</month> <day>27</day></date> <authors><author>Julio Rubio García and Francis Sergeraert</author> </authors> <title>Constructive Homological Algebra and Applications</title>   <meta name="doi">10.48550/arXiv.1208.3816</meta></frontmatter> <mainmatter><p>
-  This text was written and used for a MAP Summer School at the University of Genova, August 28 to September 2, 2006. Available since then on the web site of the second author, it has been used and referenced by several colleagues working in Commutative Algebra and Algebraic Topology. To make safer such references, it was suggested to place it on the Arxiv repository. It is a relatively detailed exposition of the use of the <link href="hmlg-001G.xml" type="local" addr="hmlg-001G" title="Perturbation of the larger chain complex in a chain reduction">Basic Perturbation Lemma</link> to make constructive Homological Algebra (standard Homological Algebra is not constructive) and how this technology can be used in Commutative Algebra (Koszul complexes) and Algebraic Topology (effective versions of spectral sequences).
-</p></mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>735</anchor> <taxon>Construction</taxon> <addr>hmlg-001G</addr><route>hmlg-001G.xml</route>  <date><year>2024</year> <month>2</month> <day>27</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title><link href="hmlg-001G.xml" type="local" addr="hmlg-001G" title="Perturbation of the larger chain complex in a chain reduction">Perturbation</link> of the larger chain complex in a <link href="hmlg-0017.xml" type="local" addr="hmlg-0017" title="Chain reduction">chain reduction</link></title>   </frontmatter> <mainmatter><p>
-  Given a reduction <tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</tex> and a perturbation <tex>\delta _C</tex> for <tex>C</tex>, we assume that <tex>h_{ \rho }   \circ   \delta _C</tex> is pointwise nilpotent, i.e. <tex display="block">\forall  c  \in  C_k,  \exists  n  \in   \mathbb {N},  \;  ( h_{ \rho } \delta _C)^n (c) = 0.</tex> We can construct a new chain reduction <tex>\rho ' : C'  \Rightarrow \mkern {-14mu} \Rightarrow  D'</tex>, where <tex>C'</tex> is <tex>C</tex> perturbed by <tex>\delta _C</tex>.
-</p><p>
-  Note that this situation is much harder compared to <ref addr="hmlg-001E" href="hmlg-001E.xml" taxon="Construction"/>, as it is generally impossible without the added condition.
-</p>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1147</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>constructive-homological-algebra</fr:addr><fr:route>constructive-homological-algebra.xml</fr:route><fr:title>Constructive Homological Algebra and Applications</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author>Julio Rubio García and Francis Sergeraert</fr:author></fr:authors><fr:meta
+name="doi">10.48550/arXiv.1208.3816</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
+  This text was written and used for a MAP Summer School at the University of Genova, August 28 to September 2, 2006. Available since then on the web site of the second author, it has been used and referenced by several colleagues working in Commutative Algebra and Algebraic Topology. To make safer such references, it was suggested to place it on the Arxiv repository. It is a relatively detailed exposition of the use of the <fr:link
+href="hmlg-001G.xml"
+type="local"
+addr="hmlg-001G">Basic Perturbation Lemma</fr:link> to make constructive Homological Algebra (standard Homological Algebra is not constructive) and how this technology can be used in Commutative Algebra (Koszul complexes) and Algebraic Topology (effective versions of spectral sequences).
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1145</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001G</fr:addr><fr:route>hmlg-001G.xml</fr:route><fr:title><fr:link
+href="hmlg-001G.xml"
+type="local"
+addr="hmlg-001G">Perturbation</fr:link> of the larger chain complex in a <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a reduction <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex> and a perturbation <fr:tex>\delta _C</fr:tex> for <fr:tex>C</fr:tex>, we assume that <fr:tex>h_{ \rho }   \circ   \delta _C</fr:tex> is pointwise nilpotent, i.e. <fr:tex
+display="block">\forall  c  \in  C_k,  \exists  n  \in   \mathbb {N},  \;  ( h_{ \rho } \delta _C)^n (c) = 0.</fr:tex> We can construct a new chain reduction <fr:tex>\rho ' : C'  \Rightarrow \mkern {-14mu} \Rightarrow  D'</fr:tex>, where <fr:tex>C'</fr:tex> is <fr:tex>C</fr:tex> perturbed by <fr:tex>\delta _C</fr:tex>.
+</fr:p><fr:p>
+  Note that this situation is much harder compared to <fr:ref
+addr="hmlg-001E"
+href="hmlg-001E.xml"
+taxon="Construction"></fr:ref>, as it is generally impossible without the added condition.
+</fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>736</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>2</month> <day>27</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>hmlg-001G</parent> </frontmatter> <mainmatter>
-  <p>
-    For this construction using the third equivalent definition of a chain reduction in <ref addr="hmlg-001H" href="hmlg-001H.xml" taxon="Theorem"/>, i.e. a homotopy operator on <tex>C</tex> such that <tex>h  \circ  h = 0</tex> and <tex>h  \circ  d_C  \circ  h = h</tex>.
-  </p>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>355</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001G</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    For this construction using the third equivalent definition of a chain reduction in <fr:ref
+addr="hmlg-001H"
+href="hmlg-001H.xml"
+taxon="Theorem"></fr:ref>, i.e. a homotopy operator on <fr:tex>C</fr:tex> such that <fr:tex>h  \circ  h = 0</fr:tex> and <fr:tex>h  \circ  d_C  \circ  h = h</fr:tex>.
+  </fr:p>
 
-  <p>
-    We need to construct a new homotopy operator such that <tex>h'  \circ  h' = 0</tex> and <tex>h'  \circ  (d_C +  \delta _C)  \circ  h' = h'</tex>. We approach this through a “perturbative” mindset. Starting with <tex>h_0 = h</tex>, the second equation is off by a difference of <tex>h_0  \delta _C h_0</tex>. We simply add this as a correction term, <tex>h_1 = h_0 +  \alpha  h_0  \delta _C h_0</tex> where <tex>\alpha</tex> is some coefficient. (Note that essentially the only terms we can consider are of the form <tex>h_0  \delta _C h_0  \delta _C  \cdots  h_0</tex>, since nothing else has the same type.) We still have <tex>h_1  \circ  h_1 = 0</tex>, and for the second equation this creates a new error term
-    <tex display="block">\begin {aligned}       &amp; \quad  h_1 (d_C +  \delta _C) h_1 - h_1  \\        &amp;= (1 +  \alpha ) h_0  \delta _C h_0 + 2 ( \alpha  +  \alpha ^2) h_0  \delta _C h_0  \delta _C h_0 +  \alpha ^2 h_0  \delta _C h_0  \delta _C h_0  \delta _C h_0      \end {aligned}</tex>
-    and we can eliminate the first and second order part by setting <tex>\alpha  = -1</tex>. The natural next step would be to add a further correction <tex>h_2 = h_1 +  \beta  h_0  \delta _C h_0  \delta _C h_0</tex>. This turns out to require <tex>\beta  = +1</tex>, and so on.
-  </p>
+  <fr:p>
+    We need to construct a new homotopy operator such that <fr:tex>h'  \circ  h' = 0</fr:tex> and <fr:tex>h'  \circ  (d_C +  \delta _C)  \circ  h' = h'</fr:tex>. We approach this through a “perturbative” mindset. Starting with <fr:tex>h_0 = h</fr:tex>, the second equation is off by a difference of <fr:tex>h_0  \delta _C h_0</fr:tex>. We simply add this as a correction term, <fr:tex>h_1 = h_0 +  \alpha  h_0  \delta _C h_0</fr:tex> where <fr:tex>\alpha</fr:tex> is some coefficient. (Note that essentially the only terms we can consider are of the form <fr:tex>h_0  \delta _C h_0  \delta _C  \cdots  h_0</fr:tex>, since nothing else has the same type.) We still have <fr:tex>h_1  \circ  h_1 = 0</fr:tex>, and for the second equation this creates a new error term
+    <fr:tex
+display="block">\begin {aligned}       &amp; \quad  h_1 (d_C +  \delta _C) h_1 - h_1  \\        &amp;= (1 +  \alpha ) h_0  \delta _C h_0 + 2 ( \alpha  +  \alpha ^2) h_0  \delta _C h_0  \delta _C h_0 +  \alpha ^2 h_0  \delta _C h_0  \delta _C h_0  \delta _C h_0      \end {aligned}</fr:tex>
+    and we can eliminate the first and second order part by setting <fr:tex>\alpha  = -1</fr:tex>. The natural next step would be to add a further correction <fr:tex>h_2 = h_1 +  \beta  h_0  \delta _C h_0  \delta _C h_0</fr:tex>. This turns out to require <fr:tex>\beta  = +1</fr:tex>, and so on.
+  </fr:p>
 
-  <p>
+  <fr:p>
     From the informal discussion above, we can conjecture the formula
-    <tex display="block">h' =  \sum _{k=0}^ \infty  (-1)^k (h  \delta _C)^k h.</tex>
-    This reveals the reason for our pointwise nilpotency condition. With a little bit of care manipulating the infinite sum, we can prove that <tex>h'  \circ  h' = 0</tex> from <tex>h  \circ  h = 0</tex>, and the second equation follows from a nice telescopic sum
-    <tex display="block">\begin {aligned}       h'  \circ  (d_C +  \delta _C)  \circ  h'       &amp;=  \sum _{i, j} (-1)^{i + j} (h  \delta _C)^i h (d_C +  \delta _C) (h  \delta _C)^j h  \\        &amp;=  \sum _{i, j} (-1)^{i + j}  \left [(h  \delta _C)^{i + j + 1} h + (h  \delta _C)^{i + j} h \right ]  \\        &amp;=  \sum _{k} (k+1) (-1)^k  \left [(h  \delta _C)^{k + 1} h + (h  \delta _C)^k h \right ]  \\        &amp;=  \sum _k (-1)^k (h  \delta _C)^k h = h'.      \end {aligned}</tex></p>
+    <fr:tex
+display="block">h' =  \sum _{k=0}^ \infty  (-1)^k (h  \delta _C)^k h.</fr:tex>
+    This reveals the reason for our pointwise nilpotency condition. With a little bit of care manipulating the infinite sum, we can prove that <fr:tex>h'  \circ  h' = 0</fr:tex> from <fr:tex>h  \circ  h = 0</fr:tex>, and the second equation follows from a nice telescopic sum
+    <fr:tex
+display="block">\begin {aligned}       h'  \circ  (d_C +  \delta _C)  \circ  h'       &amp;=  \sum _{i, j} (-1)^{i + j} (h  \delta _C)^i h (d_C +  \delta _C) (h  \delta _C)^j h  \\        &amp;=  \sum _{i, j} (-1)^{i + j}  \left [(h  \delta _C)^{i + j + 1} h + (h  \delta _C)^{i + j} h \right ]  \\        &amp;=  \sum _{k} (k+1) (-1)^k  \left [(h  \delta _C)^{k + 1} h + (h  \delta _C)^k h \right ]  \\        &amp;=  \sum _k (-1)^k (h  \delta _C)^k h = h'.      \end {aligned}</fr:tex></fr:p>
 
-  <p>
-    We can reconstruct the other two components of the reduction <tex>\iota _{ \rho ' }</tex> and <tex>\pi _{ \rho ' }</tex> through <ref addr="hmlg-001H" href="hmlg-001H.xml" taxon="Theorem"/>. In particular, <tex>D'</tex> is given by a perturbation of <tex>D</tex>. We only write down the results below for easy reference.
-    <tex display="block">\begin {aligned}      \pi _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }  ( \delta _C  h_{ \rho } )^k  \\       \iota _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k ( h_{ \rho }   \delta _C)^k  \iota _{ \rho }   \\       \delta _D &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }   \delta _C ( h_{ \rho }   \delta _C)^k  \iota _{ \rho } .      \end {aligned}</tex></p>
-</mainmatter> </tree>
+  <fr:p>
+    We can reconstruct the other two components of the reduction <fr:tex>\iota _{ \rho ' }</fr:tex> and <fr:tex>\pi _{ \rho ' }</fr:tex> through <fr:ref
+addr="hmlg-001H"
+href="hmlg-001H.xml"
+taxon="Theorem"></fr:ref>. In particular, <fr:tex>D'</fr:tex> is given by a perturbation of <fr:tex>D</fr:tex>. We only write down the results below for easy reference.
+    <fr:tex
+display="block">\begin {aligned}      \pi _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }  ( \delta _C  h_{ \rho } )^k  \\       \iota _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k ( h_{ \rho }   \delta _C)^k  \iota _{ \rho }   \\       \delta _D &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }   \delta _C ( h_{ \rho }   \delta _C)^k  \iota _{ \rho } .      \end {aligned}</fr:tex></fr:p>
+</fr:mainmatter></fr:tree>
   
-</mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>737</anchor>  <addr>hmlg-001K</addr><route>hmlg-001K.xml</route>  <date><year>2024</year> <month>3</month> <day>1</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Effective homology</title>   </frontmatter> <mainmatter><p>
-  This is a set of notes on effective homology and algebraic topology. Main references are <link href="constructive-homological-algebra.xml" type="local" addr="constructive-homological-algebra" title="Constructive Homological Algebra and Applications">Constructive Homological Algebra and Applications</link> and ...
-</p><p>
-  TODO: composition of <link href="hmlg-001I.xml" type="local" addr="hmlg-001I" title="Strong homology equivalence">strong homology equivalence</link>, tensor product, cone, bicomplex, (effective) simplicial set, simplicial group, Kan complex
-</p></mainmatter> </tree></backlinks> <references/></backmatter></tree>
+</fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1143</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  This is a set of notes on effective homology and algebraic topology. Main references are <fr:link
+href="constructive-homological-algebra.xml"
+type="local"
+addr="constructive-homological-algebra">Constructive Homological Algebra and Applications</fr:link> and ...
+</fr:p><fr:p>
+  TODO: composition of <fr:link
+href="hmlg-001I.xml"
+type="local"
+addr="hmlg-001I">strong homology equivalence</fr:link>, tensor product, cone, bicomplex, (effective) simplicial set, simplicial group, Kan complex
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

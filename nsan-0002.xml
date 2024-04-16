@@ -1,9 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>401</anchor> <taxon>Definition</taxon> <addr>nsan-0002</addr><route>nsan-0002.xml</route>  <date><year>2024</year> <month>3</month> <day>27</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Category of germs</title>   </frontmatter> <mainmatter><p>
-  The <link href="nsan-0001.xml" type="local" addr="nsan-0001" title="Filter space">filter spaces</link> form another category, whose morphisms are <strong>germs</strong>, i.e. partial continuous functions defined on a large set, with equality considered up to some difference on a small set. This category is written <tex>\mathsf { Germ }</tex>.
-</p></mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>402</anchor> <taxon>Definition</taxon> <addr>nsan-0001</addr><route>nsan-0001.xml</route>  <date><year>2024</year> <month>3</month> <day>27</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Filter space</title>   </frontmatter> <mainmatter><p>
-  A <strong>filter space</strong> is a set equipped with a filter. A morphism between germ spaces is a function such that the preimage of a large set is still large, which is often referred to as <strong>continuous</strong>. This creates a category <tex>\mathsf { Filt }</tex>.
-</p></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>403</anchor> <taxon>Theorem</taxon> <addr>nsan-0003</addr><route>nsan-0003.xml</route>  <date><year>2024</year> <month>3</month> <day>27</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title><tex>\mathsf { Germ }</tex> is <tex>\mathsf { Filt }</tex> localized at inclusion maps of large subsets</title>   </frontmatter> <mainmatter><p>
-  The <link href="nsan-0002.xml" type="local" addr="nsan-0002" title="Category of germs">category of germs</link> is equivalent to the category of <link href="nsan-0001.xml" type="local" addr="nsan-0001" title="Filter space">filter spaces</link> localized at maps of the form <tex>X  \hookrightarrow  Y</tex>, where <tex>X</tex> is a large subset of <tex>Y</tex>, whose filter is induced by restriction from <tex>Y</tex>.
-</p></mainmatter> </tree></backlinks> <references/></backmatter></tree>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>686</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>nsan-0002</fr:addr><fr:route>nsan-0002.xml</fr:route><fr:title>Category of germs</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The <fr:link
+href="nsan-0001.xml"
+type="local"
+addr="nsan-0001">filter spaces</fr:link> form another category, whose morphisms are <fr:strong>germs</fr:strong>, i.e. partial continuous functions defined on a large set, with equality considered up to some difference on a small set. This category is written <fr:tex>\mathsf { Germ }</fr:tex>.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>684</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>nsan-0001</fr:addr><fr:route>nsan-0001.xml</fr:route><fr:title>Filter space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  A <fr:strong>filter space</fr:strong> is a set equipped with a filter. A morphism between germ spaces is a function such that the preimage of a large set is still large, which is often referred to as <fr:strong>continuous</fr:strong>. This creates a category <fr:tex>\mathsf { Filt }</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>682</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>nsan-0003</fr:addr><fr:route>nsan-0003.xml</fr:route><fr:title><fr:tex>\mathsf { Germ }</fr:tex> is <fr:tex>\mathsf { Filt }</fr:tex> localized at inclusion maps of large subsets</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The <fr:link
+href="nsan-0002.xml"
+type="local"
+addr="nsan-0002">category of germs</fr:link> is equivalent to the category of <fr:link
+href="nsan-0001.xml"
+type="local"
+addr="nsan-0001">filter spaces</fr:link> localized at maps of the form <fr:tex>X  \hookrightarrow  Y</fr:tex>, where <fr:tex>X</fr:tex> is a large subset of <fr:tex>Y</fr:tex>, whose filter is induced by restriction from <fr:tex>Y</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

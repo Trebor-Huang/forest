@@ -1,63 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>554</anchor> <taxon>Definition</taxon> <addr>algm-000M</addr><route>algm-000M.xml</route>  <date><year>2024</year> <month>3</month> <day>5</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Ringed space</title>   </frontmatter> <mainmatter><p>
-  A <strong>ringed space</strong> is a space equipped with a sheaf of rings, called the <strong>structure sheaf</strong>.
-</p></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>555</anchor> <taxon>Intuition</taxon> <addr>algm-000O</addr><route>algm-000O.xml</route>  <date><year>2024</year> <month>3</month> <day>6</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Locally ringed space</title>   </frontmatter> <mainmatter><p>
-  The <link href="algm-000L.xml" type="local" addr="algm-000L" title="Locally ringed space">locality</link> requirement for a <link href="algm-000M.xml" type="local" addr="algm-000M" title="Ringed space">ringed space</link> is to guarantee that the sections behave like functions valued in some field.
-</p><p>
-  It is impossible in general to discuss the vanishing region of a section <tex>f  \in   \Gamma (U,  \mathscr { O } )</tex>. For instance, the germs of continuous functions are non-zero on their support, which is the closure of the non-vanishing region. In algebraic geometry, such an overspill destroys most valuable information. We can talk about the maximal region on which the section is invertible, but this is different from being non-zero if sections don’t behave like functions. Similarly, it is also impossible to discuss the value of a section at some point in general. In locally ringed space, we have <ref addr="algm-000P" href="algm-000P.xml" taxon="Definition"/>.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>556</anchor> <taxon>Definition</taxon> <addr>algm-000S</addr><route>algm-000S.xml</route>  <date><year>2024</year> <month>3</month> <day>6</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Morphism of ringed spaces</title>   </frontmatter> <mainmatter><p>
-  Given two <link href="algm-000M.xml" type="local" addr="algm-000M" title="Ringed space">ringed spaces</link> <tex>X, Y</tex>, a morphism <tex>\varphi  : X  \to  Y</tex> is given by a continuous map of the underlying spaces, and a sheaf morphism <tex>\varphi ^{-1}  \mathscr { O } _Y  \to   \mathscr { O } _X</tex>, equivalently <tex>\mathscr { O } _Y  \to   \varphi _*  \mathscr { O } _X</tex>.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>557</anchor> <taxon>Definition</taxon> <addr>algm-000L</addr><route>algm-000L.xml</route>  <date><year>2024</year> <month>3</month> <day>5</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Locally ringed space</title>   </frontmatter> <mainmatter><p>
-  Given a <link href="algm-000M.xml" type="local" addr="algm-000M" title="Ringed space">ringed space</link>, i.e. a space <tex>X</tex> with a sheaf of rings <tex>\mathscr { O }</tex>, it is said to be <strong>locally ringed</strong> iff the following conditions hold:
-  <ul><li>If <tex>\Gamma (U,  \mathscr { O } ) = 0</tex>, then <tex>U</tex> is empty.</li>
-    <li>Suppose <tex>f + g  \in   \Gamma (U,  \mathscr { O } )</tex> is invertible, then we can cover <tex>U</tex> with two open sets such that <tex>f</tex> and <tex>g</tex> are invertible when restricted respectively.</li></ul>
-  This can be unified as one condition: If a finite sum in <tex>\Gamma (U,  \mathscr { O } )</tex> is invertible, then each summand is invertible when restricted to an open, which jointly covers <tex>U</tex>.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>558</anchor> <taxon>Theorem</taxon> <addr>algm-000N</addr><route>algm-000N.xml</route>  <date><year>2024</year> <month>3</month> <day>5</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Stalks of locally ringed topological space</title>   </frontmatter> <mainmatter><p>
-  Given a <link href="algm-000M.xml" type="local" addr="algm-000M" title="Ringed space">ringed</link> topological space, it is <link href="algm-000L.xml" type="local" addr="algm-000L" title="Locally ringed space">locally ringed</link> iff every stalk is a local ring.
-</p>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>932</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000M</fr:addr><fr:route>algm-000M.xml</fr:route><fr:title>Ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  A <fr:strong>ringed space</fr:strong> is a space equipped with a sheaf of rings, called the <fr:strong>structure sheaf</fr:strong>.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>922</fr:anchor><fr:taxon>Intuition</fr:taxon><fr:addr>algm-000O</fr:addr><fr:route>algm-000O.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The <fr:link
+href="algm-000L.xml"
+type="local"
+addr="algm-000L">locality</fr:link> requirement for a <fr:link
+href="algm-000M.xml"
+type="local"
+addr="algm-000M">ringed space</fr:link> is to guarantee that the sections behave like functions valued in some field.
+</fr:p><fr:p>
+  It is impossible in general to discuss the vanishing region of a section <fr:tex>f  \in   \Gamma (U,  \mathscr { O } )</fr:tex>. For instance, the germs of continuous functions are non-zero on their support, which is the closure of the non-vanishing region. In algebraic geometry, such an overspill destroys most valuable information. We can talk about the maximal region on which the section is invertible, but this is different from being non-zero if sections don’t behave like functions. Similarly, it is also impossible to discuss the value of a section at some point in general. In locally ringed space, we have <fr:ref
+addr="algm-000P"
+href="algm-000P.xml"
+taxon="Definition"></fr:ref>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>924</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000S</fr:addr><fr:route>algm-000S.xml</fr:route><fr:title>Morphism of ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given two <fr:link
+href="algm-000M.xml"
+type="local"
+addr="algm-000M">ringed spaces</fr:link> <fr:tex>X, Y</fr:tex>, a morphism <fr:tex>\varphi  : X  \to  Y</fr:tex> is given by a continuous map of the underlying spaces, and a sheaf morphism <fr:tex>\varphi ^{-1}  \mathscr { O } _Y  \to   \mathscr { O } _X</fr:tex>, equivalently <fr:tex>\mathscr { O } _Y  \to   \varphi _*  \mathscr { O } _X</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>926</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000L</fr:addr><fr:route>algm-000L.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a <fr:link
+href="algm-000M.xml"
+type="local"
+addr="algm-000M">ringed space</fr:link>, i.e. a space <fr:tex>X</fr:tex> with a sheaf of rings <fr:tex>\mathscr { O }</fr:tex>, it is said to be <fr:strong>locally ringed</fr:strong> iff the following conditions hold:
+  <fr:ul><fr:li>If <fr:tex>\Gamma (U,  \mathscr { O } ) = 0</fr:tex>, then <fr:tex>U</fr:tex> is empty.</fr:li>
+    <fr:li>Suppose <fr:tex>f + g  \in   \Gamma (U,  \mathscr { O } )</fr:tex> is invertible, then we can cover <fr:tex>U</fr:tex> with two open sets such that <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> are invertible when restricted respectively.</fr:li></fr:ul>
+  This can be unified as one condition: If a finite sum in <fr:tex>\Gamma (U,  \mathscr { O } )</fr:tex> is invertible, then each summand is invertible when restricted to an open, which jointly covers <fr:tex>U</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>928</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000N</fr:addr><fr:route>algm-000N.xml</fr:route><fr:title>Stalks of locally ringed topological space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a <fr:link
+href="algm-000M.xml"
+type="local"
+addr="algm-000M">ringed</fr:link> topological space, it is <fr:link
+href="algm-000L.xml"
+type="local"
+addr="algm-000L">locally ringed</fr:link> iff every stalk is a local ring.
+</fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>559</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>5</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>algm-000N</parent> </frontmatter> <mainmatter>
-  <p>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>914</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000N</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
     Recall the axiom for a local ring: if any sum is invertible, then one of the summand is invertible. When applied to the direct limit in each stalk, this immediately expands to the definition of a locally ringed space.
-  </p>
+  </fr:p>
 
-  <p>
+  <fr:p>
     In particular, a crucial property is used in the reverse implication, i.e. if one open contains all the points of another, then the former covers the latter. This is equivalent to the condition of having enough points.
-  </p>
-</mainmatter> </tree>
+  </fr:p>
+</fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>560</anchor> <taxon>Definition</taxon> <addr>algm-000I</addr><route>algm-000I.xml</route>  <date><year>2024</year> <month>3</month> <day>4</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Structure sheaf of a ring spectrum</title>   </frontmatter> <mainmatter><p>
-  Given a commutative ring <tex>R</tex>, we define a sheaf <tex>\mathscr { O }</tex> of rings on <tex>\operatorname {Spec} (R)</tex> called the <strong>structure sheaf</strong>. Let <tex>\Gamma (D(f),  \mathscr { O } ) = R[f^{-1}]</tex>. Suppose <tex>D(f)  \subseteq  D(g)</tex> we define the restriction morphism to be the localization map <tex>R[g^{-1}]  \to  R[f^{-1}]</tex>, since by <ref addr="algm-0002" href="algm-0002.xml" taxon="Theorem"/> the latter is a further localization of the former. This turns <tex>\operatorname {Spec} (R)</tex> into a <link href="algm-000M.xml" type="local" addr="algm-000M" title="Ringed space">ringed space</link>.
-</p>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>930</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000I</fr:addr><fr:route>algm-000I.xml</fr:route><fr:title>Structure sheaf of a ring spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a commutative ring <fr:tex>R</fr:tex>, we define a sheaf <fr:tex>\mathscr { O }</fr:tex> of rings on <fr:tex>\operatorname {Spec} (R)</fr:tex> called the <fr:strong>structure sheaf</fr:strong>. Let <fr:tex>\Gamma (D(f),  \mathscr { O } ) = R[f^{-1}]</fr:tex>. Suppose <fr:tex>D(f)  \subseteq  D(g)</fr:tex> we define the restriction morphism to be the localization map <fr:tex>R[g^{-1}]  \to  R[f^{-1}]</fr:tex>, since by <fr:ref
+addr="algm-0002"
+href="algm-0002.xml"
+taxon="Theorem"></fr:ref> the latter is a further localization of the former. This turns <fr:tex>\operatorname {Spec} (R)</fr:tex> into a <fr:link
+href="algm-000M.xml"
+type="local"
+addr="algm-000M">ringed space</fr:link>.
+</fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>561</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>4</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>algm-000I</parent> </frontmatter> <mainmatter>
-  <p>
-    We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <tex>f_i  \in  R</tex> such that <tex>\bigcup _i D(f_i) = D(f)</tex>, we need to show that
-    <tex display="block">R[f^{-1}]  \to   \prod _{i  \in  I} R[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} R[(f_i f_j)^{-1}]</tex>
-    is an equalizer. Notice that <tex>R[f_i^{-1}]  \cong  R[f^{-1}][f_i^{-1}]</tex>. So we may reassign <tex>S = R[f^{-1}]</tex>. This simplifies the problem to
-    <tex display="block">S  \to   \prod _{i  \in  I} S[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} S[(f_i f_j)^{-1}],</tex>
-    where <tex>D(f_i)</tex> covers the whole space <tex>\operatorname {Spec} (S)</tex>. 
-  </p>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>749</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000I</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex>f_i  \in  R</fr:tex> such that <fr:tex>\bigcup _i D(f_i) = D(f)</fr:tex>, we need to show that
+    <fr:tex
+display="block">R[f^{-1}]  \to   \prod _{i  \in  I} R[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} R[(f_i f_j)^{-1}]</fr:tex>
+    is an equalizer. Notice that <fr:tex>R[f_i^{-1}]  \cong  R[f^{-1}][f_i^{-1}]</fr:tex>. So we may reassign <fr:tex>S = R[f^{-1}]</fr:tex>. This simplifies the problem to
+    <fr:tex
+display="block">S  \to   \prod _{i  \in  I} S[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} S[(f_i f_j)^{-1}],</fr:tex>
+    where <fr:tex>D(f_i)</fr:tex> covers the whole space <fr:tex>\operatorname {Spec} (S)</fr:tex>. 
+  </fr:p>
 
-  <p>
-    We first describe the intuition. Since we know <tex>\operatorname {Spec} (S)</tex> is <link href="algm-000B.xml" type="local" addr="algm-000B" title="A ring spectrum is quasi-compact">quasi-compact</link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <tex>g_i/f_i^{d_i}  \in  S[f_i^{-1}]</tex> that are equal in their common domain. Since <tex>D(f_i) = D(f_i^{d_i})</tex> covers <tex>\operatorname {Spec} (S)</tex>, we have a linear combination <tex>1 =  \sum _i c_i f_i^{d_i}</tex>, which is akin to a partition of unity. Suppose the putative gluing is <tex>f</tex>, multiplying with the partition of unity we get
-    <tex display="block">\begin {aligned}       f &amp;=  \sum _{i  \in  I} c_i f_i^{d_i} f  \\        &amp;=  \sum  c_i f_i^{d_i}  \frac {g_i}{f_i^{d_i}}  \\        &amp;=  \sum  c_i g_i.      \end {aligned}</tex>
+  <fr:p>
+    We first describe the intuition. Since we know <fr:tex>\operatorname {Spec} (S)</fr:tex> is <fr:link
+href="algm-000B.xml"
+type="local"
+addr="algm-000B">quasi-compact</fr:link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <fr:tex>g_i/f_i^{d_i}  \in  S[f_i^{-1}]</fr:tex> that are equal in their common domain. Since <fr:tex>D(f_i) = D(f_i^{d_i})</fr:tex> covers <fr:tex>\operatorname {Spec} (S)</fr:tex>, we have a linear combination <fr:tex>1 =  \sum _i c_i f_i^{d_i}</fr:tex>, which is akin to a partition of unity. Suppose the putative gluing is <fr:tex>f</fr:tex>, multiplying with the partition of unity we get
+    <fr:tex
+display="block">\begin {aligned}       f &amp;=  \sum _{i  \in  I} c_i f_i^{d_i} f  \\        &amp;=  \sum  c_i f_i^{d_i}  \frac {g_i}{f_i^{d_i}}  \\        &amp;=  \sum  c_i g_i.      \end {aligned}</fr:tex>
     which defines the gluing. We just have to make this reasoning precise. We first deal with the finite case.
-  </p>
+  </fr:p>
 
-  <p>
-    Suppose there are elements <tex>g_i/f_i^d  \in  S[f_i^{-1}]</tex>, where we are allowed to use a single exponent <tex>d</tex> by finiteness. The compatibility requirement is <tex display="block">(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.</tex> If there is a solution <tex>f</tex> to the gluing problem, it would need to satisfy <tex>(f f_i^d - g_i) f_i^M = 0</tex>. Since <tex>D(f_i) = D(f_i^R)</tex> covers <tex>\operatorname {Spec} (S)</tex>, we have a linear combination <tex>1 =  \sum _i c_i f_i^R</tex> for large enough <tex>R</tex>. Hence
-    <tex display="block">f =  \sum _{i  \in  I} c_i f f_i^R =  \sum  c_i g_i f_i^{R-d}.</tex> This uniquely determines <tex>f</tex>. And indeed, this solution satisfies our requirements, because when restricted to <tex>D(f_j)</tex>, we have
-    <tex display="block">\begin {aligned}       f f_j^d  \cdot  f_j^R &amp;=  \sum  c_i g_i f_i^{R-d} f_j^{R+d}  \\        &amp;=  \sum  c_i g_j f_i^{R} f_j^{R}  \\        &amp;= g_j f_j^R  \cdot   \sum  c_i f_i^R = g_j f_j^R.      \end {aligned}</tex>
-    This reasoning is valid as long as <tex>R &gt; N + 2d</tex>.
-  </p>
+  <fr:p>
+    Suppose there are elements <fr:tex>g_i/f_i^d  \in  S[f_i^{-1}]</fr:tex>, where we are allowed to use a single exponent <fr:tex>d</fr:tex> by finiteness. The compatibility requirement is <fr:tex
+display="block">(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.</fr:tex> If there is a solution <fr:tex>f</fr:tex> to the gluing problem, it would need to satisfy <fr:tex>(f f_i^d - g_i) f_i^M = 0</fr:tex>. Since <fr:tex>D(f_i) = D(f_i^R)</fr:tex> covers <fr:tex>\operatorname {Spec} (S)</fr:tex>, we have a linear combination <fr:tex>1 =  \sum _i c_i f_i^R</fr:tex> for large enough <fr:tex>R</fr:tex>. Hence
+    <fr:tex
+display="block">f =  \sum _{i  \in  I} c_i f f_i^R =  \sum  c_i g_i f_i^{R-d}.</fr:tex> This uniquely determines <fr:tex>f</fr:tex>. And indeed, this solution satisfies our requirements, because when restricted to <fr:tex>D(f_j)</fr:tex>, we have
+    <fr:tex
+display="block">\begin {aligned}       f f_j^d  \cdot  f_j^R &amp;=  \sum  c_i g_i f_i^{R-d} f_j^{R+d}  \\        &amp;=  \sum  c_i g_j f_i^{R} f_j^{R}  \\        &amp;= g_j f_j^R  \cdot   \sum  c_i f_i^R = g_j f_j^R.      \end {aligned}</fr:tex>
+    This reasoning is valid as long as <fr:tex>R &gt; N + 2d</fr:tex>.
+  </fr:p>
 
-  <p>
-    If there are infinitely many opens, we first use <link href="algm-000B.xml" type="local" addr="algm-000B" title="A ring spectrum is quasi-compact">quasi-compactness</link> to select a finite number <tex>D(f_1),  \dots , D(f_k)</tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <tex>f</tex> for <tex>D(f_1),  \dots , D(f_k)</tex>. Then consider the solution on <tex>D(f_1),  \dots , D(f_k) , D(g)</tex> for every <tex>g</tex>. This solution must be equal to <tex>f</tex> by uniqueness. Therefore <tex>f</tex> restrict to the correct function on each <tex>D(g)</tex>, showing that <tex>f</tex> is the required solution.
-  </p>
-</mainmatter> </tree>
+  <fr:p>
+    If there are infinitely many opens, we first use <fr:link
+href="algm-000B.xml"
+type="local"
+addr="algm-000B">quasi-compactness</fr:link> to select a finite number <fr:tex>D(f_1),  \dots , D(f_k)</fr:tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <fr:tex>f</fr:tex> for <fr:tex>D(f_1),  \dots , D(f_k)</fr:tex>. Then consider the solution on <fr:tex>D(f_1),  \dots , D(f_k) , D(g)</fr:tex> for every <fr:tex>g</fr:tex>. This solution must be equal to <fr:tex>f</fr:tex> by uniqueness. Therefore <fr:tex>f</fr:tex> restrict to the correct function on each <fr:tex>D(g)</fr:tex>, showing that <fr:tex>f</fr:tex> is the required solution.
+  </fr:p>
+</fr:mainmatter></fr:tree>
   
-</mainmatter> </tree></backlinks> <references/></backmatter></tree>
+</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

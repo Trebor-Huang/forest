@@ -1,70 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>485</anchor> <taxon>Theorem</taxon> <addr>algm-000W</addr><route>algm-000W.xml</route>  <date><year>2024</year> <month>3</month> <day>8</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Action of morphisms on stalks of locally ringed spaces</title>   </frontmatter> <mainmatter><p>
-  Given a <link href="algm-000S.xml" type="local" addr="algm-000S" title="Morphism of ringed spaces">morphism of ringed spaces</link> <tex>\varphi  : X  \to  Y</tex>, if it is <link href="algm-000U.xml" type="local" addr="algm-000U" title="Morphism of locally ringed spaces">local</link>, a germ is invertible iff its <link href="algm-000V.xml" type="local" addr="algm-000V" title="Terminology of pullbacks">pullback</link> under <tex>\varphi</tex> is invertible. If the space <tex>X</tex> has enough points, then the inverse implication is also true.
-</p>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>820</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title>Action of morphisms on stalks of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a <fr:link
+href="algm-000S.xml"
+type="local"
+addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi  : X  \to  Y</fr:tex>, if it is <fr:link
+href="algm-000U.xml"
+type="local"
+addr="algm-000U">local</fr:link>, a germ is invertible iff its <fr:link
+href="algm-000V.xml"
+type="local"
+addr="algm-000V">pullback</fr:link> under <fr:tex>\varphi</fr:tex> is invertible. If the space <fr:tex>X</fr:tex> has enough points, then the inverse implication is also true.
+</fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>486</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>8</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>    </frontmatter> <mainmatter>
-  <p>
-    Note that the stalk <tex>( \varphi ^{-1} \mathscr { O } _{Y})_x =  \mathscr { O } _{Y,  \varphi (x)}</tex>. A germ being invertible implies for some neighborhood <tex>U</tex> of <tex>x</tex>, it comes from an invertible section <tex>f  \in   \Gamma (U,  \varphi ^{-1} \mathscr { O } _Y)</tex>, so the image in <tex>\Gamma (U,  \mathscr { O } _X)</tex> is also invertible, and hence the image germ. The locality condition gives the converse.
-  </p>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>818</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    Note that the stalk <fr:tex>( \varphi ^{-1} \mathscr { O } _{Y})_x =  \mathscr { O } _{Y,  \varphi (x)}</fr:tex>. A germ being invertible implies for some neighborhood <fr:tex>U</fr:tex> of <fr:tex>x</fr:tex>, it comes from an invertible section <fr:tex>f  \in   \Gamma (U,  \varphi ^{-1} \mathscr { O } _Y)</fr:tex>, so the image in <fr:tex>\Gamma (U,  \mathscr { O } _X)</fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.
+  </fr:p>
 
-  <p>
+  <fr:p>
     On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.
-  </p>
-</mainmatter> </tree>
+  </fr:p>
+</fr:mainmatter></fr:tree>
   
-</mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>487</anchor> <taxon>Remark</taxon> <addr>algm-000V</addr><route>algm-000V.xml</route>  <date><year>2024</year> <month>3</month> <day>8</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Terminology of pullbacks</title>   </frontmatter> <mainmatter><p>
-  In general, a pullback is any contravariant functorial action. In other words, we have a functor <tex>F :  \mathcal { C } ^ \textrm {op}   \to   \mathcal { D }</tex>, and pulling back along a morphism <tex>f</tex> in <tex>\mathcal { C }</tex> means the action of <tex>F(f)</tex>.
-</p><p>
-  In differential geometry, we have a set of <tex>k</tex>-forms <tex>\Omega ^k(M)</tex>, which forms a functor <tex>\mathsf { Mfd } ^ \textrm {op}   \to   \mathsf { Set }</tex>. Pullbacks of differential forms is then the functorial action. In the special case of <tex>k = 0</tex>, this corresponds to composition, which is sometimes also referred to as pullbacks.
-</p><p>
-  The categorical pullback can also be construed as a contravariant action, which forms the functor from <tex>\mathcal { C } ^ \textrm {op}</tex> to the <tex>2</tex>-category <tex>\mathsf { Cat }</tex> given by taking slices.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>488</anchor> <taxon>Definition</taxon> <addr>algm-000U</addr><route>algm-000U.xml</route>  <date><year>2024</year> <month>3</month> <day>7</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Morphism of locally ringed spaces</title>   </frontmatter> <mainmatter><p>
-  Given two <link href="algm-000L.xml" type="local" addr="algm-000L" title="Locally ringed space">locally ringed spaces</link>, a <link href="algm-000S.xml" type="local" addr="algm-000S" title="Morphism of ringed spaces">morphism of ringed spaces</link> <tex>\varphi</tex> between them is <strong>local</strong> when sections of <tex>\varphi ^{-1} \mathscr { O } _Y</tex> are invertible iff their images in <tex>\mathscr { O } _X</tex> are invertible, i.e. the following diagram is a pullback:
-</p>
-  <embedded-tex hash="69e54c9a812569360596e10c9b32a793"><embedded-tex-preamble>
-        \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-  </embedded-tex-preamble> <embedded-tex-body>
-     \begin {tikzcd} 
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>811</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>algm-000V</fr:addr><fr:route>algm-000V.xml</fr:route><fr:title>Terminology of pullbacks</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  In general, a pullback is any contravariant functorial action. In other words, we have a functor <fr:tex>F :  \mathcal { C } ^ \textrm {op}   \to   \mathcal { D }</fr:tex>, and pulling back along a morphism <fr:tex>f</fr:tex> in <fr:tex>\mathcal { C }</fr:tex> means the action of <fr:tex>F(f)</fr:tex>.
+</fr:p><fr:p>
+  In differential geometry, we have a set of <fr:tex>k</fr:tex>-forms <fr:tex>\Omega ^k(M)</fr:tex>, which forms a functor <fr:tex>\mathsf { Mfd } ^ \textrm {op}   \to   \mathsf { Set }</fr:tex>. Pullbacks of differential forms is then the functorial action. In the special case of <fr:tex>k = 0</fr:tex>, this corresponds to composition, which is sometimes also referred to as pullbacks.
+</fr:p><fr:p>
+  The categorical pullback can also be construed as a contravariant action, which forms the functor from <fr:tex>\mathcal { C } ^ \textrm {op}</fr:tex> to the <fr:tex>2</fr:tex>-category <fr:tex>\mathsf { Cat }</fr:tex> given by taking slices.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>814</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000U</fr:addr><fr:route>algm-000U.xml</fr:route><fr:title>Morphism of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given two <fr:link
+href="algm-000L.xml"
+type="local"
+addr="algm-000L">locally ringed spaces</fr:link>, a <fr:link
+href="algm-000S.xml"
+type="local"
+addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi</fr:tex> between them is <fr:strong>local</fr:strong> when sections of <fr:tex>\varphi ^{-1} \mathscr { O } _Y</fr:tex> are invertible iff their images in <fr:tex>\mathscr { O } _X</fr:tex> are invertible, i.e. the following diagram is a pullback:
+</fr:p>
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="3b6e2be8301faa9947f4232311c98ebe"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzcd} 
   { \varphi ^{-1} \mathscr { O } _Y^ \times } &amp; { \mathscr { O } _X^ \times }  \\ 
   { \varphi ^{-1} \mathscr { O } _Y} &amp; { \mathscr { O } _X}
    \arrow [hook, from=1-1, to=2-1]
    \arrow [hook, from=1-2, to=2-2]
    \arrow [from=1-1, to=1-2]
    \arrow [from=2-1, to=2-2]
-   \arrow [&quot; \lrcorner &quot;{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+   \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
  \end {tikzcd}
-  </embedded-tex-body></embedded-tex>
-<p>
-  Note that the <link href="algm-000T.xml" type="local" addr="algm-000T" title="Subsheaf of units">subsheaf of units</link> is given by a finite limit, hence <tex>\varphi ^{-1}</tex> preserves it. Since the lower map map <tex>\varphi ^{-1}  \mathscr { O } _Y  \to   \mathscr { O } _X</tex> is a ring homomorphism on the sections, it maps units to units. Hence restriction to the upper map makes sense.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>489</anchor> <taxon>Definition</taxon> <addr>algm-000S</addr><route>algm-000S.xml</route>  <date><year>2024</year> <month>3</month> <day>6</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Morphism of ringed spaces</title>   </frontmatter> <mainmatter><p>
-  Given two <link href="algm-000M.xml" type="local" addr="algm-000M" title="Ringed space">ringed spaces</link> <tex>X, Y</tex>, a morphism <tex>\varphi  : X  \to  Y</tex> is given by a continuous map of the underlying spaces, and a sheaf morphism <tex>\varphi ^{-1}  \mathscr { O } _Y  \to   \mathscr { O } _X</tex>, equivalently <tex>\mathscr { O } _Y  \to   \varphi _*  \mathscr { O } _X</tex>.
-</p></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>490</anchor> <taxon>Theorem</taxon> <addr>algm-000X</addr><route>algm-000X.xml</route>  <date><year>2024</year> <month>3</month> <day>8</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Morphisms of affine schemes</title>   </frontmatter> <mainmatter><p><link href="algm-000U.xml" type="local" addr="algm-000U" title="Morphism of locally ringed spaces">Morphism</link> of <link href="algm-000Q.xml" type="local" addr="algm-000Q" title="Affine scheme">affine schemes</link> are in natural bijection with ring homomorphisms in the opposite direction. In other words, there is a fully faithful embedding <tex>\mathsf { CRing } ^ \textrm {op}   \to   \mathsf { Sch }</tex>.
-</p>
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+<fr:p>
+  Note that the <fr:link
+href="algm-000T.xml"
+type="local"
+addr="algm-000T">subsheaf of units</fr:link> is given by a finite limit, hence <fr:tex>\varphi ^{-1}</fr:tex> preserves it. Since the lower map map <fr:tex>\varphi ^{-1}  \mathscr { O } _Y  \to   \mathscr { O } _X</fr:tex> is a ring homomorphism on the sections, it maps units to units. Hence restriction to the upper map makes sense.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>816</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000S</fr:addr><fr:route>algm-000S.xml</fr:route><fr:title>Morphism of ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given two <fr:link
+href="algm-000M.xml"
+type="local"
+addr="algm-000M">ringed spaces</fr:link> <fr:tex>X, Y</fr:tex>, a morphism <fr:tex>\varphi  : X  \to  Y</fr:tex> is given by a continuous map of the underlying spaces, and a sheaf morphism <fr:tex>\varphi ^{-1}  \mathscr { O } _Y  \to   \mathscr { O } _X</fr:tex>, equivalently <fr:tex>\mathscr { O } _Y  \to   \varphi _*  \mathscr { O } _X</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>809</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title>Morphisms of affine schemes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+href="algm-000U.xml"
+type="local"
+addr="algm-000U">Morphism</fr:link> of <fr:link
+href="algm-000Q.xml"
+type="local"
+addr="algm-000Q">affine schemes</fr:link> are in natural bijection with ring homomorphisms in the opposite direction. In other words, there is a fully faithful embedding <fr:tex>\mathsf { CRing } ^ \textrm {op}   \to   \mathsf { Sch }</fr:tex>.
+</fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>491</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>8</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>algm-000X</parent> </frontmatter> <mainmatter>
-  <p>
-    Given two rings <tex>R</tex>, <tex>S</tex>, a ring homomorphism <tex>\varphi  : S  \to  R</tex> naturally induces a map of <link href="algm-0004.xml" type="local" addr="algm-0004" title="Distinguished opens of {Spec}(R)">distinguished opens</link> <tex>f  \mapsto   \varphi (f)</tex>. This is a continuous map <tex>\operatorname {Spec} (R)  \to   \operatorname {Spec} (S)</tex>, because <tex>\varphi</tex> preserves <tex>\operatorname {lcm}</tex> and <tex>\gcd</tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <tex>\Gamma (D(s),  \mathscr { O } _{ \operatorname {Spec} (S)})  \to   \Gamma (D(r),  \mathscr { O } _{ \operatorname {Spec} (R)})</tex> whenever <tex>D(r)  \subseteq   \varphi ^{-1}D(s) = D( \varphi (s))</tex>. This is just a homomorphism <tex>S[s^{-1}]  \to  R[r^{-1}]</tex>, which is obvious because <tex>\varphi (s)</tex> must be invertible in <tex>R[r^{-1}]</tex>.
-  </p>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>711</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    Given two rings <fr:tex>R</fr:tex>, <fr:tex>S</fr:tex>, a ring homomorphism <fr:tex>\varphi  : S  \to  R</fr:tex> naturally induces a map of <fr:link
+href="algm-0004.xml"
+type="local"
+addr="algm-0004">distinguished opens</fr:link> <fr:tex>f  \mapsto   \varphi (f)</fr:tex>. This is a continuous map <fr:tex>\operatorname {Spec} (R)  \to   \operatorname {Spec} (S)</fr:tex>, because <fr:tex>\varphi</fr:tex> preserves <fr:tex>\operatorname {lcm}</fr:tex> and <fr:tex>\gcd</fr:tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <fr:tex>\Gamma (D(s),  \mathscr { O } _{ \operatorname {Spec} (S)})  \to   \Gamma (D(r),  \mathscr { O } _{ \operatorname {Spec} (R)})</fr:tex> whenever <fr:tex>D(r)  \subseteq   \varphi ^{-1}D(s) = D( \varphi (s))</fr:tex>. This is just a homomorphism <fr:tex>S[s^{-1}]  \to  R[r^{-1}]</fr:tex>, which is obvious because <fr:tex>\varphi (s)</fr:tex> must be invertible in <fr:tex>R[r^{-1}]</fr:tex>.
+  </fr:p>
 
-  <p>
-    We need to prove our map is <link href="algm-000U.xml" type="local" addr="algm-000U" title="Morphism of locally ringed spaces">local</link>. Using the <link href="algm-000W.xml" type="local" addr="algm-000W" title="Action of morphisms on stalks of locally ringed spaces">characterization on stalks</link>, we just need to verify that <tex>S_{ \varphi ^{-1}( \mathfrak { p } )}  \to  R_{ \mathfrak { p } }</tex> reflects invertibility. This is true by construction. Hence we have a map <tex>\hom _{ \mathsf { CRing } }(S, R)  \to   \hom _{ \mathsf { Sch } }( \operatorname {Spec} (R),  \operatorname {Spec} (S))</tex>.
-  </p>
+  <fr:p>
+    We need to prove our map is <fr:link
+href="algm-000U.xml"
+type="local"
+addr="algm-000U">local</fr:link>. Using the <fr:link
+href="algm-000W.xml"
+type="local"
+addr="algm-000W">characterization on stalks</fr:link>, we just need to verify that <fr:tex>S_{ \varphi ^{-1}( \mathfrak { p } )}  \to  R_{ \mathfrak { p } }</fr:tex> reflects invertibility. This is true by construction. Hence we have a map <fr:tex>\hom _{ \mathsf { CRing } }(S, R)  \to   \hom _{ \mathsf { Sch } }( \operatorname {Spec} (R),  \operatorname {Spec} (S))</fr:tex>.
+  </fr:p>
 
-  <p>
-    In the reverse direction, given a morphism <tex>\varphi  :  \operatorname {Spec} (R)  \to   \operatorname {Spec} (S)</tex>, we can extract a ring homomorphism by looking at the global sections
-    <tex display="block">S  \cong   \Gamma ( \top ,  \varphi ^{-1} \mathscr { O } _{ \operatorname {Spec} (S)})  \to   \Gamma ( \top ,  \mathscr { O } _{ \operatorname {Spec} (R)})  \cong  R.</tex>
-    We obviously have going from <tex>\mathsf { CRing }</tex> to <tex>\mathsf { Sch }</tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
-  </p>
+  <fr:p>
+    In the reverse direction, given a morphism <fr:tex>\varphi  :  \operatorname {Spec} (R)  \to   \operatorname {Spec} (S)</fr:tex>, we can extract a ring homomorphism by looking at the global sections
+    <fr:tex
+display="block">S  \cong   \Gamma ( \top ,  \varphi ^{-1} \mathscr { O } _{ \operatorname {Spec} (S)})  \to   \Gamma ( \top ,  \mathscr { O } _{ \operatorname {Spec} (R)})  \cong  R.</fr:tex>
+    We obviously have going from <fr:tex>\mathsf { CRing }</fr:tex> to <fr:tex>\mathsf { Sch }</fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
+  </fr:p>
 
   
-  <embedded-tex hash="b2218c11f9fffc76a55f570d96e735cd"><embedded-tex-preamble>
-        \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-  </embedded-tex-preamble> <embedded-tex-body>
-     \begin {tikzcd} 
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="5c8d88f17fb49eabfdaea7640e756c38"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzcd} 
     S &amp; R  \\ 
     {S_{ \mathfrak { q } }} &amp; {R_{ \mathfrak { p } }}
      \arrow [from=1-1, to=1-2]
@@ -72,12 +188,16 @@
      \arrow [two heads, from=1-1, to=2-1]
      \arrow [two heads, from=1-2, to=2-2]
    \end {tikzcd}
-  </embedded-tex-body></embedded-tex>
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
 
 
-  <p>
-    where <tex>\left [ \mathfrak { q } \right ]</tex> is the image of the point <tex>\left [ \mathfrak { p } \right ]</tex> under the underlying continuous map of <tex>\varphi</tex>. This fixes the action of <tex>\varphi</tex> on the stalks. Furthermore, the <link href="algm-000W.xml" type="local" addr="algm-000W" title="Action of morphisms on stalks of locally ringed spaces">locality</link> implies the preimage of <tex>\mathfrak { p }</tex> under the ring homomorphism divides <tex>\mathfrak { q }</tex>, and since <tex>\mathfrak { q }</tex> is maximal in the local ring <tex>S_{ \mathfrak { q } }</tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.
-  </p>
-</mainmatter> </tree>
+  <fr:p>
+    where <fr:tex>\left [ \mathfrak { q } \right ]</fr:tex> is the image of the point <fr:tex>\left [ \mathfrak { p } \right ]</fr:tex> under the underlying continuous map of <fr:tex>\varphi</fr:tex>. This fixes the action of <fr:tex>\varphi</fr:tex> on the stalks. Furthermore, the <fr:link
+href="algm-000W.xml"
+type="local"
+addr="algm-000W">locality</fr:link> implies the preimage of <fr:tex>\mathfrak { p }</fr:tex> under the ring homomorphism divides <fr:tex>\mathfrak { q }</fr:tex>, and since <fr:tex>\mathfrak { q }</fr:tex> is maximal in the local ring <fr:tex>S_{ \mathfrak { q } }</fr:tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.
+  </fr:p>
+</fr:mainmatter></fr:tree>
   
-</mainmatter> </tree></backlinks> <references/></backmatter></tree>
+</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

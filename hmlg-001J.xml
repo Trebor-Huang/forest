@@ -1,9 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>708</anchor> <taxon>Definition</taxon> <addr>hmlg-001J</addr><route>hmlg-001J.xml</route>  <date><year>2024</year> <month>3</month> <day>1</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Effective homology</title>   </frontmatter> <mainmatter><p>
-  Given a mathematical object <tex>X</tex> canonically associated with an <link href="hmlg-001A.xml" type="local" addr="hmlg-001A" title="Effective algebraic cellular complex">effective</link> chain complex <tex>C_ \bullet  (X)</tex> (e.g. the <link href="todo.xml" type="local" addr="todo" title="Unfinished trees">normalized chain complex</link> of a <link href="todo.xml" type="local" addr="todo" title="Unfinished trees">simplicial set</link>), it is said to be equipped with the structure of <strong>effective homology</strong>, if we have a <link href="hmlg-001I.xml" type="local" addr="hmlg-001I" title="Strong homology equivalence">strong homology equivalence</link> <tex>C_ \bullet  (X)  \Leftarrow   \mkern {-13mu}  \Leftrightarrow   \mkern {-13mu}  \Rightarrow  E_ \bullet</tex>, such that <tex>E_ \bullet</tex> is <link href="hmlg-001A.xml" type="local" addr="hmlg-001A" title="Effective algebraic cellular complex">effective of finite type</link>.
-</p></mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>709</anchor> <taxon>Definition</taxon> <addr>hmlg-001I</addr><route>hmlg-001I.xml</route>  <date><year>2024</year> <month>3</month> <day>1</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Strong homology equivalence</title>   </frontmatter> <mainmatter><p>
-  A <strong>strong homology equivalence</strong> between chain complexes <tex>C</tex> and <tex>D</tex> is a span of chain reductions, i.e. a third chain complex <tex>X</tex> with <tex>X  \Rightarrow \mkern {-14mu} \Rightarrow  C</tex> and <tex>X  \Rightarrow \mkern {-14mu} \Rightarrow  D</tex>. We denote a strong homology equivalence with <tex>C  \Leftarrow   \mkern {-13mu}  \Leftrightarrow   \mkern {-13mu}  \Rightarrow  D</tex>.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>710</anchor> <taxon>Definition</taxon> <addr>hmlg-001A</addr><route>hmlg-001A.xml</route>  <date><year>2024</year> <month>2</month> <day>25</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Effective <link href="hmlg-0013.xml" type="local" addr="hmlg-0013" title="Algebraic cellular complex">algebraic cellular complex</link></title>   </frontmatter> <mainmatter><p>
-  Given an <link href="hmlg-0013.xml" type="local" addr="hmlg-0013" title="Algebraic cellular complex">algebraic cellular complex</link>, suppose we can encode the basis sets <tex>C_ \bullet</tex> such that they have <link href="todo.xml" type="local" addr="todo" title="Unfinished trees">decidable equality</link>, and the maps <tex>C_k  \to   \mathbb {Z}[C_{k-1}]</tex> are computable, then we say the ACC is <strong>effective</strong>. Suppose further that <tex>C_ \bullet</tex> are (computably) finite sets, then we say it is <strong>effective of finite type</strong>.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>711</anchor> <taxon>Meta</taxon> <addr>todo</addr><route>todo.xml</route>    <title>Unfinished trees</title>   </frontmatter> <mainmatter><p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</p></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1109</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001J</fr:addr><fr:route>hmlg-001J.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a mathematical object <fr:tex>X</fr:tex> canonically associated with an <fr:link
+href="hmlg-001A.xml"
+type="local"
+addr="hmlg-001A">effective</fr:link> chain complex <fr:tex>C_ \bullet  (X)</fr:tex> (e.g. the <fr:link
+href="todo.xml"
+type="local"
+addr="todo">normalized chain complex</fr:link> of a <fr:link
+href="todo.xml"
+type="local"
+addr="todo">simplicial set</fr:link>), it is said to be equipped with the structure of <fr:strong>effective homology</fr:strong>, if we have a <fr:link
+href="hmlg-001I.xml"
+type="local"
+addr="hmlg-001I">strong homology equivalence</fr:link> <fr:tex>C_ \bullet  (X)  \Leftarrow   \mkern {-13mu}  \Leftrightarrow   \mkern {-13mu}  \Rightarrow  E_ \bullet</fr:tex>, such that <fr:tex>E_ \bullet</fr:tex> is <fr:link
+href="hmlg-001A.xml"
+type="local"
+addr="hmlg-001A">effective of finite type</fr:link>.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1104</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001I</fr:addr><fr:route>hmlg-001I.xml</fr:route><fr:title>Strong homology equivalence</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  A <fr:strong>strong homology equivalence</fr:strong> between chain complexes <fr:tex>C</fr:tex> and <fr:tex>D</fr:tex> is a span of chain reductions, i.e. a third chain complex <fr:tex>X</fr:tex> with <fr:tex>X  \Rightarrow \mkern {-14mu} \Rightarrow  C</fr:tex> and <fr:tex>X  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex>. We denote a strong homology equivalence with <fr:tex>C  \Leftarrow   \mkern {-13mu}  \Leftrightarrow   \mkern {-13mu}  \Rightarrow  D</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1106</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001A</fr:addr><fr:route>hmlg-001A.xml</fr:route><fr:title>Effective <fr:link
+href="hmlg-0013.xml"
+type="local"
+addr="hmlg-0013">algebraic cellular complex</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given an <fr:link
+href="hmlg-0013.xml"
+type="local"
+addr="hmlg-0013">algebraic cellular complex</fr:link>, suppose we can encode the basis sets <fr:tex>C_ \bullet</fr:tex> such that they have <fr:link
+href="todo.xml"
+type="local"
+addr="todo">decidable equality</fr:link>, and the maps <fr:tex>C_k  \to   \mathbb {Z}[C_{k-1}]</fr:tex> are computable, then we say the ACC is <fr:strong>effective</fr:strong>. Suppose further that <fr:tex>C_ \bullet</fr:tex> are (computably) finite sets, then we say it is <fr:strong>effective of finite type</fr:strong>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1108</fr:anchor><fr:taxon>Meta</fr:taxon><fr:addr>todo</fr:addr><fr:route>todo.xml</fr:route><fr:title>Unfinished trees</fr:title></fr:frontmatter><fr:mainmatter><fr:p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="false"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>465</fr:anchor></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>457</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001M</fr:addr><fr:route>hmlg-001M.xml</fr:route><fr:title>Chain reduction of mapping cones</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a pair of <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reductions</fr:link> <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex> and <fr:tex>\rho ' : C'  \Rightarrow \mkern {-14mu} \Rightarrow  D'</fr:tex>, we can construct a reduction from the mapping cone <fr:tex>\operatorname {Cone} (f)</fr:tex> of a chain map <fr:tex>f : C  \to  C'</fr:tex> to (the action of <fr:tex>\rho</fr:tex> on <fr:tex>f</fr:tex>).
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>459</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  This is a set of notes on effective homology and algebraic topology. Main references are <fr:link
+href="constructive-homological-algebra.xml"
+type="local"
+addr="constructive-homological-algebra">Constructive Homological Algebra and Applications</fr:link> and ...
+</fr:p><fr:p>
+  TODO: composition of <fr:link
+href="hmlg-001I.xml"
+type="local"
+addr="hmlg-001I">strong homology equivalence</fr:link>, tensor product, cone, bicomplex, (effective) simplicial set, simplicial group, Kan complex
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>463</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000F</fr:addr><fr:route>hmlg-000F.xml</fr:route><fr:title>Freyd–Mitchell embedding theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex>R</fr:tex>-modules for some ring <fr:tex>R</fr:tex>.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>461</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  (TODO)
+</fr:p></fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

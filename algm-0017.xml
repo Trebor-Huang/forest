@@ -1,33 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>420</anchor> <taxon>Definition</taxon> <addr>algm-0017</addr><route>algm-0017.xml</route>  <date><year>2024</year> <month>3</month> <day>15</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Affine local properties</title>   </frontmatter> <mainmatter><p>
-  Suppose a property on affine subschemes <tex>\operatorname {Spec} (R)  \hookrightarrow  X</tex> is closed under taking distinguished subsets <tex>\operatorname {Spec} (R_f)  \hookrightarrow  X</tex>, and for <tex>\gcd \{ f_i \}  = 1</tex>, the property being true on <tex>\operatorname {Spec} (R_{f_i})  \hookrightarrow  X</tex> implies it being true on <tex>\operatorname {Spec} (R)  \hookrightarrow  X</tex>. Then such a property is called <strong>affine local</strong>. We then say that <tex>X</tex> has such a property if some affine cover has such a property: the result doesn’t depend on the chosen cover.
-</p><p>
-  If the property <tex>P</tex> only depends on <tex>\operatorname {Spec} (R)</tex> and not <tex>X</tex> (or the inclusion map), it can be simplified as a property on affine schemes. In this case, the above definition extends it to a property <tex>P'</tex> on schemes, which we will usually refer to as <strong>locally</strong> <tex>P</tex>. Suppose the scheme is furthermore <link href="algm-000A.xml" type="local" addr="algm-000A" title="Terminology of compactness in algebraic geometry">quasi-compact</link>, we say the scheme satisfies <tex>P</tex>.
-</p>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>725</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0017</fr:addr><fr:route>algm-0017.xml</fr:route><fr:title>Affine local properties</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Suppose a property on affine subschemes <fr:tex>\operatorname {Spec} (R)  \hookrightarrow  X</fr:tex> is closed under taking distinguished subsets <fr:tex>\operatorname {Spec} (R_f)  \hookrightarrow  X</fr:tex>, and for <fr:tex>\gcd \{ f_i \}  = 1</fr:tex>, the property being true on <fr:tex>\operatorname {Spec} (R_{f_i})  \hookrightarrow  X</fr:tex> implies it being true on <fr:tex>\operatorname {Spec} (R)  \hookrightarrow  X</fr:tex>. Then such a property is called <fr:strong>affine local</fr:strong>. We then say that <fr:tex>X</fr:tex> has such a property if some affine cover has such a property: the result doesn’t depend on the chosen cover.
+</fr:p><fr:p>
+  If the property <fr:tex>P</fr:tex> only depends on <fr:tex>\operatorname {Spec} (R)</fr:tex> and not <fr:tex>X</fr:tex> (or the inclusion map), it can be simplified as a property on affine schemes. In this case, the above definition extends it to a property <fr:tex>P'</fr:tex> on schemes, which we will usually refer to as <fr:strong>locally</fr:strong> <fr:tex>P</fr:tex>. Suppose the scheme is furthermore <fr:link
+href="algm-000A.xml"
+type="local"
+addr="algm-000A">quasi-compact</fr:link>, we say the scheme satisfies <fr:tex>P</fr:tex>.
+</fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>421</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>15</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>    </frontmatter> <mainmatter>
-  <p>
-    We prove that if some affine cover <tex>\{ \operatorname {Spec} (R_i)  \hookrightarrow  X \}</tex> has such a property, then all the affine subschemes has it, hence we can check on any affine cover. Given an affine subscheme <tex>\operatorname {Spec} (S)  \hookrightarrow  X</tex>, using <link href="algm-0016.xml" type="local" addr="algm-0016" title="Nike’s trick">Nike’s trick</link>, we see that the intersection with <tex>\operatorname {Spec} (R_i)</tex> is covered by affine subschemes, which will all have the said property. Hence we get a cover of <tex>\operatorname {Spec} (S)  \hookrightarrow  X</tex> with the said property, and therefore itself also.
-  </p>
-</mainmatter> </tree>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>706</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0017</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    We prove that if some affine cover <fr:tex>\{ \operatorname {Spec} (R_i)  \hookrightarrow  X \}</fr:tex> has such a property, then all the affine subschemes has it, hence we can check on any affine cover. Given an affine subscheme <fr:tex>\operatorname {Spec} (S)  \hookrightarrow  X</fr:tex>, using <fr:link
+href="algm-0016.xml"
+type="local"
+addr="algm-0016">Nike’s trick</fr:link>, we see that the intersection with <fr:tex>\operatorname {Spec} (R_i)</fr:tex> is covered by affine subschemes, which will all have the said property. Hence we get a cover of <fr:tex>\operatorname {Spec} (S)  \hookrightarrow  X</fr:tex> with the said property, and therefore itself also.
+  </fr:p>
+</fr:mainmatter></fr:tree>
   
-</mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>422</anchor> <taxon>Theorem</taxon> <addr>algm-0016</addr><route>algm-0016.xml</route>  <date><year>2024</year> <month>3</month> <day>15</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Nike’s trick</title>   </frontmatter> <mainmatter><p>
-  The intersections of two <link href="algm-000Q.xml" type="local" addr="algm-000Q" title="Affine scheme">affine</link> subschemes <tex>\operatorname {Spec} (R_1),  \operatorname {Spec} (R_2)  \hookrightarrow  X</tex> can be covered by affine schemes distinguished in both of them.
-</p>
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>721</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0016</fr:addr><fr:route>algm-0016.xml</fr:route><fr:title>Nike’s trick</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The intersections of two <fr:link
+href="algm-000Q.xml"
+type="local"
+addr="algm-000Q">affine</fr:link> subschemes <fr:tex>\operatorname {Spec} (R_1),  \operatorname {Spec} (R_2)  \hookrightarrow  X</fr:tex> can be covered by affine schemes distinguished in both of them.
+</fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>423</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>15</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>algm-0016</parent> </frontmatter> <mainmatter>
-  <p>
-    We just need to cover each point of the intersection. Suppose a point in the intersection is given by a prime ideal <tex>\mathfrak { p }</tex> of <tex>R_1</tex>. We can pick a distinguished open <tex>D(f)</tex> of <tex>\operatorname {Spec} (R_2)</tex> contained in the intersection and containing <tex>\mathfrak { p }</tex>, and a distinguished open <tex>D(g)</tex> of <tex>\operatorname {Spec} (R_1)</tex> contained in <tex>D(f)</tex> and containing <tex>\mathfrak { p }</tex>. Now we prove that <tex>D(g)</tex> is a distinguished open in <tex>\operatorname {Spec} (R_2)</tex>.
-  </p>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>717</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0016</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    We just need to cover each point of the intersection. Suppose a point in the intersection is given by a prime ideal <fr:tex>\mathfrak { p }</fr:tex> of <fr:tex>R_1</fr:tex>. We can pick a distinguished open <fr:tex>D(f)</fr:tex> of <fr:tex>\operatorname {Spec} (R_2)</fr:tex> contained in the intersection and containing <fr:tex>\mathfrak { p }</fr:tex>, and a distinguished open <fr:tex>D(g)</fr:tex> of <fr:tex>\operatorname {Spec} (R_1)</fr:tex> contained in <fr:tex>D(f)</fr:tex> and containing <fr:tex>\mathfrak { p }</fr:tex>. Now we prove that <fr:tex>D(g)</fr:tex> is a distinguished open in <fr:tex>\operatorname {Spec} (R_2)</fr:tex>.
+  </fr:p>
 
-  <p>
-    It suffices to prove that <tex>D(g)</tex> is a distinguished open in <tex>\operatorname {Spec} (R_2 [f^{-1}])</tex>, since this would imply the existence of an element <tex>g'/f^{n}  \in  R_2[f^{-1}]</tex>, and we can take <tex>D(g')  \cap  D(f) = D(g' f)</tex> in <tex>\operatorname {Spec} (R_2)</tex>. Now there is an inclusion map <tex>\operatorname {Spec} (R_2[f^{-1}])  \to   \operatorname {Spec} (R_1)</tex>, which amounts to a ring homomorphism <tex>\varphi</tex> by <ref addr="algm-000X" href="algm-000X.xml" taxon="Theorem"/>. In this case, <tex>D( \varphi (g))</tex> is the required distinguished open, since <tex>\varphi ^{-1}D(u)</tex> is equal to <tex>D( \varphi (u))</tex> in <tex>\operatorname {Spec} (R_2 [f^{-1}])</tex>.
-  </p>
-</mainmatter> </tree>
+  <fr:p>
+    It suffices to prove that <fr:tex>D(g)</fr:tex> is a distinguished open in <fr:tex>\operatorname {Spec} (R_2 [f^{-1}])</fr:tex>, since this would imply the existence of an element <fr:tex>g'/f^{n}  \in  R_2[f^{-1}]</fr:tex>, and we can take <fr:tex>D(g')  \cap  D(f) = D(g' f)</fr:tex> in <fr:tex>\operatorname {Spec} (R_2)</fr:tex>. Now there is an inclusion map <fr:tex>\operatorname {Spec} (R_2[f^{-1}])  \to   \operatorname {Spec} (R_1)</fr:tex>, which amounts to a ring homomorphism <fr:tex>\varphi</fr:tex> by <fr:ref
+addr="algm-000X"
+href="algm-000X.xml"
+taxon="Theorem"></fr:ref>. In this case, <fr:tex>D( \varphi (g))</fr:tex> is the required distinguished open, since <fr:tex>\varphi ^{-1}D(u)</fr:tex> is equal to <fr:tex>D( \varphi (u))</fr:tex> in <fr:tex>\operatorname {Spec} (R_2 [f^{-1}])</fr:tex>.
+  </fr:p>
+</fr:mainmatter></fr:tree>
   
-</mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>424</anchor> <taxon>Remark</taxon> <addr>algm-000A</addr><route>algm-000A.xml</route>  <date><year>2024</year> <month>3</month> <day>3</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Terminology of compactness in algebraic geometry</title>   </frontmatter> <mainmatter><p>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>723</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>algm-000A</fr:addr><fr:route>algm-000A.xml</fr:route><fr:title>Terminology of compactness in algebraic geometry</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   The word compactness historically required the space to be Hausdorff. And the modern meaning of compactness was called quasi-compact. In algebraic geometry, most spaces are never Hausdorff, and the topological compactness condition does not lead to similar behavior. There is another notion more suitable as an analog of topological compactness. Therefore, we choose to always use the word “quasi-compact”.
-</p></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

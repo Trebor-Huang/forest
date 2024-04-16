@@ -1,62 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>970</anchor> <taxon>Theorem</taxon> <addr>hmlg-000Z</addr><route>hmlg-000Z.xml</route>  <date><year>2024</year> <month>2</month> <day>19</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Monomorphisms can be expressed using finite limits</title>   </frontmatter> <mainmatter><p>
-  Given a morphism <tex>f : X  \to  Y</tex> in an arbitrary category, we can express the condition of being monic using finite limits.
-</p>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1400</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000Z</fr:addr><fr:route>hmlg-000Z.xml</fr:route><fr:title>Monomorphisms can be expressed using finite limits</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a morphism <fr:tex>f : X  \to  Y</fr:tex> in an arbitrary category, we can express the condition of being monic using finite limits.
+</fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>971</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>2</month> <day>19</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>    </frontmatter> <mainmatter>
-  <p>
-    We claim that <tex>f</tex> being monic is equivalent to the following square being a pullback square:
-  </p>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1398</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Z</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    We claim that <fr:tex>f</fr:tex> being monic is equivalent to the following square being a pullback square:
+  </fr:p>
 
   
-  <embedded-tex hash="61a6c1d9cb0e1971a1d8db56ef03e73e"><embedded-tex-preamble>
-        \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-  </embedded-tex-preamble> <embedded-tex-body>
-     \begin {tikzcd} 
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="8008d22f1883cef2d1bfcd422112257a"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzcd} 
     X &amp; X  \\ 
     X &amp; Y
-     \arrow [&quot;f&quot;', from=2-1, to=2-2]
-     \arrow [&quot;f&quot;, from=1-2, to=2-2]
-     \arrow [&quot; \operatorname {id} &quot;', from=1-1, to=2-1]
-     \arrow [&quot; \operatorname {id} &quot;, from=1-1, to=1-2]
-     \arrow [&quot; \lrcorner &quot;{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+     \arrow ["f"', from=2-1, to=2-2]
+     \arrow ["f", from=1-2, to=2-2]
+     \arrow [" \operatorname {id} "', from=1-1, to=2-1]
+     \arrow [" \operatorname {id} ", from=1-1, to=1-2]
+     \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
    \end {tikzcd}
-  </embedded-tex-body></embedded-tex>
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
 
 
-  <p>
+  <fr:p>
     For the forward implication, we consider the diagram
-  </p>
+  </fr:p>
 
   
-  <embedded-tex hash="26bfdbd158e80a7b344e0e4b491d5dd9"><embedded-tex-preamble>
-        \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-  </embedded-tex-preamble> <embedded-tex-body>
-     \begin {tikzcd} 
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="bac489a29cd45027c9697eb624b68ec5"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzcd} 
     Z  \\ 
     &amp; X &amp; X  \\ 
     &amp; X &amp; Y
-     \arrow [&quot;f&quot;', from=3-2, to=3-3]
-     \arrow [&quot;f&quot;, from=2-3, to=3-3]
-     \arrow [&quot; \operatorname {id} &quot;', from=2-2, to=3-2]
-     \arrow [&quot; \operatorname {id} &quot;, from=2-2, to=2-3]
-     \arrow [&quot; \lrcorner &quot;{anchor=center, pos=0.125}, draw=none, from=2-2, to=3-3]
+     \arrow ["f"', from=3-2, to=3-3]
+     \arrow ["f", from=2-3, to=3-3]
+     \arrow [" \operatorname {id} "', from=2-2, to=3-2]
+     \arrow [" \operatorname {id} ", from=2-2, to=2-3]
+     \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=2-2, to=3-3]
      \arrow [dashed, from=1-1, to=2-2]
-     \arrow [&quot;g&quot;', curve={height=6pt}, from=1-1, to=3-2]
-     \arrow [&quot;h&quot;, curve={height=-6pt}, from=1-1, to=2-3]
+     \arrow ["g"', curve={height=6pt}, from=1-1, to=3-2]
+     \arrow ["h", curve={height=-6pt}, from=1-1, to=2-3]
    \end {tikzcd}
-  </embedded-tex-body></embedded-tex>
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
 
 
-  <p>
-    Since <tex>f</tex> is mono, this diagram commutes iff <tex>g = h</tex>, in which case there is a unique way to fill in the dashed arrow, which is <tex>g</tex>.
-  </p>
+  <fr:p>
+    Since <fr:tex>f</fr:tex> is mono, this diagram commutes iff <fr:tex>g = h</fr:tex>, in which case there is a unique way to fill in the dashed arrow, which is <fr:tex>g</fr:tex>.
+  </fr:p>
 
-  <p>
-    On the other hand, if the diagram is a pullback, then for every pair of morphisms <tex>g, h : Z  \rightrightarrows  X</tex>, we can draw the diagram above, and obtain the dashed arrow <tex>k : Z  \to  X</tex>. The diagram commuting implies <tex>g =  \operatorname {id}   \circ  k = h</tex>.
-  </p>
-</mainmatter> </tree>
+  <fr:p>
+    On the other hand, if the diagram is a pullback, then for every pair of morphisms <fr:tex>g, h : Z  \rightrightarrows  X</fr:tex>, we can draw the diagram above, and obtain the dashed arrow <fr:tex>k : Z  \to  X</fr:tex>. The diagram commuting implies <fr:tex>g =  \operatorname {id}   \circ  k = h</fr:tex>.
+  </fr:p>
+</fr:mainmatter></fr:tree>
   
-</mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks/> <references/></backmatter></tree>
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

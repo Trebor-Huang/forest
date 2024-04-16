@@ -1,11 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>306</anchor> <taxon>Theorem</taxon> <addr>algm-001I</addr><route>algm-001I.xml</route>  <date><year>2024</year> <month>4</month> <day>3</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Sheaf condition in terms of plus construction</title>   </frontmatter> <mainmatter><p>
-  Given a presheaf <tex>P</tex>, the morphism <tex>P  \to  P^+</tex> to its <link href="algm-001E.xml" type="local" addr="algm-001E" title="Plus construction">plus construction</link> is a monomorphism iff <tex>P</tex> is <link href="algm-001F.xml" type="local" addr="algm-001F" title="Sheaf">separated</link>, and it is an isomorphism iff <tex>P</tex> is a <link href="algm-001F.xml" type="local" addr="algm-001F" title="Sheaf">sheaf</link>.
-</p></mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>307</anchor> <taxon>Definition</taxon> <addr>algm-001E</addr><route>algm-001E.xml</route>  <date><year>2024</year> <month>4</month> <day>2</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Plus construction</title>   </frontmatter> <mainmatter><p>
-  Given a <link href="algm-001A.xml" type="local" addr="algm-001A" title="Grothendieck coverage">Grothendieck coverage</link> on <tex>\mathcal { C }</tex> and a presheaf <tex>P :  \mathcal { C } ^ \textrm {op}   \to   \mathsf { Set }</tex>, the <strong>plus construction</strong> produces a new presheaf <tex>P^+</tex> by taking a directed limit over all the <link href="algm-001D.xml" type="local" addr="algm-001D" title="Descent data of presheaves">descent data</link>. More precisely, we assign <tex display="block">\Gamma (A, P^+) =  \operatorname *{colim} _{S  \text { covers } A}  \hom (S, P).</tex> This means the sections of <tex>P^+</tex> are compatible families of sections of <tex>P</tex>, and two families are considered equal if they are equal on a common covering subsieve.
-</p><p>
-  Given a map <tex>g : B  \to  A</tex>, we have a <link href="algm-001C.xml" type="local" addr="algm-001C" title="Pullback of sieves">pullback</link> <tex>\hom (S, P)  \to   \hom (g^*S, P)</tex>. This induces the functorial action of <tex>P^+</tex>. There is an obvious natural transformation <tex>P  \to  P^+</tex>.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>308</anchor> <taxon>Definition</taxon> <addr>algm-001F</addr><route>algm-001F.xml</route>  <date><year>2024</year> <month>4</month> <day>2</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Sheaf</title>   </frontmatter> <mainmatter><p>
-  Given a category <tex>\mathcal { C }</tex> equipped with a <link href="algm-0019.xml" type="local" addr="algm-0019" title="Coverage">coverage</link>, we define a presheaf <tex>P :  \mathcal { C } ^ \textrm {op}   \to   \mathsf { Set }</tex> to be a <strong>sheaf</strong> if it satisfies the <strong>sheaf condition</strong>: for every cover of <tex>A</tex>, the map from sections of <tex>A</tex> to <link href="algm-001D.xml" type="local" addr="algm-001D" title="Descent data of presheaves">descent data</link> of the cover is a bijection. It is a <strong>separated presheaf</strong> if the map is an injection.
-</p></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>544</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-001I</fr:addr><fr:route>algm-001I.xml</fr:route><fr:title>Sheaf condition in terms of plus construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a presheaf <fr:tex>P</fr:tex>, the morphism <fr:tex>P  \to  P^+</fr:tex> to its <fr:link
+href="algm-001E.xml"
+type="local"
+addr="algm-001E">plus construction</fr:link> is a monomorphism iff <fr:tex>P</fr:tex> is <fr:link
+href="algm-001F.xml"
+type="local"
+addr="algm-001F">separated</fr:link>, and it is an isomorphism iff <fr:tex>P</fr:tex> is a <fr:link
+href="algm-001F.xml"
+type="local"
+addr="algm-001F">sheaf</fr:link>.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>540</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001E</fr:addr><fr:route>algm-001E.xml</fr:route><fr:title>Plus construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a <fr:link
+href="algm-001A.xml"
+type="local"
+addr="algm-001A">Grothendieck coverage</fr:link> on <fr:tex>\mathcal { C }</fr:tex> and a presheaf <fr:tex>P :  \mathcal { C } ^ \textrm {op}   \to   \mathsf { Set }</fr:tex>, the <fr:strong>plus construction</fr:strong> produces a new presheaf <fr:tex>P^+</fr:tex> by taking a directed limit over all the <fr:link
+href="algm-001D.xml"
+type="local"
+addr="algm-001D">descent data</fr:link>. More precisely, we assign <fr:tex
+display="block">\Gamma (A, P^+) =  \operatorname *{colim} _{S  \text { covers } A}  \hom (S, P).</fr:tex> This means the sections of <fr:tex>P^+</fr:tex> are compatible families of sections of <fr:tex>P</fr:tex>, and two families are considered equal if they are equal on a common covering subsieve.
+</fr:p><fr:p>
+  Given a map <fr:tex>g : B  \to  A</fr:tex>, we have a <fr:link
+href="algm-001C.xml"
+type="local"
+addr="algm-001C">pullback</fr:link> <fr:tex>\hom (S, P)  \to   \hom (g^*S, P)</fr:tex>. This induces the functorial action of <fr:tex>P^+</fr:tex>. There is an obvious natural transformation <fr:tex>P  \to  P^+</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>542</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001F</fr:addr><fr:route>algm-001F.xml</fr:route><fr:title>Sheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a category <fr:tex>\mathcal { C }</fr:tex> equipped with a <fr:link
+href="algm-0019.xml"
+type="local"
+addr="algm-0019">coverage</fr:link>, we define a presheaf <fr:tex>P :  \mathcal { C } ^ \textrm {op}   \to   \mathsf { Set }</fr:tex> to be a <fr:strong>sheaf</fr:strong> if it satisfies the <fr:strong>sheaf condition</fr:strong>: for every cover of <fr:tex>A</fr:tex>, the map from sections of <fr:tex>A</fr:tex> to <fr:link
+href="algm-001D.xml"
+type="local"
+addr="algm-001D">descent data</fr:link> of the cover is a bijection. It is a <fr:strong>separated presheaf</fr:strong> if the map is an injection.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

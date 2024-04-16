@@ -1,11 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>717</anchor> <taxon>Definition</taxon> <addr>hmlg-001I</addr><route>hmlg-001I.xml</route>  <date><year>2024</year> <month>3</month> <day>1</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Strong homology equivalence</title>   </frontmatter> <mainmatter><p>
-  A <strong>strong homology equivalence</strong> between chain complexes <tex>C</tex> and <tex>D</tex> is a span of chain reductions, i.e. a third chain complex <tex>X</tex> with <tex>X  \Rightarrow \mkern {-14mu} \Rightarrow  C</tex> and <tex>X  \Rightarrow \mkern {-14mu} \Rightarrow  D</tex>. We denote a strong homology equivalence with <tex>C  \Leftarrow   \mkern {-13mu}  \Leftrightarrow   \mkern {-13mu}  \Rightarrow  D</tex>.
-</p></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>718</anchor> <taxon>Definition</taxon> <addr>hmlg-001J</addr><route>hmlg-001J.xml</route>  <date><year>2024</year> <month>3</month> <day>1</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Effective homology</title>   </frontmatter> <mainmatter><p>
-  Given a mathematical object <tex>X</tex> canonically associated with an <link href="hmlg-001A.xml" type="local" addr="hmlg-001A" title="Effective algebraic cellular complex">effective</link> chain complex <tex>C_ \bullet  (X)</tex> (e.g. the <link href="todo.xml" type="local" addr="todo" title="Unfinished trees">normalized chain complex</link> of a <link href="todo.xml" type="local" addr="todo" title="Unfinished trees">simplicial set</link>), it is said to be equipped with the structure of <strong>effective homology</strong>, if we have a <link href="hmlg-001I.xml" type="local" addr="hmlg-001I" title="Strong homology equivalence">strong homology equivalence</link> <tex>C_ \bullet  (X)  \Leftarrow   \mkern {-13mu}  \Leftrightarrow   \mkern {-13mu}  \Rightarrow  E_ \bullet</tex>, such that <tex>E_ \bullet</tex> is <link href="hmlg-001A.xml" type="local" addr="hmlg-001A" title="Effective algebraic cellular complex">effective of finite type</link>.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>719</anchor>  <addr>hmlg-001K</addr><route>hmlg-001K.xml</route>  <date><year>2024</year> <month>3</month> <day>1</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Effective homology</title>   </frontmatter> <mainmatter><p>
-  This is a set of notes on effective homology and algebraic topology. Main references are <link href="constructive-homological-algebra.xml" type="local" addr="constructive-homological-algebra" title="Constructive Homological Algebra and Applications">Constructive Homological Algebra and Applications</link> and ...
-</p><p>
-  TODO: composition of <link href="hmlg-001I.xml" type="local" addr="hmlg-001I" title="Strong homology equivalence">strong homology equivalence</link>, tensor product, cone, bicomplex, (effective) simplicial set, simplicial group, Kan complex
-</p></mainmatter> </tree></backlinks> <references/></backmatter></tree>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1123</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001I</fr:addr><fr:route>hmlg-001I.xml</fr:route><fr:title>Strong homology equivalence</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  A <fr:strong>strong homology equivalence</fr:strong> between chain complexes <fr:tex>C</fr:tex> and <fr:tex>D</fr:tex> is a span of chain reductions, i.e. a third chain complex <fr:tex>X</fr:tex> with <fr:tex>X  \Rightarrow \mkern {-14mu} \Rightarrow  C</fr:tex> and <fr:tex>X  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex>. We denote a strong homology equivalence with <fr:tex>C  \Leftarrow   \mkern {-13mu}  \Leftrightarrow   \mkern {-13mu}  \Rightarrow  D</fr:tex>.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1119</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001J</fr:addr><fr:route>hmlg-001J.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a mathematical object <fr:tex>X</fr:tex> canonically associated with an <fr:link
+href="hmlg-001A.xml"
+type="local"
+addr="hmlg-001A">effective</fr:link> chain complex <fr:tex>C_ \bullet  (X)</fr:tex> (e.g. the <fr:link
+href="todo.xml"
+type="local"
+addr="todo">normalized chain complex</fr:link> of a <fr:link
+href="todo.xml"
+type="local"
+addr="todo">simplicial set</fr:link>), it is said to be equipped with the structure of <fr:strong>effective homology</fr:strong>, if we have a <fr:link
+href="hmlg-001I.xml"
+type="local"
+addr="hmlg-001I">strong homology equivalence</fr:link> <fr:tex>C_ \bullet  (X)  \Leftarrow   \mkern {-13mu}  \Leftrightarrow   \mkern {-13mu}  \Rightarrow  E_ \bullet</fr:tex>, such that <fr:tex>E_ \bullet</fr:tex> is <fr:link
+href="hmlg-001A.xml"
+type="local"
+addr="hmlg-001A">effective of finite type</fr:link>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1121</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  This is a set of notes on effective homology and algebraic topology. Main references are <fr:link
+href="constructive-homological-algebra.xml"
+type="local"
+addr="constructive-homological-algebra">Constructive Homological Algebra and Applications</fr:link> and ...
+</fr:p><fr:p>
+  TODO: composition of <fr:link
+href="hmlg-001I.xml"
+type="local"
+addr="hmlg-001I">strong homology equivalence</fr:link>, tensor product, cone, bicomplex, (effective) simplicial set, simplicial group, Kan complex
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

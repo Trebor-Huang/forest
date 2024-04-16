@@ -1,28 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>825</anchor> <taxon>Theorem</taxon> <addr>hmlg-0010</addr><route>hmlg-0010.xml</route>  <date><year>2024</year> <month>2</month> <day>20</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Snake lemma</title>   </frontmatter> <mainmatter><p>
-  In an <link href="hmlg-000Q.xml" type="local" addr="hmlg-000Q" title="Abelian category">abelian category</link>, given the middle two rows of the diagram
-</p>
-  <embedded-tex hash="bfd31b393d484de454b827c0217f73ad"><embedded-tex-preamble>
-        \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-  </embedded-tex-preamble> <embedded-tex-body>
-     \begin {tikzcd} 
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1303</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0010</fr:addr><fr:route>hmlg-0010.xml</fr:route><fr:title>Snake lemma</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  In an <fr:link
+href="hmlg-000Q.xml"
+type="local"
+addr="hmlg-000Q">abelian category</fr:link>, given the middle two rows of the diagram
+</fr:p>
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="281e810eff5b89c40221b433b27ffeca"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzcd} 
   &amp; { \ker  f} &amp; { \ker  g} &amp; { \ker  h}  \\ 
   { \ker  i} &amp;  \bullet  &amp;  \bullet  &amp;  \bullet  &amp; 0  \\ 
   0 &amp;  \bullet  &amp;  \bullet  &amp;  \bullet  &amp; { \operatorname {coker}  j}  \\ 
   &amp; { \operatorname {coker}  f} &amp; { \operatorname {coker}  g} &amp; { \operatorname {coker}  h}
-   \arrow [&quot;f&quot;, from=2-2, to=3-2]
-   \arrow [&quot;g&quot;, from=2-3, to=3-3]
-   \arrow [&quot;h&quot;, from=2-4, to=3-4]
+   \arrow ["f", from=2-2, to=3-2]
+   \arrow ["g", from=2-3, to=3-3]
+   \arrow ["h", from=2-4, to=3-4]
    \arrow [from=1-2, to=2-2]
    \arrow [from=1-3, to=2-3]
    \arrow [from=1-4, to=2-4]
    \arrow [blue, &gt;-&gt;, out=90, in=180, from=2-1, to=1-2]
    \arrow [from=2-1, to=2-2]
-   \arrow [&quot;i&quot;, from=2-2, to=2-3]
+   \arrow ["i", from=2-2, to=2-3]
    \arrow [from=2-3, to=2-4]
    \arrow [from=3-2, to=3-3]
-   \arrow [&quot;j&quot;, from=3-3, to=3-4]
+   \arrow ["j", from=3-3, to=3-4]
    \arrow [from=3-4, to=3-5]
    \arrow [blue, -&gt;&gt;, out=0, in=-90, from=4-4, to=3-5]
    \arrow [from=3-2, to=4-2]
@@ -36,25 +53,173 @@
    \arrow [from=2-4, to=2-5]
    \arrow [from=3-1, to=3-2]
  \end {tikzcd}
-  </embedded-tex-body></embedded-tex>
-<p>
-  such that the rows are exact, we can take the kernels and cokernels, which forms a long exact sequence of blue arrows, <tex>0  \to   \ker  i  \to   \ker  f  \to   \ker  g  \to   \ker  h  \xrightarrow { \partial }  \operatorname {coker}  f  \to   \operatorname {coker}  g  \to   \operatorname {coker}  h  \to   \operatorname {coker}  j  \to  0</tex>. In particular, if <tex>i</tex> is monic and <tex>j</tex> is epic, this leads to a six-term exact sequence.
-</p><p>
-  There are multiple ways to prove this claim. We can first <link href="todo.xml" type="local" addr="todo" title="Unfinished trees">prove it in categories of modules</link>, and <link href="hmlg-0011.xml" type="local" addr="hmlg-0011" title="Using the Freyd–Mitchell embedding to prove theorems">use the Freyd–Mitchell embedding</link>. We can also use <link href="todo.xml" type="local" addr="todo" title="Unfinished trees">pseudo-elements</link> to <link href="todo.xml" type="local" addr="todo" title="Unfinished trees">perform diagram chases</link>.
-</p></mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>826</anchor>  <addr>hmlg-0011</addr><route>hmlg-0011.xml</route>  <date><year>2024</year> <month>2</month> <day>20</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Using the <link href="hmlg-000F.xml" type="local" addr="hmlg-000F" title="Freyd–Mitchell embedding theorem">Freyd–Mitchell embedding</link> to prove theorems</title>   </frontmatter> <mainmatter><p>
-  We use the <link href="hmlg-0010.xml" type="local" addr="hmlg-0010" title="Snake lemma">snake lemma</link> as an example to demonstrate how the embedding theorem works in practice. The main technique is to avoid dealing with large categories.
-</p><p>
-  Suppose we have already <link href="todo.xml" type="local" addr="todo" title="Unfinished trees">proved</link> the theorem in module categories. Given a snake lemma diagram in an arbitrary (locally small) <link href="hmlg-000Q.xml" type="local" addr="hmlg-000Q" title="Abelian category">abelian category</link> <tex>\mathcal { C }</tex>, we take the smallest full subcategory closed under finite limits and colimits. This results in a small category <tex>\mathcal { D }</tex>, which we can embed in a module category <tex>R \text {-} \mathsf { Mod }</tex>.
-</p><p>
-  Now, the snake lemma in module categories implies that we have the required maps that forms an exact sequence. Since <tex>\mathcal { D }</tex> is a full abelian subcategory of <tex>R \text {-} \mathsf { Mod }</tex>, these morphisms are contained in <tex>\mathcal { D }</tex>, and the sequence is still exact. And since <tex>\mathcal { D }</tex> is a full abelian subcategory of <tex>\mathcal { C }</tex>, the sequence is again exact in <tex>\mathcal { C }</tex>.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>827</anchor> <taxon>Definition</taxon> <addr>hmlg-000Q</addr><route>hmlg-000Q.xml</route>  <date><year>2024</year> <month>2</month> <day>18</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Abelian category</title>   </frontmatter> <mainmatter><p>
-  Given an <link href="hmlg-000P.xml" type="local" addr="hmlg-000P" title="Additive category">additive category</link>, it is an <strong>abelian category</strong> if the following condition holds:
-  <ul><li>Every morphism has a kernel and a cokernel.</li>
-    <li>Every monomorphism is the kernel of its cokernel.</li>
-    <li>Every epimorphism is the cokernel of its kernel.</li></ul></p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>828</anchor> <taxon>Meta</taxon> <addr>todo</addr><route>todo.xml</route>    <title>Unfinished trees</title>   </frontmatter> <mainmatter><p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</p></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>829</anchor>  <addr>hmlg-0011</addr><route>hmlg-0011.xml</route>  <date><year>2024</year> <month>2</month> <day>20</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Using the <link href="hmlg-000F.xml" type="local" addr="hmlg-000F" title="Freyd–Mitchell embedding theorem">Freyd–Mitchell embedding</link> to prove theorems</title>   </frontmatter> <mainmatter><p>
-  We use the <link href="hmlg-0010.xml" type="local" addr="hmlg-0010" title="Snake lemma">snake lemma</link> as an example to demonstrate how the embedding theorem works in practice. The main technique is to avoid dealing with large categories.
-</p><p>
-  Suppose we have already <link href="todo.xml" type="local" addr="todo" title="Unfinished trees">proved</link> the theorem in module categories. Given a snake lemma diagram in an arbitrary (locally small) <link href="hmlg-000Q.xml" type="local" addr="hmlg-000Q" title="Abelian category">abelian category</link> <tex>\mathcal { C }</tex>, we take the smallest full subcategory closed under finite limits and colimits. This results in a small category <tex>\mathcal { D }</tex>, which we can embed in a module category <tex>R \text {-} \mathsf { Mod }</tex>.
-</p><p>
-  Now, the snake lemma in module categories implies that we have the required maps that forms an exact sequence. Since <tex>\mathcal { D }</tex> is a full abelian subcategory of <tex>R \text {-} \mathsf { Mod }</tex>, these morphisms are contained in <tex>\mathcal { D }</tex>, and the sequence is still exact. And since <tex>\mathcal { D }</tex> is a full abelian subcategory of <tex>\mathcal { C }</tex>, the sequence is again exact in <tex>\mathcal { C }</tex>.
-</p></mainmatter> </tree></backlinks> <references/></backmatter></tree>
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+<fr:p>
+  such that the rows are exact, we can take the kernels and cokernels, which forms a long exact sequence of blue arrows, <fr:tex>0  \to   \ker  i  \to   \ker  f  \to   \ker  g  \to   \ker  h  \xrightarrow { \partial }  \operatorname {coker}  f  \to   \operatorname {coker}  g  \to   \operatorname {coker}  h  \to   \operatorname {coker}  j  \to  0</fr:tex>. In particular, if <fr:tex>i</fr:tex> is monic and <fr:tex>j</fr:tex> is epic, this leads to a six-term exact sequence.
+</fr:p><fr:p>
+  There are multiple ways to prove this claim. We can first <fr:link
+href="todo.xml"
+type="local"
+addr="todo">prove it in categories of modules</fr:link>, and <fr:link
+href="hmlg-0011.xml"
+type="local"
+addr="hmlg-0011">use the Freyd–Mitchell embedding</fr:link>. We can also use <fr:link
+href="todo.xml"
+type="local"
+addr="todo">pseudo-elements</fr:link> to <fr:link
+href="todo.xml"
+type="local"
+addr="todo">perform diagram chases</fr:link>.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1297</fr:anchor><fr:addr>hmlg-0011</fr:addr><fr:route>hmlg-0011.xml</fr:route><fr:title>Using the <fr:link
+href="hmlg-000F.xml"
+type="local"
+addr="hmlg-000F">Freyd–Mitchell embedding</fr:link> to prove theorems</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  We use the <fr:link
+href="hmlg-0010.xml"
+type="local"
+addr="hmlg-0010">snake lemma</fr:link> as an example to demonstrate how the embedding theorem works in practice. The main technique is to avoid dealing with large categories.
+</fr:p><fr:p>
+  Suppose we have already <fr:link
+href="todo.xml"
+type="local"
+addr="todo">proved</fr:link> the theorem in module categories. Given a snake lemma diagram in an arbitrary (locally small) <fr:link
+href="hmlg-000Q.xml"
+type="local"
+addr="hmlg-000Q">abelian category</fr:link> <fr:tex>\mathcal { C }</fr:tex>, we take the smallest full subcategory closed under finite limits and colimits. This results in a small category <fr:tex>\mathcal { D }</fr:tex>, which we can embed in a module category <fr:tex>R \text {-} \mathsf { Mod }</fr:tex>.
+</fr:p><fr:p>
+  Now, the snake lemma in module categories implies that we have the required maps that forms an exact sequence. Since <fr:tex>\mathcal { D }</fr:tex> is a full abelian subcategory of <fr:tex>R \text {-} \mathsf { Mod }</fr:tex>, these morphisms are contained in <fr:tex>\mathcal { D }</fr:tex>, and the sequence is still exact. And since <fr:tex>\mathcal { D }</fr:tex> is a full abelian subcategory of <fr:tex>\mathcal { C }</fr:tex>, the sequence is again exact in <fr:tex>\mathcal { C }</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1299</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000Q</fr:addr><fr:route>hmlg-000Q.xml</fr:route><fr:title>Abelian category</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given an <fr:link
+href="hmlg-000P.xml"
+type="local"
+addr="hmlg-000P">additive category</fr:link>, it is an <fr:strong>abelian category</fr:strong> if the following condition holds:
+  <fr:ul><fr:li>Every morphism has a kernel and a cokernel.</fr:li>
+    <fr:li>Every monomorphism is the kernel of its cokernel.</fr:li>
+    <fr:li>Every epimorphism is the cokernel of its kernel.</fr:li></fr:ul></fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1301</fr:anchor><fr:taxon>Meta</fr:taxon><fr:addr>todo</fr:addr><fr:route>todo.xml</fr:route><fr:title>Unfinished trees</fr:title></fr:frontmatter><fr:mainmatter><fr:p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="false"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>465</fr:anchor></fr:frontmatter><fr:mainmatter><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>457</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001M</fr:addr><fr:route>hmlg-001M.xml</fr:route><fr:title>Chain reduction of mapping cones</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a pair of <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reductions</fr:link> <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex> and <fr:tex>\rho ' : C'  \Rightarrow \mkern {-14mu} \Rightarrow  D'</fr:tex>, we can construct a reduction from the mapping cone <fr:tex>\operatorname {Cone} (f)</fr:tex> of a chain map <fr:tex>f : C  \to  C'</fr:tex> to (the action of <fr:tex>\rho</fr:tex> on <fr:tex>f</fr:tex>).
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>459</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  This is a set of notes on effective homology and algebraic topology. Main references are <fr:link
+href="constructive-homological-algebra.xml"
+type="local"
+addr="constructive-homological-algebra">Constructive Homological Algebra and Applications</fr:link> and ...
+</fr:p><fr:p>
+  TODO: composition of <fr:link
+href="hmlg-001I.xml"
+type="local"
+addr="hmlg-001I">strong homology equivalence</fr:link>, tensor product, cone, bicomplex, (effective) simplicial set, simplicial group, Kan complex
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>463</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000F</fr:addr><fr:route>hmlg-000F.xml</fr:route><fr:title>Freyd–Mitchell embedding theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex>R</fr:tex>-modules for some ring <fr:tex>R</fr:tex>.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>461</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  (TODO)
+</fr:p></fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1295</fr:anchor><fr:addr>hmlg-0011</fr:addr><fr:route>hmlg-0011.xml</fr:route><fr:title>Using the <fr:link
+href="hmlg-000F.xml"
+type="local"
+addr="hmlg-000F">Freyd–Mitchell embedding</fr:link> to prove theorems</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  We use the <fr:link
+href="hmlg-0010.xml"
+type="local"
+addr="hmlg-0010">snake lemma</fr:link> as an example to demonstrate how the embedding theorem works in practice. The main technique is to avoid dealing with large categories.
+</fr:p><fr:p>
+  Suppose we have already <fr:link
+href="todo.xml"
+type="local"
+addr="todo">proved</fr:link> the theorem in module categories. Given a snake lemma diagram in an arbitrary (locally small) <fr:link
+href="hmlg-000Q.xml"
+type="local"
+addr="hmlg-000Q">abelian category</fr:link> <fr:tex>\mathcal { C }</fr:tex>, we take the smallest full subcategory closed under finite limits and colimits. This results in a small category <fr:tex>\mathcal { D }</fr:tex>, which we can embed in a module category <fr:tex>R \text {-} \mathsf { Mod }</fr:tex>.
+</fr:p><fr:p>
+  Now, the snake lemma in module categories implies that we have the required maps that forms an exact sequence. Since <fr:tex>\mathcal { D }</fr:tex> is a full abelian subcategory of <fr:tex>R \text {-} \mathsf { Mod }</fr:tex>, these morphisms are contained in <fr:tex>\mathcal { D }</fr:tex>, and the sequence is still exact. And since <fr:tex>\mathcal { D }</fr:tex> is a full abelian subcategory of <fr:tex>\mathcal { C }</fr:tex>, the sequence is again exact in <fr:tex>\mathcal { C }</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

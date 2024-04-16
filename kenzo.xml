@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>755</anchor> <taxon>Reference</taxon> <addr>kenzo</addr><route>kenzo.xml</route>  <date><year>2024</year> <month>2</month> <day>26</day></date> <authors><author>Julio Rubio García, Francis Sergeraert et al.</author> </authors> <title>Kenzo</title>   <meta name="external">https://github.com/gheber/kenzo</meta></frontmatter> <mainmatter><p>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1175</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>kenzo</fr:addr><fr:route>kenzo.xml</fr:route><fr:title>Kenzo</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author>Julio Rubio García, Francis Sergeraert et al.</fr:author></fr:authors><fr:meta
+name="external">https://github.com/gheber/kenzo</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
   Kenzo is a symbolic software for effective homology computation.
-</p></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>756</anchor> <taxon>Remark</taxon> <addr>hmlg-001B</addr><route>hmlg-001B.xml</route>  <date><year>2024</year> <month>2</month> <day>26</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Terminology of <link href="hmlg-001A.xml" type="local" addr="hmlg-001A" title="Effective algebraic cellular complex">effective <link href="hmlg-0013.xml" type="local" addr="hmlg-0013" title="Algebraic cellular complex">algebraic cellular complex</link></link></title>   </frontmatter> <mainmatter><p>
-  The terminology chosen here differs from that in <link href="kenzo.xml" type="local" addr="kenzo" title="Kenzo">Kenzo</link>. What we call effective is named <em>locally effective</em>; and what we call effective of finite type is named <em>effective</em> instead.
-</p></mainmatter> </tree></backlinks> <references/></backmatter></tree>
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1173</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>hmlg-001B</fr:addr><fr:route>hmlg-001B.xml</fr:route><fr:title>Terminology of <fr:link
+href="hmlg-001A.xml"
+type="local"
+addr="hmlg-001A">effective <fr:link
+href="hmlg-0013.xml"
+type="local"
+addr="hmlg-0013">algebraic cellular complex</fr:link></fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The terminology chosen here differs from that in <fr:link
+href="kenzo.xml"
+type="local"
+addr="kenzo">Kenzo</fr:link>. What we call effective is named <fr:em>locally effective</fr:em>; and what we call effective of finite type is named <fr:em>effective</fr:em> instead.
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

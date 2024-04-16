@@ -1,13 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>760</anchor>  <addr>hmlg-001D</addr><route>hmlg-001D.xml</route>  <date><year>2024</year> <month>2</month> <day>26</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Geometric interpretation of <link href="hmlg-0013.xml" type="local" addr="hmlg-0013" title="Algebraic cellular complex">algebraic cellular complex</link></title>   </frontmatter> <mainmatter><p>
-  An ACC can be viewed as the algebraic distillation of a <link href="hmlg-0002.xml" type="local" addr="hmlg-0002" title="Chain complex of abelian groups">chain complex</link>. The generators in dimension <tex>n</tex> are regarded as <tex>n</tex>-cells. However, we only record a formal sum of the boundaries, and forget the exact configuration. Hence, ACC is a suitable middle ground for both geometric transformations and algebraic operations.
-</p></mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>761</anchor> <taxon>Definition</taxon> <addr>hmlg-0013</addr><route>hmlg-0013.xml</route>  <date><year>2024</year> <month>2</month> <day>20</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Algebraic cellular complex</title>   </frontmatter> <mainmatter><p>
-  An <strong>algebraic cellular complex</strong> (or ACC) is a <link href="hmlg-0002.xml" type="local" addr="hmlg-0002" title="Chain complex of abelian groups">chain complex</link> of free abelian groups. The generators are called <strong>cells</strong>, and the boundary maps can be expressed using the generators as a basis, yielding the <strong>incidence matrices</strong>.
-</p><p>
-  More precisely, we may define an ACC as a sequence of sets <tex>C_ \bullet</tex>, with a sequence of functions <tex>d : C_k  \to   \mathbb {Z}[C_{k-1}]</tex>, such that <tex>d^2 = 0</tex> is satisfied. When a generator has non-zero coefficient in some <tex>d \sigma</tex>, the generator is called a <strong>face</strong> of <tex>\sigma</tex>.
-</p><p>
-  Note that the generators of these chain groups are <link href="ualg-0006.xml" type="local" addr="ualg-0006" title="Objects of the Kleisli category">canonically chosen</link> as part of the data. So a more accurate definition is a chain complex in the <link href="ualg-0004.xml" type="local" addr="ualg-0004" title="The Kleisli category of a monad">Kleisli category</link> of abelian groups.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>762</anchor> <taxon>Definition</taxon> <addr>hmlg-0002</addr><route>hmlg-0002.xml</route>  <date><year>2024</year> <month>2</month> <day>16</day></date>  <title>Chain complex of abelian groups</title>   </frontmatter> <mainmatter><p>
-  A chain complex of abelian groups is given by a sequence of abelian groups <tex>G_ \bullet</tex> together with homomorphisms <tex>d_n : G_n  \to  G_{n-1}</tex>, such that <tex>d_{n-1}  \circ  d_n = 0</tex>.
-</p></mainmatter> </tree></related> <backlinks/> <references/></backmatter></tree>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1186</fr:anchor><fr:addr>hmlg-001D</fr:addr><fr:route>hmlg-001D.xml</fr:route><fr:title>Geometric interpretation of <fr:link
+href="hmlg-0013.xml"
+type="local"
+addr="hmlg-0013">algebraic cellular complex</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  An ACC can be viewed as the algebraic distillation of a <fr:link
+href="hmlg-0002.xml"
+type="local"
+addr="hmlg-0002">chain complex</fr:link>. The generators in dimension <fr:tex>n</fr:tex> are regarded as <fr:tex>n</fr:tex>-cells. However, we only record a formal sum of the boundaries, and forget the exact configuration. Hence, ACC is a suitable middle ground for both geometric transformations and algebraic operations.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1183</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0013</fr:addr><fr:route>hmlg-0013.xml</fr:route><fr:title>Algebraic cellular complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  An <fr:strong>algebraic cellular complex</fr:strong> (or ACC) is a <fr:link
+href="hmlg-0002.xml"
+type="local"
+addr="hmlg-0002">chain complex</fr:link> of free abelian groups. The generators are called <fr:strong>cells</fr:strong>, and the boundary maps can be expressed using the generators as a basis, yielding the <fr:strong>incidence matrices</fr:strong>.
+</fr:p><fr:p>
+  More precisely, we may define an ACC as a sequence of sets <fr:tex>C_ \bullet</fr:tex>, with a sequence of functions <fr:tex>d : C_k  \to   \mathbb {Z}[C_{k-1}]</fr:tex>, such that <fr:tex>d^2 = 0</fr:tex> is satisfied. When a generator has non-zero coefficient in some <fr:tex>d \sigma</fr:tex>, the generator is called a <fr:strong>face</fr:strong> of <fr:tex>\sigma</fr:tex>.
+</fr:p><fr:p>
+  Note that the generators of these chain groups are <fr:link
+href="ualg-0006.xml"
+type="local"
+addr="ualg-0006">canonically chosen</fr:link> as part of the data. So a more accurate definition is a chain complex in the <fr:link
+href="ualg-0004.xml"
+type="local"
+addr="ualg-0004">Kleisli category</fr:link> of abelian groups.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1185</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0002</fr:addr><fr:route>hmlg-0002.xml</fr:route><fr:title>Chain complex of abelian groups</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>16</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+  A chain complex of abelian groups is given by a sequence of abelian groups <fr:tex>G_ \bullet</fr:tex> together with homomorphisms <fr:tex>d_n : G_n  \to  G_{n-1}</fr:tex>, such that <fr:tex>d_{n-1}  \circ  d_n = 0</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

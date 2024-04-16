@@ -1,24 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>504</anchor> <taxon>Remark</taxon> <addr>algm-000V</addr><route>algm-000V.xml</route>  <date><year>2024</year> <month>3</month> <day>8</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Terminology of pullbacks</title>   </frontmatter> <mainmatter><p>
-  In general, a pullback is any contravariant functorial action. In other words, we have a functor <tex>F :  \mathcal { C } ^ \textrm {op}   \to   \mathcal { D }</tex>, and pulling back along a morphism <tex>f</tex> in <tex>\mathcal { C }</tex> means the action of <tex>F(f)</tex>.
-</p><p>
-  In differential geometry, we have a set of <tex>k</tex>-forms <tex>\Omega ^k(M)</tex>, which forms a functor <tex>\mathsf { Mfd } ^ \textrm {op}   \to   \mathsf { Set }</tex>. Pullbacks of differential forms is then the functorial action. In the special case of <tex>k = 0</tex>, this corresponds to composition, which is sometimes also referred to as pullbacks.
-</p><p>
-  The categorical pullback can also be construed as a contravariant action, which forms the functor from <tex>\mathcal { C } ^ \textrm {op}</tex> to the <tex>2</tex>-category <tex>\mathsf { Cat }</tex> given by taking slices.
-</p></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>505</anchor> <taxon>Theorem</taxon> <addr>algm-000W</addr><route>algm-000W.xml</route>  <date><year>2024</year> <month>3</month> <day>8</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Action of morphisms on stalks of locally ringed spaces</title>   </frontmatter> <mainmatter><p>
-  Given a <link href="algm-000S.xml" type="local" addr="algm-000S" title="Morphism of ringed spaces">morphism of ringed spaces</link> <tex>\varphi  : X  \to  Y</tex>, if it is <link href="algm-000U.xml" type="local" addr="algm-000U" title="Morphism of locally ringed spaces">local</link>, a germ is invertible iff its <link href="algm-000V.xml" type="local" addr="algm-000V" title="Terminology of pullbacks">pullback</link> under <tex>\varphi</tex> is invertible. If the space <tex>X</tex> has enough points, then the inverse implication is also true.
-</p>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>840</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>algm-000V</fr:addr><fr:route>algm-000V.xml</fr:route><fr:title>Terminology of pullbacks</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  In general, a pullback is any contravariant functorial action. In other words, we have a functor <fr:tex>F :  \mathcal { C } ^ \textrm {op}   \to   \mathcal { D }</fr:tex>, and pulling back along a morphism <fr:tex>f</fr:tex> in <fr:tex>\mathcal { C }</fr:tex> means the action of <fr:tex>F(f)</fr:tex>.
+</fr:p><fr:p>
+  In differential geometry, we have a set of <fr:tex>k</fr:tex>-forms <fr:tex>\Omega ^k(M)</fr:tex>, which forms a functor <fr:tex>\mathsf { Mfd } ^ \textrm {op}   \to   \mathsf { Set }</fr:tex>. Pullbacks of differential forms is then the functorial action. In the special case of <fr:tex>k = 0</fr:tex>, this corresponds to composition, which is sometimes also referred to as pullbacks.
+</fr:p><fr:p>
+  The categorical pullback can also be construed as a contravariant action, which forms the functor from <fr:tex>\mathcal { C } ^ \textrm {op}</fr:tex> to the <fr:tex>2</fr:tex>-category <fr:tex>\mathsf { Cat }</fr:tex> given by taking slices.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>838</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title>Action of morphisms on stalks of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a <fr:link
+href="algm-000S.xml"
+type="local"
+addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi  : X  \to  Y</fr:tex>, if it is <fr:link
+href="algm-000U.xml"
+type="local"
+addr="algm-000U">local</fr:link>, a germ is invertible iff its <fr:link
+href="algm-000V.xml"
+type="local"
+addr="algm-000V">pullback</fr:link> under <fr:tex>\varphi</fr:tex> is invertible. If the space <fr:tex>X</fr:tex> has enough points, then the inverse implication is also true.
+</fr:p>
   
     
-    <tree expanded="true" show-heading="true" show-metadata="false" toc="false" numbered="true" root="false"><frontmatter><anchor>506</anchor> <taxon>Proof</taxon>   <date><year>2024</year> <month>3</month> <day>8</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors>   <parent>algm-000W</parent> </frontmatter> <mainmatter>
-  <p>
-    Note that the stalk <tex>( \varphi ^{-1} \mathscr { O } _{Y})_x =  \mathscr { O } _{Y,  \varphi (x)}</tex>. A germ being invertible implies for some neighborhood <tex>U</tex> of <tex>x</tex>, it comes from an invertible section <tex>f  \in   \Gamma (U,  \varphi ^{-1} \mathscr { O } _Y)</tex>, so the image in <tex>\Gamma (U,  \mathscr { O } _X)</tex> is also invertible, and hence the image germ. The locality condition gives the converse.
-  </p>
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>818</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    Note that the stalk <fr:tex>( \varphi ^{-1} \mathscr { O } _{Y})_x =  \mathscr { O } _{Y,  \varphi (x)}</fr:tex>. A germ being invertible implies for some neighborhood <fr:tex>U</fr:tex> of <fr:tex>x</fr:tex>, it comes from an invertible section <fr:tex>f  \in   \Gamma (U,  \varphi ^{-1} \mathscr { O } _Y)</fr:tex>, so the image in <fr:tex>\Gamma (U,  \mathscr { O } _X)</fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.
+  </fr:p>
 
-  <p>
+  <fr:p>
     On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.
-  </p>
-</mainmatter> </tree>
+  </fr:p>
+</fr:mainmatter></fr:tree>
   
-</mainmatter> </tree></backlinks> <references/></backmatter></tree>
+</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

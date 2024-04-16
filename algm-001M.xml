@@ -1,30 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>296</anchor> <taxon>Construction</taxon> <addr>algm-001M</addr><route>algm-001M.xml</route>  <date><year>2024</year> <month>4</month> <day>4</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Subobject classifier of presheaves</title>   </frontmatter> <mainmatter><p>
-  The subobject classifier <tex>\Omega</tex> of presheaves can be given by a quick calculation.
-  <tex display="block">\Gamma (U,  \Omega )    \cong   \hom ( \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U),  \Omega )    \cong   \operatorname {Sub}( \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U))</tex>
-  By definition, this is the set of <link href="algm-001B.xml" type="local" addr="algm-001B" title="Sieve">sieves</link> on <tex>U</tex>, and the functorial action is the <link href="algm-001C.xml" type="local" addr="algm-001C" title="Pullback of sieves">pullback</link>. For a monomorphism <tex>F  \hookrightarrow  G</tex>, an element <tex>s  \in   \Gamma (U, G)</tex> is sent to the sieve consisting of arrows <tex>f : V  \to  U</tex> such that the restriction along <tex>f</tex> is included in <tex>F</tex>.
-</p></mainmatter> <backmatter><contributions/> <context/> <related><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>297</anchor> <taxon>Definition</taxon> <addr>algm-001C</addr><route>algm-001C.xml</route>  <date><year>2024</year> <month>4</month> <day>2</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Pullback of sieves</title>   </frontmatter> <mainmatter><p>
-  Given a <link href="algm-001B.xml" type="local" addr="algm-001B" title="Sieve">sieve</link> <tex>S</tex> over <tex>A</tex> and a morphism <tex>g : B  \to  A</tex>, the <strong>pullback</strong> <tex>g^* S</tex> is a sieve over <tex>B</tex>. <tex>h : C  \to  B</tex> is in this sieve iff <tex>g  \circ  h</tex> is in <tex>S</tex>. There is a natural map <tex>g^* S  \to  S</tex> given by <tex>g  \circ  -</tex>.
-</p></mainmatter> </tree><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>298</anchor> <taxon>Definition</taxon> <addr>algm-001B</addr><route>algm-001B.xml</route>  <date><year>2024</year> <month>4</month> <day>2</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Sieve</title>   </frontmatter> <mainmatter><p>
-  A <strong>sieve</strong> over an object <tex>A</tex> of an arbitrary category <tex>\mathcal { C }</tex> is a subfunctor of <tex>\mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (A)</tex>. More explicitly, it selects some arrows with codomain <tex>A</tex>, such that the selected arrows absorbs composition (i.e. if <tex>f : B  \to  A</tex> is selected and <tex>g : C  \to  B</tex>, then <tex>g  \circ  f</tex> is also selected).
-</p></mainmatter> </tree></related> <backlinks><tree expanded="false" show-heading="true" show-metadata="true" toc="false" numbered="false" root="false"><frontmatter><anchor>299</anchor>  <addr>algm-001N</addr><route>algm-001N.xml</route>  <date><year>2024</year> <month>4</month> <day>4</day></date> <authors><author><link href="trebor.xml" type="local" trebor="addr">Trebor</link></author> </authors> <title>Grothendieck coverages and Lawvere–Tierney operators</title>   </frontmatter> <mainmatter><p>
-  Consider a <link href="algm-001L.xml" type="local" addr="algm-001L" title="Lawvere–Tierney operator">Lawvere–Tierney operator</link> on a presheaf category. Then we may calculate the subobject classifier as in <ref addr="algm-001M" href="algm-001M.xml" taxon="Construction"/>.
-</p><p>
-  By the definition of subobject classifiers, a <link href="algm-001L.xml" type="local" addr="algm-001L" title="Lawvere–Tierney operator">Lawvere–Tierney operator</link> can be equivalently expressed as a subobject <tex>J  \subseteq   \Omega</tex>. Translating the condition of preserving finite intersections, it needs to contain the improper sieve, be upwards closed and closed under finite intersections. And <tex>j  \circ  j = j</tex> implies the following pullback square:
-</p>
-  <embedded-tex hash="fe9346d10209c9585845365330f42e41"><embedded-tex-preamble>
-        \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-  </embedded-tex-preamble> <embedded-tex-body>
-     \begin {tikzcd} %tex
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>526</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>algm-001M</fr:addr><fr:route>algm-001M.xml</fr:route><fr:title>Subobject classifier of presheaves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The subobject classifier <fr:tex>\Omega</fr:tex> of presheaves can be given by a quick calculation.
+  <fr:tex
+display="block">\Gamma (U,  \Omega )    \cong   \hom ( \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U),  \Omega )    \cong   \operatorname {Sub}( \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U))</fr:tex>
+  By definition, this is the set of <fr:link
+href="algm-001B.xml"
+type="local"
+addr="algm-001B">sieves</fr:link> on <fr:tex>U</fr:tex>, and the functorial action is the <fr:link
+href="algm-001C.xml"
+type="local"
+addr="algm-001C">pullback</fr:link>. For a monomorphism <fr:tex>F  \hookrightarrow  G</fr:tex>, an element <fr:tex>s  \in   \Gamma (U, G)</fr:tex> is sent to the sieve consisting of arrows <fr:tex>f : V  \to  U</fr:tex> such that the restriction along <fr:tex>f</fr:tex> is included in <fr:tex>F</fr:tex>.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>522</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001C</fr:addr><fr:route>algm-001C.xml</fr:route><fr:title>Pullback of sieves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a <fr:link
+href="algm-001B.xml"
+type="local"
+addr="algm-001B">sieve</fr:link> <fr:tex>S</fr:tex> over <fr:tex>A</fr:tex> and a morphism <fr:tex>g : B  \to  A</fr:tex>, the <fr:strong>pullback</fr:strong> <fr:tex>g^* S</fr:tex> is a sieve over <fr:tex>B</fr:tex>. <fr:tex>h : C  \to  B</fr:tex> is in this sieve iff <fr:tex>g  \circ  h</fr:tex> is in <fr:tex>S</fr:tex>. There is a natural map <fr:tex>g^* S  \to  S</fr:tex> given by <fr:tex>g  \circ  -</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>524</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001B</fr:addr><fr:route>algm-001B.xml</fr:route><fr:title>Sieve</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  A <fr:strong>sieve</fr:strong> over an object <fr:tex>A</fr:tex> of an arbitrary category <fr:tex>\mathcal { C }</fr:tex> is a subfunctor of <fr:tex>\mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (A)</fr:tex>. More explicitly, it selects some arrows with codomain <fr:tex>A</fr:tex>, such that the selected arrows absorbs composition (i.e. if <fr:tex>f : B  \to  A</fr:tex> is selected and <fr:tex>g : C  \to  B</fr:tex>, then <fr:tex>g  \circ  f</fr:tex> is also selected).
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>520</fr:anchor><fr:addr>algm-001N</fr:addr><fr:route>algm-001N.xml</fr:route><fr:title>Grothendieck coverages and Lawvere–Tierney operators</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Consider a <fr:link
+href="algm-001L.xml"
+type="local"
+addr="algm-001L">Lawvere–Tierney operator</fr:link> on a presheaf category. Then we may calculate the subobject classifier as in <fr:ref
+addr="algm-001M"
+href="algm-001M.xml"
+taxon="Construction"></fr:ref>.
+</fr:p><fr:p>
+  By the definition of subobject classifiers, a <fr:link
+href="algm-001L.xml"
+type="local"
+addr="algm-001L">Lawvere–Tierney operator</fr:link> can be equivalently expressed as a subobject <fr:tex>J  \subseteq   \Omega</fr:tex>. Translating the condition of preserving finite intersections, it needs to contain the improper sieve, be upwards closed and closed under finite intersections. And <fr:tex>j  \circ  j = j</fr:tex> implies the following pullback square:
+</fr:p>
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="41024147dc2e0dacd8110f9ae45f7f85"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzcd} %tex
   J &amp; J \\
   \Omega &amp; \Omega
   \arrow[hook, from=1-2, to=2-2]
-  \arrow[&quot;j&quot;', from=2-1, to=2-2]
+  \arrow["j"', from=2-1, to=2-2]
   \arrow[hook, from=1-1, to=2-1]
   \arrow[from=1-1, to=1-2]
-  \arrow[&quot;\lrcorner&quot;{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2] \end {tikzcd}
-  </embedded-tex-body></embedded-tex>
-<p>
-  In other words, a sieve is contained in <tex>J</tex> iff its image under <tex>j</tex> is also contained in <tex>J</tex>. Unfolding this, a sieve <tex>S</tex> is contained in <tex>J</tex> iff the arrows <tex>g</tex> such that <tex>g^* S</tex> is contained in <tex>J</tex> also form a sieve in <tex>J</tex>. Looking at the definition of a <link href="algm-001A.xml" type="local" addr="algm-001A" title="Grothendieck coverage">Grothendieck coverage</link>, we see that they are equivalent, if we regard <tex>J</tex> as picking out the covering sieves.
-</p></mainmatter> </tree></backlinks> <references/></backmatter></tree>
+  \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2] \end {tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+<fr:p>
+  In other words, a sieve is contained in <fr:tex>J</fr:tex> iff its image under <fr:tex>j</fr:tex> is also contained in <fr:tex>J</fr:tex>. Unfolding this, a sieve <fr:tex>S</fr:tex> is contained in <fr:tex>J</fr:tex> iff the arrows <fr:tex>g</fr:tex> such that <fr:tex>g^* S</fr:tex> is contained in <fr:tex>J</fr:tex> also form a sieve in <fr:tex>J</fr:tex>. Looking at the definition of a <fr:link
+href="algm-001A.xml"
+type="local"
+addr="algm-001A">Grothendieck coverage</fr:link>, we see that they are equivalent, if we regard <fr:tex>J</fr:tex> as picking out the covering sieves.
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
