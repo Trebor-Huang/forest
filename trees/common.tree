@@ -1,7 +1,8 @@
 \title{common import}
 
 % ===== Formatting primitives
-\def\mark[body]{\xml{mark}{\body}}
+\xmlns:html{http://www.w3.org/1999/xhtml}
+\def\mark[body]{\<html:mark>{\body}}
 
 \def\proof[body]{
   \scope{
@@ -17,23 +18,27 @@
 % Since the main styling uses 12pt, we change the font to fit
 % Also we give a little more space to avoid clipping
 \def\tikz[body]{
-  \tex{
-    \startverb
-    \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
-    \usetikzlibrary{decorations.pathreplacing}
-    \stopverb
-  }{
-    \begin{tikzpicture}\body\end{tikzpicture}
+  \<html:span>[class]{tikz}{
+    \tex{
+      \startverb
+      \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
+      \usetikzlibrary{decorations.pathreplacing}
+      \stopverb
+    }{
+      \begin{tikzpicture}\body\end{tikzpicture}
+    }
   }
 }
 
 \def\tikzcd[body]{
-  \tex{
-    \startverb
-    \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    \stopverb
-  }{
-    \begin{tikzcd}\body\end{tikzcd}
+  \<html:span>[class]{tikz tikzcd}{
+    \tex{
+      \startverb
+      \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+      \stopverb
+    }{
+      \begin{tikzcd}\body\end{tikzcd}
+    }
   }
 }
 
