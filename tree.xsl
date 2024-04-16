@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="katex.min.css" />
         <link rel="stylesheet" href="computer-modern.css"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cn-fontsource-source-han-serif-sc-vf@1.0.9/font.min.css"/>
+        <link rel="icon" href="favicon.ico" />
         <script type="text/javascript">
           <xsl:if test="/f:tree/f:frontmatter/f:source-path">
             <xsl:text>window.sourcePath = '</xsl:text>
@@ -28,6 +29,17 @@
       </head>
       <body>
         <ninja-keys placeholder="Start typing a note title or ID"></ninja-keys>
+        <svg xmlns="http://www.w3.org/2000/svg" height="0">
+          <filter id="filter">
+            <feColorMatrix
+              in="SourceGraphic"
+              type="luminanceToAlpha" />
+            <feComponentTransfer result="mask">
+              <feFuncA type="gamma" amplitude="1" exponent="50" offset="0" />
+            </feComponentTransfer>
+            <feComposite in="SourceGraphic" in2="mask" operator="out" />
+          </filter>
+        </svg>
         <xsl:if test="not(/f:tree[@root = 'true'])">
           <header class="header">
             <nav class="nav">

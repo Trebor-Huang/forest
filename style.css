@@ -583,29 +583,8 @@ span.tikz {
 }
 
 span.tikzcd img {
-  filter: url('data:image/svg+xml,\
-    <svg xmlns="http://www.w3.org/2000/svg">\
-    <filter id="filter">\
-      <feColorMatrix\
-        in="SourceGraphic"\
-        type="luminanceToAlpha" />\
-      <feComponentTransfer result="mask">\
-        <feFuncA type="gamma" amplitude="1" exponent="50" offset="0"></feFuncA>\
-      </feComponentTransfer>\
-      <feComposite in="SourceGraphic" in2="mask" operator="out" />\
-    </filter>\
-    </svg>#filter'
-  );
+  filter: url('.#filter');
 }
-
-/* <feColorMatrix
-in="SourceGraphic"
-type="luminanceToAlpha" />
-<feComponentTransfer result="mask">
-<feFuncA type="gamma" amplitude="1" exponent="50" offset="0"></feFuncA>
-</feComponentTransfer>
-<feComposite in="SourceGraphic" in2="mask" operator="out" /> */
-
 
 figcaption {
   font-style: italic;
