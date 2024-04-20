@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>240</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000E</fr:addr><fr:route>ualg-000E.xml</fr:route><fr:title>Beck’s monadicity theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Let <fr:tex>G :  \mathcal { D }   \to   \mathcal { C }</fr:tex> be a functor with a left adjoint <fr:tex>F</fr:tex>. <fr:tex>M = G  \circ  F</fr:tex> is the corresponding monad on <fr:tex>\mathcal { C }</fr:tex>. This gives a <fr:link
+href="ualg-0009.xml"
+type="local"
+addr="ualg-0009">comparison functor</fr:link> <fr:tex>K :  \mathcal { A }   \to   \mathcal { C } ^M</fr:tex>.
+</fr:p><fr:ol><fr:li>If <fr:tex>\mathcal { D }</fr:tex> has</fr:li></fr:ol></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>238</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0009</fr:addr><fr:route>ualg-0009.xml</fr:route><fr:title>The Eilenberg–Moore category induces the terminal decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The <fr:link
+href="ualg-0002.xml"
+type="local"
+addr="ualg-0002">Eilenberg–Moore category</fr:link> together with its canonical adjunction is the terminal <fr:link
+href="ualg-0007.xml"
+type="local"
+addr="ualg-0007">decomposition of a monad into adjoint functors</fr:link>. Hence there is a unique morphism from any decomposition to it, named the <fr:strong>comparison functor</fr:strong>.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
