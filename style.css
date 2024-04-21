@@ -52,7 +52,7 @@ p {
 }
 
 p {
-  margin-left: 0.3em;
+  text-indent: 2ch;
 }
 
 p:last-child {
@@ -230,11 +230,6 @@ article>section>details>summary>header {
 
 section.block>details:not(:last-child) {
   margin-bottom: 0.3em;
-}
-
-
-.link-list>section.block>details {
-  margin-bottom: .25em;
 }
 
 nav#toc {
@@ -565,7 +560,7 @@ address {
 }
 
 .metadata li:first-child::before {
-  content: "— ";
+  content: "";
 }
 
 .metadata ul li {

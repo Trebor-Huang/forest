@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>943</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000L</fr:addr><fr:route>algm-000L.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1006</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000L</fr:addr><fr:route>algm-000L.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -25,7 +25,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>941</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000M</fr:addr><fr:route>algm-000M.xml</fr:route><fr:title>Ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1004</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000M</fr:addr><fr:route>algm-000M.xml</fr:route><fr:title>Ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -37,7 +37,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>921</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0014</fr:addr><fr:route>algm-0014.xml</fr:route><fr:title>Adjunction of global section and <fr:tex>\operatorname {Spec}</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>984</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0014</fr:addr><fr:route>algm-0014.xml</fr:route><fr:title>Adjunction of global section and <fr:tex>\operatorname {Spec}</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -56,7 +56,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>756</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>819</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0014</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -82,7 +82,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>923</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000U</fr:addr><fr:route>algm-000U.xml</fr:route><fr:title>Morphism of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>986</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000U</fr:addr><fr:route>algm-000U.xml</fr:route><fr:title>Morphism of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -93,26 +93,28 @@ addr="algm-000L">locally ringed spaces</fr:link>, a <fr:link
 href="algm-000S.xml"
 type="local"
 addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi</fr:tex> between them is <fr:strong>local</fr:strong> when sections of <fr:tex>\varphi ^{-1} \mathscr { O } _Y</fr:tex> are invertible iff their images in <fr:tex>\mathscr { O } _X</fr:tex> are invertible, i.e. the following diagram is a pullback:
-</fr:p>
+
+  
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="3b6e2be8301faa9947f4232311c98ebe"><fr:embedded-tex-preamble>
+hash="77652e716833610307a6936f0ba2a109"><fr:embedded-tex-preamble>
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
     </fr:embedded-tex-preamble><fr:embedded-tex-body>
        \begin {tikzcd} 
-  { \varphi ^{-1} \mathscr { O } _Y^ \times } &amp; { \mathscr { O } _X^ \times }  \\ 
-  { \varphi ^{-1} \mathscr { O } _Y} &amp; { \mathscr { O } _X}
-   \arrow [hook, from=1-1, to=2-1]
-   \arrow [hook, from=1-2, to=2-2]
-   \arrow [from=1-1, to=1-2]
-   \arrow [from=2-1, to=2-2]
-   \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
- \end {tikzcd}
+    { \varphi ^{-1} \mathscr { O } _Y^ \times } &amp; { \mathscr { O } _X^ \times }  \\ 
+    { \varphi ^{-1} \mathscr { O } _Y} &amp; { \mathscr { O } _X}
+     \arrow [hook, from=1-1, to=2-1]
+     \arrow [hook, from=1-2, to=2-2]
+     \arrow [from=1-1, to=1-2]
+     \arrow [from=2-1, to=2-2]
+     \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+   \end {tikzcd}
     </fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
-<fr:p>
+
+
   Note that the <fr:link
 href="algm-000T.xml"
 type="local"
@@ -124,7 +126,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>925</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000Q</fr:addr><fr:route>algm-000Q.xml</fr:route><fr:title>Affine scheme</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>988</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000Q</fr:addr><fr:route>algm-000Q.xml</fr:route><fr:title>Affine scheme</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -139,7 +141,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>927</fr:anchor><fr:taxon>Intuition</fr:taxon><fr:addr>algm-000O</fr:addr><fr:route>algm-000O.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>990</fr:anchor><fr:taxon>Intuition</fr:taxon><fr:addr>algm-000O</fr:addr><fr:route>algm-000O.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -162,7 +164,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>929</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000R</fr:addr><fr:route>algm-000R.xml</fr:route><fr:title>Scheme</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>992</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000R</fr:addr><fr:route>algm-000R.xml</fr:route><fr:title>Scheme</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -180,7 +182,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>931</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000P</fr:addr><fr:route>algm-000P.xml</fr:route><fr:title>Value of section at a point</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>994</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000P</fr:addr><fr:route>algm-000P.xml</fr:route><fr:title>Value of section at a point</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -195,7 +197,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>935</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000J</fr:addr><fr:route>algm-000J.xml</fr:route><fr:title>Stalk of the structure sheaf on <fr:tex>\operatorname {Spec} (R)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>998</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000J</fr:addr><fr:route>algm-000J.xml</fr:route><fr:title>Stalk of the structure sheaf on <fr:tex>\operatorname {Spec} (R)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -216,7 +218,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>933</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>996</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000J</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -232,7 +234,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>939</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000N</fr:addr><fr:route>algm-000N.xml</fr:route><fr:title>Stalks of locally ringed topological space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1002</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000N</fr:addr><fr:route>algm-000N.xml</fr:route><fr:title>Stalks of locally ringed topological space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -253,7 +255,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>937</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1000</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000N</fr:parent></fr:frontmatter><fr:mainmatter>

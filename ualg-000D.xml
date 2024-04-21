@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>253</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000D</fr:addr><fr:route>ualg-000D.xml</fr:route><fr:title>Characterization of absolute coequalizers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000D</fr:addr><fr:route>ualg-000D.xml</fr:route><fr:title>Characterization of absolute coequalizers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -31,7 +31,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>242</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>255</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000D</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -58,7 +58,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>248</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000C</fr:addr><fr:route>ualg-000C.xml</fr:route><fr:title>Absolute (co)limit</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>304</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000C</fr:addr><fr:route>ualg-000C.xml</fr:route><fr:title>Absolute (co)limit</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -70,7 +70,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>251</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000B</fr:addr><fr:route>ualg-000B.xml</fr:route><fr:title>Split coequalizer</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000B</fr:addr><fr:route>ualg-000B.xml</fr:route><fr:title>Split coequalizer</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -94,5 +94,58 @@ hash="d7f012500ab1ec188665474d430177ad"><fr:embedded-tex-preamble>
     </fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
-  such that <fr:tex>q  \circ  r =  \operatorname {id} _Z</fr:tex>, <fr:tex>r  \circ  q = s  \circ   \partial _1</fr:tex> and <fr:tex>s  \circ   \partial _2 =  \operatorname {id} _Y</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+  such that <fr:tex>q  \circ  r =  \operatorname {id} _Z</fr:tex>, <fr:tex>r  \circ  q =  \partial _0  \circ  s</fr:tex> and <fr:tex>\partial _1  \circ  s =  \operatorname {id} _Y</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>302</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000H</fr:addr><fr:route>ualg-000H.xml</fr:route><fr:title>Beck monadicity theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Let <fr:tex>G :  \mathcal { D }   \to   \mathcal { C }</fr:tex> be a functor with a left adjoint <fr:tex>F</fr:tex>. <fr:tex>G</fr:tex> is <fr:link
+href="ualg-000A.xml"
+type="local"
+addr="ualg-000A">monadic</fr:link> iff <fr:tex>G</fr:tex> <fr:link
+href="ualg-000G.xml"
+type="local"
+addr="ualg-000G">creates</fr:link> coequalizers whose image under <fr:tex>G</fr:tex> is <fr:link
+href="ualg-000B.xml"
+type="local"
+addr="ualg-000B">split</fr:link>.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>264</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000H</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    For necessity, using <fr:ref
+addr="ualg-000I"
+href="ualg-000I.xml"
+taxon="Theorem"></fr:ref>, we only need to verify that a monad <fr:tex>M</fr:tex> preserves the relevant coequalizers, which is true since <fr:link
+href="ualg-000D.xml"
+type="local"
+addr="ualg-000D">they are absolute</fr:link>.
+  </fr:p>
+
+  <fr:p>
+    For sufficiency, we observe the proof of <fr:ref
+addr="ualg-000E"
+href="ualg-000E.xml"
+taxon="Theorem"></fr:ref>. Notice that the coequalizers involved are of the form <fr:tex>F \alpha ,  \epsilon  : FGFA  \rightrightarrows  FA</fr:tex>. The images of these under <fr:tex>G</fr:tex> are indeed split by <fr:tex>\eta  : GFA  \to  GFGFA</fr:tex> and <fr:tex>\eta  : A  \to  GFA</fr:tex>. Therefore we just have to show <fr:tex>G</fr:tex> reflects isomorphisms. Given an isomorphism <fr:tex>Gf : GA  \cong  GB</fr:tex>, we have a split coequalizer <fr:tex>GA  \rightrightarrows  GB  \to  GA</fr:tex> where the two maps on the left are <fr:tex>Gf</fr:tex>, and the map on the right is its inverse. This creates a map <fr:tex>g : B  \to  A</fr:tex> which is the coequalizer of <fr:tex>f</fr:tex> with itself. So this map must be an isomorphism. We then consider the coequalizer <fr:tex>GB  \rightrightarrows  GA  \to  GB</fr:tex>, where the two maps on the left are <fr:tex>Gg</fr:tex> and the map on the right is <fr:tex>Gf</fr:tex>. Since <fr:tex>G</fr:tex> reflects this limit, <fr:tex>f</fr:tex> must also be an isomorphism.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

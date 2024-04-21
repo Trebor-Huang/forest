@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>293</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0008</fr:addr><fr:route>ualg-0008.xml</fr:route><fr:title>The Kleisli category induces the initial decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>356</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0008</fr:addr><fr:route>ualg-0008.xml</fr:route><fr:title>The Kleisli category induces the initial decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -25,7 +25,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>291</fr:anchor><fr:addr>ualg-0007</fr:addr><fr:route>ualg-0007.xml</fr:route><fr:title>Decomposition of a monad into adjoint functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>354</fr:anchor><fr:addr>ualg-0007</fr:addr><fr:route>ualg-0007.xml</fr:route><fr:title>Decomposition of a monad into adjoint functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -62,7 +62,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>262</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0008</fr:addr><fr:route>ualg-0008.xml</fr:route><fr:title>The Kleisli category induces the initial decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>325</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0008</fr:addr><fr:route>ualg-0008.xml</fr:route><fr:title>The Kleisli category induces the initial decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -80,7 +80,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>264</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0009</fr:addr><fr:route>ualg-0009.xml</fr:route><fr:title>The Eilenberg–Moore category induces the terminal decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>327</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0009</fr:addr><fr:route>ualg-0009.xml</fr:route><fr:title>The Eilenberg–Moore category induces the terminal decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -91,14 +91,33 @@ addr="ualg-0002">Eilenberg–Moore category</fr:link> together with its canonica
 href="ualg-0007.xml"
 type="local"
 addr="ualg-0007">decomposition of a monad into adjoint functors</fr:link>. Hence there is a unique morphism from any decomposition to it, named the <fr:strong>comparison functor</fr:strong>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>292</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0009</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    Given an adjunction <fr:tex>F  \dashv  G</fr:tex> with the corresponding monad <fr:tex>G  \circ  F</fr:tex>, the comparison functor is defined as sending <fr:tex>X</fr:tex> to <fr:tex>GFGX  \to  GX</fr:tex>, given by the counit <fr:tex>FGX  \to  X</fr:tex>.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>266</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000A</fr:addr><fr:route>ualg-000A.xml</fr:route><fr:title>Monadic functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>329</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000A</fr:addr><fr:route>ualg-000A.xml</fr:route><fr:title>Monadic functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -116,7 +135,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>287</fr:anchor><fr:addr>ualg-0007</fr:addr><fr:route>ualg-0007.xml</fr:route><fr:title>Decomposition of a monad into adjoint functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>350</fr:anchor><fr:addr>ualg-0007</fr:addr><fr:route>ualg-0007.xml</fr:route><fr:title>Decomposition of a monad into adjoint functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -153,7 +172,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>262</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0008</fr:addr><fr:route>ualg-0008.xml</fr:route><fr:title>The Kleisli category induces the initial decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>325</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0008</fr:addr><fr:route>ualg-0008.xml</fr:route><fr:title>The Kleisli category induces the initial decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -171,7 +190,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>264</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0009</fr:addr><fr:route>ualg-0009.xml</fr:route><fr:title>The Eilenberg–Moore category induces the terminal decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>327</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0009</fr:addr><fr:route>ualg-0009.xml</fr:route><fr:title>The Eilenberg–Moore category induces the terminal decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -182,14 +201,33 @@ addr="ualg-0002">Eilenberg–Moore category</fr:link> together with its canonica
 href="ualg-0007.xml"
 type="local"
 addr="ualg-0007">decomposition of a monad into adjoint functors</fr:link>. Hence there is a unique morphism from any decomposition to it, named the <fr:strong>comparison functor</fr:strong>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>292</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0009</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    Given an adjunction <fr:tex>F  \dashv  G</fr:tex> with the corresponding monad <fr:tex>G  \circ  F</fr:tex>, the comparison functor is defined as sending <fr:tex>X</fr:tex> to <fr:tex>GFGX  \to  GX</fr:tex>, given by the counit <fr:tex>FGX  \to  X</fr:tex>.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>266</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000A</fr:addr><fr:route>ualg-000A.xml</fr:route><fr:title>Monadic functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>329</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000A</fr:addr><fr:route>ualg-000A.xml</fr:route><fr:title>Monadic functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -207,7 +245,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>289</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-0004</fr:addr><fr:route>ualg-0004.xml</fr:route><fr:title>The Kleisli category of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>352</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-0004</fr:addr><fr:route>ualg-0004.xml</fr:route><fr:title>The Kleisli category of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>

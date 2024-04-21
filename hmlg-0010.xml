@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1326</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0010</fr:addr><fr:route>hmlg-0010.xml</fr:route><fr:title>Snake lemma</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1387</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0010</fr:addr><fr:route>hmlg-0010.xml</fr:route><fr:title>Snake lemma</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -15,47 +15,47 @@ addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:main
 href="hmlg-000Q.xml"
 type="local"
 addr="hmlg-000Q">abelian category</fr:link>, given the middle two rows of the diagram
-</fr:p>
+  
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="281e810eff5b89c40221b433b27ffeca"><fr:embedded-tex-preamble>
+hash="6f79747c82e6e889bd7df82c0bed35c2"><fr:embedded-tex-preamble>
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
     </fr:embedded-tex-preamble><fr:embedded-tex-body>
        \begin {tikzcd} 
-  &amp; { \ker  f} &amp; { \ker  g} &amp; { \ker  h}  \\ 
-  { \ker  i} &amp;  \bullet  &amp;  \bullet  &amp;  \bullet  &amp; 0  \\ 
-  0 &amp;  \bullet  &amp;  \bullet  &amp;  \bullet  &amp; { \operatorname {coker}  j}  \\ 
-  &amp; { \operatorname {coker}  f} &amp; { \operatorname {coker}  g} &amp; { \operatorname {coker}  h}
-   \arrow ["f", from=2-2, to=3-2]
-   \arrow ["g", from=2-3, to=3-3]
-   \arrow ["h", from=2-4, to=3-4]
-   \arrow [from=1-2, to=2-2]
-   \arrow [from=1-3, to=2-3]
-   \arrow [from=1-4, to=2-4]
-   \arrow [blue, &gt;-&gt;, out=90, in=180, from=2-1, to=1-2]
-   \arrow [from=2-1, to=2-2]
-   \arrow ["i", from=2-2, to=2-3]
-   \arrow [from=2-3, to=2-4]
-   \arrow [from=3-2, to=3-3]
-   \arrow ["j", from=3-3, to=3-4]
-   \arrow [from=3-4, to=3-5]
-   \arrow [blue, -&gt;&gt;, out=0, in=-90, from=4-4, to=3-5]
-   \arrow [from=3-2, to=4-2]
-   \arrow [from=3-3, to=4-3]
-   \arrow [from=3-4, to=4-4]
-   \arrow [blue, from=1-2, to=1-3]
-   \arrow [blue, from=1-3, to=1-4]
-   \arrow [blue, from=4-2, to=4-3]
-   \arrow [blue, from=4-3, to=4-4]
-   \arrow [blue, dashed, out=0, in=180, from=1-4, to=4-2]
-   \arrow [from=2-4, to=2-5]
-   \arrow [from=3-1, to=3-2]
- \end {tikzcd}
+    &amp; { \ker  f} &amp; { \ker  g} &amp; { \ker  h}  \\ 
+    { \ker  i} &amp;  \bullet  &amp;  \bullet  &amp;  \bullet  &amp; 0  \\ 
+    0 &amp;  \bullet  &amp;  \bullet  &amp;  \bullet  &amp; { \operatorname {coker}  j}  \\ 
+    &amp; { \operatorname {coker}  f} &amp; { \operatorname {coker}  g} &amp; { \operatorname {coker}  h}
+     \arrow ["f", from=2-2, to=3-2]
+     \arrow ["g", from=2-3, to=3-3]
+     \arrow ["h", from=2-4, to=3-4]
+     \arrow [from=1-2, to=2-2]
+     \arrow [from=1-3, to=2-3]
+     \arrow [from=1-4, to=2-4]
+     \arrow [blue, &gt;-&gt;, out=90, in=180, from=2-1, to=1-2]
+     \arrow [from=2-1, to=2-2]
+     \arrow ["i", from=2-2, to=2-3]
+     \arrow [from=2-3, to=2-4]
+     \arrow [from=3-2, to=3-3]
+     \arrow ["j", from=3-3, to=3-4]
+     \arrow [from=3-4, to=3-5]
+     \arrow [blue, -&gt;&gt;, out=0, in=-90, from=4-4, to=3-5]
+     \arrow [from=3-2, to=4-2]
+     \arrow [from=3-3, to=4-3]
+     \arrow [from=3-4, to=4-4]
+     \arrow [blue, from=1-2, to=1-3]
+     \arrow [blue, from=1-3, to=1-4]
+     \arrow [blue, from=4-2, to=4-3]
+     \arrow [blue, from=4-3, to=4-4]
+     \arrow [blue, dashed, out=0, in=180, from=1-4, to=4-2]
+     \arrow [from=2-4, to=2-5]
+     \arrow [from=3-1, to=3-2]
+   \end {tikzcd}
     </fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
-<fr:p>
+
   such that the rows are exact, we can take the kernels and cokernels, which forms a long exact sequence of blue arrows, <fr:tex>0  \to   \ker  i  \to   \ker  f  \to   \ker  g  \to   \ker  h  \xrightarrow { \partial }  \operatorname {coker}  f  \to   \operatorname {coker}  g  \to   \operatorname {coker}  h  \to   \operatorname {coker}  j  \to  0</fr:tex>. In particular, if <fr:tex>i</fr:tex> is monic and <fr:tex>j</fr:tex> is epic, this leads to a six-term exact sequence.
 </fr:p><fr:p>
   There are multiple ways to prove this claim. We can first <fr:link
@@ -78,7 +78,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1320</fr:anchor><fr:addr>hmlg-0011</fr:addr><fr:route>hmlg-0011.xml</fr:route><fr:title>Using the <fr:link
+root="false"><fr:frontmatter><fr:anchor>1381</fr:anchor><fr:addr>hmlg-0011</fr:addr><fr:route>hmlg-0011.xml</fr:route><fr:title>Using the <fr:link
 href="hmlg-000F.xml"
 type="local"
 addr="hmlg-000F">Freyd–Mitchell embedding</fr:link> to prove theorems</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -106,7 +106,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1322</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000Q</fr:addr><fr:route>hmlg-000Q.xml</fr:route><fr:title>Abelian category</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1383</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000Q</fr:addr><fr:route>hmlg-000Q.xml</fr:route><fr:title>Abelian category</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -123,21 +123,21 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1324</fr:anchor><fr:taxon>Meta</fr:taxon><fr:addr>todo</fr:addr><fr:route>todo.xml</fr:route><fr:title>Unfinished trees</fr:title></fr:frontmatter><fr:mainmatter><fr:p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</fr:p><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1385</fr:anchor><fr:taxon>Meta</fr:taxon><fr:addr>todo</fr:addr><fr:route>todo.xml</fr:route><fr:title>Unfinished trees</fr:title></fr:frontmatter><fr:mainmatter><fr:p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="false"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>488</fr:anchor></fr:frontmatter><fr:mainmatter><fr:tree
+root="false"><fr:frontmatter><fr:anchor>551</fr:anchor></fr:frontmatter><fr:mainmatter><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>480</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001M</fr:addr><fr:route>hmlg-001M.xml</fr:route><fr:title>Chain reduction of mapping cones</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>543</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001M</fr:addr><fr:route>hmlg-001M.xml</fr:route><fr:title>Chain reduction of mapping cones</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -152,7 +152,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>482</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>545</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -172,7 +172,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>486</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000F</fr:addr><fr:route>hmlg-000F.xml</fr:route><fr:title>Freyd–Mitchell embedding theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>549</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000F</fr:addr><fr:route>hmlg-000F.xml</fr:route><fr:title>Freyd–Mitchell embedding theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -187,7 +187,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>484</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>547</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
@@ -201,7 +201,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1318</fr:anchor><fr:addr>hmlg-0011</fr:addr><fr:route>hmlg-0011.xml</fr:route><fr:title>Using the <fr:link
+root="false"><fr:frontmatter><fr:anchor>1379</fr:anchor><fr:addr>hmlg-0011</fr:addr><fr:route>hmlg-0011.xml</fr:route><fr:title>Using the <fr:link
 href="hmlg-000F.xml"
 type="local"
 addr="hmlg-000F">Freyd–Mitchell embedding</fr:link> to prove theorems</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link

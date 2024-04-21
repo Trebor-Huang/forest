@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>859</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title>Morphisms of affine schemes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>922</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title>Morphisms of affine schemes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
@@ -27,7 +27,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>734</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>797</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -53,29 +53,27 @@ addr="algm-000W">characterization on stalks</fr:link>, we just need to verify th
     <fr:tex
 display="block">S  \cong   \Gamma ( \top ,  \varphi ^{-1} \mathscr { O } _{ \operatorname {Spec} (S)})  \to   \Gamma ( \top ,  \mathscr { O } _{ \operatorname {Spec} (R)})  \cong  R.</fr:tex>
     We obviously have going from <fr:tex>\mathsf { CRing }</fr:tex> to <fr:tex>\mathsf { Sch }</fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
-  </fr:p>
 
-  
+    
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="5c8d88f17fb49eabfdaea7640e756c38"><fr:embedded-tex-preamble>
+hash="341ce8563fa69418fe785f86a4356ffc"><fr:embedded-tex-preamble>
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
     </fr:embedded-tex-preamble><fr:embedded-tex-body>
        \begin {tikzcd} 
-    S &amp; R  \\ 
-    {S_{ \mathfrak { q } }} &amp; {R_{ \mathfrak { p } }}
-     \arrow [from=1-1, to=1-2]
-     \arrow [from=2-1, to=2-2]
-     \arrow [two heads, from=1-1, to=2-1]
-     \arrow [two heads, from=1-2, to=2-2]
-   \end {tikzcd}
+      S &amp; R  \\ 
+      {S_{ \mathfrak { q } }} &amp; {R_{ \mathfrak { p } }}
+       \arrow [from=1-1, to=1-2]
+       \arrow [from=2-1, to=2-2]
+       \arrow [two heads, from=1-1, to=2-1]
+       \arrow [two heads, from=1-2, to=2-2]
+     \end {tikzcd}
     </fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
 
-  <fr:p>
     where <fr:tex>\left [ \mathfrak { q } \right ]</fr:tex> is the image of the point <fr:tex>\left [ \mathfrak { p } \right ]</fr:tex> under the underlying continuous map of <fr:tex>\varphi</fr:tex>. This fixes the action of <fr:tex>\varphi</fr:tex> on the stalks. Furthermore, the <fr:link
 href="algm-000W.xml"
 type="local"
@@ -90,7 +88,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>849</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title>Action of morphisms on stalks of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>912</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title>Action of morphisms on stalks of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -114,7 +112,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>841</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>904</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -134,7 +132,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>851</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000U</fr:addr><fr:route>algm-000U.xml</fr:route><fr:title>Morphism of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>914</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000U</fr:addr><fr:route>algm-000U.xml</fr:route><fr:title>Morphism of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -145,26 +143,28 @@ addr="algm-000L">locally ringed spaces</fr:link>, a <fr:link
 href="algm-000S.xml"
 type="local"
 addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi</fr:tex> between them is <fr:strong>local</fr:strong> when sections of <fr:tex>\varphi ^{-1} \mathscr { O } _Y</fr:tex> are invertible iff their images in <fr:tex>\mathscr { O } _X</fr:tex> are invertible, i.e. the following diagram is a pullback:
-</fr:p>
+
+  
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="3b6e2be8301faa9947f4232311c98ebe"><fr:embedded-tex-preamble>
+hash="77652e716833610307a6936f0ba2a109"><fr:embedded-tex-preamble>
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
     </fr:embedded-tex-preamble><fr:embedded-tex-body>
        \begin {tikzcd} 
-  { \varphi ^{-1} \mathscr { O } _Y^ \times } &amp; { \mathscr { O } _X^ \times }  \\ 
-  { \varphi ^{-1} \mathscr { O } _Y} &amp; { \mathscr { O } _X}
-   \arrow [hook, from=1-1, to=2-1]
-   \arrow [hook, from=1-2, to=2-2]
-   \arrow [from=1-1, to=1-2]
-   \arrow [from=2-1, to=2-2]
-   \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
- \end {tikzcd}
+    { \varphi ^{-1} \mathscr { O } _Y^ \times } &amp; { \mathscr { O } _X^ \times }  \\ 
+    { \varphi ^{-1} \mathscr { O } _Y} &amp; { \mathscr { O } _X}
+     \arrow [hook, from=1-1, to=2-1]
+     \arrow [hook, from=1-2, to=2-2]
+     \arrow [from=1-1, to=1-2]
+     \arrow [from=2-1, to=2-2]
+     \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+   \end {tikzcd}
     </fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
-<fr:p>
+
+
   Note that the <fr:link
 href="algm-000T.xml"
 type="local"
@@ -176,7 +176,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>853</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000Q</fr:addr><fr:route>algm-000Q.xml</fr:route><fr:title>Affine scheme</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>916</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000Q</fr:addr><fr:route>algm-000Q.xml</fr:route><fr:title>Affine scheme</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -191,7 +191,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>857</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0004</fr:addr><fr:route>algm-0004.xml</fr:route><fr:title>Distinguished opens of <fr:tex>\operatorname {Spec} (R)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>920</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0004</fr:addr><fr:route>algm-0004.xml</fr:route><fr:title>Distinguished opens of <fr:tex>\operatorname {Spec} (R)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -209,7 +209,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>855</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>918</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0004</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -226,7 +226,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>845</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0016</fr:addr><fr:route>algm-0016.xml</fr:route><fr:title>Nike’s trick</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>908</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0016</fr:addr><fr:route>algm-0016.xml</fr:route><fr:title>Nike’s trick</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -244,7 +244,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>740</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>803</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0016</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -267,7 +267,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>847</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0014</fr:addr><fr:route>algm-0014.xml</fr:route><fr:title>Adjunction of global section and <fr:tex>\operatorname {Spec}</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>910</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0014</fr:addr><fr:route>algm-0014.xml</fr:route><fr:title>Adjunction of global section and <fr:tex>\operatorname {Spec}</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -286,7 +286,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>756</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>819</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0014</fr:parent></fr:frontmatter><fr:mainmatter>

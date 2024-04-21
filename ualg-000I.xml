@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>274</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000I</fr:addr><fr:route>ualg-000I.xml</fr:route><fr:title>Limits and colimits created by a monadic functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  A <fr:link
+href="ualg-000A.xml"
+type="local"
+addr="ualg-000A">monadic functor</fr:link> <fr:link
+href="ualg-000G.xml"
+type="local"
+addr="ualg-000G">creates</fr:link> all limits. It also creates all colimits preserved by the monad.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>242</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000I</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    By definition, we just need to prove the functor <fr:tex>\mathcal { C } ^M  \to   \mathcal { C }</fr:tex> creates these limits and colimits. Given a diagram <fr:tex>(M X_i  \xrightarrow { \alpha _i} X_i)</fr:tex> in <fr:tex>\mathcal { C } ^M</fr:tex>, we can simply define an <fr:tex>M</fr:tex>-algebra structure on <fr:tex>\lim  X_i</fr:tex> by assigning <fr:tex>M( \lim  X_i)  \to   \lim  X_i</fr:tex> the obvious map. This is the limit of the original diagram by a simple diagram chase, hence it is lifted. The cones over the diagram are determined by their image under the forgetful functor, so the lift is unique, which means the limit is trivially reflected.
+  </fr:p>
+
+  <fr:p>
+    For colimits, if <fr:tex>M</fr:tex> preserves a colimit, then we can similarly define an algebra structure as <fr:tex>M( \operatorname *{colim}  X_i)  \cong   \operatorname *{colim}  M X_i  \to   \operatorname *{colim}  X_i</fr:tex>. The lift is also unique, which means it is reflected.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>270</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000G</fr:addr><fr:route>ualg-000G.xml</fr:route><fr:title>Preservation, lifting, reflection and creation of limits</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Consider a functor <fr:tex>F :  \mathcal { C }   \to   \mathcal { D }</fr:tex>.
+</fr:p><fr:ul><fr:li>If a limit cone <fr:tex>L</fr:tex> in <fr:tex>\mathcal { C }</fr:tex> is mapped to a limit cone in <fr:tex>\mathcal { D }</fr:tex>, then the functor <fr:strong>preserves</fr:strong> the limit <fr:tex>I</fr:tex>.</fr:li>
+  <fr:li>If given a diagram <fr:tex>D</fr:tex> and a limit cone <fr:tex>L</fr:tex> over <fr:tex>F  \circ  D</fr:tex> in <fr:tex>\mathcal { D }</fr:tex>, <fr:tex>D</fr:tex> can be extended to a limit cone in <fr:tex>\mathcal { C }</fr:tex> that maps to <fr:tex>L</fr:tex>, then the functor <fr:strong>lifts</fr:strong> the limit <fr:tex>L</fr:tex> to <fr:tex>D</fr:tex>.</fr:li>
+  <fr:li>If all the cones that maps to a limit cone <fr:tex>L</fr:tex> in <fr:tex>\mathcal { D }</fr:tex> are limit cones in <fr:tex>\mathcal { C }</fr:tex>, then the functor <fr:strong>reflects</fr:strong> the limit <fr:tex>L</fr:tex>.</fr:li>
+  <fr:li>If given a diagram <fr:tex>D</fr:tex> and a limit cone <fr:tex>L</fr:tex> over <fr:tex>F  \circ  D</fr:tex> in <fr:tex>\mathcal { D }</fr:tex>, <fr:tex>L</fr:tex> is reflected and lifted to <fr:tex>D</fr:tex>, then the limit of <fr:tex>D</fr:tex> is <fr:strong>created</fr:strong>.</fr:li></fr:ul><fr:p>
+  This can be easily generalized to cover a type of limits or all limits, and can be dualized to colimits. The definitions here are not agreed upon, and the literature may have slight variations. We consider univalent categories here, so that definitions are automatically adjusted to be equivalence-invariant.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>272</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000A</fr:addr><fr:route>ualg-000A.xml</fr:route><fr:title>Monadic functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a pair of adjoint functors <fr:tex>F  \dashv  G</fr:tex>, <fr:tex>G</fr:tex> is <fr:strong>monadic</fr:strong> if the corresponding <fr:link
+href="ualg-0009.xml"
+type="local"
+addr="ualg-0009">comparison functor</fr:link> to <fr:tex>\mathcal { C } ^{G  \circ  F}</fr:tex> is an equivalence in <fr:link
+href="ualg-0007.xml"
+type="local"
+addr="ualg-0007">the bicategory of decompositions</fr:link>.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>268</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000H</fr:addr><fr:route>ualg-000H.xml</fr:route><fr:title>Beck monadicity theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Let <fr:tex>G :  \mathcal { D }   \to   \mathcal { C }</fr:tex> be a functor with a left adjoint <fr:tex>F</fr:tex>. <fr:tex>G</fr:tex> is <fr:link
+href="ualg-000A.xml"
+type="local"
+addr="ualg-000A">monadic</fr:link> iff <fr:tex>G</fr:tex> <fr:link
+href="ualg-000G.xml"
+type="local"
+addr="ualg-000G">creates</fr:link> coequalizers whose image under <fr:tex>G</fr:tex> is <fr:link
+href="ualg-000B.xml"
+type="local"
+addr="ualg-000B">split</fr:link>.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>264</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000H</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    For necessity, using <fr:ref
+addr="ualg-000I"
+href="ualg-000I.xml"
+taxon="Theorem"></fr:ref>, we only need to verify that a monad <fr:tex>M</fr:tex> preserves the relevant coequalizers, which is true since <fr:link
+href="ualg-000D.xml"
+type="local"
+addr="ualg-000D">they are absolute</fr:link>.
+  </fr:p>
+
+  <fr:p>
+    For sufficiency, we observe the proof of <fr:ref
+addr="ualg-000E"
+href="ualg-000E.xml"
+taxon="Theorem"></fr:ref>. Notice that the coequalizers involved are of the form <fr:tex>F \alpha ,  \epsilon  : FGFA  \rightrightarrows  FA</fr:tex>. The images of these under <fr:tex>G</fr:tex> are indeed split by <fr:tex>\eta  : GFA  \to  GFGFA</fr:tex> and <fr:tex>\eta  : A  \to  GFA</fr:tex>. Therefore we just have to show <fr:tex>G</fr:tex> reflects isomorphisms. Given an isomorphism <fr:tex>Gf : GA  \cong  GB</fr:tex>, we have a split coequalizer <fr:tex>GA  \rightrightarrows  GB  \to  GA</fr:tex> where the two maps on the left are <fr:tex>Gf</fr:tex>, and the map on the right is its inverse. This creates a map <fr:tex>g : B  \to  A</fr:tex> which is the coequalizer of <fr:tex>f</fr:tex> with itself. So this map must be an isomorphism. We then consider the coequalizer <fr:tex>GB  \rightrightarrows  GA  \to  GB</fr:tex>, where the two maps on the left are <fr:tex>Gg</fr:tex> and the map on the right is <fr:tex>Gf</fr:tex>. Since <fr:tex>G</fr:tex> reflects this limit, <fr:tex>f</fr:tex> must also be an isomorphism.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
