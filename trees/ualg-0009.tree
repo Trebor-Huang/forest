@@ -7,3 +7,9 @@
 \p{
   The [Eilenberg–Moore category](ualg-0002) together with its canonical adjunction is the terminal [[ualg-0007]]. Hence there is a unique morphism from any decomposition to it, named the \strong{comparison functor}.
 }
+
+\proof{
+  \p{
+    Given an adjunction #{F \dashv G} with the corresponding monad #{G \compose F}, the comparison functor is defined as sending #{X} to #{GFGX \to GX}, given by the counit #{FGX \to X}.
+  }
+}

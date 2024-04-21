@@ -5,10 +5,14 @@
 \import{common}
 
 \p{
-  Given a [[algm-000M]], i.e. a space #{X} with a sheaf of rings #{\sheaf{O}}, it is said to be \strong{locally ringed} iff the following conditions hold:
-  \ul{
-    \li{If #{\section(U, \sheaf{O}) = 0}, then #{U} is empty.}
-    \li{Suppose #{f + g \in \section(U, \sheaf{O})} is invertible, then we can cover #{U} with two open sets such that #{f} and #{g} are invertible when restricted respectively.}
-  }
+  Given a [[algm-000M]], i.e. a space #{X} with a sheaf of rings #{\sheaf{O}}, it is said to be \strong{locally ringed} iff the following conditions hold.
+}
+
+\ul{
+  \li{If #{\section(U, \sheaf{O}) = 0}, then #{U} is empty.}
+  \li{Suppose #{f + g \in \section(U, \sheaf{O})} is invertible, then we can cover #{U} with two open sets such that #{f} and #{g} are invertible when restricted respectively.}
+}
+
+\p{
   This can be unified as one condition: If a finite sum in #{\section(U, \sheaf{O})} is invertible, then each summand is invertible when restricted to an open, which jointly covers #{U}.
 }

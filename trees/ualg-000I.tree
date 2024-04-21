@@ -1,0 +1,19 @@
+\date{2024-04-21}
+\title{limits and colimits created by a monadic functor}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  A [[ualg-000A]] [creates](ualg-000G) all limits. It also creates all colimits preserved by the monad.
+}
+
+\proof{
+  \p{
+    By definition, we just need to prove the functor #{\CatVar{C}^M \to \CatVar{C}} creates these limits and colimits. Given a diagram #{(M X_i \xto{\alpha_i} X_i)} in #{\CatVar{C}^M}, we can simply define an #{M}-algebra structure on #{\lim X_i} by assigning #{M(\lim X_i) \to \lim X_i} the obvious map. This is the limit of the original diagram by a simple diagram chase, hence it is lifted. The cones over the diagram are determined by their image under the forgetful functor, so the lift is unique, which means the limit is trivially reflected.
+  }
+
+  \p{
+    For colimits, if #{M} preserves a colimit, then we can similarly define an algebra structure as #{M(\colim X_i) \cong \colim M X_i \to \colim X_i}. The lift is also unique, which means it is reflected.
+  }
+}

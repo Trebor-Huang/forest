@@ -5,7 +5,7 @@
 \import{common}
 
 \p{
-  We can visualize a filtered object #{F_1 A \subseteq F_2 A \subseteq F_3 A \subseteq A} as nested rectangles.
+  We can visualize a filtered object #{F_1 A \subseteq F_2 A \subseteq F_3 A \subseteq A} as nested rectangles. The graded components of this filtration are the individual rectangular regions.
 }
 
 \tikz{
@@ -14,8 +14,4 @@
   \filldraw (0,-1) rectangle (3,1);
   \filldraw (0,-1) rectangle (2,1);
   \filldraw (0,-1) rectangle (1,1);
-}
-
-\p{
-  The graded components of this filtration are the individual rectangular regions.
 }

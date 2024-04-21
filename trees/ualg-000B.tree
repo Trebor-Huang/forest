@@ -1,0 +1,18 @@
+\date{2024-04-16}
+\title{split coequalizer}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  We define a \strong{split coequalizer} to be the following diagram:
+  \tikzcd{
+    X & Y & Z
+    \arrow["{\partial_0}", shift left, curve={height=-6pt}, from=1-1, to=1-2]
+    \arrow["{\partial_1}"', shift right, curve={height=6pt}, from=1-1, to=1-2]
+    \arrow["s"{description}, from=1-2, to=1-1]
+    \arrow["q", from=1-2, to=1-3]
+    \arrow["r", curve={height=-6pt}, from=1-3, to=1-2]
+  }
+  such that #{q \compose r = \id_Z}, #{r \compose q = \partial_0 \compose s} and #{\partial_1 \compose s = \id_Y}.
+}

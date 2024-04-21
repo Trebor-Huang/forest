@@ -6,21 +6,23 @@
 
 \p{
   An [additive functor](hmlg-000S) #{F : \CatVar{A} \to \CatVar{B}} between abelian categories is \strong{left exact} if it satisfies the following equivalent conditions.
-
-  \ul{
-    \li{It preserves kernels.}
-    \li{It preserves finite limits.}
-    \li{It preserves the exactness of sequences ##{0 \to A \to B \to C.}}
-  }
+}
+\ul{
+  \li{It preserves kernels.}
+  \li{It preserves finite limits.}
+  \li{It preserves the exactness of sequences ##{0 \to A \to B \to C.}}
 }
 
 \p{
   Dually, an additive functor is \strong{right exact} if it satisfies the following equivalent conditions.
-  \ul{
-    \li{It preserves cokernels.}
-    \li{It preserves finite colimits.}
-    \li{It preserves the exactness of sequences ##{A \to B \to C \to 0.}}
-  }
+}
+\ul{
+  \li{It preserves cokernels.}
+  \li{It preserves finite colimits.}
+  \li{It preserves the exactness of sequences ##{A \to B \to C \to 0.}}
+}
+
+\p{
   If a functor is both left exact and right exact, it is simply called an \strong{exact functor}, which is equivalent to it preserving the exactness of sequences #{A \to B \to C}.
 }
 

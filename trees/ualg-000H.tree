@@ -1,0 +1,19 @@
+\date{2024-04-21}
+\title{Beck monadicity theorem}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  Let #{G : \CatVar{D} \to \CatVar{C}} be a functor with a left adjoint #{F}. #{G} is [monadic](ualg-000A) iff #{G} [creates](ualg-000G) coequalizers whose image under #{G} is [split](ualg-000B).
+}
+
+\proof{
+  \p{
+    For necessity, using \ref{ualg-000I}, we only need to verify that a monad #{M} preserves the relevant coequalizers, which is true since [they are absolute](ualg-000D).
+  }
+
+  \p{
+    For sufficiency, we observe the proof of \ref{ualg-000E}. Notice that the coequalizers involved are of the form #{F\alpha, \epsilon : FGFA \rightrightarrows FA}. The images of these under #{G} are indeed split by #{\eta : GFA \to GFGFA} and #{\eta : A \to GFA}. Therefore we just have to show #{G} reflects isomorphisms. Given an isomorphism #{Gf : GA \cong GB}, we have a split coequalizer #{GA \rightrightarrows GB \to GA} where the two maps on the left are #{Gf}, and the map on the right is its inverse. This creates a map #{g : B \to A} which is the coequalizer of #{f} with itself. So this map must be an isomorphism. We then consider the coequalizer #{GB \rightrightarrows GA \to GB}, where the two maps on the left are #{Gg} and the map on the right is #{Gf}. Since #{G} reflects this limit, #{f} must also be an isomorphism.
+  }
+}

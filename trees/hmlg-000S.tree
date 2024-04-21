@@ -5,13 +5,12 @@
 \import{common}
 
 \p{
-  Given two [additive categories](hmlg-000P) and a functor #{F : \CatVar{C} \to \CatVar{D}} between them, the following are equivalent:
-  \ul{
-    \li{The functor preserves finite products.}
-    \li{The functor preserves finite coproducts.}
-    \li{The functor is a homomorphism on the abelian groups #{\hom_{\CatVar{C}}(X, Y)}, i.e. it is an #{\Cat{Ab}}-enriched functor.}
-  }
-  In this case, we call the functor \strong{additive}.
+  Given two [additive categories](hmlg-000P) and a functor #{F : \CatVar{C} \to \CatVar{D}} between them, the following are equivalent. In this case, we call the functor \strong{additive}.
+}
+\ul{
+  \li{The functor preserves finite products.}
+  \li{The functor preserves finite coproducts.}
+  \li{The functor is a homomorphism on the abelian groups #{\hom_{\CatVar{C}}(X, Y)}, i.e. it is an #{\Cat{Ab}}-enriched functor.}
 }
 
 \proof{

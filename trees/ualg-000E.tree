@@ -1,0 +1,56 @@
+\date{2024-04-20}
+\title{Crude monadicity theorem}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  Let #{G : \CatVar{D} \to \CatVar{C}} be a functor with a left adjoint #{F}. #{M = G \compose F} is the corresponding monad on #{\CatVar{C}}. This gives a [comparison functor](ualg-0009) #{K : \CatVar{A} \to \CatVar{C}^M}.
+}
+
+\ol{
+  \li{If #{\CatVar{D}} has all coequalizers (we can weaken this to [reflexive coequalizers](ualg-000F)), then #{K} has a left adjoint.}
+  \li{If moreover #{G} preserves these reflexive coequalizers, the unit #{\Id \to K \compose L} is an isomorphism.}
+  \li{Finally, if #{G} reflects isomorphisms, then the counit #{L \compose K \to \Id} is also an isomorphism, making #{G} [monadic](ualg-000A).}
+}
+
+\proof{
+  \p{
+    For the first claim, we need a functor #{L} such that arrows from #{L(GFA \xto{\alpha} A)} to #{X} is in bijection with commutative squares
+    \tikzcd{
+      GFA & GFGX \\
+      A & GX
+      \arrow[from=1-1, to=1-2]
+      \arrow["{\alpha}"', from=1-1, to=2-1]
+      \arrow["{G \epsilon}", from=1-2, to=2-2]
+      \arrow[from=2-1, to=2-2]
+    }
+    which are equivalent by #{F \dashv G} to the commutative squares
+    \tikzcd{
+      FGFA & FGX \\
+      FA & X
+      \arrow["FG\varphi", from=1-1, to=1-2]
+      \arrow["F\alpha"', from=1-1, to=2-1]
+      \arrow["\epsilon", from=1-2, to=2-2]
+      \arrow["\varphi", from=2-1, to=2-2]
+    }
+    Further notice that #{\epsilon \compose FG\varphi = \varphi \compose \epsilon} by naturality. So it becomes obvious that #{L} should be defined as the coequalizer of the pair ##{F \alpha, \epsilon : FGFA \rightrightarrows FA.} This is reflexive by the common section #{F\eta}.
+  }
+
+  \p{
+    For the second point, we unfold the unit as a natural family of commutative squares
+    \tikzcd{
+      GFA & {GFG\colim(FGFA \rightrightarrows FA)} \\
+      A & {G\colim(FGFA \rightrightarrows FA)}
+      \arrow[from=1-1, to=1-2]
+      \arrow[from=1-1, to=2-1]
+      \arrow[from=1-2, to=2-2]
+      \arrow[from=2-1, to=2-2]
+    }
+    and when #{G} preserves the coequalizers in the diagram, the problem is reduced to showing that the coequalizer of #{GF\alpha} and #{G\epsilon : GFGFA \rightrightarrows GFA} is isomorphic to #{A} via the bottom map, which is just the unit #{\eta : A \to GFA} composed with the coequalizing map. This is a routine diagram chase.
+  }
+
+  \p{
+    For the final point, we would like the coequalizer of #{FG\epsilon, \epsilon : FGFGX \rightrightarrows FGX} to be isomorphic to #{X}. If we apply #{G} to the diagram, we get an isomorphism to #{GX} by the previous point. So if #{G} reflects isomorphisms, we’re done.
+  }
+}

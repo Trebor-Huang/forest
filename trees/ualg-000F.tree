@@ -1,0 +1,9 @@
+\date{2024-04-21}
+\title{reflexive pair}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  A \strong{reflexive pair} is the categorical translation of a reflexive relation. It is defined as a pair of arrows #{\partial_0, \partial_1 : X \rightrightarrows Y} with a common section #{r : Y \to X}, i.e. an arrow #{r} such that #{\partial_0 \compose r = \partial_1 \compose r = \id_Y}. A coequalizer of a reflexive pair is called a \strong{reflexive coequalizer}.
+}

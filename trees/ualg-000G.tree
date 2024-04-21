@@ -1,0 +1,20 @@
+\date{2024-04-21}
+\title{preservation, lifting, reflection and creation of limits}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Consider a functor #{F : \CatVar{C} \to \CatVar{D}}.
+}
+
+\ul{
+  \li{If a limit cone #{L} in #{\CatVar{C}} is mapped to a limit cone in #{\CatVar{D}}, then the functor \strong{preserves} the limit #{I}.}
+  \li{If given a diagram #{D} and a limit cone #{L} over #{F \compose D} in #{\CatVar{D}}, #{D} can be extended to a limit cone in #{\CatVar{C}} that maps to #{L}, then the functor \strong{lifts} the limit #{L} to #{D}.}
+  \li{If all the cones that maps to a limit cone #{L} in #{\CatVar{D}} are limit cones in #{\CatVar{C}}, then the functor \strong{reflects} the limit #{L}.}
+  \li{If given a diagram #{D} and a limit cone #{L} over #{F \compose D} in #{\CatVar{D}}, #{L} is reflected and lifted to #{D}, then the limit of #{D} is \strong{created}.}
+}
+
+\p{
+  This can be easily generalized to cover a type of limits or all limits, and can be dualized to colimits. The definitions here are not agreed upon, and the literature may have slight variations. We consider univalent categories here, so that definitions are automatically adjusted to be equivalence-invariant.
+}
