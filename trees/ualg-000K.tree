@@ -1,0 +1,16 @@
+\date{2024-04-21}
+\title{free completely distributive complete Boolean algebras}
+\author{trebor}
+\import{common}
+
+\p{
+  An element of a free [CDCBA](ualg-000J) over the set #{X} is an expression made out of joins, meets and negation, with literals from #{X}. We can push the negation in and use distributivity to put the expression into [disjunctive normal form](https://en.wikipedia.org/wiki/Disjunctive_normal_form). The clauses can be represented by functions #{X \to \{\top, \bot, ?\}} representing a literal appearing positively, negatively or not appearing in the conjunction.
+}
+
+\p{
+  If a literal #{b} does not appear in a clause, we can take its conjunction with #{\top = b \lor \neg b} and expand using distributivity. This ensures every literal appears either positively or negatively, so the expressions are now represented by a double powerset of #{X}, where the inner powerset records which literals appear positively in a clause, and the outer powerset represents the set of clauses.
+}
+
+\p{
+  In fact, such a representation is unique. We just need to show that the double powerset forms a CDCBA. Disjunction is simply a union. Negation is given by the complement. Conjunction is given by an intersection. We can verify that the required identities all hold. Hence the monad for CDCBAs is the double powerset monad, corresponding to the adjunction #{\power^{\op} \dashv \power} via \ref{ualg-000L}.
+}

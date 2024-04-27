@@ -1,0 +1,17 @@
+\date{2024-04-24}
+\title{reduction from the non-reduced chain complex to the reduced chain complex}
+\taxon{construction}
+\author{trebor}
+\import{common}
+
+\p{
+  We construct a [[hmlg-0017]] from the non-reduced chain complex to the reduced chain complex in \ref{hmlg-001U}, by constructing a [[hmlg-001N]] and using \ref{hmlg-001R}.
+}
+
+\p{
+  We consider placing vectors on degenerate simplicies, so that all degenerate simplices are sources or targets. For each non-trivial degeneracy symbol, if the first degeneration has even multiplicity, we assign it to be a source, with the corresponding target to have one more multiplicity at the place, and vice versa. For example, the degeneracy symbol #{[6] \surject [4]} given by the table of values #{(0, 1, 1, 2, 3, 3, 4)} is a source, whose target is #{(0, 1, 1, 1, 2, 3, 3, 4) : [7] \surject [4]}.
+}
+
+\p{
+  To verify this indeed gives a discrete vector field, we need to show that the source is a regular face of the target. This is true since an odd consective sum of #{(-1)^{i}} gives #{\pm 1}. Furthermore, we need to show the admissibility of the vector field. I claim that length of the field lines originating from one cell is bounded by two times the geometric dimension (i.e. the dimension of the associated geometric simplex). On one hand, the geometric dimensions of the target and the source are the same. On the other hand, moving from the target to the next source cell requires us to pick a regular face that does not point back to the target. This is equivalent to picking a place in the degeneracy symbol with no multiplicity. Hence the geometric dimension will decrease by one.
+}

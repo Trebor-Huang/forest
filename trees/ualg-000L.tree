@@ -1,0 +1,23 @@
+\date{2024-04-21}
+\title{completely distributive complete Boolean algebras are powersets}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  Every [[ualg-000J]] is isomorphic to the set algebra of a powerset, and homomorphisms are given by inverse image map. In other words, the category of CDCBA is isomorphic to #{\Cat{Set}^{\op}} and the forgetful functor is given by the powerset #{\power(X) = 2^X}.
+}
+
+\proof{
+  \p{
+    Consider the set of \em{atoms} #{A}, defined as minimal non-bottom elements. It suffices to prove the algebra is \em{atomic}, i.e. every non-bottom element has an atom below it. This is because we can remove all the atoms that an element contains, and the result must be #{\bot}. So every element is given by a join of atoms. Such a join must be unique, since the intersection of different atoms is empty, so given two ways to write an element as a join of atoms, we take the intersection and see that they must agree. This shows that the elements are in bijection with #{\power(A)}, with joins, meets and complements given by unions, intersections and complements, respectively.
+  }
+
+  \p{
+    To show atomicity, consider ##{\top = \bigwedge_{b \in B} (b \lor \neg b) = \bigvee_{S \subseteq B} \left[ \bigwedge_{b \in S} b \wedge \bigwedge_{b \notin S} \neg b \right].} Consider the disjunctive clauses in here not equal to #{\bot} (which must exist unless #{\top = \bot} which trivially satisfies the requirements). They must be atoms because any element #{x} strictly below them must be below all the conjunctive items, so either #{x < x} or #{x < \neg x}. The former is absurd and the latter implies #{x = \bot}.
+  }
+
+  \p{
+    Taking the meet of the equation with an arbitrary element #{x} gives ##{x = \bigvee_{S \subseteq B} \left[x \wedge \bigwedge_{b \in S} b \wedge \bigwedge_{b \notin S} \neg b \right].} If there are no atoms #{a \le x}, then all the clauses must be #{\bot} meaning #{x = \bot}. This finishes the proof.
+  }
+}

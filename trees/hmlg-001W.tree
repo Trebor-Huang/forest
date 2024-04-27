@@ -1,0 +1,17 @@
+\date{2024-04-25}
+\title{bar construction}
+\taxon{construction}
+\author{trebor}
+\import{common}
+
+\p{
+  Given any group #{G}, we can construct the first Eilenberg–MacLane space #{K(G, 1)} as a simplicial set. Consider the contractible simplicial set whose set of #{n}-simplices is given by #{G^{n+1}}. This has a natural free #{G}-action given by multiplying every entry on the left. #{K(G, 1)} is constructed by the quotient of the #{G}-action.
+}
+
+\p{
+  More concretely, the #{n}-simplices are given by #{n}-tuples, representing the quotient of consecutive elements in the #{(n+1)}-tuple in the unquotiented simplicial set above. This is traditionally written as a bracketed sequence of elements separated by \em{bars}, #{[g_1 \mid g_2 \mid \dots \mid g_n]}, hence we name it the \strong{bar construction}. Face maps are given by removing the corresponding bars so the elements multiply together. Degeneracy maps are given by inserting the identity elements.
+}
+
+\p{
+  If the group has decidable equality and multiplication, then the simplicial set is also [effective](hmlg-001T). If further more the group is computably finite, then it is of finite type.
+}

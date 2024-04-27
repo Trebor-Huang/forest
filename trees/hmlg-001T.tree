@@ -1,0 +1,13 @@
+\date{2024-04-24}
+\title{effective simplicial set}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  An \strong{effective} simplicial set consists of a sequence of types #{\Geom_n(X)} with decidable equality, representing the \strong{geometric}, a.k.a. non-degenerate, simplices. The full set of simplices, written #{\section(\Delta^n, X)}, is given by a geometric simplex #{g \in \Geom_k(X)} for some #{k} together with a \strong{degeneracy symbol}, defined as a surjection #{\eta : [n+1] \surject [k+1]}, formally representing the degeneracy map that brought #{g} up to dimension #{n}, written as #{\eta^* g}. The effective simplicial set is also required to have computable \strong{face maps} #{\partial_i : \Geom_{n+1}(X) \to \section(\Delta^n, X)} for #{0 \le i \le n+1}, so that the usual simplicial identities hold. The simplicial set is \strong{of finite type} if each #{\Geom_n(X)} is computably finite.
+}
+
+\p{
+  Alternatively, we can make a definition that more closely follows the traditional one, requiring a sequence of types with decidable equality representing \em{all} simplices instead of geometric ones. We then need to impose an additional requirement that the degeneracy of a simplex is decidable. The equivalence of the two definitions is given by the Eilenberg–Zilber lemma.
+}

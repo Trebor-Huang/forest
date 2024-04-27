@@ -1,0 +1,13 @@
+\date{2024-04-25}
+\title{reduction from #{K(\mathbb{Z}, 1)} to the circle}
+\taxon{construction}
+\author{trebor}
+\import{common}
+
+\p{
+  There is a [[hmlg-0017]] from the [[hmlg-001W]] of #{K(\mathbb{Z}, 1)} regarded as its [reduced algebraic cellular complex](hmlg-001U), to the [circle](hmlg-001Y) #{\mathbb{S}^1}.
+}
+
+\p{
+  By construction, the geometric simplices of #{K(\mathbb{Z}, 1)} are lists #{[a_1 \mid a_2 \mid \cdots \mid a_n]} of non-zero integers. We construct an [[hmlg-001P]] and use [the reduction it generates](hmlg-001R). We assign a cell #{[a_1 \mid \cdots]} as a source if #{a_1 \ne 1}. If #{a_1 \le 0}, then we assign its target cell to be #{[1 \mid a_1 \mid \cdots]}; otherwise we assign #{[1 \mid a_1 - 1 \mid \cdots]}. Hence, the critical cells are #{[]} and #{[1]}.
+}

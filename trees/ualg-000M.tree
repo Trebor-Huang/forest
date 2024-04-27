@@ -1,0 +1,19 @@
+\date{2024-04-21}
+\title{complete Boolean algebra not isomorphic to a powerset}
+\taxon{example}
+\author{trebor}
+\import{common}
+
+\p{
+  Consider the Lebesgue measurable sets on the interval #{[0,1]} quotiented by measure-zero sets. This is a complete Boolean algebra, but it is not a powerset, showing the necessity of complete distributivity in \ref{ualg-000L}.
+}
+
+\proof{
+  \p{
+    This is indeed a Boolean algebra since measure-zero sets form a Boolean ideal of the Lebesgue #{\sigma}-algebra. So we just need to show the existence of arbitrary joins. Given a family #{X_\alpha} of measurable sets, we inductively construct a countable union. On each step, consider the area of each set outside of the current union. Select a set such that this excess area is within #{\frac12} of the supremum. Since #{\mu([0,1]) = 1}, such a process must lead to an excess area converging to zero.
+  }
+
+  \p{
+    By construction, every set #{X_\alpha} has zero area outside of this countable union, so they are under the union in the Boolean algebra. And the countable union #{\bigcup_{k=1}^\infty X_{\alpha_k}} is the join of #{X_{\alpha_k}} in the algebra, since a countable union of neglegible set is still neglegible. Hence by chasing elements, it must be the join of the entire family #{X_\alpha}.
+  }
+}

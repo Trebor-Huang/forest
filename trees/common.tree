@@ -46,12 +46,13 @@
 \def\Cat[name]{#{\mathsf{\name}}}
 \def\CatVar[name]{#{\mathcal{\name}}}
 \def\op{#{\textrm{op}}}
-\def\id{#{\operatorname{id}}}
-\def\Id{#{\operatorname{Id}}}
+\def\id{#{\textrm{id}}}
+\def\Id{#{\textrm{Id}}}
 \def\colim{#{\operatorname*{colim}}}
 \def\pair[content]{#{\left\langle \content \right\rangle}}
 \def\compose{#{\circ}}
 \def\yo{#{\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}}}
+\def\power{#{\mathcal{P}}}
 
 % Algebra
 \def\lcm{#{\operatorname{lcm}}}
@@ -90,5 +91,6 @@
 % Geometry
 \def\sheaf[name]{#{\mathscr{\name}}}
 \def\section{#{\Gamma}}
+\def\Geom{#{\operatorname{Geom}}}
 
 \p{This tree defines some commonly imported stuff.}
