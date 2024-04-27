@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>694</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001D</fr:addr><fr:route>algm-001D.xml</fr:route><fr:title>Descent data of presheaves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>950</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001D</fr:addr><fr:route>algm-001D.xml</fr:route><fr:title>Descent data of presheaves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -27,7 +27,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>690</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0019</fr:addr><fr:route>algm-0019.xml</fr:route><fr:title>Coverage</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>946</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0019</fr:addr><fr:route>algm-0019.xml</fr:route><fr:title>Coverage</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -39,7 +39,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>692</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001B</fr:addr><fr:route>algm-001B.xml</fr:route><fr:title>Sieve</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>948</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001B</fr:addr><fr:route>algm-001B.xml</fr:route><fr:title>Sieve</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -51,7 +51,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>684</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-001G</fr:addr><fr:route>algm-001G.xml</fr:route><fr:title>Iterated <fr:link
+root="false"><fr:frontmatter><fr:anchor>940</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-001G</fr:addr><fr:route>algm-001G.xml</fr:route><fr:title>Iterated <fr:link
 href="algm-001E.xml"
 type="local"
 addr="algm-001E">plus construction</fr:link> produces a sheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -75,7 +75,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>638</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>854</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001G</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -100,7 +100,7 @@ addr="algm-001A">Grothendieck coverage</fr:link>, the union <fr:tex>\bigcup _{f 
   </fr:p>
 
   <fr:p>
-    Since the families <fr:tex>s_{f}</fr:tex> are compatible, given any <fr:tex>g : V  \to  U</fr:tex> we have <fr:tex>s_{f, g  \circ  r} = s_{f  \circ  g, r}</fr:tex> for a family of arrows <fr:tex>r</fr:tex> that generates a covering sieve on <fr:tex>V</fr:tex>. However we cannot necessarily take <fr:tex>r =  \operatorname {id}</fr:tex>, so this is not necessarily well-defined. Here is where the separatedness comes in. Notice that <fr:tex>s_{f, g  \circ  r} = s_{f  \circ  g, r}</fr:tex> forms a compatible family over <fr:tex>V</fr:tex> as <fr:tex>r</fr:tex> ranges over the covering sieve. And therefore <fr:tex>s_{f, g}</fr:tex> and <fr:tex>s_{f  \circ  g,  \operatorname {id} }</fr:tex> are both a gluing of the family. By separatedness, they must be equal. Hence our problem is solved.
+    Since the families <fr:tex>s_{f}</fr:tex> are compatible, given any <fr:tex>g : V  \to  U</fr:tex> we have <fr:tex>s_{f, g  \circ  r} = s_{f  \circ  g, r}</fr:tex> for a family of arrows <fr:tex>r</fr:tex> that generates a covering sieve on <fr:tex>V</fr:tex>. However we cannot necessarily take <fr:tex>r =  \textrm {id}</fr:tex>, so this is not necessarily well-defined. Here is where the separatedness comes in. Notice that <fr:tex>s_{f, g  \circ  r} = s_{f  \circ  g, r}</fr:tex> forms a compatible family over <fr:tex>V</fr:tex> as <fr:tex>r</fr:tex> ranges over the covering sieve. And therefore <fr:tex>s_{f, g}</fr:tex> and <fr:tex>s_{f  \circ  g,  \textrm {id} }</fr:tex> are both a gluing of the family. By separatedness, they must be equal. Hence our problem is solved.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -111,7 +111,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>686</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001E</fr:addr><fr:route>algm-001E.xml</fr:route><fr:title>Plus construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>942</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001E</fr:addr><fr:route>algm-001E.xml</fr:route><fr:title>Plus construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -135,7 +135,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>688</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001F</fr:addr><fr:route>algm-001F.xml</fr:route><fr:title>Sheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>944</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001F</fr:addr><fr:route>algm-001F.xml</fr:route><fr:title>Sheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>

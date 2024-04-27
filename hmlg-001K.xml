@@ -7,27 +7,35 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1201</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1544</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   This is a set of notes on effective homology and algebraic topology. Main references are <fr:link
 href="constructive-homological-algebra.xml"
 type="local"
-addr="constructive-homological-algebra">Constructive Homological Algebra and Applications</fr:link> and ...
-</fr:p><fr:p>
-  TODO: composition of <fr:link
+addr="constructive-homological-algebra">Constructive Homological Algebra and Applications</fr:link> and <fr:link
+href="discrete-vector-fields.xml"
+type="local"
+addr="discrete-vector-fields">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. We assume basic familiarity with the classical aspects of the theory, although there will also be links within this forest to the relevant concepts.
+</fr:p><fr:ul><fr:li>From <fr:link
+href="discrete-vector-fields.xml"
+type="local"
+addr="discrete-vector-fields">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>: Eilenberg–Zilber lemma &amp; twisted products</fr:li>
+  <fr:li>classifying space, loop space</fr:li>
+  <fr:li>composition of <fr:link
 href="hmlg-001I.xml"
 type="local"
-addr="hmlg-001I">strong homology equivalence</fr:link>, tensor product, cone, bicomplex, (effective) simplicial set, simplicial group, Kan complex
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+addr="hmlg-001I">strong homology equivalence</fr:link>, tensor product, cone, bicomplex</fr:li>
+  <fr:li>simplicial group, Kan complex</fr:li>
+  <fr:li>organize into notes</fr:li></fr:ul></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1199</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001I</fr:addr><fr:route>hmlg-001I.xml</fr:route><fr:title>Strong homology equivalence</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1542</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001I</fr:addr><fr:route>hmlg-001I.xml</fr:route><fr:title>Strong homology equivalence</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -39,7 +47,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="true"><fr:frontmatter><fr:anchor>1197</fr:anchor><fr:addr>trebor-0001</fr:addr><fr:route>index.xml</fr:route><fr:title>Trebor’s forest</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="true"><fr:frontmatter><fr:anchor>1540</fr:anchor><fr:addr>trebor-0001</fr:addr><fr:route>index.xml</fr:route><fr:title>Trebor’s forest</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -67,7 +75,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>238</fr:anchor><fr:addr>trebor-0002</fr:addr><fr:route>trebor-0002.xml</fr:route><fr:title>Style of writing</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>402</fr:anchor><fr:addr>trebor-0002</fr:addr><fr:route>trebor-0002.xml</fr:route><fr:title>Style of writing</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -91,7 +99,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1195</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>constructive-homological-algebra</fr:addr><fr:route>constructive-homological-algebra.xml</fr:route><fr:title>Constructive Homological Algebra and Applications</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author>Julio Rubio García and Francis Sergeraert</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1536</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>discrete-vector-fields</fr:addr><fr:route>discrete-vector-fields.xml</fr:route><fr:title>Discrete Vector Fields and Fundamental Algebraic Topology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author>Ana Romero and Francis Sergeraert</fr:author></fr:authors><fr:meta
+name="doi">10.48550/arXiv.1005.5685</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
+  We show in this text how the most important homology equivalences of fundamental Algebraic Topology can be obtained as reductions associated to discrete vector fields. Mainly the homology equivalences whose existence — most often non-constructive — is proved by the main spectral sequences, the Serre and Eilenberg-Moore spectral sequences. On the contrary, the constructive existence is here systematically looked for and obtained.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1538</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>constructive-homological-algebra</fr:addr><fr:route>constructive-homological-algebra.xml</fr:route><fr:title>Constructive Homological Algebra and Applications</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author>Julio Rubio García and Francis Sergeraert</fr:author></fr:authors><fr:meta
 name="doi">10.48550/arXiv.1208.3816</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
   This text was written and used for a MAP Summer School at the University of Genova, August 28 to September 2, 2006. Available since then on the web site of the second author, it has been used and referenced by several colleagues working in Commutative Algebra and Algebraic Topology. To make safer such references, it was suggested to place it on the Arxiv repository. It is a relatively detailed exposition of the use of the <fr:link
 href="hmlg-001G.xml"

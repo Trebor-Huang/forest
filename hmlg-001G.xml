@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1225</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001G</fr:addr><fr:route>hmlg-001G.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1568</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001G</fr:addr><fr:route>hmlg-001G.xml</fr:route><fr:title><fr:link
 href="hmlg-001G.xml"
 type="local"
 addr="hmlg-001G">Perturbation</fr:link> of the larger chain complex in a <fr:link
@@ -34,7 +34,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>441</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>640</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001G</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -76,7 +76,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1215</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001G</fr:addr><fr:route>hmlg-001G.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1558</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001G</fr:addr><fr:route>hmlg-001G.xml</fr:route><fr:title><fr:link
 href="hmlg-001G.xml"
 type="local"
 addr="hmlg-001G">Perturbation</fr:link> of the larger chain complex in a <fr:link
@@ -103,7 +103,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>441</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>640</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001G</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -145,7 +145,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1217</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-001H</fr:addr><fr:route>hmlg-001H.xml</fr:route><fr:title>Characterization of <fr:link
+root="false"><fr:frontmatter><fr:anchor>1560</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-001H</fr:addr><fr:route>hmlg-001H.xml</fr:route><fr:title>Characterization of <fr:link
 href="hmlg-0017.xml"
 type="local"
 addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -174,12 +174,12 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>445</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>644</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001H</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    A chain reduction consists of maps <fr:tex>C_k  \mathrel { \smash { \xtofrom [g_k]{f_k}}} D_k</fr:tex> such that <fr:tex>f_k  \circ  g_k =  \operatorname {id}</fr:tex>. Therefore <fr:tex>C_ \bullet</fr:tex> <fr:link
+    A chain reduction consists of maps <fr:tex>C_k  \mathrel { \smash { \xtofrom [g_k]{f_k}}} D_k</fr:tex> such that <fr:tex>f_k  \circ  g_k =  \textrm {id}</fr:tex>. Therefore <fr:tex>C_ \bullet</fr:tex> <fr:link
 href="todo.xml"
 type="local"
 addr="todo">splits</fr:link> as <fr:tex>D_ \bullet   \oplus  E_ \bullet</fr:tex>, and the boundary maps are preserved since <fr:tex>f, g</fr:tex> are chain maps. We have a homotopy <fr:tex>h_k : D_k  \oplus  E_k  \to  D_{k+1}  \oplus  E_{k+1}</fr:tex>, which we may write as a <fr:tex>(2  \times  2)</fr:tex>-matrix. <fr:tex>f  \circ  h = 0</fr:tex> demands the first row to be zero, and <fr:tex>h  \circ  g = 0</fr:tex> requires the first column to vanish. This leaves us with
@@ -189,22 +189,22 @@ display="block">\begin {bmatrix}       0 &amp; 0  \\        0 &amp; r_k      \en
   </fr:p>
 
   <fr:p>
-    Substituting the requirement that <fr:tex>h</fr:tex> is a homotopy <fr:tex>\operatorname {id}   \to  g  \circ  f</fr:tex>, we get the equation <fr:tex
-display="block">d_{k+1}  \circ  r_k + r_{k-1}  \circ  d_k =  \operatorname {id} ,</fr:tex> where <fr:tex>d</fr:tex> is the boundary operator on <fr:tex>E_ \bullet</fr:tex>. In other words, <fr:tex>r</fr:tex> is a null-homotopy of <fr:tex>E_ \bullet</fr:tex>, rendering it <fr:link
+    Substituting the requirement that <fr:tex>h</fr:tex> is a homotopy <fr:tex>\textrm {id}   \to  g  \circ  f</fr:tex>, we get the equation <fr:tex
+display="block">d_{k+1}  \circ  r_k + r_{k-1}  \circ  d_k =  \textrm {id} ,</fr:tex> where <fr:tex>d</fr:tex> is the boundary operator on <fr:tex>E_ \bullet</fr:tex>. In other words, <fr:tex>r</fr:tex> is a null-homotopy of <fr:tex>E_ \bullet</fr:tex>, rendering it <fr:link
 href="todo.xml"
 type="local"
 addr="todo">split exact</fr:link>. Conversely, given <fr:tex>C  \cong  D  \oplus  E</fr:tex>, we can reconstruct <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> as the projection and inclusion maps, with <fr:tex>h</fr:tex> obtained out of <fr:tex>r</fr:tex> in the manner depicted above.
   </fr:p>
 
   <fr:p>
-    On the other hand, given only the homotopy operator, we expect to have <fr:tex>d  \circ  h + h  \circ  d =  \operatorname {id}  - g  \circ  f</fr:tex>. And since <fr:tex>g  \circ  f</fr:tex> should be the projector of <fr:tex>C</fr:tex> onto the subspace <fr:tex>D</fr:tex>, <fr:tex>\operatorname {id}  - g  \circ  f</fr:tex> should be the projector onto <fr:tex>E</fr:tex>. We are thus led to proving <fr:tex>p = d  \circ  h + h  \circ  d</fr:tex> is indeed a projector.
+    On the other hand, given only the homotopy operator, we expect to have <fr:tex>d  \circ  h + h  \circ  d =  \textrm {id}  - g  \circ  f</fr:tex>. And since <fr:tex>g  \circ  f</fr:tex> should be the projector of <fr:tex>C</fr:tex> onto the subspace <fr:tex>D</fr:tex>, <fr:tex>\textrm {id}  - g  \circ  f</fr:tex> should be the projector onto <fr:tex>E</fr:tex>. We are thus led to proving <fr:tex>p = d  \circ  h + h  \circ  d</fr:tex> is indeed a projector.
     <fr:tex
 display="block">\begin {aligned}       p_k  \circ  p_k &amp;= (d_{k+1}  \circ  h_k + h_{k-1}  \circ  d_k)  \circ  (d_{k+1}  \circ  h_k + h_{k-1}  \circ  d_k)  \\        &amp;= d_{k+1}  \circ   \overbrace {h_k  \circ  d_{k+1}  \circ  h_k}^{h_k} + d_{k+1}  \circ   \overbrace {h_k  \circ  h_{k-1}}^{0}  \circ  d_k  \\        &amp; \qquad  + h_{k-1}  \circ   \underbrace {d_k  \circ  d_{k+1}}_{0}  \circ  h_k +  \underbrace {h_{k-1}  \circ  d_k  \circ  h_{k-1}}_{h_{k-1}}  \circ  d_k  \\        &amp;= d_{k+1}  \circ  h_k + h_{k-1}  \circ  d_k = p_k.      \end {aligned}</fr:tex>
-    Therefore we conclude that <fr:tex>p_k</fr:tex> splits <fr:tex>C_k  \cong  D_k  \oplus  E_k</fr:tex>. More over, <fr:tex>p  \circ  d = d  \circ  h  \circ  d = d  \circ  p</fr:tex>, meaning <fr:tex>p</fr:tex> is a chain map, and therefore the splitting is compatible with the boundary operator. Since <fr:tex>h  \circ  p = p  \circ  h = h  \circ  d  \circ  h = h</fr:tex>, the homotopy is also compatible with the splitting, so we can restrict it onto <fr:tex>E_k</fr:tex> to get a homotopy from <fr:tex>\operatorname {id} _E</fr:tex> to <fr:tex>0</fr:tex>.
+    Therefore we conclude that <fr:tex>p_k</fr:tex> splits <fr:tex>C_k  \cong  D_k  \oplus  E_k</fr:tex>. More over, <fr:tex>p  \circ  d = d  \circ  h  \circ  d = d  \circ  p</fr:tex>, meaning <fr:tex>p</fr:tex> is a chain map, and therefore the splitting is compatible with the boundary operator. Since <fr:tex>h  \circ  p = p  \circ  h = h  \circ  d  \circ  h = h</fr:tex>, the homotopy is also compatible with the splitting, so we can restrict it onto <fr:tex>E_k</fr:tex> to get a homotopy from <fr:tex>\textrm {id} _E</fr:tex> to <fr:tex>0</fr:tex>.
   </fr:p>
 
   <fr:p>
-    Finally, restricting <fr:tex>h</fr:tex> onto <fr:tex>D_k</fr:tex> we see that it must be zero, since <fr:tex>h( \operatorname {id}  - p) = h - h  \circ  d  \circ  h = 0</fr:tex>. This means that all the information of <fr:tex>h</fr:tex> can be reconstructed from the splitting, and thus all three sets of data are equivalent.
+    Finally, restricting <fr:tex>h</fr:tex> onto <fr:tex>D_k</fr:tex> we see that it must be zero, since <fr:tex>h( \textrm {id}  - p) = h - h  \circ  d  \circ  h = 0</fr:tex>. This means that all the information of <fr:tex>h</fr:tex> can be reconstructed from the splitting, and thus all three sets of data are equivalent.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -215,7 +215,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1221</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001E</fr:addr><fr:route>hmlg-001E.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1564</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001E</fr:addr><fr:route>hmlg-001E.xml</fr:route><fr:title><fr:link
 href="hmlg-001C.xml"
 type="local"
 addr="hmlg-001C">Perturbation</fr:link> of the smaller chain complex in a <fr:link
@@ -236,7 +236,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1219</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1562</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001E</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -255,14 +255,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1223</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0017</fr:addr><fr:route>hmlg-0017.xml</fr:route><fr:title>Chain reduction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1566</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0017</fr:addr><fr:route>hmlg-0017.xml</fr:route><fr:title>Chain reduction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given two chain complexes <fr:tex>C, D</fr:tex>, a <fr:strong>chain reduction</fr:strong> consists of a chain map <fr:tex>\pi  : C  \to  D</fr:tex>, a chain map <fr:tex>\iota  : D  \to  C</fr:tex> and a <fr:link
 href="hmlg-0016.xml"
 type="local"
-addr="hmlg-0016">chain homotopy</fr:link> <fr:tex>h :  \operatorname {id}   \to  g  \circ  f</fr:tex>, such that <fr:tex>\pi   \circ   \iota  =  \operatorname {id}</fr:tex>, and <fr:tex
+addr="hmlg-0016">chain homotopy</fr:link> <fr:tex>h :  \textrm {id}   \to  g  \circ  f</fr:tex>, such that <fr:tex>\pi   \circ   \iota  =  \textrm {id}</fr:tex>, and <fr:tex
 display="block">\pi   \circ  h = h  \circ   \iota  = h  \circ  h = 0.</fr:tex> Here the compositions are understood to have the appropriate subscript so the degrees match.
 </fr:p><fr:p>
   We write the reduction as <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex>. The three components are denoted <fr:tex>\pi _{ \rho }  : C  \to  D</fr:tex>, <fr:tex>\iota _{ \rho }  : D  \to  C</fr:tex> and <fr:tex>h_{ \rho }  : C  \to  C</fr:tex>, respectively.
@@ -273,14 +273,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1209</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001R</fr:addr><fr:route>hmlg-001R.xml</fr:route><fr:title>Chain reduction generated by a discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1552</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001R</fr:addr><fr:route>hmlg-001R.xml</fr:route><fr:title>Chain reduction generated by a discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given an <fr:link
 href="hmlg-001P.xml"
 type="local"
-addr="hmlg-001P">admissible discrete vector field</fr:link> on a <fr:link
+addr="hmlg-001P">admissible discrete vector field</fr:link> on an <fr:link
 href="hmlg-0013.xml"
 type="local"
 addr="hmlg-0013">algebraic cellular complex</fr:link> <fr:tex>(C_k, d)</fr:tex>, we can generate a <fr:link
@@ -300,7 +300,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>455</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>290</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001R</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -342,7 +342,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1211</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001G</fr:addr><fr:route>hmlg-001G.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1554</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001G</fr:addr><fr:route>hmlg-001G.xml</fr:route><fr:title><fr:link
 href="hmlg-001G.xml"
 type="local"
 addr="hmlg-001G">Perturbation</fr:link> of the larger chain complex in a <fr:link
@@ -369,7 +369,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>441</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>640</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001G</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -411,7 +411,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1213</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>constructive-homological-algebra</fr:addr><fr:route>constructive-homological-algebra.xml</fr:route><fr:title>Constructive Homological Algebra and Applications</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author>Julio Rubio García and Francis Sergeraert</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1556</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>constructive-homological-algebra</fr:addr><fr:route>constructive-homological-algebra.xml</fr:route><fr:title>Constructive Homological Algebra and Applications</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author>Julio Rubio García and Francis Sergeraert</fr:author></fr:authors><fr:meta
 name="doi">10.48550/arXiv.1208.3816</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
   This text was written and used for a MAP Summer School at the University of Genova, August 28 to September 2, 2006. Available since then on the web site of the second author, it has been used and referenced by several colleagues working in Commutative Algebra and Algebraic Topology. To make safer such references, it was suggested to place it on the Arxiv repository. It is a relatively detailed exposition of the use of the <fr:link
 href="hmlg-001G.xml"

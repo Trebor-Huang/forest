@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1207</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001I</fr:addr><fr:route>hmlg-001I.xml</fr:route><fr:title>Strong homology equivalence</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1550</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001I</fr:addr><fr:route>hmlg-001I.xml</fr:route><fr:title>Strong homology equivalence</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -19,7 +19,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1203</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001J</fr:addr><fr:route>hmlg-001J.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1546</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001J</fr:addr><fr:route>hmlg-001J.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -27,12 +27,12 @@ addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:main
 href="hmlg-001A.xml"
 type="local"
 addr="hmlg-001A">effective</fr:link> chain complex <fr:tex>C_ \bullet  (X)</fr:tex> (e.g. the <fr:link
-href="todo.xml"
+href="hmlg-001U.xml"
 type="local"
-addr="todo">normalized chain complex</fr:link> of a <fr:link
-href="todo.xml"
+addr="hmlg-001U">normalized chain complex</fr:link> of a <fr:link
+href="hmlg-001T.xml"
 type="local"
-addr="todo">simplicial set</fr:link>), it is said to be equipped with the structure of <fr:strong>effective homology</fr:strong>, if we have a <fr:link
+addr="hmlg-001T">simplicial set</fr:link>), it is said to be equipped with the structure of <fr:strong>effective homology</fr:strong>, if we have a <fr:link
 href="hmlg-001I.xml"
 type="local"
 addr="hmlg-001I">strong homology equivalence</fr:link> <fr:tex>C_ \bullet  (X)  \Leftarrow   \mkern {-13mu}  \Leftrightarrow   \mkern {-13mu}  \Rightarrow  E_ \bullet</fr:tex>, such that <fr:tex>E_ \bullet</fr:tex> is <fr:link
@@ -46,17 +46,25 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1205</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1548</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   This is a set of notes on effective homology and algebraic topology. Main references are <fr:link
 href="constructive-homological-algebra.xml"
 type="local"
-addr="constructive-homological-algebra">Constructive Homological Algebra and Applications</fr:link> and ...
-</fr:p><fr:p>
-  TODO: composition of <fr:link
+addr="constructive-homological-algebra">Constructive Homological Algebra and Applications</fr:link> and <fr:link
+href="discrete-vector-fields.xml"
+type="local"
+addr="discrete-vector-fields">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. We assume basic familiarity with the classical aspects of the theory, although there will also be links within this forest to the relevant concepts.
+</fr:p><fr:ul><fr:li>From <fr:link
+href="discrete-vector-fields.xml"
+type="local"
+addr="discrete-vector-fields">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>: Eilenberg–Zilber lemma &amp; twisted products</fr:li>
+  <fr:li>classifying space, loop space</fr:li>
+  <fr:li>composition of <fr:link
 href="hmlg-001I.xml"
 type="local"
-addr="hmlg-001I">strong homology equivalence</fr:link>, tensor product, cone, bicomplex, (effective) simplicial set, simplicial group, Kan complex
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+addr="hmlg-001I">strong homology equivalence</fr:link>, tensor product, cone, bicomplex</fr:li>
+  <fr:li>simplicial group, Kan complex</fr:li>
+  <fr:li>organize into notes</fr:li></fr:ul></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

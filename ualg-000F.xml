@@ -7,11 +7,11 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>284</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000F</fr:addr><fr:route>ualg-000F.xml</fr:route><fr:title>Reflexive pair</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>461</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000F</fr:addr><fr:route>ualg-000F.xml</fr:route><fr:title>Reflexive pair</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>reflexive pair</fr:strong> is the categorical translation of a reflexive relation. It is defined as a pair of arrows <fr:tex>\partial _0,  \partial _1 : X  \rightrightarrows  Y</fr:tex> with a common section <fr:tex>r : Y  \to  X</fr:tex>, i.e. an arrow <fr:tex>r</fr:tex> such that <fr:tex>\partial _0  \circ  r =  \partial _1  \circ  r =  \operatorname {id} _Y</fr:tex>. A coequalizer of a reflexive pair is called a <fr:strong>reflexive coequalizer</fr:strong>.
+  A <fr:strong>reflexive pair</fr:strong> is the categorical translation of a reflexive relation. It is defined as a pair of arrows <fr:tex>\partial _0,  \partial _1 : X  \rightrightarrows  Y</fr:tex> with a common section <fr:tex>r : Y  \to  X</fr:tex>, i.e. an arrow <fr:tex>r</fr:tex> such that <fr:tex>\partial _0  \circ  r =  \partial _1  \circ  r =  \textrm {id} _Y</fr:tex>. A coequalizer of a reflexive pair is called a <fr:strong>reflexive coequalizer</fr:strong>.
 </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -19,7 +19,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>282</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000E</fr:addr><fr:route>ualg-000E.xml</fr:route><fr:title>Crude monadicity theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>459</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000E</fr:addr><fr:route>ualg-000E.xml</fr:route><fr:title>Crude monadicity theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -31,8 +31,8 @@ addr="ualg-0009">comparison functor</fr:link> <fr:tex>K :  \mathcal { A }   \to 
 href="ualg-000F.xml"
 type="local"
 addr="ualg-000F">reflexive coequalizers</fr:link>), then <fr:tex>K</fr:tex> has a left adjoint.</fr:li>
-  <fr:li>If moreover <fr:tex>G</fr:tex> preserves these reflexive coequalizers, the unit <fr:tex>\operatorname {Id}   \to  K  \circ  L</fr:tex> is an isomorphism.</fr:li>
-  <fr:li>Finally, if <fr:tex>G</fr:tex> reflects isomorphisms, then the counit <fr:tex>L  \circ  K  \to   \operatorname {Id}</fr:tex> is also an isomorphism, making <fr:tex>G</fr:tex> <fr:link
+  <fr:li>If moreover <fr:tex>G</fr:tex> preserves these reflexive coequalizers, the unit <fr:tex>\textrm {Id}   \to  K  \circ  L</fr:tex> is an isomorphism.</fr:li>
+  <fr:li>Finally, if <fr:tex>G</fr:tex> reflects isomorphisms, then the counit <fr:tex>L  \circ  K  \to   \textrm {Id}</fr:tex> is also an isomorphism, making <fr:tex>G</fr:tex> <fr:link
 href="ualg-000A.xml"
 type="local"
 addr="ualg-000A">monadic</fr:link>.</fr:li></fr:ol>
@@ -45,7 +45,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>251</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>388</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#242</fr:addr><fr:route>unstable-242.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000E</fr:parent></fr:frontmatter><fr:mainmatter>

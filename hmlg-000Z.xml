@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1484</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000Z</fr:addr><fr:route>hmlg-000Z.xml</fr:route><fr:title>Monomorphisms can be expressed using finite limits</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1871</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000Z</fr:addr><fr:route>hmlg-000Z.xml</fr:route><fr:title>Monomorphisms can be expressed using finite limits</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -22,7 +22,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1482</fr:anchor><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1775</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Z</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -33,7 +33,7 @@ addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Z</fr:
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="3c7e82f322bb30795bbae94c137f9ae7"><fr:embedded-tex-preamble>
+hash="0ccf5978b23246e6e2899388dd0bc4ec"><fr:embedded-tex-preamble>
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
     </fr:embedded-tex-preamble><fr:embedded-tex-body>
        \begin {tikzcd} 
@@ -41,8 +41,8 @@ hash="3c7e82f322bb30795bbae94c137f9ae7"><fr:embedded-tex-preamble>
       X &amp; Y
        \arrow ["f"', from=2-1, to=2-2]
        \arrow ["f", from=1-2, to=2-2]
-       \arrow [" \operatorname {id} "', from=1-1, to=2-1]
-       \arrow [" \operatorname {id} ", from=1-1, to=1-2]
+       \arrow [" \textrm {id} "', from=1-1, to=2-1]
+       \arrow [" \textrm {id} ", from=1-1, to=1-2]
        \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
      \end {tikzcd}
     </fr:embedded-tex-body></fr:embedded-tex>
@@ -55,7 +55,7 @@ hash="3c7e82f322bb30795bbae94c137f9ae7"><fr:embedded-tex-preamble>
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="4dd26b9c11bdce0a1b91d776aee40c24"><fr:embedded-tex-preamble>
+hash="4e7e5550d584b8a61f9c4c514dcf3f41"><fr:embedded-tex-preamble>
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
     </fr:embedded-tex-preamble><fr:embedded-tex-body>
        \begin {tikzcd} 
@@ -64,8 +64,8 @@ hash="4dd26b9c11bdce0a1b91d776aee40c24"><fr:embedded-tex-preamble>
       &amp; X &amp; Y
        \arrow ["f"', from=3-2, to=3-3]
        \arrow ["f", from=2-3, to=3-3]
-       \arrow [" \operatorname {id} "', from=2-2, to=3-2]
-       \arrow [" \operatorname {id} ", from=2-2, to=2-3]
+       \arrow [" \textrm {id} "', from=2-2, to=3-2]
+       \arrow [" \textrm {id} ", from=2-2, to=2-3]
        \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=2-2, to=3-3]
        \arrow [dashed, from=1-1, to=2-2]
        \arrow ["g"', curve={height=6pt}, from=1-1, to=3-2]
@@ -78,7 +78,7 @@ hash="4dd26b9c11bdce0a1b91d776aee40c24"><fr:embedded-tex-preamble>
   </fr:p>
 
   <fr:p>
-    On the other hand, if the diagram is a pullback, then for every pair of morphisms <fr:tex>g, h : Z  \rightrightarrows  X</fr:tex>, we can draw the diagram above, and obtain the dashed arrow <fr:tex>k : Z  \to  X</fr:tex>. The diagram commuting implies <fr:tex>g =  \operatorname {id}   \circ  k = h</fr:tex>.
+    On the other hand, if the diagram is a pullback, then for every pair of morphisms <fr:tex>g, h : Z  \rightrightarrows  X</fr:tex>, we can draw the diagram above, and obtain the dashed arrow <fr:tex>k : Z  \to  X</fr:tex>. The diagram commuting implies <fr:tex>g =  \textrm {id}   \circ  k = h</fr:tex>.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
