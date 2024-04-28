@@ -1,0 +1,15 @@
+\date{2024-04-28}
+\title{discrete vector field on #{\Delta^p \times \Delta^q}}
+\taxon{construction}
+\author{trebor}
+\import{common}
+
+\p{
+  We construct a [[hmlg-001N]] on the [reduced ACC](hmlg-001U) of #{\Delta^p \times \Delta^q} whose critical cells are given by its boundary and one additional cell
+  ##{(0,0) < (1,0) < \cdots < (p,0) < (p,1) < \cdots < (p,q),}
+  in the representation scheme of \ref{hmlg-0020}. In particular, this [gives rise](hmlg-001R) to a [chain reduction](hmlg-0017) #{C_*(\Delta^p \times \Delta^q) \Reduce C_*(\Delta^p) \otimes C_*(\Delta^q)}.
+}
+
+\p{
+  Regarding the geometric simplices as paths in a #{p \times q} grid as specified in \ref{hmlg-0020}, we assign a #{(p+q)}-simplex as a target cell if it contains a shape #{\Rsh}. (The shape must go exactly one step up and one step to the right, since it is not possible otherwise in a geometric #{(p+q)}-simplex.) To get its source cell, replace the \em{last occurrence} of this shape with #{\nearrow}.
+}

@@ -1,0 +1,20 @@
+\date{2024-04-28}
+\title{Eilenberg–Zilber theorem}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  We have a [chain reduction](hmlg-0017)
+  ##{C_* (X \times Y) \Reduce C_* (X) \otimes C_* (Y).}
+}
+
+\proof{
+  \p{
+    For every product of simplices #{\Delta^p \times \Delta^q}, we put on the [[hmlg-0022]]. This DVF is [admissible](hmlg-001P) because the time a path stays in #{\Delta^p \times \Delta^q} is bounded by a function of #{p} and #{q}. Then it is sent to a boundary cell.
+  }
+
+  \p{
+    Using \ref{hmlg-001R}, we get the required chain reduction. This is identical to the Eilenberg–Zilber reduction in literature, but the proof requires some combinatorics, and can be seen in Section 5.13 of [[discrete-vector-fields]]. However, this formulation gives a much better computational performance.
+  }
+}

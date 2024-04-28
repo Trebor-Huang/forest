@@ -1,0 +1,13 @@
+\date{2024-04-28}
+\title{simplices of #{\Delta^p \times \Delta^q}}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  The geometric #{n}-simplices of the product simplicial set #{\Delta^p \times \Delta^q} are given by a sequence #{(u_0, v_0) < (u_1, v_1) < \dots < (u_n, v_n)} of elements in #{\{0, \dots, p\} \times \{0, \dots, q\}} endowed with the product partial order. Among these, the interior simplices, i.e. non-boundary simplices are given by sequences such that #{u_i} ranges over all #{\{0, \dots, p\}} and #{v_i} ranges over #{\{0, \dots, q\}}.
+}
+
+\p{
+  We can graphically represent this as a path that only travels upwards and/or rightwards every step in a #{p \times q} grid. Face maps are given by removing the corresponding vertex in the path, and directly connecting the surrounding two. But notice that a segment can skip through a grid point, such as going from #{(0,0)} to #{(2,2)}, skipping through #{(1,1)}.
+}
