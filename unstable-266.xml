@@ -7,16 +7,32 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1026</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>983</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0018</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001G</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We first show the forward direction. By the definition of being noetherian, all its opens are automatically noetherian. So we just need to prove that noetherian spaces are quasi-compact. This is obvious, since taking unions of the open covers we have an ascending chain of opens, which must terminate.
+    We first prove that <fr:tex>P^+</fr:tex> is separated. Suppose there are two gluings of a set of descent data on a <fr:link
+href="algm-001A.xml"
+type="local"
+addr="algm-001A">covering sieve</fr:link> <fr:tex>S</fr:tex> over <fr:tex>A</fr:tex>, then we have two sieves <fr:tex>S_1, S_2</fr:tex> over <fr:tex>A</fr:tex> with compatible families <fr:tex>s_{1, f}, s_{2, f}</fr:tex>. Since they are gluings of the same descent data, the restriction along any morphism <fr:tex>g : U  \to  A</fr:tex> in <fr:tex>S</fr:tex> would be equal. Hence there is a common refinement of <fr:tex>g^* S_1</fr:tex> and <fr:tex>g^* S_2</fr:tex> where the two families become equal. Expanding this, there is a covering sieve on <fr:tex>U</fr:tex> such that <fr:tex>g  \circ  h  \in  S_1  \cap  S_2</fr:tex> for every <fr:tex>h</fr:tex> in the sieve, and <fr:tex>s_{1, g  \circ  h} = s_{2, g  \circ  h}</fr:tex>. But then by the axioms of a <fr:link
+href="algm-001A.xml"
+type="local"
+addr="algm-001A">Grothendieck coverage</fr:link>, <fr:tex>g  \circ  h</fr:tex> for all <fr:tex>h</fr:tex> in the said sieve and <fr:tex>g  \in  S</fr:tex> also generates a covering sieve. Hence <fr:tex>s_1</fr:tex> and <fr:tex>s_2</fr:tex> are already equal on a covering subsieve, and so they are equal in <fr:tex>\Gamma (A, P^+)</fr:tex>.
   </fr:p>
 
   <fr:p>
-    For the other direction, given an ascending chain of opens, they form a cover of their union. Since the union is an open, it is quasi-compact by hypothesis, and therefore the cover has a finite subcover, proving that the chain stabilizes after finitely many terms.
+    Let’s see why <fr:tex>P^+</fr:tex> is not necessarily a sheaf. To be a sheaf, we need to find a gluing for each compatible family. A <fr:link
+href="algm-001D.xml"
+type="local"
+addr="algm-001D">compatible family</fr:link> of local sections of <fr:tex>P^+</fr:tex> is a family of covering sieves <fr:tex>S_f</fr:tex> over <fr:tex>U</fr:tex> for each morphism <fr:tex>f : U  \to  A</fr:tex> in <fr:tex>S</fr:tex>, and for each <fr:tex>S_f</fr:tex> a family of sections <fr:tex>s_{f, g}  \in   \Gamma (V, P)</fr:tex> where <fr:tex>g : V  \to  U</fr:tex> lies in <fr:tex>S_f</fr:tex>. By the axioms of a <fr:link
+href="algm-001A.xml"
+type="local"
+addr="algm-001A">Grothendieck coverage</fr:link>, the union <fr:tex>\bigcup _{f  \in  S} f  \circ  S_f</fr:tex> is a sieve, since <fr:tex>S_f  \subseteq  f^* (f  \circ  S_f)</fr:tex>. (Warning: <fr:tex>f  \circ  S_f</fr:tex> is not a covering sieve itself.) So we are tempted to simply construct a glued section <fr:tex>s'</fr:tex> by <fr:tex>s'_{f  \circ  g} = s_{f, g}</fr:tex>. Hence we need to prove <fr:tex>s_{f, g} = s_{f', g'}</fr:tex> if <fr:tex>f  \circ  g = f'  \circ  g'</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    Since the families <fr:tex>s_{f}</fr:tex> are compatible, given any <fr:tex>g : V  \to  U</fr:tex> we have <fr:tex>s_{f, g  \circ  r} = s_{f  \circ  g, r}</fr:tex> for a family of arrows <fr:tex>r</fr:tex> that generates a covering sieve on <fr:tex>V</fr:tex>. However we cannot necessarily take <fr:tex>r =  \textrm {id}</fr:tex>, so this is not necessarily well-defined. Here is where the separatedness comes in. Notice that <fr:tex>s_{f, g  \circ  r} = s_{f  \circ  g, r}</fr:tex> forms a compatible family over <fr:tex>V</fr:tex> as <fr:tex>r</fr:tex> ranges over the covering sieve. And therefore <fr:tex>s_{f, g}</fr:tex> and <fr:tex>s_{f  \circ  g,  \textrm {id} }</fr:tex> are both a gluing of the family. By separatedness, they must be equal. Hence our problem is solved.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -25,17 +41,20 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1024</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0018</fr:addr><fr:route>algm-0018.xml</fr:route><fr:title>A space is noetherian iff hereditarily quasi-compact</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>981</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-001G</fr:addr><fr:route>algm-001G.xml</fr:route><fr:title>Iterated <fr:link
+href="algm-001E.xml"
+type="local"
+addr="algm-001E">plus construction</fr:link> produces a sheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A space is <fr:link
-href="algm-000C.xml"
+  Given any presheaf <fr:tex>P</fr:tex>, <fr:tex>P^+</fr:tex> is a <fr:link
+href="algm-001F.xml"
 type="local"
-addr="algm-000C">noetherian</fr:link> iff it is <fr:em>hereditarily</fr:em> <fr:link
-href="algm-000A.xml"
+addr="algm-001F">separated presheaf</fr:link>, and if <fr:tex>P</fr:tex> is already separated, <fr:tex>P^+</fr:tex> is a <fr:link
+href="algm-001F.xml"
 type="local"
-addr="algm-000A">quasi-compact</fr:link>, that is, if all its opens are quasi-compact.
+addr="algm-001F">sheaf</fr:link>. Therefore <fr:tex>P^{++}</fr:tex> is always a sheaf.
 </fr:p>
   
     
@@ -46,17 +65,79 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1022</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>927</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0018</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001G</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We first show the forward direction. By the definition of being noetherian, all its opens are automatically noetherian. So we just need to prove that noetherian spaces are quasi-compact. This is obvious, since taking unions of the open covers we have an ascending chain of opens, which must terminate.
+    We first prove that <fr:tex>P^+</fr:tex> is separated. Suppose there are two gluings of a set of descent data on a <fr:link
+href="algm-001A.xml"
+type="local"
+addr="algm-001A">covering sieve</fr:link> <fr:tex>S</fr:tex> over <fr:tex>A</fr:tex>, then we have two sieves <fr:tex>S_1, S_2</fr:tex> over <fr:tex>A</fr:tex> with compatible families <fr:tex>s_{1, f}, s_{2, f}</fr:tex>. Since they are gluings of the same descent data, the restriction along any morphism <fr:tex>g : U  \to  A</fr:tex> in <fr:tex>S</fr:tex> would be equal. Hence there is a common refinement of <fr:tex>g^* S_1</fr:tex> and <fr:tex>g^* S_2</fr:tex> where the two families become equal. Expanding this, there is a covering sieve on <fr:tex>U</fr:tex> such that <fr:tex>g  \circ  h  \in  S_1  \cap  S_2</fr:tex> for every <fr:tex>h</fr:tex> in the sieve, and <fr:tex>s_{1, g  \circ  h} = s_{2, g  \circ  h}</fr:tex>. But then by the axioms of a <fr:link
+href="algm-001A.xml"
+type="local"
+addr="algm-001A">Grothendieck coverage</fr:link>, <fr:tex>g  \circ  h</fr:tex> for all <fr:tex>h</fr:tex> in the said sieve and <fr:tex>g  \in  S</fr:tex> also generates a covering sieve. Hence <fr:tex>s_1</fr:tex> and <fr:tex>s_2</fr:tex> are already equal on a covering subsieve, and so they are equal in <fr:tex>\Gamma (A, P^+)</fr:tex>.
   </fr:p>
 
   <fr:p>
-    For the other direction, given an ascending chain of opens, they form a cover of their union. Since the union is an open, it is quasi-compact by hypothesis, and therefore the cover has a finite subcover, proving that the chain stabilizes after finitely many terms.
+    Let’s see why <fr:tex>P^+</fr:tex> is not necessarily a sheaf. To be a sheaf, we need to find a gluing for each compatible family. A <fr:link
+href="algm-001D.xml"
+type="local"
+addr="algm-001D">compatible family</fr:link> of local sections of <fr:tex>P^+</fr:tex> is a family of covering sieves <fr:tex>S_f</fr:tex> over <fr:tex>U</fr:tex> for each morphism <fr:tex>f : U  \to  A</fr:tex> in <fr:tex>S</fr:tex>, and for each <fr:tex>S_f</fr:tex> a family of sections <fr:tex>s_{f, g}  \in   \Gamma (V, P)</fr:tex> where <fr:tex>g : V  \to  U</fr:tex> lies in <fr:tex>S_f</fr:tex>. By the axioms of a <fr:link
+href="algm-001A.xml"
+type="local"
+addr="algm-001A">Grothendieck coverage</fr:link>, the union <fr:tex>\bigcup _{f  \in  S} f  \circ  S_f</fr:tex> is a sieve, since <fr:tex>S_f  \subseteq  f^* (f  \circ  S_f)</fr:tex>. (Warning: <fr:tex>f  \circ  S_f</fr:tex> is not a covering sieve itself.) So we are tempted to simply construct a glued section <fr:tex>s'</fr:tex> by <fr:tex>s'_{f  \circ  g} = s_{f, g}</fr:tex>. Hence we need to prove <fr:tex>s_{f, g} = s_{f', g'}</fr:tex> if <fr:tex>f  \circ  g = f'  \circ  g'</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    Since the families <fr:tex>s_{f}</fr:tex> are compatible, given any <fr:tex>g : V  \to  U</fr:tex> we have <fr:tex>s_{f, g  \circ  r} = s_{f  \circ  g, r}</fr:tex> for a family of arrows <fr:tex>r</fr:tex> that generates a covering sieve on <fr:tex>V</fr:tex>. However we cannot necessarily take <fr:tex>r =  \textrm {id}</fr:tex>, so this is not necessarily well-defined. Here is where the separatedness comes in. Notice that <fr:tex>s_{f, g  \circ  r} = s_{f  \circ  g, r}</fr:tex> forms a compatible family over <fr:tex>V</fr:tex> as <fr:tex>r</fr:tex> ranges over the covering sieve. And therefore <fr:tex>s_{f, g}</fr:tex> and <fr:tex>s_{f  \circ  g,  \textrm {id} }</fr:tex> are both a gluing of the family. By separatedness, they must be equal. Hence our problem is solved.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>977</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001A</fr:addr><fr:route>algm-001A.xml</fr:route><fr:title>Grothendieck coverage</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a category <fr:tex>\mathcal { C }</fr:tex>, a <fr:strong>Grothendieck coverage</fr:strong> declares some <fr:link
+href="algm-001B.xml"
+type="local"
+addr="algm-001B">sieves</fr:link> to be coverings, such that the following holds.
+</fr:p><fr:ul><fr:li>The maximal sieve <fr:tex>\mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (A)  \subseteq   \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (A)</fr:tex> is always a covering.</fr:li>
+  <fr:li>Covering sieves are upwards closed, i.e. if <fr:tex>S  \subseteq  S'</fr:tex> and <fr:tex>S</fr:tex> is a covering sieve, then so is <fr:tex>S'</fr:tex>.</fr:li>
+  <fr:li>If <fr:tex>S</fr:tex> is a covering sieve of <fr:tex>A</fr:tex>, and <fr:tex>g : B  \to  A</fr:tex> is a morphism, then the <fr:link
+href="algm-001C.xml"
+type="local"
+addr="algm-001C">pullback</fr:link> <fr:tex>g^* S</fr:tex> is also a covering.</fr:li>
+  <fr:li>Suppose <fr:tex>S</fr:tex> is a sieve, then the collection of arrows <fr:tex>g</fr:tex> such that <fr:tex>g^* S</fr:tex> is a covering is a sieve itself. If this sieve is a covering, then <fr:tex>S</fr:tex> is also a covering.</fr:li></fr:ul><fr:p>
+  A Grothendieck coverage can be viewed as a <fr:link
+href="algm-0019.xml"
+type="local"
+addr="algm-0019">coverage</fr:link>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>979</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001D</fr:addr><fr:route>algm-001D.xml</fr:route><fr:title>Descent data of presheaves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a category <fr:tex>\mathcal { C }</fr:tex>, a <fr:link
+href="algm-001B.xml"
+type="local"
+addr="algm-001B">sieve</fr:link> <fr:tex>S</fr:tex> and a presheaf <fr:tex>P :  \mathcal { C } ^ \textrm {op}   \to   \mathsf { Set }</fr:tex>, a set of <fr:strong>descent data</fr:strong> or a <fr:strong>compatible family</fr:strong> is a morphism <fr:tex>S  \to  P</fr:tex>. Expanding this, it is a family of <fr:em>local sections</fr:em> <fr:tex>s  \in   \Gamma (U, P)</fr:tex> assigned for each morphism <fr:tex>U  \to  A</fr:tex> in the sieve <fr:tex>S</fr:tex>, such that the local sections are compatible on restriction. There is an obvious map from the sections <fr:tex>\Gamma (A, P)</fr:tex> to the descent data given by restriction.
+</fr:p><fr:p>
+  More generally, given a general <fr:link
+href="algm-0019.xml"
+type="local"
+addr="algm-0019">cover</fr:link>, a set of descent data is a family of sections <fr:tex>s_i  \in   \Gamma (U_i, P)</fr:tex> for each morphism <fr:tex>f_i : U_i  \to  A</fr:tex> in the cover, such that in any common restriction of <fr:tex>U_i</fr:tex> and <fr:tex>U_j</fr:tex>, the sections agree. This can be equivalently expressed as the descent data of the sieve generated by the cover.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

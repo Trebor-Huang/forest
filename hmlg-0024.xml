@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>339</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>hmlg-0024</fr:addr><fr:route>hmlg-0024.xml</fr:route><fr:title>Naturality of the Eilenberg–Zilber reduction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The naturality of the reduction in <fr:link
+href="hmlg-0023.xml"
+type="local"
+addr="hmlg-0023">Eilenberg–Zilber theorem</fr:link> is not obvious. This is because maps sending geometric simplices to degenerate ones does not respect the vector field. We would need additional properties on the maps to guarantee naturality.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>337</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0023</fr:addr><fr:route>hmlg-0023.xml</fr:route><fr:title>Eilenberg–Zilber theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  We have a <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reduction</fr:link>
+  <fr:tex
+display="block">C_* (X  \times  Y)  \Rightarrow \mkern {-14mu} \Rightarrow  C_* (X)  \otimes  C_* (Y).</fr:tex></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0023</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    For every product of simplices <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex>, we put on the <fr:link
+href="hmlg-0022.xml"
+type="local"
+addr="hmlg-0022">discrete vector field on <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex></fr:link>. This DVF is <fr:link
+href="hmlg-001P.xml"
+type="local"
+addr="hmlg-001P">admissible</fr:link> because the time a path stays in <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex> is bounded by a function of <fr:tex>p</fr:tex> and <fr:tex>q</fr:tex>. Then it is sent to a boundary cell.
+  </fr:p>
+
+  <fr:p>
+    Using <fr:ref
+addr="hmlg-001R"
+href="hmlg-001R.xml"
+taxon="Construction"></fr:ref>, we get the required chain reduction. This is identical to the Eilenberg–Zilber reduction in literature, but the proof requires some combinatorics, and can be seen in Section 5.13 of <fr:link
+href="discrete-vector-fields.xml"
+type="local"
+addr="discrete-vector-fields">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. However, this formulation gives a much better computational performance.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

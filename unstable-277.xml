@@ -7,22 +7,45 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1354</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1413</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000H</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000I</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Translating via <fr:ref
-addr="algm-0002"
-href="algm-0002.xml"
-taxon="Theorem"></fr:ref>, we have a proper ideal <fr:tex>\mathfrak { r }</fr:tex> that cannot be written as <fr:tex>\operatorname {lcm} ( \mathfrak { r } _1,  \mathfrak { r } _2)</fr:tex> non-trivially. Suppose <fr:tex>\mathfrak { r }   \mid  f g</fr:tex>, then <fr:tex>\mathfrak { r }   \mid   \sqrt {f g}  \mid   \operatorname {lcm} (f, g)</fr:tex>. So
+    We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex>f_i  \in  R</fr:tex> such that <fr:tex>\bigcup _i D(f_i) = D(f)</fr:tex>, we need to show that
     <fr:tex
-display="block">\begin {aligned}        \mathfrak { r }  &amp;=  \gcd ( \mathfrak { r } ,  \operatorname {lcm} (f, g))  \\        &amp;=  \operatorname {lcm} ( \gcd ( \mathfrak { r } , f),  \gcd ( \mathfrak { r } , g)).      \end {aligned}</fr:tex>
-    Hence at least one of the two must be equal to <fr:tex>\mathfrak { r }</fr:tex>. So <fr:tex>\mathfrak { r }   \mid  f</fr:tex> or <fr:tex>\mathfrak { r }   \mid  g</fr:tex>.
+display="block">R[f^{-1}]  \to   \prod _{i  \in  I} R[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} R[(f_i f_j)^{-1}]</fr:tex>
+    is an equalizer. Notice that <fr:tex>R[f_i^{-1}]  \cong  R[f^{-1}][f_i^{-1}]</fr:tex>. So we may reassign <fr:tex>S = R[f^{-1}]</fr:tex>. This simplifies the problem to
+    <fr:tex
+display="block">S  \to   \prod _{i  \in  I} S[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} S[(f_i f_j)^{-1}],</fr:tex>
+    where <fr:tex>D(f_i)</fr:tex> covers the whole space <fr:tex>\operatorname {Spec} (S)</fr:tex>. 
   </fr:p>
 
   <fr:p>
-    An irreducible closed is an irreducible <fr:em>component</fr:em> if it is contained in no other irreducible closed. We immediately get the definition of minimal prime ideals translating to the algebraic realm.
+    We first describe the intuition. Since we know <fr:tex>\operatorname {Spec} (S)</fr:tex> is <fr:link
+href="algm-000B.xml"
+type="local"
+addr="algm-000B">quasi-compact</fr:link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <fr:tex>g_i/f_i^{d_i}  \in  S[f_i^{-1}]</fr:tex> that are equal in their common domain. Since <fr:tex>D(f_i) = D(f_i^{d_i})</fr:tex> covers <fr:tex>\operatorname {Spec} (S)</fr:tex>, we have a linear combination <fr:tex>1 =  \sum _i c_i f_i^{d_i}</fr:tex>, which is akin to a partition of unity. Suppose the putative gluing is <fr:tex>f</fr:tex>, multiplying with the partition of unity we get
+    <fr:tex
+display="block">\begin {aligned}       f &amp;=  \sum _{i  \in  I} c_i f_i^{d_i} f  \\        &amp;=  \sum  c_i f_i^{d_i}  \frac {g_i}{f_i^{d_i}}  \\        &amp;=  \sum  c_i g_i.      \end {aligned}</fr:tex>
+    which defines the gluing. We just have to make this reasoning precise. We first deal with the finite case.
+  </fr:p>
+
+  <fr:p>
+    Suppose there are elements <fr:tex>g_i/f_i^d  \in  S[f_i^{-1}]</fr:tex>, where we are allowed to use a single exponent <fr:tex>d</fr:tex> by finiteness. The compatibility requirement is <fr:tex
+display="block">(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.</fr:tex> If there is a solution <fr:tex>f</fr:tex> to the gluing problem, it would need to satisfy <fr:tex>(f f_i^d - g_i) f_i^M = 0</fr:tex>. Since <fr:tex>D(f_i) = D(f_i^R)</fr:tex> covers <fr:tex>\operatorname {Spec} (S)</fr:tex>, we have a linear combination <fr:tex>1 =  \sum _i c_i f_i^R</fr:tex> for large enough <fr:tex>R</fr:tex>. Hence
+    <fr:tex
+display="block">f =  \sum _{i  \in  I} c_i f f_i^R =  \sum  c_i g_i f_i^{R-d}.</fr:tex> This uniquely determines <fr:tex>f</fr:tex>. And indeed, this solution satisfies our requirements, because when restricted to <fr:tex>D(f_j)</fr:tex>, we have
+    <fr:tex
+display="block">\begin {aligned}       f f_j^d  \cdot  f_j^R &amp;=  \sum  c_i g_i f_i^{R-d} f_j^{R+d}  \\        &amp;=  \sum  c_i g_j f_i^{R} f_j^{R}  \\        &amp;= g_j f_j^R  \cdot   \sum  c_i f_i^R = g_j f_j^R.      \end {aligned}</fr:tex>
+    This reasoning is valid as long as <fr:tex>R &gt; N + 2d</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    If there are infinitely many opens, we first use <fr:link
+href="algm-000B.xml"
+type="local"
+addr="algm-000B">quasi-compactness</fr:link> to select a finite number <fr:tex>D(f_1),  \dots , D(f_k)</fr:tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <fr:tex>f</fr:tex> for <fr:tex>D(f_1),  \dots , D(f_k)</fr:tex>. Then consider the solution on <fr:tex>D(f_1),  \dots , D(f_k) , D(g)</fr:tex> for every <fr:tex>g</fr:tex>. This solution must be equal to <fr:tex>f</fr:tex> by uniqueness. Therefore <fr:tex>f</fr:tex> restrict to the correct function on each <fr:tex>D(g)</fr:tex>, showing that <fr:tex>f</fr:tex> is the required solution.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -31,11 +54,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1352</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000H</fr:addr><fr:route>algm-000H.xml</fr:route><fr:title>Irreducible closeds in a ring spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1411</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000I</fr:addr><fr:route>algm-000I.xml</fr:route><fr:title>Structure sheaf of a ring spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A closed <fr:tex>V( \mathfrak { r } )</fr:tex> in <fr:tex>\operatorname {Spec} (R)</fr:tex> is irreducible iff <fr:tex>\mathfrak { r }</fr:tex> is prime, and it is an irreducible component iff <fr:tex>\mathfrak { r }</fr:tex> is a minimal prime ideal, i.e. prime ideals that divide no other prime ideals.
+  Given a commutative ring <fr:tex>R</fr:tex>, we define a sheaf <fr:tex>\mathscr { O }</fr:tex> of rings on <fr:tex>\operatorname {Spec} (R)</fr:tex> called the <fr:strong>structure sheaf</fr:strong>. Let <fr:tex>\Gamma (D(f),  \mathscr { O } ) = R[f^{-1}]</fr:tex>. Suppose <fr:tex>D(f)  \subseteq  D(g)</fr:tex> we define the restriction morphism to be the localization map <fr:tex>R[g^{-1}]  \to  R[f^{-1}]</fr:tex>, since by <fr:ref
+addr="algm-0002"
+href="algm-0002.xml"
+taxon="Theorem"></fr:ref> the latter is a further localization of the former. This turns <fr:tex>\operatorname {Spec} (R)</fr:tex> into a <fr:link
+href="algm-000M.xml"
+type="local"
+addr="algm-000M">ringed space</fr:link>.
 </fr:p>
   
     
@@ -46,22 +75,45 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1350</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1180</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000H</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000I</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Translating via <fr:ref
-addr="algm-0002"
-href="algm-0002.xml"
-taxon="Theorem"></fr:ref>, we have a proper ideal <fr:tex>\mathfrak { r }</fr:tex> that cannot be written as <fr:tex>\operatorname {lcm} ( \mathfrak { r } _1,  \mathfrak { r } _2)</fr:tex> non-trivially. Suppose <fr:tex>\mathfrak { r }   \mid  f g</fr:tex>, then <fr:tex>\mathfrak { r }   \mid   \sqrt {f g}  \mid   \operatorname {lcm} (f, g)</fr:tex>. So
+    We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex>f_i  \in  R</fr:tex> such that <fr:tex>\bigcup _i D(f_i) = D(f)</fr:tex>, we need to show that
     <fr:tex
-display="block">\begin {aligned}        \mathfrak { r }  &amp;=  \gcd ( \mathfrak { r } ,  \operatorname {lcm} (f, g))  \\        &amp;=  \operatorname {lcm} ( \gcd ( \mathfrak { r } , f),  \gcd ( \mathfrak { r } , g)).      \end {aligned}</fr:tex>
-    Hence at least one of the two must be equal to <fr:tex>\mathfrak { r }</fr:tex>. So <fr:tex>\mathfrak { r }   \mid  f</fr:tex> or <fr:tex>\mathfrak { r }   \mid  g</fr:tex>.
+display="block">R[f^{-1}]  \to   \prod _{i  \in  I} R[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} R[(f_i f_j)^{-1}]</fr:tex>
+    is an equalizer. Notice that <fr:tex>R[f_i^{-1}]  \cong  R[f^{-1}][f_i^{-1}]</fr:tex>. So we may reassign <fr:tex>S = R[f^{-1}]</fr:tex>. This simplifies the problem to
+    <fr:tex
+display="block">S  \to   \prod _{i  \in  I} S[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} S[(f_i f_j)^{-1}],</fr:tex>
+    where <fr:tex>D(f_i)</fr:tex> covers the whole space <fr:tex>\operatorname {Spec} (S)</fr:tex>. 
   </fr:p>
 
   <fr:p>
-    An irreducible closed is an irreducible <fr:em>component</fr:em> if it is contained in no other irreducible closed. We immediately get the definition of minimal prime ideals translating to the algebraic realm.
+    We first describe the intuition. Since we know <fr:tex>\operatorname {Spec} (S)</fr:tex> is <fr:link
+href="algm-000B.xml"
+type="local"
+addr="algm-000B">quasi-compact</fr:link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <fr:tex>g_i/f_i^{d_i}  \in  S[f_i^{-1}]</fr:tex> that are equal in their common domain. Since <fr:tex>D(f_i) = D(f_i^{d_i})</fr:tex> covers <fr:tex>\operatorname {Spec} (S)</fr:tex>, we have a linear combination <fr:tex>1 =  \sum _i c_i f_i^{d_i}</fr:tex>, which is akin to a partition of unity. Suppose the putative gluing is <fr:tex>f</fr:tex>, multiplying with the partition of unity we get
+    <fr:tex
+display="block">\begin {aligned}       f &amp;=  \sum _{i  \in  I} c_i f_i^{d_i} f  \\        &amp;=  \sum  c_i f_i^{d_i}  \frac {g_i}{f_i^{d_i}}  \\        &amp;=  \sum  c_i g_i.      \end {aligned}</fr:tex>
+    which defines the gluing. We just have to make this reasoning precise. We first deal with the finite case.
+  </fr:p>
+
+  <fr:p>
+    Suppose there are elements <fr:tex>g_i/f_i^d  \in  S[f_i^{-1}]</fr:tex>, where we are allowed to use a single exponent <fr:tex>d</fr:tex> by finiteness. The compatibility requirement is <fr:tex
+display="block">(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.</fr:tex> If there is a solution <fr:tex>f</fr:tex> to the gluing problem, it would need to satisfy <fr:tex>(f f_i^d - g_i) f_i^M = 0</fr:tex>. Since <fr:tex>D(f_i) = D(f_i^R)</fr:tex> covers <fr:tex>\operatorname {Spec} (S)</fr:tex>, we have a linear combination <fr:tex>1 =  \sum _i c_i f_i^R</fr:tex> for large enough <fr:tex>R</fr:tex>. Hence
+    <fr:tex
+display="block">f =  \sum _{i  \in  I} c_i f f_i^R =  \sum  c_i g_i f_i^{R-d}.</fr:tex> This uniquely determines <fr:tex>f</fr:tex>. And indeed, this solution satisfies our requirements, because when restricted to <fr:tex>D(f_j)</fr:tex>, we have
+    <fr:tex
+display="block">\begin {aligned}       f f_j^d  \cdot  f_j^R &amp;=  \sum  c_i g_i f_i^{R-d} f_j^{R+d}  \\        &amp;=  \sum  c_i g_j f_i^{R} f_j^{R}  \\        &amp;= g_j f_j^R  \cdot   \sum  c_i f_i^R = g_j f_j^R.      \end {aligned}</fr:tex>
+    This reasoning is valid as long as <fr:tex>R &gt; N + 2d</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    If there are infinitely many opens, we first use <fr:link
+href="algm-000B.xml"
+type="local"
+addr="algm-000B">quasi-compactness</fr:link> to select a finite number <fr:tex>D(f_1),  \dots , D(f_k)</fr:tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <fr:tex>f</fr:tex> for <fr:tex>D(f_1),  \dots , D(f_k)</fr:tex>. Then consider the solution on <fr:tex>D(f_1),  \dots , D(f_k) , D(g)</fr:tex> for every <fr:tex>g</fr:tex>. This solution must be equal to <fr:tex>f</fr:tex> by uniqueness. Therefore <fr:tex>f</fr:tex> restrict to the correct function on each <fr:tex>D(g)</fr:tex>, showing that <fr:tex>f</fr:tex> is the required solution.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -72,48 +124,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1348</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0002</fr:addr><fr:route>algm-0002.xml</fr:route><fr:title>Radical ideals bijectively correspond to open sets</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  In an arbitrary <fr:link
+root="false"><fr:frontmatter><fr:anchor>1409</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000B</fr:addr><fr:route>algm-000B.xml</fr:route><fr:title>A <fr:link
 href="algm-0001.xml"
 type="local"
-addr="algm-0001">topological spectrum of a commutative ring</fr:link>, we have <fr:tex>D( \mathfrak { a } ) = D( \sqrt { \mathfrak { a } })</fr:tex>. There is a containment of opens <fr:tex>D( \mathfrak { a } )  \subseteq  D( \mathfrak { b } )</fr:tex> — equivalently <fr:tex>V( \mathfrak { b } )  \subseteq  V( \mathfrak { a } )</fr:tex> — iff <fr:tex>\sqrt { \mathfrak { b } }  \mid   \sqrt { \mathfrak { a } }</fr:tex>, and the points contained in an open set completely determines the radical ideal.
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1346</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0002</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Since <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex> implies <fr:tex>\sqrt { \mathfrak { p } }  \mid   \sqrt { \mathfrak { a } }</fr:tex>, but <fr:tex>\mathfrak { p }  =  \sqrt { \mathfrak { p } }</fr:tex>, we see that <fr:tex>D( \mathfrak { a } ) = D( \sqrt { \mathfrak { a } })</fr:tex>. We just have to prove the forward implication of the last statement. Suppose for all prime ideals <fr:tex>\mathfrak { p }</fr:tex> we have <fr:tex>\mathfrak { p }   \mid   \mathfrak { b }   \implies   \mathfrak { p }   \mid   \mathfrak { a }</fr:tex>. We need to prove that <fr:tex>\sqrt { \mathfrak { a } }  \mid  f  \implies   \sqrt { \mathfrak { b } }  \mid  f</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    Given <fr:tex>\sqrt { \mathfrak { a } }  \mid  f</fr:tex>, we have <fr:tex>\mathfrak { p }   \mid  f</fr:tex> for all prime ideals <fr:tex>\mathfrak { p }   \mid   \sqrt { \mathfrak { a } }</fr:tex> (which is equivalent to <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex>). So we know that for all <fr:tex>\mathfrak { p }   \mid   \mathfrak { b }</fr:tex>, <fr:tex>\mathfrak { p }   \mid  f</fr:tex>. This is now purely a condition on <fr:tex>\mathfrak { b }</fr:tex>. The next lemma finishes the proof.
-  </fr:p>
-
-  <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1344</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0003</fr:addr><fr:route>algm-0003.xml</fr:route><fr:title>The radical ideal is the lcm of prime ideal divisors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="algm-0001">ring spectrum</fr:link> is quasi-compact</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  For any ideal <fr:tex>\mathfrak { a }</fr:tex> of a commutative ring, the radical <fr:tex>\sqrt { \mathfrak { a } }</fr:tex> is the lowest common multiple of the prime ideals <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex>.
+  The space <fr:tex>\operatorname {Spec} (R)</fr:tex> is always <fr:link
+href="algm-000A.xml"
+type="local"
+addr="algm-000A">quasi-compact</fr:link>.
 </fr:p>
   
     
@@ -124,22 +145,13 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1342</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#284</fr:addr><fr:route>unstable-284.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1407</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0003</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000B</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    On one hand, if <fr:tex>\sqrt { \mathfrak { a } }  \mid  f</fr:tex>, then <fr:tex>\mathfrak { a }   \mid  f^n</fr:tex> for some natural number <fr:tex>n</fr:tex>. This means for all <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex>, we have <fr:tex>\mathfrak { p }   \mid  f^n</fr:tex>, which by being a prime ideal implies <fr:tex>\mathfrak { p }   \mid  f</fr:tex>.
+    Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex>\bigcup _i D(f_i) =  \top</fr:tex>, then there is a finite union equal to <fr:tex>\top</fr:tex>. Algebraically this means <fr:tex>\sqrt { \gcd \{ f_i \} } = 1</fr:tex>, equivalently <fr:tex>\gcd \{ f_i \}  = 1</fr:tex>. So we have a linear combination <fr:tex>\sum _k a_k f_k = 1</fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.
   </fr:p>
-
-  <fr:p>
-    On the other hand, suppose <fr:tex>\mathfrak { a }   \nmid  f^n</fr:tex> for any <fr:tex>n</fr:tex>, we construct a prime ideal divisor of <fr:tex>\mathfrak { a }</fr:tex> that is not a divisor of <fr:tex>f</fr:tex>. Consider the set of all ideals not a divisor of <fr:tex>f^n</fr:tex> for any <fr:tex>n</fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex>\mathfrak { d }</fr:tex> still in this set, since <fr:tex>\mathfrak { d }</fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link
-href="https://en.wikipedia.org/wiki/Zorn's_lemma"
-type="external">Zorn’s lemma</fr:link>, the set contains some <fr:tex>\mathfrak { q }</fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex>\mathfrak { q }   \nmid  x, y</fr:tex> such that <fr:tex>\mathfrak { q }   \mid  x y</fr:tex>, then <fr:tex>\mathfrak { q } ' =  \gcd ( \mathfrak { q } , x y)</fr:tex> is a proper divisor of <fr:tex>\mathfrak { q }</fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex>n</fr:tex> such that <fr:tex>x y  \mid  f^n</fr:tex>, so <fr:tex>\mathfrak { q }   \mid  x y  \mid  f^n</fr:tex>, contradiction.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree>
 </fr:mainmatter></fr:tree>
   
 </fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

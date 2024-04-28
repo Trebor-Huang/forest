@@ -7,11 +7,11 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001W</fr:addr><fr:route>hmlg-001W.xml</fr:route><fr:title>Bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>367</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001W</fr:addr><fr:route>hmlg-001W.xml</fr:route><fr:title>Bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given any group <fr:tex>G</fr:tex>, we can construct the first Eilenberg–MacLane space <fr:tex>K(G, 1)</fr:tex> as a simplicial set. Consider the contractible simplicial set whose set of <fr:tex>n</fr:tex>-simplices is given by <fr:tex>G^{n+1}</fr:tex>. This has a natural free <fr:tex>G</fr:tex>-action given by multiplying every entry on the left. <fr:tex>K(G, 1)</fr:tex> is constructed by the quotient of the <fr:tex>G</fr:tex>-action.
+  Given any group <fr:tex>G</fr:tex>, we can construct a model of the first Eilenberg–MacLane space <fr:tex>K(G, 1)</fr:tex> as a simplicial set <fr:tex>\bar {W} (G)</fr:tex>. Consider the contractible simplicial set <fr:tex>W (G)</fr:tex> whose set of <fr:tex>n</fr:tex>-simplices is given by <fr:tex>G^{n+1}</fr:tex>. This has a natural free <fr:tex>G</fr:tex>-action given by multiplying every entry on the left. <fr:tex>\bar {W} (G)</fr:tex> is constructed by the quotient of the <fr:tex>G</fr:tex>-action.
 </fr:p><fr:p>
   More concretely, the <fr:tex>n</fr:tex>-simplices are given by <fr:tex>n</fr:tex>-tuples, representing the quotient of consecutive elements in the <fr:tex>(n+1)</fr:tex>-tuple in the unquotiented simplicial set above. This is traditionally written as a bracketed sequence of elements separated by <fr:em>bars</fr:em>, <fr:tex>[g_1  \mid  g_2  \mid   \dots   \mid  g_n]</fr:tex>, hence we name it the <fr:strong>bar construction</fr:strong>. Face maps are given by removing the corresponding bars so the elements multiply together. Degeneracy maps are given by inserting the identity elements.
 </fr:p><fr:p>
@@ -26,7 +26,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001T</fr:addr><fr:route>hmlg-001T.xml</fr:route><fr:title>Effective simplicial set</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>365</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001T</fr:addr><fr:route>hmlg-001T.xml</fr:route><fr:title>Effective simplicial set</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -40,7 +40,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001X</fr:addr><fr:route>hmlg-001X.xml</fr:route><fr:title>Reduction from <fr:tex>K( \mathbb {Z}, 1)</fr:tex> to the circle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>363</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001X</fr:addr><fr:route>hmlg-001X.xml</fr:route><fr:title>Reduction from <fr:tex>K( \mathbb {Z}, 1)</fr:tex> to the circle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -50,7 +50,7 @@ type="local"
 addr="hmlg-0017">chain reduction</fr:link> from the <fr:link
 href="hmlg-001W.xml"
 type="local"
-addr="hmlg-001W">bar construction</fr:link> of <fr:tex>K( \mathbb {Z}, 1)</fr:tex> regarded as its <fr:link
+addr="hmlg-001W">bar construction</fr:link> <fr:tex>\bar {W} (G)</fr:tex> of a group regarded as its <fr:link
 href="hmlg-001U.xml"
 type="local"
 addr="hmlg-001U">reduced algebraic cellular complex</fr:link>, to the <fr:link

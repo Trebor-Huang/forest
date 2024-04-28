@@ -7,40 +7,27 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>690</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2130</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001U</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Suppose we have a covering sieve <fr:tex>S  \hookrightarrow   \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U)</fr:tex> in <fr:tex>\mathcal { C }</fr:tex>, then an element <fr:tex>f  \in   \Gamma (U, F)</fr:tex> uniquely corresponds to a matching family <fr:tex>s  \in   \hom (S, F)</fr:tex>. In the category of elements <fr:tex>\int _{ \mathcal { C } } F</fr:tex>, <fr:tex>s</fr:tex> corresponds to a sieve over <fr:tex>f</fr:tex>. This is the required Grothendieck coverage.
-  </fr:p>
-
-  <fr:p>
-    Another way to construct this is through the <fr:link
-href="algm-001L.xml"
-type="local"
-addr="algm-001L">Lawvere–Tierney operator</fr:link> <fr:tex>j</fr:tex>. The subobject classifier of a slice category is simply <fr:tex>\Omega   \times  F  \to  F</fr:tex>. Hence we can let <fr:tex>j</fr:tex> act on the <fr:tex>\Omega</fr:tex> factor. This gives a Lawvere–Tierney operator on the slice category and it coincides with the Grothendieck coverage constructed above.
-  </fr:p>
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000B</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  Referring to <fr:ref
+addr="hmlg-0009"
+href="hmlg-0009.xml"
+taxon="Visualization"></fr:ref> makes all the moving parts clear here. Since <fr:tex>f</fr:tex> commutes with the boundary maps, it maps the boundaries in <fr:tex>C_n</fr:tex> to the boundaries in <fr:tex>D_n</fr:tex>. Therefore the map is well-defined after passing to the quotient.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>688</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>algm-001U</fr:addr><fr:route>algm-001U.xml</fr:route><fr:title>Slice of sheaf category</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2128</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-000B</fr:addr><fr:route>hmlg-000B.xml</fr:route><fr:title>Chain maps induce maps on homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category <fr:tex>\mathcal { C }</fr:tex> with a <fr:link
-href="algm-001A.xml"
-type="local"
-addr="algm-001A">Grothendieck coverage</fr:link> <fr:tex>J</fr:tex> and a sheaf <fr:tex>F</fr:tex>, there is a Grothendieck coverage <fr:tex>J'</fr:tex> on <fr:tex>\int _{ \mathcal { C } } F</fr:tex> such that the equivalence in <fr:ref
-addr="algm-001T"
-href="algm-001T.xml"
-taxon="Theorem"></fr:ref> restricts to an equivalence
-  <fr:tex
-display="block">\mathsf { Sh } ( \mathcal { C } , J)/F  \cong   \mathsf { Sh } \left ( \int _{ \mathcal { C } } F, J' \right ).</fr:tex></fr:p>
+  A chain map <fr:tex>f : C  \to  D</fr:tex> induces a family of homomorphisms <fr:tex>f_* : H_n (C)  \to  H_n (D)</fr:tex> on the homology groups. The identity map induces the identity morphism, and a composition of maps <fr:tex>f  \circ  g</fr:tex> induces composition homomorphism <fr:tex>(f  \circ  g)_* = f_*  \circ  g_*</fr:tex>.
+</fr:p>
   
     
     <fr:tree
@@ -50,21 +37,15 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>686</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1997</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001U</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Suppose we have a covering sieve <fr:tex>S  \hookrightarrow   \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U)</fr:tex> in <fr:tex>\mathcal { C }</fr:tex>, then an element <fr:tex>f  \in   \Gamma (U, F)</fr:tex> uniquely corresponds to a matching family <fr:tex>s  \in   \hom (S, F)</fr:tex>. In the category of elements <fr:tex>\int _{ \mathcal { C } } F</fr:tex>, <fr:tex>s</fr:tex> corresponds to a sieve over <fr:tex>f</fr:tex>. This is the required Grothendieck coverage.
-  </fr:p>
-
-  <fr:p>
-    Another way to construct this is through the <fr:link
-href="algm-001L.xml"
-type="local"
-addr="algm-001L">Lawvere–Tierney operator</fr:link> <fr:tex>j</fr:tex>. The subobject classifier of a slice category is simply <fr:tex>\Omega   \times  F  \to  F</fr:tex>. Hence we can let <fr:tex>j</fr:tex> act on the <fr:tex>\Omega</fr:tex> factor. This gives a Lawvere–Tierney operator on the slice category and it coincides with the Grothendieck coverage constructed above.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000B</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  Referring to <fr:ref
+addr="hmlg-0009"
+href="hmlg-0009.xml"
+taxon="Visualization"></fr:ref> makes all the moving parts clear here. Since <fr:tex>f</fr:tex> commutes with the boundary maps, it maps the boundaries in <fr:tex>C_n</fr:tex> to the boundaries in <fr:tex>D_n</fr:tex>. Therefore the map is well-defined after passing to the quotient.
+</fr:p></fr:mainmatter></fr:tree>
   
 </fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -73,9 +54,44 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>684</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001L</fr:addr><fr:route>algm-001L.xml</fr:route><fr:title>Lawvere–Tierney operator</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2126</fr:anchor><fr:taxon>Visualization</fr:taxon><fr:addr>hmlg-0009</fr:addr><fr:route>hmlg-0009.xml</fr:route><fr:title>Chain map</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category <fr:tex>\mathcal { C }</fr:tex>, a <fr:strong>Lawvere–Tierney operator</fr:strong> is a morphism <fr:tex>j :  \Omega   \to   \Omega</fr:tex> where <fr:tex>\Omega</fr:tex> is the subobject classifier, such that <fr:tex>j</fr:tex> preserves finite intersections, and <fr:tex>j  \circ  j = j</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+  Appropriately combing two copies of <fr:ref
+addr="hmlg-000A"
+href="hmlg-000A.xml"
+taxon="Visualization"></fr:ref>, we get the following picture for a <fr:link
+href="hmlg-0008.xml"
+type="local"
+addr="hmlg-0008">chain map</fr:link>. The upper and lower rows form chain complexes, while each four adjacent blocks form a pattern representing commutative squares.
+</fr:p>
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz">
+    <fr:embedded-tex
+hash="ee86aec03370b98cc616ae639df13044"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
+      \usetikzlibrary{decorations.pathreplacing}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzpicture} 
+    [scale=2]
+  \clip (-0.5, -1.1) rectangle (3, 1.1);
+
+  \tikzset{every path/.style={very thick, transform shape}}
+  \tikzset{chain/.pic = {
+    \filldraw[fill opacity=0.1] (0, -0.5) -- (0, 1) -- (2.5, 1) -- (2.5, 0.5) arc (0:-90:1) -- cycle;
+  }}
+
+  \draw[blue!80!pink] (-1.5,0)++(-0.01,-0.01) pic {chain};
+  \draw[blue!60!pink] (1,0)++(-0.01,-0.01) pic[scale=-1] {chain};
+
+  \draw[green!80!red] (0,0) pic {chain};
+  \draw[green!60!red] (2.5,0) pic[scale=-1] {chain};
+
+  \draw[red!80!cyan] (1.5,0)++(0.01,0.01) pic {chain};
+  \draw[red!60!cyan] (4,0)++(0.01,0.01) pic[scale=-1] {chain};
+ \end {tikzpicture}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

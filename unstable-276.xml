@@ -7,45 +7,12 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1340</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1351</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000I</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000J</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex>f_i  \in  R</fr:tex> such that <fr:tex>\bigcup _i D(f_i) = D(f)</fr:tex>, we need to show that
-    <fr:tex
-display="block">R[f^{-1}]  \to   \prod _{i  \in  I} R[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} R[(f_i f_j)^{-1}]</fr:tex>
-    is an equalizer. Notice that <fr:tex>R[f_i^{-1}]  \cong  R[f^{-1}][f_i^{-1}]</fr:tex>. So we may reassign <fr:tex>S = R[f^{-1}]</fr:tex>. This simplifies the problem to
-    <fr:tex
-display="block">S  \to   \prod _{i  \in  I} S[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} S[(f_i f_j)^{-1}],</fr:tex>
-    where <fr:tex>D(f_i)</fr:tex> covers the whole space <fr:tex>\operatorname {Spec} (S)</fr:tex>. 
-  </fr:p>
-
-  <fr:p>
-    We first describe the intuition. Since we know <fr:tex>\operatorname {Spec} (S)</fr:tex> is <fr:link
-href="algm-000B.xml"
-type="local"
-addr="algm-000B">quasi-compact</fr:link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <fr:tex>g_i/f_i^{d_i}  \in  S[f_i^{-1}]</fr:tex> that are equal in their common domain. Since <fr:tex>D(f_i) = D(f_i^{d_i})</fr:tex> covers <fr:tex>\operatorname {Spec} (S)</fr:tex>, we have a linear combination <fr:tex>1 =  \sum _i c_i f_i^{d_i}</fr:tex>, which is akin to a partition of unity. Suppose the putative gluing is <fr:tex>f</fr:tex>, multiplying with the partition of unity we get
-    <fr:tex
-display="block">\begin {aligned}       f &amp;=  \sum _{i  \in  I} c_i f_i^{d_i} f  \\        &amp;=  \sum  c_i f_i^{d_i}  \frac {g_i}{f_i^{d_i}}  \\        &amp;=  \sum  c_i g_i.      \end {aligned}</fr:tex>
-    which defines the gluing. We just have to make this reasoning precise. We first deal with the finite case.
-  </fr:p>
-
-  <fr:p>
-    Suppose there are elements <fr:tex>g_i/f_i^d  \in  S[f_i^{-1}]</fr:tex>, where we are allowed to use a single exponent <fr:tex>d</fr:tex> by finiteness. The compatibility requirement is <fr:tex
-display="block">(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.</fr:tex> If there is a solution <fr:tex>f</fr:tex> to the gluing problem, it would need to satisfy <fr:tex>(f f_i^d - g_i) f_i^M = 0</fr:tex>. Since <fr:tex>D(f_i) = D(f_i^R)</fr:tex> covers <fr:tex>\operatorname {Spec} (S)</fr:tex>, we have a linear combination <fr:tex>1 =  \sum _i c_i f_i^R</fr:tex> for large enough <fr:tex>R</fr:tex>. Hence
-    <fr:tex
-display="block">f =  \sum _{i  \in  I} c_i f f_i^R =  \sum  c_i g_i f_i^{R-d}.</fr:tex> This uniquely determines <fr:tex>f</fr:tex>. And indeed, this solution satisfies our requirements, because when restricted to <fr:tex>D(f_j)</fr:tex>, we have
-    <fr:tex
-display="block">\begin {aligned}       f f_j^d  \cdot  f_j^R &amp;=  \sum  c_i g_i f_i^{R-d} f_j^{R+d}  \\        &amp;=  \sum  c_i g_j f_i^{R} f_j^{R}  \\        &amp;= g_j f_j^R  \cdot   \sum  c_i f_i^R = g_j f_j^R.      \end {aligned}</fr:tex>
-    This reasoning is valid as long as <fr:tex>R &gt; N + 2d</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    If there are infinitely many opens, we first use <fr:link
-href="algm-000B.xml"
-type="local"
-addr="algm-000B">quasi-compactness</fr:link> to select a finite number <fr:tex>D(f_1),  \dots , D(f_k)</fr:tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <fr:tex>f</fr:tex> for <fr:tex>D(f_1),  \dots , D(f_k)</fr:tex>. Then consider the solution on <fr:tex>D(f_1),  \dots , D(f_k) , D(g)</fr:tex> for every <fr:tex>g</fr:tex>. This solution must be equal to <fr:tex>f</fr:tex> by uniqueness. Therefore <fr:tex>f</fr:tex> restrict to the correct function on each <fr:tex>D(g)</fr:tex>, showing that <fr:tex>f</fr:tex> is the required solution.
+    We take a directed limit. The elements are from some <fr:tex>R[f^{-1}]</fr:tex> with <fr:tex>\mathfrak { p }   \nmid  f</fr:tex>, i.e. the elements can be written as <fr:tex>g/f^n</fr:tex>. Two elements are equal iff their common restriction to some <fr:tex>D(f)</fr:tex> is equal, i.e. <fr:tex>g_1/f_1^n = g_2/f_2^m</fr:tex> iff <fr:tex>(g_1 f_2^m - g_2 f_1^n) f^k = 0</fr:tex>. These are exactly the definition of the localization away from <fr:tex>\mathfrak { p }</fr:tex>.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -54,17 +21,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1338</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000I</fr:addr><fr:route>algm-000I.xml</fr:route><fr:title>Structure sheaf of a ring spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1349</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000J</fr:addr><fr:route>algm-000J.xml</fr:route><fr:title>Stalk of the structure sheaf on <fr:tex>\operatorname {Spec} (R)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a commutative ring <fr:tex>R</fr:tex>, we define a sheaf <fr:tex>\mathscr { O }</fr:tex> of rings on <fr:tex>\operatorname {Spec} (R)</fr:tex> called the <fr:strong>structure sheaf</fr:strong>. Let <fr:tex>\Gamma (D(f),  \mathscr { O } ) = R[f^{-1}]</fr:tex>. Suppose <fr:tex>D(f)  \subseteq  D(g)</fr:tex> we define the restriction morphism to be the localization map <fr:tex>R[g^{-1}]  \to  R[f^{-1}]</fr:tex>, since by <fr:ref
-addr="algm-0002"
-href="algm-0002.xml"
-taxon="Theorem"></fr:ref> the latter is a further localization of the former. This turns <fr:tex>\operatorname {Spec} (R)</fr:tex> into a <fr:link
-href="algm-000M.xml"
+  Given a point <fr:tex>\left [ \mathfrak { p } \right ]   \in   \operatorname {Spec} (R)</fr:tex>, the stalk at the point is the localization <fr:tex>R_{ \mathfrak { p } }</fr:tex>. In particular, the ring spectrum is a <fr:link
+href="algm-000L.xml"
 type="local"
-addr="algm-000M">ringed space</fr:link>.
+addr="algm-000L">locally ringed space</fr:link> by <fr:ref
+addr="algm-000N"
+href="algm-000N.xml"
+taxon="Theorem"></fr:ref>.
 </fr:p>
   
     
@@ -75,83 +42,13 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1107</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1347</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000I</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000J</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex>f_i  \in  R</fr:tex> such that <fr:tex>\bigcup _i D(f_i) = D(f)</fr:tex>, we need to show that
-    <fr:tex
-display="block">R[f^{-1}]  \to   \prod _{i  \in  I} R[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} R[(f_i f_j)^{-1}]</fr:tex>
-    is an equalizer. Notice that <fr:tex>R[f_i^{-1}]  \cong  R[f^{-1}][f_i^{-1}]</fr:tex>. So we may reassign <fr:tex>S = R[f^{-1}]</fr:tex>. This simplifies the problem to
-    <fr:tex
-display="block">S  \to   \prod _{i  \in  I} S[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} S[(f_i f_j)^{-1}],</fr:tex>
-    where <fr:tex>D(f_i)</fr:tex> covers the whole space <fr:tex>\operatorname {Spec} (S)</fr:tex>. 
-  </fr:p>
-
-  <fr:p>
-    We first describe the intuition. Since we know <fr:tex>\operatorname {Spec} (S)</fr:tex> is <fr:link
-href="algm-000B.xml"
-type="local"
-addr="algm-000B">quasi-compact</fr:link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <fr:tex>g_i/f_i^{d_i}  \in  S[f_i^{-1}]</fr:tex> that are equal in their common domain. Since <fr:tex>D(f_i) = D(f_i^{d_i})</fr:tex> covers <fr:tex>\operatorname {Spec} (S)</fr:tex>, we have a linear combination <fr:tex>1 =  \sum _i c_i f_i^{d_i}</fr:tex>, which is akin to a partition of unity. Suppose the putative gluing is <fr:tex>f</fr:tex>, multiplying with the partition of unity we get
-    <fr:tex
-display="block">\begin {aligned}       f &amp;=  \sum _{i  \in  I} c_i f_i^{d_i} f  \\        &amp;=  \sum  c_i f_i^{d_i}  \frac {g_i}{f_i^{d_i}}  \\        &amp;=  \sum  c_i g_i.      \end {aligned}</fr:tex>
-    which defines the gluing. We just have to make this reasoning precise. We first deal with the finite case.
-  </fr:p>
-
-  <fr:p>
-    Suppose there are elements <fr:tex>g_i/f_i^d  \in  S[f_i^{-1}]</fr:tex>, where we are allowed to use a single exponent <fr:tex>d</fr:tex> by finiteness. The compatibility requirement is <fr:tex
-display="block">(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.</fr:tex> If there is a solution <fr:tex>f</fr:tex> to the gluing problem, it would need to satisfy <fr:tex>(f f_i^d - g_i) f_i^M = 0</fr:tex>. Since <fr:tex>D(f_i) = D(f_i^R)</fr:tex> covers <fr:tex>\operatorname {Spec} (S)</fr:tex>, we have a linear combination <fr:tex>1 =  \sum _i c_i f_i^R</fr:tex> for large enough <fr:tex>R</fr:tex>. Hence
-    <fr:tex
-display="block">f =  \sum _{i  \in  I} c_i f f_i^R =  \sum  c_i g_i f_i^{R-d}.</fr:tex> This uniquely determines <fr:tex>f</fr:tex>. And indeed, this solution satisfies our requirements, because when restricted to <fr:tex>D(f_j)</fr:tex>, we have
-    <fr:tex
-display="block">\begin {aligned}       f f_j^d  \cdot  f_j^R &amp;=  \sum  c_i g_i f_i^{R-d} f_j^{R+d}  \\        &amp;=  \sum  c_i g_j f_i^{R} f_j^{R}  \\        &amp;= g_j f_j^R  \cdot   \sum  c_i f_i^R = g_j f_j^R.      \end {aligned}</fr:tex>
-    This reasoning is valid as long as <fr:tex>R &gt; N + 2d</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    If there are infinitely many opens, we first use <fr:link
-href="algm-000B.xml"
-type="local"
-addr="algm-000B">quasi-compactness</fr:link> to select a finite number <fr:tex>D(f_1),  \dots , D(f_k)</fr:tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <fr:tex>f</fr:tex> for <fr:tex>D(f_1),  \dots , D(f_k)</fr:tex>. Then consider the solution on <fr:tex>D(f_1),  \dots , D(f_k) , D(g)</fr:tex> for every <fr:tex>g</fr:tex>. This solution must be equal to <fr:tex>f</fr:tex> by uniqueness. Therefore <fr:tex>f</fr:tex> restrict to the correct function on each <fr:tex>D(g)</fr:tex>, showing that <fr:tex>f</fr:tex> is the required solution.
+    We take a directed limit. The elements are from some <fr:tex>R[f^{-1}]</fr:tex> with <fr:tex>\mathfrak { p }   \nmid  f</fr:tex>, i.e. the elements can be written as <fr:tex>g/f^n</fr:tex>. Two elements are equal iff their common restriction to some <fr:tex>D(f)</fr:tex> is equal, i.e. <fr:tex>g_1/f_1^n = g_2/f_2^m</fr:tex> iff <fr:tex>(g_1 f_2^m - g_2 f_1^n) f^k = 0</fr:tex>. These are exactly the definition of the localization away from <fr:tex>\mathfrak { p }</fr:tex>.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1336</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000B</fr:addr><fr:route>algm-000B.xml</fr:route><fr:title>A <fr:link
-href="algm-0001.xml"
-type="local"
-addr="algm-0001">ring spectrum</fr:link> is quasi-compact</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The space <fr:tex>\operatorname {Spec} (R)</fr:tex> is always <fr:link
-href="algm-000A.xml"
-type="local"
-addr="algm-000A">quasi-compact</fr:link>.
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1334</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000B</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex>\bigcup _i D(f_i) =  \top</fr:tex>, then there is a finite union equal to <fr:tex>\top</fr:tex>. Algebraically this means <fr:tex>\sqrt { \gcd \{ f_i \} } = 1</fr:tex>, equivalently <fr:tex>\gcd \{ f_i \}  = 1</fr:tex>. So we have a linear combination <fr:tex>\sum _k a_k f_k = 1</fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

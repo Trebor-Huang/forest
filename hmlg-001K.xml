@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1544</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1621</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -18,10 +18,13 @@ addr="constructive-homological-algebra">Constructive Homological Algebra and App
 href="discrete-vector-fields.xml"
 type="local"
 addr="discrete-vector-fields">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. We assume basic familiarity with the classical aspects of the theory, although there will also be links within this forest to the relevant concepts.
-</fr:p><fr:ul><fr:li>From <fr:link
-href="discrete-vector-fields.xml"
+</fr:p><fr:ul><fr:li><fr:link
+href="hmlg-0021.xml"
 type="local"
-addr="discrete-vector-fields">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>: Eilenberg–Zilber lemma &amp; twisted products</fr:li>
+addr="hmlg-0021">W-bar construction</fr:link>, simplicial principal bundles, twisted products by <fr:link
+href="simplicial-objects.xml"
+type="local"
+addr="simplicial-objects">Simplicial objects in algebraic topology</fr:link></fr:li>
   <fr:li>classifying space, loop space</fr:li>
   <fr:li>composition of <fr:link
 href="hmlg-001I.xml"
@@ -35,7 +38,19 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1542</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001I</fr:addr><fr:route>hmlg-001I.xml</fr:route><fr:title>Strong homology equivalence</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1617</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-0021</fr:addr><fr:route>hmlg-0021.xml</fr:route><fr:title>W-bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a simplicial group, we can define a model of its universal principal bundle <fr:tex>\mathbf {E}  G  \to   \mathbf {B}  G</fr:tex> as simplicial sets <fr:tex>W  G  \to   \bar {W}  G</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1619</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001I</fr:addr><fr:route>hmlg-001I.xml</fr:route><fr:title>Strong homology equivalence</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -47,7 +62,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="true"><fr:frontmatter><fr:anchor>1540</fr:anchor><fr:addr>trebor-0001</fr:addr><fr:route>index.xml</fr:route><fr:title>Trebor’s forest</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="true"><fr:frontmatter><fr:anchor>1615</fr:anchor><fr:addr>trebor-0001</fr:addr><fr:route>index.xml</fr:route><fr:title>Trebor’s forest</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -75,7 +90,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>402</fr:anchor><fr:addr>trebor-0002</fr:addr><fr:route>trebor-0002.xml</fr:route><fr:title>Style of writing</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>463</fr:anchor><fr:addr>trebor-0002</fr:addr><fr:route>trebor-0002.xml</fr:route><fr:title>Style of writing</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -99,9 +114,12 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1536</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>discrete-vector-fields</fr:addr><fr:route>discrete-vector-fields.xml</fr:route><fr:title>Discrete Vector Fields and Fundamental Algebraic Topology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author>Ana Romero and Francis Sergeraert</fr:author></fr:authors><fr:meta
-name="doi">10.48550/arXiv.1005.5685</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
-  We show in this text how the most important homology equivalences of fundamental Algebraic Topology can be obtained as reductions associated to discrete vector fields. Mainly the homology equivalences whose existence — most often non-constructive — is proved by the main spectral sequences, the Serre and Eilenberg-Moore spectral sequences. On the contrary, the constructive existence is here systematically looked for and obtained.
+root="false"><fr:frontmatter><fr:anchor>1609</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>constructive-homological-algebra</fr:addr><fr:route>constructive-homological-algebra.xml</fr:route><fr:title>Constructive Homological Algebra and Applications</fr:title><fr:date><fr:year>2013</fr:year><fr:month>8</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author>Julio Rubio García and Francis Sergeraert</fr:author></fr:authors><fr:meta
+name="doi">10.48550/arXiv.1208.3816</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
+  This text was written and used for a MAP Summer School at the University of Genova, August 28 to September 2, 2006. Available since then on the web site of the second author, it has been used and referenced by several colleagues working in Commutative Algebra and Algebraic Topology. To make safer such references, it was suggested to place it on the Arxiv repository. It is a relatively detailed exposition of the use of the <fr:link
+href="hmlg-001G.xml"
+type="local"
+addr="hmlg-001G">Basic Perturbation Lemma</fr:link> to make constructive Homological Algebra (standard Homological Algebra is not constructive) and how this technology can be used in Commutative Algebra (Koszul complexes) and Algebraic Topology (effective versions of spectral sequences).
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -109,10 +127,23 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1538</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>constructive-homological-algebra</fr:addr><fr:route>constructive-homological-algebra.xml</fr:route><fr:title>Constructive Homological Algebra and Applications</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author>Julio Rubio García and Francis Sergeraert</fr:author></fr:authors><fr:meta
-name="doi">10.48550/arXiv.1208.3816</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
-  This text was written and used for a MAP Summer School at the University of Genova, August 28 to September 2, 2006. Available since then on the web site of the second author, it has been used and referenced by several colleagues working in Commutative Algebra and Algebraic Topology. To make safer such references, it was suggested to place it on the Arxiv repository. It is a relatively detailed exposition of the use of the <fr:link
-href="hmlg-001G.xml"
+root="false"><fr:frontmatter><fr:anchor>1611</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>discrete-vector-fields</fr:addr><fr:route>discrete-vector-fields.xml</fr:route><fr:title>Discrete Vector Fields and Fundamental Algebraic Topology</fr:title><fr:date><fr:year>2010</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:authors><fr:author>Ana Romero and Francis Sergeraert</fr:author></fr:authors><fr:meta
+name="doi">10.48550/arXiv.1005.5685</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
+  We show in this text how the most important homology equivalences of fundamental Algebraic Topology can be obtained as <fr:link
+href="hmlg-0017.xml"
 type="local"
-addr="hmlg-001G">Basic Perturbation Lemma</fr:link> to make constructive Homological Algebra (standard Homological Algebra is not constructive) and how this technology can be used in Commutative Algebra (Koszul complexes) and Algebraic Topology (effective versions of spectral sequences).
-</fr:p></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>
+addr="hmlg-0017">reductions</fr:link> <fr:link
+href="hmlg-001Z.xml"
+type="local"
+addr="hmlg-001Z">associated</fr:link> to <fr:link
+href="hmlg-001N.xml"
+type="local"
+addr="hmlg-001N">discrete vector fields</fr:link>. Mainly the homology equivalences whose existence — most often non-constructive — is proved by the main spectral sequences, the Serre and Eilenberg-Moore spectral sequences. On the contrary, the constructive existence is here systematically looked for and obtained.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1613</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>simplicial-objects</fr:addr><fr:route>simplicial-objects.xml</fr:route><fr:title>Simplicial objects in algebraic topology</fr:title><fr:date><fr:year>1967</fr:year></fr:date><fr:authors><fr:author>Jon Peter May</fr:author></fr:authors></fr:frontmatter><fr:mainmatter></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>

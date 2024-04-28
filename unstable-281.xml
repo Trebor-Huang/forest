@@ -7,20 +7,12 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1406</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1475</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0009</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000B</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    In one direction, if <fr:tex>\operatorname {Spec} {R}</fr:tex> is disconnected, we have two opens <fr:tex>D( \mathfrak { a } )</fr:tex> and <fr:tex>D( \mathfrak { b } )</fr:tex> whose intersection is empty and union is the entire space. In other words radical ideals <fr:tex>\mathfrak { a } ,  \mathfrak { b }</fr:tex> such that <fr:tex>\sqrt { \gcd ( \mathfrak { a } ,  \mathfrak { b } )} = 1</fr:tex> (equivalent to <fr:tex>\gcd ( \mathfrak { a } ,  \mathfrak { b } ) = 1</fr:tex>) and <fr:tex>\operatorname {lcm} ( \mathfrak { a } ,  \mathfrak { b } ) = 0</fr:tex>. We have <fr:tex>\mathfrak { a }   \mid  a</fr:tex> and <fr:tex>\mathfrak { b }   \mid  b</fr:tex> such that <fr:tex>a + b = 1</fr:tex>. But <fr:tex>\operatorname {lcm} ( \mathfrak { a } ,  \mathfrak { b } )  \mid  a b</fr:tex>, therefore <fr:tex>a b = 0</fr:tex>. This implies <fr:tex>a(1-a) = 0</fr:tex>, or <fr:tex>a^2 = a</fr:tex>. The same goes for <fr:tex>b</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    Let <fr:tex>R_1</fr:tex> be the subset of <fr:tex>R</fr:tex> consisting of multiples of <fr:tex>a</fr:tex>. It contains an identity <fr:tex>a</fr:tex>, since <fr:tex>a  \cdot  a x = a x</fr:tex> by idempotence. Hence this subset forms a ring with the same addition and multiplication but a different identity. The same goes for <fr:tex>R_2</fr:tex>, the multiples of <fr:tex>b</fr:tex>. There is an obvious map <fr:tex>R_1  \times  R_2  \to  R</fr:tex>, given by <fr:tex>(ax, by)  \mapsto  ax + by</fr:tex>. This is an injection since <fr:tex>z  \mapsto  a z</fr:tex> recovers the first argument, and <fr:tex>z  \mapsto  b z</fr:tex> recovers the second. It is also a surjection because <fr:tex>z = a z + b z</fr:tex> is the image of <fr:tex>(az, bz)</fr:tex>. Hence we found an isomorphism.
-  </fr:p>
-
-  <fr:p>
-    In the other direction, suppose <fr:tex>R  \cong  R_1  \times  R_2</fr:tex>, then <fr:tex>D((1,0))</fr:tex> and <fr:tex>D((0,1))</fr:tex> separates the spectrum into two disjoint parts.
+    Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex>\bigcup _i D(f_i) =  \top</fr:tex>, then there is a finite union equal to <fr:tex>\top</fr:tex>. Algebraically this means <fr:tex>\sqrt { \gcd \{ f_i \} } = 1</fr:tex>, equivalently <fr:tex>\gcd \{ f_i \}  = 1</fr:tex>. So we have a linear combination <fr:tex>\sum _k a_k f_k = 1</fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -29,11 +21,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1404</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0009</fr:addr><fr:route>algm-0009.xml</fr:route><fr:title><fr:tex>\operatorname {Spec} {R}</fr:tex> is disconnected iff <fr:tex>R</fr:tex> is a product of non-zero rings</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1473</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000B</fr:addr><fr:route>algm-000B.xml</fr:route><fr:title>A <fr:link
+href="algm-0001.xml"
+type="local"
+addr="algm-0001">ring spectrum</fr:link> is quasi-compact</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a commutative ring <fr:tex>R</fr:tex>, <fr:tex>\operatorname {Spec} {R}</fr:tex> is disconnected iff <fr:tex>R  \cong  R_1  \times  R_2</fr:tex>, where <fr:tex>R_1, R_2</fr:tex> are non-zero commutative rings.
+  The space <fr:tex>\operatorname {Spec} (R)</fr:tex> is always <fr:link
+href="algm-000A.xml"
+type="local"
+addr="algm-000A">quasi-compact</fr:link>.
 </fr:p>
   
     
@@ -44,20 +42,12 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1384</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1407</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0009</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000B</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    In one direction, if <fr:tex>\operatorname {Spec} {R}</fr:tex> is disconnected, we have two opens <fr:tex>D( \mathfrak { a } )</fr:tex> and <fr:tex>D( \mathfrak { b } )</fr:tex> whose intersection is empty and union is the entire space. In other words radical ideals <fr:tex>\mathfrak { a } ,  \mathfrak { b }</fr:tex> such that <fr:tex>\sqrt { \gcd ( \mathfrak { a } ,  \mathfrak { b } )} = 1</fr:tex> (equivalent to <fr:tex>\gcd ( \mathfrak { a } ,  \mathfrak { b } ) = 1</fr:tex>) and <fr:tex>\operatorname {lcm} ( \mathfrak { a } ,  \mathfrak { b } ) = 0</fr:tex>. We have <fr:tex>\mathfrak { a }   \mid  a</fr:tex> and <fr:tex>\mathfrak { b }   \mid  b</fr:tex> such that <fr:tex>a + b = 1</fr:tex>. But <fr:tex>\operatorname {lcm} ( \mathfrak { a } ,  \mathfrak { b } )  \mid  a b</fr:tex>, therefore <fr:tex>a b = 0</fr:tex>. This implies <fr:tex>a(1-a) = 0</fr:tex>, or <fr:tex>a^2 = a</fr:tex>. The same goes for <fr:tex>b</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    Let <fr:tex>R_1</fr:tex> be the subset of <fr:tex>R</fr:tex> consisting of multiples of <fr:tex>a</fr:tex>. It contains an identity <fr:tex>a</fr:tex>, since <fr:tex>a  \cdot  a x = a x</fr:tex> by idempotence. Hence this subset forms a ring with the same addition and multiplication but a different identity. The same goes for <fr:tex>R_2</fr:tex>, the multiples of <fr:tex>b</fr:tex>. There is an obvious map <fr:tex>R_1  \times  R_2  \to  R</fr:tex>, given by <fr:tex>(ax, by)  \mapsto  ax + by</fr:tex>. This is an injection since <fr:tex>z  \mapsto  a z</fr:tex> recovers the first argument, and <fr:tex>z  \mapsto  b z</fr:tex> recovers the second. It is also a surjection because <fr:tex>z = a z + b z</fr:tex> is the image of <fr:tex>(az, bz)</fr:tex>. Hence we found an isomorphism.
-  </fr:p>
-
-  <fr:p>
-    In the other direction, suppose <fr:tex>R  \cong  R_1  \times  R_2</fr:tex>, then <fr:tex>D((1,0))</fr:tex> and <fr:tex>D((0,1))</fr:tex> separates the spectrum into two disjoint parts.
+    Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex>\bigcup _i D(f_i) =  \top</fr:tex>, then there is a finite union equal to <fr:tex>\top</fr:tex>. Algebraically this means <fr:tex>\sqrt { \gcd \{ f_i \} } = 1</fr:tex>, equivalently <fr:tex>\gcd \{ f_i \}  = 1</fr:tex>. So we have a linear combination <fr:tex>\sum _k a_k f_k = 1</fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.
   </fr:p>
 </fr:mainmatter></fr:tree>
   

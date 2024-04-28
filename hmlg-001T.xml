@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>353</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001T</fr:addr><fr:route>hmlg-001T.xml</fr:route><fr:title>Effective simplicial set</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>412</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001T</fr:addr><fr:route>hmlg-001T.xml</fr:route><fr:title>Effective simplicial set</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -21,7 +21,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>345</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001Y</fr:addr><fr:route>hmlg-001Y.xml</fr:route><fr:title>Sphere</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>404</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001Y</fr:addr><fr:route>hmlg-001Y.xml</fr:route><fr:title>Sphere</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -41,11 +41,11 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>347</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001W</fr:addr><fr:route>hmlg-001W.xml</fr:route><fr:title>Bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>406</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001W</fr:addr><fr:route>hmlg-001W.xml</fr:route><fr:title>Bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given any group <fr:tex>G</fr:tex>, we can construct the first Eilenberg–MacLane space <fr:tex>K(G, 1)</fr:tex> as a simplicial set. Consider the contractible simplicial set whose set of <fr:tex>n</fr:tex>-simplices is given by <fr:tex>G^{n+1}</fr:tex>. This has a natural free <fr:tex>G</fr:tex>-action given by multiplying every entry on the left. <fr:tex>K(G, 1)</fr:tex> is constructed by the quotient of the <fr:tex>G</fr:tex>-action.
+  Given any group <fr:tex>G</fr:tex>, we can construct a model of the first Eilenberg–MacLane space <fr:tex>K(G, 1)</fr:tex> as a simplicial set <fr:tex>\bar {W} (G)</fr:tex>. Consider the contractible simplicial set <fr:tex>W (G)</fr:tex> whose set of <fr:tex>n</fr:tex>-simplices is given by <fr:tex>G^{n+1}</fr:tex>. This has a natural free <fr:tex>G</fr:tex>-action given by multiplying every entry on the left. <fr:tex>\bar {W} (G)</fr:tex> is constructed by the quotient of the <fr:tex>G</fr:tex>-action.
 </fr:p><fr:p>
   More concretely, the <fr:tex>n</fr:tex>-simplices are given by <fr:tex>n</fr:tex>-tuples, representing the quotient of consecutive elements in the <fr:tex>(n+1)</fr:tex>-tuple in the unquotiented simplicial set above. This is traditionally written as a bracketed sequence of elements separated by <fr:em>bars</fr:em>, <fr:tex>[g_1  \mid  g_2  \mid   \dots   \mid  g_n]</fr:tex>, hence we name it the <fr:strong>bar construction</fr:strong>. Face maps are given by removing the corresponding bars so the elements multiply together. Degeneracy maps are given by inserting the identity elements.
 </fr:p><fr:p>
@@ -60,7 +60,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>349</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001U</fr:addr><fr:route>hmlg-001U.xml</fr:route><fr:title>Algebraic cellular complexes associated with a simplicial set</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>408</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001U</fr:addr><fr:route>hmlg-001U.xml</fr:route><fr:title>Algebraic cellular complexes associated with a simplicial set</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -70,16 +70,19 @@ type="local"
 addr="hmlg-001T">(effective) simplicial set</fr:link> <fr:tex>X</fr:tex>, there are two major <fr:link
 href="hmlg-0013.xml"
 type="local"
-addr="hmlg-0013">algebraic cellular complexes</fr:link> or <fr:link
+addr="hmlg-0013">algebraic cellular complexes</fr:link> (or <fr:link
 href="hmlg-0002.xml"
 type="local"
-addr="hmlg-0002">chain complexes</fr:link> we can associate to it. We can consider the free abelian group generated by <fr:tex>\Gamma ( \Delta ^n, X)</fr:tex> at degree <fr:tex>n</fr:tex>, where the boundary map is given by an alternating sum of face maps: <fr:tex
+addr="hmlg-0002">chain complexes</fr:link>) we can associate to it. We can consider the free abelian group generated by <fr:tex>\Gamma ( \Delta ^n, X)</fr:tex> at degree <fr:tex>n</fr:tex>, where the boundary map is given by an alternating sum of face maps: <fr:tex
 display="block">d_n =  \sum _{i=0}^n (-1)^{i}  \partial _i.</fr:tex> This satisfies <fr:tex>d^2 = 0</fr:tex> by the simplicial identities. ALternatively, we can consider only the geometric simplices, regarding degenerate ones are zero. More formally, we quotient out the previous chain complex by the subgroups generated by degenerate simplicies. They are both obviously <fr:link
 href="hmlg-001A.xml"
 type="local"
 addr="hmlg-001A">effective</fr:link> by construction.
 </fr:p><fr:p>
-  The first chain complex is called the <fr:strong>non-reduced</fr:strong> complex, while the second one is the <fr:strong>reduced</fr:strong> complex. By (...) the two chain complexes are related by a chain reduction. So we will write <fr:tex>C^* X</fr:tex> for the reduced complex, leaving no notation for the non-reduced one unless otherwise stated.
+  The first chain complex is called the <fr:strong>non-reduced</fr:strong> complex, while the second one is the <fr:strong>reduced</fr:strong> complex. By <fr:ref
+addr="hmlg-001V"
+href="hmlg-001V.xml"
+taxon="Construction"></fr:ref> the two chain complexes are related by a chain reduction. So we will write <fr:tex>C_* X</fr:tex> for the reduced complex, leaving no notation for the non-reduced one unless otherwise stated.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -87,7 +90,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>351</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001J</fr:addr><fr:route>hmlg-001J.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>410</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001J</fr:addr><fr:route>hmlg-001J.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>

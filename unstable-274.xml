@@ -7,16 +7,16 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1272</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1255</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000N</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Recall the axiom for a local ring: if any sum is invertible, then one of the summand is invertible. When applied to the direct limit in each stalk, this immediately expands to the definition of a locally ringed space.
+    Note that the stalk <fr:tex>( \varphi ^{-1} \mathscr { O } _{Y})_x =  \mathscr { O } _{Y,  \varphi (x)}</fr:tex>. A germ being invertible implies for some neighborhood <fr:tex>U</fr:tex> of <fr:tex>x</fr:tex>, it comes from an invertible section <fr:tex>f  \in   \Gamma (U,  \varphi ^{-1} \mathscr { O } _Y)</fr:tex>, so the image in <fr:tex>\Gamma (U,  \mathscr { O } _X)</fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.
   </fr:p>
 
   <fr:p>
-    In particular, a crucial property is used in the reverse implication, i.e. if one open contains all the points of another, then the former covers the latter. This is equivalent to the condition of having enough points.
+    On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -25,17 +25,20 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1270</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000N</fr:addr><fr:route>algm-000N.xml</fr:route><fr:title>Stalks of locally ringed topological space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1253</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title>Action of morphisms on stalks of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given a <fr:link
-href="algm-000M.xml"
+href="algm-000S.xml"
 type="local"
-addr="algm-000M">ringed</fr:link> topological space, it is <fr:link
-href="algm-000L.xml"
+addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi  : X  \to  Y</fr:tex>, if it is <fr:link
+href="algm-000U.xml"
 type="local"
-addr="algm-000L">locally ringed</fr:link> iff every stalk is a local ring.
+addr="algm-000U">local</fr:link>, a germ is invertible iff its <fr:link
+href="algm-000V.xml"
+type="local"
+addr="algm-000V">pullback</fr:link> under <fr:tex>\varphi</fr:tex> is invertible. If the space <fr:tex>X</fr:tex> has enough points, then the inverse implication is also true.
 </fr:p>
   
     
@@ -46,16 +49,16 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1268</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1238</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000N</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Recall the axiom for a local ring: if any sum is invertible, then one of the summand is invertible. When applied to the direct limit in each stalk, this immediately expands to the definition of a locally ringed space.
+    Note that the stalk <fr:tex>( \varphi ^{-1} \mathscr { O } _{Y})_x =  \mathscr { O } _{Y,  \varphi (x)}</fr:tex>. A germ being invertible implies for some neighborhood <fr:tex>U</fr:tex> of <fr:tex>x</fr:tex>, it comes from an invertible section <fr:tex>f  \in   \Gamma (U,  \varphi ^{-1} \mathscr { O } _Y)</fr:tex>, so the image in <fr:tex>\Gamma (U,  \mathscr { O } _X)</fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.
   </fr:p>
 
   <fr:p>
-    In particular, a crucial property is used in the reverse implication, i.e. if one open contains all the points of another, then the former covers the latter. This is equivalent to the condition of having enough points.
+    On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.
   </fr:p>
 </fr:mainmatter></fr:tree>
   

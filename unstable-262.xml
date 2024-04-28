@@ -7,12 +7,19 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>846</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>755</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001K</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001U</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We define <fr:tex>\Gamma (U, P^ { \operatorname {sep}} )</fr:tex> to be a quotient of <fr:tex>\Gamma (U, P)</fr:tex>. Two sections are considered the same if they are equal on a covering sieve. It is obvious that this is separated, and in a morphism <fr:tex>P  \to  Q</fr:tex> to a separated presheaf, if two sections of <fr:tex>P</fr:tex> are equal on a covering sieve, then their image will also be, and by separatedness they must be actually equal in <fr:tex>Q</fr:tex>.
+    Suppose we have a covering sieve <fr:tex>S  \hookrightarrow   \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U)</fr:tex> in <fr:tex>\mathcal { C }</fr:tex>, then an element <fr:tex>f  \in   \Gamma (U, F)</fr:tex> uniquely corresponds to a matching family <fr:tex>s  \in   \hom (S, F)</fr:tex>. In the category of elements <fr:tex>\int _{ \mathcal { C } } F</fr:tex>, <fr:tex>s</fr:tex> corresponds to a sieve over <fr:tex>f</fr:tex>. This is the required Grothendieck coverage.
+  </fr:p>
+
+  <fr:p>
+    Another way to construct this is through the <fr:link
+href="algm-001L.xml"
+type="local"
+addr="algm-001L">Lawvere–Tierney operator</fr:link> <fr:tex>j</fr:tex>. The subobject classifier of a slice category is simply <fr:tex>\Omega   \times  F  \to  F</fr:tex>. Hence we can let <fr:tex>j</fr:tex> act on the <fr:tex>\Omega</fr:tex> factor. This gives a Lawvere–Tierney operator on the slice category and it coincides with the Grothendieck coverage constructed above.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -21,18 +28,19 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>844</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>algm-001K</fr:addr><fr:route>algm-001K.xml</fr:route><fr:title>Separation of presheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>753</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>algm-001U</fr:addr><fr:route>algm-001U.xml</fr:route><fr:title>Slice of sheaf category</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
+  Given a category <fr:tex>\mathcal { C }</fr:tex> with a <fr:link
 href="algm-001A.xml"
 type="local"
-addr="algm-001A">Grothendieck coverage</fr:link>, the inclusion of <fr:link
-href="algm-001F.xml"
-type="local"
-addr="algm-001F">separated presheaves</fr:link> to presheaves has a left adjoint <fr:tex>(-)^ { \operatorname {sep}}</fr:tex>.
-</fr:p>
+addr="algm-001A">Grothendieck coverage</fr:link> <fr:tex>J</fr:tex> and a sheaf <fr:tex>F</fr:tex>, there is a Grothendieck coverage <fr:tex>J'</fr:tex> on <fr:tex>\int _{ \mathcal { C } } F</fr:tex> such that the equivalence in <fr:ref
+addr="algm-001T"
+href="algm-001T.xml"
+taxon="Theorem"></fr:ref> restricts to an equivalence
+  <fr:tex
+display="block">\mathsf { Sh } ( \mathcal { C } , J)/F  \cong   \mathsf { Sh } \left ( \int _{ \mathcal { C } } F, J' \right ).</fr:tex></fr:p>
   
     
     <fr:tree
@@ -42,13 +50,32 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>842</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>751</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001K</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001U</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We define <fr:tex>\Gamma (U, P^ { \operatorname {sep}} )</fr:tex> to be a quotient of <fr:tex>\Gamma (U, P)</fr:tex>. Two sections are considered the same if they are equal on a covering sieve. It is obvious that this is separated, and in a morphism <fr:tex>P  \to  Q</fr:tex> to a separated presheaf, if two sections of <fr:tex>P</fr:tex> are equal on a covering sieve, then their image will also be, and by separatedness they must be actually equal in <fr:tex>Q</fr:tex>.
+    Suppose we have a covering sieve <fr:tex>S  \hookrightarrow   \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U)</fr:tex> in <fr:tex>\mathcal { C }</fr:tex>, then an element <fr:tex>f  \in   \Gamma (U, F)</fr:tex> uniquely corresponds to a matching family <fr:tex>s  \in   \hom (S, F)</fr:tex>. In the category of elements <fr:tex>\int _{ \mathcal { C } } F</fr:tex>, <fr:tex>s</fr:tex> corresponds to a sieve over <fr:tex>f</fr:tex>. This is the required Grothendieck coverage.
+  </fr:p>
+
+  <fr:p>
+    Another way to construct this is through the <fr:link
+href="algm-001L.xml"
+type="local"
+addr="algm-001L">Lawvere–Tierney operator</fr:link> <fr:tex>j</fr:tex>. The subobject classifier of a slice category is simply <fr:tex>\Omega   \times  F  \to  F</fr:tex>. Hence we can let <fr:tex>j</fr:tex> act on the <fr:tex>\Omega</fr:tex> factor. This gives a Lawvere–Tierney operator on the slice category and it coincides with the Grothendieck coverage constructed above.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>749</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001L</fr:addr><fr:route>algm-001L.xml</fr:route><fr:title>Lawvere–Tierney operator</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a category <fr:tex>\mathcal { C }</fr:tex>, a <fr:strong>Lawvere–Tierney operator</fr:strong> is a morphism <fr:tex>j :  \Omega   \to   \Omega</fr:tex> where <fr:tex>\Omega</fr:tex> is the subobject classifier, such that <fr:tex>j</fr:tex> preserves finite intersections, and <fr:tex>j  \circ  j = j</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

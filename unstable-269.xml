@@ -7,22 +7,19 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1075</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1124</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0014</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0016</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We need to give a natural bijection
-    <fr:tex
-display="block">\hom (X,  \operatorname {Spec} (R))  \cong   \hom (R,  \Gamma ( \top ,  \mathscr { O } _X)).</fr:tex>
-    In other words, maps <fr:tex>X  \to   \operatorname {Spec} (R)</fr:tex> between locally ringed spaces are uniquely specified by the action of global sections.
+    We just need to cover each point of the intersection. Suppose a point in the intersection is given by a prime ideal <fr:tex>\mathfrak { p }</fr:tex> of <fr:tex>R_1</fr:tex>. We can pick a distinguished open <fr:tex>D(f)</fr:tex> of <fr:tex>\operatorname {Spec} (R_2)</fr:tex> contained in the intersection and containing <fr:tex>\mathfrak { p }</fr:tex>, and a distinguished open <fr:tex>D(g)</fr:tex> of <fr:tex>\operatorname {Spec} (R_1)</fr:tex> contained in <fr:tex>D(f)</fr:tex> and containing <fr:tex>\mathfrak { p }</fr:tex>. Now we prove that <fr:tex>D(g)</fr:tex> is a distinguished open in <fr:tex>\operatorname {Spec} (R_2)</fr:tex>.
   </fr:p>
 
   <fr:p>
-    Since <fr:tex>X</fr:tex> is glued from affine open subschemes, a map from <fr:tex>X</fr:tex> is equivalent to a map from each open subscheme <fr:tex>\operatorname {Spec} (S_i)</fr:tex> that agree on common restrictions (which again can be checked on an affine covering). Since the codomain is affine, these maps are equivalently ring homomorphisms <fr:tex>R  \to  S_i</fr:tex> by <fr:ref
+    It suffices to prove that <fr:tex>D(g)</fr:tex> is a distinguished open in <fr:tex>\operatorname {Spec} (R_2 [f^{-1}])</fr:tex>, since this would imply the existence of an element <fr:tex>g'/f^{n}  \in  R_2[f^{-1}]</fr:tex>, and we can take <fr:tex>D(g')  \cap  D(f) = D(g' f)</fr:tex> in <fr:tex>\operatorname {Spec} (R_2)</fr:tex>. Now there is an inclusion map <fr:tex>\operatorname {Spec} (R_2[f^{-1}])  \to   \operatorname {Spec} (R_1)</fr:tex>, which amounts to a ring homomorphism <fr:tex>\varphi</fr:tex> by <fr:ref
 addr="algm-000X"
 href="algm-000X.xml"
-taxon="Theorem"></fr:ref>. The elements of <fr:tex>\Gamma ( \top ,  \mathscr { O } _X)</fr:tex> are also given by a set of compatible elements from <fr:tex>S_i</fr:tex>. Hence these two sets are naturally bijective.
+taxon="Theorem"></fr:ref>. In this case, <fr:tex>D( \varphi (g))</fr:tex> is the required distinguished open, since <fr:tex>\varphi ^{-1}D(u)</fr:tex> is equal to <fr:tex>D( \varphi (u))</fr:tex> in <fr:tex>\operatorname {Spec} (R_2 [f^{-1}])</fr:tex>.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -31,15 +28,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1073</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0014</fr:addr><fr:route>algm-0014.xml</fr:route><fr:title>Adjunction of global section and <fr:tex>\operatorname {Spec}</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1122</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0016</fr:addr><fr:route>algm-0016.xml</fr:route><fr:title>Nike’s trick</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  We have an adjunction of functors <fr:tex
-display="block">\mathsf { CRing } ^ \textrm {op}   \xtofrom [ \Gamma ( \top ,  \mathscr { O } _{(-)})]{ \operatorname {Spec} }  \mathsf { Sch } ,</fr:tex> with <fr:tex>\operatorname {Spec}</fr:tex> being the right adjoint (or <fr:tex>\operatorname {Spec}  :  \mathsf { CRing }   \to   \mathsf { Sch } ^ \textrm {op}</fr:tex> being the left adjoint). In fact, we can replace <fr:tex>\mathsf { Sch }</fr:tex> with the category of <fr:link
-href="algm-000L.xml"
+  The intersections of two <fr:link
+href="algm-000Q.xml"
 type="local"
-addr="algm-000L">locally ringed spaces</fr:link> <fr:tex>\mathsf { LRS }</fr:tex>, of whom <fr:tex>\mathsf { Sch }</fr:tex> is a full subcategory.
+addr="algm-000Q">affine</fr:link> subschemes <fr:tex>\operatorname {Spec} (R_1),  \operatorname {Spec} (R_2)  \hookrightarrow  X</fr:tex> can be covered by affine schemes distinguished in both of them.
 </fr:p>
   
     
@@ -50,22 +46,19 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1071</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1107</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0014</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0016</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We need to give a natural bijection
-    <fr:tex
-display="block">\hom (X,  \operatorname {Spec} (R))  \cong   \hom (R,  \Gamma ( \top ,  \mathscr { O } _X)).</fr:tex>
-    In other words, maps <fr:tex>X  \to   \operatorname {Spec} (R)</fr:tex> between locally ringed spaces are uniquely specified by the action of global sections.
+    We just need to cover each point of the intersection. Suppose a point in the intersection is given by a prime ideal <fr:tex>\mathfrak { p }</fr:tex> of <fr:tex>R_1</fr:tex>. We can pick a distinguished open <fr:tex>D(f)</fr:tex> of <fr:tex>\operatorname {Spec} (R_2)</fr:tex> contained in the intersection and containing <fr:tex>\mathfrak { p }</fr:tex>, and a distinguished open <fr:tex>D(g)</fr:tex> of <fr:tex>\operatorname {Spec} (R_1)</fr:tex> contained in <fr:tex>D(f)</fr:tex> and containing <fr:tex>\mathfrak { p }</fr:tex>. Now we prove that <fr:tex>D(g)</fr:tex> is a distinguished open in <fr:tex>\operatorname {Spec} (R_2)</fr:tex>.
   </fr:p>
 
   <fr:p>
-    Since <fr:tex>X</fr:tex> is glued from affine open subschemes, a map from <fr:tex>X</fr:tex> is equivalent to a map from each open subscheme <fr:tex>\operatorname {Spec} (S_i)</fr:tex> that agree on common restrictions (which again can be checked on an affine covering). Since the codomain is affine, these maps are equivalently ring homomorphisms <fr:tex>R  \to  S_i</fr:tex> by <fr:ref
+    It suffices to prove that <fr:tex>D(g)</fr:tex> is a distinguished open in <fr:tex>\operatorname {Spec} (R_2 [f^{-1}])</fr:tex>, since this would imply the existence of an element <fr:tex>g'/f^{n}  \in  R_2[f^{-1}]</fr:tex>, and we can take <fr:tex>D(g')  \cap  D(f) = D(g' f)</fr:tex> in <fr:tex>\operatorname {Spec} (R_2)</fr:tex>. Now there is an inclusion map <fr:tex>\operatorname {Spec} (R_2[f^{-1}])  \to   \operatorname {Spec} (R_1)</fr:tex>, which amounts to a ring homomorphism <fr:tex>\varphi</fr:tex> by <fr:ref
 addr="algm-000X"
 href="algm-000X.xml"
-taxon="Theorem"></fr:ref>. The elements of <fr:tex>\Gamma ( \top ,  \mathscr { O } _X)</fr:tex> are also given by a set of compatible elements from <fr:tex>S_i</fr:tex>. Hence these two sets are naturally bijective.
+taxon="Theorem"></fr:ref>. In this case, <fr:tex>D( \varphi (g))</fr:tex> is the required distinguished open, since <fr:tex>\varphi ^{-1}D(u)</fr:tex> is equal to <fr:tex>D( \varphi (u))</fr:tex> in <fr:tex>\operatorname {Spec} (R_2 [f^{-1}])</fr:tex>.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -76,7 +69,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1069</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title>Morphisms of affine schemes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1120</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title>Morphisms of affine schemes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
@@ -96,7 +89,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1045</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1118</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>

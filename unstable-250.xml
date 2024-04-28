@@ -7,16 +7,39 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1615</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1656</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001E</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001G</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Let the reduction <fr:tex>\rho</fr:tex> be made out of the three maps <fr:tex>\pi _{ \rho }  : C  \to  D</fr:tex>, <fr:tex>\iota _{ \rho }  : D  \to  C</fr:tex> and <fr:tex>h_{ \rho }  : C  \to  C</fr:tex>. Then since <fr:tex>C</fr:tex> splits as the direct sum of <fr:tex>D</fr:tex> and an <fr:link
-href="hmlg-000D.xml"
-type="local"
-addr="hmlg-000D">acyclic</fr:link> complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition <fr:tex>\delta _C =  \iota _{ \rho }   \circ   \delta _D  \circ   \pi _{ \rho }</fr:tex>. A quick computation shows that <fr:tex>\rho</fr:tex> is still a reduction of the perturbed chain complexes.
+    For this construction using the third equivalent definition of a chain reduction in <fr:ref
+addr="hmlg-001H"
+href="hmlg-001H.xml"
+taxon="Theorem"></fr:ref>, i.e. a homotopy operator on <fr:tex>C</fr:tex> such that <fr:tex>h  \circ  h = 0</fr:tex> and <fr:tex>h  \circ  d_C  \circ  h = h</fr:tex>.
   </fr:p>
+
+  <fr:p>
+    We need to construct a new homotopy operator such that <fr:tex>h'  \circ  h' = 0</fr:tex> and <fr:tex>h'  \circ  (d_C +  \delta _C)  \circ  h' = h'</fr:tex>. We approach this through a “perturbative” mindset. Starting with <fr:tex>h_0 = h</fr:tex>, the second equation is off by a difference of <fr:tex>h_0  \delta _C h_0</fr:tex>. We simply add this as a correction term, <fr:tex>h_1 = h_0 +  \alpha  h_0  \delta _C h_0</fr:tex> where <fr:tex>\alpha</fr:tex> is some coefficient. (Note that essentially the only terms we can consider are of the form <fr:tex>h_0  \delta _C h_0  \delta _C  \cdots  h_0</fr:tex>, since nothing else has the same type.) We still have <fr:tex>h_1  \circ  h_1 = 0</fr:tex>, and for the second equation this creates a new error term
+    <fr:tex
+display="block">\begin {aligned}       &amp; \quad  h_1 (d_C +  \delta _C) h_1 - h_1  \\        &amp;= (1 +  \alpha ) h_0  \delta _C h_0 + 2 ( \alpha  +  \alpha ^2) h_0  \delta _C h_0  \delta _C h_0 +  \alpha ^2 h_0  \delta _C h_0  \delta _C h_0  \delta _C h_0      \end {aligned}</fr:tex>
+    and we can eliminate the first and second order part by setting <fr:tex>\alpha  = -1</fr:tex>. The natural next step would be to add a further correction <fr:tex>h_2 = h_1 +  \beta  h_0  \delta _C h_0  \delta _C h_0</fr:tex>. This turns out to require <fr:tex>\beta  = +1</fr:tex>, and so on.
+  </fr:p>
+
+  <fr:p>
+    From the informal discussion above, we can conjecture the formula
+    <fr:tex
+display="block">h' =  \sum _{k=0}^ \infty  (-1)^k (h  \delta _C)^k h.</fr:tex>
+    This reveals the reason for our pointwise nilpotency condition. With a little bit of care manipulating the infinite sum, we can prove that <fr:tex>h'  \circ  h' = 0</fr:tex> from <fr:tex>h  \circ  h = 0</fr:tex>, and the second equation follows from a nice telescopic sum
+    <fr:tex
+display="block">\begin {aligned}       h'  \circ  (d_C +  \delta _C)  \circ  h'       &amp;=  \sum _{i, j} (-1)^{i + j} (h  \delta _C)^i h (d_C +  \delta _C) (h  \delta _C)^j h  \\        &amp;=  \sum _{i, j} (-1)^{i + j}  \left [(h  \delta _C)^{i + j + 1} h + (h  \delta _C)^{i + j} h \right ]  \\        &amp;=  \sum _{k} (k+1) (-1)^k  \left [(h  \delta _C)^{k + 1} h + (h  \delta _C)^k h \right ]  \\        &amp;=  \sum _k (-1)^k (h  \delta _C)^k h = h'.      \end {aligned}</fr:tex></fr:p>
+
+  <fr:p>
+    We can reconstruct the other two components of the reduction <fr:tex>\iota _{ \rho ' }</fr:tex> and <fr:tex>\pi _{ \rho ' }</fr:tex> through <fr:ref
+addr="hmlg-001H"
+href="hmlg-001H.xml"
+taxon="Theorem"></fr:ref>. In particular, <fr:tex>D'</fr:tex> is given by a perturbation of <fr:tex>D</fr:tex>. We only write down the results below for easy reference.
+    <fr:tex
+display="block">\begin {aligned}      \pi _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }  ( \delta _C  h_{ \rho } )^k  \\       \iota _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k ( h_{ \rho }   \delta _C)^k  \iota _{ \rho }   \\       \delta _D &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }   \delta _C ( h_{ \rho }   \delta _C)^k  \iota _{ \rho } .      \end {aligned}</fr:tex></fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -24,17 +47,23 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1613</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001E</fr:addr><fr:route>hmlg-001E.xml</fr:route><fr:title><fr:link
-href="hmlg-001C.xml"
+root="false"><fr:frontmatter><fr:anchor>1654</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001G</fr:addr><fr:route>hmlg-001G.xml</fr:route><fr:title><fr:link
+href="hmlg-001G.xml"
 type="local"
-addr="hmlg-001C">Perturbation</fr:link> of the smaller chain complex in a <fr:link
+addr="hmlg-001G">Perturbation</fr:link> of the larger chain complex in a <fr:link
 href="hmlg-0017.xml"
 type="local"
-addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a reduction <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex> and a perturbation <fr:tex>\delta _D</fr:tex> for <fr:tex>D</fr:tex>, we can construct a perturbation <fr:tex>\delta _C</fr:tex> for <fr:tex>C</fr:tex>, such that the same <fr:tex>\rho</fr:tex> can serve as a reduction of the perturbed chain complexes.
+  Given a reduction <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex> and a perturbation <fr:tex>\delta _C</fr:tex> for <fr:tex>C</fr:tex>, we assume that <fr:tex>h_{ \rho }   \circ   \delta _C</fr:tex> is pointwise nilpotent, i.e. <fr:tex
+display="block">\forall  c  \in  C_k,  \exists  n  \in   \mathbb {N},  \;  ( h_{ \rho } \delta _C)^n (c) = 0.</fr:tex> We can construct a new chain reduction <fr:tex>\rho ' : C'  \Rightarrow \mkern {-14mu} \Rightarrow  D'</fr:tex>, where <fr:tex>C'</fr:tex> is <fr:tex>C</fr:tex> perturbed by <fr:tex>\delta _C</fr:tex>.
+</fr:p><fr:p>
+  Note that this situation is much harder compared to <fr:ref
+addr="hmlg-001E"
+href="hmlg-001E.xml"
+taxon="Construction"></fr:ref>, as it is generally impossible without the added condition.
 </fr:p>
   
     
@@ -45,16 +74,39 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1562</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>701</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001E</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001G</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Let the reduction <fr:tex>\rho</fr:tex> be made out of the three maps <fr:tex>\pi _{ \rho }  : C  \to  D</fr:tex>, <fr:tex>\iota _{ \rho }  : D  \to  C</fr:tex> and <fr:tex>h_{ \rho }  : C  \to  C</fr:tex>. Then since <fr:tex>C</fr:tex> splits as the direct sum of <fr:tex>D</fr:tex> and an <fr:link
-href="hmlg-000D.xml"
-type="local"
-addr="hmlg-000D">acyclic</fr:link> complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition <fr:tex>\delta _C =  \iota _{ \rho }   \circ   \delta _D  \circ   \pi _{ \rho }</fr:tex>. A quick computation shows that <fr:tex>\rho</fr:tex> is still a reduction of the perturbed chain complexes.
+    For this construction using the third equivalent definition of a chain reduction in <fr:ref
+addr="hmlg-001H"
+href="hmlg-001H.xml"
+taxon="Theorem"></fr:ref>, i.e. a homotopy operator on <fr:tex>C</fr:tex> such that <fr:tex>h  \circ  h = 0</fr:tex> and <fr:tex>h  \circ  d_C  \circ  h = h</fr:tex>.
   </fr:p>
+
+  <fr:p>
+    We need to construct a new homotopy operator such that <fr:tex>h'  \circ  h' = 0</fr:tex> and <fr:tex>h'  \circ  (d_C +  \delta _C)  \circ  h' = h'</fr:tex>. We approach this through a “perturbative” mindset. Starting with <fr:tex>h_0 = h</fr:tex>, the second equation is off by a difference of <fr:tex>h_0  \delta _C h_0</fr:tex>. We simply add this as a correction term, <fr:tex>h_1 = h_0 +  \alpha  h_0  \delta _C h_0</fr:tex> where <fr:tex>\alpha</fr:tex> is some coefficient. (Note that essentially the only terms we can consider are of the form <fr:tex>h_0  \delta _C h_0  \delta _C  \cdots  h_0</fr:tex>, since nothing else has the same type.) We still have <fr:tex>h_1  \circ  h_1 = 0</fr:tex>, and for the second equation this creates a new error term
+    <fr:tex
+display="block">\begin {aligned}       &amp; \quad  h_1 (d_C +  \delta _C) h_1 - h_1  \\        &amp;= (1 +  \alpha ) h_0  \delta _C h_0 + 2 ( \alpha  +  \alpha ^2) h_0  \delta _C h_0  \delta _C h_0 +  \alpha ^2 h_0  \delta _C h_0  \delta _C h_0  \delta _C h_0      \end {aligned}</fr:tex>
+    and we can eliminate the first and second order part by setting <fr:tex>\alpha  = -1</fr:tex>. The natural next step would be to add a further correction <fr:tex>h_2 = h_1 +  \beta  h_0  \delta _C h_0  \delta _C h_0</fr:tex>. This turns out to require <fr:tex>\beta  = +1</fr:tex>, and so on.
+  </fr:p>
+
+  <fr:p>
+    From the informal discussion above, we can conjecture the formula
+    <fr:tex
+display="block">h' =  \sum _{k=0}^ \infty  (-1)^k (h  \delta _C)^k h.</fr:tex>
+    This reveals the reason for our pointwise nilpotency condition. With a little bit of care manipulating the infinite sum, we can prove that <fr:tex>h'  \circ  h' = 0</fr:tex> from <fr:tex>h  \circ  h = 0</fr:tex>, and the second equation follows from a nice telescopic sum
+    <fr:tex
+display="block">\begin {aligned}       h'  \circ  (d_C +  \delta _C)  \circ  h'       &amp;=  \sum _{i, j} (-1)^{i + j} (h  \delta _C)^i h (d_C +  \delta _C) (h  \delta _C)^j h  \\        &amp;=  \sum _{i, j} (-1)^{i + j}  \left [(h  \delta _C)^{i + j + 1} h + (h  \delta _C)^{i + j} h \right ]  \\        &amp;=  \sum _{k} (k+1) (-1)^k  \left [(h  \delta _C)^{k + 1} h + (h  \delta _C)^k h \right ]  \\        &amp;=  \sum _k (-1)^k (h  \delta _C)^k h = h'.      \end {aligned}</fr:tex></fr:p>
+
+  <fr:p>
+    We can reconstruct the other two components of the reduction <fr:tex>\iota _{ \rho ' }</fr:tex> and <fr:tex>\pi _{ \rho ' }</fr:tex> through <fr:ref
+addr="hmlg-001H"
+href="hmlg-001H.xml"
+taxon="Theorem"></fr:ref>. In particular, <fr:tex>D'</fr:tex> is given by a perturbation of <fr:tex>D</fr:tex>. We only write down the results below for easy reference.
+    <fr:tex
+display="block">\begin {aligned}      \pi _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }  ( \delta _C  h_{ \rho } )^k  \\       \iota _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k ( h_{ \rho }   \delta _C)^k  \iota _{ \rho }   \\       \delta _D &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }   \delta _C ( h_{ \rho }   \delta _C)^k  \iota _{ \rho } .      \end {aligned}</fr:tex></fr:p>
 </fr:mainmatter></fr:tree>
   
 </fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
@@ -64,9 +116,67 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1611</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000D</fr:addr><fr:route>hmlg-000D.xml</fr:route><fr:title>Acyclic chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1652</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-001H</fr:addr><fr:route>hmlg-001H.xml</fr:route><fr:title>Characterization of <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  If all the homology groups vanish, then the chain complex is said fo be <fr:strong>acyclic</fr:strong> or <fr:strong>exact</fr:strong>. Equivalently, every cycle is a boundary.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+  The following data are equivalent.
+</fr:p><fr:ul><fr:li>A <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reduction</fr:link> <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex>.</fr:li>
+  <fr:li>A splitting <fr:tex>C  \cong  D  \oplus  E</fr:tex>, where <fr:tex>E</fr:tex> is a <fr:link
+href="todo.xml"
+type="local"
+addr="todo">split exact</fr:link>.</fr:li>
+  <fr:li>A <fr:link
+href="hmlg-0016.xml"
+type="local"
+addr="hmlg-0016">chain homotopy</fr:link> <fr:tex>h : C  \to  C</fr:tex> satisfying <fr:tex>h  \circ  h = 0</fr:tex> and <fr:tex>h  \circ  d_C  \circ  h = h</fr:tex>.</fr:li></fr:ul>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>705</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001H</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    A chain reduction consists of maps <fr:tex>C_k  \mathrel { \smash { \xtofrom [g_k]{f_k}}} D_k</fr:tex> such that <fr:tex>f_k  \circ  g_k =  \textrm {id}</fr:tex>. Therefore <fr:tex>C_ \bullet</fr:tex> <fr:link
+href="todo.xml"
+type="local"
+addr="todo">splits</fr:link> as <fr:tex>D_ \bullet   \oplus  E_ \bullet</fr:tex>, and the boundary maps are preserved since <fr:tex>f, g</fr:tex> are chain maps. We have a homotopy <fr:tex>h_k : D_k  \oplus  E_k  \to  D_{k+1}  \oplus  E_{k+1}</fr:tex>, which we may write as a <fr:tex>(2  \times  2)</fr:tex>-matrix. <fr:tex>f  \circ  h = 0</fr:tex> demands the first row to be zero, and <fr:tex>h  \circ  g = 0</fr:tex> requires the first column to vanish. This leaves us with
+    <fr:tex
+display="block">\begin {bmatrix}       0 &amp; 0  \\        0 &amp; r_k      \end {bmatrix}</fr:tex>
+    such that <fr:tex>r_{k+1}  \circ  r_k = 0</fr:tex>, since <fr:tex>h  \circ  h = 0</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    Substituting the requirement that <fr:tex>h</fr:tex> is a homotopy <fr:tex>\textrm {id}   \to  g  \circ  f</fr:tex>, we get the equation <fr:tex
+display="block">d_{k+1}  \circ  r_k + r_{k-1}  \circ  d_k =  \textrm {id} ,</fr:tex> where <fr:tex>d</fr:tex> is the boundary operator on <fr:tex>E_ \bullet</fr:tex>. In other words, <fr:tex>r</fr:tex> is a null-homotopy of <fr:tex>E_ \bullet</fr:tex>, rendering it <fr:link
+href="todo.xml"
+type="local"
+addr="todo">split exact</fr:link>. Conversely, given <fr:tex>C  \cong  D  \oplus  E</fr:tex>, we can reconstruct <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> as the projection and inclusion maps, with <fr:tex>h</fr:tex> obtained out of <fr:tex>r</fr:tex> in the manner depicted above.
+  </fr:p>
+
+  <fr:p>
+    On the other hand, given only the homotopy operator, we expect to have <fr:tex>d  \circ  h + h  \circ  d =  \textrm {id}  - g  \circ  f</fr:tex>. And since <fr:tex>g  \circ  f</fr:tex> should be the projector of <fr:tex>C</fr:tex> onto the subspace <fr:tex>D</fr:tex>, <fr:tex>\textrm {id}  - g  \circ  f</fr:tex> should be the projector onto <fr:tex>E</fr:tex>. We are thus led to proving <fr:tex>p = d  \circ  h + h  \circ  d</fr:tex> is indeed a projector.
+    <fr:tex
+display="block">\begin {aligned}       p_k  \circ  p_k &amp;= (d_{k+1}  \circ  h_k + h_{k-1}  \circ  d_k)  \circ  (d_{k+1}  \circ  h_k + h_{k-1}  \circ  d_k)  \\        &amp;= d_{k+1}  \circ   \overbrace {h_k  \circ  d_{k+1}  \circ  h_k}^{h_k} + d_{k+1}  \circ   \overbrace {h_k  \circ  h_{k-1}}^{0}  \circ  d_k  \\        &amp; \qquad  + h_{k-1}  \circ   \underbrace {d_k  \circ  d_{k+1}}_{0}  \circ  h_k +  \underbrace {h_{k-1}  \circ  d_k  \circ  h_{k-1}}_{h_{k-1}}  \circ  d_k  \\        &amp;= d_{k+1}  \circ  h_k + h_{k-1}  \circ  d_k = p_k.      \end {aligned}</fr:tex>
+    Therefore we conclude that <fr:tex>p_k</fr:tex> splits <fr:tex>C_k  \cong  D_k  \oplus  E_k</fr:tex>. More over, <fr:tex>p  \circ  d = d  \circ  h  \circ  d = d  \circ  p</fr:tex>, meaning <fr:tex>p</fr:tex> is a chain map, and therefore the splitting is compatible with the boundary operator. Since <fr:tex>h  \circ  p = p  \circ  h = h  \circ  d  \circ  h = h</fr:tex>, the homotopy is also compatible with the splitting, so we can restrict it onto <fr:tex>E_k</fr:tex> to get a homotopy from <fr:tex>\textrm {id} _E</fr:tex> to <fr:tex>0</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    Finally, restricting <fr:tex>h</fr:tex> onto <fr:tex>D_k</fr:tex> we see that it must be zero, since <fr:tex>h( \textrm {id}  - p) = h - h  \circ  d  \circ  h = 0</fr:tex>. This means that all the information of <fr:tex>h</fr:tex> can be reconstructed from the splitting, and thus all three sets of data are equivalent.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

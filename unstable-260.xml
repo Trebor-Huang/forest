@@ -7,14 +7,11 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2057</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1977</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000B</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  Referring to <fr:ref
-addr="hmlg-0009"
-href="hmlg-0009.xml"
-taxon="Visualization"></fr:ref> makes all the moving parts clear here. Since <fr:tex>f</fr:tex> commutes with the boundary maps, it maps the boundaries in <fr:tex>C_n</fr:tex> to the boundaries in <fr:tex>D_n</fr:tex>. Therefore the map is well-defined after passing to the quotient.
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  (TODO)
 </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -22,11 +19,11 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2055</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-000B</fr:addr><fr:route>hmlg-000B.xml</fr:route><fr:title>Chain maps induce maps on homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1975</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000F</fr:addr><fr:route>hmlg-000F.xml</fr:route><fr:title>Freyd–Mitchell embedding theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A chain map <fr:tex>f : C  \to  D</fr:tex> induces a family of homomorphisms <fr:tex>f_* : H_n (C)  \to  H_n (D)</fr:tex> on the homology groups. The identity map induces the identity morphism, and a composition of maps <fr:tex>f  \circ  g</fr:tex> induces composition homomorphism <fr:tex>(f  \circ  g)_* = f_*  \circ  g_*</fr:tex>.
+  Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex>R</fr:tex>-modules for some ring <fr:tex>R</fr:tex>.
 </fr:p>
   
     
@@ -37,61 +34,11 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1924</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>849</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000B</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  Referring to <fr:ref
-addr="hmlg-0009"
-href="hmlg-0009.xml"
-taxon="Visualization"></fr:ref> makes all the moving parts clear here. Since <fr:tex>f</fr:tex> commutes with the boundary maps, it maps the boundaries in <fr:tex>C_n</fr:tex> to the boundaries in <fr:tex>D_n</fr:tex>. Therefore the map is well-defined after passing to the quotient.
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  (TODO)
 </fr:p></fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2053</fr:anchor><fr:taxon>Visualization</fr:taxon><fr:addr>hmlg-0009</fr:addr><fr:route>hmlg-0009.xml</fr:route><fr:title>Chain map</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Appropriately combing two copies of <fr:ref
-addr="hmlg-000A"
-href="hmlg-000A.xml"
-taxon="Visualization"></fr:ref>, we get the following picture for a <fr:link
-href="hmlg-0008.xml"
-type="local"
-addr="hmlg-0008">chain map</fr:link>. The upper and lower rows form chain complexes, while each four adjacent blocks form a pattern representing commutative squares.
-</fr:p>
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz">
-    <fr:embedded-tex
-hash="ee86aec03370b98cc616ae639df13044"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
-      \usetikzlibrary{decorations.pathreplacing}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzpicture} 
-    [scale=2]
-  \clip (-0.5, -1.1) rectangle (3, 1.1);
-
-  \tikzset{every path/.style={very thick, transform shape}}
-  \tikzset{chain/.pic = {
-    \filldraw[fill opacity=0.1] (0, -0.5) -- (0, 1) -- (2.5, 1) -- (2.5, 0.5) arc (0:-90:1) -- cycle;
-  }}
-
-  \draw[blue!80!pink] (-1.5,0)++(-0.01,-0.01) pic {chain};
-  \draw[blue!60!pink] (1,0)++(-0.01,-0.01) pic[scale=-1] {chain};
-
-  \draw[green!80!red] (0,0) pic {chain};
-  \draw[green!60!red] (2.5,0) pic[scale=-1] {chain};
-
-  \draw[red!80!cyan] (1.5,0)++(0.01,0.01) pic {chain};
-  \draw[red!60!cyan] (4,0)++(0.01,0.01) pic[scale=-1] {chain};
- \end {tikzpicture}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

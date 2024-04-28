@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1706</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0017</fr:addr><fr:route>hmlg-0017.xml</fr:route><fr:title>Chain reduction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1779</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0017</fr:addr><fr:route>hmlg-0017.xml</fr:route><fr:title>Chain reduction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -25,7 +25,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1704</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0016</fr:addr><fr:route>hmlg-0016.xml</fr:route><fr:title>Chain homotopy</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1777</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0016</fr:addr><fr:route>hmlg-0016.xml</fr:route><fr:title>Chain homotopy</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -45,7 +45,93 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1688</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001X</fr:addr><fr:route>hmlg-001X.xml</fr:route><fr:title>Reduction from <fr:tex>K( \mathbb {Z}, 1)</fr:tex> to the circle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1755</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0023</fr:addr><fr:route>hmlg-0023.xml</fr:route><fr:title>Eilenberg–Zilber theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  We have a <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reduction</fr:link>
+  <fr:tex
+display="block">C_* (X  \times  Y)  \Rightarrow \mkern {-14mu} \Rightarrow  C_* (X)  \otimes  C_* (Y).</fr:tex></fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>297</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0023</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    For every product of simplices <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex>, we put on the <fr:link
+href="hmlg-0022.xml"
+type="local"
+addr="hmlg-0022">discrete vector field on <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex></fr:link>. This DVF is <fr:link
+href="hmlg-001P.xml"
+type="local"
+addr="hmlg-001P">admissible</fr:link> because the time a path stays in <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex> is bounded by a function of <fr:tex>p</fr:tex> and <fr:tex>q</fr:tex>. Then it is sent to a boundary cell.
+  </fr:p>
+
+  <fr:p>
+    Using <fr:ref
+addr="hmlg-001R"
+href="hmlg-001R.xml"
+taxon="Construction"></fr:ref>, we get the required chain reduction. This is identical to the Eilenberg–Zilber reduction in literature, but the proof requires some combinatorics, and can be seen in Section 5.13 of <fr:link
+href="discrete-vector-fields.xml"
+type="local"
+addr="discrete-vector-fields">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. However, this formulation gives a much better computational performance.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1757</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-0022</fr:addr><fr:route>hmlg-0022.xml</fr:route><fr:title>Discrete vector field on <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  We construct a <fr:link
+href="hmlg-001N.xml"
+type="local"
+addr="hmlg-001N">discrete vector field</fr:link> on the <fr:link
+href="hmlg-001U.xml"
+type="local"
+addr="hmlg-001U">reduced ACC</fr:link> of <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex> whose critical cells are given by its boundary and one additional cell
+  <fr:tex
+display="block">(0,0) &lt; (1,0) &lt;  \cdots  &lt; (p,0) &lt; (p,1) &lt;  \cdots  &lt; (p,q),</fr:tex>
+  in the representation scheme of <fr:ref
+addr="hmlg-0020"
+href="hmlg-0020.xml"
+taxon="Theorem"></fr:ref>. In particular, this <fr:link
+href="hmlg-001R.xml"
+type="local"
+addr="hmlg-001R">gives rise</fr:link> to a <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reduction</fr:link> <fr:tex>C_*( \Delta ^p  \times   \Delta ^q)  \Rightarrow \mkern {-14mu} \Rightarrow  C_*( \Delta ^p)  \otimes  C_*( \Delta ^q)</fr:tex>.
+</fr:p><fr:p>
+  Regarding the geometric simplices as paths in a <fr:tex>p  \times  q</fr:tex> grid as specified in <fr:ref
+addr="hmlg-0020"
+href="hmlg-0020.xml"
+taxon="Theorem"></fr:ref>, we assign a <fr:tex>(p+q)</fr:tex>-simplex as a target cell if it contains a shape <fr:tex>\Rsh</fr:tex>. (The shape must go exactly one step up and one step to the right, since it is not possible otherwise in a geometric <fr:tex>(p+q)</fr:tex>-simplex.) To get its source cell, replace the <fr:em>last occurrence</fr:em> of this shape with <fr:tex>\nearrow</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1759</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001X</fr:addr><fr:route>hmlg-001X.xml</fr:route><fr:title>Reduction from <fr:tex>K( \mathbb {Z}, 1)</fr:tex> to the circle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -55,7 +141,7 @@ type="local"
 addr="hmlg-0017">chain reduction</fr:link> from the <fr:link
 href="hmlg-001W.xml"
 type="local"
-addr="hmlg-001W">bar construction</fr:link> of <fr:tex>K( \mathbb {Z}, 1)</fr:tex> regarded as its <fr:link
+addr="hmlg-001W">bar construction</fr:link> <fr:tex>\bar {W} (G)</fr:tex> of a group regarded as its <fr:link
 href="hmlg-001U.xml"
 type="local"
 addr="hmlg-001U">reduced algebraic cellular complex</fr:link>, to the <fr:link
@@ -77,7 +163,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1690</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001V</fr:addr><fr:route>hmlg-001V.xml</fr:route><fr:title>Reduction from the non-reduced chain complex to the reduced chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1761</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001V</fr:addr><fr:route>hmlg-001V.xml</fr:route><fr:title>Reduction from the non-reduced chain complex to the reduced chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -105,7 +191,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1692</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001R</fr:addr><fr:route>hmlg-001R.xml</fr:route><fr:title>Chain reduction generated by a discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1763</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001R</fr:addr><fr:route>hmlg-001R.xml</fr:route><fr:title>Chain reduction generated by a discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -132,7 +218,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>290</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>291</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001R</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -174,7 +260,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1694</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001M</fr:addr><fr:route>hmlg-001M.xml</fr:route><fr:title>Chain reduction of mapping cones</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1765</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001M</fr:addr><fr:route>hmlg-001M.xml</fr:route><fr:title>Chain reduction of mapping cones</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -189,7 +275,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1696</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001G</fr:addr><fr:route>hmlg-001G.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1767</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001G</fr:addr><fr:route>hmlg-001G.xml</fr:route><fr:title><fr:link
 href="hmlg-001G.xml"
 type="local"
 addr="hmlg-001G">Perturbation</fr:link> of the larger chain complex in a <fr:link
@@ -216,7 +302,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>640</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>701</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001G</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -258,7 +344,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1698</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-001H</fr:addr><fr:route>hmlg-001H.xml</fr:route><fr:title>Characterization of <fr:link
+root="false"><fr:frontmatter><fr:anchor>1769</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-001H</fr:addr><fr:route>hmlg-001H.xml</fr:route><fr:title>Characterization of <fr:link
 href="hmlg-0017.xml"
 type="local"
 addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -287,7 +373,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>644</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>705</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001H</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -328,7 +414,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1700</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001E</fr:addr><fr:route>hmlg-001E.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1771</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001E</fr:addr><fr:route>hmlg-001E.xml</fr:route><fr:title><fr:link
 href="hmlg-001C.xml"
 type="local"
 addr="hmlg-001C">Perturbation</fr:link> of the smaller chain complex in a <fr:link
@@ -349,7 +435,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1562</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1639</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001E</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -368,7 +454,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1702</fr:anchor><fr:taxon>Visualization</fr:taxon><fr:addr>hmlg-0019</fr:addr><fr:route>hmlg-0019.xml</fr:route><fr:title>Chain reduction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1773</fr:anchor><fr:taxon>Visualization</fr:taxon><fr:addr>hmlg-0019</fr:addr><fr:route>hmlg-0019.xml</fr:route><fr:title>Chain reduction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -419,4 +505,23 @@ hash="7e3bc1462d3f87570cd3d40576c205a8"><fr:embedded-tex-preamble>
  \end {tikzpicture}
     </fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
-</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1775</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>discrete-vector-fields</fr:addr><fr:route>discrete-vector-fields.xml</fr:route><fr:title>Discrete Vector Fields and Fundamental Algebraic Topology</fr:title><fr:date><fr:year>2010</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:authors><fr:author>Ana Romero and Francis Sergeraert</fr:author></fr:authors><fr:meta
+name="doi">10.48550/arXiv.1005.5685</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
+  We show in this text how the most important homology equivalences of fundamental Algebraic Topology can be obtained as <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">reductions</fr:link> <fr:link
+href="hmlg-001Z.xml"
+type="local"
+addr="hmlg-001Z">associated</fr:link> to <fr:link
+href="hmlg-001N.xml"
+type="local"
+addr="hmlg-001N">discrete vector fields</fr:link>. Mainly the homology equivalences whose existence — most often non-constructive — is proved by the main spectral sequences, the Serre and Eilenberg-Moore spectral sequences. On the contrary, the constructive existence is here systematically looked for and obtained.
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
