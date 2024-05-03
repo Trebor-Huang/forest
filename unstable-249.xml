@@ -7,37 +7,38 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1650</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>794</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001H</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001R</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    A chain reduction consists of maps <fr:tex>C_k  \mathrel { \smash { \xtofrom [g_k]{f_k}}} D_k</fr:tex> such that <fr:tex>f_k  \circ  g_k =  \textrm {id}</fr:tex>. Therefore <fr:tex>C_ \bullet</fr:tex> <fr:link
-href="todo.xml"
+    The DVF partitions the chain groups into a direct sum <fr:tex>C_k^{s}  \oplus  C_k^t  \oplus  C_k^c</fr:tex>, corresponding to source, target and critical cells. We would like to create a reduction to the critical cells only. To do this, we invoke <fr:link
+href="hmlg-001G.xml"
 type="local"
-addr="todo">splits</fr:link> as <fr:tex>D_ \bullet   \oplus  E_ \bullet</fr:tex>, and the boundary maps are preserved since <fr:tex>f, g</fr:tex> are chain maps. We have a homotopy <fr:tex>h_k : D_k  \oplus  E_k  \to  D_{k+1}  \oplus  E_{k+1}</fr:tex>, which we may write as a <fr:tex>(2  \times  2)</fr:tex>-matrix. <fr:tex>f  \circ  h = 0</fr:tex> demands the first row to be zero, and <fr:tex>h  \circ  g = 0</fr:tex> requires the first column to vanish. This leaves us with
-    <fr:tex
-display="block">\begin {bmatrix}       0 &amp; 0  \\        0 &amp; r_k      \end {bmatrix}</fr:tex>
-    such that <fr:tex>r_{k+1}  \circ  r_k = 0</fr:tex>, since <fr:tex>h  \circ  h = 0</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    Substituting the requirement that <fr:tex>h</fr:tex> is a homotopy <fr:tex>\textrm {id}   \to  g  \circ  f</fr:tex>, we get the equation <fr:tex
-display="block">d_{k+1}  \circ  r_k + r_{k-1}  \circ  d_k =  \textrm {id} ,</fr:tex> where <fr:tex>d</fr:tex> is the boundary operator on <fr:tex>E_ \bullet</fr:tex>. In other words, <fr:tex>r</fr:tex> is a null-homotopy of <fr:tex>E_ \bullet</fr:tex>, rendering it <fr:link
-href="todo.xml"
+addr="hmlg-001G"><fr:link
+href="hmlg-001G.xml"
 type="local"
-addr="todo">split exact</fr:link>. Conversely, given <fr:tex>C  \cong  D  \oplus  E</fr:tex>, we can reconstruct <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> as the projection and inclusion maps, with <fr:tex>h</fr:tex> obtained out of <fr:tex>r</fr:tex> in the manner depicted above.
+addr="hmlg-001G">perturbation</fr:link> of the larger chain complex in a <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reduction</fr:link></fr:link> and start with a simpler chain reduction.
   </fr:p>
 
   <fr:p>
-    On the other hand, given only the homotopy operator, we expect to have <fr:tex>d  \circ  h + h  \circ  d =  \textrm {id}  - g  \circ  f</fr:tex>. And since <fr:tex>g  \circ  f</fr:tex> should be the projector of <fr:tex>C</fr:tex> onto the subspace <fr:tex>D</fr:tex>, <fr:tex>\textrm {id}  - g  \circ  f</fr:tex> should be the projector onto <fr:tex>E</fr:tex>. We are thus led to proving <fr:tex>p = d  \circ  h + h  \circ  d</fr:tex> is indeed a projector.
-    <fr:tex
-display="block">\begin {aligned}       p_k  \circ  p_k &amp;= (d_{k+1}  \circ  h_k + h_{k-1}  \circ  d_k)  \circ  (d_{k+1}  \circ  h_k + h_{k-1}  \circ  d_k)  \\        &amp;= d_{k+1}  \circ   \overbrace {h_k  \circ  d_{k+1}  \circ  h_k}^{h_k} + d_{k+1}  \circ   \overbrace {h_k  \circ  h_{k-1}}^{0}  \circ  d_k  \\        &amp; \qquad  + h_{k-1}  \circ   \underbrace {d_k  \circ  d_{k+1}}_{0}  \circ  h_k +  \underbrace {h_{k-1}  \circ  d_k  \circ  h_{k-1}}_{h_{k-1}}  \circ  d_k  \\        &amp;= d_{k+1}  \circ  h_k + h_{k-1}  \circ  d_k = p_k.      \end {aligned}</fr:tex>
-    Therefore we conclude that <fr:tex>p_k</fr:tex> splits <fr:tex>C_k  \cong  D_k  \oplus  E_k</fr:tex>. More over, <fr:tex>p  \circ  d = d  \circ  h  \circ  d = d  \circ  p</fr:tex>, meaning <fr:tex>p</fr:tex> is a chain map, and therefore the splitting is compatible with the boundary operator. Since <fr:tex>h  \circ  p = p  \circ  h = h  \circ  d  \circ  h = h</fr:tex>, the homotopy is also compatible with the splitting, so we can restrict it onto <fr:tex>E_k</fr:tex> to get a homotopy from <fr:tex>\textrm {id} _E</fr:tex> to <fr:tex>0</fr:tex>.
+    Consider the algebraic cellular complex whose chain groups are <fr:tex>C_k</fr:tex>, but the differential <fr:tex>d'( \sigma ) =  \pm   \tau</fr:tex> iff <fr:tex>\overrightharpoon { \tau   \sigma }</fr:tex> is in the vector field, and zero otherwise. The sign is determined as the sign of <fr:tex>\tau</fr:tex> in <fr:tex>d( \sigma )</fr:tex>. Hence <fr:tex>d' : C_{k+1}^{t}  \to  C_k^s</fr:tex>, and is zero otherwise. Therefore using the <fr:link
+href="hmlg-001H.xml"
+type="local"
+addr="hmlg-001H">characterization of <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reduction</fr:link></fr:link> as a direct sum with a split exact chain complex, we see that this complex can be reduced to the complex on <fr:tex>C_k^p</fr:tex> whose differential is identically zero.
   </fr:p>
 
   <fr:p>
-    Finally, restricting <fr:tex>h</fr:tex> onto <fr:tex>D_k</fr:tex> we see that it must be zero, since <fr:tex>h( \textrm {id}  - p) = h - h  \circ  d  \circ  h = 0</fr:tex>. This means that all the information of <fr:tex>h</fr:tex> can be reconstructed from the splitting, and thus all three sets of data are equivalent.
+    Next, we try to perturb <fr:tex>d'</fr:tex> to <fr:tex>d</fr:tex>. We need <fr:tex>h_{ \rho }   \circ  (d' - d)</fr:tex> to be locally nilpotent, where <fr:tex>\rho</fr:tex> is the reduction constructed above. <fr:tex>h_{ \rho }</fr:tex> can be viewed as the inverse of <fr:tex>d'</fr:tex>, as it maps the source cell to the target cell. Expanding the definition, we see that this map transports cells down the <fr:link
+href="hmlg-001Q.xml"
+type="local"
+addr="hmlg-001Q">discrete field line</fr:link>. Since the vector field is admissible, such a transportation eventually terminates and it becomes zero.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -46,7 +47,165 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1648</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-001H</fr:addr><fr:route>hmlg-001H.xml</fr:route><fr:title>Characterization of <fr:link
+root="false"><fr:frontmatter><fr:anchor>792</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001R</fr:addr><fr:route>hmlg-001R.xml</fr:route><fr:title>Chain reduction generated by a discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given an <fr:link
+href="hmlg-001P.xml"
+type="local"
+addr="hmlg-001P">admissible discrete vector field</fr:link> on an <fr:link
+href="hmlg-0013.xml"
+type="local"
+addr="hmlg-0013">algebraic cellular complex</fr:link> <fr:tex>(C_k, d)</fr:tex>, we can generate a <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reduction</fr:link>. It will be computable when the cellular complex is <fr:link
+href="hmlg-001A.xml"
+type="local"
+addr="hmlg-001A">effective</fr:link>.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>362</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001R</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    The DVF partitions the chain groups into a direct sum <fr:tex>C_k^{s}  \oplus  C_k^t  \oplus  C_k^c</fr:tex>, corresponding to source, target and critical cells. We would like to create a reduction to the critical cells only. To do this, we invoke <fr:link
+href="hmlg-001G.xml"
+type="local"
+addr="hmlg-001G"><fr:link
+href="hmlg-001G.xml"
+type="local"
+addr="hmlg-001G">perturbation</fr:link> of the larger chain complex in a <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reduction</fr:link></fr:link> and start with a simpler chain reduction.
+  </fr:p>
+
+  <fr:p>
+    Consider the algebraic cellular complex whose chain groups are <fr:tex>C_k</fr:tex>, but the differential <fr:tex>d'( \sigma ) =  \pm   \tau</fr:tex> iff <fr:tex>\overrightharpoon { \tau   \sigma }</fr:tex> is in the vector field, and zero otherwise. The sign is determined as the sign of <fr:tex>\tau</fr:tex> in <fr:tex>d( \sigma )</fr:tex>. Hence <fr:tex>d' : C_{k+1}^{t}  \to  C_k^s</fr:tex>, and is zero otherwise. Therefore using the <fr:link
+href="hmlg-001H.xml"
+type="local"
+addr="hmlg-001H">characterization of <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reduction</fr:link></fr:link> as a direct sum with a split exact chain complex, we see that this complex can be reduced to the complex on <fr:tex>C_k^p</fr:tex> whose differential is identically zero.
+  </fr:p>
+
+  <fr:p>
+    Next, we try to perturb <fr:tex>d'</fr:tex> to <fr:tex>d</fr:tex>. We need <fr:tex>h_{ \rho }   \circ  (d' - d)</fr:tex> to be locally nilpotent, where <fr:tex>\rho</fr:tex> is the reduction constructed above. <fr:tex>h_{ \rho }</fr:tex> can be viewed as the inverse of <fr:tex>d'</fr:tex>, as it maps the source cell to the target cell. Expanding the definition, we see that this map transports cells down the <fr:link
+href="hmlg-001Q.xml"
+type="local"
+addr="hmlg-001Q">discrete field line</fr:link>. Since the vector field is admissible, such a transportation eventually terminates and it becomes zero.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>782</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001Q</fr:addr><fr:route>hmlg-001Q.xml</fr:route><fr:title>Discrete field line</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a <fr:link
+href="hmlg-001N.xml"
+type="local"
+addr="hmlg-001N">discrete vector field</fr:link>, the discrete version of <fr:strong>field lines</fr:strong> is defined as a sequence of cells alternating between degree <fr:tex>p</fr:tex> and <fr:tex>(p-1)</fr:tex> starting and ending with lower-degree cells, with a few requirements.
+</fr:p><fr:ul><fr:li>When the degree increases, the two cells must occur as a vector in the DVF.</fr:li>
+  <fr:li>When the degree decreases, the degree <fr:tex>(p-1)</fr:tex> cell must be a (possible non-<fr:link
+href="hmlg-001O.xml"
+type="local"
+addr="hmlg-001O">regular</fr:link>) face of the degree <fr:tex>p</fr:tex> cell.</fr:li>
+  <fr:li>Two degree <fr:tex>(p-1)</fr:tex> cells separated by a degree <fr:tex>p</fr:tex> cell must not be the same.</fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>786</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001G</fr:addr><fr:route>hmlg-001G.xml</fr:route><fr:title><fr:link
+href="hmlg-001G.xml"
+type="local"
+addr="hmlg-001G">Perturbation</fr:link> of the larger chain complex in a <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a reduction <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex> and a perturbation <fr:tex>\delta _C</fr:tex> for <fr:tex>C</fr:tex>, we assume that <fr:tex>h_{ \rho }   \circ   \delta _C</fr:tex> is pointwise nilpotent, i.e. <fr:tex
+display="block">\forall  c  \in  C_k,  \exists  n  \in   \mathbb {N},  \;  ( h_{ \rho } \delta _C)^n (c) = 0.</fr:tex> We can construct a new chain reduction <fr:tex>\rho ' : C'  \Rightarrow \mkern {-14mu} \Rightarrow  D'</fr:tex>, where <fr:tex>C'</fr:tex> is <fr:tex>C</fr:tex> perturbed by <fr:tex>\delta _C</fr:tex>.
+</fr:p><fr:p>
+  Note that this situation is much harder compared to <fr:ref
+addr="hmlg-001E"
+href="hmlg-001E.xml"
+taxon="Construction"></fr:ref>, as it is generally impossible without the added condition.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>784</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001G</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    For this construction using the third equivalent definition of a chain reduction in <fr:ref
+addr="hmlg-001H"
+href="hmlg-001H.xml"
+taxon="Theorem"></fr:ref>, i.e. a homotopy operator on <fr:tex>C</fr:tex> such that <fr:tex>h  \circ  h = 0</fr:tex> and <fr:tex>h  \circ  d_C  \circ  h = h</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    We need to construct a new homotopy operator such that <fr:tex>h'  \circ  h' = 0</fr:tex> and <fr:tex>h'  \circ  (d_C +  \delta _C)  \circ  h' = h'</fr:tex>. We approach this through a “perturbative” mindset. Starting with <fr:tex>h_0 = h</fr:tex>, the second equation is off by a difference of <fr:tex>h_0  \delta _C h_0</fr:tex>. We simply add this as a correction term, <fr:tex>h_1 = h_0 +  \alpha  h_0  \delta _C h_0</fr:tex> where <fr:tex>\alpha</fr:tex> is some coefficient. (Note that essentially the only terms we can consider are of the form <fr:tex>h_0  \delta _C h_0  \delta _C  \cdots  h_0</fr:tex>, since nothing else has the same type.) We still have <fr:tex>h_1  \circ  h_1 = 0</fr:tex>, and for the second equation this creates a new error term
+    <fr:tex
+display="block">\begin {aligned}       &amp; \quad  h_1 (d_C +  \delta _C) h_1 - h_1  \\        &amp;= (1 +  \alpha ) h_0  \delta _C h_0 + 2 ( \alpha  +  \alpha ^2) h_0  \delta _C h_0  \delta _C h_0 +  \alpha ^2 h_0  \delta _C h_0  \delta _C h_0  \delta _C h_0      \end {aligned}</fr:tex>
+    and we can eliminate the first and second order part by setting <fr:tex>\alpha  = -1</fr:tex>. The natural next step would be to add a further correction <fr:tex>h_2 = h_1 +  \beta  h_0  \delta _C h_0  \delta _C h_0</fr:tex>. This turns out to require <fr:tex>\beta  = +1</fr:tex>, and so on.
+  </fr:p>
+
+  <fr:p>
+    From the informal discussion above, we can conjecture the formula
+    <fr:tex
+display="block">h' =  \sum _{k=0}^ \infty  (-1)^k (h  \delta _C)^k h.</fr:tex>
+    This reveals the reason for our pointwise nilpotency condition. With a little bit of care manipulating the infinite sum, we can prove that <fr:tex>h'  \circ  h' = 0</fr:tex> from <fr:tex>h  \circ  h = 0</fr:tex>, and the second equation follows from a nice telescopic sum
+    <fr:tex
+display="block">\begin {aligned}       h'  \circ  (d_C +  \delta _C)  \circ  h'       &amp;=  \sum _{i, j} (-1)^{i + j} (h  \delta _C)^i h (d_C +  \delta _C) (h  \delta _C)^j h  \\        &amp;=  \sum _{i, j} (-1)^{i + j}  \left [(h  \delta _C)^{i + j + 1} h + (h  \delta _C)^{i + j} h \right ]  \\        &amp;=  \sum _{k} (k+1) (-1)^k  \left [(h  \delta _C)^{k + 1} h + (h  \delta _C)^k h \right ]  \\        &amp;=  \sum _k (-1)^k (h  \delta _C)^k h = h'.      \end {aligned}</fr:tex></fr:p>
+
+  <fr:p>
+    We can reconstruct the other two components of the reduction <fr:tex>\iota _{ \rho ' }</fr:tex> and <fr:tex>\pi _{ \rho ' }</fr:tex> through <fr:ref
+addr="hmlg-001H"
+href="hmlg-001H.xml"
+taxon="Theorem"></fr:ref>. In particular, <fr:tex>D'</fr:tex> is given by a perturbation of <fr:tex>D</fr:tex>. We only write down the results below for easy reference.
+    <fr:tex
+display="block">\begin {aligned}      \pi _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }  ( \delta _C  h_{ \rho } )^k  \\       \iota _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k ( h_{ \rho }   \delta _C)^k  \iota _{ \rho }   \\       \delta _D &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }   \delta _C ( h_{ \rho }   \delta _C)^k  \iota _{ \rho } .      \end {aligned}</fr:tex></fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>790</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-001H</fr:addr><fr:route>hmlg-001H.xml</fr:route><fr:title>Characterization of <fr:link
 href="hmlg-0017.xml"
 type="local"
 addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -75,7 +234,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>705</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>788</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001H</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -109,98 +268,4 @@ display="block">\begin {aligned}       p_k  \circ  p_k &amp;= (d_{k+1}  \circ  h
   </fr:p>
 </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1647</fr:anchor><fr:taxon>Meta</fr:taxon><fr:addr>todo</fr:addr><fr:route>todo.xml</fr:route><fr:title>Unfinished trees</fr:title></fr:frontmatter><fr:mainmatter><fr:p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"><fr:frontmatter><fr:anchor>843</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-0021</fr:addr><fr:route>hmlg-0021.xml</fr:route><fr:title>W-bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a simplicial group, we can define a model of its universal principal bundle <fr:tex>\mathbf {E}  G  \to   \mathbf {B}  G</fr:tex> as simplicial sets <fr:tex>W  G  \to   \bar {W}  G</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"><fr:frontmatter><fr:anchor>845</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001M</fr:addr><fr:route>hmlg-001M.xml</fr:route><fr:title>Chain reduction of mapping cones</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a pair of <fr:link
-href="hmlg-0017.xml"
-type="local"
-addr="hmlg-0017">chain reductions</fr:link> <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex> and <fr:tex>\rho ' : C'  \Rightarrow \mkern {-14mu} \Rightarrow  D'</fr:tex>, we can construct a reduction from the mapping cone <fr:tex>\operatorname {Cone} (f)</fr:tex> of a chain map <fr:tex>f : C  \to  C'</fr:tex> to (the action of <fr:tex>\rho</fr:tex> on <fr:tex>f</fr:tex>).
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"><fr:frontmatter><fr:anchor>847</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  This is a set of notes on effective homology and algebraic topology. Main references are <fr:link
-href="constructive-homological-algebra.xml"
-type="local"
-addr="constructive-homological-algebra">Constructive Homological Algebra and Applications</fr:link> and <fr:link
-href="discrete-vector-fields.xml"
-type="local"
-addr="discrete-vector-fields">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. We assume basic familiarity with the classical aspects of the theory, although there will also be links within this forest to the relevant concepts.
-</fr:p><fr:ul><fr:li><fr:link
-href="hmlg-0021.xml"
-type="local"
-addr="hmlg-0021">W-bar construction</fr:link>, simplicial principal bundles, twisted products by <fr:link
-href="simplicial-objects.xml"
-type="local"
-addr="simplicial-objects">Simplicial objects in algebraic topology</fr:link></fr:li>
-  <fr:li>classifying space, loop space</fr:li>
-  <fr:li>composition of <fr:link
-href="hmlg-001I.xml"
-type="local"
-addr="hmlg-001I">strong homology equivalence</fr:link>, tensor product, cone, bicomplex</fr:li>
-  <fr:li>simplicial group, Kan complex</fr:li>
-  <fr:li>organize into notes</fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"><fr:frontmatter><fr:anchor>851</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000F</fr:addr><fr:route>hmlg-000F.xml</fr:route><fr:title>Freyd–Mitchell embedding theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex>R</fr:tex>-modules for some ring <fr:tex>R</fr:tex>.
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>849</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  (TODO)
-</fr:p></fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

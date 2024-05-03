@@ -7,23 +7,36 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1977</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2056</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  (TODO)
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000P</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    By the universal property of products and coproducts, a map from the coproduct of some objects <fr:tex>X_i</fr:tex> to their product is given by a matrix of morphisms <fr:tex>f_{ij} : X_i  \to  X_j</fr:tex>. We choose the identity matrix
+    <fr:tex
+display="block">f_{ij} =  \begin {cases}        \textrm {id}  &amp; (i = j)  \\        0 &amp; (i  \ne  j)      \end {cases}</fr:tex>
+    where <fr:tex>0</fr:tex> is the additive neutral element in the abelian group <fr:tex>\hom (X_i, X_j)</fr:tex>. This gives a canonical map <fr:tex>\coprod _i X_i  \to   \prod _i X_i</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    When there are finitely many objects involved, we can construct an inverse. Consider the morphisms <fr:tex
+display="block">\prod _i X_i  \xrightarrow { \pi _j} X_j  \xrightarrow { \iota _j}  \coprod _i X_i.</fr:tex> We claim the sum of these morphisms is the desired inverse. To verify this, we compose them. Using bilinearity, we are reduced to showing that the coproduct and product of the identity map is the identity, which is true.
+  </fr:p>
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1975</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000F</fr:addr><fr:route>hmlg-000F.xml</fr:route><fr:title>Freyd–Mitchell embedding theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2054</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000P</fr:addr><fr:route>hmlg-000P.xml</fr:route><fr:title>Additive category</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex>R</fr:tex>-modules for some ring <fr:tex>R</fr:tex>.
+  Let <fr:tex>\mathcal { C }</fr:tex> be <fr:link
+href="hmlg-000O.xml"
+type="local"
+addr="hmlg-000O"><fr:tex>\mathsf { Ab }</fr:tex>-enriched</fr:link>. The finite products and coproducts, if they exist, are isomorphic via a canonical map. If they all exist, then this category is called an <fr:strong>additive category</fr:strong>. In particular, the nullary product and coproduct coincide, and we call the object <fr:strong>zero object</fr:strong>, denoted <fr:tex>0</fr:tex>.
 </fr:p>
   
     
@@ -34,11 +47,21 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>849</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1951</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  (TODO)
-</fr:p></fr:mainmatter></fr:tree>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000P</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    By the universal property of products and coproducts, a map from the coproduct of some objects <fr:tex>X_i</fr:tex> to their product is given by a matrix of morphisms <fr:tex>f_{ij} : X_i  \to  X_j</fr:tex>. We choose the identity matrix
+    <fr:tex
+display="block">f_{ij} =  \begin {cases}        \textrm {id}  &amp; (i = j)  \\        0 &amp; (i  \ne  j)      \end {cases}</fr:tex>
+    where <fr:tex>0</fr:tex> is the additive neutral element in the abelian group <fr:tex>\hom (X_i, X_j)</fr:tex>. This gives a canonical map <fr:tex>\coprod _i X_i  \to   \prod _i X_i</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    When there are finitely many objects involved, we can construct an inverse. Consider the morphisms <fr:tex
+display="block">\prod _i X_i  \xrightarrow { \pi _j} X_j  \xrightarrow { \iota _j}  \coprod _i X_i.</fr:tex> We claim the sum of these morphisms is the desired inverse. To verify this, we compose them. Using bilinearity, we are reduced to showing that the coproduct and product of the identity map is the identity, which is true.
+  </fr:p>
+</fr:mainmatter></fr:tree>
   
 </fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

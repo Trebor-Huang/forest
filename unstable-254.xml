@@ -7,12 +7,63 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1858</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1935</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Y</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Z</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We simply need to note that an equalizer for <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> is equivalent to an equalizer for <fr:tex>(f-g)</fr:tex> and <fr:tex>0</fr:tex>, by bilinearity of composition.
+    We claim that <fr:tex>f</fr:tex> being monic is equivalent to the following square being a pullback square:
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="0ccf5978b23246e6e2899388dd0bc4ec"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzcd} 
+      X &amp; X  \\ 
+      X &amp; Y
+       \arrow ["f"', from=2-1, to=2-2]
+       \arrow ["f", from=1-2, to=2-2]
+       \arrow [" \textrm {id} "', from=1-1, to=2-1]
+       \arrow [" \textrm {id} ", from=1-1, to=1-2]
+       \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+     \end {tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span></fr:p>
+
+  <fr:p>
+    For the forward implication, we consider the diagram
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="4e7e5550d584b8a61f9c4c514dcf3f41"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzcd} 
+      Z  \\ 
+      &amp; X &amp; X  \\ 
+      &amp; X &amp; Y
+       \arrow ["f"', from=3-2, to=3-3]
+       \arrow ["f", from=2-3, to=3-3]
+       \arrow [" \textrm {id} "', from=2-2, to=3-2]
+       \arrow [" \textrm {id} ", from=2-2, to=2-3]
+       \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=2-2, to=3-3]
+       \arrow [dashed, from=1-1, to=2-2]
+       \arrow ["g"', curve={height=6pt}, from=1-1, to=3-2]
+       \arrow ["h", curve={height=-6pt}, from=1-1, to=2-3]
+     \end {tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    Since <fr:tex>f</fr:tex> is mono, this diagram commutes iff <fr:tex>g = h</fr:tex>, in which case there is a unique way to fill in the dashed arrow, which is <fr:tex>g</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    On the other hand, if the diagram is a pullback, then for every pair of morphisms <fr:tex>g, h : Z  \rightrightarrows  X</fr:tex>, we can draw the diagram above, and obtain the dashed arrow <fr:tex>k : Z  \to  X</fr:tex>. The diagram commuting implies <fr:tex>g =  \textrm {id}   \circ  k = h</fr:tex>.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -21,11 +72,11 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1856</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000Y</fr:addr><fr:route>hmlg-000Y.xml</fr:route><fr:title>Equalizers can be reduced to kernels in <fr:tex>\mathsf { Ab }</fr:tex>-enriched categories</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1933</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000Z</fr:addr><fr:route>hmlg-000Z.xml</fr:route><fr:title>Monomorphisms can be expressed using finite limits</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  We can express equalizers with kernels (which are equalizers with the zero morphism).
+  Given a morphism <fr:tex>f : X  \to  Y</fr:tex> in an arbitrary category, we can express the condition of being monic using finite limits.
 </fr:p>
   
     
@@ -36,12 +87,63 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1854</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1931</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Y</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Z</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We simply need to note that an equalizer for <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> is equivalent to an equalizer for <fr:tex>(f-g)</fr:tex> and <fr:tex>0</fr:tex>, by bilinearity of composition.
+    We claim that <fr:tex>f</fr:tex> being monic is equivalent to the following square being a pullback square:
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="0ccf5978b23246e6e2899388dd0bc4ec"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzcd} 
+      X &amp; X  \\ 
+      X &amp; Y
+       \arrow ["f"', from=2-1, to=2-2]
+       \arrow ["f", from=1-2, to=2-2]
+       \arrow [" \textrm {id} "', from=1-1, to=2-1]
+       \arrow [" \textrm {id} ", from=1-1, to=1-2]
+       \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+     \end {tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span></fr:p>
+
+  <fr:p>
+    For the forward implication, we consider the diagram
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="4e7e5550d584b8a61f9c4c514dcf3f41"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzcd} 
+      Z  \\ 
+      &amp; X &amp; X  \\ 
+      &amp; X &amp; Y
+       \arrow ["f"', from=3-2, to=3-3]
+       \arrow ["f", from=2-3, to=3-3]
+       \arrow [" \textrm {id} "', from=2-2, to=3-2]
+       \arrow [" \textrm {id} ", from=2-2, to=2-3]
+       \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=2-2, to=3-3]
+       \arrow [dashed, from=1-1, to=2-2]
+       \arrow ["g"', curve={height=6pt}, from=1-1, to=3-2]
+       \arrow ["h", curve={height=-6pt}, from=1-1, to=2-3]
+     \end {tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    Since <fr:tex>f</fr:tex> is mono, this diagram commutes iff <fr:tex>g = h</fr:tex>, in which case there is a unique way to fill in the dashed arrow, which is <fr:tex>g</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    On the other hand, if the diagram is a pullback, then for every pair of morphisms <fr:tex>g, h : Z  \rightrightarrows  X</fr:tex>, we can draw the diagram above, and obtain the dashed arrow <fr:tex>k : Z  \to  X</fr:tex>. The diagram commuting implies <fr:tex>g =  \textrm {id}   \circ  k = h</fr:tex>.
   </fr:p>
 </fr:mainmatter></fr:tree>
   

@@ -7,63 +7,19 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1852</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1812</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Z</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0018</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We claim that <fr:tex>f</fr:tex> being monic is equivalent to the following square being a pullback square:
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="0ccf5978b23246e6e2899388dd0bc4ec"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzcd} 
-      X &amp; X  \\ 
-      X &amp; Y
-       \arrow ["f"', from=2-1, to=2-2]
-       \arrow ["f", from=1-2, to=2-2]
-       \arrow [" \textrm {id} "', from=1-1, to=2-1]
-       \arrow [" \textrm {id} ", from=1-1, to=1-2]
-       \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
-     \end {tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span></fr:p>
-
-  <fr:p>
-    For the forward implication, we consider the diagram
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="4e7e5550d584b8a61f9c4c514dcf3f41"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzcd} 
-      Z  \\ 
-      &amp; X &amp; X  \\ 
-      &amp; X &amp; Y
-       \arrow ["f"', from=3-2, to=3-3]
-       \arrow ["f", from=2-3, to=3-3]
-       \arrow [" \textrm {id} "', from=2-2, to=3-2]
-       \arrow [" \textrm {id} ", from=2-2, to=2-3]
-       \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=2-2, to=3-3]
-       \arrow [dashed, from=1-1, to=2-2]
-       \arrow ["g"', curve={height=6pt}, from=1-1, to=3-2]
-       \arrow ["h", curve={height=-6pt}, from=1-1, to=2-3]
-     \end {tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-    Since <fr:tex>f</fr:tex> is mono, this diagram commutes iff <fr:tex>g = h</fr:tex>, in which case there is a unique way to fill in the dashed arrow, which is <fr:tex>g</fr:tex>.
+    Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.
   </fr:p>
 
   <fr:p>
-    On the other hand, if the diagram is a pullback, then for every pair of morphisms <fr:tex>g, h : Z  \rightrightarrows  X</fr:tex>, we can draw the diagram above, and obtain the dashed arrow <fr:tex>k : Z  \to  X</fr:tex>. The diagram commuting implies <fr:tex>g =  \textrm {id}   \circ  k = h</fr:tex>.
+    On the other hand, <fr:link
+href="todo.xml"
+type="local"
+addr="todo">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex>f : C_ \bullet   \to  D_ \bullet</fr:tex> is a quasi-isomorphism, <fr:tex>H_n (f)</fr:tex> are all isomorphisms. Therefore <fr:tex>H_n (F(f)) = F(H_n(f))</fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -72,11 +28,23 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1850</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000Z</fr:addr><fr:route>hmlg-000Z.xml</fr:route><fr:title>Monomorphisms can be expressed using finite limits</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1810</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0018</fr:addr><fr:route>hmlg-0018.xml</fr:route><fr:title>An additive functor is exact iff it preserves quasi-isomorphisms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a morphism <fr:tex>f : X  \to  Y</fr:tex> in an arbitrary category, we can express the condition of being monic using finite limits.
+  Given an <fr:link
+href="hmlg-000S.xml"
+type="local"
+addr="hmlg-000S">additive functor</fr:link> <fr:tex>F :  \mathcal { A }   \to   \mathcal { B }</fr:tex> between <fr:link
+href="hmlg-000Q.xml"
+type="local"
+addr="hmlg-000Q">abelian categories</fr:link>, it is <fr:link
+href="hmlg-000X.xml"
+type="local"
+addr="hmlg-000X">exact</fr:link> iff it sends <fr:link
+href="hmlg-000C.xml"
+type="local"
+addr="hmlg-000C">quasi-isomorphisms</fr:link> to quasi-isomorphisms.
 </fr:p>
   
     
@@ -87,64 +55,123 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1848</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1808</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Z</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0018</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We claim that <fr:tex>f</fr:tex> being monic is equivalent to the following square being a pullback square:
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="0ccf5978b23246e6e2899388dd0bc4ec"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzcd} 
-      X &amp; X  \\ 
-      X &amp; Y
-       \arrow ["f"', from=2-1, to=2-2]
-       \arrow ["f", from=1-2, to=2-2]
-       \arrow [" \textrm {id} "', from=1-1, to=2-1]
-       \arrow [" \textrm {id} ", from=1-1, to=1-2]
-       \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
-     \end {tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span></fr:p>
-
-  <fr:p>
-    For the forward implication, we consider the diagram
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="4e7e5550d584b8a61f9c4c514dcf3f41"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzcd} 
-      Z  \\ 
-      &amp; X &amp; X  \\ 
-      &amp; X &amp; Y
-       \arrow ["f"', from=3-2, to=3-3]
-       \arrow ["f", from=2-3, to=3-3]
-       \arrow [" \textrm {id} "', from=2-2, to=3-2]
-       \arrow [" \textrm {id} ", from=2-2, to=2-3]
-       \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=2-2, to=3-3]
-       \arrow [dashed, from=1-1, to=2-2]
-       \arrow ["g"', curve={height=6pt}, from=1-1, to=3-2]
-       \arrow ["h", curve={height=-6pt}, from=1-1, to=2-3]
-     \end {tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-    Since <fr:tex>f</fr:tex> is mono, this diagram commutes iff <fr:tex>g = h</fr:tex>, in which case there is a unique way to fill in the dashed arrow, which is <fr:tex>g</fr:tex>.
+    Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.
   </fr:p>
 
   <fr:p>
-    On the other hand, if the diagram is a pullback, then for every pair of morphisms <fr:tex>g, h : Z  \rightrightarrows  X</fr:tex>, we can draw the diagram above, and obtain the dashed arrow <fr:tex>k : Z  \to  X</fr:tex>. The diagram commuting implies <fr:tex>g =  \textrm {id}   \circ  k = h</fr:tex>.
+    On the other hand, <fr:link
+href="todo.xml"
+type="local"
+addr="todo">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex>f : C_ \bullet   \to  D_ \bullet</fr:tex> is a quasi-isomorphism, <fr:tex>H_n (f)</fr:tex> are all isomorphisms. Therefore <fr:tex>H_n (F(f)) = F(H_n(f))</fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1807</fr:anchor><fr:taxon>Meta</fr:taxon><fr:addr>todo</fr:addr><fr:route>todo.xml</fr:route><fr:title>Unfinished trees</fr:title></fr:frontmatter><fr:mainmatter><fr:p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>926</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-002D</fr:addr><fr:route>hmlg-002D.xml</fr:route><fr:title>Associated twisted product</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  We can construct the <fr:link
+href="hmlg-002C.xml"
+type="local"
+addr="hmlg-002C">associated simplicial fiber bundle</fr:link> of <fr:link
+href="hmlg-002B.xml"
+type="local"
+addr="hmlg-002B">twisted products</fr:link>. This can be expanded to a more simple description. Suppose we have simplicial sets <fr:tex>F, B</fr:tex>, a simplicial group <fr:tex>G</fr:tex> with an action <fr:tex>G  \times  F  \to  F</fr:tex> and a <fr:link
+href="hmlg-002A.xml"
+type="local"
+addr="hmlg-002A">twisting function</fr:link> <fr:tex>\tau</fr:tex> on <fr:tex>B</fr:tex>. The <fr:strong>associated twisted product</fr:strong> is defined similarly to twisted products (... left/right!)
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>928</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001M</fr:addr><fr:route>hmlg-001M.xml</fr:route><fr:title>Chain reduction of mapping cones</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a pair of <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reductions</fr:link> <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex> and <fr:tex>\rho ' : C'  \Rightarrow \mkern {-14mu} \Rightarrow  D'</fr:tex>, we can construct a reduction from the mapping cone <fr:tex>\operatorname {Cone} (f)</fr:tex> of a chain map <fr:tex>f : C  \to  C'</fr:tex> to (the action of <fr:tex>\rho</fr:tex> on <fr:tex>f</fr:tex>).
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>930</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  This is a set of notes on effective homology and algebraic topology. Main references are <fr:link
+href="constructive-homological-algebra.xml"
+type="local"
+addr="constructive-homological-algebra">Constructive Homological Algebra and Applications</fr:link> and <fr:link
+href="discrete-vector-fields.xml"
+type="local"
+addr="discrete-vector-fields">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. We assume basic familiarity with the classical aspects of the theory, although there will also be links within this forest to the relevant concepts.
+</fr:p><fr:ul><fr:li><fr:link
+href="hmlg-0021.xml"
+type="local"
+addr="hmlg-0021">W-bar construction</fr:link>, simplicial principal bundles, twisted products by <fr:link
+href="simplicial-objects.xml"
+type="local"
+addr="simplicial-objects">Simplicial objects in algebraic topology</fr:link></fr:li>
+  <fr:li>classifying space, loop space</fr:li>
+  <fr:li>composition of <fr:link
+href="hmlg-001I.xml"
+type="local"
+addr="hmlg-001I">strong homology equivalence</fr:link>, tensor product, cone, bicomplex</fr:li>
+  <fr:li>simplicial group, Kan complex</fr:li>
+  <fr:li>organize into notes</fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>934</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000F</fr:addr><fr:route>hmlg-000F.xml</fr:route><fr:title>Freyd–Mitchell embedding theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex>R</fr:tex>-modules for some ring <fr:tex>R</fr:tex>.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>932</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  (TODO)
+</fr:p></fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

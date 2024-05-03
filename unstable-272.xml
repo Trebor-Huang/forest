@@ -7,12 +7,31 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1162</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1239</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0010</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0012</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We claim that <fr:tex>\operatorname {Proj} (S)</fr:tex> can alternatively be given by gluing affine schemes. We assign <fr:tex>D_+ (f)</fr:tex> the affine scheme <fr:tex>\operatorname {Spec} (S[f^{-1}]_0)</fr:tex> (which is possible because the open subspace <fr:tex>D_+ (f)</fr:tex> is homeomorphic to <fr:tex>\operatorname {Spec} (S[f^{-1}]_0)</fr:tex> as a space). Given two positively graded elements <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex>, we have an isomorphism between <fr:tex>\operatorname {Proj} (S)</fr:tex> restricted to <fr:tex>D_+ (f g)</fr:tex> and <fr:tex>\operatorname {Spec} (S[f^{-1}]_0)</fr:tex> restricted to <fr:tex>D(g^{ \deg  f}/f^{ \deg  g})</fr:tex>, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.
+    To specify a point <fr:tex>P</fr:tex>, we need to specify which opens <fr:tex>D_+(f)</fr:tex> it belongs to, where <fr:tex>f</fr:tex> ranges over positively graded elements. Equivalently, we specify the closeds <fr:tex>V_+(f)</fr:tex>. Since <fr:tex>V_+(f)  \cap  V_+(g)  \subseteq  V_+(f + g)</fr:tex>, if <fr:tex>P  \in  V_+(f)</fr:tex> and <fr:tex>P  \in  V_+(g)</fr:tex> then <fr:tex>P  \in  V_+(f + g)</fr:tex>. Similarly since <fr:tex>V_+(f)  \subseteq  V_+(f g)</fr:tex>, <fr:tex>P  \in  V_+(f)</fr:tex> implies <fr:tex>P  \in  V_+(f g)</fr:tex>. Collecting all the elements whose distinguished closed contains <fr:tex>P</fr:tex>, we get an ideal <fr:tex>\mathfrak { a }</fr:tex> whose zeroth degree vanishes.
+  </fr:p>
+
+  <fr:p>
+    We have <fr:tex>V_+(f g) = V_+(f)  \cup  V_+(g)</fr:tex>, so if <fr:tex>\mathfrak { a }   \mid  f g</fr:tex>, then either <fr:tex>\mathfrak { a }   \mid  f</fr:tex> or <fr:tex>\mathfrak { a }   \mid  g</fr:tex>. This is almost the condition for prime ideals, but recall that <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with <fr:ref
+addr="algm-0011"
+href="algm-0011.xml"
+taxon="Theorem"></fr:ref>.
+  </fr:p>
+
+  <fr:p>
+    Next, we prove these ideals are in bijection with prime ideals not dividing <fr:tex>\mathord { \odot }</fr:tex>. One direction of the correspondence is obvious: we take a prime ideal <fr:tex>\mathfrak { p }</fr:tex> and remove the zeroth degree, which amounts to taking <fr:tex>\operatorname {lcm} ( \mathfrak { p } ,  \mathord { \odot } )</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    We prove injectivity. Suppose primes <fr:tex>\mathfrak { p }</fr:tex> and <fr:tex>\mathfrak { q }</fr:tex> satisfy <fr:tex>\operatorname {lcm} ( \mathfrak { p } ,  \mathord { \odot } ) =  \operatorname {lcm} ( \mathfrak { q } ,  \mathord { \odot } )</fr:tex>, then <fr:tex>\mathfrak { p }   \mid   \operatorname {lcm} ( \mathfrak { q } ,  \mathord { \odot } )  \mid   \mathfrak { q }   \cdot   \mathord { \odot }</fr:tex>, so either <fr:tex>\mathfrak { p }   \mid   \mathord { \odot }</fr:tex> which is forbidden, or <fr:tex>\mathfrak { p }   \mid   \mathfrak { q }</fr:tex>. Conversely we must have <fr:tex>\mathfrak { q }   \mid   \mathfrak { p }</fr:tex>, hence <fr:tex>\mathfrak { p }  =  \mathfrak { q }</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    We prove surjectivity. Given an ideal <fr:tex>\mathfrak { a }</fr:tex>, we need to supplement it with a zeroth degree component <fr:tex>\mathfrak { a } _0</fr:tex> so that together they make a prime ideal not divided by <fr:tex>\mathord { \odot }</fr:tex>. We define <fr:tex>\mathfrak { a } _0  \mid  c</fr:tex> iff there exists some positively graded <fr:tex>\mathfrak { a }   \nmid  f</fr:tex> such that <fr:tex>\mathfrak { a }   \mid  cf</fr:tex>. The verification is routine element chasing.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -21,20 +40,18 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1160</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0010</fr:addr><fr:route>algm-0010.xml</fr:route><fr:title>Structure sheaf of <fr:tex>\operatorname {Proj} (S)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1237</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0012</fr:addr><fr:route>algm-0012.xml</fr:route><fr:title>Points of the projective spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Fix a <fr:link
-href="hmlg-001L.xml"
-type="local"
-addr="hmlg-001L">graded ring</fr:link> <fr:tex>S</fr:tex>. For a positively graded element <fr:tex>f</fr:tex>, we have a graded ring localization <fr:tex>S[f^{-1}]_ \bullet</fr:tex>. Let <fr:tex>\Gamma (D_+(f),  \mathscr { O } )</fr:tex> be the zeroth degree component <fr:tex>S[f^{-1}]_0</fr:tex>. This defines a sheaf over the <fr:link
+  The points of the <fr:link
 href="algm-000Y.xml"
 type="local"
-addr="algm-000Y">projective spectrum</fr:link>, and moreover gives a <fr:link
-href="algm-000R.xml"
+addr="algm-000Y">projective scheme</fr:link> <fr:tex>\operatorname {Proj} (S)</fr:tex> are given by prime ideals not dividing the <fr:link
+href="algm-0013.xml"
 type="local"
-addr="algm-000R">scheme</fr:link> <fr:tex>\operatorname {Proj} (S)</fr:tex>.
+addr="algm-0013">irrelevant ideal</fr:link> <fr:tex>\mathord { \odot }</fr:tex>. This is in bijection with ideals with <fr:tex>\mathfrak { p } _0 = 0</fr:tex> (equivalently <fr:tex>\mathord { \odot }   \nmid   \mathfrak { p }</fr:tex>), and the condition for prime ideals holds for positively graded elements, i.e. <fr:tex
+display="block">\mathfrak { p }   \mid  x y  \iff  ( \mathfrak { p }   \mid  x  \lor   \mathfrak { p }   \mid  y)</fr:tex> for positively graded <fr:tex>x</fr:tex> and <fr:tex>y</fr:tex>.
 </fr:p>
   
     
@@ -45,13 +62,50 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1158</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1235</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0010</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0012</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We claim that <fr:tex>\operatorname {Proj} (S)</fr:tex> can alternatively be given by gluing affine schemes. We assign <fr:tex>D_+ (f)</fr:tex> the affine scheme <fr:tex>\operatorname {Spec} (S[f^{-1}]_0)</fr:tex> (which is possible because the open subspace <fr:tex>D_+ (f)</fr:tex> is homeomorphic to <fr:tex>\operatorname {Spec} (S[f^{-1}]_0)</fr:tex> as a space). Given two positively graded elements <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex>, we have an isomorphism between <fr:tex>\operatorname {Proj} (S)</fr:tex> restricted to <fr:tex>D_+ (f g)</fr:tex> and <fr:tex>\operatorname {Spec} (S[f^{-1}]_0)</fr:tex> restricted to <fr:tex>D(g^{ \deg  f}/f^{ \deg  g})</fr:tex>, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.
+    To specify a point <fr:tex>P</fr:tex>, we need to specify which opens <fr:tex>D_+(f)</fr:tex> it belongs to, where <fr:tex>f</fr:tex> ranges over positively graded elements. Equivalently, we specify the closeds <fr:tex>V_+(f)</fr:tex>. Since <fr:tex>V_+(f)  \cap  V_+(g)  \subseteq  V_+(f + g)</fr:tex>, if <fr:tex>P  \in  V_+(f)</fr:tex> and <fr:tex>P  \in  V_+(g)</fr:tex> then <fr:tex>P  \in  V_+(f + g)</fr:tex>. Similarly since <fr:tex>V_+(f)  \subseteq  V_+(f g)</fr:tex>, <fr:tex>P  \in  V_+(f)</fr:tex> implies <fr:tex>P  \in  V_+(f g)</fr:tex>. Collecting all the elements whose distinguished closed contains <fr:tex>P</fr:tex>, we get an ideal <fr:tex>\mathfrak { a }</fr:tex> whose zeroth degree vanishes.
+  </fr:p>
+
+  <fr:p>
+    We have <fr:tex>V_+(f g) = V_+(f)  \cup  V_+(g)</fr:tex>, so if <fr:tex>\mathfrak { a }   \mid  f g</fr:tex>, then either <fr:tex>\mathfrak { a }   \mid  f</fr:tex> or <fr:tex>\mathfrak { a }   \mid  g</fr:tex>. This is almost the condition for prime ideals, but recall that <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with <fr:ref
+addr="algm-0011"
+href="algm-0011.xml"
+taxon="Theorem"></fr:ref>.
+  </fr:p>
+
+  <fr:p>
+    Next, we prove these ideals are in bijection with prime ideals not dividing <fr:tex>\mathord { \odot }</fr:tex>. One direction of the correspondence is obvious: we take a prime ideal <fr:tex>\mathfrak { p }</fr:tex> and remove the zeroth degree, which amounts to taking <fr:tex>\operatorname {lcm} ( \mathfrak { p } ,  \mathord { \odot } )</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    We prove injectivity. Suppose primes <fr:tex>\mathfrak { p }</fr:tex> and <fr:tex>\mathfrak { q }</fr:tex> satisfy <fr:tex>\operatorname {lcm} ( \mathfrak { p } ,  \mathord { \odot } ) =  \operatorname {lcm} ( \mathfrak { q } ,  \mathord { \odot } )</fr:tex>, then <fr:tex>\mathfrak { p }   \mid   \operatorname {lcm} ( \mathfrak { q } ,  \mathord { \odot } )  \mid   \mathfrak { q }   \cdot   \mathord { \odot }</fr:tex>, so either <fr:tex>\mathfrak { p }   \mid   \mathord { \odot }</fr:tex> which is forbidden, or <fr:tex>\mathfrak { p }   \mid   \mathfrak { q }</fr:tex>. Conversely we must have <fr:tex>\mathfrak { q }   \mid   \mathfrak { p }</fr:tex>, hence <fr:tex>\mathfrak { p }  =  \mathfrak { q }</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    We prove surjectivity. Given an ideal <fr:tex>\mathfrak { a }</fr:tex>, we need to supplement it with a zeroth degree component <fr:tex>\mathfrak { a } _0</fr:tex> so that together they make a prime ideal not divided by <fr:tex>\mathord { \odot }</fr:tex>. We define <fr:tex>\mathfrak { a } _0  \mid  c</fr:tex> iff there exists some positively graded <fr:tex>\mathfrak { a }   \nmid  f</fr:tex> such that <fr:tex>\mathfrak { a }   \mid  cf</fr:tex>. The verification is routine element chasing.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1233</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0011</fr:addr><fr:route>algm-0011.xml</fr:route><fr:title>Characterization of the locale <fr:tex>\operatorname {Proj} (S)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The opens of the <fr:link
+href="algm-000Y.xml"
+type="local"
+addr="algm-000Y">projective spectrum</fr:link> <fr:tex>\operatorname {Proj} (S)</fr:tex> are in bijection with graded radical ideals with <fr:tex>\mathfrak { r } _0 = 0</fr:tex>. Hence we write <fr:tex>D_+ ( \mathfrak { r } )</fr:tex> for this open. The proof is exactly the same as <fr:ref
+addr="algm-0008"
+href="algm-0008.xml"
+taxon="Theorem"></fr:ref>.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>346</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0026</fr:addr><fr:route>hmlg-0026.xml</fr:route><fr:title>Simplicial fiber bundle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  A (strict) <fr:strong>simplicial fiber bundle</fr:strong> <fr:tex>p : E  \to  B</fr:tex> with fiber <fr:tex>F</fr:tex> is a simplicial map <fr:tex>p</fr:tex> such that for every simplex <fr:tex>\Delta ^n  \to  B</fr:tex>, the pullback of <fr:tex>p</fr:tex> along the simplex is isomorphic to <fr:tex>\Delta ^n  \times  F  \to   \Delta ^n</fr:tex>.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>340</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-002C</fr:addr><fr:route>hmlg-002C.xml</fr:route><fr:title>Associated simplicial fiber bundle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a <fr:link
+href="hmlg-0028.xml"
+type="local"
+addr="hmlg-0028">simplicial principal fiber bundle</fr:link> <fr:tex>p : E  \to  B</fr:tex> with simplicial group <fr:tex>G</fr:tex>, and a simplicial set <fr:tex>F</fr:tex> with a group action <fr:tex>G  \times  F  \to  F</fr:tex>, we can construct a fiber bundle with fiber <fr:tex>F</fr:tex>, such that the twisting behaviour is described by the principal bundle <fr:tex>p</fr:tex>.
+</fr:p><fr:p>
+  We consider a group action on <fr:tex>E  \times  F</fr:tex>, by <fr:tex>g  \cdot  (e, f) = (g  \cdot  e, g  \cdot  f)</fr:tex>. This action is clearly free. Suppose the quotient simplicial set is <fr:tex>E'</fr:tex>, then we have a <fr:link
+href="hmlg-0026.xml"
+type="local"
+addr="hmlg-0026">simplicial fiber bundle</fr:link> <fr:tex>p' : E'  \to  B</fr:tex> induced from <fr:tex>p</fr:tex>. There is a <fr:tex>G</fr:tex>-action on the fibers, by acting on the <fr:tex>F</fr:tex> factor.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>342</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0029</fr:addr><fr:route>hmlg-0029.xml</fr:route><fr:title>Kan fiber bundle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a <fr:link
+href="hmlg-0026.xml"
+type="local"
+addr="hmlg-0026">simplicial fiber bundle</fr:link> <fr:tex>p : E  \to  B</fr:tex>, it is a Kan fibration iff the fiber <fr:tex>F</fr:tex> is a Kan complex. Hence we call it a <fr:strong>Kan fiber bundle</fr:strong>. The proof yields an <fr:link
+href="hmlg-0027.xml"
+type="local"
+addr="hmlg-0027">effective Kan fibration</fr:link> if all the inputs are effective.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>322</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0029</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    Given a horn <fr:tex>\Lambda ^n_k  \to  E</fr:tex> and a compatible simplex <fr:tex>\Delta ^n  \to  B</fr:tex>, by the definition of simplicial fiber bundles, we may trivialize the bundle on the simplex locally. But since <fr:tex>F</fr:tex> is Kan, obviously <fr:tex>F  \times   \Delta ^n  \to   \Delta ^n</fr:tex> is also Kan. Hence we may select the required filling.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>344</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0028</fr:addr><fr:route>hmlg-0028.xml</fr:route><fr:title>Simplicial principal fiber bundle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a simplicial group <fr:tex>G</fr:tex>, a <fr:link
+href="hmlg-0026.xml"
+type="local"
+addr="hmlg-0026">fiber bundle</fr:link> <fr:tex>p : E  \to  B</fr:tex> is <fr:strong>principal</fr:strong> if <fr:tex>G</fr:tex> acts on the fibers freely and transitively. This condition can be checked in each dimension separately.
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
