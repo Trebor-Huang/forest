@@ -1,0 +1,15 @@
+\date{2024-04-29}
+\title{Kan fiber bundle}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [[hmlg-0026]] #{p : E \to B}, it is a Kan fibration iff the fiber #{F} is a Kan complex. Hence we call it a \strong{Kan fiber bundle}. The proof yields an [[hmlg-0027]] if all the inputs are effective.
+}
+
+\proof{
+  \p{
+    Given a horn #{\Lambda^n_k \to E} and a compatible simplex #{\Delta^n \to B}, by the definition of simplicial fiber bundles, we may trivialize the bundle on the simplex locally. But since #{F} is Kan, obviously #{F \times \Delta^n \to \Delta^n} is also Kan. Hence we may select the required filling.
+  }
+}

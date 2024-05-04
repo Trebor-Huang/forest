@@ -1,0 +1,9 @@
+\date{2024-04-29}
+\title{simplicial fiber bundle}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  A (strict) \strong{simplicial fiber bundle} #{p : E \to B} with fiber #{F} is a simplicial map #{p} such that for every simplex #{\Delta^n \to B}, the pullback of #{p} along the simplex is isomorphic to #{\Delta^n \times F \to \Delta^n}.
+}

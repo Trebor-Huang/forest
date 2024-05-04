@@ -1,0 +1,13 @@
+\date{2024-05-02}
+\title{associated simplicial fiber bundle}
+\taxon{construction}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [[hmlg-0028]] #{p : E \to B} with simplicial group #{G}, and a simplicial set #{F} with a group action #{G \times F \to F}, we can construct a fiber bundle with fiber #{F}, such that the twisting behaviour is described by the [principal bundle](hmlg-0028) #{p}.
+}
+
+\p{
+  We consider a group action on #{E \times F}, by #{g \cdot (e, f) = (e \cdot g^{-1}, g \cdot f)}. This action is clearly free. Suppose the quotient simplicial set is #{E'}, then we have a [[hmlg-0026]] #{p' : E' \to B} induced from #{p}. There is a #{G}-action on the fibers, by acting on the #{F} factor.
+}

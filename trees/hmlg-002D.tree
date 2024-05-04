@@ -1,0 +1,14 @@
+\date{2024-05-03}
+\title{associated twisted product}
+\taxon{construction}
+\tag{unfinished}
+\author{trebor}
+\import{common}
+
+\p{
+  The [[hmlg-002C]] of [twisted products](hmlg-002B) admits a simpler description. Suppose we have simplicial sets #{F, B}, a simplicial group #{G} with an action #{G \times F \to F} and a [[hmlg-002A]] #{\tau} on #{B}. The \strong{associated twisted product} #{B \times_\tau F} is defined exactly the same as twisted products, except we replace the factor #{G} with #{F}. This still makes sense, because we can interpret the multiplication #{\tau(b) \cdot \partial_n f} as the #{G}-action.
+}
+
+\p{
+  In particular, if we consider #{G} as a simplicial set with a #{G}-action on the left via multiplication, then the associated twisted product #{B \times_\tau F} is exactly the same as the twisted product #{B \times_\tau F}, which explains our identical notation.
+}

@@ -1,10 +1,34 @@
 \date{2024-04-28}
 \title{W-bar construction}
 \taxon{construction}
-\tag{unfinished}
 \author{trebor}
 \import{common}
 
 \p{
-  Given a simplicial group, we can define a model of its universal principal bundle #{\DeloopE G \to \DeloopB G} as simplicial sets #{\W G \to \Wbar G}.
+  Given a simplicial group, we can define a model of its universal principal bundle #{\DeloopE G \to \DeloopB G} as simplicial sets #{\W G \to \Wbar G}. This is a generalization of the [[hmlg-001W]], if we consider a group #{G} as a discrete simplicial set.
+}
+
+\p{
+  We define the #{n}-simplices of #{\W G} to be
+  ##{(\W G)_n = G_0 \times G_1 \times \cdots \times G_n}
+  so that #{G_n} acts on #{(\W G)_n} by taking the face map that discards the last #{k} vertices for each #{k}, and then acting on the appropriate factor on the right. This forces the face maps and degeneracy maps to be
+  ##{\begin{aligned}
+    \partial_k (g_0, \dots, g_n) &=
+      (g_0, \dots, g_{k-1}, \partial_k g_{k+1}, \dots, \partial_k g_n), \\
+    \sigma_k (g_0, \dots, g_n) &=
+      (g_0, \dots, g_{k}, \sigma_k g_{k}, \dots, \sigma_k g_n).
+  \end{aligned}}
+  We define #{\Wbar G} to be #{\W G} quotiented by the action of #{G}. This can be represented as #{(\Wbar G)_n = G_0 \times \cdots \times G_{n-1}},
+  with the quotient map #{(\W G)_n \surject (\Wbar G)_n} given by
+  ##{(g_0, \dots, g_n) \mapsto (g_0 (\partial_1 g_1)^{-1}, \dots, g_{n-1} (\partial_n g_n)^{-1}).}
+  The face and degeneracy maps can then be computed to be
+  ##{\begin{aligned}
+    \partial_k (g_0, \dots, g_{n-1}) &=
+      (g_0, g_1, \dots, g_{k-1} \cdot \partial_k g_k, \partial_k g_{k+1}, \dots, \partial_k g_{n-1}), \\
+    \partial_n (g_0, \dots, g_{n-1}) &=
+      (g_0, g_1, \dots, g_{n-2}) \\
+    \sigma_k (g_0, \dots, g_{n-1}) &=
+      (g_0, g_1, \dots, g_{k-1}, 1, \sigma_k g_{k}, \dots, \sigma_k g_{n-1}).
+  \end{aligned}}
+  A quick computation shows that this indeed produces a [[hmlg-0028]] with fiber #{G}.
 }

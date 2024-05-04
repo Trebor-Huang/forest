@@ -1,0 +1,20 @@
+\date{2024-05-01}
+\title{twisting function}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a simplicial group #{G}, a twisting function on a simplicial set #{B} is a simplicial map #{B \to \Wbar G} to the [[hmlg-0021]]. It represents a cocycle valued in #{G}. Recall that #{(\Wbar G)_n = G_0 \times \cdots \times G_{n-1}}. Taking the face map #{\partial_{n}} reveals that all but the last component of the map #{B_n \to (\Wbar G)_n} are determined by the lower dimension maps. Hence we can obtain a more minimalistic combinatorial description.
+}
+
+\p{
+  A \strong{twisting function} #{\tau} is a family of maps #{\tau_n : B_n \to G_{n-1}} such that
+  ##{\begin{aligned}
+    \tau(\partial_k b) &= \partial_k \tau(b) && (k < n-1)\\
+    \tau(\partial_{n-1} b) &= \partial_{n-1} \tau(b) \cdot \tau(\partial_n b) \\
+    \tau(\sigma_k b) &= \sigma_k \tau(b) && (k < n)\\
+    \tau(\sigma_n b) &= 1
+  \end{aligned}}
+  The corresponding simplicial map #{B_n \to (\Wbar G)_n} is then computed by discarding the last #{k} vertices of the input #{b \in B_n} for #{1 \le k \le n}, apply them to #{\tau} and placing them at the correct components.
+}

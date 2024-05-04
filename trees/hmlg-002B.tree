@@ -1,0 +1,20 @@
+\date{2024-05-01}
+\title{twisted product of simplicial sets}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a simplicial set #{B}, a simplicial group #{G} with a [[hmlg-002A]] #{\tau}, the \strong{twisted product} is the pullback #{B \times_{\Wbar G} \W G} with the [[hmlg-0021]]. We write #{B \times_\tau G} so as to make explicit the twisting function. This is a [[hmlg-0028]].
+}
+
+\p{
+  More explicitly, we define #{B \times_\tau G} to be the same as the Cartesian product #{B \times G}, but with one face map altered. The pair #{(b, g)} represents the element in #{B \times_{\Wbar G} \W G} whose first component is #{b \in B}, and the second component is #{(g_0, \dots, g_n) \in \W G}, where each element is an iterated product
+  ##{\begin{aligned}
+    g_n &= g \\
+    g_{k-1} &= \tau(\partial_{k+1} \cdots \partial_n b) \cdot (\partial_{k} g_{k}).
+  \end{aligned}}
+  This forces the last face map to be
+  ##{\partial_n (b, g) = (\partial_n b, \tau(b) \cdot \partial_n g),}
+  and the other face and degeneracy maps are unchanged.
+}
