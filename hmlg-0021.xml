@@ -7,28 +7,31 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>398</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-0021</fr:addr><fr:route>hmlg-0021.xml</fr:route><fr:title>W-bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>408</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-0021</fr:addr><fr:route>hmlg-0021.xml</fr:route><fr:title>W-bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given a simplicial group, we can define a model of its universal principal bundle <fr:tex>\mathbf {E}  G  \to   \mathbf {B}  G</fr:tex> as simplicial sets <fr:tex>W  G  \to   \bar {W}  G</fr:tex>. This is a generalization of the <fr:link
 href="hmlg-001W.xml"
 type="local"
-addr="hmlg-001W">bar construction</fr:link>, if we consider a group <fr:tex>G</fr:tex> as a discrete simplicial set.
+addr="hmlg-001W">bar construction</fr:link>, if we consider a group <fr:tex>G</fr:tex> as a discrete simplicial set. It classifies principal <fr:tex>G</fr:tex>-bundles in the sense of Theorem 21.13 in <fr:link
+href="simplicial-objects.xml"
+type="local"
+addr="simplicial-objects">Simplicial objects in algebraic topology</fr:link>.
 </fr:p><fr:p>
   We define the <fr:tex>n</fr:tex>-simplices of <fr:tex>W  G</fr:tex> to be
   <fr:tex
 display="block">( W  G)_n = G_0  \times  G_1  \times   \cdots   \times  G_n</fr:tex>
-  so that <fr:tex>G_n</fr:tex> acts on <fr:tex>( W  G)_n</fr:tex> by taking the face map that discards the last <fr:tex>k</fr:tex> vertices for each <fr:tex>k</fr:tex>, and then acting on the appropriate factor. This forces the face maps and degeneracy maps to be
+  so that <fr:tex>G_n</fr:tex> acts on <fr:tex>( W  G)_n</fr:tex> by taking the face map that discards the last <fr:tex>k</fr:tex> vertices for each <fr:tex>k</fr:tex>, and then acting on the appropriate factor on the right. This forces the face maps and degeneracy maps to be
   <fr:tex
 display="block">\begin {aligned}      \partial _k (g_0,  \dots , g_n) &amp;=       (g_0,  \dots , g_{k-1},  \partial _k g_{k+1},  \dots ,  \partial _k g_n),  \\       \sigma _k (g_0,  \dots , g_n) &amp;=       (g_0,  \dots , g_{k},  \sigma _k g_{k},  \dots ,  \sigma _k g_n).    \end {aligned}</fr:tex>
   We define <fr:tex>\bar {W}  G</fr:tex> to be <fr:tex>W  G</fr:tex> quotiented by the action of <fr:tex>G</fr:tex>. This can be represented as <fr:tex>( \bar {W}  G)_n = G_0  \times   \cdots   \times  G_{n-1}</fr:tex>,
   with the quotient map <fr:tex>( W  G)_n  \twoheadrightarrow  ( \bar {W}  G)_n</fr:tex> given by
   <fr:tex
-display="block">(g_0,  \dots , g_n)  \mapsto  (( \partial _1 g_1)^{-1} g_0,  \dots , ( \partial _n g_n)^{-1} g_{n-1}).</fr:tex>
+display="block">(g_0,  \dots , g_n)  \mapsto  (g_0 ( \partial _1 g_1)^{-1},  \dots , g_{n-1} ( \partial _n g_n)^{-1}).</fr:tex>
   The face and degeneracy maps can then be computed to be
   <fr:tex
-display="block">\begin {aligned}      \partial _k (g_0,  \dots , g_{n-1}) &amp;=       (g_0,  \dots , g_{k-1}  \cdot   \partial _k g_k,  \partial _k g_{k+1},  \dots ,  \partial _k g_{n-1}),  \\       \partial _n (g_0,  \dots , g_{n-1}) &amp;=       (g_0,  \dots , g_{n-2})  \\       \sigma _k (g_0,  \dots , g_{n-1}) &amp;=       (g_0,  \dots , g_{k-1}, 1,  \sigma _k g_{k},  \dots ,  \sigma _k g_{n-1}).    \end {aligned}</fr:tex>
+display="block">\begin {aligned}      \partial _k (g_0,  \dots , g_{n-1}) &amp;=       (g_0, g_1,  \dots , g_{k-1}  \cdot   \partial _k g_k,  \partial _k g_{k+1},  \dots ,  \partial _k g_{n-1}),  \\       \partial _n (g_0,  \dots , g_{n-1}) &amp;=       (g_0, g_1,  \dots , g_{n-2})  \\       \sigma _k (g_0,  \dots , g_{n-1}) &amp;=       (g_0, g_1,  \dots , g_{k-1}, 1,  \sigma _k g_{k},  \dots ,  \sigma _k g_{n-1}).    \end {aligned}</fr:tex>
   A quick computation shows that this indeed produces a <fr:link
 href="hmlg-0028.xml"
 type="local"
@@ -40,14 +43,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>394</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0028</fr:addr><fr:route>hmlg-0028.xml</fr:route><fr:title>Simplicial principal fiber bundle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>404</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0028</fr:addr><fr:route>hmlg-0028.xml</fr:route><fr:title>Simplicial principal fiber bundle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given a simplicial group <fr:tex>G</fr:tex>, a <fr:link
 href="hmlg-0026.xml"
 type="local"
-addr="hmlg-0026">fiber bundle</fr:link> <fr:tex>p : E  \to  B</fr:tex> is <fr:strong>principal</fr:strong> if <fr:tex>G</fr:tex> acts on the fibers freely and transitively. This condition can be checked in each dimension separately.
+addr="hmlg-0026">fiber bundle</fr:link> <fr:tex>p : E  \to  B</fr:tex> is <fr:strong>principal</fr:strong> if <fr:tex>G</fr:tex> acts on the fibers freely and transitively <fr:em>on the right</fr:em>. This condition can be checked in each dimension separately.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -55,7 +58,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>396</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001W</fr:addr><fr:route>hmlg-001W.xml</fr:route><fr:title>Bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>406</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001W</fr:addr><fr:route>hmlg-001W.xml</fr:route><fr:title>Bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -74,7 +77,22 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>388</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002B</fr:addr><fr:route>hmlg-002B.xml</fr:route><fr:title>Twisted product of simplicial sets</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>396</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002E</fr:addr><fr:route>hmlg-002E.xml</fr:route><fr:title>Abelian group structure on the W-bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Suppose the simplicial group <fr:tex>G</fr:tex> is abelian, then the <fr:link
+href="hmlg-0021.xml"
+type="local"
+addr="hmlg-0021">W-bar construction</fr:link> still has an abelian group structure, by multiplication element-wise.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>398</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002B</fr:addr><fr:route>hmlg-002B.xml</fr:route><fr:title>Twisted product of simplicial sets</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -91,10 +109,10 @@ addr="hmlg-0028">simplicial principal fiber bundle</fr:link>.
 </fr:p><fr:p>
   More explicitly, we define <fr:tex>B  \times _ \tau  G</fr:tex> to be the same as the Cartesian product <fr:tex>B  \times  G</fr:tex>, but with one face map altered. The pair <fr:tex>(b, g)</fr:tex> represents the element in <fr:tex>B  \times _{ \bar {W}  G}  W  G</fr:tex> whose first component is <fr:tex>b  \in  B</fr:tex>, and the second component is <fr:tex>(g_0,  \dots , g_n)  \in   W  G</fr:tex>, where each element is an iterated product
   <fr:tex
-display="block">\begin {aligned}     g_n &amp;= g  \\      g_{k-1} &amp;= ( \partial _{k} g_{k})  \cdot   \tau ( \partial _{k+1}  \cdots   \partial _n b).    \end {aligned}</fr:tex>
+display="block">\begin {aligned}     g_n &amp;= g  \\      g_{k-1} &amp;=  \tau ( \partial _{k+1}  \cdots   \partial _n b)  \cdot  ( \partial _{k} g_{k}).    \end {aligned}</fr:tex>
   This forces the last face map to be
   <fr:tex
-display="block">\partial _n (b, g) = ( \partial _n b,  \partial _n g  \cdot   \tau (b)),</fr:tex>
+display="block">\partial _n (b, g) = ( \partial _n b,  \tau (b)  \cdot   \partial _n g),</fr:tex>
   and the other face and degeneracy maps are unchanged.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -103,7 +121,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>390</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002A</fr:addr><fr:route>hmlg-002A.xml</fr:route><fr:title>Twisting function</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>400</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002A</fr:addr><fr:route>hmlg-002A.xml</fr:route><fr:title>Twisting function</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -114,7 +132,7 @@ addr="hmlg-0021">W-bar construction</fr:link>. It represents a cocycle valued in
 </fr:p><fr:p>
   A <fr:strong>twisting function</fr:strong> <fr:tex>\tau</fr:tex> is a family of maps <fr:tex>\tau _n : B_n  \to  G_{n-1}</fr:tex> such that
   <fr:tex
-display="block">\begin {aligned}      \tau ( \partial _k b) &amp;=  \partial _k  \tau (b) &amp;&amp; (k &lt; n-1) \\       \tau ( \partial _{n-1} b) &amp;=  \tau ( \partial _n b)  \cdot   \partial _{n-1}  \tau (b)  \\       \tau ( \sigma _k b) &amp;=  \sigma _k  \tau (b) &amp;&amp; (k &lt; n) \\       \tau ( \sigma _n b) &amp;= 1    \end {aligned}</fr:tex>
+display="block">\begin {aligned}      \tau ( \partial _k b) &amp;=  \partial _k  \tau (b) &amp;&amp; (k &lt; n-1) \\       \tau ( \partial _{n-1} b) &amp;=  \partial _{n-1}  \tau (b)  \cdot   \tau ( \partial _n b)  \\       \tau ( \sigma _k b) &amp;=  \sigma _k  \tau (b) &amp;&amp; (k &lt; n) \\       \tau ( \sigma _n b) &amp;= 1    \end {aligned}</fr:tex>
   The corresponding simplicial map <fr:tex>B_n  \to  ( \bar {W}  G)_n</fr:tex> is then computed by discarding the last <fr:tex>k</fr:tex> vertices of the input <fr:tex>b  \in  B_n</fr:tex> for <fr:tex>1  \le  k  \le  n</fr:tex>, apply them to <fr:tex>\tau</fr:tex> and placing them at the correct components.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -123,7 +141,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>392</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>402</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -147,4 +165,15 @@ href="hmlg-001I.xml"
 type="local"
 addr="hmlg-001I">strong homology equivalence</fr:link>, tensor product, cone, bicomplex</fr:li>
   <fr:li>simplicial group, Kan complex</fr:li>
-  <fr:li>organize into notes</fr:li></fr:ul></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+  <fr:li>organize into notes</fr:li></fr:ul></fr:mainmatter></fr:tree></fr:backlinks><fr:references><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>394</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>simplicial-objects</fr:addr><fr:route>simplicial-objects.xml</fr:route><fr:title>Simplicial objects in algebraic topology</fr:title><fr:date><fr:year>1967</fr:year></fr:date><fr:authors><fr:author>Jon Peter May</fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  A copy of the book can be found at <fr:link
+href="https://ncatlab.org/nlab/files/May_SimplicialObjectsInAlgebraicTopology.pdf"
+type="external">https://ncatlab.org/nlab/files/May_SimplicialObjectsInAlgebraicTopology.pdf</fr:link>.
+</fr:p></fr:mainmatter></fr:tree></fr:references></fr:backmatter></fr:tree>
