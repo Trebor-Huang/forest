@@ -7,22 +7,15 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1243</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1257</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0014</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0017</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We need to give a natural bijection
-    <fr:tex
-display="block">\hom (X,  \operatorname {Spec} (R))  \cong   \hom (R,  \Gamma ( \top ,  \mathscr { O } _X)).</fr:tex>
-    In other words, maps <fr:tex>X  \to   \operatorname {Spec} (R)</fr:tex> between locally ringed spaces are uniquely specified by the action of global sections.
-  </fr:p>
-
-  <fr:p>
-    Since <fr:tex>X</fr:tex> is glued from affine open subschemes, a map from <fr:tex>X</fr:tex> is equivalent to a map from each open subscheme <fr:tex>\operatorname {Spec} (S_i)</fr:tex> that agree on common restrictions (which again can be checked on an affine covering). Since the codomain is affine, these maps are equivalently ring homomorphisms <fr:tex>R  \to  S_i</fr:tex> by <fr:ref
-addr="algm-000X"
-href="algm-000X.xml"
-taxon="Theorem"></fr:ref>. The elements of <fr:tex>\Gamma ( \top ,  \mathscr { O } _X)</fr:tex> are also given by a set of compatible elements from <fr:tex>S_i</fr:tex>. Hence these two sets are naturally bijective.
+    We prove that if some affine cover <fr:tex>\{ \operatorname {Spec} (R_i)  \hookrightarrow  X \}</fr:tex> has such a property, then all the affine subschemes has it, hence we can check on any affine cover. Given an affine subscheme <fr:tex>\operatorname {Spec} (S)  \hookrightarrow  X</fr:tex>, using <fr:link
+href="algm-0016.xml"
+type="local"
+addr="algm-0016">Nike’s trick</fr:link>, we see that the intersection with <fr:tex>\operatorname {Spec} (R_i)</fr:tex> is covered by affine subschemes, which will all have the said property. Hence we get a cover of <fr:tex>\operatorname {Spec} (S)  \hookrightarrow  X</fr:tex> with the said property, and therefore itself also.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -31,15 +24,16 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1241</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0014</fr:addr><fr:route>algm-0014.xml</fr:route><fr:title>Adjunction of global section and <fr:tex>\operatorname {Spec}</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1255</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0017</fr:addr><fr:route>algm-0017.xml</fr:route><fr:title>Affine local properties</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  We have an adjunction of functors <fr:tex
-display="block">\mathsf { CRing } ^ \textrm {op}   \xtofrom [ \Gamma ( \top ,  \mathscr { O } _{(-)})]{ \operatorname {Spec} }  \mathsf { Sch } ,</fr:tex> with <fr:tex>\operatorname {Spec}</fr:tex> being the right adjoint (or <fr:tex>\operatorname {Spec}  :  \mathsf { CRing }   \to   \mathsf { Sch } ^ \textrm {op}</fr:tex> being the left adjoint). In fact, we can replace <fr:tex>\mathsf { Sch }</fr:tex> with the category of <fr:link
-href="algm-000L.xml"
+  Suppose a property on affine subschemes <fr:tex>\operatorname {Spec} (R)  \hookrightarrow  X</fr:tex> is closed under taking distinguished subsets <fr:tex>\operatorname {Spec} (R_f)  \hookrightarrow  X</fr:tex>, and for <fr:tex>\gcd \{ f_i \}  = 1</fr:tex>, the property being true on <fr:tex>\operatorname {Spec} (R_{f_i})  \hookrightarrow  X</fr:tex> implies it being true on <fr:tex>\operatorname {Spec} (R)  \hookrightarrow  X</fr:tex>. Then such a property is called <fr:strong>affine local</fr:strong>. We then say that <fr:tex>X</fr:tex> has such a property if some affine cover has such a property: the result doesn’t depend on the chosen cover.
+</fr:p><fr:p>
+  If the property <fr:tex>P</fr:tex> only depends on <fr:tex>\operatorname {Spec} (R)</fr:tex> and not <fr:tex>X</fr:tex> (or the inclusion map), it can be simplified as a property on affine schemes. In this case, the above definition extends it to a property <fr:tex>P'</fr:tex> on schemes, which we will usually refer to as <fr:strong>locally</fr:strong> <fr:tex>P</fr:tex>. Suppose the scheme is furthermore <fr:link
+href="algm-000A.xml"
 type="local"
-addr="algm-000L">locally ringed spaces</fr:link> <fr:tex>\mathsf { LRS }</fr:tex>, of whom <fr:tex>\mathsf { Sch }</fr:tex> is a full subcategory.
+addr="algm-000A">quasi-compact</fr:link>, we say the scheme satisfies <fr:tex>P</fr:tex>.
 </fr:p>
   
     
@@ -50,22 +44,15 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1239</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1253</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0014</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0017</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We need to give a natural bijection
-    <fr:tex
-display="block">\hom (X,  \operatorname {Spec} (R))  \cong   \hom (R,  \Gamma ( \top ,  \mathscr { O } _X)).</fr:tex>
-    In other words, maps <fr:tex>X  \to   \operatorname {Spec} (R)</fr:tex> between locally ringed spaces are uniquely specified by the action of global sections.
-  </fr:p>
-
-  <fr:p>
-    Since <fr:tex>X</fr:tex> is glued from affine open subschemes, a map from <fr:tex>X</fr:tex> is equivalent to a map from each open subscheme <fr:tex>\operatorname {Spec} (S_i)</fr:tex> that agree on common restrictions (which again can be checked on an affine covering). Since the codomain is affine, these maps are equivalently ring homomorphisms <fr:tex>R  \to  S_i</fr:tex> by <fr:ref
-addr="algm-000X"
-href="algm-000X.xml"
-taxon="Theorem"></fr:ref>. The elements of <fr:tex>\Gamma ( \top ,  \mathscr { O } _X)</fr:tex> are also given by a set of compatible elements from <fr:tex>S_i</fr:tex>. Hence these two sets are naturally bijective.
+    We prove that if some affine cover <fr:tex>\{ \operatorname {Spec} (R_i)  \hookrightarrow  X \}</fr:tex> has such a property, then all the affine subschemes has it, hence we can check on any affine cover. Given an affine subscheme <fr:tex>\operatorname {Spec} (S)  \hookrightarrow  X</fr:tex>, using <fr:link
+href="algm-0016.xml"
+type="local"
+addr="algm-0016">Nike’s trick</fr:link>, we see that the intersection with <fr:tex>\operatorname {Spec} (R_i)</fr:tex> is covered by affine subschemes, which will all have the said property. Hence we get a cover of <fr:tex>\operatorname {Spec} (S)  \hookrightarrow  X</fr:tex> with the said property, and therefore itself also.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -76,16 +63,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1237</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title>Morphisms of affine schemes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1251</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0016</fr:addr><fr:route>algm-0016.xml</fr:route><fr:title>Nike’s trick</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-href="algm-000U.xml"
-type="local"
-addr="algm-000U">Morphism</fr:link> of <fr:link
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The intersections of two <fr:link
 href="algm-000Q.xml"
 type="local"
-addr="algm-000Q">affine schemes</fr:link> are in natural bijection with ring homomorphisms in the opposite direction. In other words, there is a fully faithful embedding <fr:tex>\mathsf { CRing } ^ \textrm {op}   \to   \mathsf { Sch }</fr:tex>.
+addr="algm-000Q">affine</fr:link> subschemes <fr:tex>\operatorname {Spec} (R_1),  \operatorname {Spec} (R_2)  \hookrightarrow  X</fr:tex> can be covered by affine schemes distinguished in both of them.
 </fr:p>
   
     
@@ -96,57 +81,19 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1213</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1249</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0016</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Given two rings <fr:tex>R</fr:tex>, <fr:tex>S</fr:tex>, a ring homomorphism <fr:tex>\varphi  : S  \to  R</fr:tex> naturally induces a map of <fr:link
-href="algm-0004.xml"
-type="local"
-addr="algm-0004">distinguished opens</fr:link> <fr:tex>f  \mapsto   \varphi (f)</fr:tex>. This is a continuous map <fr:tex>\operatorname {Spec} (R)  \to   \operatorname {Spec} (S)</fr:tex>, because <fr:tex>\varphi</fr:tex> preserves <fr:tex>\operatorname {lcm}</fr:tex> and <fr:tex>\gcd</fr:tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <fr:tex>\Gamma (D(s),  \mathscr { O } _{ \operatorname {Spec} (S)})  \to   \Gamma (D(r),  \mathscr { O } _{ \operatorname {Spec} (R)})</fr:tex> whenever <fr:tex>D(r)  \subseteq   \varphi ^{-1}D(s) = D( \varphi (s))</fr:tex>. This is just a homomorphism <fr:tex>S[s^{-1}]  \to  R[r^{-1}]</fr:tex>, which is obvious because <fr:tex>\varphi (s)</fr:tex> must be invertible in <fr:tex>R[r^{-1}]</fr:tex>.
+    We just need to cover each point of the intersection. Suppose a point in the intersection is given by a prime ideal <fr:tex>\mathfrak { p }</fr:tex> of <fr:tex>R_1</fr:tex>. We can pick a distinguished open <fr:tex>D(f)</fr:tex> of <fr:tex>\operatorname {Spec} (R_2)</fr:tex> contained in the intersection and containing <fr:tex>\mathfrak { p }</fr:tex>, and a distinguished open <fr:tex>D(g)</fr:tex> of <fr:tex>\operatorname {Spec} (R_1)</fr:tex> contained in <fr:tex>D(f)</fr:tex> and containing <fr:tex>\mathfrak { p }</fr:tex>. Now we prove that <fr:tex>D(g)</fr:tex> is a distinguished open in <fr:tex>\operatorname {Spec} (R_2)</fr:tex>.
   </fr:p>
 
   <fr:p>
-    We need to prove our map is <fr:link
-href="algm-000U.xml"
-type="local"
-addr="algm-000U">local</fr:link>. Using the <fr:link
-href="algm-000W.xml"
-type="local"
-addr="algm-000W">characterization on stalks</fr:link>, we just need to verify that <fr:tex>S_{ \varphi ^{-1}( \mathfrak { p } )}  \to  R_{ \mathfrak { p } }</fr:tex> reflects invertibility. This is true by construction. Hence we have a map <fr:tex>\hom _{ \mathsf { CRing } }(S, R)  \to   \hom _{ \mathsf { Sch } }( \operatorname {Spec} (R),  \operatorname {Spec} (S))</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    In the reverse direction, given a morphism <fr:tex>\varphi  :  \operatorname {Spec} (R)  \to   \operatorname {Spec} (S)</fr:tex>, we can extract a ring homomorphism by looking at the global sections
-    <fr:tex
-display="block">S  \cong   \Gamma ( \top ,  \varphi ^{-1} \mathscr { O } _{ \operatorname {Spec} (S)})  \to   \Gamma ( \top ,  \mathscr { O } _{ \operatorname {Spec} (R)})  \cong  R.</fr:tex>
-    We obviously have going from <fr:tex>\mathsf { CRing }</fr:tex> to <fr:tex>\mathsf { Sch }</fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
-
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="341ce8563fa69418fe785f86a4356ffc"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzcd} 
-      S &amp; R  \\ 
-      {S_{ \mathfrak { q } }} &amp; {R_{ \mathfrak { p } }}
-       \arrow [from=1-1, to=1-2]
-       \arrow [from=2-1, to=2-2]
-       \arrow [two heads, from=1-1, to=2-1]
-       \arrow [two heads, from=1-2, to=2-2]
-     \end {tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-
-    where <fr:tex>\left [ \mathfrak { q } \right ]</fr:tex> is the image of the point <fr:tex>\left [ \mathfrak { p } \right ]</fr:tex> under the underlying continuous map of <fr:tex>\varphi</fr:tex>. This fixes the action of <fr:tex>\varphi</fr:tex> on the stalks. Furthermore, the <fr:link
-href="algm-000W.xml"
-type="local"
-addr="algm-000W">locality</fr:link> implies the preimage of <fr:tex>\mathfrak { p }</fr:tex> under the ring homomorphism divides <fr:tex>\mathfrak { q }</fr:tex>, and since <fr:tex>\mathfrak { q }</fr:tex> is maximal in the local ring <fr:tex>S_{ \mathfrak { q } }</fr:tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.
+    It suffices to prove that <fr:tex>D(g)</fr:tex> is a distinguished open in <fr:tex>\operatorname {Spec} (R_2 [f^{-1}])</fr:tex>, since this would imply the existence of an element <fr:tex>g'/f^{n}  \in  R_2[f^{-1}]</fr:tex>, and we can take <fr:tex>D(g')  \cap  D(f) = D(g' f)</fr:tex> in <fr:tex>\operatorname {Spec} (R_2)</fr:tex>. Now there is an inclusion map <fr:tex>\operatorname {Spec} (R_2[f^{-1}])  \to   \operatorname {Spec} (R_1)</fr:tex>, which amounts to a ring homomorphism <fr:tex>\varphi</fr:tex> by <fr:ref
+addr="algm-000X"
+href="algm-000X.xml"
+taxon="Theorem"></fr:ref>. In this case, <fr:tex>D( \varphi (g))</fr:tex> is the required distinguished open, since <fr:tex>\varphi ^{-1}D(u)</fr:tex> is equal to <fr:tex>D( \varphi (u))</fr:tex> in <fr:tex>\operatorname {Spec} (R_2 [f^{-1}])</fr:tex>.
   </fr:p>
 </fr:mainmatter></fr:tree>
   

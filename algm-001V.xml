@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>327</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001V</fr:addr><fr:route>algm-001V.xml</fr:route><fr:title>The scheme of invertible elements</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  We define the scheme <fr:tex>\mathbf {G}_{m}</fr:tex> as <fr:tex>\operatorname {Spec}   \mathbb {Z}[x, x^{-1}]</fr:tex>. It can be characterized by the points <fr:tex>\hom ( \mathbf {G}_{m} ,  \operatorname {Spec}  R) = R^ \times</fr:tex> being the units of <fr:tex>R</fr:tex>. This scheme has a group structure. Since it is <fr:link
+href="algm-000Q.xml"
+type="local"
+addr="algm-000Q">affine</fr:link>, <fr:tex>1  \to   \mathbf {G}_{m}</fr:tex> is <fr:link
+href="algm-000X.xml"
+type="local"
+addr="algm-000X">given</fr:link> by the ring homomorphism <fr:tex>\mathbb {Z}[x, x^{-1}]  \to   \mathbb  Z</fr:tex> sending <fr:tex>x</fr:tex> to <fr:tex>1</fr:tex>. The product map is given by a ring homomorphism <fr:tex>\mathbb {Z}[x, x^{-1}]  \otimes   \mathbb {Z}[y, y^{-1}]  \to   \mathbb {Z}[z, z^{-1}]</fr:tex> (where we renamed the variables for clarity) sending <fr:tex>x  \otimes  y</fr:tex> to <fr:tex>z</fr:tex>. The inverse map <fr:tex>\mathbb {Z}[x, x^{-1}]  \to   \mathbb {Z}[x, x^{-1}]</fr:tex> sends <fr:tex>x</fr:tex> to <fr:tex>x^{-1}</fr:tex>.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>323</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title>Morphisms of affine schemes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+href="algm-000U.xml"
+type="local"
+addr="algm-000U">Morphism</fr:link> of <fr:link
+href="algm-000Q.xml"
+type="local"
+addr="algm-000Q">affine schemes</fr:link> are in natural bijection with ring homomorphisms in the opposite direction. In other words, there is a fully faithful embedding <fr:tex>\mathsf { CRing } ^ \textrm {op}   \to   \mathsf { Sch }</fr:tex>.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>321</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    Given two rings <fr:tex>R</fr:tex>, <fr:tex>S</fr:tex>, a ring homomorphism <fr:tex>\varphi  : S  \to  R</fr:tex> naturally induces a map of <fr:link
+href="algm-0004.xml"
+type="local"
+addr="algm-0004">distinguished opens</fr:link> <fr:tex>f  \mapsto   \varphi (f)</fr:tex>. This is a continuous map <fr:tex>\operatorname {Spec} (R)  \to   \operatorname {Spec} (S)</fr:tex>, because <fr:tex>\varphi</fr:tex> preserves <fr:tex>\operatorname {lcm}</fr:tex> and <fr:tex>\gcd</fr:tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <fr:tex>\Gamma (D(s),  \mathscr { O } _{ \operatorname {Spec} (S)})  \to   \Gamma (D(r),  \mathscr { O } _{ \operatorname {Spec} (R)})</fr:tex> whenever <fr:tex>D(r)  \subseteq   \varphi ^{-1}D(s) = D( \varphi (s))</fr:tex>. This is just a homomorphism <fr:tex>S[s^{-1}]  \to  R[r^{-1}]</fr:tex>, which is obvious because <fr:tex>\varphi (s)</fr:tex> must be invertible in <fr:tex>R[r^{-1}]</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    We need to prove our map is <fr:link
+href="algm-000U.xml"
+type="local"
+addr="algm-000U">local</fr:link>. Using the <fr:link
+href="algm-000W.xml"
+type="local"
+addr="algm-000W">characterization on stalks</fr:link>, we just need to verify that <fr:tex>S_{ \varphi ^{-1}( \mathfrak { p } )}  \to  R_{ \mathfrak { p } }</fr:tex> reflects invertibility. This is true by construction. Hence we have a map <fr:tex>\hom _{ \mathsf { CRing } }(S, R)  \to   \hom _{ \mathsf { Sch } }( \operatorname {Spec} (R),  \operatorname {Spec} (S))</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    In the reverse direction, given a morphism <fr:tex>\varphi  :  \operatorname {Spec} (R)  \to   \operatorname {Spec} (S)</fr:tex>, we can extract a ring homomorphism by looking at the global sections
+    <fr:tex
+display="block">S  \cong   \Gamma ( \top ,  \varphi ^{-1} \mathscr { O } _{ \operatorname {Spec} (S)})  \to   \Gamma ( \top ,  \mathscr { O } _{ \operatorname {Spec} (R)})  \cong  R.</fr:tex>
+    We obviously have going from <fr:tex>\mathsf { CRing }</fr:tex> to <fr:tex>\mathsf { Sch }</fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
+
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="341ce8563fa69418fe785f86a4356ffc"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+       \begin {tikzcd} 
+      S &amp; R  \\ 
+      {S_{ \mathfrak { q } }} &amp; {R_{ \mathfrak { p } }}
+       \arrow [from=1-1, to=1-2]
+       \arrow [from=2-1, to=2-2]
+       \arrow [two heads, from=1-1, to=2-1]
+       \arrow [two heads, from=1-2, to=2-2]
+     \end {tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+
+    where <fr:tex>\left [ \mathfrak { q } \right ]</fr:tex> is the image of the point <fr:tex>\left [ \mathfrak { p } \right ]</fr:tex> under the underlying continuous map of <fr:tex>\varphi</fr:tex>. This fixes the action of <fr:tex>\varphi</fr:tex> on the stalks. Furthermore, the <fr:link
+href="algm-000W.xml"
+type="local"
+addr="algm-000W">locality</fr:link> implies the preimage of <fr:tex>\mathfrak { p }</fr:tex> under the ring homomorphism divides <fr:tex>\mathfrak { q }</fr:tex>, and since <fr:tex>\mathfrak { q }</fr:tex> is maximal in the local ring <fr:tex>S_{ \mathfrak { q } }</fr:tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>325</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000Q</fr:addr><fr:route>algm-000Q.xml</fr:route><fr:title>Affine scheme</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  An <fr:strong>affine scheme</fr:strong> is a <fr:link
+href="algm-000L.xml"
+type="local"
+addr="algm-000L">locally ringed space</fr:link> of the form <fr:tex>\operatorname {Spec} (R)</fr:tex> for some commutative ring <fr:tex>R</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>318</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-001X</fr:addr><fr:route>algm-001X.xml</fr:route><fr:title>Ring grading as <fr:tex>\mathbf {G}_{m}</fr:tex>-action</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a ring <fr:tex>R</fr:tex>, a <fr:tex>\mathbb {Z}</fr:tex>-<fr:link
+href="hmlg-001L.xml"
+type="local"
+addr="hmlg-001L">grading</fr:link> on <fr:tex>R</fr:tex> is the same as a <fr:tex>\mathbf {G}_{m}</fr:tex>-action on <fr:tex>\operatorname {Spec}  R</fr:tex>, where <fr:tex>\mathbf {G}_{m}</fr:tex> is <fr:link
+href="algm-001V.xml"
+type="local"
+addr="algm-001V">the scheme of invertible elements</fr:link>.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>290</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001X</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:p>
+    A morphism <fr:tex>\rho  :  \mathbf {G}_{m}   \times   \operatorname {Spec}  R  \to   \operatorname {Spec}  R</fr:tex> is given by a ring homomorphism <fr:tex>R  \to   \mathbb {Z}[x, x^{-1}]  \otimes  R  \cong  R[x, x^{-1}]</fr:tex>. Composing with the identity <fr:tex>1  \to   \mathbf {G}_{m}</fr:tex>, we are required that
+    <fr:tex
+display="block">R  \xrightarrow { \rho } R[x, x^{-1}]  \xrightarrow {x  \mapsto  1} R</fr:tex>
+    is the identity.
+  </fr:p>
+
+  <fr:p>
+    We can regard <fr:tex>R[x, x^{-1}]</fr:tex> as generated by <fr:tex>(n, r)  \in   \mathbb {Z}  \times  R</fr:tex>, where the first number is the degree of <fr:tex>x</fr:tex> and the second number is the coefficient. So they are under the relations <fr:tex>(n, r) + (n, r') = (n, r + r')</fr:tex>, and <fr:tex>(n, r)  \cdot  (m, r') = (n + m, r r')</fr:tex>. <fr:tex>\rho (r)</fr:tex> is a sum of finitely many <fr:tex>(n, r_n)</fr:tex>, and the identity law requires the sum of <fr:tex>r_n</fr:tex> is <fr:tex>r</fr:tex> again. This decomposes <fr:tex>r</fr:tex> into its components in each degree.
+  </fr:p>
+
+  <fr:p>
+    Next, the associativity law essentially requires that, if <fr:tex>(n, r_n)</fr:tex> is a summand of some <fr:tex>\rho (r)</fr:tex>, then <fr:tex>\rho (r_n) = (n, r_n)</fr:tex>. So this is indeed a well-defined decomposition. Furthermore, <fr:tex>\rho</fr:tex> being a ring homomorphism guarantees that the grading respects multiplication and addition.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

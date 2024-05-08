@@ -7,56 +7,14 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1670</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1636</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0002</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0004</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Since <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex> implies <fr:tex>\sqrt { \mathfrak { p } }  \mid   \sqrt { \mathfrak { a } }</fr:tex>, but <fr:tex>\mathfrak { p }  =  \sqrt { \mathfrak { p } }</fr:tex>, we see that <fr:tex>D( \mathfrak { a } ) = D( \sqrt { \mathfrak { a } })</fr:tex>. We just have to prove the forward implication of the last statement. Suppose for all prime ideals <fr:tex>\mathfrak { p }</fr:tex> we have <fr:tex>\mathfrak { p }   \mid   \mathfrak { b }   \implies   \mathfrak { p }   \mid   \mathfrak { a }</fr:tex>. We need to prove that <fr:tex>\sqrt { \mathfrak { a } }  \mid  f  \implies   \sqrt { \mathfrak { b } }  \mid  f</fr:tex>.
+    We claim that <fr:tex
+display="block">D( \mathfrak { a } ) =  \bigcup _{ \mathfrak { a }   \mid  f} D(f).</fr:tex> Alternatively, <fr:tex>V( \mathfrak { a } ) =  \bigcap _{ \mathfrak { a }   \mid  f} V(f)</fr:tex>. Since <fr:tex>\mathfrak { a }   \mid  f</fr:tex> implies <fr:tex>V( \mathfrak { a } )  \subseteq  V(f)</fr:tex>, we have the forward inclusion. For the backwards inclusion, suppose <fr:tex>\left [ \mathfrak { p } \right ]   \notin  V( \mathfrak { a } )</fr:tex>, i.e. <fr:tex>\mathfrak { p }   \nmid   \mathfrak { a }</fr:tex>, then by definition there is an element <fr:tex>\mathfrak { a }   \mid  f</fr:tex> such that <fr:tex>\mathfrak { p }   \nmid  f</fr:tex>, meaning that <fr:tex>\left [ \mathfrak { p } \right ]   \notin  V(f)</fr:tex>.
   </fr:p>
-
-  <fr:p>
-    Given <fr:tex>\sqrt { \mathfrak { a } }  \mid  f</fr:tex>, we have <fr:tex>\mathfrak { p }   \mid  f</fr:tex> for all prime ideals <fr:tex>\mathfrak { p }   \mid   \sqrt { \mathfrak { a } }</fr:tex> (which is equivalent to <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex>). So we know that for all <fr:tex>\mathfrak { p }   \mid   \mathfrak { b }</fr:tex>, <fr:tex>\mathfrak { p }   \mid  f</fr:tex>. This is now purely a condition on <fr:tex>\mathfrak { b }</fr:tex>. The next lemma finishes the proof.
-  </fr:p>
-
-  <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1512</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0003</fr:addr><fr:route>algm-0003.xml</fr:route><fr:title>The radical ideal is the lcm of prime ideal divisors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  For any ideal <fr:tex>\mathfrak { a }</fr:tex> of a commutative ring, the radical <fr:tex>\sqrt { \mathfrak { a } }</fr:tex> is the lowest common multiple of the prime ideals <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex>.
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1510</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0003</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    On one hand, if <fr:tex>\sqrt { \mathfrak { a } }  \mid  f</fr:tex>, then <fr:tex>\mathfrak { a }   \mid  f^n</fr:tex> for some natural number <fr:tex>n</fr:tex>. This means for all <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex>, we have <fr:tex>\mathfrak { p }   \mid  f^n</fr:tex>, which by being a prime ideal implies <fr:tex>\mathfrak { p }   \mid  f</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    On the other hand, suppose <fr:tex>\mathfrak { a }   \nmid  f^n</fr:tex> for any <fr:tex>n</fr:tex>, we construct a prime ideal divisor of <fr:tex>\mathfrak { a }</fr:tex> that is not a divisor of <fr:tex>f</fr:tex>. Consider the set of all ideals not a divisor of <fr:tex>f^n</fr:tex> for any <fr:tex>n</fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex>\mathfrak { d }</fr:tex> still in this set, since <fr:tex>\mathfrak { d }</fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link
-href="https://en.wikipedia.org/wiki/Zorn's_lemma"
-type="external">Zorn’s lemma</fr:link>, the set contains some <fr:tex>\mathfrak { q }</fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex>\mathfrak { q }   \nmid  x, y</fr:tex> such that <fr:tex>\mathfrak { q }   \mid  x y</fr:tex>, then <fr:tex>\mathfrak { q } ' =  \gcd ( \mathfrak { q } , x y)</fr:tex> is a proper divisor of <fr:tex>\mathfrak { q }</fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex>n</fr:tex> such that <fr:tex>x y  \mid  f^n</fr:tex>, so <fr:tex>\mathfrak { q }   \mid  x y  \mid  f^n</fr:tex>, contradiction.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -64,14 +22,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1668</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0002</fr:addr><fr:route>algm-0002.xml</fr:route><fr:title>Radical ideals bijectively correspond to open sets</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1634</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0004</fr:addr><fr:route>algm-0004.xml</fr:route><fr:title>Distinguished opens of <fr:tex>\operatorname {Spec} (R)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  In an arbitrary <fr:link
+  We define a basis of opens on <fr:link
 href="algm-0001.xml"
 type="local"
-addr="algm-0001">topological spectrum of a commutative ring</fr:link>, we have <fr:tex>D( \mathfrak { a } ) = D( \sqrt { \mathfrak { a } })</fr:tex>. There is a containment of opens <fr:tex>D( \mathfrak { a } )  \subseteq  D( \mathfrak { b } )</fr:tex> — equivalently <fr:tex>V( \mathfrak { b } )  \subseteq  V( \mathfrak { a } )</fr:tex> — iff <fr:tex>\sqrt { \mathfrak { b } }  \mid   \sqrt { \mathfrak { a } }</fr:tex>, and the points contained in an open set completely determines the radical ideal.
+addr="algm-0001"><fr:tex>\operatorname {Spec} (R)</fr:tex></fr:link> by <fr:tex>D(f)</fr:tex> for every element <fr:tex>f  \in  R</fr:tex>. These are called <fr:strong>distinguished opens</fr:strong>.
 </fr:p>
   
     
@@ -82,56 +40,14 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1514</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1390</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0002</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0004</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Since <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex> implies <fr:tex>\sqrt { \mathfrak { p } }  \mid   \sqrt { \mathfrak { a } }</fr:tex>, but <fr:tex>\mathfrak { p }  =  \sqrt { \mathfrak { p } }</fr:tex>, we see that <fr:tex>D( \mathfrak { a } ) = D( \sqrt { \mathfrak { a } })</fr:tex>. We just have to prove the forward implication of the last statement. Suppose for all prime ideals <fr:tex>\mathfrak { p }</fr:tex> we have <fr:tex>\mathfrak { p }   \mid   \mathfrak { b }   \implies   \mathfrak { p }   \mid   \mathfrak { a }</fr:tex>. We need to prove that <fr:tex>\sqrt { \mathfrak { a } }  \mid  f  \implies   \sqrt { \mathfrak { b } }  \mid  f</fr:tex>.
+    We claim that <fr:tex
+display="block">D( \mathfrak { a } ) =  \bigcup _{ \mathfrak { a }   \mid  f} D(f).</fr:tex> Alternatively, <fr:tex>V( \mathfrak { a } ) =  \bigcap _{ \mathfrak { a }   \mid  f} V(f)</fr:tex>. Since <fr:tex>\mathfrak { a }   \mid  f</fr:tex> implies <fr:tex>V( \mathfrak { a } )  \subseteq  V(f)</fr:tex>, we have the forward inclusion. For the backwards inclusion, suppose <fr:tex>\left [ \mathfrak { p } \right ]   \notin  V( \mathfrak { a } )</fr:tex>, i.e. <fr:tex>\mathfrak { p }   \nmid   \mathfrak { a }</fr:tex>, then by definition there is an element <fr:tex>\mathfrak { a }   \mid  f</fr:tex> such that <fr:tex>\mathfrak { p }   \nmid  f</fr:tex>, meaning that <fr:tex>\left [ \mathfrak { p } \right ]   \notin  V(f)</fr:tex>.
   </fr:p>
-
-  <fr:p>
-    Given <fr:tex>\sqrt { \mathfrak { a } }  \mid  f</fr:tex>, we have <fr:tex>\mathfrak { p }   \mid  f</fr:tex> for all prime ideals <fr:tex>\mathfrak { p }   \mid   \sqrt { \mathfrak { a } }</fr:tex> (which is equivalent to <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex>). So we know that for all <fr:tex>\mathfrak { p }   \mid   \mathfrak { b }</fr:tex>, <fr:tex>\mathfrak { p }   \mid  f</fr:tex>. This is now purely a condition on <fr:tex>\mathfrak { b }</fr:tex>. The next lemma finishes the proof.
-  </fr:p>
-
-  <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1512</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0003</fr:addr><fr:route>algm-0003.xml</fr:route><fr:title>The radical ideal is the lcm of prime ideal divisors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  For any ideal <fr:tex>\mathfrak { a }</fr:tex> of a commutative ring, the radical <fr:tex>\sqrt { \mathfrak { a } }</fr:tex> is the lowest common multiple of the prime ideals <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex>.
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1510</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0003</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    On one hand, if <fr:tex>\sqrt { \mathfrak { a } }  \mid  f</fr:tex>, then <fr:tex>\mathfrak { a }   \mid  f^n</fr:tex> for some natural number <fr:tex>n</fr:tex>. This means for all <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex>, we have <fr:tex>\mathfrak { p }   \mid  f^n</fr:tex>, which by being a prime ideal implies <fr:tex>\mathfrak { p }   \mid  f</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    On the other hand, suppose <fr:tex>\mathfrak { a }   \nmid  f^n</fr:tex> for any <fr:tex>n</fr:tex>, we construct a prime ideal divisor of <fr:tex>\mathfrak { a }</fr:tex> that is not a divisor of <fr:tex>f</fr:tex>. Consider the set of all ideals not a divisor of <fr:tex>f^n</fr:tex> for any <fr:tex>n</fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex>\mathfrak { d }</fr:tex> still in this set, since <fr:tex>\mathfrak { d }</fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link
-href="https://en.wikipedia.org/wiki/Zorn's_lemma"
-type="external">Zorn’s lemma</fr:link>, the set contains some <fr:tex>\mathfrak { q }</fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex>\mathfrak { q }   \nmid  x, y</fr:tex> such that <fr:tex>\mathfrak { q }   \mid  x y</fr:tex>, then <fr:tex>\mathfrak { q } ' =  \gcd ( \mathfrak { q } , x y)</fr:tex> is a proper divisor of <fr:tex>\mathfrak { q }</fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex>n</fr:tex> such that <fr:tex>x y  \mid  f^n</fr:tex>, so <fr:tex>\mathfrak { q }   \mid  x y  \mid  f^n</fr:tex>, contradiction.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree>
 </fr:mainmatter></fr:tree>
   
 </fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
