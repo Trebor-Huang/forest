@@ -1,0 +1,9 @@
+\date{2024-05-08}
+\title{the scheme of invertible elements}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  We define the scheme #{\Gm} as #{\Spec \mathbb{Z}[x, x^{-1}]}. It can be characterized by the points #{\hom(\Gm, \Spec R) = R^\times} being the units of #{R}. This scheme has a group structure. Since it is [affine](algm-000Q), #{1 \to \Gm} is [given](algm-000X) by the ring homomorphism #{\mathbb{Z}[x, x^{-1}] \to \mathbb Z} sending #{x} to #{1}. The product map is given by a ring homomorphism #{\mathbb{Z}[x, x^{-1}] \otimes \mathbb{Z}[y, y^{-1}] \to \mathbb{Z}[z, z^{-1}]} (where we renamed the variables for clarity) sending #{x \otimes y} to #{z}. The inverse map #{\mathbb{Z}[x, x^{-1}] \to \mathbb{Z}[x, x^{-1}]} sends #{x} to #{x^{-1}}.
+}
