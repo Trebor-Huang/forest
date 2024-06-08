@@ -1,0 +1,18 @@
+\date{2024-06-07}
+\title{exactness of #{\hom}}
+\author{trebor}
+\import{common}
+
+\p{
+  Since #{\hom(P, -)} preserves limits, by \ref{hmlg-000X} it is left exact. Similarly #{\hom(-, I)} is right exact. Therefore we naturally want to find out when #{\hom(P, -)} is \em{right} exact. We only need to guarantee that #{\hom(P, -)} preserves epimorphisms. This can be unpackaged to the following definition.
+}
+
+\transclude{hmlg-0004}
+
+\transclude{hmlg-0005}
+
+\p{
+  As an example, consider the projective objects in the category of modules. We can give a nice characterization of projective modules.
+}
+
+\transclude{hmlg-002I}

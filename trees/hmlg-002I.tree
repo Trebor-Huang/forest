@@ -1,0 +1,19 @@
+\date{2024-06-08}
+\title{projective modules are direct summands of free modules}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  In the [[hmlg-000Q]] of modules over a ring #{R}, the [[hmlg-0004]] modules are exactly the modules that appear as a direct summand of some free module #{P \oplus Q = R^{\oplus n}}.
+}
+
+\proof{
+  \p{
+    A free module evidently projective. If #{P} is a direct summand of a projective module #{Q}, then we can extend any map #{P \to B} to #{Q} by zero. Then the projectivity of #{Q} implies that of #{P}.
+  }
+
+  \p{
+    On the other hand, suppose #{P} is projective, then we have an epimorphism #{R^{\oplus |P|} \surject P}. The identity map #{P \to P} lifts against this epimorphism to a splitting of it, hence #{P} is its direct summand.
+  }
+}
