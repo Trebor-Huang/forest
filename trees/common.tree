@@ -48,54 +48,54 @@
 \def\op{#{\textrm{op}}}
 \def\id{#{\textrm{id}}}
 \def\Id{#{\textrm{Id}}}
-\def\colim{#{\operatorname*{colim}}}
+\def\colim{\operatorname*{colim}}
 \def\pair[content]{#{\left\langle \content \right\rangle}}
-\def\compose{#{\circ}}
-\def\yo{#{\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}}}
+\def\compose{\mathbin{\circ}}
+\def\yo{\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}}
 \def\power{#{\mathcal{P}}}
 
 % Algebra
-\def\lcm{#{\operatorname{lcm}}}
-\def\im{#{\operatorname{im}}}
-\def\coim{#{\operatorname{coim}}}
-\def\coker{#{\operatorname{coker}}}
-\def\Spec{#{\operatorname{Spec}}}
-\def\Proj{#{\operatorname{Proj}}}
+\def\lcm{\operatorname{lcm}}
+\def\im{\operatorname{im}}
+\def\coim{\operatorname{coim}}
+\def\coker{\operatorname{coker}}
+\def\Spec{\operatorname{Spec}}
+\def\Proj{\operatorname{Proj}}
 \def\Gm{#{\mathbf{G}_{m}}}
-\def\ideal[name]{#{\mathfrak{\name}}}
-\def\point[name]{#{\left[\ideal{\name}\right]}}
-\def\irr{#{\mathord{\odot}}}
+\def\ideal[name]{\mathfrak{\name}}
+\def\point[name]{\left[\ideal{\name}\right]}
+\def\irr{\mathord{\odot}}
 
 \def\ModL[ring]{#{\ring\text{-}\Cat{Mod}}}
 \def\ModR[ring]{#{\Cat{Mod}\text{-}\ring}}
 \def\Mod[left][right]{#{\left\text{-}\Cat{Mod}\text{-}\right}}
-\def\Tot{#{\operatorname{Tot}}}
-\def\Cone{#{\operatorname{Cone}}}
+\def\Tot{\operatorname{Tot}}
+\def\Cone{\operatorname{Cone}}
 \def\DeloopB{#{\mathbf{B}}}
 \def\DeloopE{#{\mathbf{E}}}
 \def\W{#{W}}
 \def\Wbar{#{\bar{W}}}
 
 % Arrows
-\def\inject{#{\rightarrowtail}}
-\def\include{#{\hookrightarrow}}
-\def\surject{#{\twoheadrightarrow}}
-\def\xto{#{\xrightarrow}}
-\def\iso{#{\stackrel{\sim\,}{\to}}}
-\def\Vec[r]{#{\overrightharpoon{\r}}}
+\def\inject{\rightarrowtail}
+\def\include{\hookrightarrow}
+\def\surject{\twoheadrightarrow}
+\def\xto{\xrightarrow}
+\def\iso{\stackrel{\sim\,}{\to}}
+\def\Vec[r]{\overrightharpoon{\r}}
 
-\def\Reduce{#{\Rightarrow\mkern{-14mu}\Rightarrow}}
-\def\xReduce[r]{#{\xRightarrow{\r}\mkern{-14mu}\Rightarrow}}
+\def\Reduce{\Rightarrow\mkern{-14mu}\Rightarrow}
+\def\xReduce[r]{\xRightarrow{\r}\mkern{-14mu}\Rightarrow}
 \def\ReduceProj[red]{#{\pi_{\red}}}
 \def\ReduceIncl[red]{#{\iota_{\red}}}
 \def\ReduceHomo[red]{#{h_{\red}}}
 
-\def\SEquiv{#{\Leftarrow \mkern{-13mu} \Leftrightarrow \mkern{-13mu} \Rightarrow}}
-\def\xSEquiv[r]{#{\Leftarrow \mkern{-13mu} \xLeftrightarrow{\r} \mkern{-13mu} \Rightarrow}}
+\def\SEquiv{\mathbin{\Leftarrow \mkern{-13mu} \Leftrightarrow \mkern{-13mu} \Rightarrow}}
+\def\xSEquiv[r]{\mathbin{\Leftarrow \mkern{-13mu} \xLeftrightarrow{\r} \mkern{-13mu} \Rightarrow}}
 
 % Geometry
 \def\sheaf[name]{#{\mathscr{\name}}}
 \def\section{#{\Gamma}}
-\def\Geom{#{\operatorname{Geom}}}
+\def\Geom{\operatorname{Geom}}
 
 \p{This tree defines some commonly imported stuff.}
