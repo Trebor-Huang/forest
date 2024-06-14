@@ -1,0 +1,9 @@
+\date{2024-06-14}
+\title{universal #{\delta}-functor}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [homological #{\delta}-functor](hmlg-002K) #{T_n}, it is \strong{universal} if given any other #{\delta}-functor #{S_n} and a natural transformation #{S_0 \to T_0} at degree 0, it can be uniquely extended to a [[hmlg-002L]]. Dually, we can reverse the arrows to get the definition of a universal \em{cohomological} #{\delta}-functor.
+}
