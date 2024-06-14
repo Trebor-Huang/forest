@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>476</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-0022</fr:addr><fr:route>hmlg-0022.xml</fr:route><fr:title>Discrete vector field on <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>577</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-0022</fr:addr><fr:route>hmlg-0022.xml</fr:route><fr:title>Discrete vector field on <fr:tex>\Delta^p \times \Delta^q</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -17,9 +17,9 @@ type="local"
 addr="hmlg-001N">discrete vector field</fr:link> on the <fr:link
 href="hmlg-001U.xml"
 type="local"
-addr="hmlg-001U">reduced ACC</fr:link> of <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex> whose critical cells are given by its boundary and one additional cell
+addr="hmlg-001U">reduced ACC</fr:link> of <fr:tex>\Delta^p \times \Delta^q</fr:tex> whose critical cells are given by its boundary and one additional cell
   <fr:tex
-display="block">(0,0) &lt; (1,0) &lt;  \cdots  &lt; (p,0) &lt; (p,1) &lt;  \cdots  &lt; (p,q),</fr:tex>
+display="block">(0,0) &lt; (1,0) &lt; \cdots &lt; (p,0) &lt; (p,1) &lt; \cdots &lt; (p,q),</fr:tex>
   in the representation scheme of <fr:ref
 addr="hmlg-0020"
 href="hmlg-0020.xml"
@@ -29,9 +29,9 @@ type="local"
 addr="hmlg-001R">gives rise</fr:link> to a <fr:link
 href="hmlg-0017.xml"
 type="local"
-addr="hmlg-0017">chain reduction</fr:link> <fr:tex>C_*( \Delta ^p  \times   \Delta ^q)  \Rightarrow \mkern {-14mu} \Rightarrow  C_*( \Delta ^p)  \otimes  C_*( \Delta ^q)</fr:tex>.
+addr="hmlg-0017">chain reduction</fr:link> <fr:tex>C_*(\Delta^p \times \Delta^q) \Rightarrow\mkern{-14mu}\Rightarrow C_*(\Delta^p) \otimes C_*(\Delta^q)</fr:tex>.
 </fr:p><fr:p>
-  Regarding the geometric simplices as paths in a <fr:tex>p  \times  q</fr:tex> grid as specified in <fr:ref
+  Regarding the geometric simplices as paths in a <fr:tex>p \times q</fr:tex> grid as specified in <fr:ref
 addr="hmlg-0020"
 href="hmlg-0020.xml"
 taxon="Theorem"></fr:ref>, we assign a <fr:tex>(p+q)</fr:tex>-simplex as a target cell if it contains a shape <fr:tex>\Rsh</fr:tex>. (The shape must go exactly one step up and one step to the right, since it is not possible otherwise in a geometric <fr:tex>(p+q)</fr:tex>-simplex.) To get its source cell, replace the <fr:em>last occurrence</fr:em> of this shape with <fr:tex>\nearrow</fr:tex>.
@@ -42,13 +42,13 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>466</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0020</fr:addr><fr:route>hmlg-0020.xml</fr:route><fr:title>Simplices of <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>567</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0020</fr:addr><fr:route>hmlg-0020.xml</fr:route><fr:title>Simplices of <fr:tex>\Delta^p \times \Delta^q</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The geometric <fr:tex>n</fr:tex>-simplices of the product simplicial set <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex> are given by a sequence <fr:tex>(u_0, v_0) &lt; (u_1, v_1) &lt;  \dots  &lt; (u_n, v_n)</fr:tex> of elements in <fr:tex>\{ 0,  \dots , p \}   \times   \{ 0,  \dots , q \}</fr:tex> endowed with the product partial order. Among these, the interior simplices, i.e. non-boundary simplices are given by sequences such that <fr:tex>u_i</fr:tex> ranges over all <fr:tex>\{ 0,  \dots , p \}</fr:tex> and <fr:tex>v_i</fr:tex> ranges over <fr:tex>\{ 0,  \dots , q \}</fr:tex>.
+  The geometric <fr:tex>n</fr:tex>-simplices of the product simplicial set <fr:tex>\Delta^p \times \Delta^q</fr:tex> are given by a sequence <fr:tex>(u_0, v_0) &lt; (u_1, v_1) &lt; \dots &lt; (u_n, v_n)</fr:tex> of elements in <fr:tex>\{0, \dots, p\} \times \{0, \dots, q\}</fr:tex> endowed with the product partial order. Among these, the interior simplices, i.e. non-boundary simplices are given by sequences such that <fr:tex>u_i</fr:tex> ranges over all <fr:tex>\{0, \dots, p\}</fr:tex> and <fr:tex>v_i</fr:tex> ranges over <fr:tex>\{0, \dots, q\}</fr:tex>.
 </fr:p><fr:p>
-  We can graphically represent this as a path that only travels upwards and/or rightwards every step in a <fr:tex>p  \times  q</fr:tex> grid. Face maps are given by removing the corresponding vertex in the path, and directly connecting the surrounding two. But notice that a segment can skip through a grid point, such as going from <fr:tex>(0,0)</fr:tex> to <fr:tex>(2,2)</fr:tex>, skipping through <fr:tex>(1,1)</fr:tex>.
+  We can graphically represent this as a path that only travels upwards and/or rightwards every step in a <fr:tex>p \times q</fr:tex> grid. Face maps are given by removing the corresponding vertex in the path, and directly connecting the surrounding two. But notice that a segment can skip through a grid point, such as going from <fr:tex>(0,0)</fr:tex> to <fr:tex>(2,2)</fr:tex>, skipping through <fr:tex>(1,1)</fr:tex>.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -56,7 +56,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>468</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001U</fr:addr><fr:route>hmlg-001U.xml</fr:route><fr:title>Algebraic cellular complexes associated with a simplicial set</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>569</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001U</fr:addr><fr:route>hmlg-001U.xml</fr:route><fr:title>Algebraic cellular complexes associated with a simplicial set</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -69,8 +69,8 @@ type="local"
 addr="hmlg-0013">algebraic cellular complexes</fr:link> (or <fr:link
 href="hmlg-0002.xml"
 type="local"
-addr="hmlg-0002">chain complexes</fr:link>) we can associate to it. We can consider the free abelian group generated by <fr:tex>\Gamma ( \Delta ^n, X)</fr:tex> at degree <fr:tex>n</fr:tex>, where the boundary map is given by an alternating sum of face maps: <fr:tex
-display="block">d_n =  \sum _{i=0}^n (-1)^{i}  \partial _i.</fr:tex> This satisfies <fr:tex>d^2 = 0</fr:tex> by the simplicial identities. ALternatively, we can consider only the geometric simplices, regarding degenerate ones are zero. More formally, we quotient out the previous chain complex by the subgroups generated by degenerate simplicies. They are both obviously <fr:link
+addr="hmlg-0002">chain complexes</fr:link>) we can associate to it. We can consider the free abelian group generated by <fr:tex>{\Gamma}(\Delta^n, X)</fr:tex> at degree <fr:tex>n</fr:tex>, where the boundary map is given by an alternating sum of face maps: <fr:tex
+display="block">d_n = \sum_{i=0}^n (-1)^{i} \partial_i.</fr:tex> This satisfies <fr:tex>d^2 = 0</fr:tex> by the simplicial identities. ALternatively, we can consider only the geometric simplices, regarding degenerate ones are zero. More formally, we quotient out the previous chain complex by the subgroups generated by degenerate simplicies. They are both obviously <fr:link
 href="hmlg-001A.xml"
 type="local"
 addr="hmlg-001A">effective</fr:link> by construction.
@@ -86,7 +86,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>470</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001R</fr:addr><fr:route>hmlg-001R.xml</fr:route><fr:title>Chain reduction generated by a discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>571</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001R</fr:addr><fr:route>hmlg-001R.xml</fr:route><fr:title>Chain reduction generated by a discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -113,12 +113,12 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>420</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>521</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001R</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    The DVF partitions the chain groups into a direct sum <fr:tex>C_k^{s}  \oplus  C_k^t  \oplus  C_k^c</fr:tex>, corresponding to source, target and critical cells. We would like to create a reduction to the critical cells only. To do this, we invoke <fr:link
+    The DVF partitions the chain groups into a direct sum <fr:tex>C_k^{s} \oplus C_k^t \oplus C_k^c</fr:tex>, corresponding to source, target and critical cells. We would like to create a reduction to the critical cells only. To do this, we invoke <fr:link
 href="hmlg-001G.xml"
 type="local"
 addr="hmlg-001G"><fr:link
@@ -131,7 +131,7 @@ addr="hmlg-0017">chain reduction</fr:link></fr:link> and start with a simpler ch
   </fr:p>
 
   <fr:p>
-    Consider the algebraic cellular complex whose chain groups are <fr:tex>C_k</fr:tex>, but the differential <fr:tex>d'( \sigma ) =  \pm   \tau</fr:tex> iff <fr:tex>\overrightharpoon { \tau   \sigma }</fr:tex> is in the vector field, and zero otherwise. The sign is determined as the sign of <fr:tex>\tau</fr:tex> in <fr:tex>d( \sigma )</fr:tex>. Hence <fr:tex>d' : C_{k+1}^{t}  \to  C_k^s</fr:tex>, and is zero otherwise. Therefore using the <fr:link
+    Consider the algebraic cellular complex whose chain groups are <fr:tex>C_k</fr:tex>, but the differential <fr:tex>d'(\sigma) = \pm \tau</fr:tex> iff <fr:tex>\overrightharpoon{\tau \sigma}</fr:tex> is in the vector field, and zero otherwise. The sign is determined as the sign of <fr:tex>\tau</fr:tex> in <fr:tex>d(\sigma)</fr:tex>. Hence <fr:tex>d' : C_{k+1}^{t} \to C_k^s</fr:tex>, and is zero otherwise. Therefore using the <fr:link
 href="hmlg-001H.xml"
 type="local"
 addr="hmlg-001H">characterization of <fr:link
@@ -141,7 +141,7 @@ addr="hmlg-0017">chain reduction</fr:link></fr:link> as a direct sum with a spli
   </fr:p>
 
   <fr:p>
-    Next, we try to perturb <fr:tex>d'</fr:tex> to <fr:tex>d</fr:tex>. We need <fr:tex>h_{ \rho }   \circ  (d' - d)</fr:tex> to be locally nilpotent, where <fr:tex>\rho</fr:tex> is the reduction constructed above. <fr:tex>h_{ \rho }</fr:tex> can be viewed as the inverse of <fr:tex>d'</fr:tex>, as it maps the source cell to the target cell. Expanding the definition, we see that this map transports cells down the <fr:link
+    Next, we try to perturb <fr:tex>d'</fr:tex> to <fr:tex>d</fr:tex>. We need <fr:tex>{h_{\rho}} \mathbin{\circ} (d' - d)</fr:tex> to be locally nilpotent, where <fr:tex>\rho</fr:tex> is the reduction constructed above. <fr:tex>{h_{\rho}}</fr:tex> can be viewed as the inverse of <fr:tex>d'</fr:tex>, as it maps the source cell to the target cell. Expanding the definition, we see that this map transports cells down the <fr:link
 href="hmlg-001Q.xml"
 type="local"
 addr="hmlg-001Q">discrete field line</fr:link>. Since the vector field is admissible, such a transportation eventually terminates and it becomes zero.
@@ -155,17 +155,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>472</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001N</fr:addr><fr:route>hmlg-001N.xml</fr:route><fr:title>Discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>573</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001N</fr:addr><fr:route>hmlg-001N.xml</fr:route><fr:title>Discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   A <fr:strong>discrete vector field</fr:strong> (DVF) of degree <fr:tex>p</fr:tex> on an <fr:link
 href="hmlg-0013.xml"
 type="local"
-addr="hmlg-0013">algebraic cellular complex</fr:link> is given by a collection of pairs of cells <fr:tex>( \sigma ,  \tau )</fr:tex>, where <fr:tex>\sigma</fr:tex> is a <fr:link
+addr="hmlg-0013">algebraic cellular complex</fr:link> is given by a collection of pairs of cells <fr:tex>(\sigma, \tau)</fr:tex>, where <fr:tex>\sigma</fr:tex> is a <fr:link
 href="hmlg-001O.xml"
 type="local"
-addr="hmlg-001O">regular face</fr:link> of the degree <fr:tex>p</fr:tex> cell <fr:tex>\tau</fr:tex>, standing for a vector pointing from <fr:tex>\sigma</fr:tex> to <fr:tex>\tau</fr:tex>, which we will write as <fr:tex>\overrightharpoon { \sigma   \tau }</fr:tex>. We require that every cell appears at most once in these vectors.
+addr="hmlg-001O">regular face</fr:link> of the degree <fr:tex>p</fr:tex> cell <fr:tex>\tau</fr:tex>, standing for a vector pointing from <fr:tex>\sigma</fr:tex> to <fr:tex>\tau</fr:tex>, which we will write as <fr:tex>\overrightharpoon{\sigma \tau}</fr:tex>. We require that every cell appears at most once in these vectors.
 </fr:p><fr:p>
   A DVF naturally partitions the cells into three kinds: the <fr:em>sources</fr:em>, the <fr:em>targets</fr:em>, and the rest of the cells are called <fr:em>critical cells</fr:em>. This name comes from the analogy to Morse theory. Indeed there is a notion of <fr:link
 href="https://en.wikipedia.org/wiki/Discrete_Morse_theory"
@@ -177,17 +177,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>474</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0017</fr:addr><fr:route>hmlg-0017.xml</fr:route><fr:title>Chain reduction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>575</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0017</fr:addr><fr:route>hmlg-0017.xml</fr:route><fr:title>Chain reduction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given two chain complexes <fr:tex>C, D</fr:tex>, a <fr:strong>chain reduction</fr:strong> consists of a chain map <fr:tex>\pi  : C  \to  D</fr:tex>, a chain map <fr:tex>\iota  : D  \to  C</fr:tex> and a <fr:link
+  Given two chain complexes <fr:tex>C, D</fr:tex>, a <fr:strong>chain reduction</fr:strong> consists of a chain map <fr:tex>\pi : C \to D</fr:tex>, a chain map <fr:tex>\iota : D \to C</fr:tex> and a <fr:link
 href="hmlg-0016.xml"
 type="local"
-addr="hmlg-0016">chain homotopy</fr:link> <fr:tex>h :  \textrm {id}   \to  g  \circ  f</fr:tex>, such that <fr:tex>\pi   \circ   \iota  =  \textrm {id}</fr:tex>, and <fr:tex
-display="block">\pi   \circ  h = h  \circ   \iota  = h  \circ  h = 0.</fr:tex> Here the compositions are understood to have the appropriate subscript so the degrees match.
+addr="hmlg-0016">chain homotopy</fr:link> <fr:tex>h : {\textrm{id}} \to g \mathbin{\circ} f</fr:tex>, such that <fr:tex>\pi \mathbin{\circ} \iota = {\textrm{id}}</fr:tex>, and <fr:tex
+display="block">\pi \mathbin{\circ} h = h \mathbin{\circ} \iota = h \mathbin{\circ} h = 0.</fr:tex> Here the compositions are understood to have the appropriate subscript so the degrees match.
 </fr:p><fr:p>
-  We write the reduction as <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex>. The three components are denoted <fr:tex>\pi _{ \rho }  : C  \to  D</fr:tex>, <fr:tex>\iota _{ \rho }  : D  \to  C</fr:tex> and <fr:tex>h_{ \rho }  : C  \to  C</fr:tex>, respectively.
+  We write the reduction as <fr:tex>\rho : C \Rightarrow\mkern{-14mu}\Rightarrow D</fr:tex>. The three components are denoted <fr:tex>{\pi_{\rho}} : C \to D</fr:tex>, <fr:tex>{\iota_{\rho}} : D \to C</fr:tex> and <fr:tex>{h_{\rho}} : C \to C</fr:tex>, respectively.
 </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -195,7 +195,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>464</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0023</fr:addr><fr:route>hmlg-0023.xml</fr:route><fr:title>Eilenberg–Zilber theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>565</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0023</fr:addr><fr:route>hmlg-0023.xml</fr:route><fr:title>Eilenberg–Zilber theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -204,7 +204,7 @@ href="hmlg-0017.xml"
 type="local"
 addr="hmlg-0017">chain reduction</fr:link>
   <fr:tex
-display="block">C_* (X  \times  Y)  \Rightarrow \mkern {-14mu} \Rightarrow  C_* (X)  \otimes  C_* (Y).</fr:tex></fr:p>
+display="block">C_* (X \times Y) \Rightarrow\mkern{-14mu}\Rightarrow C_* (X) \otimes C_* (Y).</fr:tex></fr:p>
   
     
     <fr:tree
@@ -214,18 +214,18 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>426</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>527</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0023</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    For every product of simplices <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex>, we put on the <fr:link
+    For every product of simplices <fr:tex>\Delta^p \times \Delta^q</fr:tex>, we put on the <fr:link
 href="hmlg-0022.xml"
 type="local"
-addr="hmlg-0022">discrete vector field on <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex></fr:link>. This DVF is <fr:link
+addr="hmlg-0022">discrete vector field on <fr:tex>\Delta^p \times \Delta^q</fr:tex></fr:link>. This DVF is <fr:link
 href="hmlg-001P.xml"
 type="local"
-addr="hmlg-001P">admissible</fr:link> because the time a path stays in <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex> is bounded by a function of <fr:tex>p</fr:tex> and <fr:tex>q</fr:tex>. Then it is sent to a boundary cell.
+addr="hmlg-001P">admissible</fr:link> because the time a path stays in <fr:tex>\Delta^p \times \Delta^q</fr:tex> is bounded by a function of <fr:tex>p</fr:tex> and <fr:tex>q</fr:tex>. Then it is sent to a boundary cell.
   </fr:p>
 
   <fr:p>

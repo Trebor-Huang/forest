@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>928</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001Q</fr:addr><fr:route>hmlg-001Q.xml</fr:route><fr:title>Discrete field line</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1029</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001Q</fr:addr><fr:route>hmlg-001Q.xml</fr:route><fr:title>Discrete field line</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -27,17 +27,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>924</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001N</fr:addr><fr:route>hmlg-001N.xml</fr:route><fr:title>Discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1025</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001N</fr:addr><fr:route>hmlg-001N.xml</fr:route><fr:title>Discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   A <fr:strong>discrete vector field</fr:strong> (DVF) of degree <fr:tex>p</fr:tex> on an <fr:link
 href="hmlg-0013.xml"
 type="local"
-addr="hmlg-0013">algebraic cellular complex</fr:link> is given by a collection of pairs of cells <fr:tex>( \sigma ,  \tau )</fr:tex>, where <fr:tex>\sigma</fr:tex> is a <fr:link
+addr="hmlg-0013">algebraic cellular complex</fr:link> is given by a collection of pairs of cells <fr:tex>(\sigma, \tau)</fr:tex>, where <fr:tex>\sigma</fr:tex> is a <fr:link
 href="hmlg-001O.xml"
 type="local"
-addr="hmlg-001O">regular face</fr:link> of the degree <fr:tex>p</fr:tex> cell <fr:tex>\tau</fr:tex>, standing for a vector pointing from <fr:tex>\sigma</fr:tex> to <fr:tex>\tau</fr:tex>, which we will write as <fr:tex>\overrightharpoon { \sigma   \tau }</fr:tex>. We require that every cell appears at most once in these vectors.
+addr="hmlg-001O">regular face</fr:link> of the degree <fr:tex>p</fr:tex> cell <fr:tex>\tau</fr:tex>, standing for a vector pointing from <fr:tex>\sigma</fr:tex> to <fr:tex>\tau</fr:tex>, which we will write as <fr:tex>\overrightharpoon{\sigma \tau}</fr:tex>. We require that every cell appears at most once in these vectors.
 </fr:p><fr:p>
   A DVF naturally partitions the cells into three kinds: the <fr:em>sources</fr:em>, the <fr:em>targets</fr:em>, and the rest of the cells are called <fr:em>critical cells</fr:em>. This name comes from the analogy to Morse theory. Indeed there is a notion of <fr:link
 href="https://en.wikipedia.org/wiki/Discrete_Morse_theory"
@@ -49,14 +49,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>926</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001O</fr:addr><fr:route>hmlg-001O.xml</fr:route><fr:title>Regular face in an algebraic cellular complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1027</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001O</fr:addr><fr:route>hmlg-001O.xml</fr:route><fr:title>Regular face in an algebraic cellular complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given an <fr:link
 href="hmlg-0013.xml"
 type="local"
-addr="hmlg-0013">algebraic cellular complex</fr:link> and a cell <fr:tex>\sigma</fr:tex>, a <fr:strong>regular face</fr:strong> of <fr:tex>\sigma</fr:tex> is a cell whose coefficient in <fr:tex>d \sigma</fr:tex> is <fr:tex>\pm  1</fr:tex>.
+addr="hmlg-0013">algebraic cellular complex</fr:link> and a cell <fr:tex>\sigma</fr:tex>, a <fr:strong>regular face</fr:strong> of <fr:tex>\sigma</fr:tex> is a cell whose coefficient in <fr:tex>d\sigma</fr:tex> is <fr:tex>\pm 1</fr:tex>.
 </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -64,14 +64,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>916</fr:anchor><fr:taxon>Intuition</fr:taxon><fr:addr>hmlg-001Z</fr:addr><fr:route>hmlg-001Z.xml</fr:route><fr:title>Chain reduction generated by a discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1017</fr:anchor><fr:taxon>Intuition</fr:taxon><fr:addr>hmlg-001Z</fr:addr><fr:route>hmlg-001Z.xml</fr:route><fr:title>Chain reduction generated by a discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   The <fr:link
 href="hmlg-001R.xml"
 type="local"
-addr="hmlg-001R">chain reduction generated by a discrete vector field</fr:link> reduces an ACC <fr:tex>(C_k, d)</fr:tex> to a smaller one, which can be explicitly described. Its cells are the critical cells in <fr:tex>C_k</fr:tex>. For the faces of a cell <fr:tex>\sigma</fr:tex>, we start with the faces <fr:tex>d( \sigma )</fr:tex> in the original ACC. Then we move every non-critical cell down along the <fr:link
+addr="hmlg-001R">chain reduction generated by a discrete vector field</fr:link> reduces an ACC <fr:tex>(C_k, d)</fr:tex> to a smaller one, which can be explicitly described. Its cells are the critical cells in <fr:tex>C_k</fr:tex>. For the faces of a cell <fr:tex>\sigma</fr:tex>, we start with the faces <fr:tex>d(\sigma)</fr:tex> in the original ACC. Then we move every non-critical cell down along the <fr:link
 href="hmlg-001Q.xml"
 type="local"
 addr="hmlg-001Q">discrete field lines</fr:link>, up to some sign flips, until we get to a critical cell.
@@ -87,7 +87,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>918</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001R</fr:addr><fr:route>hmlg-001R.xml</fr:route><fr:title>Chain reduction generated by a discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1019</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001R</fr:addr><fr:route>hmlg-001R.xml</fr:route><fr:title>Chain reduction generated by a discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -114,12 +114,12 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>420</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>521</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001R</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    The DVF partitions the chain groups into a direct sum <fr:tex>C_k^{s}  \oplus  C_k^t  \oplus  C_k^c</fr:tex>, corresponding to source, target and critical cells. We would like to create a reduction to the critical cells only. To do this, we invoke <fr:link
+    The DVF partitions the chain groups into a direct sum <fr:tex>C_k^{s} \oplus C_k^t \oplus C_k^c</fr:tex>, corresponding to source, target and critical cells. We would like to create a reduction to the critical cells only. To do this, we invoke <fr:link
 href="hmlg-001G.xml"
 type="local"
 addr="hmlg-001G"><fr:link
@@ -132,7 +132,7 @@ addr="hmlg-0017">chain reduction</fr:link></fr:link> and start with a simpler ch
   </fr:p>
 
   <fr:p>
-    Consider the algebraic cellular complex whose chain groups are <fr:tex>C_k</fr:tex>, but the differential <fr:tex>d'( \sigma ) =  \pm   \tau</fr:tex> iff <fr:tex>\overrightharpoon { \tau   \sigma }</fr:tex> is in the vector field, and zero otherwise. The sign is determined as the sign of <fr:tex>\tau</fr:tex> in <fr:tex>d( \sigma )</fr:tex>. Hence <fr:tex>d' : C_{k+1}^{t}  \to  C_k^s</fr:tex>, and is zero otherwise. Therefore using the <fr:link
+    Consider the algebraic cellular complex whose chain groups are <fr:tex>C_k</fr:tex>, but the differential <fr:tex>d'(\sigma) = \pm \tau</fr:tex> iff <fr:tex>\overrightharpoon{\tau \sigma}</fr:tex> is in the vector field, and zero otherwise. The sign is determined as the sign of <fr:tex>\tau</fr:tex> in <fr:tex>d(\sigma)</fr:tex>. Hence <fr:tex>d' : C_{k+1}^{t} \to C_k^s</fr:tex>, and is zero otherwise. Therefore using the <fr:link
 href="hmlg-001H.xml"
 type="local"
 addr="hmlg-001H">characterization of <fr:link
@@ -142,7 +142,7 @@ addr="hmlg-0017">chain reduction</fr:link></fr:link> as a direct sum with a spli
   </fr:p>
 
   <fr:p>
-    Next, we try to perturb <fr:tex>d'</fr:tex> to <fr:tex>d</fr:tex>. We need <fr:tex>h_{ \rho }   \circ  (d' - d)</fr:tex> to be locally nilpotent, where <fr:tex>\rho</fr:tex> is the reduction constructed above. <fr:tex>h_{ \rho }</fr:tex> can be viewed as the inverse of <fr:tex>d'</fr:tex>, as it maps the source cell to the target cell. Expanding the definition, we see that this map transports cells down the <fr:link
+    Next, we try to perturb <fr:tex>d'</fr:tex> to <fr:tex>d</fr:tex>. We need <fr:tex>{h_{\rho}} \mathbin{\circ} (d' - d)</fr:tex> to be locally nilpotent, where <fr:tex>\rho</fr:tex> is the reduction constructed above. <fr:tex>{h_{\rho}}</fr:tex> can be viewed as the inverse of <fr:tex>d'</fr:tex>, as it maps the source cell to the target cell. Expanding the definition, we see that this map transports cells down the <fr:link
 href="hmlg-001Q.xml"
 type="local"
 addr="hmlg-001Q">discrete field line</fr:link>. Since the vector field is admissible, such a transportation eventually terminates and it becomes zero.
@@ -156,7 +156,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>920</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>hmlg-001S</fr:addr><fr:route>hmlg-001S.xml</fr:route><fr:title>Discrete field lines can branch and merge</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1021</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>hmlg-001S</fr:addr><fr:route>hmlg-001S.xml</fr:route><fr:title>Discrete field lines can branch and merge</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -166,7 +166,7 @@ type="local"
 addr="hmlg-001N">discrete vector field</fr:link> and a vector field, the <fr:link
 href="hmlg-001Q.xml"
 type="local"
-addr="hmlg-001Q">field lines</fr:link> of a DVF may branch out. For instance, take a triangle <fr:tex>\tau</fr:tex> with three edges <fr:tex>\sigma _1,  \sigma _2,  \sigma _3</fr:tex>. We can have a vector <fr:tex>\overrightharpoon { \sigma _1  \tau }</fr:tex> pointing into the triangle, and <fr:tex>\sigma _2,  \sigma _3</fr:tex> each having vectors pointing out. Similarly multiple field lines may join when they reach a lower-degree cell. Because of this, we need to take care in the phrasing of <fr:link
+addr="hmlg-001Q">field lines</fr:link> of a DVF may branch out. For instance, take a triangle <fr:tex>\tau</fr:tex> with three edges <fr:tex>\sigma_1, \sigma_2, \sigma_3</fr:tex>. We can have a vector <fr:tex>\overrightharpoon{\sigma_1 \tau}</fr:tex> pointing into the triangle, and <fr:tex>\sigma_2, \sigma_3</fr:tex> each having vectors pointing out. Similarly multiple field lines may join when they reach a lower-degree cell. Because of this, we need to take care in the phrasing of <fr:link
 href="hmlg-001P.xml"
 type="local"
 addr="hmlg-001P">admissibility</fr:link>.
@@ -177,7 +177,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>922</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001P</fr:addr><fr:route>hmlg-001P.xml</fr:route><fr:title>Admissible discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1023</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001P</fr:addr><fr:route>hmlg-001P.xml</fr:route><fr:title>Admissible discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>

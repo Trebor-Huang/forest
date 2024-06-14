@@ -7,12 +7,16 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1625</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#284</fr:addr><fr:route>unstable-284.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1596</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#284</fr:addr><fr:route>unstable-284.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000B</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000N</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex>\bigcup _i D(f_i) =  \top</fr:tex>, then there is a finite union equal to <fr:tex>\top</fr:tex>. Algebraically this means <fr:tex>\sqrt { \gcd \{ f_i \} } = 1</fr:tex>, equivalently <fr:tex>\gcd \{ f_i \}  = 1</fr:tex>. So we have a linear combination <fr:tex>\sum _k a_k f_k = 1</fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.
+    Recall the axiom for a local ring: if any sum is invertible, then one of the summand is invertible. When applied to the direct limit in each stalk, this immediately expands to the definition of a locally ringed space.
+  </fr:p>
+
+  <fr:p>
+    In particular, a crucial property is used in the reverse implication, i.e. if one open contains all the points of another, then the former covers the latter. This is equivalent to the condition of having enough points.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -21,17 +25,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1623</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000B</fr:addr><fr:route>algm-000B.xml</fr:route><fr:title>A <fr:link
-href="algm-0001.xml"
-type="local"
-addr="algm-0001">ring spectrum</fr:link> is quasi-compact</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1594</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000N</fr:addr><fr:route>algm-000N.xml</fr:route><fr:title>Stalks of locally ringed topological space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The space <fr:tex>\operatorname {Spec} (R)</fr:tex> is always <fr:link
-href="algm-000A.xml"
+  Given a <fr:link
+href="algm-000M.xml"
 type="local"
-addr="algm-000A">quasi-compact</fr:link>.
+addr="algm-000M">ringed</fr:link> topological space, it is <fr:link
+href="algm-000L.xml"
+type="local"
+addr="algm-000L">locally ringed</fr:link> iff every stalk is a local ring.
 </fr:p>
   
     
@@ -42,12 +46,16 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1557</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#284</fr:addr><fr:route>unstable-284.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1592</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#284</fr:addr><fr:route>unstable-284.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000B</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000N</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex>\bigcup _i D(f_i) =  \top</fr:tex>, then there is a finite union equal to <fr:tex>\top</fr:tex>. Algebraically this means <fr:tex>\sqrt { \gcd \{ f_i \} } = 1</fr:tex>, equivalently <fr:tex>\gcd \{ f_i \}  = 1</fr:tex>. So we have a linear combination <fr:tex>\sum _k a_k f_k = 1</fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.
+    Recall the axiom for a local ring: if any sum is invertible, then one of the summand is invertible. When applied to the direct limit in each stalk, this immediately expands to the definition of a locally ringed space.
+  </fr:p>
+
+  <fr:p>
+    In particular, a crucial property is used in the reverse implication, i.e. if one open contains all the points of another, then the former covers the latter. This is equivalent to the condition of having enough points.
   </fr:p>
 </fr:mainmatter></fr:tree>
   

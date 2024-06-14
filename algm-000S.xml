@@ -7,14 +7,14 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1475</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000S</fr:addr><fr:route>algm-000S.xml</fr:route><fr:title>Morphism of ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1576</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000S</fr:addr><fr:route>algm-000S.xml</fr:route><fr:title>Morphism of ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given two <fr:link
 href="algm-000M.xml"
 type="local"
-addr="algm-000M">ringed spaces</fr:link> <fr:tex>X, Y</fr:tex>, a morphism <fr:tex>\varphi  : X  \to  Y</fr:tex> is given by a continuous map of the underlying spaces, and a sheaf morphism <fr:tex>\varphi ^{-1}  \mathscr { O } _Y  \to   \mathscr { O } _X</fr:tex>, equivalently <fr:tex>\mathscr { O } _Y  \to   \varphi _*  \mathscr { O } _X</fr:tex>.
+addr="algm-000M">ringed spaces</fr:link> <fr:tex>X, Y</fr:tex>, a morphism <fr:tex>\varphi : X \to Y</fr:tex> is given by a continuous map of the underlying spaces, and a sheaf morphism <fr:tex>\varphi^{-1} {\mathscr{O}}_Y \to {\mathscr{O}}_X</fr:tex>, equivalently <fr:tex>{\mathscr{O}}_Y \to \varphi_* {\mathscr{O}}_X</fr:tex>.
 </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -22,7 +22,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1473</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000M</fr:addr><fr:route>algm-000M.xml</fr:route><fr:title>Ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1574</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000M</fr:addr><fr:route>algm-000M.xml</fr:route><fr:title>Ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -34,14 +34,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1469</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title>Action of morphisms on stalks of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1570</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title>Action of morphisms on stalks of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given a <fr:link
 href="algm-000S.xml"
 type="local"
-addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi  : X  \to  Y</fr:tex>, if it is <fr:link
+addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi : X \to Y</fr:tex>, if it is <fr:link
 href="algm-000U.xml"
 type="local"
 addr="algm-000U">local</fr:link>, a germ is invertible iff its <fr:link
@@ -58,12 +58,12 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1384</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1485</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Note that the stalk <fr:tex>( \varphi ^{-1} \mathscr { O } _{Y})_x =  \mathscr { O } _{Y,  \varphi (x)}</fr:tex>. A germ being invertible implies for some neighborhood <fr:tex>U</fr:tex> of <fr:tex>x</fr:tex>, it comes from an invertible section <fr:tex>f  \in   \Gamma (U,  \varphi ^{-1} \mathscr { O } _Y)</fr:tex>, so the image in <fr:tex>\Gamma (U,  \mathscr { O } _X)</fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.
+    Note that the stalk <fr:tex>(\varphi^{-1}{\mathscr{O}}_{Y})_x = {\mathscr{O}}_{Y, \varphi(x)}</fr:tex>. A germ being invertible implies for some neighborhood <fr:tex>U</fr:tex> of <fr:tex>x</fr:tex>, it comes from an invertible section <fr:tex>f \in {\Gamma}(U, \varphi^{-1}{\mathscr{O}}_Y)</fr:tex>, so the image in <fr:tex>{\Gamma}(U, {\mathscr{O}}_X)</fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.
   </fr:p>
 
   <fr:p>
@@ -78,7 +78,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1471</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000U</fr:addr><fr:route>algm-000U.xml</fr:route><fr:title>Morphism of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1572</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000U</fr:addr><fr:route>algm-000U.xml</fr:route><fr:title>Morphism of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -88,25 +88,25 @@ type="local"
 addr="algm-000L">locally ringed spaces</fr:link>, a <fr:link
 href="algm-000S.xml"
 type="local"
-addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi</fr:tex> between them is <fr:strong>local</fr:strong> when sections of <fr:tex>\varphi ^{-1} \mathscr { O } _Y</fr:tex> are invertible iff their images in <fr:tex>\mathscr { O } _X</fr:tex> are invertible, i.e. the following diagram is a pullback:
+addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi</fr:tex> between them is <fr:strong>local</fr:strong> when sections of <fr:tex>\varphi^{-1}{\mathscr{O}}_Y</fr:tex> are invertible iff their images in <fr:tex>{\mathscr{O}}_X</fr:tex> are invertible, i.e. the following diagram is a pullback:
 
   
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="77652e716833610307a6936f0ba2a109"><fr:embedded-tex-preamble>
+hash="198899d151858ff4911e2572bf2e6342"><fr:embedded-tex-preamble>
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
     </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzcd} 
-    { \varphi ^{-1} \mathscr { O } _Y^ \times } &amp; { \mathscr { O } _X^ \times }  \\ 
-    { \varphi ^{-1} \mathscr { O } _Y} &amp; { \mathscr { O } _X}
-     \arrow [hook, from=1-1, to=2-1]
-     \arrow [hook, from=1-2, to=2-2]
-     \arrow [from=1-1, to=1-2]
-     \arrow [from=2-1, to=2-2]
-     \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
-   \end {tikzcd}
+      \begin{tikzcd}
+    {\varphi^{-1}{\mathscr{O}}_Y^\times} &amp; {{\mathscr{O}}_X^\times} \\
+    {\varphi^{-1}{\mathscr{O}}_Y} &amp; {{\mathscr{O}}_X}
+    \arrow[hook, from=1-1, to=2-1]
+    \arrow[hook, from=1-2, to=2-2]
+    \arrow[from=1-1, to=1-2]
+    \arrow[from=2-1, to=2-2]
+    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+  \end{tikzcd}
     </fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
@@ -114,5 +114,5 @@ hash="77652e716833610307a6936f0ba2a109"><fr:embedded-tex-preamble>
   Note that the <fr:link
 href="algm-000T.xml"
 type="local"
-addr="algm-000T">subsheaf of units</fr:link> is given by a finite limit, hence <fr:tex>\varphi ^{-1}</fr:tex> preserves it. Since the lower map map <fr:tex>\varphi ^{-1}  \mathscr { O } _Y  \to   \mathscr { O } _X</fr:tex> is a ring homomorphism on the sections, it maps units to units. Hence restriction to the upper map makes sense.
+addr="algm-000T">subsheaf of units</fr:link> is given by a finite limit, hence <fr:tex>\varphi^{-1}</fr:tex> preserves it. Since the lower map map <fr:tex>\varphi^{-1} {\mathscr{O}}_Y \to {\mathscr{O}}_X</fr:tex> is a ring homomorphism on the sections, it maps units to units. Hence restriction to the upper map makes sense.
 </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

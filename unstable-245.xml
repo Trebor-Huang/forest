@@ -7,12 +7,22 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>759</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>682</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0005</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000L</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Consider the functor from the Kleisli category to the category of free algebras, sending <fr:tex>X</fr:tex> to the free algebra on <fr:tex>X</fr:tex>. This is fully faithful and surjective on objects.
+    Consider the set of <fr:em>atoms</fr:em> <fr:tex>A</fr:tex>, defined as minimal non-bottom elements. It suffices to prove the algebra is <fr:em>atomic</fr:em>, i.e. every non-bottom element has an atom below it. This is because we can remove all the atoms that an element contains, and the result must be <fr:tex>\bot</fr:tex>. So every element is given by a join of atoms. Such a join must be unique, since the intersection of different atoms is empty, so given two ways to write an element as a join of atoms, we take the intersection and see that they must agree. This shows that the elements are in bijection with <fr:tex>{\mathcal{P}}(A)</fr:tex>, with joins, meets and complements given by unions, intersections and complements, respectively.
+  </fr:p>
+
+  <fr:p>
+    To show atomicity, consider <fr:tex
+display="block">\top = \bigwedge_{b \in B} (b \lor \neg b) = \bigvee_{S \subseteq B} \left[ \bigwedge_{b \in S} b \wedge \bigwedge_{b \notin S} \neg b \right].</fr:tex> Consider the disjunctive clauses in here not equal to <fr:tex>\bot</fr:tex> (which must exist unless <fr:tex>\top = \bot</fr:tex> which trivially satisfies the requirements). They must be atoms because any element <fr:tex>x</fr:tex> strictly below them must be below all the conjunctive items, so either <fr:tex>x &lt; x</fr:tex> or <fr:tex>x &lt; \neg x</fr:tex>. The former is absurd and the latter implies <fr:tex>x = \bot</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    Taking the meet of the equation with an arbitrary element <fr:tex>x</fr:tex> gives <fr:tex
+display="block">x = \bigvee_{S \subseteq B} \left[x \wedge \bigwedge_{b \in S} b \wedge \bigwedge_{b \notin S} \neg b \right].</fr:tex> If there are no atoms <fr:tex>a \le x</fr:tex>, then all the clauses must be <fr:tex>\bot</fr:tex> meaning <fr:tex>x = \bot</fr:tex>. This finishes the proof.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -21,20 +31,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>757</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0005</fr:addr><fr:route>ualg-0005.xml</fr:route><fr:title>The Kleisli category is equivalent to the category of free algebras</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>680</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000L</fr:addr><fr:route>ualg-000L.xml</fr:route><fr:title>Completely distributive complete Boolean algebras are powersets</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given category <fr:tex>\mathcal { C }</fr:tex>, <fr:link
-href="ualg-0004.xml"
+  Every <fr:link
+href="ualg-000J.xml"
 type="local"
-addr="ualg-0004">the Kleisli category of a monad</fr:link> <fr:tex>M :  \mathcal { C }   \to   \mathcal { C }</fr:tex> is equivalent to the full subcategory of the <fr:tex>M</fr:tex>-<fr:link
-href="ualg-0002.xml"
-type="local"
-addr="ualg-0002">algebras</fr:link> spanned by the <fr:link
-href="ualg-0003.xml"
-type="local"
-addr="ualg-0003">free algebras</fr:link>.
+addr="ualg-000J">completely distributive complete Boolean algebra</fr:link> is isomorphic to the set algebra of a powerset, and homomorphisms are given by inverse image map. In other words, the category of CDCBA is isomorphic to <fr:tex>{\mathsf{Set}}^{{\textrm{op}}}</fr:tex> and the forgetful functor is given by the powerset <fr:tex>{\mathcal{P}}(X) = 2^X</fr:tex>.
 </fr:p>
   
     
@@ -45,12 +49,22 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>755</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>678</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0005</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000L</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Consider the functor from the Kleisli category to the category of free algebras, sending <fr:tex>X</fr:tex> to the free algebra on <fr:tex>X</fr:tex>. This is fully faithful and surjective on objects.
+    Consider the set of <fr:em>atoms</fr:em> <fr:tex>A</fr:tex>, defined as minimal non-bottom elements. It suffices to prove the algebra is <fr:em>atomic</fr:em>, i.e. every non-bottom element has an atom below it. This is because we can remove all the atoms that an element contains, and the result must be <fr:tex>\bot</fr:tex>. So every element is given by a join of atoms. Such a join must be unique, since the intersection of different atoms is empty, so given two ways to write an element as a join of atoms, we take the intersection and see that they must agree. This shows that the elements are in bijection with <fr:tex>{\mathcal{P}}(A)</fr:tex>, with joins, meets and complements given by unions, intersections and complements, respectively.
+  </fr:p>
+
+  <fr:p>
+    To show atomicity, consider <fr:tex
+display="block">\top = \bigwedge_{b \in B} (b \lor \neg b) = \bigvee_{S \subseteq B} \left[ \bigwedge_{b \in S} b \wedge \bigwedge_{b \notin S} \neg b \right].</fr:tex> Consider the disjunctive clauses in here not equal to <fr:tex>\bot</fr:tex> (which must exist unless <fr:tex>\top = \bot</fr:tex> which trivially satisfies the requirements). They must be atoms because any element <fr:tex>x</fr:tex> strictly below them must be below all the conjunctive items, so either <fr:tex>x &lt; x</fr:tex> or <fr:tex>x &lt; \neg x</fr:tex>. The former is absurd and the latter implies <fr:tex>x = \bot</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    Taking the meet of the equation with an arbitrary element <fr:tex>x</fr:tex> gives <fr:tex
+display="block">x = \bigvee_{S \subseteq B} \left[x \wedge \bigwedge_{b \in S} b \wedge \bigwedge_{b \notin S} \neg b \right].</fr:tex> If there are no atoms <fr:tex>a \le x</fr:tex>, then all the clauses must be <fr:tex>\bot</fr:tex> meaning <fr:tex>x = \bot</fr:tex>. This finishes the proof.
   </fr:p>
 </fr:mainmatter></fr:tree>
   

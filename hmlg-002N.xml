@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>388</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002N</fr:addr><fr:route>hmlg-002N.xml</fr:route><fr:title>Universal <fr:tex>\delta</fr:tex>-functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a <fr:link
+href="hmlg-002K.xml"
+type="local"
+addr="hmlg-002K">homological <fr:tex>\delta</fr:tex>-functor</fr:link> <fr:tex>T_n</fr:tex>, it is <fr:strong>universal</fr:strong> if given any other <fr:tex>\delta</fr:tex>-functor <fr:tex>S_n</fr:tex> and a natural transformation <fr:tex>S_0 \to T_0</fr:tex> at degree 0, it can be uniquely extended to a <fr:link
+href="hmlg-002L.xml"
+type="local"
+addr="hmlg-002L">morphism of <fr:tex>\delta</fr:tex>-functors</fr:link>. Dually, we can reverse the arrows to get the definition of a universal <fr:em>cohomological</fr:em> <fr:tex>\delta</fr:tex>-functor.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>384</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002K</fr:addr><fr:route>hmlg-002K.xml</fr:route><fr:title><fr:tex>\delta</fr:tex>-functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  A <fr:strong>homological <fr:tex>\delta</fr:tex>-functor</fr:strong> is a sequence of <fr:link
+href="hmlg-000S.xml"
+type="local"
+addr="hmlg-000S">additive functors</fr:link> <fr:tex>T_n : {\mathcal{A}} \to {\mathcal{B}}</fr:tex> between <fr:link
+href="hmlg-000Q.xml"
+type="local"
+addr="hmlg-000Q">abelian categories</fr:link>, with the convention that <fr:tex>T_n = 0</fr:tex> for <fr:tex>n &lt; 0</fr:tex>. For every <fr:link
+href="hmlg-000H.xml"
+type="local"
+addr="hmlg-000H">short exact sequence</fr:link> <fr:tex>0 \to X \to Y \to Z \to 0</fr:tex> in <fr:tex>{\mathcal{A}}</fr:tex>, we have a connecting map <fr:tex>\delta_n : T_n(Z) \to T_{n-1}(X)</fr:tex>, such that this assignment is natural in the exact sequence.
+</fr:p><fr:p>
+  Similarly, a <fr:strong>cohomological <fr:tex>\delta</fr:tex>-functor</fr:strong> can be defined with <fr:tex>\delta^n : T^n(Z) \to T^{n+1}(X)</fr:tex>. These also have contravariant versions, by replacing <fr:tex>{\mathcal{A}}</fr:tex> with <fr:tex>{\mathcal{A}}^{\textrm{op}}</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>386</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002L</fr:addr><fr:route>hmlg-002L.xml</fr:route><fr:title>Morphism of <fr:tex>\delta</fr:tex>-functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given two <fr:link
+href="hmlg-002K.xml"
+type="local"
+addr="hmlg-002K"><fr:tex>\delta</fr:tex>-functors</fr:link>, a morphism between them is given by a sequence of natural transformations <fr:tex>f_n : T_n \to S_n</fr:tex> that additionally commutes with <fr:tex>\delta</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>382</fr:anchor><fr:addr>hmlg-002M</fr:addr><fr:route>hmlg-002M.xml</fr:route><fr:title>Displayed category of <fr:tex>\delta</fr:tex>-functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The <fr:link
+href="hmlg-002K.xml"
+type="local"
+addr="hmlg-002K"><fr:tex>\delta</fr:tex>-functors</fr:link> between two <fr:link
+href="hmlg-000G.xml"
+type="local"
+addr="hmlg-000G">abelian categories</fr:link> form a displayed category over the category of <fr:link
+href="hmlg-000S.xml"
+type="local"
+addr="hmlg-000S">additive functors</fr:link> (or we can restrict it to <fr:link
+href="hmlg-000X.xml"
+type="local"
+addr="hmlg-000X">right exact functors</fr:link> for homological <fr:tex>\delta</fr:tex>-functors). Under this setup, the definition of a <fr:link
+href="hmlg-002N.xml"
+type="local"
+addr="hmlg-002N">universal <fr:tex>\delta</fr:tex>-functor</fr:link> can be expressed abstractly as a “relative” kind of terminal object or initial object. It is an object <fr:tex>X</fr:tex> displayed over <fr:tex>x</fr:tex> such that <fr:tex>\hom_f (Y, X) = 1</fr:tex> for every <fr:tex>Y</fr:tex> and <fr:tex>f</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

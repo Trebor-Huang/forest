@@ -7,15 +7,15 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1431</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>algm-000V</fr:addr><fr:route>algm-000V.xml</fr:route><fr:title>Terminology of pullbacks</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1532</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>algm-000V</fr:addr><fr:route>algm-000V.xml</fr:route><fr:title>Terminology of pullbacks</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  In general, a pullback is any contravariant functorial action. In other words, we have a functor <fr:tex>F :  \mathcal { C } ^ \textrm {op}   \to   \mathcal { D }</fr:tex>, and pulling back along a morphism <fr:tex>f</fr:tex> in <fr:tex>\mathcal { C }</fr:tex> means the action of <fr:tex>F(f)</fr:tex>.
+  In general, a pullback is any contravariant functorial action. In other words, we have a functor <fr:tex>F : {\mathcal{C}}^{\textrm{op}} \to {\mathcal{D}}</fr:tex>, and pulling back along a morphism <fr:tex>f</fr:tex> in <fr:tex>{\mathcal{C}}</fr:tex> means the action of <fr:tex>F(f)</fr:tex>.
 </fr:p><fr:p>
-  In differential geometry, we have a set of <fr:tex>k</fr:tex>-forms <fr:tex>\Omega ^k(M)</fr:tex>, which forms a functor <fr:tex>\mathsf { Mfd } ^ \textrm {op}   \to   \mathsf { Set }</fr:tex>. Pullbacks of differential forms is then the functorial action. In the special case of <fr:tex>k = 0</fr:tex>, this corresponds to composition, which is sometimes also referred to as pullbacks.
+  In differential geometry, we have a set of <fr:tex>k</fr:tex>-forms <fr:tex>\Omega^k(M)</fr:tex>, which forms a functor <fr:tex>{\mathsf{Mfd}}^{\textrm{op}} \to {\mathsf{Set}}</fr:tex>. Pullbacks of differential forms is then the functorial action. In the special case of <fr:tex>k = 0</fr:tex>, this corresponds to composition, which is sometimes also referred to as pullbacks.
 </fr:p><fr:p>
-  The categorical pullback can also be construed as a contravariant action, which forms the functor from <fr:tex>\mathcal { C } ^ \textrm {op}</fr:tex> to the <fr:tex>2</fr:tex>-category <fr:tex>\mathsf { Cat }</fr:tex> given by taking slices.
+  The categorical pullback can also be construed as a contravariant action, which forms the functor from <fr:tex>{\mathcal{C}}^{\textrm{op}}</fr:tex> to the <fr:tex>2</fr:tex>-category <fr:tex>{\mathsf{Cat}}</fr:tex> given by taking slices.
 </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -23,14 +23,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1429</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title>Action of morphisms on stalks of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1530</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title>Action of morphisms on stalks of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given a <fr:link
 href="algm-000S.xml"
 type="local"
-addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi  : X  \to  Y</fr:tex>, if it is <fr:link
+addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi : X \to Y</fr:tex>, if it is <fr:link
 href="algm-000U.xml"
 type="local"
 addr="algm-000U">local</fr:link>, a germ is invertible iff its <fr:link
@@ -47,12 +47,12 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1384</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1485</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Note that the stalk <fr:tex>( \varphi ^{-1} \mathscr { O } _{Y})_x =  \mathscr { O } _{Y,  \varphi (x)}</fr:tex>. A germ being invertible implies for some neighborhood <fr:tex>U</fr:tex> of <fr:tex>x</fr:tex>, it comes from an invertible section <fr:tex>f  \in   \Gamma (U,  \varphi ^{-1} \mathscr { O } _Y)</fr:tex>, so the image in <fr:tex>\Gamma (U,  \mathscr { O } _X)</fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.
+    Note that the stalk <fr:tex>(\varphi^{-1}{\mathscr{O}}_{Y})_x = {\mathscr{O}}_{Y, \varphi(x)}</fr:tex>. A germ being invertible implies for some neighborhood <fr:tex>U</fr:tex> of <fr:tex>x</fr:tex>, it comes from an invertible section <fr:tex>f \in {\Gamma}(U, \varphi^{-1}{\mathscr{O}}_Y)</fr:tex>, so the image in <fr:tex>{\Gamma}(U, {\mathscr{O}}_X)</fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.
   </fr:p>
 
   <fr:p>

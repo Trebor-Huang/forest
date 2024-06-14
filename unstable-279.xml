@@ -7,12 +7,22 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1501</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1393</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000J</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0014</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We take a directed limit. The elements are from some <fr:tex>R[f^{-1}]</fr:tex> with <fr:tex>\mathfrak { p }   \nmid  f</fr:tex>, i.e. the elements can be written as <fr:tex>g/f^n</fr:tex>. Two elements are equal iff their common restriction to some <fr:tex>D(f)</fr:tex> is equal, i.e. <fr:tex>g_1/f_1^n = g_2/f_2^m</fr:tex> iff <fr:tex>(g_1 f_2^m - g_2 f_1^n) f^k = 0</fr:tex>. These are exactly the definition of the localization away from <fr:tex>\mathfrak { p }</fr:tex>.
+    We need to give a natural bijection
+    <fr:tex
+display="block">\hom(X, \operatorname{Spec}(R)) \cong \hom(R, {\Gamma}(\top, {\mathscr{O}}_X)).</fr:tex>
+    In other words, maps <fr:tex>X \to \operatorname{Spec}(R)</fr:tex> between locally ringed spaces are uniquely specified by the action of global sections.
+  </fr:p>
+
+  <fr:p>
+    Since <fr:tex>X</fr:tex> is glued from affine open subschemes, a map from <fr:tex>X</fr:tex> is equivalent to a map from each open subscheme <fr:tex>\operatorname{Spec}(S_i)</fr:tex> that agree on common restrictions (which again can be checked on an affine covering). Since the codomain is affine, these maps are equivalently ring homomorphisms <fr:tex>R \to S_i</fr:tex> by <fr:ref
+addr="algm-000X"
+href="algm-000X.xml"
+taxon="Theorem"></fr:ref>. The elements of <fr:tex>{\Gamma}(\top, {\mathscr{O}}_X)</fr:tex> are also given by a set of compatible elements from <fr:tex>S_i</fr:tex>. Hence these two sets are naturally bijective.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -21,17 +31,15 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1499</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000J</fr:addr><fr:route>algm-000J.xml</fr:route><fr:title>Stalk of the structure sheaf on <fr:tex>\operatorname {Spec} (R)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1391</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0014</fr:addr><fr:route>algm-0014.xml</fr:route><fr:title>Adjunction of global section and <fr:tex>\operatorname{Spec}</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a point <fr:tex>\left [ \mathfrak { p } \right ]   \in   \operatorname {Spec} (R)</fr:tex>, the stalk at the point is the localization <fr:tex>R_{ \mathfrak { p } }</fr:tex>. In particular, the ring spectrum is a <fr:link
+  We have an adjunction of functors <fr:tex
+display="block">{\mathsf{CRing}}^{\textrm{op}} \xtofrom[{\Gamma}(\top, {\mathscr{O}}_{(-)})]{\operatorname{Spec}} {\mathsf{Sch}},</fr:tex> with <fr:tex>\operatorname{Spec}</fr:tex> being the right adjoint (or <fr:tex>\operatorname{Spec} : {\mathsf{CRing}} \to {\mathsf{Sch}}^{\textrm{op}}</fr:tex> being the left adjoint). In fact, we can replace <fr:tex>{\mathsf{Sch}}</fr:tex> with the category of <fr:link
 href="algm-000L.xml"
 type="local"
-addr="algm-000L">locally ringed space</fr:link> by <fr:ref
-addr="algm-000N"
-href="algm-000N.xml"
-taxon="Theorem"></fr:ref>.
+addr="algm-000L">locally ringed spaces</fr:link> <fr:tex>{\mathsf{LRS}}</fr:tex>, of whom <fr:tex>{\mathsf{Sch}}</fr:tex> is a full subcategory.
 </fr:p>
   
     
@@ -42,13 +50,104 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1497</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1389</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#279</fr:addr><fr:route>unstable-279.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000J</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0014</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We take a directed limit. The elements are from some <fr:tex>R[f^{-1}]</fr:tex> with <fr:tex>\mathfrak { p }   \nmid  f</fr:tex>, i.e. the elements can be written as <fr:tex>g/f^n</fr:tex>. Two elements are equal iff their common restriction to some <fr:tex>D(f)</fr:tex> is equal, i.e. <fr:tex>g_1/f_1^n = g_2/f_2^m</fr:tex> iff <fr:tex>(g_1 f_2^m - g_2 f_1^n) f^k = 0</fr:tex>. These are exactly the definition of the localization away from <fr:tex>\mathfrak { p }</fr:tex>.
+    We need to give a natural bijection
+    <fr:tex
+display="block">\hom(X, \operatorname{Spec}(R)) \cong \hom(R, {\Gamma}(\top, {\mathscr{O}}_X)).</fr:tex>
+    In other words, maps <fr:tex>X \to \operatorname{Spec}(R)</fr:tex> between locally ringed spaces are uniquely specified by the action of global sections.
+  </fr:p>
+
+  <fr:p>
+    Since <fr:tex>X</fr:tex> is glued from affine open subschemes, a map from <fr:tex>X</fr:tex> is equivalent to a map from each open subscheme <fr:tex>\operatorname{Spec}(S_i)</fr:tex> that agree on common restrictions (which again can be checked on an affine covering). Since the codomain is affine, these maps are equivalently ring homomorphisms <fr:tex>R \to S_i</fr:tex> by <fr:ref
+addr="algm-000X"
+href="algm-000X.xml"
+taxon="Theorem"></fr:ref>. The elements of <fr:tex>{\Gamma}(\top, {\mathscr{O}}_X)</fr:tex> are also given by a set of compatible elements from <fr:tex>S_i</fr:tex>. Hence these two sets are naturally bijective.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1387</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title>Morphisms of affine schemes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+href="algm-000U.xml"
+type="local"
+addr="algm-000U">Morphism</fr:link> of <fr:link
+href="algm-000Q.xml"
+type="local"
+addr="algm-000Q">affine schemes</fr:link> are in natural bijection with ring homomorphisms in the opposite direction. In other words, there is a fully faithful embedding <fr:tex>{\mathsf{CRing}}^{\textrm{op}} \to {\mathsf{Sch}}</fr:tex>.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>429</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    Given two rings <fr:tex>R</fr:tex>, <fr:tex>S</fr:tex>, a ring homomorphism <fr:tex>\varphi : S \to R</fr:tex> naturally induces a map of <fr:link
+href="algm-0004.xml"
+type="local"
+addr="algm-0004">distinguished opens</fr:link> <fr:tex>f \mapsto \varphi(f)</fr:tex>. This is a continuous map <fr:tex>\operatorname{Spec}(R) \to \operatorname{Spec}(S)</fr:tex>, because <fr:tex>\varphi</fr:tex> preserves <fr:tex>\operatorname{lcm}</fr:tex> and <fr:tex>\gcd</fr:tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <fr:tex>{\Gamma}(D(s), {\mathscr{O}}_{\operatorname{Spec}(S)}) \to {\Gamma}(D(r), {\mathscr{O}}_{\operatorname{Spec}(R)})</fr:tex> whenever <fr:tex>D(r) \subseteq \varphi^{-1}D(s) = D(\varphi(s))</fr:tex>. This is just a homomorphism <fr:tex>S[s^{-1}] \to R[r^{-1}]</fr:tex>, which is obvious because <fr:tex>\varphi(s)</fr:tex> must be invertible in <fr:tex>R[r^{-1}]</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    We need to prove our map is <fr:link
+href="algm-000U.xml"
+type="local"
+addr="algm-000U">local</fr:link>. Using the <fr:link
+href="algm-000W.xml"
+type="local"
+addr="algm-000W">characterization on stalks</fr:link>, we just need to verify that <fr:tex>S_{\varphi^{-1}(\mathfrak{p})} \to R_{\mathfrak{p}}</fr:tex> reflects invertibility. This is true by construction. Hence we have a map <fr:tex>\hom_{{\mathsf{CRing}}}(S, R) \to \hom_{{\mathsf{Sch}}}(\operatorname{Spec}(R), \operatorname{Spec}(S))</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    In the reverse direction, given a morphism <fr:tex>\varphi : \operatorname{Spec}(R) \to \operatorname{Spec}(S)</fr:tex>, we can extract a ring homomorphism by looking at the global sections
+    <fr:tex
+display="block">S \cong {\Gamma}(\top, \varphi^{-1}{\mathscr{O}}_{\operatorname{Spec}(S)}) \to {\Gamma}(\top, {\mathscr{O}}_{\operatorname{Spec}(R)}) \cong R.</fr:tex>
+    We obviously have going from <fr:tex>{\mathsf{CRing}}</fr:tex> to <fr:tex>{\mathsf{Sch}}</fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
+
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="cf65e16cf4b03239ee9cfe91fa803b6a"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+      \begin{tikzcd}
+      S &amp; R \\
+      {S_{\mathfrak{q}}} &amp; {R_{\mathfrak{p}}}
+      \arrow[from=1-1, to=1-2]
+      \arrow[from=2-1, to=2-2]
+      \arrow[two heads, from=1-1, to=2-1]
+      \arrow[two heads, from=1-2, to=2-2]
+    \end{tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+
+    where <fr:tex>\left[\mathfrak{q}\right]</fr:tex> is the image of the point <fr:tex>\left[\mathfrak{p}\right]</fr:tex> under the underlying continuous map of <fr:tex>\varphi</fr:tex>. This fixes the action of <fr:tex>\varphi</fr:tex> on the stalks. Furthermore, the <fr:link
+href="algm-000W.xml"
+type="local"
+addr="algm-000W">locality</fr:link> implies the preimage of <fr:tex>\mathfrak{p}</fr:tex> under the ring homomorphism divides <fr:tex>\mathfrak{q}</fr:tex>, and since <fr:tex>\mathfrak{q}</fr:tex> is maximal in the local ring <fr:tex>S_{\mathfrak{q}}</fr:tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

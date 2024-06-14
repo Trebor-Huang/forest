@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1967</fr:anchor><fr:taxon>Visualization</fr:taxon><fr:addr>hmlg-0015</fr:addr><fr:route>hmlg-0015.xml</fr:route><fr:title>Filtered chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2066</fr:anchor><fr:taxon>Visualization</fr:taxon><fr:addr>hmlg-0015</fr:addr><fr:route>hmlg-0015.xml</fr:route><fr:title>Filtered chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -17,30 +17,30 @@ href="hmlg-000A.xml"
 taxon="Visualization"></fr:ref> and <fr:ref
 addr="hmlg-0014"
 href="hmlg-0014.xml"
-taxon="Visualization"></fr:ref>, we arrive at the following picture. Each family of colors corresponds to the filtration <fr:tex>F_ \bullet  C_n</fr:tex> in one dimension, and the different shades corresponds to the degree in the filtration.
+taxon="Visualization"></fr:ref>, we arrive at the following picture. Each family of colors corresponds to the filtration <fr:tex>F_\bullet C_n</fr:tex> in one dimension, and the different shades corresponds to the degree in the filtration.
 </fr:p>
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz">
     <fr:embedded-tex
-hash="5edffb1224886d5cf123812f3dbf58f4"><fr:embedded-tex-preamble>
+hash="103afdf2b7bffdacb6e656d35c314f3e"><fr:embedded-tex-preamble>
             \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
       \usetikzlibrary{decorations.pathreplacing}
     </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzpicture} 
-   \tikzset {every path/.style={thick, fill opacity = 0.2, line join = round}}
-   \foreach   \depth  in {4,3,2,1} {
-     \fill [blue!80!yellow] (-4,4) -- (0,0) -- ({ \depth }, 0) -- ({ \depth  - 4}, 4) -- cycle;
-     \fill [green!80!purple] (0,0) -- (4,4) -- ({ \depth  + 4}, 4) -- ({ \depth }, 0) -- cycle;
-     \fill [yellow!80!red] (4,4) -- (8,0) -- ({ \depth  + 8}, 0) -- ({ \depth  + 4}, 4) -- cycle;
+      \begin{tikzpicture}
+  \tikzset{every path/.style={thick, fill opacity = 0.2, line join = round}}
+  \foreach \depth in {4,3,2,1} {
+    \fill[blue!80!yellow] (-4,4) -- (0,0) -- ({\depth}, 0) -- ({\depth - 4}, 4) -- cycle;
+    \fill[green!80!purple] (0,0) -- (4,4) -- ({\depth + 4}, 4) -- ({\depth}, 0) -- cycle;
+    \fill[yellow!80!red] (4,4) -- (8,0) -- ({\depth + 8}, 0) -- ({\depth + 4}, 4) -- cycle;
   }
 
-   \foreach   \depth  in {4,3,2,1} {
-     \draw  ({ \depth  - 5},4) -- ({ \depth  - 1},0) -- ({ \depth }, 0) -- ({ \depth  - 4}, 4) -- cycle;
-     \draw  ({ \depth  - 1},0) -- ({ \depth  + 3},4) -- ({ \depth  + 4}, 4) -- ({ \depth }, 0) -- cycle;
-     \draw  ({ \depth  + 3},4) -- ({ \depth  + 7},0) -- ({ \depth  + 8}, 0) -- ({ \depth  + 4}, 4) -- cycle;
+  \foreach \depth in {4,3,2,1} {
+    \draw ({\depth - 5},4) -- ({\depth - 1},0) -- ({\depth}, 0) -- ({\depth - 4}, 4) -- cycle;
+    \draw ({\depth - 1},0) -- ({\depth + 3},4) -- ({\depth + 4}, 4) -- ({\depth}, 0) -- cycle;
+    \draw ({\depth + 3},4) -- ({\depth + 7},0) -- ({\depth + 8}, 0) -- ({\depth + 4}, 4) -- cycle;
   }
- \end {tikzpicture}
+\end{tikzpicture}
     </fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 <fr:p>
@@ -52,24 +52,24 @@ hash="5edffb1224886d5cf123812f3dbf58f4"><fr:embedded-tex-preamble>
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz">
     <fr:embedded-tex
-hash="edacd3ac0aa6b36988f534239518c954"><fr:embedded-tex-preamble>
+hash="c5a329f6f98c72c312c75ed2b0cb087d"><fr:embedded-tex-preamble>
             \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
       \usetikzlibrary{decorations.pathreplacing}
     </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzpicture} 
-     \tikzset {every path/.style={thick, fill opacity = 0.4, line join = round}}
-     \foreach   \depth  in {2} {
-       \fill [blue!80!yellow] ({ \depth  - 5},4) -- ({ \depth  - 1},0) -- ({ \depth }, 0) -- ({ \depth  - 4}, 4) -- cycle;
-       \fill [green!80!purple] ({ \depth  - 1},0) -- ({ \depth  + 3},4) -- ({ \depth  + 4}, 4) -- ({ \depth }, 0) -- cycle;
-       \fill [yellow!80!red] ({ \depth  + 3},4) -- ({ \depth  + 7},0) -- ({ \depth  + 8}, 0) -- ({ \depth  + 4}, 4) -- cycle;
+      \begin{tikzpicture}
+    \tikzset{every path/.style={thick, fill opacity = 0.4, line join = round}}
+    \foreach \depth in {2} {
+      \fill[blue!80!yellow] ({\depth - 5},4) -- ({\depth - 1},0) -- ({\depth}, 0) -- ({\depth - 4}, 4) -- cycle;
+      \fill[green!80!purple] ({\depth - 1},0) -- ({\depth + 3},4) -- ({\depth + 4}, 4) -- ({\depth}, 0) -- cycle;
+      \fill[yellow!80!red] ({\depth + 3},4) -- ({\depth + 7},0) -- ({\depth + 8}, 0) -- ({\depth + 4}, 4) -- cycle;
     }
 
-     \foreach   \depth  in {4,3,2,1} {
-       \draw  ({ \depth  - 5},4) -- ({ \depth  - 1},0) -- ({ \depth }, 0) -- ({ \depth  - 4}, 4) -- cycle;
-       \draw  ({ \depth  - 1},0) -- ({ \depth  + 3},4) -- ({ \depth  + 4}, 4) -- ({ \depth }, 0) -- cycle;
-       \draw  ({ \depth  + 3},4) -- ({ \depth  + 7},0) -- ({ \depth  + 8}, 0) -- ({ \depth  + 4}, 4) -- cycle;
+    \foreach \depth in {4,3,2,1} {
+      \draw ({\depth - 5},4) -- ({\depth - 1},0) -- ({\depth}, 0) -- ({\depth - 4}, 4) -- cycle;
+      \draw ({\depth - 1},0) -- ({\depth + 3},4) -- ({\depth + 4}, 4) -- ({\depth}, 0) -- cycle;
+      \draw ({\depth + 3},4) -- ({\depth + 7},0) -- ({\depth + 8}, 0) -- ({\depth + 4}, 4) -- cycle;
     }
-   \end {tikzpicture}
+  \end{tikzpicture}
     </fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
@@ -81,27 +81,27 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1960</fr:anchor><fr:taxon>Visualization</fr:taxon><fr:addr>hmlg-0014</fr:addr><fr:route>hmlg-0014.xml</fr:route><fr:title>Filtered object</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2059</fr:anchor><fr:taxon>Visualization</fr:taxon><fr:addr>hmlg-0014</fr:addr><fr:route>hmlg-0014.xml</fr:route><fr:title>Filtered object</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  We can visualize a filtered object <fr:tex>F_1 A  \subseteq  F_2 A  \subseteq  F_3 A  \subseteq  A</fr:tex> as nested rectangles. The graded components of this filtration are the individual rectangular regions.
+  We can visualize a filtered object <fr:tex>F_1 A \subseteq F_2 A \subseteq F_3 A \subseteq A</fr:tex> as nested rectangles. The graded components of this filtration are the individual rectangular regions.
 </fr:p>
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz">
     <fr:embedded-tex
-hash="360b99de446e14c5d12fdd97287432e2"><fr:embedded-tex-preamble>
+hash="4aa6db34dc1ed2b05a4c86c08044719f"><fr:embedded-tex-preamble>
             \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
       \usetikzlibrary{decorations.pathreplacing}
     </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzpicture} 
-   \tikzset {every path/.style={thick, fill = blue!80!yellow, fill opacity = 0.1}}
-   \filldraw  (0,-1) rectangle (4,1);
-   \filldraw  (0,-1) rectangle (3,1);
-   \filldraw  (0,-1) rectangle (2,1);
-   \filldraw  (0,-1) rectangle (1,1);
- \end {tikzpicture}
+      \begin{tikzpicture}
+  \tikzset{every path/.style={thick, fill = blue!80!yellow, fill opacity = 0.1}}
+  \filldraw (0,-1) rectangle (4,1);
+  \filldraw (0,-1) rectangle (3,1);
+  \filldraw (0,-1) rectangle (2,1);
+  \filldraw (0,-1) rectangle (1,1);
+\end{tikzpicture}
     </fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 </fr:mainmatter></fr:tree><fr:tree
@@ -111,7 +111,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1963</fr:anchor><fr:taxon>Visualization</fr:taxon><fr:addr>hmlg-000A</fr:addr><fr:route>hmlg-000A.xml</fr:route><fr:title>Chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2062</fr:anchor><fr:taxon>Visualization</fr:taxon><fr:addr>hmlg-000A</fr:addr><fr:route>hmlg-000A.xml</fr:route><fr:title>Chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -123,11 +123,11 @@ type="external">here</fr:link>.
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz">
     <fr:embedded-tex
-hash="0a3470a2b5e0555203bd72cc6278c23f"><fr:embedded-tex-preamble>
+hash="1bc610e48445afb8a9637cc0ed34c98c"><fr:embedded-tex-preamble>
             \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
       \usetikzlibrary{decorations.pathreplacing}
     </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzpicture} 
+      \begin{tikzpicture}
     \clip (-1.9, -2.4) rectangle (5.9, 2);
   \tikzset{every path/.style={thick}}
 
@@ -149,7 +149,7 @@ hash="0a3470a2b5e0555203bd72cc6278c23f"><fr:embedded-tex-preamble>
   \node at (4,1) {\(H_{n-1}\)};
 
   \draw (6,0) circle (1.6);
- \end {tikzpicture}
+\end{tikzpicture}
     </fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 <fr:p>

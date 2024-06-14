@@ -7,20 +7,63 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2125</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2101</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000P</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Z</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    By the universal property of products and coproducts, a map from the coproduct of some objects <fr:tex>X_i</fr:tex> to their product is given by a matrix of morphisms <fr:tex>f_{ij} : X_i  \to  X_j</fr:tex>. We choose the identity matrix
-    <fr:tex
-display="block">f_{ij} =  \begin {cases}        \textrm {id}  &amp; (i = j)  \\        0 &amp; (i  \ne  j)      \end {cases}</fr:tex>
-    where <fr:tex>0</fr:tex> is the additive neutral element in the abelian group <fr:tex>\hom (X_i, X_j)</fr:tex>. This gives a canonical map <fr:tex>\coprod _i X_i  \to   \prod _i X_i</fr:tex>.
+    We claim that <fr:tex>f</fr:tex> being monic is equivalent to the following square being a pullback square:
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="ad929c5530d9c44eb95094753ba26442"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+      \begin{tikzcd}
+      X &amp; X \\
+      X &amp; Y
+      \arrow["f"', from=2-1, to=2-2]
+      \arrow["f", from=1-2, to=2-2]
+      \arrow["{\textrm{id}}"', from=1-1, to=2-1]
+      \arrow["{\textrm{id}}", from=1-1, to=1-2]
+      \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+    \end{tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span></fr:p>
+
+  <fr:p>
+    For the forward implication, we consider the diagram
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="87d6c86cbda4c17c65fa2c9359eaea88"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+      \begin{tikzcd}
+      Z \\
+      &amp; X &amp; X \\
+      &amp; X &amp; Y
+      \arrow["f"', from=3-2, to=3-3]
+      \arrow["f", from=2-3, to=3-3]
+      \arrow["{\textrm{id}}"', from=2-2, to=3-2]
+      \arrow["{\textrm{id}}", from=2-2, to=2-3]
+      \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=2-2, to=3-3]
+      \arrow[dashed, from=1-1, to=2-2]
+      \arrow["g"', curve={height=6pt}, from=1-1, to=3-2]
+      \arrow["h", curve={height=-6pt}, from=1-1, to=2-3]
+    \end{tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    Since <fr:tex>f</fr:tex> is mono, this diagram commutes iff <fr:tex>g = h</fr:tex>, in which case there is a unique way to fill in the dashed arrow, which is <fr:tex>g</fr:tex>.
   </fr:p>
 
   <fr:p>
-    When there are finitely many objects involved, we can construct an inverse. Consider the morphisms <fr:tex
-display="block">\prod _i X_i  \xrightarrow { \pi _j} X_j  \xrightarrow { \iota _j}  \coprod _i X_i.</fr:tex> We claim the sum of these morphisms is the desired inverse. To verify this, we compose them. Using bilinearity, we are reduced to showing that the coproduct and product of the identity map is the identity, which is true.
+    On the other hand, if the diagram is a pullback, then for every pair of morphisms <fr:tex>g, h : Z \rightrightarrows X</fr:tex>, we can draw the diagram above, and obtain the dashed arrow <fr:tex>k : Z \to X</fr:tex>. The diagram commuting implies <fr:tex>g = {\textrm{id}} \mathbin{\circ} k = h</fr:tex>.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -29,14 +72,11 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2123</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000P</fr:addr><fr:route>hmlg-000P.xml</fr:route><fr:title>Additive category</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2099</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000Z</fr:addr><fr:route>hmlg-000Z.xml</fr:route><fr:title>Monomorphisms can be expressed using finite limits</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Let <fr:tex>\mathcal { C }</fr:tex> be <fr:link
-href="hmlg-000O.xml"
-type="local"
-addr="hmlg-000O"><fr:tex>\mathsf { Ab }</fr:tex>-enriched</fr:link>. The finite products and coproducts, if they exist, are isomorphic via a canonical map. If they all exist, then this category is called an <fr:strong>additive category</fr:strong>. In particular, the nullary product and coproduct coincide, and we call the object <fr:strong>zero object</fr:strong>, denoted <fr:tex>0</fr:tex>.
+  Given a morphism <fr:tex>f : X \to Y</fr:tex> in an arbitrary category, we can express the condition of being monic using finite limits.
 </fr:p>
   
     
@@ -47,20 +87,63 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2018</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2097</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000P</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Z</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    By the universal property of products and coproducts, a map from the coproduct of some objects <fr:tex>X_i</fr:tex> to their product is given by a matrix of morphisms <fr:tex>f_{ij} : X_i  \to  X_j</fr:tex>. We choose the identity matrix
-    <fr:tex
-display="block">f_{ij} =  \begin {cases}        \textrm {id}  &amp; (i = j)  \\        0 &amp; (i  \ne  j)      \end {cases}</fr:tex>
-    where <fr:tex>0</fr:tex> is the additive neutral element in the abelian group <fr:tex>\hom (X_i, X_j)</fr:tex>. This gives a canonical map <fr:tex>\coprod _i X_i  \to   \prod _i X_i</fr:tex>.
+    We claim that <fr:tex>f</fr:tex> being monic is equivalent to the following square being a pullback square:
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="ad929c5530d9c44eb95094753ba26442"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+      \begin{tikzcd}
+      X &amp; X \\
+      X &amp; Y
+      \arrow["f"', from=2-1, to=2-2]
+      \arrow["f", from=1-2, to=2-2]
+      \arrow["{\textrm{id}}"', from=1-1, to=2-1]
+      \arrow["{\textrm{id}}", from=1-1, to=1-2]
+      \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+    \end{tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span></fr:p>
+
+  <fr:p>
+    For the forward implication, we consider the diagram
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="87d6c86cbda4c17c65fa2c9359eaea88"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+      \begin{tikzcd}
+      Z \\
+      &amp; X &amp; X \\
+      &amp; X &amp; Y
+      \arrow["f"', from=3-2, to=3-3]
+      \arrow["f", from=2-3, to=3-3]
+      \arrow["{\textrm{id}}"', from=2-2, to=3-2]
+      \arrow["{\textrm{id}}", from=2-2, to=2-3]
+      \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=2-2, to=3-3]
+      \arrow[dashed, from=1-1, to=2-2]
+      \arrow["g"', curve={height=6pt}, from=1-1, to=3-2]
+      \arrow["h", curve={height=-6pt}, from=1-1, to=2-3]
+    \end{tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    Since <fr:tex>f</fr:tex> is mono, this diagram commutes iff <fr:tex>g = h</fr:tex>, in which case there is a unique way to fill in the dashed arrow, which is <fr:tex>g</fr:tex>.
   </fr:p>
 
   <fr:p>
-    When there are finitely many objects involved, we can construct an inverse. Consider the morphisms <fr:tex
-display="block">\prod _i X_i  \xrightarrow { \pi _j} X_j  \xrightarrow { \iota _j}  \coprod _i X_i.</fr:tex> We claim the sum of these morphisms is the desired inverse. To verify this, we compose them. Using bilinearity, we are reduced to showing that the coproduct and product of the identity map is the identity, which is true.
+    On the other hand, if the diagram is a pullback, then for every pair of morphisms <fr:tex>g, h : Z \rightrightarrows X</fr:tex>, we can draw the diagram above, and obtain the dashed arrow <fr:tex>k : Z \to X</fr:tex>. The diagram commuting implies <fr:tex>g = {\textrm{id}} \mathbin{\circ} k = h</fr:tex>.
   </fr:p>
 </fr:mainmatter></fr:tree>
   

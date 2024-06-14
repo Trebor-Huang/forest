@@ -7,20 +7,12 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1629</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1602</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0009</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000J</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    In one direction, if <fr:tex>\operatorname {Spec} {R}</fr:tex> is disconnected, we have two opens <fr:tex>D( \mathfrak { a } )</fr:tex> and <fr:tex>D( \mathfrak { b } )</fr:tex> whose intersection is empty and union is the entire space. In other words radical ideals <fr:tex>\mathfrak { a } ,  \mathfrak { b }</fr:tex> such that <fr:tex>\sqrt { \gcd ( \mathfrak { a } ,  \mathfrak { b } )} = 1</fr:tex> (equivalent to <fr:tex>\gcd ( \mathfrak { a } ,  \mathfrak { b } ) = 1</fr:tex>) and <fr:tex>\operatorname {lcm} ( \mathfrak { a } ,  \mathfrak { b } ) = 0</fr:tex>. We have <fr:tex>\mathfrak { a }   \mid  a</fr:tex> and <fr:tex>\mathfrak { b }   \mid  b</fr:tex> such that <fr:tex>a + b = 1</fr:tex>. But <fr:tex>\operatorname {lcm} ( \mathfrak { a } ,  \mathfrak { b } )  \mid  a b</fr:tex>, therefore <fr:tex>a b = 0</fr:tex>. This implies <fr:tex>a(1-a) = 0</fr:tex>, or <fr:tex>a^2 = a</fr:tex>. The same goes for <fr:tex>b</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    Let <fr:tex>R_1</fr:tex> be the subset of <fr:tex>R</fr:tex> consisting of multiples of <fr:tex>a</fr:tex>. It contains an identity <fr:tex>a</fr:tex>, since <fr:tex>a  \cdot  a x = a x</fr:tex> by idempotence. Hence this subset forms a ring with the same addition and multiplication but a different identity. The same goes for <fr:tex>R_2</fr:tex>, the multiples of <fr:tex>b</fr:tex>. There is an obvious map <fr:tex>R_1  \times  R_2  \to  R</fr:tex>, given by <fr:tex>(ax, by)  \mapsto  ax + by</fr:tex>. This is an injection since <fr:tex>z  \mapsto  a z</fr:tex> recovers the first argument, and <fr:tex>z  \mapsto  b z</fr:tex> recovers the second. It is also a surjection because <fr:tex>z = a z + b z</fr:tex> is the image of <fr:tex>(az, bz)</fr:tex>. Hence we found an isomorphism.
-  </fr:p>
-
-  <fr:p>
-    In the other direction, suppose <fr:tex>R  \cong  R_1  \times  R_2</fr:tex>, then <fr:tex>D((1,0))</fr:tex> and <fr:tex>D((0,1))</fr:tex> separates the spectrum into two disjoint parts.
+    We take a directed limit. The elements are from some <fr:tex>R[f^{-1}]</fr:tex> with <fr:tex>\mathfrak{p} \nmid f</fr:tex>, i.e. the elements can be written as <fr:tex>g/f^n</fr:tex>. Two elements are equal iff their common restriction to some <fr:tex>D(f)</fr:tex> is equal, i.e. <fr:tex>g_1/f_1^n = g_2/f_2^m</fr:tex> iff <fr:tex>(g_1 f_2^m - g_2 f_1^n) f^k = 0</fr:tex>. These are exactly the definition of the localization away from <fr:tex>\mathfrak{p}</fr:tex>.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -29,11 +21,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1627</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0009</fr:addr><fr:route>algm-0009.xml</fr:route><fr:title><fr:tex>\operatorname {Spec} {R}</fr:tex> is disconnected iff <fr:tex>R</fr:tex> is a product of non-zero rings</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1600</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000J</fr:addr><fr:route>algm-000J.xml</fr:route><fr:title>Stalk of the structure sheaf on <fr:tex>\operatorname{Spec}(R)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a commutative ring <fr:tex>R</fr:tex>, <fr:tex>\operatorname {Spec} {R}</fr:tex> is disconnected iff <fr:tex>R  \cong  R_1  \times  R_2</fr:tex>, where <fr:tex>R_1, R_2</fr:tex> are non-zero commutative rings.
+  Given a point <fr:tex>\left[\mathfrak{p}\right] \in \operatorname{Spec}(R)</fr:tex>, the stalk at the point is the localization <fr:tex>R_{\mathfrak{p}}</fr:tex>. In particular, the ring spectrum is a <fr:link
+href="algm-000L.xml"
+type="local"
+addr="algm-000L">locally ringed space</fr:link> by <fr:ref
+addr="algm-000N"
+href="algm-000N.xml"
+taxon="Theorem"></fr:ref>.
 </fr:p>
   
     
@@ -44,20 +42,12 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1607</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1598</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0009</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000J</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    In one direction, if <fr:tex>\operatorname {Spec} {R}</fr:tex> is disconnected, we have two opens <fr:tex>D( \mathfrak { a } )</fr:tex> and <fr:tex>D( \mathfrak { b } )</fr:tex> whose intersection is empty and union is the entire space. In other words radical ideals <fr:tex>\mathfrak { a } ,  \mathfrak { b }</fr:tex> such that <fr:tex>\sqrt { \gcd ( \mathfrak { a } ,  \mathfrak { b } )} = 1</fr:tex> (equivalent to <fr:tex>\gcd ( \mathfrak { a } ,  \mathfrak { b } ) = 1</fr:tex>) and <fr:tex>\operatorname {lcm} ( \mathfrak { a } ,  \mathfrak { b } ) = 0</fr:tex>. We have <fr:tex>\mathfrak { a }   \mid  a</fr:tex> and <fr:tex>\mathfrak { b }   \mid  b</fr:tex> such that <fr:tex>a + b = 1</fr:tex>. But <fr:tex>\operatorname {lcm} ( \mathfrak { a } ,  \mathfrak { b } )  \mid  a b</fr:tex>, therefore <fr:tex>a b = 0</fr:tex>. This implies <fr:tex>a(1-a) = 0</fr:tex>, or <fr:tex>a^2 = a</fr:tex>. The same goes for <fr:tex>b</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    Let <fr:tex>R_1</fr:tex> be the subset of <fr:tex>R</fr:tex> consisting of multiples of <fr:tex>a</fr:tex>. It contains an identity <fr:tex>a</fr:tex>, since <fr:tex>a  \cdot  a x = a x</fr:tex> by idempotence. Hence this subset forms a ring with the same addition and multiplication but a different identity. The same goes for <fr:tex>R_2</fr:tex>, the multiples of <fr:tex>b</fr:tex>. There is an obvious map <fr:tex>R_1  \times  R_2  \to  R</fr:tex>, given by <fr:tex>(ax, by)  \mapsto  ax + by</fr:tex>. This is an injection since <fr:tex>z  \mapsto  a z</fr:tex> recovers the first argument, and <fr:tex>z  \mapsto  b z</fr:tex> recovers the second. It is also a surjection because <fr:tex>z = a z + b z</fr:tex> is the image of <fr:tex>(az, bz)</fr:tex>. Hence we found an isomorphism.
-  </fr:p>
-
-  <fr:p>
-    In the other direction, suppose <fr:tex>R  \cong  R_1  \times  R_2</fr:tex>, then <fr:tex>D((1,0))</fr:tex> and <fr:tex>D((0,1))</fr:tex> separates the spectrum into two disjoint parts.
+    We take a directed limit. The elements are from some <fr:tex>R[f^{-1}]</fr:tex> with <fr:tex>\mathfrak{p} \nmid f</fr:tex>, i.e. the elements can be written as <fr:tex>g/f^n</fr:tex>. Two elements are equal iff their common restriction to some <fr:tex>D(f)</fr:tex> is equal, i.e. <fr:tex>g_1/f_1^n = g_2/f_2^m</fr:tex> iff <fr:tex>(g_1 f_2^m - g_2 f_1^n) f^k = 0</fr:tex>. These are exactly the definition of the localization away from <fr:tex>\mathfrak{p}</fr:tex>.
   </fr:p>
 </fr:mainmatter></fr:tree>
   

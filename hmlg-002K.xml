@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002K</fr:addr><fr:route>hmlg-002K.xml</fr:route><fr:title><fr:tex>\delta</fr:tex>-functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  A <fr:strong>homological <fr:tex>\delta</fr:tex>-functor</fr:strong> is a sequence of <fr:link
+href="hmlg-000S.xml"
+type="local"
+addr="hmlg-000S">additive functors</fr:link> <fr:tex>T_n : {\mathcal{A}} \to {\mathcal{B}}</fr:tex> between <fr:link
+href="hmlg-000Q.xml"
+type="local"
+addr="hmlg-000Q">abelian categories</fr:link>, with the convention that <fr:tex>T_n = 0</fr:tex> for <fr:tex>n &lt; 0</fr:tex>. For every <fr:link
+href="hmlg-000H.xml"
+type="local"
+addr="hmlg-000H">short exact sequence</fr:link> <fr:tex>0 \to X \to Y \to Z \to 0</fr:tex> in <fr:tex>{\mathcal{A}}</fr:tex>, we have a connecting map <fr:tex>\delta_n : T_n(Z) \to T_{n-1}(X)</fr:tex>, such that this assignment is natural in the exact sequence.
+</fr:p><fr:p>
+  Similarly, a <fr:strong>cohomological <fr:tex>\delta</fr:tex>-functor</fr:strong> can be defined with <fr:tex>\delta^n : T^n(Z) \to T^{n+1}(X)</fr:tex>. These also have contravariant versions, by replacing <fr:tex>{\mathcal{A}}</fr:tex> with <fr:tex>{\mathcal{A}}^{\textrm{op}}</fr:tex>.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>302</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000Q</fr:addr><fr:route>hmlg-000Q.xml</fr:route><fr:title>Abelian category</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given an <fr:link
+href="hmlg-000P.xml"
+type="local"
+addr="hmlg-000P">additive category</fr:link>, it is an <fr:strong>abelian category</fr:strong> if the following condition holds.
+</fr:p><fr:ul><fr:li>Every morphism has a kernel and a cokernel.</fr:li>
+  <fr:li>Every monomorphism is the kernel of its cokernel.</fr:li>
+  <fr:li>Every epimorphism is the cokernel of its kernel.</fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000S</fr:addr><fr:route>hmlg-000S.xml</fr:route><fr:title>Additive functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given two <fr:link
+href="hmlg-000P.xml"
+type="local"
+addr="hmlg-000P">additive categories</fr:link> and a functor <fr:tex>F : {\mathcal{C}} \to {\mathcal{D}}</fr:tex> between them, the following are equivalent. In this case, we call the functor <fr:strong>additive</fr:strong>.
+</fr:p><fr:ul><fr:li>The functor preserves finite products.</fr:li>
+  <fr:li>The functor preserves finite coproducts.</fr:li>
+  <fr:li>The functor is a homomorphism on the abelian groups <fr:tex>\hom_{{\mathcal{C}}}(X, Y)</fr:tex>, i.e. it is an <fr:tex>{\mathsf{Ab}}</fr:tex>-enriched functor.</fr:li></fr:ul>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>304</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000S</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    For the equivalence of the first two claims, we have a composition
+    <fr:tex
+display="block">F(X) + F(Y) \to F(X + Y) \stackrel{\sim\,}{\to} F(X \times Y) \to F(X) \times F(Y),</fr:tex>
+    where the middle morphism comes from the canonical isomorphism <fr:tex>X + Y \stackrel{\sim\,}{\to} F(X \times Y)</fr:tex>. The first two claim is equivalent to the right and left arrows being iso, respectively. Recall that a morphism from a coproduct to a product is determined by a matrix of morphisms. With this fact and the functoriality of <fr:tex>F</fr:tex>, we can compute that the composition is the canonical isomorphism from <fr:tex>F(X) + F(Y)</fr:tex> to <fr:tex>F(X) \times F(Y)</fr:tex>. Therefore the leftmost arrow being iso is equivalent to the rightmost arrow being iso.
+  </fr:p>
+
+  <fr:p>
+    Since the abelian group structure on morphisms is <fr:link
+href="hmlg-000R.xml"
+type="local"
+addr="hmlg-000R">uniquely determined</fr:link> from the finite products and coproducts in an additive category, a functor satisfying the first two conditions automatically satisfies the third. Conversely, we need to prove the canonical maps <fr:tex>F(1) \to 1</fr:tex> and <fr:tex>F(X \times Y) \to F(X) \times F(Y)</fr:tex> are isomorphisms. For the first one, since <fr:tex>1</fr:tex> is also the initial object, any morphism into it is automatically iso. For the second one, we again look at the diagram which composes to an isomorphism:
+    <fr:tex
+display="block">F(X) + F(Y) \to F(X + Y) \stackrel{\sim\,}{\to} F(X \times Y) \to F(X) \times F(Y).</fr:tex>
+    Using the bilinearity of composition and that <fr:tex>F</fr:tex> preserves addition on morphisms, we can verify that this provides a two-sided inverse.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000H</fr:addr><fr:route>hmlg-000H.xml</fr:route><fr:title>Short exact sequence</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  A <fr:strong>short exact sequence</fr:strong> is an exact sequence with all but three consecutive terms being zero. It is often written as <fr:tex
+display="block">0 \to A \to B \to C \to 0.</fr:tex> The short exact sequence describes how <fr:tex>B</fr:tex> is made up of a subobject <fr:tex>A</fr:tex> and a quotient <fr:tex>C</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>296</fr:anchor><fr:addr>hmlg-002M</fr:addr><fr:route>hmlg-002M.xml</fr:route><fr:title>Displayed category of <fr:tex>\delta</fr:tex>-functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The <fr:link
+href="hmlg-002K.xml"
+type="local"
+addr="hmlg-002K"><fr:tex>\delta</fr:tex>-functors</fr:link> between two <fr:link
+href="hmlg-000G.xml"
+type="local"
+addr="hmlg-000G">abelian categories</fr:link> form a displayed category over the category of <fr:link
+href="hmlg-000S.xml"
+type="local"
+addr="hmlg-000S">additive functors</fr:link> (or we can restrict it to <fr:link
+href="hmlg-000X.xml"
+type="local"
+addr="hmlg-000X">right exact functors</fr:link> for homological <fr:tex>\delta</fr:tex>-functors). Under this setup, the definition of a <fr:link
+href="hmlg-002N.xml"
+type="local"
+addr="hmlg-002N">universal <fr:tex>\delta</fr:tex>-functor</fr:link> can be expressed abstractly as a “relative” kind of terminal object or initial object. It is an object <fr:tex>X</fr:tex> displayed over <fr:tex>x</fr:tex> such that <fr:tex>\hom_f (Y, X) = 1</fr:tex> for every <fr:tex>Y</fr:tex> and <fr:tex>f</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>298</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002L</fr:addr><fr:route>hmlg-002L.xml</fr:route><fr:title>Morphism of <fr:tex>\delta</fr:tex>-functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given two <fr:link
+href="hmlg-002K.xml"
+type="local"
+addr="hmlg-002K"><fr:tex>\delta</fr:tex>-functors</fr:link>, a morphism between them is given by a sequence of natural transformations <fr:tex>f_n : T_n \to S_n</fr:tex> that additionally commutes with <fr:tex>\delta</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>300</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002N</fr:addr><fr:route>hmlg-002N.xml</fr:route><fr:title>Universal <fr:tex>\delta</fr:tex>-functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a <fr:link
+href="hmlg-002K.xml"
+type="local"
+addr="hmlg-002K">homological <fr:tex>\delta</fr:tex>-functor</fr:link> <fr:tex>T_n</fr:tex>, it is <fr:strong>universal</fr:strong> if given any other <fr:tex>\delta</fr:tex>-functor <fr:tex>S_n</fr:tex> and a natural transformation <fr:tex>S_0 \to T_0</fr:tex> at degree 0, it can be uniquely extended to a <fr:link
+href="hmlg-002L.xml"
+type="local"
+addr="hmlg-002L">morphism of <fr:tex>\delta</fr:tex>-functors</fr:link>. Dually, we can reverse the arrows to get the definition of a universal <fr:em>cohomological</fr:em> <fr:tex>\delta</fr:tex>-functor.
+</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

@@ -7,39 +7,63 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1806</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>913</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001G</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0003</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    For this construction using the third equivalent definition of a chain reduction in <fr:ref
-addr="hmlg-001H"
-href="hmlg-001H.xml"
-taxon="Theorem"></fr:ref>, i.e. a homotopy operator on <fr:tex>C</fr:tex> such that <fr:tex>h  \circ  h = 0</fr:tex> and <fr:tex>h  \circ  d_C  \circ  h = h</fr:tex>.
+    We verify that they form an adjunction. Algebra homomorphisms <fr:tex>\varphi : F_M X \to Y</fr:tex> are given by commutative squares
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="8a6373922bbdf02e099f1678dbddae08"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+      \begin{tikzcd}%tex
+      {M^2 X} &amp; MY \\
+      MX &amp; Y
+      \arrow["{\alpha_Y}", from=1-2, to=2-2]
+      \arrow["\mu"', from=1-1, to=2-1]
+      \arrow["\varphi", from=2-1, to=2-2]
+      \arrow["{M\varphi}", from=1-1, to=1-2]\end{tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    while morphisms <fr:tex>f : X \to Y</fr:tex> fits in the diagram as such: 
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="6c339c9c83c0224f37d79a66abdf1772"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+      \begin{tikzcd}%tex
+      {M^2 X} &amp; MY \\
+      MX &amp; Y \\
+      X
+      \arrow["{\alpha_Y}", from=1-2, to=2-2]
+      \arrow["\mu"', from=1-1, to=2-1]
+      \arrow["\varphi", from=2-1, to=2-2]
+      \arrow["{M\varphi}", from=1-1, to=1-2]
+      \arrow["f"', from=3-1, to=2-2]
+      \arrow["\eta", from=3-1, to=2-1]
+      \arrow[from=2-1, to=1-2]\end{tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    Given a homomorphism <fr:tex>\varphi</fr:tex> of algebras, we can compute <fr:tex>f</fr:tex> by composing with <fr:tex>\eta</fr:tex>. On the other hand, given <fr:tex>f</fr:tex>, we define <fr:tex>\varphi</fr:tex> by <fr:tex>\alpha_Y \mathbin{\circ} Mf</fr:tex>. This creates a commutative square because
+    <fr:tex
+display="block">\begin{aligned}       \alpha_Y \mathbin{\circ} M \varphi       &amp;= \alpha_Y \mathbin{\circ} M\alpha_Y \mathbin{\circ} M^2 f \\       &amp;= \alpha_Y \mathbin{\circ} \mu \mathbin{\circ} M^2 f \\       &amp;= \alpha_Y \mathbin{\circ} M f \mathbin{\circ} \mu \\       &amp;= \varphi \mathbin{\circ} \mu.     \end{aligned}</fr:tex></fr:p>
+
+  <fr:p>
+    We just have to verify that the two conversions are mutual inverses. In one way, we need to verify <fr:tex>\alpha_Y \mathbin{\circ} M f \mathbin{\circ} \eta = f</fr:tex>. This is true because by the naturality of <fr:tex>\eta</fr:tex> we get <fr:tex>M f \mathbin{\circ} \eta = \eta \mathbin{\circ} f</fr:tex>. Then by the definition of <fr:link
+href="ualg-0002.xml"
+type="local"
+addr="ualg-0002">algebra</fr:link> <fr:tex>\alpha_Y \mathbin{\circ} \eta = {\textrm{id}}</fr:tex>, proving the equality. On the other hand, we need to show <fr:tex>\alpha_Y \mathbin{\circ} M(\varphi \mathbin{\circ} \eta) = \varphi</fr:tex>. This follows from the algebra identity <fr:tex>\alpha_Y \mathbin{\circ} M \alpha_Y = \alpha_Y \mathbin{\circ} \mu</fr:tex> and the monad identity <fr:tex>\mu \mathbin{\circ} M \eta = {\textrm{id}}</fr:tex>.
   </fr:p>
-
-  <fr:p>
-    We need to construct a new homotopy operator such that <fr:tex>h'  \circ  h' = 0</fr:tex> and <fr:tex>h'  \circ  (d_C +  \delta _C)  \circ  h' = h'</fr:tex>. We approach this through a “perturbative” mindset. Starting with <fr:tex>h_0 = h</fr:tex>, the second equation is off by a difference of <fr:tex>h_0  \delta _C h_0</fr:tex>. We simply add this as a correction term, <fr:tex>h_1 = h_0 +  \alpha  h_0  \delta _C h_0</fr:tex> where <fr:tex>\alpha</fr:tex> is some coefficient. (Note that essentially the only terms we can consider are of the form <fr:tex>h_0  \delta _C h_0  \delta _C  \cdots  h_0</fr:tex>, since nothing else has the same type.) We still have <fr:tex>h_1  \circ  h_1 = 0</fr:tex>, and for the second equation this creates a new error term
-    <fr:tex
-display="block">\begin {aligned}       &amp; \quad  h_1 (d_C +  \delta _C) h_1 - h_1  \\        &amp;= (1 +  \alpha ) h_0  \delta _C h_0 + 2 ( \alpha  +  \alpha ^2) h_0  \delta _C h_0  \delta _C h_0 +  \alpha ^2 h_0  \delta _C h_0  \delta _C h_0  \delta _C h_0      \end {aligned}</fr:tex>
-    and we can eliminate the first and second order part by setting <fr:tex>\alpha  = -1</fr:tex>. The natural next step would be to add a further correction <fr:tex>h_2 = h_1 +  \beta  h_0  \delta _C h_0  \delta _C h_0</fr:tex>. This turns out to require <fr:tex>\beta  = +1</fr:tex>, and so on.
-  </fr:p>
-
-  <fr:p>
-    From the informal discussion above, we can conjecture the formula
-    <fr:tex
-display="block">h' =  \sum _{k=0}^ \infty  (-1)^k (h  \delta _C)^k h.</fr:tex>
-    This reveals the reason for our pointwise nilpotency condition. With a little bit of care manipulating the infinite sum, we can prove that <fr:tex>h'  \circ  h' = 0</fr:tex> from <fr:tex>h  \circ  h = 0</fr:tex>, and the second equation follows from a nice telescopic sum
-    <fr:tex
-display="block">\begin {aligned}       h'  \circ  (d_C +  \delta _C)  \circ  h'       &amp;=  \sum _{i, j} (-1)^{i + j} (h  \delta _C)^i h (d_C +  \delta _C) (h  \delta _C)^j h  \\        &amp;=  \sum _{i, j} (-1)^{i + j}  \left [(h  \delta _C)^{i + j + 1} h + (h  \delta _C)^{i + j} h \right ]  \\        &amp;=  \sum _{k} (k+1) (-1)^k  \left [(h  \delta _C)^{k + 1} h + (h  \delta _C)^k h \right ]  \\        &amp;=  \sum _k (-1)^k (h  \delta _C)^k h = h'.      \end {aligned}</fr:tex></fr:p>
-
-  <fr:p>
-    We can reconstruct the other two components of the reduction <fr:tex>\iota _{ \rho ' }</fr:tex> and <fr:tex>\pi _{ \rho ' }</fr:tex> through <fr:ref
-addr="hmlg-001H"
-href="hmlg-001H.xml"
-taxon="Theorem"></fr:ref>. In particular, <fr:tex>D'</fr:tex> is given by a perturbation of <fr:tex>D</fr:tex>. We only write down the results below for easy reference.
-    <fr:tex
-display="block">\begin {aligned}      \pi _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }  ( \delta _C  h_{ \rho } )^k  \\       \iota _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k ( h_{ \rho }   \delta _C)^k  \iota _{ \rho }   \\       \delta _D &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }   \delta _C ( h_{ \rho }   \delta _C)^k  \iota _{ \rho } .      \end {aligned}</fr:tex></fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -47,23 +71,20 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1804</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001G</fr:addr><fr:route>hmlg-001G.xml</fr:route><fr:title><fr:link
-href="hmlg-001G.xml"
-type="local"
-addr="hmlg-001G">Perturbation</fr:link> of the larger chain complex in a <fr:link
-href="hmlg-0017.xml"
-type="local"
-addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>911</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>ualg-0003</fr:addr><fr:route>ualg-0003.xml</fr:route><fr:title>Free monad algebras</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a reduction <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex> and a perturbation <fr:tex>\delta _C</fr:tex> for <fr:tex>C</fr:tex>, we assume that <fr:tex>h_{ \rho }   \circ   \delta _C</fr:tex> is pointwise nilpotent, i.e. <fr:tex
-display="block">\forall  c  \in  C_k,  \exists  n  \in   \mathbb {N},  \;  ( h_{ \rho } \delta _C)^n (c) = 0.</fr:tex> We can construct a new chain reduction <fr:tex>\rho ' : C'  \Rightarrow \mkern {-14mu} \Rightarrow  D'</fr:tex>, where <fr:tex>C'</fr:tex> is <fr:tex>C</fr:tex> perturbed by <fr:tex>\delta _C</fr:tex>.
-</fr:p><fr:p>
-  Note that this situation is much harder compared to <fr:ref
-addr="hmlg-001E"
-href="hmlg-001E.xml"
-taxon="Construction"></fr:ref>, as it is generally impossible without the added condition.
+  Given a <fr:link
+href="ualg-0001.xml"
+type="local"
+addr="ualg-0001">monad</fr:link> <fr:tex>M</fr:tex> on a category <fr:tex>{\mathcal{C}}</fr:tex>, there is a canonical adjunction between the <fr:link
+href="ualg-0002.xml"
+type="local"
+addr="ualg-0002">category of algebras</fr:link> <fr:tex>{\mathcal{C}}^M</fr:tex> and <fr:tex>{\mathcal{C}}</fr:tex>. The <fr:strong>forgetful functor</fr:strong> <fr:tex>U_M</fr:tex> takes an <fr:link
+href="ualg-0002.xml"
+type="local"
+addr="ualg-0002">algebra</fr:link> and forgets the algebra structure. The <fr:strong>free functor</fr:strong> <fr:tex>F_M</fr:tex> takes an object <fr:tex>X</fr:tex> and produces an algebra on <fr:tex>MX</fr:tex> given by the monad multiplication map <fr:tex>\mu : M^2 X \to MX</fr:tex>, called the <fr:strong>free algebra</fr:strong>.
 </fr:p>
   
     
@@ -74,39 +95,63 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>846</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>880</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001G</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0003</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    For this construction using the third equivalent definition of a chain reduction in <fr:ref
-addr="hmlg-001H"
-href="hmlg-001H.xml"
-taxon="Theorem"></fr:ref>, i.e. a homotopy operator on <fr:tex>C</fr:tex> such that <fr:tex>h  \circ  h = 0</fr:tex> and <fr:tex>h  \circ  d_C  \circ  h = h</fr:tex>.
+    We verify that they form an adjunction. Algebra homomorphisms <fr:tex>\varphi : F_M X \to Y</fr:tex> are given by commutative squares
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="8a6373922bbdf02e099f1678dbddae08"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+      \begin{tikzcd}%tex
+      {M^2 X} &amp; MY \\
+      MX &amp; Y
+      \arrow["{\alpha_Y}", from=1-2, to=2-2]
+      \arrow["\mu"', from=1-1, to=2-1]
+      \arrow["\varphi", from=2-1, to=2-2]
+      \arrow["{M\varphi}", from=1-1, to=1-2]\end{tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    while morphisms <fr:tex>f : X \to Y</fr:tex> fits in the diagram as such: 
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="6c339c9c83c0224f37d79a66abdf1772"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+      \begin{tikzcd}%tex
+      {M^2 X} &amp; MY \\
+      MX &amp; Y \\
+      X
+      \arrow["{\alpha_Y}", from=1-2, to=2-2]
+      \arrow["\mu"', from=1-1, to=2-1]
+      \arrow["\varphi", from=2-1, to=2-2]
+      \arrow["{M\varphi}", from=1-1, to=1-2]
+      \arrow["f"', from=3-1, to=2-2]
+      \arrow["\eta", from=3-1, to=2-1]
+      \arrow[from=2-1, to=1-2]\end{tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    Given a homomorphism <fr:tex>\varphi</fr:tex> of algebras, we can compute <fr:tex>f</fr:tex> by composing with <fr:tex>\eta</fr:tex>. On the other hand, given <fr:tex>f</fr:tex>, we define <fr:tex>\varphi</fr:tex> by <fr:tex>\alpha_Y \mathbin{\circ} Mf</fr:tex>. This creates a commutative square because
+    <fr:tex
+display="block">\begin{aligned}       \alpha_Y \mathbin{\circ} M \varphi       &amp;= \alpha_Y \mathbin{\circ} M\alpha_Y \mathbin{\circ} M^2 f \\       &amp;= \alpha_Y \mathbin{\circ} \mu \mathbin{\circ} M^2 f \\       &amp;= \alpha_Y \mathbin{\circ} M f \mathbin{\circ} \mu \\       &amp;= \varphi \mathbin{\circ} \mu.     \end{aligned}</fr:tex></fr:p>
+
+  <fr:p>
+    We just have to verify that the two conversions are mutual inverses. In one way, we need to verify <fr:tex>\alpha_Y \mathbin{\circ} M f \mathbin{\circ} \eta = f</fr:tex>. This is true because by the naturality of <fr:tex>\eta</fr:tex> we get <fr:tex>M f \mathbin{\circ} \eta = \eta \mathbin{\circ} f</fr:tex>. Then by the definition of <fr:link
+href="ualg-0002.xml"
+type="local"
+addr="ualg-0002">algebra</fr:link> <fr:tex>\alpha_Y \mathbin{\circ} \eta = {\textrm{id}}</fr:tex>, proving the equality. On the other hand, we need to show <fr:tex>\alpha_Y \mathbin{\circ} M(\varphi \mathbin{\circ} \eta) = \varphi</fr:tex>. This follows from the algebra identity <fr:tex>\alpha_Y \mathbin{\circ} M \alpha_Y = \alpha_Y \mathbin{\circ} \mu</fr:tex> and the monad identity <fr:tex>\mu \mathbin{\circ} M \eta = {\textrm{id}}</fr:tex>.
   </fr:p>
-
-  <fr:p>
-    We need to construct a new homotopy operator such that <fr:tex>h'  \circ  h' = 0</fr:tex> and <fr:tex>h'  \circ  (d_C +  \delta _C)  \circ  h' = h'</fr:tex>. We approach this through a “perturbative” mindset. Starting with <fr:tex>h_0 = h</fr:tex>, the second equation is off by a difference of <fr:tex>h_0  \delta _C h_0</fr:tex>. We simply add this as a correction term, <fr:tex>h_1 = h_0 +  \alpha  h_0  \delta _C h_0</fr:tex> where <fr:tex>\alpha</fr:tex> is some coefficient. (Note that essentially the only terms we can consider are of the form <fr:tex>h_0  \delta _C h_0  \delta _C  \cdots  h_0</fr:tex>, since nothing else has the same type.) We still have <fr:tex>h_1  \circ  h_1 = 0</fr:tex>, and for the second equation this creates a new error term
-    <fr:tex
-display="block">\begin {aligned}       &amp; \quad  h_1 (d_C +  \delta _C) h_1 - h_1  \\        &amp;= (1 +  \alpha ) h_0  \delta _C h_0 + 2 ( \alpha  +  \alpha ^2) h_0  \delta _C h_0  \delta _C h_0 +  \alpha ^2 h_0  \delta _C h_0  \delta _C h_0  \delta _C h_0      \end {aligned}</fr:tex>
-    and we can eliminate the first and second order part by setting <fr:tex>\alpha  = -1</fr:tex>. The natural next step would be to add a further correction <fr:tex>h_2 = h_1 +  \beta  h_0  \delta _C h_0  \delta _C h_0</fr:tex>. This turns out to require <fr:tex>\beta  = +1</fr:tex>, and so on.
-  </fr:p>
-
-  <fr:p>
-    From the informal discussion above, we can conjecture the formula
-    <fr:tex
-display="block">h' =  \sum _{k=0}^ \infty  (-1)^k (h  \delta _C)^k h.</fr:tex>
-    This reveals the reason for our pointwise nilpotency condition. With a little bit of care manipulating the infinite sum, we can prove that <fr:tex>h'  \circ  h' = 0</fr:tex> from <fr:tex>h  \circ  h = 0</fr:tex>, and the second equation follows from a nice telescopic sum
-    <fr:tex
-display="block">\begin {aligned}       h'  \circ  (d_C +  \delta _C)  \circ  h'       &amp;=  \sum _{i, j} (-1)^{i + j} (h  \delta _C)^i h (d_C +  \delta _C) (h  \delta _C)^j h  \\        &amp;=  \sum _{i, j} (-1)^{i + j}  \left [(h  \delta _C)^{i + j + 1} h + (h  \delta _C)^{i + j} h \right ]  \\        &amp;=  \sum _{k} (k+1) (-1)^k  \left [(h  \delta _C)^{k + 1} h + (h  \delta _C)^k h \right ]  \\        &amp;=  \sum _k (-1)^k (h  \delta _C)^k h = h'.      \end {aligned}</fr:tex></fr:p>
-
-  <fr:p>
-    We can reconstruct the other two components of the reduction <fr:tex>\iota _{ \rho ' }</fr:tex> and <fr:tex>\pi _{ \rho ' }</fr:tex> through <fr:ref
-addr="hmlg-001H"
-href="hmlg-001H.xml"
-taxon="Theorem"></fr:ref>. In particular, <fr:tex>D'</fr:tex> is given by a perturbation of <fr:tex>D</fr:tex>. We only write down the results below for easy reference.
-    <fr:tex
-display="block">\begin {aligned}      \pi _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }  ( \delta _C  h_{ \rho } )^k  \\       \iota _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k ( h_{ \rho }   \delta _C)^k  \iota _{ \rho }   \\       \delta _D &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }   \delta _C ( h_{ \rho }   \delta _C)^k  \iota _{ \rho } .      \end {aligned}</fr:tex></fr:p>
 </fr:mainmatter></fr:tree>
   
 </fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
@@ -116,67 +161,36 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1802</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-001H</fr:addr><fr:route>hmlg-001H.xml</fr:route><fr:title>Characterization of <fr:link
-href="hmlg-0017.xml"
-type="local"
-addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>909</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-0002</fr:addr><fr:route>ualg-0002.xml</fr:route><fr:title>Algebra of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The following data are equivalent.
-</fr:p><fr:ul><fr:li>A <fr:link
-href="hmlg-0017.xml"
+  Given a <fr:link
+href="ualg-0001.xml"
 type="local"
-addr="hmlg-0017">chain reduction</fr:link> <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex>.</fr:li>
-  <fr:li>A splitting <fr:tex>C  \cong  D  \oplus  E</fr:tex>, where <fr:tex>E</fr:tex> is a <fr:link
-href="todo.xml"
-type="local"
-addr="todo">split exact</fr:link>.</fr:li>
-  <fr:li>A <fr:link
-href="hmlg-0016.xml"
-type="local"
-addr="hmlg-0016">chain homotopy</fr:link> <fr:tex>h : C  \to  C</fr:tex> satisfying <fr:tex>h  \circ  h = 0</fr:tex> and <fr:tex>h  \circ  d_C  \circ  h = h</fr:tex>.</fr:li></fr:ul>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>850</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001H</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    A chain reduction consists of maps <fr:tex>C_k  \mathrel { \smash { \xtofrom [g_k]{f_k}}} D_k</fr:tex> such that <fr:tex>f_k  \circ  g_k =  \textrm {id}</fr:tex>. Therefore <fr:tex>C_ \bullet</fr:tex> <fr:link
-href="todo.xml"
-type="local"
-addr="todo">splits</fr:link> as <fr:tex>D_ \bullet   \oplus  E_ \bullet</fr:tex>, and the boundary maps are preserved since <fr:tex>f, g</fr:tex> are chain maps. We have a homotopy <fr:tex>h_k : D_k  \oplus  E_k  \to  D_{k+1}  \oplus  E_{k+1}</fr:tex>, which we may write as a <fr:tex>(2  \times  2)</fr:tex>-matrix. <fr:tex>f  \circ  h = 0</fr:tex> demands the first row to be zero, and <fr:tex>h  \circ  g = 0</fr:tex> requires the first column to vanish. This leaves us with
-    <fr:tex
-display="block">\begin {bmatrix}       0 &amp; 0  \\        0 &amp; r_k      \end {bmatrix}</fr:tex>
-    such that <fr:tex>r_{k+1}  \circ  r_k = 0</fr:tex>, since <fr:tex>h  \circ  h = 0</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    Substituting the requirement that <fr:tex>h</fr:tex> is a homotopy <fr:tex>\textrm {id}   \to  g  \circ  f</fr:tex>, we get the equation <fr:tex
-display="block">d_{k+1}  \circ  r_k + r_{k-1}  \circ  d_k =  \textrm {id} ,</fr:tex> where <fr:tex>d</fr:tex> is the boundary operator on <fr:tex>E_ \bullet</fr:tex>. In other words, <fr:tex>r</fr:tex> is a null-homotopy of <fr:tex>E_ \bullet</fr:tex>, rendering it <fr:link
-href="todo.xml"
-type="local"
-addr="todo">split exact</fr:link>. Conversely, given <fr:tex>C  \cong  D  \oplus  E</fr:tex>, we can reconstruct <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> as the projection and inclusion maps, with <fr:tex>h</fr:tex> obtained out of <fr:tex>r</fr:tex> in the manner depicted above.
-  </fr:p>
-
-  <fr:p>
-    On the other hand, given only the homotopy operator, we expect to have <fr:tex>d  \circ  h + h  \circ  d =  \textrm {id}  - g  \circ  f</fr:tex>. And since <fr:tex>g  \circ  f</fr:tex> should be the projector of <fr:tex>C</fr:tex> onto the subspace <fr:tex>D</fr:tex>, <fr:tex>\textrm {id}  - g  \circ  f</fr:tex> should be the projector onto <fr:tex>E</fr:tex>. We are thus led to proving <fr:tex>p = d  \circ  h + h  \circ  d</fr:tex> is indeed a projector.
-    <fr:tex
-display="block">\begin {aligned}       p_k  \circ  p_k &amp;= (d_{k+1}  \circ  h_k + h_{k-1}  \circ  d_k)  \circ  (d_{k+1}  \circ  h_k + h_{k-1}  \circ  d_k)  \\        &amp;= d_{k+1}  \circ   \overbrace {h_k  \circ  d_{k+1}  \circ  h_k}^{h_k} + d_{k+1}  \circ   \overbrace {h_k  \circ  h_{k-1}}^{0}  \circ  d_k  \\        &amp; \qquad  + h_{k-1}  \circ   \underbrace {d_k  \circ  d_{k+1}}_{0}  \circ  h_k +  \underbrace {h_{k-1}  \circ  d_k  \circ  h_{k-1}}_{h_{k-1}}  \circ  d_k  \\        &amp;= d_{k+1}  \circ  h_k + h_{k-1}  \circ  d_k = p_k.      \end {aligned}</fr:tex>
-    Therefore we conclude that <fr:tex>p_k</fr:tex> splits <fr:tex>C_k  \cong  D_k  \oplus  E_k</fr:tex>. More over, <fr:tex>p  \circ  d = d  \circ  h  \circ  d = d  \circ  p</fr:tex>, meaning <fr:tex>p</fr:tex> is a chain map, and therefore the splitting is compatible with the boundary operator. Since <fr:tex>h  \circ  p = p  \circ  h = h  \circ  d  \circ  h = h</fr:tex>, the homotopy is also compatible with the splitting, so we can restrict it onto <fr:tex>E_k</fr:tex> to get a homotopy from <fr:tex>\textrm {id} _E</fr:tex> to <fr:tex>0</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    Finally, restricting <fr:tex>h</fr:tex> onto <fr:tex>D_k</fr:tex> we see that it must be zero, since <fr:tex>h( \textrm {id}  - p) = h - h  \circ  d  \circ  h = 0</fr:tex>. This means that all the information of <fr:tex>h</fr:tex> can be reconstructed from the splitting, and thus all three sets of data are equivalent.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+addr="ualg-0001">monad</fr:link> <fr:tex>M : {\mathcal{C}} \to {\mathcal{C}}</fr:tex>, an <fr:tex>M</fr:tex>-<fr:strong>algebra</fr:strong> is defined as an object <fr:tex>X</fr:tex> equipped with a morphism <fr:tex>\alpha : MX \to X</fr:tex>, such that the following two diagrams commute.
+</fr:p>
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="f1a85fd45bde9ea416d003b2413fdb9b"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+      \begin{tikzcd}%tex
+  {M^2X} &amp; MX &amp; X &amp; MX \\
+  MX &amp; X &amp;&amp; X
+  \arrow["\alpha"', from=2-1, to=2-2]
+  \arrow["\alpha", from=1-2, to=2-2]
+  \arrow["\mu"', from=1-1, to=2-1]
+  \arrow["M\alpha", from=1-1, to=1-2]
+  \arrow["\operatorname{id}"', from=1-3, to=2-4]
+  \arrow["\eta", from=1-3, to=1-4]
+  \arrow["\alpha", from=1-4, to=2-4]\end{tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+<fr:p>
+  In an unbiased formulation, we require the natural transformation <fr:tex>M^n \to M</fr:tex> of the monad evaluated at the object <fr:tex>X</fr:tex> composed with <fr:tex>\alpha : MX \to X</fr:tex> to be equal to <fr:tex
+display="block">M^n X \xrightarrow{M^{n-1}\alpha} M^{n-1}X \to \cdots \xrightarrow{\alpha} X.</fr:tex></fr:p><fr:p>
+  The algebras of a monad form a category <fr:tex>{\mathcal{C}}^M</fr:tex>, whose morphisms are commutative squares. This is also known as the <fr:strong>Eilenberg–Moore category</fr:strong>.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

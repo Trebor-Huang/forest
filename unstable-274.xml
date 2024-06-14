@@ -7,31 +7,15 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1300</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1189</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0012</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001H</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    To specify a point <fr:tex>P</fr:tex>, we need to specify which opens <fr:tex>D_+(f)</fr:tex> it belongs to, where <fr:tex>f</fr:tex> ranges over positively graded elements. Equivalently, we specify the closeds <fr:tex>V_+(f)</fr:tex>. Since <fr:tex>V_+(f)  \cap  V_+(g)  \subseteq  V_+(f + g)</fr:tex>, if <fr:tex>P  \in  V_+(f)</fr:tex> and <fr:tex>P  \in  V_+(g)</fr:tex> then <fr:tex>P  \in  V_+(f + g)</fr:tex>. Similarly since <fr:tex>V_+(f)  \subseteq  V_+(f g)</fr:tex>, <fr:tex>P  \in  V_+(f)</fr:tex> implies <fr:tex>P  \in  V_+(f g)</fr:tex>. Collecting all the elements whose distinguished closed contains <fr:tex>P</fr:tex>, we get an ideal <fr:tex>\mathfrak { a }</fr:tex> whose zeroth degree vanishes.
-  </fr:p>
-
-  <fr:p>
-    We have <fr:tex>V_+(f g) = V_+(f)  \cup  V_+(g)</fr:tex>, so if <fr:tex>\mathfrak { a }   \mid  f g</fr:tex>, then either <fr:tex>\mathfrak { a }   \mid  f</fr:tex> or <fr:tex>\mathfrak { a }   \mid  g</fr:tex>. This is almost the condition for prime ideals, but recall that <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with <fr:ref
-addr="algm-0011"
-href="algm-0011.xml"
-taxon="Theorem"></fr:ref>.
-  </fr:p>
-
-  <fr:p>
-    Next, we prove these ideals are in bijection with prime ideals not dividing <fr:tex>\mathord { \odot }</fr:tex>. One direction of the correspondence is obvious: we take a prime ideal <fr:tex>\mathfrak { p }</fr:tex> and remove the zeroth degree, which amounts to taking <fr:tex>\operatorname {lcm} ( \mathfrak { p } ,  \mathord { \odot } )</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    We prove injectivity. Suppose primes <fr:tex>\mathfrak { p }</fr:tex> and <fr:tex>\mathfrak { q }</fr:tex> satisfy <fr:tex>\operatorname {lcm} ( \mathfrak { p } ,  \mathord { \odot } ) =  \operatorname {lcm} ( \mathfrak { q } ,  \mathord { \odot } )</fr:tex>, then <fr:tex>\mathfrak { p }   \mid   \operatorname {lcm} ( \mathfrak { q } ,  \mathord { \odot } )  \mid   \mathfrak { q }   \cdot   \mathord { \odot }</fr:tex>, so either <fr:tex>\mathfrak { p }   \mid   \mathord { \odot }</fr:tex> which is forbidden, or <fr:tex>\mathfrak { p }   \mid   \mathfrak { q }</fr:tex>. Conversely we must have <fr:tex>\mathfrak { q }   \mid   \mathfrak { p }</fr:tex>, hence <fr:tex>\mathfrak { p }  =  \mathfrak { q }</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    We prove surjectivity. Given an ideal <fr:tex>\mathfrak { a }</fr:tex>, we need to supplement it with a zeroth degree component <fr:tex>\mathfrak { a } _0</fr:tex> so that together they make a prime ideal not divided by <fr:tex>\mathord { \odot }</fr:tex>. We define <fr:tex>\mathfrak { a } _0  \mid  c</fr:tex> iff there exists some positively graded <fr:tex>\mathfrak { a }   \nmid  f</fr:tex> such that <fr:tex>\mathfrak { a }   \mid  cf</fr:tex>. The verification is routine element chasing.
+    For every morphism <fr:tex>P \to F</fr:tex>, there is a unique way to extend the map to <fr:tex>P^+</fr:tex> using the <fr:link
+href="algm-001F.xml"
+type="local"
+addr="algm-001F">sheaf condition</fr:link> of <fr:tex>F</fr:tex>. A section of <fr:tex>P^+</fr:tex> consists of a matching family <fr:tex>s_f</fr:tex>, and it is also the gluing of <fr:tex>\eta_P(s_f)</fr:tex>.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -40,18 +24,20 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1298</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0012</fr:addr><fr:route>algm-0012.xml</fr:route><fr:title>Points of the projective spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1187</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-001H</fr:addr><fr:route>algm-001H.xml</fr:route><fr:title>Universal property of <fr:link
+href="algm-001E.xml"
+type="local"
+addr="algm-001E">plus construction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The points of the <fr:link
-href="algm-000Y.xml"
-type="local"
-addr="algm-000Y">projective scheme</fr:link> <fr:tex>\operatorname {Proj} (S)</fr:tex> are given by prime ideals not dividing the <fr:link
-href="algm-0013.xml"
-type="local"
-addr="algm-0013">irrelevant ideal</fr:link> <fr:tex>\mathord { \odot }</fr:tex>. This is in bijection with ideals with <fr:tex>\mathfrak { p } _0 = 0</fr:tex> (equivalently <fr:tex>\mathord { \odot }   \nmid   \mathfrak { p }</fr:tex>), and the condition for prime ideals holds for positively graded elements, i.e. <fr:tex
-display="block">\mathfrak { p }   \mid  x y  \iff  ( \mathfrak { p }   \mid  x  \lor   \mathfrak { p }   \mid  y)</fr:tex> for positively graded <fr:tex>x</fr:tex> and <fr:tex>y</fr:tex>.
+  For any presheaf <fr:tex>P</fr:tex> and sheaf <fr:tex>F</fr:tex>, there is a natural bijection <fr:tex
+display="block">\hom(P, F) \cong \hom(P^+, F)</fr:tex> given by composition with <fr:tex>\eta_P : P \to P^+</fr:tex>.
+</fr:p><fr:p>
+  As a corollary of this and <fr:ref
+addr="algm-001G"
+href="algm-001G.xml"
+taxon="Theorem"></fr:ref>, when restricted to separated presheaves, it is left adjoint to the forgetful functor from sheaves to separated presheaves.
 </fr:p>
   
     
@@ -62,31 +48,15 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1296</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1171</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0012</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001H</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    To specify a point <fr:tex>P</fr:tex>, we need to specify which opens <fr:tex>D_+(f)</fr:tex> it belongs to, where <fr:tex>f</fr:tex> ranges over positively graded elements. Equivalently, we specify the closeds <fr:tex>V_+(f)</fr:tex>. Since <fr:tex>V_+(f)  \cap  V_+(g)  \subseteq  V_+(f + g)</fr:tex>, if <fr:tex>P  \in  V_+(f)</fr:tex> and <fr:tex>P  \in  V_+(g)</fr:tex> then <fr:tex>P  \in  V_+(f + g)</fr:tex>. Similarly since <fr:tex>V_+(f)  \subseteq  V_+(f g)</fr:tex>, <fr:tex>P  \in  V_+(f)</fr:tex> implies <fr:tex>P  \in  V_+(f g)</fr:tex>. Collecting all the elements whose distinguished closed contains <fr:tex>P</fr:tex>, we get an ideal <fr:tex>\mathfrak { a }</fr:tex> whose zeroth degree vanishes.
-  </fr:p>
-
-  <fr:p>
-    We have <fr:tex>V_+(f g) = V_+(f)  \cup  V_+(g)</fr:tex>, so if <fr:tex>\mathfrak { a }   \mid  f g</fr:tex>, then either <fr:tex>\mathfrak { a }   \mid  f</fr:tex> or <fr:tex>\mathfrak { a }   \mid  g</fr:tex>. This is almost the condition for prime ideals, but recall that <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with <fr:ref
-addr="algm-0011"
-href="algm-0011.xml"
-taxon="Theorem"></fr:ref>.
-  </fr:p>
-
-  <fr:p>
-    Next, we prove these ideals are in bijection with prime ideals not dividing <fr:tex>\mathord { \odot }</fr:tex>. One direction of the correspondence is obvious: we take a prime ideal <fr:tex>\mathfrak { p }</fr:tex> and remove the zeroth degree, which amounts to taking <fr:tex>\operatorname {lcm} ( \mathfrak { p } ,  \mathord { \odot } )</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    We prove injectivity. Suppose primes <fr:tex>\mathfrak { p }</fr:tex> and <fr:tex>\mathfrak { q }</fr:tex> satisfy <fr:tex>\operatorname {lcm} ( \mathfrak { p } ,  \mathord { \odot } ) =  \operatorname {lcm} ( \mathfrak { q } ,  \mathord { \odot } )</fr:tex>, then <fr:tex>\mathfrak { p }   \mid   \operatorname {lcm} ( \mathfrak { q } ,  \mathord { \odot } )  \mid   \mathfrak { q }   \cdot   \mathord { \odot }</fr:tex>, so either <fr:tex>\mathfrak { p }   \mid   \mathord { \odot }</fr:tex> which is forbidden, or <fr:tex>\mathfrak { p }   \mid   \mathfrak { q }</fr:tex>. Conversely we must have <fr:tex>\mathfrak { q }   \mid   \mathfrak { p }</fr:tex>, hence <fr:tex>\mathfrak { p }  =  \mathfrak { q }</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    We prove surjectivity. Given an ideal <fr:tex>\mathfrak { a }</fr:tex>, we need to supplement it with a zeroth degree component <fr:tex>\mathfrak { a } _0</fr:tex> so that together they make a prime ideal not divided by <fr:tex>\mathord { \odot }</fr:tex>. We define <fr:tex>\mathfrak { a } _0  \mid  c</fr:tex> iff there exists some positively graded <fr:tex>\mathfrak { a }   \nmid  f</fr:tex> such that <fr:tex>\mathfrak { a }   \mid  cf</fr:tex>. The verification is routine element chasing.
+    For every morphism <fr:tex>P \to F</fr:tex>, there is a unique way to extend the map to <fr:tex>P^+</fr:tex> using the <fr:link
+href="algm-001F.xml"
+type="local"
+addr="algm-001F">sheaf condition</fr:link> of <fr:tex>F</fr:tex>. A section of <fr:tex>P^+</fr:tex> consists of a matching family <fr:tex>s_f</fr:tex>, and it is also the gluing of <fr:tex>\eta_P(s_f)</fr:tex>.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -97,15 +67,15 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1294</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0011</fr:addr><fr:route>algm-0011.xml</fr:route><fr:title>Characterization of the locale <fr:tex>\operatorname {Proj} (S)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1185</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001F</fr:addr><fr:route>algm-001F.xml</fr:route><fr:title>Sheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The opens of the <fr:link
-href="algm-000Y.xml"
+  Given a category <fr:tex>{\mathcal{C}}</fr:tex> equipped with a <fr:link
+href="algm-0019.xml"
 type="local"
-addr="algm-000Y">projective spectrum</fr:link> <fr:tex>\operatorname {Proj} (S)</fr:tex> are in bijection with graded radical ideals with <fr:tex>\mathfrak { r } _0 = 0</fr:tex>. Hence we write <fr:tex>D_+ ( \mathfrak { r } )</fr:tex> for this open. The proof is exactly the same as <fr:ref
-addr="algm-0008"
-href="algm-0008.xml"
-taxon="Theorem"></fr:ref>.
+addr="algm-0019">coverage</fr:link>, we define a presheaf <fr:tex>P : {\mathcal{C}}^{\textrm{op}} \to {\mathsf{Set}}</fr:tex> to be a <fr:strong>sheaf</fr:strong> if it satisfies the <fr:strong>sheaf condition</fr:strong>: for every cover of <fr:tex>A</fr:tex>, the map from sections of <fr:tex>A</fr:tex> to <fr:link
+href="algm-001D.xml"
+type="local"
+addr="algm-001D">descent data</fr:link> of the cover is a bijection. It is a <fr:strong>separated presheaf</fr:strong> if the map is an injection.
 </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

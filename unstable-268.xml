@@ -7,37 +7,23 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1088</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2190</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001H</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    For every morphism <fr:tex>P  \to  F</fr:tex>, there is a unique way to extend the map to <fr:tex>P^+</fr:tex> using the <fr:link
-href="algm-001F.xml"
-type="local"
-addr="algm-001F">sheaf condition</fr:link> of <fr:tex>F</fr:tex>. A section of <fr:tex>P^+</fr:tex> consists of a matching family <fr:tex>s_f</fr:tex>, and it is also the gluing of <fr:tex>\eta _P(s_f)</fr:tex>.
-  </fr:p>
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  (TODO)
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1086</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-001H</fr:addr><fr:route>algm-001H.xml</fr:route><fr:title>Universal property of <fr:link
-href="algm-001E.xml"
-type="local"
-addr="algm-001E">plus construction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2188</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000F</fr:addr><fr:route>hmlg-000F.xml</fr:route><fr:title>Freyd–Mitchell embedding theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  For any presheaf <fr:tex>P</fr:tex> and sheaf <fr:tex>F</fr:tex>, there is a natural bijection <fr:tex
-display="block">\hom (P, F)  \cong   \hom (P^+, F)</fr:tex> given by composition with <fr:tex>\eta _P : P  \to  P^+</fr:tex>.
-</fr:p><fr:p>
-  As a corollary of this and <fr:ref
-addr="algm-001G"
-href="algm-001G.xml"
-taxon="Theorem"></fr:ref>, when restricted to separated presheaves, it is left adjoint to the forgetful functor from sheaves to separated presheaves.
+  Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex>R</fr:tex>-modules for some ring <fr:tex>R</fr:tex>.
 </fr:p>
   
     
@@ -48,34 +34,11 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1070</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1097</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001H</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    For every morphism <fr:tex>P  \to  F</fr:tex>, there is a unique way to extend the map to <fr:tex>P^+</fr:tex> using the <fr:link
-href="algm-001F.xml"
-type="local"
-addr="algm-001F">sheaf condition</fr:link> of <fr:tex>F</fr:tex>. A section of <fr:tex>P^+</fr:tex> consists of a matching family <fr:tex>s_f</fr:tex>, and it is also the gluing of <fr:tex>\eta _P(s_f)</fr:tex>.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  (TODO)
+</fr:p></fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1084</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001F</fr:addr><fr:route>algm-001F.xml</fr:route><fr:title>Sheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category <fr:tex>\mathcal { C }</fr:tex> equipped with a <fr:link
-href="algm-0019.xml"
-type="local"
-addr="algm-0019">coverage</fr:link>, we define a presheaf <fr:tex>P :  \mathcal { C } ^ \textrm {op}   \to   \mathsf { Set }</fr:tex> to be a <fr:strong>sheaf</fr:strong> if it satisfies the <fr:strong>sheaf condition</fr:strong>: for every cover of <fr:tex>A</fr:tex>, the map from sections of <fr:tex>A</fr:tex> to <fr:link
-href="algm-001D.xml"
-type="local"
-addr="algm-001D">descent data</fr:link> of the cover is a bijection. It is a <fr:strong>separated presheaf</fr:strong> if the map is an injection.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

@@ -7,16 +7,15 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1401</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1363</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0017</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Note that the stalk <fr:tex>( \varphi ^{-1} \mathscr { O } _{Y})_x =  \mathscr { O } _{Y,  \varphi (x)}</fr:tex>. A germ being invertible implies for some neighborhood <fr:tex>U</fr:tex> of <fr:tex>x</fr:tex>, it comes from an invertible section <fr:tex>f  \in   \Gamma (U,  \varphi ^{-1} \mathscr { O } _Y)</fr:tex>, so the image in <fr:tex>\Gamma (U,  \mathscr { O } _X)</fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.
-  </fr:p>
-
-  <fr:p>
-    On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.
+    We prove that if some affine cover <fr:tex>\{\operatorname{Spec}(R_i) \hookrightarrow X\}</fr:tex> has such a property, then all the affine subschemes has it, hence we can check on any affine cover. Given an affine subscheme <fr:tex>\operatorname{Spec}(S) \hookrightarrow X</fr:tex>, using <fr:link
+href="algm-0016.xml"
+type="local"
+addr="algm-0016">Nike’s trick</fr:link>, we see that the intersection with <fr:tex>\operatorname{Spec}(R_i)</fr:tex> is covered by affine subschemes, which will all have the said property. Hence we get a cover of <fr:tex>\operatorname{Spec}(S) \hookrightarrow X</fr:tex> with the said property, and therefore itself also.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -25,20 +24,16 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1399</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title>Action of morphisms on stalks of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1361</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0017</fr:addr><fr:route>algm-0017.xml</fr:route><fr:title>Affine local properties</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
-href="algm-000S.xml"
+  Suppose a property on affine subschemes <fr:tex>\operatorname{Spec}(R) \hookrightarrow X</fr:tex> is closed under taking distinguished subsets <fr:tex>\operatorname{Spec}(R_f) \hookrightarrow X</fr:tex>, and for <fr:tex>\gcd\{f_i\} = 1</fr:tex>, the property being true on <fr:tex>\operatorname{Spec}(R_{f_i}) \hookrightarrow X</fr:tex> implies it being true on <fr:tex>\operatorname{Spec}(R) \hookrightarrow X</fr:tex>. Then such a property is called <fr:strong>affine local</fr:strong>. We then say that <fr:tex>X</fr:tex> has such a property if some affine cover has such a property: the result doesn’t depend on the chosen cover.
+</fr:p><fr:p>
+  If the property <fr:tex>P</fr:tex> only depends on <fr:tex>\operatorname{Spec}(R)</fr:tex> and not <fr:tex>X</fr:tex> (or the inclusion map), it can be simplified as a property on affine schemes. In this case, the above definition extends it to a property <fr:tex>P'</fr:tex> on schemes, which we will usually refer to as <fr:strong>locally</fr:strong> <fr:tex>P</fr:tex>. Suppose the scheme is furthermore <fr:link
+href="algm-000A.xml"
 type="local"
-addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi  : X  \to  Y</fr:tex>, if it is <fr:link
-href="algm-000U.xml"
-type="local"
-addr="algm-000U">local</fr:link>, a germ is invertible iff its <fr:link
-href="algm-000V.xml"
-type="local"
-addr="algm-000V">pullback</fr:link> under <fr:tex>\varphi</fr:tex> is invertible. If the space <fr:tex>X</fr:tex> has enough points, then the inverse implication is also true.
+addr="algm-000A">quasi-compact</fr:link>, we say the scheme satisfies <fr:tex>P</fr:tex>.
 </fr:p>
   
     
@@ -49,17 +44,57 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1384</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1359</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0017</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Note that the stalk <fr:tex>( \varphi ^{-1} \mathscr { O } _{Y})_x =  \mathscr { O } _{Y,  \varphi (x)}</fr:tex>. A germ being invertible implies for some neighborhood <fr:tex>U</fr:tex> of <fr:tex>x</fr:tex>, it comes from an invertible section <fr:tex>f  \in   \Gamma (U,  \varphi ^{-1} \mathscr { O } _Y)</fr:tex>, so the image in <fr:tex>\Gamma (U,  \mathscr { O } _X)</fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.
-  </fr:p>
-
-  <fr:p>
-    On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.
+    We prove that if some affine cover <fr:tex>\{\operatorname{Spec}(R_i) \hookrightarrow X\}</fr:tex> has such a property, then all the affine subschemes has it, hence we can check on any affine cover. Given an affine subscheme <fr:tex>\operatorname{Spec}(S) \hookrightarrow X</fr:tex>, using <fr:link
+href="algm-0016.xml"
+type="local"
+addr="algm-0016">Nike’s trick</fr:link>, we see that the intersection with <fr:tex>\operatorname{Spec}(R_i)</fr:tex> is covered by affine subschemes, which will all have the said property. Hence we get a cover of <fr:tex>\operatorname{Spec}(S) \hookrightarrow X</fr:tex> with the said property, and therefore itself also.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1357</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0016</fr:addr><fr:route>algm-0016.xml</fr:route><fr:title>Nike’s trick</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The intersections of two <fr:link
+href="algm-000Q.xml"
+type="local"
+addr="algm-000Q">affine</fr:link> subschemes <fr:tex>\operatorname{Spec}(R_1), \operatorname{Spec}(R_2) \hookrightarrow X</fr:tex> can be covered by affine schemes distinguished in both of them.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1355</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0016</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    We just need to cover each point of the intersection. Suppose a point in the intersection is given by a prime ideal <fr:tex>\mathfrak{p}</fr:tex> of <fr:tex>R_1</fr:tex>. We can pick a distinguished open <fr:tex>D(f)</fr:tex> of <fr:tex>\operatorname{Spec}(R_2)</fr:tex> contained in the intersection and containing <fr:tex>\mathfrak{p}</fr:tex>, and a distinguished open <fr:tex>D(g)</fr:tex> of <fr:tex>\operatorname{Spec}(R_1)</fr:tex> contained in <fr:tex>D(f)</fr:tex> and containing <fr:tex>\mathfrak{p}</fr:tex>. Now we prove that <fr:tex>D(g)</fr:tex> is a distinguished open in <fr:tex>\operatorname{Spec}(R_2)</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    It suffices to prove that <fr:tex>D(g)</fr:tex> is a distinguished open in <fr:tex>\operatorname{Spec}(R_2 [f^{-1}])</fr:tex>, since this would imply the existence of an element <fr:tex>g'/f^{n} \in R_2[f^{-1}]</fr:tex>, and we can take <fr:tex>D(g') \cap D(f) = D(g' f)</fr:tex> in <fr:tex>\operatorname{Spec}(R_2)</fr:tex>. Now there is an inclusion map <fr:tex>\operatorname{Spec}(R_2[f^{-1}]) \to \operatorname{Spec}(R_1)</fr:tex>, which amounts to a ring homomorphism <fr:tex>\varphi</fr:tex> by <fr:ref
+addr="algm-000X"
+href="algm-000X.xml"
+taxon="Theorem"></fr:ref>. In this case, <fr:tex>D(\varphi(g))</fr:tex> is the required distinguished open, since <fr:tex>\varphi^{-1}D(u)</fr:tex> is equal to <fr:tex>D(\varphi(u))</fr:tex> in <fr:tex>\operatorname{Spec}(R_2 [f^{-1}])</fr:tex>.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

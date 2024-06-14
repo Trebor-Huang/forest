@@ -7,13 +7,13 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2235</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000K</fr:addr><fr:route>hmlg-000K.xml</fr:route><fr:title>Bicomplex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2306</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000K</fr:addr><fr:route>hmlg-000K.xml</fr:route><fr:title>Bicomplex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>bicomplex</fr:strong> is a chain complex of chain complexes. More specifically, we have a grid of objects <fr:tex>A_{m, n}</fr:tex>, vertical maps <fr:tex>d : A_{m, n}  \to  A_{m, n-1}</fr:tex> and horizontal maps <fr:tex>\delta  : A_{m, n}  \to  A_{m-1, n}</fr:tex>. Every square in the grid commutes, and <fr:tex>d^2 =  \delta ^2 = 0</fr:tex>.
+  A <fr:strong>bicomplex</fr:strong> is a chain complex of chain complexes. More specifically, we have a grid of objects <fr:tex>A_{m, n}</fr:tex>, vertical maps <fr:tex>d : A_{m, n} \to A_{m, n-1}</fr:tex> and horizontal maps <fr:tex>\delta : A_{m, n} \to A_{m-1, n}</fr:tex>. Every square in the grid commutes, and <fr:tex>d^2 = \delta^2 = 0</fr:tex>.
 </fr:p><fr:p>
-  Each column <fr:tex>A_{m,  \bullet }</fr:tex> in the bicomplex is a chain complex, and <fr:tex>\delta</fr:tex> are chain maps between the column complexes. Similarly, each row forms a chain complex, and <fr:tex>d</fr:tex> are chain maps between the row complexes.
+  Each column <fr:tex>A_{m, \bullet}</fr:tex> in the bicomplex is a chain complex, and <fr:tex>\delta</fr:tex> are chain maps between the column complexes. Similarly, each row forms a chain complex, and <fr:tex>d</fr:tex> are chain maps between the row complexes.
 </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -21,7 +21,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2233</fr:anchor><fr:addr>hmlg-000L</fr:addr><fr:route>hmlg-000L.xml</fr:route><fr:title>Operations on chain complexes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2304</fr:anchor><fr:addr>hmlg-000L</fr:addr><fr:route>hmlg-000L.xml</fr:route><fr:title>Operations on chain complexes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -33,14 +33,14 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2053</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000I</fr:addr><fr:route>hmlg-000I.xml</fr:route><fr:title>Direct sum and product of chain complexes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>320</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000I</fr:addr><fr:route>hmlg-000I.xml</fr:route><fr:title>Direct sum and product of chain complexes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a family of chain complexes <fr:tex>C_{ \alpha ,  \bullet }</fr:tex>, we can take the direct sum in each dimension, giving <fr:tex>D_ \bullet  =  \bigoplus _ \alpha  C_{ \alpha ,  \bullet }</fr:tex>, which is another chain complex. Dually, we can take the direct product <fr:tex>\prod _ \alpha  C_{ \alpha ,  \bullet }</fr:tex>.
+  Given a family of chain complexes <fr:tex>C_{\alpha, \bullet}</fr:tex>, we can take the direct sum in each dimension, giving <fr:tex>D_\bullet = \bigoplus_\alpha C_{\alpha, \bullet}</fr:tex>, which is another chain complex. Dually, we can take the direct product <fr:tex>\prod_\alpha C_{\alpha, \bullet}</fr:tex>.
 </fr:p></fr:mainmatter></fr:tree><fr:p>
-  As another example, the consideration of quotienting out a subspace <fr:tex>Y  \subseteq  X</fr:tex> naturally leads us to relative homology. We construct a chain complex by taking a quotient in each dimension: <fr:tex
-display="block">0  \to  C_ \bullet (Y)  \hookrightarrow  C_ \bullet (X)  \to  C_ \bullet (X, Y)  \to  0.</fr:tex> These maps commute with the boundary maps, so it can be regarded as an exact sequence of chain complexes. Thus we are led to the following definitions.
+  As another example, the consideration of quotienting out a subspace <fr:tex>Y \subseteq X</fr:tex> naturally leads us to relative homology. We construct a chain complex by taking a quotient in each dimension: <fr:tex
+display="block">0 \to C_\bullet(Y) \hookrightarrow C_\bullet(X) \to C_\bullet(X, Y) \to 0.</fr:tex> These maps commute with the boundary maps, so it can be regarded as an exact sequence of chain complexes. Thus we are led to the following definitions.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -48,13 +48,13 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2055</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000K</fr:addr><fr:route>hmlg-000K.xml</fr:route><fr:title>Bicomplex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>322</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000K</fr:addr><fr:route>hmlg-000K.xml</fr:route><fr:title>Bicomplex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>bicomplex</fr:strong> is a chain complex of chain complexes. More specifically, we have a grid of objects <fr:tex>A_{m, n}</fr:tex>, vertical maps <fr:tex>d : A_{m, n}  \to  A_{m, n-1}</fr:tex> and horizontal maps <fr:tex>\delta  : A_{m, n}  \to  A_{m-1, n}</fr:tex>. Every square in the grid commutes, and <fr:tex>d^2 =  \delta ^2 = 0</fr:tex>.
+  A <fr:strong>bicomplex</fr:strong> is a chain complex of chain complexes. More specifically, we have a grid of objects <fr:tex>A_{m, n}</fr:tex>, vertical maps <fr:tex>d : A_{m, n} \to A_{m, n-1}</fr:tex> and horizontal maps <fr:tex>\delta : A_{m, n} \to A_{m-1, n}</fr:tex>. Every square in the grid commutes, and <fr:tex>d^2 = \delta^2 = 0</fr:tex>.
 </fr:p><fr:p>
-  Each column <fr:tex>A_{m,  \bullet }</fr:tex> in the bicomplex is a chain complex, and <fr:tex>\delta</fr:tex> are chain maps between the column complexes. Similarly, each row forms a chain complex, and <fr:tex>d</fr:tex> are chain maps between the row complexes.
+  Each column <fr:tex>A_{m, \bullet}</fr:tex> in the bicomplex is a chain complex, and <fr:tex>\delta</fr:tex> are chain maps between the column complexes. Similarly, each row forms a chain complex, and <fr:tex>d</fr:tex> are chain maps between the row complexes.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -62,11 +62,11 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2057</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000J</fr:addr><fr:route>hmlg-000J.xml</fr:route><fr:title>Exact sequence of chain complexes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>324</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000J</fr:addr><fr:route>hmlg-000J.xml</fr:route><fr:title>Exact sequence of chain complexes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  An <fr:strong>exact sequence</fr:strong> of chain complexes <fr:tex>C_{m,  \bullet }</fr:tex> is a <fr:link
+  An <fr:strong>exact sequence</fr:strong> of chain complexes <fr:tex>C_{m, \bullet}</fr:tex> is a <fr:link
 href="hmlg-000K.xml"
 type="local"
 addr="hmlg-000K">bicomplex</fr:link> such that the rows are <fr:link
@@ -80,29 +80,29 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2060</fr:anchor><fr:addr>hmlg-000V</fr:addr><fr:route>hmlg-000V.xml</fr:route><fr:title>Kernel, image, cokernel and coimage of chain complexes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>327</fr:anchor><fr:addr>hmlg-000V</fr:addr><fr:route>hmlg-000V.xml</fr:route><fr:title>Kernel, image, cokernel and coimage of chain complexes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a chain map <fr:tex>f_ \bullet  : C_ \bullet   \to  D_ \bullet</fr:tex>, we can take the kernel, image, cokernel and coimage in each dimension, to obtain new chain complexes. It is a matter of unpacking and repacking quotients to verify that the relevant squares commute, rendering the following diagram of chain complexes.
+  Given a chain map <fr:tex>f_\bullet : C_\bullet \to D_\bullet</fr:tex>, we can take the kernel, image, cokernel and coimage in each dimension, to obtain new chain complexes. It is a matter of unpacking and repacking quotients to verify that the relevant squares commute, rendering the following diagram of chain complexes.
 </fr:p>
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="842478f248bf487e86aa9d32eaa644a3"><fr:embedded-tex-preamble>
+hash="b921c19bad8a4df5748e728001aeb54e"><fr:embedded-tex-preamble>
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
     </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzcd} 
-  &amp;&amp; { \operatorname {im}  f} &amp; { \operatorname {coim}  f}  \\ 
-  &amp; C &amp;&amp;&amp; D  \\ 
-  { \ker  f} &amp;&amp;&amp;&amp;&amp; { \operatorname {coker}  f}
-   \arrow [" \sim ", from=1-3, to=1-4]
-   \arrow [from=2-2, to=1-3]
-   \arrow [from=1-4, to=2-5]
-   \arrow [from=3-1, to=2-2]
-   \arrow [from=2-5, to=3-6]
- \end {tikzcd}
+      \begin{tikzcd}
+  &amp;&amp; {\operatorname{im} f} &amp; {\operatorname{coim} f} \\
+  &amp; C &amp;&amp;&amp; D \\
+  {\ker f} &amp;&amp;&amp;&amp;&amp; {\operatorname{coker} f}
+  \arrow["\sim", from=1-3, to=1-4]
+  \arrow[from=2-2, to=1-3]
+  \arrow[from=1-4, to=2-5]
+  \arrow[from=3-1, to=2-2]
+  \arrow[from=2-5, to=3-6]
+\end{tikzcd}
     </fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 </fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
@@ -112,11 +112,11 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2227</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000J</fr:addr><fr:route>hmlg-000J.xml</fr:route><fr:title>Exact sequence of chain complexes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2298</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000J</fr:addr><fr:route>hmlg-000J.xml</fr:route><fr:title>Exact sequence of chain complexes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  An <fr:strong>exact sequence</fr:strong> of chain complexes <fr:tex>C_{m,  \bullet }</fr:tex> is a <fr:link
+  An <fr:strong>exact sequence</fr:strong> of chain complexes <fr:tex>C_{m, \bullet}</fr:tex> is a <fr:link
 href="hmlg-000K.xml"
 type="local"
 addr="hmlg-000K">bicomplex</fr:link> such that the rows are <fr:link
@@ -130,7 +130,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2229</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>hmlg-000N</fr:addr><fr:route>hmlg-000N.xml</fr:route><fr:title>Signs in bicomplexes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2300</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>hmlg-000N</fr:addr><fr:route>hmlg-000N.xml</fr:route><fr:title>Signs in bicomplexes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -140,7 +140,7 @@ type="local"
 addr="hmlg-000K">bicomplex</fr:link> to have anti-commuting squares. In this way, the <fr:link
 href="hmlg-000M.xml"
 type="local"
-addr="hmlg-000M">total complex</fr:link> has the simpler differential <fr:tex>\partial  = d +  \delta</fr:tex>. These two definitions are convertible by flipping the signs of the horizontal boundary maps in every other row.
+addr="hmlg-000M">total complex</fr:link> has the simpler differential <fr:tex>\partial = d + \delta</fr:tex>. These two definitions are convertible by flipping the signs of the horizontal boundary maps in every other row.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -148,19 +148,19 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2231</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000M</fr:addr><fr:route>hmlg-000M.xml</fr:route><fr:title>Total complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2302</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000M</fr:addr><fr:route>hmlg-000M.xml</fr:route><fr:title>Total complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given a <fr:link
 href="hmlg-000K.xml"
 type="local"
-addr="hmlg-000K">bicomplex</fr:link> <fr:tex>C_{ \bullet ,  \bullet }</fr:tex>, we can collapse it into a chain complex in two ways. In either way, <fr:tex>C_{p, q}</fr:tex> is contained in the total complex at degree <fr:tex>(m+n)</fr:tex>. We can use the direct sum to combine them: <fr:tex
-display="block">\operatorname {Tot} ^ \oplus (C)_n =  \bigoplus _{n = p+q} C_{p, q},</fr:tex> or the direct product: <fr:tex
-display="block">\operatorname {Tot} ^ \Pi (C)_n =  \prod _{n=p+q} C_{p,q}.</fr:tex></fr:p><fr:p>
+addr="hmlg-000K">bicomplex</fr:link> <fr:tex>C_{\bullet, \bullet}</fr:tex>, we can collapse it into a chain complex in two ways. In either way, <fr:tex>C_{p, q}</fr:tex> is contained in the total complex at degree <fr:tex>(m+n)</fr:tex>. We can use the direct sum to combine them: <fr:tex
+display="block">\operatorname{Tot}^\oplus(C)_n = \bigoplus_{n = p+q} C_{p, q},</fr:tex> or the direct product: <fr:tex
+display="block">\operatorname{Tot}^\Pi(C)_n = \prod_{n=p+q} C_{p,q}.</fr:tex></fr:p><fr:p>
   The total differential acts on elements in <fr:tex>C_{p, q}</fr:tex> by <fr:tex
-display="block">\partial (x) = d(x) + (-1)^q  \delta (x),</fr:tex> where <fr:tex>d</fr:tex> is the vertical map, and <fr:tex>\delta</fr:tex> the horizontal map. The <fr:link
+display="block">\partial(x) = d(x) + (-1)^q \delta(x),</fr:tex> where <fr:tex>d</fr:tex> is the vertical map, and <fr:tex>\delta</fr:tex> the horizontal map. The <fr:link
 href="hmlg-000N.xml"
 type="local"
-addr="hmlg-000N">sign</fr:link> here is to ensure that <fr:tex>\partial ^2 = 0</fr:tex>.
+addr="hmlg-000N">sign</fr:link> here is to ensure that <fr:tex>\partial^2 = 0</fr:tex>.
 </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

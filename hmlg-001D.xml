@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1847</fr:anchor><fr:addr>hmlg-001D</fr:addr><fr:route>hmlg-001D.xml</fr:route><fr:title>Geometric interpretation of <fr:link
+root="false"><fr:frontmatter><fr:anchor>1948</fr:anchor><fr:addr>hmlg-001D</fr:addr><fr:route>hmlg-001D.xml</fr:route><fr:title>Geometric interpretation of <fr:link
 href="hmlg-0013.xml"
 type="local"
 addr="hmlg-0013">algebraic cellular complex</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -25,7 +25,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1844</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0013</fr:addr><fr:route>hmlg-0013.xml</fr:route><fr:title>Algebraic cellular complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1945</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0013</fr:addr><fr:route>hmlg-0013.xml</fr:route><fr:title>Algebraic cellular complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -34,7 +34,7 @@ href="hmlg-0002.xml"
 type="local"
 addr="hmlg-0002">chain complex</fr:link> of free abelian groups. The generators are called <fr:strong>cells</fr:strong>, and the boundary maps can be expressed using the generators as a basis, yielding the <fr:strong>incidence matrices</fr:strong>.
 </fr:p><fr:p>
-  More precisely, we may define an ACC as a sequence of sets <fr:tex>C_ \bullet</fr:tex>, with a sequence of functions <fr:tex>d : C_k  \to   \mathbb {Z}[C_{k-1}]</fr:tex>, such that <fr:tex>d^2 = 0</fr:tex> is satisfied. When a generator has non-zero coefficient in some <fr:tex>d \sigma</fr:tex>, the generator is called a <fr:strong>face</fr:strong> of <fr:tex>\sigma</fr:tex>.
+  More precisely, we may define an ACC as a sequence of sets <fr:tex>C_\bullet</fr:tex>, with a sequence of functions <fr:tex>d : C_k \to \mathbb{Z}[C_{k-1}]</fr:tex>, such that <fr:tex>d^2 = 0</fr:tex> is satisfied. When a generator has non-zero coefficient in some <fr:tex>d\sigma</fr:tex>, the generator is called a <fr:strong>face</fr:strong> of <fr:tex>\sigma</fr:tex>.
 </fr:p><fr:p>
   Note that the generators of these chain groups are <fr:link
 href="ualg-0006.xml"
@@ -50,6 +50,6 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1846</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0002</fr:addr><fr:route>hmlg-0002.xml</fr:route><fr:title>Chain complex of abelian groups</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>16</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
-  A chain complex of abelian groups is given by a sequence of abelian groups <fr:tex>G_ \bullet</fr:tex> together with homomorphisms <fr:tex>d_n : G_n  \to  G_{n-1}</fr:tex>, such that <fr:tex>d_{n-1}  \circ  d_n = 0</fr:tex>.
+root="false"><fr:frontmatter><fr:anchor>1947</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0002</fr:addr><fr:route>hmlg-0002.xml</fr:route><fr:title>Chain complex of abelian groups</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>16</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
+  A chain complex of abelian groups is given by a sequence of abelian groups <fr:tex>G_\bullet</fr:tex> together with homomorphisms <fr:tex>d_n : G_n \to G_{n-1}</fr:tex>, such that <fr:tex>d_{n-1} \mathbin{\circ} d_n = 0</fr:tex>.
 </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

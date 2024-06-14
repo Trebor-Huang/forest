@@ -7,13 +7,13 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1336</fr:anchor><fr:taxon>Intuition</fr:taxon><fr:addr>algm-000Z</fr:addr><fr:route>algm-000Z.xml</fr:route><fr:title>Geometry of graded rings</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1437</fr:anchor><fr:taxon>Intuition</fr:taxon><fr:addr>algm-000Z</fr:addr><fr:route>algm-000Z.xml</fr:route><fr:title>Geometry of graded rings</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   To define projective spaces, we start with an affine space, and restricts ourselves to regions invariant under dilation — or using the language of points, we consider lines through the origin as points. Hence we need to define how an element of a ring (which is geometrically a function on the affine space) behaves under dilation.
 </fr:p><fr:p>
-  In polynomial rings, for example, the polynomial <fr:tex>x^2 + 2y + 7</fr:tex> becomes <fr:tex>\lambda ^2 x^2 + 2  \lambda  y + 7</fr:tex> under a dilation by <fr:tex>\lambda</fr:tex>. Note how each term can be classified by the power of <fr:tex>\lambda</fr:tex> it obtains. Hence, what we need is a <fr:strong>grading</fr:strong> on the ring, which partitions <fr:tex>R =  \bigoplus _d R_d</fr:tex> (as abelian groups). <fr:tex>R_d</fr:tex> is intuitively the elements that get the factor <fr:tex>\lambda ^d</fr:tex> upon dilation. The multiplication of a degree <fr:tex>p</fr:tex> element with a degree <fr:tex>q</fr:tex> element should produce a degree <fr:tex>(p+q)</fr:tex> element, since <fr:tex>\lambda ^p  \lambda ^q =  \lambda ^{p+q}</fr:tex>.
+  In polynomial rings, for example, the polynomial <fr:tex>x^2 + 2y + 7</fr:tex> becomes <fr:tex>\lambda^2 x^2 + 2 \lambda y + 7</fr:tex> under a dilation by <fr:tex>\lambda</fr:tex>. Note how each term can be classified by the power of <fr:tex>\lambda</fr:tex> it obtains. Hence, what we need is a <fr:strong>grading</fr:strong> on the ring, which partitions <fr:tex>R = \bigoplus_d R_d</fr:tex> (as abelian groups). <fr:tex>R_d</fr:tex> is intuitively the elements that get the factor <fr:tex>\lambda^d</fr:tex> upon dilation. The multiplication of a degree <fr:tex>p</fr:tex> element with a degree <fr:tex>q</fr:tex> element should produce a degree <fr:tex>(p+q)</fr:tex> element, since <fr:tex>\lambda^p \lambda^q = \lambda^{p+q}</fr:tex>.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -21,16 +21,16 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1330</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001L</fr:addr><fr:route>hmlg-001L.xml</fr:route><fr:title>Graded ring</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1431</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001L</fr:addr><fr:route>hmlg-001L.xml</fr:route><fr:title>Graded ring</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A D-<fr:strong>graded ring</fr:strong> is a sequence of abelian groups <fr:tex>R_d</fr:tex>, where <fr:tex>d  \in  D</fr:tex> are elements of a commutative monoid called the <fr:strong>grading</fr:strong>. We have a bilinear multiplication map <fr:tex
-display="block">R_p  \otimes  R_q  \to  R_{p+q}</fr:tex> and a identity element <fr:tex>1  \in  R_0</fr:tex> satisfying the associativity and identity laws.
+  A D-<fr:strong>graded ring</fr:strong> is a sequence of abelian groups <fr:tex>R_d</fr:tex>, where <fr:tex>d \in D</fr:tex> are elements of a commutative monoid called the <fr:strong>grading</fr:strong>. We have a bilinear multiplication map <fr:tex
+display="block">R_p \otimes R_q \to R_{p+q}</fr:tex> and a identity element <fr:tex>1 \in R_0</fr:tex> satisfying the associativity and identity laws.
 </fr:p><fr:p>
-  Usually, the grading is one of <fr:tex>\mathbb  Z</fr:tex> or <fr:tex>\mathbb  N</fr:tex>. A <fr:strong>bigraded ring</fr:strong> is graded over <fr:tex>D^2</fr:tex> instead of <fr:tex>D</fr:tex>, whatever the context implies the grading is.
+  Usually, the grading is one of <fr:tex>\mathbb Z</fr:tex> or <fr:tex>\mathbb N</fr:tex>. A <fr:strong>bigraded ring</fr:strong> is graded over <fr:tex>D^2</fr:tex> instead of <fr:tex>D</fr:tex>, whatever the context implies the grading is.
 </fr:p></fr:mainmatter></fr:tree><fr:p>
-  The opens of a projective space should come from the non-vanishing region of a homogeneous function, i.e. elements with a single degree. This ensures that dilation doesn’t change the opens. However, we would have multiple ways to represent the entire space: in a two-dimensional affine space, <fr:tex>D(x)  \cup  D(y)</fr:tex> and <fr:tex>D(1)</fr:tex> are both invariant under dilation, but the former excludes the origin, while the latter does not. In a projective setting, we don’t care about the origin at all, and considering that all homogeneous polynomials of positive degree vanish at the origin, we should make that mandatory. Hence, we only consider the opens corresponding to positively graded elements, which we write as <fr:tex>D_+ (f)</fr:tex>. We can construct a space similar to the <fr:link
+  The opens of a projective space should come from the non-vanishing region of a homogeneous function, i.e. elements with a single degree. This ensures that dilation doesn’t change the opens. However, we would have multiple ways to represent the entire space: in a two-dimensional affine space, <fr:tex>D(x) \cup D(y)</fr:tex> and <fr:tex>D(1)</fr:tex> are both invariant under dilation, but the former excludes the origin, while the latter does not. In a projective setting, we don’t care about the origin at all, and considering that all homogeneous polynomials of positive degree vanish at the origin, we should make that mandatory. Hence, we only consider the opens corresponding to positively graded elements, which we write as <fr:tex>D_+ (f)</fr:tex>. We can construct a space similar to the <fr:link
 href="algm-0007.xml"
 type="local"
 addr="algm-0007">localic spectrum of a commutative ring</fr:link>.
@@ -41,19 +41,19 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1332</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000Y</fr:addr><fr:route>algm-000Y.xml</fr:route><fr:title>Projective spectrum of a graded ring</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1433</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000Y</fr:addr><fr:route>algm-000Y.xml</fr:route><fr:title>Projective spectrum of a graded ring</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:tex>\mathbb  N</fr:tex>-graded ring <fr:tex>S_ \bullet</fr:tex>, we construct a locale analogous to <fr:link
+  Given a <fr:tex>\mathbb N</fr:tex>-graded ring <fr:tex>S_\bullet</fr:tex>, we construct a locale analogous to <fr:link
 href="algm-0007.xml"
 type="local"
-addr="algm-0007">the <fr:tex>\operatorname {Spec}</fr:tex> construction</fr:link> for affine schemes. We start with symbols of <fr:strong>distinguished opens</fr:strong> <fr:tex>D_+ (f)</fr:tex> for each positively graded element <fr:tex>f</fr:tex>, and impose the same relations: <fr:tex>D_+</fr:tex> sends finite products to finite intersections, and for elements of the same grade, <fr:tex>D_+ ( \sum _i f_i)  \subseteq   \bigcup _i D_+(f_i)</fr:tex>.
+addr="algm-0007">the <fr:tex>\operatorname{Spec}</fr:tex> construction</fr:link> for affine schemes. We start with symbols of <fr:strong>distinguished opens</fr:strong> <fr:tex>D_+ (f)</fr:tex> for each positively graded element <fr:tex>f</fr:tex>, and impose the same relations: <fr:tex>D_+</fr:tex> sends finite products to finite intersections, and for elements of the same grade, <fr:tex>D_+ (\sum_i f_i) \subseteq \bigcup_i D_+(f_i)</fr:tex>.
 </fr:p></fr:mainmatter></fr:tree><fr:p>
-  As for the structure sheaf, we need to decide what the sections over <fr:tex>D_+ (f)</fr:tex> are. They should be functions defined on the affine space <fr:tex>D(f)  \subseteq   \operatorname {Spec} (S)</fr:tex>, but invariant under dilation. Note that it is stronger than requiring vanishing region be invariant. We actually need the grade <fr:tex>0</fr:tex> elements here. Recalling from <fr:link
+  As for the structure sheaf, we need to decide what the sections over <fr:tex>D_+ (f)</fr:tex> are. They should be functions defined on the affine space <fr:tex>D(f) \subseteq \operatorname{Spec}(S)</fr:tex>, but invariant under dilation. Note that it is stronger than requiring vanishing region be invariant. We actually need the grade <fr:tex>0</fr:tex> elements here. Recalling from <fr:link
 href="algm-000I.xml"
 type="local"
-addr="algm-000I">structure sheaf of a ring spectrum</fr:link> that <fr:tex>\Gamma (D(f),  \mathscr { O } _{ \operatorname {Spec} (S)}) = S[f^{-1}]</fr:tex> (which can be given a canonical grading since <fr:tex>f</fr:tex> is a graded element), we can make the following definition.
+addr="algm-000I">structure sheaf of a ring spectrum</fr:link> that <fr:tex>{\Gamma}(D(f), {\mathscr{O}}_{\operatorname{Spec}(S)}) = S[f^{-1}]</fr:tex> (which can be given a canonical grading since <fr:tex>f</fr:tex> is a graded element), we can make the following definition.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -61,20 +61,20 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1334</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0010</fr:addr><fr:route>algm-0010.xml</fr:route><fr:title>Structure sheaf of <fr:tex>\operatorname {Proj} (S)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1435</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0010</fr:addr><fr:route>algm-0010.xml</fr:route><fr:title>Structure sheaf of <fr:tex>\operatorname{Proj}(S)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Fix a <fr:link
 href="hmlg-001L.xml"
 type="local"
-addr="hmlg-001L">graded ring</fr:link> <fr:tex>S</fr:tex>. For a positively graded element <fr:tex>f</fr:tex>, we have a graded ring localization <fr:tex>S[f^{-1}]_ \bullet</fr:tex>. Let <fr:tex>\Gamma (D_+(f),  \mathscr { O } )</fr:tex> be the zeroth degree component <fr:tex>S[f^{-1}]_0</fr:tex>. This defines a sheaf over the <fr:link
+addr="hmlg-001L">graded ring</fr:link> <fr:tex>S</fr:tex>. For a positively graded element <fr:tex>f</fr:tex>, we have a graded ring localization <fr:tex>S[f^{-1}]_\bullet</fr:tex>. Let <fr:tex>{\Gamma}(D_+(f), {\mathscr{O}})</fr:tex> be the zeroth degree component <fr:tex>S[f^{-1}]_0</fr:tex>. This defines a sheaf over the <fr:link
 href="algm-000Y.xml"
 type="local"
 addr="algm-000Y">projective spectrum</fr:link>, and moreover gives a <fr:link
 href="algm-000R.xml"
 type="local"
-addr="algm-000R">scheme</fr:link> <fr:tex>\operatorname {Proj} (S)</fr:tex>.
+addr="algm-000R">scheme</fr:link> <fr:tex>\operatorname{Proj}(S)</fr:tex>.
 </fr:p>
   
     
@@ -85,12 +85,12 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1302</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1403</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0010</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We claim that <fr:tex>\operatorname {Proj} (S)</fr:tex> can alternatively be given by gluing affine schemes. We assign <fr:tex>D_+ (f)</fr:tex> the affine scheme <fr:tex>\operatorname {Spec} (S[f^{-1}]_0)</fr:tex> (which is possible because the open subspace <fr:tex>D_+ (f)</fr:tex> is homeomorphic to <fr:tex>\operatorname {Spec} (S[f^{-1}]_0)</fr:tex> as a space). Given two positively graded elements <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex>, we have an isomorphism between <fr:tex>\operatorname {Proj} (S)</fr:tex> restricted to <fr:tex>D_+ (f g)</fr:tex> and <fr:tex>\operatorname {Spec} (S[f^{-1}]_0)</fr:tex> restricted to <fr:tex>D(g^{ \deg  f}/f^{ \deg  g})</fr:tex>, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.
+    We claim that <fr:tex>\operatorname{Proj}(S)</fr:tex> can alternatively be given by gluing affine schemes. We assign <fr:tex>D_+ (f)</fr:tex> the affine scheme <fr:tex>\operatorname{Spec}(S[f^{-1}]_0)</fr:tex> (which is possible because the open subspace <fr:tex>D_+ (f)</fr:tex> is homeomorphic to <fr:tex>\operatorname{Spec}(S[f^{-1}]_0)</fr:tex> as a space). Given two positively graded elements <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex>, we have an isomorphism between <fr:tex>\operatorname{Proj}(S)</fr:tex> restricted to <fr:tex>D_+ (f g)</fr:tex> and <fr:tex>\operatorname{Spec}(S[f^{-1}]_0)</fr:tex> restricted to <fr:tex>D(g^{\deg f}/f^{\deg g})</fr:tex>, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -101,14 +101,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1326</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000I</fr:addr><fr:route>algm-000I.xml</fr:route><fr:title>Structure sheaf of a ring spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1427</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000I</fr:addr><fr:route>algm-000I.xml</fr:route><fr:title>Structure sheaf of a ring spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a commutative ring <fr:tex>R</fr:tex>, we define a sheaf <fr:tex>\mathscr { O }</fr:tex> of rings on <fr:tex>\operatorname {Spec} (R)</fr:tex> called the <fr:strong>structure sheaf</fr:strong>. Let <fr:tex>\Gamma (D(f),  \mathscr { O } ) = R[f^{-1}]</fr:tex>. Suppose <fr:tex>D(f)  \subseteq  D(g)</fr:tex> we define the restriction morphism to be the localization map <fr:tex>R[g^{-1}]  \to  R[f^{-1}]</fr:tex>, since by <fr:ref
+  Given a commutative ring <fr:tex>R</fr:tex>, we define a sheaf <fr:tex>{\mathscr{O}}</fr:tex> of rings on <fr:tex>\operatorname{Spec}(R)</fr:tex> called the <fr:strong>structure sheaf</fr:strong>. Let <fr:tex>{\Gamma}(D(f), {\mathscr{O}}) = R[f^{-1}]</fr:tex>. Suppose <fr:tex>D(f) \subseteq D(g)</fr:tex> we define the restriction morphism to be the localization map <fr:tex>R[g^{-1}] \to R[f^{-1}]</fr:tex>, since by <fr:ref
 addr="algm-0002"
 href="algm-0002.xml"
-taxon="Theorem"></fr:ref> the latter is a further localization of the former. This turns <fr:tex>\operatorname {Spec} (R)</fr:tex> into a <fr:link
+taxon="Theorem"></fr:ref> the latter is a further localization of the former. This turns <fr:tex>\operatorname{Spec}(R)</fr:tex> into a <fr:link
 href="algm-000M.xml"
 type="local"
 addr="algm-000M">ringed space</fr:link>.
@@ -122,37 +122,37 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1324</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1425</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000I</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex>f_i  \in  R</fr:tex> such that <fr:tex>\bigcup _i D(f_i) = D(f)</fr:tex>, we need to show that
+    We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex>f_i \in R</fr:tex> such that <fr:tex>\bigcup_i D(f_i) = D(f)</fr:tex>, we need to show that
     <fr:tex
-display="block">R[f^{-1}]  \to   \prod _{i  \in  I} R[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} R[(f_i f_j)^{-1}]</fr:tex>
-    is an equalizer. Notice that <fr:tex>R[f_i^{-1}]  \cong  R[f^{-1}][f_i^{-1}]</fr:tex>. So we may reassign <fr:tex>S = R[f^{-1}]</fr:tex>. This simplifies the problem to
+display="block">R[f^{-1}] \to \prod_{i \in I} R[f_i^{-1}] \rightrightarrows \prod_{i \ne j} R[(f_i f_j)^{-1}]</fr:tex>
+    is an equalizer. Notice that <fr:tex>R[f_i^{-1}] \cong R[f^{-1}][f_i^{-1}]</fr:tex>. So we may reassign <fr:tex>S = R[f^{-1}]</fr:tex>. This simplifies the problem to
     <fr:tex
-display="block">S  \to   \prod _{i  \in  I} S[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} S[(f_i f_j)^{-1}],</fr:tex>
-    where <fr:tex>D(f_i)</fr:tex> covers the whole space <fr:tex>\operatorname {Spec} (S)</fr:tex>. 
+display="block">S \to \prod_{i \in I} S[f_i^{-1}] \rightrightarrows \prod_{i \ne j} S[(f_i f_j)^{-1}],</fr:tex>
+    where <fr:tex>D(f_i)</fr:tex> covers the whole space <fr:tex>\operatorname{Spec}(S)</fr:tex>. 
   </fr:p>
 
   <fr:p>
-    We first describe the intuition. Since we know <fr:tex>\operatorname {Spec} (S)</fr:tex> is <fr:link
+    We first describe the intuition. Since we know <fr:tex>\operatorname{Spec}(S)</fr:tex> is <fr:link
 href="algm-000B.xml"
 type="local"
-addr="algm-000B">quasi-compact</fr:link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <fr:tex>g_i/f_i^{d_i}  \in  S[f_i^{-1}]</fr:tex> that are equal in their common domain. Since <fr:tex>D(f_i) = D(f_i^{d_i})</fr:tex> covers <fr:tex>\operatorname {Spec} (S)</fr:tex>, we have a linear combination <fr:tex>1 =  \sum _i c_i f_i^{d_i}</fr:tex>, which is akin to a partition of unity. Suppose the putative gluing is <fr:tex>f</fr:tex>, multiplying with the partition of unity we get
+addr="algm-000B">quasi-compact</fr:link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <fr:tex>g_i/f_i^{d_i} \in S[f_i^{-1}]</fr:tex> that are equal in their common domain. Since <fr:tex>D(f_i) = D(f_i^{d_i})</fr:tex> covers <fr:tex>\operatorname{Spec}(S)</fr:tex>, we have a linear combination <fr:tex>1 = \sum_i c_i f_i^{d_i}</fr:tex>, which is akin to a partition of unity. Suppose the putative gluing is <fr:tex>f</fr:tex>, multiplying with the partition of unity we get
     <fr:tex
-display="block">\begin {aligned}       f &amp;=  \sum _{i  \in  I} c_i f_i^{d_i} f  \\        &amp;=  \sum  c_i f_i^{d_i}  \frac {g_i}{f_i^{d_i}}  \\        &amp;=  \sum  c_i g_i.      \end {aligned}</fr:tex>
+display="block">\begin{aligned}       f &amp;= \sum_{i \in I} c_i f_i^{d_i} f \\       &amp;= \sum c_i f_i^{d_i} \frac{g_i}{f_i^{d_i}} \\       &amp;= \sum c_i g_i.     \end{aligned}</fr:tex>
     which defines the gluing. We just have to make this reasoning precise. We first deal with the finite case.
   </fr:p>
 
   <fr:p>
-    Suppose there are elements <fr:tex>g_i/f_i^d  \in  S[f_i^{-1}]</fr:tex>, where we are allowed to use a single exponent <fr:tex>d</fr:tex> by finiteness. The compatibility requirement is <fr:tex
-display="block">(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.</fr:tex> If there is a solution <fr:tex>f</fr:tex> to the gluing problem, it would need to satisfy <fr:tex>(f f_i^d - g_i) f_i^M = 0</fr:tex>. Since <fr:tex>D(f_i) = D(f_i^R)</fr:tex> covers <fr:tex>\operatorname {Spec} (S)</fr:tex>, we have a linear combination <fr:tex>1 =  \sum _i c_i f_i^R</fr:tex> for large enough <fr:tex>R</fr:tex>. Hence
+    Suppose there are elements <fr:tex>g_i/f_i^d \in S[f_i^{-1}]</fr:tex>, where we are allowed to use a single exponent <fr:tex>d</fr:tex> by finiteness. The compatibility requirement is <fr:tex
+display="block">(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.</fr:tex> If there is a solution <fr:tex>f</fr:tex> to the gluing problem, it would need to satisfy <fr:tex>(f f_i^d - g_i) f_i^M = 0</fr:tex>. Since <fr:tex>D(f_i) = D(f_i^R)</fr:tex> covers <fr:tex>\operatorname{Spec}(S)</fr:tex>, we have a linear combination <fr:tex>1 = \sum_i c_i f_i^R</fr:tex> for large enough <fr:tex>R</fr:tex>. Hence
     <fr:tex
-display="block">f =  \sum _{i  \in  I} c_i f f_i^R =  \sum  c_i g_i f_i^{R-d}.</fr:tex> This uniquely determines <fr:tex>f</fr:tex>. And indeed, this solution satisfies our requirements, because when restricted to <fr:tex>D(f_j)</fr:tex>, we have
+display="block">f = \sum_{i \in I} c_i f f_i^R = \sum c_i g_i f_i^{R-d}.</fr:tex> This uniquely determines <fr:tex>f</fr:tex>. And indeed, this solution satisfies our requirements, because when restricted to <fr:tex>D(f_j)</fr:tex>, we have
     <fr:tex
-display="block">\begin {aligned}       f f_j^d  \cdot  f_j^R &amp;=  \sum  c_i g_i f_i^{R-d} f_j^{R+d}  \\        &amp;=  \sum  c_i g_j f_i^{R} f_j^{R}  \\        &amp;= g_j f_j^R  \cdot   \sum  c_i f_i^R = g_j f_j^R.      \end {aligned}</fr:tex>
+display="block">\begin{aligned}       f f_j^d \cdot f_j^R &amp;= \sum c_i g_i f_i^{R-d} f_j^{R+d} \\       &amp;= \sum c_i g_j f_i^{R} f_j^{R} \\       &amp;= g_j f_j^R \cdot \sum c_i f_i^R = g_j f_j^R.     \end{aligned}</fr:tex>
     This reasoning is valid as long as <fr:tex>R &gt; N + 2d</fr:tex>.
   </fr:p>
 
@@ -160,7 +160,7 @@ display="block">\begin {aligned}       f f_j^d  \cdot  f_j^R &amp;=  \sum  c_i g
     If there are infinitely many opens, we first use <fr:link
 href="algm-000B.xml"
 type="local"
-addr="algm-000B">quasi-compactness</fr:link> to select a finite number <fr:tex>D(f_1),  \dots , D(f_k)</fr:tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <fr:tex>f</fr:tex> for <fr:tex>D(f_1),  \dots , D(f_k)</fr:tex>. Then consider the solution on <fr:tex>D(f_1),  \dots , D(f_k) , D(g)</fr:tex> for every <fr:tex>g</fr:tex>. This solution must be equal to <fr:tex>f</fr:tex> by uniqueness. Therefore <fr:tex>f</fr:tex> restrict to the correct function on each <fr:tex>D(g)</fr:tex>, showing that <fr:tex>f</fr:tex> is the required solution.
+addr="algm-000B">quasi-compactness</fr:link> to select a finite number <fr:tex>D(f_1), \dots, D(f_k)</fr:tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <fr:tex>f</fr:tex> for <fr:tex>D(f_1), \dots, D(f_k)</fr:tex>. Then consider the solution on <fr:tex>{D(f_1), \dots, D(f_k)}, D(g)</fr:tex> for every <fr:tex>g</fr:tex>. This solution must be equal to <fr:tex>f</fr:tex> by uniqueness. Therefore <fr:tex>f</fr:tex> restrict to the correct function on each <fr:tex>D(g)</fr:tex>, showing that <fr:tex>f</fr:tex> is the required solution.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -171,12 +171,12 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1328</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0007</fr:addr><fr:route>algm-0007.xml</fr:route><fr:title>Localic spectrum of a commutative ring</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1429</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0007</fr:addr><fr:route>algm-0007.xml</fr:route><fr:title>Localic spectrum of a commutative ring</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a commutative ring <fr:tex>R</fr:tex>, we define a frame generated by the symbols <fr:tex>D(f)</fr:tex> for <fr:tex>f  \in  R</fr:tex>, subject to the following relations:
+  Given a commutative ring <fr:tex>R</fr:tex>, we define a frame generated by the symbols <fr:tex>D(f)</fr:tex> for <fr:tex>f \in R</fr:tex>, subject to the following relations:
   <fr:tex
-display="block">\begin {aligned}     D(0) &amp;=  \bot   \\      D(1) &amp;=  \top   \\      D(f  \cdot  g) &amp;= D(f)  \cap  D(g)  \\      D(f + g) &amp; \subseteq  D(f)  \cup  D(g)    \end {aligned}</fr:tex>
-  The resulting frame defines the <fr:strong>localic spectrum</fr:strong> <fr:tex>\operatorname {Spec} (R)</fr:tex>.
+display="block">\begin{aligned}     D(0) &amp;= \bot \\     D(1) &amp;= \top \\     D(f \cdot g) &amp;= D(f) \cap D(g) \\     D(f + g) &amp;\subseteq D(f) \cup D(g)   \end{aligned}</fr:tex>
+  The resulting frame defines the <fr:strong>localic spectrum</fr:strong> <fr:tex>\operatorname{Spec}(R)</fr:tex>.
 </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

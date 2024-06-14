@@ -7,11 +7,11 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1158</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0019</fr:addr><fr:route>algm-0019.xml</fr:route><fr:title>Coverage</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1259</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0019</fr:addr><fr:route>algm-0019.xml</fr:route><fr:title>Coverage</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>coverage</fr:strong> on an arbitrary category <fr:tex>\mathcal { C }</fr:tex> is given by a family of covers. A <fr:strong>cover</fr:strong> of some object <fr:tex>A</fr:tex> in <fr:tex>\mathcal { C }</fr:tex> is a family of maps with codomain <fr:tex>A</fr:tex>. Given a cover <fr:tex>f_i : U_i  \to  A</fr:tex> and a map <fr:tex>g : B  \to  A</fr:tex>, there is a cover of <fr:tex>B</fr:tex> such that its composition with <fr:tex>g</fr:tex> is a <fr:strong>refinement</fr:strong> of <fr:tex>f_i</fr:tex>, in the sense that every map in the cover factors through one of <fr:tex>f_i</fr:tex>.
+  A <fr:strong>coverage</fr:strong> on an arbitrary category <fr:tex>{\mathcal{C}}</fr:tex> is given by a family of covers. A <fr:strong>cover</fr:strong> of some object <fr:tex>A</fr:tex> in <fr:tex>{\mathcal{C}}</fr:tex> is a family of maps with codomain <fr:tex>A</fr:tex>. Given a cover <fr:tex>f_i : U_i \to A</fr:tex> and a map <fr:tex>g : B \to A</fr:tex>, there is a cover of <fr:tex>B</fr:tex> such that its composition with <fr:tex>g</fr:tex> is a <fr:strong>refinement</fr:strong> of <fr:tex>f_i</fr:tex>, in the sense that every map in the cover factors through one of <fr:tex>f_i</fr:tex>.
 </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -19,17 +19,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1152</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001A</fr:addr><fr:route>algm-001A.xml</fr:route><fr:title>Grothendieck coverage</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1253</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001A</fr:addr><fr:route>algm-001A.xml</fr:route><fr:title>Grothendieck coverage</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category <fr:tex>\mathcal { C }</fr:tex>, a <fr:strong>Grothendieck coverage</fr:strong> declares some <fr:link
+  Given a category <fr:tex>{\mathcal{C}}</fr:tex>, a <fr:strong>Grothendieck coverage</fr:strong> declares some <fr:link
 href="algm-001B.xml"
 type="local"
 addr="algm-001B">sieves</fr:link> to be coverings, such that the following holds.
-</fr:p><fr:ul><fr:li>The maximal sieve <fr:tex>\mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (A)  \subseteq   \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (A)</fr:tex> is always a covering.</fr:li>
-  <fr:li>Covering sieves are upwards closed, i.e. if <fr:tex>S  \subseteq  S'</fr:tex> and <fr:tex>S</fr:tex> is a covering sieve, then so is <fr:tex>S'</fr:tex>.</fr:li>
-  <fr:li>If <fr:tex>S</fr:tex> is a covering sieve of <fr:tex>A</fr:tex>, and <fr:tex>g : B  \to  A</fr:tex> is a morphism, then the <fr:link
+</fr:p><fr:ul><fr:li>The maximal sieve <fr:tex>\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(A) \subseteq \mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(A)</fr:tex> is always a covering.</fr:li>
+  <fr:li>Covering sieves are upwards closed, i.e. if <fr:tex>S \subseteq S'</fr:tex> and <fr:tex>S</fr:tex> is a covering sieve, then so is <fr:tex>S'</fr:tex>.</fr:li>
+  <fr:li>If <fr:tex>S</fr:tex> is a covering sieve of <fr:tex>A</fr:tex>, and <fr:tex>g : B \to A</fr:tex> is a morphism, then the <fr:link
 href="algm-001C.xml"
 type="local"
 addr="algm-001C">pullback</fr:link> <fr:tex>g^* S</fr:tex> is also a covering.</fr:li>
@@ -45,19 +45,19 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1154</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001D</fr:addr><fr:route>algm-001D.xml</fr:route><fr:title>Descent data of presheaves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1255</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001D</fr:addr><fr:route>algm-001D.xml</fr:route><fr:title>Descent data of presheaves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category <fr:tex>\mathcal { C }</fr:tex>, a <fr:link
+  Given a category <fr:tex>{\mathcal{C}}</fr:tex>, a <fr:link
 href="algm-001B.xml"
 type="local"
-addr="algm-001B">sieve</fr:link> <fr:tex>S</fr:tex> and a presheaf <fr:tex>P :  \mathcal { C } ^ \textrm {op}   \to   \mathsf { Set }</fr:tex>, a set of <fr:strong>descent data</fr:strong> or a <fr:strong>compatible family</fr:strong> is a morphism <fr:tex>S  \to  P</fr:tex>. Expanding this, it is a family of <fr:em>local sections</fr:em> <fr:tex>s  \in   \Gamma (U, P)</fr:tex> assigned for each morphism <fr:tex>U  \to  A</fr:tex> in the sieve <fr:tex>S</fr:tex>, such that the local sections are compatible on restriction. There is an obvious map from the sections <fr:tex>\Gamma (A, P)</fr:tex> to the descent data given by restriction.
+addr="algm-001B">sieve</fr:link> <fr:tex>S</fr:tex> and a presheaf <fr:tex>P : {\mathcal{C}}^{\textrm{op}} \to {\mathsf{Set}}</fr:tex>, a set of <fr:strong>descent data</fr:strong> or a <fr:strong>compatible family</fr:strong> is a morphism <fr:tex>S \to P</fr:tex>. Expanding this, it is a family of <fr:em>local sections</fr:em> <fr:tex>s \in {\Gamma}(U, P)</fr:tex> assigned for each morphism <fr:tex>U \to A</fr:tex> in the sieve <fr:tex>S</fr:tex>, such that the local sections are compatible on restriction. There is an obvious map from the sections <fr:tex>{\Gamma}(A, P)</fr:tex> to the descent data given by restriction.
 </fr:p><fr:p>
   More generally, given a general <fr:link
 href="algm-0019.xml"
 type="local"
-addr="algm-0019">cover</fr:link>, a set of descent data is a family of sections <fr:tex>s_i  \in   \Gamma (U_i, P)</fr:tex> for each morphism <fr:tex>f_i : U_i  \to  A</fr:tex> in the cover, such that in any common restriction of <fr:tex>U_i</fr:tex> and <fr:tex>U_j</fr:tex>, the sections agree. This can be equivalently expressed as the descent data of the sieve generated by the cover.
+addr="algm-0019">cover</fr:link>, a set of descent data is a family of sections <fr:tex>s_i \in {\Gamma}(U_i, P)</fr:tex> for each morphism <fr:tex>f_i : U_i \to A</fr:tex> in the cover, such that in any common restriction of <fr:tex>U_i</fr:tex> and <fr:tex>U_j</fr:tex>, the sections agree. This can be equivalently expressed as the descent data of the sieve generated by the cover.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -65,14 +65,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1156</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001F</fr:addr><fr:route>algm-001F.xml</fr:route><fr:title>Sheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1257</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001F</fr:addr><fr:route>algm-001F.xml</fr:route><fr:title>Sheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category <fr:tex>\mathcal { C }</fr:tex> equipped with a <fr:link
+  Given a category <fr:tex>{\mathcal{C}}</fr:tex> equipped with a <fr:link
 href="algm-0019.xml"
 type="local"
-addr="algm-0019">coverage</fr:link>, we define a presheaf <fr:tex>P :  \mathcal { C } ^ \textrm {op}   \to   \mathsf { Set }</fr:tex> to be a <fr:strong>sheaf</fr:strong> if it satisfies the <fr:strong>sheaf condition</fr:strong>: for every cover of <fr:tex>A</fr:tex>, the map from sections of <fr:tex>A</fr:tex> to <fr:link
+addr="algm-0019">coverage</fr:link>, we define a presheaf <fr:tex>P : {\mathcal{C}}^{\textrm{op}} \to {\mathsf{Set}}</fr:tex> to be a <fr:strong>sheaf</fr:strong> if it satisfies the <fr:strong>sheaf condition</fr:strong>: for every cover of <fr:tex>A</fr:tex>, the map from sections of <fr:tex>A</fr:tex> to <fr:link
 href="algm-001D.xml"
 type="local"
 addr="algm-001D">descent data</fr:link> of the cover is a bijection. It is a <fr:strong>separated presheaf</fr:strong> if the map is an injection.

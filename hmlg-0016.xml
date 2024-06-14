@@ -7,19 +7,19 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1901</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0016</fr:addr><fr:route>hmlg-0016.xml</fr:route><fr:title>Chain homotopy</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2000</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0016</fr:addr><fr:route>hmlg-0016.xml</fr:route><fr:title>Chain homotopy</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given two chain complexes <fr:tex>C_ \bullet</fr:tex> and <fr:tex>D_ \bullet</fr:tex> with two <fr:link
+  Given two chain complexes <fr:tex>C_\bullet</fr:tex> and <fr:tex>D_\bullet</fr:tex> with two <fr:link
 href="hmlg-0008.xml"
 type="local"
-addr="hmlg-0008">chain maps</fr:link> <fr:tex>f, g : C  \to  D</fr:tex> between them, a <fr:strong>chain homotopy</fr:strong> from <fr:tex>f</fr:tex> to <fr:tex>g</fr:tex> is given by a family of maps <fr:tex>h_n : C_n  \to  D_{n+1}</fr:tex>, such that
+addr="hmlg-0008">chain maps</fr:link> <fr:tex>f, g : C \to D</fr:tex> between them, a <fr:strong>chain homotopy</fr:strong> from <fr:tex>f</fr:tex> to <fr:tex>g</fr:tex> is given by a family of maps <fr:tex>h_n : C_n \to D_{n+1}</fr:tex>, such that
   <fr:tex
-display="block">d_{n+1}  \circ  h_n + h_{n-1}  \circ  d_n = f_n - g_n.</fr:tex>
+display="block">d_{n+1} \mathbin{\circ} h_n + h_{n-1} \mathbin{\circ} d_n = f_n - g_n.</fr:tex>
   Note that the two <fr:tex>d</fr:tex>’s denote the boundary map of different chain complexes.
 </fr:p><fr:p>
-  The chain homotopy can be written as <fr:tex>h : f  \to  g</fr:tex> or as <fr:tex>h : C  \to  D</fr:tex>. This causes no confusion, and the latter is convenient in situations where the maps <fr:tex>f, g</fr:tex> matter less than their difference <fr:tex>f - g</fr:tex>.
+  The chain homotopy can be written as <fr:tex>h : f \to g</fr:tex> or as <fr:tex>h : C \to D</fr:tex>. This causes no confusion, and the latter is convenient in situations where the maps <fr:tex>f, g</fr:tex> matter less than their difference <fr:tex>f - g</fr:tex>.
 </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -27,34 +27,34 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1899</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0008</fr:addr><fr:route>hmlg-0008.xml</fr:route><fr:title>Chain map</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1998</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0008</fr:addr><fr:route>hmlg-0008.xml</fr:route><fr:title>Chain map</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given two chain complexes <fr:tex>C_ \bullet , D_ \bullet</fr:tex>, the natural notion of morphisms between them is <fr:strong>chain maps</fr:strong>, i.e. a sequence of maps <fr:tex>f_n : C_n  \to  D_n</fr:tex> such that all the squares commute.
+  Given two chain complexes <fr:tex>C_\bullet, D_\bullet</fr:tex>, the natural notion of morphisms between them is <fr:strong>chain maps</fr:strong>, i.e. a sequence of maps <fr:tex>f_n : C_n \to D_n</fr:tex> such that all the squares commute.
 </fr:p>
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="cd317d151ec3ec11b0ab2f2a4fe88848"><fr:embedded-tex-preamble>
+hash="86a1a2daf12c432968b620ab79e2fc4c"><fr:embedded-tex-preamble>
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
     </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzcd} 
-   \cdots  &amp; {C_{n+1}} &amp; {C_n} &amp; {C_{n-1}} &amp;  \cdots   \\ 
-   \cdots  &amp; {D_{n+1}} &amp; {D_n} &amp; {D_{n-1}} &amp;  \cdots 
-   \arrow ["d", from=1-3, to=1-4]
-   \arrow ["{f_n}"', from=1-3, to=2-3]
-   \arrow ["{f_{n-1}}"', from=1-4, to=2-4]
-   \arrow ["d"', from=2-3, to=2-4]
-   \arrow ["d"', from=2-2, to=2-3]
-   \arrow ["d", from=1-2, to=1-3]
-   \arrow [from=1-1, to=1-2]
-   \arrow [from=2-1, to=2-2]
-   \arrow [from=1-4, to=1-5]
-   \arrow [from=2-4, to=2-5]
-   \arrow ["{f_{n+1}}"', from=1-2, to=2-2]
- \end {tikzcd}
+      \begin{tikzcd}
+  \cdots &amp; {C_{n+1}} &amp; {C_n} &amp; {C_{n-1}} &amp; \cdots \\
+  \cdots &amp; {D_{n+1}} &amp; {D_n} &amp; {D_{n-1}} &amp; \cdots
+  \arrow["d", from=1-3, to=1-4]
+  \arrow["{f_n}"', from=1-3, to=2-3]
+  \arrow["{f_{n-1}}"', from=1-4, to=2-4]
+  \arrow["d"', from=2-3, to=2-4]
+  \arrow["d"', from=2-2, to=2-3]
+  \arrow["d", from=1-2, to=1-3]
+  \arrow[from=1-1, to=1-2]
+  \arrow[from=2-1, to=2-2]
+  \arrow[from=1-4, to=1-5]
+  \arrow[from=2-4, to=2-5]
+  \arrow["{f_{n+1}}"', from=1-2, to=2-2]
+\end{tikzcd}
     </fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 </fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
@@ -64,7 +64,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1894</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-001H</fr:addr><fr:route>hmlg-001H.xml</fr:route><fr:title>Characterization of <fr:link
+root="false"><fr:frontmatter><fr:anchor>1993</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-001H</fr:addr><fr:route>hmlg-001H.xml</fr:route><fr:title>Characterization of <fr:link
 href="hmlg-0017.xml"
 type="local"
 addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -75,15 +75,15 @@ addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:main
 </fr:p><fr:ul><fr:li>A <fr:link
 href="hmlg-0017.xml"
 type="local"
-addr="hmlg-0017">chain reduction</fr:link> <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex>.</fr:li>
-  <fr:li>A splitting <fr:tex>C  \cong  D  \oplus  E</fr:tex>, where <fr:tex>E</fr:tex> is a <fr:link
+addr="hmlg-0017">chain reduction</fr:link> <fr:tex>\rho : C \Rightarrow\mkern{-14mu}\Rightarrow D</fr:tex>.</fr:li>
+  <fr:li>A splitting <fr:tex>C \cong D \oplus E</fr:tex>, where <fr:tex>E</fr:tex> is a <fr:link
 href="todo.xml"
 type="local"
 addr="todo">split exact</fr:link>.</fr:li>
   <fr:li>A <fr:link
 href="hmlg-0016.xml"
 type="local"
-addr="hmlg-0016">chain homotopy</fr:link> <fr:tex>h : C  \to  C</fr:tex> satisfying <fr:tex>h  \circ  h = 0</fr:tex> and <fr:tex>h  \circ  d_C  \circ  h = h</fr:tex>.</fr:li></fr:ul>
+addr="hmlg-0016">chain homotopy</fr:link> <fr:tex>h : C \to C</fr:tex> satisfying <fr:tex>h \mathbin{\circ} h = 0</fr:tex> and <fr:tex>h \mathbin{\circ} d_C \mathbin{\circ} h = h</fr:tex>.</fr:li></fr:ul>
   
     
     <fr:tree
@@ -93,37 +93,37 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>850</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>951</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001H</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    A chain reduction consists of maps <fr:tex>C_k  \mathrel { \smash { \xtofrom [g_k]{f_k}}} D_k</fr:tex> such that <fr:tex>f_k  \circ  g_k =  \textrm {id}</fr:tex>. Therefore <fr:tex>C_ \bullet</fr:tex> <fr:link
+    A chain reduction consists of maps <fr:tex>C_k \mathrel{\smash{\xtofrom[g_k]{f_k}}} D_k</fr:tex> such that <fr:tex>f_k \mathbin{\circ} g_k = {\textrm{id}}</fr:tex>. Therefore <fr:tex>C_\bullet</fr:tex> <fr:link
 href="todo.xml"
 type="local"
-addr="todo">splits</fr:link> as <fr:tex>D_ \bullet   \oplus  E_ \bullet</fr:tex>, and the boundary maps are preserved since <fr:tex>f, g</fr:tex> are chain maps. We have a homotopy <fr:tex>h_k : D_k  \oplus  E_k  \to  D_{k+1}  \oplus  E_{k+1}</fr:tex>, which we may write as a <fr:tex>(2  \times  2)</fr:tex>-matrix. <fr:tex>f  \circ  h = 0</fr:tex> demands the first row to be zero, and <fr:tex>h  \circ  g = 0</fr:tex> requires the first column to vanish. This leaves us with
+addr="todo">splits</fr:link> as <fr:tex>D_\bullet \oplus E_\bullet</fr:tex>, and the boundary maps are preserved since <fr:tex>f, g</fr:tex> are chain maps. We have a homotopy <fr:tex>h_k : D_k \oplus E_k \to D_{k+1} \oplus E_{k+1}</fr:tex>, which we may write as a <fr:tex>(2 \times 2)</fr:tex>-matrix. <fr:tex>f \mathbin{\circ} h = 0</fr:tex> demands the first row to be zero, and <fr:tex>h \mathbin{\circ} g = 0</fr:tex> requires the first column to vanish. This leaves us with
     <fr:tex
-display="block">\begin {bmatrix}       0 &amp; 0  \\        0 &amp; r_k      \end {bmatrix}</fr:tex>
-    such that <fr:tex>r_{k+1}  \circ  r_k = 0</fr:tex>, since <fr:tex>h  \circ  h = 0</fr:tex>.
+display="block">\begin{bmatrix}       0 &amp; 0 \\       0 &amp; r_k     \end{bmatrix}</fr:tex>
+    such that <fr:tex>r_{k+1} \mathbin{\circ} r_k = 0</fr:tex>, since <fr:tex>h \mathbin{\circ} h = 0</fr:tex>.
   </fr:p>
 
   <fr:p>
-    Substituting the requirement that <fr:tex>h</fr:tex> is a homotopy <fr:tex>\textrm {id}   \to  g  \circ  f</fr:tex>, we get the equation <fr:tex
-display="block">d_{k+1}  \circ  r_k + r_{k-1}  \circ  d_k =  \textrm {id} ,</fr:tex> where <fr:tex>d</fr:tex> is the boundary operator on <fr:tex>E_ \bullet</fr:tex>. In other words, <fr:tex>r</fr:tex> is a null-homotopy of <fr:tex>E_ \bullet</fr:tex>, rendering it <fr:link
+    Substituting the requirement that <fr:tex>h</fr:tex> is a homotopy <fr:tex>{\textrm{id}} \to g \mathbin{\circ} f</fr:tex>, we get the equation <fr:tex
+display="block">d_{k+1} \mathbin{\circ} r_k + r_{k-1} \mathbin{\circ} d_k = {\textrm{id}},</fr:tex> where <fr:tex>d</fr:tex> is the boundary operator on <fr:tex>E_\bullet</fr:tex>. In other words, <fr:tex>r</fr:tex> is a null-homotopy of <fr:tex>E_\bullet</fr:tex>, rendering it <fr:link
 href="todo.xml"
 type="local"
-addr="todo">split exact</fr:link>. Conversely, given <fr:tex>C  \cong  D  \oplus  E</fr:tex>, we can reconstruct <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> as the projection and inclusion maps, with <fr:tex>h</fr:tex> obtained out of <fr:tex>r</fr:tex> in the manner depicted above.
+addr="todo">split exact</fr:link>. Conversely, given <fr:tex>C \cong D \oplus E</fr:tex>, we can reconstruct <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> as the projection and inclusion maps, with <fr:tex>h</fr:tex> obtained out of <fr:tex>r</fr:tex> in the manner depicted above.
   </fr:p>
 
   <fr:p>
-    On the other hand, given only the homotopy operator, we expect to have <fr:tex>d  \circ  h + h  \circ  d =  \textrm {id}  - g  \circ  f</fr:tex>. And since <fr:tex>g  \circ  f</fr:tex> should be the projector of <fr:tex>C</fr:tex> onto the subspace <fr:tex>D</fr:tex>, <fr:tex>\textrm {id}  - g  \circ  f</fr:tex> should be the projector onto <fr:tex>E</fr:tex>. We are thus led to proving <fr:tex>p = d  \circ  h + h  \circ  d</fr:tex> is indeed a projector.
+    On the other hand, given only the homotopy operator, we expect to have <fr:tex>d \mathbin{\circ} h + h \mathbin{\circ} d = {\textrm{id}} - g \mathbin{\circ} f</fr:tex>. And since <fr:tex>g \mathbin{\circ} f</fr:tex> should be the projector of <fr:tex>C</fr:tex> onto the subspace <fr:tex>D</fr:tex>, <fr:tex>{\textrm{id}} - g \mathbin{\circ} f</fr:tex> should be the projector onto <fr:tex>E</fr:tex>. We are thus led to proving <fr:tex>p = d \mathbin{\circ} h + h \mathbin{\circ} d</fr:tex> is indeed a projector.
     <fr:tex
-display="block">\begin {aligned}       p_k  \circ  p_k &amp;= (d_{k+1}  \circ  h_k + h_{k-1}  \circ  d_k)  \circ  (d_{k+1}  \circ  h_k + h_{k-1}  \circ  d_k)  \\        &amp;= d_{k+1}  \circ   \overbrace {h_k  \circ  d_{k+1}  \circ  h_k}^{h_k} + d_{k+1}  \circ   \overbrace {h_k  \circ  h_{k-1}}^{0}  \circ  d_k  \\        &amp; \qquad  + h_{k-1}  \circ   \underbrace {d_k  \circ  d_{k+1}}_{0}  \circ  h_k +  \underbrace {h_{k-1}  \circ  d_k  \circ  h_{k-1}}_{h_{k-1}}  \circ  d_k  \\        &amp;= d_{k+1}  \circ  h_k + h_{k-1}  \circ  d_k = p_k.      \end {aligned}</fr:tex>
-    Therefore we conclude that <fr:tex>p_k</fr:tex> splits <fr:tex>C_k  \cong  D_k  \oplus  E_k</fr:tex>. More over, <fr:tex>p  \circ  d = d  \circ  h  \circ  d = d  \circ  p</fr:tex>, meaning <fr:tex>p</fr:tex> is a chain map, and therefore the splitting is compatible with the boundary operator. Since <fr:tex>h  \circ  p = p  \circ  h = h  \circ  d  \circ  h = h</fr:tex>, the homotopy is also compatible with the splitting, so we can restrict it onto <fr:tex>E_k</fr:tex> to get a homotopy from <fr:tex>\textrm {id} _E</fr:tex> to <fr:tex>0</fr:tex>.
+display="block">\begin{aligned}       p_k \mathbin{\circ} p_k &amp;= (d_{k+1} \mathbin{\circ} h_k + h_{k-1} \mathbin{\circ} d_k) \mathbin{\circ} (d_{k+1} \mathbin{\circ} h_k + h_{k-1} \mathbin{\circ} d_k) \\       &amp;= d_{k+1} \mathbin{\circ} \overbrace{h_k \mathbin{\circ} d_{k+1} \mathbin{\circ} h_k}^{h_k} + d_{k+1} \mathbin{\circ} \overbrace{h_k \mathbin{\circ} h_{k-1}}^{0} \mathbin{\circ} d_k \\       &amp;\qquad + h_{k-1} \mathbin{\circ} \underbrace{d_k \mathbin{\circ} d_{k+1}}_{0} \mathbin{\circ} h_k + \underbrace{h_{k-1} \mathbin{\circ} d_k \mathbin{\circ} h_{k-1}}_{h_{k-1}} \mathbin{\circ} d_k \\       &amp;= d_{k+1} \mathbin{\circ} h_k + h_{k-1} \mathbin{\circ} d_k = p_k.     \end{aligned}</fr:tex>
+    Therefore we conclude that <fr:tex>p_k</fr:tex> splits <fr:tex>C_k \cong D_k \oplus E_k</fr:tex>. More over, <fr:tex>p \mathbin{\circ} d = d \mathbin{\circ} h \mathbin{\circ} d = d \mathbin{\circ} p</fr:tex>, meaning <fr:tex>p</fr:tex> is a chain map, and therefore the splitting is compatible with the boundary operator. Since <fr:tex>h \mathbin{\circ} p = p \mathbin{\circ} h = h \mathbin{\circ} d \mathbin{\circ} h = h</fr:tex>, the homotopy is also compatible with the splitting, so we can restrict it onto <fr:tex>E_k</fr:tex> to get a homotopy from <fr:tex>{\textrm{id}}_E</fr:tex> to <fr:tex>0</fr:tex>.
   </fr:p>
 
   <fr:p>
-    Finally, restricting <fr:tex>h</fr:tex> onto <fr:tex>D_k</fr:tex> we see that it must be zero, since <fr:tex>h( \textrm {id}  - p) = h - h  \circ  d  \circ  h = 0</fr:tex>. This means that all the information of <fr:tex>h</fr:tex> can be reconstructed from the splitting, and thus all three sets of data are equivalent.
+    Finally, restricting <fr:tex>h</fr:tex> onto <fr:tex>D_k</fr:tex> we see that it must be zero, since <fr:tex>h({\textrm{id}} - p) = h - h \mathbin{\circ} d \mathbin{\circ} h = 0</fr:tex>. This means that all the information of <fr:tex>h</fr:tex> can be reconstructed from the splitting, and thus all three sets of data are equivalent.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -134,15 +134,15 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1896</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0017</fr:addr><fr:route>hmlg-0017.xml</fr:route><fr:title>Chain reduction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1995</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0017</fr:addr><fr:route>hmlg-0017.xml</fr:route><fr:title>Chain reduction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given two chain complexes <fr:tex>C, D</fr:tex>, a <fr:strong>chain reduction</fr:strong> consists of a chain map <fr:tex>\pi  : C  \to  D</fr:tex>, a chain map <fr:tex>\iota  : D  \to  C</fr:tex> and a <fr:link
+  Given two chain complexes <fr:tex>C, D</fr:tex>, a <fr:strong>chain reduction</fr:strong> consists of a chain map <fr:tex>\pi : C \to D</fr:tex>, a chain map <fr:tex>\iota : D \to C</fr:tex> and a <fr:link
 href="hmlg-0016.xml"
 type="local"
-addr="hmlg-0016">chain homotopy</fr:link> <fr:tex>h :  \textrm {id}   \to  g  \circ  f</fr:tex>, such that <fr:tex>\pi   \circ   \iota  =  \textrm {id}</fr:tex>, and <fr:tex
-display="block">\pi   \circ  h = h  \circ   \iota  = h  \circ  h = 0.</fr:tex> Here the compositions are understood to have the appropriate subscript so the degrees match.
+addr="hmlg-0016">chain homotopy</fr:link> <fr:tex>h : {\textrm{id}} \to g \mathbin{\circ} f</fr:tex>, such that <fr:tex>\pi \mathbin{\circ} \iota = {\textrm{id}}</fr:tex>, and <fr:tex
+display="block">\pi \mathbin{\circ} h = h \mathbin{\circ} \iota = h \mathbin{\circ} h = 0.</fr:tex> Here the compositions are understood to have the appropriate subscript so the degrees match.
 </fr:p><fr:p>
-  We write the reduction as <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex>. The three components are denoted <fr:tex>\pi _{ \rho }  : C  \to  D</fr:tex>, <fr:tex>\iota _{ \rho }  : D  \to  C</fr:tex> and <fr:tex>h_{ \rho }  : C  \to  C</fr:tex>, respectively.
+  We write the reduction as <fr:tex>\rho : C \Rightarrow\mkern{-14mu}\Rightarrow D</fr:tex>. The three components are denoted <fr:tex>{\pi_{\rho}} : C \to D</fr:tex>, <fr:tex>{\iota_{\rho}} : D \to C</fr:tex> and <fr:tex>{h_{\rho}} : C \to C</fr:tex>, respectively.
 </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

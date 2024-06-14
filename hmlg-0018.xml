@@ -7,14 +7,14 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1892</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0018</fr:addr><fr:route>hmlg-0018.xml</fr:route><fr:title>An additive functor is exact iff it preserves quasi-isomorphisms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1991</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0018</fr:addr><fr:route>hmlg-0018.xml</fr:route><fr:title>An additive functor is exact iff it preserves quasi-isomorphisms</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given an <fr:link
 href="hmlg-000S.xml"
 type="local"
-addr="hmlg-000S">additive functor</fr:link> <fr:tex>F :  \mathcal { A }   \to   \mathcal { B }</fr:tex> between <fr:link
+addr="hmlg-000S">additive functor</fr:link> <fr:tex>F : {\mathcal{A}} \to {\mathcal{B}}</fr:tex> between <fr:link
 href="hmlg-000Q.xml"
 type="local"
 addr="hmlg-000Q">abelian categories</fr:link>, it is <fr:link
@@ -34,7 +34,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1875</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1976</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0018</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -46,7 +46,7 @@ addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0018</fr:
     On the other hand, <fr:link
 href="todo.xml"
 type="local"
-addr="todo">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex>f : C_ \bullet   \to  D_ \bullet</fr:tex> is a quasi-isomorphism, <fr:tex>H_n (f)</fr:tex> are all isomorphisms. Therefore <fr:tex>H_n (F(f)) = F(H_n(f))</fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.
+addr="todo">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex>f : C_\bullet \to D_\bullet</fr:tex> is a quasi-isomorphism, <fr:tex>H_n (f)</fr:tex> are all isomorphisms. Therefore <fr:tex>H_n (F(f)) = F(H_n(f))</fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -57,24 +57,24 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1881</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000X</fr:addr><fr:route>hmlg-000X.xml</fr:route><fr:title>Left and right exact functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1982</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000X</fr:addr><fr:route>hmlg-000X.xml</fr:route><fr:title>Left and right exact functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   An <fr:link
 href="hmlg-000S.xml"
 type="local"
-addr="hmlg-000S">additive functor</fr:link> <fr:tex>F :  \mathcal { A }   \to   \mathcal { B }</fr:tex> between abelian categories is <fr:strong>left exact</fr:strong> if it satisfies the following equivalent conditions.
+addr="hmlg-000S">additive functor</fr:link> <fr:tex>F : {\mathcal{A}} \to {\mathcal{B}}</fr:tex> between abelian categories is <fr:strong>left exact</fr:strong> if it satisfies the following equivalent conditions.
 </fr:p><fr:ul><fr:li>It preserves kernels.</fr:li>
   <fr:li>It preserves finite limits.</fr:li>
   <fr:li>It preserves the exactness of sequences <fr:tex
-display="block">0  \to  A  \to  B  \to  C.</fr:tex></fr:li></fr:ul><fr:p>
+display="block">0 \to A \to B \to C.</fr:tex></fr:li></fr:ul><fr:p>
   Dually, an additive functor is <fr:strong>right exact</fr:strong> if it satisfies the following equivalent conditions.
 </fr:p><fr:ul><fr:li>It preserves cokernels.</fr:li>
   <fr:li>It preserves finite colimits.</fr:li>
   <fr:li>It preserves the exactness of sequences <fr:tex
-display="block">A  \to  B  \to  C  \to  0.</fr:tex></fr:li></fr:ul><fr:p>
-  If a functor is both left exact and right exact, it is simply called an <fr:strong>exact functor</fr:strong>, which is equivalent to it preserving the exactness of sequences <fr:tex>A  \to  B  \to  C</fr:tex>.
+display="block">A \to B \to C \to 0.</fr:tex></fr:li></fr:ul><fr:p>
+  If a functor is both left exact and right exact, it is simply called an <fr:strong>exact functor</fr:strong>, which is equivalent to it preserving the exactness of sequences <fr:tex>A \to B \to C</fr:tex>.
 </fr:p>
   
     
@@ -85,7 +85,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>307</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>316</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000X</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -97,7 +97,7 @@ addr="hmlg-000Y">kernels are equivalent to general equalizers</fr:link> using th
   </fr:p>
 
   <fr:p>
-    The sequence <fr:tex>A  \rightarrowtail  B  \to  C</fr:tex> being exact is equivalent to <fr:tex>A</fr:tex> being a kernel of <fr:tex>B  \to  C</fr:tex>. So the third condition is equivalent to the first. This completes the equivalence proof.
+    The sequence <fr:tex>A \rightarrowtail B \to C</fr:tex> being exact is equivalent to <fr:tex>A</fr:tex> being a kernel of <fr:tex>B \to C</fr:tex>. So the third condition is equivalent to the first. This completes the equivalence proof.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -108,7 +108,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1883</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000Q</fr:addr><fr:route>hmlg-000Q.xml</fr:route><fr:title>Abelian category</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1984</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000Q</fr:addr><fr:route>hmlg-000Q.xml</fr:route><fr:title>Abelian category</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -125,17 +125,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1887</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000S</fr:addr><fr:route>hmlg-000S.xml</fr:route><fr:title>Additive functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1986</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000S</fr:addr><fr:route>hmlg-000S.xml</fr:route><fr:title>Additive functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given two <fr:link
 href="hmlg-000P.xml"
 type="local"
-addr="hmlg-000P">additive categories</fr:link> and a functor <fr:tex>F :  \mathcal { C }   \to   \mathcal { D }</fr:tex> between them, the following are equivalent. In this case, we call the functor <fr:strong>additive</fr:strong>.
+addr="hmlg-000P">additive categories</fr:link> and a functor <fr:tex>F : {\mathcal{C}} \to {\mathcal{D}}</fr:tex> between them, the following are equivalent. In this case, we call the functor <fr:strong>additive</fr:strong>.
 </fr:p><fr:ul><fr:li>The functor preserves finite products.</fr:li>
   <fr:li>The functor preserves finite coproducts.</fr:li>
-  <fr:li>The functor is a homomorphism on the abelian groups <fr:tex>\hom _{ \mathcal { C } }(X, Y)</fr:tex>, i.e. it is an <fr:tex>\mathsf { Ab }</fr:tex>-enriched functor.</fr:li></fr:ul>
+  <fr:li>The functor is a homomorphism on the abelian groups <fr:tex>\hom_{{\mathcal{C}}}(X, Y)</fr:tex>, i.e. it is an <fr:tex>{\mathsf{Ab}}</fr:tex>-enriched functor.</fr:li></fr:ul>
   
     
     <fr:tree
@@ -145,24 +145,24 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1885</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>304</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000S</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
     For the equivalence of the first two claims, we have a composition
     <fr:tex
-display="block">F(X) + F(Y)  \to  F(X + Y)  \stackrel { \sim \, }{ \to }  F(X  \times  Y)  \to  F(X)  \times  F(Y),</fr:tex>
-    where the middle morphism comes from the canonical isomorphism <fr:tex>X + Y  \stackrel { \sim \, }{ \to }  F(X  \times  Y)</fr:tex>. The first two claim is equivalent to the right and left arrows being iso, respectively. Recall that a morphism from a coproduct to a product is determined by a matrix of morphisms. With this fact and the functoriality of <fr:tex>F</fr:tex>, we can compute that the composition is the canonical isomorphism from <fr:tex>F(X) + F(Y)</fr:tex> to <fr:tex>F(X)  \times  F(Y)</fr:tex>. Therefore the leftmost arrow being iso is equivalent to the rightmost arrow being iso.
+display="block">F(X) + F(Y) \to F(X + Y) \stackrel{\sim\,}{\to} F(X \times Y) \to F(X) \times F(Y),</fr:tex>
+    where the middle morphism comes from the canonical isomorphism <fr:tex>X + Y \stackrel{\sim\,}{\to} F(X \times Y)</fr:tex>. The first two claim is equivalent to the right and left arrows being iso, respectively. Recall that a morphism from a coproduct to a product is determined by a matrix of morphisms. With this fact and the functoriality of <fr:tex>F</fr:tex>, we can compute that the composition is the canonical isomorphism from <fr:tex>F(X) + F(Y)</fr:tex> to <fr:tex>F(X) \times F(Y)</fr:tex>. Therefore the leftmost arrow being iso is equivalent to the rightmost arrow being iso.
   </fr:p>
 
   <fr:p>
     Since the abelian group structure on morphisms is <fr:link
 href="hmlg-000R.xml"
 type="local"
-addr="hmlg-000R">uniquely determined</fr:link> from the finite products and coproducts in an additive category, a functor satisfying the first two conditions automatically satisfies the third. Conversely, we need to prove the canonical maps <fr:tex>F(1)  \to  1</fr:tex> and <fr:tex>F(X  \times  Y)  \to  F(X)  \times  F(Y)</fr:tex> are isomorphisms. For the first one, since <fr:tex>1</fr:tex> is also the initial object, any morphism into it is automatically iso. For the second one, we again look at the diagram which composes to an isomorphism:
+addr="hmlg-000R">uniquely determined</fr:link> from the finite products and coproducts in an additive category, a functor satisfying the first two conditions automatically satisfies the third. Conversely, we need to prove the canonical maps <fr:tex>F(1) \to 1</fr:tex> and <fr:tex>F(X \times Y) \to F(X) \times F(Y)</fr:tex> are isomorphisms. For the first one, since <fr:tex>1</fr:tex> is also the initial object, any morphism into it is automatically iso. For the second one, we again look at the diagram which composes to an isomorphism:
     <fr:tex
-display="block">F(X) + F(Y)  \to  F(X + Y)  \stackrel { \sim \, }{ \to }  F(X  \times  Y)  \to  F(X)  \times  F(Y).</fr:tex>
+display="block">F(X) + F(Y) \to F(X + Y) \stackrel{\sim\,}{\to} F(X \times Y) \to F(X) \times F(Y).</fr:tex>
     Using the bilinearity of composition and that <fr:tex>F</fr:tex> preserves addition on morphisms, we can verify that this provides a two-sided inverse.
   </fr:p>
 </fr:mainmatter></fr:tree>
@@ -174,7 +174,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1889</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000C</fr:addr><fr:route>hmlg-000C.xml</fr:route><fr:title>Quasi-isomorphism</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1988</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000C</fr:addr><fr:route>hmlg-000C.xml</fr:route><fr:title>Quasi-isomorphism</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -192,14 +192,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1891</fr:anchor><fr:taxon>Meta</fr:taxon><fr:addr>todo</fr:addr><fr:route>todo.xml</fr:route><fr:title>Unfinished trees</fr:title></fr:frontmatter><fr:mainmatter><fr:p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</fr:p><fr:tree
+root="false"><fr:frontmatter><fr:anchor>1990</fr:anchor><fr:taxon>Meta</fr:taxon><fr:addr>todo</fr:addr><fr:route>todo.xml</fr:route><fr:title>Unfinished trees</fr:title></fr:frontmatter><fr:mainmatter><fr:p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>988</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002F</fr:addr><fr:route>hmlg-002F.xml</fr:route><fr:title>Twisted tensor product</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1089</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002F</fr:addr><fr:route>hmlg-002F.xml</fr:route><fr:title>Twisted tensor product</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -211,7 +211,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>990</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-002D</fr:addr><fr:route>hmlg-002D.xml</fr:route><fr:title>Associated twisted product</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1091</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-002D</fr:addr><fr:route>hmlg-002D.xml</fr:route><fr:title>Associated twisted product</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -221,12 +221,12 @@ type="local"
 addr="hmlg-002C">associated simplicial fiber bundle</fr:link> of <fr:link
 href="hmlg-002B.xml"
 type="local"
-addr="hmlg-002B">twisted products</fr:link> admits a simpler description. Suppose we have simplicial sets <fr:tex>F, B</fr:tex>, a simplicial group <fr:tex>G</fr:tex> with an action <fr:tex>G  \times  F  \to  F</fr:tex> and a <fr:link
+addr="hmlg-002B">twisted products</fr:link> admits a simpler description. Suppose we have simplicial sets <fr:tex>F, B</fr:tex>, a simplicial group <fr:tex>G</fr:tex> with an action <fr:tex>G \times F \to F</fr:tex> and a <fr:link
 href="hmlg-002A.xml"
 type="local"
-addr="hmlg-002A">twisting function</fr:link> <fr:tex>\tau</fr:tex> on <fr:tex>B</fr:tex>. The <fr:strong>associated twisted product</fr:strong> <fr:tex>B  \times _ \tau  F</fr:tex> is defined exactly the same as twisted products, except we replace the factor <fr:tex>G</fr:tex> with <fr:tex>F</fr:tex>. This still makes sense, because we can interpret the multiplication <fr:tex>\tau (b)  \cdot   \partial _n f</fr:tex> as the <fr:tex>G</fr:tex>-action.
+addr="hmlg-002A">twisting function</fr:link> <fr:tex>\tau</fr:tex> on <fr:tex>B</fr:tex>. The <fr:strong>associated twisted product</fr:strong> <fr:tex>B \times_\tau F</fr:tex> is defined exactly the same as twisted products, except we replace the factor <fr:tex>G</fr:tex> with <fr:tex>F</fr:tex>. This still makes sense, because we can interpret the multiplication <fr:tex>\tau(b) \cdot \partial_n f</fr:tex> as the <fr:tex>G</fr:tex>-action.
 </fr:p><fr:p>
-  In particular, if we consider <fr:tex>G</fr:tex> as a simplicial set with a <fr:tex>G</fr:tex>-action on the left via multiplication, then the associated twisted product <fr:tex>B  \times _ \tau  G</fr:tex> is exactly the same as the twisted product <fr:tex>B  \times _ \tau  G</fr:tex>, which explains our identical notation.
+  In particular, if we consider <fr:tex>G</fr:tex> as a simplicial set with a <fr:tex>G</fr:tex>-action on the left via multiplication, then the associated twisted product <fr:tex>B \times_\tau G</fr:tex> is exactly the same as the twisted product <fr:tex>B \times_\tau G</fr:tex>, which explains our identical notation.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
@@ -234,14 +234,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>992</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001M</fr:addr><fr:route>hmlg-001M.xml</fr:route><fr:title>Chain reduction of mapping cones</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1093</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001M</fr:addr><fr:route>hmlg-001M.xml</fr:route><fr:title>Chain reduction of mapping cones</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given a pair of <fr:link
 href="hmlg-0017.xml"
 type="local"
-addr="hmlg-0017">chain reductions</fr:link> <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex> and <fr:tex>\rho ' : C'  \Rightarrow \mkern {-14mu} \Rightarrow  D'</fr:tex>, we can construct a reduction from the mapping cone <fr:tex>\operatorname {Cone} (f)</fr:tex> of a chain map <fr:tex>f : C  \to  C'</fr:tex> to (the action of <fr:tex>\rho</fr:tex> on <fr:tex>f</fr:tex>).
+addr="hmlg-0017">chain reductions</fr:link> <fr:tex>\rho : C \Rightarrow\mkern{-14mu}\Rightarrow D</fr:tex> and <fr:tex>\rho' : C' \Rightarrow\mkern{-14mu}\Rightarrow D'</fr:tex>, we can construct a reduction from the mapping cone <fr:tex>\operatorname{Cone}(f)</fr:tex> of a chain map <fr:tex>f : C \to C'</fr:tex> to (the action of <fr:tex>\rho</fr:tex> on <fr:tex>f</fr:tex>).
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
@@ -249,7 +249,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>994</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1095</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -280,7 +280,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="false"
-root="false"><fr:frontmatter><fr:anchor>998</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000F</fr:addr><fr:route>hmlg-000F.xml</fr:route><fr:title>Freyd–Mitchell embedding theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1099</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000F</fr:addr><fr:route>hmlg-000F.xml</fr:route><fr:title>Freyd–Mitchell embedding theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -295,7 +295,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>996</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1097</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>

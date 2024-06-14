@@ -7,12 +7,16 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>711</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>676</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0009</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000M</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Given an adjunction <fr:tex>F  \dashv  G</fr:tex> with the corresponding monad <fr:tex>G  \circ  F</fr:tex>, the comparison functor is defined as sending <fr:tex>X</fr:tex> to <fr:tex>GFGX  \to  GX</fr:tex>, given by the counit <fr:tex>FGX  \to  X</fr:tex>.
+    This is indeed a Boolean algebra since measure-zero sets form a Boolean ideal of the Lebesgue <fr:tex>\sigma</fr:tex>-algebra. So we just need to show the existence of arbitrary joins. Given a family <fr:tex>X_\alpha</fr:tex> of measurable sets, we inductively construct a countable union. On each step, consider the area of each set outside of the current union. Select a set such that this excess area is within <fr:tex>\frac12</fr:tex> of the supremum. Since <fr:tex>\mu([0,1]) = 1</fr:tex>, such a process must lead to an excess area converging to zero.
+  </fr:p>
+
+  <fr:p>
+    By construction, every set <fr:tex>X_\alpha</fr:tex> has zero area outside of this countable union, so they are under the union in the Boolean algebra. And the countable union <fr:tex>\bigcup_{k=1}^\infty X_{\alpha_k}</fr:tex> is the join of <fr:tex>X_{\alpha_k}</fr:tex> in the algebra, since a countable union of neglegible set is still neglegible. Hence by chasing elements, it must be the join of the entire family <fr:tex>X_\alpha</fr:tex>.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -21,17 +25,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>709</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0009</fr:addr><fr:route>ualg-0009.xml</fr:route><fr:title>The Eilenberg–Moore category induces the terminal decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>674</fr:anchor><fr:taxon>Example</fr:taxon><fr:addr>ualg-000M</fr:addr><fr:route>ualg-000M.xml</fr:route><fr:title>Complete Boolean algebra not isomorphic to a powerset</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The <fr:link
-href="ualg-0002.xml"
-type="local"
-addr="ualg-0002">Eilenberg–Moore category</fr:link> together with its canonical adjunction is the terminal <fr:link
-href="ualg-0007.xml"
-type="local"
-addr="ualg-0007">decomposition of a monad into adjoint functors</fr:link>. Hence there is a unique morphism from any decomposition to it, named the <fr:strong>comparison functor</fr:strong>.
+  Consider the Lebesgue measurable sets on the interval <fr:tex>[0,1]</fr:tex> quotiented by measure-zero sets. This is a complete Boolean algebra, but it is not a powerset, showing the necessity of complete distributivity in <fr:ref
+addr="ualg-000L"
+href="ualg-000L.xml"
+taxon="Theorem"></fr:ref>.
 </fr:p>
   
     
@@ -42,12 +43,16 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>679</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>672</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0009</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000M</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Given an adjunction <fr:tex>F  \dashv  G</fr:tex> with the corresponding monad <fr:tex>G  \circ  F</fr:tex>, the comparison functor is defined as sending <fr:tex>X</fr:tex> to <fr:tex>GFGX  \to  GX</fr:tex>, given by the counit <fr:tex>FGX  \to  X</fr:tex>.
+    This is indeed a Boolean algebra since measure-zero sets form a Boolean ideal of the Lebesgue <fr:tex>\sigma</fr:tex>-algebra. So we just need to show the existence of arbitrary joins. Given a family <fr:tex>X_\alpha</fr:tex> of measurable sets, we inductively construct a countable union. On each step, consider the area of each set outside of the current union. Select a set such that this excess area is within <fr:tex>\frac12</fr:tex> of the supremum. Since <fr:tex>\mu([0,1]) = 1</fr:tex>, such a process must lead to an excess area converging to zero.
+  </fr:p>
+
+  <fr:p>
+    By construction, every set <fr:tex>X_\alpha</fr:tex> has zero area outside of this countable union, so they are under the union in the Boolean algebra. And the countable union <fr:tex>\bigcup_{k=1}^\infty X_{\alpha_k}</fr:tex> is the join of <fr:tex>X_{\alpha_k}</fr:tex> in the algebra, since a countable union of neglegible set is still neglegible. Hence by chasing elements, it must be the join of the entire family <fr:tex>X_\alpha</fr:tex>.
   </fr:p>
 </fr:mainmatter></fr:tree>
   

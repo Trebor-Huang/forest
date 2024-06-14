@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1184</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-001G</fr:addr><fr:route>algm-001G.xml</fr:route><fr:title>Iterated <fr:link
+root="false"><fr:frontmatter><fr:anchor>1285</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-001G</fr:addr><fr:route>algm-001G.xml</fr:route><fr:title>Iterated <fr:link
 href="algm-001E.xml"
 type="local"
 addr="algm-001E">plus construction</fr:link> produces a sheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -31,7 +31,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1074</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1175</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001G</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -39,24 +39,24 @@ addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001G</fr:
     We first prove that <fr:tex>P^+</fr:tex> is separated. Suppose there are two gluings of a set of descent data on a <fr:link
 href="algm-001A.xml"
 type="local"
-addr="algm-001A">covering sieve</fr:link> <fr:tex>S</fr:tex> over <fr:tex>A</fr:tex>, then we have two sieves <fr:tex>S_1, S_2</fr:tex> over <fr:tex>A</fr:tex> with compatible families <fr:tex>s_{1, f}, s_{2, f}</fr:tex>. Since they are gluings of the same descent data, the restriction along any morphism <fr:tex>g : U  \to  A</fr:tex> in <fr:tex>S</fr:tex> would be equal. Hence there is a common refinement of <fr:tex>g^* S_1</fr:tex> and <fr:tex>g^* S_2</fr:tex> where the two families become equal. Expanding this, there is a covering sieve on <fr:tex>U</fr:tex> such that <fr:tex>g  \circ  h  \in  S_1  \cap  S_2</fr:tex> for every <fr:tex>h</fr:tex> in the sieve, and <fr:tex>s_{1, g  \circ  h} = s_{2, g  \circ  h}</fr:tex>. But then by the axioms of a <fr:link
+addr="algm-001A">covering sieve</fr:link> <fr:tex>S</fr:tex> over <fr:tex>A</fr:tex>, then we have two sieves <fr:tex>S_1, S_2</fr:tex> over <fr:tex>A</fr:tex> with compatible families <fr:tex>s_{1, f}, s_{2, f}</fr:tex>. Since they are gluings of the same descent data, the restriction along any morphism <fr:tex>g : U \to A</fr:tex> in <fr:tex>S</fr:tex> would be equal. Hence there is a common refinement of <fr:tex>g^* S_1</fr:tex> and <fr:tex>g^* S_2</fr:tex> where the two families become equal. Expanding this, there is a covering sieve on <fr:tex>U</fr:tex> such that <fr:tex>g \mathbin{\circ} h \in S_1 \cap S_2</fr:tex> for every <fr:tex>h</fr:tex> in the sieve, and <fr:tex>s_{1, g \mathbin{\circ} h} = s_{2, g \mathbin{\circ} h}</fr:tex>. But then by the axioms of a <fr:link
 href="algm-001A.xml"
 type="local"
-addr="algm-001A">Grothendieck coverage</fr:link>, <fr:tex>g  \circ  h</fr:tex> for all <fr:tex>h</fr:tex> in the said sieve and <fr:tex>g  \in  S</fr:tex> also generates a covering sieve. Hence <fr:tex>s_1</fr:tex> and <fr:tex>s_2</fr:tex> are already equal on a covering subsieve, and so they are equal in <fr:tex>\Gamma (A, P^+)</fr:tex>.
+addr="algm-001A">Grothendieck coverage</fr:link>, <fr:tex>g \mathbin{\circ} h</fr:tex> for all <fr:tex>h</fr:tex> in the said sieve and <fr:tex>g \in S</fr:tex> also generates a covering sieve. Hence <fr:tex>s_1</fr:tex> and <fr:tex>s_2</fr:tex> are already equal on a covering subsieve, and so they are equal in <fr:tex>{\Gamma}(A, P^+)</fr:tex>.
   </fr:p>
 
   <fr:p>
     Let’s see why <fr:tex>P^+</fr:tex> is not necessarily a sheaf. To be a sheaf, we need to find a gluing for each compatible family. A <fr:link
 href="algm-001D.xml"
 type="local"
-addr="algm-001D">compatible family</fr:link> of local sections of <fr:tex>P^+</fr:tex> is a family of covering sieves <fr:tex>S_f</fr:tex> over <fr:tex>U</fr:tex> for each morphism <fr:tex>f : U  \to  A</fr:tex> in <fr:tex>S</fr:tex>, and for each <fr:tex>S_f</fr:tex> a family of sections <fr:tex>s_{f, g}  \in   \Gamma (V, P)</fr:tex> where <fr:tex>g : V  \to  U</fr:tex> lies in <fr:tex>S_f</fr:tex>. By the axioms of a <fr:link
+addr="algm-001D">compatible family</fr:link> of local sections of <fr:tex>P^+</fr:tex> is a family of covering sieves <fr:tex>S_f</fr:tex> over <fr:tex>U</fr:tex> for each morphism <fr:tex>f : U \to A</fr:tex> in <fr:tex>S</fr:tex>, and for each <fr:tex>S_f</fr:tex> a family of sections <fr:tex>s_{f, g} \in {\Gamma}(V, P)</fr:tex> where <fr:tex>g : V \to U</fr:tex> lies in <fr:tex>S_f</fr:tex>. By the axioms of a <fr:link
 href="algm-001A.xml"
 type="local"
-addr="algm-001A">Grothendieck coverage</fr:link>, the union <fr:tex>\bigcup _{f  \in  S} f  \circ  S_f</fr:tex> is a sieve, since <fr:tex>S_f  \subseteq  f^* (f  \circ  S_f)</fr:tex>. (Warning: <fr:tex>f  \circ  S_f</fr:tex> is not a covering sieve itself.) So we are tempted to simply construct a glued section <fr:tex>s'</fr:tex> by <fr:tex>s'_{f  \circ  g} = s_{f, g}</fr:tex>. Hence we need to prove <fr:tex>s_{f, g} = s_{f', g'}</fr:tex> if <fr:tex>f  \circ  g = f'  \circ  g'</fr:tex>.
+addr="algm-001A">Grothendieck coverage</fr:link>, the union <fr:tex>\bigcup_{f \in S} f \mathbin{\circ} S_f</fr:tex> is a sieve, since <fr:tex>S_f \subseteq f^* (f \mathbin{\circ} S_f)</fr:tex>. (Warning: <fr:tex>f \mathbin{\circ} S_f</fr:tex> is not a covering sieve itself.) So we are tempted to simply construct a glued section <fr:tex>s'</fr:tex> by <fr:tex>s'_{f \mathbin{\circ} g} = s_{f, g}</fr:tex>. Hence we need to prove <fr:tex>s_{f, g} = s_{f', g'}</fr:tex> if <fr:tex>f \mathbin{\circ} g = f' \mathbin{\circ} g'</fr:tex>.
   </fr:p>
 
   <fr:p>
-    Since the families <fr:tex>s_{f}</fr:tex> are compatible, given any <fr:tex>g : V  \to  U</fr:tex> we have <fr:tex>s_{f, g  \circ  r} = s_{f  \circ  g, r}</fr:tex> for a family of arrows <fr:tex>r</fr:tex> that generates a covering sieve on <fr:tex>V</fr:tex>. However we cannot necessarily take <fr:tex>r =  \textrm {id}</fr:tex>, so this is not necessarily well-defined. Here is where the separatedness comes in. Notice that <fr:tex>s_{f, g  \circ  r} = s_{f  \circ  g, r}</fr:tex> forms a compatible family over <fr:tex>V</fr:tex> as <fr:tex>r</fr:tex> ranges over the covering sieve. And therefore <fr:tex>s_{f, g}</fr:tex> and <fr:tex>s_{f  \circ  g,  \textrm {id} }</fr:tex> are both a gluing of the family. By separatedness, they must be equal. Hence our problem is solved.
+    Since the families <fr:tex>s_{f}</fr:tex> are compatible, given any <fr:tex>g : V \to U</fr:tex> we have <fr:tex>s_{f, g \mathbin{\circ} r} = s_{f \mathbin{\circ} g, r}</fr:tex> for a family of arrows <fr:tex>r</fr:tex> that generates a covering sieve on <fr:tex>V</fr:tex>. However we cannot necessarily take <fr:tex>r = {\textrm{id}}</fr:tex>, so this is not necessarily well-defined. Here is where the separatedness comes in. Notice that <fr:tex>s_{f, g \mathbin{\circ} r} = s_{f \mathbin{\circ} g, r}</fr:tex> forms a compatible family over <fr:tex>V</fr:tex> as <fr:tex>r</fr:tex> ranges over the covering sieve. And therefore <fr:tex>s_{f, g}</fr:tex> and <fr:tex>s_{f \mathbin{\circ} g, {\textrm{id}}}</fr:tex> are both a gluing of the family. By separatedness, they must be equal. Hence our problem is solved.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -67,17 +67,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1176</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001A</fr:addr><fr:route>algm-001A.xml</fr:route><fr:title>Grothendieck coverage</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1277</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001A</fr:addr><fr:route>algm-001A.xml</fr:route><fr:title>Grothendieck coverage</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category <fr:tex>\mathcal { C }</fr:tex>, a <fr:strong>Grothendieck coverage</fr:strong> declares some <fr:link
+  Given a category <fr:tex>{\mathcal{C}}</fr:tex>, a <fr:strong>Grothendieck coverage</fr:strong> declares some <fr:link
 href="algm-001B.xml"
 type="local"
 addr="algm-001B">sieves</fr:link> to be coverings, such that the following holds.
-</fr:p><fr:ul><fr:li>The maximal sieve <fr:tex>\mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (A)  \subseteq   \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (A)</fr:tex> is always a covering.</fr:li>
-  <fr:li>Covering sieves are upwards closed, i.e. if <fr:tex>S  \subseteq  S'</fr:tex> and <fr:tex>S</fr:tex> is a covering sieve, then so is <fr:tex>S'</fr:tex>.</fr:li>
-  <fr:li>If <fr:tex>S</fr:tex> is a covering sieve of <fr:tex>A</fr:tex>, and <fr:tex>g : B  \to  A</fr:tex> is a morphism, then the <fr:link
+</fr:p><fr:ul><fr:li>The maximal sieve <fr:tex>\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(A) \subseteq \mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(A)</fr:tex> is always a covering.</fr:li>
+  <fr:li>Covering sieves are upwards closed, i.e. if <fr:tex>S \subseteq S'</fr:tex> and <fr:tex>S</fr:tex> is a covering sieve, then so is <fr:tex>S'</fr:tex>.</fr:li>
+  <fr:li>If <fr:tex>S</fr:tex> is a covering sieve of <fr:tex>A</fr:tex>, and <fr:tex>g : B \to A</fr:tex> is a morphism, then the <fr:link
 href="algm-001C.xml"
 type="local"
 addr="algm-001C">pullback</fr:link> <fr:tex>g^* S</fr:tex> is also a covering.</fr:li>
@@ -93,19 +93,19 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1178</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001D</fr:addr><fr:route>algm-001D.xml</fr:route><fr:title>Descent data of presheaves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1279</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001D</fr:addr><fr:route>algm-001D.xml</fr:route><fr:title>Descent data of presheaves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category <fr:tex>\mathcal { C }</fr:tex>, a <fr:link
+  Given a category <fr:tex>{\mathcal{C}}</fr:tex>, a <fr:link
 href="algm-001B.xml"
 type="local"
-addr="algm-001B">sieve</fr:link> <fr:tex>S</fr:tex> and a presheaf <fr:tex>P :  \mathcal { C } ^ \textrm {op}   \to   \mathsf { Set }</fr:tex>, a set of <fr:strong>descent data</fr:strong> or a <fr:strong>compatible family</fr:strong> is a morphism <fr:tex>S  \to  P</fr:tex>. Expanding this, it is a family of <fr:em>local sections</fr:em> <fr:tex>s  \in   \Gamma (U, P)</fr:tex> assigned for each morphism <fr:tex>U  \to  A</fr:tex> in the sieve <fr:tex>S</fr:tex>, such that the local sections are compatible on restriction. There is an obvious map from the sections <fr:tex>\Gamma (A, P)</fr:tex> to the descent data given by restriction.
+addr="algm-001B">sieve</fr:link> <fr:tex>S</fr:tex> and a presheaf <fr:tex>P : {\mathcal{C}}^{\textrm{op}} \to {\mathsf{Set}}</fr:tex>, a set of <fr:strong>descent data</fr:strong> or a <fr:strong>compatible family</fr:strong> is a morphism <fr:tex>S \to P</fr:tex>. Expanding this, it is a family of <fr:em>local sections</fr:em> <fr:tex>s \in {\Gamma}(U, P)</fr:tex> assigned for each morphism <fr:tex>U \to A</fr:tex> in the sieve <fr:tex>S</fr:tex>, such that the local sections are compatible on restriction. There is an obvious map from the sections <fr:tex>{\Gamma}(A, P)</fr:tex> to the descent data given by restriction.
 </fr:p><fr:p>
   More generally, given a general <fr:link
 href="algm-0019.xml"
 type="local"
-addr="algm-0019">cover</fr:link>, a set of descent data is a family of sections <fr:tex>s_i  \in   \Gamma (U_i, P)</fr:tex> for each morphism <fr:tex>f_i : U_i  \to  A</fr:tex> in the cover, such that in any common restriction of <fr:tex>U_i</fr:tex> and <fr:tex>U_j</fr:tex>, the sections agree. This can be equivalently expressed as the descent data of the sieve generated by the cover.
+addr="algm-0019">cover</fr:link>, a set of descent data is a family of sections <fr:tex>s_i \in {\Gamma}(U_i, P)</fr:tex> for each morphism <fr:tex>f_i : U_i \to A</fr:tex> in the cover, such that in any common restriction of <fr:tex>U_i</fr:tex> and <fr:tex>U_j</fr:tex>, the sections agree. This can be equivalently expressed as the descent data of the sieve generated by the cover.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -113,23 +113,23 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1180</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001E</fr:addr><fr:route>algm-001E.xml</fr:route><fr:title>Plus construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1281</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001E</fr:addr><fr:route>algm-001E.xml</fr:route><fr:title>Plus construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given a <fr:link
 href="algm-001A.xml"
 type="local"
-addr="algm-001A">Grothendieck coverage</fr:link> on <fr:tex>\mathcal { C }</fr:tex> and a presheaf <fr:tex>P :  \mathcal { C } ^ \textrm {op}   \to   \mathsf { Set }</fr:tex>, the <fr:strong>plus construction</fr:strong> produces a new presheaf <fr:tex>P^+</fr:tex> by taking a directed limit over all the <fr:link
+addr="algm-001A">Grothendieck coverage</fr:link> on <fr:tex>{\mathcal{C}}</fr:tex> and a presheaf <fr:tex>P : {\mathcal{C}}^{\textrm{op}} \to {\mathsf{Set}}</fr:tex>, the <fr:strong>plus construction</fr:strong> produces a new presheaf <fr:tex>P^+</fr:tex> by taking a directed limit over all the <fr:link
 href="algm-001D.xml"
 type="local"
 addr="algm-001D">descent data</fr:link>. More precisely, we assign <fr:tex
-display="block">\Gamma (A, P^+) =  \operatorname *{colim} _{S  \text { covers } A}  \hom (S, P).</fr:tex> This means the sections of <fr:tex>P^+</fr:tex> are compatible families of sections of <fr:tex>P</fr:tex>, and two families are considered equal if they are equal on a common covering subsieve.
+display="block">{\Gamma}(A, P^+) = \operatorname*{colim}_{S \text{ covers } A} \hom(S, P).</fr:tex> This means the sections of <fr:tex>P^+</fr:tex> are compatible families of sections of <fr:tex>P</fr:tex>, and two families are considered equal if they are equal on a common covering subsieve.
 </fr:p><fr:p>
-  Given a map <fr:tex>g : B  \to  A</fr:tex>, we have a <fr:link
+  Given a map <fr:tex>g : B \to A</fr:tex>, we have a <fr:link
 href="algm-001C.xml"
 type="local"
-addr="algm-001C">pullback</fr:link> <fr:tex>\hom (S, P)  \to   \hom (g^*S, P)</fr:tex>. This induces the functorial action of <fr:tex>P^+</fr:tex>. There is an obvious natural transformation <fr:tex>P  \to  P^+</fr:tex>.
+addr="algm-001C">pullback</fr:link> <fr:tex>\hom(S, P) \to \hom(g^*S, P)</fr:tex>. This induces the functorial action of <fr:tex>P^+</fr:tex>. There is an obvious natural transformation <fr:tex>P \to P^+</fr:tex>.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -137,14 +137,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1182</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001F</fr:addr><fr:route>algm-001F.xml</fr:route><fr:title>Sheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1283</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001F</fr:addr><fr:route>algm-001F.xml</fr:route><fr:title>Sheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category <fr:tex>\mathcal { C }</fr:tex> equipped with a <fr:link
+  Given a category <fr:tex>{\mathcal{C}}</fr:tex> equipped with a <fr:link
 href="algm-0019.xml"
 type="local"
-addr="algm-0019">coverage</fr:link>, we define a presheaf <fr:tex>P :  \mathcal { C } ^ \textrm {op}   \to   \mathsf { Set }</fr:tex> to be a <fr:strong>sheaf</fr:strong> if it satisfies the <fr:strong>sheaf condition</fr:strong>: for every cover of <fr:tex>A</fr:tex>, the map from sections of <fr:tex>A</fr:tex> to <fr:link
+addr="algm-0019">coverage</fr:link>, we define a presheaf <fr:tex>P : {\mathcal{C}}^{\textrm{op}} \to {\mathsf{Set}}</fr:tex> to be a <fr:strong>sheaf</fr:strong> if it satisfies the <fr:strong>sheaf condition</fr:strong>: for every cover of <fr:tex>A</fr:tex>, the map from sections of <fr:tex>A</fr:tex> to <fr:link
 href="algm-001D.xml"
 type="local"
 addr="algm-001D">descent data</fr:link> of the cover is a bijection. It is a <fr:strong>separated presheaf</fr:strong> if the map is an injection.
@@ -155,7 +155,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1172</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001J</fr:addr><fr:route>algm-001J.xml</fr:route><fr:title>Sheafification</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1273</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001J</fr:addr><fr:route>algm-001J.xml</fr:route><fr:title>Sheafification</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Sheafification</fr:strong> is defined as the left adjoint of the inclusion from <fr:link
@@ -172,7 +172,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1078</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1179</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001J</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -185,8 +185,8 @@ addr="algm-001H"
 href="algm-001H.xml"
 taxon="Theorem"></fr:ref> we have a natural bijection
     <fr:tex
-display="block">\hom (P^{++}, F)  \cong   \hom (P^+, F)  \cong   \hom (P, F).</fr:tex>
-    Hence it is indeed the left adjoint. Since the bijections are given by composition with <fr:tex>P  \to  P^+</fr:tex> and <fr:tex>P^+  \to  P^{++}</fr:tex>, we see that the unit of the adjunction is given by the composition <fr:tex>P  \to  P^{++}</fr:tex>.
+display="block">\hom(P^{++}, F) \cong \hom(P^+, F) \cong \hom(P, F).</fr:tex>
+    Hence it is indeed the left adjoint. Since the bijections are given by composition with <fr:tex>P \to P^+</fr:tex> and <fr:tex>P^+ \to P^{++}</fr:tex>, we see that the unit of the adjunction is given by the composition <fr:tex>P \to P^{++}</fr:tex>.
   </fr:p>
 
   <fr:p>
@@ -207,7 +207,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1174</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-001H</fr:addr><fr:route>algm-001H.xml</fr:route><fr:title>Universal property of <fr:link
+root="false"><fr:frontmatter><fr:anchor>1275</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-001H</fr:addr><fr:route>algm-001H.xml</fr:route><fr:title>Universal property of <fr:link
 href="algm-001E.xml"
 type="local"
 addr="algm-001E">plus construction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
@@ -215,7 +215,7 @@ href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   For any presheaf <fr:tex>P</fr:tex> and sheaf <fr:tex>F</fr:tex>, there is a natural bijection <fr:tex
-display="block">\hom (P, F)  \cong   \hom (P^+, F)</fr:tex> given by composition with <fr:tex>\eta _P : P  \to  P^+</fr:tex>.
+display="block">\hom(P, F) \cong \hom(P^+, F)</fr:tex> given by composition with <fr:tex>\eta_P : P \to P^+</fr:tex>.
 </fr:p><fr:p>
   As a corollary of this and <fr:ref
 addr="algm-001G"
@@ -231,15 +231,15 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1070</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1171</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001H</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    For every morphism <fr:tex>P  \to  F</fr:tex>, there is a unique way to extend the map to <fr:tex>P^+</fr:tex> using the <fr:link
+    For every morphism <fr:tex>P \to F</fr:tex>, there is a unique way to extend the map to <fr:tex>P^+</fr:tex> using the <fr:link
 href="algm-001F.xml"
 type="local"
-addr="algm-001F">sheaf condition</fr:link> of <fr:tex>F</fr:tex>. A section of <fr:tex>P^+</fr:tex> consists of a matching family <fr:tex>s_f</fr:tex>, and it is also the gluing of <fr:tex>\eta _P(s_f)</fr:tex>.
+addr="algm-001F">sheaf condition</fr:link> of <fr:tex>F</fr:tex>. A section of <fr:tex>P^+</fr:tex> consists of a matching family <fr:tex>s_f</fr:tex>, and it is also the gluing of <fr:tex>\eta_P(s_f)</fr:tex>.
   </fr:p>
 </fr:mainmatter></fr:tree>
   

@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1467</fr:anchor><fr:taxon>Intuition</fr:taxon><fr:addr>algm-000O</fr:addr><fr:route>algm-000O.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1568</fr:anchor><fr:taxon>Intuition</fr:taxon><fr:addr>algm-000O</fr:addr><fr:route>algm-000O.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -19,7 +19,7 @@ href="algm-000M.xml"
 type="local"
 addr="algm-000M">ringed space</fr:link> is to guarantee that the sections behave like functions valued in some field.
 </fr:p><fr:p>
-  It is impossible in general to discuss the vanishing region of a section <fr:tex>f  \in   \Gamma (U,  \mathscr { O } )</fr:tex>. For instance, the germs of continuous functions are non-zero on their support, which is the closure of the non-vanishing region. In algebraic geometry, such an overspill destroys most valuable information. We can talk about the maximal region on which the section is invertible, but this is different from being non-zero if sections don’t behave like functions. Similarly, it is also impossible to discuss the value of a section at some point in general. In locally ringed space, we have <fr:ref
+  It is impossible in general to discuss the vanishing region of a section <fr:tex>f \in {\Gamma}(U, {\mathscr{O}})</fr:tex>. For instance, the germs of continuous functions are non-zero on their support, which is the closure of the non-vanishing region. In algebraic geometry, such an overspill destroys most valuable information. We can talk about the maximal region on which the section is invertible, but this is different from being non-zero if sections don’t behave like functions. Similarly, it is also impossible to discuss the value of a section at some point in general. In locally ringed space, we have <fr:ref
 addr="algm-000P"
 href="algm-000P.xml"
 taxon="Definition"></fr:ref>.
@@ -30,14 +30,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1461</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000P</fr:addr><fr:route>algm-000P.xml</fr:route><fr:title>Value of section at a point</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1562</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000P</fr:addr><fr:route>algm-000P.xml</fr:route><fr:title>Value of section at a point</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given a <fr:link
 href="algm-000L.xml"
 type="local"
-addr="algm-000L">locally ringed space</fr:link> and a section <fr:tex>f  \in   \Gamma (U,  \mathscr { O } )</fr:tex>, the germ of <fr:tex>f</fr:tex> at a point is an element of a local ring. The image of this element in the residue field, i.e. the quotient by the unique maximal ideal is called the <fr:strong>value</fr:strong> of this section at this point.
+addr="algm-000L">locally ringed space</fr:link> and a section <fr:tex>f \in {\Gamma}(U, {\mathscr{O}})</fr:tex>, the germ of <fr:tex>f</fr:tex> at a point is an element of a local ring. The image of this element in the residue field, i.e. the quotient by the unique maximal ideal is called the <fr:strong>value</fr:strong> of this section at this point.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -45,17 +45,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1463</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000L</fr:addr><fr:route>algm-000L.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1564</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000L</fr:addr><fr:route>algm-000L.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given a <fr:link
 href="algm-000M.xml"
 type="local"
-addr="algm-000M">ringed space</fr:link>, i.e. a space <fr:tex>X</fr:tex> with a sheaf of rings <fr:tex>\mathscr { O }</fr:tex>, it is said to be <fr:strong>locally ringed</fr:strong> iff the following conditions hold.
-</fr:p><fr:ul><fr:li>If <fr:tex>\Gamma (U,  \mathscr { O } ) = 0</fr:tex>, then <fr:tex>U</fr:tex> is empty.</fr:li>
-  <fr:li>Suppose <fr:tex>f + g  \in   \Gamma (U,  \mathscr { O } )</fr:tex> is invertible, then we can cover <fr:tex>U</fr:tex> with two open sets such that <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> are invertible when restricted respectively.</fr:li></fr:ul><fr:p>
-  This can be unified as one condition: If a finite sum in <fr:tex>\Gamma (U,  \mathscr { O } )</fr:tex> is invertible, then each summand is invertible when restricted to an open, which jointly covers <fr:tex>U</fr:tex>.
+addr="algm-000M">ringed space</fr:link>, i.e. a space <fr:tex>X</fr:tex> with a sheaf of rings <fr:tex>{\mathscr{O}}</fr:tex>, it is said to be <fr:strong>locally ringed</fr:strong> iff the following conditions hold.
+</fr:p><fr:ul><fr:li>If <fr:tex>{\Gamma}(U, {\mathscr{O}}) = 0</fr:tex>, then <fr:tex>U</fr:tex> is empty.</fr:li>
+  <fr:li>Suppose <fr:tex>f + g \in {\Gamma}(U, {\mathscr{O}})</fr:tex> is invertible, then we can cover <fr:tex>U</fr:tex> with two open sets such that <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> are invertible when restricted respectively.</fr:li></fr:ul><fr:p>
+  This can be unified as one condition: If a finite sum in <fr:tex>{\Gamma}(U, {\mathscr{O}})</fr:tex> is invertible, then each summand is invertible when restricted to an open, which jointly covers <fr:tex>U</fr:tex>.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -63,7 +63,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1465</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000M</fr:addr><fr:route>algm-000M.xml</fr:route><fr:title>Ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1566</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000M</fr:addr><fr:route>algm-000M.xml</fr:route><fr:title>Ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>

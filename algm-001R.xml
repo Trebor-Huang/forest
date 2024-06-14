@@ -7,12 +7,12 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1007</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001R</fr:addr><fr:route>algm-001R.xml</fr:route><fr:title>Local object</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1108</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001R</fr:addr><fr:route>algm-001R.xml</fr:route><fr:title>Local object</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a class of arrows <fr:tex>S</fr:tex>, an <fr:tex>S</fr:tex>-<fr:strong>local object</fr:strong> is an object <fr:tex>X</fr:tex> such that for every <fr:tex>f : A  \to  B</fr:tex> in <fr:tex>S</fr:tex>, the composition map <fr:tex
-display="block">\hom (B, X)  \to   \hom (A, X)</fr:tex> is an isomorphism.
+  Given a class of arrows <fr:tex>S</fr:tex>, an <fr:tex>S</fr:tex>-<fr:strong>local object</fr:strong> is an object <fr:tex>X</fr:tex> such that for every <fr:tex>f : A \to B</fr:tex> in <fr:tex>S</fr:tex>, the composition map <fr:tex
+display="block">\hom(B, X) \to \hom(A, X)</fr:tex> is an isomorphism.
 </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -20,14 +20,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1005</fr:anchor><fr:addr>algm-001P</fr:addr><fr:route>algm-001P.xml</fr:route><fr:title>Sheaf condition using Lawvere–Tierney operators</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1106</fr:anchor><fr:addr>algm-001P</fr:addr><fr:route>algm-001P.xml</fr:route><fr:title>Sheaf condition using Lawvere–Tierney operators</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Knowing the <fr:link
 href="algm-001N.xml"
 type="local"
-addr="algm-001N">correspondence</fr:link> of Grothendieck coverages on <fr:tex>\mathcal { C }</fr:tex> and Lawvere–Tierney operators on <fr:tex>\mathsf { Psh } ( \mathcal { C } )</fr:tex>, we naturally want to rewrite the <fr:link
+addr="algm-001N">correspondence</fr:link> of Grothendieck coverages on <fr:tex>{\mathcal{C}}</fr:tex> and Lawvere–Tierney operators on <fr:tex>{\mathsf{Psh}}({\mathcal{C}})</fr:tex>, we naturally want to rewrite the <fr:link
 href="algm-001F.xml"
 type="local"
 addr="algm-001F">sheaf condition</fr:link> to use <fr:link
@@ -41,7 +41,7 @@ addr="algm-001A">Grothendieck coverages</fr:link>.
   Recall that the <fr:link
 href="algm-001F.xml"
 type="local"
-addr="algm-001F">sheaf condition</fr:link> requires for every covering sieve <fr:tex>S  \hookrightarrow   \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U)</fr:tex> that the composition <fr:tex>\hom ( \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U), X)  \to   \hom (S, X)</fr:tex> is an isomorphism. We can reify this to a definition.
+addr="algm-001F">sheaf condition</fr:link> requires for every covering sieve <fr:tex>S \hookrightarrow \mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U)</fr:tex> that the composition <fr:tex>\hom(\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U), X) \to \hom(S, X)</fr:tex> is an isomorphism. We can reify this to a definition.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -49,17 +49,17 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>974</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001R</fr:addr><fr:route>algm-001R.xml</fr:route><fr:title>Local object</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1075</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001R</fr:addr><fr:route>algm-001R.xml</fr:route><fr:title>Local object</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a class of arrows <fr:tex>S</fr:tex>, an <fr:tex>S</fr:tex>-<fr:strong>local object</fr:strong> is an object <fr:tex>X</fr:tex> such that for every <fr:tex>f : A  \to  B</fr:tex> in <fr:tex>S</fr:tex>, the composition map <fr:tex
-display="block">\hom (B, X)  \to   \hom (A, X)</fr:tex> is an isomorphism.
+  Given a class of arrows <fr:tex>S</fr:tex>, an <fr:tex>S</fr:tex>-<fr:strong>local object</fr:strong> is an object <fr:tex>X</fr:tex> such that for every <fr:tex>f : A \to B</fr:tex> in <fr:tex>S</fr:tex>, the composition map <fr:tex
+display="block">\hom(B, X) \to \hom(A, X)</fr:tex> is an isomorphism.
 </fr:p></fr:mainmatter></fr:tree><fr:p>
-  Now we just need to pick out the class of morphisms <fr:tex>S  \hookrightarrow   \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U)</fr:tex> using the Lawvere–Tierney operator <fr:tex>j</fr:tex>. Note that this operator does not necessarily live in a presheaf topos, so we must find a way to generalize this class of arrows to not necessarily representable presheaves. Since every presheaf is a colimit of representables, we can look at the corresponding colimit of morphisms <fr:tex>\operatorname *{colim}  S_i  \hookrightarrow   \operatorname *{colim}   \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U_i)</fr:tex>. A local object will satisfy
+  Now we just need to pick out the class of morphisms <fr:tex>S \hookrightarrow \mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U)</fr:tex> using the Lawvere–Tierney operator <fr:tex>j</fr:tex>. Note that this operator does not necessarily live in a presheaf topos, so we must find a way to generalize this class of arrows to not necessarily representable presheaves. Since every presheaf is a colimit of representables, we can look at the corresponding colimit of morphisms <fr:tex>\operatorname*{colim} S_i \hookrightarrow \operatorname*{colim} \mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U_i)</fr:tex>. A local object will satisfy
   <fr:tex
-display="block">\begin {aligned}      \hom ( \operatorname *{colim} \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U_i), X)  \cong   \lim \hom ( \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U_i), X)  \quad   \\       \xrightarrow { \sim }  \lim \hom (S_i, X)  \cong   \hom ( \operatorname *{colim}  S_i, X).    \end {aligned}</fr:tex>
-  Hence we can safely include these arrows into the class and still get the same concept of local objects. Now it's illuminating to look at the characteristic maps. A sieve <fr:tex>S  \to   \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U)</fr:tex> corresponds to a characteristic map in <fr:tex>\hom ( \mathop { \mkern {-2mu} \text {よ} \mkern {-2mu}} (U),  \Omega )  \cong   \Gamma (U,  \Omega )</fr:tex>. Generalizing to an arbitrary presheaf expressed (canonically) as a colimit of representables, we need the image of every section to be a covering sieve.
+display="block">\begin{aligned}     \hom(\operatorname*{colim}\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U_i), X) \cong \lim\hom(\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U_i), X) \quad \\     \xrightarrow{\sim} \lim\hom(S_i, X) \cong \hom(\operatorname*{colim} S_i, X).   \end{aligned}</fr:tex>
+  Hence we can safely include these arrows into the class and still get the same concept of local objects. Now it’s illuminating to look at the characteristic maps. A sieve <fr:tex>S \to \mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U)</fr:tex> corresponds to a characteristic map in <fr:tex>\hom(\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U), \Omega) \cong {\Gamma}(U, \Omega)</fr:tex>. Generalizing to an arbitrary presheaf expressed (canonically) as a colimit of representables, we need the image of every section to be a covering sieve.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -67,16 +67,16 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>976</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001Q</fr:addr><fr:route>algm-001Q.xml</fr:route><fr:title>Dense subobject of a Lawvere–Tierney operator</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1077</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001Q</fr:addr><fr:route>algm-001Q.xml</fr:route><fr:title>Dense subobject of a Lawvere–Tierney operator</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given a <fr:link
 href="algm-001L.xml"
 type="local"
-addr="algm-001L">Lawvere–Tierney operator</fr:link> <fr:tex>j</fr:tex>, a subobject <fr:tex>F  \hookrightarrow  G</fr:tex> is <fr:tex>j</fr:tex>-<fr:strong>dense</fr:strong> if <fr:tex>G  \to   \Omega   \xrightarrow {j}  \Omega</fr:tex> is the constant true. In terms of the corresponding <fr:tex>J  \hookrightarrow   \Omega</fr:tex>, we need the pullback of it with <fr:tex>G  \to   \Omega</fr:tex> to be <fr:tex>\textrm {id}  : G  \to  G</fr:tex>.
+addr="algm-001L">Lawvere–Tierney operator</fr:link> <fr:tex>j</fr:tex>, a subobject <fr:tex>F \hookrightarrow G</fr:tex> is <fr:tex>j</fr:tex>-<fr:strong>dense</fr:strong> if <fr:tex>G \to \Omega \xrightarrow{j} \Omega</fr:tex> is the constant true. In terms of the corresponding <fr:tex>J \hookrightarrow \Omega</fr:tex>, we need the pullback of it with <fr:tex>G \to \Omega</fr:tex> to be <fr:tex>{\textrm{id}} : G \to G</fr:tex>.
 </fr:p></fr:mainmatter></fr:tree><fr:p>
-  In terms of sieves, for every section <fr:tex>s  \in   \Gamma (U, G)</fr:tex>, the sieve of arrows on <fr:tex>U</fr:tex> along whom the restriction of <fr:tex>s</fr:tex> is in <fr:tex>F</fr:tex> must be a covering sieve. We have arrived at the desired reformulation of the sheaf condition.
+  In terms of sieves, for every section <fr:tex>s \in {\Gamma}(U, G)</fr:tex>, the sieve of arrows on <fr:tex>U</fr:tex> along whom the restriction of <fr:tex>s</fr:tex> is in <fr:tex>F</fr:tex> must be a covering sieve. We have arrived at the desired reformulation of the sheaf condition.
 </fr:p><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -84,7 +84,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>978</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001S</fr:addr><fr:route>algm-001S.xml</fr:route><fr:title>Sheaf of a Lawvere–Tierney operator</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1079</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001S</fr:addr><fr:route>algm-001S.xml</fr:route><fr:title>Sheaf of a Lawvere–Tierney operator</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -105,7 +105,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1003</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001S</fr:addr><fr:route>algm-001S.xml</fr:route><fr:title>Sheaf of a Lawvere–Tierney operator</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1104</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001S</fr:addr><fr:route>algm-001S.xml</fr:route><fr:title>Sheaf of a Lawvere–Tierney operator</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>

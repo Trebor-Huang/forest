@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1830</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001E</fr:addr><fr:route>hmlg-001E.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1931</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001E</fr:addr><fr:route>hmlg-001E.xml</fr:route><fr:title><fr:link
 href="hmlg-001C.xml"
 type="local"
 addr="hmlg-001C">Perturbation</fr:link> of the smaller chain complex in a <fr:link
@@ -17,7 +17,7 @@ addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a reduction <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex> and a perturbation <fr:tex>\delta _D</fr:tex> for <fr:tex>D</fr:tex>, we can construct a perturbation <fr:tex>\delta _C</fr:tex> for <fr:tex>C</fr:tex>, such that the same <fr:tex>\rho</fr:tex> can serve as a reduction of the perturbed chain complexes.
+  Given a reduction <fr:tex>\rho : C \Rightarrow\mkern{-14mu}\Rightarrow D</fr:tex> and a perturbation <fr:tex>\delta_D</fr:tex> for <fr:tex>D</fr:tex>, we can construct a perturbation <fr:tex>\delta_C</fr:tex> for <fr:tex>C</fr:tex>, such that the same <fr:tex>\rho</fr:tex> can serve as a reduction of the perturbed chain complexes.
 </fr:p>
   
     
@@ -28,15 +28,15 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1789</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1890</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001E</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Let the reduction <fr:tex>\rho</fr:tex> be made out of the three maps <fr:tex>\pi _{ \rho }  : C  \to  D</fr:tex>, <fr:tex>\iota _{ \rho }  : D  \to  C</fr:tex> and <fr:tex>h_{ \rho }  : C  \to  C</fr:tex>. Then since <fr:tex>C</fr:tex> splits as the direct sum of <fr:tex>D</fr:tex> and an <fr:link
+    Let the reduction <fr:tex>\rho</fr:tex> be made out of the three maps <fr:tex>{\pi_{\rho}} : C \to D</fr:tex>, <fr:tex>{\iota_{\rho}} : D \to C</fr:tex> and <fr:tex>{h_{\rho}} : C \to C</fr:tex>. Then since <fr:tex>C</fr:tex> splits as the direct sum of <fr:tex>D</fr:tex> and an <fr:link
 href="hmlg-000D.xml"
 type="local"
-addr="hmlg-000D">acyclic</fr:link> complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition <fr:tex>\delta _C =  \iota _{ \rho }   \circ   \delta _D  \circ   \pi _{ \rho }</fr:tex>. A quick computation shows that <fr:tex>\rho</fr:tex> is still a reduction of the perturbed chain complexes.
+addr="hmlg-000D">acyclic</fr:link> complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition <fr:tex>\delta_C = {\iota_{\rho}} \mathbin{\circ} \delta_D \mathbin{\circ} {\pi_{\rho}}</fr:tex>. A quick computation shows that <fr:tex>\rho</fr:tex> is still a reduction of the perturbed chain complexes.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -47,11 +47,11 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1824</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001C</fr:addr><fr:route>hmlg-001C.xml</fr:route><fr:title>Perturbation of chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1925</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001C</fr:addr><fr:route>hmlg-001C.xml</fr:route><fr:title>Perturbation of chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>perturbation</fr:strong> of a chain complex with boundary operator <fr:tex>d</fr:tex> is an operator <fr:tex>\delta</fr:tex> of degree <fr:tex>(-1)</fr:tex> such that <fr:tex>d +  \delta</fr:tex> also forms a boundary operator.
+  A <fr:strong>perturbation</fr:strong> of a chain complex with boundary operator <fr:tex>d</fr:tex> is an operator <fr:tex>\delta</fr:tex> of degree <fr:tex>(-1)</fr:tex> such that <fr:tex>d + \delta</fr:tex> also forms a boundary operator.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -59,17 +59,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1826</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0017</fr:addr><fr:route>hmlg-0017.xml</fr:route><fr:title>Chain reduction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1927</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0017</fr:addr><fr:route>hmlg-0017.xml</fr:route><fr:title>Chain reduction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given two chain complexes <fr:tex>C, D</fr:tex>, a <fr:strong>chain reduction</fr:strong> consists of a chain map <fr:tex>\pi  : C  \to  D</fr:tex>, a chain map <fr:tex>\iota  : D  \to  C</fr:tex> and a <fr:link
+  Given two chain complexes <fr:tex>C, D</fr:tex>, a <fr:strong>chain reduction</fr:strong> consists of a chain map <fr:tex>\pi : C \to D</fr:tex>, a chain map <fr:tex>\iota : D \to C</fr:tex> and a <fr:link
 href="hmlg-0016.xml"
 type="local"
-addr="hmlg-0016">chain homotopy</fr:link> <fr:tex>h :  \textrm {id}   \to  g  \circ  f</fr:tex>, such that <fr:tex>\pi   \circ   \iota  =  \textrm {id}</fr:tex>, and <fr:tex
-display="block">\pi   \circ  h = h  \circ   \iota  = h  \circ  h = 0.</fr:tex> Here the compositions are understood to have the appropriate subscript so the degrees match.
+addr="hmlg-0016">chain homotopy</fr:link> <fr:tex>h : {\textrm{id}} \to g \mathbin{\circ} f</fr:tex>, such that <fr:tex>\pi \mathbin{\circ} \iota = {\textrm{id}}</fr:tex>, and <fr:tex
+display="block">\pi \mathbin{\circ} h = h \mathbin{\circ} \iota = h \mathbin{\circ} h = 0.</fr:tex> Here the compositions are understood to have the appropriate subscript so the degrees match.
 </fr:p><fr:p>
-  We write the reduction as <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex>. The three components are denoted <fr:tex>\pi _{ \rho }  : C  \to  D</fr:tex>, <fr:tex>\iota _{ \rho }  : D  \to  C</fr:tex> and <fr:tex>h_{ \rho }  : C  \to  C</fr:tex>, respectively.
+  We write the reduction as <fr:tex>\rho : C \Rightarrow\mkern{-14mu}\Rightarrow D</fr:tex>. The three components are denoted <fr:tex>{\pi_{\rho}} : C \to D</fr:tex>, <fr:tex>{\iota_{\rho}} : D \to C</fr:tex> and <fr:tex>{h_{\rho}} : C \to C</fr:tex>, respectively.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -77,7 +77,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1828</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000D</fr:addr><fr:route>hmlg-000D.xml</fr:route><fr:title>Acyclic chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1929</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000D</fr:addr><fr:route>hmlg-000D.xml</fr:route><fr:title>Acyclic chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -89,7 +89,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1822</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001G</fr:addr><fr:route>hmlg-001G.xml</fr:route><fr:title><fr:link
+root="false"><fr:frontmatter><fr:anchor>1923</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001G</fr:addr><fr:route>hmlg-001G.xml</fr:route><fr:title><fr:link
 href="hmlg-001G.xml"
 type="local"
 addr="hmlg-001G">Perturbation</fr:link> of the larger chain complex in a <fr:link
@@ -99,8 +99,8 @@ addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a reduction <fr:tex>\rho  : C  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex> and a perturbation <fr:tex>\delta _C</fr:tex> for <fr:tex>C</fr:tex>, we assume that <fr:tex>h_{ \rho }   \circ   \delta _C</fr:tex> is pointwise nilpotent, i.e. <fr:tex
-display="block">\forall  c  \in  C_k,  \exists  n  \in   \mathbb {N},  \;  ( h_{ \rho } \delta _C)^n (c) = 0.</fr:tex> We can construct a new chain reduction <fr:tex>\rho ' : C'  \Rightarrow \mkern {-14mu} \Rightarrow  D'</fr:tex>, where <fr:tex>C'</fr:tex> is <fr:tex>C</fr:tex> perturbed by <fr:tex>\delta _C</fr:tex>.
+  Given a reduction <fr:tex>\rho : C \Rightarrow\mkern{-14mu}\Rightarrow D</fr:tex> and a perturbation <fr:tex>\delta_C</fr:tex> for <fr:tex>C</fr:tex>, we assume that <fr:tex>{h_{\rho}} \mathbin{\circ} \delta_C</fr:tex> is pointwise nilpotent, i.e. <fr:tex
+display="block">\forall c \in C_k, \exists n \in \mathbb{N}, \; ({h_{\rho}}\delta_C)^n (c) = 0.</fr:tex> We can construct a new chain reduction <fr:tex>\rho' : C' \Rightarrow\mkern{-14mu}\Rightarrow D'</fr:tex>, where <fr:tex>C'</fr:tex> is <fr:tex>C</fr:tex> perturbed by <fr:tex>\delta_C</fr:tex>.
 </fr:p><fr:p>
   Note that this situation is much harder compared to <fr:ref
 addr="hmlg-001E"
@@ -116,7 +116,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>846</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>947</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#258</fr:addr><fr:route>unstable-258.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001G</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -124,31 +124,31 @@ addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001G</fr:
     For this construction using the third equivalent definition of a chain reduction in <fr:ref
 addr="hmlg-001H"
 href="hmlg-001H.xml"
-taxon="Theorem"></fr:ref>, i.e. a homotopy operator on <fr:tex>C</fr:tex> such that <fr:tex>h  \circ  h = 0</fr:tex> and <fr:tex>h  \circ  d_C  \circ  h = h</fr:tex>.
+taxon="Theorem"></fr:ref>, i.e. a homotopy operator on <fr:tex>C</fr:tex> such that <fr:tex>h \mathbin{\circ} h = 0</fr:tex> and <fr:tex>h \mathbin{\circ} d_C \mathbin{\circ} h = h</fr:tex>.
   </fr:p>
 
   <fr:p>
-    We need to construct a new homotopy operator such that <fr:tex>h'  \circ  h' = 0</fr:tex> and <fr:tex>h'  \circ  (d_C +  \delta _C)  \circ  h' = h'</fr:tex>. We approach this through a “perturbative” mindset. Starting with <fr:tex>h_0 = h</fr:tex>, the second equation is off by a difference of <fr:tex>h_0  \delta _C h_0</fr:tex>. We simply add this as a correction term, <fr:tex>h_1 = h_0 +  \alpha  h_0  \delta _C h_0</fr:tex> where <fr:tex>\alpha</fr:tex> is some coefficient. (Note that essentially the only terms we can consider are of the form <fr:tex>h_0  \delta _C h_0  \delta _C  \cdots  h_0</fr:tex>, since nothing else has the same type.) We still have <fr:tex>h_1  \circ  h_1 = 0</fr:tex>, and for the second equation this creates a new error term
+    We need to construct a new homotopy operator such that <fr:tex>h' \mathbin{\circ} h' = 0</fr:tex> and <fr:tex>h' \mathbin{\circ} (d_C + \delta_C) \mathbin{\circ} h' = h'</fr:tex>. We approach this through a “perturbative” mindset. Starting with <fr:tex>h_0 = h</fr:tex>, the second equation is off by a difference of <fr:tex>h_0 \delta_C h_0</fr:tex>. We simply add this as a correction term, <fr:tex>h_1 = h_0 + \alpha h_0 \delta_C h_0</fr:tex> where <fr:tex>\alpha</fr:tex> is some coefficient. (Note that essentially the only terms we can consider are of the form <fr:tex>h_0 \delta_C h_0 \delta_C \cdots h_0</fr:tex>, since nothing else has the same type.) We still have <fr:tex>h_1 \mathbin{\circ} h_1 = 0</fr:tex>, and for the second equation this creates a new error term
     <fr:tex
-display="block">\begin {aligned}       &amp; \quad  h_1 (d_C +  \delta _C) h_1 - h_1  \\        &amp;= (1 +  \alpha ) h_0  \delta _C h_0 + 2 ( \alpha  +  \alpha ^2) h_0  \delta _C h_0  \delta _C h_0 +  \alpha ^2 h_0  \delta _C h_0  \delta _C h_0  \delta _C h_0      \end {aligned}</fr:tex>
-    and we can eliminate the first and second order part by setting <fr:tex>\alpha  = -1</fr:tex>. The natural next step would be to add a further correction <fr:tex>h_2 = h_1 +  \beta  h_0  \delta _C h_0  \delta _C h_0</fr:tex>. This turns out to require <fr:tex>\beta  = +1</fr:tex>, and so on.
+display="block">\begin{aligned}       &amp;\quad h_1 (d_C + \delta_C) h_1 - h_1 \\       &amp;= (1 + \alpha) h_0 \delta_C h_0 + 2 (\alpha + \alpha^2) h_0 \delta_C h_0 \delta_C h_0 + \alpha^2 h_0 \delta_C h_0 \delta_C h_0 \delta_C h_0     \end{aligned}</fr:tex>
+    and we can eliminate the first and second order part by setting <fr:tex>\alpha = -1</fr:tex>. The natural next step would be to add a further correction <fr:tex>h_2 = h_1 + \beta h_0 \delta_C h_0 \delta_C h_0</fr:tex>. This turns out to require <fr:tex>\beta = +1</fr:tex>, and so on.
   </fr:p>
 
   <fr:p>
     From the informal discussion above, we can conjecture the formula
     <fr:tex
-display="block">h' =  \sum _{k=0}^ \infty  (-1)^k (h  \delta _C)^k h.</fr:tex>
-    This reveals the reason for our pointwise nilpotency condition. With a little bit of care manipulating the infinite sum, we can prove that <fr:tex>h'  \circ  h' = 0</fr:tex> from <fr:tex>h  \circ  h = 0</fr:tex>, and the second equation follows from a nice telescopic sum
+display="block">h' = \sum_{k=0}^\infty (-1)^k (h \delta_C)^k h.</fr:tex>
+    This reveals the reason for our pointwise nilpotency condition. With a little bit of care manipulating the infinite sum, we can prove that <fr:tex>h' \mathbin{\circ} h' = 0</fr:tex> from <fr:tex>h \mathbin{\circ} h = 0</fr:tex>, and the second equation follows from a nice telescopic sum
     <fr:tex
-display="block">\begin {aligned}       h'  \circ  (d_C +  \delta _C)  \circ  h'       &amp;=  \sum _{i, j} (-1)^{i + j} (h  \delta _C)^i h (d_C +  \delta _C) (h  \delta _C)^j h  \\        &amp;=  \sum _{i, j} (-1)^{i + j}  \left [(h  \delta _C)^{i + j + 1} h + (h  \delta _C)^{i + j} h \right ]  \\        &amp;=  \sum _{k} (k+1) (-1)^k  \left [(h  \delta _C)^{k + 1} h + (h  \delta _C)^k h \right ]  \\        &amp;=  \sum _k (-1)^k (h  \delta _C)^k h = h'.      \end {aligned}</fr:tex></fr:p>
+display="block">\begin{aligned}       h' \mathbin{\circ} (d_C + \delta_C) \mathbin{\circ} h'       &amp;= \sum_{i, j} (-1)^{i + j} (h \delta_C)^i h (d_C + \delta_C) (h \delta_C)^j h \\       &amp;= \sum_{i, j} (-1)^{i + j} \left[(h \delta_C)^{i + j + 1} h + (h \delta_C)^{i + j} h\right] \\       &amp;= \sum_{k} (k+1) (-1)^k \left[(h \delta_C)^{k + 1} h + (h \delta_C)^k h\right] \\       &amp;= \sum_k (-1)^k (h \delta_C)^k h = h'.     \end{aligned}</fr:tex></fr:p>
 
   <fr:p>
-    We can reconstruct the other two components of the reduction <fr:tex>\iota _{ \rho ' }</fr:tex> and <fr:tex>\pi _{ \rho ' }</fr:tex> through <fr:ref
+    We can reconstruct the other two components of the reduction <fr:tex>{\iota_{\rho'}}</fr:tex> and <fr:tex>{\pi_{\rho'}}</fr:tex> through <fr:ref
 addr="hmlg-001H"
 href="hmlg-001H.xml"
 taxon="Theorem"></fr:ref>. In particular, <fr:tex>D'</fr:tex> is given by a perturbation of <fr:tex>D</fr:tex>. We only write down the results below for easy reference.
     <fr:tex
-display="block">\begin {aligned}      \pi _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }  ( \delta _C  h_{ \rho } )^k  \\       \iota _{ \rho ' }  &amp;=  \sum _{k=0}^ \infty  (-1)^k ( h_{ \rho }   \delta _C)^k  \iota _{ \rho }   \\       \delta _D &amp;=  \sum _{k=0}^ \infty  (-1)^k  \pi _{ \rho }   \delta _C ( h_{ \rho }   \delta _C)^k  \iota _{ \rho } .      \end {aligned}</fr:tex></fr:p>
+display="block">\begin{aligned}     {\pi_{\rho'}} &amp;= \sum_{k=0}^\infty (-1)^k {\pi_{\rho}} (\delta_C {h_{\rho}})^k \\     {\iota_{\rho'}} &amp;= \sum_{k=0}^\infty (-1)^k ({h_{\rho}} \delta_C)^k {\iota_{\rho}} \\     \delta_D &amp;= \sum_{k=0}^\infty (-1)^k {\pi_{\rho}} \delta_C ({h_{\rho}} \delta_C)^k {\iota_{\rho}}.     \end{aligned}</fr:tex></fr:p>
 </fr:mainmatter></fr:tree>
   
 </fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

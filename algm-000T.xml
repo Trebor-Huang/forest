@@ -7,13 +7,13 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1447</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000T</fr:addr><fr:route>algm-000T.xml</fr:route><fr:title>Subsheaf of units</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1548</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000T</fr:addr><fr:route>algm-000T.xml</fr:route><fr:title>Subsheaf of units</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a sheaf <fr:tex>\mathscr { O }</fr:tex> of rings, we can define a subsheaf <fr:tex>\mathscr { O } ^ \times</fr:tex> consisting of the invertible elements, i.e. <fr:tex>\Gamma (U,  \mathscr { O } ^ \times ) =  \Gamma (U,  \mathscr { O } )^ \times</fr:tex>. This is the <fr:strong>subsheaf of units</fr:strong>.
+  Given a sheaf <fr:tex>{\mathscr{O}}</fr:tex> of rings, we can define a subsheaf <fr:tex>{\mathscr{O}}^\times</fr:tex> consisting of the invertible elements, i.e. <fr:tex>{\Gamma}(U, {\mathscr{O}}^\times) = {\Gamma}(U, {\mathscr{O}})^\times</fr:tex>. This is the <fr:strong>subsheaf of units</fr:strong>.
 </fr:p><fr:p>
-  This can be equivalently expressed as a pullback of <fr:tex>\mathscr { O }   \times   \mathscr { O }   \xrightarrow {(f,g)  \mapsto  f g}  \mathscr { O }</fr:tex> and <fr:tex>1  \xrightarrow {1}  \mathscr { O }</fr:tex>.
+  This can be equivalently expressed as a pullback of <fr:tex>{\mathscr{O}} \times {\mathscr{O}} \xrightarrow{(f,g) \mapsto f g} {\mathscr{O}}</fr:tex> and <fr:tex>1 \xrightarrow{1} {\mathscr{O}}</fr:tex>.
 </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -21,7 +21,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1445</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000U</fr:addr><fr:route>algm-000U.xml</fr:route><fr:title>Morphism of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1546</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000U</fr:addr><fr:route>algm-000U.xml</fr:route><fr:title>Morphism of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -31,25 +31,25 @@ type="local"
 addr="algm-000L">locally ringed spaces</fr:link>, a <fr:link
 href="algm-000S.xml"
 type="local"
-addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi</fr:tex> between them is <fr:strong>local</fr:strong> when sections of <fr:tex>\varphi ^{-1} \mathscr { O } _Y</fr:tex> are invertible iff their images in <fr:tex>\mathscr { O } _X</fr:tex> are invertible, i.e. the following diagram is a pullback:
+addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi</fr:tex> between them is <fr:strong>local</fr:strong> when sections of <fr:tex>\varphi^{-1}{\mathscr{O}}_Y</fr:tex> are invertible iff their images in <fr:tex>{\mathscr{O}}_X</fr:tex> are invertible, i.e. the following diagram is a pullback:
 
   
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="77652e716833610307a6936f0ba2a109"><fr:embedded-tex-preamble>
+hash="198899d151858ff4911e2572bf2e6342"><fr:embedded-tex-preamble>
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
     </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzcd} 
-    { \varphi ^{-1} \mathscr { O } _Y^ \times } &amp; { \mathscr { O } _X^ \times }  \\ 
-    { \varphi ^{-1} \mathscr { O } _Y} &amp; { \mathscr { O } _X}
-     \arrow [hook, from=1-1, to=2-1]
-     \arrow [hook, from=1-2, to=2-2]
-     \arrow [from=1-1, to=1-2]
-     \arrow [from=2-1, to=2-2]
-     \arrow [" \lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
-   \end {tikzcd}
+      \begin{tikzcd}
+    {\varphi^{-1}{\mathscr{O}}_Y^\times} &amp; {{\mathscr{O}}_X^\times} \\
+    {\varphi^{-1}{\mathscr{O}}_Y} &amp; {{\mathscr{O}}_X}
+    \arrow[hook, from=1-1, to=2-1]
+    \arrow[hook, from=1-2, to=2-2]
+    \arrow[from=1-1, to=1-2]
+    \arrow[from=2-1, to=2-2]
+    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+  \end{tikzcd}
     </fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
@@ -57,5 +57,5 @@ hash="77652e716833610307a6936f0ba2a109"><fr:embedded-tex-preamble>
   Note that the <fr:link
 href="algm-000T.xml"
 type="local"
-addr="algm-000T">subsheaf of units</fr:link> is given by a finite limit, hence <fr:tex>\varphi ^{-1}</fr:tex> preserves it. Since the lower map map <fr:tex>\varphi ^{-1}  \mathscr { O } _Y  \to   \mathscr { O } _X</fr:tex> is a ring homomorphism on the sections, it maps units to units. Hence restriction to the upper map makes sense.
+addr="algm-000T">subsheaf of units</fr:link> is given by a finite limit, hence <fr:tex>\varphi^{-1}</fr:tex> preserves it. Since the lower map map <fr:tex>\varphi^{-1} {\mathscr{O}}_Y \to {\mathscr{O}}_X</fr:tex> is a ring homomorphism on the sections, it maps units to units. Hence restriction to the upper map makes sense.
 </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

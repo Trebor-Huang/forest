@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1771</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1872</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -38,11 +38,11 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1767</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-0021</fr:addr><fr:route>hmlg-0021.xml</fr:route><fr:title>W-bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1868</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-0021</fr:addr><fr:route>hmlg-0021.xml</fr:route><fr:title>W-bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a simplicial group, we can define a model of its universal principal bundle <fr:tex>\mathbf {E}  G  \to   \mathbf {B}  G</fr:tex> as simplicial sets <fr:tex>W  G  \to   \bar {W}  G</fr:tex>. This is a generalization of the <fr:link
+  Given a simplicial group, we can define a model of its universal principal bundle <fr:tex>{\mathbf{E}} G \to {\mathbf{B}} G</fr:tex> as simplicial sets <fr:tex>{W} G \to {\bar{W}} G</fr:tex>. This is a generalization of the <fr:link
 href="hmlg-001W.xml"
 type="local"
 addr="hmlg-001W">bar construction</fr:link>, if we consider a group <fr:tex>G</fr:tex> as a discrete simplicial set. It classifies principal <fr:tex>G</fr:tex>-bundles in the sense of Theorem 21.13 in <fr:link
@@ -50,19 +50,19 @@ href="simplicial-objects.xml"
 type="local"
 addr="simplicial-objects">Simplicial objects in algebraic topology</fr:link>.
 </fr:p><fr:p>
-  We define the <fr:tex>n</fr:tex>-simplices of <fr:tex>W  G</fr:tex> to be
+  We define the <fr:tex>n</fr:tex>-simplices of <fr:tex>{W} G</fr:tex> to be
   <fr:tex
-display="block">( W  G)_n = G_0  \times  G_1  \times   \cdots   \times  G_n</fr:tex>
-  so that <fr:tex>G_n</fr:tex> acts on <fr:tex>( W  G)_n</fr:tex> by taking the face map that discards the last <fr:tex>k</fr:tex> vertices for each <fr:tex>k</fr:tex>, and then acting on the appropriate factor on the right. This forces the face maps and degeneracy maps to be
+display="block">({W} G)_n = G_0 \times G_1 \times \cdots \times G_n</fr:tex>
+  so that <fr:tex>G_n</fr:tex> acts on <fr:tex>({W} G)_n</fr:tex> by taking the face map that discards the last <fr:tex>k</fr:tex> vertices for each <fr:tex>k</fr:tex>, and then acting on the appropriate factor on the right. This forces the face maps and degeneracy maps to be
   <fr:tex
-display="block">\begin {aligned}      \partial _k (g_0,  \dots , g_n) &amp;=       (g_0,  \dots , g_{k-1},  \partial _k g_{k+1},  \dots ,  \partial _k g_n),  \\       \sigma _k (g_0,  \dots , g_n) &amp;=       (g_0,  \dots , g_{k},  \sigma _k g_{k},  \dots ,  \sigma _k g_n).    \end {aligned}</fr:tex>
-  We define <fr:tex>\bar {W}  G</fr:tex> to be <fr:tex>W  G</fr:tex> quotiented by the action of <fr:tex>G</fr:tex>. This can be represented as <fr:tex>( \bar {W}  G)_n = G_0  \times   \cdots   \times  G_{n-1}</fr:tex>,
-  with the quotient map <fr:tex>( W  G)_n  \twoheadrightarrow  ( \bar {W}  G)_n</fr:tex> given by
+display="block">\begin{aligned}     \partial_k (g_0, \dots, g_n) &amp;=       (g_0, \dots, g_{k-1}, \partial_k g_{k+1}, \dots, \partial_k g_n), \\     \sigma_k (g_0, \dots, g_n) &amp;=       (g_0, \dots, g_{k}, \sigma_k g_{k}, \dots, \sigma_k g_n).   \end{aligned}</fr:tex>
+  We define <fr:tex>{\bar{W}} G</fr:tex> to be <fr:tex>{W} G</fr:tex> quotiented by the action of <fr:tex>G</fr:tex>. This can be represented as <fr:tex>({\bar{W}} G)_n = G_0 \times \cdots \times G_{n-1}</fr:tex>,
+  with the quotient map <fr:tex>({W} G)_n \twoheadrightarrow ({\bar{W}} G)_n</fr:tex> given by
   <fr:tex
-display="block">(g_0,  \dots , g_n)  \mapsto  (g_0 ( \partial _1 g_1)^{-1},  \dots , g_{n-1} ( \partial _n g_n)^{-1}).</fr:tex>
+display="block">(g_0, \dots, g_n) \mapsto (g_0 (\partial_1 g_1)^{-1}, \dots, g_{n-1} (\partial_n g_n)^{-1}).</fr:tex>
   The face and degeneracy maps can then be computed to be
   <fr:tex
-display="block">\begin {aligned}      \partial _k (g_0,  \dots , g_{n-1}) &amp;=       (g_0, g_1,  \dots , g_{k-1}  \cdot   \partial _k g_k,  \partial _k g_{k+1},  \dots ,  \partial _k g_{n-1}),  \\       \partial _n (g_0,  \dots , g_{n-1}) &amp;=       (g_0, g_1,  \dots , g_{n-2})  \\       \sigma _k (g_0,  \dots , g_{n-1}) &amp;=       (g_0, g_1,  \dots , g_{k-1}, 1,  \sigma _k g_{k},  \dots ,  \sigma _k g_{n-1}).    \end {aligned}</fr:tex>
+display="block">\begin{aligned}     \partial_k (g_0, \dots, g_{n-1}) &amp;=       (g_0, g_1, \dots, g_{k-1} \cdot \partial_k g_k, \partial_k g_{k+1}, \dots, \partial_k g_{n-1}), \\     \partial_n (g_0, \dots, g_{n-1}) &amp;=       (g_0, g_1, \dots, g_{n-2}) \\     \sigma_k (g_0, \dots, g_{n-1}) &amp;=       (g_0, g_1, \dots, g_{k-1}, 1, \sigma_k g_{k}, \dots, \sigma_k g_{n-1}).   \end{aligned}</fr:tex>
   A quick computation shows that this indeed produces a <fr:link
 href="hmlg-0028.xml"
 type="local"
@@ -74,11 +74,11 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1769</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001I</fr:addr><fr:route>hmlg-001I.xml</fr:route><fr:title>Strong homology equivalence</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1870</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001I</fr:addr><fr:route>hmlg-001I.xml</fr:route><fr:title>Strong homology equivalence</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>strong homology equivalence</fr:strong> between chain complexes <fr:tex>C</fr:tex> and <fr:tex>D</fr:tex> is a span of chain reductions, i.e. a third chain complex <fr:tex>X</fr:tex> with <fr:tex>X  \Rightarrow \mkern {-14mu} \Rightarrow  C</fr:tex> and <fr:tex>X  \Rightarrow \mkern {-14mu} \Rightarrow  D</fr:tex>. We denote a strong homology equivalence with <fr:tex>C  \Leftarrow   \mkern {-13mu}  \Leftrightarrow   \mkern {-13mu}  \Rightarrow  D</fr:tex>.
+  A <fr:strong>strong homology equivalence</fr:strong> between chain complexes <fr:tex>C</fr:tex> and <fr:tex>D</fr:tex> is a span of chain reductions, i.e. a third chain complex <fr:tex>X</fr:tex> with <fr:tex>X \Rightarrow\mkern{-14mu}\Rightarrow C</fr:tex> and <fr:tex>X \Rightarrow\mkern{-14mu}\Rightarrow D</fr:tex>. We denote a strong homology equivalence with <fr:tex>C \mathbin{\Leftarrow \mkern{-13mu} \Leftrightarrow \mkern{-13mu} \Rightarrow} D</fr:tex>.
 </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -86,7 +86,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="true"><fr:frontmatter><fr:anchor>1765</fr:anchor><fr:addr>trebor-0001</fr:addr><fr:route>index.xml</fr:route><fr:title>Trebor’s forest</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="true"><fr:frontmatter><fr:anchor>1866</fr:anchor><fr:addr>trebor-0001</fr:addr><fr:route>index.xml</fr:route><fr:title>Trebor’s forest</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -114,7 +114,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>608</fr:anchor><fr:addr>trebor-0002</fr:addr><fr:route>trebor-0002.xml</fr:route><fr:title>Style of writing</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>709</fr:anchor><fr:addr>trebor-0002</fr:addr><fr:route>trebor-0002.xml</fr:route><fr:title>Style of writing</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -123,7 +123,7 @@ addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:main
     If a part of a proof has an easy constructive phrasing, use it and avoid classical reasoning. But if it requires some complication, then the classical way is used.
   </fr:li>
   <fr:li>
-    Avoid abstraction leaks. Even if A is defined as B, do not use them interchangeably. For instance, an ideal is defined as a subset of a ring satisfying certain conditions. But we will insist on writing ideals as numbers, for example saying <fr:tex>\mathfrak { a }   \mid  x</fr:tex> instead of <fr:tex>x  \in   \mathfrak { a }</fr:tex>. This is not too heretic, since algebraic number theory already uses this kind of notation. Similarly, although prime ideals correspond to points in <fr:tex>\operatorname {Spec} (A)</fr:tex>, we do not identify them.
+    Avoid abstraction leaks. Even if A is defined as B, do not use them interchangeably. For instance, an ideal is defined as a subset of a ring satisfying certain conditions. But we will insist on writing ideals as numbers, for example saying <fr:tex>\mathfrak{a} \mid x</fr:tex> instead of <fr:tex>x \in \mathfrak{a}</fr:tex>. This is not too heretic, since algebraic number theory already uses this kind of notation. Similarly, although prime ideals correspond to points in <fr:tex>\operatorname{Spec}(A)</fr:tex>, we do not identify them.
   </fr:li>
   <fr:li>
     Apply <fr:link
@@ -138,7 +138,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1759</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>constructive-homological-algebra</fr:addr><fr:route>constructive-homological-algebra.xml</fr:route><fr:title>Constructive Homological Algebra and Applications</fr:title><fr:date><fr:year>2013</fr:year><fr:month>8</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author>Julio Rubio García and Francis Sergeraert</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1860</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>constructive-homological-algebra</fr:addr><fr:route>constructive-homological-algebra.xml</fr:route><fr:title>Constructive Homological Algebra and Applications</fr:title><fr:date><fr:year>2013</fr:year><fr:month>8</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author>Julio Rubio García and Francis Sergeraert</fr:author></fr:authors><fr:meta
 name="doi">10.48550/arXiv.1208.3816</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
   This text was written and used for a MAP Summer School at the University of Genova, August 28 to September 2, 2006. Available since then on the web site of the second author, it has been used and referenced by several colleagues working in Commutative Algebra and Algebraic Topology. To make safer such references, it was suggested to place it on the Arxiv repository. It is a relatively detailed exposition of the use of the <fr:link
 href="hmlg-001G.xml"
@@ -151,7 +151,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1761</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>discrete-vector-fields</fr:addr><fr:route>discrete-vector-fields.xml</fr:route><fr:title>Discrete Vector Fields and Fundamental Algebraic Topology</fr:title><fr:date><fr:year>2010</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:authors><fr:author>Ana Romero and Francis Sergeraert</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1862</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>discrete-vector-fields</fr:addr><fr:route>discrete-vector-fields.xml</fr:route><fr:title>Discrete Vector Fields and Fundamental Algebraic Topology</fr:title><fr:date><fr:year>2010</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:authors><fr:author>Ana Romero and Francis Sergeraert</fr:author></fr:authors><fr:meta
 name="doi">10.48550/arXiv.1005.5685</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
   We show in this text how the most important homology equivalences of fundamental Algebraic Topology can be obtained as <fr:link
 href="hmlg-0017.xml"
@@ -170,7 +170,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1763</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>simplicial-objects</fr:addr><fr:route>simplicial-objects.xml</fr:route><fr:title>Simplicial objects in algebraic topology</fr:title><fr:date><fr:year>1967</fr:year></fr:date><fr:authors><fr:author>Jon Peter May</fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+root="false"><fr:frontmatter><fr:anchor>1864</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>simplicial-objects</fr:addr><fr:route>simplicial-objects.xml</fr:route><fr:title>Simplicial objects in algebraic topology</fr:title><fr:date><fr:year>1967</fr:year></fr:date><fr:authors><fr:author>Jon Peter May</fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   A copy of the book can be found at <fr:link
 href="https://ncatlab.org/nlab/files/May_SimplicialObjectsInAlgebraicTopology.pdf"
 type="external">https://ncatlab.org/nlab/files/May_SimplicialObjectsInAlgebraicTopology.pdf</fr:link>.

@@ -7,22 +7,22 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>360</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-002C</fr:addr><fr:route>hmlg-002C.xml</fr:route><fr:title>Associated simplicial fiber bundle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>461</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-002C</fr:addr><fr:route>hmlg-002C.xml</fr:route><fr:title>Associated simplicial fiber bundle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given a <fr:link
 href="hmlg-0028.xml"
 type="local"
-addr="hmlg-0028">simplicial principal fiber bundle</fr:link> <fr:tex>p : E  \to  B</fr:tex> with simplicial group <fr:tex>G</fr:tex>, and a simplicial set <fr:tex>F</fr:tex> with a group action <fr:tex>G  \times  F  \to  F</fr:tex>, we can construct a fiber bundle with fiber <fr:tex>F</fr:tex>, such that the twisting behaviour is described by the <fr:link
+addr="hmlg-0028">simplicial principal fiber bundle</fr:link> <fr:tex>p : E \to B</fr:tex> with simplicial group <fr:tex>G</fr:tex>, and a simplicial set <fr:tex>F</fr:tex> with a group action <fr:tex>G \times F \to F</fr:tex>, we can construct a fiber bundle with fiber <fr:tex>F</fr:tex>, such that the twisting behaviour is described by the <fr:link
 href="hmlg-0028.xml"
 type="local"
 addr="hmlg-0028">principal bundle</fr:link> <fr:tex>p</fr:tex>.
 </fr:p><fr:p>
-  We consider a group action on <fr:tex>E  \times  F</fr:tex>, by <fr:tex>g  \cdot  (e, f) = (e  \cdot  g^{-1}, g  \cdot  f)</fr:tex>. This action is clearly free. Suppose the quotient simplicial set is <fr:tex>E'</fr:tex>, then we have a <fr:link
+  We consider a group action on <fr:tex>E \times F</fr:tex>, by <fr:tex>g \cdot (e, f) = (e \cdot g^{-1}, g \cdot f)</fr:tex>. This action is clearly free. Suppose the quotient simplicial set is <fr:tex>E'</fr:tex>, then we have a <fr:link
 href="hmlg-0026.xml"
 type="local"
-addr="hmlg-0026">simplicial fiber bundle</fr:link> <fr:tex>p' : E'  \to  B</fr:tex> induced from <fr:tex>p</fr:tex>. There is a <fr:tex>G</fr:tex>-action on the fibers, by acting on the <fr:tex>F</fr:tex> factor.
+addr="hmlg-0026">simplicial fiber bundle</fr:link> <fr:tex>p' : E' \to B</fr:tex> induced from <fr:tex>p</fr:tex>. There is a <fr:tex>G</fr:tex>-action on the fibers, by acting on the <fr:tex>F</fr:tex> factor.
 </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -30,11 +30,11 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>356</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0026</fr:addr><fr:route>hmlg-0026.xml</fr:route><fr:title>Simplicial fiber bundle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>457</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0026</fr:addr><fr:route>hmlg-0026.xml</fr:route><fr:title>Simplicial fiber bundle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A (strict) <fr:strong>simplicial fiber bundle</fr:strong> <fr:tex>p : E  \to  B</fr:tex> with fiber <fr:tex>F</fr:tex> is a simplicial map <fr:tex>p</fr:tex> such that for every simplex <fr:tex>\Delta ^n  \to  B</fr:tex>, the pullback of <fr:tex>p</fr:tex> along the simplex is isomorphic to <fr:tex>\Delta ^n  \times  F  \to   \Delta ^n</fr:tex>.
+  A (strict) <fr:strong>simplicial fiber bundle</fr:strong> <fr:tex>p : E \to B</fr:tex> with fiber <fr:tex>F</fr:tex> is a simplicial map <fr:tex>p</fr:tex> such that for every simplex <fr:tex>\Delta^n \to B</fr:tex>, the pullback of <fr:tex>p</fr:tex> along the simplex is isomorphic to <fr:tex>\Delta^n \times F \to \Delta^n</fr:tex>.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -42,14 +42,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>358</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0028</fr:addr><fr:route>hmlg-0028.xml</fr:route><fr:title>Simplicial principal fiber bundle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>459</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0028</fr:addr><fr:route>hmlg-0028.xml</fr:route><fr:title>Simplicial principal fiber bundle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given a simplicial group <fr:tex>G</fr:tex>, a <fr:link
 href="hmlg-0026.xml"
 type="local"
-addr="hmlg-0026">fiber bundle</fr:link> <fr:tex>p : E  \to  B</fr:tex> is <fr:strong>principal</fr:strong> if <fr:tex>G</fr:tex> acts on the fibers freely and transitively <fr:em>on the right</fr:em>. This condition can be checked in each dimension separately.
+addr="hmlg-0026">fiber bundle</fr:link> <fr:tex>p : E \to B</fr:tex> is <fr:strong>principal</fr:strong> if <fr:tex>G</fr:tex> acts on the fibers freely and transitively <fr:em>on the right</fr:em>. This condition can be checked in each dimension separately.
 </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -57,7 +57,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>354</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-002D</fr:addr><fr:route>hmlg-002D.xml</fr:route><fr:title>Associated twisted product</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>455</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-002D</fr:addr><fr:route>hmlg-002D.xml</fr:route><fr:title>Associated twisted product</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -67,10 +67,10 @@ type="local"
 addr="hmlg-002C">associated simplicial fiber bundle</fr:link> of <fr:link
 href="hmlg-002B.xml"
 type="local"
-addr="hmlg-002B">twisted products</fr:link> admits a simpler description. Suppose we have simplicial sets <fr:tex>F, B</fr:tex>, a simplicial group <fr:tex>G</fr:tex> with an action <fr:tex>G  \times  F  \to  F</fr:tex> and a <fr:link
+addr="hmlg-002B">twisted products</fr:link> admits a simpler description. Suppose we have simplicial sets <fr:tex>F, B</fr:tex>, a simplicial group <fr:tex>G</fr:tex> with an action <fr:tex>G \times F \to F</fr:tex> and a <fr:link
 href="hmlg-002A.xml"
 type="local"
-addr="hmlg-002A">twisting function</fr:link> <fr:tex>\tau</fr:tex> on <fr:tex>B</fr:tex>. The <fr:strong>associated twisted product</fr:strong> <fr:tex>B  \times _ \tau  F</fr:tex> is defined exactly the same as twisted products, except we replace the factor <fr:tex>G</fr:tex> with <fr:tex>F</fr:tex>. This still makes sense, because we can interpret the multiplication <fr:tex>\tau (b)  \cdot   \partial _n f</fr:tex> as the <fr:tex>G</fr:tex>-action.
+addr="hmlg-002A">twisting function</fr:link> <fr:tex>\tau</fr:tex> on <fr:tex>B</fr:tex>. The <fr:strong>associated twisted product</fr:strong> <fr:tex>B \times_\tau F</fr:tex> is defined exactly the same as twisted products, except we replace the factor <fr:tex>G</fr:tex> with <fr:tex>F</fr:tex>. This still makes sense, because we can interpret the multiplication <fr:tex>\tau(b) \cdot \partial_n f</fr:tex> as the <fr:tex>G</fr:tex>-action.
 </fr:p><fr:p>
-  In particular, if we consider <fr:tex>G</fr:tex> as a simplicial set with a <fr:tex>G</fr:tex>-action on the left via multiplication, then the associated twisted product <fr:tex>B  \times _ \tau  G</fr:tex> is exactly the same as the twisted product <fr:tex>B  \times _ \tau  G</fr:tex>, which explains our identical notation.
+  In particular, if we consider <fr:tex>G</fr:tex> as a simplicial set with a <fr:tex>G</fr:tex>-action on the left via multiplication, then the associated twisted product <fr:tex>B \times_\tau G</fr:tex> is exactly the same as the twisted product <fr:tex>B \times_\tau G</fr:tex>, which explains our identical notation.
 </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

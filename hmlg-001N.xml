@@ -7,17 +7,17 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>946</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001N</fr:addr><fr:route>hmlg-001N.xml</fr:route><fr:title>Discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1047</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001N</fr:addr><fr:route>hmlg-001N.xml</fr:route><fr:title>Discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   A <fr:strong>discrete vector field</fr:strong> (DVF) of degree <fr:tex>p</fr:tex> on an <fr:link
 href="hmlg-0013.xml"
 type="local"
-addr="hmlg-0013">algebraic cellular complex</fr:link> is given by a collection of pairs of cells <fr:tex>( \sigma ,  \tau )</fr:tex>, where <fr:tex>\sigma</fr:tex> is a <fr:link
+addr="hmlg-0013">algebraic cellular complex</fr:link> is given by a collection of pairs of cells <fr:tex>(\sigma, \tau)</fr:tex>, where <fr:tex>\sigma</fr:tex> is a <fr:link
 href="hmlg-001O.xml"
 type="local"
-addr="hmlg-001O">regular face</fr:link> of the degree <fr:tex>p</fr:tex> cell <fr:tex>\tau</fr:tex>, standing for a vector pointing from <fr:tex>\sigma</fr:tex> to <fr:tex>\tau</fr:tex>, which we will write as <fr:tex>\overrightharpoon { \sigma   \tau }</fr:tex>. We require that every cell appears at most once in these vectors.
+addr="hmlg-001O">regular face</fr:link> of the degree <fr:tex>p</fr:tex> cell <fr:tex>\tau</fr:tex>, standing for a vector pointing from <fr:tex>\sigma</fr:tex> to <fr:tex>\tau</fr:tex>, which we will write as <fr:tex>\overrightharpoon{\sigma \tau}</fr:tex>. We require that every cell appears at most once in these vectors.
 </fr:p><fr:p>
   A DVF naturally partitions the cells into three kinds: the <fr:em>sources</fr:em>, the <fr:em>targets</fr:em>, and the rest of the cells are called <fr:em>critical cells</fr:em>. This name comes from the analogy to Morse theory. Indeed there is a notion of <fr:link
 href="https://en.wikipedia.org/wiki/Discrete_Morse_theory"
@@ -29,14 +29,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>942</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001O</fr:addr><fr:route>hmlg-001O.xml</fr:route><fr:title>Regular face in an algebraic cellular complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1043</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001O</fr:addr><fr:route>hmlg-001O.xml</fr:route><fr:title>Regular face in an algebraic cellular complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   Given an <fr:link
 href="hmlg-0013.xml"
 type="local"
-addr="hmlg-0013">algebraic cellular complex</fr:link> and a cell <fr:tex>\sigma</fr:tex>, a <fr:strong>regular face</fr:strong> of <fr:tex>\sigma</fr:tex> is a cell whose coefficient in <fr:tex>d \sigma</fr:tex> is <fr:tex>\pm  1</fr:tex>.
+addr="hmlg-0013">algebraic cellular complex</fr:link> and a cell <fr:tex>\sigma</fr:tex>, a <fr:strong>regular face</fr:strong> of <fr:tex>\sigma</fr:tex> is a cell whose coefficient in <fr:tex>d\sigma</fr:tex> is <fr:tex>\pm 1</fr:tex>.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -44,7 +44,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>944</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0013</fr:addr><fr:route>hmlg-0013.xml</fr:route><fr:title>Algebraic cellular complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1045</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0013</fr:addr><fr:route>hmlg-0013.xml</fr:route><fr:title>Algebraic cellular complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -53,7 +53,7 @@ href="hmlg-0002.xml"
 type="local"
 addr="hmlg-0002">chain complex</fr:link> of free abelian groups. The generators are called <fr:strong>cells</fr:strong>, and the boundary maps can be expressed using the generators as a basis, yielding the <fr:strong>incidence matrices</fr:strong>.
 </fr:p><fr:p>
-  More precisely, we may define an ACC as a sequence of sets <fr:tex>C_ \bullet</fr:tex>, with a sequence of functions <fr:tex>d : C_k  \to   \mathbb {Z}[C_{k-1}]</fr:tex>, such that <fr:tex>d^2 = 0</fr:tex> is satisfied. When a generator has non-zero coefficient in some <fr:tex>d \sigma</fr:tex>, the generator is called a <fr:strong>face</fr:strong> of <fr:tex>\sigma</fr:tex>.
+  More precisely, we may define an ACC as a sequence of sets <fr:tex>C_\bullet</fr:tex>, with a sequence of functions <fr:tex>d : C_k \to \mathbb{Z}[C_{k-1}]</fr:tex>, such that <fr:tex>d^2 = 0</fr:tex> is satisfied. When a generator has non-zero coefficient in some <fr:tex>d\sigma</fr:tex>, the generator is called a <fr:strong>face</fr:strong> of <fr:tex>\sigma</fr:tex>.
 </fr:p><fr:p>
   Note that the generators of these chain groups are <fr:link
 href="ualg-0006.xml"
@@ -69,7 +69,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>930</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-0022</fr:addr><fr:route>hmlg-0022.xml</fr:route><fr:title>Discrete vector field on <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1031</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-0022</fr:addr><fr:route>hmlg-0022.xml</fr:route><fr:title>Discrete vector field on <fr:tex>\Delta^p \times \Delta^q</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -79,9 +79,9 @@ type="local"
 addr="hmlg-001N">discrete vector field</fr:link> on the <fr:link
 href="hmlg-001U.xml"
 type="local"
-addr="hmlg-001U">reduced ACC</fr:link> of <fr:tex>\Delta ^p  \times   \Delta ^q</fr:tex> whose critical cells are given by its boundary and one additional cell
+addr="hmlg-001U">reduced ACC</fr:link> of <fr:tex>\Delta^p \times \Delta^q</fr:tex> whose critical cells are given by its boundary and one additional cell
   <fr:tex
-display="block">(0,0) &lt; (1,0) &lt;  \cdots  &lt; (p,0) &lt; (p,1) &lt;  \cdots  &lt; (p,q),</fr:tex>
+display="block">(0,0) &lt; (1,0) &lt; \cdots &lt; (p,0) &lt; (p,1) &lt; \cdots &lt; (p,q),</fr:tex>
   in the representation scheme of <fr:ref
 addr="hmlg-0020"
 href="hmlg-0020.xml"
@@ -91,9 +91,9 @@ type="local"
 addr="hmlg-001R">gives rise</fr:link> to a <fr:link
 href="hmlg-0017.xml"
 type="local"
-addr="hmlg-0017">chain reduction</fr:link> <fr:tex>C_*( \Delta ^p  \times   \Delta ^q)  \Rightarrow \mkern {-14mu} \Rightarrow  C_*( \Delta ^p)  \otimes  C_*( \Delta ^q)</fr:tex>.
+addr="hmlg-0017">chain reduction</fr:link> <fr:tex>C_*(\Delta^p \times \Delta^q) \Rightarrow\mkern{-14mu}\Rightarrow C_*(\Delta^p) \otimes C_*(\Delta^q)</fr:tex>.
 </fr:p><fr:p>
-  Regarding the geometric simplices as paths in a <fr:tex>p  \times  q</fr:tex> grid as specified in <fr:ref
+  Regarding the geometric simplices as paths in a <fr:tex>p \times q</fr:tex> grid as specified in <fr:ref
 addr="hmlg-0020"
 href="hmlg-0020.xml"
 taxon="Theorem"></fr:ref>, we assign a <fr:tex>(p+q)</fr:tex>-simplex as a target cell if it contains a shape <fr:tex>\Rsh</fr:tex>. (The shape must go exactly one step up and one step to the right, since it is not possible otherwise in a geometric <fr:tex>(p+q)</fr:tex>-simplex.) To get its source cell, replace the <fr:em>last occurrence</fr:em> of this shape with <fr:tex>\nearrow</fr:tex>.
@@ -104,7 +104,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>932</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001V</fr:addr><fr:route>hmlg-001V.xml</fr:route><fr:title>Reduction from the non-reduced chain complex to the reduced chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1033</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001V</fr:addr><fr:route>hmlg-001V.xml</fr:route><fr:title>Reduction from the non-reduced chain complex to the reduced chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -122,9 +122,9 @@ addr="hmlg-001R"
 href="hmlg-001R.xml"
 taxon="Construction"></fr:ref>.
 </fr:p><fr:p>
-  We consider placing vectors on degenerate simplicies, so that all degenerate simplices are sources or targets. For each non-trivial degeneracy symbol, if the first degeneration has even multiplicity, we assign it to be a source, with the corresponding target to have one more multiplicity at the place, and vice versa. For example, the degeneracy symbol <fr:tex>[6]  \twoheadrightarrow  [4]</fr:tex> given by the table of values <fr:tex>(0, 1, 1, 2, 3, 3, 4)</fr:tex> is a source, whose target is <fr:tex>(0, 1, 1, 1, 2, 3, 3, 4) : [7]  \twoheadrightarrow  [4]</fr:tex>.
+  We consider placing vectors on degenerate simplicies, so that all degenerate simplices are sources or targets. For each non-trivial degeneracy symbol, if the first degeneration has even multiplicity, we assign it to be a source, with the corresponding target to have one more multiplicity at the place, and vice versa. For example, the degeneracy symbol <fr:tex>[6] \twoheadrightarrow [4]</fr:tex> given by the table of values <fr:tex>(0, 1, 1, 2, 3, 3, 4)</fr:tex> is a source, whose target is <fr:tex>(0, 1, 1, 1, 2, 3, 3, 4) : [7] \twoheadrightarrow [4]</fr:tex>.
 </fr:p><fr:p>
-  To verify this indeed gives a discrete vector field, we need to show that the source is a regular face of the target. This is true since an odd consective sum of <fr:tex>(-1)^{i}</fr:tex> gives <fr:tex>\pm  1</fr:tex>. Furthermore, we need to show the admissibility of the vector field. I claim that length of the field lines originating from one cell is bounded by two times the geometric dimension (i.e. the dimension of the associated geometric simplex). On one hand, the geometric dimensions of the target and the source are the same. On the other hand, moving from the target to the next source cell requires us to pick a regular face that does not point back to the target. This is equivalent to picking a place in the degeneracy symbol with no multiplicity. Hence the geometric dimension will decrease by one.
+  To verify this indeed gives a discrete vector field, we need to show that the source is a regular face of the target. This is true since an odd consective sum of <fr:tex>(-1)^{i}</fr:tex> gives <fr:tex>\pm 1</fr:tex>. Furthermore, we need to show the admissibility of the vector field. I claim that length of the field lines originating from one cell is bounded by two times the geometric dimension (i.e. the dimension of the associated geometric simplex). On one hand, the geometric dimensions of the target and the source are the same. On the other hand, moving from the target to the next source cell requires us to pick a regular face that does not point back to the target. This is equivalent to picking a place in the degeneracy symbol with no multiplicity. Hence the geometric dimension will decrease by one.
 </fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -132,7 +132,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>934</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>hmlg-001S</fr:addr><fr:route>hmlg-001S.xml</fr:route><fr:title>Discrete field lines can branch and merge</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1035</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>hmlg-001S</fr:addr><fr:route>hmlg-001S.xml</fr:route><fr:title>Discrete field lines can branch and merge</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -142,7 +142,7 @@ type="local"
 addr="hmlg-001N">discrete vector field</fr:link> and a vector field, the <fr:link
 href="hmlg-001Q.xml"
 type="local"
-addr="hmlg-001Q">field lines</fr:link> of a DVF may branch out. For instance, take a triangle <fr:tex>\tau</fr:tex> with three edges <fr:tex>\sigma _1,  \sigma _2,  \sigma _3</fr:tex>. We can have a vector <fr:tex>\overrightharpoon { \sigma _1  \tau }</fr:tex> pointing into the triangle, and <fr:tex>\sigma _2,  \sigma _3</fr:tex> each having vectors pointing out. Similarly multiple field lines may join when they reach a lower-degree cell. Because of this, we need to take care in the phrasing of <fr:link
+addr="hmlg-001Q">field lines</fr:link> of a DVF may branch out. For instance, take a triangle <fr:tex>\tau</fr:tex> with three edges <fr:tex>\sigma_1, \sigma_2, \sigma_3</fr:tex>. We can have a vector <fr:tex>\overrightharpoon{\sigma_1 \tau}</fr:tex> pointing into the triangle, and <fr:tex>\sigma_2, \sigma_3</fr:tex> each having vectors pointing out. Similarly multiple field lines may join when they reach a lower-degree cell. Because of this, we need to take care in the phrasing of <fr:link
 href="hmlg-001P.xml"
 type="local"
 addr="hmlg-001P">admissibility</fr:link>.
@@ -153,7 +153,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>936</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001P</fr:addr><fr:route>hmlg-001P.xml</fr:route><fr:title>Admissible discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1037</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001P</fr:addr><fr:route>hmlg-001P.xml</fr:route><fr:title>Admissible discrete vector field</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -171,7 +171,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>938</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001Q</fr:addr><fr:route>hmlg-001Q.xml</fr:route><fr:title>Discrete field line</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1039</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001Q</fr:addr><fr:route>hmlg-001Q.xml</fr:route><fr:title>Discrete field line</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -191,7 +191,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>940</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>discrete-vector-fields</fr:addr><fr:route>discrete-vector-fields.xml</fr:route><fr:title>Discrete Vector Fields and Fundamental Algebraic Topology</fr:title><fr:date><fr:year>2010</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:authors><fr:author>Ana Romero and Francis Sergeraert</fr:author></fr:authors><fr:meta
+root="false"><fr:frontmatter><fr:anchor>1041</fr:anchor><fr:taxon>Reference</fr:taxon><fr:addr>discrete-vector-fields</fr:addr><fr:route>discrete-vector-fields.xml</fr:route><fr:title>Discrete Vector Fields and Fundamental Algebraic Topology</fr:title><fr:date><fr:year>2010</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:authors><fr:author>Ana Romero and Francis Sergeraert</fr:author></fr:authors><fr:meta
 name="doi">10.48550/arXiv.1005.5685</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
   We show in this text how the most important homology equivalences of fundamental Algebraic Topology can be obtained as <fr:link
 href="hmlg-0017.xml"

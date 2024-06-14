@@ -7,14 +7,14 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1735</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0002</fr:addr><fr:route>algm-0002.xml</fr:route><fr:title>Radical ideals bijectively correspond to open sets</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1836</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0002</fr:addr><fr:route>algm-0002.xml</fr:route><fr:title>Radical ideals bijectively correspond to open sets</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   In an arbitrary <fr:link
 href="algm-0001.xml"
 type="local"
-addr="algm-0001">topological spectrum of a commutative ring</fr:link>, we have <fr:tex>D( \mathfrak { a } ) = D( \sqrt { \mathfrak { a } })</fr:tex>. There is a containment of opens <fr:tex>D( \mathfrak { a } )  \subseteq  D( \mathfrak { b } )</fr:tex> — equivalently <fr:tex>V( \mathfrak { b } )  \subseteq  V( \mathfrak { a } )</fr:tex> — iff <fr:tex>\sqrt { \mathfrak { b } }  \mid   \sqrt { \mathfrak { a } }</fr:tex>, and the points contained in an open set completely determines the radical ideal.
+addr="algm-0001">topological spectrum of a commutative ring</fr:link>, we have <fr:tex>D(\mathfrak{a}) = D(\sqrt{\mathfrak{a}})</fr:tex>. There is a containment of opens <fr:tex>D(\mathfrak{a}) \subseteq D(\mathfrak{b})</fr:tex> — equivalently <fr:tex>V(\mathfrak{b}) \subseteq V(\mathfrak{a})</fr:tex> — iff <fr:tex>\sqrt{\mathfrak{b}} \mid \sqrt{\mathfrak{a}}</fr:tex>, and the points contained in an open set completely determines the radical ideal.
 </fr:p>
   
     
@@ -25,16 +25,16 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1569</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#289</fr:addr><fr:route>unstable-289.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1670</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#295</fr:addr><fr:route>unstable-295.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0002</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Since <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex> implies <fr:tex>\sqrt { \mathfrak { p } }  \mid   \sqrt { \mathfrak { a } }</fr:tex>, but <fr:tex>\mathfrak { p }  =  \sqrt { \mathfrak { p } }</fr:tex>, we see that <fr:tex>D( \mathfrak { a } ) = D( \sqrt { \mathfrak { a } })</fr:tex>. We just have to prove the forward implication of the last statement. Suppose for all prime ideals <fr:tex>\mathfrak { p }</fr:tex> we have <fr:tex>\mathfrak { p }   \mid   \mathfrak { b }   \implies   \mathfrak { p }   \mid   \mathfrak { a }</fr:tex>. We need to prove that <fr:tex>\sqrt { \mathfrak { a } }  \mid  f  \implies   \sqrt { \mathfrak { b } }  \mid  f</fr:tex>.
+    Since <fr:tex>\mathfrak{p} \mid \mathfrak{a}</fr:tex> implies <fr:tex>\sqrt{\mathfrak{p}} \mid \sqrt{\mathfrak{a}}</fr:tex>, but <fr:tex>\mathfrak{p} = \sqrt{\mathfrak{p}}</fr:tex>, we see that <fr:tex>D(\mathfrak{a}) = D(\sqrt{\mathfrak{a}})</fr:tex>. We just have to prove the forward implication of the last statement. Suppose for all prime ideals <fr:tex>\mathfrak{p}</fr:tex> we have <fr:tex>\mathfrak{p} \mid \mathfrak{b} \implies \mathfrak{p} \mid \mathfrak{a}</fr:tex>. We need to prove that <fr:tex>\sqrt{\mathfrak{a}} \mid f \implies \sqrt{\mathfrak{b}} \mid f</fr:tex>.
   </fr:p>
 
   <fr:p>
-    Given <fr:tex>\sqrt { \mathfrak { a } }  \mid  f</fr:tex>, we have <fr:tex>\mathfrak { p }   \mid  f</fr:tex> for all prime ideals <fr:tex>\mathfrak { p }   \mid   \sqrt { \mathfrak { a } }</fr:tex> (which is equivalent to <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex>). So we know that for all <fr:tex>\mathfrak { p }   \mid   \mathfrak { b }</fr:tex>, <fr:tex>\mathfrak { p }   \mid  f</fr:tex>. This is now purely a condition on <fr:tex>\mathfrak { b }</fr:tex>. The next lemma finishes the proof.
+    Given <fr:tex>\sqrt{\mathfrak{a}} \mid f</fr:tex>, we have <fr:tex>\mathfrak{p} \mid f</fr:tex> for all prime ideals <fr:tex>\mathfrak{p} \mid \sqrt{\mathfrak{a}}</fr:tex> (which is equivalent to <fr:tex>\mathfrak{p} \mid \mathfrak{a}</fr:tex>). So we know that for all <fr:tex>\mathfrak{p} \mid \mathfrak{b}</fr:tex>, <fr:tex>\mathfrak{p} \mid f</fr:tex>. This is now purely a condition on <fr:tex>\mathfrak{b}</fr:tex>. The next lemma finishes the proof.
   </fr:p>
 
   <fr:tree
@@ -44,11 +44,11 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1567</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0003</fr:addr><fr:route>algm-0003.xml</fr:route><fr:title>The radical ideal is the lcm of prime ideal divisors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1668</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0003</fr:addr><fr:route>algm-0003.xml</fr:route><fr:title>The radical ideal is the lcm of prime ideal divisors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  For any ideal <fr:tex>\mathfrak { a }</fr:tex> of a commutative ring, the radical <fr:tex>\sqrt { \mathfrak { a } }</fr:tex> is the lowest common multiple of the prime ideals <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex>.
+  For any ideal <fr:tex>\mathfrak{a}</fr:tex> of a commutative ring, the radical <fr:tex>\sqrt{\mathfrak{a}}</fr:tex> is the lowest common multiple of the prime ideals <fr:tex>\mathfrak{p} \mid \mathfrak{a}</fr:tex>.
 </fr:p>
   
     
@@ -59,18 +59,18 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1565</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#288</fr:addr><fr:route>unstable-288.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1666</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#294</fr:addr><fr:route>unstable-294.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0003</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    On one hand, if <fr:tex>\sqrt { \mathfrak { a } }  \mid  f</fr:tex>, then <fr:tex>\mathfrak { a }   \mid  f^n</fr:tex> for some natural number <fr:tex>n</fr:tex>. This means for all <fr:tex>\mathfrak { p }   \mid   \mathfrak { a }</fr:tex>, we have <fr:tex>\mathfrak { p }   \mid  f^n</fr:tex>, which by being a prime ideal implies <fr:tex>\mathfrak { p }   \mid  f</fr:tex>.
+    On one hand, if <fr:tex>\sqrt{\mathfrak{a}} \mid f</fr:tex>, then <fr:tex>\mathfrak{a} \mid f^n</fr:tex> for some natural number <fr:tex>n</fr:tex>. This means for all <fr:tex>\mathfrak{p} \mid \mathfrak{a}</fr:tex>, we have <fr:tex>\mathfrak{p} \mid f^n</fr:tex>, which by being a prime ideal implies <fr:tex>\mathfrak{p} \mid f</fr:tex>.
   </fr:p>
 
   <fr:p>
-    On the other hand, suppose <fr:tex>\mathfrak { a }   \nmid  f^n</fr:tex> for any <fr:tex>n</fr:tex>, we construct a prime ideal divisor of <fr:tex>\mathfrak { a }</fr:tex> that is not a divisor of <fr:tex>f</fr:tex>. Consider the set of all ideals not a divisor of <fr:tex>f^n</fr:tex> for any <fr:tex>n</fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex>\mathfrak { d }</fr:tex> still in this set, since <fr:tex>\mathfrak { d }</fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link
+    On the other hand, suppose <fr:tex>\mathfrak{a} \nmid f^n</fr:tex> for any <fr:tex>n</fr:tex>, we construct a prime ideal divisor of <fr:tex>\mathfrak{a}</fr:tex> that is not a divisor of <fr:tex>f</fr:tex>. Consider the set of all ideals not a divisor of <fr:tex>f^n</fr:tex> for any <fr:tex>n</fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex>\mathfrak{d}</fr:tex> still in this set, since <fr:tex>\mathfrak{d}</fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link
 href="https://en.wikipedia.org/wiki/Zorn's_lemma"
-type="external">Zorn’s lemma</fr:link>, the set contains some <fr:tex>\mathfrak { q }</fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex>\mathfrak { q }   \nmid  x, y</fr:tex> such that <fr:tex>\mathfrak { q }   \mid  x y</fr:tex>, then <fr:tex>\mathfrak { q } ' =  \gcd ( \mathfrak { q } , x y)</fr:tex> is a proper divisor of <fr:tex>\mathfrak { q }</fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex>n</fr:tex> such that <fr:tex>x y  \mid  f^n</fr:tex>, so <fr:tex>\mathfrak { q }   \mid  x y  \mid  f^n</fr:tex>, contradiction.
+type="external">Zorn’s lemma</fr:link>, the set contains some <fr:tex>\mathfrak{q}</fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex>\mathfrak{q} \nmid x, y</fr:tex> such that <fr:tex>\mathfrak{q} \mid x y</fr:tex>, then <fr:tex>\mathfrak{q}' = \gcd(\mathfrak{q}, x y)</fr:tex> is a proper divisor of <fr:tex>\mathfrak{q}</fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex>n</fr:tex> such that <fr:tex>x y \mid f^n</fr:tex>, so <fr:tex>\mathfrak{q} \mid x y \mid f^n</fr:tex>, contradiction.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -84,13 +84,13 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1733</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0001</fr:addr><fr:route>algm-0001.xml</fr:route><fr:title>Topological spectrum of a commutative ring</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1834</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0001</fr:addr><fr:route>algm-0001.xml</fr:route><fr:title>Topological spectrum of a commutative ring</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The topological <fr:strong>spectrum</fr:strong> of a commutative ring <fr:tex>R</fr:tex>, denoted <fr:tex>\operatorname {Spec} (R)</fr:tex>, is a topological space whose points are given by prime ideals of <fr:tex>R</fr:tex>. We denote the point corresponding to <fr:tex>\mathfrak { p }</fr:tex> as <fr:tex>\left [ \mathfrak { p } \right ]</fr:tex>. We define an open <fr:tex>D( \mathfrak { a } )</fr:tex> for each ideal <fr:tex>\mathfrak { a }</fr:tex> which contains the point <fr:tex>\left [ \mathfrak { p } \right ]</fr:tex> when <fr:tex>\mathfrak { p }   \nmid   \mathfrak { a }</fr:tex>. The corresponding closed is written as <fr:tex>V( \mathfrak { a } )</fr:tex>.
+  The topological <fr:strong>spectrum</fr:strong> of a commutative ring <fr:tex>R</fr:tex>, denoted <fr:tex>\operatorname{Spec}(R)</fr:tex>, is a topological space whose points are given by prime ideals of <fr:tex>R</fr:tex>. We denote the point corresponding to <fr:tex>\mathfrak{p}</fr:tex> as <fr:tex>\left[\mathfrak{p}\right]</fr:tex>. We define an open <fr:tex>D(\mathfrak{a})</fr:tex> for each ideal <fr:tex>\mathfrak{a}</fr:tex> which contains the point <fr:tex>\left[\mathfrak{p}\right]</fr:tex> when <fr:tex>\mathfrak{p} \nmid \mathfrak{a}</fr:tex>. The corresponding closed is written as <fr:tex>V(\mathfrak{a})</fr:tex>.
 </fr:p><fr:p>
-  We abuse the notation and write <fr:tex>D(f)</fr:tex> for the case where <fr:tex>\mathfrak { a }</fr:tex> is generated by <fr:tex>f</fr:tex>. Similar notations apply to <fr:tex>V</fr:tex>.
+  We abuse the notation and write <fr:tex>D(f)</fr:tex> for the case where <fr:tex>\mathfrak{a}</fr:tex> is generated by <fr:tex>f</fr:tex>. Similar notations apply to <fr:tex>V</fr:tex>.
 </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -98,11 +98,11 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1727</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000H</fr:addr><fr:route>algm-000H.xml</fr:route><fr:title>Irreducible closeds in a ring spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1828</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000H</fr:addr><fr:route>algm-000H.xml</fr:route><fr:title>Irreducible closeds in a ring spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A closed <fr:tex>V( \mathfrak { r } )</fr:tex> in <fr:tex>\operatorname {Spec} (R)</fr:tex> is irreducible iff <fr:tex>\mathfrak { r }</fr:tex> is prime, and it is an irreducible component iff <fr:tex>\mathfrak { r }</fr:tex> is a minimal prime ideal, i.e. prime ideals that divide no other prime ideals.
+  A closed <fr:tex>V(\mathfrak{r})</fr:tex> in <fr:tex>\operatorname{Spec}(R)</fr:tex> is irreducible iff <fr:tex>\mathfrak{r}</fr:tex> is prime, and it is an irreducible component iff <fr:tex>\mathfrak{r}</fr:tex> is a minimal prime ideal, i.e. prime ideals that divide no other prime ideals.
 </fr:p>
   
     
@@ -113,7 +113,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1573</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1674</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000H</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -121,10 +121,10 @@ addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000H</fr:
     Translating via <fr:ref
 addr="algm-0002"
 href="algm-0002.xml"
-taxon="Theorem"></fr:ref>, we have a proper ideal <fr:tex>\mathfrak { r }</fr:tex> that cannot be written as <fr:tex>\operatorname {lcm} ( \mathfrak { r } _1,  \mathfrak { r } _2)</fr:tex> non-trivially. Suppose <fr:tex>\mathfrak { r }   \mid  f g</fr:tex>, then <fr:tex>\mathfrak { r }   \mid   \sqrt {f g}  \mid   \operatorname {lcm} (f, g)</fr:tex>. So
+taxon="Theorem"></fr:ref>, we have a proper ideal <fr:tex>\mathfrak{r}</fr:tex> that cannot be written as <fr:tex>\operatorname{lcm}(\mathfrak{r}_1, \mathfrak{r}_2)</fr:tex> non-trivially. Suppose <fr:tex>\mathfrak{r} \mid f g</fr:tex>, then <fr:tex>\mathfrak{r} \mid \sqrt{f g} \mid \operatorname{lcm}(f, g)</fr:tex>. So
     <fr:tex
-display="block">\begin {aligned}        \mathfrak { r }  &amp;=  \gcd ( \mathfrak { r } ,  \operatorname {lcm} (f, g))  \\        &amp;=  \operatorname {lcm} ( \gcd ( \mathfrak { r } , f),  \gcd ( \mathfrak { r } , g)).      \end {aligned}</fr:tex>
-    Hence at least one of the two must be equal to <fr:tex>\mathfrak { r }</fr:tex>. So <fr:tex>\mathfrak { r }   \mid  f</fr:tex> or <fr:tex>\mathfrak { r }   \mid  g</fr:tex>.
+display="block">\begin{aligned}       \mathfrak{r} &amp;= \gcd(\mathfrak{r}, \operatorname{lcm}(f, g)) \\       &amp;= \operatorname{lcm}(\gcd(\mathfrak{r}, f), \gcd(\mathfrak{r}, g)).     \end{aligned}</fr:tex>
+    Hence at least one of the two must be equal to <fr:tex>\mathfrak{r}</fr:tex>. So <fr:tex>\mathfrak{r} \mid f</fr:tex> or <fr:tex>\mathfrak{r} \mid g</fr:tex>.
   </fr:p>
 
   <fr:p>
@@ -139,14 +139,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1729</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000I</fr:addr><fr:route>algm-000I.xml</fr:route><fr:title>Structure sheaf of a ring spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1830</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000I</fr:addr><fr:route>algm-000I.xml</fr:route><fr:title>Structure sheaf of a ring spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a commutative ring <fr:tex>R</fr:tex>, we define a sheaf <fr:tex>\mathscr { O }</fr:tex> of rings on <fr:tex>\operatorname {Spec} (R)</fr:tex> called the <fr:strong>structure sheaf</fr:strong>. Let <fr:tex>\Gamma (D(f),  \mathscr { O } ) = R[f^{-1}]</fr:tex>. Suppose <fr:tex>D(f)  \subseteq  D(g)</fr:tex> we define the restriction morphism to be the localization map <fr:tex>R[g^{-1}]  \to  R[f^{-1}]</fr:tex>, since by <fr:ref
+  Given a commutative ring <fr:tex>R</fr:tex>, we define a sheaf <fr:tex>{\mathscr{O}}</fr:tex> of rings on <fr:tex>\operatorname{Spec}(R)</fr:tex> called the <fr:strong>structure sheaf</fr:strong>. Let <fr:tex>{\Gamma}(D(f), {\mathscr{O}}) = R[f^{-1}]</fr:tex>. Suppose <fr:tex>D(f) \subseteq D(g)</fr:tex> we define the restriction morphism to be the localization map <fr:tex>R[g^{-1}] \to R[f^{-1}]</fr:tex>, since by <fr:ref
 addr="algm-0002"
 href="algm-0002.xml"
-taxon="Theorem"></fr:ref> the latter is a further localization of the former. This turns <fr:tex>\operatorname {Spec} (R)</fr:tex> into a <fr:link
+taxon="Theorem"></fr:ref> the latter is a further localization of the former. This turns <fr:tex>\operatorname{Spec}(R)</fr:tex> into a <fr:link
 href="algm-000M.xml"
 type="local"
 addr="algm-000M">ringed space</fr:link>.
@@ -160,37 +160,37 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1324</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1425</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000I</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex>f_i  \in  R</fr:tex> such that <fr:tex>\bigcup _i D(f_i) = D(f)</fr:tex>, we need to show that
+    We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex>f_i \in R</fr:tex> such that <fr:tex>\bigcup_i D(f_i) = D(f)</fr:tex>, we need to show that
     <fr:tex
-display="block">R[f^{-1}]  \to   \prod _{i  \in  I} R[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} R[(f_i f_j)^{-1}]</fr:tex>
-    is an equalizer. Notice that <fr:tex>R[f_i^{-1}]  \cong  R[f^{-1}][f_i^{-1}]</fr:tex>. So we may reassign <fr:tex>S = R[f^{-1}]</fr:tex>. This simplifies the problem to
+display="block">R[f^{-1}] \to \prod_{i \in I} R[f_i^{-1}] \rightrightarrows \prod_{i \ne j} R[(f_i f_j)^{-1}]</fr:tex>
+    is an equalizer. Notice that <fr:tex>R[f_i^{-1}] \cong R[f^{-1}][f_i^{-1}]</fr:tex>. So we may reassign <fr:tex>S = R[f^{-1}]</fr:tex>. This simplifies the problem to
     <fr:tex
-display="block">S  \to   \prod _{i  \in  I} S[f_i^{-1}]  \rightrightarrows   \prod _{i  \ne  j} S[(f_i f_j)^{-1}],</fr:tex>
-    where <fr:tex>D(f_i)</fr:tex> covers the whole space <fr:tex>\operatorname {Spec} (S)</fr:tex>. 
+display="block">S \to \prod_{i \in I} S[f_i^{-1}] \rightrightarrows \prod_{i \ne j} S[(f_i f_j)^{-1}],</fr:tex>
+    where <fr:tex>D(f_i)</fr:tex> covers the whole space <fr:tex>\operatorname{Spec}(S)</fr:tex>. 
   </fr:p>
 
   <fr:p>
-    We first describe the intuition. Since we know <fr:tex>\operatorname {Spec} (S)</fr:tex> is <fr:link
+    We first describe the intuition. Since we know <fr:tex>\operatorname{Spec}(S)</fr:tex> is <fr:link
 href="algm-000B.xml"
 type="local"
-addr="algm-000B">quasi-compact</fr:link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <fr:tex>g_i/f_i^{d_i}  \in  S[f_i^{-1}]</fr:tex> that are equal in their common domain. Since <fr:tex>D(f_i) = D(f_i^{d_i})</fr:tex> covers <fr:tex>\operatorname {Spec} (S)</fr:tex>, we have a linear combination <fr:tex>1 =  \sum _i c_i f_i^{d_i}</fr:tex>, which is akin to a partition of unity. Suppose the putative gluing is <fr:tex>f</fr:tex>, multiplying with the partition of unity we get
+addr="algm-000B">quasi-compact</fr:link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <fr:tex>g_i/f_i^{d_i} \in S[f_i^{-1}]</fr:tex> that are equal in their common domain. Since <fr:tex>D(f_i) = D(f_i^{d_i})</fr:tex> covers <fr:tex>\operatorname{Spec}(S)</fr:tex>, we have a linear combination <fr:tex>1 = \sum_i c_i f_i^{d_i}</fr:tex>, which is akin to a partition of unity. Suppose the putative gluing is <fr:tex>f</fr:tex>, multiplying with the partition of unity we get
     <fr:tex
-display="block">\begin {aligned}       f &amp;=  \sum _{i  \in  I} c_i f_i^{d_i} f  \\        &amp;=  \sum  c_i f_i^{d_i}  \frac {g_i}{f_i^{d_i}}  \\        &amp;=  \sum  c_i g_i.      \end {aligned}</fr:tex>
+display="block">\begin{aligned}       f &amp;= \sum_{i \in I} c_i f_i^{d_i} f \\       &amp;= \sum c_i f_i^{d_i} \frac{g_i}{f_i^{d_i}} \\       &amp;= \sum c_i g_i.     \end{aligned}</fr:tex>
     which defines the gluing. We just have to make this reasoning precise. We first deal with the finite case.
   </fr:p>
 
   <fr:p>
-    Suppose there are elements <fr:tex>g_i/f_i^d  \in  S[f_i^{-1}]</fr:tex>, where we are allowed to use a single exponent <fr:tex>d</fr:tex> by finiteness. The compatibility requirement is <fr:tex
-display="block">(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.</fr:tex> If there is a solution <fr:tex>f</fr:tex> to the gluing problem, it would need to satisfy <fr:tex>(f f_i^d - g_i) f_i^M = 0</fr:tex>. Since <fr:tex>D(f_i) = D(f_i^R)</fr:tex> covers <fr:tex>\operatorname {Spec} (S)</fr:tex>, we have a linear combination <fr:tex>1 =  \sum _i c_i f_i^R</fr:tex> for large enough <fr:tex>R</fr:tex>. Hence
+    Suppose there are elements <fr:tex>g_i/f_i^d \in S[f_i^{-1}]</fr:tex>, where we are allowed to use a single exponent <fr:tex>d</fr:tex> by finiteness. The compatibility requirement is <fr:tex
+display="block">(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.</fr:tex> If there is a solution <fr:tex>f</fr:tex> to the gluing problem, it would need to satisfy <fr:tex>(f f_i^d - g_i) f_i^M = 0</fr:tex>. Since <fr:tex>D(f_i) = D(f_i^R)</fr:tex> covers <fr:tex>\operatorname{Spec}(S)</fr:tex>, we have a linear combination <fr:tex>1 = \sum_i c_i f_i^R</fr:tex> for large enough <fr:tex>R</fr:tex>. Hence
     <fr:tex
-display="block">f =  \sum _{i  \in  I} c_i f f_i^R =  \sum  c_i g_i f_i^{R-d}.</fr:tex> This uniquely determines <fr:tex>f</fr:tex>. And indeed, this solution satisfies our requirements, because when restricted to <fr:tex>D(f_j)</fr:tex>, we have
+display="block">f = \sum_{i \in I} c_i f f_i^R = \sum c_i g_i f_i^{R-d}.</fr:tex> This uniquely determines <fr:tex>f</fr:tex>. And indeed, this solution satisfies our requirements, because when restricted to <fr:tex>D(f_j)</fr:tex>, we have
     <fr:tex
-display="block">\begin {aligned}       f f_j^d  \cdot  f_j^R &amp;=  \sum  c_i g_i f_i^{R-d} f_j^{R+d}  \\        &amp;=  \sum  c_i g_j f_i^{R} f_j^{R}  \\        &amp;= g_j f_j^R  \cdot   \sum  c_i f_i^R = g_j f_j^R.      \end {aligned}</fr:tex>
+display="block">\begin{aligned}       f f_j^d \cdot f_j^R &amp;= \sum c_i g_i f_i^{R-d} f_j^{R+d} \\       &amp;= \sum c_i g_j f_i^{R} f_j^{R} \\       &amp;= g_j f_j^R \cdot \sum c_i f_i^R = g_j f_j^R.     \end{aligned}</fr:tex>
     This reasoning is valid as long as <fr:tex>R &gt; N + 2d</fr:tex>.
   </fr:p>
 
@@ -198,7 +198,7 @@ display="block">\begin {aligned}       f f_j^d  \cdot  f_j^R &amp;=  \sum  c_i g
     If there are infinitely many opens, we first use <fr:link
 href="algm-000B.xml"
 type="local"
-addr="algm-000B">quasi-compactness</fr:link> to select a finite number <fr:tex>D(f_1),  \dots , D(f_k)</fr:tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <fr:tex>f</fr:tex> for <fr:tex>D(f_1),  \dots , D(f_k)</fr:tex>. Then consider the solution on <fr:tex>D(f_1),  \dots , D(f_k) , D(g)</fr:tex> for every <fr:tex>g</fr:tex>. This solution must be equal to <fr:tex>f</fr:tex> by uniqueness. Therefore <fr:tex>f</fr:tex> restrict to the correct function on each <fr:tex>D(g)</fr:tex>, showing that <fr:tex>f</fr:tex> is the required solution.
+addr="algm-000B">quasi-compactness</fr:link> to select a finite number <fr:tex>D(f_1), \dots, D(f_k)</fr:tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <fr:tex>f</fr:tex> for <fr:tex>D(f_1), \dots, D(f_k)</fr:tex>. Then consider the solution on <fr:tex>{D(f_1), \dots, D(f_k)}, D(g)</fr:tex> for every <fr:tex>g</fr:tex>. This solution must be equal to <fr:tex>f</fr:tex> by uniqueness. Therefore <fr:tex>f</fr:tex> restrict to the correct function on each <fr:tex>D(g)</fr:tex>, showing that <fr:tex>f</fr:tex> is the required solution.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -209,14 +209,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1731</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0008</fr:addr><fr:route>algm-0008.xml</fr:route><fr:title>Characterization of the locale <fr:tex>\operatorname {Spec} (R)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1832</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0008</fr:addr><fr:route>algm-0008.xml</fr:route><fr:title>Characterization of the locale <fr:tex>\operatorname{Spec}(R)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   The opens in <fr:link
 href="algm-0007.xml"
 type="local"
-addr="algm-0007">the locale</fr:link> <fr:tex>\operatorname {Spec} (R)</fr:tex> bijectively corresponds to radical ideals of <fr:tex>R</fr:tex>, whose divisibility relation agree with the inverse inclusion relation of opens. Intersections correspond to lowest common multiple, and unions correspond to the radical of the greatest common divisor. In other words, the locale is isomorphic to the locale corresponding to the <fr:link
+addr="algm-0007">the locale</fr:link> <fr:tex>\operatorname{Spec}(R)</fr:tex> bijectively corresponds to radical ideals of <fr:tex>R</fr:tex>, whose divisibility relation agree with the inverse inclusion relation of opens. Intersections correspond to lowest common multiple, and unions correspond to the radical of the greatest common divisor. In other words, the locale is isomorphic to the locale corresponding to the <fr:link
 href="algm-0001.xml"
 type="local"
 addr="algm-0001">topological spectrum of a commutative ring</fr:link> by <fr:ref
@@ -233,23 +233,23 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1318</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1419</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0008</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
     We can first put the opens in disjunctive normal form
     <fr:tex
-display="block">U =  \bigcup _{i  \in  I}  \bigcap _{j=1}^{n_i} D(f_{i, j}).</fr:tex>
-    By the definition we can reduce the intersections into products. Write <fr:tex>f_i =  \prod _j f_{i, j}</fr:tex>, we have <fr:tex>U =  \bigcup _i D(f_i)</fr:tex>. Given this form, we can try to <fr:em>saturate</fr:em> the union, by throwing in everything that doesn’t enlarge <fr:tex>U</fr:tex>. In other words, we only consider the unions such that no other generator <fr:tex>D(f)</fr:tex> can be added, i.e. <fr:tex>D(f)  \nsubseteq  U</fr:tex>. This would uniquely determine <fr:tex>U</fr:tex>.
+display="block">U = \bigcup_{i \in I} \bigcap_{j=1}^{n_i} D(f_{i, j}).</fr:tex>
+    By the definition we can reduce the intersections into products. Write <fr:tex>f_i = \prod_j f_{i, j}</fr:tex>, we have <fr:tex>U = \bigcup_i D(f_i)</fr:tex>. Given this form, we can try to <fr:em>saturate</fr:em> the union, by throwing in everything that doesn’t enlarge <fr:tex>U</fr:tex>. In other words, we only consider the unions such that no other generator <fr:tex>D(f)</fr:tex> can be added, i.e. <fr:tex>D(f) \nsubseteq U</fr:tex>. This would uniquely determine <fr:tex>U</fr:tex>.
   </fr:p>
 
   <fr:p>
-    Such a saturated set would have to be closed under addition since <fr:tex>D(f+g)  \subseteq  D(f)  \cup  D(g)</fr:tex>, and for the nullary case it must include <fr:tex>D(0) =  \bot</fr:tex>. It also has to absorb multiplication, because <fr:tex>D(f  \cdot  g)  \subseteq  D(f)</fr:tex>. This means we are dealing with ideals. Henceforth, we write <fr:tex>D( \mathfrak { a } )</fr:tex> for the union <fr:tex>\bigcup _{ \mathfrak { a }   \mid  f} D(f)</fr:tex>.
+    Such a saturated set would have to be closed under addition since <fr:tex>D(f+g) \subseteq D(f) \cup D(g)</fr:tex>, and for the nullary case it must include <fr:tex>D(0) = \bot</fr:tex>. It also has to absorb multiplication, because <fr:tex>D(f \cdot g) \subseteq D(f)</fr:tex>. This means we are dealing with ideals. Henceforth, we write <fr:tex>D(\mathfrak{a})</fr:tex> for the union <fr:tex>\bigcup_{\mathfrak{a} \mid f} D(f)</fr:tex>.
   </fr:p>
 
   <fr:p>
-    There is one last requirement we haven’t dealt with, i.e. <fr:tex>D(f  \cdot  g)</fr:tex> is the <fr:em>greatest</fr:em> lower bound of <fr:tex>D(f)</fr:tex> and <fr:tex>D(g)</fr:tex>, instead of simply a lower bound. For example, this gives the equality <fr:tex>D(f^n) = D(f)</fr:tex>, so we need to restrict our attention to radical ideals. It then suffices to prove that the radical ideal generated by <fr:tex>f  \cdot  g</fr:tex> is equal to the lowest common multiple of the radical ideals generated by <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex>, which is true.
+    There is one last requirement we haven’t dealt with, i.e. <fr:tex>D(f \cdot g)</fr:tex> is the <fr:em>greatest</fr:em> lower bound of <fr:tex>D(f)</fr:tex> and <fr:tex>D(g)</fr:tex>, instead of simply a lower bound. For example, this gives the equality <fr:tex>D(f^n) = D(f)</fr:tex>, so we need to restrict our attention to radical ideals. It then suffices to prove that the radical ideal generated by <fr:tex>f \cdot g</fr:tex> is equal to the lowest common multiple of the radical ideals generated by <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex>, which is true.
   </fr:p>
 </fr:mainmatter></fr:tree>
   

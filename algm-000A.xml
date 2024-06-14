@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1715</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>algm-000A</fr:addr><fr:route>algm-000A.xml</fr:route><fr:title>Terminology of compactness in algebraic geometry</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1816</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>algm-000A</fr:addr><fr:route>algm-000A.xml</fr:route><fr:title>Terminology of compactness in algebraic geometry</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -19,7 +19,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1709</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0018</fr:addr><fr:route>algm-0018.xml</fr:route><fr:title>A space is noetherian iff hereditarily quasi-compact</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1810</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0018</fr:addr><fr:route>algm-0018.xml</fr:route><fr:title>A space is noetherian iff hereditarily quasi-compact</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -40,7 +40,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1242</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1343</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0018</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -60,13 +60,13 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1711</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0017</fr:addr><fr:route>algm-0017.xml</fr:route><fr:title>Affine local properties</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1812</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0017</fr:addr><fr:route>algm-0017.xml</fr:route><fr:title>Affine local properties</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Suppose a property on affine subschemes <fr:tex>\operatorname {Spec} (R)  \hookrightarrow  X</fr:tex> is closed under taking distinguished subsets <fr:tex>\operatorname {Spec} (R_f)  \hookrightarrow  X</fr:tex>, and for <fr:tex>\gcd \{ f_i \}  = 1</fr:tex>, the property being true on <fr:tex>\operatorname {Spec} (R_{f_i})  \hookrightarrow  X</fr:tex> implies it being true on <fr:tex>\operatorname {Spec} (R)  \hookrightarrow  X</fr:tex>. Then such a property is called <fr:strong>affine local</fr:strong>. We then say that <fr:tex>X</fr:tex> has such a property if some affine cover has such a property: the result doesn’t depend on the chosen cover.
+  Suppose a property on affine subschemes <fr:tex>\operatorname{Spec}(R) \hookrightarrow X</fr:tex> is closed under taking distinguished subsets <fr:tex>\operatorname{Spec}(R_f) \hookrightarrow X</fr:tex>, and for <fr:tex>\gcd\{f_i\} = 1</fr:tex>, the property being true on <fr:tex>\operatorname{Spec}(R_{f_i}) \hookrightarrow X</fr:tex> implies it being true on <fr:tex>\operatorname{Spec}(R) \hookrightarrow X</fr:tex>. Then such a property is called <fr:strong>affine local</fr:strong>. We then say that <fr:tex>X</fr:tex> has such a property if some affine cover has such a property: the result doesn’t depend on the chosen cover.
 </fr:p><fr:p>
-  If the property <fr:tex>P</fr:tex> only depends on <fr:tex>\operatorname {Spec} (R)</fr:tex> and not <fr:tex>X</fr:tex> (or the inclusion map), it can be simplified as a property on affine schemes. In this case, the above definition extends it to a property <fr:tex>P'</fr:tex> on schemes, which we will usually refer to as <fr:strong>locally</fr:strong> <fr:tex>P</fr:tex>. Suppose the scheme is furthermore <fr:link
+  If the property <fr:tex>P</fr:tex> only depends on <fr:tex>\operatorname{Spec}(R)</fr:tex> and not <fr:tex>X</fr:tex> (or the inclusion map), it can be simplified as a property on affine schemes. In this case, the above definition extends it to a property <fr:tex>P'</fr:tex> on schemes, which we will usually refer to as <fr:strong>locally</fr:strong> <fr:tex>P</fr:tex>. Suppose the scheme is furthermore <fr:link
 href="algm-000A.xml"
 type="local"
 addr="algm-000A">quasi-compact</fr:link>, we say the scheme satisfies <fr:tex>P</fr:tex>.
@@ -80,15 +80,15 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1258</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1359</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0017</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We prove that if some affine cover <fr:tex>\{ \operatorname {Spec} (R_i)  \hookrightarrow  X \}</fr:tex> has such a property, then all the affine subschemes has it, hence we can check on any affine cover. Given an affine subscheme <fr:tex>\operatorname {Spec} (S)  \hookrightarrow  X</fr:tex>, using <fr:link
+    We prove that if some affine cover <fr:tex>\{\operatorname{Spec}(R_i) \hookrightarrow X\}</fr:tex> has such a property, then all the affine subschemes has it, hence we can check on any affine cover. Given an affine subscheme <fr:tex>\operatorname{Spec}(S) \hookrightarrow X</fr:tex>, using <fr:link
 href="algm-0016.xml"
 type="local"
-addr="algm-0016">Nike’s trick</fr:link>, we see that the intersection with <fr:tex>\operatorname {Spec} (R_i)</fr:tex> is covered by affine subschemes, which will all have the said property. Hence we get a cover of <fr:tex>\operatorname {Spec} (S)  \hookrightarrow  X</fr:tex> with the said property, and therefore itself also.
+addr="algm-0016">Nike’s trick</fr:link>, we see that the intersection with <fr:tex>\operatorname{Spec}(R_i)</fr:tex> is covered by affine subschemes, which will all have the said property. Hence we get a cover of <fr:tex>\operatorname{Spec}(S) \hookrightarrow X</fr:tex> with the said property, and therefore itself also.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -99,14 +99,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1713</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000B</fr:addr><fr:route>algm-000B.xml</fr:route><fr:title>A <fr:link
+root="false"><fr:frontmatter><fr:anchor>1814</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000B</fr:addr><fr:route>algm-000B.xml</fr:route><fr:title>A <fr:link
 href="algm-0001.xml"
 type="local"
 addr="algm-0001">ring spectrum</fr:link> is quasi-compact</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The space <fr:tex>\operatorname {Spec} (R)</fr:tex> is always <fr:link
+  The space <fr:tex>\operatorname{Spec}(R)</fr:tex> is always <fr:link
 href="algm-000A.xml"
 type="local"
 addr="algm-000A">quasi-compact</fr:link>.
@@ -120,12 +120,12 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1557</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#284</fr:addr><fr:route>unstable-284.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1658</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000B</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex>\bigcup _i D(f_i) =  \top</fr:tex>, then there is a finite union equal to <fr:tex>\top</fr:tex>. Algebraically this means <fr:tex>\sqrt { \gcd \{ f_i \} } = 1</fr:tex>, equivalently <fr:tex>\gcd \{ f_i \}  = 1</fr:tex>. So we have a linear combination <fr:tex>\sum _k a_k f_k = 1</fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.
+    Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex>\bigcup_i D(f_i) = \top</fr:tex>, then there is a finite union equal to <fr:tex>\top</fr:tex>. Algebraically this means <fr:tex>\sqrt{\gcd\{f_i\}} = 1</fr:tex>, equivalently <fr:tex>\gcd\{f_i\} = 1</fr:tex>. So we have a linear combination <fr:tex>\sum_k a_k f_k = 1</fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.
   </fr:p>
 </fr:mainmatter></fr:tree>
   

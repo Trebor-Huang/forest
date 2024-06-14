@@ -7,13 +7,13 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>510</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001W</fr:addr><fr:route>hmlg-001W.xml</fr:route><fr:title>Bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>611</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001W</fr:addr><fr:route>hmlg-001W.xml</fr:route><fr:title>Bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given any group <fr:tex>G</fr:tex>, we can construct a model of the first Eilenberg–MacLane space <fr:tex>K(G, 1)</fr:tex> as a simplicial set <fr:tex>\bar {W} (G)</fr:tex>. Consider the contractible simplicial set <fr:tex>W (G)</fr:tex> whose set of <fr:tex>n</fr:tex>-simplices is given by <fr:tex>G^{n+1}</fr:tex>. This has a natural free <fr:tex>G</fr:tex>-action given by multiplying every entry on the left. <fr:tex>\bar {W} (G)</fr:tex> is constructed by the quotient of the <fr:tex>G</fr:tex>-action.
+  Given any group <fr:tex>G</fr:tex>, we can construct a model of the first Eilenberg–MacLane space <fr:tex>K(G, 1)</fr:tex> as a simplicial set <fr:tex>{\bar{W}}(G)</fr:tex>. Consider the contractible simplicial set <fr:tex>{W}(G)</fr:tex> whose set of <fr:tex>n</fr:tex>-simplices is given by <fr:tex>G^{n+1}</fr:tex>. This has a natural free <fr:tex>G</fr:tex>-action given by multiplying every entry on the left. <fr:tex>{\bar{W}}(G)</fr:tex> is constructed by the quotient of the <fr:tex>G</fr:tex>-action.
 </fr:p><fr:p>
-  More concretely, the <fr:tex>n</fr:tex>-simplices are given by <fr:tex>n</fr:tex>-tuples, representing the quotient of consecutive elements in the <fr:tex>(n+1)</fr:tex>-tuple in the unquotiented simplicial set above. This is traditionally written as a bracketed sequence of elements separated by <fr:em>bars</fr:em>, <fr:tex>[g_1  \mid  g_2  \mid   \dots   \mid  g_n]</fr:tex>, hence we name it the <fr:strong>bar construction</fr:strong>. Face maps are given by removing the corresponding bars so the elements multiply together. Degeneracy maps are given by inserting the identity elements.
+  More concretely, the <fr:tex>n</fr:tex>-simplices are given by <fr:tex>n</fr:tex>-tuples, representing the quotient of consecutive elements in the <fr:tex>(n+1)</fr:tex>-tuple in the unquotiented simplicial set above. This is traditionally written as a bracketed sequence of elements separated by <fr:em>bars</fr:em>, <fr:tex>[g_1 \mid g_2 \mid \dots \mid g_n]</fr:tex>, hence we name it the <fr:strong>bar construction</fr:strong>. Face maps are given by removing the corresponding bars so the elements multiply together. Degeneracy maps are given by inserting the identity elements.
 </fr:p><fr:p>
   If the group has decidable equality and multiplication, then the simplicial set is also <fr:link
 href="hmlg-001T.xml"
@@ -26,11 +26,11 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>508</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001T</fr:addr><fr:route>hmlg-001T.xml</fr:route><fr:title>Effective simplicial set</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>609</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001T</fr:addr><fr:route>hmlg-001T.xml</fr:route><fr:title>Effective simplicial set</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>24</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  An <fr:strong>effective</fr:strong> simplicial set consists of a sequence of types <fr:tex>\operatorname {Geom} _n(X)</fr:tex> with decidable equality, representing the <fr:strong>geometric</fr:strong>, a.k.a. non-degenerate, simplices. The full set of simplices, written <fr:tex>\Gamma ( \Delta ^n, X)</fr:tex> or more simply <fr:tex>X_n</fr:tex>, is given by a geometric simplex <fr:tex>g  \in   \operatorname {Geom} _k(X)</fr:tex> for some <fr:tex>k</fr:tex> together with a <fr:strong>degeneracy symbol</fr:strong>, defined as a surjection <fr:tex>\eta  : [n+1]  \twoheadrightarrow  [k+1]</fr:tex>, formally representing the degeneracy map that brought <fr:tex>g</fr:tex> up to dimension <fr:tex>n</fr:tex>, written as <fr:tex>\eta ^* g</fr:tex>. The effective simplicial set is also required to have computable <fr:strong>face maps</fr:strong> <fr:tex>\partial _i :  \operatorname {Geom} _{n+1}(X)  \to   \Gamma ( \Delta ^n, X)</fr:tex> for <fr:tex>0  \le  i  \le  n+1</fr:tex>, so that the usual simplicial identities hold. The simplicial set is <fr:strong>of finite type</fr:strong> if each <fr:tex>\operatorname {Geom} _n(X)</fr:tex> is computably finite.
+  An <fr:strong>effective</fr:strong> simplicial set consists of a sequence of types <fr:tex>\operatorname{Geom}_n(X)</fr:tex> with decidable equality, representing the <fr:strong>geometric</fr:strong>, a.k.a. non-degenerate, simplices. The full set of simplices, written <fr:tex>{\Gamma}(\Delta^n, X)</fr:tex> or more simply <fr:tex>X_n</fr:tex>, is given by a geometric simplex <fr:tex>g \in \operatorname{Geom}_k(X)</fr:tex> for some <fr:tex>k</fr:tex> together with a <fr:strong>degeneracy symbol</fr:strong>, defined as a surjection <fr:tex>\eta : [n+1] \twoheadrightarrow [k+1]</fr:tex>, formally representing the degeneracy map that brought <fr:tex>g</fr:tex> up to dimension <fr:tex>n</fr:tex>, written as <fr:tex>\eta^* g</fr:tex>. The effective simplicial set is also required to have computable <fr:strong>face maps</fr:strong> <fr:tex>\partial_i : \operatorname{Geom}_{n+1}(X) \to {\Gamma}(\Delta^n, X)</fr:tex> for <fr:tex>0 \le i \le n+1</fr:tex>, so that the usual simplicial identities hold. The simplicial set is <fr:strong>of finite type</fr:strong> if each <fr:tex>\operatorname{Geom}_n(X)</fr:tex> is computably finite.
 </fr:p><fr:p>
   Alternatively, we can make a definition that more closely follows the traditional one, requiring a sequence of types with decidable equality representing <fr:em>all</fr:em> simplices instead of geometric ones. We then need to impose an additional requirement that the degeneracy of a simplex is decidable. The equivalence of the two definitions is given by the Eilenberg–Zilber lemma.
 </fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
@@ -40,11 +40,11 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>504</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-0021</fr:addr><fr:route>hmlg-0021.xml</fr:route><fr:title>W-bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>605</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-0021</fr:addr><fr:route>hmlg-0021.xml</fr:route><fr:title>W-bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a simplicial group, we can define a model of its universal principal bundle <fr:tex>\mathbf {E}  G  \to   \mathbf {B}  G</fr:tex> as simplicial sets <fr:tex>W  G  \to   \bar {W}  G</fr:tex>. This is a generalization of the <fr:link
+  Given a simplicial group, we can define a model of its universal principal bundle <fr:tex>{\mathbf{E}} G \to {\mathbf{B}} G</fr:tex> as simplicial sets <fr:tex>{W} G \to {\bar{W}} G</fr:tex>. This is a generalization of the <fr:link
 href="hmlg-001W.xml"
 type="local"
 addr="hmlg-001W">bar construction</fr:link>, if we consider a group <fr:tex>G</fr:tex> as a discrete simplicial set. It classifies principal <fr:tex>G</fr:tex>-bundles in the sense of Theorem 21.13 in <fr:link
@@ -52,19 +52,19 @@ href="simplicial-objects.xml"
 type="local"
 addr="simplicial-objects">Simplicial objects in algebraic topology</fr:link>.
 </fr:p><fr:p>
-  We define the <fr:tex>n</fr:tex>-simplices of <fr:tex>W  G</fr:tex> to be
+  We define the <fr:tex>n</fr:tex>-simplices of <fr:tex>{W} G</fr:tex> to be
   <fr:tex
-display="block">( W  G)_n = G_0  \times  G_1  \times   \cdots   \times  G_n</fr:tex>
-  so that <fr:tex>G_n</fr:tex> acts on <fr:tex>( W  G)_n</fr:tex> by taking the face map that discards the last <fr:tex>k</fr:tex> vertices for each <fr:tex>k</fr:tex>, and then acting on the appropriate factor on the right. This forces the face maps and degeneracy maps to be
+display="block">({W} G)_n = G_0 \times G_1 \times \cdots \times G_n</fr:tex>
+  so that <fr:tex>G_n</fr:tex> acts on <fr:tex>({W} G)_n</fr:tex> by taking the face map that discards the last <fr:tex>k</fr:tex> vertices for each <fr:tex>k</fr:tex>, and then acting on the appropriate factor on the right. This forces the face maps and degeneracy maps to be
   <fr:tex
-display="block">\begin {aligned}      \partial _k (g_0,  \dots , g_n) &amp;=       (g_0,  \dots , g_{k-1},  \partial _k g_{k+1},  \dots ,  \partial _k g_n),  \\       \sigma _k (g_0,  \dots , g_n) &amp;=       (g_0,  \dots , g_{k},  \sigma _k g_{k},  \dots ,  \sigma _k g_n).    \end {aligned}</fr:tex>
-  We define <fr:tex>\bar {W}  G</fr:tex> to be <fr:tex>W  G</fr:tex> quotiented by the action of <fr:tex>G</fr:tex>. This can be represented as <fr:tex>( \bar {W}  G)_n = G_0  \times   \cdots   \times  G_{n-1}</fr:tex>,
-  with the quotient map <fr:tex>( W  G)_n  \twoheadrightarrow  ( \bar {W}  G)_n</fr:tex> given by
+display="block">\begin{aligned}     \partial_k (g_0, \dots, g_n) &amp;=       (g_0, \dots, g_{k-1}, \partial_k g_{k+1}, \dots, \partial_k g_n), \\     \sigma_k (g_0, \dots, g_n) &amp;=       (g_0, \dots, g_{k}, \sigma_k g_{k}, \dots, \sigma_k g_n).   \end{aligned}</fr:tex>
+  We define <fr:tex>{\bar{W}} G</fr:tex> to be <fr:tex>{W} G</fr:tex> quotiented by the action of <fr:tex>G</fr:tex>. This can be represented as <fr:tex>({\bar{W}} G)_n = G_0 \times \cdots \times G_{n-1}</fr:tex>,
+  with the quotient map <fr:tex>({W} G)_n \twoheadrightarrow ({\bar{W}} G)_n</fr:tex> given by
   <fr:tex
-display="block">(g_0,  \dots , g_n)  \mapsto  (g_0 ( \partial _1 g_1)^{-1},  \dots , g_{n-1} ( \partial _n g_n)^{-1}).</fr:tex>
+display="block">(g_0, \dots, g_n) \mapsto (g_0 (\partial_1 g_1)^{-1}, \dots, g_{n-1} (\partial_n g_n)^{-1}).</fr:tex>
   The face and degeneracy maps can then be computed to be
   <fr:tex
-display="block">\begin {aligned}      \partial _k (g_0,  \dots , g_{n-1}) &amp;=       (g_0, g_1,  \dots , g_{k-1}  \cdot   \partial _k g_k,  \partial _k g_{k+1},  \dots ,  \partial _k g_{n-1}),  \\       \partial _n (g_0,  \dots , g_{n-1}) &amp;=       (g_0, g_1,  \dots , g_{n-2})  \\       \sigma _k (g_0,  \dots , g_{n-1}) &amp;=       (g_0, g_1,  \dots , g_{k-1}, 1,  \sigma _k g_{k},  \dots ,  \sigma _k g_{n-1}).    \end {aligned}</fr:tex>
+display="block">\begin{aligned}     \partial_k (g_0, \dots, g_{n-1}) &amp;=       (g_0, g_1, \dots, g_{k-1} \cdot \partial_k g_k, \partial_k g_{k+1}, \dots, \partial_k g_{n-1}), \\     \partial_n (g_0, \dots, g_{n-1}) &amp;=       (g_0, g_1, \dots, g_{n-2}) \\     \sigma_k (g_0, \dots, g_{n-1}) &amp;=       (g_0, g_1, \dots, g_{k-1}, 1, \sigma_k g_{k}, \dots, \sigma_k g_{n-1}).   \end{aligned}</fr:tex>
   A quick computation shows that this indeed produces a <fr:link
 href="hmlg-0028.xml"
 type="local"
@@ -76,7 +76,7 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>506</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001X</fr:addr><fr:route>hmlg-001X.xml</fr:route><fr:title>Reduction from <fr:tex>K( \mathbb {Z}, 1)</fr:tex> to the circle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>607</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001X</fr:addr><fr:route>hmlg-001X.xml</fr:route><fr:title>Reduction from <fr:tex>K(\mathbb{Z}, 1)</fr:tex> to the circle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -86,19 +86,19 @@ type="local"
 addr="hmlg-0017">chain reduction</fr:link> from the <fr:link
 href="hmlg-001W.xml"
 type="local"
-addr="hmlg-001W">bar construction</fr:link> <fr:tex>\bar {W} (G)</fr:tex> of a group regarded as its <fr:link
+addr="hmlg-001W">bar construction</fr:link> <fr:tex>{\bar{W}}(G)</fr:tex> of a group regarded as its <fr:link
 href="hmlg-001U.xml"
 type="local"
 addr="hmlg-001U">reduced algebraic cellular complex</fr:link>, to the <fr:link
 href="hmlg-001Y.xml"
 type="local"
-addr="hmlg-001Y">circle</fr:link> <fr:tex>\mathbb {S}^1</fr:tex>.
+addr="hmlg-001Y">circle</fr:link> <fr:tex>\mathbb{S}^1</fr:tex>.
 </fr:p><fr:p>
-  By construction, the geometric simplices of <fr:tex>K( \mathbb {Z}, 1)</fr:tex> are lists <fr:tex>[a_1  \mid  a_2  \mid   \cdots   \mid  a_n]</fr:tex> of non-zero integers. We construct an <fr:link
+  By construction, the geometric simplices of <fr:tex>K(\mathbb{Z}, 1)</fr:tex> are lists <fr:tex>[a_1 \mid a_2 \mid \cdots \mid a_n]</fr:tex> of non-zero integers. We construct an <fr:link
 href="hmlg-001P.xml"
 type="local"
 addr="hmlg-001P">admissible discrete vector field</fr:link> and use <fr:link
 href="hmlg-001R.xml"
 type="local"
-addr="hmlg-001R">the reduction it generates</fr:link>. We assign a cell <fr:tex>[a_1  \mid   \cdots ]</fr:tex> as a source if <fr:tex>a_1  \ne  1</fr:tex>. If <fr:tex>a_1  \le  0</fr:tex>, then we assign its target cell to be <fr:tex>[1  \mid  a_1  \mid   \cdots ]</fr:tex>; otherwise we assign <fr:tex>[1  \mid  a_1 - 1  \mid   \cdots ]</fr:tex>. Hence, the critical cells are <fr:tex>[]</fr:tex> and <fr:tex>[1]</fr:tex>.
+addr="hmlg-001R">the reduction it generates</fr:link>. We assign a cell <fr:tex>[a_1 \mid \cdots]</fr:tex> as a source if <fr:tex>a_1 \ne 1</fr:tex>. If <fr:tex>a_1 \le 0</fr:tex>, then we assign its target cell to be <fr:tex>[1 \mid a_1 \mid \cdots]</fr:tex>; otherwise we assign <fr:tex>[1 \mid a_1 - 1 \mid \cdots]</fr:tex>. Hence, the critical cells are <fr:tex>[]</fr:tex> and <fr:tex>[1]</fr:tex>.
 </fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

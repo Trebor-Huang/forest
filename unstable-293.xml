@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1738</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0004</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    We claim that <fr:tex
+display="block">D(\mathfrak{a}) = \bigcup_{\mathfrak{a} \mid f} D(f).</fr:tex> Alternatively, <fr:tex>V(\mathfrak{a}) = \bigcap_{\mathfrak{a} \mid f} V(f)</fr:tex>. Since <fr:tex>\mathfrak{a} \mid f</fr:tex> implies <fr:tex>V(\mathfrak{a}) \subseteq V(f)</fr:tex>, we have the forward inclusion. For the backwards inclusion, suppose <fr:tex>\left[\mathfrak{p}\right] \notin V(\mathfrak{a})</fr:tex>, i.e. <fr:tex>\mathfrak{p} \nmid \mathfrak{a}</fr:tex>, then by definition there is an element <fr:tex>\mathfrak{a} \mid f</fr:tex> such that <fr:tex>\mathfrak{p} \nmid f</fr:tex>, meaning that <fr:tex>\left[\mathfrak{p}\right] \notin V(f)</fr:tex>.
+  </fr:p>
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1736</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0004</fr:addr><fr:route>algm-0004.xml</fr:route><fr:title>Distinguished opens of <fr:tex>\operatorname{Spec}(R)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  We define a basis of opens on <fr:link
+href="algm-0001.xml"
+type="local"
+addr="algm-0001"><fr:tex>\operatorname{Spec}(R)</fr:tex></fr:link> by <fr:tex>D(f)</fr:tex> for every element <fr:tex>f \in R</fr:tex>. These are called <fr:strong>distinguished opens</fr:strong>.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1492</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0004</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    We claim that <fr:tex
+display="block">D(\mathfrak{a}) = \bigcup_{\mathfrak{a} \mid f} D(f).</fr:tex> Alternatively, <fr:tex>V(\mathfrak{a}) = \bigcap_{\mathfrak{a} \mid f} V(f)</fr:tex>. Since <fr:tex>\mathfrak{a} \mid f</fr:tex> implies <fr:tex>V(\mathfrak{a}) \subseteq V(f)</fr:tex>, we have the forward inclusion. For the backwards inclusion, suppose <fr:tex>\left[\mathfrak{p}\right] \notin V(\mathfrak{a})</fr:tex>, i.e. <fr:tex>\mathfrak{p} \nmid \mathfrak{a}</fr:tex>, then by definition there is an element <fr:tex>\mathfrak{a} \mid f</fr:tex> such that <fr:tex>\mathfrak{p} \nmid f</fr:tex>, meaning that <fr:tex>\left[\mathfrak{p}\right] \notin V(f)</fr:tex>.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

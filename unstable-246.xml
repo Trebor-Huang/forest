@@ -7,62 +7,16 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>812</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>688</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0003</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000I</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We verify that they form an adjunction. Algebra homomorphisms <fr:tex>\varphi  : F_M X  \to  Y</fr:tex> are given by commutative squares
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="7333f0d82efd61bdb7ce936fbe3b82de"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzcd} %tex
-      {M^2 X} &amp; MY \\
-      MX &amp; Y
-      \arrow["{\alpha_Y}", from=1-2, to=2-2]
-      \arrow["\mu"', from=1-1, to=2-1]
-      \arrow["\varphi", from=2-1, to=2-2]
-      \arrow["{M\varphi}", from=1-1, to=1-2] \end {tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-    while morphisms <fr:tex>f : X  \to  Y</fr:tex> fits in the diagram as such: 
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="db2ad0a755f43c4914bf816c04cc5ae6"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzcd} %tex
-      {M^2 X} &amp; MY \\
-      MX &amp; Y \\
-      X
-      \arrow["{\alpha_Y}", from=1-2, to=2-2]
-      \arrow["\mu"', from=1-1, to=2-1]
-      \arrow["\varphi", from=2-1, to=2-2]
-      \arrow["{M\varphi}", from=1-1, to=1-2]
-      \arrow["f"', from=3-1, to=2-2]
-      \arrow["\eta", from=3-1, to=2-1]
-      \arrow[from=2-1, to=1-2] \end {tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-    Given a homomorphism <fr:tex>\varphi</fr:tex> of algebras, we can compute <fr:tex>f</fr:tex> by composing with <fr:tex>\eta</fr:tex>. On the other hand, given <fr:tex>f</fr:tex>, we define <fr:tex>\varphi</fr:tex> by <fr:tex>\alpha _Y  \circ  Mf</fr:tex>. This creates a commutative square because
-    <fr:tex
-display="block">\begin {aligned}        \alpha _Y  \circ  M  \varphi        &amp;=  \alpha _Y  \circ  M \alpha _Y  \circ  M^2 f  \\        &amp;=  \alpha _Y  \circ   \mu   \circ  M^2 f  \\        &amp;=  \alpha _Y  \circ  M f  \circ   \mu   \\        &amp;=  \varphi   \circ   \mu .      \end {aligned}</fr:tex></fr:p>
+    By definition, we just need to prove the functor <fr:tex>{\mathcal{C}}^M \to {\mathcal{C}}</fr:tex> creates these limits and colimits. Given a diagram <fr:tex>(M X_i \xrightarrow{\alpha_i} X_i)</fr:tex> in <fr:tex>{\mathcal{C}}^M</fr:tex>, we can simply define an <fr:tex>M</fr:tex>-algebra structure on <fr:tex>\lim X_i</fr:tex> by assigning <fr:tex>M(\lim X_i) \to \lim X_i</fr:tex> the obvious map. This is the limit of the original diagram by a simple diagram chase, hence it is lifted. The cones over the diagram are determined by their image under the forgetful functor, so the lift is unique, which means the limit is trivially reflected.
+  </fr:p>
 
   <fr:p>
-    We just have to verify that the two conversions are mutual inverses. In one way, we need to verify <fr:tex>\alpha _Y  \circ  M f  \circ   \eta  = f</fr:tex>. This is true because by the naturality of <fr:tex>\eta</fr:tex> we get <fr:tex>M f  \circ   \eta  =  \eta   \circ  f</fr:tex>. Then by the definition of <fr:link
-href="ualg-0002.xml"
-type="local"
-addr="ualg-0002">algebra</fr:link> <fr:tex>\alpha _Y  \circ   \eta  =  \textrm {id}</fr:tex>, proving the equality. On the other hand, we need to show <fr:tex>\alpha _Y  \circ  M( \varphi   \circ   \eta ) =  \varphi</fr:tex>. This follows from the algebra identity <fr:tex>\alpha _Y  \circ  M  \alpha _Y =  \alpha _Y  \circ   \mu</fr:tex> and the monad identity <fr:tex>\mu   \circ  M  \eta  =  \textrm {id}</fr:tex>.
+    For colimits, if <fr:tex>M</fr:tex> preserves a colimit, then we can similarly define an algebra structure as <fr:tex>M(\operatorname*{colim} X_i) \cong \operatorname*{colim} M X_i \to \operatorname*{colim} X_i</fr:tex>. The lift is also unique, which means it is reflected.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -71,20 +25,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>810</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>ualg-0003</fr:addr><fr:route>ualg-0003.xml</fr:route><fr:title>Free monad algebras</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>686</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000I</fr:addr><fr:route>ualg-000I.xml</fr:route><fr:title>Limits and colimits created by a monadic functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
-href="ualg-0001.xml"
+  A <fr:link
+href="ualg-000A.xml"
 type="local"
-addr="ualg-0001">monad</fr:link> <fr:tex>M</fr:tex> on a category <fr:tex>\mathcal { C }</fr:tex>, there is a canonical adjunction between the <fr:link
-href="ualg-0002.xml"
+addr="ualg-000A">monadic functor</fr:link> <fr:link
+href="ualg-000G.xml"
 type="local"
-addr="ualg-0002">category of algebras</fr:link> <fr:tex>\mathcal { C } ^M</fr:tex> and <fr:tex>\mathcal { C }</fr:tex>. The <fr:strong>forgetful functor</fr:strong> <fr:tex>U_M</fr:tex> takes an <fr:link
-href="ualg-0002.xml"
-type="local"
-addr="ualg-0002">algebra</fr:link> and forgets the algebra structure. The <fr:strong>free functor</fr:strong> <fr:tex>F_M</fr:tex> takes an object <fr:tex>X</fr:tex> and produces an algebra on <fr:tex>MX</fr:tex> given by the monad multiplication map <fr:tex>\mu  : M^2 X  \to  MX</fr:tex>, called the <fr:strong>free algebra</fr:strong>.
+addr="ualg-000G">creates</fr:link> all limits. It also creates all colimits preserved by the monad.
 </fr:p>
   
     
@@ -95,102 +46,17 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>779</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>684</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0003</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000I</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We verify that they form an adjunction. Algebra homomorphisms <fr:tex>\varphi  : F_M X  \to  Y</fr:tex> are given by commutative squares
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="7333f0d82efd61bdb7ce936fbe3b82de"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzcd} %tex
-      {M^2 X} &amp; MY \\
-      MX &amp; Y
-      \arrow["{\alpha_Y}", from=1-2, to=2-2]
-      \arrow["\mu"', from=1-1, to=2-1]
-      \arrow["\varphi", from=2-1, to=2-2]
-      \arrow["{M\varphi}", from=1-1, to=1-2] \end {tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-    while morphisms <fr:tex>f : X  \to  Y</fr:tex> fits in the diagram as such: 
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="db2ad0a755f43c4914bf816c04cc5ae6"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzcd} %tex
-      {M^2 X} &amp; MY \\
-      MX &amp; Y \\
-      X
-      \arrow["{\alpha_Y}", from=1-2, to=2-2]
-      \arrow["\mu"', from=1-1, to=2-1]
-      \arrow["\varphi", from=2-1, to=2-2]
-      \arrow["{M\varphi}", from=1-1, to=1-2]
-      \arrow["f"', from=3-1, to=2-2]
-      \arrow["\eta", from=3-1, to=2-1]
-      \arrow[from=2-1, to=1-2] \end {tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-    Given a homomorphism <fr:tex>\varphi</fr:tex> of algebras, we can compute <fr:tex>f</fr:tex> by composing with <fr:tex>\eta</fr:tex>. On the other hand, given <fr:tex>f</fr:tex>, we define <fr:tex>\varphi</fr:tex> by <fr:tex>\alpha _Y  \circ  Mf</fr:tex>. This creates a commutative square because
-    <fr:tex
-display="block">\begin {aligned}        \alpha _Y  \circ  M  \varphi        &amp;=  \alpha _Y  \circ  M \alpha _Y  \circ  M^2 f  \\        &amp;=  \alpha _Y  \circ   \mu   \circ  M^2 f  \\        &amp;=  \alpha _Y  \circ  M f  \circ   \mu   \\        &amp;=  \varphi   \circ   \mu .      \end {aligned}</fr:tex></fr:p>
+    By definition, we just need to prove the functor <fr:tex>{\mathcal{C}}^M \to {\mathcal{C}}</fr:tex> creates these limits and colimits. Given a diagram <fr:tex>(M X_i \xrightarrow{\alpha_i} X_i)</fr:tex> in <fr:tex>{\mathcal{C}}^M</fr:tex>, we can simply define an <fr:tex>M</fr:tex>-algebra structure on <fr:tex>\lim X_i</fr:tex> by assigning <fr:tex>M(\lim X_i) \to \lim X_i</fr:tex> the obvious map. This is the limit of the original diagram by a simple diagram chase, hence it is lifted. The cones over the diagram are determined by their image under the forgetful functor, so the lift is unique, which means the limit is trivially reflected.
+  </fr:p>
 
   <fr:p>
-    We just have to verify that the two conversions are mutual inverses. In one way, we need to verify <fr:tex>\alpha _Y  \circ  M f  \circ   \eta  = f</fr:tex>. This is true because by the naturality of <fr:tex>\eta</fr:tex> we get <fr:tex>M f  \circ   \eta  =  \eta   \circ  f</fr:tex>. Then by the definition of <fr:link
-href="ualg-0002.xml"
-type="local"
-addr="ualg-0002">algebra</fr:link> <fr:tex>\alpha _Y  \circ   \eta  =  \textrm {id}</fr:tex>, proving the equality. On the other hand, we need to show <fr:tex>\alpha _Y  \circ  M( \varphi   \circ   \eta ) =  \varphi</fr:tex>. This follows from the algebra identity <fr:tex>\alpha _Y  \circ  M  \alpha _Y =  \alpha _Y  \circ   \mu</fr:tex> and the monad identity <fr:tex>\mu   \circ  M  \eta  =  \textrm {id}</fr:tex>.
+    For colimits, if <fr:tex>M</fr:tex> preserves a colimit, then we can similarly define an algebra structure as <fr:tex>M(\operatorname*{colim} X_i) \cong \operatorname*{colim} M X_i \to \operatorname*{colim} X_i</fr:tex>. The lift is also unique, which means it is reflected.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>808</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-0002</fr:addr><fr:route>ualg-0002.xml</fr:route><fr:title>Algebra of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
-href="ualg-0001.xml"
-type="local"
-addr="ualg-0001">monad</fr:link> <fr:tex>M :  \mathcal { C }   \to   \mathcal { C }</fr:tex>, an <fr:tex>M</fr:tex>-<fr:strong>algebra</fr:strong> is defined as an object <fr:tex>X</fr:tex> equipped with a morphism <fr:tex>\alpha  : MX  \to  X</fr:tex>, such that the following two diagrams commute.
-</fr:p>
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="787ec6baf9212839fad7a2632f367207"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzcd} %tex
-  {M^2X} &amp; MX &amp; X &amp; MX \\
-  MX &amp; X &amp;&amp; X
-  \arrow["\alpha"', from=2-1, to=2-2]
-  \arrow["\alpha", from=1-2, to=2-2]
-  \arrow["\mu"', from=1-1, to=2-1]
-  \arrow["M\alpha", from=1-1, to=1-2]
-  \arrow["\operatorname{id}"', from=1-3, to=2-4]
-  \arrow["\eta", from=1-3, to=1-4]
-  \arrow["\alpha", from=1-4, to=2-4] \end {tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-<fr:p>
-  In an unbiased formulation, we require the natural transformation <fr:tex>M^n  \to  M</fr:tex> of the monad evaluated at the object <fr:tex>X</fr:tex> composed with <fr:tex>\alpha  : MX  \to  X</fr:tex> to be equal to <fr:tex
-display="block">M^n X  \xrightarrow {M^{n-1} \alpha } M^{n-1}X  \to   \cdots   \xrightarrow { \alpha } X.</fr:tex></fr:p><fr:p>
-  The algebras of a monad form a category <fr:tex>\mathcal { C } ^M</fr:tex>, whose morphisms are commutative squares. This is also known as the <fr:strong>Eilenberg–Moore category</fr:strong>.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

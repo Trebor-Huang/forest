@@ -7,7 +7,7 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>707</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000B</fr:addr><fr:route>ualg-000B.xml</fr:route><fr:title>Split coequalizer</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>808</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000B</fr:addr><fr:route>ualg-000B.xml</fr:route><fr:title>Split coequalizer</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
@@ -17,21 +17,21 @@ addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:main
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="d7f012500ab1ec188665474d430177ad"><fr:embedded-tex-preamble>
+hash="c97cb116ebd1e2d7d20fe5598e96bc5b"><fr:embedded-tex-preamble>
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
     </fr:embedded-tex-preamble><fr:embedded-tex-body>
-       \begin {tikzcd} 
+      \begin{tikzcd}
     X &amp; Y &amp; Z
-     \arrow ["{ \partial _0}", shift left, curve={height=-6pt}, from=1-1, to=1-2]
-     \arrow ["{ \partial _1}"', shift right, curve={height=6pt}, from=1-1, to=1-2]
-     \arrow ["s"{description}, from=1-2, to=1-1]
-     \arrow ["q", from=1-2, to=1-3]
-     \arrow ["r", curve={height=-6pt}, from=1-3, to=1-2]
-   \end {tikzcd}
+    \arrow["{\partial_0}", shift left, curve={height=-6pt}, from=1-1, to=1-2]
+    \arrow["{\partial_1}"', shift right, curve={height=6pt}, from=1-1, to=1-2]
+    \arrow["s"{description}, from=1-2, to=1-1]
+    \arrow["q", from=1-2, to=1-3]
+    \arrow["r", curve={height=-6pt}, from=1-3, to=1-2]
+  \end{tikzcd}
     </fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
-  such that <fr:tex>q  \circ  r =  \textrm {id} _Z</fr:tex>, <fr:tex>r  \circ  q =  \partial _0  \circ  s</fr:tex> and <fr:tex>\partial _1  \circ  s =  \textrm {id} _Y</fr:tex>.
+  such that <fr:tex>q \mathbin{\circ} r = {\textrm{id}}_Z</fr:tex>, <fr:tex>r \mathbin{\circ} q = \partial_0 \mathbin{\circ} s</fr:tex> and <fr:tex>\partial_1 \mathbin{\circ} s = {\textrm{id}}_Y</fr:tex>.
 </fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
@@ -39,11 +39,11 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>703</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000H</fr:addr><fr:route>ualg-000H.xml</fr:route><fr:title>Beck monadicity theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>804</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000H</fr:addr><fr:route>ualg-000H.xml</fr:route><fr:title>Beck monadicity theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Let <fr:tex>G :  \mathcal { D }   \to   \mathcal { C }</fr:tex> be a functor with a left adjoint <fr:tex>F</fr:tex>. <fr:tex>G</fr:tex> is <fr:link
+  Let <fr:tex>G : {\mathcal{D}} \to {\mathcal{C}}</fr:tex> be a functor with a left adjoint <fr:tex>F</fr:tex>. <fr:tex>G</fr:tex> is <fr:link
 href="ualg-000A.xml"
 type="local"
 addr="ualg-000A">monadic</fr:link> iff <fr:tex>G</fr:tex> <fr:link
@@ -63,7 +63,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>602</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#241</fr:addr><fr:route>unstable-241.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>703</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000H</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -81,7 +81,7 @@ addr="ualg-000D">they are absolute</fr:link>.
     For sufficiency, we observe the proof of <fr:ref
 addr="ualg-000E"
 href="ualg-000E.xml"
-taxon="Theorem"></fr:ref>. Notice that the coequalizers involved are of the form <fr:tex>F \alpha ,  \epsilon  : FGFA  \rightrightarrows  FA</fr:tex>. The images of these under <fr:tex>G</fr:tex> are indeed split by <fr:tex>\eta  : GFA  \to  GFGFA</fr:tex> and <fr:tex>\eta  : A  \to  GFA</fr:tex>. Therefore we just have to show <fr:tex>G</fr:tex> reflects isomorphisms. Given an isomorphism <fr:tex>Gf : GA  \cong  GB</fr:tex>, we have a split coequalizer <fr:tex>GA  \rightrightarrows  GB  \to  GA</fr:tex> where the two maps on the left are <fr:tex>Gf</fr:tex>, and the map on the right is its inverse. This creates a map <fr:tex>g : B  \to  A</fr:tex> which is the coequalizer of <fr:tex>f</fr:tex> with itself. So this map must be an isomorphism. We then consider the coequalizer <fr:tex>GB  \rightrightarrows  GA  \to  GB</fr:tex>, where the two maps on the left are <fr:tex>Gg</fr:tex> and the map on the right is <fr:tex>Gf</fr:tex>. Since <fr:tex>G</fr:tex> reflects this limit, <fr:tex>f</fr:tex> must also be an isomorphism.
+taxon="Theorem"></fr:ref>. Notice that the coequalizers involved are of the form <fr:tex>F\alpha, \epsilon : FGFA \rightrightarrows FA</fr:tex>. The images of these under <fr:tex>G</fr:tex> are indeed split by <fr:tex>\eta : GFA \to GFGFA</fr:tex> and <fr:tex>\eta : A \to GFA</fr:tex>. Therefore we just have to show <fr:tex>G</fr:tex> reflects isomorphisms. Given an isomorphism <fr:tex>Gf : GA \cong GB</fr:tex>, we have a split coequalizer <fr:tex>GA \rightrightarrows GB \to GA</fr:tex> where the two maps on the left are <fr:tex>Gf</fr:tex>, and the map on the right is its inverse. This creates a map <fr:tex>g : B \to A</fr:tex> which is the coequalizer of <fr:tex>f</fr:tex> with itself. So this map must be an isomorphism. We then consider the coequalizer <fr:tex>GB \rightrightarrows GA \to GB</fr:tex>, where the two maps on the left are <fr:tex>Gg</fr:tex> and the map on the right is <fr:tex>Gf</fr:tex>. Since <fr:tex>G</fr:tex> reflects this limit, <fr:tex>f</fr:tex> must also be an isomorphism.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -92,17 +92,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>705</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000D</fr:addr><fr:route>ualg-000D.xml</fr:route><fr:title>Characterization of absolute coequalizers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>806</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000D</fr:addr><fr:route>ualg-000D.xml</fr:route><fr:title>Characterization of absolute coequalizers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a coequalizer diagram <fr:tex>X  \rightrightarrows  Y  \to  Z</fr:tex> where <fr:tex>\partial _0,  \partial _1 : X  \to  Y</fr:tex> are the two parallel arrows and the coequalizing arrow is <fr:tex>e : Y  \to  Z</fr:tex>, it is <fr:link
+  Given a coequalizer diagram <fr:tex>X \rightrightarrows Y \to Z</fr:tex> where <fr:tex>\partial_0, \partial_1 : X \to Y</fr:tex> are the two parallel arrows and the coequalizing arrow is <fr:tex>e : Y \to Z</fr:tex>, it is <fr:link
 href="ualg-000C.xml"
 type="local"
 addr="ualg-000C">absolute</fr:link>, if and only if the following conditions hold.
-</fr:p><fr:ul><fr:li><fr:tex>e</fr:tex> is split epimorphic, i.e. there is an arrow <fr:tex>r</fr:tex> such that <fr:tex>e  \circ  r =  \textrm {id} _Z</fr:tex>.</fr:li>
-  <fr:li>There is a list of <fr:tex>n</fr:tex> endomorphisms on <fr:tex>Y</fr:tex> starting with <fr:tex>r  \circ  e</fr:tex> and ending with <fr:tex>\textrm {id} _Y</fr:tex>, such that for each pair of adjacent morphisms, there is an arrow <fr:tex>s</fr:tex> such that <fr:tex>\partial _0  \circ  s</fr:tex> and <fr:tex>\partial _1  \circ  s</fr:tex> are equal to the two morphisms (in some order).</fr:li></fr:ul><fr:p>
-  Note that for <fr:tex>n = 0</fr:tex> this is the trivial coequalizer where <fr:tex>\partial _0 =  \partial _1</fr:tex> and <fr:tex>e</fr:tex> is an isomorphism. For <fr:tex>n = 1</fr:tex> this results in the <fr:link
+</fr:p><fr:ul><fr:li><fr:tex>e</fr:tex> is split epimorphic, i.e. there is an arrow <fr:tex>r</fr:tex> such that <fr:tex>e \mathbin{\circ} r = {\textrm{id}}_Z</fr:tex>.</fr:li>
+  <fr:li>There is a list of <fr:tex>n</fr:tex> endomorphisms on <fr:tex>Y</fr:tex> starting with <fr:tex>r \mathbin{\circ} e</fr:tex> and ending with <fr:tex>{\textrm{id}}_Y</fr:tex>, such that for each pair of adjacent morphisms, there is an arrow <fr:tex>s</fr:tex> such that <fr:tex>\partial_0 \mathbin{\circ} s</fr:tex> and <fr:tex>\partial_1 \mathbin{\circ} s</fr:tex> are equal to the two morphisms (in some order).</fr:li></fr:ul><fr:p>
+  Note that for <fr:tex>n = 0</fr:tex> this is the trivial coequalizer where <fr:tex>\partial_0 = \partial_1</fr:tex> and <fr:tex>e</fr:tex> is an isomorphism. For <fr:tex>n = 1</fr:tex> this results in the <fr:link
 href="ualg-000B.xml"
 type="local"
 addr="ualg-000B">split coequalizer</fr:link>.
@@ -116,7 +116,7 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>598</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#243</fr:addr><fr:route>unstable-243.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>699</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000D</fr:parent></fr:frontmatter><fr:mainmatter>
@@ -124,11 +124,11 @@ addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000D</fr:
     By the definition of an <fr:link
 href="ualg-000C.xml"
 type="local"
-addr="ualg-000C">absolute (co)limit</fr:link>, the coequalizer is preserved by every functor. Consider the functor <fr:tex>\hom (Z, -)</fr:tex>. We have <fr:tex>\hom (Z, e)</fr:tex> is a coequalizer map, and hence epimorphic. This means <fr:tex>e</fr:tex> itself is split epimorphic since <fr:tex>\textrm {id} _Z</fr:tex> is in the image, i.e. there is a morphism <fr:tex>r : Z  \to  Y</fr:tex> with <fr:tex>e  \circ  r =  \textrm {id} _Z</fr:tex>.
+addr="ualg-000C">absolute (co)limit</fr:link>, the coequalizer is preserved by every functor. Consider the functor <fr:tex>\hom(Z, -)</fr:tex>. We have <fr:tex>\hom(Z, e)</fr:tex> is a coequalizer map, and hence epimorphic. This means <fr:tex>e</fr:tex> itself is split epimorphic since <fr:tex>{\textrm{id}}_Z</fr:tex> is in the image, i.e. there is a morphism <fr:tex>r : Z \to Y</fr:tex> with <fr:tex>e \mathbin{\circ} r = {\textrm{id}}_Z</fr:tex>.
   </fr:p>
 
   <fr:p>
-    Next, we consider the functor <fr:tex>\hom (Y, -)</fr:tex>. Since this gives a coequalizer of sets, the quotient <fr:tex>\hom (Y, Y)  \xrightarrow {e  \circ  -}  \hom (Y, Z)</fr:tex> is given by the equivalence relation generated by <fr:tex>\partial _0  \circ  f =  \partial _1  \circ  f</fr:tex> for every <fr:tex>f : Y  \to  X</fr:tex>. There is a pair of elements mapped to the same element under <fr:tex>e  \circ  -</fr:tex> in this situation: one of them is obviously <fr:tex>\textrm {id} _Y</fr:tex>, and the other is <fr:tex>r  \circ  e</fr:tex>, since <fr:tex>e  \circ   \textrm {id} _Y = e = e  \circ  r  \circ  e</fr:tex>. Hence we get the chain of morphisms related in the way stated in the theorem.
+    Next, we consider the functor <fr:tex>\hom(Y, -)</fr:tex>. Since this gives a coequalizer of sets, the quotient <fr:tex>\hom(Y, Y) \xrightarrow{e \mathbin{\circ} -} \hom(Y, Z)</fr:tex> is given by the equivalence relation generated by <fr:tex>\partial_0 \mathbin{\circ} f = \partial_1 \mathbin{\circ} f</fr:tex> for every <fr:tex>f : Y \to X</fr:tex>. There is a pair of elements mapped to the same element under <fr:tex>e \mathbin{\circ} -</fr:tex> in this situation: one of them is obviously <fr:tex>{\textrm{id}}_Y</fr:tex>, and the other is <fr:tex>r \mathbin{\circ} e</fr:tex>, since <fr:tex>e \mathbin{\circ} {\textrm{id}}_Y = e = e \mathbin{\circ} r \mathbin{\circ} e</fr:tex>. Hence we get the chain of morphisms related in the way stated in the theorem.
   </fr:p>
 
   <fr:p>
