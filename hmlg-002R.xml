@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>313</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002R</fr:addr><fr:route>hmlg-002R.xml</fr:route><fr:title>James construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a pointed space <fr:tex>(X, x_0)</fr:tex>, the <fr:strong>James construction</fr:strong> <fr:tex>J X</fr:tex> is the homotopy coherent version of a free monoid (a.k.a. the type of lists or strings), such that the point acts as the neutral element. The space is constructed inductively from a point <fr:tex>[] \in JX</fr:tex>. For each point <fr:tex>y \in X</fr:tex> and <fr:tex>\vec{x} \in JX</fr:tex>, we have another point <fr:tex>y \mathbin{::} \vec{x} \in JX</fr:tex>. And finally for <fr:tex>\vec{x} \in JX</fr:tex> we adjoin a path from <fr:tex>x_0 \mathbin{::} \vec{x}</fr:tex> to <fr:tex>\vec{x}</fr:tex>.
+</fr:p><fr:p>
+  There is a map <fr:tex>X \to JX</fr:tex> given by <fr:tex>x \mapsto x \mathbin{::} []</fr:tex>, written as <fr:tex>[x]</fr:tex> for short.
+</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>311</fr:anchor><fr:addr>hmlg-002Q</fr:addr><fr:route>hmlg-002Q.xml</fr:route><fr:title>Synthetic characterization of the James construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The <fr:link
+href="hmlg-002R.xml"
+type="local"
+addr="hmlg-002R">James construction</fr:link> <fr:tex>JX</fr:tex> of a connected pointed space <fr:tex>X</fr:tex> is equivalent to the space <fr:tex>\Omega \Sigma X</fr:tex>, which is very intriguing considering that <fr:tex>\Omega \Sigma X</fr:tex> actually has a group structure up to homotopy. Its synthetic proof is enlightening.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>301</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#298</fr:addr><fr:route>unstable-298.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002Q</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    Since <fr:tex>X</fr:tex> is connected, for each <fr:tex>x</fr:tex> there exists a path back to the point <fr:tex>x_0</fr:tex>. <fr:tex>(x_0 \mathbin{::} -) = {\textrm{id}}</fr:tex> is an auto-equivalence on <fr:tex>JX</fr:tex>, so noting that being an equivalence is a proposition, <fr:tex>(x \mathbin{::} -)</fr:tex> is too, for all <fr:tex>x</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    Now consider a family of spaces indexed by <fr:tex>\Sigma X</fr:tex>. For the north and south pole we assign the space <fr:tex>JX</fr:tex>, and for each path between the poles induced by an element <fr:tex>x \in X</fr:tex>, we assign the equivalence <fr:tex>(x \mathbin{::} -)</fr:tex>, which by univalence induces a path.
+    The total space of this kind of families is characterized by the flattening lemma, in Section 6.12 of the <fr:link
+href="hott-book.xml"
+type="local"
+addr="hott-book">HoTT book</fr:link>. In this case, we have two copies of <fr:tex>JX</fr:tex> such that for each <fr:tex>x \in X</fr:tex>, <fr:tex>\vec{x} \in JX</fr:tex> we connect <fr:tex>\vec{x}</fr:tex> in the former copy to <fr:tex>x \mathbin{::} \vec{x}</fr:tex> in the latter with a path.
+  </fr:p>
+
+  <fr:p>
+    The total space is in fact contractible. Take the center to be <fr:tex>[]</fr:tex> in the north copy of <fr:tex>JX</fr:tex>. For any other point <fr:tex>\vec{x}</fr:tex> in the north copy, we can move to the south copy via the neutral element <fr:tex>(x_0 \mathbin{::} -)</fr:tex>, go along the path <fr:tex>(x_0 \mathbin{::} -) = {\textrm{id}}</fr:tex> in the south copy, and go back to the north copy removing the first entry. This allows us to recursively reach the empty list. For an element in the south copy, we can similarly move through <fr:tex>(x_0 \mathbin{::} -)</fr:tex> to the north copy and continue there.
+  </fr:p>
+
+  <fr:p>
+    We still need to arrange for the contraction of the paths. This can be easily seen by drawing a diagram of all the boundaries, though tedious to completely write down. This then establishes that we have a fiber sequence <fr:tex>JX \to 1 \to \Sigma X</fr:tex>, where the middle term is the total space constructed above, and <fr:tex>JX</fr:tex> is the fiber on top of the north pole of <fr:tex>\Sigma X</fr:tex>. Hence <fr:tex>JX</fr:tex> must be equivalent to the loop space <fr:tex>\Omega \Sigma X</fr:tex>.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

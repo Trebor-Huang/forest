@@ -7,19 +7,22 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1722</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#289</fr:addr><fr:route>unstable-289.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1740</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#289</fr:addr><fr:route>unstable-289.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000D</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000H</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We first deal with existence. By noetherianness, we perform well-founded induction. Suppose all the closed subsets of <fr:tex>Z</fr:tex> can be written as a finite union. If <fr:tex>Z</fr:tex> is irreducible then we’re done. Otherwise <fr:tex>Z = Z_1 \cup Z_2</fr:tex> is a non-trivial union of two closeds. By the induction hypothesis <fr:tex>Z_1</fr:tex> and <fr:tex>Z_2</fr:tex> can be written as a finite union of irreducible closeds, which we can combine to get the desired union.
+    Translating via <fr:ref
+addr="algm-0002"
+href="algm-0002.xml"
+taxon="Theorem"></fr:ref>, we have a proper ideal <fr:tex>\mathfrak{r}</fr:tex> that cannot be written as <fr:tex>\operatorname{lcm}(\mathfrak{r}_1, \mathfrak{r}_2)</fr:tex> non-trivially. Suppose <fr:tex>\mathfrak{r} \mid f g</fr:tex>, then <fr:tex>\mathfrak{r} \mid \sqrt{f g} \mid \operatorname{lcm}(f, g)</fr:tex>. So
+    <fr:tex
+display="block">\begin{aligned}       \mathfrak{r} &amp;= \gcd(\mathfrak{r}, \operatorname{lcm}(f, g)) \\       &amp;= \operatorname{lcm}(\gcd(\mathfrak{r}, f), \gcd(\mathfrak{r}, g)).     \end{aligned}</fr:tex>
+    Hence at least one of the two must be equal to <fr:tex>\mathfrak{r}</fr:tex>. So <fr:tex>\mathfrak{r} \mid f</fr:tex> or <fr:tex>\mathfrak{r} \mid g</fr:tex>.
   </fr:p>
 
   <fr:p>
-    We then prove uniqueness. Suppose
-    <fr:tex
-display="block">Z_1 \cup \cdots \cup Z_n = Z'_1 \cup \cdots \cup Z'_m.</fr:tex>
-    Consider the intersection with <fr:tex>Z_1</fr:tex>. The left hand side collapses to <fr:tex>Z_1</fr:tex>. The right hand side becomes <fr:tex>\bigcup_{i=1}^m (Z'_i \cap Z_1)</fr:tex>. Since <fr:tex>Z_1</fr:tex> is irreducible, <fr:tex>Z'_i \cap Z_1</fr:tex> must be either <fr:tex>Z_1</fr:tex> or empty. In the former case, since <fr:tex>Z'_i</fr:tex> is also irreducible, <fr:tex>Z'_i = Z_1</fr:tex>. Therefore each <fr:tex>Z_j</fr:tex> appears in the right hand side, and vice versa. Therefore the two sides are the same up to reordering and repetition.
+    An irreducible closed is an irreducible <fr:em>component</fr:em> if it is contained in no other irreducible closed. We immediately get the definition of minimal prime ideals translating to the algebraic realm.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -28,14 +31,11 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1720</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000D</fr:addr><fr:route>algm-000D.xml</fr:route><fr:title>A closed in a noetherian space is uniquely a finite union of irreducible closeds</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1738</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000H</fr:addr><fr:route>algm-000H.xml</fr:route><fr:title>Irreducible closeds in a ring spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  If <fr:tex>X</fr:tex> is a <fr:link
-href="algm-000C.xml"
-type="local"
-addr="algm-000C">noetherian space</fr:link>, then a closed <fr:tex>Z \subseteq X</fr:tex> can be written uniquely as the union of finitely many irreducible closeds.
+  A closed <fr:tex>V(\mathfrak{r})</fr:tex> in <fr:tex>\operatorname{Spec}(R)</fr:tex> is irreducible iff <fr:tex>\mathfrak{r}</fr:tex> is prime, and it is an irreducible component iff <fr:tex>\mathfrak{r}</fr:tex> is a minimal prime ideal, i.e. prime ideals that divide no other prime ideals.
 </fr:p>
   
     
@@ -46,20 +46,100 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1718</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#289</fr:addr><fr:route>unstable-289.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1736</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#289</fr:addr><fr:route>unstable-289.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000D</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000H</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We first deal with existence. By noetherianness, we perform well-founded induction. Suppose all the closed subsets of <fr:tex>Z</fr:tex> can be written as a finite union. If <fr:tex>Z</fr:tex> is irreducible then we’re done. Otherwise <fr:tex>Z = Z_1 \cup Z_2</fr:tex> is a non-trivial union of two closeds. By the induction hypothesis <fr:tex>Z_1</fr:tex> and <fr:tex>Z_2</fr:tex> can be written as a finite union of irreducible closeds, which we can combine to get the desired union.
+    Translating via <fr:ref
+addr="algm-0002"
+href="algm-0002.xml"
+taxon="Theorem"></fr:ref>, we have a proper ideal <fr:tex>\mathfrak{r}</fr:tex> that cannot be written as <fr:tex>\operatorname{lcm}(\mathfrak{r}_1, \mathfrak{r}_2)</fr:tex> non-trivially. Suppose <fr:tex>\mathfrak{r} \mid f g</fr:tex>, then <fr:tex>\mathfrak{r} \mid \sqrt{f g} \mid \operatorname{lcm}(f, g)</fr:tex>. So
+    <fr:tex
+display="block">\begin{aligned}       \mathfrak{r} &amp;= \gcd(\mathfrak{r}, \operatorname{lcm}(f, g)) \\       &amp;= \operatorname{lcm}(\gcd(\mathfrak{r}, f), \gcd(\mathfrak{r}, g)).     \end{aligned}</fr:tex>
+    Hence at least one of the two must be equal to <fr:tex>\mathfrak{r}</fr:tex>. So <fr:tex>\mathfrak{r} \mid f</fr:tex> or <fr:tex>\mathfrak{r} \mid g</fr:tex>.
   </fr:p>
 
   <fr:p>
-    We then prove uniqueness. Suppose
-    <fr:tex
-display="block">Z_1 \cup \cdots \cup Z_n = Z'_1 \cup \cdots \cup Z'_m.</fr:tex>
-    Consider the intersection with <fr:tex>Z_1</fr:tex>. The left hand side collapses to <fr:tex>Z_1</fr:tex>. The right hand side becomes <fr:tex>\bigcup_{i=1}^m (Z'_i \cap Z_1)</fr:tex>. Since <fr:tex>Z_1</fr:tex> is irreducible, <fr:tex>Z'_i \cap Z_1</fr:tex> must be either <fr:tex>Z_1</fr:tex> or empty. In the former case, since <fr:tex>Z'_i</fr:tex> is also irreducible, <fr:tex>Z'_i = Z_1</fr:tex>. Therefore each <fr:tex>Z_j</fr:tex> appears in the right hand side, and vice versa. Therefore the two sides are the same up to reordering and repetition.
+    An irreducible closed is an irreducible <fr:em>component</fr:em> if it is contained in no other irreducible closed. We immediately get the definition of minimal prime ideals translating to the algebraic realm.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1734</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0002</fr:addr><fr:route>algm-0002.xml</fr:route><fr:title>Radical ideals bijectively correspond to open sets</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  In an arbitrary <fr:link
+href="algm-0001.xml"
+type="local"
+addr="algm-0001">topological spectrum of a commutative ring</fr:link>, we have <fr:tex>D(\mathfrak{a}) = D(\sqrt{\mathfrak{a}})</fr:tex>. There is a containment of opens <fr:tex>D(\mathfrak{a}) \subseteq D(\mathfrak{b})</fr:tex> — equivalently <fr:tex>V(\mathfrak{b}) \subseteq V(\mathfrak{a})</fr:tex> — iff <fr:tex>\sqrt{\mathfrak{b}} \mid \sqrt{\mathfrak{a}}</fr:tex>, and the points contained in an open set completely determines the radical ideal.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1732</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#297</fr:addr><fr:route>unstable-297.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0002</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    Since <fr:tex>\mathfrak{p} \mid \mathfrak{a}</fr:tex> implies <fr:tex>\sqrt{\mathfrak{p}} \mid \sqrt{\mathfrak{a}}</fr:tex>, but <fr:tex>\mathfrak{p} = \sqrt{\mathfrak{p}}</fr:tex>, we see that <fr:tex>D(\mathfrak{a}) = D(\sqrt{\mathfrak{a}})</fr:tex>. We just have to prove the forward implication of the last statement. Suppose for all prime ideals <fr:tex>\mathfrak{p}</fr:tex> we have <fr:tex>\mathfrak{p} \mid \mathfrak{b} \implies \mathfrak{p} \mid \mathfrak{a}</fr:tex>. We need to prove that <fr:tex>\sqrt{\mathfrak{a}} \mid f \implies \sqrt{\mathfrak{b}} \mid f</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    Given <fr:tex>\sqrt{\mathfrak{a}} \mid f</fr:tex>, we have <fr:tex>\mathfrak{p} \mid f</fr:tex> for all prime ideals <fr:tex>\mathfrak{p} \mid \sqrt{\mathfrak{a}}</fr:tex> (which is equivalent to <fr:tex>\mathfrak{p} \mid \mathfrak{a}</fr:tex>). So we know that for all <fr:tex>\mathfrak{p} \mid \mathfrak{b}</fr:tex>, <fr:tex>\mathfrak{p} \mid f</fr:tex>. This is now purely a condition on <fr:tex>\mathfrak{b}</fr:tex>. The next lemma finishes the proof.
+  </fr:p>
+
+  <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1730</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0003</fr:addr><fr:route>algm-0003.xml</fr:route><fr:title>The radical ideal is the lcm of prime ideal divisors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  For any ideal <fr:tex>\mathfrak{a}</fr:tex> of a commutative ring, the radical <fr:tex>\sqrt{\mathfrak{a}}</fr:tex> is the lowest common multiple of the prime ideals <fr:tex>\mathfrak{p} \mid \mathfrak{a}</fr:tex>.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1728</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#296</fr:addr><fr:route>unstable-296.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0003</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    On one hand, if <fr:tex>\sqrt{\mathfrak{a}} \mid f</fr:tex>, then <fr:tex>\mathfrak{a} \mid f^n</fr:tex> for some natural number <fr:tex>n</fr:tex>. This means for all <fr:tex>\mathfrak{p} \mid \mathfrak{a}</fr:tex>, we have <fr:tex>\mathfrak{p} \mid f^n</fr:tex>, which by being a prime ideal implies <fr:tex>\mathfrak{p} \mid f</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    On the other hand, suppose <fr:tex>\mathfrak{a} \nmid f^n</fr:tex> for any <fr:tex>n</fr:tex>, we construct a prime ideal divisor of <fr:tex>\mathfrak{a}</fr:tex> that is not a divisor of <fr:tex>f</fr:tex>. Consider the set of all ideals not a divisor of <fr:tex>f^n</fr:tex> for any <fr:tex>n</fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex>\mathfrak{d}</fr:tex> still in this set, since <fr:tex>\mathfrak{d}</fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link
+href="https://en.wikipedia.org/wiki/Zorn's_lemma"
+type="external">Zorn’s lemma</fr:link>, the set contains some <fr:tex>\mathfrak{q}</fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex>\mathfrak{q} \nmid x, y</fr:tex> such that <fr:tex>\mathfrak{q} \mid x y</fr:tex>, then <fr:tex>\mathfrak{q}' = \gcd(\mathfrak{q}, x y)</fr:tex> is a proper divisor of <fr:tex>\mathfrak{q}</fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex>n</fr:tex> such that <fr:tex>x y \mid f^n</fr:tex>, so <fr:tex>\mathfrak{q} \mid x y \mid f^n</fr:tex>, contradiction.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

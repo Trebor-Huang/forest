@@ -7,24 +7,25 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2171</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2167</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000T</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Since the left adjoint preserves colimits, it preserves finite coproducts. Therefore by <fr:ref
-addr="hmlg-000S"
-href="hmlg-000S.xml"
-taxon="Definition"></fr:ref> it is an additive functor. Dually, the right adjoint preserves limits, and is also additive.</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Y</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    We simply need to note that an equalizer for <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> is equivalent to an equalizer for <fr:tex>(f-g)</fr:tex> and <fr:tex>0</fr:tex>, by bilinearity of composition.
+  </fr:p>
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2169</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000T</fr:addr><fr:route>hmlg-000T.xml</fr:route><fr:title>Adjunctions are additive</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2165</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000Y</fr:addr><fr:route>hmlg-000Y.xml</fr:route><fr:title>Equalizers can be reduced to kernels in <fr:tex>{\mathsf{Ab}}</fr:tex>-enriched categories</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  In an adjunction <fr:tex>F \dashv G</fr:tex>, both functors are automatically additive.
+  We can express equalizers with kernels (which are equalizers with the zero morphism).
 </fr:p>
   
     
@@ -35,61 +36,13 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>343</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>413</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000T</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Since the left adjoint preserves colimits, it preserves finite coproducts. Therefore by <fr:ref
-addr="hmlg-000S"
-href="hmlg-000S.xml"
-taxon="Definition"></fr:ref> it is an additive functor. Dually, the right adjoint preserves limits, and is also additive.</fr:p></fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2167</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000S</fr:addr><fr:route>hmlg-000S.xml</fr:route><fr:title>Additive functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given two <fr:link
-href="hmlg-000P.xml"
-type="local"
-addr="hmlg-000P">additive categories</fr:link> and a functor <fr:tex>F : {\mathcal{C}} \to {\mathcal{D}}</fr:tex> between them, the following are equivalent. In this case, we call the functor <fr:strong>additive</fr:strong>.
-</fr:p><fr:ul><fr:li>The functor preserves finite products.</fr:li>
-  <fr:li>The functor preserves finite coproducts.</fr:li>
-  <fr:li>The functor is a homomorphism on the abelian groups <fr:tex>\hom_{{\mathcal{C}}}(X, Y)</fr:tex>, i.e. it is an <fr:tex>{\mathsf{Ab}}</fr:tex>-enriched functor.</fr:li></fr:ul>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>304</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000S</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Y</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    For the equivalence of the first two claims, we have a composition
-    <fr:tex
-display="block">F(X) + F(Y) \to F(X + Y) \stackrel{\sim\,}{\to} F(X \times Y) \to F(X) \times F(Y),</fr:tex>
-    where the middle morphism comes from the canonical isomorphism <fr:tex>X + Y \stackrel{\sim\,}{\to} F(X \times Y)</fr:tex>. The first two claim is equivalent to the right and left arrows being iso, respectively. Recall that a morphism from a coproduct to a product is determined by a matrix of morphisms. With this fact and the functoriality of <fr:tex>F</fr:tex>, we can compute that the composition is the canonical isomorphism from <fr:tex>F(X) + F(Y)</fr:tex> to <fr:tex>F(X) \times F(Y)</fr:tex>. Therefore the leftmost arrow being iso is equivalent to the rightmost arrow being iso.
-  </fr:p>
-
-  <fr:p>
-    Since the abelian group structure on morphisms is <fr:link
-href="hmlg-000R.xml"
-type="local"
-addr="hmlg-000R">uniquely determined</fr:link> from the finite products and coproducts in an additive category, a functor satisfying the first two conditions automatically satisfies the third. Conversely, we need to prove the canonical maps <fr:tex>F(1) \to 1</fr:tex> and <fr:tex>F(X \times Y) \to F(X) \times F(Y)</fr:tex> are isomorphisms. For the first one, since <fr:tex>1</fr:tex> is also the initial object, any morphism into it is automatically iso. For the second one, we again look at the diagram which composes to an isomorphism:
-    <fr:tex
-display="block">F(X) + F(Y) \to F(X + Y) \stackrel{\sim\,}{\to} F(X \times Y) \to F(X) \times F(Y).</fr:tex>
-    Using the bilinearity of composition and that <fr:tex>F</fr:tex> preserves addition on morphisms, we can verify that this provides a two-sided inverse.
+    We simply need to note that an equalizer for <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> is equivalent to an equalizer for <fr:tex>(f-g)</fr:tex> and <fr:tex>0</fr:tex>, by bilinearity of composition.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
