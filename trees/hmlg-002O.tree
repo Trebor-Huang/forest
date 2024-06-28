@@ -1,0 +1,19 @@
+\date{2024-06-17}
+\title{abelian groups are injective iff divisible}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  An abelian group #{G} is [injective](hmlg-002J) iff it is \strong{divisible}, i.e. for element #{g \in G} and positive integer #{n}, there exists a (non-unique) solution of #{nx = g}.
+}
+
+\proof{
+  \p{
+    In one direction, suppose the group is injective, then the map #{\mathbb{Z} \to G} defined by #{k \mapsto k g} can be extended along the monomorphism #{(n \times -) : \mathbb{Z} \to \mathbb{Z}}. This provides the division.
+  }
+
+  \p{
+    On the other hand, suppose divisibility holds. Given a morphism #{f : A \to G} and an injection #{A \include B}, we extend #{f} to #{B} by Zorn's lemma. Consider the poset of homomorphisms extending #{f} to some subgroup of #{B}. Given a chain in this poset, we can take the union to create an upper bound. And it is non-empty since #{f} is an element. Hence it has a maximal element #{\phi}. Suppose it is defined on #{B' \subsetneq B}, then there is an element #{b \in B} not in #{B'}. Suppose #{n b \notin B'} for all non-zero integers #{n}, then we can define a larger homomorphism on #{B + \mathbb{Z} b}, contradicting the maximality. Suppose there is some #{n b \in B'}, then by divisibility we can assign #{\phi(b)} a division of #{\phi(n b)} by #{n}. This too contradicts maximality.
+  }
+}

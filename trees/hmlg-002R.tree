@@ -1,0 +1,15 @@
+\date{2024-06-28}
+\title{James construction}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\def\cons{\mathbin{::}}
+
+\p{
+  Given a pointed space #{(X, x_0)}, the \strong{James construction} #{J X} is the homotopy coherent version of a free monoid (a.k.a. the type of lists or strings), such that the point acts as the neutral element. The space is constructed inductively from a point #{[] \in JX}. For each point #{y \in X} and #{\vec{x} \in JX}, we have another point #{y \cons \vec{x} \in JX}. And finally for #{\vec{x} \in JX} we adjoin a path from #{x_0 \cons \vec{x}} to #{\vec{x}}.
+}
+
+\p{
+  There is a map #{X \to JX} given by #{x \mapsto x \cons []}, written as #{[x]} for short.
+}

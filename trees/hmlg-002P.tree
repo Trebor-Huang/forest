@@ -1,0 +1,15 @@
+\date{2024-06-19}
+\title{right adjoint of exact functor preserves injectives}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  Suppose #{F \dashv R}, #{F} is exact and #{I} is an [injective](hmlg-002J), then #{R(I)} is also an injective. Dually, if #{L \dashv F}, #{F} is exact and #{P} is a [projective](hmlg-0004), then #{L(P)} is also a projective.
+}
+
+\proof{
+  \p{
+    Notice that the right adjoint preserves products, and so is [additive](hmlg-000S). We need to show that #{\hom(-, R(I))} is [exact](hmlg-000X), which amounts to saying the composition of #{F} and #{\hom(-, I)} is exact, which is true because both are exact.
+  }
+}

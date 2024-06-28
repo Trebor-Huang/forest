@@ -1,0 +1,28 @@
+\date{2024-06-28}
+\title{synthetic characterization of the James construction}
+\author{trebor}
+\import{common}
+\import{hmlg-002R}
+
+\p{
+  The [[hmlg-002R]] #{JX} of a connected pointed space #{X} is equivalent to the space #{\Omega \Sigma X}, which is very intriguing considering that #{\Omega \Sigma X} actually has a group structure up to homotopy. Its synthetic proof is enlightening.
+}
+
+\proof{
+  \p{
+    Since #{X} is connected, for each #{x} there exists a path back to the point #{x_0}. #{(x_0 \cons -) = \id} is an auto-equivalence on #{JX}, so noting that being an equivalence is a proposition, #{(x \cons -)} is too, for all #{x}.
+  }
+
+  \p{
+    Now consider a family of spaces indexed by #{\Sigma X}. For the north and south pole we assign the space #{JX}, and for each path between the poles induced by an element #{x \in X}, we assign the equivalence #{(x \cons -)}, which by univalence induces a path.
+    The total space of this kind of families is characterized by the flattening lemma, in Section 6.12 of the [HoTT book](hott-book). In this case, we have two copies of #{JX} such that for each #{x \in X}, #{\vec{x} \in JX} we connect #{\vec{x}} in the former copy to #{x \cons \vec{x}} in the latter with a path.
+  }
+
+  \p{
+    The total space is in fact contractible. Take the center to be #{[]} in the north copy of #{JX}. For any other point #{\vec{x}} in the north copy, we can move to the south copy via the neutral element #{(x_0 \cons -)}, go along the path #{(x_0 \cons -) = \id} in the south copy, and go back to the north copy removing the first entry. This allows us to recursively reach the empty list. For an element in the south copy, we can similarly move through #{(x_0 \cons -)} to the north copy and continue there.
+  }
+
+  \p{
+    We still need to arrange for the contraction of the paths. This can be easily seen by drawing a diagram of all the boundaries, though tedious to completely write down. This then establishes that we have a fiber sequence #{JX \to 1 \to \Sigma X}, where the middle term is the total space constructed above, and #{JX} is the fiber on top of the north pole of #{\Sigma X}. Hence #{JX} must be equivalent to the loop space #{\Omega \Sigma X}.
+  }
+}
