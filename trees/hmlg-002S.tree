@@ -1,0 +1,9 @@
+\date{2024-07-04}
+\title{effaceable functor}
+\taxon{definition}
+\author{trebor}
+\import{common}
+
+\p{
+  An [[hmlg-000S]] #{F : \CatVar{A} \to \CatVar{B}} is \strong{effaceable} iff for each object #{X} in #{\CatVar{A}}, there exists a monomorphism #{X \to I} whose image under #{F} is zero. Dually, it is \strong{coeffaceable} iff for each object #{X} there exists an epimorphism #{P \to X} whose image under #{F} is zero.
+}
