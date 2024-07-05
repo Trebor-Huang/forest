@@ -7,15 +7,37 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1999</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2028</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001E</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001H</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Let the reduction <fr:tex>\rho</fr:tex> be made out of the three maps <fr:tex>{\pi_{\rho}} : C \to D</fr:tex>, <fr:tex>{\iota_{\rho}} : D \to C</fr:tex> and <fr:tex>{h_{\rho}} : C \to C</fr:tex>. Then since <fr:tex>C</fr:tex> splits as the direct sum of <fr:tex>D</fr:tex> and an <fr:link
-href="hmlg-000D.xml"
+    A chain reduction consists of maps <fr:tex>C_k \mathrel{\smash{\xtofrom[g_k]{f_k}}} D_k</fr:tex> such that <fr:tex>f_k \mathbin{\circ} g_k = {\textrm{id}}</fr:tex>. Therefore <fr:tex>C_\bullet</fr:tex> <fr:link
+href="todo.xml"
 type="local"
-addr="hmlg-000D">acyclic</fr:link> complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition <fr:tex>\delta_C = {\iota_{\rho}} \mathbin{\circ} \delta_D \mathbin{\circ} {\pi_{\rho}}</fr:tex>. A quick computation shows that <fr:tex>\rho</fr:tex> is still a reduction of the perturbed chain complexes.
+addr="todo">splits</fr:link> as <fr:tex>D_\bullet \oplus E_\bullet</fr:tex>, and the boundary maps are preserved since <fr:tex>f, g</fr:tex> are chain maps. We have a homotopy <fr:tex>h_k : D_k \oplus E_k \to D_{k+1} \oplus E_{k+1}</fr:tex>, which we may write as a <fr:tex>(2 \times 2)</fr:tex>-matrix. <fr:tex>f \mathbin{\circ} h = 0</fr:tex> demands the first row to be zero, and <fr:tex>h \mathbin{\circ} g = 0</fr:tex> requires the first column to vanish. This leaves us with
+    <fr:tex
+display="block">\begin{bmatrix}       0 &amp; 0 \\       0 &amp; r_k     \end{bmatrix}</fr:tex>
+    such that <fr:tex>r_{k+1} \mathbin{\circ} r_k = 0</fr:tex>, since <fr:tex>h \mathbin{\circ} h = 0</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    Substituting the requirement that <fr:tex>h</fr:tex> is a homotopy <fr:tex>{\textrm{id}} \to g \mathbin{\circ} f</fr:tex>, we get the equation <fr:tex
+display="block">d_{k+1} \mathbin{\circ} r_k + r_{k-1} \mathbin{\circ} d_k = {\textrm{id}},</fr:tex> where <fr:tex>d</fr:tex> is the boundary operator on <fr:tex>E_\bullet</fr:tex>. In other words, <fr:tex>r</fr:tex> is a null-homotopy of <fr:tex>E_\bullet</fr:tex>, rendering it <fr:link
+href="todo.xml"
+type="local"
+addr="todo">split exact</fr:link>. Conversely, given <fr:tex>C \cong D \oplus E</fr:tex>, we can reconstruct <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> as the projection and inclusion maps, with <fr:tex>h</fr:tex> obtained out of <fr:tex>r</fr:tex> in the manner depicted above.
+  </fr:p>
+
+  <fr:p>
+    On the other hand, given only the homotopy operator, we expect to have <fr:tex>d \mathbin{\circ} h + h \mathbin{\circ} d = {\textrm{id}} - g \mathbin{\circ} f</fr:tex>. And since <fr:tex>g \mathbin{\circ} f</fr:tex> should be the projector of <fr:tex>C</fr:tex> onto the subspace <fr:tex>D</fr:tex>, <fr:tex>{\textrm{id}} - g \mathbin{\circ} f</fr:tex> should be the projector onto <fr:tex>E</fr:tex>. We are thus led to proving <fr:tex>p = d \mathbin{\circ} h + h \mathbin{\circ} d</fr:tex> is indeed a projector.
+    <fr:tex
+display="block">\begin{aligned}       p_k \mathbin{\circ} p_k &amp;= (d_{k+1} \mathbin{\circ} h_k + h_{k-1} \mathbin{\circ} d_k) \mathbin{\circ} (d_{k+1} \mathbin{\circ} h_k + h_{k-1} \mathbin{\circ} d_k) \\       &amp;= d_{k+1} \mathbin{\circ} \overbrace{h_k \mathbin{\circ} d_{k+1} \mathbin{\circ} h_k}^{h_k} + d_{k+1} \mathbin{\circ} \overbrace{h_k \mathbin{\circ} h_{k-1}}^{0} \mathbin{\circ} d_k \\       &amp;\qquad + h_{k-1} \mathbin{\circ} \underbrace{d_k \mathbin{\circ} d_{k+1}}_{0} \mathbin{\circ} h_k + \underbrace{h_{k-1} \mathbin{\circ} d_k \mathbin{\circ} h_{k-1}}_{h_{k-1}} \mathbin{\circ} d_k \\       &amp;= d_{k+1} \mathbin{\circ} h_k + h_{k-1} \mathbin{\circ} d_k = p_k.     \end{aligned}</fr:tex>
+    Therefore we conclude that <fr:tex>p_k</fr:tex> splits <fr:tex>C_k \cong D_k \oplus E_k</fr:tex>. More over, <fr:tex>p \mathbin{\circ} d = d \mathbin{\circ} h \mathbin{\circ} d = d \mathbin{\circ} p</fr:tex>, meaning <fr:tex>p</fr:tex> is a chain map, and therefore the splitting is compatible with the boundary operator. Since <fr:tex>h \mathbin{\circ} p = p \mathbin{\circ} h = h \mathbin{\circ} d \mathbin{\circ} h = h</fr:tex>, the homotopy is also compatible with the splitting, so we can restrict it onto <fr:tex>E_k</fr:tex> to get a homotopy from <fr:tex>{\textrm{id}}_E</fr:tex> to <fr:tex>0</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    Finally, restricting <fr:tex>h</fr:tex> onto <fr:tex>D_k</fr:tex> we see that it must be zero, since <fr:tex>h({\textrm{id}} - p) = h - h \mathbin{\circ} d \mathbin{\circ} h = 0</fr:tex>. This means that all the information of <fr:tex>h</fr:tex> can be reconstructed from the splitting, and thus all three sets of data are equivalent.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -24,18 +46,26 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1997</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001E</fr:addr><fr:route>hmlg-001E.xml</fr:route><fr:title><fr:link
-href="hmlg-001C.xml"
-type="local"
-addr="hmlg-001C">Perturbation</fr:link> of the smaller chain complex in a <fr:link
+root="false"><fr:frontmatter><fr:anchor>2026</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-001H</fr:addr><fr:route>hmlg-001H.xml</fr:route><fr:title>Characterization of <fr:link
 href="hmlg-0017.xml"
 type="local"
-addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a reduction <fr:tex>\rho : C \Rightarrow\mkern{-14mu}\Rightarrow D</fr:tex> and a perturbation <fr:tex>\delta_D</fr:tex> for <fr:tex>D</fr:tex>, we can construct a perturbation <fr:tex>\delta_C</fr:tex> for <fr:tex>C</fr:tex>, such that the same <fr:tex>\rho</fr:tex> can serve as a reduction of the perturbed chain complexes.
-</fr:p>
+  The following data are equivalent.
+</fr:p><fr:ul><fr:li>A <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reduction</fr:link> <fr:tex>\rho : C \Rightarrow\mkern{-14mu}\Rightarrow D</fr:tex>.</fr:li>
+  <fr:li>A splitting <fr:tex>C \cong D \oplus E</fr:tex>, where <fr:tex>E</fr:tex> is a <fr:link
+href="todo.xml"
+type="local"
+addr="todo">split exact</fr:link>.</fr:li>
+  <fr:li>A <fr:link
+href="hmlg-0016.xml"
+type="local"
+addr="hmlg-0016">chain homotopy</fr:link> <fr:tex>h : C \to C</fr:tex> satisfying <fr:tex>h \mathbin{\circ} h = 0</fr:tex> and <fr:tex>h \mathbin{\circ} d_C \mathbin{\circ} h = h</fr:tex>.</fr:li></fr:ul>
   
     
     <fr:tree
@@ -45,15 +75,37 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1952</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1078</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#261</fr:addr><fr:route>unstable-261.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001E</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001H</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Let the reduction <fr:tex>\rho</fr:tex> be made out of the three maps <fr:tex>{\pi_{\rho}} : C \to D</fr:tex>, <fr:tex>{\iota_{\rho}} : D \to C</fr:tex> and <fr:tex>{h_{\rho}} : C \to C</fr:tex>. Then since <fr:tex>C</fr:tex> splits as the direct sum of <fr:tex>D</fr:tex> and an <fr:link
-href="hmlg-000D.xml"
+    A chain reduction consists of maps <fr:tex>C_k \mathrel{\smash{\xtofrom[g_k]{f_k}}} D_k</fr:tex> such that <fr:tex>f_k \mathbin{\circ} g_k = {\textrm{id}}</fr:tex>. Therefore <fr:tex>C_\bullet</fr:tex> <fr:link
+href="todo.xml"
 type="local"
-addr="hmlg-000D">acyclic</fr:link> complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition <fr:tex>\delta_C = {\iota_{\rho}} \mathbin{\circ} \delta_D \mathbin{\circ} {\pi_{\rho}}</fr:tex>. A quick computation shows that <fr:tex>\rho</fr:tex> is still a reduction of the perturbed chain complexes.
+addr="todo">splits</fr:link> as <fr:tex>D_\bullet \oplus E_\bullet</fr:tex>, and the boundary maps are preserved since <fr:tex>f, g</fr:tex> are chain maps. We have a homotopy <fr:tex>h_k : D_k \oplus E_k \to D_{k+1} \oplus E_{k+1}</fr:tex>, which we may write as a <fr:tex>(2 \times 2)</fr:tex>-matrix. <fr:tex>f \mathbin{\circ} h = 0</fr:tex> demands the first row to be zero, and <fr:tex>h \mathbin{\circ} g = 0</fr:tex> requires the first column to vanish. This leaves us with
+    <fr:tex
+display="block">\begin{bmatrix}       0 &amp; 0 \\       0 &amp; r_k     \end{bmatrix}</fr:tex>
+    such that <fr:tex>r_{k+1} \mathbin{\circ} r_k = 0</fr:tex>, since <fr:tex>h \mathbin{\circ} h = 0</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    Substituting the requirement that <fr:tex>h</fr:tex> is a homotopy <fr:tex>{\textrm{id}} \to g \mathbin{\circ} f</fr:tex>, we get the equation <fr:tex
+display="block">d_{k+1} \mathbin{\circ} r_k + r_{k-1} \mathbin{\circ} d_k = {\textrm{id}},</fr:tex> where <fr:tex>d</fr:tex> is the boundary operator on <fr:tex>E_\bullet</fr:tex>. In other words, <fr:tex>r</fr:tex> is a null-homotopy of <fr:tex>E_\bullet</fr:tex>, rendering it <fr:link
+href="todo.xml"
+type="local"
+addr="todo">split exact</fr:link>. Conversely, given <fr:tex>C \cong D \oplus E</fr:tex>, we can reconstruct <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> as the projection and inclusion maps, with <fr:tex>h</fr:tex> obtained out of <fr:tex>r</fr:tex> in the manner depicted above.
+  </fr:p>
+
+  <fr:p>
+    On the other hand, given only the homotopy operator, we expect to have <fr:tex>d \mathbin{\circ} h + h \mathbin{\circ} d = {\textrm{id}} - g \mathbin{\circ} f</fr:tex>. And since <fr:tex>g \mathbin{\circ} f</fr:tex> should be the projector of <fr:tex>C</fr:tex> onto the subspace <fr:tex>D</fr:tex>, <fr:tex>{\textrm{id}} - g \mathbin{\circ} f</fr:tex> should be the projector onto <fr:tex>E</fr:tex>. We are thus led to proving <fr:tex>p = d \mathbin{\circ} h + h \mathbin{\circ} d</fr:tex> is indeed a projector.
+    <fr:tex
+display="block">\begin{aligned}       p_k \mathbin{\circ} p_k &amp;= (d_{k+1} \mathbin{\circ} h_k + h_{k-1} \mathbin{\circ} d_k) \mathbin{\circ} (d_{k+1} \mathbin{\circ} h_k + h_{k-1} \mathbin{\circ} d_k) \\       &amp;= d_{k+1} \mathbin{\circ} \overbrace{h_k \mathbin{\circ} d_{k+1} \mathbin{\circ} h_k}^{h_k} + d_{k+1} \mathbin{\circ} \overbrace{h_k \mathbin{\circ} h_{k-1}}^{0} \mathbin{\circ} d_k \\       &amp;\qquad + h_{k-1} \mathbin{\circ} \underbrace{d_k \mathbin{\circ} d_{k+1}}_{0} \mathbin{\circ} h_k + \underbrace{h_{k-1} \mathbin{\circ} d_k \mathbin{\circ} h_{k-1}}_{h_{k-1}} \mathbin{\circ} d_k \\       &amp;= d_{k+1} \mathbin{\circ} h_k + h_{k-1} \mathbin{\circ} d_k = p_k.     \end{aligned}</fr:tex>
+    Therefore we conclude that <fr:tex>p_k</fr:tex> splits <fr:tex>C_k \cong D_k \oplus E_k</fr:tex>. More over, <fr:tex>p \mathbin{\circ} d = d \mathbin{\circ} h \mathbin{\circ} d = d \mathbin{\circ} p</fr:tex>, meaning <fr:tex>p</fr:tex> is a chain map, and therefore the splitting is compatible with the boundary operator. Since <fr:tex>h \mathbin{\circ} p = p \mathbin{\circ} h = h \mathbin{\circ} d \mathbin{\circ} h = h</fr:tex>, the homotopy is also compatible with the splitting, so we can restrict it onto <fr:tex>E_k</fr:tex> to get a homotopy from <fr:tex>{\textrm{id}}_E</fr:tex> to <fr:tex>0</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    Finally, restricting <fr:tex>h</fr:tex> onto <fr:tex>D_k</fr:tex> we see that it must be zero, since <fr:tex>h({\textrm{id}} - p) = h - h \mathbin{\circ} d \mathbin{\circ} h = 0</fr:tex>. This means that all the information of <fr:tex>h</fr:tex> can be reconstructed from the splitting, and thus all three sets of data are equivalent.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -64,9 +116,114 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1995</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000D</fr:addr><fr:route>hmlg-000D.xml</fr:route><fr:title>Acyclic chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2025</fr:anchor><fr:taxon>Meta</fr:taxon><fr:addr>todo</fr:addr><fr:route>todo.xml</fr:route><fr:title>Unfinished trees</fr:title></fr:frontmatter><fr:mainmatter><fr:p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</fr:p><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>1216</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002F</fr:addr><fr:route>hmlg-002F.xml</fr:route><fr:title>Twisted tensor product</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  If all the homology groups vanish, then the chain complex is said fo be <fr:strong>acyclic</fr:strong> or <fr:strong>exact</fr:strong>. Equivalently, every cycle is a boundary.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+  (...)
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>1218</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-002D</fr:addr><fr:route>hmlg-002D.xml</fr:route><fr:title>Associated twisted product</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  The <fr:link
+href="hmlg-002C.xml"
+type="local"
+addr="hmlg-002C">associated simplicial fiber bundle</fr:link> of <fr:link
+href="hmlg-002B.xml"
+type="local"
+addr="hmlg-002B">twisted products</fr:link> admits a simpler description. Suppose we have simplicial sets <fr:tex>F, B</fr:tex>, a simplicial group <fr:tex>G</fr:tex> with an action <fr:tex>G \times F \to F</fr:tex> and a <fr:link
+href="hmlg-002A.xml"
+type="local"
+addr="hmlg-002A">twisting function</fr:link> <fr:tex>\tau</fr:tex> on <fr:tex>B</fr:tex>. The <fr:strong>associated twisted product</fr:strong> <fr:tex>B \times_\tau F</fr:tex> is defined exactly the same as twisted products, except we replace the factor <fr:tex>G</fr:tex> with <fr:tex>F</fr:tex>. This still makes sense, because we can interpret the multiplication <fr:tex>\tau(b) \cdot \partial_n f</fr:tex> as the <fr:tex>G</fr:tex>-action.
+</fr:p><fr:p>
+  In particular, if we consider <fr:tex>G</fr:tex> as a simplicial set with a <fr:tex>G</fr:tex>-action on the left via multiplication, then the associated twisted product <fr:tex>B \times_\tau G</fr:tex> is exactly the same as the twisted product <fr:tex>B \times_\tau G</fr:tex>, which explains our identical notation.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>1220</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001M</fr:addr><fr:route>hmlg-001M.xml</fr:route><fr:title>Chain reduction of mapping cones</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given a pair of <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reductions</fr:link> <fr:tex>\rho : C \Rightarrow\mkern{-14mu}\Rightarrow D</fr:tex> and <fr:tex>\rho' : C' \Rightarrow\mkern{-14mu}\Rightarrow D'</fr:tex>, we can construct a reduction from the mapping cone <fr:tex>\operatorname{Cone}(f)</fr:tex> of a chain map <fr:tex>f : C \to C'</fr:tex> to (the action of <fr:tex>\rho</fr:tex> on <fr:tex>f</fr:tex>).
+</fr:p></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>1222</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  This is a set of notes on effective homology and algebraic topology. Main references are <fr:link
+href="constructive-homological-algebra.xml"
+type="local"
+addr="constructive-homological-algebra">Constructive Homological Algebra and Applications</fr:link> and <fr:link
+href="discrete-vector-fields.xml"
+type="local"
+addr="discrete-vector-fields">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. We assume basic familiarity with the classical aspects of the theory, although there will also be links within this forest to the relevant concepts.
+</fr:p><fr:ul><fr:li><fr:link
+href="hmlg-0021.xml"
+type="local"
+addr="hmlg-0021">W-bar construction</fr:link>, simplicial principal bundles, twisted products by <fr:link
+href="simplicial-objects.xml"
+type="local"
+addr="simplicial-objects">Simplicial objects in algebraic topology</fr:link></fr:li>
+  <fr:li>classifying space, loop space</fr:li>
+  <fr:li>composition of <fr:link
+href="hmlg-001I.xml"
+type="local"
+addr="hmlg-001I">strong homology equivalence</fr:link>, tensor product, cone, bicomplex</fr:li>
+  <fr:li>simplicial group, Kan complex</fr:li>
+  <fr:li>organize into notes</fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"><fr:frontmatter><fr:anchor>1226</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000F</fr:addr><fr:route>hmlg-000F.xml</fr:route><fr:title>Freyd–Mitchell embedding theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex>R</fr:tex>-modules for some ring <fr:tex>R</fr:tex>.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>1224</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
+  (TODO)
+</fr:p></fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

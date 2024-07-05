@@ -7,63 +7,15 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2163</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2064</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Z</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001E</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We claim that <fr:tex>f</fr:tex> being monic is equivalent to the following square being a pullback square:
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="ad929c5530d9c44eb95094753ba26442"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-      X &amp; X \\
-      X &amp; Y
-      \arrow["f"', from=2-1, to=2-2]
-      \arrow["f", from=1-2, to=2-2]
-      \arrow["{\textrm{id}}"', from=1-1, to=2-1]
-      \arrow["{\textrm{id}}", from=1-1, to=1-2]
-      \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
-    \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span></fr:p>
-
-  <fr:p>
-    For the forward implication, we consider the diagram
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="87d6c86cbda4c17c65fa2c9359eaea88"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-      Z \\
-      &amp; X &amp; X \\
-      &amp; X &amp; Y
-      \arrow["f"', from=3-2, to=3-3]
-      \arrow["f", from=2-3, to=3-3]
-      \arrow["{\textrm{id}}"', from=2-2, to=3-2]
-      \arrow["{\textrm{id}}", from=2-2, to=2-3]
-      \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=2-2, to=3-3]
-      \arrow[dashed, from=1-1, to=2-2]
-      \arrow["g"', curve={height=6pt}, from=1-1, to=3-2]
-      \arrow["h", curve={height=-6pt}, from=1-1, to=2-3]
-    \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-    Since <fr:tex>f</fr:tex> is mono, this diagram commutes iff <fr:tex>g = h</fr:tex>, in which case there is a unique way to fill in the dashed arrow, which is <fr:tex>g</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    On the other hand, if the diagram is a pullback, then for every pair of morphisms <fr:tex>g, h : Z \rightrightarrows X</fr:tex>, we can draw the diagram above, and obtain the dashed arrow <fr:tex>k : Z \to X</fr:tex>. The diagram commuting implies <fr:tex>g = {\textrm{id}} \mathbin{\circ} k = h</fr:tex>.
+    Let the reduction <fr:tex>\rho</fr:tex> be made out of the three maps <fr:tex>{\pi_{\rho}} : C \to D</fr:tex>, <fr:tex>{\iota_{\rho}} : D \to C</fr:tex> and <fr:tex>{h_{\rho}} : C \to C</fr:tex>. Then since <fr:tex>C</fr:tex> splits as the direct sum of <fr:tex>D</fr:tex> and an <fr:link
+href="hmlg-000D.xml"
+type="local"
+addr="hmlg-000D">acyclic</fr:link> complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition <fr:tex>\delta_C = {\iota_{\rho}} \mathbin{\circ} \delta_D \mathbin{\circ} {\pi_{\rho}}</fr:tex>. A quick computation shows that <fr:tex>\rho</fr:tex> is still a reduction of the perturbed chain complexes.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -72,11 +24,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2161</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000Z</fr:addr><fr:route>hmlg-000Z.xml</fr:route><fr:title>Monomorphisms can be expressed using finite limits</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2062</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001E</fr:addr><fr:route>hmlg-001E.xml</fr:route><fr:title><fr:link
+href="hmlg-001C.xml"
+type="local"
+addr="hmlg-001C">Perturbation</fr:link> of the smaller chain complex in a <fr:link
+href="hmlg-0017.xml"
+type="local"
+addr="hmlg-0017">chain reduction</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a morphism <fr:tex>f : X \to Y</fr:tex> in an arbitrary category, we can express the condition of being monic using finite limits.
+  Given a reduction <fr:tex>\rho : C \Rightarrow\mkern{-14mu}\Rightarrow D</fr:tex> and a perturbation <fr:tex>\delta_D</fr:tex> for <fr:tex>D</fr:tex>, we can construct a perturbation <fr:tex>\delta_C</fr:tex> for <fr:tex>C</fr:tex>, such that the same <fr:tex>\rho</fr:tex> can serve as a reduction of the perturbed chain complexes.
 </fr:p>
   
     
@@ -87,64 +45,28 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2159</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2017</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Z</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001E</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    We claim that <fr:tex>f</fr:tex> being monic is equivalent to the following square being a pullback square:
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="ad929c5530d9c44eb95094753ba26442"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-      X &amp; X \\
-      X &amp; Y
-      \arrow["f"', from=2-1, to=2-2]
-      \arrow["f", from=1-2, to=2-2]
-      \arrow["{\textrm{id}}"', from=1-1, to=2-1]
-      \arrow["{\textrm{id}}", from=1-1, to=1-2]
-      \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
-    \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span></fr:p>
-
-  <fr:p>
-    For the forward implication, we consider the diagram
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="87d6c86cbda4c17c65fa2c9359eaea88"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-      Z \\
-      &amp; X &amp; X \\
-      &amp; X &amp; Y
-      \arrow["f"', from=3-2, to=3-3]
-      \arrow["f", from=2-3, to=3-3]
-      \arrow["{\textrm{id}}"', from=2-2, to=3-2]
-      \arrow["{\textrm{id}}", from=2-2, to=2-3]
-      \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=2-2, to=3-3]
-      \arrow[dashed, from=1-1, to=2-2]
-      \arrow["g"', curve={height=6pt}, from=1-1, to=3-2]
-      \arrow["h", curve={height=-6pt}, from=1-1, to=2-3]
-    \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-    Since <fr:tex>f</fr:tex> is mono, this diagram commutes iff <fr:tex>g = h</fr:tex>, in which case there is a unique way to fill in the dashed arrow, which is <fr:tex>g</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    On the other hand, if the diagram is a pullback, then for every pair of morphisms <fr:tex>g, h : Z \rightrightarrows X</fr:tex>, we can draw the diagram above, and obtain the dashed arrow <fr:tex>k : Z \to X</fr:tex>. The diagram commuting implies <fr:tex>g = {\textrm{id}} \mathbin{\circ} k = h</fr:tex>.
+    Let the reduction <fr:tex>\rho</fr:tex> be made out of the three maps <fr:tex>{\pi_{\rho}} : C \to D</fr:tex>, <fr:tex>{\iota_{\rho}} : D \to C</fr:tex> and <fr:tex>{h_{\rho}} : C \to C</fr:tex>. Then since <fr:tex>C</fr:tex> splits as the direct sum of <fr:tex>D</fr:tex> and an <fr:link
+href="hmlg-000D.xml"
+type="local"
+addr="hmlg-000D">acyclic</fr:link> complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition <fr:tex>\delta_C = {\iota_{\rho}} \mathbin{\circ} \delta_D \mathbin{\circ} {\pi_{\rho}}</fr:tex>. A quick computation shows that <fr:tex>\rho</fr:tex> is still a reduction of the perturbed chain complexes.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>2060</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000D</fr:addr><fr:route>hmlg-000D.xml</fr:route><fr:title>Acyclic chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  If all the homology groups vanish, then the chain complex is said fo be <fr:strong>acyclic</fr:strong> or <fr:strong>exact</fr:strong>. Equivalently, every cycle is a boundary.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

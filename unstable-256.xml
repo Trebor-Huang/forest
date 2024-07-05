@@ -7,12 +7,16 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>547</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>405</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0029</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002O</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Given a horn <fr:tex>\Lambda^n_k \to E</fr:tex> and a compatible simplex <fr:tex>\Delta^n \to B</fr:tex>, by the definition of simplicial fiber bundles, we may trivialize the bundle on the simplex locally. But since <fr:tex>F</fr:tex> is Kan, obviously <fr:tex>F \times \Delta^n \to \Delta^n</fr:tex> is also Kan. Hence we may select the required filling.
+    In one direction, suppose the group is injective, then the map <fr:tex>\mathbb{Z} \to G</fr:tex> defined by <fr:tex>k \mapsto k g</fr:tex> can be extended along the monomorphism <fr:tex>(n \times -) : \mathbb{Z} \to \mathbb{Z}</fr:tex>. This provides the division.
+  </fr:p>
+
+  <fr:p>
+    On the other hand, suppose divisibility holds. Given a morphism <fr:tex>f : A \to G</fr:tex> and an injection <fr:tex>A \hookrightarrow B</fr:tex>, we extend <fr:tex>f</fr:tex> to <fr:tex>B</fr:tex> by Zorn's lemma. Consider the poset of homomorphisms extending <fr:tex>f</fr:tex> to some subgroup of <fr:tex>B</fr:tex>. Given a chain in this poset, we can take the union to create an upper bound. And it is non-empty since <fr:tex>f</fr:tex> is an element. Hence it has a maximal element <fr:tex>\phi</fr:tex>. Suppose it is defined on <fr:tex>B' \subsetneq B</fr:tex>, then there is an element <fr:tex>b \in B</fr:tex> not in <fr:tex>B'</fr:tex>. Suppose <fr:tex>n b \notin B'</fr:tex> for all non-zero integers <fr:tex>n</fr:tex>, then we can define a larger homomorphism on <fr:tex>B + \mathbb{Z} b</fr:tex>, contradicting the maximality. Suppose there is some <fr:tex>n b \in B'</fr:tex>, then by divisibility we can assign <fr:tex>\phi(b)</fr:tex> a division of <fr:tex>\phi(n b)</fr:tex> by <fr:tex>n</fr:tex>. This too contradicts maximality.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -21,17 +25,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>545</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0029</fr:addr><fr:route>hmlg-0029.xml</fr:route><fr:title>Kan fiber bundle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>403</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-002O</fr:addr><fr:route>hmlg-002O.xml</fr:route><fr:title>Abelian groups are injective iff divisible</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
-href="hmlg-0026.xml"
+  An abelian group <fr:tex>G</fr:tex> is <fr:link
+href="hmlg-002J.xml"
 type="local"
-addr="hmlg-0026">simplicial fiber bundle</fr:link> <fr:tex>p : E \to B</fr:tex>, it is a Kan fibration iff the fiber <fr:tex>F</fr:tex> is a Kan complex. Hence we call it a <fr:strong>Kan fiber bundle</fr:strong>. The proof yields an <fr:link
-href="hmlg-0027.xml"
-type="local"
-addr="hmlg-0027">effective Kan fibration</fr:link> if all the inputs are effective.
+addr="hmlg-002J">injective</fr:link> iff it is <fr:strong>divisible</fr:strong>, i.e. for element <fr:tex>g \in G</fr:tex> and positive integer <fr:tex>n</fr:tex>, there exists a (non-unique) solution of <fr:tex>nx = g</fr:tex>.
 </fr:p>
   
     
@@ -42,12 +43,16 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>543</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>401</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0029</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002O</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Given a horn <fr:tex>\Lambda^n_k \to E</fr:tex> and a compatible simplex <fr:tex>\Delta^n \to B</fr:tex>, by the definition of simplicial fiber bundles, we may trivialize the bundle on the simplex locally. But since <fr:tex>F</fr:tex> is Kan, obviously <fr:tex>F \times \Delta^n \to \Delta^n</fr:tex> is also Kan. Hence we may select the required filling.
+    In one direction, suppose the group is injective, then the map <fr:tex>\mathbb{Z} \to G</fr:tex> defined by <fr:tex>k \mapsto k g</fr:tex> can be extended along the monomorphism <fr:tex>(n \times -) : \mathbb{Z} \to \mathbb{Z}</fr:tex>. This provides the division.
+  </fr:p>
+
+  <fr:p>
+    On the other hand, suppose divisibility holds. Given a morphism <fr:tex>f : A \to G</fr:tex> and an injection <fr:tex>A \hookrightarrow B</fr:tex>, we extend <fr:tex>f</fr:tex> to <fr:tex>B</fr:tex> by Zorn's lemma. Consider the poset of homomorphisms extending <fr:tex>f</fr:tex> to some subgroup of <fr:tex>B</fr:tex>. Given a chain in this poset, we can take the union to create an upper bound. And it is non-empty since <fr:tex>f</fr:tex> is an element. Hence it has a maximal element <fr:tex>\phi</fr:tex>. Suppose it is defined on <fr:tex>B' \subsetneq B</fr:tex>, then there is an element <fr:tex>b \in B</fr:tex> not in <fr:tex>B'</fr:tex>. Suppose <fr:tex>n b \notin B'</fr:tex> for all non-zero integers <fr:tex>n</fr:tex>, then we can define a larger homomorphism on <fr:tex>B + \mathbb{Z} b</fr:tex>, contradicting the maximality. Suppose there is some <fr:tex>n b \in B'</fr:tex>, then by divisibility we can assign <fr:tex>\phi(b)</fr:tex> a division of <fr:tex>\phi(n b)</fr:tex> by <fr:tex>n</fr:tex>. This too contradicts maximality.
   </fr:p>
 </fr:mainmatter></fr:tree>
   

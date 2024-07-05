@@ -7,23 +7,36 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2416</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2315</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000B</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  Since <fr:tex>f</fr:tex> commutes with the boundary maps, it maps the boundaries in <fr:tex>C_n</fr:tex> to the boundaries in <fr:tex>D_n</fr:tex>. Therefore the map is well-defined after passing to the quotient.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000P</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    By the universal property of products and coproducts, a map from the coproduct of some objects <fr:tex>X_i</fr:tex> to their product is given by a matrix of morphisms <fr:tex>f_{ij} : X_i \to X_j</fr:tex>. We choose the identity matrix
+    <fr:tex
+display="block">f_{ij} = \begin{cases}       {\textrm{id}} &amp; (i = j) \\       0 &amp; (i \ne j)     \end{cases}</fr:tex>
+    where <fr:tex>0</fr:tex> is the additive neutral element in the abelian group <fr:tex>\hom(X_i, X_j)</fr:tex>. This gives a canonical map <fr:tex>\coprod_i X_i \to \prod_i X_i</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    When there are finitely many objects involved, we can construct an inverse. Consider the morphisms <fr:tex
+display="block">\prod_i X_i \xrightarrow{\pi_j} X_j \xrightarrow{\iota_j} \coprod_i X_i.</fr:tex> We claim the sum of these morphisms is the desired inverse. To verify this, we compose them. Using bilinearity, we are reduced to showing that the coproduct and product of the identity map is the identity, which is true.
+  </fr:p>
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2414</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-000B</fr:addr><fr:route>hmlg-000B.xml</fr:route><fr:title>Chain maps induce maps on homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>2313</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000P</fr:addr><fr:route>hmlg-000P.xml</fr:route><fr:title>Additive category</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A chain map <fr:tex>f : C \to D</fr:tex> induces a family of homomorphisms <fr:tex>f_* : H_n (C) \to H_n (D)</fr:tex> on the homology groups. The identity map induces the identity morphism, and a composition of maps <fr:tex>f \mathbin{\circ} g</fr:tex> induces composition homomorphism <fr:tex>(f \mathbin{\circ} g)_* = f_* \mathbin{\circ} g_*</fr:tex>.
+  Let <fr:tex>{\mathcal{C}}</fr:tex> be <fr:link
+href="hmlg-000O.xml"
+type="local"
+addr="hmlg-000O"><fr:tex>{\mathsf{Ab}}</fr:tex>-enriched</fr:link>. The finite products and coproducts, if they exist, are isomorphic via a canonical map. If they all exist, then this category is called an <fr:strong>additive category</fr:strong>. In particular, the nullary product and coproduct coincide, and we call the object <fr:strong>zero object</fr:strong>, denoted <fr:tex>0</fr:tex>.
 </fr:p>
   
     
@@ -34,11 +47,21 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2273</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>458</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000B</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  Since <fr:tex>f</fr:tex> commutes with the boundary maps, it maps the boundaries in <fr:tex>C_n</fr:tex> to the boundaries in <fr:tex>D_n</fr:tex>. Therefore the map is well-defined after passing to the quotient.
-</fr:p></fr:mainmatter></fr:tree>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000P</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    By the universal property of products and coproducts, a map from the coproduct of some objects <fr:tex>X_i</fr:tex> to their product is given by a matrix of morphisms <fr:tex>f_{ij} : X_i \to X_j</fr:tex>. We choose the identity matrix
+    <fr:tex
+display="block">f_{ij} = \begin{cases}       {\textrm{id}} &amp; (i = j) \\       0 &amp; (i \ne j)     \end{cases}</fr:tex>
+    where <fr:tex>0</fr:tex> is the additive neutral element in the abelian group <fr:tex>\hom(X_i, X_j)</fr:tex>. This gives a canonical map <fr:tex>\coprod_i X_i \to \prod_i X_i</fr:tex>.
+  </fr:p>
+
+  <fr:p>
+    When there are finitely many objects involved, we can construct an inverse. Consider the morphisms <fr:tex
+display="block">\prod_i X_i \xrightarrow{\pi_j} X_j \xrightarrow{\iota_j} \coprod_i X_i.</fr:tex> We claim the sum of these morphisms is the desired inverse. To verify this, we compose them. Using bilinearity, we are reduced to showing that the coproduct and product of the identity map is the identity, which is true.
+  </fr:p>
+</fr:mainmatter></fr:tree>
   
 </fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
