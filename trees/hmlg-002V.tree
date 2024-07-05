@@ -1,0 +1,15 @@
+\date{2024-07-05}
+\title{homology is a universal #{\delta}-functor}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  Homology #{H_\bullet} as a functor from the category of chain complexes (bounded from below) of #{\CatVar{A}} to #{\CatVar{A}} is a homological [[hmlg-002N]]. Dually, cohomology is a cohomological [[hmlg-002N]].
+}
+
+\proof{
+  \p{
+    Every chain complex injects into its cone, whose cohomology is zero. So cohomology is [effaceable](hmlg-002S). Dually every chain complex is a quotient of its cocone, hence homology is coeffaceable. Therefore by \ref{hmlg-002T} we finish the proof.
+  }
+}
