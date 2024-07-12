@@ -1,0 +1,27 @@
+\date{2024-07-12}
+\title{additive functor is faithful iff it reflects exactness}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  An [[hmlg-000S]] is faithful iff it reflects exactness.
+}
+
+\p{
+  This implies that faithful additive functors reflects kernels, cokernels, etc. Note that faithful functors need not preserve kernels or cokernels. This is because we can take the direct sum of a faithful functor with an arbitrary additive functor and the result is still faithful. The second summand can behave badly.
+}
+
+\proof{
+  \p{
+    We first prove the forward implication. Given a sequence
+    ##{X \xto{f} Y \xto{g} Z}
+    whose image under #{F} is exact, by faithfulness #{F(g \compose f) = 0} implies #{g \compose f = 0}. Now we wish to prove the composite #{\ker g \to Y \to \coker f} is zero. We can decompose its image under #{F} as
+    ##{F(\ker g) \to \ker Fg \to FY \to \coker Ff \to F(\coker f).}
+    But the inner two morphisms compose to zero, so by faithfulness we get our result.
+  }
+
+  \p{
+    On the other hand, suppose #{F} reflects exactness. Given a morphism #{f : X \to Y}, suppose #{Ff = 0}, then #{FX \xto{\id} FX \xto{Ff} FY} is exact. Hence #{X \xto{\id} X \xto{f} Y} is also exact, so #{f = 0} too.
+  }
+}
