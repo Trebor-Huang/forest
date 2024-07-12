@@ -7,57 +7,12 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1625</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1545</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0010</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Given two rings <fr:tex>R</fr:tex>, <fr:tex>S</fr:tex>, a ring homomorphism <fr:tex>\varphi : S \to R</fr:tex> naturally induces a map of <fr:link
-href="algm-0004.xml"
-type="local"
-addr="algm-0004">distinguished opens</fr:link> <fr:tex>f \mapsto \varphi(f)</fr:tex>. This is a continuous map <fr:tex>\operatorname{Spec}(R) \to \operatorname{Spec}(S)</fr:tex>, because <fr:tex>\varphi</fr:tex> preserves <fr:tex>\operatorname{lcm}</fr:tex> and <fr:tex>\gcd</fr:tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <fr:tex>{\Gamma}(D(s), {\mathscr{O}}_{\operatorname{Spec}(S)}) \to {\Gamma}(D(r), {\mathscr{O}}_{\operatorname{Spec}(R)})</fr:tex> whenever <fr:tex>D(r) \subseteq \varphi^{-1}D(s) = D(\varphi(s))</fr:tex>. This is just a homomorphism <fr:tex>S[s^{-1}] \to R[r^{-1}]</fr:tex>, which is obvious because <fr:tex>\varphi(s)</fr:tex> must be invertible in <fr:tex>R[r^{-1}]</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    We need to prove our map is <fr:link
-href="algm-000U.xml"
-type="local"
-addr="algm-000U">local</fr:link>. Using the <fr:link
-href="algm-000W.xml"
-type="local"
-addr="algm-000W">characterization on stalks</fr:link>, we just need to verify that <fr:tex>S_{\varphi^{-1}(\mathfrak{p})} \to R_{\mathfrak{p}}</fr:tex> reflects invertibility. This is true by construction. Hence we have a map <fr:tex>\hom_{{\mathsf{CRing}}}(S, R) \to \hom_{{\mathsf{Sch}}}(\operatorname{Spec}(R), \operatorname{Spec}(S))</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    In the reverse direction, given a morphism <fr:tex>\varphi : \operatorname{Spec}(R) \to \operatorname{Spec}(S)</fr:tex>, we can extract a ring homomorphism by looking at the global sections
-    <fr:tex
-display="block">S \cong {\Gamma}(\top, \varphi^{-1}{\mathscr{O}}_{\operatorname{Spec}(S)}) \to {\Gamma}(\top, {\mathscr{O}}_{\operatorname{Spec}(R)}) \cong R.</fr:tex>
-    We obviously have going from <fr:tex>{\mathsf{CRing}}</fr:tex> to <fr:tex>{\mathsf{Sch}}</fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
-
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="cf65e16cf4b03239ee9cfe91fa803b6a"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-      S &amp; R \\
-      {S_{\mathfrak{q}}} &amp; {R_{\mathfrak{p}}}
-      \arrow[from=1-1, to=1-2]
-      \arrow[from=2-1, to=2-2]
-      \arrow[two heads, from=1-1, to=2-1]
-      \arrow[two heads, from=1-2, to=2-2]
-    \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-
-    where <fr:tex>\left[\mathfrak{q}\right]</fr:tex> is the image of the point <fr:tex>\left[\mathfrak{p}\right]</fr:tex> under the underlying continuous map of <fr:tex>\varphi</fr:tex>. This fixes the action of <fr:tex>\varphi</fr:tex> on the stalks. Furthermore, the <fr:link
-href="algm-000W.xml"
-type="local"
-addr="algm-000W">locality</fr:link> implies the preimage of <fr:tex>\mathfrak{p}</fr:tex> under the ring homomorphism divides <fr:tex>\mathfrak{q}</fr:tex>, and since <fr:tex>\mathfrak{q}</fr:tex> is maximal in the local ring <fr:tex>S_{\mathfrak{q}}</fr:tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.
+    We claim that <fr:tex>\operatorname{Proj}(S)</fr:tex> can alternatively be given by gluing affine schemes. We assign <fr:tex>D_+ (f)</fr:tex> the affine scheme <fr:tex>\operatorname{Spec}(S[f^{-1}]_0)</fr:tex> (which is possible because the open subspace <fr:tex>D_+ (f)</fr:tex> is homeomorphic to <fr:tex>\operatorname{Spec}(S[f^{-1}]_0)</fr:tex> as a space). Given two positively graded elements <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex>, we have an isomorphism between <fr:tex>\operatorname{Proj}(S)</fr:tex> restricted to <fr:tex>D_+ (f g)</fr:tex> and <fr:tex>\operatorname{Spec}(S[f^{-1}]_0)</fr:tex> restricted to <fr:tex>D(g^{\deg f}/f^{\deg g})</fr:tex>, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -66,16 +21,20 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1623</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title>Morphisms of affine schemes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1543</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0010</fr:addr><fr:route>algm-0010.xml</fr:route><fr:title>Structure sheaf of <fr:tex>\operatorname{Proj}(S)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-href="algm-000U.xml"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Fix a <fr:link
+href="hmlg-001L.xml"
 type="local"
-addr="algm-000U">Morphism</fr:link> of <fr:link
-href="algm-000Q.xml"
+addr="hmlg-001L">graded ring</fr:link> <fr:tex>S</fr:tex>. For a positively graded element <fr:tex>f</fr:tex>, we have a graded ring localization <fr:tex>S[f^{-1}]_\bullet</fr:tex>. Let <fr:tex>{\Gamma}(D_+(f), {\mathscr{O}})</fr:tex> be the zeroth degree component <fr:tex>S[f^{-1}]_0</fr:tex>. This defines a sheaf over the <fr:link
+href="algm-000Y.xml"
 type="local"
-addr="algm-000Q">affine schemes</fr:link> are in natural bijection with ring homomorphisms in the opposite direction. In other words, there is a fully faithful embedding <fr:tex>{\mathsf{CRing}}^{\textrm{op}} \to {\mathsf{Sch}}</fr:tex>.
+addr="algm-000Y">projective spectrum</fr:link>, and moreover gives a <fr:link
+href="algm-000R.xml"
+type="local"
+addr="algm-000R">scheme</fr:link> <fr:tex>\operatorname{Proj}(S)</fr:tex>.
 </fr:p>
   
     
@@ -86,181 +45,13 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>556</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1541</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0010</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Given two rings <fr:tex>R</fr:tex>, <fr:tex>S</fr:tex>, a ring homomorphism <fr:tex>\varphi : S \to R</fr:tex> naturally induces a map of <fr:link
-href="algm-0004.xml"
-type="local"
-addr="algm-0004">distinguished opens</fr:link> <fr:tex>f \mapsto \varphi(f)</fr:tex>. This is a continuous map <fr:tex>\operatorname{Spec}(R) \to \operatorname{Spec}(S)</fr:tex>, because <fr:tex>\varphi</fr:tex> preserves <fr:tex>\operatorname{lcm}</fr:tex> and <fr:tex>\gcd</fr:tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <fr:tex>{\Gamma}(D(s), {\mathscr{O}}_{\operatorname{Spec}(S)}) \to {\Gamma}(D(r), {\mathscr{O}}_{\operatorname{Spec}(R)})</fr:tex> whenever <fr:tex>D(r) \subseteq \varphi^{-1}D(s) = D(\varphi(s))</fr:tex>. This is just a homomorphism <fr:tex>S[s^{-1}] \to R[r^{-1}]</fr:tex>, which is obvious because <fr:tex>\varphi(s)</fr:tex> must be invertible in <fr:tex>R[r^{-1}]</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    We need to prove our map is <fr:link
-href="algm-000U.xml"
-type="local"
-addr="algm-000U">local</fr:link>. Using the <fr:link
-href="algm-000W.xml"
-type="local"
-addr="algm-000W">characterization on stalks</fr:link>, we just need to verify that <fr:tex>S_{\varphi^{-1}(\mathfrak{p})} \to R_{\mathfrak{p}}</fr:tex> reflects invertibility. This is true by construction. Hence we have a map <fr:tex>\hom_{{\mathsf{CRing}}}(S, R) \to \hom_{{\mathsf{Sch}}}(\operatorname{Spec}(R), \operatorname{Spec}(S))</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    In the reverse direction, given a morphism <fr:tex>\varphi : \operatorname{Spec}(R) \to \operatorname{Spec}(S)</fr:tex>, we can extract a ring homomorphism by looking at the global sections
-    <fr:tex
-display="block">S \cong {\Gamma}(\top, \varphi^{-1}{\mathscr{O}}_{\operatorname{Spec}(S)}) \to {\Gamma}(\top, {\mathscr{O}}_{\operatorname{Spec}(R)}) \cong R.</fr:tex>
-    We obviously have going from <fr:tex>{\mathsf{CRing}}</fr:tex> to <fr:tex>{\mathsf{Sch}}</fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
-
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="cf65e16cf4b03239ee9cfe91fa803b6a"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-      S &amp; R \\
-      {S_{\mathfrak{q}}} &amp; {R_{\mathfrak{p}}}
-      \arrow[from=1-1, to=1-2]
-      \arrow[from=2-1, to=2-2]
-      \arrow[two heads, from=1-1, to=2-1]
-      \arrow[two heads, from=1-2, to=2-2]
-    \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-
-    where <fr:tex>\left[\mathfrak{q}\right]</fr:tex> is the image of the point <fr:tex>\left[\mathfrak{p}\right]</fr:tex> under the underlying continuous map of <fr:tex>\varphi</fr:tex>. This fixes the action of <fr:tex>\varphi</fr:tex> on the stalks. Furthermore, the <fr:link
-href="algm-000W.xml"
-type="local"
-addr="algm-000W">locality</fr:link> implies the preimage of <fr:tex>\mathfrak{p}</fr:tex> under the ring homomorphism divides <fr:tex>\mathfrak{q}</fr:tex>, and since <fr:tex>\mathfrak{q}</fr:tex> is maximal in the local ring <fr:tex>S_{\mathfrak{q}}</fr:tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.
+    We claim that <fr:tex>\operatorname{Proj}(S)</fr:tex> can alternatively be given by gluing affine schemes. We assign <fr:tex>D_+ (f)</fr:tex> the affine scheme <fr:tex>\operatorname{Spec}(S[f^{-1}]_0)</fr:tex> (which is possible because the open subspace <fr:tex>D_+ (f)</fr:tex> is homeomorphic to <fr:tex>\operatorname{Spec}(S[f^{-1}]_0)</fr:tex> as a space). Given two positively graded elements <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex>, we have an isomorphism between <fr:tex>\operatorname{Proj}(S)</fr:tex> restricted to <fr:tex>D_+ (f g)</fr:tex> and <fr:tex>\operatorname{Spec}(S[f^{-1}]_0)</fr:tex> restricted to <fr:tex>D(g^{\deg f}/f^{\deg g})</fr:tex>, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1614</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title>Action of morphisms on stalks of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
-href="algm-000S.xml"
-type="local"
-addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi : X \to Y</fr:tex>, if it is <fr:link
-href="algm-000U.xml"
-type="local"
-addr="algm-000U">local</fr:link>, a germ is invertible iff its <fr:link
-href="algm-000V.xml"
-type="local"
-addr="algm-000V">pullback</fr:link> under <fr:tex>\varphi</fr:tex> is invertible. If the space <fr:tex>X</fr:tex> has enough points, then the inverse implication is also true.
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1612</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Note that the stalk <fr:tex>(\varphi^{-1}{\mathscr{O}}_{Y})_x = {\mathscr{O}}_{Y, \varphi(x)}</fr:tex>. A germ being invertible implies for some neighborhood <fr:tex>U</fr:tex> of <fr:tex>x</fr:tex>, it comes from an invertible section <fr:tex>f \in {\Gamma}(U, \varphi^{-1}{\mathscr{O}}_Y)</fr:tex>, so the image in <fr:tex>{\Gamma}(U, {\mathscr{O}}_X)</fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.
-  </fr:p>
-
-  <fr:p>
-    On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1617</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000U</fr:addr><fr:route>algm-000U.xml</fr:route><fr:title>Morphism of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given two <fr:link
-href="algm-000L.xml"
-type="local"
-addr="algm-000L">locally ringed spaces</fr:link>, a <fr:link
-href="algm-000S.xml"
-type="local"
-addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi</fr:tex> between them is <fr:strong>local</fr:strong> when sections of <fr:tex>\varphi^{-1}{\mathscr{O}}_Y</fr:tex> are invertible iff their images in <fr:tex>{\mathscr{O}}_X</fr:tex> are invertible, i.e. the following diagram is a pullback:
-
-  
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="198899d151858ff4911e2572bf2e6342"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-    {\varphi^{-1}{\mathscr{O}}_Y^\times} &amp; {{\mathscr{O}}_X^\times} \\
-    {\varphi^{-1}{\mathscr{O}}_Y} &amp; {{\mathscr{O}}_X}
-    \arrow[hook, from=1-1, to=2-1]
-    \arrow[hook, from=1-2, to=2-2]
-    \arrow[from=1-1, to=1-2]
-    \arrow[from=2-1, to=2-2]
-    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
-  \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-
-  Note that the <fr:link
-href="algm-000T.xml"
-type="local"
-addr="algm-000T">subsheaf of units</fr:link> is given by a finite limit, hence <fr:tex>\varphi^{-1}</fr:tex> preserves it. Since the lower map map <fr:tex>\varphi^{-1} {\mathscr{O}}_Y \to {\mathscr{O}}_X</fr:tex> is a ring homomorphism on the sections, it maps units to units. Hence restriction to the upper map makes sense.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1621</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0004</fr:addr><fr:route>algm-0004.xml</fr:route><fr:title>Distinguished opens of <fr:tex>\operatorname{Spec}(R)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  We define a basis of opens on <fr:link
-href="algm-0001.xml"
-type="local"
-addr="algm-0001"><fr:tex>\operatorname{Spec}(R)</fr:tex></fr:link> by <fr:tex>D(f)</fr:tex> for every element <fr:tex>f \in R</fr:tex>. These are called <fr:strong>distinguished opens</fr:strong>.
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1619</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#297</fr:addr><fr:route>unstable-297.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0004</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We claim that <fr:tex
-display="block">D(\mathfrak{a}) = \bigcup_{\mathfrak{a} \mid f} D(f).</fr:tex> Alternatively, <fr:tex>V(\mathfrak{a}) = \bigcap_{\mathfrak{a} \mid f} V(f)</fr:tex>. Since <fr:tex>\mathfrak{a} \mid f</fr:tex> implies <fr:tex>V(\mathfrak{a}) \subseteq V(f)</fr:tex>, we have the forward inclusion. For the backwards inclusion, suppose <fr:tex>\left[\mathfrak{p}\right] \notin V(\mathfrak{a})</fr:tex>, i.e. <fr:tex>\mathfrak{p} \nmid \mathfrak{a}</fr:tex>, then by definition there is an element <fr:tex>\mathfrak{a} \mid f</fr:tex> such that <fr:tex>\mathfrak{p} \nmid f</fr:tex>, meaning that <fr:tex>\left[\mathfrak{p}\right] \notin V(f)</fr:tex>.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

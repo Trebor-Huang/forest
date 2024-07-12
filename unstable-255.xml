@@ -7,18 +7,92 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>390</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>342</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002P</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002T</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Notice that the right adjoint preserves products, and so is <fr:link
-href="hmlg-000S.xml"
+    Given an object <fr:tex>X</fr:tex>, consider the exact sequence given by <fr:link
+href="hmlg-002S.xml"
 type="local"
-addr="hmlg-000S">additive</fr:link>. We need to show that <fr:tex>\hom(-, R(I))</fr:tex> is <fr:link
-href="hmlg-000X.xml"
+addr="hmlg-002S">effaceability</fr:link>
+    <fr:tex
+display="block">0 \longrightarrow X \longrightarrow I \longrightarrow Y \longrightarrow 0.</fr:tex>
+    Then we have a long exact sequence
+    <fr:tex
+display="block">0 \to T^0 X \to T^0 I \to T^0 Y \xrightarrow{\delta} T^1 X \xrightarrow{0} T^1 I.</fr:tex>
+    and the rest breaks into infinitely many short exact sequences
+    <fr:tex
+display="block">0 \to T^{n+1} I \to T^{n+1} Y \to T^{n+2} X \to 0.</fr:tex></fr:p>
+
+  <fr:p>
+    Consider another <fr:link
+href="hmlg-002K.xml"
 type="local"
-addr="hmlg-000X">exact</fr:link>, which amounts to saying the composition of <fr:tex>F</fr:tex> and <fr:tex>\hom(-, I)</fr:tex> is exact, which is true because both are exact.
+addr="hmlg-002K"><fr:tex>\delta</fr:tex>-functor</fr:link> <fr:tex>S^\bullet</fr:tex> with a natural transformation <fr:tex>f : T^0 \to S^0</fr:tex>. We now have a diagram
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="81b23e7ceafdc739e520215e69ca1a6a"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+      \begin{tikzcd}
+      {T^0 I} &amp; {T^0 Y} &amp; {T^1 X} \\
+      {S^0 I} &amp; {S^0 Y} &amp; {S^1 X}
+      \arrow[from=1-1, to=1-2]
+      \arrow[from=1-1, to=2-1]
+      \arrow["\delta", two heads, from=1-2, to=1-3]
+      \arrow[from=1-2, to=2-2]
+      \arrow[from=2-1, to=2-2]
+      \arrow["\delta"', from=2-2, to=2-3]
+    \end{tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    where we can fill the vertical map on the right, because the composite of the lower left route is zero on the kernel of <fr:tex>\delta : T^0 Y \to T^1 X</fr:tex>, and uniqueness follows from epimorphism. This then yields a transformation <fr:tex>T^1 \to S^1</fr:tex>, we need to prove it's natural and does not depend on the chosen <fr:tex>I</fr:tex>. Then we can repeat the move to extend to arbitrary degrees.
+  </fr:p>
+
+  <fr:p>
+    Given a morphism <fr:tex>\varphi : X \to X'</fr:tex> and the corresponding monomorphisms <fr:tex>X \to I</fr:tex>, <fr:tex>X' \to I'</fr:tex>, we can replace <fr:tex>X \to I</fr:tex> with <fr:tex>X \to I \times I'</fr:tex> since both components of the map are sent to <fr:tex>0</fr:tex> by <fr:tex>T^0</fr:tex>, an additive functor. This together with the projection map <fr:tex>I \times I' \to I</fr:tex> forms a commutative square. Taking the cokernel we also have an induced map <fr:tex>\psi : Y \to Y'</fr:tex>.
+
+
+    This leads to a 3-dimensional diagram
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="a8c1ba5c703e6db8da70fc6e9f77271e"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+      \begin{tikzcd}
+      {T^0 Y} &amp;&amp; {T^1 X} \\
+      &amp; {T^0 Y'} &amp;&amp; {T^1 X'} \\
+      {S^0 Y} &amp;&amp; {S^1 X} \\
+      &amp; {S^0 Y'} &amp;&amp; {S^1 X'}
+      \arrow["\delta", two heads, from=1-1, to=1-3]
+      \arrow["{T^0 \psi}"', from=1-1, to=2-2]
+      \arrow["f"', from=1-1, to=3-1]
+      \arrow["{T^1 \varphi}", from=1-3, to=2-4]
+      \arrow[from=1-3, to=3-3]
+      \arrow["\delta"{pos=0.3}, two heads, from=2-2, to=2-4]
+      \arrow["f"'{pos=0.3}, from=2-2, to=4-2]
+      \arrow[from=2-4, to=4-4]
+      \arrow[from=3-1, to=3-3]
+      \arrow["{S^0 \psi}"', from=3-1, to=4-2]
+      \arrow["{S^1 \varphi}", from=3-3, to=4-4]
+      \arrow["\delta"', from=4-2, to=4-4]
+    \end{tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    where all but the right face commutes. After composing with <fr:tex>\delta : T^0 Y \to T^1 X</fr:tex>, we can use all five commutative squares to prove that the two compositions are equal. And since the morphism is epimorphic, the right square commutes as expected.
+  </fr:p>
+
+  <fr:p>
+    For independence, we first prove that if two effacements <fr:tex>X \to I</fr:tex>, <fr:tex>X \to I'</fr:tex> are connected by a morphism <fr:tex>I \to I'</fr:tex>, then the resulting transformations are equal. This is essentially the same as the proof of naturality, except <fr:tex>\varphi</fr:tex> is replaced with <fr:tex>{\textrm{id}}</fr:tex>. Now any two effacements are connected by a zigzag, since we can take the diagonal <fr:tex>X \to I \times I'</fr:tex> and project out.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -27,17 +101,20 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>388</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-002P</fr:addr><fr:route>hmlg-002P.xml</fr:route><fr:title>Right adjoint of exact functor preserves injectives</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>340</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-002T</fr:addr><fr:route>hmlg-002T.xml</fr:route><fr:title>Criterion for universality of <fr:tex>\delta</fr:tex>-functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Suppose <fr:tex>F \dashv R</fr:tex>, <fr:tex>F</fr:tex> is exact and <fr:tex>I</fr:tex> is an <fr:link
-href="hmlg-002J.xml"
+  Given a cohomological <fr:link
+href="hmlg-002K.xml"
 type="local"
-addr="hmlg-002J">injective</fr:link>, then <fr:tex>R(I)</fr:tex> is also an injective. Dually, if <fr:tex>L \dashv F</fr:tex>, <fr:tex>F</fr:tex> is exact and <fr:tex>P</fr:tex> is a <fr:link
-href="hmlg-0004.xml"
+addr="hmlg-002K"><fr:tex>\delta</fr:tex>-functor</fr:link> <fr:tex>T^\bullet</fr:tex>, if each <fr:tex>T^n</fr:tex> for <fr:tex>n &gt; 0</fr:tex> is <fr:link
+href="hmlg-002S.xml"
 type="local"
-addr="hmlg-0004">projective</fr:link>, then <fr:tex>L(P)</fr:tex> is also a projective.
+addr="hmlg-002S">effaceable</fr:link>, then it is a <fr:link
+href="hmlg-002N.xml"
+type="local"
+addr="hmlg-002N">universal <fr:tex>\delta</fr:tex>-functor</fr:link>. Dually, if a homological <fr:tex>\delta</fr:tex>-functor is coeffaceable, then it is universal.
 </fr:p>
   
     
@@ -48,18 +125,92 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>386</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>316</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002P</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002T</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Notice that the right adjoint preserves products, and so is <fr:link
-href="hmlg-000S.xml"
+    Given an object <fr:tex>X</fr:tex>, consider the exact sequence given by <fr:link
+href="hmlg-002S.xml"
 type="local"
-addr="hmlg-000S">additive</fr:link>. We need to show that <fr:tex>\hom(-, R(I))</fr:tex> is <fr:link
-href="hmlg-000X.xml"
+addr="hmlg-002S">effaceability</fr:link>
+    <fr:tex
+display="block">0 \longrightarrow X \longrightarrow I \longrightarrow Y \longrightarrow 0.</fr:tex>
+    Then we have a long exact sequence
+    <fr:tex
+display="block">0 \to T^0 X \to T^0 I \to T^0 Y \xrightarrow{\delta} T^1 X \xrightarrow{0} T^1 I.</fr:tex>
+    and the rest breaks into infinitely many short exact sequences
+    <fr:tex
+display="block">0 \to T^{n+1} I \to T^{n+1} Y \to T^{n+2} X \to 0.</fr:tex></fr:p>
+
+  <fr:p>
+    Consider another <fr:link
+href="hmlg-002K.xml"
 type="local"
-addr="hmlg-000X">exact</fr:link>, which amounts to saying the composition of <fr:tex>F</fr:tex> and <fr:tex>\hom(-, I)</fr:tex> is exact, which is true because both are exact.
+addr="hmlg-002K"><fr:tex>\delta</fr:tex>-functor</fr:link> <fr:tex>S^\bullet</fr:tex> with a natural transformation <fr:tex>f : T^0 \to S^0</fr:tex>. We now have a diagram
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="81b23e7ceafdc739e520215e69ca1a6a"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+      \begin{tikzcd}
+      {T^0 I} &amp; {T^0 Y} &amp; {T^1 X} \\
+      {S^0 I} &amp; {S^0 Y} &amp; {S^1 X}
+      \arrow[from=1-1, to=1-2]
+      \arrow[from=1-1, to=2-1]
+      \arrow["\delta", two heads, from=1-2, to=1-3]
+      \arrow[from=1-2, to=2-2]
+      \arrow[from=2-1, to=2-2]
+      \arrow["\delta"', from=2-2, to=2-3]
+    \end{tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    where we can fill the vertical map on the right, because the composite of the lower left route is zero on the kernel of <fr:tex>\delta : T^0 Y \to T^1 X</fr:tex>, and uniqueness follows from epimorphism. This then yields a transformation <fr:tex>T^1 \to S^1</fr:tex>, we need to prove it's natural and does not depend on the chosen <fr:tex>I</fr:tex>. Then we can repeat the move to extend to arbitrary degrees.
+  </fr:p>
+
+  <fr:p>
+    Given a morphism <fr:tex>\varphi : X \to X'</fr:tex> and the corresponding monomorphisms <fr:tex>X \to I</fr:tex>, <fr:tex>X' \to I'</fr:tex>, we can replace <fr:tex>X \to I</fr:tex> with <fr:tex>X \to I \times I'</fr:tex> since both components of the map are sent to <fr:tex>0</fr:tex> by <fr:tex>T^0</fr:tex>, an additive functor. This together with the projection map <fr:tex>I \times I' \to I</fr:tex> forms a commutative square. Taking the cokernel we also have an induced map <fr:tex>\psi : Y \to Y'</fr:tex>.
+
+
+    This leads to a 3-dimensional diagram
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="a8c1ba5c703e6db8da70fc6e9f77271e"><fr:embedded-tex-preamble>
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    </fr:embedded-tex-preamble><fr:embedded-tex-body>
+      \begin{tikzcd}
+      {T^0 Y} &amp;&amp; {T^1 X} \\
+      &amp; {T^0 Y'} &amp;&amp; {T^1 X'} \\
+      {S^0 Y} &amp;&amp; {S^1 X} \\
+      &amp; {S^0 Y'} &amp;&amp; {S^1 X'}
+      \arrow["\delta", two heads, from=1-1, to=1-3]
+      \arrow["{T^0 \psi}"', from=1-1, to=2-2]
+      \arrow["f"', from=1-1, to=3-1]
+      \arrow["{T^1 \varphi}", from=1-3, to=2-4]
+      \arrow[from=1-3, to=3-3]
+      \arrow["\delta"{pos=0.3}, two heads, from=2-2, to=2-4]
+      \arrow["f"'{pos=0.3}, from=2-2, to=4-2]
+      \arrow[from=2-4, to=4-4]
+      \arrow[from=3-1, to=3-3]
+      \arrow["{S^0 \psi}"', from=3-1, to=4-2]
+      \arrow["{S^1 \varphi}", from=3-3, to=4-4]
+      \arrow["\delta"', from=4-2, to=4-4]
+    \end{tikzcd}
+    </fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    where all but the right face commutes. After composing with <fr:tex>\delta : T^0 Y \to T^1 X</fr:tex>, we can use all five commutative squares to prove that the two compositions are equal. And since the morphism is epimorphic, the right square commutes as expected.
+  </fr:p>
+
+  <fr:p>
+    For independence, we first prove that if two effacements <fr:tex>X \to I</fr:tex>, <fr:tex>X \to I'</fr:tex> are connected by a morphism <fr:tex>I \to I'</fr:tex>, then the resulting transformations are equal. This is essentially the same as the proof of naturality, except <fr:tex>\varphi</fr:tex> is replaced with <fr:tex>{\textrm{id}}</fr:tex>. Now any two effacements are connected by a zigzag, since we can take the diagonal <fr:tex>X \to I \times I'</fr:tex> and project out.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
@@ -70,97 +221,35 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>382</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000X</fr:addr><fr:route>hmlg-000X.xml</fr:route><fr:title>Left and right exact functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>336</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002S</fr:addr><fr:route>hmlg-002S.xml</fr:route><fr:title>Effaceable functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
   An <fr:link
 href="hmlg-000S.xml"
 type="local"
-addr="hmlg-000S">additive functor</fr:link> <fr:tex>F : {\mathcal{A}} \to {\mathcal{B}}</fr:tex> between abelian categories is <fr:strong>left exact</fr:strong> if it satisfies the following equivalent conditions.
-</fr:p><fr:ul><fr:li>It preserves kernels.</fr:li>
-  <fr:li>It preserves finite limits.</fr:li>
-  <fr:li>It preserves the exactness of sequences <fr:tex
-display="block">0 \to A \to B \to C.</fr:tex></fr:li></fr:ul><fr:p>
-  Dually, an additive functor is <fr:strong>right exact</fr:strong> if it satisfies the following equivalent conditions.
-</fr:p><fr:ul><fr:li>It preserves cokernels.</fr:li>
-  <fr:li>It preserves finite colimits.</fr:li>
-  <fr:li>It preserves the exactness of sequences <fr:tex
-display="block">A \to B \to C \to 0.</fr:tex></fr:li></fr:ul><fr:p>
-  If a functor is both left exact and right exact, it is simply called an <fr:strong>exact functor</fr:strong>, which is equivalent to it preserving the exactness of sequences <fr:tex>A \to B \to C</fr:tex>.
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>380</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000X</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Since additive functors already preserves finite products, and <fr:link
-href="hmlg-000Y.xml"
-type="local"
-addr="hmlg-000Y">kernels are equivalent to general equalizers</fr:link> using the additive structure, the first two conditions are equivalent.
-  </fr:p>
-
-  <fr:p>
-    The sequence <fr:tex>A \rightarrowtail B \to C</fr:tex> being exact is equivalent to <fr:tex>A</fr:tex> being a kernel of <fr:tex>B \to C</fr:tex>. So the third condition is equivalent to the first. This completes the equivalence proof.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree><fr:tree
+addr="hmlg-000S">additive functor</fr:link> <fr:tex>F : {\mathcal{A}} \to {\mathcal{B}}</fr:tex> is <fr:strong>effaceable</fr:strong> iff for each object <fr:tex>X</fr:tex> in <fr:tex>{\mathcal{A}}</fr:tex>, there exists a monomorphism <fr:tex>X \to I</fr:tex> whose image under <fr:tex>F</fr:tex> is zero. Dually, it is <fr:strong>coeffaceable</fr:strong> iff for each object <fr:tex>X</fr:tex> there exists an epimorphism <fr:tex>P \to X</fr:tex> whose image under <fr:tex>F</fr:tex> is zero.
+</fr:p></fr:mainmatter></fr:tree><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>384</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000S</fr:addr><fr:route>hmlg-000S.xml</fr:route><fr:title>Additive functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>338</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002K</fr:addr><fr:route>hmlg-002K.xml</fr:route><fr:title><fr:tex>\delta</fr:tex>-functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given two <fr:link
-href="hmlg-000P.xml"
+  A <fr:strong>homological <fr:tex>\delta</fr:tex>-functor</fr:strong> is a sequence of <fr:link
+href="hmlg-000S.xml"
 type="local"
-addr="hmlg-000P">additive categories</fr:link> and a functor <fr:tex>F : {\mathcal{C}} \to {\mathcal{D}}</fr:tex> between them, the following are equivalent. In this case, we call the functor <fr:strong>additive</fr:strong>.
-</fr:p><fr:ul><fr:li>The functor preserves finite products.</fr:li>
-  <fr:li>The functor preserves finite coproducts.</fr:li>
-  <fr:li>The functor is a homomorphism on the abelian groups <fr:tex>\hom_{{\mathcal{C}}}(X, Y)</fr:tex>, i.e. it is an <fr:tex>{\mathsf{Ab}}</fr:tex>-enriched functor.</fr:li></fr:ul>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>345</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+addr="hmlg-000S">additive functors</fr:link> <fr:tex>T_n : {\mathcal{A}} \to {\mathcal{B}}</fr:tex> between <fr:link
+href="hmlg-000Q.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000S</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    For the equivalence of the first two claims, we have a composition
-    <fr:tex
-display="block">F(X) + F(Y) \to F(X + Y) \stackrel{\sim\,}{\to} F(X \times Y) \to F(X) \times F(Y),</fr:tex>
-    where the middle morphism comes from the canonical isomorphism <fr:tex>X + Y \stackrel{\sim\,}{\to} F(X \times Y)</fr:tex>. The first two claim is equivalent to the right and left arrows being iso, respectively. Recall that a morphism from a coproduct to a product is determined by a matrix of morphisms. With this fact and the functoriality of <fr:tex>F</fr:tex>, we can compute that the composition is the canonical isomorphism from <fr:tex>F(X) + F(Y)</fr:tex> to <fr:tex>F(X) \times F(Y)</fr:tex>. Therefore the leftmost arrow being iso is equivalent to the rightmost arrow being iso.
-  </fr:p>
-
-  <fr:p>
-    Since the abelian group structure on morphisms is <fr:link
-href="hmlg-000R.xml"
+addr="hmlg-000Q">abelian categories</fr:link>, with the convention that <fr:tex>T_n = 0</fr:tex> for <fr:tex>n &lt; 0</fr:tex>. For every <fr:link
+href="hmlg-000H.xml"
 type="local"
-addr="hmlg-000R">uniquely determined</fr:link> from the finite products and coproducts in an additive category, a functor satisfying the first two conditions automatically satisfies the third. Conversely, we need to prove the canonical maps <fr:tex>F(1) \to 1</fr:tex> and <fr:tex>F(X \times Y) \to F(X) \times F(Y)</fr:tex> are isomorphisms. For the first one, since <fr:tex>1</fr:tex> is also the initial object, any morphism into it is automatically iso. For the second one, we again look at the diagram which composes to an isomorphism:
-    <fr:tex
-display="block">F(X) + F(Y) \to F(X + Y) \stackrel{\sim\,}{\to} F(X \times Y) \to F(X) \times F(Y).</fr:tex>
-    Using the bilinearity of composition and that <fr:tex>F</fr:tex> preserves addition on morphisms, we can verify that this provides a two-sided inverse.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+addr="hmlg-000H">short exact sequence</fr:link> <fr:tex>0 \to X \to Y \to Z \to 0</fr:tex> in <fr:tex>{\mathcal{A}}</fr:tex>, we have a connecting map <fr:tex>\delta_n : T_n(Z) \to T_{n-1}(X)</fr:tex>, such that this assignment is natural in the exact sequence.
+</fr:p><fr:p>
+  Similarly, a <fr:strong>cohomological <fr:tex>\delta</fr:tex>-functor</fr:strong> can be defined with <fr:tex>\delta^n : T^n(Z) \to T^{n+1}(X)</fr:tex>. Notice that cohomology does not imply contravariance here. These also have contravariant versions, by replacing <fr:tex>{\mathcal{A}}</fr:tex> with <fr:tex>{\mathcal{A}}^{\textrm{op}}</fr:tex>.
+</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

@@ -7,24 +7,16 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2311</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000T</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Since the left adjoint preserves colimits, it preserves finite coproducts. Therefore by <fr:ref
-addr="hmlg-000S"
-href="hmlg-000S.xml"
-taxon="Definition"></fr:ref> it is an additive functor. Dually, the right adjoint preserves limits, and is also additive.</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2309</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000T</fr:addr><fr:route>hmlg-000T.xml</fr:route><fr:title>Adjunctions are additive</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>312</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-002W</fr:addr><fr:route>hmlg-002W.xml</fr:route><fr:title>Additive functor is faithful iff it reflects exactness</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  In an adjunction <fr:tex>F \dashv G</fr:tex>, both functors are automatically additive.
+  An <fr:link
+href="hmlg-000S.xml"
+type="local"
+addr="hmlg-000S">additive functor</fr:link> is faithful iff it reflects exactness.
+</fr:p><fr:p>
+  This implies that faithful additive functors reflects kernels, cokernels, etc. Note that faithful functors need not preserve kernels or cokernels. This is because we can take the direct sum of a faithful functor with an arbitrary additive functor and the result is still faithful. The second summand can behave badly.
 </fr:p>
   
     
@@ -35,22 +27,33 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>479</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>302</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000T</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Since the left adjoint preserves colimits, it preserves finite coproducts. Therefore by <fr:ref
-addr="hmlg-000S"
-href="hmlg-000S.xml"
-taxon="Definition"></fr:ref> it is an additive functor. Dually, the right adjoint preserves limits, and is also additive.</fr:p></fr:mainmatter></fr:tree>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002W</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    We first prove the forward implication. Given a sequence
+    <fr:tex
+display="block">X \xrightarrow{f} Y \xrightarrow{g} Z</fr:tex>
+    whose image under <fr:tex>F</fr:tex> is exact, by faithfulness <fr:tex>F(g \mathbin{\circ} f) = 0</fr:tex> implies <fr:tex>g \mathbin{\circ} f = 0</fr:tex>. Now we wish to prove the composite <fr:tex>\ker g \to Y \to \operatorname{coker} f</fr:tex> is zero. We can decompose its image under <fr:tex>F</fr:tex> as
+    <fr:tex
+display="block">F(\ker g) \to \ker Fg \to FY \to \operatorname{coker} Ff \to F(\operatorname{coker} f).</fr:tex>
+    But the inner two morphisms compose to zero, so by faithfulness we get our result.
+  </fr:p>
+
+  <fr:p>
+    On the other hand, suppose <fr:tex>F</fr:tex> reflects exactness. Given a morphism <fr:tex>f : X \to Y</fr:tex>, suppose <fr:tex>Ff = 0</fr:tex>, then <fr:tex>FX \xrightarrow{{\textrm{id}}} FX \xrightarrow{Ff} FY</fr:tex> is exact. Hence <fr:tex>X \xrightarrow{{\textrm{id}}} X \xrightarrow{f} Y</fr:tex> is also exact, so <fr:tex>f = 0</fr:tex> too.
+  </fr:p>
+</fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2307</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000S</fr:addr><fr:route>hmlg-000S.xml</fr:route><fr:title>Additive functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>310</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000S</fr:addr><fr:route>hmlg-000S.xml</fr:route><fr:title>Additive functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>

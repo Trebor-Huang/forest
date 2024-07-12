@@ -7,16 +7,18 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>405</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>401</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002O</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002P</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    In one direction, suppose the group is injective, then the map <fr:tex>\mathbb{Z} \to G</fr:tex> defined by <fr:tex>k \mapsto k g</fr:tex> can be extended along the monomorphism <fr:tex>(n \times -) : \mathbb{Z} \to \mathbb{Z}</fr:tex>. This provides the division.
-  </fr:p>
-
-  <fr:p>
-    On the other hand, suppose divisibility holds. Given a morphism <fr:tex>f : A \to G</fr:tex> and an injection <fr:tex>A \hookrightarrow B</fr:tex>, we extend <fr:tex>f</fr:tex> to <fr:tex>B</fr:tex> by Zorn's lemma. Consider the poset of homomorphisms extending <fr:tex>f</fr:tex> to some subgroup of <fr:tex>B</fr:tex>. Given a chain in this poset, we can take the union to create an upper bound. And it is non-empty since <fr:tex>f</fr:tex> is an element. Hence it has a maximal element <fr:tex>\phi</fr:tex>. Suppose it is defined on <fr:tex>B' \subsetneq B</fr:tex>, then there is an element <fr:tex>b \in B</fr:tex> not in <fr:tex>B'</fr:tex>. Suppose <fr:tex>n b \notin B'</fr:tex> for all non-zero integers <fr:tex>n</fr:tex>, then we can define a larger homomorphism on <fr:tex>B + \mathbb{Z} b</fr:tex>, contradicting the maximality. Suppose there is some <fr:tex>n b \in B'</fr:tex>, then by divisibility we can assign <fr:tex>\phi(b)</fr:tex> a division of <fr:tex>\phi(n b)</fr:tex> by <fr:tex>n</fr:tex>. This too contradicts maximality.
+    Notice that the right adjoint preserves products, and so is <fr:link
+href="hmlg-000S.xml"
+type="local"
+addr="hmlg-000S">additive</fr:link>. We need to show that <fr:tex>\hom(-, R(I))</fr:tex> is <fr:link
+href="hmlg-000X.xml"
+type="local"
+addr="hmlg-000X">exact</fr:link>, which amounts to saying the composition of <fr:tex>F</fr:tex> and <fr:tex>\hom(-, I)</fr:tex> is exact, which is true because both are exact.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -25,14 +27,17 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>403</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-002O</fr:addr><fr:route>hmlg-002O.xml</fr:route><fr:title>Abelian groups are injective iff divisible</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>399</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-002P</fr:addr><fr:route>hmlg-002P.xml</fr:route><fr:title>Right adjoint of exact functor preserves injectives</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  An abelian group <fr:tex>G</fr:tex> is <fr:link
+  Suppose <fr:tex>F \dashv R</fr:tex>, <fr:tex>F</fr:tex> is exact and <fr:tex>I</fr:tex> is an <fr:link
 href="hmlg-002J.xml"
 type="local"
-addr="hmlg-002J">injective</fr:link> iff it is <fr:strong>divisible</fr:strong>, i.e. for element <fr:tex>g \in G</fr:tex> and positive integer <fr:tex>n</fr:tex>, there exists a (non-unique) solution of <fr:tex>nx = g</fr:tex>.
+addr="hmlg-002J">injective</fr:link>, then <fr:tex>R(I)</fr:tex> is also an injective. Dually, if <fr:tex>L \dashv F</fr:tex>, <fr:tex>F</fr:tex> is exact and <fr:tex>P</fr:tex> is a <fr:link
+href="hmlg-0004.xml"
+type="local"
+addr="hmlg-0004">projective</fr:link>, then <fr:tex>L(P)</fr:tex> is also a projective.
 </fr:p>
   
     
@@ -43,17 +48,119 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>401</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>397</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002O</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002P</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    In one direction, suppose the group is injective, then the map <fr:tex>\mathbb{Z} \to G</fr:tex> defined by <fr:tex>k \mapsto k g</fr:tex> can be extended along the monomorphism <fr:tex>(n \times -) : \mathbb{Z} \to \mathbb{Z}</fr:tex>. This provides the division.
-  </fr:p>
-
-  <fr:p>
-    On the other hand, suppose divisibility holds. Given a morphism <fr:tex>f : A \to G</fr:tex> and an injection <fr:tex>A \hookrightarrow B</fr:tex>, we extend <fr:tex>f</fr:tex> to <fr:tex>B</fr:tex> by Zorn's lemma. Consider the poset of homomorphisms extending <fr:tex>f</fr:tex> to some subgroup of <fr:tex>B</fr:tex>. Given a chain in this poset, we can take the union to create an upper bound. And it is non-empty since <fr:tex>f</fr:tex> is an element. Hence it has a maximal element <fr:tex>\phi</fr:tex>. Suppose it is defined on <fr:tex>B' \subsetneq B</fr:tex>, then there is an element <fr:tex>b \in B</fr:tex> not in <fr:tex>B'</fr:tex>. Suppose <fr:tex>n b \notin B'</fr:tex> for all non-zero integers <fr:tex>n</fr:tex>, then we can define a larger homomorphism on <fr:tex>B + \mathbb{Z} b</fr:tex>, contradicting the maximality. Suppose there is some <fr:tex>n b \in B'</fr:tex>, then by divisibility we can assign <fr:tex>\phi(b)</fr:tex> a division of <fr:tex>\phi(n b)</fr:tex> by <fr:tex>n</fr:tex>. This too contradicts maximality.
+    Notice that the right adjoint preserves products, and so is <fr:link
+href="hmlg-000S.xml"
+type="local"
+addr="hmlg-000S">additive</fr:link>. We need to show that <fr:tex>\hom(-, R(I))</fr:tex> is <fr:link
+href="hmlg-000X.xml"
+type="local"
+addr="hmlg-000X">exact</fr:link>, which amounts to saying the composition of <fr:tex>F</fr:tex> and <fr:tex>\hom(-, I)</fr:tex> is exact, which is true because both are exact.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>393</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000X</fr:addr><fr:route>hmlg-000X.xml</fr:route><fr:title>Left and right exact functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  An <fr:link
+href="hmlg-000S.xml"
+type="local"
+addr="hmlg-000S">additive functor</fr:link> <fr:tex>F : {\mathcal{A}} \to {\mathcal{B}}</fr:tex> between abelian categories is <fr:strong>left exact</fr:strong> if it satisfies the following equivalent conditions.
+</fr:p><fr:ul><fr:li>It preserves kernels.</fr:li>
+  <fr:li>It preserves finite limits.</fr:li>
+  <fr:li>It preserves the exactness of sequences <fr:tex
+display="block">0 \to A \to B \to C.</fr:tex></fr:li></fr:ul><fr:p>
+  Dually, an additive functor is <fr:strong>right exact</fr:strong> if it satisfies the following equivalent conditions.
+</fr:p><fr:ul><fr:li>It preserves cokernels.</fr:li>
+  <fr:li>It preserves finite colimits.</fr:li>
+  <fr:li>It preserves the exactness of sequences <fr:tex
+display="block">A \to B \to C \to 0.</fr:tex></fr:li></fr:ul><fr:p>
+  If a functor is both left exact and right exact, it is simply called an <fr:strong>exact functor</fr:strong>, which is equivalent to it preserving the exactness of sequences <fr:tex>A \to B \to C</fr:tex>.
+</fr:p>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>391</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000X</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    Since additive functors already preserves finite products, and <fr:link
+href="hmlg-000Y.xml"
+type="local"
+addr="hmlg-000Y">kernels are equivalent to general equalizers</fr:link> using the additive structure, the first two conditions are equivalent.
+  </fr:p>
+
+  <fr:p>
+    The sequence <fr:tex>A \rightarrowtail B \to C</fr:tex> being exact is equivalent to <fr:tex>A</fr:tex> being a kernel of <fr:tex>B \to C</fr:tex>. So the third condition is equivalent to the first. This completes the equivalence proof.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>395</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000S</fr:addr><fr:route>hmlg-000S.xml</fr:route><fr:title>Additive functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
+  Given two <fr:link
+href="hmlg-000P.xml"
+type="local"
+addr="hmlg-000P">additive categories</fr:link> and a functor <fr:tex>F : {\mathcal{C}} \to {\mathcal{D}}</fr:tex> between them, the following are equivalent. In this case, we call the functor <fr:strong>additive</fr:strong>.
+</fr:p><fr:ul><fr:li>The functor preserves finite products.</fr:li>
+  <fr:li>The functor preserves finite coproducts.</fr:li>
+  <fr:li>The functor is a homomorphism on the abelian groups <fr:tex>\hom_{{\mathcal{C}}}(X, Y)</fr:tex>, i.e. it is an <fr:tex>{\mathsf{Ab}}</fr:tex>-enriched functor.</fr:li></fr:ul>
+  
+    
+    <fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>308</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+href="trebor.xml"
+type="local"
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000S</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>
+    For the equivalence of the first two claims, we have a composition
+    <fr:tex
+display="block">F(X) + F(Y) \to F(X + Y) \stackrel{\sim\,}{\to} F(X \times Y) \to F(X) \times F(Y),</fr:tex>
+    where the middle morphism comes from the canonical isomorphism <fr:tex>X + Y \stackrel{\sim\,}{\to} F(X \times Y)</fr:tex>. The first two claim is equivalent to the right and left arrows being iso, respectively. Recall that a morphism from a coproduct to a product is determined by a matrix of morphisms. With this fact and the functoriality of <fr:tex>F</fr:tex>, we can compute that the composition is the canonical isomorphism from <fr:tex>F(X) + F(Y)</fr:tex> to <fr:tex>F(X) \times F(Y)</fr:tex>. Therefore the leftmost arrow being iso is equivalent to the rightmost arrow being iso.
+  </fr:p>
+
+  <fr:p>
+    Since the abelian group structure on morphisms is <fr:link
+href="hmlg-000R.xml"
+type="local"
+addr="hmlg-000R">uniquely determined</fr:link> from the finite products and coproducts in an additive category, a functor satisfying the first two conditions automatically satisfies the third. Conversely, we need to prove the canonical maps <fr:tex>F(1) \to 1</fr:tex> and <fr:tex>F(X \times Y) \to F(X) \times F(Y)</fr:tex> are isomorphisms. For the first one, since <fr:tex>1</fr:tex> is also the initial object, any morphism into it is automatically iso. For the second one, we again look at the diagram which composes to an isomorphism:
+    <fr:tex
+display="block">F(X) + F(Y) \to F(X + Y) \stackrel{\sim\,}{\to} F(X \times Y) \to F(X) \times F(Y).</fr:tex>
+    Using the bilinearity of composition and that <fr:tex>F</fr:tex> preserves addition on morphisms, we can verify that this provides a two-sided inverse.
+  </fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

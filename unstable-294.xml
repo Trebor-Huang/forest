@@ -7,12 +7,19 @@ numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1853</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#294</fr:addr><fr:route>unstable-294.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1860</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#294</fr:addr><fr:route>unstable-294.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000B</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000D</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex>\bigcup_i D(f_i) = \top</fr:tex>, then there is a finite union equal to <fr:tex>\top</fr:tex>. Algebraically this means <fr:tex>\sqrt{\gcd\{f_i\}} = 1</fr:tex>, equivalently <fr:tex>\gcd\{f_i\} = 1</fr:tex>. So we have a linear combination <fr:tex>\sum_k a_k f_k = 1</fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.
+    We first deal with existence. By noetherianness, we perform well-founded induction. Suppose all the closed subsets of <fr:tex>Z</fr:tex> can be written as a finite union. If <fr:tex>Z</fr:tex> is irreducible then we’re done. Otherwise <fr:tex>Z = Z_1 \cup Z_2</fr:tex> is a non-trivial union of two closeds. By the induction hypothesis <fr:tex>Z_1</fr:tex> and <fr:tex>Z_2</fr:tex> can be written as a finite union of irreducible closeds, which we can combine to get the desired union.
+  </fr:p>
+
+  <fr:p>
+    We then prove uniqueness. Suppose
+    <fr:tex
+display="block">Z_1 \cup \cdots \cup Z_n = Z'_1 \cup \cdots \cup Z'_m.</fr:tex>
+    Consider the intersection with <fr:tex>Z_1</fr:tex>. The left hand side collapses to <fr:tex>Z_1</fr:tex>. The right hand side becomes <fr:tex>\bigcup_{i=1}^m (Z'_i \cap Z_1)</fr:tex>. Since <fr:tex>Z_1</fr:tex> is irreducible, <fr:tex>Z'_i \cap Z_1</fr:tex> must be either <fr:tex>Z_1</fr:tex> or empty. In the former case, since <fr:tex>Z'_i</fr:tex> is also irreducible, <fr:tex>Z'_i = Z_1</fr:tex>. Therefore each <fr:tex>Z_j</fr:tex> appears in the right hand side, and vice versa. Therefore the two sides are the same up to reordering and repetition.
   </fr:p>
 </fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
 xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
@@ -21,17 +28,14 @@ numbered="false"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1851</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000B</fr:addr><fr:route>algm-000B.xml</fr:route><fr:title>A <fr:link
-href="algm-0001.xml"
-type="local"
-addr="algm-0001">ring spectrum</fr:link> is quasi-compact</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1858</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000D</fr:addr><fr:route>algm-000D.xml</fr:route><fr:title>A closed in a noetherian space is uniquely a finite union of irreducible closeds</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
 addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The space <fr:tex>\operatorname{Spec}(R)</fr:tex> is always <fr:link
-href="algm-000A.xml"
+  If <fr:tex>X</fr:tex> is a <fr:link
+href="algm-000C.xml"
 type="local"
-addr="algm-000A">quasi-compact</fr:link>.
+addr="algm-000C">noetherian space</fr:link>, then a closed <fr:tex>Z \subseteq X</fr:tex> can be written uniquely as the union of finitely many irreducible closeds.
 </fr:p>
   
     
@@ -42,12 +46,19 @@ numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1785</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#294</fr:addr><fr:route>unstable-294.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"><fr:frontmatter><fr:anchor>1856</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#294</fr:addr><fr:route>unstable-294.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000B</fr:parent></fr:frontmatter><fr:mainmatter>
+addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000D</fr:parent></fr:frontmatter><fr:mainmatter>
   <fr:p>
-    Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex>\bigcup_i D(f_i) = \top</fr:tex>, then there is a finite union equal to <fr:tex>\top</fr:tex>. Algebraically this means <fr:tex>\sqrt{\gcd\{f_i\}} = 1</fr:tex>, equivalently <fr:tex>\gcd\{f_i\} = 1</fr:tex>. So we have a linear combination <fr:tex>\sum_k a_k f_k = 1</fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.
+    We first deal with existence. By noetherianness, we perform well-founded induction. Suppose all the closed subsets of <fr:tex>Z</fr:tex> can be written as a finite union. If <fr:tex>Z</fr:tex> is irreducible then we’re done. Otherwise <fr:tex>Z = Z_1 \cup Z_2</fr:tex> is a non-trivial union of two closeds. By the induction hypothesis <fr:tex>Z_1</fr:tex> and <fr:tex>Z_2</fr:tex> can be written as a finite union of irreducible closeds, which we can combine to get the desired union.
+  </fr:p>
+
+  <fr:p>
+    We then prove uniqueness. Suppose
+    <fr:tex
+display="block">Z_1 \cup \cdots \cup Z_n = Z'_1 \cup \cdots \cup Z'_m.</fr:tex>
+    Consider the intersection with <fr:tex>Z_1</fr:tex>. The left hand side collapses to <fr:tex>Z_1</fr:tex>. The right hand side becomes <fr:tex>\bigcup_{i=1}^m (Z'_i \cap Z_1)</fr:tex>. Since <fr:tex>Z_1</fr:tex> is irreducible, <fr:tex>Z'_i \cap Z_1</fr:tex> must be either <fr:tex>Z_1</fr:tex> or empty. In the former case, since <fr:tex>Z'_i</fr:tex> is also irreducible, <fr:tex>Z'_i = Z_1</fr:tex>. Therefore each <fr:tex>Z_j</fr:tex> appears in the right hand side, and vice versa. Therefore the two sides are the same up to reordering and repetition.
   </fr:p>
 </fr:mainmatter></fr:tree>
   
