@@ -1,220 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2322</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1464</fr:anchor><fr:addr
+type="machine">#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000R</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Notice that having finite products and coproducts is a <fr:link
-href="todo.xml"
-type="local"
-addr="todo">property</fr:link>, and the canonical morphism between them being an isomorphism is also a <fr:link
-href="todo.xml"
-type="local"
-addr="todo">property</fr:link>. These do not mention the enrichment structure.
-  </fr:p>
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0012</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>To specify a point <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, we need to specify which opens <fr:tex
+display="inline"><![CDATA[D_+(f)]]></fr:tex> it belongs to, where <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> ranges over positively graded elements. Equivalently, we specify the closeds <fr:tex
+display="inline"><![CDATA[V_+(f)]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[V_+(f) \cap  V_+(g) \subseteq  V_+(f + g)]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[P \in  V_+(f)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[P \in  V_+(g)]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[P \in  V_+(f + g)]]></fr:tex>. Similarly since <fr:tex
+display="inline"><![CDATA[V_+(f) \subseteq  V_+(f g)]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[P \in  V_+(f)]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[P \in  V_+(f g)]]></fr:tex>. Collecting all the elements whose distinguished closed contains <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, we get an ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> whose zeroth degree vanishes.</fr:p>
 
-  <fr:p>
-    With these properties satisfied, the addition structure on the <fr:tex>\hom</fr:tex>-sets are fixed. We claim that the additive neutral element is given by the composition
-    <fr:tex
-display="block">X \to 0 \to Y,</fr:tex>
-    and given two parallel morphisms <fr:tex>f, g : X \to Y</fr:tex>, the following composition
-    <fr:tex
-display="block">X \xrightarrow{\Delta} X \oplus X \xrightarrow{f \oplus g} Y \oplus Y \xrightarrow{\nabla} Y.</fr:tex>
-    is equal to the addition <fr:tex>f + g</fr:tex>. For disambiguation, we temporarily denote these constructions as <fr:tex>0'</fr:tex> and <fr:tex>f +' g</fr:tex>. By interpreting <fr:tex>\oplus</fr:tex> as a product or a coproduct at appropriate times, it is easy to see that <fr:tex>0'</fr:tex> is indeed the neutral element for <fr:tex>+'</fr:tex>.
-  </fr:p>
+  <fr:p>We have <fr:tex
+display="inline"><![CDATA[V_+(f g) = V_+(f) \cup  V_+(g)]]></fr:tex>, so if <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  f g]]></fr:tex>, then either <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  f]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  g]]></fr:tex>. This is almost the condition for prime ideals, but recall that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with <fr:ref
+addr="algm-0011"
+href="algm-0011.xml"
+taxon="Theorem" />.</fr:p>
 
-  <fr:p>
-    Recall that arrows <fr:tex>X \oplus X \to Y \oplus Y</fr:tex> is given by a <fr:tex>2 \times 2</fr:tex> matrix, and this correspondence is an abelian group isomorphism by general enriched category theory. <fr:tex>f \oplus g</fr:tex> comes from a diagonal matrix with <fr:tex>f, g</fr:tex> as entries, so this operation is linear, which entails <fr:tex>+'</fr:tex> is also linear. By the <fr:link
-href="todo.xml"
-type="local"
-addr="todo">Eckmann–Hilton argument</fr:link>, the two addition operations must coincide.
-  </fr:p>
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+  <fr:p>Next, we prove these ideals are in bijection with prime ideals not dividing <fr:tex
+display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. One direction of the correspondence is obvious: we take a prime ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and remove the zeroth degree, which amounts to taking <fr:tex
+display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {p}, \mathord {\odot })]]></fr:tex>.</fr:p>
+
+  <fr:p>We prove injectivity. Suppose primes <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> satisfy <fr:tex
+display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {p}, \mathord {\odot }) = \operatorname {lcm}(\mathfrak {q}, \mathord {\odot })]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \operatorname {lcm}(\mathfrak {q}, \mathord {\odot }) \mid  \mathfrak {q} \cdot  \mathord {\odot }]]></fr:tex>, so either <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \mathord {\odot }]]></fr:tex> which is forbidden, or <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {q}]]></fr:tex>. Conversely we must have <fr:tex
+display="inline"><![CDATA[\mathfrak {q} \mid  \mathfrak {p}]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[\mathfrak {p} = \mathfrak {q}]]></fr:tex>.</fr:p>
+
+  <fr:p>We prove surjectivity. Given an ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {a}]]></fr:tex>, we need to supplement it with a zeroth degree component <fr:tex
+display="inline"><![CDATA[\mathfrak {a}_0]]></fr:tex> so that together they make a prime ideal not divided by <fr:tex
+display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. We define <fr:tex
+display="inline"><![CDATA[\mathfrak {a}_0 \mid  c]]></fr:tex> iff there exists some positively graded <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \nmid  f]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  cf]]></fr:tex>. The verification is routine element chasing.</fr:p>
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2320</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000R</fr:addr><fr:route>hmlg-000R.xml</fr:route><fr:title>Being an additive category is a <fr:link
-href="todo.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1466</fr:anchor><fr:addr
+type="user">algm-0012</fr:addr><fr:route>algm-0012.xml</fr:route><fr:title
+text="Points of the projective spectrum">Points of the projective spectrum</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="todo">property</fr:link></fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The points of the <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category, if it can be endowed with an <fr:link
-href="hmlg-000O.xml"
+href="algm-000Y.xml"
+addr="algm-000Y"
+title="Projective spectrum of a graded ring">projective scheme</fr:link> <fr:tex
+display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> are given by prime ideals not dividing the <fr:link
 type="local"
-addr="hmlg-000O"><fr:tex>{\mathsf{Ab}}</fr:tex>-enrichment</fr:link> that makes it an <fr:link
-href="hmlg-000P.xml"
-type="local"
-addr="hmlg-000P">additive category</fr:link>, then it only has one possible enrichment. In particular, there is at most one way to turn a category into an additive category.
-</fr:p>
+href="algm-0013.xml"
+addr="algm-0013"
+title="Irrelevant ideal">irrelevant ideal</fr:link> <fr:tex
+display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. This is in bijection with ideals with <fr:tex
+display="inline"><![CDATA[\mathfrak {p}_0 = 0]]></fr:tex> (equivalently <fr:tex
+display="inline"><![CDATA[\mathord {\odot } \nmid  \mathfrak {p}]]></fr:tex>), and the condition for prime ideals holds for positively graded elements, i.e. <fr:tex
+display="block"><![CDATA[\mathfrak {p} \mid  x y \iff  (\mathfrak {p} \mid  x \lor  \mathfrak {p} \mid  y)]]></fr:tex> for positively graded <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>473</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1468</fr:anchor><fr:addr
+type="machine">#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000R</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Notice that having finite products and coproducts is a <fr:link
-href="todo.xml"
-type="local"
-addr="todo">property</fr:link>, and the canonical morphism between them being an isomorphism is also a <fr:link
-href="todo.xml"
-type="local"
-addr="todo">property</fr:link>. These do not mention the enrichment structure.
-  </fr:p>
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0012</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>To specify a point <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, we need to specify which opens <fr:tex
+display="inline"><![CDATA[D_+(f)]]></fr:tex> it belongs to, where <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> ranges over positively graded elements. Equivalently, we specify the closeds <fr:tex
+display="inline"><![CDATA[V_+(f)]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[V_+(f) \cap  V_+(g) \subseteq  V_+(f + g)]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[P \in  V_+(f)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[P \in  V_+(g)]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[P \in  V_+(f + g)]]></fr:tex>. Similarly since <fr:tex
+display="inline"><![CDATA[V_+(f) \subseteq  V_+(f g)]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[P \in  V_+(f)]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[P \in  V_+(f g)]]></fr:tex>. Collecting all the elements whose distinguished closed contains <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, we get an ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> whose zeroth degree vanishes.</fr:p>
 
-  <fr:p>
-    With these properties satisfied, the addition structure on the <fr:tex>\hom</fr:tex>-sets are fixed. We claim that the additive neutral element is given by the composition
-    <fr:tex
-display="block">X \to 0 \to Y,</fr:tex>
-    and given two parallel morphisms <fr:tex>f, g : X \to Y</fr:tex>, the following composition
-    <fr:tex
-display="block">X \xrightarrow{\Delta} X \oplus X \xrightarrow{f \oplus g} Y \oplus Y \xrightarrow{\nabla} Y.</fr:tex>
-    is equal to the addition <fr:tex>f + g</fr:tex>. For disambiguation, we temporarily denote these constructions as <fr:tex>0'</fr:tex> and <fr:tex>f +' g</fr:tex>. By interpreting <fr:tex>\oplus</fr:tex> as a product or a coproduct at appropriate times, it is easy to see that <fr:tex>0'</fr:tex> is indeed the neutral element for <fr:tex>+'</fr:tex>.
-  </fr:p>
+  <fr:p>We have <fr:tex
+display="inline"><![CDATA[V_+(f g) = V_+(f) \cup  V_+(g)]]></fr:tex>, so if <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  f g]]></fr:tex>, then either <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  f]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  g]]></fr:tex>. This is almost the condition for prime ideals, but recall that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with <fr:ref
+addr="algm-0011"
+href="algm-0011.xml"
+taxon="Theorem" />.</fr:p>
 
-  <fr:p>
-    Recall that arrows <fr:tex>X \oplus X \to Y \oplus Y</fr:tex> is given by a <fr:tex>2 \times 2</fr:tex> matrix, and this correspondence is an abelian group isomorphism by general enriched category theory. <fr:tex>f \oplus g</fr:tex> comes from a diagonal matrix with <fr:tex>f, g</fr:tex> as entries, so this operation is linear, which entails <fr:tex>+'</fr:tex> is also linear. By the <fr:link
-href="todo.xml"
-type="local"
-addr="todo">Eckmann–Hilton argument</fr:link>, the two addition operations must coincide.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+  <fr:p>Next, we prove these ideals are in bijection with prime ideals not dividing <fr:tex
+display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. One direction of the correspondence is obvious: we take a prime ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and remove the zeroth degree, which amounts to taking <fr:tex
+display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {p}, \mathord {\odot })]]></fr:tex>.</fr:p>
+
+  <fr:p>We prove injectivity. Suppose primes <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> satisfy <fr:tex
+display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {p}, \mathord {\odot }) = \operatorname {lcm}(\mathfrak {q}, \mathord {\odot })]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \operatorname {lcm}(\mathfrak {q}, \mathord {\odot }) \mid  \mathfrak {q} \cdot  \mathord {\odot }]]></fr:tex>, so either <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \mathord {\odot }]]></fr:tex> which is forbidden, or <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {q}]]></fr:tex>. Conversely we must have <fr:tex
+display="inline"><![CDATA[\mathfrak {q} \mid  \mathfrak {p}]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[\mathfrak {p} = \mathfrak {q}]]></fr:tex>.</fr:p>
+
+  <fr:p>We prove surjectivity. Given an ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {a}]]></fr:tex>, we need to supplement it with a zeroth degree component <fr:tex
+display="inline"><![CDATA[\mathfrak {a}_0]]></fr:tex> so that together they make a prime ideal not divided by <fr:tex
+display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. We define <fr:tex
+display="inline"><![CDATA[\mathfrak {a}_0 \mid  c]]></fr:tex> iff there exists some positively graded <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \nmid  f]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  cf]]></fr:tex>. The verification is routine element chasing.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2319</fr:anchor><fr:taxon>Meta</fr:taxon><fr:addr>todo</fr:addr><fr:route>todo.xml</fr:route><fr:title>Unfinished trees</fr:title></fr:frontmatter><fr:mainmatter><fr:p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1227</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002F</fr:addr><fr:route>hmlg-002F.xml</fr:route><fr:title>Twisted tensor product</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  (...)
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1229</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-002D</fr:addr><fr:route>hmlg-002D.xml</fr:route><fr:title>Associated twisted product</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The <fr:link
-href="hmlg-002C.xml"
-type="local"
-addr="hmlg-002C">associated simplicial fiber bundle</fr:link> of <fr:link
-href="hmlg-002B.xml"
-type="local"
-addr="hmlg-002B">twisted products</fr:link> admits a simpler description. Suppose we have simplicial sets <fr:tex>F, B</fr:tex>, a simplicial group <fr:tex>G</fr:tex> with an action <fr:tex>G \times F \to F</fr:tex> and a <fr:link
-href="hmlg-002A.xml"
-type="local"
-addr="hmlg-002A">twisting function</fr:link> <fr:tex>\tau</fr:tex> on <fr:tex>B</fr:tex>. The <fr:strong>associated twisted product</fr:strong> <fr:tex>B \times_\tau F</fr:tex> is defined exactly the same as twisted products, except we replace the factor <fr:tex>G</fr:tex> with <fr:tex>F</fr:tex>. This still makes sense, because we can interpret the multiplication <fr:tex>\tau(b) \cdot \partial_n f</fr:tex> as the <fr:tex>G</fr:tex>-action.
-</fr:p><fr:p>
-  In particular, if we consider <fr:tex>G</fr:tex> as a simplicial set with a <fr:tex>G</fr:tex>-action on the left via multiplication, then the associated twisted product <fr:tex>B \times_\tau G</fr:tex> is exactly the same as the twisted product <fr:tex>B \times_\tau G</fr:tex>, which explains our identical notation.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1231</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-001M</fr:addr><fr:route>hmlg-001M.xml</fr:route><fr:title>Chain reduction of mapping cones</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a pair of <fr:link
-href="hmlg-0017.xml"
-type="local"
-addr="hmlg-0017">chain reductions</fr:link> <fr:tex>\rho : C \Rightarrow\mkern{-14mu}\Rightarrow D</fr:tex> and <fr:tex>\rho' : C' \Rightarrow\mkern{-14mu}\Rightarrow D'</fr:tex>, we can construct a reduction from the mapping cone <fr:tex>\operatorname{Cone}(f)</fr:tex> of a chain map <fr:tex>f : C \to C'</fr:tex> to (the action of <fr:tex>\rho</fr:tex> on <fr:tex>f</fr:tex>).
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1233</fr:anchor><fr:addr>hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title>Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  This is a set of notes on effective homology and algebraic topology. Main references are <fr:link
-href="constructive-homological-algebra.xml"
-type="local"
-addr="constructive-homological-algebra">Constructive Homological Algebra and Applications</fr:link> and <fr:link
-href="discrete-vector-fields.xml"
-type="local"
-addr="discrete-vector-fields">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. We assume basic familiarity with the classical aspects of the theory, although there will also be links within this forest to the relevant concepts.
-</fr:p><fr:ul><fr:li><fr:link
-href="hmlg-0021.xml"
-type="local"
-addr="hmlg-0021">W-bar construction</fr:link>, simplicial principal bundles, twisted products by <fr:link
-href="simplicial-objects.xml"
-type="local"
-addr="simplicial-objects">Simplicial objects in algebraic topology</fr:link></fr:li>
-  <fr:li>classifying space, loop space</fr:li>
-  <fr:li>composition of <fr:link
-href="hmlg-001I.xml"
-type="local"
-addr="hmlg-001I">strong homology equivalence</fr:link>, tensor product, cone, bicomplex</fr:li>
-  <fr:li>simplicial group, Kan complex</fr:li>
-  <fr:li>organize into notes</fr:li></fr:ul></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"><fr:frontmatter><fr:anchor>1237</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000F</fr:addr><fr:route>hmlg-000F.xml</fr:route><fr:title>Freyd–Mitchell embedding theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex>R</fr:tex>-modules for some ring <fr:tex>R</fr:tex>.
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1235</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  (TODO)
-</fr:p></fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

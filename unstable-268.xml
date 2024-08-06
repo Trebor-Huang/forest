@@ -1,106 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2249</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1430</fr:anchor><fr:addr
+type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0017</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We prove that if some affine cover <fr:tex
+display="inline"><![CDATA[\{\operatorname {Spec}(R_i) \hookrightarrow  X\}]]></fr:tex> has such a property, then all the affine subschemes has it, hence we can check on any affine cover. Given an affine subscheme <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S) \hookrightarrow  X]]></fr:tex>, using <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000X</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Since additive functors already preserves finite products, and <fr:link
-href="hmlg-000Y.xml"
-type="local"
-addr="hmlg-000Y">kernels are equivalent to general equalizers</fr:link> using the additive structure, the first two conditions are equivalent.
-  </fr:p>
-
-  <fr:p>
-    The sequence <fr:tex>A \rightarrowtail B \to C</fr:tex> being exact is equivalent to <fr:tex>A</fr:tex> being a kernel of <fr:tex>B \to C</fr:tex>. So the third condition is equivalent to the first. This completes the equivalence proof.
-  </fr:p>
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="algm-0016.xml"
+addr="algm-0016"
+title="Nike’s trick">Nike’s trick</fr:link>, we see that the intersection with <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R_i)]]></fr:tex> is covered by affine subschemes, which will all have the said property. Hence we get a cover of <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S) \hookrightarrow  X]]></fr:tex> with the said property, and therefore itself also.</fr:p>
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2247</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000X</fr:addr><fr:route>hmlg-000X.xml</fr:route><fr:title>Left and right exact functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1432</fr:anchor><fr:addr
+type="user">algm-0017</fr:addr><fr:route>algm-0017.xml</fr:route><fr:title
+text="Affine local properties">Affine local properties</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose a property on affine subschemes <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R) \hookrightarrow  X]]></fr:tex> is closed under taking distinguished subsets <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R_f) \hookrightarrow  X]]></fr:tex>, and for <fr:tex
+display="inline"><![CDATA[\gcd \{f_i\} = 1]]></fr:tex>, the property being true on <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R_{f_i}) \hookrightarrow  X]]></fr:tex> implies it being true on <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R) \hookrightarrow  X]]></fr:tex>. Then such a property is called <fr:strong>affine local</fr:strong>. We then say that <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> has such a property if some affine cover has such a property: the result doesn’t depend on the chosen cover.</fr:p><fr:p>If the property <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> only depends on <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> and not <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> (or the inclusion map), it can be simplified as a property on affine schemes. In this case, the above definition extends it to a property <fr:tex
+display="inline"><![CDATA[P']]></fr:tex> on schemes, which we will usually refer to as <fr:strong>locally</fr:strong> <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>. Suppose the scheme is furthermore <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  An <fr:link
-href="hmlg-000S.xml"
-type="local"
-addr="hmlg-000S">additive functor</fr:link> <fr:tex>F : {\mathcal{A}} \to {\mathcal{B}}</fr:tex> between abelian categories is <fr:strong>left exact</fr:strong> if it satisfies the following equivalent conditions.
-</fr:p><fr:ul><fr:li>It preserves kernels.</fr:li>
-  <fr:li>It preserves finite limits.</fr:li>
-  <fr:li>It preserves the exactness of sequences <fr:tex
-display="block">0 \to A \to B \to C.</fr:tex></fr:li></fr:ul><fr:p>
-  Dually, an additive functor is <fr:strong>right exact</fr:strong> if it satisfies the following equivalent conditions.
-</fr:p><fr:ul><fr:li>It preserves cokernels.</fr:li>
-  <fr:li>It preserves finite colimits.</fr:li>
-  <fr:li>It preserves the exactness of sequences <fr:tex
-display="block">A \to B \to C \to 0.</fr:tex></fr:li></fr:ul><fr:p>
-  If a functor is both left exact and right exact, it is simply called an <fr:strong>exact functor</fr:strong>, which is equivalent to it preserving the exactness of sequences <fr:tex>A \to B \to C</fr:tex>.
-</fr:p>
+href="algm-000A.xml"
+addr="algm-000A"
+title="Terminology of compactness in algebraic geometry">quasi-compact</fr:link>, we say the scheme satisfies <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>391</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1434</fr:anchor><fr:addr
+type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0017</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We prove that if some affine cover <fr:tex
+display="inline"><![CDATA[\{\operatorname {Spec}(R_i) \hookrightarrow  X\}]]></fr:tex> has such a property, then all the affine subschemes has it, hence we can check on any affine cover. Given an affine subscheme <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S) \hookrightarrow  X]]></fr:tex>, using <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000X</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Since additive functors already preserves finite products, and <fr:link
-href="hmlg-000Y.xml"
-type="local"
-addr="hmlg-000Y">kernels are equivalent to general equalizers</fr:link> using the additive structure, the first two conditions are equivalent.
-  </fr:p>
-
-  <fr:p>
-    The sequence <fr:tex>A \rightarrowtail B \to C</fr:tex> being exact is equivalent to <fr:tex>A</fr:tex> being a kernel of <fr:tex>B \to C</fr:tex>. So the third condition is equivalent to the first. This completes the equivalence proof.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="algm-0016.xml"
+addr="algm-0016"
+title="Nike’s trick">Nike’s trick</fr:link>, we see that the intersection with <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R_i)]]></fr:tex> is covered by affine subschemes, which will all have the said property. Hence we get a cover of <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S) \hookrightarrow  X]]></fr:tex> with the said property, and therefore itself also.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2245</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-000Y</fr:addr><fr:route>hmlg-000Y.xml</fr:route><fr:title>Equalizers can be reduced to kernels in <fr:tex>{\mathsf{Ab}}</fr:tex>-enriched categories</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  We can express equalizers with kernels (which are equalizers with the zero morphism).
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>483</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Y</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We simply need to note that an equalizer for <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> is equivalent to an equalizer for <fr:tex>(f-g)</fr:tex> and <fr:tex>0</fr:tex>, by bilinearity of composition.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

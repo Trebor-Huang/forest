@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>869</fr:anchor><fr:addr
+type="machine">#234</fr:addr><fr:route>unstable-234.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000E</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>For the first claim, we need a functor <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> such that arrows from <fr:tex
+display="inline"><![CDATA[L(GFA \xrightarrow {\alpha } A)]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is in bijection with commutative squares
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="7552ab0a1122c764613faeef0d30c0bc"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      GFA & GFGX \\
+      A & GX
+      \arrow [from=1-1, to=1-2]
+      \arrow ["{\alpha }"', from=1-1, to=2-1]
+      \arrow ["{G \epsilon }", from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    which are equivalent by <fr:tex
+display="inline"><![CDATA[F \dashv  G]]></fr:tex> to the commutative squares
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="742f273ba13897778c25fb9ad1150d18"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      FGFA & FGX \\
+      FA & X
+      \arrow ["FG\varphi ", from=1-1, to=1-2]
+      \arrow ["F\alpha "', from=1-1, to=2-1]
+      \arrow ["\epsilon ", from=1-2, to=2-2]
+      \arrow ["\varphi ", from=2-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    Further notice that <fr:tex
+display="inline"><![CDATA[\epsilon  \mathbin {\circ } FG\varphi  = \varphi  \mathbin {\circ } \epsilon ]]></fr:tex> by naturality. So it becomes obvious that <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> should be defined as the coequalizer of the pair <fr:tex
+display="block"><![CDATA[F \alpha , \epsilon  : FGFA \rightrightarrows  FA.]]></fr:tex> This is reflexive by the common section <fr:tex
+display="inline"><![CDATA[F\eta ]]></fr:tex>.</fr:p>
+
+  <fr:p>For the second point, we unfold the unit as a natural family of commutative squares
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="857909e7575ed30b312cefad4ffa82e3"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      GFA & {GFG\operatorname *{colim}(FGFA \rightrightarrows  FA)} \\
+      A & {G\operatorname *{colim}(FGFA \rightrightarrows  FA)}
+      \arrow [from=1-1, to=1-2]
+      \arrow [from=1-1, to=2-1]
+      \arrow [from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    and when <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> preserves the coequalizers in the diagram, the problem is reduced to showing that the coequalizer of <fr:tex
+display="inline"><![CDATA[GF\alpha ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[G\epsilon  : GFGFA \rightrightarrows  GFA]]></fr:tex> is isomorphic to <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> via the bottom map, which is just the unit <fr:tex
+display="inline"><![CDATA[\eta  : A \to  GFA]]></fr:tex> composed with the coequalizing map. This is a routine diagram chase.</fr:p>
+
+  <fr:p>For the final point, we would like the coequalizer of <fr:tex
+display="inline"><![CDATA[FG\epsilon , \epsilon  : FGFGX \rightrightarrows  FGX]]></fr:tex> to be isomorphic to <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. If we apply <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> to the diagram, we get an isomorphism to <fr:tex
+display="inline"><![CDATA[GX]]></fr:tex> by the previous point. So if <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> reflects isomorphisms, we’re done.</fr:p>
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>871</fr:anchor><fr:addr
+type="user">ualg-000E</fr:addr><fr:route>ualg-000E.xml</fr:route><fr:title
+text="Crude monadicity theorem">Crude monadicity theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G : \mathcal {D} \to  \mathcal {C}]]></fr:tex> be a functor with a left adjoint <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>. <fr:tex
+display="inline"><![CDATA[M = G \mathbin {\circ } F]]></fr:tex> is the corresponding monad on <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>. This gives a <fr:link
+type="local"
+href="ualg-0009.xml"
+addr="ualg-0009"
+title="The Eilenberg–Moore category induces the terminal decomposition of a monad">comparison functor</fr:link> <fr:tex
+display="inline"><![CDATA[K : \mathcal {A} \to  \mathcal {C}^M]]></fr:tex>.</fr:p><fr:ol><fr:li>If <fr:tex
+display="inline"><![CDATA[\mathcal {D}]]></fr:tex> has all coequalizers (we can weaken this to <fr:link
+type="local"
+href="ualg-000F.xml"
+addr="ualg-000F"
+title="Reflexive pair">reflexive coequalizers</fr:link>), then <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> has a left adjoint.</fr:li>
+  <fr:li>If moreover <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> preserves these reflexive coequalizers, the unit <fr:tex
+display="inline"><![CDATA[\textrm {Id} \to  K \mathbin {\circ } L]]></fr:tex> is an isomorphism.</fr:li>
+  <fr:li>Finally, if <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> reflects isomorphisms, then the counit <fr:tex
+display="inline"><![CDATA[L \mathbin {\circ } K \to  \textrm {Id}]]></fr:tex> is also an isomorphism, making <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> <fr:link
+type="local"
+href="ualg-000A.xml"
+addr="ualg-000A"
+title="Monadic functor">monadic</fr:link>.</fr:li></fr:ol>
+  
+    
+    <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>813</fr:anchor><fr:addr
+type="machine">#234</fr:addr><fr:route>unstable-234.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000E</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>For the first claim, we need a functor <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> such that arrows from <fr:tex
+display="inline"><![CDATA[L(GFA \xrightarrow {\alpha } A)]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is in bijection with commutative squares
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="7552ab0a1122c764613faeef0d30c0bc"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      GFA & GFGX \\
+      A & GX
+      \arrow [from=1-1, to=1-2]
+      \arrow ["{\alpha }"', from=1-1, to=2-1]
+      \arrow ["{G \epsilon }", from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    which are equivalent by <fr:tex
+display="inline"><![CDATA[F \dashv  G]]></fr:tex> to the commutative squares
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="742f273ba13897778c25fb9ad1150d18"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      FGFA & FGX \\
+      FA & X
+      \arrow ["FG\varphi ", from=1-1, to=1-2]
+      \arrow ["F\alpha "', from=1-1, to=2-1]
+      \arrow ["\epsilon ", from=1-2, to=2-2]
+      \arrow ["\varphi ", from=2-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    Further notice that <fr:tex
+display="inline"><![CDATA[\epsilon  \mathbin {\circ } FG\varphi  = \varphi  \mathbin {\circ } \epsilon ]]></fr:tex> by naturality. So it becomes obvious that <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> should be defined as the coequalizer of the pair <fr:tex
+display="block"><![CDATA[F \alpha , \epsilon  : FGFA \rightrightarrows  FA.]]></fr:tex> This is reflexive by the common section <fr:tex
+display="inline"><![CDATA[F\eta ]]></fr:tex>.</fr:p>
+
+  <fr:p>For the second point, we unfold the unit as a natural family of commutative squares
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="857909e7575ed30b312cefad4ffa82e3"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      GFA & {GFG\operatorname *{colim}(FGFA \rightrightarrows  FA)} \\
+      A & {G\operatorname *{colim}(FGFA \rightrightarrows  FA)}
+      \arrow [from=1-1, to=1-2]
+      \arrow [from=1-1, to=2-1]
+      \arrow [from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    and when <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> preserves the coequalizers in the diagram, the problem is reduced to showing that the coequalizer of <fr:tex
+display="inline"><![CDATA[GF\alpha ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[G\epsilon  : GFGFA \rightrightarrows  GFA]]></fr:tex> is isomorphic to <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> via the bottom map, which is just the unit <fr:tex
+display="inline"><![CDATA[\eta  : A \to  GFA]]></fr:tex> composed with the coequalizing map. This is a routine diagram chase.</fr:p>
+
+  <fr:p>For the final point, we would like the coequalizer of <fr:tex
+display="inline"><![CDATA[FG\epsilon , \epsilon  : FGFGX \rightrightarrows  FGX]]></fr:tex> to be isomorphic to <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. If we apply <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> to the diagram, we get an isomorphism to <fr:tex
+display="inline"><![CDATA[GX]]></fr:tex> by the previous point. So if <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> reflects isomorphisms, we’re done.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

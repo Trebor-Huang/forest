@@ -1,311 +1,478 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1840</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000I</fr:addr><fr:route>algm-000I.xml</fr:route><fr:title>Structure sheaf of a ring spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1747</fr:anchor><fr:addr
+type="user">algm-000I</fr:addr><fr:route>algm-000I.xml</fr:route><fr:title
+text="Structure sheaf of a ring spectrum">Structure sheaf of a ring spectrum</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a commutative ring <fr:tex>R</fr:tex>, we define a sheaf <fr:tex>{\mathscr{O}}</fr:tex> of rings on <fr:tex>\operatorname{Spec}(R)</fr:tex> called the <fr:strong>structure sheaf</fr:strong>. Let <fr:tex>{\Gamma}(D(f), {\mathscr{O}}) = R[f^{-1}]</fr:tex>. Suppose <fr:tex>D(f) \subseteq D(g)</fr:tex> we define the restriction morphism to be the localization map <fr:tex>R[g^{-1}] \to R[f^{-1}]</fr:tex>, since by <fr:ref
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a commutative ring <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, we define a sheaf <fr:tex
+display="inline"><![CDATA[\mathscr {O}]]></fr:tex> of rings on <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> called the <fr:strong>structure sheaf</fr:strong>. Let <fr:tex
+display="inline"><![CDATA[\Gamma (D(f), \mathscr {O}) = R[f^{-1}]]]></fr:tex>. Suppose <fr:tex
+display="inline"><![CDATA[D(f) \subseteq  D(g)]]></fr:tex> we define the restriction morphism to be the localization map <fr:tex
+display="inline"><![CDATA[R[g^{-1}] \to  R[f^{-1}]]]></fr:tex>, since by <fr:ref
 addr="algm-0002"
 href="algm-0002.xml"
-taxon="Theorem"></fr:ref> the latter is a further localization of the former. This turns <fr:tex>\operatorname{Spec}(R)</fr:tex> into a <fr:link
+taxon="Theorem" /> the latter is a further localization of the former. This turns <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> into a <fr:link
+type="local"
 href="algm-000M.xml"
-type="local"
-addr="algm-000M">ringed space</fr:link>.
-</fr:p>
+addr="algm-000M"
+title="Ringed space">ringed space</fr:link>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1563</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#291</fr:addr><fr:route>unstable-291.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1502</fr:anchor><fr:addr
+type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000I</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex>f_i \in R</fr:tex> such that <fr:tex>\bigcup_i D(f_i) = D(f)</fr:tex>, we need to show that
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000I</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex
+display="inline"><![CDATA[f_i \in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\bigcup _i D(f_i) = D(f)]]></fr:tex>, we need to show that
     <fr:tex
-display="block">R[f^{-1}] \to \prod_{i \in I} R[f_i^{-1}] \rightrightarrows \prod_{i \ne j} R[(f_i f_j)^{-1}]</fr:tex>
-    is an equalizer. Notice that <fr:tex>R[f_i^{-1}] \cong R[f^{-1}][f_i^{-1}]</fr:tex>. So we may reassign <fr:tex>S = R[f^{-1}]</fr:tex>. This simplifies the problem to
+display="block"><![CDATA[R[f^{-1}] \to  \prod _{i \in  I} R[f_i^{-1}] \rightrightarrows  \prod _{i \ne  j} R[(f_i f_j)^{-1}]]]></fr:tex>
+    is an equalizer. Notice that <fr:tex
+display="inline"><![CDATA[R[f_i^{-1}] \cong  R[f^{-1}][f_i^{-1}]]]></fr:tex>. So we may reassign <fr:tex
+display="inline"><![CDATA[S = R[f^{-1}]]]></fr:tex>. This simplifies the problem to
     <fr:tex
-display="block">S \to \prod_{i \in I} S[f_i^{-1}] \rightrightarrows \prod_{i \ne j} S[(f_i f_j)^{-1}],</fr:tex>
-    where <fr:tex>D(f_i)</fr:tex> covers the whole space <fr:tex>\operatorname{Spec}(S)</fr:tex>. 
-  </fr:p>
+display="block"><![CDATA[S \to  \prod _{i \in  I} S[f_i^{-1}] \rightrightarrows  \prod _{i \ne  j} S[(f_i f_j)^{-1}],]]></fr:tex>
+    where <fr:tex
+display="inline"><![CDATA[D(f_i)]]></fr:tex> covers the whole space <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex>.</fr:p>
 
-  <fr:p>
-    We first describe the intuition. Since we know <fr:tex>\operatorname{Spec}(S)</fr:tex> is <fr:link
+  <fr:p>We first describe the intuition. Since we know <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex> is <fr:link
+type="local"
 href="algm-000B.xml"
+addr="algm-000B"
+title="A ring spectrum is quasi-compact">quasi-compact</fr:link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <fr:tex
+display="inline"><![CDATA[g_i/f_i^{d_i} \in  S[f_i^{-1}]]]></fr:tex> that are equal in their common domain. Since <fr:tex
+display="inline"><![CDATA[D(f_i) = D(f_i^{d_i})]]></fr:tex> covers <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex>, we have a linear combination <fr:tex
+display="inline"><![CDATA[1 = \sum _i c_i f_i^{d_i}]]></fr:tex>, which is akin to a partition of unity. Suppose the putative gluing is <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>, multiplying with the partition of unity we get
+    <fr:tex
+display="block"><![CDATA[\begin {aligned}       f &= \sum _{i \in  I} c_i f_i^{d_i} f \\       &= \sum  c_i f_i^{d_i} \frac {g_i}{f_i^{d_i}} \\       &= \sum  c_i g_i.     \end {aligned}]]></fr:tex>
+    which defines the gluing. We just have to make this reasoning precise. We first deal with the finite case.</fr:p>
+
+  <fr:p>Suppose there are elements <fr:tex
+display="inline"><![CDATA[g_i/f_i^d \in  S[f_i^{-1}]]]></fr:tex>, where we are allowed to use a single exponent <fr:tex
+display="inline"><![CDATA[d]]></fr:tex> by finiteness. The compatibility requirement is <fr:tex
+display="block"><![CDATA[(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.]]></fr:tex> If there is a solution <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> to the gluing problem, it would need to satisfy <fr:tex
+display="inline"><![CDATA[(f f_i^d - g_i) f_i^M = 0]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[D(f_i) = D(f_i^R)]]></fr:tex> covers <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex>, we have a linear combination <fr:tex
+display="inline"><![CDATA[1 = \sum _i c_i f_i^R]]></fr:tex> for large enough <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Hence
+    <fr:tex
+display="block"><![CDATA[f = \sum _{i \in  I} c_i f f_i^R = \sum  c_i g_i f_i^{R-d}.]]></fr:tex> This uniquely determines <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>. And indeed, this solution satisfies our requirements, because when restricted to <fr:tex
+display="inline"><![CDATA[D(f_j)]]></fr:tex>, we have
+    <fr:tex
+display="block"><![CDATA[\begin {aligned}       f f_j^d \cdot  f_j^R &= \sum  c_i g_i f_i^{R-d} f_j^{R+d} \\       &= \sum  c_i g_j f_i^{R} f_j^{R} \\       &= g_j f_j^R \cdot  \sum  c_i f_i^R = g_j f_j^R.     \end {aligned}]]></fr:tex>
+    This reasoning is valid as long as <fr:tex
+display="inline"><![CDATA[R > N + 2d]]></fr:tex>.</fr:p>
+
+  <fr:p>If there are infinitely many opens, we first use <fr:link
 type="local"
-addr="algm-000B">quasi-compact</fr:link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <fr:tex>g_i/f_i^{d_i} \in S[f_i^{-1}]</fr:tex> that are equal in their common domain. Since <fr:tex>D(f_i) = D(f_i^{d_i})</fr:tex> covers <fr:tex>\operatorname{Spec}(S)</fr:tex>, we have a linear combination <fr:tex>1 = \sum_i c_i f_i^{d_i}</fr:tex>, which is akin to a partition of unity. Suppose the putative gluing is <fr:tex>f</fr:tex>, multiplying with the partition of unity we get
-    <fr:tex
-display="block">\begin{aligned}       f &amp;= \sum_{i \in I} c_i f_i^{d_i} f \\       &amp;= \sum c_i f_i^{d_i} \frac{g_i}{f_i^{d_i}} \\       &amp;= \sum c_i g_i.     \end{aligned}</fr:tex>
-    which defines the gluing. We just have to make this reasoning precise. We first deal with the finite case.
-  </fr:p>
-
-  <fr:p>
-    Suppose there are elements <fr:tex>g_i/f_i^d \in S[f_i^{-1}]</fr:tex>, where we are allowed to use a single exponent <fr:tex>d</fr:tex> by finiteness. The compatibility requirement is <fr:tex
-display="block">(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.</fr:tex> If there is a solution <fr:tex>f</fr:tex> to the gluing problem, it would need to satisfy <fr:tex>(f f_i^d - g_i) f_i^M = 0</fr:tex>. Since <fr:tex>D(f_i) = D(f_i^R)</fr:tex> covers <fr:tex>\operatorname{Spec}(S)</fr:tex>, we have a linear combination <fr:tex>1 = \sum_i c_i f_i^R</fr:tex> for large enough <fr:tex>R</fr:tex>. Hence
-    <fr:tex
-display="block">f = \sum_{i \in I} c_i f f_i^R = \sum c_i g_i f_i^{R-d}.</fr:tex> This uniquely determines <fr:tex>f</fr:tex>. And indeed, this solution satisfies our requirements, because when restricted to <fr:tex>D(f_j)</fr:tex>, we have
-    <fr:tex
-display="block">\begin{aligned}       f f_j^d \cdot f_j^R &amp;= \sum c_i g_i f_i^{R-d} f_j^{R+d} \\       &amp;= \sum c_i g_j f_i^{R} f_j^{R} \\       &amp;= g_j f_j^R \cdot \sum c_i f_i^R = g_j f_j^R.     \end{aligned}</fr:tex>
-    This reasoning is valid as long as <fr:tex>R &gt; N + 2d</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    If there are infinitely many opens, we first use <fr:link
 href="algm-000B.xml"
-type="local"
-addr="algm-000B">quasi-compactness</fr:link> to select a finite number <fr:tex>D(f_1), \dots, D(f_k)</fr:tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <fr:tex>f</fr:tex> for <fr:tex>D(f_1), \dots, D(f_k)</fr:tex>. Then consider the solution on <fr:tex>{D(f_1), \dots, D(f_k)}, D(g)</fr:tex> for every <fr:tex>g</fr:tex>. This solution must be equal to <fr:tex>f</fr:tex> by uniqueness. Therefore <fr:tex>f</fr:tex> restrict to the correct function on each <fr:tex>D(g)</fr:tex>, showing that <fr:tex>f</fr:tex> is the required solution.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+addr="algm-000B"
+title="A ring spectrum is quasi-compact">quasi-compactness</fr:link> to select a finite number <fr:tex
+display="inline"><![CDATA[D(f_1), \dots , D(f_k)]]></fr:tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[D(f_1), \dots , D(f_k)]]></fr:tex>. Then consider the solution on <fr:tex
+display="inline"><![CDATA[D(f_1), \dots , D(f_k), D(g)]]></fr:tex> for every <fr:tex
+display="inline"><![CDATA[g]]></fr:tex>. This solution must be equal to <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> by uniqueness. Therefore <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> restrict to the correct function on each <fr:tex
+display="inline"><![CDATA[D(g)]]></fr:tex>, showing that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is the required solution.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1834</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000M</fr:addr><fr:route>algm-000M.xml</fr:route><fr:title>Ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>ringed space</fr:strong> is a space equipped with a sheaf of rings, called the <fr:strong>structure sheaf</fr:strong>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1836</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000B</fr:addr><fr:route>algm-000B.xml</fr:route><fr:title>A <fr:link
-href="algm-0001.xml"
-type="local"
-addr="algm-0001">ring spectrum</fr:link> is quasi-compact</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The space <fr:tex>\operatorname{Spec}(R)</fr:tex> is always <fr:link
-href="algm-000A.xml"
-type="local"
-addr="algm-000A">quasi-compact</fr:link>.
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
-numbered="true"
+numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1796</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#295</fr:addr><fr:route>unstable-295.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000B</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex>\bigcup_i D(f_i) = \top</fr:tex>, then there is a finite union equal to <fr:tex>\top</fr:tex>. Algebraically this means <fr:tex>\sqrt{\gcd\{f_i\}} = 1</fr:tex>, equivalently <fr:tex>\gcd\{f_i\} = 1</fr:tex>. So we have a linear combination <fr:tex>\sum_k a_k f_k = 1</fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1838</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0002</fr:addr><fr:route>algm-0002.xml</fr:route><fr:title>Radical ideals bijectively correspond to open sets</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1749</fr:anchor><fr:addr
+type="user">algm-000Z</fr:addr><fr:route>algm-000Z.xml</fr:route><fr:title
+text="Geometry of graded rings">Geometry of graded rings</fr:title><fr:taxon>Intuition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  In an arbitrary <fr:link
-href="algm-0001.xml"
-type="local"
-addr="algm-0001">topological spectrum of a commutative ring</fr:link>, we have <fr:tex>D(\mathfrak{a}) = D(\sqrt{\mathfrak{a}})</fr:tex>. There is a containment of opens <fr:tex>D(\mathfrak{a}) \subseteq D(\mathfrak{b})</fr:tex> — equivalently <fr:tex>V(\mathfrak{b}) \subseteq V(\mathfrak{a})</fr:tex> — iff <fr:tex>\sqrt{\mathfrak{b}} \mid \sqrt{\mathfrak{a}}</fr:tex>, and the points contained in an open set completely determines the radical ideal.
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1808</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#300</fr:addr><fr:route>unstable-300.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0002</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Since <fr:tex>\mathfrak{p} \mid \mathfrak{a}</fr:tex> implies <fr:tex>\sqrt{\mathfrak{p}} \mid \sqrt{\mathfrak{a}}</fr:tex>, but <fr:tex>\mathfrak{p} = \sqrt{\mathfrak{p}}</fr:tex>, we see that <fr:tex>D(\mathfrak{a}) = D(\sqrt{\mathfrak{a}})</fr:tex>. We just have to prove the forward implication of the last statement. Suppose for all prime ideals <fr:tex>\mathfrak{p}</fr:tex> we have <fr:tex>\mathfrak{p} \mid \mathfrak{b} \implies \mathfrak{p} \mid \mathfrak{a}</fr:tex>. We need to prove that <fr:tex>\sqrt{\mathfrak{a}} \mid f \implies \sqrt{\mathfrak{b}} \mid f</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    Given <fr:tex>\sqrt{\mathfrak{a}} \mid f</fr:tex>, we have <fr:tex>\mathfrak{p} \mid f</fr:tex> for all prime ideals <fr:tex>\mathfrak{p} \mid \sqrt{\mathfrak{a}}</fr:tex> (which is equivalent to <fr:tex>\mathfrak{p} \mid \mathfrak{a}</fr:tex>). So we know that for all <fr:tex>\mathfrak{p} \mid \mathfrak{b}</fr:tex>, <fr:tex>\mathfrak{p} \mid f</fr:tex>. This is now purely a condition on <fr:tex>\mathfrak{b}</fr:tex>. The next lemma finishes the proof.
-  </fr:p>
-
-  <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>To define projective spaces, we start with an affine space, and restricts ourselves to regions invariant under dilation — or using the language of points, we consider lines through the origin as points. Hence we need to define how an element of a ring (which is geometrically a function on the affine space) behaves under dilation.</fr:p><fr:p>In polynomial rings, for example, the polynomial <fr:tex
+display="inline"><![CDATA[x^2 + 2y + 7]]></fr:tex> becomes <fr:tex
+display="inline"><![CDATA[\lambda ^2 x^2 + 2 \lambda  y + 7]]></fr:tex> under a dilation by <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex>. Note how each term can be classified by the power of <fr:tex
+display="inline"><![CDATA[\lambda ]]></fr:tex> it obtains. Hence, what we need is a <fr:strong>grading</fr:strong> on the ring, which partitions <fr:tex
+display="inline"><![CDATA[R = \bigoplus _d R_d]]></fr:tex> (as abelian groups). <fr:tex
+display="inline"><![CDATA[R_d]]></fr:tex> is intuitively the elements that get the factor <fr:tex
+display="inline"><![CDATA[\lambda ^d]]></fr:tex> upon dilation. The multiplication of a degree <fr:tex
+display="inline"><![CDATA[p]]></fr:tex> element with a degree <fr:tex
+display="inline"><![CDATA[q]]></fr:tex> element should produce a degree <fr:tex
+display="inline"><![CDATA[(p+q)]]></fr:tex> element, since <fr:tex
+display="inline"><![CDATA[\lambda ^p \lambda ^q = \lambda ^{p+q}]]></fr:tex>.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1806</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0003</fr:addr><fr:route>algm-0003.xml</fr:route><fr:title>The radical ideal is the lcm of prime ideal divisors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1494</fr:anchor><fr:addr
+type="user">hmlg-001L</fr:addr><fr:route>hmlg-001L.xml</fr:route><fr:title
+text="Graded ring">Graded ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  For any ideal <fr:tex>\mathfrak{a}</fr:tex> of a commutative ring, the radical <fr:tex>\sqrt{\mathfrak{a}}</fr:tex> is the lowest common multiple of the prime ideals <fr:tex>\mathfrak{p} \mid \mathfrak{a}</fr:tex>.
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1804</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#299</fr:addr><fr:route>unstable-299.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A D-<fr:strong>graded ring</fr:strong> is a sequence of abelian groups <fr:tex
+display="inline"><![CDATA[R_d]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[d \in  D]]></fr:tex> are elements of a commutative monoid called the <fr:strong>grading</fr:strong>. We have a bilinear multiplication map <fr:tex
+display="block"><![CDATA[R_p \otimes  R_q \to  R_{p+q}]]></fr:tex> and a identity element <fr:tex
+display="inline"><![CDATA[1 \in  R_0]]></fr:tex> satisfying the associativity and identity laws.</fr:p><fr:p>Usually, the grading is one of <fr:tex
+display="inline"><![CDATA[\mathbb  Z]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[\mathbb  N]]></fr:tex>. A <fr:strong>bigraded ring</fr:strong> is graded over <fr:tex
+display="inline"><![CDATA[D^2]]></fr:tex> instead of <fr:tex
+display="inline"><![CDATA[D]]></fr:tex>, whatever the context implies the grading is.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>The opens of a projective space should come from the non-vanishing region of a homogeneous function, i.e. elements with a single degree. This ensures that dilation doesn’t change the opens. However, we would have multiple ways to represent the entire space: in a two-dimensional affine space, <fr:tex
+display="inline"><![CDATA[D(x) \cup  D(y)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[D(1)]]></fr:tex> are both invariant under dilation, but the former excludes the origin, while the latter does not. In a projective setting, we don’t care about the origin at all, and considering that all homogeneous polynomials of positive degree vanish at the origin, we should make that mandatory. Hence, we only consider the opens corresponding to positively graded elements, which we write as <fr:tex
+display="inline"><![CDATA[D_+ (f)]]></fr:tex>. We can construct a space similar to the <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0003</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    On one hand, if <fr:tex>\sqrt{\mathfrak{a}} \mid f</fr:tex>, then <fr:tex>\mathfrak{a} \mid f^n</fr:tex> for some natural number <fr:tex>n</fr:tex>. This means for all <fr:tex>\mathfrak{p} \mid \mathfrak{a}</fr:tex>, we have <fr:tex>\mathfrak{p} \mid f^n</fr:tex>, which by being a prime ideal implies <fr:tex>\mathfrak{p} \mid f</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    On the other hand, suppose <fr:tex>\mathfrak{a} \nmid f^n</fr:tex> for any <fr:tex>n</fr:tex>, we construct a prime ideal divisor of <fr:tex>\mathfrak{a}</fr:tex> that is not a divisor of <fr:tex>f</fr:tex>. Consider the set of all ideals not a divisor of <fr:tex>f^n</fr:tex> for any <fr:tex>n</fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex>\mathfrak{d}</fr:tex> still in this set, since <fr:tex>\mathfrak{d}</fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link
-href="https://en.wikipedia.org/wiki/Zorn's_lemma"
-type="external">Zorn’s lemma</fr:link>, the set contains some <fr:tex>\mathfrak{q}</fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex>\mathfrak{q} \nmid x, y</fr:tex> such that <fr:tex>\mathfrak{q} \mid x y</fr:tex>, then <fr:tex>\mathfrak{q}' = \gcd(\mathfrak{q}, x y)</fr:tex> is a proper divisor of <fr:tex>\mathfrak{q}</fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex>n</fr:tex> such that <fr:tex>x y \mid f^n</fr:tex>, so <fr:tex>\mathfrak{q} \mid x y \mid f^n</fr:tex>, contradiction.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1830</fr:anchor><fr:taxon>Intuition</fr:taxon><fr:addr>algm-000Z</fr:addr><fr:route>algm-000Z.xml</fr:route><fr:title>Geometry of graded rings</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  To define projective spaces, we start with an affine space, and restricts ourselves to regions invariant under dilation — or using the language of points, we consider lines through the origin as points. Hence we need to define how an element of a ring (which is geometrically a function on the affine space) behaves under dilation.
-</fr:p><fr:p>
-  In polynomial rings, for example, the polynomial <fr:tex>x^2 + 2y + 7</fr:tex> becomes <fr:tex>\lambda^2 x^2 + 2 \lambda y + 7</fr:tex> under a dilation by <fr:tex>\lambda</fr:tex>. Note how each term can be classified by the power of <fr:tex>\lambda</fr:tex> it obtains. Hence, what we need is a <fr:strong>grading</fr:strong> on the ring, which partitions <fr:tex>R = \bigoplus_d R_d</fr:tex> (as abelian groups). <fr:tex>R_d</fr:tex> is intuitively the elements that get the factor <fr:tex>\lambda^d</fr:tex> upon dilation. The multiplication of a degree <fr:tex>p</fr:tex> element with a degree <fr:tex>q</fr:tex> element should produce a degree <fr:tex>(p+q)</fr:tex> element, since <fr:tex>\lambda^p \lambda^q = \lambda^{p+q}</fr:tex>.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1569</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001L</fr:addr><fr:route>hmlg-001L.xml</fr:route><fr:title>Graded ring</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A D-<fr:strong>graded ring</fr:strong> is a sequence of abelian groups <fr:tex>R_d</fr:tex>, where <fr:tex>d \in D</fr:tex> are elements of a commutative monoid called the <fr:strong>grading</fr:strong>. We have a bilinear multiplication map <fr:tex
-display="block">R_p \otimes R_q \to R_{p+q}</fr:tex> and a identity element <fr:tex>1 \in R_0</fr:tex> satisfying the associativity and identity laws.
-</fr:p><fr:p>
-  Usually, the grading is one of <fr:tex>\mathbb Z</fr:tex> or <fr:tex>\mathbb N</fr:tex>. A <fr:strong>bigraded ring</fr:strong> is graded over <fr:tex>D^2</fr:tex> instead of <fr:tex>D</fr:tex>, whatever the context implies the grading is.
-</fr:p></fr:mainmatter></fr:tree><fr:p>
-  The opens of a projective space should come from the non-vanishing region of a homogeneous function, i.e. elements with a single degree. This ensures that dilation doesn’t change the opens. However, we would have multiple ways to represent the entire space: in a two-dimensional affine space, <fr:tex>D(x) \cup D(y)</fr:tex> and <fr:tex>D(1)</fr:tex> are both invariant under dilation, but the former excludes the origin, while the latter does not. In a projective setting, we don’t care about the origin at all, and considering that all homogeneous polynomials of positive degree vanish at the origin, we should make that mandatory. Hence, we only consider the opens corresponding to positively graded elements, which we write as <fr:tex>D_+ (f)</fr:tex>. We can construct a space similar to the <fr:link
 href="algm-0007.xml"
-type="local"
-addr="algm-0007">localic spectrum of a commutative ring</fr:link>.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-0007"
+title="Localic spectrum of a commutative ring">localic spectrum of a commutative ring</fr:link>.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1571</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000Y</fr:addr><fr:route>algm-000Y.xml</fr:route><fr:title>Projective spectrum of a graded ring</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1496</fr:anchor><fr:addr
+type="user">algm-000Y</fr:addr><fr:route>algm-000Y.xml</fr:route><fr:title
+text="Projective spectrum of a graded ring">Projective spectrum of a graded ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:tex
+display="inline"><![CDATA[\mathbb  N]]></fr:tex>-graded ring <fr:tex
+display="inline"><![CDATA[S_\bullet ]]></fr:tex>, we construct a locale analogous to <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:tex>\mathbb N</fr:tex>-graded ring <fr:tex>S_\bullet</fr:tex>, we construct a locale analogous to <fr:link
 href="algm-0007.xml"
+addr="algm-0007"
+title="Localic spectrum of a commutative ring">the <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> construction</fr:link> for affine schemes. We start with symbols of <fr:strong>distinguished opens</fr:strong> <fr:tex
+display="inline"><![CDATA[D_+ (f)]]></fr:tex> for each positively graded element <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>, and impose the same relations: <fr:tex
+display="inline"><![CDATA[D_+]]></fr:tex> sends finite products to finite intersections, and for elements of the same grade, <fr:tex
+display="inline"><![CDATA[D_+ (\sum _i f_i) \subseteq  \bigcup _i D_+(f_i)]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>As for the structure sheaf, we need to decide what the sections over <fr:tex
+display="inline"><![CDATA[D_+ (f)]]></fr:tex> are. They should be functions defined on the affine space <fr:tex
+display="inline"><![CDATA[D(f) \subseteq  \operatorname {Spec}(S)]]></fr:tex>, but invariant under dilation. Note that it is stronger than requiring vanishing region be invariant. We actually need the grade <fr:tex
+display="inline"><![CDATA[0]]></fr:tex> elements here. Recalling from <fr:link
 type="local"
-addr="algm-0007">the <fr:tex>\operatorname{Spec}</fr:tex> construction</fr:link> for affine schemes. We start with symbols of <fr:strong>distinguished opens</fr:strong> <fr:tex>D_+ (f)</fr:tex> for each positively graded element <fr:tex>f</fr:tex>, and impose the same relations: <fr:tex>D_+</fr:tex> sends finite products to finite intersections, and for elements of the same grade, <fr:tex>D_+ (\sum_i f_i) \subseteq \bigcup_i D_+(f_i)</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:p>
-  As for the structure sheaf, we need to decide what the sections over <fr:tex>D_+ (f)</fr:tex> are. They should be functions defined on the affine space <fr:tex>D(f) \subseteq \operatorname{Spec}(S)</fr:tex>, but invariant under dilation. Note that it is stronger than requiring vanishing region be invariant. We actually need the grade <fr:tex>0</fr:tex> elements here. Recalling from <fr:link
 href="algm-000I.xml"
-type="local"
-addr="algm-000I">structure sheaf of a ring spectrum</fr:link> that <fr:tex>{\Gamma}(D(f), {\mathscr{O}}_{\operatorname{Spec}(S)}) = S[f^{-1}]</fr:tex> (which can be given a canonical grading since <fr:tex>f</fr:tex> is a graded element), we can make the following definition.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-000I"
+title="Structure sheaf of a ring spectrum">structure sheaf of a ring spectrum</fr:link> that <fr:tex
+display="inline"><![CDATA[\Gamma (D(f), \mathscr {O}_{\operatorname {Spec}(S)}) = S[f^{-1}]]]></fr:tex> (which can be given a canonical grading since <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is a graded element), we can make the following definition.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1573</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0010</fr:addr><fr:route>algm-0010.xml</fr:route><fr:title>Structure sheaf of <fr:tex>\operatorname{Proj}(S)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1498</fr:anchor><fr:addr
+type="user">algm-0010</fr:addr><fr:route>algm-0010.xml</fr:route><fr:title
+text="Structure sheaf of {Proj}(S)">Structure sheaf of <fr:tex
+display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex></fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Fix a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Fix a <fr:link
 href="hmlg-001L.xml"
+addr="hmlg-001L"
+title="Graded ring">graded ring</fr:link> <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>. For a positively graded element <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>, we have a graded ring localization <fr:tex
+display="inline"><![CDATA[S[f^{-1}]_\bullet ]]></fr:tex>. Let <fr:tex
+display="inline"><![CDATA[\Gamma (D_+(f), \mathscr {O})]]></fr:tex> be the zeroth degree component <fr:tex
+display="inline"><![CDATA[S[f^{-1}]_0]]></fr:tex>. This defines a sheaf over the <fr:link
 type="local"
-addr="hmlg-001L">graded ring</fr:link> <fr:tex>S</fr:tex>. For a positively graded element <fr:tex>f</fr:tex>, we have a graded ring localization <fr:tex>S[f^{-1}]_\bullet</fr:tex>. Let <fr:tex>{\Gamma}(D_+(f), {\mathscr{O}})</fr:tex> be the zeroth degree component <fr:tex>S[f^{-1}]_0</fr:tex>. This defines a sheaf over the <fr:link
 href="algm-000Y.xml"
+addr="algm-000Y"
+title="Projective spectrum of a graded ring">projective spectrum</fr:link>, and moreover gives a <fr:link
 type="local"
-addr="algm-000Y">projective spectrum</fr:link>, and moreover gives a <fr:link
 href="algm-000R.xml"
-type="local"
-addr="algm-000R">scheme</fr:link> <fr:tex>\operatorname{Proj}(S)</fr:tex>.
-</fr:p>
+addr="algm-000R"
+title="Scheme">scheme</fr:link> <fr:tex
+display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1541</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1474</fr:anchor><fr:addr
+type="machine">#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0010</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We claim that <fr:tex>\operatorname{Proj}(S)</fr:tex> can alternatively be given by gluing affine schemes. We assign <fr:tex>D_+ (f)</fr:tex> the affine scheme <fr:tex>\operatorname{Spec}(S[f^{-1}]_0)</fr:tex> (which is possible because the open subspace <fr:tex>D_+ (f)</fr:tex> is homeomorphic to <fr:tex>\operatorname{Spec}(S[f^{-1}]_0)</fr:tex> as a space). Given two positively graded elements <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex>, we have an isomorphism between <fr:tex>\operatorname{Proj}(S)</fr:tex> restricted to <fr:tex>D_+ (f g)</fr:tex> and <fr:tex>\operatorname{Spec}(S[f^{-1}]_0)</fr:tex> restricted to <fr:tex>D(g^{\deg f}/f^{\deg g})</fr:tex>, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0010</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We claim that <fr:tex
+display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> can alternatively be given by gluing affine schemes. We assign <fr:tex
+display="inline"><![CDATA[D_+ (f)]]></fr:tex> the affine scheme <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> (which is possible because the open subspace <fr:tex
+display="inline"><![CDATA[D_+ (f)]]></fr:tex> is homeomorphic to <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> as a space). Given two positively graded elements <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g]]></fr:tex>, we have an isomorphism between <fr:tex
+display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> restricted to <fr:tex
+display="inline"><![CDATA[D_+ (f g)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> restricted to <fr:tex
+display="inline"><![CDATA[D(g^{\deg  f}/f^{\deg  g})]]></fr:tex>, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1832</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>algm-000K</fr:addr><fr:route>algm-000K.xml</fr:route><fr:title>Sheaf and stalk from <fr:tex>R</fr:tex>-modules</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1751</fr:anchor><fr:addr
+type="user">algm-000K</fr:addr><fr:route>algm-000K.xml</fr:route><fr:title
+text="Sheaf and stalk from R-modules">Sheaf and stalk from <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-modules</fr:title><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The proofs in <fr:ref
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The proofs in <fr:ref
 addr="algm-000I"
 href="algm-000I.xml"
-taxon="Definition"></fr:ref> and <fr:ref
+taxon="Definition" /> and <fr:ref
 addr="algm-000J"
 href="algm-000J.xml"
-taxon="Theorem"></fr:ref> do not make use of the multiplication on the numerators. Therefore they immediately generalizes to modules. In particular, we have a sheaf corresponding to an <fr:tex>R</fr:tex>-module <fr:tex>M</fr:tex>, whose sections over <fr:tex>D(f)</fr:tex> form the <fr:tex>R[f^{-1}]</fr:tex>-module <fr:tex>M[f^{-1}]</fr:tex>. The stalk on <fr:tex>\left[\mathfrak{p}\right]</fr:tex> is isomorphic to <fr:tex>M_{\left[\mathfrak{p}\right]}</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+taxon="Theorem" /> do not make use of the multiplication on the numerators. Therefore they immediately generalizes to modules. In particular, we have a sheaf corresponding to an <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-module <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>, whose sections over <fr:tex
+display="inline"><![CDATA[D(f)]]></fr:tex> form the <fr:tex
+display="inline"><![CDATA[R[f^{-1}]]]></fr:tex>-module <fr:tex
+display="inline"><![CDATA[M[f^{-1}]]]></fr:tex>. The stalk on <fr:tex
+display="inline"><![CDATA[\left [\mathfrak {p}\right ]]]></fr:tex> is isomorphic to <fr:tex
+display="inline"><![CDATA[M_{\left [\mathfrak {p}\right ]}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1753</fr:anchor><fr:addr
+type="user">algm-000M</fr:addr><fr:route>algm-000M.xml</fr:route><fr:title
+text="Ringed space">Ringed space</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:strong>ringed space</fr:strong> is a space equipped with a sheaf of rings, called the <fr:strong>structure sheaf</fr:strong>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1755</fr:anchor><fr:addr
+type="user">algm-000B</fr:addr><fr:route>algm-000B.xml</fr:route><fr:title
+text="A ring spectrum is quasi-compact">A <fr:link
+type="local"
+href="algm-0001.xml"
+addr="algm-0001"
+title="Topological spectrum of a commutative ring">ring spectrum</fr:link> is quasi-compact</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The space <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> is always <fr:link
+type="local"
+href="algm-000A.xml"
+addr="algm-000A"
+title="Terminology of compactness in algebraic geometry">quasi-compact</fr:link>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1757</fr:anchor><fr:addr
+type="machine">#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000B</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex
+display="inline"><![CDATA[\bigcup _i D(f_i) = \top ]]></fr:tex>, then there is a finite union equal to <fr:tex
+display="inline"><![CDATA[\top ]]></fr:tex>. Algebraically this means <fr:tex
+display="inline"><![CDATA[\sqrt {\gcd \{f_i\}} = 1]]></fr:tex>, equivalently <fr:tex
+display="inline"><![CDATA[\gcd \{f_i\} = 1]]></fr:tex>. So we have a linear combination <fr:tex
+display="inline"><![CDATA[\sum _k a_k f_k = 1]]></fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1759</fr:anchor><fr:addr
+type="user">algm-0002</fr:addr><fr:route>algm-0002.xml</fr:route><fr:title
+text="Radical ideals bijectively correspond to open sets">Radical ideals bijectively correspond to open sets</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>In an arbitrary <fr:link
+type="local"
+href="algm-0001.xml"
+addr="algm-0001"
+title="Topological spectrum of a commutative ring">topological spectrum of a commutative ring</fr:link>, we have <fr:tex
+display="inline"><![CDATA[D(\mathfrak {a}) = D(\sqrt {\mathfrak {a}})]]></fr:tex>. There is a containment of opens <fr:tex
+display="inline"><![CDATA[D(\mathfrak {a}) \subseteq  D(\mathfrak {b})]]></fr:tex> — equivalently <fr:tex
+display="inline"><![CDATA[V(\mathfrak {b}) \subseteq  V(\mathfrak {a})]]></fr:tex> — iff <fr:tex
+display="inline"><![CDATA[\sqrt {\mathfrak {b}} \mid  \sqrt {\mathfrak {a}}]]></fr:tex>, and the points contained in an open set completely determines the radical ideal.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1733</fr:anchor><fr:addr
+type="machine">#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0002</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Since <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[\sqrt {\mathfrak {p}} \mid  \sqrt {\mathfrak {a}}]]></fr:tex>, but <fr:tex
+display="inline"><![CDATA[\mathfrak {p} = \sqrt {\mathfrak {p}}]]></fr:tex>, we see that <fr:tex
+display="inline"><![CDATA[D(\mathfrak {a}) = D(\sqrt {\mathfrak {a}})]]></fr:tex>. We just have to prove the forward implication of the last statement. Suppose for all prime ideals <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {b} \implies  \mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>. We need to prove that <fr:tex
+display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f \implies  \sqrt {\mathfrak {b}} \mid  f]]></fr:tex>.</fr:p>
+
+  <fr:p>Given <fr:tex
+display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex> for all prime ideals <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \sqrt {\mathfrak {a}}]]></fr:tex> (which is equivalent to <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>). So we know that for all <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {b}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex>. This is now purely a condition on <fr:tex
+display="inline"><![CDATA[\mathfrak {b}]]></fr:tex>. The next lemma finishes the proof.</fr:p>
+
+  <fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1735</fr:anchor><fr:addr
+type="user">algm-0003</fr:addr><fr:route>algm-0003.xml</fr:route><fr:title
+text="The radical ideal is the lcm of prime ideal divisors">The radical ideal is the lcm of prime ideal divisors</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> of a commutative ring, the radical <fr:tex
+display="inline"><![CDATA[\sqrt {\mathfrak {a}}]]></fr:tex> is the lowest common multiple of the prime ideals <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1737</fr:anchor><fr:addr
+type="machine">#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0003</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>On one hand, if <fr:tex
+display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  f^n]]></fr:tex> for some natural number <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>. This means for all <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  f^n]]></fr:tex>, which by being a prime ideal implies <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex>.</fr:p>
+
+  <fr:p>On the other hand, suppose <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \nmid  f^n]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>, we construct a prime ideal divisor of <fr:tex
+display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> that is not a divisor of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>. Consider the set of all ideals not a divisor of <fr:tex
+display="inline"><![CDATA[f^n]]></fr:tex> for any <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex
+display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> still in this set, since <fr:tex
+display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link
+type="external"
+href="https://en.wikipedia.org/wiki/Zorn's_lemma">Zorn’s lemma</fr:link>, the set contains some <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex
+display="inline"><![CDATA[\mathfrak {q} \nmid  x, y]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathfrak {q} \mid  x y]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\mathfrak {q}' = \gcd (\mathfrak {q}, x y)]]></fr:tex> is a proper divisor of <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[x y \mid  f^n]]></fr:tex>, so <fr:tex
+display="inline"><![CDATA[\mathfrak {q} \mid  x y \mid  f^n]]></fr:tex>, contradiction.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

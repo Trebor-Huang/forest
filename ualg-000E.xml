@@ -1,234 +1,322 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>922</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000E</fr:addr><fr:route>ualg-000E.xml</fr:route><fr:title>Crude monadicity theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>873</fr:anchor><fr:addr
+type="user">ualg-000E</fr:addr><fr:route>ualg-000E.xml</fr:route><fr:title
+text="Crude monadicity theorem">Crude monadicity theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G : \mathcal {D} \to  \mathcal {C}]]></fr:tex> be a functor with a left adjoint <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>. <fr:tex
+display="inline"><![CDATA[M = G \mathbin {\circ } F]]></fr:tex> is the corresponding monad on <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>. This gives a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Let <fr:tex>G : {\mathcal{D}} \to {\mathcal{C}}</fr:tex> be a functor with a left adjoint <fr:tex>F</fr:tex>. <fr:tex>M = G \mathbin{\circ} F</fr:tex> is the corresponding monad on <fr:tex>{\mathcal{C}}</fr:tex>. This gives a <fr:link
 href="ualg-0009.xml"
+addr="ualg-0009"
+title="The Eilenberg–Moore category induces the terminal decomposition of a monad">comparison functor</fr:link> <fr:tex
+display="inline"><![CDATA[K : \mathcal {A} \to  \mathcal {C}^M]]></fr:tex>.</fr:p><fr:ol><fr:li>If <fr:tex
+display="inline"><![CDATA[\mathcal {D}]]></fr:tex> has all coequalizers (we can weaken this to <fr:link
 type="local"
-addr="ualg-0009">comparison functor</fr:link> <fr:tex>K : {\mathcal{A}} \to {\mathcal{C}}^M</fr:tex>.
-</fr:p><fr:ol><fr:li>If <fr:tex>{\mathcal{D}}</fr:tex> has all coequalizers (we can weaken this to <fr:link
 href="ualg-000F.xml"
+addr="ualg-000F"
+title="Reflexive pair">reflexive coequalizers</fr:link>), then <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> has a left adjoint.</fr:li>
+  <fr:li>If moreover <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> preserves these reflexive coequalizers, the unit <fr:tex
+display="inline"><![CDATA[\textrm {Id} \to  K \mathbin {\circ } L]]></fr:tex> is an isomorphism.</fr:li>
+  <fr:li>Finally, if <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> reflects isomorphisms, then the counit <fr:tex
+display="inline"><![CDATA[L \mathbin {\circ } K \to  \textrm {Id}]]></fr:tex> is also an isomorphism, making <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> <fr:link
 type="local"
-addr="ualg-000F">reflexive coequalizers</fr:link>), then <fr:tex>K</fr:tex> has a left adjoint.</fr:li>
-  <fr:li>If moreover <fr:tex>G</fr:tex> preserves these reflexive coequalizers, the unit <fr:tex>{\textrm{Id}} \to K \mathbin{\circ} L</fr:tex> is an isomorphism.</fr:li>
-  <fr:li>Finally, if <fr:tex>G</fr:tex> reflects isomorphisms, then the counit <fr:tex>L \mathbin{\circ} K \to {\textrm{Id}}</fr:tex> is also an isomorphism, making <fr:tex>G</fr:tex> <fr:link
 href="ualg-000A.xml"
-type="local"
-addr="ualg-000A">monadic</fr:link>.</fr:li></fr:ol>
+addr="ualg-000A"
+title="Monadic functor">monadic</fr:link>.</fr:li></fr:ol>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>833</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>813</fr:anchor><fr:addr
+type="machine">#234</fr:addr><fr:route>unstable-234.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000E</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    For the first claim, we need a functor <fr:tex>L</fr:tex> such that arrows from <fr:tex>L(GFA \xrightarrow{\alpha} A)</fr:tex> to <fr:tex>X</fr:tex> is in bijection with commutative squares
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000E</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>For the first claim, we need a functor <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> such that arrows from <fr:tex
+display="inline"><![CDATA[L(GFA \xrightarrow {\alpha } A)]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is in bijection with commutative squares
     
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="9eb5469b70f102398bdd48686db3d6df"><fr:embedded-tex-preamble>
+hash="7552ab0a1122c764613faeef0d30c0bc"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-      GFA &amp; GFGX \\
-      A &amp; GX
-      \arrow[from=1-1, to=1-2]
-      \arrow["{\alpha}"', from=1-1, to=2-1]
-      \arrow["{G \epsilon}", from=1-2, to=2-2]
-      \arrow[from=2-1, to=2-2]
-    \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      GFA & GFGX \\
+      A & GX
+      \arrow [from=1-1, to=1-2]
+      \arrow ["{\alpha }"', from=1-1, to=2-1]
+      \arrow ["{G \epsilon }", from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
-    which are equivalent by <fr:tex>F \dashv G</fr:tex> to the commutative squares
+    which are equivalent by <fr:tex
+display="inline"><![CDATA[F \dashv  G]]></fr:tex> to the commutative squares
     
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="d9768dd526dc1f39f94e11e92cc0b472"><fr:embedded-tex-preamble>
+hash="742f273ba13897778c25fb9ad1150d18"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-      FGFA &amp; FGX \\
-      FA &amp; X
-      \arrow["FG\varphi", from=1-1, to=1-2]
-      \arrow["F\alpha"', from=1-1, to=2-1]
-      \arrow["\epsilon", from=1-2, to=2-2]
-      \arrow["\varphi", from=2-1, to=2-2]
-    \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      FGFA & FGX \\
+      FA & X
+      \arrow ["FG\varphi ", from=1-1, to=1-2]
+      \arrow ["F\alpha "', from=1-1, to=2-1]
+      \arrow ["\epsilon ", from=1-2, to=2-2]
+      \arrow ["\varphi ", from=2-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
-    Further notice that <fr:tex>\epsilon \mathbin{\circ} FG\varphi = \varphi \mathbin{\circ} \epsilon</fr:tex> by naturality. So it becomes obvious that <fr:tex>L</fr:tex> should be defined as the coequalizer of the pair <fr:tex
-display="block">F \alpha, \epsilon : FGFA \rightrightarrows FA.</fr:tex> This is reflexive by the common section <fr:tex>F\eta</fr:tex>.
-  </fr:p>
+    Further notice that <fr:tex
+display="inline"><![CDATA[\epsilon  \mathbin {\circ } FG\varphi  = \varphi  \mathbin {\circ } \epsilon ]]></fr:tex> by naturality. So it becomes obvious that <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> should be defined as the coequalizer of the pair <fr:tex
+display="block"><![CDATA[F \alpha , \epsilon  : FGFA \rightrightarrows  FA.]]></fr:tex> This is reflexive by the common section <fr:tex
+display="inline"><![CDATA[F\eta ]]></fr:tex>.</fr:p>
 
-  <fr:p>
-    For the second point, we unfold the unit as a natural family of commutative squares
+  <fr:p>For the second point, we unfold the unit as a natural family of commutative squares
     
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="c8a74b7fc8b0b5ad080a4f875a59fa3f"><fr:embedded-tex-preamble>
+hash="857909e7575ed30b312cefad4ffa82e3"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-      GFA &amp; {GFG\operatorname*{colim}(FGFA \rightrightarrows FA)} \\
-      A &amp; {G\operatorname*{colim}(FGFA \rightrightarrows FA)}
-      \arrow[from=1-1, to=1-2]
-      \arrow[from=1-1, to=2-1]
-      \arrow[from=1-2, to=2-2]
-      \arrow[from=2-1, to=2-2]
-    \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      GFA & {GFG\operatorname *{colim}(FGFA \rightrightarrows  FA)} \\
+      A & {G\operatorname *{colim}(FGFA \rightrightarrows  FA)}
+      \arrow [from=1-1, to=1-2]
+      \arrow [from=1-1, to=2-1]
+      \arrow [from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
-    and when <fr:tex>G</fr:tex> preserves the coequalizers in the diagram, the problem is reduced to showing that the coequalizer of <fr:tex>GF\alpha</fr:tex> and <fr:tex>G\epsilon : GFGFA \rightrightarrows GFA</fr:tex> is isomorphic to <fr:tex>A</fr:tex> via the bottom map, which is just the unit <fr:tex>\eta : A \to GFA</fr:tex> composed with the coequalizing map. This is a routine diagram chase.
-  </fr:p>
+    and when <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> preserves the coequalizers in the diagram, the problem is reduced to showing that the coequalizer of <fr:tex
+display="inline"><![CDATA[GF\alpha ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[G\epsilon  : GFGFA \rightrightarrows  GFA]]></fr:tex> is isomorphic to <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> via the bottom map, which is just the unit <fr:tex
+display="inline"><![CDATA[\eta  : A \to  GFA]]></fr:tex> composed with the coequalizing map. This is a routine diagram chase.</fr:p>
 
-  <fr:p>
-    For the final point, we would like the coequalizer of <fr:tex>FG\epsilon, \epsilon : FGFGX \rightrightarrows FGX</fr:tex> to be isomorphic to <fr:tex>X</fr:tex>. If we apply <fr:tex>G</fr:tex> to the diagram, we get an isomorphism to <fr:tex>GX</fr:tex> by the previous point. So if <fr:tex>G</fr:tex> reflects isomorphisms, we’re done.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+  <fr:p>For the final point, we would like the coequalizer of <fr:tex
+display="inline"><![CDATA[FG\epsilon , \epsilon  : FGFGX \rightrightarrows  FGX]]></fr:tex> to be isomorphic to <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. If we apply <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> to the diagram, we get an isomorphism to <fr:tex
+display="inline"><![CDATA[GX]]></fr:tex> by the previous point. So if <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> reflects isomorphisms, we’re done.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>914</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000F</fr:addr><fr:route>ualg-000F.xml</fr:route><fr:title>Reflexive pair</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>reflexive pair</fr:strong> is the categorical translation of a reflexive relation. It is defined as a pair of arrows <fr:tex>\partial_0, \partial_1 : X \rightrightarrows Y</fr:tex> with a common section <fr:tex>r : Y \to X</fr:tex>, i.e. an arrow <fr:tex>r</fr:tex> such that <fr:tex>\partial_0 \mathbin{\circ} r = \partial_1 \mathbin{\circ} r = {\textrm{id}}_Y</fr:tex>. A coequalizer of a reflexive pair is called a <fr:strong>reflexive coequalizer</fr:strong>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>916</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000A</fr:addr><fr:route>ualg-000A.xml</fr:route><fr:title>Monadic functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a pair of adjoint functors <fr:tex>F \dashv G</fr:tex>, <fr:tex>G</fr:tex> is <fr:strong>monadic</fr:strong> if the corresponding <fr:link
-href="ualg-0009.xml"
-type="local"
-addr="ualg-0009">comparison functor</fr:link> to <fr:tex>{\mathcal{C}}^{G \mathbin{\circ} F}</fr:tex> is an equivalence in <fr:link
-href="ualg-0007.xml"
-type="local"
-addr="ualg-0007">the bicategory of decompositions</fr:link>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>920</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0009</fr:addr><fr:route>ualg-0009.xml</fr:route><fr:title>The Eilenberg–Moore category induces the terminal decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The <fr:link
-href="ualg-0002.xml"
-type="local"
-addr="ualg-0002">Eilenberg–Moore category</fr:link> together with its canonical adjunction is the terminal <fr:link
-href="ualg-0007.xml"
-type="local"
-addr="ualg-0007">decomposition of a monad into adjoint functors</fr:link>. Hence there is a unique morphism from any decomposition to it, named the <fr:strong>comparison functor</fr:strong>.
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
-numbered="true"
+numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>918</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0009</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Given an adjunction <fr:tex>F \dashv G</fr:tex> with the corresponding monad <fr:tex>G \mathbin{\circ} F</fr:tex>, the comparison functor is defined as sending <fr:tex>X</fr:tex> to <fr:tex>GFGX \to GX</fr:tex>, given by the counit <fr:tex>FGX \to X</fr:tex>.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>912</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000H</fr:addr><fr:route>ualg-000H.xml</fr:route><fr:title>Beck monadicity theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>875</fr:anchor><fr:addr
+type="user">ualg-000H</fr:addr><fr:route>ualg-000H.xml</fr:route><fr:title
+text="Beck monadicity theorem">Beck monadicity theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G : \mathcal {D} \to  \mathcal {C}]]></fr:tex> be a functor with a left adjoint <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>. <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> is <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Let <fr:tex>G : {\mathcal{D}} \to {\mathcal{C}}</fr:tex> be a functor with a left adjoint <fr:tex>F</fr:tex>. <fr:tex>G</fr:tex> is <fr:link
 href="ualg-000A.xml"
+addr="ualg-000A"
+title="Monadic functor">monadic</fr:link> iff <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> <fr:link
 type="local"
-addr="ualg-000A">monadic</fr:link> iff <fr:tex>G</fr:tex> <fr:link
 href="ualg-000G.xml"
+addr="ualg-000G"
+title="Preservation, lifting, reflection and creation of limits">creates</fr:link> coequalizers whose image under <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> is <fr:link
 type="local"
-addr="ualg-000G">creates</fr:link> coequalizers whose image under <fr:tex>G</fr:tex> is <fr:link
 href="ualg-000B.xml"
-type="local"
-addr="ualg-000B">split</fr:link>.
-</fr:p>
+addr="ualg-000B"
+title="Split coequalizer">split</fr:link>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>841</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>799</fr:anchor><fr:addr
+type="machine">#233</fr:addr><fr:route>unstable-233.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000H</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    For necessity, using <fr:ref
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000H</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>For necessity, using <fr:ref
 addr="ualg-000I"
 href="ualg-000I.xml"
-taxon="Theorem"></fr:ref>, we only need to verify that a monad <fr:tex>M</fr:tex> preserves the relevant coequalizers, which is true since <fr:link
-href="ualg-000D.xml"
+taxon="Theorem" />, we only need to verify that a monad <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> preserves the relevant coequalizers, which is true since <fr:link
 type="local"
-addr="ualg-000D">they are absolute</fr:link>.
-  </fr:p>
+href="ualg-000D.xml"
+addr="ualg-000D"
+title="Characterization of absolute coequalizers">they are absolute</fr:link>.</fr:p>
 
-  <fr:p>
-    For sufficiency, we observe the proof of <fr:ref
+  <fr:p>For sufficiency, we observe the proof of <fr:ref
 addr="ualg-000E"
 href="ualg-000E.xml"
-taxon="Theorem"></fr:ref>. Notice that the coequalizers involved are of the form <fr:tex>F\alpha, \epsilon : FGFA \rightrightarrows FA</fr:tex>. The images of these under <fr:tex>G</fr:tex> are indeed split by <fr:tex>\eta : GFA \to GFGFA</fr:tex> and <fr:tex>\eta : A \to GFA</fr:tex>. Therefore we just have to show <fr:tex>G</fr:tex> reflects isomorphisms. Given an isomorphism <fr:tex>Gf : GA \cong GB</fr:tex>, we have a split coequalizer <fr:tex>GA \rightrightarrows GB \to GA</fr:tex> where the two maps on the left are <fr:tex>Gf</fr:tex>, and the map on the right is its inverse. This creates a map <fr:tex>g : B \to A</fr:tex> which is the coequalizer of <fr:tex>f</fr:tex> with itself. So this map must be an isomorphism. We then consider the coequalizer <fr:tex>GB \rightrightarrows GA \to GB</fr:tex>, where the two maps on the left are <fr:tex>Gg</fr:tex> and the map on the right is <fr:tex>Gf</fr:tex>. Since <fr:tex>G</fr:tex> reflects this limit, <fr:tex>f</fr:tex> must also be an isomorphism.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+taxon="Theorem" />. Notice that the coequalizers involved are of the form <fr:tex
+display="inline"><![CDATA[F\alpha , \epsilon  : FGFA \rightrightarrows  FA]]></fr:tex>. The images of these under <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> are indeed split by <fr:tex
+display="inline"><![CDATA[\eta  : GFA \to  GFGFA]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\eta  : A \to  GFA]]></fr:tex>. Therefore we just have to show <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> reflects isomorphisms. Given an isomorphism <fr:tex
+display="inline"><![CDATA[Gf : GA \cong  GB]]></fr:tex>, we have a split coequalizer <fr:tex
+display="inline"><![CDATA[GA \rightrightarrows  GB \to  GA]]></fr:tex> where the two maps on the left are <fr:tex
+display="inline"><![CDATA[Gf]]></fr:tex>, and the map on the right is its inverse. This creates a map <fr:tex
+display="inline"><![CDATA[g : B \to  A]]></fr:tex> which is the coequalizer of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> with itself. So this map must be an isomorphism. We then consider the coequalizer <fr:tex
+display="inline"><![CDATA[GB \rightrightarrows  GA \to  GB]]></fr:tex>, where the two maps on the left are <fr:tex
+display="inline"><![CDATA[Gg]]></fr:tex> and the map on the right is <fr:tex
+display="inline"><![CDATA[Gf]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> reflects this limit, <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> must also be an isomorphism.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>877</fr:anchor><fr:addr
+type="user">ualg-000F</fr:addr><fr:route>ualg-000F.xml</fr:route><fr:title
+text="Reflexive pair">Reflexive pair</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:strong>reflexive pair</fr:strong> is the categorical translation of a reflexive relation. It is defined as a pair of arrows <fr:tex
+display="inline"><![CDATA[\partial _0, \partial _1 : X \rightrightarrows  Y]]></fr:tex> with a common section <fr:tex
+display="inline"><![CDATA[r : Y \to  X]]></fr:tex>, i.e. an arrow <fr:tex
+display="inline"><![CDATA[r]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\partial _0 \mathbin {\circ } r = \partial _1 \mathbin {\circ } r = \textrm {id}_Y]]></fr:tex>. A coequalizer of a reflexive pair is called a <fr:strong>reflexive coequalizer</fr:strong>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>879</fr:anchor><fr:addr
+type="user">ualg-000A</fr:addr><fr:route>ualg-000A.xml</fr:route><fr:title
+text="Monadic functor">Monadic functor</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a pair of adjoint functors <fr:tex
+display="inline"><![CDATA[F \dashv  G]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> is <fr:strong>monadic</fr:strong> if the corresponding <fr:link
+type="local"
+href="ualg-0009.xml"
+addr="ualg-0009"
+title="The Eilenberg–Moore category induces the terminal decomposition of a monad">comparison functor</fr:link> to <fr:tex
+display="inline"><![CDATA[\mathcal {C}^{G \mathbin {\circ } F}]]></fr:tex> is an equivalence in <fr:link
+type="local"
+href="ualg-0007.xml"
+addr="ualg-0007"
+title="Decomposition of a monad into adjoint functors">the bicategory of decompositions</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>881</fr:anchor><fr:addr
+type="user">ualg-0009</fr:addr><fr:route>ualg-0009.xml</fr:route><fr:title
+text="The Eilenberg–Moore category induces the terminal decomposition of a monad">The Eilenberg–Moore category induces the terminal decomposition of a monad</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
+type="local"
+href="ualg-0002.xml"
+addr="ualg-0002"
+title="Algebra of a monad">Eilenberg–Moore category</fr:link> together with its canonical adjunction is the terminal <fr:link
+type="local"
+href="ualg-0007.xml"
+addr="ualg-0007"
+title="Decomposition of a monad into adjoint functors">decomposition of a monad into adjoint functors</fr:link>. Hence there is a unique morphism from any decomposition to it, named the <fr:strong>comparison functor</fr:strong>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>883</fr:anchor><fr:addr
+type="machine">#236</fr:addr><fr:route>unstable-236.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0009</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Given an adjunction <fr:tex
+display="inline"><![CDATA[F \dashv  G]]></fr:tex> with the corresponding monad <fr:tex
+display="inline"><![CDATA[G \mathbin {\circ } F]]></fr:tex>, the comparison functor is defined as sending <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[GFGX \to  GX]]></fr:tex>, given by the counit <fr:tex
+display="inline"><![CDATA[FGX \to  X]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

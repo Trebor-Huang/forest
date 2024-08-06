@@ -582,10 +582,13 @@ span.tikzcd img {
   filter: url('#filter');
 }
 
+figure {
+  text-align: center;
+}
+
 figcaption {
   font-style: italic;
   padding: 3px;
-  text-align: center;
 }
 
 mark {

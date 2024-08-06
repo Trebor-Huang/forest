@@ -1,136 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1335</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>algm-001K</fr:addr><fr:route>algm-001K.xml</fr:route><fr:title>Separation of presheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1268</fr:anchor><fr:addr
+type="user">algm-001K</fr:addr><fr:route>algm-001K.xml</fr:route><fr:title
+text="Separation of presheaf">Separation of presheaf</fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
+type="local"
 href="algm-001A.xml"
+addr="algm-001A"
+title="Grothendieck coverage">Grothendieck coverage</fr:link>, the inclusion of <fr:link
 type="local"
-addr="algm-001A">Grothendieck coverage</fr:link>, the inclusion of <fr:link
 href="algm-001F.xml"
-type="local"
-addr="algm-001F">separated presheaves</fr:link> to presheaves has a left adjoint <fr:tex>(-)^{{\operatorname{sep}}}</fr:tex>.
-</fr:p>
+addr="algm-001F"
+title="Sheaf">separated presheaves</fr:link> to presheaves has a left adjoint <fr:tex
+display="inline"><![CDATA[(-)^{\operatorname {sep}}]]></fr:tex>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1301</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1254</fr:anchor><fr:addr
+type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001K</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We define <fr:tex>{\Gamma}(U, P^{{\operatorname{sep}}})</fr:tex> to be a quotient of <fr:tex>{\Gamma}(U, P)</fr:tex>. Two sections are considered the same if they are equal on a covering sieve. It is obvious that this is separated, and in a morphism <fr:tex>P \to Q</fr:tex> to a separated presheaf, if two sections of <fr:tex>P</fr:tex> are equal on a covering sieve, then their image will also be, and by separatedness they must be actually equal in <fr:tex>Q</fr:tex>.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001K</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We define <fr:tex
+display="inline"><![CDATA[\Gamma (U, P^{\operatorname {sep}})]]></fr:tex> to be a quotient of <fr:tex
+display="inline"><![CDATA[\Gamma (U, P)]]></fr:tex>. Two sections are considered the same if they are equal on a covering sieve. It is obvious that this is separated, and in a morphism <fr:tex
+display="inline"><![CDATA[P \to  Q]]></fr:tex> to a separated presheaf, if two sections of <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> are equal on a covering sieve, then their image will also be, and by separatedness they must be actually equal in <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1331</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001A</fr:addr><fr:route>algm-001A.xml</fr:route><fr:title>Grothendieck coverage</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1270</fr:anchor><fr:addr
+type="user">algm-001J</fr:addr><fr:route>algm-001J.xml</fr:route><fr:title
+text="Sheafification">Sheafification</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Sheafification</fr:strong> is defined as the left adjoint of the inclusion from <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category <fr:tex>{\mathcal{C}}</fr:tex>, a <fr:strong>Grothendieck coverage</fr:strong> declares some <fr:link
-href="algm-001B.xml"
-type="local"
-addr="algm-001B">sieves</fr:link> to be coverings, such that the following holds.
-</fr:p><fr:ul><fr:li>The maximal sieve <fr:tex>\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(A) \subseteq \mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(A)</fr:tex> is always a covering.</fr:li>
-  <fr:li>Covering sieves are upwards closed, i.e. if <fr:tex>S \subseteq S'</fr:tex> and <fr:tex>S</fr:tex> is a covering sieve, then so is <fr:tex>S'</fr:tex>.</fr:li>
-  <fr:li>If <fr:tex>S</fr:tex> is a covering sieve of <fr:tex>A</fr:tex>, and <fr:tex>g : B \to A</fr:tex> is a morphism, then the <fr:link
-href="algm-001C.xml"
-type="local"
-addr="algm-001C">pullback</fr:link> <fr:tex>g^* S</fr:tex> is also a covering.</fr:li>
-  <fr:li>Suppose <fr:tex>S</fr:tex> is a sieve, then the collection of arrows <fr:tex>g</fr:tex> such that <fr:tex>g^* S</fr:tex> is a covering is a sieve itself. If this sieve is a covering, then <fr:tex>S</fr:tex> is also a covering.</fr:li></fr:ul><fr:p>
-  A Grothendieck coverage can be viewed as a <fr:link
-href="algm-0019.xml"
-type="local"
-addr="algm-0019">coverage</fr:link>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1333</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001F</fr:addr><fr:route>algm-001F.xml</fr:route><fr:title>Sheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category <fr:tex>{\mathcal{C}}</fr:tex> equipped with a <fr:link
-href="algm-0019.xml"
-type="local"
-addr="algm-0019">coverage</fr:link>, we define a presheaf <fr:tex>P : {\mathcal{C}}^{\textrm{op}} \to {\mathsf{Set}}</fr:tex> to be a <fr:strong>sheaf</fr:strong> if it satisfies the <fr:strong>sheaf condition</fr:strong>: for every cover of <fr:tex>A</fr:tex>, the map from sections of <fr:tex>A</fr:tex> to <fr:link
-href="algm-001D.xml"
-type="local"
-addr="algm-001D">descent data</fr:link> of the cover is a bijection. It is a <fr:strong>separated presheaf</fr:strong> if the map is an injection.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1329</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001J</fr:addr><fr:route>algm-001J.xml</fr:route><fr:title>Sheafification</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:strong>Sheafification</fr:strong> is defined as the left adjoint of the inclusion from <fr:link
 href="algm-001F.xml"
-type="local"
-addr="algm-001F">sheaves</fr:link> to the category of presheaves. Hence it freely constructs a sheaf from a presheaf.
-</fr:p>
+addr="algm-001F"
+title="Sheaf">sheaves</fr:link> to the category of presheaves. Hence it freely constructs a sheaf from a presheaf.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1317</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1260</fr:anchor><fr:addr
+type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001J</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We construct sheafification as <fr:link
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001J</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We construct sheafification as <fr:link
+type="local"
 href="algm-001G.xml"
-type="local"
-addr="algm-001G">an iterated plus construction</fr:link>. This produces a functor. By <fr:ref
+addr="algm-001G"
+title="Iterated plus construction produces a sheaf">an iterated plus construction</fr:link>. This produces a functor. By <fr:ref
 addr="algm-001H"
 href="algm-001H.xml"
-taxon="Theorem"></fr:ref> we have a natural bijection
+taxon="Theorem" /> we have a natural bijection
     <fr:tex
-display="block">\hom(P^{++}, F) \cong \hom(P^+, F) \cong \hom(P, F).</fr:tex>
-    Hence it is indeed the left adjoint. Since the bijections are given by composition with <fr:tex>P \to P^+</fr:tex> and <fr:tex>P^+ \to P^{++}</fr:tex>, we see that the unit of the adjunction is given by the composition <fr:tex>P \to P^{++}</fr:tex>.
-  </fr:p>
+display="block"><![CDATA[\hom (P^{++}, F) \cong  \hom (P^+, F) \cong  \hom (P, F).]]></fr:tex>
+    Hence it is indeed the left adjoint. Since the bijections are given by composition with <fr:tex
+display="inline"><![CDATA[P \to  P^+]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[P^+ \to  P^{++}]]></fr:tex>, we see that the unit of the adjunction is given by the composition <fr:tex
+display="inline"><![CDATA[P \to  P^{++}]]></fr:tex>.</fr:p>
 
-  <fr:p>
-    Alternatively, using <fr:ref
+  <fr:p>Alternatively, using <fr:ref
 addr="algm-001K"
 href="algm-001K.xml"
-taxon="Construction"></fr:ref>, we may compose two adjunctions to first <fr:link
-href="algm-001K.xml"
+taxon="Construction" />, we may compose two adjunctions to first <fr:link
 type="local"
-addr="algm-001K">separate</fr:link> the presheaf, and then perform the plus construction. By uniqueness of adjunction these two constructions are equivalent.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="algm-001K.xml"
+addr="algm-001K"
+title="Separation of presheaf">separate</fr:link> the presheaf, and then perform the plus construction. By uniqueness of adjunction these two constructions are equivalent.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1272</fr:anchor><fr:addr
+type="user">algm-001A</fr:addr><fr:route>algm-001A.xml</fr:route><fr:title
+text="Grothendieck coverage">Grothendieck coverage</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a category <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, a <fr:strong>Grothendieck coverage</fr:strong> declares some <fr:link
+type="local"
+href="algm-001B.xml"
+addr="algm-001B"
+title="Sieve">sieves</fr:link> to be coverings, such that the following holds.</fr:p><fr:ul><fr:li>The maximal sieve <fr:tex
+display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A) \subseteq  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex> is always a covering.</fr:li>
+  <fr:li>Covering sieves are upwards closed, i.e. if <fr:tex
+display="inline"><![CDATA[S \subseteq  S']]></fr:tex> and <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is a covering sieve, then so is <fr:tex
+display="inline"><![CDATA[S']]></fr:tex>.</fr:li>
+  <fr:li>If <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is a covering sieve of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[g : B \to  A]]></fr:tex> is a morphism, then the <fr:link
+type="local"
+href="algm-001C.xml"
+addr="algm-001C"
+title="Pullback of sieves">pullback</fr:link> <fr:tex
+display="inline"><![CDATA[g^* S]]></fr:tex> is also a covering.</fr:li>
+  <fr:li>Suppose <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is a sieve, then the collection of arrows <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[g^* S]]></fr:tex> is a covering is a sieve itself. If this sieve is a covering, then <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is also a covering.</fr:li></fr:ul><fr:p>A Grothendieck coverage can be viewed as a <fr:link
+type="local"
+href="algm-0019.xml"
+addr="algm-0019"
+title="Coverage">coverage</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1274</fr:anchor><fr:addr
+type="user">algm-001F</fr:addr><fr:route>algm-001F.xml</fr:route><fr:title
+text="Sheaf">Sheaf</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a category <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex> equipped with a <fr:link
+type="local"
+href="algm-0019.xml"
+addr="algm-0019"
+title="Coverage">coverage</fr:link>, we define a presheaf <fr:tex
+display="inline"><![CDATA[P : \mathcal {C}^\textrm {op} \to  \mathsf {Set}]]></fr:tex> to be a <fr:strong>sheaf</fr:strong> if it satisfies the <fr:strong>sheaf condition</fr:strong>: for every cover of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, the map from sections of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> to <fr:link
+type="local"
+href="algm-001D.xml"
+addr="algm-001D"
+title="Descent data of presheaves">descent data</fr:link> of the cover is a bijection. It is a <fr:strong>separated presheaf</fr:strong> if the map is an injection.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

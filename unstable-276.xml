@@ -1,81 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1139</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1659</fr:anchor><fr:addr
+type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001U</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Suppose we have a covering sieve <fr:tex>S \hookrightarrow \mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U)</fr:tex> in <fr:tex>{\mathcal{C}}</fr:tex>, then an element <fr:tex>f \in {\Gamma}(U, F)</fr:tex> uniquely corresponds to a matching family <fr:tex>s \in \hom(S, F)</fr:tex>. In the category of elements <fr:tex>\int_{{\mathcal{C}}} F</fr:tex>, <fr:tex>s</fr:tex> corresponds to a sieve over <fr:tex>f</fr:tex>. This is the required Grothendieck coverage.
-  </fr:p>
-
-  <fr:p>
-    Another way to construct this is through the <fr:link
-href="algm-001L.xml"
-type="local"
-addr="algm-001L">Lawvere–Tierney operator</fr:link> <fr:tex>j</fr:tex>. The subobject classifier of a slice category is simply <fr:tex>\Omega \times F \to F</fr:tex>. Hence we can let <fr:tex>j</fr:tex> act on the <fr:tex>\Omega</fr:tex> factor. This gives a Lawvere–Tierney operator on the slice category and it coincides with the Grothendieck coverage constructed above.
-  </fr:p>
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000J</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We take a directed limit. The elements are from some <fr:tex
+display="inline"><![CDATA[R[f^{-1}]]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \nmid  f]]></fr:tex>, i.e. the elements can be written as <fr:tex
+display="inline"><![CDATA[g/f^n]]></fr:tex>. Two elements are equal iff their common restriction to some <fr:tex
+display="inline"><![CDATA[D(f)]]></fr:tex> is equal, i.e. <fr:tex
+display="inline"><![CDATA[g_1/f_1^n = g_2/f_2^m]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[(g_1 f_2^m - g_2 f_1^n) f^k = 0]]></fr:tex>. These are exactly the definition of the localization away from <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1137</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>algm-001U</fr:addr><fr:route>algm-001U.xml</fr:route><fr:title>Slice of sheaf category</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1661</fr:anchor><fr:addr
+type="user">algm-000J</fr:addr><fr:route>algm-000J.xml</fr:route><fr:title
+text="Stalk of the structure sheaf on {Spec}(R)">Stalk of the structure sheaf on <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a point <fr:tex
+display="inline"><![CDATA[\left [\mathfrak {p}\right ] \in  \operatorname {Spec}(R)]]></fr:tex>, the stalk at the point is the localization <fr:tex
+display="inline"><![CDATA[R_{\mathfrak {p}}]]></fr:tex>. In particular, the ring spectrum is a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category <fr:tex>{\mathcal{C}}</fr:tex> with a <fr:link
-href="algm-001A.xml"
-type="local"
-addr="algm-001A">Grothendieck coverage</fr:link> <fr:tex>J</fr:tex> and a sheaf <fr:tex>F</fr:tex>, there is a Grothendieck coverage <fr:tex>J'</fr:tex> on <fr:tex>\int_{{\mathcal{C}}} F</fr:tex> such that the equivalence in <fr:ref
-addr="algm-001T"
-href="algm-001T.xml"
-taxon="Theorem"></fr:ref> restricts to an equivalence
-  <fr:tex
-display="block">{\mathsf{Sh}}({\mathcal{C}}, J)/F \cong {\mathsf{Sh}}\left(\int_{{\mathcal{C}}} F, J'\right).</fr:tex></fr:p>
+href="algm-000L.xml"
+addr="algm-000L"
+title="Locally ringed space">locally ringed space</fr:link> by <fr:ref
+addr="algm-000N"
+href="algm-000N.xml"
+taxon="Theorem" />.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1135</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1663</fr:anchor><fr:addr
+type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001U</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Suppose we have a covering sieve <fr:tex>S \hookrightarrow \mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U)</fr:tex> in <fr:tex>{\mathcal{C}}</fr:tex>, then an element <fr:tex>f \in {\Gamma}(U, F)</fr:tex> uniquely corresponds to a matching family <fr:tex>s \in \hom(S, F)</fr:tex>. In the category of elements <fr:tex>\int_{{\mathcal{C}}} F</fr:tex>, <fr:tex>s</fr:tex> corresponds to a sieve over <fr:tex>f</fr:tex>. This is the required Grothendieck coverage.
-  </fr:p>
-
-  <fr:p>
-    Another way to construct this is through the <fr:link
-href="algm-001L.xml"
-type="local"
-addr="algm-001L">Lawvere–Tierney operator</fr:link> <fr:tex>j</fr:tex>. The subobject classifier of a slice category is simply <fr:tex>\Omega \times F \to F</fr:tex>. Hence we can let <fr:tex>j</fr:tex> act on the <fr:tex>\Omega</fr:tex> factor. This gives a Lawvere–Tierney operator on the slice category and it coincides with the Grothendieck coverage constructed above.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000J</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We take a directed limit. The elements are from some <fr:tex
+display="inline"><![CDATA[R[f^{-1}]]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \nmid  f]]></fr:tex>, i.e. the elements can be written as <fr:tex
+display="inline"><![CDATA[g/f^n]]></fr:tex>. Two elements are equal iff their common restriction to some <fr:tex
+display="inline"><![CDATA[D(f)]]></fr:tex> is equal, i.e. <fr:tex
+display="inline"><![CDATA[g_1/f_1^n = g_2/f_2^m]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[(g_1 f_2^m - g_2 f_1^n) f^k = 0]]></fr:tex>. These are exactly the definition of the localization away from <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1133</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001L</fr:addr><fr:route>algm-001L.xml</fr:route><fr:title>Lawvere–Tierney operator</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category <fr:tex>{\mathcal{C}}</fr:tex>, a <fr:strong>Lawvere–Tierney operator</fr:strong> is a morphism <fr:tex>j : \Omega \to \Omega</fr:tex> where <fr:tex>\Omega</fr:tex> is the subobject classifier, such that <fr:tex>j</fr:tex> preserves finite intersections, and <fr:tex>j \mathbin{\circ} j = j</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1006</fr:anchor><fr:addr
+type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0003</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We verify that they form an adjunction. Algebra homomorphisms <fr:tex
+display="inline"><![CDATA[\varphi  : F_M X \to  Y]]></fr:tex> are given by commutative squares
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="a9a1e034dcfd39c0f1ae7665b6b057d4"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}%tex
+      {M^2 X} & MY \\
+      MX & Y
+      \arrow["{\alpha_Y}", from=1-2, to=2-2]
+      \arrow["\mu"', from=1-1, to=2-1]
+      \arrow["\varphi", from=2-1, to=2-2]
+      \arrow["{M\varphi}", from=1-1, to=1-2]\end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    while morphisms <fr:tex
+display="inline"><![CDATA[f : X \to  Y]]></fr:tex> fits in the diagram as such: 
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="cf98d9db6ddf55aa5c8f4220681e1f2e"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}%tex
+      {M^2 X} & MY \\
+      MX & Y \\
+      X
+      \arrow["{\alpha_Y}", from=1-2, to=2-2]
+      \arrow["\mu"', from=1-1, to=2-1]
+      \arrow["\varphi", from=2-1, to=2-2]
+      \arrow["{M\varphi}", from=1-1, to=1-2]
+      \arrow["f"', from=3-1, to=2-2]
+      \arrow["\eta", from=3-1, to=2-1]
+      \arrow[from=2-1, to=1-2]\end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    Given a homomorphism <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> of algebras, we can compute <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> by composing with <fr:tex
+display="inline"><![CDATA[\eta ]]></fr:tex>. On the other hand, given <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>, we define <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[\alpha _Y \mathbin {\circ } Mf]]></fr:tex>. This creates a commutative square because
+    <fr:tex
+display="block"><![CDATA[\begin {aligned}       \alpha _Y \mathbin {\circ } M \varphi        &= \alpha _Y \mathbin {\circ } M\alpha _Y \mathbin {\circ } M^2 f \\       &= \alpha _Y \mathbin {\circ } \mu  \mathbin {\circ } M^2 f \\       &= \alpha _Y \mathbin {\circ } M f \mathbin {\circ } \mu  \\       &= \varphi  \mathbin {\circ } \mu .     \end {aligned}]]></fr:tex></fr:p>
+
+  <fr:p>We just have to verify that the two conversions are mutual inverses. In one way, we need to verify <fr:tex
+display="inline"><![CDATA[\alpha _Y \mathbin {\circ } M f \mathbin {\circ } \eta  = f]]></fr:tex>. This is true because by the naturality of <fr:tex
+display="inline"><![CDATA[\eta ]]></fr:tex> we get <fr:tex
+display="inline"><![CDATA[M f \mathbin {\circ } \eta  = \eta  \mathbin {\circ } f]]></fr:tex>. Then by the definition of <fr:link
+type="local"
+href="ualg-0002.xml"
+addr="ualg-0002"
+title="Algebra of a monad">algebra</fr:link> <fr:tex
+display="inline"><![CDATA[\alpha _Y \mathbin {\circ } \eta  = \textrm {id}]]></fr:tex>, proving the equality. On the other hand, we need to show <fr:tex
+display="inline"><![CDATA[\alpha _Y \mathbin {\circ } M(\varphi  \mathbin {\circ } \eta ) = \varphi ]]></fr:tex>. This follows from the algebra identity <fr:tex
+display="inline"><![CDATA[\alpha _Y \mathbin {\circ } M \alpha _Y = \alpha _Y \mathbin {\circ } \mu ]]></fr:tex> and the monad identity <fr:tex
+display="inline"><![CDATA[\mu  \mathbin {\circ } M \eta  = \textrm {id}]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1008</fr:anchor><fr:addr
+type="user">ualg-0003</fr:addr><fr:route>ualg-0003.xml</fr:route><fr:title
+text="Free monad algebras">Free monad algebras</fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
+type="local"
+href="ualg-0001.xml"
+addr="ualg-0001"
+title="Monad on a category">monad</fr:link> <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> on a category <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, there is a canonical adjunction between the <fr:link
+type="local"
+href="ualg-0002.xml"
+addr="ualg-0002"
+title="Algebra of a monad">category of algebras</fr:link> <fr:tex
+display="inline"><![CDATA[\mathcal {C}^M]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>. The <fr:strong>forgetful functor</fr:strong> <fr:tex
+display="inline"><![CDATA[U_M]]></fr:tex> takes an <fr:link
+type="local"
+href="ualg-0002.xml"
+addr="ualg-0002"
+title="Algebra of a monad">algebra</fr:link> and forgets the algebra structure. The <fr:strong>free functor</fr:strong> <fr:tex
+display="inline"><![CDATA[F_M]]></fr:tex> takes an object <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and produces an algebra on <fr:tex
+display="inline"><![CDATA[MX]]></fr:tex> given by the monad multiplication map <fr:tex
+display="inline"><![CDATA[\mu  : M^2 X \to  MX]]></fr:tex>, called the <fr:strong>free algebra</fr:strong>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>980</fr:anchor><fr:addr
+type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0003</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We verify that they form an adjunction. Algebra homomorphisms <fr:tex
+display="inline"><![CDATA[\varphi  : F_M X \to  Y]]></fr:tex> are given by commutative squares
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="a9a1e034dcfd39c0f1ae7665b6b057d4"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}%tex
+      {M^2 X} & MY \\
+      MX & Y
+      \arrow["{\alpha_Y}", from=1-2, to=2-2]
+      \arrow["\mu"', from=1-1, to=2-1]
+      \arrow["\varphi", from=2-1, to=2-2]
+      \arrow["{M\varphi}", from=1-1, to=1-2]\end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    while morphisms <fr:tex
+display="inline"><![CDATA[f : X \to  Y]]></fr:tex> fits in the diagram as such: 
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="cf98d9db6ddf55aa5c8f4220681e1f2e"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}%tex
+      {M^2 X} & MY \\
+      MX & Y \\
+      X
+      \arrow["{\alpha_Y}", from=1-2, to=2-2]
+      \arrow["\mu"', from=1-1, to=2-1]
+      \arrow["\varphi", from=2-1, to=2-2]
+      \arrow["{M\varphi}", from=1-1, to=1-2]
+      \arrow["f"', from=3-1, to=2-2]
+      \arrow["\eta", from=3-1, to=2-1]
+      \arrow[from=2-1, to=1-2]\end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    Given a homomorphism <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> of algebras, we can compute <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> by composing with <fr:tex
+display="inline"><![CDATA[\eta ]]></fr:tex>. On the other hand, given <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>, we define <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[\alpha _Y \mathbin {\circ } Mf]]></fr:tex>. This creates a commutative square because
+    <fr:tex
+display="block"><![CDATA[\begin {aligned}       \alpha _Y \mathbin {\circ } M \varphi        &= \alpha _Y \mathbin {\circ } M\alpha _Y \mathbin {\circ } M^2 f \\       &= \alpha _Y \mathbin {\circ } \mu  \mathbin {\circ } M^2 f \\       &= \alpha _Y \mathbin {\circ } M f \mathbin {\circ } \mu  \\       &= \varphi  \mathbin {\circ } \mu .     \end {aligned}]]></fr:tex></fr:p>
+
+  <fr:p>We just have to verify that the two conversions are mutual inverses. In one way, we need to verify <fr:tex
+display="inline"><![CDATA[\alpha _Y \mathbin {\circ } M f \mathbin {\circ } \eta  = f]]></fr:tex>. This is true because by the naturality of <fr:tex
+display="inline"><![CDATA[\eta ]]></fr:tex> we get <fr:tex
+display="inline"><![CDATA[M f \mathbin {\circ } \eta  = \eta  \mathbin {\circ } f]]></fr:tex>. Then by the definition of <fr:link
+type="local"
+href="ualg-0002.xml"
+addr="ualg-0002"
+title="Algebra of a monad">algebra</fr:link> <fr:tex
+display="inline"><![CDATA[\alpha _Y \mathbin {\circ } \eta  = \textrm {id}]]></fr:tex>, proving the equality. On the other hand, we need to show <fr:tex
+display="inline"><![CDATA[\alpha _Y \mathbin {\circ } M(\varphi  \mathbin {\circ } \eta ) = \varphi ]]></fr:tex>. This follows from the algebra identity <fr:tex
+display="inline"><![CDATA[\alpha _Y \mathbin {\circ } M \alpha _Y = \alpha _Y \mathbin {\circ } \mu ]]></fr:tex> and the monad identity <fr:tex
+display="inline"><![CDATA[\mu  \mathbin {\circ } M \eta  = \textrm {id}]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

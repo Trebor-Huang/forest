@@ -1,54 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>950</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1985</fr:anchor><fr:addr
+type="machine">#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0009</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Given an adjunction <fr:tex>F \dashv G</fr:tex> with the corresponding monad <fr:tex>G \mathbin{\circ} F</fr:tex>, the comparison functor is defined as sending <fr:tex>X</fr:tex> to <fr:tex>GFGX \to GX</fr:tex>, given by the counit <fr:tex>FGX \to X</fr:tex>.
-  </fr:p>
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001E</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Let the reduction <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> be made out of the three maps <fr:tex
+display="inline"><![CDATA[\pi _{\rho } : C \to  D]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\iota _{\rho } : D \to  C]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[h_{\rho } : C \to  C]]></fr:tex>. Then since <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> splits as the direct sum of <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> and an <fr:link
+type="local"
+href="hmlg-000D.xml"
+addr="hmlg-000D"
+title="Acyclic chain complex">acyclic</fr:link> complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition <fr:tex
+display="inline"><![CDATA[\delta _C = \iota _{\rho } \mathbin {\circ } \delta _D \mathbin {\circ } \pi _{\rho }]]></fr:tex>. A quick computation shows that <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> is still a reduction of the perturbed chain complexes.</fr:p>
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>948</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0009</fr:addr><fr:route>ualg-0009.xml</fr:route><fr:title>The Eilenberg–Moore category induces the terminal decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1987</fr:anchor><fr:addr
+type="user">hmlg-001E</fr:addr><fr:route>hmlg-001E.xml</fr:route><fr:title
+text="Perturbation of the smaller chain complex in a chain reduction"><fr:link
+type="local"
+href="hmlg-001C.xml"
+addr="hmlg-001C"
+title="Perturbation of chain complex">Perturbation</fr:link> of the smaller chain complex in a <fr:link
+type="local"
+href="hmlg-0017.xml"
+addr="hmlg-0017"
+title="Chain reduction">chain reduction</fr:link></fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The <fr:link
-href="ualg-0002.xml"
-type="local"
-addr="ualg-0002">Eilenberg–Moore category</fr:link> together with its canonical adjunction is the terminal <fr:link
-href="ualg-0007.xml"
-type="local"
-addr="ualg-0007">decomposition of a monad into adjoint functors</fr:link>. Hence there is a unique morphism from any decomposition to it, named the <fr:strong>comparison functor</fr:strong>.
-</fr:p>
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a reduction <fr:tex
+display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex> and a perturbation <fr:tex
+display="inline"><![CDATA[\delta _D]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[D]]></fr:tex>, we can construct a perturbation <fr:tex
+display="inline"><![CDATA[\delta _C]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>, such that the same <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> can serve as a reduction of the perturbed chain complexes.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>918</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1949</fr:anchor><fr:addr
+type="machine">#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0009</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Given an adjunction <fr:tex>F \dashv G</fr:tex> with the corresponding monad <fr:tex>G \mathbin{\circ} F</fr:tex>, the comparison functor is defined as sending <fr:tex>X</fr:tex> to <fr:tex>GFGX \to GX</fr:tex>, given by the counit <fr:tex>FGX \to X</fr:tex>.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001E</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Let the reduction <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> be made out of the three maps <fr:tex
+display="inline"><![CDATA[\pi _{\rho } : C \to  D]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\iota _{\rho } : D \to  C]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[h_{\rho } : C \to  C]]></fr:tex>. Then since <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> splits as the direct sum of <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> and an <fr:link
+type="local"
+href="hmlg-000D.xml"
+addr="hmlg-000D"
+title="Acyclic chain complex">acyclic</fr:link> complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition <fr:tex
+display="inline"><![CDATA[\delta _C = \iota _{\rho } \mathbin {\circ } \delta _D \mathbin {\circ } \pi _{\rho }]]></fr:tex>. A quick computation shows that <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> is still a reduction of the perturbed chain complexes.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,219 +1,305 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1682</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000U</fr:addr><fr:route>algm-000U.xml</fr:route><fr:title>Morphism of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1595</fr:anchor><fr:addr
+type="user">algm-000U</fr:addr><fr:route>algm-000U.xml</fr:route><fr:title
+text="Morphism of locally ringed spaces">Morphism of locally ringed spaces</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given two <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given two <fr:link
 href="algm-000L.xml"
+addr="algm-000L"
+title="Locally ringed space">locally ringed spaces</fr:link>, a <fr:link
 type="local"
-addr="algm-000L">locally ringed spaces</fr:link>, a <fr:link
 href="algm-000S.xml"
-type="local"
-addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi</fr:tex> between them is <fr:strong>local</fr:strong> when sections of <fr:tex>\varphi^{-1}{\mathscr{O}}_Y</fr:tex> are invertible iff their images in <fr:tex>{\mathscr{O}}_X</fr:tex> are invertible, i.e. the following diagram is a pullback:
+addr="algm-000S"
+title="Morphism of ringed spaces">morphism of ringed spaces</fr:link> <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> between them is <fr:strong>local</fr:strong> when sections of <fr:tex
+display="inline"><![CDATA[\varphi ^{-1}\mathscr {O}_Y]]></fr:tex> are invertible iff their images in <fr:tex
+display="inline"><![CDATA[\mathscr {O}_X]]></fr:tex> are invertible, i.e. the following diagram is a pullback:
 
   
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="198899d151858ff4911e2572bf2e6342"><fr:embedded-tex-preamble>
+hash="10f8a1c26eaef8e9e0591acaaadc4d0d"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-    {\varphi^{-1}{\mathscr{O}}_Y^\times} &amp; {{\mathscr{O}}_X^\times} \\
-    {\varphi^{-1}{\mathscr{O}}_Y} &amp; {{\mathscr{O}}_X}
-    \arrow[hook, from=1-1, to=2-1]
-    \arrow[hook, from=1-2, to=2-2]
-    \arrow[from=1-1, to=1-2]
-    \arrow[from=2-1, to=2-2]
-    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
-  \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+    {\varphi ^{-1}\mathscr {O}_Y^\times } & {\mathscr {O}_X^\times } \\
+    {\varphi ^{-1}\mathscr {O}_Y} & {\mathscr {O}_X}
+    \arrow [hook, from=1-1, to=2-1]
+    \arrow [hook, from=1-2, to=2-2]
+    \arrow [from=1-1, to=1-2]
+    \arrow [from=2-1, to=2-2]
+    \arrow ["\lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+  \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
 
   Note that the <fr:link
+type="local"
 href="algm-000T.xml"
-type="local"
-addr="algm-000T">subsheaf of units</fr:link> is given by a finite limit, hence <fr:tex>\varphi^{-1}</fr:tex> preserves it. Since the lower map map <fr:tex>\varphi^{-1} {\mathscr{O}}_Y \to {\mathscr{O}}_X</fr:tex> is a ring homomorphism on the sections, it maps units to units. Hence restriction to the upper map makes sense.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-000T"
+title="Subsheaf of units">subsheaf of units</fr:link> is given by a finite limit, hence <fr:tex
+display="inline"><![CDATA[\varphi ^{-1}]]></fr:tex> preserves it. Since the lower map map <fr:tex
+display="inline"><![CDATA[\varphi ^{-1} \mathscr {O}_Y \to  \mathscr {O}_X]]></fr:tex> is a ring homomorphism on the sections, it maps units to units. Hence restriction to the upper map makes sense.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1676</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000T</fr:addr><fr:route>algm-000T.xml</fr:route><fr:title>Subsheaf of units</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1597</fr:anchor><fr:addr
+type="user">algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title
+text="Action of morphisms on stalks of locally ringed spaces">Action of morphisms on stalks of locally ringed spaces</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a sheaf <fr:tex>{\mathscr{O}}</fr:tex> of rings, we can define a subsheaf <fr:tex>{\mathscr{O}}^\times</fr:tex> consisting of the invertible elements, i.e. <fr:tex>{\Gamma}(U, {\mathscr{O}}^\times) = {\Gamma}(U, {\mathscr{O}})^\times</fr:tex>. This is the <fr:strong>subsheaf of units</fr:strong>.
-</fr:p><fr:p>
-  This can be equivalently expressed as a pullback of <fr:tex>{\mathscr{O}} \times {\mathscr{O}} \xrightarrow{(f,g) \mapsto f g} {\mathscr{O}}</fr:tex> and <fr:tex>1 \xrightarrow{1} {\mathscr{O}}</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1678</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000S</fr:addr><fr:route>algm-000S.xml</fr:route><fr:title>Morphism of ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given two <fr:link
-href="algm-000M.xml"
-type="local"
-addr="algm-000M">ringed spaces</fr:link> <fr:tex>X, Y</fr:tex>, a morphism <fr:tex>\varphi : X \to Y</fr:tex> is given by a continuous map of the underlying spaces, and a sheaf morphism <fr:tex>\varphi^{-1} {\mathscr{O}}_Y \to {\mathscr{O}}_X</fr:tex>, equivalently <fr:tex>{\mathscr{O}}_Y \to \varphi_* {\mathscr{O}}_X</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1680</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000L</fr:addr><fr:route>algm-000L.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
-href="algm-000M.xml"
-type="local"
-addr="algm-000M">ringed space</fr:link>, i.e. a space <fr:tex>X</fr:tex> with a sheaf of rings <fr:tex>{\mathscr{O}}</fr:tex>, it is said to be <fr:strong>locally ringed</fr:strong> iff the following conditions hold.
-</fr:p><fr:ul><fr:li>If <fr:tex>{\Gamma}(U, {\mathscr{O}}) = 0</fr:tex>, then <fr:tex>U</fr:tex> is empty.</fr:li>
-  <fr:li>Suppose <fr:tex>f + g \in {\Gamma}(U, {\mathscr{O}})</fr:tex> is invertible, then we can cover <fr:tex>U</fr:tex> with two open sets such that <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> are invertible when restricted respectively.</fr:li></fr:ul><fr:p>
-  This can be unified as one condition: If a finite sum in <fr:tex>{\Gamma}(U, {\mathscr{O}})</fr:tex> is invertible, then each summand is invertible when restricted to an open, which jointly covers <fr:tex>U</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1672</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title>Action of morphisms on stalks of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
 href="algm-000S.xml"
+addr="algm-000S"
+title="Morphism of ringed spaces">morphism of ringed spaces</fr:link> <fr:tex
+display="inline"><![CDATA[\varphi  : X \to  Y]]></fr:tex>, if it is <fr:link
 type="local"
-addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi : X \to Y</fr:tex>, if it is <fr:link
 href="algm-000U.xml"
+addr="algm-000U"
+title="Morphism of locally ringed spaces">local</fr:link>, a germ is invertible iff its <fr:link
 type="local"
-addr="algm-000U">local</fr:link>, a germ is invertible iff its <fr:link
 href="algm-000V.xml"
-type="local"
-addr="algm-000V">pullback</fr:link> under <fr:tex>\varphi</fr:tex> is invertible. If the space <fr:tex>X</fr:tex> has enough points, then the inverse implication is also true.
-</fr:p>
+addr="algm-000V"
+title="Terminology of pullbacks">pullback</fr:link> under <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> is invertible. If the space <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> has enough points, then the inverse implication is also true.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1623</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#288</fr:addr><fr:route>unstable-288.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1560</fr:anchor><fr:addr
+type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Note that the stalk <fr:tex>(\varphi^{-1}{\mathscr{O}}_{Y})_x = {\mathscr{O}}_{Y, \varphi(x)}</fr:tex>. A germ being invertible implies for some neighborhood <fr:tex>U</fr:tex> of <fr:tex>x</fr:tex>, it comes from an invertible section <fr:tex>f \in {\Gamma}(U, \varphi^{-1}{\mathscr{O}}_Y)</fr:tex>, so the image in <fr:tex>{\Gamma}(U, {\mathscr{O}}_X)</fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.
-  </fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Note that the stalk <fr:tex
+display="inline"><![CDATA[(\varphi ^{-1}\mathscr {O}_{Y})_x = \mathscr {O}_{Y, \varphi (x)}]]></fr:tex>. A germ being invertible implies for some neighborhood <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, it comes from an invertible section <fr:tex
+display="inline"><![CDATA[f \in  \Gamma (U, \varphi ^{-1}\mathscr {O}_Y)]]></fr:tex>, so the image in <fr:tex
+display="inline"><![CDATA[\Gamma (U, \mathscr {O}_X)]]></fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.</fr:p>
 
-  <fr:p>
-    On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+  <fr:p>On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1674</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title>Morphisms of affine schemes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1599</fr:anchor><fr:addr
+type="user">algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title
+text="Morphisms of affine schemes">Morphisms of affine schemes</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 href="algm-000U.xml"
+addr="algm-000U"
+title="Morphism of locally ringed spaces">Morphism</fr:link> of <fr:link
 type="local"
-addr="algm-000U">Morphism</fr:link> of <fr:link
 href="algm-000Q.xml"
-type="local"
-addr="algm-000Q">affine schemes</fr:link> are in natural bijection with ring homomorphisms in the opposite direction. In other words, there is a fully faithful embedding <fr:tex>{\mathsf{CRing}}^{\textrm{op}} \to {\mathsf{Sch}}</fr:tex>.
-</fr:p>
+addr="algm-000Q"
+title="Affine scheme">affine schemes</fr:link> are in natural bijection with ring homomorphisms in the opposite direction. In other words, there is a fully faithful embedding <fr:tex
+display="inline"><![CDATA[\mathsf {CRing}^\textrm {op} \to  \mathsf {Sch}]]></fr:tex>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>567</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>545</fr:anchor><fr:addr
+type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Given two rings <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, a ring homomorphism <fr:tex
+display="inline"><![CDATA[\varphi  : S \to  R]]></fr:tex> naturally induces a map of <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Given two rings <fr:tex>R</fr:tex>, <fr:tex>S</fr:tex>, a ring homomorphism <fr:tex>\varphi : S \to R</fr:tex> naturally induces a map of <fr:link
 href="algm-0004.xml"
-type="local"
-addr="algm-0004">distinguished opens</fr:link> <fr:tex>f \mapsto \varphi(f)</fr:tex>. This is a continuous map <fr:tex>\operatorname{Spec}(R) \to \operatorname{Spec}(S)</fr:tex>, because <fr:tex>\varphi</fr:tex> preserves <fr:tex>\operatorname{lcm}</fr:tex> and <fr:tex>\gcd</fr:tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <fr:tex>{\Gamma}(D(s), {\mathscr{O}}_{\operatorname{Spec}(S)}) \to {\Gamma}(D(r), {\mathscr{O}}_{\operatorname{Spec}(R)})</fr:tex> whenever <fr:tex>D(r) \subseteq \varphi^{-1}D(s) = D(\varphi(s))</fr:tex>. This is just a homomorphism <fr:tex>S[s^{-1}] \to R[r^{-1}]</fr:tex>, which is obvious because <fr:tex>\varphi(s)</fr:tex> must be invertible in <fr:tex>R[r^{-1}]</fr:tex>.
-  </fr:p>
+addr="algm-0004"
+title="Distinguished opens of {Spec}(R)">distinguished opens</fr:link> <fr:tex
+display="inline"><![CDATA[f \mapsto  \varphi (f)]]></fr:tex>. This is a continuous map <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R) \to  \operatorname {Spec}(S)]]></fr:tex>, because <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> preserves <fr:tex
+display="inline"><![CDATA[\operatorname {lcm}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\gcd ]]></fr:tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <fr:tex
+display="inline"><![CDATA[\Gamma (D(s), \mathscr {O}_{\operatorname {Spec}(S)}) \to  \Gamma (D(r), \mathscr {O}_{\operatorname {Spec}(R)})]]></fr:tex> whenever <fr:tex
+display="inline"><![CDATA[D(r) \subseteq  \varphi ^{-1}D(s) = D(\varphi (s))]]></fr:tex>. This is just a homomorphism <fr:tex
+display="inline"><![CDATA[S[s^{-1}] \to  R[r^{-1}]]]></fr:tex>, which is obvious because <fr:tex
+display="inline"><![CDATA[\varphi (s)]]></fr:tex> must be invertible in <fr:tex
+display="inline"><![CDATA[R[r^{-1}]]]></fr:tex>.</fr:p>
 
-  <fr:p>
-    We need to prove our map is <fr:link
+  <fr:p>We need to prove our map is <fr:link
+type="local"
 href="algm-000U.xml"
+addr="algm-000U"
+title="Morphism of locally ringed spaces">local</fr:link>. Using the <fr:link
 type="local"
-addr="algm-000U">local</fr:link>. Using the <fr:link
 href="algm-000W.xml"
-type="local"
-addr="algm-000W">characterization on stalks</fr:link>, we just need to verify that <fr:tex>S_{\varphi^{-1}(\mathfrak{p})} \to R_{\mathfrak{p}}</fr:tex> reflects invertibility. This is true by construction. Hence we have a map <fr:tex>\hom_{{\mathsf{CRing}}}(S, R) \to \hom_{{\mathsf{Sch}}}(\operatorname{Spec}(R), \operatorname{Spec}(S))</fr:tex>.
-  </fr:p>
+addr="algm-000W"
+title="Action of morphisms on stalks of locally ringed spaces">characterization on stalks</fr:link>, we just need to verify that <fr:tex
+display="inline"><![CDATA[S_{\varphi ^{-1}(\mathfrak {p})} \to  R_{\mathfrak {p}}]]></fr:tex> reflects invertibility. This is true by construction. Hence we have a map <fr:tex
+display="inline"><![CDATA[\hom _{\mathsf {CRing}}(S, R) \to  \hom _{\mathsf {Sch}}(\operatorname {Spec}(R), \operatorname {Spec}(S))]]></fr:tex>.</fr:p>
 
-  <fr:p>
-    In the reverse direction, given a morphism <fr:tex>\varphi : \operatorname{Spec}(R) \to \operatorname{Spec}(S)</fr:tex>, we can extract a ring homomorphism by looking at the global sections
+  <fr:p>In the reverse direction, given a morphism <fr:tex
+display="inline"><![CDATA[\varphi  : \operatorname {Spec}(R) \to  \operatorname {Spec}(S)]]></fr:tex>, we can extract a ring homomorphism by looking at the global sections
     <fr:tex
-display="block">S \cong {\Gamma}(\top, \varphi^{-1}{\mathscr{O}}_{\operatorname{Spec}(S)}) \to {\Gamma}(\top, {\mathscr{O}}_{\operatorname{Spec}(R)}) \cong R.</fr:tex>
-    We obviously have going from <fr:tex>{\mathsf{CRing}}</fr:tex> to <fr:tex>{\mathsf{Sch}}</fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
+display="block"><![CDATA[S \cong  \Gamma (\top , \varphi ^{-1}\mathscr {O}_{\operatorname {Spec}(S)}) \to  \Gamma (\top , \mathscr {O}_{\operatorname {Spec}(R)}) \cong  R.]]></fr:tex>
+    We obviously have going from <fr:tex
+display="inline"><![CDATA[\mathsf {CRing}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
 
     
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="cf65e16cf4b03239ee9cfe91fa803b6a"><fr:embedded-tex-preamble>
+hash="c53e81307d06912948fdb79b10c12ad6"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-      S &amp; R \\
-      {S_{\mathfrak{q}}} &amp; {R_{\mathfrak{p}}}
-      \arrow[from=1-1, to=1-2]
-      \arrow[from=2-1, to=2-2]
-      \arrow[two heads, from=1-1, to=2-1]
-      \arrow[two heads, from=1-2, to=2-2]
-    \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      S & R \\
+      {S_{\mathfrak {q}}} & {R_{\mathfrak {p}}}
+      \arrow [from=1-1, to=1-2]
+      \arrow [from=2-1, to=2-2]
+      \arrow [two heads, from=1-1, to=2-1]
+      \arrow [two heads, from=1-2, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
 
-    where <fr:tex>\left[\mathfrak{q}\right]</fr:tex> is the image of the point <fr:tex>\left[\mathfrak{p}\right]</fr:tex> under the underlying continuous map of <fr:tex>\varphi</fr:tex>. This fixes the action of <fr:tex>\varphi</fr:tex> on the stalks. Furthermore, the <fr:link
-href="algm-000W.xml"
+    where <fr:tex
+display="inline"><![CDATA[\left [\mathfrak {q}\right ]]]></fr:tex> is the image of the point <fr:tex
+display="inline"><![CDATA[\left [\mathfrak {p}\right ]]]></fr:tex> under the underlying continuous map of <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex>. This fixes the action of <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> on the stalks. Furthermore, the <fr:link
 type="local"
-addr="algm-000W">locality</fr:link> implies the preimage of <fr:tex>\mathfrak{p}</fr:tex> under the ring homomorphism divides <fr:tex>\mathfrak{q}</fr:tex>, and since <fr:tex>\mathfrak{q}</fr:tex> is maximal in the local ring <fr:tex>S_{\mathfrak{q}}</fr:tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="algm-000W.xml"
+addr="algm-000W"
+title="Action of morphisms on stalks of locally ringed spaces">locality</fr:link> implies the preimage of <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> under the ring homomorphism divides <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and since <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> is maximal in the local ring <fr:tex
+display="inline"><![CDATA[S_{\mathfrak {q}}]]></fr:tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1601</fr:anchor><fr:addr
+type="user">algm-000T</fr:addr><fr:route>algm-000T.xml</fr:route><fr:title
+text="Subsheaf of units">Subsheaf of units</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a sheaf <fr:tex
+display="inline"><![CDATA[\mathscr {O}]]></fr:tex> of rings, we can define a subsheaf <fr:tex
+display="inline"><![CDATA[\mathscr {O}^\times ]]></fr:tex> consisting of the invertible elements, i.e. <fr:tex
+display="inline"><![CDATA[\Gamma (U, \mathscr {O}^\times ) = \Gamma (U, \mathscr {O})^\times ]]></fr:tex>. This is the <fr:strong>subsheaf of units</fr:strong>.</fr:p><fr:p>This can be equivalently expressed as a pullback of <fr:tex
+display="inline"><![CDATA[\mathscr {O} \times  \mathscr {O} \xrightarrow {(f,g) \mapsto  f g} \mathscr {O}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[1 \xrightarrow {1} \mathscr {O}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1603</fr:anchor><fr:addr
+type="user">algm-000S</fr:addr><fr:route>algm-000S.xml</fr:route><fr:title
+text="Morphism of ringed spaces">Morphism of ringed spaces</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given two <fr:link
+type="local"
+href="algm-000M.xml"
+addr="algm-000M"
+title="Ringed space">ringed spaces</fr:link> <fr:tex
+display="inline"><![CDATA[X, Y]]></fr:tex>, a morphism <fr:tex
+display="inline"><![CDATA[\varphi  : X \to  Y]]></fr:tex> is given by a continuous map of the underlying spaces, and a sheaf morphism <fr:tex
+display="inline"><![CDATA[\varphi ^{-1} \mathscr {O}_Y \to  \mathscr {O}_X]]></fr:tex>, equivalently <fr:tex
+display="inline"><![CDATA[\mathscr {O}_Y \to  \varphi _* \mathscr {O}_X]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1605</fr:anchor><fr:addr
+type="user">algm-000L</fr:addr><fr:route>algm-000L.xml</fr:route><fr:title
+text="Locally ringed space">Locally ringed space</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
+type="local"
+href="algm-000M.xml"
+addr="algm-000M"
+title="Ringed space">ringed space</fr:link>, i.e. a space <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> with a sheaf of rings <fr:tex
+display="inline"><![CDATA[\mathscr {O}]]></fr:tex>, it is said to be <fr:strong>locally ringed</fr:strong> iff the following conditions hold.</fr:p><fr:ul><fr:li>If <fr:tex
+display="inline"><![CDATA[\Gamma (U, \mathscr {O}) = 0]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> is empty.</fr:li>
+  <fr:li>Suppose <fr:tex
+display="inline"><![CDATA[f + g \in  \Gamma (U, \mathscr {O})]]></fr:tex> is invertible, then we can cover <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> with two open sets such that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> are invertible when restricted respectively.</fr:li></fr:ul><fr:p>This can be unified as one condition: If a finite sum in <fr:tex
+display="inline"><![CDATA[\Gamma (U, \mathscr {O})]]></fr:tex> is invertible, then each summand is invertible when restricted to an open, which jointly covers <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

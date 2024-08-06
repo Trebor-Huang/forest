@@ -1,126 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>609</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002B</fr:addr><fr:route>hmlg-002B.xml</fr:route><fr:title>Twisted product of simplicial sets</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>576</fr:anchor><fr:addr
+type="user">hmlg-002B</fr:addr><fr:route>hmlg-002B.xml</fr:route><fr:title
+text="Twisted product of simplicial sets">Twisted product of simplicial sets</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a simplicial set <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>, a simplicial group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> with a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a simplicial set <fr:tex>B</fr:tex>, a simplicial group <fr:tex>G</fr:tex> with a <fr:link
 href="hmlg-002A.xml"
+addr="hmlg-002A"
+title="Twisting function">twisting function</fr:link> <fr:tex
+display="inline"><![CDATA[\tau ]]></fr:tex>, the <fr:strong>twisted product</fr:strong> is the pullback <fr:tex
+display="inline"><![CDATA[B \times _{\bar {W} G} W G]]></fr:tex> with the <fr:link
 type="local"
-addr="hmlg-002A">twisting function</fr:link> <fr:tex>\tau</fr:tex>, the <fr:strong>twisted product</fr:strong> is the pullback <fr:tex>B \times_{{\bar{W}} G} {W} G</fr:tex> with the <fr:link
 href="hmlg-0021.xml"
+addr="hmlg-0021"
+title="W-bar construction">W-bar construction</fr:link>. We write <fr:tex
+display="inline"><![CDATA[B \times _\tau  G]]></fr:tex> so as to make explicit the twisting function. This is a <fr:link
 type="local"
-addr="hmlg-0021">W-bar construction</fr:link>. We write <fr:tex>B \times_\tau G</fr:tex> so as to make explicit the twisting function. This is a <fr:link
 href="hmlg-0028.xml"
-type="local"
-addr="hmlg-0028">simplicial principal fiber bundle</fr:link>.
-</fr:p><fr:p>
-  More explicitly, we define <fr:tex>B \times_\tau G</fr:tex> to be the same as the Cartesian product <fr:tex>B \times G</fr:tex>, but with one face map altered. The pair <fr:tex>(b, g)</fr:tex> represents the element in <fr:tex>B \times_{{\bar{W}} G} {W} G</fr:tex> whose first component is <fr:tex>b \in B</fr:tex>, and the second component is <fr:tex>(g_0, \dots, g_n) \in {W} G</fr:tex>, where each element is an iterated product
+addr="hmlg-0028"
+title="Simplicial principal fiber bundle">simplicial principal fiber bundle</fr:link>.</fr:p><fr:p>More explicitly, we define <fr:tex
+display="inline"><![CDATA[B \times _\tau  G]]></fr:tex> to be the same as the Cartesian product <fr:tex
+display="inline"><![CDATA[B \times  G]]></fr:tex>, but with one face map altered. The pair <fr:tex
+display="inline"><![CDATA[(b, g)]]></fr:tex> represents the element in <fr:tex
+display="inline"><![CDATA[B \times _{\bar {W} G} W G]]></fr:tex> whose first component is <fr:tex
+display="inline"><![CDATA[b \in  B]]></fr:tex>, and the second component is <fr:tex
+display="inline"><![CDATA[(g_0, \dots , g_n) \in  W G]]></fr:tex>, where each element is an iterated product
   <fr:tex
-display="block">\begin{aligned}     g_n &amp;= g \\     g_{k-1} &amp;= \tau(\partial_{k+1} \cdots \partial_n b) \cdot (\partial_{k} g_{k}).   \end{aligned}</fr:tex>
+display="block"><![CDATA[\begin {aligned}     g_n &= g \\     g_{k-1} &= \tau (\partial _{k+1} \cdots  \partial _n b) \cdot  (\partial _{k} g_{k}).   \end {aligned}]]></fr:tex>
   This forces the last face map to be
   <fr:tex
-display="block">\partial_n (b, g) = (\partial_n b, \tau(b) \cdot \partial_n g),</fr:tex>
-  and the other face and degeneracy maps are unchanged.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[\partial _n (b, g) = (\partial _n b, \tau (b) \cdot  \partial _n g),]]></fr:tex>
+  and the other face and degeneracy maps are unchanged.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>603</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-002A</fr:addr><fr:route>hmlg-002A.xml</fr:route><fr:title>Twisting function</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>578</fr:anchor><fr:addr
+type="user">hmlg-002D</fr:addr><fr:route>hmlg-002D.xml</fr:route><fr:title
+text="Associated twisted product">Associated twisted product</fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a simplicial group <fr:tex>G</fr:tex>, a twisting function on a simplicial set <fr:tex>B</fr:tex> is a simplicial map <fr:tex>B \to {\bar{W}} G</fr:tex> to the <fr:link
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
+type="local"
+href="hmlg-002C.xml"
+addr="hmlg-002C"
+title="Associated simplicial fiber bundle">associated simplicial fiber bundle</fr:link> of <fr:link
+type="local"
+href="hmlg-002B.xml"
+addr="hmlg-002B"
+title="Twisted product of simplicial sets">twisted products</fr:link> admits a simpler description. Suppose we have simplicial sets <fr:tex
+display="inline"><![CDATA[F, B]]></fr:tex>, a simplicial group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> with an action <fr:tex
+display="inline"><![CDATA[G \times  F \to  F]]></fr:tex> and a <fr:link
+type="local"
+href="hmlg-002A.xml"
+addr="hmlg-002A"
+title="Twisting function">twisting function</fr:link> <fr:tex
+display="inline"><![CDATA[\tau ]]></fr:tex> on <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>. The <fr:strong>associated twisted product</fr:strong> <fr:tex
+display="inline"><![CDATA[B \times _\tau  F]]></fr:tex> is defined exactly the same as twisted products, except we replace the factor <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>. This still makes sense, because we can interpret the multiplication <fr:tex
+display="inline"><![CDATA[\tau (b) \cdot  \partial _n f]]></fr:tex> as the <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>-action.</fr:p><fr:p>In particular, if we consider <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> as a simplicial set with a <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>-action on the left via multiplication, then the associated twisted product <fr:tex
+display="inline"><![CDATA[B \times _\tau  G]]></fr:tex> is exactly the same as the twisted product <fr:tex
+display="inline"><![CDATA[B \times _\tau  G]]></fr:tex>, which explains our identical notation.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>580</fr:anchor><fr:addr
+type="user">hmlg-002A</fr:addr><fr:route>hmlg-002A.xml</fr:route><fr:title
+text="Twisting function">Twisting function</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a simplicial group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, a twisting function on a simplicial set <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is a simplicial map <fr:tex
+display="inline"><![CDATA[B \to  \bar {W} G]]></fr:tex> to the <fr:link
+type="local"
 href="hmlg-0021.xml"
-type="local"
-addr="hmlg-0021">W-bar construction</fr:link>. It represents a cocycle valued in <fr:tex>G</fr:tex>. Recall that <fr:tex>({\bar{W}} G)_n = G_0 \times \cdots \times G_{n-1}</fr:tex>. Taking the face map <fr:tex>\partial_{n}</fr:tex> reveals that all but the last component of the map <fr:tex>B_n \to ({\bar{W}} G)_n</fr:tex> are determined by the lower dimension maps. Hence we can obtain a more minimalistic combinatorial description.
-</fr:p><fr:p>
-  A <fr:strong>twisting function</fr:strong> <fr:tex>\tau</fr:tex> is a family of maps <fr:tex>\tau_n : B_n \to G_{n-1}</fr:tex> such that
+addr="hmlg-0021"
+title="W-bar construction">W-bar construction</fr:link>. It represents a cocycle valued in <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. Recall that <fr:tex
+display="inline"><![CDATA[(\bar {W} G)_n = G_0 \times  \cdots  \times  G_{n-1}]]></fr:tex>. Taking the face map <fr:tex
+display="inline"><![CDATA[\partial _{n}]]></fr:tex> reveals that all but the last component of the map <fr:tex
+display="inline"><![CDATA[B_n \to  (\bar {W} G)_n]]></fr:tex> are determined by the lower dimension maps. Hence we can obtain a more minimalistic combinatorial description.</fr:p><fr:p>A <fr:strong>twisting function</fr:strong> <fr:tex
+display="inline"><![CDATA[\tau ]]></fr:tex> is a family of maps <fr:tex
+display="inline"><![CDATA[\tau _n : B_n \to  G_{n-1}]]></fr:tex> such that
   <fr:tex
-display="block">\begin{aligned}     \tau(\partial_k b) &amp;= \partial_k \tau(b) &amp;&amp; (k &lt; n-1)\\     \tau(\partial_{n-1} b) &amp;= \partial_{n-1} \tau(b) \cdot \tau(\partial_n b) \\     \tau(\sigma_k b) &amp;= \sigma_k \tau(b) &amp;&amp; (k &lt; n)\\     \tau(\sigma_n b) &amp;= 1   \end{aligned}</fr:tex>
-  The corresponding simplicial map <fr:tex>B_n \to ({\bar{W}} G)_n</fr:tex> is then computed by discarding the last <fr:tex>k</fr:tex> vertices of the input <fr:tex>b \in B_n</fr:tex> for <fr:tex>1 \le k \le n</fr:tex>, apply them to <fr:tex>\tau</fr:tex> and placing them at the correct components.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[\begin {aligned}     \tau (\partial _k b) &= \partial _k \tau (b) && (k < n-1)\\     \tau (\partial _{n-1} b) &= \partial _{n-1} \tau (b) \cdot  \tau (\partial _n b) \\     \tau (\sigma _k b) &= \sigma _k \tau (b) && (k < n)\\     \tau (\sigma _n b) &= 1   \end {aligned}]]></fr:tex>
+  The corresponding simplicial map <fr:tex
+display="inline"><![CDATA[B_n \to  (\bar {W} G)_n]]></fr:tex> is then computed by discarding the last <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> vertices of the input <fr:tex
+display="inline"><![CDATA[b \in  B_n]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[1 \le  k \le  n]]></fr:tex>, apply them to <fr:tex
+display="inline"><![CDATA[\tau ]]></fr:tex> and placing them at the correct components.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>605</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0028</fr:addr><fr:route>hmlg-0028.xml</fr:route><fr:title>Simplicial principal fiber bundle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>582</fr:anchor><fr:addr
+type="user">hmlg-0028</fr:addr><fr:route>hmlg-0028.xml</fr:route><fr:title
+text="Simplicial principal fiber bundle">Simplicial principal fiber bundle</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a simplicial group <fr:tex>G</fr:tex>, a <fr:link
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a simplicial group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>, a <fr:link
+type="local"
 href="hmlg-0026.xml"
-type="local"
-addr="hmlg-0026">fiber bundle</fr:link> <fr:tex>p : E \to B</fr:tex> is <fr:strong>principal</fr:strong> if <fr:tex>G</fr:tex> acts on the fibers freely and transitively <fr:em>on the right</fr:em>. This condition can be checked in each dimension separately.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="hmlg-0026"
+title="Simplicial fiber bundle">fiber bundle</fr:link> <fr:tex
+display="inline"><![CDATA[p : E \to  B]]></fr:tex> is <fr:strong>principal</fr:strong> if <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> acts on the fibers freely and transitively <fr:em>on the right</fr:em>. This condition can be checked in each dimension separately.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>607</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-0021</fr:addr><fr:route>hmlg-0021.xml</fr:route><fr:title>W-bar construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>584</fr:anchor><fr:addr
+type="user">hmlg-0021</fr:addr><fr:route>hmlg-0021.xml</fr:route><fr:title
+text="W-bar construction">W-bar construction</fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a simplicial group, we can define a model of its universal principal bundle <fr:tex
+display="inline"><![CDATA[\mathbf {E} G \to  \mathbf {B} G]]></fr:tex> as simplicial sets <fr:tex
+display="inline"><![CDATA[W G \to  \bar {W} G]]></fr:tex>. This is a generalization of the <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a simplicial group, we can define a model of its universal principal bundle <fr:tex>{\mathbf{E}} G \to {\mathbf{B}} G</fr:tex> as simplicial sets <fr:tex>{W} G \to {\bar{W}} G</fr:tex>. This is a generalization of the <fr:link
 href="hmlg-001W.xml"
+addr="hmlg-001W"
+title="Bar construction">bar construction</fr:link>, if we consider a group <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> as a discrete simplicial set. It classifies principal <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>-bundles in the sense of Theorem 21.13 in <fr:link
 type="local"
-addr="hmlg-001W">bar construction</fr:link>, if we consider a group <fr:tex>G</fr:tex> as a discrete simplicial set. It classifies principal <fr:tex>G</fr:tex>-bundles in the sense of Theorem 21.13 in <fr:link
 href="simplicial-objects.xml"
-type="local"
-addr="simplicial-objects">Simplicial objects in algebraic topology</fr:link>.
-</fr:p><fr:p>
-  We define the <fr:tex>n</fr:tex>-simplices of <fr:tex>{W} G</fr:tex> to be
+addr="simplicial-objects"
+title="Simplicial objects in algebraic topology">Simplicial objects in algebraic topology</fr:link>.</fr:p><fr:p>We define the <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-simplices of <fr:tex
+display="inline"><![CDATA[W G]]></fr:tex> to be
   <fr:tex
-display="block">({W} G)_n = G_0 \times G_1 \times \cdots \times G_n</fr:tex>
-  so that <fr:tex>G_n</fr:tex> acts on <fr:tex>({W} G)_n</fr:tex> by taking the face map that discards the last <fr:tex>k</fr:tex> vertices for each <fr:tex>k</fr:tex>, and then acting on the appropriate factor on the right. This forces the face maps and degeneracy maps to be
+display="block"><![CDATA[(W G)_n = G_0 \times  G_1 \times  \cdots  \times  G_n]]></fr:tex>
+  so that <fr:tex
+display="inline"><![CDATA[G_n]]></fr:tex> acts on <fr:tex
+display="inline"><![CDATA[(W G)_n]]></fr:tex> by taking the face map that discards the last <fr:tex
+display="inline"><![CDATA[k]]></fr:tex> vertices for each <fr:tex
+display="inline"><![CDATA[k]]></fr:tex>, and then acting on the appropriate factor on the right. This forces the face maps and degeneracy maps to be
   <fr:tex
-display="block">\begin{aligned}     \partial_k (g_0, \dots, g_n) &amp;=       (g_0, \dots, g_{k-1}, \partial_k g_{k+1}, \dots, \partial_k g_n), \\     \sigma_k (g_0, \dots, g_n) &amp;=       (g_0, \dots, g_{k}, \sigma_k g_{k}, \dots, \sigma_k g_n).   \end{aligned}</fr:tex>
-  We define <fr:tex>{\bar{W}} G</fr:tex> to be <fr:tex>{W} G</fr:tex> quotiented by the action of <fr:tex>G</fr:tex>. This can be represented as <fr:tex>({\bar{W}} G)_n = G_0 \times \cdots \times G_{n-1}</fr:tex>,
-  with the quotient map <fr:tex>({W} G)_n \twoheadrightarrow ({\bar{W}} G)_n</fr:tex> given by
+display="block"><![CDATA[\begin {aligned}     \partial _k (g_0, \dots , g_n) &=       (g_0, \dots , g_{k-1}, \partial _k g_{k+1}, \dots , \partial _k g_n), \\     \sigma _k (g_0, \dots , g_n) &=       (g_0, \dots , g_{k}, \sigma _k g_{k}, \dots , \sigma _k g_n).   \end {aligned}]]></fr:tex>
+  We define <fr:tex
+display="inline"><![CDATA[\bar {W} G]]></fr:tex> to be <fr:tex
+display="inline"><![CDATA[W G]]></fr:tex> quotiented by the action of <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>. This can be represented as <fr:tex
+display="inline"><![CDATA[(\bar {W} G)_n = G_0 \times  \cdots  \times  G_{n-1}]]></fr:tex>,
+  with the quotient map <fr:tex
+display="inline"><![CDATA[(W G)_n \twoheadrightarrow  (\bar {W} G)_n]]></fr:tex> given by
   <fr:tex
-display="block">(g_0, \dots, g_n) \mapsto (g_0 (\partial_1 g_1)^{-1}, \dots, g_{n-1} (\partial_n g_n)^{-1}).</fr:tex>
+display="block"><![CDATA[(g_0, \dots , g_n) \mapsto  (g_0 (\partial _1 g_1)^{-1}, \dots , g_{n-1} (\partial _n g_n)^{-1}).]]></fr:tex>
   The face and degeneracy maps can then be computed to be
   <fr:tex
-display="block">\begin{aligned}     \partial_k (g_0, \dots, g_{n-1}) &amp;=       (g_0, g_1, \dots, g_{k-1} \cdot \partial_k g_k, \partial_k g_{k+1}, \dots, \partial_k g_{n-1}), \\     \partial_n (g_0, \dots, g_{n-1}) &amp;=       (g_0, g_1, \dots, g_{n-2}) \\     \sigma_k (g_0, \dots, g_{n-1}) &amp;=       (g_0, g_1, \dots, g_{k-1}, 1, \sigma_k g_{k}, \dots, \sigma_k g_{n-1}).   \end{aligned}</fr:tex>
+display="block"><![CDATA[\begin {aligned}     \partial _k (g_0, \dots , g_{n-1}) &=       (g_0, g_1, \dots , g_{k-1} \cdot  \partial _k g_k, \partial _k g_{k+1}, \dots , \partial _k g_{n-1}), \\     \partial _n (g_0, \dots , g_{n-1}) &=       (g_0, g_1, \dots , g_{n-2}) \\     \sigma _k (g_0, \dots , g_{n-1}) &=       (g_0, g_1, \dots , g_{k-1}, 1, \sigma _k g_{k}, \dots , \sigma _k g_{n-1}).   \end {aligned}]]></fr:tex>
   A quick computation shows that this indeed produces a <fr:link
+type="local"
 href="hmlg-0028.xml"
-type="local"
-addr="hmlg-0028">simplicial principal fiber bundle</fr:link> with fiber <fr:tex>G</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>601</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-002D</fr:addr><fr:route>hmlg-002D.xml</fr:route><fr:title>Associated twisted product</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The <fr:link
-href="hmlg-002C.xml"
-type="local"
-addr="hmlg-002C">associated simplicial fiber bundle</fr:link> of <fr:link
-href="hmlg-002B.xml"
-type="local"
-addr="hmlg-002B">twisted products</fr:link> admits a simpler description. Suppose we have simplicial sets <fr:tex>F, B</fr:tex>, a simplicial group <fr:tex>G</fr:tex> with an action <fr:tex>G \times F \to F</fr:tex> and a <fr:link
-href="hmlg-002A.xml"
-type="local"
-addr="hmlg-002A">twisting function</fr:link> <fr:tex>\tau</fr:tex> on <fr:tex>B</fr:tex>. The <fr:strong>associated twisted product</fr:strong> <fr:tex>B \times_\tau F</fr:tex> is defined exactly the same as twisted products, except we replace the factor <fr:tex>G</fr:tex> with <fr:tex>F</fr:tex>. This still makes sense, because we can interpret the multiplication <fr:tex>\tau(b) \cdot \partial_n f</fr:tex> as the <fr:tex>G</fr:tex>-action.
-</fr:p><fr:p>
-  In particular, if we consider <fr:tex>G</fr:tex> as a simplicial set with a <fr:tex>G</fr:tex>-action on the left via multiplication, then the associated twisted product <fr:tex>B \times_\tau G</fr:tex> is exactly the same as the twisted product <fr:tex>B \times_\tau G</fr:tex>, which explains our identical notation.
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+addr="hmlg-0028"
+title="Simplicial principal fiber bundle">simplicial principal fiber bundle</fr:link> with fiber <fr:tex
+display="inline"><![CDATA[G]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,113 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1946</fr:anchor><fr:addr>algm-0006</fr:addr><fr:route>algm-0006.xml</fr:route><fr:title>Rational functions not definable via a single expression</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1863</fr:anchor><fr:addr
+type="user">algm-0006</fr:addr><fr:route>algm-0006.xml</fr:route><fr:title
+text="Rational functions not definable via a single expression">Rational functions not definable via a single expression</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  We can sometimes define two functions that agree on their common domain, which suggests we should be able to piece them together into a larger function. But this may not always be expressible with one single expression.
-</fr:p><fr:p>
-  For example, on the space given by <fr:tex>xy = zw</fr:tex>, we can define a funtion given by <fr:tex>x/w</fr:tex>, which is equal to <fr:tex>z/y</fr:tex>. They are only jointly undefined on <fr:tex>w = z = 0</fr:tex>, but there is no single expression that achieves this.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can sometimes define two functions that agree on their common domain, which suggests we should be able to piece them together into a larger function. But this may not always be expressible with one single expression.</fr:p><fr:p>For example, on the space given by <fr:tex
+display="inline"><![CDATA[xy = zw]]></fr:tex>, we can define a funtion given by <fr:tex
+display="inline"><![CDATA[x/w]]></fr:tex>, which is equal to <fr:tex
+display="inline"><![CDATA[z/y]]></fr:tex>. They are only jointly undefined on <fr:tex
+display="inline"><![CDATA[w = z = 0]]></fr:tex>, but there is no single expression that achieves this.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1944</fr:anchor><fr:addr>algm-0005</fr:addr><fr:route>algm-0005.xml</fr:route><fr:title>Localic spectrum of a commutative ring</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1865</fr:anchor><fr:addr
+type="user">algm-0005</fr:addr><fr:route>algm-0005.xml</fr:route><fr:title
+text="Localic spectrum of a commutative ring">Localic spectrum of a commutative ring</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  To define functions on an “algebraic space”, we need to define the possible domains. The correct structure formed by the domains is a locale. Intuitively, the only algebraic way for a function to become partially defined is by having zero in the denominator <fr:tex>f/g</fr:tex>, so the domain should be the non-vanishing part of <fr:tex>g</fr:tex>, which we denote as <fr:tex>D(g)</fr:tex>.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>To define functions on an “algebraic space”, we need to define the possible domains. The correct structure formed by the domains is a locale. Intuitively, the only algebraic way for a function to become partially defined is by having zero in the denominator <fr:tex
+display="inline"><![CDATA[f/g]]></fr:tex>, so the domain should be the non-vanishing part of <fr:tex
+display="inline"><![CDATA[g]]></fr:tex>, which we denote as <fr:tex
+display="inline"><![CDATA[D(g)]]></fr:tex>.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1904</fr:anchor><fr:addr>algm-0006</fr:addr><fr:route>algm-0006.xml</fr:route><fr:title>Rational functions not definable via a single expression</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1819</fr:anchor><fr:addr
+type="user">algm-0006</fr:addr><fr:route>algm-0006.xml</fr:route><fr:title
+text="Rational functions not definable via a single expression">Rational functions not definable via a single expression</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  We can sometimes define two functions that agree on their common domain, which suggests we should be able to piece them together into a larger function. But this may not always be expressible with one single expression.
-</fr:p><fr:p>
-  For example, on the space given by <fr:tex>xy = zw</fr:tex>, we can define a funtion given by <fr:tex>x/w</fr:tex>, which is equal to <fr:tex>z/y</fr:tex>. They are only jointly undefined on <fr:tex>w = z = 0</fr:tex>, but there is no single expression that achieves this.
-</fr:p></fr:mainmatter></fr:tree><fr:p>
-  Recognizing this, we can try to freely generate a locale using <fr:tex>D(g)</fr:tex> as generators. We would like some obvious relations corresponding to each algebraic operation in the ring.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can sometimes define two functions that agree on their common domain, which suggests we should be able to piece them together into a larger function. But this may not always be expressible with one single expression.</fr:p><fr:p>For example, on the space given by <fr:tex
+display="inline"><![CDATA[xy = zw]]></fr:tex>, we can define a funtion given by <fr:tex
+display="inline"><![CDATA[x/w]]></fr:tex>, which is equal to <fr:tex
+display="inline"><![CDATA[z/y]]></fr:tex>. They are only jointly undefined on <fr:tex
+display="inline"><![CDATA[w = z = 0]]></fr:tex>, but there is no single expression that achieves this.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>Recognizing this, we can try to freely generate a locale using <fr:tex
+display="inline"><![CDATA[D(g)]]></fr:tex> as generators. We would like some obvious relations corresponding to each algebraic operation in the ring.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1906</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0007</fr:addr><fr:route>algm-0007.xml</fr:route><fr:title>Localic spectrum of a commutative ring</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1821</fr:anchor><fr:addr
+type="user">algm-0007</fr:addr><fr:route>algm-0007.xml</fr:route><fr:title
+text="Localic spectrum of a commutative ring">Localic spectrum of a commutative ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a commutative ring <fr:tex>R</fr:tex>, we define a frame generated by the symbols <fr:tex>D(f)</fr:tex> for <fr:tex>f \in R</fr:tex>, subject to the following relations:
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a commutative ring <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, we define a frame generated by the symbols <fr:tex
+display="inline"><![CDATA[D(f)]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[f \in  R]]></fr:tex>, subject to the following relations:
   <fr:tex
-display="block">\begin{aligned}     D(0) &amp;= \bot \\     D(1) &amp;= \top \\     D(f \cdot g) &amp;= D(f) \cap D(g) \\     D(f + g) &amp;\subseteq D(f) \cup D(g)   \end{aligned}</fr:tex>
-  The resulting frame defines the <fr:strong>localic spectrum</fr:strong> <fr:tex>\operatorname{Spec}(R)</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:p>
-  We can actually produce a characterization of these generated opens. The following theorem is best read by skipping the statement and jump right into the proof, allowing the correct statement to gradually reveal itself.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[\begin {aligned}     D(0) &= \bot  \\     D(1) &= \top  \\     D(f \cdot  g) &= D(f) \cap  D(g) \\     D(f + g) &\subseteq  D(f) \cup  D(g)   \end {aligned}]]></fr:tex>
+  The resulting frame defines the <fr:strong>localic spectrum</fr:strong> <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can actually produce a characterization of these generated opens. The following theorem is best read by skipping the statement and jump right into the proof, allowing the correct statement to gradually reveal itself.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1908</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0008</fr:addr><fr:route>algm-0008.xml</fr:route><fr:title>Characterization of the locale <fr:tex>\operatorname{Spec}(R)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1823</fr:anchor><fr:addr
+type="user">algm-0008</fr:addr><fr:route>algm-0008.xml</fr:route><fr:title
+text="Characterization of the locale {Spec}(R)">Characterization of the locale <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The opens in <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The opens in <fr:link
 href="algm-0007.xml"
+addr="algm-0007"
+title="Localic spectrum of a commutative ring">the locale</fr:link> <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> bijectively corresponds to radical ideals of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, whose divisibility relation agree with the inverse inclusion relation of opens. Intersections correspond to lowest common multiple, and unions correspond to the radical of the greatest common divisor. In other words, the locale is isomorphic to the locale corresponding to the <fr:link
 type="local"
-addr="algm-0007">the locale</fr:link> <fr:tex>\operatorname{Spec}(R)</fr:tex> bijectively corresponds to radical ideals of <fr:tex>R</fr:tex>, whose divisibility relation agree with the inverse inclusion relation of opens. Intersections correspond to lowest common multiple, and unions correspond to the radical of the greatest common divisor. In other words, the locale is isomorphic to the locale corresponding to the <fr:link
 href="algm-0001.xml"
-type="local"
-addr="algm-0001">topological spectrum of a commutative ring</fr:link> by <fr:ref
+addr="algm-0001"
+title="Topological spectrum of a commutative ring">topological spectrum of a commutative ring</fr:link> by <fr:ref
 addr="algm-0002"
 href="algm-0002.xml"
-taxon="Theorem"></fr:ref>.
-</fr:p>
+taxon="Theorem" />.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1557</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#297</fr:addr><fr:route>unstable-297.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1490</fr:anchor><fr:addr
+type="machine">#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0008</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We can first put the opens in disjunctive normal form
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0008</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We can first put the opens in disjunctive normal form
     <fr:tex
-display="block">U = \bigcup_{i \in I} \bigcap_{j=1}^{n_i} D(f_{i, j}).</fr:tex>
-    By the definition we can reduce the intersections into products. Write <fr:tex>f_i = \prod_j f_{i, j}</fr:tex>, we have <fr:tex>U = \bigcup_i D(f_i)</fr:tex>. Given this form, we can try to <fr:em>saturate</fr:em> the union, by throwing in everything that doesn’t enlarge <fr:tex>U</fr:tex>. In other words, we only consider the unions such that no other generator <fr:tex>D(f)</fr:tex> can be added, i.e. <fr:tex>D(f) \nsubseteq U</fr:tex>. This would uniquely determine <fr:tex>U</fr:tex>.
-  </fr:p>
+display="block"><![CDATA[U = \bigcup _{i \in  I} \bigcap _{j=1}^{n_i} D(f_{i, j}).]]></fr:tex>
+    By the definition we can reduce the intersections into products. Write <fr:tex
+display="inline"><![CDATA[f_i = \prod _j f_{i, j}]]></fr:tex>, we have <fr:tex
+display="inline"><![CDATA[U = \bigcup _i D(f_i)]]></fr:tex>. Given this form, we can try to <fr:em>saturate</fr:em> the union, by throwing in everything that doesn’t enlarge <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>. In other words, we only consider the unions such that no other generator <fr:tex
+display="inline"><![CDATA[D(f)]]></fr:tex> can be added, i.e. <fr:tex
+display="inline"><![CDATA[D(f) \nsubseteq  U]]></fr:tex>. This would uniquely determine <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
 
-  <fr:p>
-    Such a saturated set would have to be closed under addition since <fr:tex>D(f+g) \subseteq D(f) \cup D(g)</fr:tex>, and for the nullary case it must include <fr:tex>D(0) = \bot</fr:tex>. It also has to absorb multiplication, because <fr:tex>D(f \cdot g) \subseteq D(f)</fr:tex>. This means we are dealing with ideals. Henceforth, we write <fr:tex>D(\mathfrak{a})</fr:tex> for the union <fr:tex>\bigcup_{\mathfrak{a} \mid f} D(f)</fr:tex>.
-  </fr:p>
+  <fr:p>Such a saturated set would have to be closed under addition since <fr:tex
+display="inline"><![CDATA[D(f+g) \subseteq  D(f) \cup  D(g)]]></fr:tex>, and for the nullary case it must include <fr:tex
+display="inline"><![CDATA[D(0) = \bot ]]></fr:tex>. It also has to absorb multiplication, because <fr:tex
+display="inline"><![CDATA[D(f \cdot  g) \subseteq  D(f)]]></fr:tex>. This means we are dealing with ideals. Henceforth, we write <fr:tex
+display="inline"><![CDATA[D(\mathfrak {a})]]></fr:tex> for the union <fr:tex
+display="inline"><![CDATA[\bigcup _{\mathfrak {a} \mid  f} D(f)]]></fr:tex>.</fr:p>
 
-  <fr:p>
-    There is one last requirement we haven’t dealt with, i.e. <fr:tex>D(f \cdot g)</fr:tex> is the <fr:em>greatest</fr:em> lower bound of <fr:tex>D(f)</fr:tex> and <fr:tex>D(g)</fr:tex>, instead of simply a lower bound. For example, this gives the equality <fr:tex>D(f^n) = D(f)</fr:tex>, so we need to restrict our attention to radical ideals. It then suffices to prove that the radical ideal generated by <fr:tex>f \cdot g</fr:tex> is equal to the lowest common multiple of the radical ideals generated by <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex>, which is true.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+  <fr:p>There is one last requirement we haven’t dealt with, i.e. <fr:tex
+display="inline"><![CDATA[D(f \cdot  g)]]></fr:tex> is the <fr:em>greatest</fr:em> lower bound of <fr:tex
+display="inline"><![CDATA[D(f)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[D(g)]]></fr:tex>, instead of simply a lower bound. For example, this gives the equality <fr:tex
+display="inline"><![CDATA[D(f^n) = D(f)]]></fr:tex>, so we need to restrict our attention to radical ideals. It then suffices to prove that the radical ideal generated by <fr:tex
+display="inline"><![CDATA[f \cdot  g]]></fr:tex> is equal to the lowest common multiple of the radical ideals generated by <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g]]></fr:tex>, which is true.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

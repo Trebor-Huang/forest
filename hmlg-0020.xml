@@ -1,52 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>723</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0020</fr:addr><fr:route>hmlg-0020.xml</fr:route><fr:title>Simplices of <fr:tex>\Delta^p \times \Delta^q</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>688</fr:anchor><fr:addr
+type="user">hmlg-0020</fr:addr><fr:route>hmlg-0020.xml</fr:route><fr:title
+text="Simplices of ^p  ^q">Simplices of <fr:tex
+display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex></fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The geometric <fr:tex>n</fr:tex>-simplices of the product simplicial set <fr:tex>\Delta^p \times \Delta^q</fr:tex> are given by a sequence <fr:tex>(u_0, v_0) &lt; (u_1, v_1) &lt; \dots &lt; (u_n, v_n)</fr:tex> of elements in <fr:tex>\{0, \dots, p\} \times \{0, \dots, q\}</fr:tex> endowed with the product partial order. Among these, the interior simplices, i.e. non-boundary simplices are given by sequences such that <fr:tex>u_i</fr:tex> ranges over all <fr:tex>\{0, \dots, p\}</fr:tex> and <fr:tex>v_i</fr:tex> ranges over <fr:tex>\{0, \dots, q\}</fr:tex>.
-</fr:p><fr:p>
-  We can graphically represent this as a path that only travels upwards and/or rightwards every step in a <fr:tex>p \times q</fr:tex> grid. Face maps are given by removing the corresponding vertex in the path, and directly connecting the surrounding two. But notice that a segment can skip through a grid point, such as going from <fr:tex>(0,0)</fr:tex> to <fr:tex>(2,2)</fr:tex>, skipping through <fr:tex>(1,1)</fr:tex>.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The geometric <fr:tex
+display="inline"><![CDATA[n]]></fr:tex>-simplices of the product simplicial set <fr:tex
+display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex> are given by a sequence <fr:tex
+display="inline"><![CDATA[(u_0, v_0) < (u_1, v_1) < \dots  < (u_n, v_n)]]></fr:tex> of elements in <fr:tex
+display="inline"><![CDATA[\{0, \dots , p\} \times  \{0, \dots , q\}]]></fr:tex> endowed with the product partial order. Among these, the interior simplices, i.e. non-boundary simplices are given by sequences such that <fr:tex
+display="inline"><![CDATA[u_i]]></fr:tex> ranges over all <fr:tex
+display="inline"><![CDATA[\{0, \dots , p\}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[v_i]]></fr:tex> ranges over <fr:tex
+display="inline"><![CDATA[\{0, \dots , q\}]]></fr:tex>.</fr:p><fr:p>We can graphically represent this as a path that only travels upwards and/or rightwards every step in a <fr:tex
+display="inline"><![CDATA[p \times  q]]></fr:tex> grid. Face maps are given by removing the corresponding vertex in the path, and directly connecting the surrounding two. But notice that a segment can skip through a grid point, such as going from <fr:tex
+display="inline"><![CDATA[(0,0)]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[(2,2)]]></fr:tex>, skipping through <fr:tex
+display="inline"><![CDATA[(1,1)]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>721</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-0022</fr:addr><fr:route>hmlg-0022.xml</fr:route><fr:title>Discrete vector field on <fr:tex>\Delta^p \times \Delta^q</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>690</fr:anchor><fr:addr
+type="user">hmlg-0022</fr:addr><fr:route>hmlg-0022.xml</fr:route><fr:title
+text="Discrete vector field on ^p  ^q">Discrete vector field on <fr:tex
+display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex></fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We construct a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  We construct a <fr:link
 href="hmlg-001N.xml"
+addr="hmlg-001N"
+title="Discrete vector field">discrete vector field</fr:link> on the <fr:link
 type="local"
-addr="hmlg-001N">discrete vector field</fr:link> on the <fr:link
 href="hmlg-001U.xml"
-type="local"
-addr="hmlg-001U">reduced ACC</fr:link> of <fr:tex>\Delta^p \times \Delta^q</fr:tex> whose critical cells are given by its boundary and one additional cell
+addr="hmlg-001U"
+title="Algebraic cellular complexes associated with a simplicial set">reduced ACC</fr:link> of <fr:tex
+display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex> whose critical cells are given by its boundary and one additional cell
   <fr:tex
-display="block">(0,0) &lt; (1,0) &lt; \cdots &lt; (p,0) &lt; (p,1) &lt; \cdots &lt; (p,q),</fr:tex>
+display="block"><![CDATA[(0,0) < (1,0) < \cdots  < (p,0) < (p,1) < \cdots  < (p,q),]]></fr:tex>
   in the representation scheme of <fr:ref
 addr="hmlg-0020"
 href="hmlg-0020.xml"
-taxon="Theorem"></fr:ref>. In particular, this <fr:link
+taxon="Theorem" />. In particular, this <fr:link
+type="local"
 href="hmlg-001R.xml"
+addr="hmlg-001R"
+title="Chain reduction generated by a discrete vector field">gives rise</fr:link> to a <fr:link
 type="local"
-addr="hmlg-001R">gives rise</fr:link> to a <fr:link
 href="hmlg-0017.xml"
-type="local"
-addr="hmlg-0017">chain reduction</fr:link> <fr:tex>C_*(\Delta^p \times \Delta^q) \Rightarrow\mkern{-14mu}\Rightarrow C_*(\Delta^p) \otimes C_*(\Delta^q)</fr:tex>.
-</fr:p><fr:p>
-  Regarding the geometric simplices as paths in a <fr:tex>p \times q</fr:tex> grid as specified in <fr:ref
+addr="hmlg-0017"
+title="Chain reduction">chain reduction</fr:link> <fr:tex
+display="inline"><![CDATA[C_*(\Delta ^p \times  \Delta ^q) \Rightarrow \mkern {-14mu}\Rightarrow  C_*(\Delta ^p) \otimes  C_*(\Delta ^q)]]></fr:tex>.</fr:p><fr:p>Regarding the geometric simplices as paths in a <fr:tex
+display="inline"><![CDATA[p \times  q]]></fr:tex> grid as specified in <fr:ref
 addr="hmlg-0020"
 href="hmlg-0020.xml"
-taxon="Theorem"></fr:ref>, we assign a <fr:tex>(p+q)</fr:tex>-simplex as a target cell if it contains a shape <fr:tex>\Rsh</fr:tex>. (The shape must go exactly one step up and one step to the right, since it is not possible otherwise in a geometric <fr:tex>(p+q)</fr:tex>-simplex.) To get its source cell, replace the <fr:em>last occurrence</fr:em> of this shape with <fr:tex>\nearrow</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+taxon="Theorem" />, we assign a <fr:tex
+display="inline"><![CDATA[(p+q)]]></fr:tex>-simplex as a target cell if it contains a shape <fr:tex
+display="inline"><![CDATA[\Rsh ]]></fr:tex>. (The shape must go exactly one step up and one step to the right, since it is not possible otherwise in a geometric <fr:tex
+display="inline"><![CDATA[(p+q)]]></fr:tex>-simplex.) To get its source cell, replace the <fr:em>last occurrence</fr:em> of this shape with <fr:tex
+display="inline"><![CDATA[\nearrow ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -1,271 +1,346 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1760</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000L</fr:addr><fr:route>algm-000L.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1665</fr:anchor><fr:addr
+type="user">algm-000L</fr:addr><fr:route>algm-000L.xml</fr:route><fr:title
+text="Locally ringed space">Locally ringed space</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
+type="local"
 href="algm-000M.xml"
-type="local"
-addr="algm-000M">ringed space</fr:link>, i.e. a space <fr:tex>X</fr:tex> with a sheaf of rings <fr:tex>{\mathscr{O}}</fr:tex>, it is said to be <fr:strong>locally ringed</fr:strong> iff the following conditions hold.
-</fr:p><fr:ul><fr:li>If <fr:tex>{\Gamma}(U, {\mathscr{O}}) = 0</fr:tex>, then <fr:tex>U</fr:tex> is empty.</fr:li>
-  <fr:li>Suppose <fr:tex>f + g \in {\Gamma}(U, {\mathscr{O}})</fr:tex> is invertible, then we can cover <fr:tex>U</fr:tex> with two open sets such that <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> are invertible when restricted respectively.</fr:li></fr:ul><fr:p>
-  This can be unified as one condition: If a finite sum in <fr:tex>{\Gamma}(U, {\mathscr{O}})</fr:tex> is invertible, then each summand is invertible when restricted to an open, which jointly covers <fr:tex>U</fr:tex>.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-000M"
+title="Ringed space">ringed space</fr:link>, i.e. a space <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> with a sheaf of rings <fr:tex
+display="inline"><![CDATA[\mathscr {O}]]></fr:tex>, it is said to be <fr:strong>locally ringed</fr:strong> iff the following conditions hold.</fr:p><fr:ul><fr:li>If <fr:tex
+display="inline"><![CDATA[\Gamma (U, \mathscr {O}) = 0]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> is empty.</fr:li>
+  <fr:li>Suppose <fr:tex
+display="inline"><![CDATA[f + g \in  \Gamma (U, \mathscr {O})]]></fr:tex> is invertible, then we can cover <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> with two open sets such that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> are invertible when restricted respectively.</fr:li></fr:ul><fr:p>This can be unified as one condition: If a finite sum in <fr:tex
+display="inline"><![CDATA[\Gamma (U, \mathscr {O})]]></fr:tex> is invertible, then each summand is invertible when restricted to an open, which jointly covers <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1758</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000M</fr:addr><fr:route>algm-000M.xml</fr:route><fr:title>Ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1667</fr:anchor><fr:addr
+type="user">algm-0014</fr:addr><fr:route>algm-0014.xml</fr:route><fr:title
+text="Adjunction of global section and {Spec}">Adjunction of global section and <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex></fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>ringed space</fr:strong> is a space equipped with a sheaf of rings, called the <fr:strong>structure sheaf</fr:strong>.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1742</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0014</fr:addr><fr:route>algm-0014.xml</fr:route><fr:title>Adjunction of global section and <fr:tex>\operatorname{Spec}</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We have an adjunction of functors <fr:tex
+display="block"><![CDATA[\mathsf {CRing}^\textrm {op} \xtofrom [\Gamma (\top , \mathscr {O}_{(-)})]{\operatorname {Spec}} \mathsf {Sch},]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> being the right adjoint (or <fr:tex
+display="inline"><![CDATA[\operatorname {Spec} : \mathsf {CRing} \to  \mathsf {Sch}^\textrm {op}]]></fr:tex> being the left adjoint). In fact, we can replace <fr:tex
+display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> with the category of <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  We have an adjunction of functors <fr:tex
-display="block">{\mathsf{CRing}}^{\textrm{op}} \xtofrom[{\Gamma}(\top, {\mathscr{O}}_{(-)})]{\operatorname{Spec}} {\mathsf{Sch}},</fr:tex> with <fr:tex>\operatorname{Spec}</fr:tex> being the right adjoint (or <fr:tex>\operatorname{Spec} : {\mathsf{CRing}} \to {\mathsf{Sch}}^{\textrm{op}}</fr:tex> being the left adjoint). In fact, we can replace <fr:tex>{\mathsf{Sch}}</fr:tex> with the category of <fr:link
 href="algm-000L.xml"
-type="local"
-addr="algm-000L">locally ringed spaces</fr:link> <fr:tex>{\mathsf{LRS}}</fr:tex>, of whom <fr:tex>{\mathsf{Sch}}</fr:tex> is a full subcategory.
-</fr:p>
+addr="algm-000L"
+title="Locally ringed space">locally ringed spaces</fr:link> <fr:tex
+display="inline"><![CDATA[\mathsf {LRS}]]></fr:tex>, of whom <fr:tex
+display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> is a full subcategory.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1527</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#284</fr:addr><fr:route>unstable-284.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1462</fr:anchor><fr:addr
+type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0014</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We need to give a natural bijection
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0014</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We need to give a natural bijection
     <fr:tex
-display="block">\hom(X, \operatorname{Spec}(R)) \cong \hom(R, {\Gamma}(\top, {\mathscr{O}}_X)).</fr:tex>
-    In other words, maps <fr:tex>X \to \operatorname{Spec}(R)</fr:tex> between locally ringed spaces are uniquely specified by the action of global sections.
-  </fr:p>
+display="block"><![CDATA[\hom (X, \operatorname {Spec}(R)) \cong  \hom (R, \Gamma (\top , \mathscr {O}_X)).]]></fr:tex>
+    In other words, maps <fr:tex
+display="inline"><![CDATA[X \to  \operatorname {Spec}(R)]]></fr:tex> between locally ringed spaces are uniquely specified by the action of global sections.</fr:p>
 
-  <fr:p>
-    Since <fr:tex>X</fr:tex> is glued from affine open subschemes, a map from <fr:tex>X</fr:tex> is equivalent to a map from each open subscheme <fr:tex>\operatorname{Spec}(S_i)</fr:tex> that agree on common restrictions (which again can be checked on an affine covering). Since the codomain is affine, these maps are equivalently ring homomorphisms <fr:tex>R \to S_i</fr:tex> by <fr:ref
+  <fr:p>Since <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is glued from affine open subschemes, a map from <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is equivalent to a map from each open subscheme <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S_i)]]></fr:tex> that agree on common restrictions (which again can be checked on an affine covering). Since the codomain is affine, these maps are equivalently ring homomorphisms <fr:tex
+display="inline"><![CDATA[R \to  S_i]]></fr:tex> by <fr:ref
 addr="algm-000X"
 href="algm-000X.xml"
-taxon="Theorem"></fr:ref>. The elements of <fr:tex>{\Gamma}(\top, {\mathscr{O}}_X)</fr:tex> are also given by a set of compatible elements from <fr:tex>S_i</fr:tex>. Hence these two sets are naturally bijective.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+taxon="Theorem" />. The elements of <fr:tex
+display="inline"><![CDATA[\Gamma (\top , \mathscr {O}_X)]]></fr:tex> are also given by a set of compatible elements from <fr:tex
+display="inline"><![CDATA[S_i]]></fr:tex>. Hence these two sets are naturally bijective.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1744</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000U</fr:addr><fr:route>algm-000U.xml</fr:route><fr:title>Morphism of locally ringed spaces</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1669</fr:anchor><fr:addr
+type="user">algm-000U</fr:addr><fr:route>algm-000U.xml</fr:route><fr:title
+text="Morphism of locally ringed spaces">Morphism of locally ringed spaces</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given two <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given two <fr:link
 href="algm-000L.xml"
+addr="algm-000L"
+title="Locally ringed space">locally ringed spaces</fr:link>, a <fr:link
 type="local"
-addr="algm-000L">locally ringed spaces</fr:link>, a <fr:link
 href="algm-000S.xml"
-type="local"
-addr="algm-000S">morphism of ringed spaces</fr:link> <fr:tex>\varphi</fr:tex> between them is <fr:strong>local</fr:strong> when sections of <fr:tex>\varphi^{-1}{\mathscr{O}}_Y</fr:tex> are invertible iff their images in <fr:tex>{\mathscr{O}}_X</fr:tex> are invertible, i.e. the following diagram is a pullback:
+addr="algm-000S"
+title="Morphism of ringed spaces">morphism of ringed spaces</fr:link> <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> between them is <fr:strong>local</fr:strong> when sections of <fr:tex
+display="inline"><![CDATA[\varphi ^{-1}\mathscr {O}_Y]]></fr:tex> are invertible iff their images in <fr:tex
+display="inline"><![CDATA[\mathscr {O}_X]]></fr:tex> are invertible, i.e. the following diagram is a pullback:
 
   
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="198899d151858ff4911e2572bf2e6342"><fr:embedded-tex-preamble>
+hash="10f8a1c26eaef8e9e0591acaaadc4d0d"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-    {\varphi^{-1}{\mathscr{O}}_Y^\times} &amp; {{\mathscr{O}}_X^\times} \\
-    {\varphi^{-1}{\mathscr{O}}_Y} &amp; {{\mathscr{O}}_X}
-    \arrow[hook, from=1-1, to=2-1]
-    \arrow[hook, from=1-2, to=2-2]
-    \arrow[from=1-1, to=1-2]
-    \arrow[from=2-1, to=2-2]
-    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
-  \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+    {\varphi ^{-1}\mathscr {O}_Y^\times } & {\mathscr {O}_X^\times } \\
+    {\varphi ^{-1}\mathscr {O}_Y} & {\mathscr {O}_X}
+    \arrow [hook, from=1-1, to=2-1]
+    \arrow [hook, from=1-2, to=2-2]
+    \arrow [from=1-1, to=1-2]
+    \arrow [from=2-1, to=2-2]
+    \arrow ["\lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+  \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
 
   Note that the <fr:link
+type="local"
 href="algm-000T.xml"
-type="local"
-addr="algm-000T">subsheaf of units</fr:link> is given by a finite limit, hence <fr:tex>\varphi^{-1}</fr:tex> preserves it. Since the lower map map <fr:tex>\varphi^{-1} {\mathscr{O}}_Y \to {\mathscr{O}}_X</fr:tex> is a ring homomorphism on the sections, it maps units to units. Hence restriction to the upper map makes sense.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-000T"
+title="Subsheaf of units">subsheaf of units</fr:link> is given by a finite limit, hence <fr:tex
+display="inline"><![CDATA[\varphi ^{-1}]]></fr:tex> preserves it. Since the lower map map <fr:tex
+display="inline"><![CDATA[\varphi ^{-1} \mathscr {O}_Y \to  \mathscr {O}_X]]></fr:tex> is a ring homomorphism on the sections, it maps units to units. Hence restriction to the upper map makes sense.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1746</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000Q</fr:addr><fr:route>algm-000Q.xml</fr:route><fr:title>Affine scheme</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1671</fr:anchor><fr:addr
+type="user">algm-000Q</fr:addr><fr:route>algm-000Q.xml</fr:route><fr:title
+text="Affine scheme">Affine scheme</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>An <fr:strong>affine scheme</fr:strong> is a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  An <fr:strong>affine scheme</fr:strong> is a <fr:link
 href="algm-000L.xml"
-type="local"
-addr="algm-000L">locally ringed space</fr:link> of the form <fr:tex>\operatorname{Spec}(R)</fr:tex> for some commutative ring <fr:tex>R</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-000L"
+title="Locally ringed space">locally ringed space</fr:link> of the form <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> for some commutative ring <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1748</fr:anchor><fr:taxon>Intuition</fr:taxon><fr:addr>algm-000O</fr:addr><fr:route>algm-000O.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1673</fr:anchor><fr:addr
+type="user">algm-000O</fr:addr><fr:route>algm-000O.xml</fr:route><fr:title
+text="Locally ringed space">Locally ringed space</fr:title><fr:taxon>Intuition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The <fr:link
 href="algm-000L.xml"
+addr="algm-000L"
+title="Locally ringed space">locality</fr:link> requirement for a <fr:link
 type="local"
-addr="algm-000L">locality</fr:link> requirement for a <fr:link
 href="algm-000M.xml"
-type="local"
-addr="algm-000M">ringed space</fr:link> is to guarantee that the sections behave like functions valued in some field.
-</fr:p><fr:p>
-  It is impossible in general to discuss the vanishing region of a section <fr:tex>f \in {\Gamma}(U, {\mathscr{O}})</fr:tex>. For instance, the germs of continuous functions are non-zero on their support, which is the closure of the non-vanishing region. In algebraic geometry, such an overspill destroys most valuable information. We can talk about the maximal region on which the section is invertible, but this is different from being non-zero if sections don’t behave like functions. Similarly, it is also impossible to discuss the value of a section at some point in general. In locally ringed space, we have <fr:ref
+addr="algm-000M"
+title="Ringed space">ringed space</fr:link> is to guarantee that the sections behave like functions valued in some field.</fr:p><fr:p>It is impossible in general to discuss the vanishing region of a section <fr:tex
+display="inline"><![CDATA[f \in  \Gamma (U, \mathscr {O})]]></fr:tex>. For instance, the germs of continuous functions are non-zero on their support, which is the closure of the non-vanishing region. In algebraic geometry, such an overspill destroys most valuable information. We can talk about the maximal region on which the section is invertible, but this is different from being non-zero if sections don’t behave like functions. Similarly, it is also impossible to discuss the value of a section at some point in general. In locally ringed space, we have <fr:ref
 addr="algm-000P"
 href="algm-000P.xml"
-taxon="Definition"></fr:ref>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+taxon="Definition" />.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1750</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000R</fr:addr><fr:route>algm-000R.xml</fr:route><fr:title>Scheme</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1675</fr:anchor><fr:addr
+type="user">algm-000R</fr:addr><fr:route>algm-000R.xml</fr:route><fr:title
+text="Scheme">Scheme</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:strong>scheme</fr:strong> is a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>scheme</fr:strong> is a <fr:link
 href="algm-000L.xml"
+addr="algm-000L"
+title="Locally ringed space">locally ringed space</fr:link> with an open covering on which the space is isomorphic to <fr:link
 type="local"
-addr="algm-000L">locally ringed space</fr:link> with an open covering on which the space is isomorphic to <fr:link
 href="algm-000Q.xml"
-type="local"
-addr="algm-000Q">affine schemes</fr:link>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-000Q"
+title="Affine scheme">affine schemes</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1752</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000P</fr:addr><fr:route>algm-000P.xml</fr:route><fr:title>Value of section at a point</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1677</fr:anchor><fr:addr
+type="user">algm-000P</fr:addr><fr:route>algm-000P.xml</fr:route><fr:title
+text="Value of section at a point">Value of section at a point</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
 href="algm-000L.xml"
-type="local"
-addr="algm-000L">locally ringed space</fr:link> and a section <fr:tex>f \in {\Gamma}(U, {\mathscr{O}})</fr:tex>, the germ of <fr:tex>f</fr:tex> at a point is an element of a local ring. The image of this element in the residue field, i.e. the quotient by the unique maximal ideal is called the <fr:strong>value</fr:strong> of this section at this point.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-000L"
+title="Locally ringed space">locally ringed space</fr:link> and a section <fr:tex
+display="inline"><![CDATA[f \in  \Gamma (U, \mathscr {O})]]></fr:tex>, the germ of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> at a point is an element of a local ring. The image of this element in the residue field, i.e. the quotient by the unique maximal ideal is called the <fr:strong>value</fr:strong> of this section at this point.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1754</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000J</fr:addr><fr:route>algm-000J.xml</fr:route><fr:title>Stalk of the structure sheaf on <fr:tex>\operatorname{Spec}(R)</fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1679</fr:anchor><fr:addr
+type="user">algm-000J</fr:addr><fr:route>algm-000J.xml</fr:route><fr:title
+text="Stalk of the structure sheaf on {Spec}(R)">Stalk of the structure sheaf on <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a point <fr:tex
+display="inline"><![CDATA[\left [\mathfrak {p}\right ] \in  \operatorname {Spec}(R)]]></fr:tex>, the stalk at the point is the localization <fr:tex
+display="inline"><![CDATA[R_{\mathfrak {p}}]]></fr:tex>. In particular, the ring spectrum is a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a point <fr:tex>\left[\mathfrak{p}\right] \in \operatorname{Spec}(R)</fr:tex>, the stalk at the point is the localization <fr:tex>R_{\mathfrak{p}}</fr:tex>. In particular, the ring spectrum is a <fr:link
 href="algm-000L.xml"
-type="local"
-addr="algm-000L">locally ringed space</fr:link> by <fr:ref
+addr="algm-000L"
+title="Locally ringed space">locally ringed space</fr:link> by <fr:ref
 addr="algm-000N"
 href="algm-000N.xml"
-taxon="Theorem"></fr:ref>.
-</fr:p>
+taxon="Theorem" />.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1736</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#290</fr:addr><fr:route>unstable-290.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1663</fr:anchor><fr:addr
+type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000J</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We take a directed limit. The elements are from some <fr:tex>R[f^{-1}]</fr:tex> with <fr:tex>\mathfrak{p} \nmid f</fr:tex>, i.e. the elements can be written as <fr:tex>g/f^n</fr:tex>. Two elements are equal iff their common restriction to some <fr:tex>D(f)</fr:tex> is equal, i.e. <fr:tex>g_1/f_1^n = g_2/f_2^m</fr:tex> iff <fr:tex>(g_1 f_2^m - g_2 f_1^n) f^k = 0</fr:tex>. These are exactly the definition of the localization away from <fr:tex>\mathfrak{p}</fr:tex>.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000J</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We take a directed limit. The elements are from some <fr:tex
+display="inline"><![CDATA[R[f^{-1}]]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \nmid  f]]></fr:tex>, i.e. the elements can be written as <fr:tex
+display="inline"><![CDATA[g/f^n]]></fr:tex>. Two elements are equal iff their common restriction to some <fr:tex
+display="inline"><![CDATA[D(f)]]></fr:tex> is equal, i.e. <fr:tex
+display="inline"><![CDATA[g_1/f_1^n = g_2/f_2^m]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[(g_1 f_2^m - g_2 f_1^n) f^k = 0]]></fr:tex>. These are exactly the definition of the localization away from <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1756</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000N</fr:addr><fr:route>algm-000N.xml</fr:route><fr:title>Stalks of locally ringed topological space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1681</fr:anchor><fr:addr
+type="user">algm-000N</fr:addr><fr:route>algm-000N.xml</fr:route><fr:title
+text="Stalks of locally ringed topological space">Stalks of locally ringed topological space</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
 href="algm-000M.xml"
+addr="algm-000M"
+title="Ringed space">ringed</fr:link> topological space, it is <fr:link
 type="local"
-addr="algm-000M">ringed</fr:link> topological space, it is <fr:link
 href="algm-000L.xml"
-type="local"
-addr="algm-000L">locally ringed</fr:link> iff every stalk is a local ring.
-</fr:p>
+addr="algm-000L"
+title="Locally ringed space">locally ringed</fr:link> iff every stalk is a local ring.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1730</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#289</fr:addr><fr:route>unstable-289.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1657</fr:anchor><fr:addr
+type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000N</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Recall the axiom for a local ring: if any sum is invertible, then one of the summand is invertible. When applied to the direct limit in each stalk, this immediately expands to the definition of a locally ringed space.
-  </fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000N</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Recall the axiom for a local ring: if any sum is invertible, then one of the summand is invertible. When applied to the direct limit in each stalk, this immediately expands to the definition of a locally ringed space.</fr:p>
 
-  <fr:p>
-    In particular, a crucial property is used in the reverse implication, i.e. if one open contains all the points of another, then the former covers the latter. This is equivalent to the condition of having enough points.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+  <fr:p>In particular, a crucial property is used in the reverse implication, i.e. if one open contains all the points of another, then the former covers the latter. This is equivalent to the condition of having enough points.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1683</fr:anchor><fr:addr
+type="user">algm-000M</fr:addr><fr:route>algm-000M.xml</fr:route><fr:title
+text="Ringed space">Ringed space</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:strong>ringed space</fr:strong> is a space equipped with a sheaf of rings, called the <fr:strong>structure sheaf</fr:strong>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

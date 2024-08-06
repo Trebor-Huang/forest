@@ -1,79 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2486</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>hmlg-000N</fr:addr><fr:route>hmlg-000N.xml</fr:route><fr:title>Signs in bicomplexes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2384</fr:anchor><fr:addr
+type="user">hmlg-000N</fr:addr><fr:route>hmlg-000N.xml</fr:route><fr:title
+text="Signs in bicomplexes">Signs in bicomplexes</fr:title><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Some sources require a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Some sources require a <fr:link
 href="hmlg-000K.xml"
+addr="hmlg-000K"
+title="Bicomplex">bicomplex</fr:link> to have anti-commuting squares. In this way, the <fr:link
 type="local"
-addr="hmlg-000K">bicomplex</fr:link> to have anti-commuting squares. In this way, the <fr:link
 href="hmlg-000M.xml"
-type="local"
-addr="hmlg-000M">total complex</fr:link> has the simpler differential <fr:tex>\partial = d + \delta</fr:tex>. These two definitions are convertible by flipping the signs of the horizontal boundary maps in every other row.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="hmlg-000M"
+title="Total complex">total complex</fr:link> has the simpler differential <fr:tex
+display="inline"><![CDATA[\partial  = d + \delta ]]></fr:tex>. These two definitions are convertible by flipping the signs of the horizontal boundary maps in every other row.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2482</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000K</fr:addr><fr:route>hmlg-000K.xml</fr:route><fr:title>Bicomplex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2386</fr:anchor><fr:addr
+type="user">hmlg-000M</fr:addr><fr:route>hmlg-000M.xml</fr:route><fr:title
+text="Total complex">Total complex</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>bicomplex</fr:strong> is a chain complex of chain complexes. More specifically, we have a grid of objects <fr:tex>A_{m, n}</fr:tex>, vertical maps <fr:tex>d : A_{m, n} \to A_{m, n-1}</fr:tex> and horizontal maps <fr:tex>\delta : A_{m, n} \to A_{m-1, n}</fr:tex>. Every square in the grid commutes, and <fr:tex>d^2 = \delta^2 = 0</fr:tex>.
-</fr:p><fr:p>
-  Each column <fr:tex>A_{m, \bullet}</fr:tex> in the bicomplex is a chain complex, and <fr:tex>\delta</fr:tex> are chain maps between the column complexes. Similarly, each row forms a chain complex, and <fr:tex>d</fr:tex> are chain maps between the row complexes.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2484</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000M</fr:addr><fr:route>hmlg-000M.xml</fr:route><fr:title>Total complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
 href="hmlg-000K.xml"
+addr="hmlg-000K"
+title="Bicomplex">bicomplex</fr:link> <fr:tex
+display="inline"><![CDATA[C_{\bullet , \bullet }]]></fr:tex>, we can collapse it into a chain complex in two ways. In either way, <fr:tex
+display="inline"><![CDATA[C_{p, q}]]></fr:tex> is contained in the total complex at degree <fr:tex
+display="inline"><![CDATA[(m+n)]]></fr:tex>. We can use the direct sum to combine them: <fr:tex
+display="block"><![CDATA[\operatorname {Tot}^\oplus (C)_n = \bigoplus _{n = p+q} C_{p, q},]]></fr:tex> or the direct product: <fr:tex
+display="block"><![CDATA[\operatorname {Tot}^\Pi (C)_n = \prod _{n=p+q} C_{p,q}.]]></fr:tex></fr:p><fr:p>The total differential acts on elements in <fr:tex
+display="inline"><![CDATA[C_{p, q}]]></fr:tex> by <fr:tex
+display="block"><![CDATA[\partial (x) = d(x) + (-1)^q \delta (x),]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[d]]></fr:tex> is the vertical map, and <fr:tex
+display="inline"><![CDATA[\delta ]]></fr:tex> the horizontal map. The <fr:link
 type="local"
-addr="hmlg-000K">bicomplex</fr:link> <fr:tex>C_{\bullet, \bullet}</fr:tex>, we can collapse it into a chain complex in two ways. In either way, <fr:tex>C_{p, q}</fr:tex> is contained in the total complex at degree <fr:tex>(m+n)</fr:tex>. We can use the direct sum to combine them: <fr:tex
-display="block">\operatorname{Tot}^\oplus(C)_n = \bigoplus_{n = p+q} C_{p, q},</fr:tex> or the direct product: <fr:tex
-display="block">\operatorname{Tot}^\Pi(C)_n = \prod_{n=p+q} C_{p,q}.</fr:tex></fr:p><fr:p>
-  The total differential acts on elements in <fr:tex>C_{p, q}</fr:tex> by <fr:tex
-display="block">\partial(x) = d(x) + (-1)^q \delta(x),</fr:tex> where <fr:tex>d</fr:tex> is the vertical map, and <fr:tex>\delta</fr:tex> the horizontal map. The <fr:link
 href="hmlg-000N.xml"
-type="local"
-addr="hmlg-000N">sign</fr:link> here is to ensure that <fr:tex>\partial^2 = 0</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="hmlg-000N"
+title="Signs in bicomplexes">sign</fr:link> here is to ensure that <fr:tex
+display="inline"><![CDATA[\partial ^2 = 0]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2480</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000M</fr:addr><fr:route>hmlg-000M.xml</fr:route><fr:title>Total complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2388</fr:anchor><fr:addr
+type="user">hmlg-000K</fr:addr><fr:route>hmlg-000K.xml</fr:route><fr:title
+text="Bicomplex">Bicomplex</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:strong>bicomplex</fr:strong> is a chain complex of chain complexes. More specifically, we have a grid of objects <fr:tex
+display="inline"><![CDATA[A_{m, n}]]></fr:tex>, vertical maps <fr:tex
+display="inline"><![CDATA[d : A_{m, n} \to  A_{m, n-1}]]></fr:tex> and horizontal maps <fr:tex
+display="inline"><![CDATA[\delta  : A_{m, n} \to  A_{m-1, n}]]></fr:tex>. Every square in the grid commutes, and <fr:tex
+display="inline"><![CDATA[d^2 = \delta ^2 = 0]]></fr:tex>.</fr:p><fr:p>Each column <fr:tex
+display="inline"><![CDATA[A_{m, \bullet }]]></fr:tex> in the bicomplex is a chain complex, and <fr:tex
+display="inline"><![CDATA[\delta ]]></fr:tex> are chain maps between the column complexes. Similarly, each row forms a chain complex, and <fr:tex
+display="inline"><![CDATA[d]]></fr:tex> are chain maps between the row complexes.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2390</fr:anchor><fr:addr
+type="user">hmlg-000M</fr:addr><fr:route>hmlg-000M.xml</fr:route><fr:title
+text="Total complex">Total complex</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
+type="local"
 href="hmlg-000K.xml"
+addr="hmlg-000K"
+title="Bicomplex">bicomplex</fr:link> <fr:tex
+display="inline"><![CDATA[C_{\bullet , \bullet }]]></fr:tex>, we can collapse it into a chain complex in two ways. In either way, <fr:tex
+display="inline"><![CDATA[C_{p, q}]]></fr:tex> is contained in the total complex at degree <fr:tex
+display="inline"><![CDATA[(m+n)]]></fr:tex>. We can use the direct sum to combine them: <fr:tex
+display="block"><![CDATA[\operatorname {Tot}^\oplus (C)_n = \bigoplus _{n = p+q} C_{p, q},]]></fr:tex> or the direct product: <fr:tex
+display="block"><![CDATA[\operatorname {Tot}^\Pi (C)_n = \prod _{n=p+q} C_{p,q}.]]></fr:tex></fr:p><fr:p>The total differential acts on elements in <fr:tex
+display="inline"><![CDATA[C_{p, q}]]></fr:tex> by <fr:tex
+display="block"><![CDATA[\partial (x) = d(x) + (-1)^q \delta (x),]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[d]]></fr:tex> is the vertical map, and <fr:tex
+display="inline"><![CDATA[\delta ]]></fr:tex> the horizontal map. The <fr:link
 type="local"
-addr="hmlg-000K">bicomplex</fr:link> <fr:tex>C_{\bullet, \bullet}</fr:tex>, we can collapse it into a chain complex in two ways. In either way, <fr:tex>C_{p, q}</fr:tex> is contained in the total complex at degree <fr:tex>(m+n)</fr:tex>. We can use the direct sum to combine them: <fr:tex
-display="block">\operatorname{Tot}^\oplus(C)_n = \bigoplus_{n = p+q} C_{p, q},</fr:tex> or the direct product: <fr:tex
-display="block">\operatorname{Tot}^\Pi(C)_n = \prod_{n=p+q} C_{p,q}.</fr:tex></fr:p><fr:p>
-  The total differential acts on elements in <fr:tex>C_{p, q}</fr:tex> by <fr:tex
-display="block">\partial(x) = d(x) + (-1)^q \delta(x),</fr:tex> where <fr:tex>d</fr:tex> is the vertical map, and <fr:tex>\delta</fr:tex> the horizontal map. The <fr:link
 href="hmlg-000N.xml"
-type="local"
-addr="hmlg-000N">sign</fr:link> here is to ensure that <fr:tex>\partial^2 = 0</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+addr="hmlg-000N"
+title="Signs in bicomplexes">sign</fr:link> here is to ensure that <fr:tex
+display="inline"><![CDATA[\partial ^2 = 0]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

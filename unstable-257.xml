@@ -1,59 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>416</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2224</fr:anchor><fr:addr
+type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002O</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    In one direction, suppose the group is injective, then the map <fr:tex>\mathbb{Z} \to G</fr:tex> defined by <fr:tex>k \mapsto k g</fr:tex> can be extended along the monomorphism <fr:tex>(n \times -) : \mathbb{Z} \to \mathbb{Z}</fr:tex>. This provides the division.
-  </fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000R</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Notice that having finite products and coproducts is a <fr:link
+type="local"
+href="todo.xml"
+addr="todo"
+title="Unfinished trees">property</fr:link>, and the canonical morphism between them being an isomorphism is also a <fr:link
+type="local"
+href="todo.xml"
+addr="todo"
+title="Unfinished trees">property</fr:link>. These do not mention the enrichment structure.</fr:p>
 
-  <fr:p>
-    On the other hand, suppose divisibility holds. Given a morphism <fr:tex>f : A \to G</fr:tex> and an injection <fr:tex>A \hookrightarrow B</fr:tex>, we extend <fr:tex>f</fr:tex> to <fr:tex>B</fr:tex> by Zorn's lemma. Consider the poset of homomorphisms extending <fr:tex>f</fr:tex> to some subgroup of <fr:tex>B</fr:tex>. Given a chain in this poset, we can take the union to create an upper bound. And it is non-empty since <fr:tex>f</fr:tex> is an element. Hence it has a maximal element <fr:tex>\phi</fr:tex>. Suppose it is defined on <fr:tex>B' \subsetneq B</fr:tex>, then there is an element <fr:tex>b \in B</fr:tex> not in <fr:tex>B'</fr:tex>. Suppose <fr:tex>n b \notin B'</fr:tex> for all non-zero integers <fr:tex>n</fr:tex>, then we can define a larger homomorphism on <fr:tex>B + \mathbb{Z} b</fr:tex>, contradicting the maximality. Suppose there is some <fr:tex>n b \in B'</fr:tex>, then by divisibility we can assign <fr:tex>\phi(b)</fr:tex> a division of <fr:tex>\phi(n b)</fr:tex> by <fr:tex>n</fr:tex>. This too contradicts maximality.
-  </fr:p>
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+  <fr:p>With these properties satisfied, the addition structure on the <fr:tex
+display="inline"><![CDATA[\hom ]]></fr:tex>-sets are fixed. We claim that the additive neutral element is given by the composition
+    <fr:tex
+display="block"><![CDATA[X \to  0 \to  Y,]]></fr:tex>
+    and given two parallel morphisms <fr:tex
+display="inline"><![CDATA[f, g : X \to  Y]]></fr:tex>, the following composition
+    <fr:tex
+display="block"><![CDATA[X \xrightarrow {\Delta } X \oplus  X \xrightarrow {f \oplus  g} Y \oplus  Y \xrightarrow {\nabla } Y.]]></fr:tex>
+    is equal to the addition <fr:tex
+display="inline"><![CDATA[f + g]]></fr:tex>. For disambiguation, we temporarily denote these constructions as <fr:tex
+display="inline"><![CDATA[0']]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f +' g]]></fr:tex>. By interpreting <fr:tex
+display="inline"><![CDATA[\oplus ]]></fr:tex> as a product or a coproduct at appropriate times, it is easy to see that <fr:tex
+display="inline"><![CDATA[0']]></fr:tex> is indeed the neutral element for <fr:tex
+display="inline"><![CDATA[+']]></fr:tex>.</fr:p>
+
+  <fr:p>Recall that arrows <fr:tex
+display="inline"><![CDATA[X \oplus  X \to  Y \oplus  Y]]></fr:tex> is given by a <fr:tex
+display="inline"><![CDATA[2 \times  2]]></fr:tex> matrix, and this correspondence is an abelian group isomorphism by general enriched category theory. <fr:tex
+display="inline"><![CDATA[f \oplus  g]]></fr:tex> comes from a diagonal matrix with <fr:tex
+display="inline"><![CDATA[f, g]]></fr:tex> as entries, so this operation is linear, which entails <fr:tex
+display="inline"><![CDATA[+']]></fr:tex> is also linear. By the <fr:link
+type="local"
+href="todo.xml"
+addr="todo"
+title="Unfinished trees">Eckmann–Hilton argument</fr:link>, the two addition operations must coincide.</fr:p>
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>414</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-002O</fr:addr><fr:route>hmlg-002O.xml</fr:route><fr:title>Abelian groups are injective iff divisible</fr:title><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2226</fr:anchor><fr:addr
+type="user">hmlg-000R</fr:addr><fr:route>hmlg-000R.xml</fr:route><fr:title
+text="Being an additive category is a property">Being an additive category is a <fr:link
+type="local"
+href="todo.xml"
+addr="todo"
+title="Unfinished trees">property</fr:link></fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a category, if it can be endowed with an <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  An abelian group <fr:tex>G</fr:tex> is <fr:link
-href="hmlg-002J.xml"
+href="hmlg-000O.xml"
+addr="hmlg-000O"
+title="{Ab}-enriched category"><fr:tex
+display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enrichment</fr:link> that makes it an <fr:link
 type="local"
-addr="hmlg-002J">injective</fr:link> iff it is <fr:strong>divisible</fr:strong>, i.e. for element <fr:tex>g \in G</fr:tex> and positive integer <fr:tex>n</fr:tex>, there exists a (non-unique) solution of <fr:tex>nx = g</fr:tex>.
-</fr:p>
+href="hmlg-000P.xml"
+addr="hmlg-000P"
+title="Additive category">additive category</fr:link>, then it only has one possible enrichment. In particular, there is at most one way to turn a category into an additive category.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>412</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>456</fr:anchor><fr:addr
+type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002O</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    In one direction, suppose the group is injective, then the map <fr:tex>\mathbb{Z} \to G</fr:tex> defined by <fr:tex>k \mapsto k g</fr:tex> can be extended along the monomorphism <fr:tex>(n \times -) : \mathbb{Z} \to \mathbb{Z}</fr:tex>. This provides the division.
-  </fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000R</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Notice that having finite products and coproducts is a <fr:link
+type="local"
+href="todo.xml"
+addr="todo"
+title="Unfinished trees">property</fr:link>, and the canonical morphism between them being an isomorphism is also a <fr:link
+type="local"
+href="todo.xml"
+addr="todo"
+title="Unfinished trees">property</fr:link>. These do not mention the enrichment structure.</fr:p>
 
-  <fr:p>
-    On the other hand, suppose divisibility holds. Given a morphism <fr:tex>f : A \to G</fr:tex> and an injection <fr:tex>A \hookrightarrow B</fr:tex>, we extend <fr:tex>f</fr:tex> to <fr:tex>B</fr:tex> by Zorn's lemma. Consider the poset of homomorphisms extending <fr:tex>f</fr:tex> to some subgroup of <fr:tex>B</fr:tex>. Given a chain in this poset, we can take the union to create an upper bound. And it is non-empty since <fr:tex>f</fr:tex> is an element. Hence it has a maximal element <fr:tex>\phi</fr:tex>. Suppose it is defined on <fr:tex>B' \subsetneq B</fr:tex>, then there is an element <fr:tex>b \in B</fr:tex> not in <fr:tex>B'</fr:tex>. Suppose <fr:tex>n b \notin B'</fr:tex> for all non-zero integers <fr:tex>n</fr:tex>, then we can define a larger homomorphism on <fr:tex>B + \mathbb{Z} b</fr:tex>, contradicting the maximality. Suppose there is some <fr:tex>n b \in B'</fr:tex>, then by divisibility we can assign <fr:tex>\phi(b)</fr:tex> a division of <fr:tex>\phi(n b)</fr:tex> by <fr:tex>n</fr:tex>. This too contradicts maximality.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+  <fr:p>With these properties satisfied, the addition structure on the <fr:tex
+display="inline"><![CDATA[\hom ]]></fr:tex>-sets are fixed. We claim that the additive neutral element is given by the composition
+    <fr:tex
+display="block"><![CDATA[X \to  0 \to  Y,]]></fr:tex>
+    and given two parallel morphisms <fr:tex
+display="inline"><![CDATA[f, g : X \to  Y]]></fr:tex>, the following composition
+    <fr:tex
+display="block"><![CDATA[X \xrightarrow {\Delta } X \oplus  X \xrightarrow {f \oplus  g} Y \oplus  Y \xrightarrow {\nabla } Y.]]></fr:tex>
+    is equal to the addition <fr:tex
+display="inline"><![CDATA[f + g]]></fr:tex>. For disambiguation, we temporarily denote these constructions as <fr:tex
+display="inline"><![CDATA[0']]></fr:tex> and <fr:tex
+display="inline"><![CDATA[f +' g]]></fr:tex>. By interpreting <fr:tex
+display="inline"><![CDATA[\oplus ]]></fr:tex> as a product or a coproduct at appropriate times, it is easy to see that <fr:tex
+display="inline"><![CDATA[0']]></fr:tex> is indeed the neutral element for <fr:tex
+display="inline"><![CDATA[+']]></fr:tex>.</fr:p>
+
+  <fr:p>Recall that arrows <fr:tex
+display="inline"><![CDATA[X \oplus  X \to  Y \oplus  Y]]></fr:tex> is given by a <fr:tex
+display="inline"><![CDATA[2 \times  2]]></fr:tex> matrix, and this correspondence is an abelian group isomorphism by general enriched category theory. <fr:tex
+display="inline"><![CDATA[f \oplus  g]]></fr:tex> comes from a diagonal matrix with <fr:tex
+display="inline"><![CDATA[f, g]]></fr:tex> as entries, so this operation is linear, which entails <fr:tex
+display="inline"><![CDATA[+']]></fr:tex> is also linear. By the <fr:link
+type="local"
+href="todo.xml"
+addr="todo"
+title="Unfinished trees">Eckmann–Hilton argument</fr:link>, the two addition operations must coincide.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

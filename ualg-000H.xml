@@ -1,378 +1,521 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>864</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000H</fr:addr><fr:route>ualg-000H.xml</fr:route><fr:title>Beck monadicity theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>801</fr:anchor><fr:addr
+type="user">ualg-000H</fr:addr><fr:route>ualg-000H.xml</fr:route><fr:title
+text="Beck monadicity theorem">Beck monadicity theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G : \mathcal {D} \to  \mathcal {C}]]></fr:tex> be a functor with a left adjoint <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>. <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> is <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Let <fr:tex>G : {\mathcal{D}} \to {\mathcal{C}}</fr:tex> be a functor with a left adjoint <fr:tex>F</fr:tex>. <fr:tex>G</fr:tex> is <fr:link
 href="ualg-000A.xml"
+addr="ualg-000A"
+title="Monadic functor">monadic</fr:link> iff <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> <fr:link
 type="local"
-addr="ualg-000A">monadic</fr:link> iff <fr:tex>G</fr:tex> <fr:link
 href="ualg-000G.xml"
+addr="ualg-000G"
+title="Preservation, lifting, reflection and creation of limits">creates</fr:link> coequalizers whose image under <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> is <fr:link
 type="local"
-addr="ualg-000G">creates</fr:link> coequalizers whose image under <fr:tex>G</fr:tex> is <fr:link
 href="ualg-000B.xml"
-type="local"
-addr="ualg-000B">split</fr:link>.
-</fr:p>
+addr="ualg-000B"
+title="Split coequalizer">split</fr:link>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>841</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>799</fr:anchor><fr:addr
+type="machine">#233</fr:addr><fr:route>unstable-233.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000H</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    For necessity, using <fr:ref
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000H</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>For necessity, using <fr:ref
 addr="ualg-000I"
 href="ualg-000I.xml"
-taxon="Theorem"></fr:ref>, we only need to verify that a monad <fr:tex>M</fr:tex> preserves the relevant coequalizers, which is true since <fr:link
-href="ualg-000D.xml"
+taxon="Theorem" />, we only need to verify that a monad <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> preserves the relevant coequalizers, which is true since <fr:link
 type="local"
-addr="ualg-000D">they are absolute</fr:link>.
-  </fr:p>
+href="ualg-000D.xml"
+addr="ualg-000D"
+title="Characterization of absolute coequalizers">they are absolute</fr:link>.</fr:p>
 
-  <fr:p>
-    For sufficiency, we observe the proof of <fr:ref
+  <fr:p>For sufficiency, we observe the proof of <fr:ref
 addr="ualg-000E"
 href="ualg-000E.xml"
-taxon="Theorem"></fr:ref>. Notice that the coequalizers involved are of the form <fr:tex>F\alpha, \epsilon : FGFA \rightrightarrows FA</fr:tex>. The images of these under <fr:tex>G</fr:tex> are indeed split by <fr:tex>\eta : GFA \to GFGFA</fr:tex> and <fr:tex>\eta : A \to GFA</fr:tex>. Therefore we just have to show <fr:tex>G</fr:tex> reflects isomorphisms. Given an isomorphism <fr:tex>Gf : GA \cong GB</fr:tex>, we have a split coequalizer <fr:tex>GA \rightrightarrows GB \to GA</fr:tex> where the two maps on the left are <fr:tex>Gf</fr:tex>, and the map on the right is its inverse. This creates a map <fr:tex>g : B \to A</fr:tex> which is the coequalizer of <fr:tex>f</fr:tex> with itself. So this map must be an isomorphism. We then consider the coequalizer <fr:tex>GB \rightrightarrows GA \to GB</fr:tex>, where the two maps on the left are <fr:tex>Gg</fr:tex> and the map on the right is <fr:tex>Gf</fr:tex>. Since <fr:tex>G</fr:tex> reflects this limit, <fr:tex>f</fr:tex> must also be an isomorphism.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+taxon="Theorem" />. Notice that the coequalizers involved are of the form <fr:tex
+display="inline"><![CDATA[F\alpha , \epsilon  : FGFA \rightrightarrows  FA]]></fr:tex>. The images of these under <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> are indeed split by <fr:tex
+display="inline"><![CDATA[\eta  : GFA \to  GFGFA]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\eta  : A \to  GFA]]></fr:tex>. Therefore we just have to show <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> reflects isomorphisms. Given an isomorphism <fr:tex
+display="inline"><![CDATA[Gf : GA \cong  GB]]></fr:tex>, we have a split coequalizer <fr:tex
+display="inline"><![CDATA[GA \rightrightarrows  GB \to  GA]]></fr:tex> where the two maps on the left are <fr:tex
+display="inline"><![CDATA[Gf]]></fr:tex>, and the map on the right is its inverse. This creates a map <fr:tex
+display="inline"><![CDATA[g : B \to  A]]></fr:tex> which is the coequalizer of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> with itself. So this map must be an isomorphism. We then consider the coequalizer <fr:tex
+display="inline"><![CDATA[GB \rightrightarrows  GA \to  GB]]></fr:tex>, where the two maps on the left are <fr:tex
+display="inline"><![CDATA[Gg]]></fr:tex> and the map on the right is <fr:tex
+display="inline"><![CDATA[Gf]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> reflects this limit, <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> must also be an isomorphism.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>851</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000I</fr:addr><fr:route>ualg-000I.xml</fr:route><fr:title>Limits and colimits created by a monadic functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:link
-href="ualg-000A.xml"
-type="local"
-addr="ualg-000A">monadic functor</fr:link> <fr:link
-href="ualg-000G.xml"
-type="local"
-addr="ualg-000G">creates</fr:link> all limits. It also creates all colimits preserved by the monad.
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
-numbered="true"
+numbered="false"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>822</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000I</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    By definition, we just need to prove the functor <fr:tex>{\mathcal{C}}^M \to {\mathcal{C}}</fr:tex> creates these limits and colimits. Given a diagram <fr:tex>(M X_i \xrightarrow{\alpha_i} X_i)</fr:tex> in <fr:tex>{\mathcal{C}}^M</fr:tex>, we can simply define an <fr:tex>M</fr:tex>-algebra structure on <fr:tex>\lim X_i</fr:tex> by assigning <fr:tex>M(\lim X_i) \to \lim X_i</fr:tex> the obvious map. This is the limit of the original diagram by a simple diagram chase, hence it is lifted. The cones over the diagram are determined by their image under the forgetful functor, so the lift is unique, which means the limit is trivially reflected.
-  </fr:p>
-
-  <fr:p>
-    For colimits, if <fr:tex>M</fr:tex> preserves a colimit, then we can similarly define an algebra structure as <fr:tex>M(\operatorname*{colim} X_i) \cong \operatorname*{colim} M X_i \to \operatorname*{colim} X_i</fr:tex>. The lift is also unique, which means it is reflected.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>853</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000G</fr:addr><fr:route>ualg-000G.xml</fr:route><fr:title>Preservation, lifting, reflection and creation of limits</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="true"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>803</fr:anchor><fr:addr
+type="user">trebor-0001</fr:addr><fr:route>index.xml</fr:route><fr:title
+text="Trebor’s forest">Trebor’s forest</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This is my forest, which is <fr:link
+type="external"
+href="https://www.jonmsterling.com/jms-005P.xml">a way of organizing notes</fr:link>. Here is <fr:link
+type="external"
+href="https://www.jonmsterling.com/jms-009H.xml">a list of other websites organized as forests</fr:link>. Some of the contents here:</fr:p><fr:ul><fr:li><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Consider a functor <fr:tex>F : {\mathcal{C}} \to {\mathcal{D}}</fr:tex>.
-</fr:p><fr:ul><fr:li>If a limit cone <fr:tex>L</fr:tex> in <fr:tex>{\mathcal{C}}</fr:tex> is mapped to a limit cone in <fr:tex>{\mathcal{D}}</fr:tex>, then the functor <fr:strong>preserves</fr:strong> the limit <fr:tex>I</fr:tex>.</fr:li>
-  <fr:li>If given a diagram <fr:tex>D</fr:tex> and a limit cone <fr:tex>L</fr:tex> over <fr:tex>F \mathbin{\circ} D</fr:tex> in <fr:tex>{\mathcal{D}}</fr:tex>, <fr:tex>D</fr:tex> can be extended to a limit cone in <fr:tex>{\mathcal{C}}</fr:tex> that maps to <fr:tex>L</fr:tex>, then the functor <fr:strong>lifts</fr:strong> the limit <fr:tex>L</fr:tex> to <fr:tex>D</fr:tex>.</fr:li>
-  <fr:li>If all the cones that maps to a limit cone <fr:tex>L</fr:tex> in <fr:tex>{\mathcal{D}}</fr:tex> are limit cones in <fr:tex>{\mathcal{C}}</fr:tex>, then the functor <fr:strong>reflects</fr:strong> the limit <fr:tex>L</fr:tex>.</fr:li>
-  <fr:li>If given a diagram <fr:tex>D</fr:tex> and a limit cone <fr:tex>L</fr:tex> over <fr:tex>F \mathbin{\circ} D</fr:tex> in <fr:tex>{\mathcal{D}}</fr:tex>, <fr:tex>L</fr:tex> is reflected and lifted to <fr:tex>D</fr:tex>, then the limit of <fr:tex>D</fr:tex> is <fr:strong>created</fr:strong>.</fr:li></fr:ul><fr:p>
-  This can be easily generalized to cover a type of limits or all limits, and can be dualized to colimits. The definitions here are not agreed upon, and the literature may have slight variations. We consider univalent categories here, so that definitions are automatically adjusted to be equivalence-invariant.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>855</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000E</fr:addr><fr:route>ualg-000E.xml</fr:route><fr:title>Crude monadicity theorem</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Let <fr:tex>G : {\mathcal{D}} \to {\mathcal{C}}</fr:tex> be a functor with a left adjoint <fr:tex>F</fr:tex>. <fr:tex>M = G \mathbin{\circ} F</fr:tex> is the corresponding monad on <fr:tex>{\mathcal{C}}</fr:tex>. This gives a <fr:link
-href="ualg-0009.xml"
-type="local"
-addr="ualg-0009">comparison functor</fr:link> <fr:tex>K : {\mathcal{A}} \to {\mathcal{C}}^M</fr:tex>.
-</fr:p><fr:ol><fr:li>If <fr:tex>{\mathcal{D}}</fr:tex> has all coequalizers (we can weaken this to <fr:link
-href="ualg-000F.xml"
-type="local"
-addr="ualg-000F">reflexive coequalizers</fr:link>), then <fr:tex>K</fr:tex> has a left adjoint.</fr:li>
-  <fr:li>If moreover <fr:tex>G</fr:tex> preserves these reflexive coequalizers, the unit <fr:tex>{\textrm{Id}} \to K \mathbin{\circ} L</fr:tex> is an isomorphism.</fr:li>
-  <fr:li>Finally, if <fr:tex>G</fr:tex> reflects isomorphisms, then the counit <fr:tex>L \mathbin{\circ} K \to {\textrm{Id}}</fr:tex> is also an isomorphism, making <fr:tex>G</fr:tex> <fr:link
-href="ualg-000A.xml"
-type="local"
-addr="ualg-000A">monadic</fr:link>.</fr:li></fr:ol>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>833</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#248</fr:addr><fr:route>unstable-248.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000E</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    For the first claim, we need a functor <fr:tex>L</fr:tex> such that arrows from <fr:tex>L(GFA \xrightarrow{\alpha} A)</fr:tex> to <fr:tex>X</fr:tex> is in bijection with commutative squares
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="9eb5469b70f102398bdd48686db3d6df"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-      GFA &amp; GFGX \\
-      A &amp; GX
-      \arrow[from=1-1, to=1-2]
-      \arrow["{\alpha}"', from=1-1, to=2-1]
-      \arrow["{G \epsilon}", from=1-2, to=2-2]
-      \arrow[from=2-1, to=2-2]
-    \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-    which are equivalent by <fr:tex>F \dashv G</fr:tex> to the commutative squares
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="d9768dd526dc1f39f94e11e92cc0b472"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-      FGFA &amp; FGX \\
-      FA &amp; X
-      \arrow["FG\varphi", from=1-1, to=1-2]
-      \arrow["F\alpha"', from=1-1, to=2-1]
-      \arrow["\epsilon", from=1-2, to=2-2]
-      \arrow["\varphi", from=2-1, to=2-2]
-    \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-    Further notice that <fr:tex>\epsilon \mathbin{\circ} FG\varphi = \varphi \mathbin{\circ} \epsilon</fr:tex> by naturality. So it becomes obvious that <fr:tex>L</fr:tex> should be defined as the coequalizer of the pair <fr:tex
-display="block">F \alpha, \epsilon : FGFA \rightrightarrows FA.</fr:tex> This is reflexive by the common section <fr:tex>F\eta</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    For the second point, we unfold the unit as a natural family of commutative squares
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="c8a74b7fc8b0b5ad080a4f875a59fa3f"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-      GFA &amp; {GFG\operatorname*{colim}(FGFA \rightrightarrows FA)} \\
-      A &amp; {G\operatorname*{colim}(FGFA \rightrightarrows FA)}
-      \arrow[from=1-1, to=1-2]
-      \arrow[from=1-1, to=2-1]
-      \arrow[from=1-2, to=2-2]
-      \arrow[from=2-1, to=2-2]
-    \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-    and when <fr:tex>G</fr:tex> preserves the coequalizers in the diagram, the problem is reduced to showing that the coequalizer of <fr:tex>GF\alpha</fr:tex> and <fr:tex>G\epsilon : GFGFA \rightrightarrows GFA</fr:tex> is isomorphic to <fr:tex>A</fr:tex> via the bottom map, which is just the unit <fr:tex>\eta : A \to GFA</fr:tex> composed with the coequalizing map. This is a routine diagram chase.
-  </fr:p>
-
-  <fr:p>
-    For the final point, we would like the coequalizer of <fr:tex>FG\epsilon, \epsilon : FGFGX \rightrightarrows FGX</fr:tex> to be isomorphic to <fr:tex>X</fr:tex>. If we apply <fr:tex>G</fr:tex> to the diagram, we get an isomorphism to <fr:tex>GX</fr:tex> by the previous point. So if <fr:tex>G</fr:tex> reflects isomorphisms, we’re done.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>857</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-000D</fr:addr><fr:route>ualg-000D.xml</fr:route><fr:title>Characterization of absolute coequalizers</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a coequalizer diagram <fr:tex>X \rightrightarrows Y \to Z</fr:tex> where <fr:tex>\partial_0, \partial_1 : X \to Y</fr:tex> are the two parallel arrows and the coequalizing arrow is <fr:tex>e : Y \to Z</fr:tex>, it is <fr:link
-href="ualg-000C.xml"
-type="local"
-addr="ualg-000C">absolute</fr:link>, if and only if the following conditions hold.
-</fr:p><fr:ul><fr:li><fr:tex>e</fr:tex> is split epimorphic, i.e. there is an arrow <fr:tex>r</fr:tex> such that <fr:tex>e \mathbin{\circ} r = {\textrm{id}}_Z</fr:tex>.</fr:li>
-  <fr:li>There is a list of <fr:tex>n</fr:tex> endomorphisms on <fr:tex>Y</fr:tex> starting with <fr:tex>r \mathbin{\circ} e</fr:tex> and ending with <fr:tex>{\textrm{id}}_Y</fr:tex>, such that for each pair of adjacent morphisms, there is an arrow <fr:tex>s</fr:tex> such that <fr:tex>\partial_0 \mathbin{\circ} s</fr:tex> and <fr:tex>\partial_1 \mathbin{\circ} s</fr:tex> are equal to the two morphisms (in some order).</fr:li></fr:ul><fr:p>
-  Note that for <fr:tex>n = 0</fr:tex> this is the trivial coequalizer where <fr:tex>\partial_0 = \partial_1</fr:tex> and <fr:tex>e</fr:tex> is an isomorphism. For <fr:tex>n = 1</fr:tex> this results in the <fr:link
-href="ualg-000B.xml"
-type="local"
-addr="ualg-000B">split coequalizer</fr:link>.
-</fr:p>
-  
-    
-    <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>837</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#249</fr:addr><fr:route>unstable-249.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000D</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    By the definition of an <fr:link
-href="ualg-000C.xml"
-type="local"
-addr="ualg-000C">absolute (co)limit</fr:link>, the coequalizer is preserved by every functor. Consider the functor <fr:tex>\hom(Z, -)</fr:tex>. We have <fr:tex>\hom(Z, e)</fr:tex> is a coequalizer map, and hence epimorphic. This means <fr:tex>e</fr:tex> itself is split epimorphic since <fr:tex>{\textrm{id}}_Z</fr:tex> is in the image, i.e. there is a morphism <fr:tex>r : Z \to Y</fr:tex> with <fr:tex>e \mathbin{\circ} r = {\textrm{id}}_Z</fr:tex>.
-  </fr:p>
-
-  <fr:p>
-    Next, we consider the functor <fr:tex>\hom(Y, -)</fr:tex>. Since this gives a coequalizer of sets, the quotient <fr:tex>\hom(Y, Y) \xrightarrow{e \mathbin{\circ} -} \hom(Y, Z)</fr:tex> is given by the equivalence relation generated by <fr:tex>\partial_0 \mathbin{\circ} f = \partial_1 \mathbin{\circ} f</fr:tex> for every <fr:tex>f : Y \to X</fr:tex>. There is a pair of elements mapped to the same element under <fr:tex>e \mathbin{\circ} -</fr:tex> in this situation: one of them is obviously <fr:tex>{\textrm{id}}_Y</fr:tex>, and the other is <fr:tex>r \mathbin{\circ} e</fr:tex>, since <fr:tex>e \mathbin{\circ} {\textrm{id}}_Y = e = e \mathbin{\circ} r \mathbin{\circ} e</fr:tex>. Hence we get the chain of morphisms related in the way stated in the theorem.
-  </fr:p>
-
-  <fr:p>
-    Finally, we observe that these are enough to guarantee the given diagram is a coequalizer —— the diagram is a coequalizer simply by virtue of the shape of the diagram. Since any functor preserves the composition relation of morphisms, they must also give coequalizers, and therefore the coequalizer is absolute.
-  </fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>860</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000B</fr:addr><fr:route>ualg-000B.xml</fr:route><fr:title>Split coequalizer</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  We define a <fr:strong>split coequalizer</fr:strong> to be the following diagram:
-  
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="c97cb116ebd1e2d7d20fe5598e96bc5b"><fr:embedded-tex-preamble>
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-    X &amp; Y &amp; Z
-    \arrow["{\partial_0}", shift left, curve={height=-6pt}, from=1-1, to=1-2]
-    \arrow["{\partial_1}"', shift right, curve={height=6pt}, from=1-1, to=1-2]
-    \arrow["s"{description}, from=1-2, to=1-1]
-    \arrow["q", from=1-2, to=1-3]
-    \arrow["r", curve={height=-6pt}, from=1-3, to=1-2]
-  \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-  such that <fr:tex>q \mathbin{\circ} r = {\textrm{id}}_Z</fr:tex>, <fr:tex>r \mathbin{\circ} q = \partial_0 \mathbin{\circ} s</fr:tex> and <fr:tex>\partial_1 \mathbin{\circ} s = {\textrm{id}}_Y</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>862</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000A</fr:addr><fr:route>ualg-000A.xml</fr:route><fr:title>Monadic functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a pair of adjoint functors <fr:tex>F \dashv G</fr:tex>, <fr:tex>G</fr:tex> is <fr:strong>monadic</fr:strong> if the corresponding <fr:link
-href="ualg-0009.xml"
-type="local"
-addr="ualg-0009">comparison functor</fr:link> to <fr:tex>{\mathcal{C}}^{G \mathbin{\circ} F}</fr:tex> is an equivalence in <fr:link
-href="ualg-0007.xml"
-type="local"
-addr="ualg-0007">the bicategory of decompositions</fr:link>.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="true"><fr:frontmatter><fr:anchor>849</fr:anchor><fr:addr>trebor-0001</fr:addr><fr:route>index.xml</fr:route><fr:title>Trebor’s forest</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  This is my forest, which is <fr:link
-href="https://www.jonmsterling.com/jms-005P.xml"
-type="external">a way of organizing notes</fr:link>. Here is <fr:link
-href="https://www.jonmsterling.com/jms-009H.xml"
-type="external">a list of other websites organized as forests</fr:link>. Some of the contents here:
-</fr:p><fr:ul><fr:li><fr:link
 href="hmlg-0001.xml"
-type="local"
-addr="hmlg-0001">Notes on homological algebra</fr:link></fr:li>
+addr="hmlg-0001"
+title="Homological Algebra">Notes on homological algebra</fr:link></fr:li>
   <fr:li><fr:link
-href="hmlg-001K.xml"
 type="local"
-addr="hmlg-001K">Effective homology</fr:link></fr:li>
+href="hmlg-001K.xml"
+addr="hmlg-001K"
+title="Effective homology">Effective homology</fr:link></fr:li>
   <fr:li>Algebraic geometry (Under namespace <fr:code>algm</fr:code>, not organized)</fr:li>
   <fr:li><fr:link
-href="ualg-000H.xml"
 type="local"
-addr="ualg-000H">Beck monadicity theorem</fr:link></fr:li></fr:ul><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="ualg-000H.xml"
+addr="ualg-000H"
+title="Beck monadicity theorem">Beck monadicity theorem</fr:link></fr:li></fr:ul><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>847</fr:anchor><fr:addr>trebor-0002</fr:addr><fr:route>trebor-0002.xml</fr:route><fr:title>Style of writing</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>805</fr:anchor><fr:addr
+type="user">trebor-0002</fr:addr><fr:route>trebor-0002.xml</fr:route><fr:title
+text="Style of writing">Style of writing</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  I try to adhere to several principles when composing trees.
-</fr:p><fr:ul><fr:li>
-    If a part of a proof has an easy constructive phrasing, use it and avoid classical reasoning. But if it requires some complication, then the classical way is used.
-  </fr:li>
-  <fr:li>
-    Avoid abstraction leaks. Even if A is defined as B, do not use them interchangeably. For instance, an ideal is defined as a subset of a ring satisfying certain conditions. But we will insist on writing ideals as numbers, for example saying <fr:tex>\mathfrak{a} \mid x</fr:tex> instead of <fr:tex>x \in \mathfrak{a}</fr:tex>. This is not too heretic, since algebraic number theory already uses this kind of notation. Similarly, although prime ideals correspond to points in <fr:tex>\operatorname{Spec}(A)</fr:tex>, we do not identify them.
-  </fr:li>
-  <fr:li>
-    Apply <fr:link
-href="https://ncatlab.org/nlab/show/biased+definition"
-type="external">unbiased terminology</fr:link> and <fr:link
-href="https://ncatlab.org/nlab/show/negative+thinking"
-type="external">negative thinking</fr:link>.
-  </fr:li></fr:ul></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>I try to adhere to several principles when composing trees.</fr:p><fr:ul><fr:li>If a part of a proof has an easy constructive phrasing, use it and avoid classical reasoning. But if it requires some complication, then the classical way is used.</fr:li>
+  <fr:li>Avoid abstraction leaks. Even if A is defined as B, do not use them interchangeably. For instance, an ideal is defined as a subset of a ring satisfying certain conditions. But we will insist on writing ideals as numbers, for example saying <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  x]]></fr:tex> instead of <fr:tex
+display="inline"><![CDATA[x \in  \mathfrak {a}]]></fr:tex>. This is not too heretic, since algebraic number theory already uses this kind of notation. Similarly, although prime ideals correspond to points in <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(A)]]></fr:tex>, we do not identify them.</fr:li>
+  <fr:li>Apply <fr:link
+type="external"
+href="https://ncatlab.org/nlab/show/biased+definition">unbiased terminology</fr:link> and <fr:link
+type="external"
+href="https://ncatlab.org/nlab/show/negative+thinking">negative thinking</fr:link>.</fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>807</fr:anchor><fr:addr
+type="user">ualg-000I</fr:addr><fr:route>ualg-000I.xml</fr:route><fr:title
+text="Limits and colimits created by a monadic functor">Limits and colimits created by a monadic functor</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:link
+type="local"
+href="ualg-000A.xml"
+addr="ualg-000A"
+title="Monadic functor">monadic functor</fr:link> <fr:link
+type="local"
+href="ualg-000G.xml"
+addr="ualg-000G"
+title="Preservation, lifting, reflection and creation of limits">creates</fr:link> all limits. It also creates all colimits preserved by the monad.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>793</fr:anchor><fr:addr
+type="machine">#232</fr:addr><fr:route>unstable-232.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000I</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>By definition, we just need to prove the functor <fr:tex
+display="inline"><![CDATA[\mathcal {C}^M \to  \mathcal {C}]]></fr:tex> creates these limits and colimits. Given a diagram <fr:tex
+display="inline"><![CDATA[(M X_i \xrightarrow {\alpha _i} X_i)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathcal {C}^M]]></fr:tex>, we can simply define an <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>-algebra structure on <fr:tex
+display="inline"><![CDATA[\lim  X_i]]></fr:tex> by assigning <fr:tex
+display="inline"><![CDATA[M(\lim  X_i) \to  \lim  X_i]]></fr:tex> the obvious map. This is the limit of the original diagram by a simple diagram chase, hence it is lifted. The cones over the diagram are determined by their image under the forgetful functor, so the lift is unique, which means the limit is trivially reflected.</fr:p>
+
+  <fr:p>For colimits, if <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> preserves a colimit, then we can similarly define an algebra structure as <fr:tex
+display="inline"><![CDATA[M(\operatorname *{colim} X_i) \cong  \operatorname *{colim} M X_i \to  \operatorname *{colim} X_i]]></fr:tex>. The lift is also unique, which means it is reflected.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>809</fr:anchor><fr:addr
+type="user">ualg-000G</fr:addr><fr:route>ualg-000G.xml</fr:route><fr:title
+text="Preservation, lifting, reflection and creation of limits">Preservation, lifting, reflection and creation of limits</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Consider a functor <fr:tex
+display="inline"><![CDATA[F : \mathcal {C} \to  \mathcal {D}]]></fr:tex>.</fr:p><fr:ul><fr:li>If a limit cone <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is mapped to a limit cone in <fr:tex
+display="inline"><![CDATA[\mathcal {D}]]></fr:tex>, then the functor <fr:strong>preserves</fr:strong> the limit <fr:tex
+display="inline"><![CDATA[I]]></fr:tex>.</fr:li>
+  <fr:li>If given a diagram <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> and a limit cone <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[F \mathbin {\circ } D]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathcal {D}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> can be extended to a limit cone in <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex> that maps to <fr:tex
+display="inline"><![CDATA[L]]></fr:tex>, then the functor <fr:strong>lifts</fr:strong> the limit <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[D]]></fr:tex>.</fr:li>
+  <fr:li>If all the cones that maps to a limit cone <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathcal {D}]]></fr:tex> are limit cones in <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, then the functor <fr:strong>reflects</fr:strong> the limit <fr:tex
+display="inline"><![CDATA[L]]></fr:tex>.</fr:li>
+  <fr:li>If given a diagram <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> and a limit cone <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[F \mathbin {\circ } D]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathcal {D}]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is reflected and lifted to <fr:tex
+display="inline"><![CDATA[D]]></fr:tex>, then the limit of <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> is <fr:strong>created</fr:strong>.</fr:li></fr:ul><fr:p>This can be easily generalized to cover a type of limits or all limits, and can be dualized to colimits. The definitions here are not agreed upon, and the literature may have slight variations. We consider univalent categories here, so that definitions are automatically adjusted to be equivalence-invariant.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>811</fr:anchor><fr:addr
+type="user">ualg-000E</fr:addr><fr:route>ualg-000E.xml</fr:route><fr:title
+text="Crude monadicity theorem">Crude monadicity theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[G : \mathcal {D} \to  \mathcal {C}]]></fr:tex> be a functor with a left adjoint <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>. <fr:tex
+display="inline"><![CDATA[M = G \mathbin {\circ } F]]></fr:tex> is the corresponding monad on <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>. This gives a <fr:link
+type="local"
+href="ualg-0009.xml"
+addr="ualg-0009"
+title="The Eilenberg–Moore category induces the terminal decomposition of a monad">comparison functor</fr:link> <fr:tex
+display="inline"><![CDATA[K : \mathcal {A} \to  \mathcal {C}^M]]></fr:tex>.</fr:p><fr:ol><fr:li>If <fr:tex
+display="inline"><![CDATA[\mathcal {D}]]></fr:tex> has all coequalizers (we can weaken this to <fr:link
+type="local"
+href="ualg-000F.xml"
+addr="ualg-000F"
+title="Reflexive pair">reflexive coequalizers</fr:link>), then <fr:tex
+display="inline"><![CDATA[K]]></fr:tex> has a left adjoint.</fr:li>
+  <fr:li>If moreover <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> preserves these reflexive coequalizers, the unit <fr:tex
+display="inline"><![CDATA[\textrm {Id} \to  K \mathbin {\circ } L]]></fr:tex> is an isomorphism.</fr:li>
+  <fr:li>Finally, if <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> reflects isomorphisms, then the counit <fr:tex
+display="inline"><![CDATA[L \mathbin {\circ } K \to  \textrm {Id}]]></fr:tex> is also an isomorphism, making <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> <fr:link
+type="local"
+href="ualg-000A.xml"
+addr="ualg-000A"
+title="Monadic functor">monadic</fr:link>.</fr:li></fr:ol>
+  
+    
+    <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>813</fr:anchor><fr:addr
+type="machine">#234</fr:addr><fr:route>unstable-234.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000E</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>For the first claim, we need a functor <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> such that arrows from <fr:tex
+display="inline"><![CDATA[L(GFA \xrightarrow {\alpha } A)]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is in bijection with commutative squares
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="7552ab0a1122c764613faeef0d30c0bc"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      GFA & GFGX \\
+      A & GX
+      \arrow [from=1-1, to=1-2]
+      \arrow ["{\alpha }"', from=1-1, to=2-1]
+      \arrow ["{G \epsilon }", from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    which are equivalent by <fr:tex
+display="inline"><![CDATA[F \dashv  G]]></fr:tex> to the commutative squares
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="742f273ba13897778c25fb9ad1150d18"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      FGFA & FGX \\
+      FA & X
+      \arrow ["FG\varphi ", from=1-1, to=1-2]
+      \arrow ["F\alpha "', from=1-1, to=2-1]
+      \arrow ["\epsilon ", from=1-2, to=2-2]
+      \arrow ["\varphi ", from=2-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    Further notice that <fr:tex
+display="inline"><![CDATA[\epsilon  \mathbin {\circ } FG\varphi  = \varphi  \mathbin {\circ } \epsilon ]]></fr:tex> by naturality. So it becomes obvious that <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> should be defined as the coequalizer of the pair <fr:tex
+display="block"><![CDATA[F \alpha , \epsilon  : FGFA \rightrightarrows  FA.]]></fr:tex> This is reflexive by the common section <fr:tex
+display="inline"><![CDATA[F\eta ]]></fr:tex>.</fr:p>
+
+  <fr:p>For the second point, we unfold the unit as a natural family of commutative squares
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="857909e7575ed30b312cefad4ffa82e3"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      GFA & {GFG\operatorname *{colim}(FGFA \rightrightarrows  FA)} \\
+      A & {G\operatorname *{colim}(FGFA \rightrightarrows  FA)}
+      \arrow [from=1-1, to=1-2]
+      \arrow [from=1-1, to=2-1]
+      \arrow [from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+    and when <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> preserves the coequalizers in the diagram, the problem is reduced to showing that the coequalizer of <fr:tex
+display="inline"><![CDATA[GF\alpha ]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[G\epsilon  : GFGFA \rightrightarrows  GFA]]></fr:tex> is isomorphic to <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> via the bottom map, which is just the unit <fr:tex
+display="inline"><![CDATA[\eta  : A \to  GFA]]></fr:tex> composed with the coequalizing map. This is a routine diagram chase.</fr:p>
+
+  <fr:p>For the final point, we would like the coequalizer of <fr:tex
+display="inline"><![CDATA[FG\epsilon , \epsilon  : FGFGX \rightrightarrows  FGX]]></fr:tex> to be isomorphic to <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. If we apply <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> to the diagram, we get an isomorphism to <fr:tex
+display="inline"><![CDATA[GX]]></fr:tex> by the previous point. So if <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> reflects isomorphisms, we’re done.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>818</fr:anchor><fr:addr
+type="user">ualg-000D</fr:addr><fr:route>ualg-000D.xml</fr:route><fr:title
+text="Characterization of absolute coequalizers">Characterization of absolute coequalizers</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a coequalizer diagram <fr:tex
+display="inline"><![CDATA[X \rightrightarrows  Y \to  Z]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[\partial _0, \partial _1 : X \to  Y]]></fr:tex> are the two parallel arrows and the coequalizing arrow is <fr:tex
+display="inline"><![CDATA[e : Y \to  Z]]></fr:tex>, it is <fr:link
+type="local"
+href="ualg-000C.xml"
+addr="ualg-000C"
+title="Absolute (co)limit">absolute</fr:link>, if and only if the following conditions hold.</fr:p><fr:ul><fr:li><fr:tex
+display="inline"><![CDATA[e]]></fr:tex> is split epimorphic, i.e. there is an arrow <fr:tex
+display="inline"><![CDATA[r]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[e \mathbin {\circ } r = \textrm {id}_Z]]></fr:tex>.</fr:li>
+  <fr:li>There is a list of <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> endomorphisms on <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> starting with <fr:tex
+display="inline"><![CDATA[r \mathbin {\circ } e]]></fr:tex> and ending with <fr:tex
+display="inline"><![CDATA[\textrm {id}_Y]]></fr:tex>, such that for each pair of adjacent morphisms, there is an arrow <fr:tex
+display="inline"><![CDATA[s]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\partial _0 \mathbin {\circ } s]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\partial _1 \mathbin {\circ } s]]></fr:tex> are equal to the two morphisms (in some order).</fr:li></fr:ul><fr:p>Note that for <fr:tex
+display="inline"><![CDATA[n = 0]]></fr:tex> this is the trivial coequalizer where <fr:tex
+display="inline"><![CDATA[\partial _0 = \partial _1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[e]]></fr:tex> is an isomorphism. For <fr:tex
+display="inline"><![CDATA[n = 1]]></fr:tex> this results in the <fr:link
+type="local"
+href="ualg-000B.xml"
+addr="ualg-000B"
+title="Split coequalizer">split coequalizer</fr:link>.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>820</fr:anchor><fr:addr
+type="machine">#235</fr:addr><fr:route>unstable-235.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000D</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>By the definition of an <fr:link
+type="local"
+href="ualg-000C.xml"
+addr="ualg-000C"
+title="Absolute (co)limit">absolute (co)limit</fr:link>, the coequalizer is preserved by every functor. Consider the functor <fr:tex
+display="inline"><![CDATA[\hom (Z, -)]]></fr:tex>. We have <fr:tex
+display="inline"><![CDATA[\hom (Z, e)]]></fr:tex> is a coequalizer map, and hence epimorphic. This means <fr:tex
+display="inline"><![CDATA[e]]></fr:tex> itself is split epimorphic since <fr:tex
+display="inline"><![CDATA[\textrm {id}_Z]]></fr:tex> is in the image, i.e. there is a morphism <fr:tex
+display="inline"><![CDATA[r : Z \to  Y]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[e \mathbin {\circ } r = \textrm {id}_Z]]></fr:tex>.</fr:p>
+
+  <fr:p>Next, we consider the functor <fr:tex
+display="inline"><![CDATA[\hom (Y, -)]]></fr:tex>. Since this gives a coequalizer of sets, the quotient <fr:tex
+display="inline"><![CDATA[\hom (Y, Y) \xrightarrow {e \mathbin {\circ } -} \hom (Y, Z)]]></fr:tex> is given by the equivalence relation generated by <fr:tex
+display="inline"><![CDATA[\partial _0 \mathbin {\circ } f = \partial _1 \mathbin {\circ } f]]></fr:tex> for every <fr:tex
+display="inline"><![CDATA[f : Y \to  X]]></fr:tex>. There is a pair of elements mapped to the same element under <fr:tex
+display="inline"><![CDATA[e \mathbin {\circ } -]]></fr:tex> in this situation: one of them is obviously <fr:tex
+display="inline"><![CDATA[\textrm {id}_Y]]></fr:tex>, and the other is <fr:tex
+display="inline"><![CDATA[r \mathbin {\circ } e]]></fr:tex>, since <fr:tex
+display="inline"><![CDATA[e \mathbin {\circ } \textrm {id}_Y = e = e \mathbin {\circ } r \mathbin {\circ } e]]></fr:tex>. Hence we get the chain of morphisms related in the way stated in the theorem.</fr:p>
+
+  <fr:p>Finally, we observe that these are enough to guarantee the given diagram is a coequalizer —— the diagram is a coequalizer simply by virtue of the shape of the diagram. Since any functor preserves the composition relation of morphisms, they must also give coequalizers, and therefore the coequalizer is absolute.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>822</fr:anchor><fr:addr
+type="user">ualg-000B</fr:addr><fr:route>ualg-000B.xml</fr:route><fr:title
+text="Split coequalizer">Split coequalizer</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We define a <fr:strong>split coequalizer</fr:strong> to be the following diagram:
+  
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="5ceb23e39cb73d22e2cb02c70866ddd9"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+    X & Y & Z
+    \arrow ["{\partial _0}", shift left, curve={height=-6pt}, from=1-1, to=1-2]
+    \arrow ["{\partial _1}"', shift right, curve={height=6pt}, from=1-1, to=1-2]
+    \arrow ["s"{description}, from=1-2, to=1-1]
+    \arrow ["q", from=1-2, to=1-3]
+    \arrow ["r", curve={height=-6pt}, from=1-3, to=1-2]
+  \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+  such that <fr:tex
+display="inline"><![CDATA[q \mathbin {\circ } r = \textrm {id}_Z]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[r \mathbin {\circ } q = \partial _0 \mathbin {\circ } s]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\partial _1 \mathbin {\circ } s = \textrm {id}_Y]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>825</fr:anchor><fr:addr
+type="user">ualg-000A</fr:addr><fr:route>ualg-000A.xml</fr:route><fr:title
+text="Monadic functor">Monadic functor</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a pair of adjoint functors <fr:tex
+display="inline"><![CDATA[F \dashv  G]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> is <fr:strong>monadic</fr:strong> if the corresponding <fr:link
+type="local"
+href="ualg-0009.xml"
+addr="ualg-0009"
+title="The Eilenberg–Moore category induces the terminal decomposition of a monad">comparison functor</fr:link> to <fr:tex
+display="inline"><![CDATA[\mathcal {C}^{G \mathbin {\circ } F}]]></fr:tex> is an equivalence in <fr:link
+type="local"
+href="ualg-0007.xml"
+addr="ualg-0007"
+title="Decomposition of a monad into adjoint functors">the bicategory of decompositions</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

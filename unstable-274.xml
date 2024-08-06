@@ -1,44 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2498</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1556</fr:anchor><fr:addr
+type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000B</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  Since <fr:tex>f</fr:tex> commutes with the boundary maps, it maps the boundaries in <fr:tex>C_n</fr:tex> to the boundaries in <fr:tex>D_n</fr:tex>. Therefore the map is well-defined after passing to the quotient.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Note that the stalk <fr:tex
+display="inline"><![CDATA[(\varphi ^{-1}\mathscr {O}_{Y})_x = \mathscr {O}_{Y, \varphi (x)}]]></fr:tex>. A germ being invertible implies for some neighborhood <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, it comes from an invertible section <fr:tex
+display="inline"><![CDATA[f \in  \Gamma (U, \varphi ^{-1}\mathscr {O}_Y)]]></fr:tex>, so the image in <fr:tex
+display="inline"><![CDATA[\Gamma (U, \mathscr {O}_X)]]></fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.</fr:p>
+
+  <fr:p>On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.</fr:p>
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2496</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-000B</fr:addr><fr:route>hmlg-000B.xml</fr:route><fr:title>Chain maps induce maps on homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1558</fr:anchor><fr:addr
+type="user">algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title
+text="Action of morphisms on stalks of locally ringed spaces">Action of morphisms on stalks of locally ringed spaces</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A chain map <fr:tex>f : C \to D</fr:tex> induces a family of homomorphisms <fr:tex>f_* : H_n (C) \to H_n (D)</fr:tex> on the homology groups. The identity map induces the identity morphism, and a composition of maps <fr:tex>f \mathbin{\circ} g</fr:tex> induces composition homomorphism <fr:tex>(f \mathbin{\circ} g)_* = f_* \mathbin{\circ} g_*</fr:tex>.
-</fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
+type="local"
+href="algm-000S.xml"
+addr="algm-000S"
+title="Morphism of ringed spaces">morphism of ringed spaces</fr:link> <fr:tex
+display="inline"><![CDATA[\varphi  : X \to  Y]]></fr:tex>, if it is <fr:link
+type="local"
+href="algm-000U.xml"
+addr="algm-000U"
+title="Morphism of locally ringed spaces">local</fr:link>, a germ is invertible iff its <fr:link
+type="local"
+href="algm-000V.xml"
+addr="algm-000V"
+title="Terminology of pullbacks">pullback</fr:link> under <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> is invertible. If the space <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> has enough points, then the inverse implication is also true.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2349</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1560</fr:anchor><fr:addr
+type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000B</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  Since <fr:tex>f</fr:tex> commutes with the boundary maps, it maps the boundaries in <fr:tex>C_n</fr:tex> to the boundaries in <fr:tex>D_n</fr:tex>. Therefore the map is well-defined after passing to the quotient.
-</fr:p></fr:mainmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Note that the stalk <fr:tex
+display="inline"><![CDATA[(\varphi ^{-1}\mathscr {O}_{Y})_x = \mathscr {O}_{Y, \varphi (x)}]]></fr:tex>. A germ being invertible implies for some neighborhood <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, it comes from an invertible section <fr:tex
+display="inline"><![CDATA[f \in  \Gamma (U, \varphi ^{-1}\mathscr {O}_Y)]]></fr:tex>, so the image in <fr:tex
+display="inline"><![CDATA[\Gamma (U, \mathscr {O}_X)]]></fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.</fr:p>
+
+  <fr:p>On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

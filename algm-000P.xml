@@ -1,59 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1728</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000P</fr:addr><fr:route>algm-000P.xml</fr:route><fr:title>Value of section at a point</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1647</fr:anchor><fr:addr
+type="user">algm-000P</fr:addr><fr:route>algm-000P.xml</fr:route><fr:title
+text="Value of section at a point">Value of section at a point</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
 href="algm-000L.xml"
-type="local"
-addr="algm-000L">locally ringed space</fr:link> and a section <fr:tex>f \in {\Gamma}(U, {\mathscr{O}})</fr:tex>, the germ of <fr:tex>f</fr:tex> at a point is an element of a local ring. The image of this element in the residue field, i.e. the quotient by the unique maximal ideal is called the <fr:strong>value</fr:strong> of this section at this point.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-000L"
+title="Locally ringed space">locally ringed space</fr:link> and a section <fr:tex
+display="inline"><![CDATA[f \in  \Gamma (U, \mathscr {O})]]></fr:tex>, the germ of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> at a point is an element of a local ring. The image of this element in the residue field, i.e. the quotient by the unique maximal ideal is called the <fr:strong>value</fr:strong> of this section at this point.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1726</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000L</fr:addr><fr:route>algm-000L.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1649</fr:anchor><fr:addr
+type="user">algm-000O</fr:addr><fr:route>algm-000O.xml</fr:route><fr:title
+text="Locally ringed space">Locally ringed space</fr:title><fr:taxon>Intuition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
-href="algm-000M.xml"
-type="local"
-addr="algm-000M">ringed space</fr:link>, i.e. a space <fr:tex>X</fr:tex> with a sheaf of rings <fr:tex>{\mathscr{O}}</fr:tex>, it is said to be <fr:strong>locally ringed</fr:strong> iff the following conditions hold.
-</fr:p><fr:ul><fr:li>If <fr:tex>{\Gamma}(U, {\mathscr{O}}) = 0</fr:tex>, then <fr:tex>U</fr:tex> is empty.</fr:li>
-  <fr:li>Suppose <fr:tex>f + g \in {\Gamma}(U, {\mathscr{O}})</fr:tex> is invertible, then we can cover <fr:tex>U</fr:tex> with two open sets such that <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> are invertible when restricted respectively.</fr:li></fr:ul><fr:p>
-  This can be unified as one condition: If a finite sum in <fr:tex>{\Gamma}(U, {\mathscr{O}})</fr:tex> is invertible, then each summand is invertible when restricted to an open, which jointly covers <fr:tex>U</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1724</fr:anchor><fr:taxon>Intuition</fr:taxon><fr:addr>algm-000O</fr:addr><fr:route>algm-000O.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The <fr:link
 href="algm-000L.xml"
+addr="algm-000L"
+title="Locally ringed space">locality</fr:link> requirement for a <fr:link
 type="local"
-addr="algm-000L">locality</fr:link> requirement for a <fr:link
 href="algm-000M.xml"
-type="local"
-addr="algm-000M">ringed space</fr:link> is to guarantee that the sections behave like functions valued in some field.
-</fr:p><fr:p>
-  It is impossible in general to discuss the vanishing region of a section <fr:tex>f \in {\Gamma}(U, {\mathscr{O}})</fr:tex>. For instance, the germs of continuous functions are non-zero on their support, which is the closure of the non-vanishing region. In algebraic geometry, such an overspill destroys most valuable information. We can talk about the maximal region on which the section is invertible, but this is different from being non-zero if sections don’t behave like functions. Similarly, it is also impossible to discuss the value of a section at some point in general. In locally ringed space, we have <fr:ref
+addr="algm-000M"
+title="Ringed space">ringed space</fr:link> is to guarantee that the sections behave like functions valued in some field.</fr:p><fr:p>It is impossible in general to discuss the vanishing region of a section <fr:tex
+display="inline"><![CDATA[f \in  \Gamma (U, \mathscr {O})]]></fr:tex>. For instance, the germs of continuous functions are non-zero on their support, which is the closure of the non-vanishing region. In algebraic geometry, such an overspill destroys most valuable information. We can talk about the maximal region on which the section is invertible, but this is different from being non-zero if sections don’t behave like functions. Similarly, it is also impossible to discuss the value of a section at some point in general. In locally ringed space, we have <fr:ref
 addr="algm-000P"
 href="algm-000P.xml"
-taxon="Definition"></fr:ref>.
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+taxon="Definition" />.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1651</fr:anchor><fr:addr
+type="user">algm-000L</fr:addr><fr:route>algm-000L.xml</fr:route><fr:title
+text="Locally ringed space">Locally ringed space</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
+type="local"
+href="algm-000M.xml"
+addr="algm-000M"
+title="Ringed space">ringed space</fr:link>, i.e. a space <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> with a sheaf of rings <fr:tex
+display="inline"><![CDATA[\mathscr {O}]]></fr:tex>, it is said to be <fr:strong>locally ringed</fr:strong> iff the following conditions hold.</fr:p><fr:ul><fr:li>If <fr:tex
+display="inline"><![CDATA[\Gamma (U, \mathscr {O}) = 0]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> is empty.</fr:li>
+  <fr:li>Suppose <fr:tex
+display="inline"><![CDATA[f + g \in  \Gamma (U, \mathscr {O})]]></fr:tex> is invertible, then we can cover <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> with two open sets such that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> are invertible when restricted respectively.</fr:li></fr:ul><fr:p>This can be unified as one condition: If a finite sum in <fr:tex
+display="inline"><![CDATA[\Gamma (U, \mathscr {O})]]></fr:tex> is invertible, then each summand is invertible when restricted to an open, which jointly covers <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

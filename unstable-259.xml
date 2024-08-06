@@ -1,54 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>623</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2232</fr:anchor><fr:addr
+type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0029</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Given a horn <fr:tex>\Lambda^n_k \to E</fr:tex> and a compatible simplex <fr:tex>\Delta^n \to B</fr:tex>, by the definition of simplicial fiber bundles, we may trivialize the bundle on the simplex locally. But since <fr:tex>F</fr:tex> is Kan, obviously <fr:tex>F \times \Delta^n \to \Delta^n</fr:tex> is also Kan. Hence we may select the required filling.
-  </fr:p>
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>(TODO)</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>621</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-0029</fr:addr><fr:route>hmlg-0029.xml</fr:route><fr:title>Kan fiber bundle</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2234</fr:anchor><fr:addr
+type="user">hmlg-000F</fr:addr><fr:route>hmlg-000F.xml</fr:route><fr:title
+text="Freyd–Mitchell embedding theorem">Freyd–Mitchell embedding theorem</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
-href="hmlg-0026.xml"
-type="local"
-addr="hmlg-0026">simplicial fiber bundle</fr:link> <fr:tex>p : E \to B</fr:tex>, it is a Kan fibration iff the fiber <fr:tex>F</fr:tex> is a Kan complex. Hence we call it a <fr:strong>Kan fiber bundle</fr:strong>. The proof yields an <fr:link
-href="hmlg-0027.xml"
-type="local"
-addr="hmlg-0027">effective Kan fibration</fr:link> if all the inputs are effective.
-</fr:p>
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-modules for some ring <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>619</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1189</fr:anchor><fr:addr
+type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0029</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Given a horn <fr:tex>\Lambda^n_k \to E</fr:tex> and a compatible simplex <fr:tex>\Delta^n \to B</fr:tex>, by the definition of simplicial fiber bundles, we may trivialize the bundle on the simplex locally. But since <fr:tex>F</fr:tex> is Kan, obviously <fr:tex>F \times \Delta^n \to \Delta^n</fr:tex> is also Kan. Hence we may select the required filling.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000F</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>(TODO)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

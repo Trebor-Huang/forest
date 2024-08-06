@@ -1,100 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2540</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0007</fr:addr><fr:route>hmlg-0007.xml</fr:route><fr:title>Components of a chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2439</fr:anchor><fr:addr
+type="user">hmlg-0007</fr:addr><fr:route>hmlg-0007.xml</fr:route><fr:title
+text="Components of a chain complex">Components of a chain complex</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
 href="hmlg-0003.xml"
-type="local"
-addr="hmlg-0003">chain complex</fr:link>, the <fr:strong>cycles</fr:strong> <fr:tex>Z_n</fr:tex> of dimension <fr:tex>n</fr:tex> are given by the kernel of <fr:tex>d_n : C_n \to C_{n-1}</fr:tex>. The <fr:strong>boundaries</fr:strong> <fr:tex>B_n</fr:tex> are given by the image of <fr:tex>d_{n+1} : C_{n+1} \to C_n</fr:tex>. The equation <fr:tex>d^2 = 0</fr:tex> is equivalent to <fr:tex
-display="block">0 \subseteq B_n \subseteq Z_n \subseteq C_n.</fr:tex> We can define quotient groups to measure the gaps in the inclusion chain. By the <fr:link
-href="https://en.wikipedia.org/wiki/Fundamental_theorem_on_homomorphisms"
-type="external">homomorphism theorem</fr:link>, the quotient <fr:tex>C_n / Z_n</fr:tex> is isomorphic to the image of <fr:tex>d_n</fr:tex>, which is the next boundary <fr:tex>B_{n-1}</fr:tex>. On the other hand, the <fr:strong>homology groups</fr:strong> <fr:tex>H_n(C)</fr:tex> are defined as the quotient <fr:tex>Z_n/B_n</fr:tex>.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="hmlg-0003"
+title="Chain complex of R-modules">chain complex</fr:link>, the <fr:strong>cycles</fr:strong> <fr:tex
+display="inline"><![CDATA[Z_n]]></fr:tex> of dimension <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> are given by the kernel of <fr:tex
+display="inline"><![CDATA[d_n : C_n \to  C_{n-1}]]></fr:tex>. The <fr:strong>boundaries</fr:strong> <fr:tex
+display="inline"><![CDATA[B_n]]></fr:tex> are given by the image of <fr:tex
+display="inline"><![CDATA[d_{n+1} : C_{n+1} \to  C_n]]></fr:tex>. The equation <fr:tex
+display="inline"><![CDATA[d^2 = 0]]></fr:tex> is equivalent to <fr:tex
+display="block"><![CDATA[0 \subseteq  B_n \subseteq  Z_n \subseteq  C_n.]]></fr:tex> We can define quotient groups to measure the gaps in the inclusion chain. By the <fr:link
+type="external"
+href="https://en.wikipedia.org/wiki/Fundamental_theorem_on_homomorphisms">homomorphism theorem</fr:link>, the quotient <fr:tex
+display="inline"><![CDATA[C_n / Z_n]]></fr:tex> is isomorphic to the image of <fr:tex
+display="inline"><![CDATA[d_n]]></fr:tex>, which is the next boundary <fr:tex
+display="inline"><![CDATA[B_{n-1}]]></fr:tex>. On the other hand, the <fr:strong>homology groups</fr:strong> <fr:tex
+display="inline"><![CDATA[H_n(C)]]></fr:tex> are defined as the quotient <fr:tex
+display="inline"><![CDATA[Z_n/B_n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2538</fr:anchor><fr:addr>hmlg-0006</fr:addr><fr:route>hmlg-0006.xml</fr:route><fr:title>Chain complexes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2441</fr:anchor><fr:addr
+type="user">hmlg-0006</fr:addr><fr:route>hmlg-0006.xml</fr:route><fr:title
+text="Chain complexes">Chain complexes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Chain complexes arose from combinatorial topology, in the form of a sequence of abelian groups <fr:tex>C_n</fr:tex> freely generated by cells of dimension <fr:tex>n</fr:tex> (i.e. encoding the formal sums of cells), and a <fr:em>boundary</fr:em> operator <fr:tex>d_n : C_n \to C_{n-1}</fr:tex>. The critical feature of the operator is <fr:tex
-display="block">d_{n-1} \mathbin{\circ} d_n = 0,</fr:tex> simply written as <fr:tex>d^2 = 0</fr:tex>, reflecting a deep geometric phenomenon that <html:mark
-xmlns:html="http://www.w3.org/1999/xhtml">the boundary of a shape doesn’t have any boundary itself</html:mark>.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2341</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0002</fr:addr><fr:route>hmlg-0002.xml</fr:route><fr:title>Chain complex of abelian groups</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>16</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>
-  A chain complex of abelian groups is given by a sequence of abelian groups <fr:tex>G_\bullet</fr:tex> together with homomorphisms <fr:tex>d_n : G_n \to G_{n-1}</fr:tex>, such that <fr:tex>d_{n-1} \mathbin{\circ} d_n = 0</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:p>This is eligible to immediate generalization.</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2342</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0003</fr:addr><fr:route>hmlg-0003.xml</fr:route><fr:title>Chain complex of <fr:tex>R</fr:tex>-modules</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:meta
-name="generalizes">hmlg-0002</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
-  A chain complex of <fr:tex>R</fr:tex>-modules is given by a sequence of modules <fr:tex>M_\bullet</fr:tex> together with <fr:tex>R</fr:tex>-linear maps <fr:tex>d_n : R_n \to R_{n-1}</fr:tex>, such that <fr:tex>d_{n-1} \mathbin{\circ} d_n = 0</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:p>
-  Homology can be defined using this algebraic information, without any further reference to topology. Homological algebra is then the algebraic part of reasoning utilized in algebraic topology, repackaged as a stand-alone branch of mathematics. We recall some basics of what we’ve got from algebraic topology.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2343</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0007</fr:addr><fr:route>hmlg-0007.xml</fr:route><fr:title>Components of a chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Chain complexes arose from combinatorial topology, in the form of a sequence of abelian groups <fr:tex
+display="inline"><![CDATA[C_n]]></fr:tex> freely generated by cells of dimension <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> (i.e. encoding the formal sums of cells), and a <fr:em>boundary</fr:em> operator <fr:tex
+display="inline"><![CDATA[d_n : C_n \to  C_{n-1}]]></fr:tex>. The critical feature of the operator is <fr:tex
+display="block"><![CDATA[d_{n-1} \mathbin {\circ } d_n = 0,]]></fr:tex> simply written as <fr:tex
+display="inline"><![CDATA[d^2 = 0]]></fr:tex>, reflecting a deep geometric phenomenon that <html:mark
+xmlns:html="http://www.w3.org/1999/xhtml">the boundary of a shape doesn’t have any boundary itself</html:mark>.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2249</fr:anchor><fr:addr
+type="user">hmlg-0002</fr:addr><fr:route>hmlg-0002.xml</fr:route><fr:title
+text="Chain complex of abelian groups">Chain complex of abelian groups</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>16</fr:day></fr:date><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>A chain complex of abelian groups is given by a sequence of abelian groups <fr:tex
+display="inline"><![CDATA[G_\bullet ]]></fr:tex> together with homomorphisms <fr:tex
+display="inline"><![CDATA[d_n : G_n \to  G_{n-1}]]></fr:tex>, such that <fr:tex
+display="inline"><![CDATA[d_{n-1} \mathbin {\circ } d_n = 0]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>This is eligible to immediate generalization.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2250</fr:anchor><fr:addr
+type="user">hmlg-0003</fr:addr><fr:route>hmlg-0003.xml</fr:route><fr:title
+text="Chain complex of R-modules">Chain complex of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-modules</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors /><fr:meta
+name="generalizes">hmlg-0002</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>A chain complex of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-modules is given by a sequence of modules <fr:tex
+display="inline"><![CDATA[M_\bullet ]]></fr:tex> together with <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-linear maps <fr:tex
+display="inline"><![CDATA[d_n : R_n \to  R_{n-1}]]></fr:tex>, such that <fr:tex
+display="inline"><![CDATA[d_{n-1} \mathbin {\circ } d_n = 0]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>Homology can be defined using this algebraic information, without any further reference to topology. Homological algebra is then the algebraic part of reasoning utilized in algebraic topology, repackaged as a stand-alone branch of mathematics. We recall some basics of what we’ve got from algebraic topology.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2251</fr:anchor><fr:addr
+type="user">hmlg-0007</fr:addr><fr:route>hmlg-0007.xml</fr:route><fr:title
+text="Components of a chain complex">Components of a chain complex</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
+type="local"
 href="hmlg-0003.xml"
-type="local"
-addr="hmlg-0003">chain complex</fr:link>, the <fr:strong>cycles</fr:strong> <fr:tex>Z_n</fr:tex> of dimension <fr:tex>n</fr:tex> are given by the kernel of <fr:tex>d_n : C_n \to C_{n-1}</fr:tex>. The <fr:strong>boundaries</fr:strong> <fr:tex>B_n</fr:tex> are given by the image of <fr:tex>d_{n+1} : C_{n+1} \to C_n</fr:tex>. The equation <fr:tex>d^2 = 0</fr:tex> is equivalent to <fr:tex
-display="block">0 \subseteq B_n \subseteq Z_n \subseteq C_n.</fr:tex> We can define quotient groups to measure the gaps in the inclusion chain. By the <fr:link
-href="https://en.wikipedia.org/wiki/Fundamental_theorem_on_homomorphisms"
-type="external">homomorphism theorem</fr:link>, the quotient <fr:tex>C_n / Z_n</fr:tex> is isomorphic to the image of <fr:tex>d_n</fr:tex>, which is the next boundary <fr:tex>B_{n-1}</fr:tex>. On the other hand, the <fr:strong>homology groups</fr:strong> <fr:tex>H_n(C)</fr:tex> are defined as the quotient <fr:tex>Z_n/B_n</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="hmlg-0003"
+title="Chain complex of R-modules">chain complex</fr:link>, the <fr:strong>cycles</fr:strong> <fr:tex
+display="inline"><![CDATA[Z_n]]></fr:tex> of dimension <fr:tex
+display="inline"><![CDATA[n]]></fr:tex> are given by the kernel of <fr:tex
+display="inline"><![CDATA[d_n : C_n \to  C_{n-1}]]></fr:tex>. The <fr:strong>boundaries</fr:strong> <fr:tex
+display="inline"><![CDATA[B_n]]></fr:tex> are given by the image of <fr:tex
+display="inline"><![CDATA[d_{n+1} : C_{n+1} \to  C_n]]></fr:tex>. The equation <fr:tex
+display="inline"><![CDATA[d^2 = 0]]></fr:tex> is equivalent to <fr:tex
+display="block"><![CDATA[0 \subseteq  B_n \subseteq  Z_n \subseteq  C_n.]]></fr:tex> We can define quotient groups to measure the gaps in the inclusion chain. By the <fr:link
+type="external"
+href="https://en.wikipedia.org/wiki/Fundamental_theorem_on_homomorphisms">homomorphism theorem</fr:link>, the quotient <fr:tex
+display="inline"><![CDATA[C_n / Z_n]]></fr:tex> is isomorphic to the image of <fr:tex
+display="inline"><![CDATA[d_n]]></fr:tex>, which is the next boundary <fr:tex
+display="inline"><![CDATA[B_{n-1}]]></fr:tex>. On the other hand, the <fr:strong>homology groups</fr:strong> <fr:tex
+display="inline"><![CDATA[H_n(C)]]></fr:tex> are defined as the quotient <fr:tex
+display="inline"><![CDATA[Z_n/B_n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2345</fr:anchor><fr:taxon>Visualization</fr:taxon><fr:addr>hmlg-000A</fr:addr><fr:route>hmlg-000A.xml</fr:route><fr:title>Chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2253</fr:anchor><fr:addr
+type="user">hmlg-000A</fr:addr><fr:route>hmlg-000A.xml</fr:route><fr:title
+text="Chain complex">Chain complex</fr:title><fr:taxon>Visualization</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Since the boundary subgroup in one dimension can also be considered as a quotient in a lower dimension, it may be beneficial to identify the two in a visualization. This leads to the following picture. Regions appearing to the right are to be considered as quotients, and those to the left as subobjects. Further development of this visualization scheme can be seen <fr:link
-href="https://www.3blue1brown.com/blog/exact-sequence-picturebook"
-type="external">here</fr:link>.
-</fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Since the boundary subgroup in one dimension can also be considered as a quotient in a lower dimension, it may be beneficial to identify the two in a visualization. This leads to the following picture. Regions appearing to the right are to be considered as quotients, and those to the left as subobjects. Further development of this visualization scheme can be seen <fr:link
+type="external"
+href="https://www.3blue1brown.com/blog/exact-sequence-picturebook">here</fr:link>.</fr:p>
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz">
     <fr:embedded-tex
-hash="1bc610e48445afb8a9637cc0ed34c98c"><fr:embedded-tex-preamble>
+hash="75975521ce806e2a3d6a44765ebdd313"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
       \usetikzlibrary{decorations.pathreplacing}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzpicture}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzpicture}
     \clip (-1.9, -2.4) rectangle (5.9, 2);
   \tikzset{every path/.style={thick}}
 
@@ -116,160 +163,203 @@ hash="1bc610e48445afb8a9637cc0ed34c98c"><fr:embedded-tex-preamble>
   \node at (4,1) {\(H_{n-1}\)};
 
   \draw (6,0) circle (1.6);
-\end{tikzpicture}
-    </fr:embedded-tex-body></fr:embedded-tex>
+\end {tikzpicture}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
-<fr:p>
-  We chose to draw circles to emphasize the individual chain groups. In more complicated situations, it is more convenient to draw a chain of rectangles, with each chain group spanning three rectangular regions. We would then need other means to convey the confines of each object.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+<fr:p>We chose to draw circles to emphasize the individual chain groups. In more complicated situations, it is more convenient to draw a chain of rectangles, with each chain group spanning three rectangular regions. We would then need other means to convey the confines of each object.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2347</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0008</fr:addr><fr:route>hmlg-0008.xml</fr:route><fr:title>Chain map</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2255</fr:anchor><fr:addr
+type="user">hmlg-0008</fr:addr><fr:route>hmlg-0008.xml</fr:route><fr:title
+text="Chain map">Chain map</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given two chain complexes <fr:tex>C_\bullet, D_\bullet</fr:tex>, the natural notion of morphisms between them is <fr:strong>chain maps</fr:strong>, i.e. a sequence of maps <fr:tex>f_n : C_n \to D_n</fr:tex> such that all the squares commute.
-</fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given two chain complexes <fr:tex
+display="inline"><![CDATA[C_\bullet , D_\bullet ]]></fr:tex>, the natural notion of morphisms between them is <fr:strong>chain maps</fr:strong>, i.e. a sequence of maps <fr:tex
+display="inline"><![CDATA[f_n : C_n \to  D_n]]></fr:tex> such that all the squares commute.</fr:p>
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="86a1a2daf12c432968b620ab79e2fc4c"><fr:embedded-tex-preamble>
+hash="4aa5fcb9e53dbbd7babc45525f24eb54"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-  \cdots &amp; {C_{n+1}} &amp; {C_n} &amp; {C_{n-1}} &amp; \cdots \\
-  \cdots &amp; {D_{n+1}} &amp; {D_n} &amp; {D_{n-1}} &amp; \cdots
-  \arrow["d", from=1-3, to=1-4]
-  \arrow["{f_n}"', from=1-3, to=2-3]
-  \arrow["{f_{n-1}}"', from=1-4, to=2-4]
-  \arrow["d"', from=2-3, to=2-4]
-  \arrow["d"', from=2-2, to=2-3]
-  \arrow["d", from=1-2, to=1-3]
-  \arrow[from=1-1, to=1-2]
-  \arrow[from=2-1, to=2-2]
-  \arrow[from=1-4, to=1-5]
-  \arrow[from=2-4, to=2-5]
-  \arrow["{f_{n+1}}"', from=1-2, to=2-2]
-\end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+  \cdots  & {C_{n+1}} & {C_n} & {C_{n-1}} & \cdots  \\
+  \cdots  & {D_{n+1}} & {D_n} & {D_{n-1}} & \cdots 
+  \arrow ["d", from=1-3, to=1-4]
+  \arrow ["{f_n}"', from=1-3, to=2-3]
+  \arrow ["{f_{n-1}}"', from=1-4, to=2-4]
+  \arrow ["d"', from=2-3, to=2-4]
+  \arrow ["d"', from=2-2, to=2-3]
+  \arrow ["d", from=1-2, to=1-3]
+  \arrow [from=1-1, to=1-2]
+  \arrow [from=2-1, to=2-2]
+  \arrow [from=1-4, to=1-5]
+  \arrow [from=2-4, to=2-5]
+  \arrow ["{f_{n+1}}"', from=1-2, to=2-2]
+\end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2351</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>hmlg-000B</fr:addr><fr:route>hmlg-000B.xml</fr:route><fr:title>Chain maps induce maps on homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2257</fr:anchor><fr:addr
+type="user">hmlg-000B</fr:addr><fr:route>hmlg-000B.xml</fr:route><fr:title
+text="Chain maps induce maps on homology">Chain maps induce maps on homology</fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A chain map <fr:tex>f : C \to D</fr:tex> induces a family of homomorphisms <fr:tex>f_* : H_n (C) \to H_n (D)</fr:tex> on the homology groups. The identity map induces the identity morphism, and a composition of maps <fr:tex>f \mathbin{\circ} g</fr:tex> induces composition homomorphism <fr:tex>(f \mathbin{\circ} g)_* = f_* \mathbin{\circ} g_*</fr:tex>.
-</fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A chain map <fr:tex
+display="inline"><![CDATA[f : C \to  D]]></fr:tex> induces a family of homomorphisms <fr:tex
+display="inline"><![CDATA[f_* : H_n (C) \to  H_n (D)]]></fr:tex> on the homology groups. The identity map induces the identity morphism, and a composition of maps <fr:tex
+display="inline"><![CDATA[f \mathbin {\circ } g]]></fr:tex> induces composition homomorphism <fr:tex
+display="inline"><![CDATA[(f \mathbin {\circ } g)_* = f_* \mathbin {\circ } g_*]]></fr:tex>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2349</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2259</fr:anchor><fr:addr
+type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000B</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>
-  Since <fr:tex>f</fr:tex> commutes with the boundary maps, it maps the boundaries in <fr:tex>C_n</fr:tex> to the boundaries in <fr:tex>D_n</fr:tex>. Therefore the map is well-defined after passing to the quotient.
-</fr:p></fr:mainmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000B</fr:parent></fr:frontmatter><fr:mainmatter><fr:p>Since <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> commutes with the boundary maps, it maps the boundaries in <fr:tex
+display="inline"><![CDATA[C_n]]></fr:tex> to the boundaries in <fr:tex
+display="inline"><![CDATA[D_n]]></fr:tex>. Therefore the map is well-defined after passing to the quotient.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2353</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000C</fr:addr><fr:route>hmlg-000C.xml</fr:route><fr:title>Quasi-isomorphism</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2261</fr:anchor><fr:addr
+type="user">hmlg-000C</fr:addr><fr:route>hmlg-000C.xml</fr:route><fr:title
+text="Quasi-isomorphism">Quasi-isomorphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:link
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:link
+type="local"
 href="hmlg-0008.xml"
+addr="hmlg-0008"
+title="Chain map">chain map</fr:link> is a <fr:strong>quasi-isomorphism</fr:strong> if it induces isomorphisms on the <fr:link
 type="local"
-addr="hmlg-0008">chain map</fr:link> is a <fr:strong>quasi-isomorphism</fr:strong> if it induces isomorphisms on the <fr:link
 href="hmlg-0007.xml"
-type="local"
-addr="hmlg-0007">homology groups</fr:link>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="hmlg-0007"
+title="Components of a chain complex">homology groups</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2355</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000D</fr:addr><fr:route>hmlg-000D.xml</fr:route><fr:title>Acyclic chain complex</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2263</fr:anchor><fr:addr
+type="user">hmlg-000D</fr:addr><fr:route>hmlg-000D.xml</fr:route><fr:title
+text="Acyclic chain complex">Acyclic chain complex</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  If all the homology groups vanish, then the chain complex is said fo be <fr:strong>acyclic</fr:strong> or <fr:strong>exact</fr:strong>. Equivalently, every cycle is a boundary.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If all the homology groups vanish, then the chain complex is said fo be <fr:strong>acyclic</fr:strong> or <fr:strong>exact</fr:strong>. Equivalently, every cycle is a boundary.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2357</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000H</fr:addr><fr:route>hmlg-000H.xml</fr:route><fr:title>Short exact sequence</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2265</fr:anchor><fr:addr
+type="user">hmlg-000H</fr:addr><fr:route>hmlg-000H.xml</fr:route><fr:title
+text="Short exact sequence">Short exact sequence</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>short exact sequence</fr:strong> is an exact sequence with all but three consecutive terms being zero. It is often written as <fr:tex
-display="block">0 \to A \to B \to C \to 0.</fr:tex> The short exact sequence describes how <fr:tex>B</fr:tex> is made up of a subobject <fr:tex>A</fr:tex> and a quotient <fr:tex>C</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:strong>short exact sequence</fr:strong> is an exact sequence with all but three consecutive terms being zero. It is often written as <fr:tex
+display="block"><![CDATA[0 \to  A \to  B \to  C \to  0.]]></fr:tex> The short exact sequence describes how <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> is made up of a subobject <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> and a quotient <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2359</fr:anchor><fr:addr>hmlg-000E</fr:addr><fr:route>hmlg-000E.xml</fr:route><fr:title>Difference of exactness and acyclicity</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2267</fr:anchor><fr:addr
+type="user">hmlg-000E</fr:addr><fr:route>hmlg-000E.xml</fr:route><fr:title
+text="Difference of exactness and acyclicity">Difference of exactness and acyclicity</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Although the definition of exactness and acyclicity are the same, they have different <fr:link
-href="https://ncatlab.org/nlab/show/concept+with+an+attitude"
-type="external">attitudes</fr:link>. Acyclicity reguards the chain complex as a geometric object, concerning cycles and boundaries. On the other hand, exactness takes a purely algebraic perspective, describing how the algebraic pieces fit together.
-</fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Although the definition of exactness and acyclicity are the same, they have different <fr:link
+type="external"
+href="https://ncatlab.org/nlab/show/concept+with+an+attitude">attitudes</fr:link>. Acyclicity reguards the chain complex as a geometric object, concerning cycles and boundaries. On the other hand, exactness takes a purely algebraic perspective, describing how the algebraic pieces fit together.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2443</fr:anchor><fr:addr
+type="user">hmlg-000C</fr:addr><fr:route>hmlg-000C.xml</fr:route><fr:title
+text="Quasi-isomorphism">Quasi-isomorphism</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:link
+type="local"
+href="hmlg-0008.xml"
+addr="hmlg-0008"
+title="Chain map">chain map</fr:link> is a <fr:strong>quasi-isomorphism</fr:strong> if it induces isomorphisms on the <fr:link
+type="local"
+href="hmlg-0007.xml"
+addr="hmlg-0007"
+title="Components of a chain complex">homology groups</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2537</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-0003</fr:addr><fr:route>hmlg-0003.xml</fr:route><fr:title>Chain complex of <fr:tex>R</fr:tex>-modules</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:meta
-name="generalizes">hmlg-0002</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>
-  A chain complex of <fr:tex>R</fr:tex>-modules is given by a sequence of modules <fr:tex>M_\bullet</fr:tex> together with <fr:tex>R</fr:tex>-linear maps <fr:tex>d_n : R_n \to R_{n-1}</fr:tex>, such that <fr:tex>d_{n-1} \mathbin{\circ} d_n = 0</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>2535</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-000C</fr:addr><fr:route>hmlg-000C.xml</fr:route><fr:title>Quasi-isomorphism</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:link
-href="hmlg-0008.xml"
-type="local"
-addr="hmlg-0008">chain map</fr:link> is a <fr:strong>quasi-isomorphism</fr:strong> if it induces isomorphisms on the <fr:link
-href="hmlg-0007.xml"
-type="local"
-addr="hmlg-0007">homology groups</fr:link>.
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2445</fr:anchor><fr:addr
+type="user">hmlg-0003</fr:addr><fr:route>hmlg-0003.xml</fr:route><fr:title
+text="Chain complex of R-modules">Chain complex of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-modules</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors /><fr:meta
+name="generalizes">hmlg-0002</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>A chain complex of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-modules is given by a sequence of modules <fr:tex
+display="inline"><![CDATA[M_\bullet ]]></fr:tex> together with <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>-linear maps <fr:tex
+display="inline"><![CDATA[d_n : R_n \to  R_{n-1}]]></fr:tex>, such that <fr:tex
+display="inline"><![CDATA[d_{n-1} \mathbin {\circ } d_n = 0]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

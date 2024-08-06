@@ -1,56 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1894</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000D</fr:addr><fr:route>algm-000D.xml</fr:route><fr:title>A closed in a noetherian space is uniquely a finite union of irreducible closeds</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1811</fr:anchor><fr:addr
+type="user">algm-000D</fr:addr><fr:route>algm-000D.xml</fr:route><fr:title
+text="A closed in a noetherian space is uniquely a finite union of irreducible closeds">A closed in a noetherian space is uniquely a finite union of irreducible closeds</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>If <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> is a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  If <fr:tex>X</fr:tex> is a <fr:link
 href="algm-000C.xml"
-type="local"
-addr="algm-000C">noetherian space</fr:link>, then a closed <fr:tex>Z \subseteq X</fr:tex> can be written uniquely as the union of finitely many irreducible closeds.
-</fr:p>
+addr="algm-000C"
+title="Noetherian space">noetherian space</fr:link>, then a closed <fr:tex
+display="inline"><![CDATA[Z \subseteq  X]]></fr:tex> can be written uniquely as the union of finitely many irreducible closeds.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1856</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#294</fr:addr><fr:route>unstable-294.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1779</fr:anchor><fr:addr
+type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000D</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We first deal with existence. By noetherianness, we perform well-founded induction. Suppose all the closed subsets of <fr:tex>Z</fr:tex> can be written as a finite union. If <fr:tex>Z</fr:tex> is irreducible then we’re done. Otherwise <fr:tex>Z = Z_1 \cup Z_2</fr:tex> is a non-trivial union of two closeds. By the induction hypothesis <fr:tex>Z_1</fr:tex> and <fr:tex>Z_2</fr:tex> can be written as a finite union of irreducible closeds, which we can combine to get the desired union.
-  </fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000D</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We first deal with existence. By noetherianness, we perform well-founded induction. Suppose all the closed subsets of <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> can be written as a finite union. If <fr:tex
+display="inline"><![CDATA[Z]]></fr:tex> is irreducible then we’re done. Otherwise <fr:tex
+display="inline"><![CDATA[Z = Z_1 \cup  Z_2]]></fr:tex> is a non-trivial union of two closeds. By the induction hypothesis <fr:tex
+display="inline"><![CDATA[Z_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[Z_2]]></fr:tex> can be written as a finite union of irreducible closeds, which we can combine to get the desired union.</fr:p>
 
-  <fr:p>
-    We then prove uniqueness. Suppose
+  <fr:p>We then prove uniqueness. Suppose
     <fr:tex
-display="block">Z_1 \cup \cdots \cup Z_n = Z'_1 \cup \cdots \cup Z'_m.</fr:tex>
-    Consider the intersection with <fr:tex>Z_1</fr:tex>. The left hand side collapses to <fr:tex>Z_1</fr:tex>. The right hand side becomes <fr:tex>\bigcup_{i=1}^m (Z'_i \cap Z_1)</fr:tex>. Since <fr:tex>Z_1</fr:tex> is irreducible, <fr:tex>Z'_i \cap Z_1</fr:tex> must be either <fr:tex>Z_1</fr:tex> or empty. In the former case, since <fr:tex>Z'_i</fr:tex> is also irreducible, <fr:tex>Z'_i = Z_1</fr:tex>. Therefore each <fr:tex>Z_j</fr:tex> appears in the right hand side, and vice versa. Therefore the two sides are the same up to reordering and repetition.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+display="block"><![CDATA[Z_1 \cup  \cdots  \cup  Z_n = Z'_1 \cup  \cdots  \cup  Z'_m.]]></fr:tex>
+    Consider the intersection with <fr:tex
+display="inline"><![CDATA[Z_1]]></fr:tex>. The left hand side collapses to <fr:tex
+display="inline"><![CDATA[Z_1]]></fr:tex>. The right hand side becomes <fr:tex
+display="inline"><![CDATA[\bigcup _{i=1}^m (Z'_i \cap  Z_1)]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[Z_1]]></fr:tex> is irreducible, <fr:tex
+display="inline"><![CDATA[Z'_i \cap  Z_1]]></fr:tex> must be either <fr:tex
+display="inline"><![CDATA[Z_1]]></fr:tex> or empty. In the former case, since <fr:tex
+display="inline"><![CDATA[Z'_i]]></fr:tex> is also irreducible, <fr:tex
+display="inline"><![CDATA[Z'_i = Z_1]]></fr:tex>. Therefore each <fr:tex
+display="inline"><![CDATA[Z_j]]></fr:tex> appears in the right hand side, and vice versa. Therefore the two sides are the same up to reordering and repetition.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1892</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000C</fr:addr><fr:route>algm-000C.xml</fr:route><fr:title>Noetherian space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1813</fr:anchor><fr:addr
+type="user">algm-000C</fr:addr><fr:route>algm-000C.xml</fr:route><fr:title
+text="Noetherian space">Noetherian space</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A space is <fr:strong>noetherian</fr:strong> if every descending chain of closeds, or equivalently every ascending chain of opens stabilizes. In other words, the partial order of closeds is well-founded.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A space is <fr:strong>noetherian</fr:strong> if every descending chain of closeds, or equivalently every ascending chain of opens stabilizes. In other words, the partial order of closeds is well-founded.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

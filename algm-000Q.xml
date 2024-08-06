@@ -1,194 +1,298 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1698</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000Q</fr:addr><fr:route>algm-000Q.xml</fr:route><fr:title>Affine scheme</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1611</fr:anchor><fr:addr
+type="user">algm-000Q</fr:addr><fr:route>algm-000Q.xml</fr:route><fr:title
+text="Affine scheme">Affine scheme</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  An <fr:strong>affine scheme</fr:strong> is a <fr:link
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>An <fr:strong>affine scheme</fr:strong> is a <fr:link
+type="local"
 href="algm-000L.xml"
-type="local"
-addr="algm-000L">locally ringed space</fr:link> of the form <fr:tex>\operatorname{Spec}(R)</fr:tex> for some commutative ring <fr:tex>R</fr:tex>.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-000L"
+title="Locally ringed space">locally ringed space</fr:link> of the form <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> for some commutative ring <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1696</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000L</fr:addr><fr:route>algm-000L.xml</fr:route><fr:title>Locally ringed space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1613</fr:anchor><fr:addr
+type="user">algm-001V</fr:addr><fr:route>algm-001V.xml</fr:route><fr:title
+text="The scheme of invertible elements">The scheme of invertible elements</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We define the scheme <fr:tex
+display="inline"><![CDATA[\mathbf {G}_{m}]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[\operatorname {Spec} \mathbb {Z}[x, x^{-1}]]]></fr:tex>. It can be characterized by the points <fr:tex
+display="inline"><![CDATA[\hom (\mathbf {G}_{m}, \operatorname {Spec} R) = R^\times ]]></fr:tex> being the units of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. This scheme has a group structure. Since it is <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
-href="algm-000M.xml"
-type="local"
-addr="algm-000M">ringed space</fr:link>, i.e. a space <fr:tex>X</fr:tex> with a sheaf of rings <fr:tex>{\mathscr{O}}</fr:tex>, it is said to be <fr:strong>locally ringed</fr:strong> iff the following conditions hold.
-</fr:p><fr:ul><fr:li>If <fr:tex>{\Gamma}(U, {\mathscr{O}}) = 0</fr:tex>, then <fr:tex>U</fr:tex> is empty.</fr:li>
-  <fr:li>Suppose <fr:tex>f + g \in {\Gamma}(U, {\mathscr{O}})</fr:tex> is invertible, then we can cover <fr:tex>U</fr:tex> with two open sets such that <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> are invertible when restricted respectively.</fr:li></fr:ul><fr:p>
-  This can be unified as one condition: If a finite sum in <fr:tex>{\Gamma}(U, {\mathscr{O}})</fr:tex> is invertible, then each summand is invertible when restricted to an open, which jointly covers <fr:tex>U</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1688</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001V</fr:addr><fr:route>algm-001V.xml</fr:route><fr:title>The scheme of invertible elements</fr:title><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  We define the scheme <fr:tex>{\mathbf{G}_{m}}</fr:tex> as <fr:tex>\operatorname{Spec} \mathbb{Z}[x, x^{-1}]</fr:tex>. It can be characterized by the points <fr:tex>\hom({\mathbf{G}_{m}}, \operatorname{Spec} R) = R^\times</fr:tex> being the units of <fr:tex>R</fr:tex>. This scheme has a group structure. Since it is <fr:link
 href="algm-000Q.xml"
+addr="algm-000Q"
+title="Affine scheme">affine</fr:link>, <fr:tex
+display="inline"><![CDATA[1 \to  \mathbf {G}_{m}]]></fr:tex> is <fr:link
 type="local"
-addr="algm-000Q">affine</fr:link>, <fr:tex>1 \to {\mathbf{G}_{m}}</fr:tex> is <fr:link
 href="algm-000X.xml"
-type="local"
-addr="algm-000X">given</fr:link> by the ring homomorphism <fr:tex>\mathbb{Z}[x, x^{-1}] \to \mathbb Z</fr:tex> sending <fr:tex>x</fr:tex> to <fr:tex>1</fr:tex>. The product map is given by a ring homomorphism <fr:tex>\mathbb{Z}[x, x^{-1}] \otimes \mathbb{Z}[y, y^{-1}] \to \mathbb{Z}[z, z^{-1}]</fr:tex> (where we renamed the variables for clarity) sending <fr:tex>x \otimes y</fr:tex> to <fr:tex>z</fr:tex>. The inverse map <fr:tex>\mathbb{Z}[x, x^{-1}] \to \mathbb{Z}[x, x^{-1}]</fr:tex> sends <fr:tex>x</fr:tex> to <fr:tex>x^{-1}</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-000X"
+title="Morphisms of affine schemes">given</fr:link> by the ring homomorphism <fr:tex
+display="inline"><![CDATA[\mathbb {Z}[x, x^{-1}] \to  \mathbb  Z]]></fr:tex> sending <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[1]]></fr:tex>. The product map is given by a ring homomorphism <fr:tex
+display="inline"><![CDATA[\mathbb {Z}[x, x^{-1}] \otimes  \mathbb {Z}[y, y^{-1}] \to  \mathbb {Z}[z, z^{-1}]]]></fr:tex> (where we renamed the variables for clarity) sending <fr:tex
+display="inline"><![CDATA[x \otimes  y]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[z]]></fr:tex>. The inverse map <fr:tex
+display="inline"><![CDATA[\mathbb {Z}[x, x^{-1}] \to  \mathbb {Z}[x, x^{-1}]]]></fr:tex> sends <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[x^{-1}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1690</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0016</fr:addr><fr:route>algm-0016.xml</fr:route><fr:title>Nike’s trick</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1615</fr:anchor><fr:addr
+type="user">algm-0016</fr:addr><fr:route>algm-0016.xml</fr:route><fr:title
+text="Nike’s trick">Nike’s trick</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The intersections of two <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The intersections of two <fr:link
 href="algm-000Q.xml"
-type="local"
-addr="algm-000Q">affine</fr:link> subschemes <fr:tex>\operatorname{Spec}(R_1), \operatorname{Spec}(R_2) \hookrightarrow X</fr:tex> can be covered by affine schemes distinguished in both of them.
-</fr:p>
+addr="algm-000Q"
+title="Affine scheme">affine</fr:link> subschemes <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R_1), \operatorname {Spec}(R_2) \hookrightarrow  X]]></fr:tex> can be covered by affine schemes distinguished in both of them.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1493</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1440</fr:anchor><fr:addr
+type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0016</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We just need to cover each point of the intersection. Suppose a point in the intersection is given by a prime ideal <fr:tex>\mathfrak{p}</fr:tex> of <fr:tex>R_1</fr:tex>. We can pick a distinguished open <fr:tex>D(f)</fr:tex> of <fr:tex>\operatorname{Spec}(R_2)</fr:tex> contained in the intersection and containing <fr:tex>\mathfrak{p}</fr:tex>, and a distinguished open <fr:tex>D(g)</fr:tex> of <fr:tex>\operatorname{Spec}(R_1)</fr:tex> contained in <fr:tex>D(f)</fr:tex> and containing <fr:tex>\mathfrak{p}</fr:tex>. Now we prove that <fr:tex>D(g)</fr:tex> is a distinguished open in <fr:tex>\operatorname{Spec}(R_2)</fr:tex>.
-  </fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0016</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We just need to cover each point of the intersection. Suppose a point in the intersection is given by a prime ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[R_1]]></fr:tex>. We can pick a distinguished open <fr:tex
+display="inline"><![CDATA[D(f)]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R_2)]]></fr:tex> contained in the intersection and containing <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>, and a distinguished open <fr:tex
+display="inline"><![CDATA[D(g)]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R_1)]]></fr:tex> contained in <fr:tex
+display="inline"><![CDATA[D(f)]]></fr:tex> and containing <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>. Now we prove that <fr:tex
+display="inline"><![CDATA[D(g)]]></fr:tex> is a distinguished open in <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R_2)]]></fr:tex>.</fr:p>
 
-  <fr:p>
-    It suffices to prove that <fr:tex>D(g)</fr:tex> is a distinguished open in <fr:tex>\operatorname{Spec}(R_2 [f^{-1}])</fr:tex>, since this would imply the existence of an element <fr:tex>g'/f^{n} \in R_2[f^{-1}]</fr:tex>, and we can take <fr:tex>D(g') \cap D(f) = D(g' f)</fr:tex> in <fr:tex>\operatorname{Spec}(R_2)</fr:tex>. Now there is an inclusion map <fr:tex>\operatorname{Spec}(R_2[f^{-1}]) \to \operatorname{Spec}(R_1)</fr:tex>, which amounts to a ring homomorphism <fr:tex>\varphi</fr:tex> by <fr:ref
+  <fr:p>It suffices to prove that <fr:tex
+display="inline"><![CDATA[D(g)]]></fr:tex> is a distinguished open in <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R_2 [f^{-1}])]]></fr:tex>, since this would imply the existence of an element <fr:tex
+display="inline"><![CDATA[g'/f^{n} \in  R_2[f^{-1}]]]></fr:tex>, and we can take <fr:tex
+display="inline"><![CDATA[D(g') \cap  D(f) = D(g' f)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R_2)]]></fr:tex>. Now there is an inclusion map <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R_2[f^{-1}]) \to  \operatorname {Spec}(R_1)]]></fr:tex>, which amounts to a ring homomorphism <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> by <fr:ref
 addr="algm-000X"
 href="algm-000X.xml"
-taxon="Theorem"></fr:ref>. In this case, <fr:tex>D(\varphi(g))</fr:tex> is the required distinguished open, since <fr:tex>\varphi^{-1}D(u)</fr:tex> is equal to <fr:tex>D(\varphi(u))</fr:tex> in <fr:tex>\operatorname{Spec}(R_2 [f^{-1}])</fr:tex>.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+taxon="Theorem" />. In this case, <fr:tex
+display="inline"><![CDATA[D(\varphi (g))]]></fr:tex> is the required distinguished open, since <fr:tex
+display="inline"><![CDATA[\varphi ^{-1}D(u)]]></fr:tex> is equal to <fr:tex
+display="inline"><![CDATA[D(\varphi (u))]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R_2 [f^{-1}])]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1692</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title>Morphisms of affine schemes</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1617</fr:anchor><fr:addr
+type="user">algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title
+text="Morphisms of affine schemes">Morphisms of affine schemes</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 href="algm-000U.xml"
+addr="algm-000U"
+title="Morphism of locally ringed spaces">Morphism</fr:link> of <fr:link
 type="local"
-addr="algm-000U">Morphism</fr:link> of <fr:link
 href="algm-000Q.xml"
-type="local"
-addr="algm-000Q">affine schemes</fr:link> are in natural bijection with ring homomorphisms in the opposite direction. In other words, there is a fully faithful embedding <fr:tex>{\mathsf{CRing}}^{\textrm{op}} \to {\mathsf{Sch}}</fr:tex>.
-</fr:p>
+addr="algm-000Q"
+title="Affine scheme">affine schemes</fr:link> are in natural bijection with ring homomorphisms in the opposite direction. In other words, there is a fully faithful embedding <fr:tex
+display="inline"><![CDATA[\mathsf {CRing}^\textrm {op} \to  \mathsf {Sch}]]></fr:tex>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>567</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>545</fr:anchor><fr:addr
+type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Given two rings <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, a ring homomorphism <fr:tex
+display="inline"><![CDATA[\varphi  : S \to  R]]></fr:tex> naturally induces a map of <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Given two rings <fr:tex>R</fr:tex>, <fr:tex>S</fr:tex>, a ring homomorphism <fr:tex>\varphi : S \to R</fr:tex> naturally induces a map of <fr:link
 href="algm-0004.xml"
-type="local"
-addr="algm-0004">distinguished opens</fr:link> <fr:tex>f \mapsto \varphi(f)</fr:tex>. This is a continuous map <fr:tex>\operatorname{Spec}(R) \to \operatorname{Spec}(S)</fr:tex>, because <fr:tex>\varphi</fr:tex> preserves <fr:tex>\operatorname{lcm}</fr:tex> and <fr:tex>\gcd</fr:tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <fr:tex>{\Gamma}(D(s), {\mathscr{O}}_{\operatorname{Spec}(S)}) \to {\Gamma}(D(r), {\mathscr{O}}_{\operatorname{Spec}(R)})</fr:tex> whenever <fr:tex>D(r) \subseteq \varphi^{-1}D(s) = D(\varphi(s))</fr:tex>. This is just a homomorphism <fr:tex>S[s^{-1}] \to R[r^{-1}]</fr:tex>, which is obvious because <fr:tex>\varphi(s)</fr:tex> must be invertible in <fr:tex>R[r^{-1}]</fr:tex>.
-  </fr:p>
+addr="algm-0004"
+title="Distinguished opens of {Spec}(R)">distinguished opens</fr:link> <fr:tex
+display="inline"><![CDATA[f \mapsto  \varphi (f)]]></fr:tex>. This is a continuous map <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R) \to  \operatorname {Spec}(S)]]></fr:tex>, because <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> preserves <fr:tex
+display="inline"><![CDATA[\operatorname {lcm}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\gcd ]]></fr:tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <fr:tex
+display="inline"><![CDATA[\Gamma (D(s), \mathscr {O}_{\operatorname {Spec}(S)}) \to  \Gamma (D(r), \mathscr {O}_{\operatorname {Spec}(R)})]]></fr:tex> whenever <fr:tex
+display="inline"><![CDATA[D(r) \subseteq  \varphi ^{-1}D(s) = D(\varphi (s))]]></fr:tex>. This is just a homomorphism <fr:tex
+display="inline"><![CDATA[S[s^{-1}] \to  R[r^{-1}]]]></fr:tex>, which is obvious because <fr:tex
+display="inline"><![CDATA[\varphi (s)]]></fr:tex> must be invertible in <fr:tex
+display="inline"><![CDATA[R[r^{-1}]]]></fr:tex>.</fr:p>
 
-  <fr:p>
-    We need to prove our map is <fr:link
+  <fr:p>We need to prove our map is <fr:link
+type="local"
 href="algm-000U.xml"
+addr="algm-000U"
+title="Morphism of locally ringed spaces">local</fr:link>. Using the <fr:link
 type="local"
-addr="algm-000U">local</fr:link>. Using the <fr:link
 href="algm-000W.xml"
-type="local"
-addr="algm-000W">characterization on stalks</fr:link>, we just need to verify that <fr:tex>S_{\varphi^{-1}(\mathfrak{p})} \to R_{\mathfrak{p}}</fr:tex> reflects invertibility. This is true by construction. Hence we have a map <fr:tex>\hom_{{\mathsf{CRing}}}(S, R) \to \hom_{{\mathsf{Sch}}}(\operatorname{Spec}(R), \operatorname{Spec}(S))</fr:tex>.
-  </fr:p>
+addr="algm-000W"
+title="Action of morphisms on stalks of locally ringed spaces">characterization on stalks</fr:link>, we just need to verify that <fr:tex
+display="inline"><![CDATA[S_{\varphi ^{-1}(\mathfrak {p})} \to  R_{\mathfrak {p}}]]></fr:tex> reflects invertibility. This is true by construction. Hence we have a map <fr:tex
+display="inline"><![CDATA[\hom _{\mathsf {CRing}}(S, R) \to  \hom _{\mathsf {Sch}}(\operatorname {Spec}(R), \operatorname {Spec}(S))]]></fr:tex>.</fr:p>
 
-  <fr:p>
-    In the reverse direction, given a morphism <fr:tex>\varphi : \operatorname{Spec}(R) \to \operatorname{Spec}(S)</fr:tex>, we can extract a ring homomorphism by looking at the global sections
+  <fr:p>In the reverse direction, given a morphism <fr:tex
+display="inline"><![CDATA[\varphi  : \operatorname {Spec}(R) \to  \operatorname {Spec}(S)]]></fr:tex>, we can extract a ring homomorphism by looking at the global sections
     <fr:tex
-display="block">S \cong {\Gamma}(\top, \varphi^{-1}{\mathscr{O}}_{\operatorname{Spec}(S)}) \to {\Gamma}(\top, {\mathscr{O}}_{\operatorname{Spec}(R)}) \cong R.</fr:tex>
-    We obviously have going from <fr:tex>{\mathsf{CRing}}</fr:tex> to <fr:tex>{\mathsf{Sch}}</fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
+display="block"><![CDATA[S \cong  \Gamma (\top , \varphi ^{-1}\mathscr {O}_{\operatorname {Spec}(S)}) \to  \Gamma (\top , \mathscr {O}_{\operatorname {Spec}(R)}) \cong  R.]]></fr:tex>
+    We obviously have going from <fr:tex
+display="inline"><![CDATA[\mathsf {CRing}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
 
     
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="cf65e16cf4b03239ee9cfe91fa803b6a"><fr:embedded-tex-preamble>
+hash="c53e81307d06912948fdb79b10c12ad6"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-      S &amp; R \\
-      {S_{\mathfrak{q}}} &amp; {R_{\mathfrak{p}}}
-      \arrow[from=1-1, to=1-2]
-      \arrow[from=2-1, to=2-2]
-      \arrow[two heads, from=1-1, to=2-1]
-      \arrow[two heads, from=1-2, to=2-2]
-    \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      S & R \\
+      {S_{\mathfrak {q}}} & {R_{\mathfrak {p}}}
+      \arrow [from=1-1, to=1-2]
+      \arrow [from=2-1, to=2-2]
+      \arrow [two heads, from=1-1, to=2-1]
+      \arrow [two heads, from=1-2, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
 
-    where <fr:tex>\left[\mathfrak{q}\right]</fr:tex> is the image of the point <fr:tex>\left[\mathfrak{p}\right]</fr:tex> under the underlying continuous map of <fr:tex>\varphi</fr:tex>. This fixes the action of <fr:tex>\varphi</fr:tex> on the stalks. Furthermore, the <fr:link
-href="algm-000W.xml"
+    where <fr:tex
+display="inline"><![CDATA[\left [\mathfrak {q}\right ]]]></fr:tex> is the image of the point <fr:tex
+display="inline"><![CDATA[\left [\mathfrak {p}\right ]]]></fr:tex> under the underlying continuous map of <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex>. This fixes the action of <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> on the stalks. Furthermore, the <fr:link
 type="local"
-addr="algm-000W">locality</fr:link> implies the preimage of <fr:tex>\mathfrak{p}</fr:tex> under the ring homomorphism divides <fr:tex>\mathfrak{q}</fr:tex>, and since <fr:tex>\mathfrak{q}</fr:tex> is maximal in the local ring <fr:tex>S_{\mathfrak{q}}</fr:tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="algm-000W.xml"
+addr="algm-000W"
+title="Action of morphisms on stalks of locally ringed spaces">locality</fr:link> implies the preimage of <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> under the ring homomorphism divides <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and since <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> is maximal in the local ring <fr:tex
+display="inline"><![CDATA[S_{\mathfrak {q}}]]></fr:tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1694</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-000R</fr:addr><fr:route>algm-000R.xml</fr:route><fr:title>Scheme</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1619</fr:anchor><fr:addr
+type="user">algm-000R</fr:addr><fr:route>algm-000R.xml</fr:route><fr:title
+text="Scheme">Scheme</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:strong>scheme</fr:strong> is a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>scheme</fr:strong> is a <fr:link
 href="algm-000L.xml"
+addr="algm-000L"
+title="Locally ringed space">locally ringed space</fr:link> with an open covering on which the space is isomorphic to <fr:link
 type="local"
-addr="algm-000L">locally ringed space</fr:link> with an open covering on which the space is isomorphic to <fr:link
 href="algm-000Q.xml"
+addr="algm-000Q"
+title="Affine scheme">affine schemes</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1621</fr:anchor><fr:addr
+type="user">algm-000L</fr:addr><fr:route>algm-000L.xml</fr:route><fr:title
+text="Locally ringed space">Locally ringed space</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="algm-000Q">affine schemes</fr:link>.
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
+type="local"
+href="algm-000M.xml"
+addr="algm-000M"
+title="Ringed space">ringed space</fr:link>, i.e. a space <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> with a sheaf of rings <fr:tex
+display="inline"><![CDATA[\mathscr {O}]]></fr:tex>, it is said to be <fr:strong>locally ringed</fr:strong> iff the following conditions hold.</fr:p><fr:ul><fr:li>If <fr:tex
+display="inline"><![CDATA[\Gamma (U, \mathscr {O}) = 0]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> is empty.</fr:li>
+  <fr:li>Suppose <fr:tex
+display="inline"><![CDATA[f + g \in  \Gamma (U, \mathscr {O})]]></fr:tex> is invertible, then we can cover <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> with two open sets such that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> are invertible when restricted respectively.</fr:li></fr:ul><fr:p>This can be unified as one condition: If a finite sum in <fr:tex
+display="inline"><![CDATA[\Gamma (U, \mathscr {O})]]></fr:tex> is invertible, then each summand is invertible when restricted to an open, which jointly covers <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

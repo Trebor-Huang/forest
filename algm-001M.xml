@@ -1,97 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1299</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>algm-001M</fr:addr><fr:route>algm-001M.xml</fr:route><fr:title>Subobject classifier of presheaves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1242</fr:anchor><fr:addr
+type="user">algm-001M</fr:addr><fr:route>algm-001M.xml</fr:route><fr:title
+text="Subobject classifier of presheaves">Subobject classifier of presheaves</fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The subobject classifier <fr:tex>\Omega</fr:tex> of presheaves can be given by a quick calculation.
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The subobject classifier <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> of presheaves can be given by a quick calculation.
   <fr:tex
-display="block">{\Gamma}(U, \Omega)   \cong \hom(\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U), \Omega)   \cong \operatorname{Sub}(\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U))</fr:tex>
+display="block"><![CDATA[\Gamma (U, \Omega )   \cong  \hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U), \Omega )   \cong  \operatorname {Sub}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U))]]></fr:tex>
   By definition, this is the set of <fr:link
-href="algm-001B.xml"
 type="local"
-addr="algm-001B">sieves</fr:link> on <fr:tex>U</fr:tex>, and the functorial action is the <fr:link
+href="algm-001B.xml"
+addr="algm-001B"
+title="Sieve">sieves</fr:link> on <fr:tex
+display="inline"><![CDATA[U]]></fr:tex>, and the functorial action is the <fr:link
+type="local"
 href="algm-001C.xml"
-type="local"
-addr="algm-001C">pullback</fr:link>. For a monomorphism <fr:tex>F \hookrightarrow G</fr:tex>, an element <fr:tex>s \in {\Gamma}(U, G)</fr:tex> is sent to the sieve consisting of arrows <fr:tex>f : V \to U</fr:tex> such that the restriction along <fr:tex>f</fr:tex> is included in <fr:tex>F</fr:tex>.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-001C"
+title="Pullback of sieves">pullback</fr:link>. For a monomorphism <fr:tex
+display="inline"><![CDATA[F \hookrightarrow  G]]></fr:tex>, an element <fr:tex
+display="inline"><![CDATA[s \in  \Gamma (U, G)]]></fr:tex> is sent to the sieve consisting of arrows <fr:tex
+display="inline"><![CDATA[f : V \to  U]]></fr:tex> such that the restriction along <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is included in <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1295</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001C</fr:addr><fr:route>algm-001C.xml</fr:route><fr:title>Pullback of sieves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1244</fr:anchor><fr:addr
+type="user">algm-001N</fr:addr><fr:route>algm-001N.xml</fr:route><fr:title
+text="Grothendieck coverages and Lawvere–Tierney operators">Grothendieck coverages and Lawvere–Tierney operators</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Consider a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
-href="algm-001B.xml"
-type="local"
-addr="algm-001B">sieve</fr:link> <fr:tex>S</fr:tex> over <fr:tex>A</fr:tex> and a morphism <fr:tex>g : B \to A</fr:tex>, the <fr:strong>pullback</fr:strong> <fr:tex>g^* S</fr:tex> is a sieve over <fr:tex>B</fr:tex>. <fr:tex>h : C \to B</fr:tex> is in this sieve iff <fr:tex>g \mathbin{\circ} h</fr:tex> is in <fr:tex>S</fr:tex>. There is a natural map <fr:tex>g^* S \to S</fr:tex> given by <fr:tex>g \mathbin{\circ} -</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1297</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001B</fr:addr><fr:route>algm-001B.xml</fr:route><fr:title>Sieve</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>sieve</fr:strong> over an object <fr:tex>A</fr:tex> of an arbitrary category <fr:tex>{\mathcal{C}}</fr:tex> is a subfunctor of <fr:tex>\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(A)</fr:tex>. More explicitly, it selects some arrows with codomain <fr:tex>A</fr:tex>, such that the selected arrows absorbs composition (i.e. if <fr:tex>f : B \to A</fr:tex> is selected and <fr:tex>g : C \to B</fr:tex>, then <fr:tex>g \mathbin{\circ} f</fr:tex> is also selected).
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1293</fr:anchor><fr:addr>algm-001N</fr:addr><fr:route>algm-001N.xml</fr:route><fr:title>Grothendieck coverages and Lawvere–Tierney operators</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Consider a <fr:link
 href="algm-001L.xml"
-type="local"
-addr="algm-001L">Lawvere–Tierney operator</fr:link> on a presheaf category. Then we may calculate the subobject classifier as in <fr:ref
+addr="algm-001L"
+title="Lawvere–Tierney operator">Lawvere–Tierney operator</fr:link> on a presheaf category. Then we may calculate the subobject classifier as in <fr:ref
 addr="algm-001M"
 href="algm-001M.xml"
-taxon="Construction"></fr:ref>.
-</fr:p><fr:p>
-  By the definition of subobject classifiers, a <fr:link
-href="algm-001L.xml"
+taxon="Construction" />.</fr:p><fr:p>By the definition of subobject classifiers, a <fr:link
 type="local"
-addr="algm-001L">Lawvere–Tierney operator</fr:link> can be equivalently expressed as a subobject <fr:tex>J \subseteq \Omega</fr:tex>. Translating the condition of preserving finite intersections, it needs to contain the improper sieve, be upwards closed and closed under finite intersections. And <fr:tex>j \mathbin{\circ} j = j</fr:tex> implies the following pullback square:
+href="algm-001L.xml"
+addr="algm-001L"
+title="Lawvere–Tierney operator">Lawvere–Tierney operator</fr:link> can be equivalently expressed as a subobject <fr:tex
+display="inline"><![CDATA[J \subseteq  \Omega ]]></fr:tex>. Translating the condition of preserving finite intersections, it needs to contain the improper sieve, be upwards closed and closed under finite intersections. And <fr:tex
+display="inline"><![CDATA[j \mathbin {\circ } j = j]]></fr:tex> implies the following pullback square:
   
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="39ee037d205ec6b04533261f1eda08f3"><fr:embedded-tex-preamble>
+hash="d6485766ab43c0c3dfc20100a4403a1f"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}%tex
-    J &amp; J \\
-    \Omega &amp; \Omega
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}%tex
+    J & J \\
+    \Omega & \Omega
     \arrow[hook, from=1-2, to=2-2]
     \arrow["j"', from=2-1, to=2-2]
     \arrow[hook, from=1-1, to=2-1]
     \arrow[from=1-1, to=1-2]
-    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]\end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
+    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]\end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
-  In other words, a sieve is contained in <fr:tex>J</fr:tex> iff its image under <fr:tex>j</fr:tex> is also contained in <fr:tex>J</fr:tex>. Unfolding this, a sieve <fr:tex>S</fr:tex> is contained in <fr:tex>J</fr:tex> iff the arrows <fr:tex>g</fr:tex> such that <fr:tex>g^* S</fr:tex> is contained in <fr:tex>J</fr:tex> also form a sieve in <fr:tex>J</fr:tex>. Looking at the definition of a <fr:link
-href="algm-001A.xml"
+  In other words, a sieve is contained in <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> iff its image under <fr:tex
+display="inline"><![CDATA[j]]></fr:tex> is also contained in <fr:tex
+display="inline"><![CDATA[J]]></fr:tex>. Unfolding this, a sieve <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is contained in <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> iff the arrows <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[g^* S]]></fr:tex> is contained in <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> also form a sieve in <fr:tex
+display="inline"><![CDATA[J]]></fr:tex>. Looking at the definition of a <fr:link
 type="local"
-addr="algm-001A">Grothendieck coverage</fr:link>, we see that they are equivalent, if we regard <fr:tex>J</fr:tex> as picking out the covering sieves.
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+href="algm-001A.xml"
+addr="algm-001A"
+title="Grothendieck coverage">Grothendieck coverage</fr:link>, we see that they are equivalent, if we regard <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> as picking out the covering sieves.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1246</fr:anchor><fr:addr
+type="user">algm-001C</fr:addr><fr:route>algm-001C.xml</fr:route><fr:title
+text="Pullback of sieves">Pullback of sieves</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
+type="local"
+href="algm-001B.xml"
+addr="algm-001B"
+title="Sieve">sieve</fr:link> <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> and a morphism <fr:tex
+display="inline"><![CDATA[g : B \to  A]]></fr:tex>, the <fr:strong>pullback</fr:strong> <fr:tex
+display="inline"><![CDATA[g^* S]]></fr:tex> is a sieve over <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>. <fr:tex
+display="inline"><![CDATA[h : C \to  B]]></fr:tex> is in this sieve iff <fr:tex
+display="inline"><![CDATA[g \mathbin {\circ } h]]></fr:tex> is in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>. There is a natural map <fr:tex
+display="inline"><![CDATA[g^* S \to  S]]></fr:tex> given by <fr:tex
+display="inline"><![CDATA[g \mathbin {\circ } -]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1248</fr:anchor><fr:addr
+type="user">algm-001B</fr:addr><fr:route>algm-001B.xml</fr:route><fr:title
+text="Sieve">Sieve</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:strong>sieve</fr:strong> over an object <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> of an arbitrary category <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is a subfunctor of <fr:tex
+display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex>. More explicitly, it selects some arrows with codomain <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, such that the selected arrows absorbs composition (i.e. if <fr:tex
+display="inline"><![CDATA[f : B \to  A]]></fr:tex> is selected and <fr:tex
+display="inline"><![CDATA[g : C \to  B]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[g \mathbin {\circ } f]]></fr:tex> is also selected).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

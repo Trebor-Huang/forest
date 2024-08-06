@@ -1,169 +1,256 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1033</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0005</fr:addr><fr:route>ualg-0005.xml</fr:route><fr:title>The Kleisli category is equivalent to the category of free algebras</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>984</fr:anchor><fr:addr
+type="user">ualg-0005</fr:addr><fr:route>ualg-0005.xml</fr:route><fr:title
+text="The Kleisli category is equivalent to the category of free algebras">The Kleisli category is equivalent to the category of free algebras</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given category <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given category <fr:tex>{\mathcal{C}}</fr:tex>, <fr:link
 href="ualg-0004.xml"
+addr="ualg-0004"
+title="The Kleisli category of a monad">the Kleisli category of a monad</fr:link> <fr:tex
+display="inline"><![CDATA[M : \mathcal {C} \to  \mathcal {C}]]></fr:tex> is equivalent to the full subcategory of the <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>-<fr:link
 type="local"
-addr="ualg-0004">the Kleisli category of a monad</fr:link> <fr:tex>M : {\mathcal{C}} \to {\mathcal{C}}</fr:tex> is equivalent to the full subcategory of the <fr:tex>M</fr:tex>-<fr:link
 href="ualg-0002.xml"
+addr="ualg-0002"
+title="Algebra of a monad">algebras</fr:link> spanned by the <fr:link
 type="local"
-addr="ualg-0002">algebras</fr:link> spanned by the <fr:link
 href="ualg-0003.xml"
-type="local"
-addr="ualg-0003">free algebras</fr:link>.
-</fr:p>
+addr="ualg-0003"
+title="Free monad algebras">free algebras</fr:link>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>994</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>957</fr:anchor><fr:addr
+type="machine">#237</fr:addr><fr:route>unstable-237.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0005</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Consider the functor from the Kleisli category to the category of free algebras, sending <fr:tex>X</fr:tex> to the free algebra on <fr:tex>X</fr:tex>. This is fully faithful and surjective on objects.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0005</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Consider the functor from the Kleisli category to the category of free algebras, sending <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to the free algebra on <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>. This is fully faithful and surjective on objects.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1027</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-0004</fr:addr><fr:route>ualg-0004.xml</fr:route><fr:title>The Kleisli category of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>986</fr:anchor><fr:addr
+type="user">ualg-0006</fr:addr><fr:route>ualg-0006.xml</fr:route><fr:title
+text="Objects of the Kleisli category">Objects of the Kleisli category</fr:title><fr:taxon>Remark</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>An object of <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
-href="ualg-0001.xml"
+href="ualg-0004.xml"
+addr="ualg-0004"
+title="The Kleisli category of a monad">the Kleisli category of a monad</fr:link> can be considered as a <fr:link
 type="local"
-addr="ualg-0001">monad</fr:link> <fr:tex>M : {\mathcal{C}} \to {\mathcal{C}}</fr:tex> and two objects <fr:tex>X, Y</fr:tex> in <fr:tex>{\mathcal{C}}</fr:tex>, a <fr:strong>Kleisli arrow</fr:strong> from <fr:tex>X</fr:tex> to <fr:tex>Y</fr:tex> is simply any arrow <fr:tex>X \to MY</fr:tex>. This represents an algebra homomorphism from the free algebra generated by <fr:tex>X</fr:tex> to that of <fr:tex>Y</fr:tex>.
-</fr:p><fr:p>
-  The identity Kleisli arrow is defined as <fr:tex>\eta : X \to MX</fr:tex>. The composition of <fr:tex>f : X \to MY</fr:tex> and <fr:tex>g : Y \to MZ</fr:tex> is given by <fr:tex
-display="block">X \xrightarrow{f} MY \xrightarrow{Mg} M^2 Z \xrightarrow{\mu} MZ.</fr:tex> This forms a category whose objects are the objects of <fr:tex>{\mathcal{C}}</fr:tex>, as a formal symbol standing for the free algebra generated by those objects, and morphisms are Kleisli arrows. This is the <fr:strong>Kleisli category</fr:strong> <fr:tex>{\mathcal{C}}_M</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="ualg-0003.xml"
+addr="ualg-0003"
+title="Free monad algebras">free algebra</fr:link>, but <html:mark
+xmlns:html="http://www.w3.org/1999/xhtml">equipped with a canonical choice of generators</html:mark>. Hence although <fr:link
+type="local"
+href="ualg-0005.xml"
+addr="ualg-0005"
+title="The Kleisli category is equivalent to the category of free algebras">the Kleisli category is equivalent to the category of free algebras</fr:link>, the objects are essentially different. This manifests as the curious fact that the Kleisli category is not univalent, since an equality of Kleisli objects requires an isomorphism of the generators, but an isomorphism only requires the two free algebras to be isomorphic.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1029</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-0002</fr:addr><fr:route>ualg-0002.xml</fr:route><fr:title>Algebra of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>988</fr:anchor><fr:addr
+type="user">ualg-0004</fr:addr><fr:route>ualg-0004.xml</fr:route><fr:title
+text="The Kleisli category of a monad">The Kleisli category of a monad</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
 href="ualg-0001.xml"
+addr="ualg-0001"
+title="Monad on a category">monad</fr:link> <fr:tex
+display="inline"><![CDATA[M : \mathcal {C} \to  \mathcal {C}]]></fr:tex> and two objects <fr:tex
+display="inline"><![CDATA[X, Y]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, a <fr:strong>Kleisli arrow</fr:strong> from <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is simply any arrow <fr:tex
+display="inline"><![CDATA[X \to  MY]]></fr:tex>. This represents an algebra homomorphism from the free algebra generated by <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to that of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><fr:p>The identity Kleisli arrow is defined as <fr:tex
+display="inline"><![CDATA[\eta  : X \to  MX]]></fr:tex>. The composition of <fr:tex
+display="inline"><![CDATA[f : X \to  MY]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g : Y \to  MZ]]></fr:tex> is given by <fr:tex
+display="block"><![CDATA[X \xrightarrow {f} MY \xrightarrow {Mg} M^2 Z \xrightarrow {\mu } MZ.]]></fr:tex> This forms a category whose objects are the objects of <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, as a formal symbol standing for the free algebra generated by those objects, and morphisms are Kleisli arrows. This is the <fr:strong>Kleisli category</fr:strong> <fr:tex
+display="inline"><![CDATA[\mathcal {C}_M]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>990</fr:anchor><fr:addr
+type="user">ualg-0002</fr:addr><fr:route>ualg-0002.xml</fr:route><fr:title
+text="Algebra of a monad">Algebra of a monad</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="ualg-0001">monad</fr:link> <fr:tex>M : {\mathcal{C}} \to {\mathcal{C}}</fr:tex>, an <fr:tex>M</fr:tex>-<fr:strong>algebra</fr:strong> is defined as an object <fr:tex>X</fr:tex> equipped with a morphism <fr:tex>\alpha : MX \to X</fr:tex>, such that the following two diagrams commute.
-</fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
+type="local"
+href="ualg-0001.xml"
+addr="ualg-0001"
+title="Monad on a category">monad</fr:link> <fr:tex
+display="inline"><![CDATA[M : \mathcal {C} \to  \mathcal {C}]]></fr:tex>, an <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>-<fr:strong>algebra</fr:strong> is defined as an object <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> equipped with a morphism <fr:tex
+display="inline"><![CDATA[\alpha  : MX \to  X]]></fr:tex>, such that the following two diagrams commute.</fr:p>
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="f1a85fd45bde9ea416d003b2413fdb9b"><fr:embedded-tex-preamble>
+hash="8f5102f9cbc69c3d35325723042d2fd9"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}%tex
-  {M^2X} &amp; MX &amp; X &amp; MX \\
-  MX &amp; X &amp;&amp; X
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}%tex
+  {M^2X} & MX & X & MX \\
+  MX & X && X
   \arrow["\alpha"', from=2-1, to=2-2]
   \arrow["\alpha", from=1-2, to=2-2]
   \arrow["\mu"', from=1-1, to=2-1]
   \arrow["M\alpha", from=1-1, to=1-2]
   \arrow["\operatorname{id}"', from=1-3, to=2-4]
   \arrow["\eta", from=1-3, to=1-4]
-  \arrow["\alpha", from=1-4, to=2-4]\end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
+  \arrow["\alpha", from=1-4, to=2-4]\end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
-<fr:p>
-  In an unbiased formulation, we require the natural transformation <fr:tex>M^n \to M</fr:tex> of the monad evaluated at the object <fr:tex>X</fr:tex> composed with <fr:tex>\alpha : MX \to X</fr:tex> to be equal to <fr:tex
-display="block">M^n X \xrightarrow{M^{n-1}\alpha} M^{n-1}X \to \cdots \xrightarrow{\alpha} X.</fr:tex></fr:p><fr:p>
-  The algebras of a monad form a category <fr:tex>{\mathcal{C}}^M</fr:tex>, whose morphisms are commutative squares. This is also known as the <fr:strong>Eilenberg–Moore category</fr:strong>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+<fr:p>In an unbiased formulation, we require the natural transformation <fr:tex
+display="inline"><![CDATA[M^n \to  M]]></fr:tex> of the monad evaluated at the object <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> composed with <fr:tex
+display="inline"><![CDATA[\alpha  : MX \to  X]]></fr:tex> to be equal to <fr:tex
+display="block"><![CDATA[M^n X \xrightarrow {M^{n-1}\alpha } M^{n-1}X \to  \cdots  \xrightarrow {\alpha } X.]]></fr:tex></fr:p><fr:p>The algebras of a monad form a category <fr:tex
+display="inline"><![CDATA[\mathcal {C}^M]]></fr:tex>, whose morphisms are commutative squares. This is also known as the <fr:strong>Eilenberg–Moore category</fr:strong>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1031</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>ualg-0003</fr:addr><fr:route>ualg-0003.xml</fr:route><fr:title>Free monad algebras</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>992</fr:anchor><fr:addr
+type="user">ualg-0003</fr:addr><fr:route>ualg-0003.xml</fr:route><fr:title
+text="Free monad algebras">Free monad algebras</fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
 href="ualg-0001.xml"
+addr="ualg-0001"
+title="Monad on a category">monad</fr:link> <fr:tex
+display="inline"><![CDATA[M]]></fr:tex> on a category <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, there is a canonical adjunction between the <fr:link
 type="local"
-addr="ualg-0001">monad</fr:link> <fr:tex>M</fr:tex> on a category <fr:tex>{\mathcal{C}}</fr:tex>, there is a canonical adjunction between the <fr:link
 href="ualg-0002.xml"
+addr="ualg-0002"
+title="Algebra of a monad">category of algebras</fr:link> <fr:tex
+display="inline"><![CDATA[\mathcal {C}^M]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>. The <fr:strong>forgetful functor</fr:strong> <fr:tex
+display="inline"><![CDATA[U_M]]></fr:tex> takes an <fr:link
 type="local"
-addr="ualg-0002">category of algebras</fr:link> <fr:tex>{\mathcal{C}}^M</fr:tex> and <fr:tex>{\mathcal{C}}</fr:tex>. The <fr:strong>forgetful functor</fr:strong> <fr:tex>U_M</fr:tex> takes an <fr:link
 href="ualg-0002.xml"
-type="local"
-addr="ualg-0002">algebra</fr:link> and forgets the algebra structure. The <fr:strong>free functor</fr:strong> <fr:tex>F_M</fr:tex> takes an object <fr:tex>X</fr:tex> and produces an algebra on <fr:tex>MX</fr:tex> given by the monad multiplication map <fr:tex>\mu : M^2 X \to MX</fr:tex>, called the <fr:strong>free algebra</fr:strong>.
-</fr:p>
+addr="ualg-0002"
+title="Algebra of a monad">algebra</fr:link> and forgets the algebra structure. The <fr:strong>free functor</fr:strong> <fr:tex
+display="inline"><![CDATA[F_M]]></fr:tex> takes an object <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> and produces an algebra on <fr:tex
+display="inline"><![CDATA[MX]]></fr:tex> given by the monad multiplication map <fr:tex
+display="inline"><![CDATA[\mu  : M^2 X \to  MX]]></fr:tex>, called the <fr:strong>free algebra</fr:strong>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1018</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>980</fr:anchor><fr:addr
+type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0003</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We verify that they form an adjunction. Algebra homomorphisms <fr:tex>\varphi : F_M X \to Y</fr:tex> are given by commutative squares
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0003</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We verify that they form an adjunction. Algebra homomorphisms <fr:tex
+display="inline"><![CDATA[\varphi  : F_M X \to  Y]]></fr:tex> are given by commutative squares
     
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="8a6373922bbdf02e099f1678dbddae08"><fr:embedded-tex-preamble>
+hash="a9a1e034dcfd39c0f1ae7665b6b057d4"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}%tex
-      {M^2 X} &amp; MY \\
-      MX &amp; Y
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}%tex
+      {M^2 X} & MY \\
+      MX & Y
       \arrow["{\alpha_Y}", from=1-2, to=2-2]
       \arrow["\mu"', from=1-1, to=2-1]
       \arrow["\varphi", from=2-1, to=2-2]
-      \arrow["{M\varphi}", from=1-1, to=1-2]\end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
+      \arrow["{M\varphi}", from=1-1, to=1-2]\end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
-    while morphisms <fr:tex>f : X \to Y</fr:tex> fits in the diagram as such: 
+    while morphisms <fr:tex
+display="inline"><![CDATA[f : X \to  Y]]></fr:tex> fits in the diagram as such: 
     
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="6c339c9c83c0224f37d79a66abdf1772"><fr:embedded-tex-preamble>
+hash="cf98d9db6ddf55aa5c8f4220681e1f2e"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}%tex
-      {M^2 X} &amp; MY \\
-      MX &amp; Y \\
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}%tex
+      {M^2 X} & MY \\
+      MX & Y \\
       X
       \arrow["{\alpha_Y}", from=1-2, to=2-2]
       \arrow["\mu"', from=1-1, to=2-1]
@@ -171,42 +258,32 @@ hash="6c339c9c83c0224f37d79a66abdf1772"><fr:embedded-tex-preamble>
       \arrow["{M\varphi}", from=1-1, to=1-2]
       \arrow["f"', from=3-1, to=2-2]
       \arrow["\eta", from=3-1, to=2-1]
-      \arrow[from=2-1, to=1-2]\end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
+      \arrow[from=2-1, to=1-2]\end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
-    Given a homomorphism <fr:tex>\varphi</fr:tex> of algebras, we can compute <fr:tex>f</fr:tex> by composing with <fr:tex>\eta</fr:tex>. On the other hand, given <fr:tex>f</fr:tex>, we define <fr:tex>\varphi</fr:tex> by <fr:tex>\alpha_Y \mathbin{\circ} Mf</fr:tex>. This creates a commutative square because
+    Given a homomorphism <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> of algebras, we can compute <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> by composing with <fr:tex
+display="inline"><![CDATA[\eta ]]></fr:tex>. On the other hand, given <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>, we define <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> by <fr:tex
+display="inline"><![CDATA[\alpha _Y \mathbin {\circ } Mf]]></fr:tex>. This creates a commutative square because
     <fr:tex
-display="block">\begin{aligned}       \alpha_Y \mathbin{\circ} M \varphi       &amp;= \alpha_Y \mathbin{\circ} M\alpha_Y \mathbin{\circ} M^2 f \\       &amp;= \alpha_Y \mathbin{\circ} \mu \mathbin{\circ} M^2 f \\       &amp;= \alpha_Y \mathbin{\circ} M f \mathbin{\circ} \mu \\       &amp;= \varphi \mathbin{\circ} \mu.     \end{aligned}</fr:tex></fr:p>
+display="block"><![CDATA[\begin {aligned}       \alpha _Y \mathbin {\circ } M \varphi        &= \alpha _Y \mathbin {\circ } M\alpha _Y \mathbin {\circ } M^2 f \\       &= \alpha _Y \mathbin {\circ } \mu  \mathbin {\circ } M^2 f \\       &= \alpha _Y \mathbin {\circ } M f \mathbin {\circ } \mu  \\       &= \varphi  \mathbin {\circ } \mu .     \end {aligned}]]></fr:tex></fr:p>
 
-  <fr:p>
-    We just have to verify that the two conversions are mutual inverses. In one way, we need to verify <fr:tex>\alpha_Y \mathbin{\circ} M f \mathbin{\circ} \eta = f</fr:tex>. This is true because by the naturality of <fr:tex>\eta</fr:tex> we get <fr:tex>M f \mathbin{\circ} \eta = \eta \mathbin{\circ} f</fr:tex>. Then by the definition of <fr:link
+  <fr:p>We just have to verify that the two conversions are mutual inverses. In one way, we need to verify <fr:tex
+display="inline"><![CDATA[\alpha _Y \mathbin {\circ } M f \mathbin {\circ } \eta  = f]]></fr:tex>. This is true because by the naturality of <fr:tex
+display="inline"><![CDATA[\eta ]]></fr:tex> we get <fr:tex
+display="inline"><![CDATA[M f \mathbin {\circ } \eta  = \eta  \mathbin {\circ } f]]></fr:tex>. Then by the definition of <fr:link
+type="local"
 href="ualg-0002.xml"
-type="local"
-addr="ualg-0002">algebra</fr:link> <fr:tex>\alpha_Y \mathbin{\circ} \eta = {\textrm{id}}</fr:tex>, proving the equality. On the other hand, we need to show <fr:tex>\alpha_Y \mathbin{\circ} M(\varphi \mathbin{\circ} \eta) = \varphi</fr:tex>. This follows from the algebra identity <fr:tex>\alpha_Y \mathbin{\circ} M \alpha_Y = \alpha_Y \mathbin{\circ} \mu</fr:tex> and the monad identity <fr:tex>\mu \mathbin{\circ} M \eta = {\textrm{id}}</fr:tex>.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+addr="ualg-0002"
+title="Algebra of a monad">algebra</fr:link> <fr:tex
+display="inline"><![CDATA[\alpha _Y \mathbin {\circ } \eta  = \textrm {id}]]></fr:tex>, proving the equality. On the other hand, we need to show <fr:tex
+display="inline"><![CDATA[\alpha _Y \mathbin {\circ } M(\varphi  \mathbin {\circ } \eta ) = \varphi ]]></fr:tex>. This follows from the algebra identity <fr:tex
+display="inline"><![CDATA[\alpha _Y \mathbin {\circ } M \alpha _Y = \alpha _Y \mathbin {\circ } \mu ]]></fr:tex> and the monad identity <fr:tex
+display="inline"><![CDATA[\mu  \mathbin {\circ } M \eta  = \textrm {id}]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1025</fr:anchor><fr:taxon>Remark</fr:taxon><fr:addr>ualg-0006</fr:addr><fr:route>ualg-0006.xml</fr:route><fr:title>Objects of the Kleisli category</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  An object of <fr:link
-href="ualg-0004.xml"
-type="local"
-addr="ualg-0004">the Kleisli category of a monad</fr:link> can be considered as a <fr:link
-href="ualg-0003.xml"
-type="local"
-addr="ualg-0003">free algebra</fr:link>, but <html:mark
-xmlns:html="http://www.w3.org/1999/xhtml">equipped with a canonical choice of generators</html:mark>. Hence although <fr:link
-href="ualg-0005.xml"
-type="local"
-addr="ualg-0005">the Kleisli category is equivalent to the category of free algebras</fr:link>, the objects are essentially different. This manifests as the curious fact that the Kleisli category is not univalent, since an equality of Kleisli objects requires an isomorphism of the generators, but an isomorphism only requires the two free algebras to be isomorphic.
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

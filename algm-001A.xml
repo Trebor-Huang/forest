@@ -1,365 +1,572 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1389</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001A</fr:addr><fr:route>algm-001A.xml</fr:route><fr:title>Grothendieck coverage</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1308</fr:anchor><fr:addr
+type="user">algm-001A</fr:addr><fr:route>algm-001A.xml</fr:route><fr:title
+text="Grothendieck coverage">Grothendieck coverage</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a category <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, a <fr:strong>Grothendieck coverage</fr:strong> declares some <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category <fr:tex>{\mathcal{C}}</fr:tex>, a <fr:strong>Grothendieck coverage</fr:strong> declares some <fr:link
 href="algm-001B.xml"
+addr="algm-001B"
+title="Sieve">sieves</fr:link> to be coverings, such that the following holds.</fr:p><fr:ul><fr:li>The maximal sieve <fr:tex
+display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A) \subseteq  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex> is always a covering.</fr:li>
+  <fr:li>Covering sieves are upwards closed, i.e. if <fr:tex
+display="inline"><![CDATA[S \subseteq  S']]></fr:tex> and <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is a covering sieve, then so is <fr:tex
+display="inline"><![CDATA[S']]></fr:tex>.</fr:li>
+  <fr:li>If <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is a covering sieve of <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[g : B \to  A]]></fr:tex> is a morphism, then the <fr:link
 type="local"
-addr="algm-001B">sieves</fr:link> to be coverings, such that the following holds.
-</fr:p><fr:ul><fr:li>The maximal sieve <fr:tex>\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(A) \subseteq \mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(A)</fr:tex> is always a covering.</fr:li>
-  <fr:li>Covering sieves are upwards closed, i.e. if <fr:tex>S \subseteq S'</fr:tex> and <fr:tex>S</fr:tex> is a covering sieve, then so is <fr:tex>S'</fr:tex>.</fr:li>
-  <fr:li>If <fr:tex>S</fr:tex> is a covering sieve of <fr:tex>A</fr:tex>, and <fr:tex>g : B \to A</fr:tex> is a morphism, then the <fr:link
 href="algm-001C.xml"
+addr="algm-001C"
+title="Pullback of sieves">pullback</fr:link> <fr:tex
+display="inline"><![CDATA[g^* S]]></fr:tex> is also a covering.</fr:li>
+  <fr:li>Suppose <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is a sieve, then the collection of arrows <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[g^* S]]></fr:tex> is a covering is a sieve itself. If this sieve is a covering, then <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is also a covering.</fr:li></fr:ul><fr:p>A Grothendieck coverage can be viewed as a <fr:link
 type="local"
-addr="algm-001C">pullback</fr:link> <fr:tex>g^* S</fr:tex> is also a covering.</fr:li>
-  <fr:li>Suppose <fr:tex>S</fr:tex> is a sieve, then the collection of arrows <fr:tex>g</fr:tex> such that <fr:tex>g^* S</fr:tex> is a covering is a sieve itself. If this sieve is a covering, then <fr:tex>S</fr:tex> is also a covering.</fr:li></fr:ul><fr:p>
-  A Grothendieck coverage can be viewed as a <fr:link
 href="algm-0019.xml"
-type="local"
-addr="algm-0019">coverage</fr:link>.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-0019"
+title="Coverage">coverage</fr:link>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1383</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0019</fr:addr><fr:route>algm-0019.xml</fr:route><fr:title>Coverage</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1310</fr:anchor><fr:addr
+type="user">algm-001U</fr:addr><fr:route>algm-001U.xml</fr:route><fr:title
+text="Slice of sheaf category">Slice of sheaf category</fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a category <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex> with a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>coverage</fr:strong> on an arbitrary category <fr:tex>{\mathcal{C}}</fr:tex> is given by a family of covers. A <fr:strong>cover</fr:strong> of some object <fr:tex>A</fr:tex> in <fr:tex>{\mathcal{C}}</fr:tex> is a family of maps with codomain <fr:tex>A</fr:tex>. Given a cover <fr:tex>f_i : U_i \to A</fr:tex> and a map <fr:tex>g : B \to A</fr:tex>, there is a cover of <fr:tex>B</fr:tex> such that its composition with <fr:tex>g</fr:tex> is a <fr:strong>refinement</fr:strong> of <fr:tex>f_i</fr:tex>, in the sense that every map in the cover factors through one of <fr:tex>f_i</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1385</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001C</fr:addr><fr:route>algm-001C.xml</fr:route><fr:title>Pullback of sieves</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
-href="algm-001B.xml"
-type="local"
-addr="algm-001B">sieve</fr:link> <fr:tex>S</fr:tex> over <fr:tex>A</fr:tex> and a morphism <fr:tex>g : B \to A</fr:tex>, the <fr:strong>pullback</fr:strong> <fr:tex>g^* S</fr:tex> is a sieve over <fr:tex>B</fr:tex>. <fr:tex>h : C \to B</fr:tex> is in this sieve iff <fr:tex>g \mathbin{\circ} h</fr:tex> is in <fr:tex>S</fr:tex>. There is a natural map <fr:tex>g^* S \to S</fr:tex> given by <fr:tex>g \mathbin{\circ} -</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1387</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001B</fr:addr><fr:route>algm-001B.xml</fr:route><fr:title>Sieve</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A <fr:strong>sieve</fr:strong> over an object <fr:tex>A</fr:tex> of an arbitrary category <fr:tex>{\mathcal{C}}</fr:tex> is a subfunctor of <fr:tex>\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(A)</fr:tex>. More explicitly, it selects some arrows with codomain <fr:tex>A</fr:tex>, such that the selected arrows absorbs composition (i.e. if <fr:tex>f : B \to A</fr:tex> is selected and <fr:tex>g : C \to B</fr:tex>, then <fr:tex>g \mathbin{\circ} f</fr:tex> is also selected).
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1371</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>algm-001U</fr:addr><fr:route>algm-001U.xml</fr:route><fr:title>Slice of sheaf category</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a category <fr:tex>{\mathcal{C}}</fr:tex> with a <fr:link
 href="algm-001A.xml"
-type="local"
-addr="algm-001A">Grothendieck coverage</fr:link> <fr:tex>J</fr:tex> and a sheaf <fr:tex>F</fr:tex>, there is a Grothendieck coverage <fr:tex>J'</fr:tex> on <fr:tex>\int_{{\mathcal{C}}} F</fr:tex> such that the equivalence in <fr:ref
+addr="algm-001A"
+title="Grothendieck coverage">Grothendieck coverage</fr:link> <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> and a sheaf <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>, there is a Grothendieck coverage <fr:tex
+display="inline"><![CDATA[J']]></fr:tex> on <fr:tex
+display="inline"><![CDATA[\int _{\mathcal {C}} F]]></fr:tex> such that the equivalence in <fr:ref
 addr="algm-001T"
 href="algm-001T.xml"
-taxon="Theorem"></fr:ref> restricts to an equivalence
+taxon="Theorem" /> restricts to an equivalence
   <fr:tex
-display="block">{\mathsf{Sh}}({\mathcal{C}}, J)/F \cong {\mathsf{Sh}}\left(\int_{{\mathcal{C}}} F, J'\right).</fr:tex></fr:p>
+display="block"><![CDATA[\mathsf {Sh}(\mathcal {C}, J)/F \cong  \mathsf {Sh}\left (\int _{\mathcal {C}} F, J'\right ).]]></fr:tex></fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1135</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1088</fr:anchor><fr:addr
+type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001U</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Suppose we have a covering sieve <fr:tex>S \hookrightarrow \mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U)</fr:tex> in <fr:tex>{\mathcal{C}}</fr:tex>, then an element <fr:tex>f \in {\Gamma}(U, F)</fr:tex> uniquely corresponds to a matching family <fr:tex>s \in \hom(S, F)</fr:tex>. In the category of elements <fr:tex>\int_{{\mathcal{C}}} F</fr:tex>, <fr:tex>s</fr:tex> corresponds to a sieve over <fr:tex>f</fr:tex>. This is the required Grothendieck coverage.
-  </fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001U</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Suppose we have a covering sieve <fr:tex
+display="inline"><![CDATA[S \hookrightarrow  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, then an element <fr:tex
+display="inline"><![CDATA[f \in  \Gamma (U, F)]]></fr:tex> uniquely corresponds to a matching family <fr:tex
+display="inline"><![CDATA[s \in  \hom (S, F)]]></fr:tex>. In the category of elements <fr:tex
+display="inline"><![CDATA[\int _{\mathcal {C}} F]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[s]]></fr:tex> corresponds to a sieve over <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>. This is the required Grothendieck coverage.</fr:p>
 
-  <fr:p>
-    Another way to construct this is through the <fr:link
-href="algm-001L.xml"
+  <fr:p>Another way to construct this is through the <fr:link
 type="local"
-addr="algm-001L">Lawvere–Tierney operator</fr:link> <fr:tex>j</fr:tex>. The subobject classifier of a slice category is simply <fr:tex>\Omega \times F \to F</fr:tex>. Hence we can let <fr:tex>j</fr:tex> act on the <fr:tex>\Omega</fr:tex> factor. This gives a Lawvere–Tierney operator on the slice category and it coincides with the Grothendieck coverage constructed above.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="algm-001L.xml"
+addr="algm-001L"
+title="Lawvere–Tierney operator">Lawvere–Tierney operator</fr:link> <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>. The subobject classifier of a slice category is simply <fr:tex
+display="inline"><![CDATA[\Omega  \times  F \to  F]]></fr:tex>. Hence we can let <fr:tex
+display="inline"><![CDATA[j]]></fr:tex> act on the <fr:tex
+display="inline"><![CDATA[\Omega ]]></fr:tex> factor. This gives a Lawvere–Tierney operator on the slice category and it coincides with the Grothendieck coverage constructed above.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1373</fr:anchor><fr:addr>algm-001P</fr:addr><fr:route>algm-001P.xml</fr:route><fr:title>Sheaf condition using Lawvere–Tierney operators</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1312</fr:anchor><fr:addr
+type="user">algm-001P</fr:addr><fr:route>algm-001P.xml</fr:route><fr:title
+text="Sheaf condition using Lawvere–Tierney operators">Sheaf condition using Lawvere–Tierney operators</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Knowing the <fr:link
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Knowing the <fr:link
+type="local"
 href="algm-001N.xml"
+addr="algm-001N"
+title="Grothendieck coverages and Lawvere–Tierney operators">correspondence</fr:link> of Grothendieck coverages on <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex> and Lawvere–Tierney operators on <fr:tex
+display="inline"><![CDATA[\mathsf {Psh}(\mathcal {C})]]></fr:tex>, we naturally want to rewrite the <fr:link
 type="local"
-addr="algm-001N">correspondence</fr:link> of Grothendieck coverages on <fr:tex>{\mathcal{C}}</fr:tex> and Lawvere–Tierney operators on <fr:tex>{\mathsf{Psh}}({\mathcal{C}})</fr:tex>, we naturally want to rewrite the <fr:link
 href="algm-001F.xml"
+addr="algm-001F"
+title="Sheaf">sheaf condition</fr:link> to use <fr:link
 type="local"
-addr="algm-001F">sheaf condition</fr:link> to use <fr:link
 href="algm-001L.xml"
+addr="algm-001L"
+title="Lawvere–Tierney operator">Lawvere–Tierney operators</fr:link> instead of <fr:link
 type="local"
-addr="algm-001L">Lawvere–Tierney operators</fr:link> instead of <fr:link
 href="algm-001A.xml"
+addr="algm-001A"
+title="Grothendieck coverage">Grothendieck coverages</fr:link>.</fr:p><fr:p>Recall that the <fr:link
 type="local"
-addr="algm-001A">Grothendieck coverages</fr:link>.
-</fr:p><fr:p>
-  Recall that the <fr:link
 href="algm-001F.xml"
-type="local"
-addr="algm-001F">sheaf condition</fr:link> requires for every covering sieve <fr:tex>S \hookrightarrow \mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U)</fr:tex> that the composition <fr:tex>\hom(\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U), X) \to \hom(S, X)</fr:tex> is an isomorphism. We can reify this to a definition.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-001F"
+title="Sheaf">sheaf condition</fr:link> requires for every covering sieve <fr:tex
+display="inline"><![CDATA[S \hookrightarrow  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)]]></fr:tex> that the composition <fr:tex
+display="inline"><![CDATA[\hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U), X) \to  \hom (S, X)]]></fr:tex> is an isomorphism. We can reify this to a definition.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1213</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001R</fr:addr><fr:route>algm-001R.xml</fr:route><fr:title>Local object</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1160</fr:anchor><fr:addr
+type="user">algm-001R</fr:addr><fr:route>algm-001R.xml</fr:route><fr:title
+text="Local object">Local object</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a class of arrows <fr:tex>S</fr:tex>, an <fr:tex>S</fr:tex>-<fr:strong>local object</fr:strong> is an object <fr:tex>X</fr:tex> such that for every <fr:tex>f : A \to B</fr:tex> in <fr:tex>S</fr:tex>, the composition map <fr:tex
-display="block">\hom(B, X) \to \hom(A, X)</fr:tex> is an isomorphism.
-</fr:p></fr:mainmatter></fr:tree><fr:p>
-  Now we just need to pick out the class of morphisms <fr:tex>S \hookrightarrow \mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U)</fr:tex> using the Lawvere–Tierney operator <fr:tex>j</fr:tex>. Note that this operator does not necessarily live in a presheaf topos, so we must find a way to generalize this class of arrows to not necessarily representable presheaves. Since every presheaf is a colimit of representables, we can look at the corresponding colimit of morphisms <fr:tex>\operatorname*{colim} S_i \hookrightarrow \operatorname*{colim} \mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U_i)</fr:tex>. A local object will satisfy
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a class of arrows <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, an <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>-<fr:strong>local object</fr:strong> is an object <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> such that for every <fr:tex
+display="inline"><![CDATA[f : A \to  B]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, the composition map <fr:tex
+display="block"><![CDATA[\hom (B, X) \to  \hom (A, X)]]></fr:tex> is an isomorphism.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>Now we just need to pick out the class of morphisms <fr:tex
+display="inline"><![CDATA[S \hookrightarrow  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)]]></fr:tex> using the Lawvere–Tierney operator <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>. Note that this operator does not necessarily live in a presheaf topos, so we must find a way to generalize this class of arrows to not necessarily representable presheaves. Since every presheaf is a colimit of representables, we can look at the corresponding colimit of morphisms <fr:tex
+display="inline"><![CDATA[\operatorname *{colim} S_i \hookrightarrow  \operatorname *{colim} \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U_i)]]></fr:tex>. A local object will satisfy
   <fr:tex
-display="block">\begin{aligned}     \hom(\operatorname*{colim}\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U_i), X) \cong \lim\hom(\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U_i), X) \quad \\     \xrightarrow{\sim} \lim\hom(S_i, X) \cong \hom(\operatorname*{colim} S_i, X).   \end{aligned}</fr:tex>
-  Hence we can safely include these arrows into the class and still get the same concept of local objects. Now it’s illuminating to look at the characteristic maps. A sieve <fr:tex>S \to \mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U)</fr:tex> corresponds to a characteristic map in <fr:tex>\hom(\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}(U), \Omega) \cong {\Gamma}(U, \Omega)</fr:tex>. Generalizing to an arbitrary presheaf expressed (canonically) as a colimit of representables, we need the image of every section to be a covering sieve.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+display="block"><![CDATA[\begin {aligned}     \hom (\operatorname *{colim}\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U_i), X) \cong  \lim \hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U_i), X) \quad  \\     \xrightarrow {\sim } \lim \hom (S_i, X) \cong  \hom (\operatorname *{colim} S_i, X).   \end {aligned}]]></fr:tex>
+  Hence we can safely include these arrows into the class and still get the same concept of local objects. Now it’s illuminating to look at the characteristic maps. A sieve <fr:tex
+display="inline"><![CDATA[S \to  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)]]></fr:tex> corresponds to a characteristic map in <fr:tex
+display="inline"><![CDATA[\hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U), \Omega ) \cong  \Gamma (U, \Omega )]]></fr:tex>. Generalizing to an arbitrary presheaf expressed (canonically) as a colimit of representables, we need the image of every section to be a covering sieve.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1215</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001Q</fr:addr><fr:route>algm-001Q.xml</fr:route><fr:title>Dense subobject of a Lawvere–Tierney operator</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1162</fr:anchor><fr:addr
+type="user">algm-001Q</fr:addr><fr:route>algm-001Q.xml</fr:route><fr:title
+text="Dense subobject of a Lawvere–Tierney operator">Dense subobject of a Lawvere–Tierney operator</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
 href="algm-001L.xml"
-type="local"
-addr="algm-001L">Lawvere–Tierney operator</fr:link> <fr:tex>j</fr:tex>, a subobject <fr:tex>F \hookrightarrow G</fr:tex> is <fr:tex>j</fr:tex>-<fr:strong>dense</fr:strong> if <fr:tex>G \to \Omega \xrightarrow{j} \Omega</fr:tex> is the constant true. In terms of the corresponding <fr:tex>J \hookrightarrow \Omega</fr:tex>, we need the pullback of it with <fr:tex>G \to \Omega</fr:tex> to be <fr:tex>{\textrm{id}} : G \to G</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree><fr:p>
-  In terms of sieves, for every section <fr:tex>s \in {\Gamma}(U, G)</fr:tex>, the sieve of arrows on <fr:tex>U</fr:tex> along whom the restriction of <fr:tex>s</fr:tex> is in <fr:tex>F</fr:tex> must be a covering sieve. We have arrived at the desired reformulation of the sheaf condition.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-001L"
+title="Lawvere–Tierney operator">Lawvere–Tierney operator</fr:link> <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>, a subobject <fr:tex
+display="inline"><![CDATA[F \hookrightarrow  G]]></fr:tex> is <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>-<fr:strong>dense</fr:strong> if <fr:tex
+display="inline"><![CDATA[G \to  \Omega  \xrightarrow {j} \Omega ]]></fr:tex> is the constant true. In terms of the corresponding <fr:tex
+display="inline"><![CDATA[J \hookrightarrow  \Omega ]]></fr:tex>, we need the pullback of it with <fr:tex
+display="inline"><![CDATA[G \to  \Omega ]]></fr:tex> to be <fr:tex
+display="inline"><![CDATA[\textrm {id} : G \to  G]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>In terms of sieves, for every section <fr:tex
+display="inline"><![CDATA[s \in  \Gamma (U, G)]]></fr:tex>, the sieve of arrows on <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> along whom the restriction of <fr:tex
+display="inline"><![CDATA[s]]></fr:tex> is in <fr:tex
+display="inline"><![CDATA[F]]></fr:tex> must be a covering sieve. We have arrived at the desired reformulation of the sheaf condition.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1217</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001S</fr:addr><fr:route>algm-001S.xml</fr:route><fr:title>Sheaf of a Lawvere–Tierney operator</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1164</fr:anchor><fr:addr
+type="user">algm-001S</fr:addr><fr:route>algm-001S.xml</fr:route><fr:title
+text="Sheaf of a Lawvere–Tierney operator">Sheaf of a Lawvere–Tierney operator</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
 href="algm-001L.xml"
+addr="algm-001L"
+title="Lawvere–Tierney operator">Lawvere–Tierney operator</fr:link> <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>, a <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>-<fr:strong>sheaf</fr:strong> is defined as a <fr:tex
+display="inline"><![CDATA[j]]></fr:tex>-<fr:strong>local object</fr:strong>, i.e. a <fr:link
 type="local"
-addr="algm-001L">Lawvere–Tierney operator</fr:link> <fr:tex>j</fr:tex>, a <fr:tex>j</fr:tex>-<fr:strong>sheaf</fr:strong> is defined as a <fr:tex>j</fr:tex>-<fr:strong>local object</fr:strong>, i.e. a <fr:link
 href="algm-001R.xml"
+addr="algm-001R"
+title="Local object">local object</fr:link> under the <fr:link
 type="local"
-addr="algm-001R">local object</fr:link> under the <fr:link
 href="algm-001Q.xml"
-type="local"
-addr="algm-001Q"><fr:tex>j</fr:tex>-dense monomorphisms</fr:link>.
-</fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="algm-001Q"
+title="Dense subobject of a Lawvere–Tierney operator"><fr:tex
+display="inline"><![CDATA[j]]></fr:tex>-dense monomorphisms</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1375</fr:anchor><fr:addr>algm-001N</fr:addr><fr:route>algm-001N.xml</fr:route><fr:title>Grothendieck coverages and Lawvere–Tierney operators</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1314</fr:anchor><fr:addr
+type="user">algm-001N</fr:addr><fr:route>algm-001N.xml</fr:route><fr:title
+text="Grothendieck coverages and Lawvere–Tierney operators">Grothendieck coverages and Lawvere–Tierney operators</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Consider a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Consider a <fr:link
 href="algm-001L.xml"
-type="local"
-addr="algm-001L">Lawvere–Tierney operator</fr:link> on a presheaf category. Then we may calculate the subobject classifier as in <fr:ref
+addr="algm-001L"
+title="Lawvere–Tierney operator">Lawvere–Tierney operator</fr:link> on a presheaf category. Then we may calculate the subobject classifier as in <fr:ref
 addr="algm-001M"
 href="algm-001M.xml"
-taxon="Construction"></fr:ref>.
-</fr:p><fr:p>
-  By the definition of subobject classifiers, a <fr:link
-href="algm-001L.xml"
+taxon="Construction" />.</fr:p><fr:p>By the definition of subobject classifiers, a <fr:link
 type="local"
-addr="algm-001L">Lawvere–Tierney operator</fr:link> can be equivalently expressed as a subobject <fr:tex>J \subseteq \Omega</fr:tex>. Translating the condition of preserving finite intersections, it needs to contain the improper sieve, be upwards closed and closed under finite intersections. And <fr:tex>j \mathbin{\circ} j = j</fr:tex> implies the following pullback square:
+href="algm-001L.xml"
+addr="algm-001L"
+title="Lawvere–Tierney operator">Lawvere–Tierney operator</fr:link> can be equivalently expressed as a subobject <fr:tex
+display="inline"><![CDATA[J \subseteq  \Omega ]]></fr:tex>. Translating the condition of preserving finite intersections, it needs to contain the improper sieve, be upwards closed and closed under finite intersections. And <fr:tex
+display="inline"><![CDATA[j \mathbin {\circ } j = j]]></fr:tex> implies the following pullback square:
   
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="39ee037d205ec6b04533261f1eda08f3"><fr:embedded-tex-preamble>
+hash="d6485766ab43c0c3dfc20100a4403a1f"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}%tex
-    J &amp; J \\
-    \Omega &amp; \Omega
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}%tex
+    J & J \\
+    \Omega & \Omega
     \arrow[hook, from=1-2, to=2-2]
     \arrow["j"', from=2-1, to=2-2]
     \arrow[hook, from=1-1, to=2-1]
     \arrow[from=1-1, to=1-2]
-    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]\end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
+    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]\end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
-  In other words, a sieve is contained in <fr:tex>J</fr:tex> iff its image under <fr:tex>j</fr:tex> is also contained in <fr:tex>J</fr:tex>. Unfolding this, a sieve <fr:tex>S</fr:tex> is contained in <fr:tex>J</fr:tex> iff the arrows <fr:tex>g</fr:tex> such that <fr:tex>g^* S</fr:tex> is contained in <fr:tex>J</fr:tex> also form a sieve in <fr:tex>J</fr:tex>. Looking at the definition of a <fr:link
-href="algm-001A.xml"
+  In other words, a sieve is contained in <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> iff its image under <fr:tex
+display="inline"><![CDATA[j]]></fr:tex> is also contained in <fr:tex
+display="inline"><![CDATA[J]]></fr:tex>. Unfolding this, a sieve <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> is contained in <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> iff the arrows <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[g^* S]]></fr:tex> is contained in <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> also form a sieve in <fr:tex
+display="inline"><![CDATA[J]]></fr:tex>. Looking at the definition of a <fr:link
 type="local"
-addr="algm-001A">Grothendieck coverage</fr:link>, we see that they are equivalent, if we regard <fr:tex>J</fr:tex> as picking out the covering sieves.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="algm-001A.xml"
+addr="algm-001A"
+title="Grothendieck coverage">Grothendieck coverage</fr:link>, we see that they are equivalent, if we regard <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> as picking out the covering sieves.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1377</fr:anchor><fr:taxon>Construction</fr:taxon><fr:addr>algm-001K</fr:addr><fr:route>algm-001K.xml</fr:route><fr:title>Separation of presheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1316</fr:anchor><fr:addr
+type="user">algm-001K</fr:addr><fr:route>algm-001K.xml</fr:route><fr:title
+text="Separation of presheaf">Separation of presheaf</fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
 href="algm-001A.xml"
+addr="algm-001A"
+title="Grothendieck coverage">Grothendieck coverage</fr:link>, the inclusion of <fr:link
 type="local"
-addr="algm-001A">Grothendieck coverage</fr:link>, the inclusion of <fr:link
 href="algm-001F.xml"
-type="local"
-addr="algm-001F">separated presheaves</fr:link> to presheaves has a left adjoint <fr:tex>(-)^{{\operatorname{sep}}}</fr:tex>.
-</fr:p>
+addr="algm-001F"
+title="Sheaf">separated presheaves</fr:link> to presheaves has a left adjoint <fr:tex
+display="inline"><![CDATA[(-)^{\operatorname {sep}}]]></fr:tex>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1301</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1254</fr:anchor><fr:addr
+type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001K</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We define <fr:tex>{\Gamma}(U, P^{{\operatorname{sep}}})</fr:tex> to be a quotient of <fr:tex>{\Gamma}(U, P)</fr:tex>. Two sections are considered the same if they are equal on a covering sieve. It is obvious that this is separated, and in a morphism <fr:tex>P \to Q</fr:tex> to a separated presheaf, if two sections of <fr:tex>P</fr:tex> are equal on a covering sieve, then their image will also be, and by separatedness they must be actually equal in <fr:tex>Q</fr:tex>.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001K</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We define <fr:tex
+display="inline"><![CDATA[\Gamma (U, P^{\operatorname {sep}})]]></fr:tex> to be a quotient of <fr:tex
+display="inline"><![CDATA[\Gamma (U, P)]]></fr:tex>. Two sections are considered the same if they are equal on a covering sieve. It is obvious that this is separated, and in a morphism <fr:tex
+display="inline"><![CDATA[P \to  Q]]></fr:tex> to a separated presheaf, if two sections of <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> are equal on a covering sieve, then their image will also be, and by separatedness they must be actually equal in <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1379</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-001G</fr:addr><fr:route>algm-001G.xml</fr:route><fr:title>Iterated <fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1318</fr:anchor><fr:addr
+type="user">algm-001G</fr:addr><fr:route>algm-001G.xml</fr:route><fr:title
+text="Iterated plus construction produces a sheaf">Iterated <fr:link
+type="local"
 href="algm-001E.xml"
+addr="algm-001E"
+title="Plus construction">plus construction</fr:link> produces a sheaf</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="algm-001E">plus construction</fr:link> produces a sheaf</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given any presheaf <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[P^+]]></fr:tex> is a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given any presheaf <fr:tex>P</fr:tex>, <fr:tex>P^+</fr:tex> is a <fr:link
 href="algm-001F.xml"
+addr="algm-001F"
+title="Sheaf">separated presheaf</fr:link>, and if <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is already separated, <fr:tex
+display="inline"><![CDATA[P^+]]></fr:tex> is a <fr:link
 type="local"
-addr="algm-001F">separated presheaf</fr:link>, and if <fr:tex>P</fr:tex> is already separated, <fr:tex>P^+</fr:tex> is a <fr:link
 href="algm-001F.xml"
-type="local"
-addr="algm-001F">sheaf</fr:link>. Therefore <fr:tex>P^{++}</fr:tex> is always a sheaf.
-</fr:p>
+addr="algm-001F"
+title="Sheaf">sheaf</fr:link>. Therefore <fr:tex
+display="inline"><![CDATA[P^{++}]]></fr:tex> is always a sheaf.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1313</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1290</fr:anchor><fr:addr
+type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001G</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We first prove that <fr:tex
+display="inline"><![CDATA[P^+]]></fr:tex> is separated. Suppose there are two gluings of a set of descent data on a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001G</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We first prove that <fr:tex>P^+</fr:tex> is separated. Suppose there are two gluings of a set of descent data on a <fr:link
 href="algm-001A.xml"
+addr="algm-001A"
+title="Grothendieck coverage">covering sieve</fr:link> <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, then we have two sieves <fr:tex
+display="inline"><![CDATA[S_1, S_2]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> with compatible families <fr:tex
+display="inline"><![CDATA[s_{1, f}, s_{2, f}]]></fr:tex>. Since they are gluings of the same descent data, the restriction along any morphism <fr:tex
+display="inline"><![CDATA[g : U \to  A]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> would be equal. Hence there is a common refinement of <fr:tex
+display="inline"><![CDATA[g^* S_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g^* S_2]]></fr:tex> where the two families become equal. Expanding this, there is a covering sieve on <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[g \mathbin {\circ } h \in  S_1 \cap  S_2]]></fr:tex> for every <fr:tex
+display="inline"><![CDATA[h]]></fr:tex> in the sieve, and <fr:tex
+display="inline"><![CDATA[s_{1, g \mathbin {\circ } h} = s_{2, g \mathbin {\circ } h}]]></fr:tex>. But then by the axioms of a <fr:link
 type="local"
-addr="algm-001A">covering sieve</fr:link> <fr:tex>S</fr:tex> over <fr:tex>A</fr:tex>, then we have two sieves <fr:tex>S_1, S_2</fr:tex> over <fr:tex>A</fr:tex> with compatible families <fr:tex>s_{1, f}, s_{2, f}</fr:tex>. Since they are gluings of the same descent data, the restriction along any morphism <fr:tex>g : U \to A</fr:tex> in <fr:tex>S</fr:tex> would be equal. Hence there is a common refinement of <fr:tex>g^* S_1</fr:tex> and <fr:tex>g^* S_2</fr:tex> where the two families become equal. Expanding this, there is a covering sieve on <fr:tex>U</fr:tex> such that <fr:tex>g \mathbin{\circ} h \in S_1 \cap S_2</fr:tex> for every <fr:tex>h</fr:tex> in the sieve, and <fr:tex>s_{1, g \mathbin{\circ} h} = s_{2, g \mathbin{\circ} h}</fr:tex>. But then by the axioms of a <fr:link
 href="algm-001A.xml"
-type="local"
-addr="algm-001A">Grothendieck coverage</fr:link>, <fr:tex>g \mathbin{\circ} h</fr:tex> for all <fr:tex>h</fr:tex> in the said sieve and <fr:tex>g \in S</fr:tex> also generates a covering sieve. Hence <fr:tex>s_1</fr:tex> and <fr:tex>s_2</fr:tex> are already equal on a covering subsieve, and so they are equal in <fr:tex>{\Gamma}(A, P^+)</fr:tex>.
-  </fr:p>
+addr="algm-001A"
+title="Grothendieck coverage">Grothendieck coverage</fr:link>, <fr:tex
+display="inline"><![CDATA[g \mathbin {\circ } h]]></fr:tex> for all <fr:tex
+display="inline"><![CDATA[h]]></fr:tex> in the said sieve and <fr:tex
+display="inline"><![CDATA[g \in  S]]></fr:tex> also generates a covering sieve. Hence <fr:tex
+display="inline"><![CDATA[s_1]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[s_2]]></fr:tex> are already equal on a covering subsieve, and so they are equal in <fr:tex
+display="inline"><![CDATA[\Gamma (A, P^+)]]></fr:tex>.</fr:p>
 
-  <fr:p>
-    Let’s see why <fr:tex>P^+</fr:tex> is not necessarily a sheaf. To be a sheaf, we need to find a gluing for each compatible family. A <fr:link
+  <fr:p>Let’s see why <fr:tex
+display="inline"><![CDATA[P^+]]></fr:tex> is not necessarily a sheaf. To be a sheaf, we need to find a gluing for each compatible family. A <fr:link
+type="local"
 href="algm-001D.xml"
+addr="algm-001D"
+title="Descent data of presheaves">compatible family</fr:link> of local sections of <fr:tex
+display="inline"><![CDATA[P^+]]></fr:tex> is a family of covering sieves <fr:tex
+display="inline"><![CDATA[S_f]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> for each morphism <fr:tex
+display="inline"><![CDATA[f : U \to  A]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, and for each <fr:tex
+display="inline"><![CDATA[S_f]]></fr:tex> a family of sections <fr:tex
+display="inline"><![CDATA[s_{f, g} \in  \Gamma (V, P)]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[g : V \to  U]]></fr:tex> lies in <fr:tex
+display="inline"><![CDATA[S_f]]></fr:tex>. By the axioms of a <fr:link
 type="local"
-addr="algm-001D">compatible family</fr:link> of local sections of <fr:tex>P^+</fr:tex> is a family of covering sieves <fr:tex>S_f</fr:tex> over <fr:tex>U</fr:tex> for each morphism <fr:tex>f : U \to A</fr:tex> in <fr:tex>S</fr:tex>, and for each <fr:tex>S_f</fr:tex> a family of sections <fr:tex>s_{f, g} \in {\Gamma}(V, P)</fr:tex> where <fr:tex>g : V \to U</fr:tex> lies in <fr:tex>S_f</fr:tex>. By the axioms of a <fr:link
 href="algm-001A.xml"
-type="local"
-addr="algm-001A">Grothendieck coverage</fr:link>, the union <fr:tex>\bigcup_{f \in S} f \mathbin{\circ} S_f</fr:tex> is a sieve, since <fr:tex>S_f \subseteq f^* (f \mathbin{\circ} S_f)</fr:tex>. (Warning: <fr:tex>f \mathbin{\circ} S_f</fr:tex> is not a covering sieve itself.) So we are tempted to simply construct a glued section <fr:tex>s'</fr:tex> by <fr:tex>s'_{f \mathbin{\circ} g} = s_{f, g}</fr:tex>. Hence we need to prove <fr:tex>s_{f, g} = s_{f', g'}</fr:tex> if <fr:tex>f \mathbin{\circ} g = f' \mathbin{\circ} g'</fr:tex>.
-  </fr:p>
+addr="algm-001A"
+title="Grothendieck coverage">Grothendieck coverage</fr:link>, the union <fr:tex
+display="inline"><![CDATA[\bigcup _{f \in  S} f \mathbin {\circ } S_f]]></fr:tex> is a sieve, since <fr:tex
+display="inline"><![CDATA[S_f \subseteq  f^* (f \mathbin {\circ } S_f)]]></fr:tex>. (Warning: <fr:tex
+display="inline"><![CDATA[f \mathbin {\circ } S_f]]></fr:tex> is not a covering sieve itself.) So we are tempted to simply construct a glued section <fr:tex
+display="inline"><![CDATA[s']]></fr:tex> by <fr:tex
+display="inline"><![CDATA[s'_{f \mathbin {\circ } g} = s_{f, g}]]></fr:tex>. Hence we need to prove <fr:tex
+display="inline"><![CDATA[s_{f, g} = s_{f', g'}]]></fr:tex> if <fr:tex
+display="inline"><![CDATA[f \mathbin {\circ } g = f' \mathbin {\circ } g']]></fr:tex>.</fr:p>
 
-  <fr:p>
-    Since the families <fr:tex>s_{f}</fr:tex> are compatible, given any <fr:tex>g : V \to U</fr:tex> we have <fr:tex>s_{f, g \mathbin{\circ} r} = s_{f \mathbin{\circ} g, r}</fr:tex> for a family of arrows <fr:tex>r</fr:tex> that generates a covering sieve on <fr:tex>V</fr:tex>. However we cannot necessarily take <fr:tex>r = {\textrm{id}}</fr:tex>, so this is not necessarily well-defined. Here is where the separatedness comes in. Notice that <fr:tex>s_{f, g \mathbin{\circ} r} = s_{f \mathbin{\circ} g, r}</fr:tex> forms a compatible family over <fr:tex>V</fr:tex> as <fr:tex>r</fr:tex> ranges over the covering sieve. And therefore <fr:tex>s_{f, g}</fr:tex> and <fr:tex>s_{f \mathbin{\circ} g, {\textrm{id}}}</fr:tex> are both a gluing of the family. By separatedness, they must be equal. Hence our problem is solved.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+  <fr:p>Since the families <fr:tex
+display="inline"><![CDATA[s_{f}]]></fr:tex> are compatible, given any <fr:tex
+display="inline"><![CDATA[g : V \to  U]]></fr:tex> we have <fr:tex
+display="inline"><![CDATA[s_{f, g \mathbin {\circ } r} = s_{f \mathbin {\circ } g, r}]]></fr:tex> for a family of arrows <fr:tex
+display="inline"><![CDATA[r]]></fr:tex> that generates a covering sieve on <fr:tex
+display="inline"><![CDATA[V]]></fr:tex>. However we cannot necessarily take <fr:tex
+display="inline"><![CDATA[r = \textrm {id}]]></fr:tex>, so this is not necessarily well-defined. Here is where the separatedness comes in. Notice that <fr:tex
+display="inline"><![CDATA[s_{f, g \mathbin {\circ } r} = s_{f \mathbin {\circ } g, r}]]></fr:tex> forms a compatible family over <fr:tex
+display="inline"><![CDATA[V]]></fr:tex> as <fr:tex
+display="inline"><![CDATA[r]]></fr:tex> ranges over the covering sieve. And therefore <fr:tex
+display="inline"><![CDATA[s_{f, g}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[s_{f \mathbin {\circ } g, \textrm {id}}]]></fr:tex> are both a gluing of the family. By separatedness, they must be equal. Hence our problem is solved.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1381</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-001E</fr:addr><fr:route>algm-001E.xml</fr:route><fr:title>Plus construction</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1320</fr:anchor><fr:addr
+type="user">algm-001E</fr:addr><fr:route>algm-001E.xml</fr:route><fr:title
+text="Plus construction">Plus construction</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
 href="algm-001A.xml"
+addr="algm-001A"
+title="Grothendieck coverage">Grothendieck coverage</fr:link> on <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex> and a presheaf <fr:tex
+display="inline"><![CDATA[P : \mathcal {C}^\textrm {op} \to  \mathsf {Set}]]></fr:tex>, the <fr:strong>plus construction</fr:strong> produces a new presheaf <fr:tex
+display="inline"><![CDATA[P^+]]></fr:tex> by taking a directed limit over all the <fr:link
 type="local"
-addr="algm-001A">Grothendieck coverage</fr:link> on <fr:tex>{\mathcal{C}}</fr:tex> and a presheaf <fr:tex>P : {\mathcal{C}}^{\textrm{op}} \to {\mathsf{Set}}</fr:tex>, the <fr:strong>plus construction</fr:strong> produces a new presheaf <fr:tex>P^+</fr:tex> by taking a directed limit over all the <fr:link
 href="algm-001D.xml"
+addr="algm-001D"
+title="Descent data of presheaves">descent data</fr:link>. More precisely, we assign <fr:tex
+display="block"><![CDATA[\Gamma (A, P^+) = \operatorname *{colim}_{S \text { covers } A} \hom (S, P).]]></fr:tex> This means the sections of <fr:tex
+display="inline"><![CDATA[P^+]]></fr:tex> are compatible families of sections of <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, and two families are considered equal if they are equal on a common covering subsieve.</fr:p><fr:p>Given a map <fr:tex
+display="inline"><![CDATA[g : B \to  A]]></fr:tex>, we have a <fr:link
 type="local"
-addr="algm-001D">descent data</fr:link>. More precisely, we assign <fr:tex
-display="block">{\Gamma}(A, P^+) = \operatorname*{colim}_{S \text{ covers } A} \hom(S, P).</fr:tex> This means the sections of <fr:tex>P^+</fr:tex> are compatible families of sections of <fr:tex>P</fr:tex>, and two families are considered equal if they are equal on a common covering subsieve.
-</fr:p><fr:p>
-  Given a map <fr:tex>g : B \to A</fr:tex>, we have a <fr:link
 href="algm-001C.xml"
+addr="algm-001C"
+title="Pullback of sieves">pullback</fr:link> <fr:tex
+display="inline"><![CDATA[\hom (S, P) \to  \hom (g^*S, P)]]></fr:tex>. This induces the functorial action of <fr:tex
+display="inline"><![CDATA[P^+]]></fr:tex>. There is an obvious natural transformation <fr:tex
+display="inline"><![CDATA[P \to  P^+]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1322</fr:anchor><fr:addr
+type="user">algm-0019</fr:addr><fr:route>algm-0019.xml</fr:route><fr:title
+text="Coverage">Coverage</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="algm-001C">pullback</fr:link> <fr:tex>\hom(S, P) \to \hom(g^*S, P)</fr:tex>. This induces the functorial action of <fr:tex>P^+</fr:tex>. There is an obvious natural transformation <fr:tex>P \to P^+</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:strong>coverage</fr:strong> on an arbitrary category <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is given by a family of covers. A <fr:strong>cover</fr:strong> of some object <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is a family of maps with codomain <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>. Given a cover <fr:tex
+display="inline"><![CDATA[f_i : U_i \to  A]]></fr:tex> and a map <fr:tex
+display="inline"><![CDATA[g : B \to  A]]></fr:tex>, there is a cover of <fr:tex
+display="inline"><![CDATA[B]]></fr:tex> such that its composition with <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> is a <fr:strong>refinement</fr:strong> of <fr:tex
+display="inline"><![CDATA[f_i]]></fr:tex>, in the sense that every map in the cover factors through one of <fr:tex
+display="inline"><![CDATA[f_i]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1324</fr:anchor><fr:addr
+type="user">algm-001C</fr:addr><fr:route>algm-001C.xml</fr:route><fr:title
+text="Pullback of sieves">Pullback of sieves</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
+type="local"
+href="algm-001B.xml"
+addr="algm-001B"
+title="Sieve">sieve</fr:link> <fr:tex
+display="inline"><![CDATA[S]]></fr:tex> over <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> and a morphism <fr:tex
+display="inline"><![CDATA[g : B \to  A]]></fr:tex>, the <fr:strong>pullback</fr:strong> <fr:tex
+display="inline"><![CDATA[g^* S]]></fr:tex> is a sieve over <fr:tex
+display="inline"><![CDATA[B]]></fr:tex>. <fr:tex
+display="inline"><![CDATA[h : C \to  B]]></fr:tex> is in this sieve iff <fr:tex
+display="inline"><![CDATA[g \mathbin {\circ } h]]></fr:tex> is in <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>. There is a natural map <fr:tex
+display="inline"><![CDATA[g^* S \to  S]]></fr:tex> given by <fr:tex
+display="inline"><![CDATA[g \mathbin {\circ } -]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1326</fr:anchor><fr:addr
+type="user">algm-001B</fr:addr><fr:route>algm-001B.xml</fr:route><fr:title
+text="Sieve">Sieve</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:strong>sieve</fr:strong> over an object <fr:tex
+display="inline"><![CDATA[A]]></fr:tex> of an arbitrary category <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is a subfunctor of <fr:tex
+display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex>. More explicitly, it selects some arrows with codomain <fr:tex
+display="inline"><![CDATA[A]]></fr:tex>, such that the selected arrows absorbs composition (i.e. if <fr:tex
+display="inline"><![CDATA[f : B \to  A]]></fr:tex> is selected and <fr:tex
+display="inline"><![CDATA[g : C \to  B]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[g \mathbin {\circ } f]]></fr:tex> is also selected).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

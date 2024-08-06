@@ -1,57 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>998</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2025</fr:anchor><fr:addr
+type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0005</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Consider the functor from the Kleisli category to the category of free algebras, sending <fr:tex>X</fr:tex> to the free algebra on <fr:tex>X</fr:tex>. This is fully faithful and surjective on objects.
-  </fr:p>
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0018</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.</fr:p>
+
+  <fr:p>On the other hand, <fr:link
+type="local"
+href="todo.xml"
+addr="todo"
+title="Unfinished trees">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex
+display="inline"><![CDATA[f : C_\bullet  \to  D_\bullet ]]></fr:tex> is a quasi-isomorphism, <fr:tex
+display="inline"><![CDATA[H_n (f)]]></fr:tex> are all isomorphisms. Therefore <fr:tex
+display="inline"><![CDATA[H_n (F(f)) = F(H_n(f))]]></fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.</fr:p>
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>996</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0005</fr:addr><fr:route>ualg-0005.xml</fr:route><fr:title>The Kleisli category is equivalent to the category of free algebras</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2027</fr:anchor><fr:addr
+type="user">hmlg-0018</fr:addr><fr:route>hmlg-0018.xml</fr:route><fr:title
+text="An additive functor is exact iff it preserves quasi-isomorphisms">An additive functor is exact iff it preserves quasi-isomorphisms</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given an <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given category <fr:tex>{\mathcal{C}}</fr:tex>, <fr:link
-href="ualg-0004.xml"
+href="hmlg-000S.xml"
+addr="hmlg-000S"
+title="Additive functor">additive functor</fr:link> <fr:tex
+display="inline"><![CDATA[F : \mathcal {A} \to  \mathcal {B}]]></fr:tex> between <fr:link
 type="local"
-addr="ualg-0004">the Kleisli category of a monad</fr:link> <fr:tex>M : {\mathcal{C}} \to {\mathcal{C}}</fr:tex> is equivalent to the full subcategory of the <fr:tex>M</fr:tex>-<fr:link
-href="ualg-0002.xml"
+href="hmlg-000Q.xml"
+addr="hmlg-000Q"
+title="Abelian category">abelian categories</fr:link>, it is <fr:link
 type="local"
-addr="ualg-0002">algebras</fr:link> spanned by the <fr:link
-href="ualg-0003.xml"
+href="hmlg-000X.xml"
+addr="hmlg-000X"
+title="Left and right exact functor">exact</fr:link> iff it sends <fr:link
 type="local"
-addr="ualg-0003">free algebras</fr:link>.
-</fr:p>
+href="hmlg-000C.xml"
+addr="hmlg-000C"
+title="Quasi-isomorphism">quasi-isomorphisms</fr:link> to quasi-isomorphisms.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>994</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2029</fr:anchor><fr:addr
+type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0005</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Consider the functor from the Kleisli category to the category of free algebras, sending <fr:tex>X</fr:tex> to the free algebra on <fr:tex>X</fr:tex>. This is fully faithful and surjective on objects.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0018</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.</fr:p>
+
+  <fr:p>On the other hand, <fr:link
+type="local"
+href="todo.xml"
+addr="todo"
+title="Unfinished trees">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex
+display="inline"><![CDATA[f : C_\bullet  \to  D_\bullet ]]></fr:tex> is a quasi-isomorphism, <fr:tex
+display="inline"><![CDATA[H_n (f)]]></fr:tex> are all isomorphisms. Therefore <fr:tex
+display="inline"><![CDATA[H_n (F(f)) = F(H_n(f))]]></fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

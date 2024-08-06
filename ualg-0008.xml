@@ -1,259 +1,349 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>992</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0008</fr:addr><fr:route>ualg-0008.xml</fr:route><fr:title>The Kleisli category induces the initial decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>932</fr:anchor><fr:addr
+type="user">ualg-0008</fr:addr><fr:route>ualg-0008.xml</fr:route><fr:title
+text="The Kleisli category induces the initial decomposition of a monad">The Kleisli category induces the initial decomposition of a monad</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The <fr:link
 href="ualg-0004.xml"
+addr="ualg-0004"
+title="The Kleisli category of a monad">Kleisli category</fr:link> together with its canonical adjunction is the initial <fr:link
 type="local"
-addr="ualg-0004">Kleisli category</fr:link> together with its canonical adjunction is the initial <fr:link
 href="ualg-0007.xml"
-type="local"
-addr="ualg-0007">decomposition of a monad into adjoint functors</fr:link>.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="ualg-0007"
+title="Decomposition of a monad into adjoint functors">decomposition of a monad into adjoint functors</fr:link>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>990</fr:anchor><fr:addr>ualg-0007</fr:addr><fr:route>ualg-0007.xml</fr:route><fr:title>Decomposition of a monad into adjoint functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>934</fr:anchor><fr:addr
+type="user">ualg-0007</fr:addr><fr:route>ualg-0007.xml</fr:route><fr:title
+text="Decomposition of a monad into adjoint functors">Decomposition of a monad into adjoint functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a pair of adjoint functor <fr:tex
+display="inline"><![CDATA[F \dashv  G]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[G \mathbin {\circ } F]]></fr:tex> forms a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a pair of adjoint functor <fr:tex>F \dashv G</fr:tex>, <fr:tex>G \mathbin{\circ} F</fr:tex> forms a <fr:link
 href="ualg-0001.xml"
-type="local"
-addr="ualg-0001">monad</fr:link>. As a converse, we can consider the adjunctions whose composition is a given monad <fr:tex>M</fr:tex>. These decompositions form a bicategory. The morphisms between two adjunctions are given by functors <fr:tex>L</fr:tex> that make the two triangles below commute.
+addr="ualg-0001"
+title="Monad on a category">monad</fr:link>. As a converse, we can consider the adjunctions whose composition is a given monad <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>. These decompositions form a bicategory. The morphisms between two adjunctions are given by functors <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> that make the two triangles below commute.
   
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="f82cf08781527acb41524a4fd4b2fb10"><fr:embedded-tex-preamble>
+hash="a39a5a66477c19047311c740a235210b"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-    {{\mathcal{D}}_2} &amp; {{\mathcal{D}}_1} &amp; {{\mathcal{C}}}
-    \arrow[shift right, from=1-2, to=1-3]
-    \arrow[shift right, from=1-3, to=1-2]
-    \arrow[shift right, curve={height=18pt}, from=1-1, to=1-3]
-    \arrow[shift right, curve={height=18pt}, from=1-3, to=1-1]
-    \arrow["L"{description}, from=1-2, to=1-1]
-  \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+    {\mathcal {D}_2} & {\mathcal {D}_1} & {\mathcal {C}}
+    \arrow [shift right, from=1-2, to=1-3]
+    \arrow [shift right, from=1-3, to=1-2]
+    \arrow [shift right, curve={height=18pt}, from=1-1, to=1-3]
+    \arrow [shift right, curve={height=18pt}, from=1-3, to=1-1]
+    \arrow ["L"{description}, from=1-2, to=1-1]
+  \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
-  More precisely, the objects of this bicategory are given by adjunctions <fr:tex>F \dashv G</fr:tex> together with a natural isomorphism <fr:tex>G \mathbin{\circ} F \cong M</fr:tex>. A morphism from <fr:tex>F_1 \dashv G_1</fr:tex> to <fr:tex>F_2 \dashv G_2</fr:tex> is given by a functor <fr:tex>L</fr:tex> together with two natural isomorphisms <fr:tex>L \mathbin{\circ} G_1 \cong G_2</fr:tex>, <fr:tex>F_1 \cong F_2 \mathbin{\circ} L</fr:tex>. A <fr:tex>2</fr:tex>-morphism is given by a natural transformation such that the relevant composition of natural transformations are equal.
-</fr:p><fr:p>
-  This bicategory has initial and terminal objects.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+  More precisely, the objects of this bicategory are given by adjunctions <fr:tex
+display="inline"><![CDATA[F \dashv  G]]></fr:tex> together with a natural isomorphism <fr:tex
+display="inline"><![CDATA[G \mathbin {\circ } F \cong  M]]></fr:tex>. A morphism from <fr:tex
+display="inline"><![CDATA[F_1 \dashv  G_1]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[F_2 \dashv  G_2]]></fr:tex> is given by a functor <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> together with two natural isomorphisms <fr:tex
+display="inline"><![CDATA[L \mathbin {\circ } G_1 \cong  G_2]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[F_1 \cong  F_2 \mathbin {\circ } L]]></fr:tex>. A <fr:tex
+display="inline"><![CDATA[2]]></fr:tex>-morphism is given by a natural transformation such that the relevant composition of natural transformations are equal.</fr:p><fr:p>This bicategory has initial and terminal objects.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>961</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0008</fr:addr><fr:route>ualg-0008.xml</fr:route><fr:title>The Kleisli category induces the initial decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>916</fr:anchor><fr:addr
+type="user">ualg-0008</fr:addr><fr:route>ualg-0008.xml</fr:route><fr:title
+text="The Kleisli category induces the initial decomposition of a monad">The Kleisli category induces the initial decomposition of a monad</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The <fr:link
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
+type="local"
 href="ualg-0004.xml"
+addr="ualg-0004"
+title="The Kleisli category of a monad">Kleisli category</fr:link> together with its canonical adjunction is the initial <fr:link
 type="local"
-addr="ualg-0004">Kleisli category</fr:link> together with its canonical adjunction is the initial <fr:link
 href="ualg-0007.xml"
-type="local"
-addr="ualg-0007">decomposition of a monad into adjoint functors</fr:link>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="ualg-0007"
+title="Decomposition of a monad into adjoint functors">decomposition of a monad into adjoint functors</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>963</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0009</fr:addr><fr:route>ualg-0009.xml</fr:route><fr:title>The Eilenberg–Moore category induces the terminal decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>918</fr:anchor><fr:addr
+type="user">ualg-0009</fr:addr><fr:route>ualg-0009.xml</fr:route><fr:title
+text="The Eilenberg–Moore category induces the terminal decomposition of a monad">The Eilenberg–Moore category induces the terminal decomposition of a monad</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The <fr:link
 href="ualg-0002.xml"
+addr="ualg-0002"
+title="Algebra of a monad">Eilenberg–Moore category</fr:link> together with its canonical adjunction is the terminal <fr:link
 type="local"
-addr="ualg-0002">Eilenberg–Moore category</fr:link> together with its canonical adjunction is the terminal <fr:link
 href="ualg-0007.xml"
-type="local"
-addr="ualg-0007">decomposition of a monad into adjoint functors</fr:link>. Hence there is a unique morphism from any decomposition to it, named the <fr:strong>comparison functor</fr:strong>.
-</fr:p>
+addr="ualg-0007"
+title="Decomposition of a monad into adjoint functors">decomposition of a monad into adjoint functors</fr:link>. Hence there is a unique morphism from any decomposition to it, named the <fr:strong>comparison functor</fr:strong>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>918</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>883</fr:anchor><fr:addr
+type="machine">#236</fr:addr><fr:route>unstable-236.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0009</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Given an adjunction <fr:tex>F \dashv G</fr:tex> with the corresponding monad <fr:tex>G \mathbin{\circ} F</fr:tex>, the comparison functor is defined as sending <fr:tex>X</fr:tex> to <fr:tex>GFGX \to GX</fr:tex>, given by the counit <fr:tex>FGX \to X</fr:tex>.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0009</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Given an adjunction <fr:tex
+display="inline"><![CDATA[F \dashv  G]]></fr:tex> with the corresponding monad <fr:tex
+display="inline"><![CDATA[G \mathbin {\circ } F]]></fr:tex>, the comparison functor is defined as sending <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[GFGX \to  GX]]></fr:tex>, given by the counit <fr:tex
+display="inline"><![CDATA[FGX \to  X]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>965</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000A</fr:addr><fr:route>ualg-000A.xml</fr:route><fr:title>Monadic functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>920</fr:anchor><fr:addr
+type="user">ualg-000A</fr:addr><fr:route>ualg-000A.xml</fr:route><fr:title
+text="Monadic functor">Monadic functor</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a pair of adjoint functors <fr:tex
+display="inline"><![CDATA[F \dashv  G]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> is <fr:strong>monadic</fr:strong> if the corresponding <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a pair of adjoint functors <fr:tex>F \dashv G</fr:tex>, <fr:tex>G</fr:tex> is <fr:strong>monadic</fr:strong> if the corresponding <fr:link
 href="ualg-0009.xml"
+addr="ualg-0009"
+title="The Eilenberg–Moore category induces the terminal decomposition of a monad">comparison functor</fr:link> to <fr:tex
+display="inline"><![CDATA[\mathcal {C}^{G \mathbin {\circ } F}]]></fr:tex> is an equivalence in <fr:link
 type="local"
-addr="ualg-0009">comparison functor</fr:link> to <fr:tex>{\mathcal{C}}^{G \mathbin{\circ} F}</fr:tex> is an equivalence in <fr:link
 href="ualg-0007.xml"
-type="local"
-addr="ualg-0007">the bicategory of decompositions</fr:link>.
-</fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="ualg-0007"
+title="Decomposition of a monad into adjoint functors">the bicategory of decompositions</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>986</fr:anchor><fr:addr>ualg-0007</fr:addr><fr:route>ualg-0007.xml</fr:route><fr:title>Decomposition of a monad into adjoint functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>936</fr:anchor><fr:addr
+type="user">ualg-0007</fr:addr><fr:route>ualg-0007.xml</fr:route><fr:title
+text="Decomposition of a monad into adjoint functors">Decomposition of a monad into adjoint functors</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a pair of adjoint functor <fr:tex
+display="inline"><![CDATA[F \dashv  G]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[G \mathbin {\circ } F]]></fr:tex> forms a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a pair of adjoint functor <fr:tex>F \dashv G</fr:tex>, <fr:tex>G \mathbin{\circ} F</fr:tex> forms a <fr:link
 href="ualg-0001.xml"
-type="local"
-addr="ualg-0001">monad</fr:link>. As a converse, we can consider the adjunctions whose composition is a given monad <fr:tex>M</fr:tex>. These decompositions form a bicategory. The morphisms between two adjunctions are given by functors <fr:tex>L</fr:tex> that make the two triangles below commute.
+addr="ualg-0001"
+title="Monad on a category">monad</fr:link>. As a converse, we can consider the adjunctions whose composition is a given monad <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>. These decompositions form a bicategory. The morphisms between two adjunctions are given by functors <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> that make the two triangles below commute.
   
   <html:span
 xmlns:html="http://www.w3.org/1999/xhtml"
 class="tikz tikzcd">
     <fr:embedded-tex
-hash="f82cf08781527acb41524a4fd4b2fb10"><fr:embedded-tex-preamble>
+hash="a39a5a66477c19047311c740a235210b"><fr:embedded-tex-preamble><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    </fr:embedded-tex-preamble><fr:embedded-tex-body>
-      \begin{tikzcd}
-    {{\mathcal{D}}_2} &amp; {{\mathcal{D}}_1} &amp; {{\mathcal{C}}}
-    \arrow[shift right, from=1-2, to=1-3]
-    \arrow[shift right, from=1-3, to=1-2]
-    \arrow[shift right, curve={height=18pt}, from=1-1, to=1-3]
-    \arrow[shift right, curve={height=18pt}, from=1-3, to=1-1]
-    \arrow["L"{description}, from=1-2, to=1-1]
-  \end{tikzcd}
-    </fr:embedded-tex-body></fr:embedded-tex>
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+    {\mathcal {D}_2} & {\mathcal {D}_1} & {\mathcal {C}}
+    \arrow [shift right, from=1-2, to=1-3]
+    \arrow [shift right, from=1-3, to=1-2]
+    \arrow [shift right, curve={height=18pt}, from=1-1, to=1-3]
+    \arrow [shift right, curve={height=18pt}, from=1-3, to=1-1]
+    \arrow ["L"{description}, from=1-2, to=1-1]
+  \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
   </html:span>
 
-  More precisely, the objects of this bicategory are given by adjunctions <fr:tex>F \dashv G</fr:tex> together with a natural isomorphism <fr:tex>G \mathbin{\circ} F \cong M</fr:tex>. A morphism from <fr:tex>F_1 \dashv G_1</fr:tex> to <fr:tex>F_2 \dashv G_2</fr:tex> is given by a functor <fr:tex>L</fr:tex> together with two natural isomorphisms <fr:tex>L \mathbin{\circ} G_1 \cong G_2</fr:tex>, <fr:tex>F_1 \cong F_2 \mathbin{\circ} L</fr:tex>. A <fr:tex>2</fr:tex>-morphism is given by a natural transformation such that the relevant composition of natural transformations are equal.
-</fr:p><fr:p>
-  This bicategory has initial and terminal objects.
-</fr:p><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+  More precisely, the objects of this bicategory are given by adjunctions <fr:tex
+display="inline"><![CDATA[F \dashv  G]]></fr:tex> together with a natural isomorphism <fr:tex
+display="inline"><![CDATA[G \mathbin {\circ } F \cong  M]]></fr:tex>. A morphism from <fr:tex
+display="inline"><![CDATA[F_1 \dashv  G_1]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[F_2 \dashv  G_2]]></fr:tex> is given by a functor <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> together with two natural isomorphisms <fr:tex
+display="inline"><![CDATA[L \mathbin {\circ } G_1 \cong  G_2]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[F_1 \cong  F_2 \mathbin {\circ } L]]></fr:tex>. A <fr:tex
+display="inline"><![CDATA[2]]></fr:tex>-morphism is given by a natural transformation such that the relevant composition of natural transformations are equal.</fr:p><fr:p>This bicategory has initial and terminal objects.</fr:p><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>961</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0008</fr:addr><fr:route>ualg-0008.xml</fr:route><fr:title>The Kleisli category induces the initial decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>916</fr:anchor><fr:addr
+type="user">ualg-0008</fr:addr><fr:route>ualg-0008.xml</fr:route><fr:title
+text="The Kleisli category induces the initial decomposition of a monad">The Kleisli category induces the initial decomposition of a monad</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The <fr:link
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
+type="local"
 href="ualg-0004.xml"
+addr="ualg-0004"
+title="The Kleisli category of a monad">Kleisli category</fr:link> together with its canonical adjunction is the initial <fr:link
 type="local"
-addr="ualg-0004">Kleisli category</fr:link> together with its canonical adjunction is the initial <fr:link
 href="ualg-0007.xml"
-type="local"
-addr="ualg-0007">decomposition of a monad into adjoint functors</fr:link>.
-</fr:p></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="ualg-0007"
+title="Decomposition of a monad into adjoint functors">decomposition of a monad into adjoint functors</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>963</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>ualg-0009</fr:addr><fr:route>ualg-0009.xml</fr:route><fr:title>The Eilenberg–Moore category induces the terminal decomposition of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>918</fr:anchor><fr:addr
+type="user">ualg-0009</fr:addr><fr:route>ualg-0009.xml</fr:route><fr:title
+text="The Eilenberg–Moore category induces the terminal decomposition of a monad">The Eilenberg–Moore category induces the terminal decomposition of a monad</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The <fr:link
 href="ualg-0002.xml"
+addr="ualg-0002"
+title="Algebra of a monad">Eilenberg–Moore category</fr:link> together with its canonical adjunction is the terminal <fr:link
 type="local"
-addr="ualg-0002">Eilenberg–Moore category</fr:link> together with its canonical adjunction is the terminal <fr:link
 href="ualg-0007.xml"
-type="local"
-addr="ualg-0007">decomposition of a monad into adjoint functors</fr:link>. Hence there is a unique morphism from any decomposition to it, named the <fr:strong>comparison functor</fr:strong>.
-</fr:p>
+addr="ualg-0007"
+title="Decomposition of a monad into adjoint functors">decomposition of a monad into adjoint functors</fr:link>. Hence there is a unique morphism from any decomposition to it, named the <fr:strong>comparison functor</fr:strong>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>918</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>883</fr:anchor><fr:addr
+type="machine">#236</fr:addr><fr:route>unstable-236.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0009</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    Given an adjunction <fr:tex>F \dashv G</fr:tex> with the corresponding monad <fr:tex>G \mathbin{\circ} F</fr:tex>, the comparison functor is defined as sending <fr:tex>X</fr:tex> to <fr:tex>GFGX \to GX</fr:tex>, given by the counit <fr:tex>FGX \to X</fr:tex>.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-0009</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Given an adjunction <fr:tex
+display="inline"><![CDATA[F \dashv  G]]></fr:tex> with the corresponding monad <fr:tex
+display="inline"><![CDATA[G \mathbin {\circ } F]]></fr:tex>, the comparison functor is defined as sending <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[GFGX \to  GX]]></fr:tex>, given by the counit <fr:tex
+display="inline"><![CDATA[FGX \to  X]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>965</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-000A</fr:addr><fr:route>ualg-000A.xml</fr:route><fr:title>Monadic functor</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>920</fr:anchor><fr:addr
+type="user">ualg-000A</fr:addr><fr:route>ualg-000A.xml</fr:route><fr:title
+text="Monadic functor">Monadic functor</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a pair of adjoint functors <fr:tex
+display="inline"><![CDATA[F \dashv  G]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[G]]></fr:tex> is <fr:strong>monadic</fr:strong> if the corresponding <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a pair of adjoint functors <fr:tex>F \dashv G</fr:tex>, <fr:tex>G</fr:tex> is <fr:strong>monadic</fr:strong> if the corresponding <fr:link
 href="ualg-0009.xml"
+addr="ualg-0009"
+title="The Eilenberg–Moore category induces the terminal decomposition of a monad">comparison functor</fr:link> to <fr:tex
+display="inline"><![CDATA[\mathcal {C}^{G \mathbin {\circ } F}]]></fr:tex> is an equivalence in <fr:link
 type="local"
-addr="ualg-0009">comparison functor</fr:link> to <fr:tex>{\mathcal{C}}^{G \mathbin{\circ} F}</fr:tex> is an equivalence in <fr:link
 href="ualg-0007.xml"
-type="local"
-addr="ualg-0007">the bicategory of decompositions</fr:link>.
-</fr:p></fr:mainmatter></fr:tree></fr:mainmatter></fr:tree><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="ualg-0007"
+title="Decomposition of a monad into adjoint functors">the bicategory of decompositions</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>988</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>ualg-0004</fr:addr><fr:route>ualg-0004.xml</fr:route><fr:title>The Kleisli category of a monad</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>938</fr:anchor><fr:addr
+type="user">ualg-0004</fr:addr><fr:route>ualg-0004.xml</fr:route><fr:title
+text="The Kleisli category of a monad">The Kleisli category of a monad</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:link
 href="ualg-0001.xml"
-type="local"
-addr="ualg-0001">monad</fr:link> <fr:tex>M : {\mathcal{C}} \to {\mathcal{C}}</fr:tex> and two objects <fr:tex>X, Y</fr:tex> in <fr:tex>{\mathcal{C}}</fr:tex>, a <fr:strong>Kleisli arrow</fr:strong> from <fr:tex>X</fr:tex> to <fr:tex>Y</fr:tex> is simply any arrow <fr:tex>X \to MY</fr:tex>. This represents an algebra homomorphism from the free algebra generated by <fr:tex>X</fr:tex> to that of <fr:tex>Y</fr:tex>.
-</fr:p><fr:p>
-  The identity Kleisli arrow is defined as <fr:tex>\eta : X \to MX</fr:tex>. The composition of <fr:tex>f : X \to MY</fr:tex> and <fr:tex>g : Y \to MZ</fr:tex> is given by <fr:tex
-display="block">X \xrightarrow{f} MY \xrightarrow{Mg} M^2 Z \xrightarrow{\mu} MZ.</fr:tex> This forms a category whose objects are the objects of <fr:tex>{\mathcal{C}}</fr:tex>, as a formal symbol standing for the free algebra generated by those objects, and morphisms are Kleisli arrows. This is the <fr:strong>Kleisli category</fr:strong> <fr:tex>{\mathcal{C}}_M</fr:tex>.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+addr="ualg-0001"
+title="Monad on a category">monad</fr:link> <fr:tex
+display="inline"><![CDATA[M : \mathcal {C} \to  \mathcal {C}]]></fr:tex> and two objects <fr:tex
+display="inline"><![CDATA[X, Y]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, a <fr:strong>Kleisli arrow</fr:strong> from <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> is simply any arrow <fr:tex
+display="inline"><![CDATA[X \to  MY]]></fr:tex>. This represents an algebra homomorphism from the free algebra generated by <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> to that of <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex>.</fr:p><fr:p>The identity Kleisli arrow is defined as <fr:tex
+display="inline"><![CDATA[\eta  : X \to  MX]]></fr:tex>. The composition of <fr:tex
+display="inline"><![CDATA[f : X \to  MY]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g : Y \to  MZ]]></fr:tex> is given by <fr:tex
+display="block"><![CDATA[X \xrightarrow {f} MY \xrightarrow {Mg} M^2 Z \xrightarrow {\mu } MZ.]]></fr:tex> This forms a category whose objects are the objects of <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, as a formal symbol standing for the free algebra generated by those objects, and morphisms are Kleisli arrows. This is the <fr:strong>Kleisli category</fr:strong> <fr:tex
+display="inline"><![CDATA[\mathcal {C}_M]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

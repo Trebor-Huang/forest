@@ -1,73 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>306</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2152</fr:anchor><fr:addr
+type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002W</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We first prove the forward implication. Given a sequence
-    <fr:tex
-display="block">X \xrightarrow{f} Y \xrightarrow{g} Z</fr:tex>
-    whose image under <fr:tex>F</fr:tex> is exact, by faithfulness <fr:tex>F(g \mathbin{\circ} f) = 0</fr:tex> implies <fr:tex>g \mathbin{\circ} f = 0</fr:tex>. Now we wish to prove the composite <fr:tex>\ker g \to Y \to \operatorname{coker} f</fr:tex> is zero. We can decompose its image under <fr:tex>F</fr:tex> as
-    <fr:tex
-display="block">F(\ker g) \to \ker Fg \to FY \to \operatorname{coker} Ff \to F(\operatorname{coker} f).</fr:tex>
-    But the inner two morphisms compose to zero, so by faithfulness we get our result.
-  </fr:p>
-
-  <fr:p>
-    On the other hand, suppose <fr:tex>F</fr:tex> reflects exactness. Given a morphism <fr:tex>f : X \to Y</fr:tex>, suppose <fr:tex>Ff = 0</fr:tex>, then <fr:tex>FX \xrightarrow{{\textrm{id}}} FX \xrightarrow{Ff} FY</fr:tex> is exact. Hence <fr:tex>X \xrightarrow{{\textrm{id}}} X \xrightarrow{f} Y</fr:tex> is also exact, so <fr:tex>f = 0</fr:tex> too.
-  </fr:p>
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Y</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We simply need to note that an equalizer for <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> is equivalent to an equalizer for <fr:tex
+display="inline"><![CDATA[(f-g)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[0]]></fr:tex>, by bilinearity of composition.</fr:p>
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>304</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>hmlg-002W</fr:addr><fr:route>hmlg-002W.xml</fr:route><fr:title>Additive functor is faithful iff it reflects exactness</fr:title><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2154</fr:anchor><fr:addr
+type="user">hmlg-000Y</fr:addr><fr:route>hmlg-000Y.xml</fr:route><fr:title
+text="Equalizers can be reduced to kernels in {Ab}-enriched categories">Equalizers can be reduced to kernels in <fr:tex
+display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched categories</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
 href="trebor.xml"
-type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  An <fr:link
-href="hmlg-000S.xml"
-type="local"
-addr="hmlg-000S">additive functor</fr:link> is faithful iff it reflects exactness.
-</fr:p><fr:p>
-  This implies that faithful additive functors reflects kernels, cokernels, etc. Note that faithful functors need not preserve kernels or cokernels. This is because we can take the direct sum of a faithful functor with an arbitrary additive functor and the result is still faithful. The second summand can behave badly.
-</fr:p>
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can express equalizers with kernels (which are equalizers with the zero morphism).</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>302</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>466</fr:anchor><fr:addr
+type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002W</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    We first prove the forward implication. Given a sequence
-    <fr:tex
-display="block">X \xrightarrow{f} Y \xrightarrow{g} Z</fr:tex>
-    whose image under <fr:tex>F</fr:tex> is exact, by faithfulness <fr:tex>F(g \mathbin{\circ} f) = 0</fr:tex> implies <fr:tex>g \mathbin{\circ} f = 0</fr:tex>. Now we wish to prove the composite <fr:tex>\ker g \to Y \to \operatorname{coker} f</fr:tex> is zero. We can decompose its image under <fr:tex>F</fr:tex> as
-    <fr:tex
-display="block">F(\ker g) \to \ker Fg \to FY \to \operatorname{coker} Ff \to F(\operatorname{coker} f).</fr:tex>
-    But the inner two morphisms compose to zero, so by faithfulness we get our result.
-  </fr:p>
-
-  <fr:p>
-    On the other hand, suppose <fr:tex>F</fr:tex> reflects exactness. Given a morphism <fr:tex>f : X \to Y</fr:tex>, suppose <fr:tex>Ff = 0</fr:tex>, then <fr:tex>FX \xrightarrow{{\textrm{id}}} FX \xrightarrow{Ff} FY</fr:tex> is exact. Hence <fr:tex>X \xrightarrow{{\textrm{id}}} X \xrightarrow{f} Y</fr:tex> is also exact, so <fr:tex>f = 0</fr:tex> too.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-000Y</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We simply need to note that an equalizer for <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> is equivalent to an equalizer for <fr:tex
+display="inline"><![CDATA[(f-g)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[0]]></fr:tex>, by bilinearity of composition.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

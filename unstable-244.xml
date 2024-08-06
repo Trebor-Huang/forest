@@ -1,59 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>814</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>510</fr:anchor><fr:addr
+type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000M</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    This is indeed a Boolean algebra since measure-zero sets form a Boolean ideal of the Lebesgue <fr:tex>\sigma</fr:tex>-algebra. So we just need to show the existence of arbitrary joins. Given a family <fr:tex>X_\alpha</fr:tex> of measurable sets, we inductively construct a countable union. On each step, consider the area of each set outside of the current union. Select a set such that this excess area is within <fr:tex>\frac12</fr:tex> of the supremum. Since <fr:tex>\mu([0,1]) = 1</fr:tex>, such a process must lead to an excess area converging to zero.
-  </fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002I</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>A free module evidently projective. If <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is a direct summand of a projective module <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>, then we can extend any map <fr:tex
+display="inline"><![CDATA[P \to  B]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> by zero. Then the projectivity of <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> implies that of <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>.</fr:p>
 
-  <fr:p>
-    By construction, every set <fr:tex>X_\alpha</fr:tex> has zero area outside of this countable union, so they are under the union in the Boolean algebra. And the countable union <fr:tex>\bigcup_{k=1}^\infty X_{\alpha_k}</fr:tex> is the join of <fr:tex>X_{\alpha_k}</fr:tex> in the algebra, since a countable union of neglegible set is still neglegible. Hence by chasing elements, it must be the join of the entire family <fr:tex>X_\alpha</fr:tex>.
-  </fr:p>
-</fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+  <fr:p>On the other hand, suppose <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is projective, then we have an epimorphism <fr:tex
+display="inline"><![CDATA[R^{\oplus  |P|} \twoheadrightarrow  P]]></fr:tex>. The identity map <fr:tex
+display="inline"><![CDATA[P \to  P]]></fr:tex> lifts against this epimorphism to a splitting of it, hence <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is its direct summand.</fr:p>
+</fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>812</fr:anchor><fr:taxon>Example</fr:taxon><fr:addr>ualg-000M</fr:addr><fr:route>ualg-000M.xml</fr:route><fr:title>Complete Boolean algebra not isomorphic to a powerset</fr:title><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>512</fr:anchor><fr:addr
+type="user">hmlg-002I</fr:addr><fr:route>hmlg-002I.xml</fr:route><fr:title
+text="Projective modules are direct summands of free modules">Projective modules are direct summands of free modules</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Consider the Lebesgue measurable sets on the interval <fr:tex>[0,1]</fr:tex> quotiented by measure-zero sets. This is a complete Boolean algebra, but it is not a powerset, showing the necessity of complete distributivity in <fr:ref
-addr="ualg-000L"
-href="ualg-000L.xml"
-taxon="Theorem"></fr:ref>.
-</fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>In the <fr:link
+type="local"
+href="hmlg-000Q.xml"
+addr="hmlg-000Q"
+title="Abelian category">abelian category</fr:link> of modules over a ring <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, the <fr:link
+type="local"
+href="hmlg-0004.xml"
+addr="hmlg-0004"
+title="Projective object">projective object</fr:link> modules are exactly the modules that appear as a direct summand of some free module <fr:tex
+display="inline"><![CDATA[P \oplus  Q = R^{\oplus  n}]]></fr:tex>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>810</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>401</fr:anchor><fr:addr
+type="machine">#244</fr:addr><fr:route>unstable-244.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>ualg-000M</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    This is indeed a Boolean algebra since measure-zero sets form a Boolean ideal of the Lebesgue <fr:tex>\sigma</fr:tex>-algebra. So we just need to show the existence of arbitrary joins. Given a family <fr:tex>X_\alpha</fr:tex> of measurable sets, we inductively construct a countable union. On each step, consider the area of each set outside of the current union. Select a set such that this excess area is within <fr:tex>\frac12</fr:tex> of the supremum. Since <fr:tex>\mu([0,1]) = 1</fr:tex>, such a process must lead to an excess area converging to zero.
-  </fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002I</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>A free module evidently projective. If <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is a direct summand of a projective module <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex>, then we can extend any map <fr:tex
+display="inline"><![CDATA[P \to  B]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> by zero. Then the projectivity of <fr:tex
+display="inline"><![CDATA[Q]]></fr:tex> implies that of <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>.</fr:p>
 
-  <fr:p>
-    By construction, every set <fr:tex>X_\alpha</fr:tex> has zero area outside of this countable union, so they are under the union in the Boolean algebra. And the countable union <fr:tex>\bigcup_{k=1}^\infty X_{\alpha_k}</fr:tex> is the join of <fr:tex>X_{\alpha_k}</fr:tex> in the algebra, since a countable union of neglegible set is still neglegible. Hence by chasing elements, it must be the join of the entire family <fr:tex>X_\alpha</fr:tex>.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+  <fr:p>On the other hand, suppose <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is projective, then we have an epimorphism <fr:tex
+display="inline"><![CDATA[R^{\oplus  |P|} \twoheadrightarrow  P]]></fr:tex>. The identity map <fr:tex
+display="inline"><![CDATA[P \to  P]]></fr:tex> lifts against this epimorphism to a splitting of it, hence <fr:tex
+display="inline"><![CDATA[P]]></fr:tex> is its direct summand.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

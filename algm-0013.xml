@@ -1,90 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="true"
 numbered="true"
 show-heading="true"
 show-metadata="true"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1591</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>algm-0013</fr:addr><fr:route>algm-0013.xml</fr:route><fr:title>Irrelevant ideal</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1516</fr:anchor><fr:addr
+type="user">algm-0013</fr:addr><fr:route>algm-0013.xml</fr:route><fr:title
+text="Irrelevant ideal">Irrelevant ideal</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  Given a <fr:tex>\mathbb N</fr:tex>-<fr:link
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:tex
+display="inline"><![CDATA[\mathbb  N]]></fr:tex>-<fr:link
+type="local"
 href="hmlg-001L.xml"
-type="local"
-addr="hmlg-001L">graded ring</fr:link> <fr:tex>S</fr:tex>, its <fr:strong>irrelevant ideal</fr:strong> <fr:tex>\mathord{\odot}</fr:tex> is defined by the subset <fr:tex>S_+</fr:tex> of all positively graded elements.
-</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+addr="hmlg-001L"
+title="Graded ring">graded ring</fr:link> <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, its <fr:strong>irrelevant ideal</fr:strong> <fr:tex
+display="inline"><![CDATA[\mathord {\odot }]]></fr:tex> is defined by the subset <fr:tex
+display="inline"><![CDATA[S_+]]></fr:tex> of all positively graded elements.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
 toc="true"
 numbered="false"
 show-heading="true"
 show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1589</fr:anchor><fr:taxon>Definition</fr:taxon><fr:addr>hmlg-001L</fr:addr><fr:route>hmlg-001L.xml</fr:route><fr:title>Graded ring</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1518</fr:anchor><fr:addr
+type="user">algm-0012</fr:addr><fr:route>algm-0012.xml</fr:route><fr:title
+text="Points of the projective spectrum">Points of the projective spectrum</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  A D-<fr:strong>graded ring</fr:strong> is a sequence of abelian groups <fr:tex>R_d</fr:tex>, where <fr:tex>d \in D</fr:tex> are elements of a commutative monoid called the <fr:strong>grading</fr:strong>. We have a bilinear multiplication map <fr:tex
-display="block">R_p \otimes R_q \to R_{p+q}</fr:tex> and a identity element <fr:tex>1 \in R_0</fr:tex> satisfying the associativity and identity laws.
-</fr:p><fr:p>
-  Usually, the grading is one of <fr:tex>\mathbb Z</fr:tex> or <fr:tex>\mathbb N</fr:tex>. A <fr:strong>bigraded ring</fr:strong> is graded over <fr:tex>D^2</fr:tex> instead of <fr:tex>D</fr:tex>, whatever the context implies the grading is.
-</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks><fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1587</fr:anchor><fr:taxon>Theorem</fr:taxon><fr:addr>algm-0012</fr:addr><fr:route>algm-0012.xml</fr:route><fr:title>Points of the projective spectrum</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The points of the <fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>
-  The points of the <fr:link
 href="algm-000Y.xml"
+addr="algm-000Y"
+title="Projective spectrum of a graded ring">projective scheme</fr:link> <fr:tex
+display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> are given by prime ideals not dividing the <fr:link
 type="local"
-addr="algm-000Y">projective scheme</fr:link> <fr:tex>\operatorname{Proj}(S)</fr:tex> are given by prime ideals not dividing the <fr:link
 href="algm-0013.xml"
-type="local"
-addr="algm-0013">irrelevant ideal</fr:link> <fr:tex>\mathord{\odot}</fr:tex>. This is in bijection with ideals with <fr:tex>\mathfrak{p}_0 = 0</fr:tex> (equivalently <fr:tex>\mathord{\odot} \nmid \mathfrak{p}</fr:tex>), and the condition for prime ideals holds for positively graded elements, i.e. <fr:tex
-display="block">\mathfrak{p} \mid x y \iff (\mathfrak{p} \mid x \lor \mathfrak{p} \mid y)</fr:tex> for positively graded <fr:tex>x</fr:tex> and <fr:tex>y</fr:tex>.
-</fr:p>
+addr="algm-0013"
+title="Irrelevant ideal">irrelevant ideal</fr:link> <fr:tex
+display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. This is in bijection with ideals with <fr:tex
+display="inline"><![CDATA[\mathfrak {p}_0 = 0]]></fr:tex> (equivalently <fr:tex
+display="inline"><![CDATA[\mathord {\odot } \nmid  \mathfrak {p}]]></fr:tex>), and the condition for prime ideals holds for positively graded elements, i.e. <fr:tex
+display="block"><![CDATA[\mathfrak {p} \mid  x y \iff  (\mathfrak {p} \mid  x \lor  \mathfrak {p} \mid  y)]]></fr:tex> for positively graded <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>.</fr:p>
   
     
     <fr:tree
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
 toc="false"
 numbered="true"
 show-heading="true"
 show-metadata="false"
 expanded="true"
-root="false"><fr:frontmatter><fr:anchor>1535</fr:anchor><fr:taxon>Proof</fr:taxon><fr:addr>#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
-href="trebor.xml"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1468</fr:anchor><fr:addr
+type="machine">#271</fr:addr><fr:route>unstable-271.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
-addr="trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0012</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>
-    To specify a point <fr:tex>P</fr:tex>, we need to specify which opens <fr:tex>D_+(f)</fr:tex> it belongs to, where <fr:tex>f</fr:tex> ranges over positively graded elements. Equivalently, we specify the closeds <fr:tex>V_+(f)</fr:tex>. Since <fr:tex>V_+(f) \cap V_+(g) \subseteq V_+(f + g)</fr:tex>, if <fr:tex>P \in V_+(f)</fr:tex> and <fr:tex>P \in V_+(g)</fr:tex> then <fr:tex>P \in V_+(f + g)</fr:tex>. Similarly since <fr:tex>V_+(f) \subseteq V_+(f g)</fr:tex>, <fr:tex>P \in V_+(f)</fr:tex> implies <fr:tex>P \in V_+(f g)</fr:tex>. Collecting all the elements whose distinguished closed contains <fr:tex>P</fr:tex>, we get an ideal <fr:tex>\mathfrak{a}</fr:tex> whose zeroth degree vanishes.
-  </fr:p>
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0012</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>To specify a point <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, we need to specify which opens <fr:tex
+display="inline"><![CDATA[D_+(f)]]></fr:tex> it belongs to, where <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> ranges over positively graded elements. Equivalently, we specify the closeds <fr:tex
+display="inline"><![CDATA[V_+(f)]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[V_+(f) \cap  V_+(g) \subseteq  V_+(f + g)]]></fr:tex>, if <fr:tex
+display="inline"><![CDATA[P \in  V_+(f)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[P \in  V_+(g)]]></fr:tex> then <fr:tex
+display="inline"><![CDATA[P \in  V_+(f + g)]]></fr:tex>. Similarly since <fr:tex
+display="inline"><![CDATA[V_+(f) \subseteq  V_+(f g)]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[P \in  V_+(f)]]></fr:tex> implies <fr:tex
+display="inline"><![CDATA[P \in  V_+(f g)]]></fr:tex>. Collecting all the elements whose distinguished closed contains <fr:tex
+display="inline"><![CDATA[P]]></fr:tex>, we get an ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> whose zeroth degree vanishes.</fr:p>
 
-  <fr:p>
-    We have <fr:tex>V_+(f g) = V_+(f) \cup V_+(g)</fr:tex>, so if <fr:tex>\mathfrak{a} \mid f g</fr:tex>, then either <fr:tex>\mathfrak{a} \mid f</fr:tex> or <fr:tex>\mathfrak{a} \mid g</fr:tex>. This is almost the condition for prime ideals, but recall that <fr:tex>f</fr:tex> and <fr:tex>g</fr:tex> must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with <fr:ref
+  <fr:p>We have <fr:tex
+display="inline"><![CDATA[V_+(f g) = V_+(f) \cup  V_+(g)]]></fr:tex>, so if <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  f g]]></fr:tex>, then either <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  f]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  g]]></fr:tex>. This is almost the condition for prime ideals, but recall that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[g]]></fr:tex> must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with <fr:ref
 addr="algm-0011"
 href="algm-0011.xml"
-taxon="Theorem"></fr:ref>.
-  </fr:p>
+taxon="Theorem" />.</fr:p>
 
-  <fr:p>
-    Next, we prove these ideals are in bijection with prime ideals not dividing <fr:tex>\mathord{\odot}</fr:tex>. One direction of the correspondence is obvious: we take a prime ideal <fr:tex>\mathfrak{p}</fr:tex> and remove the zeroth degree, which amounts to taking <fr:tex>\operatorname{lcm}(\mathfrak{p}, \mathord{\odot})</fr:tex>.
-  </fr:p>
+  <fr:p>Next, we prove these ideals are in bijection with prime ideals not dividing <fr:tex
+display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. One direction of the correspondence is obvious: we take a prime ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and remove the zeroth degree, which amounts to taking <fr:tex
+display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {p}, \mathord {\odot })]]></fr:tex>.</fr:p>
 
-  <fr:p>
-    We prove injectivity. Suppose primes <fr:tex>\mathfrak{p}</fr:tex> and <fr:tex>\mathfrak{q}</fr:tex> satisfy <fr:tex>\operatorname{lcm}(\mathfrak{p}, \mathord{\odot}) = \operatorname{lcm}(\mathfrak{q}, \mathord{\odot})</fr:tex>, then <fr:tex>\mathfrak{p} \mid \operatorname{lcm}(\mathfrak{q}, \mathord{\odot}) \mid \mathfrak{q} \cdot \mathord{\odot}</fr:tex>, so either <fr:tex>\mathfrak{p} \mid \mathord{\odot}</fr:tex> which is forbidden, or <fr:tex>\mathfrak{p} \mid \mathfrak{q}</fr:tex>. Conversely we must have <fr:tex>\mathfrak{q} \mid \mathfrak{p}</fr:tex>, hence <fr:tex>\mathfrak{p} = \mathfrak{q}</fr:tex>.
-  </fr:p>
+  <fr:p>We prove injectivity. Suppose primes <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> satisfy <fr:tex
+display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {p}, \mathord {\odot }) = \operatorname {lcm}(\mathfrak {q}, \mathord {\odot })]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \operatorname {lcm}(\mathfrak {q}, \mathord {\odot }) \mid  \mathfrak {q} \cdot  \mathord {\odot }]]></fr:tex>, so either <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \mathord {\odot }]]></fr:tex> which is forbidden, or <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {q}]]></fr:tex>. Conversely we must have <fr:tex
+display="inline"><![CDATA[\mathfrak {q} \mid  \mathfrak {p}]]></fr:tex>, hence <fr:tex
+display="inline"><![CDATA[\mathfrak {p} = \mathfrak {q}]]></fr:tex>.</fr:p>
 
-  <fr:p>
-    We prove surjectivity. Given an ideal <fr:tex>\mathfrak{a}</fr:tex>, we need to supplement it with a zeroth degree component <fr:tex>\mathfrak{a}_0</fr:tex> so that together they make a prime ideal not divided by <fr:tex>\mathord{\odot}</fr:tex>. We define <fr:tex>\mathfrak{a}_0 \mid c</fr:tex> iff there exists some positively graded <fr:tex>\mathfrak{a} \nmid f</fr:tex> such that <fr:tex>\mathfrak{a} \mid cf</fr:tex>. The verification is routine element chasing.
-  </fr:p>
-</fr:mainmatter></fr:tree>
+  <fr:p>We prove surjectivity. Given an ideal <fr:tex
+display="inline"><![CDATA[\mathfrak {a}]]></fr:tex>, we need to supplement it with a zeroth degree component <fr:tex
+display="inline"><![CDATA[\mathfrak {a}_0]]></fr:tex> so that together they make a prime ideal not divided by <fr:tex
+display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. We define <fr:tex
+display="inline"><![CDATA[\mathfrak {a}_0 \mid  c]]></fr:tex> iff there exists some positively graded <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \nmid  f]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  cf]]></fr:tex>. The verification is routine element chasing.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
-</fr:mainmatter></fr:tree></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1520</fr:anchor><fr:addr
+type="user">hmlg-001L</fr:addr><fr:route>hmlg-001L.xml</fr:route><fr:title
+text="Graded ring">Graded ring</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A D-<fr:strong>graded ring</fr:strong> is a sequence of abelian groups <fr:tex
+display="inline"><![CDATA[R_d]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[d \in  D]]></fr:tex> are elements of a commutative monoid called the <fr:strong>grading</fr:strong>. We have a bilinear multiplication map <fr:tex
+display="block"><![CDATA[R_p \otimes  R_q \to  R_{p+q}]]></fr:tex> and a identity element <fr:tex
+display="inline"><![CDATA[1 \in  R_0]]></fr:tex> satisfying the associativity and identity laws.</fr:p><fr:p>Usually, the grading is one of <fr:tex
+display="inline"><![CDATA[\mathbb  Z]]></fr:tex> or <fr:tex
+display="inline"><![CDATA[\mathbb  N]]></fr:tex>. A <fr:strong>bigraded ring</fr:strong> is graded over <fr:tex
+display="inline"><![CDATA[D^2]]></fr:tex> instead of <fr:tex
+display="inline"><![CDATA[D]]></fr:tex>, whatever the context implies the grading is.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
