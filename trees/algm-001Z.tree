@@ -1,0 +1,15 @@
+\date{2024-08-22}
+\title{a non-affine scheme}
+\author{trebor}
+\import{common}
+\taxon{example}
+
+\p{
+  The open subscheme of #{\mathbb{A}_{\mathbb{C}}^2 = \Spec \mathbb{C}[x, y]} given by removing the origin, or equivalently the open #{D(x) \cup D(y)}, is not [affine](algm-000Q).
+}
+
+\proof{
+  \p{
+    We just need to prove the [[algm-001Y]] is not an isomorphism. Consider the global sections of the [structure sheaf](algm-000M), which comes from the pullback of #{\mathbb{C}[x, y, x^{-1}]} and #{\mathbb{C}[x, y, y^{-1}]} over #{#{\mathbb{C}[x, y, x^{-1}, y^{-1}]}}. The result is simply #{\mathbb{C}[x, y]}. We can compute that the affinification map is the inclusion map into #{\mathbb{A}_{\mathbb{C}}^2}. This cannot be an isomorphism because the underlying space is different.
+  }
+}

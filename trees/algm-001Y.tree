@@ -1,0 +1,17 @@
+\date{2024-08-22}
+\title{affinification}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  Given a [[algm-000R]] #{S}, we can produce a best [affine](algm-000Q) approximation #{S \to S'} for it. This serves as the adjoint unit of the [[algm-0014]]. Here we give a construction from the ground up.
+}
+
+\p{
+  We define #{S' = \Spec \section(\top, \sheaf{O}_X)}. For the map #{S \to S'}, we define the preimage of the distinguished open #{D(f)} to be the non-vanishing open of #{f \in \section(\top, \sheaf{O}_X)}, which is defined on each affine subscheme as the distinguished open of #{f}. This is obviously continuous. We can then pull back a section #{f/g} by considering them as an element of #{\section(\top, \sheaf{O}_X)} and restricting them.
+}
+
+\p{
+  A scheme is affine iff the affinification is an isomorphism. This is a formal consequence that affine schemes form a full subcategory of schemes.
+}
