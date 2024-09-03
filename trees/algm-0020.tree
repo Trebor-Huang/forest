@@ -1,0 +1,28 @@
+\date{2024-09-03}
+\title{a non-distinguished affine subscheme}
+\taxon{example}
+\author{trebor}
+\import{common}
+
+\p{
+  Consider the [[algm-000Q]] #{X = \Spec \mathbb{C}[x, y]/(y^2 - x^3) \simeq \Spec \mathbb{C}[t^2, t^3]}, which is a degenerate cubic curve. We can remove the point #{(1,1)}, giving the open #{U = D(x-1) \cup D(y-1)}. We claim that #{U} is an affine subscheme but it is not of the form #{D(f)}.
+}
+
+\tikz{
+  \draw[->] (-1, 0) -- (3, 0);
+  \draw[->] (0, -3) -- (0, 3);
+  \draw[domain=-1.4:1.4, samples=50, thick] plot ({(\x)^2}, {(\x)^3});
+  \filldraw[fill = white] (1,1) circle (0.05);
+}
+
+\proof{
+  \p{
+    We first prove it is not distinguished. Suppose #{U = D(f)}, we can choose a representative of #{f} in #{\mathbb{C}[x, y]}. Now substituting #{x \mapsto t^2, y \mapsto t^3}, we need #{f(t^2, t^3)} to vanish only at #{t = 1}. Hence this is a polynomial #{\lambda (t - 1)^n}. But this is impossible since it has a linear term, which cannot be produced by #{t^2} and #{t^3}.
+  }
+
+  \p{
+    Now we need to show #{U} is affine. The coordinate ring is actually given by the subring #{R} of #{\mathbb{C}[t, (t-1)^{-1}]} such that the derivative at zero is zero, which can be verified by gluing. By \ref{algm-001Y} we have a canonical map #{U \to \Spec R}. Now restricting to the open #{D(t^2 - 1)} and #{D(t^3 - 1)} respectively, the two schemes are affine. By verifying the isomorphism of global sections, we see that they are isomorphic. Note that
+    ##{(t^3 - 1) \cdot \frac{t^2}{t - 1} - (t^2 - 1) \cdot \left(\frac{t^3}{t - 1} + 1\right) = 1.}
+    So these cover #{\Spec R} (this is where it differs from \ref{algm-001Z}), and we have our isomorphism.
+  }
+}
