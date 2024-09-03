@@ -144,33 +144,6 @@ footer h2 {
   display: inline;
 }
 
-@media only screen and (max-width: 1000px) {
-  body {
-    margin-top: 1em;
-    margin-left: .5em;
-    margin-right: .5em;
-    transition: ease all .2s;
-  }
-
-  #grid-wrapper>nav {
-    display: none;
-    transition: ease all .2s;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  body {
-    margin-top: 2em;
-    margin-left: 2em;
-    transition: ease all .2s;
-  }
-
-  #grid-wrapper {
-    display: grid;
-    grid-template-columns: 90ex;
-  }
-}
-
 body>header {
   margin-bottom: 2em;
 }
@@ -302,7 +275,8 @@ nav#toc li {
 .block {
   border-radius: var(--radius);
   border: 1px solid transparent;
-  transition: all .2s ease-in
+  transition: all .2s ease-in;
+  overflow: hidden;
 }
 
 .block:first-child {
@@ -368,7 +342,7 @@ a.slug {
   text-decoration-thickness: 1px;
 }
 
-.link.external::after, .edit-button::after {
+.link.external::after /*, .edit-button::after*/ {
   background-size: 100% 100%;
   content: "";
   display: inline-block;
@@ -383,10 +357,10 @@ a.slug {
   margin-left: 1pt;
 }
 
-.edit-button::after {
+/* .edit-button::after {
   background-image: url("edit.svg");
   margin-left: -2pt;
-}
+} */
 
 ninja-keys::part(ninja-action) {
   white-space: nowrap;
@@ -573,9 +547,10 @@ img {
   max-width: 100%;
 }
 
-span.tikz {
+span.tikz {  /* tikzcd blocks also has a tikz tag */
   display: block;
   text-align: center;
+  text-indent: 0;
 }
 
 span.tikzcd img {
@@ -640,3 +615,48 @@ ol li ol li ol {
  background-color: #bbb;
  color: white;
 }
+
+@media only screen and (max-width: 1000px) {
+  body {
+    margin-top: 1em;
+    margin-left: 0.3em;
+    margin-right: 0;
+    transition: ease all .2s;
+  }
+
+  #grid-wrapper>nav {
+    display: none;
+    transition: ease all .2s;
+  }
+
+  #grid-wrapper>article {
+    max-width: none;
+  }
+
+  .block {
+    margin-right: -0.5em;
+    padding-left: 0.3em;
+    padding-right: 0.5em;
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .block:hover {
+    border-right: 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    margin-top: 2em;
+    margin-left: 2em;
+    transition: ease all .2s;
+  }
+
+  #grid-wrapper {
+    display: grid;
+    grid-template-columns: 90ex;
+  }
+}
+
