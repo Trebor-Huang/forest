@@ -3234,7 +3234,7 @@ const sigmasAndXis = {
   sqrtRuleThickness: [0.04, 0.04, 0.04],
   // This value determines how large a pt is, for metrics which are defined
   // in terms of pts.
-  // This value is also used in katex.less; if you change it make sure the
+  // This value is also used in katex.scss; if you change it make sure the
   // values match.
   ptPerEm: [10.0, 10.0, 10.0],
   // The space between adjacent `|` columns in an array definition. From
@@ -5182,11 +5182,11 @@ for (let i = 0; i < letters.length; i++) {
 
   defineSymbol(math, main, mathord, ch, wideChar);
   defineSymbol(symbols_text, main, textord, ch, wideChar);
-  wideChar = String.fromCharCode(0xD835, 0xDD04 + i); // A-Z a-z Fractur
+  wideChar = String.fromCharCode(0xD835, 0xDD04 + i); // A-Z a-z Fraktur
 
   defineSymbol(math, main, mathord, ch, wideChar);
   defineSymbol(symbols_text, main, textord, ch, wideChar);
-  wideChar = String.fromCharCode(0xD835, 0xDD6C + i); // A-Z a-z bold Fractur
+  wideChar = String.fromCharCode(0xD835, 0xDD6C + i); // A-Z a-z bold Fraktur
 
   defineSymbol(math, main, mathord, ch, wideChar);
   defineSymbol(symbols_text, main, textord, ch, wideChar);
@@ -15085,9 +15085,11 @@ const optionsWithFont = (group, options) => {
     return options.withTextFontFamily(textFontFamilies[font]);
   } else if (textFontWeights[font]) {
     return options.withTextFontWeight(textFontWeights[font]);
-  } else {
-    return options.withTextFontShape(textFontShapes[font]);
+  } else if (font === "\\emph") {
+    return options.fontShape === "textit" ? options.withTextFontShape("textup") : options.withTextFontShape("textit");
   }
+
+  return options.withTextFontShape(textFontShapes[font]);
 };
 
 defineFunction({
@@ -15095,7 +15097,7 @@ defineFunction({
   names: [// Font families
   "\\text", "\\textrm", "\\textsf", "\\texttt", "\\textnormal", // Font weights
   "\\textbf", "\\textmd", // Font Shapes
-  "\\textit", "\\textup"],
+  "\\textit", "\\textup", "\\emph"],
   props: {
     numArgs: 1,
     argTypes: ["text"],
@@ -18884,7 +18886,7 @@ const renderToHTMLTree = function (expression, options) {
   /**
    * Current KaTeX version
    */
-  version: "0.16.10",
+  version: "0.16.11",
 
   /**
    * Renders the given LaTeX into an HTML+MathML combination, and adds

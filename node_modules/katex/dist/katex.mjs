@@ -3260,7 +3260,7 @@ var sigmasAndXis = {
   sqrtRuleThickness: [0.04, 0.04, 0.04],
   // This value determines how large a pt is, for metrics which are defined
   // in terms of pts.
-  // This value is also used in katex.less; if you change it make sure the
+  // This value is also used in katex.scss; if you change it make sure the
   // values match.
   ptPerEm: [10.0, 10.0, 10.0],
   // The space between adjacent `|` columns in an array definition. From
@@ -5196,11 +5196,11 @@ for (var _i3 = 0; _i3 < letters.length; _i3++) {
 
   defineSymbol(math, main, mathord, _ch3, wideChar);
   defineSymbol(text, main, textord, _ch3, wideChar);
-  wideChar = String.fromCharCode(0xD835, 0xDD04 + _i3); // A-Z a-z Fractur
+  wideChar = String.fromCharCode(0xD835, 0xDD04 + _i3); // A-Z a-z Fraktur
 
   defineSymbol(math, main, mathord, _ch3, wideChar);
   defineSymbol(text, main, textord, _ch3, wideChar);
-  wideChar = String.fromCharCode(0xD835, 0xDD6C + _i3); // A-Z a-z bold Fractur
+  wideChar = String.fromCharCode(0xD835, 0xDD6C + _i3); // A-Z a-z bold Fraktur
 
   defineSymbol(math, main, mathord, _ch3, wideChar);
   defineSymbol(text, main, textord, _ch3, wideChar);
@@ -14679,9 +14679,11 @@ var optionsWithFont = (group, options) => {
     return options.withTextFontFamily(textFontFamilies[font]);
   } else if (textFontWeights[font]) {
     return options.withTextFontWeight(textFontWeights[font]);
-  } else {
-    return options.withTextFontShape(textFontShapes[font]);
+  } else if (font === "\\emph") {
+    return options.fontShape === "textit" ? options.withTextFontShape("textup") : options.withTextFontShape("textit");
   }
+
+  return options.withTextFontShape(textFontShapes[font]);
 };
 
 defineFunction({
@@ -14689,7 +14691,7 @@ defineFunction({
   names: [// Font families
   "\\text", "\\textrm", "\\textsf", "\\texttt", "\\textnormal", // Font weights
   "\\textbf", "\\textmd", // Font Shapes
-  "\\textit", "\\textup"],
+  "\\textit", "\\textup", "\\emph"],
   props: {
     numArgs: 1,
     argTypes: ["text"],
@@ -18359,7 +18361,7 @@ var katex = {
   /**
    * Current KaTeX version
    */
-  version: "0.16.10",
+  version: "0.16.11",
 
   /**
    * Renders the given LaTeX into an HTML+MathML combination, and adds
