@@ -265,6 +265,7 @@ nav#toc li {
 .katex {
   font-size: 1em !important;
   -webkit-text-stroke-width: 0pt;
+  white-space: nowrap;
 }
 
 /* Simple hack to get a font. Maybe we can read the context for more variations. */
