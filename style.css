@@ -81,7 +81,8 @@ center {
 
 .katex-display,
 img.embedded-tex {
-  overflow-y: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .katex-display { margin: 0.4em 0 !important }
@@ -329,11 +330,12 @@ nav#toc li {
 
 a.link.local .slug {
   color: inherit;
+  -webkit-text-stroke-width: 0;
 }
 
 .block {
-  padding-left: 2px;
-  padding-right: 5px;
+  padding-left: 0.3em;
+  padding-right: 0.25em;
   padding-bottom: 2px;
   border-radius: 5px;
 }
@@ -644,7 +646,6 @@ ol li ol li ol {
 
   .block {
     margin-right: -0.5em;
-    padding-left: 0.3em;
     padding-right: 0.5em;
     border-right: 0;
     border-top-right-radius: 0;
