@@ -7,6 +7,10 @@
   --monospace: "Computer Modern Typewriter", monospace;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--font);
   text-underline-position: from-font;
@@ -77,7 +81,7 @@ center {
 
 .katex-display,
 img.embedded-tex {
-  overflow-y: visible;
+  overflow-y: auto;
 }
 
 .katex-display { margin: 0.4em 0 !important }
@@ -266,12 +270,11 @@ nav#toc li {
 .katex {
   font-size: 1em !important;
   -webkit-text-stroke-width: 0pt;
-  white-space: nowrap;
-}
 
-/* Simple hack to get a font. Maybe we can read the context for more variations. */
-.katex .cjk_fallback {
-  font-family: "Source Han Serif SC VF"
+  /* Simple hack to get a font. Maybe we can read the context for more variations. */
+  .cjk_fallback {
+    font-family: "Source Han Serif SC VF"
+  }
 }
 
 .block {
@@ -290,7 +293,7 @@ nav#toc li {
 }
 
 .block:hover {
-  background-color: rgba(100, 255, 0, 0.04);
+  background-color: rgba(0, 100, 255, 0.04);
   border: 1px solid rgb(0, 100, 255, .5);
 }
 
@@ -624,6 +627,10 @@ ol li ol li ol {
     margin-left: 0.3em;
     margin-right: 0;
     transition: ease all .2s;
+  }
+
+  #grid-wrapper {
+    margin-right: 0.2em;
   }
 
   #grid-wrapper>nav {
