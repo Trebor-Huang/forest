@@ -7,6 +7,7 @@ forester build forest.toml
 
 cd ../forest-deploy
 git rm -rf .
+git checkout HEAD -- .gitignore
 git clean -fxd
 
 cd ../forest

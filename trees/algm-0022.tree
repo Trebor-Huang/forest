@@ -1,0 +1,12 @@
+\date{2024-09-06}
+\title{dense subsite of affine opens}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [[algm-000R]] #{S}, the underlying locale (equipped with the canonical coverage) has a [[algm-0021]] whose objects are affine opens, and morphisms are distinguished open subspaces. Note that this isn’t a full subcategory, since [there exist affine open subspaces that are not distinguished](algm-0020).
+}
+
+\p{
+  Since schemes are covered by affine schemes, and distinguished opens form a basis in the [[algm-0007]], every open in #{S} is covered by affine opens. On the other hand, [[algm-0016]] guarantees the condition on morphisms for dense subsites.
+}
