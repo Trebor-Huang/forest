@@ -214,6 +214,18 @@ section.block>details:not(:last-child) {
 
 nav#toc {
   margin-left: 1em;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+nav#toc>div {
+  width: fit-content;
+  overflow-x: auto;
+}
+
+nav#toc .block {
+  border: 0pt;
+  background-color: initial;
 }
 
 nav#toc h1 {
@@ -254,6 +266,8 @@ nav#toc h2 {
 nav#toc ul {
   list-style-type: none;
   margin: auto;
+  padding-bottom: 0;
+  padding-right: 0;
 }
 
 nav#toc ul:empty {
