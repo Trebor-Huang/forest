@@ -1,0 +1,45 @@
+\date{2024-09-18}
+\title{Berger’s lemma}
+\author{trebor}
+\import{common}
+
+\def\sec{\operatorname{sec}}
+
+\p{
+  Given a Riemannian manifold #{M} with metric #{g}, if the sectional curvature at a point #{\sec(v, w)} is bounded between #{\kappa_1} and #{\kappa_2}, we can make some bounds on the curvature tensor, essentially by linear algebra. This is discussed in section 6 from [[variete-riemanniene-suffisamment-pincee]].
+}
+
+\p{
+  Take an orthonormal set of vectors #{X_i, X_j, X_k, X_l}. The sectional curvature is given by #{\sec(X_i, X_j) = R(X_i, X_j, X_j, X_i)}. Let #{a^2 + b^2 = c^2 + d^2 = 1}, then we can generate a family of inequalities
+  ##{\kappa_1 < \sec(a X_i + b X_j, c X_k + d X_l) < \kappa_2.}
+  Let us write #{\sec_{i j}} for #{\sec(X_i, X_j)}. Then we can expand the definition to get
+  ##{\begin{aligned}
+    \kappa_1 &< a^2 c^2 \sec_{ik} &&+ 2 a^2 c d R_{ikli} &&+ a^2 d^2 \sec_{il} \\
+      &+ 2 a b c^2 R_{ikkj} &&+ 2 a b c d (R_{iklj} + R_{ilkj}) &&+ 2 a b d^2 R_{illj} \\
+      &+ b^2 c^2 \sec_{jk} &&+ 2 b^2 c d R_{jklj} &&+ b^2 d^2 \sec_{jl} &< \kappa_2.
+  \end{aligned}}
+}
+
+\p{
+  In the case #{(c, d) = (1, 0)}, the inequality expands to
+  ##{\kappa_1 < a^2 \sec_{i k} + 2 a b R_{ikkj} + b^2 \sec_{j k} < \kappa_2.}
+  From the AM–GM inequality, we can take the appropriate signs for #{a} and #{b} to get
+  #{ |R_{ikkj}| < \sqrt{(\sec_{i k} - \kappa_1)(\sec_{j k} - \kappa_1)}}
+  and
+  #{ |R_{ikkj}| < \sqrt{(\sec_{i k} - \kappa_2)(\sec_{j k} - \kappa_2)}}.
+  We can also just take #{a = b = \pm 1/\sqrt{2}} to get coarser bounds.
+}
+
+\p{
+  Now for the general case. Taking #{b = ±b'}, #{d = ±d'} and summing the two inequalities, we cancel out four of the terms. Now take #{a \mapsto -a} and permute #{(j, k, l) \mapsto (l, j, k)} to get a new inequality. Taking the sum we now have
+  ##{\begin{aligned}
+    \kappa_1 <&\quad a^2 c^2 (\sec_{ik} + \sec_{ij})
+    + a^2 d^2 (\sec_{il} + \sec_{ik}) & \\
+    & + b^2 c^2 (\sec_{jk} + \sec_{lj})
+    + b^2 d^2 (\sec_{jl} + \sec_{lk}) & \\
+    & + 2 a b c d (R_{iklj} + R_{ilkj} - R_{ijkl} - R_{ikjl}) & < \kappa_2.
+  \end{aligned}}
+  The last term can be reduced to #{-6 abcd R_{ljki}} by the symmetries of the curvature tensor. AM–GM inequality now gives a rich set of bounds. Finally, we take #{a = b = c = d = 1/\sqrt{2}} up to a sign. Let #{S} be the sum of all the sectional curvatures involved. Then we have
+  ##{\kappa_1 < 2 S ± \frac{3}{2} |R_{ljki}| < \kappa_2.}
+  Therefore we have #{|R_{ljki}| < \frac{2}{3} (\kappa_2 - \kappa_1)}. And of course, if we start with non-strict pinching, we get analogous non-strict bounds.
+}
