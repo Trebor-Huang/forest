@@ -33,13 +33,13 @@
 \p{
   Now for the general case. Taking #{b = ±b'}, #{d = ±d'} and summing the two inequalities, we cancel out four of the terms. Now take #{a \mapsto -a} and permute #{(j, k, l) \mapsto (l, j, k)} to get a new inequality. Taking the sum we now have
   ##{\begin{aligned}
-    \kappa_1 <&\quad a^2 c^2 (\sec_{ik} + \sec_{ij})
+    2\kappa_1 <&\quad a^2 c^2 (\sec_{ik} + \sec_{ij})
     + a^2 d^2 (\sec_{il} + \sec_{ik}) & \\
     & + b^2 c^2 (\sec_{jk} + \sec_{lj})
     + b^2 d^2 (\sec_{jl} + \sec_{lk}) & \\
-    & + 2 a b c d (R_{iklj} + R_{ilkj} - R_{ijkl} - R_{ikjl}) & < \kappa_2.
+    & + 2 a b c d (R_{iklj} + R_{ilkj} - R_{ijkl} - R_{ikjl}) & < 2\kappa_2.
   \end{aligned}}
   The last term can be reduced to #{-6 abcd R_{ljki}} by the symmetries of the curvature tensor. AM–GM inequality now gives a rich set of bounds. Finally, we take #{a = b = c = d = 1/\sqrt{2}} up to a sign. Let #{S} be the sum of all the sectional curvatures involved. Then we have
-  ##{\kappa_1 < 2 S ± \frac{3}{2} |R_{ljki}| < \kappa_2.}
+  ##{2\kappa_1 < 2 S ± \frac{3}{2} |R_{ljki}| < 2\kappa_2.}
   Therefore we have #{|R_{ljki}| < \frac{2}{3} (\kappa_2 - \kappa_1)}. And of course, if we start with non-strict pinching, we get analogous non-strict bounds.
 }
