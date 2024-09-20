@@ -137,13 +137,13 @@ display="inline"><![CDATA[d = ±d']]></fr:tex> and summing the two inequalities,
 display="inline"><![CDATA[a \mapsto  -a]]></fr:tex> and permute <fr:tex
 display="inline"><![CDATA[(j, k, l) \mapsto  (l, j, k)]]></fr:tex> to get a new inequality. Taking the sum we now have
   <fr:tex
-display="block"><![CDATA[\begin {aligned}     \kappa _1 <&\quad  a^2 c^2 (\operatorname {sec}_{ik} + \operatorname {sec}_{ij})     + a^2 d^2 (\operatorname {sec}_{il} + \operatorname {sec}_{ik}) & \\     & + b^2 c^2 (\operatorname {sec}_{jk} + \operatorname {sec}_{lj})     + b^2 d^2 (\operatorname {sec}_{jl} + \operatorname {sec}_{lk}) & \\     & + 2 a b c d (R_{iklj} + R_{ilkj} - R_{ijkl} - R_{ikjl}) & < \kappa _2.   \end {aligned}]]></fr:tex>
+display="block"><![CDATA[\begin {aligned}     2\kappa _1 <&\quad  a^2 c^2 (\operatorname {sec}_{ik} + \operatorname {sec}_{ij})     + a^2 d^2 (\operatorname {sec}_{il} + \operatorname {sec}_{ik}) & \\     & + b^2 c^2 (\operatorname {sec}_{jk} + \operatorname {sec}_{lj})     + b^2 d^2 (\operatorname {sec}_{jl} + \operatorname {sec}_{lk}) & \\     & + 2 a b c d (R_{iklj} + R_{ilkj} - R_{ijkl} - R_{ikjl}) & < 2\kappa _2.   \end {aligned}]]></fr:tex>
   The last term can be reduced to <fr:tex
 display="inline"><![CDATA[-6 abcd R_{ljki}]]></fr:tex> by the symmetries of the curvature tensor. AM–GM inequality now gives a rich set of bounds. Finally, we take <fr:tex
 display="inline"><![CDATA[a = b = c = d = 1/\sqrt {2}]]></fr:tex> up to a sign. Let <fr:tex
 display="inline"><![CDATA[S]]></fr:tex> be the sum of all the sectional curvatures involved. Then we have
   <fr:tex
-display="block"><![CDATA[\kappa _1 < 2 S ± \frac {3}{2} |R_{ljki}| < \kappa _2.]]></fr:tex>
+display="block"><![CDATA[2\kappa _1 < 2 S ± \frac {3}{2} |R_{ljki}| < 2\kappa _2.]]></fr:tex>
   Therefore we have <fr:tex
 display="inline"><![CDATA[|R_{ljki}| < \frac {2}{3} (\kappa _2 - \kappa _1)]]></fr:tex>. And of course, if we start with non-strict pinching, we get analogous non-strict bounds.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
 toc="true"
