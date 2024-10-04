@@ -83,6 +83,8 @@ center {
 img.embedded-tex {
   overflow-x: auto;
   overflow-y: hidden;
+  /* See https://www.brunildo.org/test/Overflowxy2.html
+  if this is set to visible, then it will have scroll-bars. */
 }
 
 .katex-display { margin: 0.4em 0 !important }

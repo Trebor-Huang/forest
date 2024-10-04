@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>299</fr:anchor><fr:addr
+type="user">cplx-0003</fr:addr><fr:route>cplx-0003.xml</fr:route><fr:title
+text="Differentiation by z and {z}">Differentiation by <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\bar {z}]]></fr:tex></fr:title><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Considering <fr:tex
+display="inline"><![CDATA[\mathbb {C}]]></fr:tex> as a two dimensional real space, the tangent space at a point (take zero as an example) is <fr:tex
+display="inline"><![CDATA[\mathbb {R}^2]]></fr:tex>. It comes equipped with a complex structure <fr:tex
+display="inline"><![CDATA[J]]></fr:tex> sending <fr:tex
+display="inline"><![CDATA[\partial _x \mapsto  \partial _y]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\partial _y \mapsto  -\partial _x]]></fr:tex>, acting as multiplication by <fr:tex
+display="inline"><![CDATA[i]]></fr:tex>. A (real) smooth function <fr:tex
+display="inline"><![CDATA[\mathbb {C} \to  \mathbb {C}]]></fr:tex> then has a Jacobian at each point, which is a <fr:tex
+display="inline"><![CDATA[2 \times  2]]></fr:tex> matrix <fr:tex
+display="inline"><![CDATA[M]]></fr:tex>. The <fr:link
+type="local"
+href="cplx-0002.xml"
+addr="cplx-0002"
+title="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:link> then imposes a condition on this matrix, which can be written as <fr:tex
+display="inline"><![CDATA[J M = M J]]></fr:tex>.</fr:p><fr:p>It is sometimes convenient to complexify this vector space <fr:tex
+display="inline"><![CDATA[\mathbb {R}^2 \otimes  \mathbb {C} = \mathbb {C}^2]]></fr:tex>. This corresponds to formally allowing the <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> components to be complex-valued. Of course this only happens in the tangent space, and the coordinate functions cannot be extended to complex domains. The Jacobian then extends to the complexified tangent space. This space has an alternative basis <fr:tex
+display="block"><![CDATA[\partial _z = \frac {1}{2}(\partial _x - i \partial _y) \quad \text {and}\quad \partial _{\bar {z}} = \frac {1}{2}(\partial _x + i \partial _y).]]></fr:tex> In this basis, the Cauchy–Riemann equation can be written as <fr:tex
+display="inline"><![CDATA[\partial _{\bar {z}} f = 0]]></fr:tex>.</fr:p><fr:p>This gives a heuristic procedure for finding the <fr:link
+type="local"
+href="cplx-0002.xml"
+addr="cplx-0002"
+title="Cauchy–Riemann equations">harmonic conjugate</fr:link> of a function.</fr:p><fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>295</fr:anchor><fr:addr
+type="user">cplx-0004</fr:addr><fr:route>cplx-0004.xml</fr:route><fr:title
+text="Formal method to calculate the harmonic conjugate">Formal method to calculate the harmonic conjugate</fr:title><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> is the real part of some <fr:link
+type="local"
+href="cplx-0001.xml"
+addr="cplx-0001"
+title="Holomorphic function">holomorphic function</fr:link> <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>. Then we have <fr:tex
+display="inline"><![CDATA[2 u(x, y) = f(z) + \overline {f(z)}]]></fr:tex>. If we could extend the coordinates <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> to complex numbers, then similar to <fr:link
+type="local"
+href="cplx-0003.xml"
+addr="cplx-0003"
+title="Differentiation by z and {z}">what happens in the tangent space</fr:link>, we have a <fr:tex
+display="inline"><![CDATA[(z, \bar {z})]]></fr:tex> coordinate system with <fr:tex
+display="inline"><![CDATA[z = x + i y]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\bar {z} = x - i y]]></fr:tex> acting as independent variables in <fr:tex
+display="inline"><![CDATA[\mathbb {C}^2]]></fr:tex>.</fr:p><fr:p><fr:tex
+display="inline"><![CDATA[f(z)]]></fr:tex> should only depend on <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\overline {f(z)}]]></fr:tex> should only depend on <fr:tex
+display="inline"><![CDATA[\bar {z}]]></fr:tex>. So we can write the latter as another function <fr:tex
+display="inline"><![CDATA[g(\bar {z})]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[2 u = f(z) + g(\bar {z})]]></fr:tex>, we can look at the value at the point <fr:tex
+display="inline"><![CDATA[(z, \bar {z}) = (\alpha , 0)]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[\alpha  \in  \mathbb {C}]]></fr:tex>, which corresponds to <fr:tex
+display="inline"><![CDATA[x = \alpha  / 2]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y = - i \alpha  / 2]]></fr:tex>. Hence <fr:tex
+display="block"><![CDATA[2 u(\alpha  / 2, - i \alpha  / 2) = f(\alpha ) + g(0),]]></fr:tex> which determines <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> up to some constant. This method requires an analytic expression of <fr:tex
+display="inline"><![CDATA[u(x, y)]]></fr:tex>, so it makes sense to plug in complex numbers into <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>301</fr:anchor><fr:addr
+type="user">cplx-0004</fr:addr><fr:route>cplx-0004.xml</fr:route><fr:title
+text="Formal method to calculate the harmonic conjugate">Formal method to calculate the harmonic conjugate</fr:title><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose <fr:tex
+display="inline"><![CDATA[u]]></fr:tex> is the real part of some <fr:link
+type="local"
+href="cplx-0001.xml"
+addr="cplx-0001"
+title="Holomorphic function">holomorphic function</fr:link> <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>. Then we have <fr:tex
+display="inline"><![CDATA[2 u(x, y) = f(z) + \overline {f(z)}]]></fr:tex>. If we could extend the coordinates <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex> to complex numbers, then similar to <fr:link
+type="local"
+href="cplx-0003.xml"
+addr="cplx-0003"
+title="Differentiation by z and {z}">what happens in the tangent space</fr:link>, we have a <fr:tex
+display="inline"><![CDATA[(z, \bar {z})]]></fr:tex> coordinate system with <fr:tex
+display="inline"><![CDATA[z = x + i y]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\bar {z} = x - i y]]></fr:tex> acting as independent variables in <fr:tex
+display="inline"><![CDATA[\mathbb {C}^2]]></fr:tex>.</fr:p><fr:p><fr:tex
+display="inline"><![CDATA[f(z)]]></fr:tex> should only depend on <fr:tex
+display="inline"><![CDATA[z]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\overline {f(z)}]]></fr:tex> should only depend on <fr:tex
+display="inline"><![CDATA[\bar {z}]]></fr:tex>. So we can write the latter as another function <fr:tex
+display="inline"><![CDATA[g(\bar {z})]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[2 u = f(z) + g(\bar {z})]]></fr:tex>, we can look at the value at the point <fr:tex
+display="inline"><![CDATA[(z, \bar {z}) = (\alpha , 0)]]></fr:tex> where <fr:tex
+display="inline"><![CDATA[\alpha  \in  \mathbb {C}]]></fr:tex>, which corresponds to <fr:tex
+display="inline"><![CDATA[x = \alpha  / 2]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y = - i \alpha  / 2]]></fr:tex>. Hence <fr:tex
+display="block"><![CDATA[2 u(\alpha  / 2, - i \alpha  / 2) = f(\alpha ) + g(0),]]></fr:tex> which determines <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> up to some constant. This method requires an analytic expression of <fr:tex
+display="inline"><![CDATA[u(x, y)]]></fr:tex>, so it makes sense to plug in complex numbers into <fr:tex
+display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[y]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>303</fr:anchor><fr:addr
+type="user">cplx-0002</fr:addr><fr:route>cplx-0002.xml</fr:route><fr:title
+text="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[f : U \to  \mathbb {C}]]></fr:tex> be a <fr:link
+type="local"
+href="cplx-0001.xml"
+addr="cplx-0001"
+title="Holomorphic function">holomorphic function</fr:link> defined on an open set <fr:tex
+display="inline"><![CDATA[U \subseteq  \mathbb {C}]]></fr:tex>. Viewed as two functions of two real variables <fr:tex
+display="inline"><![CDATA[f(x + i y) = u(x, y) + i v(x, y)]]></fr:tex>, they are differentiable, and moreover satisfies equations
+  <fr:tex
+display="block"><![CDATA[\begin {aligned}     \frac {\partial  u}{\partial  x} &= \frac {\partial  v}{\partial  y}, \\     \frac {\partial  u}{\partial  y} &= -\frac {\partial  v}{\partial  x}.   \end {aligned}]]></fr:tex>
+  These are necessary and sufficient conditions for holomorphicity. We say <fr:tex
+display="inline"><![CDATA[v]]></fr:tex> is a <fr:strong>harmonic conjugate</fr:strong> of <fr:tex
+display="inline"><![CDATA[u]]></fr:tex>, and <fr:tex
+display="inline"><![CDATA[-u]]></fr:tex> is similarly a harmonic conjugate of <fr:tex
+display="inline"><![CDATA[v]]></fr:tex>. They determine each other up to a constant, by the Poincaré lemma recovering a function from its differential.</fr:p><fr:p>Intuitively, for a function <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> to be complex differentiable, we need <fr:tex
+display="inline"><![CDATA[(f(z + \epsilon ) - f(z)) / \epsilon ]]></fr:tex> to converge to the <fr:em>same</fr:em> value for both real and imaginary <fr:tex
+display="inline"><![CDATA[\epsilon ]]></fr:tex>. The real and imaginary parts of this equality correspond to the two Cauchy–Riemann equations.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
