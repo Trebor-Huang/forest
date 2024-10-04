@@ -1,0 +1,18 @@
+\date{2024-10-04}
+\title{differentiation by #{z} and #{\bar{z}}}
+\author{trebor}
+\import{common}
+
+\p{
+  Considering #{\mathbb{C}} as a two dimensional real space, the tangent space at a point (take zero as an example) is #{\mathbb{R}^2}. It comes equipped with a complex structure #{J} sending #{\partial_x \mapsto \partial_y} and #{\partial_y \mapsto -\partial_x}, acting as multiplication by #{i}. A (real) smooth function #{\mathbb{C} \to \mathbb{C}} then has a Jacobian at each point, which is a #{2 \times 2} matrix #{M}. The [[cplx-0002]] then imposes a condition on this matrix, which can be written as #{J M = M J}.
+}
+
+\p{
+  It is sometimes convenient to complexify this vector space #{\mathbb{R}^2 \otimes \mathbb{C} = \mathbb{C}^2}. This corresponds to formally allowing the #{x} and #{y} components to be complex-valued. Of course this only happens in the tangent space, and the coordinate functions cannot be extended to complex domains. The Jacobian then extends to the complexified tangent space. This space has an alternative basis ##{\partial_z = \frac{1}{2}(\partial_x - i \partial_y) \quad\text{and}\quad\partial_{\bar{z}} = \frac{1}{2}(\partial_x + i \partial_y).} In this basis, the Cauchy–Riemann equation can be written as #{\partial_{\bar{z}} f = 0}.
+}
+
+\p{
+  This gives a heuristic procedure for finding the [harmonic conjugate](cplx-0002) of a function.
+}
+
+\transclude{cplx-0004}

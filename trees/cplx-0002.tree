@@ -1,0 +1,18 @@
+\date{2024-10-04}
+\title{Cauchy–Riemann equations}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  Let #{f : U \to \mathbb{C}} be a [[cplx-0001]] defined on an open set #{U \subseteq \mathbb{C}}. Viewed as two functions of two real variables #{f(x + i y) = u(x, y) + i v(x, y)}, they are differentiable, and moreover satisfies equations
+  ##{\begin{aligned}
+    \frac{\partial u}{\partial x} &= \frac{\partial v}{\partial y}, \\
+    \frac{\partial u}{\partial y} &= -\frac{\partial v}{\partial x}.
+  \end{aligned}}
+  These are necessary and sufficient conditions for holomorphicity. We say #{v} is a \strong{harmonic conjugate} of #{u}, and #{-u} is similarly a harmonic conjugate of #{v}. They determine each other up to a constant, by the Poincaré lemma recovering a function from its differential.
+}
+
+\p{
+  Intuitively, for a function #{f} to be complex differentiable, we need #{(f(z + \epsilon) - f(z)) / \epsilon} to converge to the \em{same} value for both real and imaginary #{\epsilon}. The real and imaginary parts of this equality correspond to the two Cauchy–Riemann equations.
+}
