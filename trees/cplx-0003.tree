@@ -1,5 +1,5 @@
 \date{2024-10-04}
-\title{differentiation by #{z} and #{\bar{z}}}
+\title{complexifying the (co)tangent space}
 \author{trebor}
 \import{common}
 
@@ -8,7 +8,11 @@
 }
 
 \p{
-  It is sometimes convenient to complexify this vector space #{\mathbb{R}^2 \otimes \mathbb{C} = \mathbb{C}^2}. This corresponds to formally allowing the #{x} and #{y} components to be complex-valued. Of course this only happens in the tangent space, and the coordinate functions cannot be extended to complex domains. The Jacobian then extends to the complexified tangent space. This space has an alternative basis ##{\partial_z = \frac{1}{2}(\partial_x - i \partial_y) \quad\text{and}\quad\partial_{\bar{z}} = \frac{1}{2}(\partial_x + i \partial_y).} In this basis, the Cauchy–Riemann equation can be written as #{\partial_{\bar{z}} f = 0}.
+  It is sometimes convenient to complexify this vector space #{\mathbb{R}^2 \otimes \mathbb{C} = \mathbb{C}^2}. This corresponds to formally allowing the #{x} and #{y} components to be complex-valued. This is because we often want to view a complex function as a scalar field on a two dimensional (real) manifold, but the scalar can be complex. So to do calculus with these scalars, naturally the associated tangent and cotangent spaces needs to be complexified. #{J} now has two eigenvalues #{i} and #{-i}, corresponding to the \strong{holomorphic} and \strong{antiholomorphic} subspaces.
+}
+
+\p{
+  Of course this only happens in the tangent space, and the coordinate functions cannot be extended to complex domains. The Jacobian then extends to the complexified tangent space. This space has an alternative basis ##{\partial_z = \frac{1}{2}(\partial_x - i \partial_y) \quad\text{and}\quad\partial_{\bar{z}} = \frac{1}{2}(\partial_x + i \partial_y).} This has the dual basis on #{1}-forms, given by #{\dif{z} = \dif{x} + i \dif{y}} and #{\dif{\bar{z}} = \dif{x} - i \dif{y}}. In this basis, the Cauchy–Riemann equation can be written as #{\partial_{\bar{z}} f = 0}.
 }
 
 \p{

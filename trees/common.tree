@@ -97,5 +97,7 @@
 \def\sheaf[name]{#{\mathscr{\name}}}
 \def\section{#{\Gamma}}
 \def\Geom{\operatorname{Geom}}
+\def\dif[name]{\operatorname{d}\mathclose{\name}}
+% \def\dif[name]{\mathop{}\startverb\!\stopverb\mathrm{d}\name}
 
 \p{This tree defines some commonly imported stuff.}

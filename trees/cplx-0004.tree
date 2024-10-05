@@ -4,9 +4,9 @@
 \import{common}
 
 \p{
-  Suppose #{u} is the real part of some [[cplx-0001]] #{f}. Then we have #{2 u(x, y) = f(z) + \overline{f(z)}}. If we could extend the coordinates #{x} and #{y} to complex numbers, then similar to [what happens in the tangent space](cplx-0003), we have a #{(z, \bar{z})} coordinate system with #{z = x + i y} and #{\bar{z} = x - i y} acting as independent variables in #{\mathbb{C}^2}.
+  Suppose #{u} is the real part of some [[cplx-0001]] #{f}. Then we have #{2 u(x, y) = f(x + i y) + \overline{f(x + i y)}}. If we could extend the coordinates #{x} and #{y} to complex numbers, then similar to [what happens in the tangent space](cplx-0003), we have a #{(z, \bar{z})} coordinate system with #{z = x + i y} and #{\bar{z} = x - i y} acting as \em{independent} variables in #{\mathbb{C}^2}.
 }
 
 \p{
-  #{f(z)} should only depend on #{z} and #{\overline{f(z)}} should only depend on #{\bar{z}}. So we can write the latter as another function #{g(\bar{z})}. Since #{2 u = f(z) + g(\bar{z})}, we can look at the value at the point #{(z, \bar{z}) = (\alpha, 0)} where #{\alpha \in \mathbb{C}}, which corresponds to #{x = \alpha / 2} and #{y = - i \alpha / 2}. Hence ##{2 u(\alpha / 2, - i \alpha / 2) = f(\alpha) + g(0),} which determines #{f} up to some constant. This method requires an analytic expression of #{u(x, y)}, so it makes sense to plug in complex numbers into #{x} and #{y}.
+  By the [[cplx-0002]], #{f(x + i y)} should only depend on #{z} and #{\overline{f(x + i y)}} should only depend on #{\bar{z}}. So we can write the latter as another function #{g(\bar{z})}. Since #{2 u = f(z) + g(\bar{z})}, we can look at the value at the point #{(z, \bar{z}) = (\alpha, 0)} where #{\alpha \in \mathbb{C}}, which corresponds to #{x = \alpha / 2} and #{y = - i \alpha / 2}. Hence ##{2 u(\alpha / 2, - i \alpha / 2) = f(\alpha) + g(0),} which determines #{f} up to some constant. This method requires an analytic expression of #{u(x, y)}, so it makes sense to plug in complex numbers into #{x} and #{y}.
 }

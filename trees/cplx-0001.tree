@@ -5,5 +5,7 @@
 \import{common}
 
 \p{
-  A holomorphic function defined on an open set #{U \subseteq \mathbb{C}} is a complex-valued function that is complex differentiable at every point.
+  A holomorphic function defined on an open set #{U \subseteq \mathbb{C}} is a complex-valued function that is complex differentiable at every point. In other words, the limit
+  ##{f'(z) = \lim_{h \to 0} \frac{f(z + h) - f(z)}{h}}
+  exists for all #{z \in U}.
 }

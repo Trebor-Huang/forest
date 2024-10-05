@@ -1,0 +1,24 @@
+\date{2024-10-05}
+\title{line integral}
+\taxon{defintion}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a complex function #{f} and a piecewise differentiable curve #{\gamma : [a, b] \to \mathbb{C}}, we can define a few different kinds of line integrals along #{\gamma}. The first is the \strong{naive line integral}, given by directly integrating
+  ##{\int_a^b f(\gamma(t)) \dif{t}.}
+  But this depends on the parametrization of the curve.
+}
+
+\p{
+  We can also define the \strong{complex line integral}, which is independent of parametrization:
+  ##{\int_\gamma f(z) \dif{z} = \int_a^b f(\gamma(t)) \gamma'(t) \dif{t}.}
+  Following the convention of [[cplx-0003]], we can write #{\dif{z} = \dif{x} + i \dif{y}}. This leads to the evident definition of integrating against #{\dif{x}}, given by
+  ##{\int_\gamma f(z) \dif{x} = \int_a^b f(\gamma(t)) \operatorname{Re}\gamma'(t) \dif{t}.} And #{\dif{y}} is defined similarly.
+}
+
+\p{
+  Finally, there is also the \strong{arc length integral}, which is given by
+  ##{\int_\gamma f(z) \left|\dif{z}\right| = \int_a^b f(\gamma(t)) \left|\gamma'(t)\right| \dif{t}.}
+  In particular, integrating the constant function #{1} gives the length of the curve.
+}

@@ -1,0 +1,18 @@
+\date{2024-10-05}
+\title{integral of holomorphic function does not depend on path}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  Given a [[cplx-0001]] #{f} on an open set #{U}, the [complex line integral](cplx-0005) of #{f} along two homotopic paths are equal. This is a direct consequence of the [[cplx-0002]] and Green’s theorem. However, we need to be careful with the hypotheses when we have low differentiability.
+}
+
+\p{
+  We can write down the idea more succinctly using [the notation](cplx-0003) of #{\dif{z}} and #{\dif{\bar{z}}}. We are integrating along #{f(z) \dif{z}}, but this is an closed differential, since ##{\operatorname{d} (f(z) \dif{z}) = - \partial_{\bar{z}} f(z) \dif{z} \wedge \dif{\bar{z}} = 0.}
+  This shows the power of complexifying the tangent space.
+}
+
+\p{
+  This applies when #{f} is complex differentiable at every point, since complex differentiability implies (real) Fréchet differentiability (i.e. #{f} can be approximated by a linear map at each point), which suffices for Green’s theorem to apply. It also suffices that #{f} is the derivative of another [[cplx-0001]], and it is Riemann integrable. In this case we can simply apply the fundamental theorem of calculus.
+}
