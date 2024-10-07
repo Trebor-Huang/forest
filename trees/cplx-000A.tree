@@ -1,0 +1,15 @@
+\date{2024-10-07}
+\title{derivative of holomorphic functions}
+\author{trebor}
+\import{common}
+
+\p{
+  The [[cplx-0009]] may look innocent, but it contains a profound element. Namely, that it reduces the value of a [[cplx-0001]] at a point #{f(z)} to an integral of #{f(w)/(w - z)} on a surrounding circle. This expression as a function of #{z} is smooth and easy to deal with, and we can leverage this to obtain properties of the original function, seemingly out of thin air. Consider for example the derivative of this function, we can compute
+  ##{\begin{aligned}
+    \frac{f(z) - f(z_0)}{z - z_0} &= \frac{1}{2 \pi i (z - z_0)} \int_\gamma f(w) \left( \frac{1}{w - z} - \frac{1}{w - z_0} \right) \dif{w} \\
+    &= \frac{1}{2 \pi i} \int_\gamma \frac{f(w)}{(w - z) (w - z_0)} \dif{w}.
+  \end{aligned}}
+  But this obviously converges to #{\int_\gamma f(w) / (w - z_0)^2 \dif{w}} as #{z \to z_0}, since the integrand converges uniformly, thanks to the nice behavior of #{f(w)/(w - z)} as a function of #{z} as previously mentioned. We have therefore also obtained a formula for the derivative of a holomorphic function. This can now be repeated to obtain higher derivatives.
+}
+
+% transclude

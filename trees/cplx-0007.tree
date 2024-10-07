@@ -1,0 +1,23 @@
+\date{2024-10-05}
+\title{integration around a pole}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  Given a piecewise differentiable closed curve #{\gamma} not passing through #{a}, the complex [[cplx-0005]] ##{\int_\gamma \frac{1}{z - a} \dif{z}} is always a multiple of #{2 \pi i}.
+}
+
+\proof{
+  \p{
+    Intuitively, #{1/(z-a)} is the derivative of the function #{\log(z - a)}. But formalizing this is difficult, since logarithms are not single-valued, so what happens near the branch cuts is not clear. However, we can avoid this by considering the inverse function #{\exp} instead.
+  }
+
+  \p{
+    Let the path be parametrized by the interval #{[0,1]} for convenience. Consider the function ##{g(t) = \int_0^t \frac{\gamma'(t)}{\gamma(t) - a} \dif{t}.} By the intuition above, we expect #{g(t) \xlongequal{?} \log(\gamma(t) - a) + C}. So we instead consider #{h(t) = \exp(g(t))/(\gamma(t) - a)} and prove it is a constant. This can be verified by differentiation, using the chain rule and the fundamental theorem of calculus.
+  }
+
+  \p{
+    Of course, #{\gamma} is only piecewise differentiable. So #{h(t)} is only constant on each piece. But in addition, #{h(t)} is continuous on the entire curve, so it must be globally constant. Moreover, since #{\gamma} is a loop, we have #{\gamma(0) = \gamma(1)}, and since #{h(0) = h(1)}, we can deduce #{1 = \exp(g(0)) = \exp(g(1))}, which means the integral #{g(1)} is a multiple of #{2 \pi i} as desired.
+  }
+}

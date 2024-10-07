@@ -1,0 +1,38 @@
+\date{2024-10-06}
+\title{first consequences of complex differentiability}
+\author{trebor}
+\import{common}
+
+\p{
+  From the definition of a [[cplx-0001]], we can immediately start exploring some of its consequences. It turns out that complex differentiability is much stronger than real differentiability, and the following theorem gives a first glimpse.
+}
+
+\transclude{cplx-0002}
+
+\p{
+  We can write these equations formally in a more suggestive way.
+}
+
+\transclude{cplx-0003}
+
+\p{
+  The [[cplx-0002]] is very suggestive of the assumption in Green’s theorem in (real) multi-variable calculus. This prompts us to define notions of line integrals on the complex plane.
+}
+
+\transclude{cplx-0005}
+
+\transclude{cplx-0006}
+
+\p{
+  In fact, \ref{cplx-0006} is still applicable when the function #{f} is holomorphic except at isolated points #{z_i}, but #{f(z)} is #{o(|z - z_i|^{-1})}. This can be seen by making the curve loop around a small disk of radius #{r} around these bad points. The loop integral goes to zero as #{O(r) o(r^{-1}) = o(1)}, and so does not affect the result. This is important because there is a function in the definition of complex differentiability, namely
+  ##{g(z) = \frac{f(z) - f(a)}{z - a}.}
+  And so the integral of #{g(z)} along a circle around #{a} must be zero. Now we can separate out the second term #{f(a) \cdot \int_\gamma 1/(z - a) \dif{z}}. This can be directly computed to be #{2 \pi i f(a)}. This proves the following formula.
+}
+
+\transclude{cplx-0009}
+
+\p{
+  The integral of #{1/(z-a)} can in fact be computed more generally. This also means we can use more general closed curves in \ref{cplx-0009}, which will be useful in calculations.
+}
+
+\transclude{cplx-0007}

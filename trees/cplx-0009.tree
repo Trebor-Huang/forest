@@ -1,0 +1,25 @@
+\date{2024-10-06}
+\title{Cauchy integral formula}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  Given a [[cplx-0001]] #{f}, and a point #{a} such that a disk containing #{a} lies within the domain of #{f}, we have
+  ##{f(a) = \frac{1}{2 \pi i} \int_{\gamma} \frac{f(z)}{z - a} \dif{z},}
+  where #{\gamma} is the boundary of the disk.
+}
+
+\proof{
+  \p{
+    Removing a smaller disk of radius #{r} around #{a}. Then #{\frac{f(z) - f(a)}{z - a}} is an analytic function in this region. Applying [Green’s formula](cplx-0006) we have
+    ##{\int_{\gamma} \frac{f(z) - f(a)}{z - a} \dif{z} = \int_{\gamma'} \frac{f(z) - f(a)}{z - a} \dif{z}}
+    where #{\gamma} is the original circle, and #{\gamma'} is the smaller circle. Now since #{f} is holomorphic, the integrand has a limit as #{z \to a} by definition, so in particular it is bounded for small enough #{r}. Therefore the right hand side is bounded by #{2 \pi r C} for a constant #{C}, which goes to zero. So the left hand side must be zero since it does not depend on #{r}.
+  }
+
+  \p{
+    Separating the two terms in the integral, we are left to prove
+    ##{\int_\gamma \frac{\dif{z}}{z - a} = 2 \pi i.}
+    This can be done by looking up integral tables.
+  }
+}
