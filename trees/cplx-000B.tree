@@ -1,0 +1,22 @@
+\date{2024-10-09}
+\title{holomorphic functions have holomorphic derivatives}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a holomorphic function #{f} on an open set, it has derivatives of arbitrarily high order, given by the explicit formula
+  ##{f^{(n)}(z) = \frac{n!}{2 \pi i} \int_\gamma \frac{f(w)}{(w - z)^{n + 1}} \dif{w},}
+  where #{\gamma} is a circle around #{z} contained in the open set.
+}
+
+\proof{
+  \p{
+    We perform induction. The case for #{n = 0} is the [[cplx-0009]]. Suppose it holds for some #{n}, now using the difference of powers formula
+    ##{\begin{aligned}
+      f^{(n+1)}(z_0) &= \lim_{z \to z_0} \frac{f^{(n)}(z) - f^{(n)}(z_0)}{z - z_0} \\
+      &= \lim_{z \to z_0} \frac{n!}{2 \pi i (z - z_0)} \int_\gamma f(w) \left(\frac{1}{(w - z)^{n + 1}} - \frac{1}{(w - z_0)^{n + 1}}\right) \dif{w} \\
+      &= \lim_{z \to z_0} \frac{n!}{2 \pi i} \int_\gamma \frac{f(w)}{(w - z)^{n+1} (w - z_0)^{n+1}} \sum_{k=0}^{n} (w - z)^k (w - z_0)^{n-k} \dif{w}.
+    \end{aligned}}
+    As #{z \to z_0} the sum uniformly converges to #{(n+1)(w - z_0)^{n}}. This proves the claim.
+  }
+}

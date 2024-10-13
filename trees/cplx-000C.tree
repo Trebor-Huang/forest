@@ -1,0 +1,21 @@
+\date{2024-10-13}
+\title{Liouville’s theorem}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  A bounded holomorphic function #{f} defined on the entire complex plane must be constant.
+}
+
+\proof{
+  \p{
+    Consider the integral formulas for derivatives in \ref{cplx-000B}
+    ##{f'(z) = \frac{1}{2 \pi i} \int_\gamma \frac{f(w)}{(w - z)^2} \dif{w},}
+    where #{\gamma} is some circle of radius #{r} enclosing #{z}. Since #{f(w)} is bounded, the integrand is bounded by #{C r^{-2}} for some constant #{C}. But this means the derivative is bounded by #{O(r^{-1})}. Since the function is holomorphic on the entire plane, #{r} can be arbitrary large, which means #{f'(z) = 0}.
+  }
+
+  \p{
+    When #{f} is not defined on the entire plane, this method still gives an upper bound on the magnitude of the derivative ##{|f^{(n)} (z)| \le M n! \cdot r^{-n}.} This is known as the \strong{Cauchy estimate}.
+  }
+}
