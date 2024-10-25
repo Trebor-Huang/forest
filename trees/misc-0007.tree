@@ -1,0 +1,15 @@
+\date{2024-10-25}
+\title{braided Hopf algebra}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  Given a [[misc-0002]] #{H}, suppose it is equipped with an element #{R \in H \otimes H}, such that
+  ##{\begin{aligned}
+    \tau(\Delta(a)) &= R \Delta(a) R^{-1} \\
+    (\Delta \otimes \id)(R) &= R_{13} R_{23} \\
+    (\id \otimes \Delta)(R) &= R_{13} R_{12}
+  \end{aligned}}
+  then we call it a \strong{braided Hopf algebra}. Here #{\tau : H \otimes H \to H \otimes H} is the twisting map of tensor products, and #{R_{i j} \in H^{\otimes 3}} is #{R \otimes 1} with the appropriate factors permuted.
+}

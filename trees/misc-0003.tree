@@ -1,0 +1,12 @@
+\date{2024-10-25}
+\title{antipode of a Hopf algebra}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [[misc-0002]], the antipode is unique, essentially by the same argument for the uniqueness of inverses in group theory. It is also injective, which means for a finite dimensional algebra, it is automatically invertible as a linear map. However, this is not necessarily the case for infinite dimensional Hopf algebras.
+}
+
+\p{
+  The obvious candidate for the inverse, #{S^{-1} = S}, is not necessarily valid. The usual group theoretic proof that the inverse is an involution requires either swapping the label of duplicated variables, or swapping the left and right terms of a multiplication. This means #{(x^{-1})^{-1} = x} holds only for cocommutative or commutative Hopf algebras.
+}

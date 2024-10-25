@@ -1,0 +1,13 @@
+\date{2024-10-25}
+\title{tensor product and dual of Hopf algebra representations}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  Given a [[misc-0002]] #{H}, its representations (i.e. left modules of #{H} considered as an associative algebra) have a monoidal structure. The underlying vector space is given by the tensor product of vector spaces, and the module structure #{\rho_{V_1 \otimes V_2} : H \otimes (V_1 \otimes V_2) \to V_1 \otimes V_2} is given by the comultiplication: Suppose #{\Delta(a) = \sum_i b_i \otimes c_i}, then
+  ##{\rho_{V_1 \otimes V_2} (a) (x \otimes y) = \sum_i \rho_{V_1}(b_i) x \otimes \rho_{V_2}(c_i) y.}
+  Or in Sweedler’s notation, #{\rho_{V_1} (a_{(1)}) x \otimes \rho_{V_2} (a_{(2)}) x}. Similarly, the antipode provides a module structure on the dual vector space:
+  ##{(\rho_{V^*} (a) \alpha)(x) = \alpha(\rho_V (a^{-1}) x).}
+  Hence the category of #{H}-representations is monoidal closed.
+}

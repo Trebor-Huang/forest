@@ -1,0 +1,8 @@
+\date{2024-10-25}
+\title{symmetric monoidal product on representations of cocommutative Hopf algebras}
+\author{trebor}
+\import{common}
+
+\p{
+  Suppose a [[misc-0002]] #{H} is cocommutative, i.e. #{\Delta(a) \in H \otimes H} is invariant under swapping the two factors, then the monoidal structure of #{H}-representations defined in \ref{misc-0004} is actually symmetric. The braiding is simply given by the braiding of vector space tensor products, and we only need to show that it is a homomorphism of representations. This immediately follows from the definition.
+}

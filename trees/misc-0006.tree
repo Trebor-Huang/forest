@@ -1,0 +1,31 @@
+\date{2024-10-25}
+\title{braided Hopf algebra}
+\author{trebor}
+\import{common}
+
+\p{
+  Given an arbitrary [[misc-0002]] #{H}, the [monoidal category](misc-0004) of its representations may not have a braiding. The obvious braiding #{\tau} that simply swaps the two factors [works for cocommutative Hopf algebras](misc-0005) only. Therefore we need to add suitable structures on #{H} so that we can select an appropriate map #{V \otimes W \to W \otimes V} between representations that commute with the #{H}-action.
+}
+
+\p{
+  Since the twisting map #{\tau : V \otimes W \to W \otimes V} does not work, we could consider modifying it by precomposing an automorphism #{V \otimes W \to V \otimes W}. (We can also consider a postcomposition, which is equivalent.) But we need to specify such an automorphism for every representation #{V, W}. So the simplest way to achieve this is to select an invertible element #{R \in H \otimes H}, and demand that the automorphism is given by left multiplication by this element.
+}
+
+\p{
+  Let #{R = \sum_i r_i \otimes s_i}, then the automorphism is given by #{v \otimes w \mapsto R\cdot (v \otimes w) = \sum_i \rho_V (r_i) v \otimes \rho_V (s_i) w}. For this to create a braiding homomorphism, we need #{\rho_{W \otimes V}(a) \tau(R \cdot (v \otimes w)) = \tau(R \cdot \rho_{V \otimes W}(a) (v \otimes w))}. Let #{\Delta(a) = \sum_j a_j \otimes b_j}, then this equation expands to
+  ##{\sum_{i,j} \rho_W (a_j s_i) w \otimes \rho_V (b_j r_i) v = \sum_{i,j} \rho_W (s_i b_j) w \otimes \rho_V (r_i a_j) v.}
+  Since this needs to hold for all #{V} and #{W}, we can conclude that
+  ##{\sum_{i,j} a_j s_i \otimes b_j r_i = \sum_{i,j} s_i b_j \otimes r_i a_j.}
+  We can write this more succinctly if we write the natural algebra structure on #{H \otimes H} as juxtaposition: #{\Delta(a) \tau(R) = \tau(R \Delta(a))}. Since #{\tau} is an involution as a linear map, and #{R} is an invertible element of #{H \otimes H}, we can rewrite this as
+  ##{\tau(\Delta(a)) = R\Delta(a) R^{-1}.}
+}
+
+\p{
+  We also need to satisfy the equation for braiding. This basically says that for #{V \otimes (W_1 \otimes \cdots \otimes W_n)}, braiding #{V} to the right in one step is equal to composing the braiding for #{V} and #{W_i} for each #{i}, up to suitable associators. The same for braiding to the left. Abstract nonsense tells us it suffices to verify #{n = 2}. We can perform a calculation similar to what we did above, and it results in the equation
+  ##{(\id \otimes \Delta)(R) = R_{13} R_{12}}
+  where #{\id \otimes \Delta : H \otimes H \to H \otimes (H \otimes H)} applies the comultiplication to the second factor, and #{R_{12} : H^{\otimes 3}} is the identity on the third factor, only acting on the first two factors. Braiding in the other direction amounts to
+  ##{(\Delta \otimes \id)(R) = R_{13} R_{23}.}
+  We have now arrived at the definition of a braided Hopf algebra.
+}
+
+\transclude{misc-0007}

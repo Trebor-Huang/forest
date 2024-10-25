@@ -1,0 +1,17 @@
+\date{2024-10-25}
+\title{Hopf algebra}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  Given a vector space #{V}, we can equip #{V} with the structure of an associative algebra, given by multilinear maps #{V^{\otimes m} \to V}, usually written as juxtaposition. We can also equip #{V} with the structure of an coassociative coalgebra, given by maps #{V \to V^{\otimes m}}. We write the comultiplication as #{\Delta : V \to V \otimes V}, and the counit #{\epsilon : V \to \Bbbk}. When multiplication and comultiplication distribute over each other, we call the structure a \strong{bialgebra}.
+}
+
+\p{
+  In this case, we can write linear maps in a seemingly non-linear fashion, by using the comultiplication to duplicate variables. For example #{f(x) = x_{(1)} x_{(2)}} stands for the composition of #{\Delta : V \to V \otimes V} and the multiplication map #{V \otimes V \to V}. Note that the duplicated variables needs to be numbered when the comultiplication is not cocommutative. This is called \strong{Sweedler’s notation}.
+}
+
+\p{
+  Furthermore, suppose there is a map #{S : V \to V} called the \strong{antipode} such that #{f(x) = x_{(1)} S(x_{(2)})} and #{g(x) = S(x_{(1)}) x_{(2)}} are equal to the map #{h(x) = \epsilon(x) \cdot 1}. We also write the antipode as #{x^{-1}} where #{x \in V}. But note that if #{f : V \to V} is a linear map, the notation #{f^{-1}} instead stands for the usual set-theoretic inverse map.
+}
