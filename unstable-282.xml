@@ -7,28 +7,20 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1952</fr:anchor><fr:addr
-type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1960</fr:anchor><fr:addr
+type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000H</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Translating via <fr:ref
-addr="algm-0002"
-href="algm-0002.xml"
-taxon="Theorem" />, we have a proper ideal <fr:tex
-display="inline"><![CDATA[\mathfrak {r}]]></fr:tex> that cannot be written as <fr:tex
-display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {r}_1, \mathfrak {r}_2)]]></fr:tex> non-trivially. Suppose <fr:tex
-display="inline"><![CDATA[\mathfrak {r} \mid  f g]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[\mathfrak {r} \mid  \sqrt {f g} \mid  \operatorname {lcm}(f, g)]]></fr:tex>. So
-    <fr:tex
-display="block"><![CDATA[\begin {aligned}       \mathfrak {r} &= \gcd (\mathfrak {r}, \operatorname {lcm}(f, g)) \\       &= \operatorname {lcm}(\gcd (\mathfrak {r}, f), \gcd (\mathfrak {r}, g)).     \end {aligned}]]></fr:tex>
-    Hence at least one of the two must be equal to <fr:tex
-display="inline"><![CDATA[\mathfrak {r}]]></fr:tex>. So <fr:tex
-display="inline"><![CDATA[\mathfrak {r} \mid  f]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[\mathfrak {r} \mid  g]]></fr:tex>.</fr:p>
-
-  <fr:p>An irreducible closed is an irreducible <fr:em>component</fr:em> if it is contained in no other irreducible closed. We immediately get the definition of minimal prime ideals translating to the algebraic realm.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000J</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We take a directed limit. The elements are from some <fr:tex
+display="inline"><![CDATA[R[f^{-1}]]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \nmid  f]]></fr:tex>, i.e. the elements can be written as <fr:tex
+display="inline"><![CDATA[g/f^n]]></fr:tex>. Two elements are equal iff their common restriction to some <fr:tex
+display="inline"><![CDATA[D(f)]]></fr:tex> is equal, i.e. <fr:tex
+display="inline"><![CDATA[g_1/f_1^n = g_2/f_2^m]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[(g_1 f_2^m - g_2 f_1^n) f^k = 0]]></fr:tex>. These are exactly the definition of the localization away from <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>.</fr:p>
 </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -44,17 +36,23 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1954</fr:anchor><fr:addr
-type="user">algm-000H</fr:addr><fr:route>algm-000H.xml</fr:route><fr:title
-text="Irreducible closeds in a ring spectrum">Irreducible closeds in a ring spectrum</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1962</fr:anchor><fr:addr
+type="user">algm-000J</fr:addr><fr:route>algm-000J.xml</fr:route><fr:title
+text="Stalk of the structure sheaf on {Spec}(R)">Stalk of the structure sheaf on <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A closed <fr:tex
-display="inline"><![CDATA[V(\mathfrak {r})]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> is irreducible iff <fr:tex
-display="inline"><![CDATA[\mathfrak {r}]]></fr:tex> is prime, and it is an irreducible component iff <fr:tex
-display="inline"><![CDATA[\mathfrak {r}]]></fr:tex> is a minimal prime ideal, i.e. prime ideals that divide no other prime ideals.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a point <fr:tex
+display="inline"><![CDATA[\left [\mathfrak {p}\right ] \in  \operatorname {Spec}(R)]]></fr:tex>, the stalk at the point is the localization <fr:tex
+display="inline"><![CDATA[R_{\mathfrak {p}}]]></fr:tex>. In particular, the ring spectrum is a <fr:link
+type="local"
+href="algm-000L.xml"
+addr="algm-000L"
+title="Locally ringed space">locally ringed space</fr:link> by <fr:ref
+addr="algm-000N"
+href="algm-000N.xml"
+taxon="Theorem" />.</fr:p>
   
     
     <fr:tree
@@ -64,28 +62,20 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1956</fr:anchor><fr:addr
-type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1964</fr:anchor><fr:addr
+type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000H</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Translating via <fr:ref
-addr="algm-0002"
-href="algm-0002.xml"
-taxon="Theorem" />, we have a proper ideal <fr:tex
-display="inline"><![CDATA[\mathfrak {r}]]></fr:tex> that cannot be written as <fr:tex
-display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {r}_1, \mathfrak {r}_2)]]></fr:tex> non-trivially. Suppose <fr:tex
-display="inline"><![CDATA[\mathfrak {r} \mid  f g]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[\mathfrak {r} \mid  \sqrt {f g} \mid  \operatorname {lcm}(f, g)]]></fr:tex>. So
-    <fr:tex
-display="block"><![CDATA[\begin {aligned}       \mathfrak {r} &= \gcd (\mathfrak {r}, \operatorname {lcm}(f, g)) \\       &= \operatorname {lcm}(\gcd (\mathfrak {r}, f), \gcd (\mathfrak {r}, g)).     \end {aligned}]]></fr:tex>
-    Hence at least one of the two must be equal to <fr:tex
-display="inline"><![CDATA[\mathfrak {r}]]></fr:tex>. So <fr:tex
-display="inline"><![CDATA[\mathfrak {r} \mid  f]]></fr:tex> or <fr:tex
-display="inline"><![CDATA[\mathfrak {r} \mid  g]]></fr:tex>.</fr:p>
-
-  <fr:p>An irreducible closed is an irreducible <fr:em>component</fr:em> if it is contained in no other irreducible closed. We immediately get the definition of minimal prime ideals translating to the algebraic realm.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000J</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We take a directed limit. The elements are from some <fr:tex
+display="inline"><![CDATA[R[f^{-1}]]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \nmid  f]]></fr:tex>, i.e. the elements can be written as <fr:tex
+display="inline"><![CDATA[g/f^n]]></fr:tex>. Two elements are equal iff their common restriction to some <fr:tex
+display="inline"><![CDATA[D(f)]]></fr:tex> is equal, i.e. <fr:tex
+display="inline"><![CDATA[g_1/f_1^n = g_2/f_2^m]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[(g_1 f_2^m - g_2 f_1^n) f^k = 0]]></fr:tex>. These are exactly the definition of the localization away from <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
