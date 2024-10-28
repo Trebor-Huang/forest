@@ -1,0 +1,28 @@
+\date{2024-10-25}
+\title{duals of Hopf algebras}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  Given an coalgebra #{A}, the \strong{linear dual} #{A^*} consists of linear maps #{A \to \Bbbk}. The coalgebra structure becomes a algebra structure on the dual: suppose #{\Delta(a) = \sum_i b_i \otimes c_i}, then
+  ##{(f \cdot g)(a) = \sum_i f(b_i) g(c_i).}
+  However, it is not clear how we can take the dual coalgebra of an algebra, unless the algebra is finite dimensional.
+}
+
+\p{
+  Suppose we have a algebra #{A}, we can take a subspace #{A^\circ \subseteq A^*} consisting of functionals #{f} such that #{a \otimes b \mapsto f(a b)} decomposes as a finite sum of terms of the form #{g_i (a) h_i (b)}. This is called the \strong{Sweedler dual}, or restricted dual. Now we can define comultiplication #{\Delta^\circ} by #{\sum_i g_i \otimes h_i}. This doesn’t depend on the choice of #{g_i} and #{h_i} by bilinearity.
+}
+
+\p{
+  Furthermore, if #{A} is a bialgebra, then the algebra structure on #{A^*} restricts to an algebra structure on #{A^\circ}. The counit #{\epsilon} of #{A} is in #{A^\circ} since #{\epsilon(a b) = \epsilon(a) \epsilon(b)}. For the multiplication, suppose we have #{\Delta^\circ (f) = \sum_i g_i \otimes h_i}, #{\Delta^\circ (f') = \sum_i g'_i \otimes h'_i}, and #{\Delta(a) = \sum_i b_i \otimes c_i}, #{\Delta(a') = \sum_i b'_i \otimes c'_i}. By distributivity, #{\Delta(a a') = \sum_{i j} b_i b'_j \otimes c_i c'_j}. So the multiplication defined above gives
+  ##{\begin{aligned}
+    (f \cdot f')(a a') &= \sum_{i j} f(b_i b'_j) f'(c_i c'_j) \\
+    &= \sum_{i j k \ell} g_k (b_i) h_k (b'_j)  g'_\ell (c_i) h'_\ell (c'_j).
+  \end{aligned}}
+  If we let #{G_{k \ell} (a) = \sum_i g_k (b_i) g'_\ell (c_i)} and similarly for #{H_{k \ell}}, then #{a \otimes a' \mapsto (f \cdot f')(a a')} indeed decomposes into the sum of #{G_{k \ell} (a) H_{k \ell} (a')}. And therefore the multiplication is still inside #{A^\circ}. The bialgebra axioms can be easily verified.
+}
+
+\p{
+  Furthermore, if #{A} has an antipode #{S : A \to A} making it a [[misc-0002]], this automatically induces #{S^* : A^* \to A^*} by #{S^* (f)(a) = f(S(a))}. And suppose #{f \in A^\circ}, then #{f(S(a b)) = f(S(b) S(a))}, and we can verify #{S^*(f)} is also in #{A^\circ}. This provides an antipode to #{A^\circ} too, which is invertible if #{S} is invertible.
+}

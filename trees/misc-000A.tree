@@ -1,0 +1,19 @@
+\date{2024-10-28}
+\title{Drinfeld double}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  Given a [[misc-0002]] #{H} with [invertible antipode](misc-0003), we construct another Hopf algebra #{D(H)} on the vector space #{(H^\op)^\circ \otimes H}, where #{H^\op} is the [[misc-0008]], and #{H^\circ} is the [Sweedler dual](misc-0009). We define the unit to be #{1 \otimes 1}, the counit as #{\epsilon(f \otimes a) = \epsilon(a) \cdot f(1)}, and the antipode #{S^D(f \otimes a) = S^\circ (f) \otimes S(a)}. The comultiplication ##{\Delta^D (f \otimes a) = \sum_{i j} (g_i \otimes b_j) \otimes (h_i \otimes c_j)} where #{\Delta^\circ (f) = \sum_i g_i \otimes h_i}, and #{\Delta (a) = \sum_j b_j \otimes c_j}. We let
+  ##{(f \otimes a) \cdot (g \otimes b) = f \cdot (x \mapsto g(S^{-1}(a_{(3)}) x a_{(1)})) \otimes a_{(2)} b.}
+  We can regard #{(H^\op)^\circ} as a subalgebra of #{D(H)} via #{f \mapsto f \otimes 1}, and similarly for #{H} with #{a \mapsto 1 \otimes a}. Then we can write #{f a = f \otimes a}, and the algebra structure is given by the \em{straightening formula}
+  ##{a f = (x \mapsto f(S^{-1}(a_{(3)})x a_{(1)})) a_{(2)}.}
+  This is the \strong{Drinfeld double} of #{H}.
+}
+
+\p{
+  For a finite dimensional Hopf algebra #{H}, the double #{D(H)} is [braided](misc-0007), with the universal #{R}-matrix given by
+  ##{R = \sum_{i} (1 \otimes e_i) \otimes (e^i \otimes 1)}
+  where #{e_i} is a set of basis of #{H}, and #{e^i} is the dual basis in #{H^\circ}.
+}
