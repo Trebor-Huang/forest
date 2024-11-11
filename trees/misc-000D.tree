@@ -1,0 +1,14 @@
+\date{2024-11-12}
+\title{ribbon Hopf algebra}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  A \strong{ribbon Hopf algebra} is defined as a [[misc-0007]] #{H} together with an element #{v} of the algebra, such that
+  ##{\begin{aligned}
+    \epsilon(v) &= 1 \\
+    \Delta(v) &= (\tau(R) R)^{-1} (v \otimes v) \\
+    S(v) &= v.
+  \end{aligned}}
+}

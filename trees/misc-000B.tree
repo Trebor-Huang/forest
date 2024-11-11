@@ -1,0 +1,14 @@
+\date{2024-11-08}
+\title{ribbon Hopf algebra}
+\author{trebor}
+\import{common}
+
+\p{
+  [Hopf algebras](misc-0002) already have the concept of [dual modules](misc-000C), and for finite dimensional modules, the dual is a categorical dual. For a [[misc-0007]], the modules further form a braided monoidal category. Hence to form ribbon categories, we only need to implement the twisting natural isomorphism #{\theta}.
+}
+
+\p{
+  Similar to the discussion in \ref{misc-0006}, we attempt to represent this isomorphism via an invertible element #{v}. For it to commute with every module homomorphism, this element needs to be in the center of the algebra. The equation #{\theta_1 = \id} translates to #{\epsilon(v) = 1}. For #{\theta_{\rdual{X}} = \rdual{(\theta_X)}}, we need #{S(v) = v}. Finally we have the equation ##{\beta_{Y, X} \compose \beta_{X, Y} \compose \theta_{X \otimes Y} = \theta_X \otimes \theta_Y,} which translates to #{\Delta(v) = (\tau(R) R)^{-1} (v \otimes v)}. This defines ribbon Hopf algebras.
+}
+
+\transclude{misc-000D}

@@ -1,0 +1,16 @@
+\date{2024-11-11}
+\title{dual representation of Hopf algebras}
+\author{trebor}
+\import{common}
+
+\p{
+  The [[misc-0003]] provides us with the structure to define dual representations. Given a representation #{V} of #{H}, we can define an action on #{V^*} by #{(h \cdot f)(v) = f(S(h) \cdot v)}. This works out because the antipode is an anti-homomorphism. This induces a contravariant functor on the category of representations.
+}
+
+\p{
+  Categorically speaking, for #{V} to have a right dual structure on #{V^*}, we need structure maps #{1 \to V \otimes V^*} and #{V^* \otimes V \to 1}. This requires #{V} to be finite dimensional. In this case, we need to verify the obvious map from linear algebra is indeed a module homomorphism. This essentially follows from #{x_{(1)} \cdot S(x_{(2)}) = \epsilon(x) = S(x_{(1)}) \cdot x_{(2)}}.
+}
+
+\p{
+  However, this module structure on #{V^*} cannot be taken as the left dual of #{V}! The reason is the evaluation map #{v \otimes f \mapsto f(v)} doesn’t respect multiplication, since #{S(x_{(2)}) x_{(1)}} is not necessarily equal to #{S(x_{(1)}) \cdot x_{(2)}}. Instead we need another module structure on the same vector space, using #{S^{-1}} in place of #{S}. Let this representation be denoted as #{\ldual{V}}, and for clarity we denote the right dual module as #{\rdual{V}}.
+}

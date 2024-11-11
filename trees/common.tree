@@ -76,6 +76,9 @@
 \def\W{#{W}}
 \def\Wbar{#{\bar{W}}}
 
+\def\ldual[obj]{#{{^{\vee}\obj}}}
+\def\rdual[obj]{#{\obj^{\vee}}}
+
 % Arrows
 \def\inject{\rightarrowtail}
 \def\include{\hookrightarrow}
