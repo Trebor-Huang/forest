@@ -1,0 +1,14 @@
+\date{2024-12-14}
+\title{points of the dissolution locale}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+\p{
+  Classically, for every locale #{X}, the [[misc-000E]] #{X_d} has the same points as #{X}.
+}
+
+\proof{
+  \p{
+    We want to prove the canonical map #{\hom(1, X_d) \to \hom(1, X)} is a bijection. All the sublocales of #{1} are closed since there are only two of them. Therefore for every map #{1 \to X}, the preimage of every sublocale is trivially closed, and therefore it factors through #{X_d \to X} uniquely. This implies the desired bijection.
+  }
+}
