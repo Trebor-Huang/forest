@@ -7,113 +7,20 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>686</fr:anchor><fr:addr
-type="machine">#241</fr:addr><fr:route>unstable-241.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>689</fr:anchor><fr:addr
+type="machine">#241</fr:addr><fr:route>unstable-241.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002T</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Given an object <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, consider the exact sequence given by <fr:link
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002V</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Every chain complex injects into its cone, whose cohomology is zero. So cohomology is <fr:link
 type="local"
 href="hmlg-002S.xml"
 addr="hmlg-002S"
-title="Effaceable functor">effaceability</fr:link>
-    <fr:tex
-display="block"><![CDATA[0 \longrightarrow  X \longrightarrow  I \longrightarrow  Y \longrightarrow  0.]]></fr:tex>
-    Then we have a long exact sequence
-    <fr:tex
-display="block"><![CDATA[0 \to  T^0 X \to  T^0 I \to  T^0 Y \xrightarrow {\delta } T^1 X \xrightarrow {0} T^1 I.]]></fr:tex>
-    and the rest breaks into infinitely many short exact sequences
-    <fr:tex
-display="block"><![CDATA[0 \to  T^{n+1} I \to  T^{n+1} Y \to  T^{n+2} X \to  0.]]></fr:tex></fr:p>
-
-  <fr:p>Consider another <fr:link
-type="local"
-href="hmlg-002K.xml"
-addr="hmlg-002K"
-title="-Functor"><fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:link> <fr:tex
-display="inline"><![CDATA[S^\bullet ]]></fr:tex> with a natural transformation <fr:tex
-display="inline"><![CDATA[f : T^0 \to  S^0]]></fr:tex>. We now have a diagram
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="2e2344ae59b281a1ee0aa10523116655"><fr:embedded-tex-preamble><![CDATA[
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-      \begin {tikzcd}
-      {T^0 I} & {T^0 Y} & {T^1 X} \\
-      {S^0 I} & {S^0 Y} & {S^1 X}
-      \arrow [from=1-1, to=1-2]
-      \arrow [from=1-1, to=2-1]
-      \arrow ["\delta ", two heads, from=1-2, to=1-3]
-      \arrow [from=1-2, to=2-2]
-      \arrow [from=2-1, to=2-2]
-      \arrow ["\delta "', from=2-2, to=2-3]
-    \end {tikzcd}
-    ]]></fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-    where we can fill the vertical map on the right, because the composite of the lower left route is zero on the kernel of <fr:tex
-display="inline"><![CDATA[\delta  : T^0 Y \to  T^1 X]]></fr:tex>, and uniqueness follows from epimorphism. This then yields a transformation <fr:tex
-display="inline"><![CDATA[T^1 \to  S^1]]></fr:tex>, we need to prove it's natural and does not depend on the chosen <fr:tex
-display="inline"><![CDATA[I]]></fr:tex>. Then we can repeat the move to extend to arbitrary degrees.</fr:p>
-
-  <fr:p>Given a morphism <fr:tex
-display="inline"><![CDATA[\varphi  : X \to  X']]></fr:tex> and the corresponding monomorphisms <fr:tex
-display="inline"><![CDATA[X \to  I]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[X' \to  I']]></fr:tex>, we can replace <fr:tex
-display="inline"><![CDATA[X \to  I]]></fr:tex> with <fr:tex
-display="inline"><![CDATA[X \to  I \times  I']]></fr:tex> since both components of the map are sent to <fr:tex
-display="inline"><![CDATA[0]]></fr:tex> by <fr:tex
-display="inline"><![CDATA[T^0]]></fr:tex>, an additive functor. This together with the projection map <fr:tex
-display="inline"><![CDATA[I \times  I' \to  I]]></fr:tex> forms a commutative square. Taking the cokernel we also have an induced map <fr:tex
-display="inline"><![CDATA[\psi  : Y \to  Y']]></fr:tex>.
-
-
-    This leads to a 3-dimensional diagram
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="50b1237f178df03f2363f27efc3c1cc7"><fr:embedded-tex-preamble><![CDATA[
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-      \begin {tikzcd}
-      {T^0 Y} && {T^1 X} \\
-      & {T^0 Y'} && {T^1 X'} \\
-      {S^0 Y} && {S^1 X} \\
-      & {S^0 Y'} && {S^1 X'}
-      \arrow ["\delta ", two heads, from=1-1, to=1-3]
-      \arrow ["{T^0 \psi }"', from=1-1, to=2-2]
-      \arrow ["f"', from=1-1, to=3-1]
-      \arrow ["{T^1 \varphi }", from=1-3, to=2-4]
-      \arrow [from=1-3, to=3-3]
-      \arrow ["\delta "{pos=0.3}, two heads, from=2-2, to=2-4]
-      \arrow ["f"'{pos=0.3}, from=2-2, to=4-2]
-      \arrow [from=2-4, to=4-4]
-      \arrow [from=3-1, to=3-3]
-      \arrow ["{S^0 \psi }"', from=3-1, to=4-2]
-      \arrow ["{S^1 \varphi }", from=3-3, to=4-4]
-      \arrow ["\delta "', from=4-2, to=4-4]
-    \end {tikzcd}
-    ]]></fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-    where all but the right face commutes. After composing with <fr:tex
-display="inline"><![CDATA[\delta  : T^0 Y \to  T^1 X]]></fr:tex>, we can use all five commutative squares to prove that the two compositions are equal. And since the morphism is epimorphic, the right square commutes as expected.</fr:p>
-
-  <fr:p>For independence, we first prove that if two effacements <fr:tex
-display="inline"><![CDATA[X \to  I]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[X \to  I']]></fr:tex> are connected by a morphism <fr:tex
-display="inline"><![CDATA[I \to  I']]></fr:tex>, then the resulting transformations are equal. This is essentially the same as the proof of naturality, except <fr:tex
-display="inline"><![CDATA[\varphi ]]></fr:tex> is replaced with <fr:tex
-display="inline"><![CDATA[\textrm {id}]]></fr:tex>. Now any two effacements are connected by a zigzag, since we can take the diagonal <fr:tex
-display="inline"><![CDATA[X \to  I \times  I']]></fr:tex> and project out.</fr:p>
+title="Effaceable functor">effaceable</fr:link>. Dually every chain complex is a quotient of its cocone, hence homology is coeffaceable. Therefore by <fr:ref
+addr="hmlg-002T"
+href="hmlg-002T.xml"
+taxon="Theorem" /> we finish the proof.</fr:p>
 </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -129,32 +36,27 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>688</fr:anchor><fr:addr
-type="user">hmlg-002T</fr:addr><fr:route>hmlg-002T.xml</fr:route><fr:title
-text="Criterion for universality of -functors">Criterion for universality of <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functors</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>691</fr:anchor><fr:addr
+type="user">hmlg-002V</fr:addr><fr:route>hmlg-002V.xml</fr:route><fr:title
+text="Homology is a universal -functor">Homology is a universal <fr:tex
+display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a cohomological <fr:link
-type="local"
-href="hmlg-002K.xml"
-addr="hmlg-002K"
-title="-Functor"><fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:link> <fr:tex
-display="inline"><![CDATA[T^\bullet ]]></fr:tex>, if each <fr:tex
-display="inline"><![CDATA[T^n]]></fr:tex> for <fr:tex
-display="inline"><![CDATA[n > 0]]></fr:tex> is <fr:link
-type="local"
-href="hmlg-002S.xml"
-addr="hmlg-002S"
-title="Effaceable functor">effaceable</fr:link>, then it is a <fr:link
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Homology <fr:tex
+display="inline"><![CDATA[H_\bullet ]]></fr:tex> as a functor from the category of chain complexes (bounded from below) of <fr:tex
+display="inline"><![CDATA[\mathcal {A}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\mathcal {A}]]></fr:tex> is a homological <fr:link
 type="local"
 href="hmlg-002N.xml"
 addr="hmlg-002N"
 title="Universal -functor">universal <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:link>. Dually, if a homological <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functor is coeffaceable, then it is universal.</fr:p>
+display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:link>. Dually, cohomology is a cohomological <fr:link
+type="local"
+href="hmlg-002N.xml"
+addr="hmlg-002N"
+title="Universal -functor">universal <fr:tex
+display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:link>.</fr:p>
   
     
     <fr:tree
@@ -164,113 +66,20 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>678</fr:anchor><fr:addr
-type="machine">#241</fr:addr><fr:route>unstable-241.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>693</fr:anchor><fr:addr
+type="machine">#241</fr:addr><fr:route>unstable-241.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002T</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Given an object <fr:tex
-display="inline"><![CDATA[X]]></fr:tex>, consider the exact sequence given by <fr:link
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002V</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Every chain complex injects into its cone, whose cohomology is zero. So cohomology is <fr:link
 type="local"
 href="hmlg-002S.xml"
 addr="hmlg-002S"
-title="Effaceable functor">effaceability</fr:link>
-    <fr:tex
-display="block"><![CDATA[0 \longrightarrow  X \longrightarrow  I \longrightarrow  Y \longrightarrow  0.]]></fr:tex>
-    Then we have a long exact sequence
-    <fr:tex
-display="block"><![CDATA[0 \to  T^0 X \to  T^0 I \to  T^0 Y \xrightarrow {\delta } T^1 X \xrightarrow {0} T^1 I.]]></fr:tex>
-    and the rest breaks into infinitely many short exact sequences
-    <fr:tex
-display="block"><![CDATA[0 \to  T^{n+1} I \to  T^{n+1} Y \to  T^{n+2} X \to  0.]]></fr:tex></fr:p>
-
-  <fr:p>Consider another <fr:link
-type="local"
-href="hmlg-002K.xml"
-addr="hmlg-002K"
-title="-Functor"><fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:link> <fr:tex
-display="inline"><![CDATA[S^\bullet ]]></fr:tex> with a natural transformation <fr:tex
-display="inline"><![CDATA[f : T^0 \to  S^0]]></fr:tex>. We now have a diagram
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="2e2344ae59b281a1ee0aa10523116655"><fr:embedded-tex-preamble><![CDATA[
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-      \begin {tikzcd}
-      {T^0 I} & {T^0 Y} & {T^1 X} \\
-      {S^0 I} & {S^0 Y} & {S^1 X}
-      \arrow [from=1-1, to=1-2]
-      \arrow [from=1-1, to=2-1]
-      \arrow ["\delta ", two heads, from=1-2, to=1-3]
-      \arrow [from=1-2, to=2-2]
-      \arrow [from=2-1, to=2-2]
-      \arrow ["\delta "', from=2-2, to=2-3]
-    \end {tikzcd}
-    ]]></fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-    where we can fill the vertical map on the right, because the composite of the lower left route is zero on the kernel of <fr:tex
-display="inline"><![CDATA[\delta  : T^0 Y \to  T^1 X]]></fr:tex>, and uniqueness follows from epimorphism. This then yields a transformation <fr:tex
-display="inline"><![CDATA[T^1 \to  S^1]]></fr:tex>, we need to prove it's natural and does not depend on the chosen <fr:tex
-display="inline"><![CDATA[I]]></fr:tex>. Then we can repeat the move to extend to arbitrary degrees.</fr:p>
-
-  <fr:p>Given a morphism <fr:tex
-display="inline"><![CDATA[\varphi  : X \to  X']]></fr:tex> and the corresponding monomorphisms <fr:tex
-display="inline"><![CDATA[X \to  I]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[X' \to  I']]></fr:tex>, we can replace <fr:tex
-display="inline"><![CDATA[X \to  I]]></fr:tex> with <fr:tex
-display="inline"><![CDATA[X \to  I \times  I']]></fr:tex> since both components of the map are sent to <fr:tex
-display="inline"><![CDATA[0]]></fr:tex> by <fr:tex
-display="inline"><![CDATA[T^0]]></fr:tex>, an additive functor. This together with the projection map <fr:tex
-display="inline"><![CDATA[I \times  I' \to  I]]></fr:tex> forms a commutative square. Taking the cokernel we also have an induced map <fr:tex
-display="inline"><![CDATA[\psi  : Y \to  Y']]></fr:tex>.
-
-
-    This leads to a 3-dimensional diagram
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="50b1237f178df03f2363f27efc3c1cc7"><fr:embedded-tex-preamble><![CDATA[
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-      \begin {tikzcd}
-      {T^0 Y} && {T^1 X} \\
-      & {T^0 Y'} && {T^1 X'} \\
-      {S^0 Y} && {S^1 X} \\
-      & {S^0 Y'} && {S^1 X'}
-      \arrow ["\delta ", two heads, from=1-1, to=1-3]
-      \arrow ["{T^0 \psi }"', from=1-1, to=2-2]
-      \arrow ["f"', from=1-1, to=3-1]
-      \arrow ["{T^1 \varphi }", from=1-3, to=2-4]
-      \arrow [from=1-3, to=3-3]
-      \arrow ["\delta "{pos=0.3}, two heads, from=2-2, to=2-4]
-      \arrow ["f"'{pos=0.3}, from=2-2, to=4-2]
-      \arrow [from=2-4, to=4-4]
-      \arrow [from=3-1, to=3-3]
-      \arrow ["{S^0 \psi }"', from=3-1, to=4-2]
-      \arrow ["{S^1 \varphi }", from=3-3, to=4-4]
-      \arrow ["\delta "', from=4-2, to=4-4]
-    \end {tikzcd}
-    ]]></fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-    where all but the right face commutes. After composing with <fr:tex
-display="inline"><![CDATA[\delta  : T^0 Y \to  T^1 X]]></fr:tex>, we can use all five commutative squares to prove that the two compositions are equal. And since the morphism is epimorphic, the right square commutes as expected.</fr:p>
-
-  <fr:p>For independence, we first prove that if two effacements <fr:tex
-display="inline"><![CDATA[X \to  I]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[X \to  I']]></fr:tex> are connected by a morphism <fr:tex
-display="inline"><![CDATA[I \to  I']]></fr:tex>, then the resulting transformations are equal. This is essentially the same as the proof of naturality, except <fr:tex
-display="inline"><![CDATA[\varphi ]]></fr:tex> is replaced with <fr:tex
-display="inline"><![CDATA[\textrm {id}]]></fr:tex>. Now any two effacements are connected by a zigzag, since we can take the diagonal <fr:tex
-display="inline"><![CDATA[X \to  I \times  I']]></fr:tex> and project out.</fr:p>
+title="Effaceable functor">effaceable</fr:link>. Dually every chain complex is a quotient of its cocone, hence homology is coeffaceable. Therefore by <fr:ref
+addr="hmlg-002T"
+href="hmlg-002T.xml"
+taxon="Theorem" /> we finish the proof.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

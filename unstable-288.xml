@@ -7,48 +7,18 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2164</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2181</fr:anchor><fr:addr
 type="machine">#288</fr:addr><fr:route>unstable-288.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0009</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>In one direction, if <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}{R}]]></fr:tex> is disconnected, we have two opens <fr:tex
-display="inline"><![CDATA[D(\mathfrak {a})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[D(\mathfrak {b})]]></fr:tex> whose intersection is empty and union is the entire space. In other words radical ideals <fr:tex
-display="inline"><![CDATA[\mathfrak {a}, \mathfrak {b}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[\sqrt {\gcd (\mathfrak {a}, \mathfrak {b})} = 1]]></fr:tex> (equivalent to <fr:tex
-display="inline"><![CDATA[\gcd (\mathfrak {a}, \mathfrak {b}) = 1]]></fr:tex>) and <fr:tex
-display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {a}, \mathfrak {b}) = 0]]></fr:tex>. We have <fr:tex
-display="inline"><![CDATA[\mathfrak {a} \mid  a]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathfrak {b} \mid  b]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[a + b = 1]]></fr:tex>. But <fr:tex
-display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {a}, \mathfrak {b}) \mid  a b]]></fr:tex>, therefore <fr:tex
-display="inline"><![CDATA[a b = 0]]></fr:tex>. This implies <fr:tex
-display="inline"><![CDATA[a(1-a) = 0]]></fr:tex>, or <fr:tex
-display="inline"><![CDATA[a^2 = a]]></fr:tex>. The same goes for <fr:tex
-display="inline"><![CDATA[b]]></fr:tex>.</fr:p>
-
-  <fr:p>Let <fr:tex
-display="inline"><![CDATA[R_1]]></fr:tex> be the subset of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> consisting of multiples of <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>. It contains an identity <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>, since <fr:tex
-display="inline"><![CDATA[a \cdot  a x = a x]]></fr:tex> by idempotence. Hence this subset forms a ring with the same addition and multiplication but a different identity. The same goes for <fr:tex
-display="inline"><![CDATA[R_2]]></fr:tex>, the multiples of <fr:tex
-display="inline"><![CDATA[b]]></fr:tex>. There is an obvious map <fr:tex
-display="inline"><![CDATA[R_1 \times  R_2 \to  R]]></fr:tex>, given by <fr:tex
-display="inline"><![CDATA[(ax, by) \mapsto  ax + by]]></fr:tex>. This is an injection since <fr:tex
-display="inline"><![CDATA[z \mapsto  a z]]></fr:tex> recovers the first argument, and <fr:tex
-display="inline"><![CDATA[z \mapsto  b z]]></fr:tex> recovers the second. It is also a surjection because <fr:tex
-display="inline"><![CDATA[z = a z + b z]]></fr:tex> is the image of <fr:tex
-display="inline"><![CDATA[(az, bz)]]></fr:tex>. Hence we found an isomorphism.</fr:p>
-
-  <fr:p>In the other direction, suppose <fr:tex
-display="inline"><![CDATA[R \cong  R_1 \times  R_2]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[D((1,0))]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[D((0,1))]]></fr:tex> separates the spectrum into two disjoint parts.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000B</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex
+display="inline"><![CDATA[\bigcup _i D(f_i) = \top ]]></fr:tex>, then there is a finite union equal to <fr:tex
+display="inline"><![CDATA[\top ]]></fr:tex>. Algebraically this means <fr:tex
+display="inline"><![CDATA[\sqrt {\gcd \{f_i\}} = 1]]></fr:tex>, equivalently <fr:tex
+display="inline"><![CDATA[\gcd \{f_i\} = 1]]></fr:tex>. So we have a linear combination <fr:tex
+display="inline"><![CDATA[\sum _k a_k f_k = 1]]></fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.</fr:p>
 </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -64,19 +34,22 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2166</fr:anchor><fr:addr
-type="user">algm-0009</fr:addr><fr:route>algm-0009.xml</fr:route><fr:title
-text="{Spec}{R} is disconnected iff R is a product of non-zero rings"><fr:tex
-display="inline"><![CDATA[\operatorname {Spec}{R}]]></fr:tex> is disconnected iff <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> is a product of non-zero rings</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2183</fr:anchor><fr:addr
+type="user">algm-000B</fr:addr><fr:route>algm-000B.xml</fr:route><fr:title
+text="A ring spectrum is quasi-compact">A <fr:link
+type="local"
+href="algm-0001.xml"
+addr="algm-0001"
+title="Topological spectrum of a commutative ring">ring spectrum</fr:link> is quasi-compact</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a commutative ring <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}{R}]]></fr:tex> is disconnected iff <fr:tex
-display="inline"><![CDATA[R \cong  R_1 \times  R_2]]></fr:tex>, where <fr:tex
-display="inline"><![CDATA[R_1, R_2]]></fr:tex> are non-zero commutative rings.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The space <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> is always <fr:link
+type="local"
+href="algm-000A.xml"
+addr="algm-000A"
+title="Terminology of compactness in algebraic geometry">quasi-compact</fr:link>.</fr:p>
   
     
     <fr:tree
@@ -86,48 +59,18 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2146</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2157</fr:anchor><fr:addr
 type="machine">#288</fr:addr><fr:route>unstable-288.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0009</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>In one direction, if <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}{R}]]></fr:tex> is disconnected, we have two opens <fr:tex
-display="inline"><![CDATA[D(\mathfrak {a})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[D(\mathfrak {b})]]></fr:tex> whose intersection is empty and union is the entire space. In other words radical ideals <fr:tex
-display="inline"><![CDATA[\mathfrak {a}, \mathfrak {b}]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[\sqrt {\gcd (\mathfrak {a}, \mathfrak {b})} = 1]]></fr:tex> (equivalent to <fr:tex
-display="inline"><![CDATA[\gcd (\mathfrak {a}, \mathfrak {b}) = 1]]></fr:tex>) and <fr:tex
-display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {a}, \mathfrak {b}) = 0]]></fr:tex>. We have <fr:tex
-display="inline"><![CDATA[\mathfrak {a} \mid  a]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathfrak {b} \mid  b]]></fr:tex> such that <fr:tex
-display="inline"><![CDATA[a + b = 1]]></fr:tex>. But <fr:tex
-display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {a}, \mathfrak {b}) \mid  a b]]></fr:tex>, therefore <fr:tex
-display="inline"><![CDATA[a b = 0]]></fr:tex>. This implies <fr:tex
-display="inline"><![CDATA[a(1-a) = 0]]></fr:tex>, or <fr:tex
-display="inline"><![CDATA[a^2 = a]]></fr:tex>. The same goes for <fr:tex
-display="inline"><![CDATA[b]]></fr:tex>.</fr:p>
-
-  <fr:p>Let <fr:tex
-display="inline"><![CDATA[R_1]]></fr:tex> be the subset of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> consisting of multiples of <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>. It contains an identity <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>, since <fr:tex
-display="inline"><![CDATA[a \cdot  a x = a x]]></fr:tex> by idempotence. Hence this subset forms a ring with the same addition and multiplication but a different identity. The same goes for <fr:tex
-display="inline"><![CDATA[R_2]]></fr:tex>, the multiples of <fr:tex
-display="inline"><![CDATA[b]]></fr:tex>. There is an obvious map <fr:tex
-display="inline"><![CDATA[R_1 \times  R_2 \to  R]]></fr:tex>, given by <fr:tex
-display="inline"><![CDATA[(ax, by) \mapsto  ax + by]]></fr:tex>. This is an injection since <fr:tex
-display="inline"><![CDATA[z \mapsto  a z]]></fr:tex> recovers the first argument, and <fr:tex
-display="inline"><![CDATA[z \mapsto  b z]]></fr:tex> recovers the second. It is also a surjection because <fr:tex
-display="inline"><![CDATA[z = a z + b z]]></fr:tex> is the image of <fr:tex
-display="inline"><![CDATA[(az, bz)]]></fr:tex>. Hence we found an isomorphism.</fr:p>
-
-  <fr:p>In the other direction, suppose <fr:tex
-display="inline"><![CDATA[R \cong  R_1 \times  R_2]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[D((1,0))]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[D((0,1))]]></fr:tex> separates the spectrum into two disjoint parts.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000B</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex
+display="inline"><![CDATA[\bigcup _i D(f_i) = \top ]]></fr:tex>, then there is a finite union equal to <fr:tex
+display="inline"><![CDATA[\top ]]></fr:tex>. Algebraically this means <fr:tex
+display="inline"><![CDATA[\sqrt {\gcd \{f_i\}} = 1]]></fr:tex>, equivalently <fr:tex
+display="inline"><![CDATA[\gcd \{f_i\} = 1]]></fr:tex>. So we have a linear combination <fr:tex
+display="inline"><![CDATA[\sum _k a_k f_k = 1]]></fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

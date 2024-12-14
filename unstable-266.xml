@@ -7,26 +7,40 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>626</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>631</fr:anchor><fr:addr
+type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>9</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001Z</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>We just need to prove the <fr:link
-type="local"
-href="algm-001Y.xml"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0020</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We first prove it is not distinguished. Suppose <fr:tex
+display="inline"><![CDATA[U = D(f)]]></fr:tex>, we can choose a representative of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathbb {C}[x, y]]]></fr:tex>. Now substituting <fr:tex
+display="inline"><![CDATA[x \mapsto  t^2, y \mapsto  t^3]]></fr:tex>, we need <fr:tex
+display="inline"><![CDATA[f(t^2, t^3)]]></fr:tex> to vanish only at <fr:tex
+display="inline"><![CDATA[t = 1]]></fr:tex>. Hence this is a polynomial <fr:tex
+display="inline"><![CDATA[\lambda  (t - 1)^n]]></fr:tex>. But this is impossible since it has a linear term, which cannot be produced by <fr:tex
+display="inline"><![CDATA[t^2]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[t^3]]></fr:tex>.</fr:p>
+
+  <fr:p>Now we need to show <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> is affine. The coordinate ring is actually given by the subring <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\mathbb {C}[t, (t-1)^{-1}]]]></fr:tex> such that the derivative at zero is zero, which can be verified by gluing. By <fr:ref
 addr="algm-001Y"
-title="Affinification">affinification</fr:link> is not an isomorphism. Consider the global sections of the <fr:link
-type="local"
-href="algm-000M.xml"
-addr="algm-000M"
-title="Ringed space">structure sheaf</fr:link>, which comes from the pullback of <fr:tex
-display="inline"><![CDATA[\mathbb {C}[x, y, x^{-1}]]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathbb {C}[x, y, y^{-1}]]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[\mathbb {C}[x, y, x^{-1}, y^{-1}]]]></fr:tex>. The result is simply <fr:tex
-display="inline"><![CDATA[\mathbb {C}[x, y]]]></fr:tex>. We can compute that the affinification map is the inclusion map into <fr:tex
-display="inline"><![CDATA[\mathbb {A}_{\mathbb {C}}^2]]></fr:tex>. This cannot be an isomorphism because the underlying space is different.</fr:p>
+href="algm-001Y.xml"
+taxon="Definition" /> we have a canonical map <fr:tex
+display="inline"><![CDATA[U \to  \operatorname {Spec} R]]></fr:tex>. Now restricting to the open <fr:tex
+display="inline"><![CDATA[D(t^2 - 1)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[D(t^3 - 1)]]></fr:tex> respectively, the two schemes are affine. By verifying the isomorphism of global sections, we see that they are isomorphic. Note that
+    <fr:tex
+display="block"><![CDATA[(t^3 - 1) \cdot  \frac {t^2}{t - 1} - (t^2 - 1) \cdot  \left (\frac {t^3}{t - 1} + 1\right ) = 1.]]></fr:tex>
+    So these cover <fr:tex
+display="inline"><![CDATA[\operatorname {Spec} R]]></fr:tex> (this is where it differs from <fr:ref
+addr="algm-001Z"
+href="algm-001Z.xml"
+taxon="Example" />), and we have our isomorphism.</fr:p>
 </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -42,19 +56,39 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>628</fr:anchor><fr:addr
-type="user">algm-001Z</fr:addr><fr:route>algm-001Z.xml</fr:route><fr:title
-text="A non-affine scheme">A non-affine scheme</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>633</fr:anchor><fr:addr
+type="user">algm-0020</fr:addr><fr:route>algm-0020.xml</fr:route><fr:title
+text="A non-distinguished affine subscheme">A non-distinguished affine subscheme</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>9</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The open subscheme of <fr:tex
-display="inline"><![CDATA[\mathbb {A}_{\mathbb {C}}^2 = \operatorname {Spec} \mathbb {C}[x, y]]]></fr:tex> given by removing the origin, or equivalently the open <fr:tex
-display="inline"><![CDATA[D(x) \cup  D(y)]]></fr:tex>, is not <fr:link
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Consider the <fr:link
 type="local"
 href="algm-000Q.xml"
 addr="algm-000Q"
-title="Affine scheme">affine</fr:link>.</fr:p>
+title="Affine scheme">affine scheme</fr:link> <fr:tex
+display="inline"><![CDATA[X = \operatorname {Spec} \mathbb {C}[x, y]/(y^2 - x^3) \simeq  \operatorname {Spec} \mathbb {C}[t^2, t^3]]]></fr:tex>, which is a degenerate cubic curve. We can remove the point <fr:tex
+display="inline"><![CDATA[(1,1)]]></fr:tex>, giving the open <fr:tex
+display="inline"><![CDATA[U = D(x-1) \cup  D(y-1)]]></fr:tex>. We claim that <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> is an affine subscheme but it is not of the form <fr:tex
+display="inline"><![CDATA[D(f)]]></fr:tex>.</fr:p>
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz">
+    <fr:embedded-tex
+hash="f96098304da00e10f55a64cfbdc3d338"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
+      \usetikzlibrary{decorations.pathreplacing}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzpicture}
+  \draw [->] (-1, 0) -- (3, 0);
+  \draw [->] (0, -3) -- (0, 3);
+  \draw [domain=-1.4:1.4, samples=50, thick] plot ({(\x )^2}, {(\x )^3});
+  \filldraw [fill = white] (1,1) circle (0.05);
+\end {tikzpicture}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
   
     
     <fr:tree
@@ -64,26 +98,40 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>620</fr:anchor><fr:addr
-type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>621</fr:anchor><fr:addr
+type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>9</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001Z</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>We just need to prove the <fr:link
-type="local"
-href="algm-001Y.xml"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0020</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We first prove it is not distinguished. Suppose <fr:tex
+display="inline"><![CDATA[U = D(f)]]></fr:tex>, we can choose a representative of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> in <fr:tex
+display="inline"><![CDATA[\mathbb {C}[x, y]]]></fr:tex>. Now substituting <fr:tex
+display="inline"><![CDATA[x \mapsto  t^2, y \mapsto  t^3]]></fr:tex>, we need <fr:tex
+display="inline"><![CDATA[f(t^2, t^3)]]></fr:tex> to vanish only at <fr:tex
+display="inline"><![CDATA[t = 1]]></fr:tex>. Hence this is a polynomial <fr:tex
+display="inline"><![CDATA[\lambda  (t - 1)^n]]></fr:tex>. But this is impossible since it has a linear term, which cannot be produced by <fr:tex
+display="inline"><![CDATA[t^2]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[t^3]]></fr:tex>.</fr:p>
+
+  <fr:p>Now we need to show <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> is affine. The coordinate ring is actually given by the subring <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[\mathbb {C}[t, (t-1)^{-1}]]]></fr:tex> such that the derivative at zero is zero, which can be verified by gluing. By <fr:ref
 addr="algm-001Y"
-title="Affinification">affinification</fr:link> is not an isomorphism. Consider the global sections of the <fr:link
-type="local"
-href="algm-000M.xml"
-addr="algm-000M"
-title="Ringed space">structure sheaf</fr:link>, which comes from the pullback of <fr:tex
-display="inline"><![CDATA[\mathbb {C}[x, y, x^{-1}]]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathbb {C}[x, y, y^{-1}]]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[\mathbb {C}[x, y, x^{-1}, y^{-1}]]]></fr:tex>. The result is simply <fr:tex
-display="inline"><![CDATA[\mathbb {C}[x, y]]]></fr:tex>. We can compute that the affinification map is the inclusion map into <fr:tex
-display="inline"><![CDATA[\mathbb {A}_{\mathbb {C}}^2]]></fr:tex>. This cannot be an isomorphism because the underlying space is different.</fr:p>
+href="algm-001Y.xml"
+taxon="Definition" /> we have a canonical map <fr:tex
+display="inline"><![CDATA[U \to  \operatorname {Spec} R]]></fr:tex>. Now restricting to the open <fr:tex
+display="inline"><![CDATA[D(t^2 - 1)]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[D(t^3 - 1)]]></fr:tex> respectively, the two schemes are affine. By verifying the isomorphism of global sections, we see that they are isomorphic. Note that
+    <fr:tex
+display="block"><![CDATA[(t^3 - 1) \cdot  \frac {t^2}{t - 1} - (t^2 - 1) \cdot  \left (\frac {t^3}{t - 1} + 1\right ) = 1.]]></fr:tex>
+    So these cover <fr:tex
+display="inline"><![CDATA[\operatorname {Spec} R]]></fr:tex> (this is where it differs from <fr:ref
+addr="algm-001Z"
+href="algm-001Z.xml"
+taxon="Example" />), and we have our isomorphism.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

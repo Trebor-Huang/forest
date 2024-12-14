@@ -7,20 +7,84 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1923</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1940</fr:anchor><fr:addr
 type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Note that the stalk <fr:tex
-display="inline"><![CDATA[(\varphi ^{-1}\mathscr {O}_{Y})_x = \mathscr {O}_{Y, \varphi (x)}]]></fr:tex>. A germ being invertible implies for some neighborhood <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>, it comes from an invertible section <fr:tex
-display="inline"><![CDATA[f \in  \Gamma (U, \varphi ^{-1}\mathscr {O}_Y)]]></fr:tex>, so the image in <fr:tex
-display="inline"><![CDATA[\Gamma (U, \mathscr {O}_X)]]></fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Given two rings <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, a ring homomorphism <fr:tex
+display="inline"><![CDATA[\varphi  : S \to  R]]></fr:tex> naturally induces a map of <fr:link
+type="local"
+href="algm-0004.xml"
+addr="algm-0004"
+title="Distinguished opens of {Spec}(R)">distinguished opens</fr:link> <fr:tex
+display="inline"><![CDATA[f \mapsto  \varphi (f)]]></fr:tex>. This is a continuous map <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R) \to  \operatorname {Spec}(S)]]></fr:tex>, because <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> preserves <fr:tex
+display="inline"><![CDATA[\operatorname {lcm}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\gcd ]]></fr:tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <fr:tex
+display="inline"><![CDATA[\Gamma (D(s), \mathscr {O}_{\operatorname {Spec}(S)}) \to  \Gamma (D(r), \mathscr {O}_{\operatorname {Spec}(R)})]]></fr:tex> whenever <fr:tex
+display="inline"><![CDATA[D(r) \subseteq  \varphi ^{-1}D(s) = D(\varphi (s))]]></fr:tex>. This is just a homomorphism <fr:tex
+display="inline"><![CDATA[S[s^{-1}] \to  R[r^{-1}]]]></fr:tex>, which is obvious because <fr:tex
+display="inline"><![CDATA[\varphi (s)]]></fr:tex> must be invertible in <fr:tex
+display="inline"><![CDATA[R[r^{-1}]]]></fr:tex>.</fr:p>
 
-  <fr:p>On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.</fr:p>
+  <fr:p>We need to prove our map is <fr:link
+type="local"
+href="algm-000U.xml"
+addr="algm-000U"
+title="Morphism of locally ringed spaces">local</fr:link>. Using the <fr:link
+type="local"
+href="algm-000W.xml"
+addr="algm-000W"
+title="Action of morphisms on stalks of locally ringed spaces">characterization on stalks</fr:link>, we just need to verify that <fr:tex
+display="inline"><![CDATA[S_{\varphi ^{-1}(\mathfrak {p})} \to  R_{\mathfrak {p}}]]></fr:tex> reflects invertibility. This is true by construction. Hence we have a map <fr:tex
+display="inline"><![CDATA[\hom _{\mathsf {CRing}}(S, R) \to  \hom _{\mathsf {Sch}}(\operatorname {Spec}(R), \operatorname {Spec}(S))]]></fr:tex>.</fr:p>
+
+  <fr:p>In the reverse direction, given a morphism <fr:tex
+display="inline"><![CDATA[\varphi  : \operatorname {Spec}(R) \to  \operatorname {Spec}(S)]]></fr:tex>, we can extract a ring homomorphism by looking at the global sections
+    <fr:tex
+display="block"><![CDATA[S \cong  \Gamma (\top , \varphi ^{-1}\mathscr {O}_{\operatorname {Spec}(S)}) \to  \Gamma (\top , \mathscr {O}_{\operatorname {Spec}(R)}) \cong  R.]]></fr:tex>
+    We obviously have going from <fr:tex
+display="inline"><![CDATA[\mathsf {CRing}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
+
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="c53e81307d06912948fdb79b10c12ad6"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      S & R \\
+      {S_{\mathfrak {q}}} & {R_{\mathfrak {p}}}
+      \arrow [from=1-1, to=1-2]
+      \arrow [from=2-1, to=2-2]
+      \arrow [two heads, from=1-1, to=2-1]
+      \arrow [two heads, from=1-2, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+
+    where <fr:tex
+display="inline"><![CDATA[\left [\mathfrak {q}\right ]]]></fr:tex> is the image of the point <fr:tex
+display="inline"><![CDATA[\left [\mathfrak {p}\right ]]]></fr:tex> under the underlying continuous map of <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex>. This fixes the action of <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> on the stalks. Furthermore, the <fr:link
+type="local"
+href="algm-000W.xml"
+addr="algm-000W"
+title="Action of morphisms on stalks of locally ringed spaces">locality</fr:link> implies the preimage of <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> under the ring homomorphism divides <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and since <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> is maximal in the local ring <fr:tex
+display="inline"><![CDATA[S_{\mathfrak {q}}]]></fr:tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.</fr:p>
 </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -36,28 +100,22 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1925</fr:anchor><fr:addr
-type="user">algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title
-text="Action of morphisms on stalks of locally ringed spaces">Action of morphisms on stalks of locally ringed spaces</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1942</fr:anchor><fr:addr
+type="user">algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title
+text="Morphisms of affine schemes">Morphisms of affine schemes</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
-type="local"
-href="algm-000S.xml"
-addr="algm-000S"
-title="Morphism of ringed spaces">morphism of ringed spaces</fr:link> <fr:tex
-display="inline"><![CDATA[\varphi  : X \to  Y]]></fr:tex>, if it is <fr:link
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
 type="local"
 href="algm-000U.xml"
 addr="algm-000U"
-title="Morphism of locally ringed spaces">local</fr:link>, a germ is invertible iff its <fr:link
+title="Morphism of locally ringed spaces">Morphism</fr:link> of <fr:link
 type="local"
-href="algm-000V.xml"
-addr="algm-000V"
-title="Terminology of pullbacks">pullback</fr:link> under <fr:tex
-display="inline"><![CDATA[\varphi ]]></fr:tex> is invertible. If the space <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> has enough points, then the inverse implication is also true.</fr:p>
+href="algm-000Q.xml"
+addr="algm-000Q"
+title="Affine scheme">affine schemes</fr:link> are in natural bijection with ring homomorphisms in the opposite direction. In other words, there is a fully faithful embedding <fr:tex
+display="inline"><![CDATA[\mathsf {CRing}^\textrm {op} \to  \mathsf {Sch}]]></fr:tex>.</fr:p>
   
     
     <fr:tree
@@ -67,20 +125,84 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1927</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>931</fr:anchor><fr:addr
 type="machine">#280</fr:addr><fr:route>unstable-280.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Note that the stalk <fr:tex
-display="inline"><![CDATA[(\varphi ^{-1}\mathscr {O}_{Y})_x = \mathscr {O}_{Y, \varphi (x)}]]></fr:tex>. A germ being invertible implies for some neighborhood <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[x]]></fr:tex>, it comes from an invertible section <fr:tex
-display="inline"><![CDATA[f \in  \Gamma (U, \varphi ^{-1}\mathscr {O}_Y)]]></fr:tex>, so the image in <fr:tex
-display="inline"><![CDATA[\Gamma (U, \mathscr {O}_X)]]></fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Given two rings <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[S]]></fr:tex>, a ring homomorphism <fr:tex
+display="inline"><![CDATA[\varphi  : S \to  R]]></fr:tex> naturally induces a map of <fr:link
+type="local"
+href="algm-0004.xml"
+addr="algm-0004"
+title="Distinguished opens of {Spec}(R)">distinguished opens</fr:link> <fr:tex
+display="inline"><![CDATA[f \mapsto  \varphi (f)]]></fr:tex>. This is a continuous map <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R) \to  \operatorname {Spec}(S)]]></fr:tex>, because <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> preserves <fr:tex
+display="inline"><![CDATA[\operatorname {lcm}]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\gcd ]]></fr:tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <fr:tex
+display="inline"><![CDATA[\Gamma (D(s), \mathscr {O}_{\operatorname {Spec}(S)}) \to  \Gamma (D(r), \mathscr {O}_{\operatorname {Spec}(R)})]]></fr:tex> whenever <fr:tex
+display="inline"><![CDATA[D(r) \subseteq  \varphi ^{-1}D(s) = D(\varphi (s))]]></fr:tex>. This is just a homomorphism <fr:tex
+display="inline"><![CDATA[S[s^{-1}] \to  R[r^{-1}]]]></fr:tex>, which is obvious because <fr:tex
+display="inline"><![CDATA[\varphi (s)]]></fr:tex> must be invertible in <fr:tex
+display="inline"><![CDATA[R[r^{-1}]]]></fr:tex>.</fr:p>
 
-  <fr:p>On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.</fr:p>
+  <fr:p>We need to prove our map is <fr:link
+type="local"
+href="algm-000U.xml"
+addr="algm-000U"
+title="Morphism of locally ringed spaces">local</fr:link>. Using the <fr:link
+type="local"
+href="algm-000W.xml"
+addr="algm-000W"
+title="Action of morphisms on stalks of locally ringed spaces">characterization on stalks</fr:link>, we just need to verify that <fr:tex
+display="inline"><![CDATA[S_{\varphi ^{-1}(\mathfrak {p})} \to  R_{\mathfrak {p}}]]></fr:tex> reflects invertibility. This is true by construction. Hence we have a map <fr:tex
+display="inline"><![CDATA[\hom _{\mathsf {CRing}}(S, R) \to  \hom _{\mathsf {Sch}}(\operatorname {Spec}(R), \operatorname {Spec}(S))]]></fr:tex>.</fr:p>
+
+  <fr:p>In the reverse direction, given a morphism <fr:tex
+display="inline"><![CDATA[\varphi  : \operatorname {Spec}(R) \to  \operatorname {Spec}(S)]]></fr:tex>, we can extract a ring homomorphism by looking at the global sections
+    <fr:tex
+display="block"><![CDATA[S \cong  \Gamma (\top , \varphi ^{-1}\mathscr {O}_{\operatorname {Spec}(S)}) \to  \Gamma (\top , \mathscr {O}_{\operatorname {Spec}(R)}) \cong  R.]]></fr:tex>
+    We obviously have going from <fr:tex
+display="inline"><![CDATA[\mathsf {CRing}]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
+
+    
+  <html:span
+xmlns:html="http://www.w3.org/1999/xhtml"
+class="tikz tikzcd">
+    <fr:embedded-tex
+hash="c53e81307d06912948fdb79b10c12ad6"><fr:embedded-tex-preamble><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+      \begin {tikzcd}
+      S & R \\
+      {S_{\mathfrak {q}}} & {R_{\mathfrak {p}}}
+      \arrow [from=1-1, to=1-2]
+      \arrow [from=2-1, to=2-2]
+      \arrow [two heads, from=1-1, to=2-1]
+      \arrow [two heads, from=1-2, to=2-2]
+    \end {tikzcd}
+    ]]></fr:embedded-tex-body></fr:embedded-tex>
+  </html:span>
+
+
+    where <fr:tex
+display="inline"><![CDATA[\left [\mathfrak {q}\right ]]]></fr:tex> is the image of the point <fr:tex
+display="inline"><![CDATA[\left [\mathfrak {p}\right ]]]></fr:tex> under the underlying continuous map of <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex>. This fixes the action of <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> on the stalks. Furthermore, the <fr:link
+type="local"
+href="algm-000W.xml"
+addr="algm-000W"
+title="Action of morphisms on stalks of locally ringed spaces">locality</fr:link> implies the preimage of <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> under the ring homomorphism divides <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and since <fr:tex
+display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> is maximal in the local ring <fr:tex
+display="inline"><![CDATA[S_{\mathfrak {q}}]]></fr:tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

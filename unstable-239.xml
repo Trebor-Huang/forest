@@ -7,32 +7,17 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>656</fr:anchor><fr:addr
-type="machine">#239</fr:addr><fr:route>unstable-239.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>296</fr:anchor><fr:addr
+type="machine">#239</fr:addr><fr:route>unstable-239.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002W</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>We first prove the forward implication. Given a sequence
-    <fr:tex
-display="block"><![CDATA[X \xrightarrow {f} Y \xrightarrow {g} Z]]></fr:tex>
-    whose image under <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is exact, by faithfulness <fr:tex
-display="inline"><![CDATA[F(g \mathbin {\circ } f) = 0]]></fr:tex> implies <fr:tex
-display="inline"><![CDATA[g \mathbin {\circ } f = 0]]></fr:tex>. Now we wish to prove the composite <fr:tex
-display="inline"><![CDATA[\ker  g \to  Y \to  \operatorname {coker} f]]></fr:tex> is zero. We can decompose its image under <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> as
-    <fr:tex
-display="block"><![CDATA[F(\ker  g) \to  \ker  Fg \to  FY \to  \operatorname {coker} Ff \to  F(\operatorname {coker} f).]]></fr:tex>
-    But the inner two morphisms compose to zero, so by faithfulness we get our result.</fr:p>
-
-  <fr:p>On the other hand, suppose <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> reflects exactness. Given a morphism <fr:tex
-display="inline"><![CDATA[f : X \to  Y]]></fr:tex>, suppose <fr:tex
-display="inline"><![CDATA[Ff = 0]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[FX \xrightarrow {\textrm {id}} FX \xrightarrow {Ff} FY]]></fr:tex> is exact. Hence <fr:tex
-display="inline"><![CDATA[X \xrightarrow {\textrm {id}} X \xrightarrow {f} Y]]></fr:tex> is also exact, so <fr:tex
-display="inline"><![CDATA[f = 0]]></fr:tex> too.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>misc-000G</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We want to prove the canonical map <fr:tex
+display="inline"><![CDATA[\hom (1, X_d) \to  \hom (1, X)]]></fr:tex> is a bijection. All the sublocales of <fr:tex
+display="inline"><![CDATA[1]]></fr:tex> are closed since there are only two of them. Therefore for every map <fr:tex
+display="inline"><![CDATA[1 \to  X]]></fr:tex>, the preimage of every sublocale is trivially closed, and therefore it factors through <fr:tex
+display="inline"><![CDATA[X_d \to  X]]></fr:tex> uniquely. This implies the desired bijection.</fr:p>
 </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -48,17 +33,20 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>658</fr:anchor><fr:addr
-type="user">hmlg-002W</fr:addr><fr:route>hmlg-002W.xml</fr:route><fr:title
-text="Additive functor is faithful iff it reflects exactness">Additive functor is faithful iff it reflects exactness</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>298</fr:anchor><fr:addr
+type="user">misc-000G</fr:addr><fr:route>misc-000G.xml</fr:route><fr:title
+text="Points of the dissolution locale">Points of the dissolution locale</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>An <fr:link
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Classically, for every locale <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>, the <fr:link
 type="local"
-href="hmlg-000S.xml"
-addr="hmlg-000S"
-title="Additive functor">additive functor</fr:link> is faithful iff it reflects exactness.</fr:p><fr:p>This implies that faithful additive functors reflects kernels, cokernels, etc. Note that faithful functors need not preserve kernels or cokernels. This is because we can take the direct sum of a faithful functor with an arbitrary additive functor and the result is still faithful. The second summand can behave badly.</fr:p>
+href="misc-000E.xml"
+addr="misc-000E"
+title="Dissolution locale">dissolution locale</fr:link> <fr:tex
+display="inline"><![CDATA[X_d]]></fr:tex> has the same points as <fr:tex
+display="inline"><![CDATA[X]]></fr:tex>.</fr:p>
   
     
     <fr:tree
@@ -68,32 +56,17 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>660</fr:anchor><fr:addr
-type="machine">#239</fr:addr><fr:route>unstable-239.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>300</fr:anchor><fr:addr
+type="machine">#239</fr:addr><fr:route>unstable-239.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>12</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-002W</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>We first prove the forward implication. Given a sequence
-    <fr:tex
-display="block"><![CDATA[X \xrightarrow {f} Y \xrightarrow {g} Z]]></fr:tex>
-    whose image under <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is exact, by faithfulness <fr:tex
-display="inline"><![CDATA[F(g \mathbin {\circ } f) = 0]]></fr:tex> implies <fr:tex
-display="inline"><![CDATA[g \mathbin {\circ } f = 0]]></fr:tex>. Now we wish to prove the composite <fr:tex
-display="inline"><![CDATA[\ker  g \to  Y \to  \operatorname {coker} f]]></fr:tex> is zero. We can decompose its image under <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> as
-    <fr:tex
-display="block"><![CDATA[F(\ker  g) \to  \ker  Fg \to  FY \to  \operatorname {coker} Ff \to  F(\operatorname {coker} f).]]></fr:tex>
-    But the inner two morphisms compose to zero, so by faithfulness we get our result.</fr:p>
-
-  <fr:p>On the other hand, suppose <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> reflects exactness. Given a morphism <fr:tex
-display="inline"><![CDATA[f : X \to  Y]]></fr:tex>, suppose <fr:tex
-display="inline"><![CDATA[Ff = 0]]></fr:tex>, then <fr:tex
-display="inline"><![CDATA[FX \xrightarrow {\textrm {id}} FX \xrightarrow {Ff} FY]]></fr:tex> is exact. Hence <fr:tex
-display="inline"><![CDATA[X \xrightarrow {\textrm {id}} X \xrightarrow {f} Y]]></fr:tex> is also exact, so <fr:tex
-display="inline"><![CDATA[f = 0]]></fr:tex> too.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>misc-000G</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We want to prove the canonical map <fr:tex
+display="inline"><![CDATA[\hom (1, X_d) \to  \hom (1, X)]]></fr:tex> is a bijection. All the sublocales of <fr:tex
+display="inline"><![CDATA[1]]></fr:tex> are closed since there are only two of them. Therefore for every map <fr:tex
+display="inline"><![CDATA[1 \to  X]]></fr:tex>, the preimage of every sublocale is trivially closed, and therefore it factors through <fr:tex
+display="inline"><![CDATA[X_d \to  X]]></fr:tex> uniquely. This implies the desired bijection.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

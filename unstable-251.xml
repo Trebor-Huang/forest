@@ -7,22 +7,25 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2408</fr:anchor><fr:addr
-type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2389</fr:anchor><fr:addr
+type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0018</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.</fr:p>
-
-  <fr:p>On the other hand, <fr:link
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001E</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Let the reduction <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> be made out of the three maps <fr:tex
+display="inline"><![CDATA[\pi _{\rho } : C \to  D]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\iota _{\rho } : D \to  C]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[h_{\rho } : C \to  C]]></fr:tex>. Then since <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> splits as the direct sum of <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> and an <fr:link
 type="local"
-href="todo.xml"
-addr="todo"
-title="Unfinished trees">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex
-display="inline"><![CDATA[f : C_\bullet  \to  D_\bullet ]]></fr:tex> is a quasi-isomorphism, <fr:tex
-display="inline"><![CDATA[H_n (f)]]></fr:tex> are all isomorphisms. Therefore <fr:tex
-display="inline"><![CDATA[H_n (F(f)) = F(H_n(f))]]></fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.</fr:p>
+href="hmlg-000D.xml"
+addr="hmlg-000D"
+title="Acyclic chain complex">acyclic</fr:link> complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition <fr:tex
+display="inline"><![CDATA[\delta _C = \iota _{\rho } \mathbin {\circ } \delta _D \mathbin {\circ } \pi _{\rho }]]></fr:tex>. A quick computation shows that <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> is still a reduction of the perturbed chain complexes.</fr:p>
 </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -38,30 +41,27 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2410</fr:anchor><fr:addr
-type="user">hmlg-0018</fr:addr><fr:route>hmlg-0018.xml</fr:route><fr:title
-text="An additive functor is exact iff it preserves quasi-isomorphisms">An additive functor is exact iff it preserves quasi-isomorphisms</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2391</fr:anchor><fr:addr
+type="user">hmlg-001E</fr:addr><fr:route>hmlg-001E.xml</fr:route><fr:title
+text="Perturbation of the smaller chain complex in a chain reduction"><fr:link
+type="local"
+href="hmlg-001C.xml"
+addr="hmlg-001C"
+title="Perturbation of chain complex">Perturbation</fr:link> of the smaller chain complex in a <fr:link
+type="local"
+href="hmlg-0017.xml"
+addr="hmlg-0017"
+title="Chain reduction">chain reduction</fr:link></fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given an <fr:link
-type="local"
-href="hmlg-000S.xml"
-addr="hmlg-000S"
-title="Additive functor">additive functor</fr:link> <fr:tex
-display="inline"><![CDATA[F : \mathcal {A} \to  \mathcal {B}]]></fr:tex> between <fr:link
-type="local"
-href="hmlg-000Q.xml"
-addr="hmlg-000Q"
-title="Abelian category">abelian categories</fr:link>, it is <fr:link
-type="local"
-href="hmlg-000X.xml"
-addr="hmlg-000X"
-title="Left and right exact functor">exact</fr:link> iff it sends <fr:link
-type="local"
-href="hmlg-000C.xml"
-addr="hmlg-000C"
-title="Quasi-isomorphism">quasi-isomorphisms</fr:link> to quasi-isomorphisms.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a reduction <fr:tex
+display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex> and a perturbation <fr:tex
+display="inline"><![CDATA[\delta _D]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[D]]></fr:tex>, we can construct a perturbation <fr:tex
+display="inline"><![CDATA[\delta _C]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[C]]></fr:tex>, such that the same <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> can serve as a reduction of the perturbed chain complexes.</fr:p>
   
     
     <fr:tree
@@ -71,22 +71,25 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2412</fr:anchor><fr:addr
-type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2353</fr:anchor><fr:addr
+type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0018</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.</fr:p>
-
-  <fr:p>On the other hand, <fr:link
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-001E</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Let the reduction <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> be made out of the three maps <fr:tex
+display="inline"><![CDATA[\pi _{\rho } : C \to  D]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\iota _{\rho } : D \to  C]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[h_{\rho } : C \to  C]]></fr:tex>. Then since <fr:tex
+display="inline"><![CDATA[C]]></fr:tex> splits as the direct sum of <fr:tex
+display="inline"><![CDATA[D]]></fr:tex> and an <fr:link
 type="local"
-href="todo.xml"
-addr="todo"
-title="Unfinished trees">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex
-display="inline"><![CDATA[f : C_\bullet  \to  D_\bullet ]]></fr:tex> is a quasi-isomorphism, <fr:tex
-display="inline"><![CDATA[H_n (f)]]></fr:tex> are all isomorphisms. Therefore <fr:tex
-display="inline"><![CDATA[H_n (F(f)) = F(H_n(f))]]></fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.</fr:p>
+href="hmlg-000D.xml"
+addr="hmlg-000D"
+title="Acyclic chain complex">acyclic</fr:link> complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition <fr:tex
+display="inline"><![CDATA[\delta _C = \iota _{\rho } \mathbin {\circ } \delta _D \mathbin {\circ } \pi _{\rho }]]></fr:tex>. A quick computation shows that <fr:tex
+display="inline"><![CDATA[\rho ]]></fr:tex> is still a reduction of the perturbed chain complexes.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

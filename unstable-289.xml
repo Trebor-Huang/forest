@@ -7,38 +7,48 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2168</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2185</fr:anchor><fr:addr
 type="machine">#289</fr:addr><fr:route>unstable-289.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0008</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>We can first put the opens in disjunctive normal form
-    <fr:tex
-display="block"><![CDATA[U = \bigcup _{i \in  I} \bigcap _{j=1}^{n_i} D(f_{i, j}).]]></fr:tex>
-    By the definition we can reduce the intersections into products. Write <fr:tex
-display="inline"><![CDATA[f_i = \prod _j f_{i, j}]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[U = \bigcup _i D(f_i)]]></fr:tex>. Given this form, we can try to <fr:em>saturate</fr:em> the union, by throwing in everything that doesn’t enlarge <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>. In other words, we only consider the unions such that no other generator <fr:tex
-display="inline"><![CDATA[D(f)]]></fr:tex> can be added, i.e. <fr:tex
-display="inline"><![CDATA[D(f) \nsubseteq  U]]></fr:tex>. This would uniquely determine <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0009</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>In one direction, if <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}{R}]]></fr:tex> is disconnected, we have two opens <fr:tex
+display="inline"><![CDATA[D(\mathfrak {a})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[D(\mathfrak {b})]]></fr:tex> whose intersection is empty and union is the entire space. In other words radical ideals <fr:tex
+display="inline"><![CDATA[\mathfrak {a}, \mathfrak {b}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\sqrt {\gcd (\mathfrak {a}, \mathfrak {b})} = 1]]></fr:tex> (equivalent to <fr:tex
+display="inline"><![CDATA[\gcd (\mathfrak {a}, \mathfrak {b}) = 1]]></fr:tex>) and <fr:tex
+display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {a}, \mathfrak {b}) = 0]]></fr:tex>. We have <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathfrak {b} \mid  b]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a + b = 1]]></fr:tex>. But <fr:tex
+display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {a}, \mathfrak {b}) \mid  a b]]></fr:tex>, therefore <fr:tex
+display="inline"><![CDATA[a b = 0]]></fr:tex>. This implies <fr:tex
+display="inline"><![CDATA[a(1-a) = 0]]></fr:tex>, or <fr:tex
+display="inline"><![CDATA[a^2 = a]]></fr:tex>. The same goes for <fr:tex
+display="inline"><![CDATA[b]]></fr:tex>.</fr:p>
 
-  <fr:p>Such a saturated set would have to be closed under addition since <fr:tex
-display="inline"><![CDATA[D(f+g) \subseteq  D(f) \cup  D(g)]]></fr:tex>, and for the nullary case it must include <fr:tex
-display="inline"><![CDATA[D(0) = \bot ]]></fr:tex>. It also has to absorb multiplication, because <fr:tex
-display="inline"><![CDATA[D(f \cdot  g) \subseteq  D(f)]]></fr:tex>. This means we are dealing with ideals. Henceforth, we write <fr:tex
-display="inline"><![CDATA[D(\mathfrak {a})]]></fr:tex> for the union <fr:tex
-display="inline"><![CDATA[\bigcup _{\mathfrak {a} \mid  f} D(f)]]></fr:tex>.</fr:p>
+  <fr:p>Let <fr:tex
+display="inline"><![CDATA[R_1]]></fr:tex> be the subset of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> consisting of multiples of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>. It contains an identity <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>, since <fr:tex
+display="inline"><![CDATA[a \cdot  a x = a x]]></fr:tex> by idempotence. Hence this subset forms a ring with the same addition and multiplication but a different identity. The same goes for <fr:tex
+display="inline"><![CDATA[R_2]]></fr:tex>, the multiples of <fr:tex
+display="inline"><![CDATA[b]]></fr:tex>. There is an obvious map <fr:tex
+display="inline"><![CDATA[R_1 \times  R_2 \to  R]]></fr:tex>, given by <fr:tex
+display="inline"><![CDATA[(ax, by) \mapsto  ax + by]]></fr:tex>. This is an injection since <fr:tex
+display="inline"><![CDATA[z \mapsto  a z]]></fr:tex> recovers the first argument, and <fr:tex
+display="inline"><![CDATA[z \mapsto  b z]]></fr:tex> recovers the second. It is also a surjection because <fr:tex
+display="inline"><![CDATA[z = a z + b z]]></fr:tex> is the image of <fr:tex
+display="inline"><![CDATA[(az, bz)]]></fr:tex>. Hence we found an isomorphism.</fr:p>
 
-  <fr:p>There is one last requirement we haven’t dealt with, i.e. <fr:tex
-display="inline"><![CDATA[D(f \cdot  g)]]></fr:tex> is the <fr:em>greatest</fr:em> lower bound of <fr:tex
-display="inline"><![CDATA[D(f)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[D(g)]]></fr:tex>, instead of simply a lower bound. For example, this gives the equality <fr:tex
-display="inline"><![CDATA[D(f^n) = D(f)]]></fr:tex>, so we need to restrict our attention to radical ideals. It then suffices to prove that the radical ideal generated by <fr:tex
-display="inline"><![CDATA[f \cdot  g]]></fr:tex> is equal to the lowest common multiple of the radical ideals generated by <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[g]]></fr:tex>, which is true.</fr:p>
+  <fr:p>In the other direction, suppose <fr:tex
+display="inline"><![CDATA[R \cong  R_1 \times  R_2]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[D((1,0))]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[D((0,1))]]></fr:tex> separates the spectrum into two disjoint parts.</fr:p>
 </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -54,27 +64,19 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2170</fr:anchor><fr:addr
-type="user">algm-0008</fr:addr><fr:route>algm-0008.xml</fr:route><fr:title
-text="Characterization of the locale {Spec}(R)">Characterization of the locale <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2187</fr:anchor><fr:addr
+type="user">algm-0009</fr:addr><fr:route>algm-0009.xml</fr:route><fr:title
+text="{Spec}{R} is disconnected iff R is a product of non-zero rings"><fr:tex
+display="inline"><![CDATA[\operatorname {Spec}{R}]]></fr:tex> is disconnected iff <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> is a product of non-zero rings</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The opens in <fr:link
-type="local"
-href="algm-0007.xml"
-addr="algm-0007"
-title="Localic spectrum of a commutative ring">the locale</fr:link> <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> bijectively corresponds to radical ideals of <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>, whose divisibility relation agree with the inverse inclusion relation of opens. Intersections correspond to lowest common multiple, and unions correspond to the radical of the greatest common divisor. In other words, the locale is isomorphic to the locale corresponding to the <fr:link
-type="local"
-href="algm-0001.xml"
-addr="algm-0001"
-title="Topological spectrum of a commutative ring">topological spectrum of a commutative ring</fr:link> by <fr:ref
-addr="algm-0002"
-href="algm-0002.xml"
-taxon="Theorem" />.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a commutative ring <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}{R}]]></fr:tex> is disconnected iff <fr:tex
+display="inline"><![CDATA[R \cong  R_1 \times  R_2]]></fr:tex>, where <fr:tex
+display="inline"><![CDATA[R_1, R_2]]></fr:tex> are non-zero commutative rings.</fr:p>
   
     
     <fr:tree
@@ -84,38 +86,48 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1857</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2167</fr:anchor><fr:addr
 type="machine">#289</fr:addr><fr:route>unstable-289.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0008</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>We can first put the opens in disjunctive normal form
-    <fr:tex
-display="block"><![CDATA[U = \bigcup _{i \in  I} \bigcap _{j=1}^{n_i} D(f_{i, j}).]]></fr:tex>
-    By the definition we can reduce the intersections into products. Write <fr:tex
-display="inline"><![CDATA[f_i = \prod _j f_{i, j}]]></fr:tex>, we have <fr:tex
-display="inline"><![CDATA[U = \bigcup _i D(f_i)]]></fr:tex>. Given this form, we can try to <fr:em>saturate</fr:em> the union, by throwing in everything that doesn’t enlarge <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>. In other words, we only consider the unions such that no other generator <fr:tex
-display="inline"><![CDATA[D(f)]]></fr:tex> can be added, i.e. <fr:tex
-display="inline"><![CDATA[D(f) \nsubseteq  U]]></fr:tex>. This would uniquely determine <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0009</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>In one direction, if <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}{R}]]></fr:tex> is disconnected, we have two opens <fr:tex
+display="inline"><![CDATA[D(\mathfrak {a})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[D(\mathfrak {b})]]></fr:tex> whose intersection is empty and union is the entire space. In other words radical ideals <fr:tex
+display="inline"><![CDATA[\mathfrak {a}, \mathfrak {b}]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\sqrt {\gcd (\mathfrak {a}, \mathfrak {b})} = 1]]></fr:tex> (equivalent to <fr:tex
+display="inline"><![CDATA[\gcd (\mathfrak {a}, \mathfrak {b}) = 1]]></fr:tex>) and <fr:tex
+display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {a}, \mathfrak {b}) = 0]]></fr:tex>. We have <fr:tex
+display="inline"><![CDATA[\mathfrak {a} \mid  a]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[\mathfrak {b} \mid  b]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[a + b = 1]]></fr:tex>. But <fr:tex
+display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {a}, \mathfrak {b}) \mid  a b]]></fr:tex>, therefore <fr:tex
+display="inline"><![CDATA[a b = 0]]></fr:tex>. This implies <fr:tex
+display="inline"><![CDATA[a(1-a) = 0]]></fr:tex>, or <fr:tex
+display="inline"><![CDATA[a^2 = a]]></fr:tex>. The same goes for <fr:tex
+display="inline"><![CDATA[b]]></fr:tex>.</fr:p>
 
-  <fr:p>Such a saturated set would have to be closed under addition since <fr:tex
-display="inline"><![CDATA[D(f+g) \subseteq  D(f) \cup  D(g)]]></fr:tex>, and for the nullary case it must include <fr:tex
-display="inline"><![CDATA[D(0) = \bot ]]></fr:tex>. It also has to absorb multiplication, because <fr:tex
-display="inline"><![CDATA[D(f \cdot  g) \subseteq  D(f)]]></fr:tex>. This means we are dealing with ideals. Henceforth, we write <fr:tex
-display="inline"><![CDATA[D(\mathfrak {a})]]></fr:tex> for the union <fr:tex
-display="inline"><![CDATA[\bigcup _{\mathfrak {a} \mid  f} D(f)]]></fr:tex>.</fr:p>
+  <fr:p>Let <fr:tex
+display="inline"><![CDATA[R_1]]></fr:tex> be the subset of <fr:tex
+display="inline"><![CDATA[R]]></fr:tex> consisting of multiples of <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>. It contains an identity <fr:tex
+display="inline"><![CDATA[a]]></fr:tex>, since <fr:tex
+display="inline"><![CDATA[a \cdot  a x = a x]]></fr:tex> by idempotence. Hence this subset forms a ring with the same addition and multiplication but a different identity. The same goes for <fr:tex
+display="inline"><![CDATA[R_2]]></fr:tex>, the multiples of <fr:tex
+display="inline"><![CDATA[b]]></fr:tex>. There is an obvious map <fr:tex
+display="inline"><![CDATA[R_1 \times  R_2 \to  R]]></fr:tex>, given by <fr:tex
+display="inline"><![CDATA[(ax, by) \mapsto  ax + by]]></fr:tex>. This is an injection since <fr:tex
+display="inline"><![CDATA[z \mapsto  a z]]></fr:tex> recovers the first argument, and <fr:tex
+display="inline"><![CDATA[z \mapsto  b z]]></fr:tex> recovers the second. It is also a surjection because <fr:tex
+display="inline"><![CDATA[z = a z + b z]]></fr:tex> is the image of <fr:tex
+display="inline"><![CDATA[(az, bz)]]></fr:tex>. Hence we found an isomorphism.</fr:p>
 
-  <fr:p>There is one last requirement we haven’t dealt with, i.e. <fr:tex
-display="inline"><![CDATA[D(f \cdot  g)]]></fr:tex> is the <fr:em>greatest</fr:em> lower bound of <fr:tex
-display="inline"><![CDATA[D(f)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[D(g)]]></fr:tex>, instead of simply a lower bound. For example, this gives the equality <fr:tex
-display="inline"><![CDATA[D(f^n) = D(f)]]></fr:tex>, so we need to restrict our attention to radical ideals. It then suffices to prove that the radical ideal generated by <fr:tex
-display="inline"><![CDATA[f \cdot  g]]></fr:tex> is equal to the lowest common multiple of the radical ideals generated by <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[g]]></fr:tex>, which is true.</fr:p>
+  <fr:p>In the other direction, suppose <fr:tex
+display="inline"><![CDATA[R \cong  R_1 \times  R_2]]></fr:tex>, then <fr:tex
+display="inline"><![CDATA[D((1,0))]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[D((0,1))]]></fr:tex> separates the spectrum into two disjoint parts.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
