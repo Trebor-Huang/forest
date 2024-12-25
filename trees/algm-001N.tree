@@ -20,3 +20,7 @@
   \stopverb}
   In other words, a sieve is contained in #{J} iff its image under #{j} is also contained in #{J}. Unfolding this, a sieve #{S} is contained in #{J} iff the arrows #{g} such that #{g^* S} is contained in #{J} also form a sieve in #{J}. Looking at the definition of a [[algm-001A]], we see that they are equivalent, if we regard #{J} as picking out the covering sieves.
 }
+
+\p{
+  In the operator form #{j}, it takes in a sieve #{S} and outputs the sieve #{j(S)} consisting of all the subobjects #{S} can cover, or equivalently it outputs the largest sieve that covers the “same portion” of the object.
+}

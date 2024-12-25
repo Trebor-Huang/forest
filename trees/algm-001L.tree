@@ -7,3 +7,7 @@
 \p{
   Given a category #{\CatVar{C}}, a \strong{Lawvere–Tierney operator} is a morphism #{j : \Omega \to \Omega} where #{\Omega} is the subobject classifier, such that #{j} preserves finite intersections, and #{j \compose j = j}.
 }
+
+\p{
+  We can equivalently express it as an enriched monad on the propositions. This allows for a form more akin to functional programming: we have an operator #{j}, equipped with maps #{\eta : \forall (p : \Omega), p \to j(p)} and #{\beta : \forall (p, q : \Omega), j(p) \to (p \to j(q)) \to j(q)}. No laws are required since propositions have at most one element.
+}
