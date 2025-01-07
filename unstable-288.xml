@@ -7,18 +7,20 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2191</fr:anchor><fr:addr
-type="machine">#288</fr:addr><fr:route>unstable-288.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2166</fr:anchor><fr:addr
+type="machine">#288</fr:addr><fr:route>unstable-288.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000B</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex
-display="inline"><![CDATA[\bigcup _i D(f_i) = \top ]]></fr:tex>, then there is a finite union equal to <fr:tex
-display="inline"><![CDATA[\top ]]></fr:tex>. Algebraically this means <fr:tex
-display="inline"><![CDATA[\sqrt {\gcd \{f_i\}} = 1]]></fr:tex>, equivalently <fr:tex
-display="inline"><![CDATA[\gcd \{f_i\} = 1]]></fr:tex>. So we have a linear combination <fr:tex
-display="inline"><![CDATA[\sum _k a_k f_k = 1]]></fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000J</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We take a directed limit. The elements are from some <fr:tex
+display="inline"><![CDATA[R[f^{-1}]]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \nmid  f]]></fr:tex>, i.e. the elements can be written as <fr:tex
+display="inline"><![CDATA[g/f^n]]></fr:tex>. Two elements are equal iff their common restriction to some <fr:tex
+display="inline"><![CDATA[D(f)]]></fr:tex> is equal, i.e. <fr:tex
+display="inline"><![CDATA[g_1/f_1^n = g_2/f_2^m]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[(g_1 f_2^m - g_2 f_1^n) f^k = 0]]></fr:tex>. These are exactly the definition of the localization away from <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>.</fr:p>
 </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -34,22 +36,23 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2193</fr:anchor><fr:addr
-type="user">algm-000B</fr:addr><fr:route>algm-000B.xml</fr:route><fr:title
-text="A ring spectrum is quasi-compact">A <fr:link
-type="local"
-href="algm-0001.xml"
-addr="algm-0001"
-title="Topological spectrum of a commutative ring">ring spectrum</fr:link> is quasi-compact</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2168</fr:anchor><fr:addr
+type="user">algm-000J</fr:addr><fr:route>algm-000J.xml</fr:route><fr:title
+text="Stalk of the structure sheaf on {Spec}(R)">Stalk of the structure sheaf on <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The space <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> is always <fr:link
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a point <fr:tex
+display="inline"><![CDATA[\left [\mathfrak {p}\right ] \in  \operatorname {Spec}(R)]]></fr:tex>, the stalk at the point is the localization <fr:tex
+display="inline"><![CDATA[R_{\mathfrak {p}}]]></fr:tex>. In particular, the ring spectrum is a <fr:link
 type="local"
-href="algm-000A.xml"
-addr="algm-000A"
-title="Terminology of compactness in algebraic geometry">quasi-compact</fr:link>.</fr:p>
+href="algm-000L.xml"
+addr="algm-000L"
+title="Locally ringed space">locally ringed space</fr:link> by <fr:ref
+addr="algm-000N"
+href="algm-000N.xml"
+taxon="Theorem" />.</fr:p>
   
     
     <fr:tree
@@ -59,18 +62,20 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2167</fr:anchor><fr:addr
-type="machine">#288</fr:addr><fr:route>unstable-288.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2170</fr:anchor><fr:addr
+type="machine">#288</fr:addr><fr:route>unstable-288.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000B</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex
-display="inline"><![CDATA[\bigcup _i D(f_i) = \top ]]></fr:tex>, then there is a finite union equal to <fr:tex
-display="inline"><![CDATA[\top ]]></fr:tex>. Algebraically this means <fr:tex
-display="inline"><![CDATA[\sqrt {\gcd \{f_i\}} = 1]]></fr:tex>, equivalently <fr:tex
-display="inline"><![CDATA[\gcd \{f_i\} = 1]]></fr:tex>. So we have a linear combination <fr:tex
-display="inline"><![CDATA[\sum _k a_k f_k = 1]]></fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000J</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We take a directed limit. The elements are from some <fr:tex
+display="inline"><![CDATA[R[f^{-1}]]]></fr:tex> with <fr:tex
+display="inline"><![CDATA[\mathfrak {p} \nmid  f]]></fr:tex>, i.e. the elements can be written as <fr:tex
+display="inline"><![CDATA[g/f^n]]></fr:tex>. Two elements are equal iff their common restriction to some <fr:tex
+display="inline"><![CDATA[D(f)]]></fr:tex> is equal, i.e. <fr:tex
+display="inline"><![CDATA[g_1/f_1^n = g_2/f_2^m]]></fr:tex> iff <fr:tex
+display="inline"><![CDATA[(g_1 f_2^m - g_2 f_1^n) f^k = 0]]></fr:tex>. These are exactly the definition of the localization away from <fr:tex
+display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

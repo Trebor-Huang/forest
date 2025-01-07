@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>389</fr:anchor><fr:addr
+type="user">algm-0028</fr:addr><fr:route>algm-0028.xml</fr:route><fr:title
+text="Totally distributive category">Totally distributive category</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
+type="local"
+href="algm-0025.xml"
+addr="algm-0025"
+title="Total category">total category</fr:link>, if the left adjoint <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> has a further left adjoint, then it preserves all limits. Since <fr:tex
+display="inline"><![CDATA[L]]></fr:tex> is a kind of colimit operator, this condition is a strong version of complete distributivity. Therefore we call the category <fr:strong>totally distributive</fr:strong>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>391</fr:anchor><fr:addr
+type="user">algm-002B</fr:addr><fr:route>algm-002B.xml</fr:route><fr:title
+text="Presheaf category over a small category is totally distributive">Presheaf category over a small category is totally distributive</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A presheaf category over a small categroy <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is not only a <fr:link
+type="local"
+href="algm-0025.xml"
+addr="algm-0025"
+title="Total category">total category</fr:link>, as proven in <fr:ref
+addr="algm-002A"
+href="algm-002A.xml"
+taxon="Example" />, but also a <fr:link
+type="local"
+href="algm-0028.xml"
+addr="algm-0028"
+title="Totally distributive category">totally distributive category</fr:link>. This is because <fr:tex
+display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}^*]]></fr:tex> has a left adjoint <fr:tex
+display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}_!]]></fr:tex> a.k.a. the left Kan extension. We need to be careful because <fr:tex
+display="inline"><![CDATA[\mathsf {Psh}^2 (\mathcal {C})]]></fr:tex> is not locally small. The colimit formula for (pointwise) left Kan extensions is
+  <fr:tex
+display="block"><![CDATA[\operatorname {Lan}_{\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}} F(G) = \operatorname *{colim}_{p : \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X) \leftarrow  G} F(X)]]></fr:tex>
+  where <fr:tex
+display="inline"><![CDATA[F, G \in  \mathsf {Psh}(\mathcal {C})]]></fr:tex> and <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> ranges over <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>. (The reversal of arrow comes from the contravariance of presheaves.) This is still a small limit, so it is fine.</fr:p><fr:p>For the special case of <fr:tex
+display="inline"><![CDATA[\mathcal {C} = 1]]></fr:tex>, <fr:tex
+display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}^* : \mathsf {Psh}(\mathsf {Set}) \to  \mathsf {Set}]]></fr:tex> evaluates at <fr:tex
+display="inline"><![CDATA[1]]></fr:tex>. We get
+  <fr:tex
+display="block"><![CDATA[\operatorname {Lan}_{1} F(G) = \operatorname *{colim}_{1 \leftarrow  G} F = F]]></fr:tex>
+  where <fr:tex
+display="inline"><![CDATA[F, G]]></fr:tex> are sets. So the left adjoint is the constant functor functor <fr:tex
+display="inline"><![CDATA[\Delta ]]></fr:tex>, such that <fr:tex
+display="inline"><![CDATA[\Delta (X)(Y) = X]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>393</fr:anchor><fr:addr
+type="user">algm-0025</fr:addr><fr:route>algm-0025.xml</fr:route><fr:title
+text="Total category">Total category</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a locally small category <fr:tex
+display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, if the Yoneda embedding <fr:tex
+display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} : \mathcal {C} \to  \mathsf {Psh}(\mathcal {C})]]></fr:tex> has a left adjoint <fr:tex
+display="inline"><![CDATA[L]]></fr:tex>, then we say teh category is <fr:strong>total</fr:strong>, or <fr:strong>totally cocomplete</fr:strong>. This is equivalent to requiring the colimit of <fr:tex
+display="inline"><![CDATA[\pi _F : \int  F \to  \mathcal {C}]]></fr:tex> to exist for every presheaf <fr:tex
+display="inline"><![CDATA[F]]></fr:tex>, which is the value of <fr:tex
+display="inline"><![CDATA[L(F)]]></fr:tex>. Notice that <fr:tex
+display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> being fully faithful implies the counit <fr:tex
+display="inline"><![CDATA[L(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)) \to  A]]></fr:tex> is an isomorphism.</fr:p>
+  
+    
+    <fr:tree
+toc="false"
+numbered="true"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>315</fr:anchor><fr:addr
+type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
+type="local"
+href="trebor.xml"
+addr="trebor"
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0025</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>The universal property of the colimit says <fr:tex
+display="block"><![CDATA[\hom (\operatorname *{colim} \pi _F, X) \cong  \lim _{(Y, p)} \hom (Y, X).]]></fr:tex>
+    Using the characterization of limits in <fr:tex
+display="inline"><![CDATA[\mathsf {Set}]]></fr:tex>, an element in this set maps <fr:tex
+display="inline"><![CDATA[F(Y)]]></fr:tex> to <fr:tex
+display="inline"><![CDATA[\hom (Y, X)]]></fr:tex> for each <fr:tex
+display="inline"><![CDATA[Y]]></fr:tex> naturally, which is exactly <fr:tex
+display="inline"><![CDATA[\hom (F, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X))]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
