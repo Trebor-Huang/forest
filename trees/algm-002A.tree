@@ -1,0 +1,20 @@
+\date{2025-01-07}
+\title{presheaf category over a small category is total}
+\author{trebor}
+\import{common}
+\taxon{example}
+
+\p{
+  Given a small category #{\CatVar{C}}, the locally small category #{\Cat{Psh}(\CatVar{C})} is a [[algm-0025]]. In fact, the left adjoint to #{\yo : \Cat{Psh}(\CatVar{C}) \to \Cat{Psh}^2(\CatVar{C})} is given by #{\yo^*}, i.e. the map that sends the double presheaf #{R} to the presheaf #{X \mapsto R(\yo(X))}.
+}
+
+\p{
+  To see this, we compute #{\hom_{\Cat{Psh}(\CatVar{C})}(\yo^* R, F)} to be the set of natural transforms that assign an arrow #{R(\yo(X)) \to F(X)} for every object #{X}. On the other hand, #{\hom_{\Cat{Psh}^2(\CatVar{C})}(R, \yo F)} assigns an arrow #{R(G) \to \hom(G, F)} for every presheaf #{G}. The latter obviously have a map to the former, and we need to prove that any map in the former uniquely extends to the latter. #{G} is a colimit of representables, so we can decompose #{\hom(G, F)} into a limit of #{F(X)}. The naturality requirement then forces a unique value for each component.
+}
+
+\p{
+  In particular, if #{\CatVar{C} = 0}, we get a left adjoint for the yoneda embedding ##{\yo : \Cat{Psh}(0) = 1 \to \Cat{Psh}(1) = \Cat{Set}.}
+  In this case #{\yo} is essentially picking out the terminal object, and #{\yo^*} is the unique functor. We can also take #{\CatVar{C} = 1}, then
+  ##{\yo : \Cat{Set} \to \Cat{Psh}(\Cat{Set}),}
+  and the left adjoint is #{F \mapsto F(1)}, evaluating the presheaf at the singleton set. It is also possible to calculate this directly via the colimit characterization of total cocompleteness.
+}

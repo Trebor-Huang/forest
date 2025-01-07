@@ -1,0 +1,23 @@
+\date{2025-01-06}
+\title{a total category is cocomplete and complete}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  A [[algm-0025]] is (small) cocomplete and complete. This shows totality is a strong form of cocompleteness, strong enough to behave like cocompleteness in posets, which also guarantees completeness.
+}
+
+\proof{
+  \p{
+    Using the colimit characterization of totality, given a small diagram #{D : I \to \CatVar{C}}, we can attempt to construct a presheaf #{F} assigning #{F(X)} the set of all objects in #{I} mapped to #{X}, and require that #{F(f)} sends the object #{i \in I} to #{j \in I} if there is an arrow in the colimit diagram going from #{j} to #{i} that is mapped to #{f} (multiple of the same arrow appearing in the colimit diagram doesn’t matter). But this leaves many functoriality requirements unsatisfied, so we freely add elements to #{F} for them. This will create additional arrows in the corresponding colimit diagram that end at existing objects, so the colimit is still unaffected.
+  }
+
+  \p{
+    It is nice to have a more uniform description of this. If we have a single object #{A} in the diagram, then the resulting presheaf will be exactly #{\yo(A)}. For a general diagram, we need a colimit to glue all the #{\yo(A)}’s together, and it’s not hard to see the required colimit is exactly #{\colim \yo \compose D}, where #{D} is the diagram functor.
+  }
+
+  \p{
+    For completeness, we use the same technique in proving cocomplete posets are complete: we can define #{\sup U} as #{\inf \{x \mid x \ge U\}}. In the same spirit, given a diagram #{U : I \to \CatVar{C}}, we consider a locally small category whose objects are #{(X, F)} where #{X \in \CatVar{C}} and #{F : \operatorname{const}(X) \to U}, and the morphisms are obvious. This is equivalently the comma category #{\operatorname{const} \downarrow U}. The limit is then the same as the colimit of the functor #{(X, F) \mapsto X}. But this functor can be constructed as #{\pi_G : \int G \to \CatVar{C}} for some presheaf #{G}, namely #{G(Y) = \hom(\operatorname{const}(Y), U)}. Therefore the argument goes through despite involving large colimits.
+  }
+}

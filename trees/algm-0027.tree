@@ -1,0 +1,32 @@
+\date{2025-01-06}
+\title{cartesian closed total category}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  A [[algm-0025]] is cartesian closed iff the left adjoint #{L} preserves binary products.
+}
+
+\proof{
+  \p{
+    If the total category #{\CatVar{C}} is cartesian closed, then
+    ##{\hom(F, \yo(A^B)) = \hom(L(F), A^B) = \hom(L(F) \times B, A).}
+    On the other hand, #{\yo} preserves exponentials, and therefore
+    ##{\begin{aligned}
+      \hom(F, \yo(A^B)) &= \hom(F, \yo(A)^{\yo(B)}) \\
+      &= \hom(F \times \yo(B), \yo(A)) \\
+      &= \hom(L(F \times \yo(B)), A).
+    \end{aligned}}
+    Hence we need the canonical map
+    ##{L(F \times \yo(B)) \to L(F) \times L(\yo(B)) \to L(F) \times B}
+    to be an isomorphism. But the counit #{L(\yo(B)) \to B} is already an isomorphism since #{\yo} is a fully faithful right adjoint. Therefore this happens iff #{L(F \times G) \to L(F) \times L(G)} is an isomorphism for all representable presheaves #{G}. Now presheaves are (large) colimits of representables, and being left adjoints, both #{L} and binary products preserve all colimits whatsoever. So we can extend this to all presheaves #{G}.
+  }
+
+  \p{
+    On the other hand, if #{L} preserves binary products, then #{(A \times -)} must be cocontinuous: Every small colimit diagram #{D : I \to \CatVar{C}} can be [equivalently represented](algm-0026) as a presheaf #{F = \colim_{i \in I} \yo D(i)} with colimit #{L(F)}. The presheaf for the product diagram #{A \times D(i)} is #{\colim_{i \in I} \yo(A \times D(i))}, which is equivalent to #{F \times \yo(A)}, since #{\yo} preserves product and product is cocontinuous in presheaves.
+    (A naive way to construct the presheaf for the product diagram is #{F \compose (A \times -)}, but this doesn’t quite work because of contravariance.)
+    We have #{L(F \times \yo(A)) = L(F) \times A}, showing cocontinuity.
+    Therefore by the [[algm-0029]], we know exponentials must exist.
+  }
+}

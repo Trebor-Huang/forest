@@ -1,0 +1,16 @@
+\date{2025-01-06}
+\title{total category}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  Given a locally small category #{\CatVar{C}}, if the Yoneda embedding #{\yo : \CatVar{C} \to \Cat{Psh}(\CatVar{C})} has a left adjoint #{L}, then we say teh category is \strong{total}, or \strong{totally cocomplete}. This is equivalent to requiring the colimit of #{\pi_F : \int F \to \CatVar{C}} to exist for every presheaf #{F}, which is the value of #{L(F)}. Notice that #{\yo} being fully faithful implies the counit #{L(\yo(A)) \to A} is an isomorphism.
+}
+
+\proof{
+  \p{
+    The universal property of the colimit says ##{\hom(\colim \pi_F, X) \cong \lim_{(Y, p)} \hom(Y, X).}
+    Using the characterization of limits in #{\Cat{Set}}, an element in this set maps #{F(Y)} to #{\hom(Y, X)} for each #{Y} naturally, which is exactly #{\hom(F, \yo(X))}.
+  }
+}
