@@ -1,0 +1,17 @@
+\date{2025-01-08}
+\title{Presheaf category over a small category is totally distributive}
+\author{trebor}
+\import{common}
+\taxon{example}
+
+\p{
+  A presheaf category over a small categroy #{\CatVar{C}} is not only a [[algm-0025]], as proven in \ref{algm-002A}, but also a [[algm-0028]]. This is because #{\yo^*} has a left adjoint #{\yo_!} a.k.a. the left Kan extension. We need to be careful because #{\Cat{Psh}^2 (\CatVar{C})} is not locally small. The colimit formula for (pointwise) left Kan extensions is
+  ##{\operatorname{Lan}_{\yo} F(G) = \colim_{p : \yo(X) \leftarrow G} F(X)}
+  where #{F, G \in \Cat{Psh}(\CatVar{C})} and #{X} ranges over #{\CatVar{C}}. (The reversal of arrow comes from the contravariance of presheaves.) This is still a small limit, so it is fine.
+}
+
+\p{
+  For the special case of #{\CatVar{C} = 1}, #{\yo^* : \Cat{Psh}(\Cat{Set}) \to \Cat{Set}} evaluates at #{1}. We get
+  ##{\operatorname{Lan}_{1} F(G) = \colim_{1 \leftarrow G} F = F}
+  where #{F, G} are sets. So the left adjoint is the constant functor functor #{\Delta}, such that #{\Delta(X)(Y) = X}.
+}

@@ -1,0 +1,16 @@
+\date{2025-01-08}
+\title{adjoint chain over #{\Cat{Set}}}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  The yoneda embedding #{\Cat{Set} \to \Cat{Psh}(\Cat{Set})} has a chain of four left adjoints ##{K\dashv\operatorname{ev}_0\dashv\Delta\dashv\operatorname{ev}_1\dashv\yo}
+  where #{K(X)(Y) = X \times \hom(Y, 0)}.
+}
+
+\proof{
+  \p{
+    The first three functors appear in \ref{algm-002A} and \ref{algm-002B}. The next adjoint #{\operatorname{ev}_0\dashv\Delta} is dual to #{\Delta\dashv\operatorname{ev}_1}, and it is also not hard to see manually. Finally, a natural transform #{K(X) \to F} consists of a single map #{X \to F(0)}, since all the other components are empty functions, hence trivial.
+  }
+}
