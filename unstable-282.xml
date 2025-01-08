@@ -7,28 +7,20 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1955</fr:anchor><fr:addr
-type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2091</fr:anchor><fr:addr
+type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0014</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>We need to give a natural bijection
-    <fr:tex
-display="block"><![CDATA[\hom (X, \operatorname {Spec}(R)) \cong  \hom (R, \Gamma (\top , \mathscr {O}_X)).]]></fr:tex>
-    In other words, maps <fr:tex
-display="inline"><![CDATA[X \to  \operatorname {Spec}(R)]]></fr:tex> between locally ringed spaces are uniquely specified by the action of global sections.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Note that the stalk <fr:tex
+display="inline"><![CDATA[(\varphi ^{-1}\mathscr {O}_{Y})_x = \mathscr {O}_{Y, \varphi (x)}]]></fr:tex>. A germ being invertible implies for some neighborhood <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, it comes from an invertible section <fr:tex
+display="inline"><![CDATA[f \in  \Gamma (U, \varphi ^{-1}\mathscr {O}_Y)]]></fr:tex>, so the image in <fr:tex
+display="inline"><![CDATA[\Gamma (U, \mathscr {O}_X)]]></fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.</fr:p>
 
-  <fr:p>Since <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is glued from affine open subschemes, a map from <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is equivalent to a map from each open subscheme <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(S_i)]]></fr:tex> that agree on common restrictions (which again can be checked on an affine covering). Since the codomain is affine, these maps are equivalently ring homomorphisms <fr:tex
-display="inline"><![CDATA[R \to  S_i]]></fr:tex> by <fr:ref
-addr="algm-000X"
-href="algm-000X.xml"
-taxon="Theorem" />. The elements of <fr:tex
-display="inline"><![CDATA[\Gamma (\top , \mathscr {O}_X)]]></fr:tex> are also given by a set of compatible elements from <fr:tex
-display="inline"><![CDATA[S_i]]></fr:tex>. Hence these two sets are naturally bijective.</fr:p>
+  <fr:p>On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.</fr:p>
 </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -44,24 +36,28 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1957</fr:anchor><fr:addr
-type="user">algm-0014</fr:addr><fr:route>algm-0014.xml</fr:route><fr:title
-text="Adjunction of global section and {Spec}">Adjunction of global section and <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex></fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2093</fr:anchor><fr:addr
+type="user">algm-000W</fr:addr><fr:route>algm-000W.xml</fr:route><fr:title
+text="Action of morphisms on stalks of locally ringed spaces">Action of morphisms on stalks of locally ringed spaces</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We have an adjunction of functors <fr:tex
-display="block"><![CDATA[\mathsf {CRing}^\textrm {op} \xtofrom [\Gamma (\top , \mathscr {O}_{(-)})]{\operatorname {Spec}} \mathsf {Sch},]]></fr:tex> with <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> being the right adjoint (or <fr:tex
-display="inline"><![CDATA[\operatorname {Spec} : \mathsf {CRing} \to  \mathsf {Sch}^\textrm {op}]]></fr:tex> being the left adjoint). In fact, we can replace <fr:tex
-display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> with the category of <fr:link
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
 type="local"
-href="algm-000L.xml"
-addr="algm-000L"
-title="Locally ringed space">locally ringed spaces</fr:link> <fr:tex
-display="inline"><![CDATA[\mathsf {LRS}]]></fr:tex>, of whom <fr:tex
-display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> is a full subcategory.</fr:p>
+href="algm-000S.xml"
+addr="algm-000S"
+title="Morphism of ringed spaces">morphism of ringed spaces</fr:link> <fr:tex
+display="inline"><![CDATA[\varphi  : X \to  Y]]></fr:tex>, if it is <fr:link
+type="local"
+href="algm-000U.xml"
+addr="algm-000U"
+title="Morphism of locally ringed spaces">local</fr:link>, a germ is invertible iff its <fr:link
+type="local"
+href="algm-000V.xml"
+addr="algm-000V"
+title="Terminology of pullbacks">pullback</fr:link> under <fr:tex
+display="inline"><![CDATA[\varphi ]]></fr:tex> is invertible. If the space <fr:tex
+display="inline"><![CDATA[X]]></fr:tex> has enough points, then the inverse implication is also true.</fr:p>
   
     
     <fr:tree
@@ -71,28 +67,20 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>776</fr:anchor><fr:addr
-type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2095</fr:anchor><fr:addr
+type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0014</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>We need to give a natural bijection
-    <fr:tex
-display="block"><![CDATA[\hom (X, \operatorname {Spec}(R)) \cong  \hom (R, \Gamma (\top , \mathscr {O}_X)).]]></fr:tex>
-    In other words, maps <fr:tex
-display="inline"><![CDATA[X \to  \operatorname {Spec}(R)]]></fr:tex> between locally ringed spaces are uniquely specified by the action of global sections.</fr:p>
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000W</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>Note that the stalk <fr:tex
+display="inline"><![CDATA[(\varphi ^{-1}\mathscr {O}_{Y})_x = \mathscr {O}_{Y, \varphi (x)}]]></fr:tex>. A germ being invertible implies for some neighborhood <fr:tex
+display="inline"><![CDATA[U]]></fr:tex> of <fr:tex
+display="inline"><![CDATA[x]]></fr:tex>, it comes from an invertible section <fr:tex
+display="inline"><![CDATA[f \in  \Gamma (U, \varphi ^{-1}\mathscr {O}_Y)]]></fr:tex>, so the image in <fr:tex
+display="inline"><![CDATA[\Gamma (U, \mathscr {O}_X)]]></fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.</fr:p>
 
-  <fr:p>Since <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is glued from affine open subschemes, a map from <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is equivalent to a map from each open subscheme <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(S_i)]]></fr:tex> that agree on common restrictions (which again can be checked on an affine covering). Since the codomain is affine, these maps are equivalently ring homomorphisms <fr:tex
-display="inline"><![CDATA[R \to  S_i]]></fr:tex> by <fr:ref
-addr="algm-000X"
-href="algm-000X.xml"
-taxon="Theorem" />. The elements of <fr:tex
-display="inline"><![CDATA[\Gamma (\top , \mathscr {O}_X)]]></fr:tex> are also given by a set of compatible elements from <fr:tex
-display="inline"><![CDATA[S_i]]></fr:tex>. Hence these two sets are naturally bijective.</fr:p>
+  <fr:p>On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

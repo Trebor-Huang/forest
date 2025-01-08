@@ -7,84 +7,74 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2049</fr:anchor><fr:addr
-type="machine">#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2266</fr:anchor><fr:addr
+type="machine">#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Given two rings <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, a ring homomorphism <fr:tex
-display="inline"><![CDATA[\varphi  : S \to  R]]></fr:tex> naturally induces a map of <fr:link
-type="local"
-href="algm-0004.xml"
-addr="algm-0004"
-title="Distinguished opens of {Spec}(R)">distinguished opens</fr:link> <fr:tex
-display="inline"><![CDATA[f \mapsto  \varphi (f)]]></fr:tex>. This is a continuous map <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R) \to  \operatorname {Spec}(S)]]></fr:tex>, because <fr:tex
-display="inline"><![CDATA[\varphi ]]></fr:tex> preserves <fr:tex
-display="inline"><![CDATA[\operatorname {lcm}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\gcd ]]></fr:tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <fr:tex
-display="inline"><![CDATA[\Gamma (D(s), \mathscr {O}_{\operatorname {Spec}(S)}) \to  \Gamma (D(r), \mathscr {O}_{\operatorname {Spec}(R)})]]></fr:tex> whenever <fr:tex
-display="inline"><![CDATA[D(r) \subseteq  \varphi ^{-1}D(s) = D(\varphi (s))]]></fr:tex>. This is just a homomorphism <fr:tex
-display="inline"><![CDATA[S[s^{-1}] \to  R[r^{-1}]]]></fr:tex>, which is obvious because <fr:tex
-display="inline"><![CDATA[\varphi (s)]]></fr:tex> must be invertible in <fr:tex
-display="inline"><![CDATA[R[r^{-1}]]]></fr:tex>.</fr:p>
-
-  <fr:p>We need to prove our map is <fr:link
-type="local"
-href="algm-000U.xml"
-addr="algm-000U"
-title="Morphism of locally ringed spaces">local</fr:link>. Using the <fr:link
-type="local"
-href="algm-000W.xml"
-addr="algm-000W"
-title="Action of morphisms on stalks of locally ringed spaces">characterization on stalks</fr:link>, we just need to verify that <fr:tex
-display="inline"><![CDATA[S_{\varphi ^{-1}(\mathfrak {p})} \to  R_{\mathfrak {p}}]]></fr:tex> reflects invertibility. This is true by construction. Hence we have a map <fr:tex
-display="inline"><![CDATA[\hom _{\mathsf {CRing}}(S, R) \to  \hom _{\mathsf {Sch}}(\operatorname {Spec}(R), \operatorname {Spec}(S))]]></fr:tex>.</fr:p>
-
-  <fr:p>In the reverse direction, given a morphism <fr:tex
-display="inline"><![CDATA[\varphi  : \operatorname {Spec}(R) \to  \operatorname {Spec}(S)]]></fr:tex>, we can extract a ring homomorphism by looking at the global sections
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000I</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex
+display="inline"><![CDATA[f_i \in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\bigcup _i D(f_i) = D(f)]]></fr:tex>, we need to show that
     <fr:tex
-display="block"><![CDATA[S \cong  \Gamma (\top , \varphi ^{-1}\mathscr {O}_{\operatorname {Spec}(S)}) \to  \Gamma (\top , \mathscr {O}_{\operatorname {Spec}(R)}) \cong  R.]]></fr:tex>
-    We obviously have going from <fr:tex
-display="inline"><![CDATA[\mathsf {CRing}]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
-
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="c53e81307d06912948fdb79b10c12ad6"><fr:embedded-tex-preamble><![CDATA[
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-      \begin {tikzcd}
-      S & R \\
-      {S_{\mathfrak {q}}} & {R_{\mathfrak {p}}}
-      \arrow [from=1-1, to=1-2]
-      \arrow [from=2-1, to=2-2]
-      \arrow [two heads, from=1-1, to=2-1]
-      \arrow [two heads, from=1-2, to=2-2]
-    \end {tikzcd}
-    ]]></fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-
+display="block"><![CDATA[R[f^{-1}] \to  \prod _{i \in  I} R[f_i^{-1}] \rightrightarrows  \prod _{i \ne  j} R[(f_i f_j)^{-1}]]]></fr:tex>
+    is an equalizer. Notice that <fr:tex
+display="inline"><![CDATA[R[f_i^{-1}] \cong  R[f^{-1}][f_i^{-1}]]]></fr:tex>. So we may reassign <fr:tex
+display="inline"><![CDATA[S = R[f^{-1}]]]></fr:tex>. This simplifies the problem to
+    <fr:tex
+display="block"><![CDATA[S \to  \prod _{i \in  I} S[f_i^{-1}] \rightrightarrows  \prod _{i \ne  j} S[(f_i f_j)^{-1}],]]></fr:tex>
     where <fr:tex
-display="inline"><![CDATA[\left [\mathfrak {q}\right ]]]></fr:tex> is the image of the point <fr:tex
-display="inline"><![CDATA[\left [\mathfrak {p}\right ]]]></fr:tex> under the underlying continuous map of <fr:tex
-display="inline"><![CDATA[\varphi ]]></fr:tex>. This fixes the action of <fr:tex
-display="inline"><![CDATA[\varphi ]]></fr:tex> on the stalks. Furthermore, the <fr:link
+display="inline"><![CDATA[D(f_i)]]></fr:tex> covers the whole space <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex>.</fr:p>
+
+  <fr:p>We first describe the intuition. Since we know <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex> is <fr:link
 type="local"
-href="algm-000W.xml"
-addr="algm-000W"
-title="Action of morphisms on stalks of locally ringed spaces">locality</fr:link> implies the preimage of <fr:tex
-display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> under the ring homomorphism divides <fr:tex
-display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and since <fr:tex
-display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> is maximal in the local ring <fr:tex
-display="inline"><![CDATA[S_{\mathfrak {q}}]]></fr:tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.</fr:p>
+href="algm-000B.xml"
+addr="algm-000B"
+title="A ring spectrum is quasi-compact">quasi-compact</fr:link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <fr:tex
+display="inline"><![CDATA[g_i/f_i^{d_i} \in  S[f_i^{-1}]]]></fr:tex> that are equal in their common domain. Since <fr:tex
+display="inline"><![CDATA[D(f_i) = D(f_i^{d_i})]]></fr:tex> covers <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex>, we have a linear combination <fr:tex
+display="inline"><![CDATA[1 = \sum _i c_i f_i^{d_i}]]></fr:tex>, which is akin to a partition of unity. Suppose the putative gluing is <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>, multiplying with the partition of unity we get
+    <fr:tex
+display="block"><![CDATA[\begin {aligned}       f &= \sum _{i \in  I} c_i f_i^{d_i} f \\       &= \sum  c_i f_i^{d_i} \frac {g_i}{f_i^{d_i}} \\       &= \sum  c_i g_i.     \end {aligned}]]></fr:tex>
+    which defines the gluing. We just have to make this reasoning precise. We first deal with the finite case.</fr:p>
+
+  <fr:p>Suppose there are elements <fr:tex
+display="inline"><![CDATA[g_i/f_i^d \in  S[f_i^{-1}]]]></fr:tex>, where we are allowed to use a single exponent <fr:tex
+display="inline"><![CDATA[d]]></fr:tex> by finiteness. The compatibility requirement is <fr:tex
+display="block"><![CDATA[(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.]]></fr:tex> If there is a solution <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> to the gluing problem, it would need to satisfy <fr:tex
+display="inline"><![CDATA[(f f_i^d - g_i) f_i^M = 0]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[D(f_i) = D(f_i^R)]]></fr:tex> covers <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex>, we have a linear combination <fr:tex
+display="inline"><![CDATA[1 = \sum _i c_i f_i^R]]></fr:tex> for large enough <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Hence
+    <fr:tex
+display="block"><![CDATA[f = \sum _{i \in  I} c_i f f_i^R = \sum  c_i g_i f_i^{R-d}.]]></fr:tex> This uniquely determines <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>. And indeed, this solution satisfies our requirements, because when restricted to <fr:tex
+display="inline"><![CDATA[D(f_j)]]></fr:tex>, we have
+    <fr:tex
+display="block"><![CDATA[\begin {aligned}       f f_j^d \cdot  f_j^R &= \sum  c_i g_i f_i^{R-d} f_j^{R+d} \\       &= \sum  c_i g_j f_i^{R} f_j^{R} \\       &= g_j f_j^R \cdot  \sum  c_i f_i^R = g_j f_j^R.     \end {aligned}]]></fr:tex>
+    This reasoning is valid as long as <fr:tex
+display="inline"><![CDATA[R > N + 2d]]></fr:tex>.</fr:p>
+
+  <fr:p>If there are infinitely many opens, we first use <fr:link
+type="local"
+href="algm-000B.xml"
+addr="algm-000B"
+title="A ring spectrum is quasi-compact">quasi-compactness</fr:link> to select a finite number <fr:tex
+display="inline"><![CDATA[D(f_1), \dots , D(f_k)]]></fr:tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[D(f_1), \dots , D(f_k)]]></fr:tex>. Then consider the solution on <fr:tex
+display="inline"><![CDATA[D(f_1), \dots , D(f_k), D(g)]]></fr:tex> for every <fr:tex
+display="inline"><![CDATA[g]]></fr:tex>. This solution must be equal to <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> by uniqueness. Therefore <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> restrict to the correct function on each <fr:tex
+display="inline"><![CDATA[D(g)]]></fr:tex>, showing that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is the required solution.</fr:p>
 </fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
@@ -100,22 +90,27 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2051</fr:anchor><fr:addr
-type="user">algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title
-text="Morphisms of affine schemes">Morphisms of affine schemes</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2268</fr:anchor><fr:addr
+type="user">algm-000I</fr:addr><fr:route>algm-000I.xml</fr:route><fr:title
+text="Structure sheaf of a ring spectrum">Structure sheaf of a ring spectrum</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
+title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a commutative ring <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>, we define a sheaf <fr:tex
+display="inline"><![CDATA[\mathscr {O}]]></fr:tex> of rings on <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> called the <fr:strong>structure sheaf</fr:strong>. Let <fr:tex
+display="inline"><![CDATA[\Gamma (D(f), \mathscr {O}) = R[f^{-1}]]]></fr:tex>. Suppose <fr:tex
+display="inline"><![CDATA[D(f) \subseteq  D(g)]]></fr:tex> we define the restriction morphism to be the localization map <fr:tex
+display="inline"><![CDATA[R[g^{-1}] \to  R[f^{-1}]]]></fr:tex>, since by <fr:ref
+addr="algm-0002"
+href="algm-0002.xml"
+taxon="Theorem" /> the latter is a further localization of the former. This turns <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> into a <fr:link
 type="local"
-href="algm-000U.xml"
-addr="algm-000U"
-title="Morphism of locally ringed spaces">Morphism</fr:link> of <fr:link
-type="local"
-href="algm-000Q.xml"
-addr="algm-000Q"
-title="Affine scheme">affine schemes</fr:link> are in natural bijection with ring homomorphisms in the opposite direction. In other words, there is a fully faithful embedding <fr:tex
-display="inline"><![CDATA[\mathsf {CRing}^\textrm {op} \to  \mathsf {Sch}]]></fr:tex>.</fr:p>
+href="algm-000M.xml"
+addr="algm-000M"
+title="Ringed space">ringed space</fr:link>.</fr:p>
   
     
     <fr:tree
@@ -125,84 +120,74 @@ show-heading="true"
 show-metadata="false"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1038</fr:anchor><fr:addr
-type="machine">#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2037</fr:anchor><fr:addr
+type="machine">#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
 type="local"
 href="trebor.xml"
 addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Given two rings <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, a ring homomorphism <fr:tex
-display="inline"><![CDATA[\varphi  : S \to  R]]></fr:tex> naturally induces a map of <fr:link
-type="local"
-href="algm-0004.xml"
-addr="algm-0004"
-title="Distinguished opens of {Spec}(R)">distinguished opens</fr:link> <fr:tex
-display="inline"><![CDATA[f \mapsto  \varphi (f)]]></fr:tex>. This is a continuous map <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R) \to  \operatorname {Spec}(S)]]></fr:tex>, because <fr:tex
-display="inline"><![CDATA[\varphi ]]></fr:tex> preserves <fr:tex
-display="inline"><![CDATA[\operatorname {lcm}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\gcd ]]></fr:tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <fr:tex
-display="inline"><![CDATA[\Gamma (D(s), \mathscr {O}_{\operatorname {Spec}(S)}) \to  \Gamma (D(r), \mathscr {O}_{\operatorname {Spec}(R)})]]></fr:tex> whenever <fr:tex
-display="inline"><![CDATA[D(r) \subseteq  \varphi ^{-1}D(s) = D(\varphi (s))]]></fr:tex>. This is just a homomorphism <fr:tex
-display="inline"><![CDATA[S[s^{-1}] \to  R[r^{-1}]]]></fr:tex>, which is obvious because <fr:tex
-display="inline"><![CDATA[\varphi (s)]]></fr:tex> must be invertible in <fr:tex
-display="inline"><![CDATA[R[r^{-1}]]]></fr:tex>.</fr:p>
-
-  <fr:p>We need to prove our map is <fr:link
-type="local"
-href="algm-000U.xml"
-addr="algm-000U"
-title="Morphism of locally ringed spaces">local</fr:link>. Using the <fr:link
-type="local"
-href="algm-000W.xml"
-addr="algm-000W"
-title="Action of morphisms on stalks of locally ringed spaces">characterization on stalks</fr:link>, we just need to verify that <fr:tex
-display="inline"><![CDATA[S_{\varphi ^{-1}(\mathfrak {p})} \to  R_{\mathfrak {p}}]]></fr:tex> reflects invertibility. This is true by construction. Hence we have a map <fr:tex
-display="inline"><![CDATA[\hom _{\mathsf {CRing}}(S, R) \to  \hom _{\mathsf {Sch}}(\operatorname {Spec}(R), \operatorname {Spec}(S))]]></fr:tex>.</fr:p>
-
-  <fr:p>In the reverse direction, given a morphism <fr:tex
-display="inline"><![CDATA[\varphi  : \operatorname {Spec}(R) \to  \operatorname {Spec}(S)]]></fr:tex>, we can extract a ring homomorphism by looking at the global sections
+title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000I</fr:parent></fr:frontmatter><fr:mainmatter>
+  <fr:p>We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex
+display="inline"><![CDATA[f_i \in  R]]></fr:tex> such that <fr:tex
+display="inline"><![CDATA[\bigcup _i D(f_i) = D(f)]]></fr:tex>, we need to show that
     <fr:tex
-display="block"><![CDATA[S \cong  \Gamma (\top , \varphi ^{-1}\mathscr {O}_{\operatorname {Spec}(S)}) \to  \Gamma (\top , \mathscr {O}_{\operatorname {Spec}(R)}) \cong  R.]]></fr:tex>
-    We obviously have going from <fr:tex
-display="inline"><![CDATA[\mathsf {CRing}]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
-
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="c53e81307d06912948fdb79b10c12ad6"><fr:embedded-tex-preamble><![CDATA[
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-      \begin {tikzcd}
-      S & R \\
-      {S_{\mathfrak {q}}} & {R_{\mathfrak {p}}}
-      \arrow [from=1-1, to=1-2]
-      \arrow [from=2-1, to=2-2]
-      \arrow [two heads, from=1-1, to=2-1]
-      \arrow [two heads, from=1-2, to=2-2]
-    \end {tikzcd}
-    ]]></fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-
+display="block"><![CDATA[R[f^{-1}] \to  \prod _{i \in  I} R[f_i^{-1}] \rightrightarrows  \prod _{i \ne  j} R[(f_i f_j)^{-1}]]]></fr:tex>
+    is an equalizer. Notice that <fr:tex
+display="inline"><![CDATA[R[f_i^{-1}] \cong  R[f^{-1}][f_i^{-1}]]]></fr:tex>. So we may reassign <fr:tex
+display="inline"><![CDATA[S = R[f^{-1}]]]></fr:tex>. This simplifies the problem to
+    <fr:tex
+display="block"><![CDATA[S \to  \prod _{i \in  I} S[f_i^{-1}] \rightrightarrows  \prod _{i \ne  j} S[(f_i f_j)^{-1}],]]></fr:tex>
     where <fr:tex
-display="inline"><![CDATA[\left [\mathfrak {q}\right ]]]></fr:tex> is the image of the point <fr:tex
-display="inline"><![CDATA[\left [\mathfrak {p}\right ]]]></fr:tex> under the underlying continuous map of <fr:tex
-display="inline"><![CDATA[\varphi ]]></fr:tex>. This fixes the action of <fr:tex
-display="inline"><![CDATA[\varphi ]]></fr:tex> on the stalks. Furthermore, the <fr:link
+display="inline"><![CDATA[D(f_i)]]></fr:tex> covers the whole space <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex>.</fr:p>
+
+  <fr:p>We first describe the intuition. Since we know <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex> is <fr:link
 type="local"
-href="algm-000W.xml"
-addr="algm-000W"
-title="Action of morphisms on stalks of locally ringed spaces">locality</fr:link> implies the preimage of <fr:tex
-display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> under the ring homomorphism divides <fr:tex
-display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and since <fr:tex
-display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> is maximal in the local ring <fr:tex
-display="inline"><![CDATA[S_{\mathfrak {q}}]]></fr:tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.</fr:p>
+href="algm-000B.xml"
+addr="algm-000B"
+title="A ring spectrum is quasi-compact">quasi-compact</fr:link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <fr:tex
+display="inline"><![CDATA[g_i/f_i^{d_i} \in  S[f_i^{-1}]]]></fr:tex> that are equal in their common domain. Since <fr:tex
+display="inline"><![CDATA[D(f_i) = D(f_i^{d_i})]]></fr:tex> covers <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex>, we have a linear combination <fr:tex
+display="inline"><![CDATA[1 = \sum _i c_i f_i^{d_i}]]></fr:tex>, which is akin to a partition of unity. Suppose the putative gluing is <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>, multiplying with the partition of unity we get
+    <fr:tex
+display="block"><![CDATA[\begin {aligned}       f &= \sum _{i \in  I} c_i f_i^{d_i} f \\       &= \sum  c_i f_i^{d_i} \frac {g_i}{f_i^{d_i}} \\       &= \sum  c_i g_i.     \end {aligned}]]></fr:tex>
+    which defines the gluing. We just have to make this reasoning precise. We first deal with the finite case.</fr:p>
+
+  <fr:p>Suppose there are elements <fr:tex
+display="inline"><![CDATA[g_i/f_i^d \in  S[f_i^{-1}]]]></fr:tex>, where we are allowed to use a single exponent <fr:tex
+display="inline"><![CDATA[d]]></fr:tex> by finiteness. The compatibility requirement is <fr:tex
+display="block"><![CDATA[(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.]]></fr:tex> If there is a solution <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> to the gluing problem, it would need to satisfy <fr:tex
+display="inline"><![CDATA[(f f_i^d - g_i) f_i^M = 0]]></fr:tex>. Since <fr:tex
+display="inline"><![CDATA[D(f_i) = D(f_i^R)]]></fr:tex> covers <fr:tex
+display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex>, we have a linear combination <fr:tex
+display="inline"><![CDATA[1 = \sum _i c_i f_i^R]]></fr:tex> for large enough <fr:tex
+display="inline"><![CDATA[R]]></fr:tex>. Hence
+    <fr:tex
+display="block"><![CDATA[f = \sum _{i \in  I} c_i f f_i^R = \sum  c_i g_i f_i^{R-d}.]]></fr:tex> This uniquely determines <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>. And indeed, this solution satisfies our requirements, because when restricted to <fr:tex
+display="inline"><![CDATA[D(f_j)]]></fr:tex>, we have
+    <fr:tex
+display="block"><![CDATA[\begin {aligned}       f f_j^d \cdot  f_j^R &= \sum  c_i g_i f_i^{R-d} f_j^{R+d} \\       &= \sum  c_i g_j f_i^{R} f_j^{R} \\       &= g_j f_j^R \cdot  \sum  c_i f_i^R = g_j f_j^R.     \end {aligned}]]></fr:tex>
+    This reasoning is valid as long as <fr:tex
+display="inline"><![CDATA[R > N + 2d]]></fr:tex>.</fr:p>
+
+  <fr:p>If there are infinitely many opens, we first use <fr:link
+type="local"
+href="algm-000B.xml"
+addr="algm-000B"
+title="A ring spectrum is quasi-compact">quasi-compactness</fr:link> to select a finite number <fr:tex
+display="inline"><![CDATA[D(f_1), \dots , D(f_k)]]></fr:tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> for <fr:tex
+display="inline"><![CDATA[D(f_1), \dots , D(f_k)]]></fr:tex>. Then consider the solution on <fr:tex
+display="inline"><![CDATA[D(f_1), \dots , D(f_k), D(g)]]></fr:tex> for every <fr:tex
+display="inline"><![CDATA[g]]></fr:tex>. This solution must be equal to <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> by uniqueness. Therefore <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> restrict to the correct function on each <fr:tex
+display="inline"><![CDATA[D(g)]]></fr:tex>, showing that <fr:tex
+display="inline"><![CDATA[f]]></fr:tex> is the required solution.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
