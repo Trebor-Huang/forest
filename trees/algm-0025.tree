@@ -2,10 +2,11 @@
 \title{total category}
 \author{trebor}
 \import{common}
+\import{wave}
 \taxon{definition}
 
 \p{
-  Given a locally small category #{\CatVar{C}}, if the Yoneda embedding #{\yo : \CatVar{C} \to \Cat{Psh}(\CatVar{C})} has a left adjoint #{L}, then we say teh category is \strong{total}, or \strong{totally cocomplete}. This is equivalent to requiring the colimit of #{\pi_F : \int F \to \CatVar{C}} to exist for every presheaf #{F}, which is the value of #{L(F)}. Notice that #{\yo} being fully faithful implies the counit #{L(\yo(A)) \to A} is an isomorphism.
+  Given a locally small category #{\CatVar{C}}, if the Yoneda embedding #{\yo : \CatVar{C} \to \Cat{Psh}(\CatVar{C})} has a left adjoint #{\realize}, then we say teh category is \strong{total}, or \strong{totally cocomplete}. This is equivalent to requiring the colimit of #{\pi_F : \int F \to \CatVar{C}} to exist for every presheaf #{F}, which is the value of #{L(F)}. Notice that #{\yo} being fully faithful implies the counit #{\realize(\yo(A)) \to A} is an isomorphism.
 }
 
 \proof{

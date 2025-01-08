@@ -3,6 +3,7 @@
 \taxon{theorem}
 \author{trebor}
 \import{common}
+\import{wave}
 
 \p{
   Given any cocontinuous functor #{F} from a [[algm-0025]] #{\CatVar{C}} to a locally small category #{\CatVar{D}}, it has a right adjoint without additional assumptions.
@@ -13,6 +14,6 @@
     The idea of the adjoint functor theorem is to construct the large colimit
     ##{G(X) = \colim_{FY \to X} Y.}
     But this is exactly the kind of colimits mentioned in \ref{algm-0025}.
-    We can construct the right adjoint by letting #{G(X) = L(F^* \yo(X))}.
+    We can construct the right adjoint by letting #{G(X) = \realize(F^* \yo(X))}.
   }
 }

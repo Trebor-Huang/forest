@@ -1,0 +1,26 @@
+\date{2025-01-08}
+\title{#{\Cat{Set}} is total and cototal}
+\author{trebor}
+\taxon{theorem}
+\import{wave}
+\import{common}
+
+\p{
+  The category of small sets #{\Cat{Set}} is a [[algm-0025]], and so is #{\Cat{Set}^\op}.
+}
+
+\proof{
+  \p{
+    The first claim is a special case of \ref{algm-002A}. For the second claim, we use the limit characterization of cototality. Given a functor #{F : \Cat{Set} \to \Cat{Set}}, we need to show the existence of #{\lim (\pi_F : \int F \to \Cat{Set})}. We claim that this is a subset of #{\mathcal{P}(F(\mathcal{P}(1)))}, i.e. we need to show that all the other components of an element in the limit are determined by the #{F(\mathcal{P}(1))} component. This is true because #{\mathcal{P}(1)} is a cogenerator of #{\Cat{Set}}.
+  }
+
+  \p{
+    Another way to see this is to let #{\yo^\op \dashv \corealize}, where #{\yo^\op : \Cat{Set} \to (\Cat{Set} \to \Cat{Set})^\op} is the coyoneda embedding, and calculate
+    ##{\begin{aligned}
+      \corealize(F) &= \hom(1, \corealize(F)) \\
+      &= \hom_{\Cat{Set} \to \Cat{Set}} (F, \yo (1^\op)) \\
+      &= \hom(F, \Id).
+    \end{aligned}}
+    So we only need to prove the natural transformations #{FX \to X} form a small set, which works the same way, by substituting #{X} by the powerset of #{1}.
+  }
+}

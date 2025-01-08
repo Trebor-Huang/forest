@@ -1,0 +1,34 @@
+\date{2025-01-08}
+\title{wave}
+\author{trebor}
+\import{common}
+\import{wave}
+\taxon{definition}
+
+\p{
+  For a [[algm-0025]] #{\CatVar{C}}, we can define a functor #{\ro : \CatVar{C} \to \Cat{Psh}(\CatVar{C})} that will serve as the double left adjoint of #{\yo} iff the category is actually a [[algm-0028]]. Since #{\yo(X)(Y) = \hom(Y, X)}, we similarly define #{\ro(X)(Y) = \wave(Y, X)}, and call the elements \strong{waves}.
+}
+
+\p{
+  A wave #{w : Y \wto X} is defined by a family of maps #{\hom(X, \realize F) \to F(Y)} natural in the presheaf #{F}, where #{\realize \dashv \yo}. This is intuitively a categorification of the “way way below” relation #{Y \lll X} in posets. If we take #{F = \yo(X)}, then we get an actual arrow #{\bar{w} : Y \to X}. This defines a natural transform #{\ro \to \yo}, or equivalently #{\realize \compose \ro \to \Id}. % There is also an obvious natural transform #{\ro \compose \realize \to \Id}, which will serve as the counit when #{\ro \dashv \realize} holds.
+}
+
+\proof{
+  \p{
+    We need to show that #{\wave(Y, X)} is a small set. Let #{Y^*} be the functor sending a presheaf #{F} to the set #{F(Y)}. The right Kan extension is given by
+    ##{\begin{aligned}
+      Y_* (A)(B) &= \hom(\yo (B), Y_* (A)) \\
+      &= \hom(Y^* (\yo (B)), A) \\
+      &= \hom(\hom(Y, B), A) = A^{B^Y}.
+    \end{aligned}}
+    Using the fact that [[algm-002E]] and writing #{\corealize} as the witness of cototality, we calculate
+    ##{\begin{aligned}
+      \wave(Y, X) &= \hom_{\Cat{Psh}(\CatVar{C}) \to \Cat{Set}} (\yo (X^\op) \compose \realize, Y^*) \\
+      &= \hom_{\Cat{Set} \to \Cat{Set}} (\yo (X^\op) \compose \realize \compose Y_*, \Id) \\
+      &= \hom_{\Cat{Set} \to \Cat{Set}} (\yo (X^\op) \compose \realize \compose Y_*, \yo (1^\op)) \\
+      &= \hom_{\Cat{Set}} (1, \corealize(\yo (X^\op) \compose \realize \compose Y_*)) \\
+      &= \corealize(\yo (X^\op) \compose \realize \compose {Y_*})
+    \end{aligned}}
+    where the second equality is because the pseudofunctor #{(- \to \Cat{Set})} preserves adjoint pairs. Hence we know this is a small set.
+  }
+}
