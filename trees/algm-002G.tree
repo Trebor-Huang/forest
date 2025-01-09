@@ -1,0 +1,10 @@
+\date{2025-01-09}
+\title{waves and totally distributive categories}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+\import{wave}
+
+\p{
+  Given a [[algm-0025]] #{\CatVar{C}}, it is a [[algm-0028]], iff the [[algm-002D]] functor #{\ro \dashv \realize} with an obvious counit #{\ro \compose \realize \to \Id}, \em{and} iff the natural transform #{\realize \compose \ro \to \Id} is invertible (the inverse will be the unit of the adjunction). In this case, the composition operator #{\int^B \wave(B, C) \times \wave(A, B) \to \wave(A, C)} of [waves](algm-002D) is invertible, up to sliding #{B} around with arrows.
+}

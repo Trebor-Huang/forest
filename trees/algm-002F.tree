@@ -1,0 +1,26 @@
+\date{2025-01-09}
+\title{composition of waves}
+\author{trebor}
+\import{common}
+\import{wave}
+\taxon{definition}
+
+\p{
+  In a [[algm-0025]], we can freely compose [waves](algm-002D) with arrows or other waves associatively.
+}
+
+\proof{
+  \p{
+    Let us use #{f, g, h} etc. for arrows, and #{u, v, w} for waves. The composition #{f \compose w \compose g} and its associativity is given by functoriality of waves. We define the composition of two waves by #{w \compose v = \bar{w} \compose v = w \compose \bar{v}}, which we can verify are equal by a calculation.
+    % Let #{w : B \wto C} and #{v : A \wto B}. For any presheaf #{F} and arrow #{f : C \to \realize F}, we have #{\bar{v}} given by applying #{v} to the inverse counit map #{\epsilon^{-1}_B : B \to \realize \yo B}. Write #{[x]} for the map #{\yo B \to F} given by an element #{x \in F(B)}. Then by naturality of waves in presheaves, if we apply #{v} to #{B \to \realize \yo B \to \realize F}, then we will get #{F\bar{v}(x)}. Similarly, by applying the naturality of the wave #{w} to the map #{\yo(f) : \yo C \to \yo \realize F}, we get #{w(?\yo f \compose \epsilon^{-1}_C) = f \compose w(\epsilon^{-1}_C)}.
+    % ##{\begin{aligned}
+    %   (w \compose \bar{v})(f) &= F\bar{v}(w(f)) \\
+    %   &= v(\realize [w(f)] \compose \epsilon^{-1}_B) \\
+    %   &= v(w(\realize \yo f \compose \epsilon^{-1}_C)) \\
+    %   &= v(f \compose w(\epsilon^{-1}_C)) \\
+    %   &= v(f \compose \bar{w}) \\
+    %   &= (\bar{w} \compose v)(f).
+    % \end{aligned}}
+    Then #{u \compose v \compose w = \bar{u} \compose v \compose \bar{w}} is associative.
+  }
+}
