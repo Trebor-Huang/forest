@@ -1,0 +1,15 @@
+\date{2025-02-12T08:08:59Z}
+\title{a superphantom map #{KU \to \Sigma H \mathbb Z}}
+\author{trebor}
+\import{common}
+\taxon{example}
+
+\p{
+  For the complex #{K}-theory spectrum #{KU}, the integral homology is given by #{H_{2n} (K U) = \mathbb{Q}}, and the odd degrees are zero. Therefore #{H^1 (KU) = \Ext(\mathbb{Q}, \mathbb{Z})} by the universal coefficient theorem. Pick a non-zero map #{\theta : KU \to \Sigma H \mathbb{Z}}. We claim it is a [cohomology superphantom map](hmlg-002Y).
+}
+
+\proof{
+  \p{
+    Consider any space #{X}. A cohomology class #{\omega \in KU(X)} corresponds to a vector bundle on #{X}, and the image in #{H^1 (X; \mathbb{Z})} assigns a characteristic class #{\theta(\omega)} for each vector bundle. Consider the universal example, the tautological bundle #{\tau} on #{BU(n)}. All vector bundles come from the pullback of a map #{f : X \to BU(n)}, and the characteristic class will also come from the pullback #{f^* \theta(\tau)} of the universal characteristic class. However, #{H^1 (BU(n)) = 0}, so this cohomology operation vanishes on all spaces.
+  }
+}

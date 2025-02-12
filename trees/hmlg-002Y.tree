@@ -1,0 +1,24 @@
+\date{2025-02-12}
+\title{ghost and phantom maps}
+\author{trebor}
+\import{common}
+
+\p{
+  There are a few different concepts of ghosts and phantoms in homotopy theory.
+  \ul{
+    \li{In the unstable world, a \strong{ghost map} #{f : X \to Y} between CW-complexes is a non-zero map that cannot be detected via homotopy groups (or more generally finite CW-complexes), i.e. all compositions #{Z \to X \to Y} with #{Z} finite are null-homotopic.}
+    \li{In the stable case, a map between spectra is a (co)homology \strong{phantom} if all the induced maps on the (co)homology of finite CW-complexes is zero.}
+    \li{A stronger condition is given by requiring the induced maps on the (co)homology of \em{all spaces} (equivalently, all suspension spectra, possibly with some desuspensions) are zero. This is called a \strong{superphantom map}.}
+    \li{We can have an even stronger condition, requiring triviality on all spectra. Let’s temporarily call this a (co)homology \em{ultraphantom map}.}
+  }
+}
+
+\p{
+  Obviously, when we pass to the stable world, ghost maps becomes cohomology phantom maps. By Spanier–Whitehead duality, we can replace finite CW-complexes with their duals, thus establishing that the cohomology and homology phantom maps are identical. On the other hand, it is impossible to have a cohomology ultraphantom map #{f : X \to Y}, since the identity cohomology class #{\iota : X \to X} will be sent to zero, meaning #{f} itself is null-homotopic. Similarly, a ghost map cannot give a cohomology superphantom map.
+}
+
+\p{
+  Since homology preserves filtered colimits, every homology superphantom map comes from a phantom map, and vice versa. Similarly, we can extend this to ultraphantom maps. Therefore these three concepts collapse into one. Therefore the phrases \em{phantom maps} and \em{superphantom maps} suffices to unambiguously refer to all of these concepts.
+}
+\transclude{hmlg-0030}
+\transclude{hmlg-002Z}
