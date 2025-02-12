@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>3</fr:day>
+    </fr:date>
+    <fr:anchor>1580</fr:anchor>
+    <fr:addr type="machine">unstable/459</fr:addr>
+    <fr:route>unstable-459.xml</fr:route>
+    <fr:title text="Distinguished opens of \operatorname{Spec}(R) › "><fr:link href="algm-0004.xml" title="Distinguished opens of \operatorname{Spec}(R)" addr="algm-0004" type="local">Distinguished opens of <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:link> › </fr:title>
+    <fr:taxon>Proof</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+  <fr:p>We claim that <fr:tex display="block"><![CDATA[D(\mathfrak {a}) = \bigcup _{\mathfrak {a} \mid  f} D(f).]]></fr:tex> Alternatively, <fr:tex display="inline"><![CDATA[V(\mathfrak {a}) = \bigcap _{\mathfrak {a} \mid  f} V(f)]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f]]></fr:tex> implies <fr:tex display="inline"><![CDATA[V(\mathfrak {a}) \subseteq  V(f)]]></fr:tex>, we have the forward inclusion. For the backwards inclusion, suppose <fr:tex display="inline"><![CDATA[\left [\mathfrak {p}\right ] \notin  V(\mathfrak {a})]]></fr:tex>, i.e. <fr:tex display="inline"><![CDATA[\mathfrak {p} \nmid  \mathfrak {a}]]></fr:tex>, then by definition there is an element <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathfrak {p} \nmid  f]]></fr:tex>, meaning that <fr:tex display="inline"><![CDATA[\left [\mathfrak {p}\right ] \notin  V(f)]]></fr:tex>.</fr:p>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1574</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1576</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>3</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0004.tree</fr:source-path>
+            <fr:anchor>1575</fr:anchor>
+            <fr:addr type="user">algm-0004</fr:addr>
+            <fr:route>algm-0004.xml</fr:route>
+            <fr:title text="Distinguished opens of \operatorname{Spec}(R)">Distinguished opens of <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>We define a basis of opens on <fr:link href="algm-0001.xml" title="Topological spectrum of a commutative ring" addr="algm-0001" type="local"><fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:link> by <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> for every element <fr:tex display="inline"><![CDATA[f \in  R]]></fr:tex>. These are called <fr:strong>distinguished opens</fr:strong>.</fr:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0004.tree</fr:source-path><fr:anchor>1241</fr:anchor><fr:addr type="machine">unstable/459</fr:addr><fr:route>unstable-459.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>We claim that <fr:tex display="block"><![CDATA[D(\mathfrak {a}) = \bigcup _{\mathfrak {a} \mid  f} D(f).]]></fr:tex> Alternatively, <fr:tex display="inline"><![CDATA[V(\mathfrak {a}) = \bigcap _{\mathfrak {a} \mid  f} V(f)]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f]]></fr:tex> implies <fr:tex display="inline"><![CDATA[V(\mathfrak {a}) \subseteq  V(f)]]></fr:tex>, we have the forward inclusion. For the backwards inclusion, suppose <fr:tex display="inline"><![CDATA[\left [\mathfrak {p}\right ] \notin  V(\mathfrak {a})]]></fr:tex>, i.e. <fr:tex display="inline"><![CDATA[\mathfrak {p} \nmid  \mathfrak {a}]]></fr:tex>, then by definition there is an element <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathfrak {p} \nmid  f]]></fr:tex>, meaning that <fr:tex display="inline"><![CDATA[\left [\mathfrak {p}\right ] \notin  V(f)]]></fr:tex>.</fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1577</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1578</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1579</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

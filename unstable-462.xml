@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>1</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:anchor>582</fr:anchor>
+    <fr:addr type="machine">unstable/462</fr:addr>
+    <fr:route>unstable-462.xml</fr:route>
+    <fr:title text="Adjoint chain over \mathsf{Set} › "><fr:link href="algm-002C.xml" title="Adjoint chain over \mathsf{Set}" addr="algm-002C" type="local">Adjoint chain over <fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex></fr:link> › </fr:title>
+    <fr:taxon>Proof</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+  <fr:p>The first three functors appear in <fr:link href="algm-002A.xml" title="Presheaf category over a small category is total" addr="algm-002A" type="local">Example <fr:contextual-number addr="algm-002A" /></fr:link> and <fr:link href="algm-002B.xml" title="Presheaf category over a small category is totally distributive" addr="algm-002B" type="local">Example <fr:contextual-number addr="algm-002B" /></fr:link>. The next adjoint <fr:tex display="inline"><![CDATA[\operatorname {ev}_0\dashv \Delta ]]></fr:tex> is dual to <fr:tex display="inline"><![CDATA[\Delta \dashv \operatorname {ev}_1]]></fr:tex>, and it is also not hard to see manually. Finally, a natural transform <fr:tex display="inline"><![CDATA[0_! (X) \to  F]]></fr:tex> consists of a single map <fr:tex display="inline"><![CDATA[X \to  F(0)]]></fr:tex>, since all the other components are empty functions, hence trivial. Moreover, <fr:tex display="inline"><![CDATA[0_!]]></fr:tex> does not preserve products, so no more left adjoints are possible.</fr:p>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>573</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>576</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-002C.tree</fr:source-path>
+            <fr:anchor>575</fr:anchor>
+            <fr:addr type="user">algm-002C</fr:addr>
+            <fr:route>algm-002C.xml</fr:route>
+            <fr:title text="Adjoint chain over \mathsf{Set}">Adjoint chain over <fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex></fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>The yoneda embedding <fr:tex display="inline"><![CDATA[\mathsf {Set} \to  \mathsf {Psh}(\mathsf {Set})]]></fr:tex> has a chain of four left adjoints <fr:tex display="block"><![CDATA[0_!\dashv \operatorname {ev}_0\dashv \Delta \dashv \operatorname {ev}_1\dashv \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[0_! (X)(Y) = X \times  \hom (Y, 0)]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>8</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-002C.tree</fr:source-path><fr:anchor>574</fr:anchor><fr:addr type="machine">unstable/462</fr:addr><fr:route>unstable-462.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>The first three functors appear in <fr:link href="algm-002A.xml" title="Presheaf category over a small category is total" addr="algm-002A" type="local">Example <fr:contextual-number addr="algm-002A" /></fr:link> and <fr:link href="algm-002B.xml" title="Presheaf category over a small category is totally distributive" addr="algm-002B" type="local">Example <fr:contextual-number addr="algm-002B" /></fr:link>. The next adjoint <fr:tex display="inline"><![CDATA[\operatorname {ev}_0\dashv \Delta ]]></fr:tex> is dual to <fr:tex display="inline"><![CDATA[\Delta \dashv \operatorname {ev}_1]]></fr:tex>, and it is also not hard to see manually. Finally, a natural transform <fr:tex display="inline"><![CDATA[0_! (X) \to  F]]></fr:tex> consists of a single map <fr:tex display="inline"><![CDATA[X \to  F(0)]]></fr:tex>, since all the other components are empty functions, hence trivial. Moreover, <fr:tex display="inline"><![CDATA[0_!]]></fr:tex> does not preserve products, so no more left adjoints are possible.</fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>577</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>580</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-002B.tree</fr:source-path>
+            <fr:anchor>578</fr:anchor>
+            <fr:addr type="user">algm-002B</fr:addr>
+            <fr:route>algm-002B.xml</fr:route>
+            <fr:title text="Presheaf category over a small category is totally distributive">Presheaf category over a small category is totally distributive</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A presheaf category over a small categroy <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is not only a <fr:link href="algm-0025.xml" title="Total category" addr="algm-0025" type="local">total category</fr:link>, as proven in <fr:link href="algm-002A.xml" title="Presheaf category over a small category is total" addr="algm-002A" type="local">Example <fr:contextual-number addr="algm-002A" /></fr:link>, but also a <fr:link href="algm-0028.xml" title="Totally distributive category" addr="algm-0028" type="local">totally distributive category</fr:link>. This is because <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}^*]]></fr:tex> has a left adjoint <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}_!]]></fr:tex> a.k.a. the left Kan extension. We need to be careful because <fr:tex display="inline"><![CDATA[\mathsf {Psh}^2 (\mathcal {C})]]></fr:tex> is not locally small. The colimit formula for (pointwise) left Kan extensions is
+  <fr:tex display="block"><![CDATA[\operatorname {Lan}_{\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}} F(G) = \operatorname *{colim}_{p : \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X) \leftarrow  G} F(X)]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[F, G \in  \mathsf {Psh}(\mathcal {C})]]></fr:tex> and <fr:tex display="inline"><![CDATA[X]]></fr:tex> ranges over <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>. (The reversal of arrow comes from the contravariance of presheaves.) This is still a small limit, so it is fine.</fr:p>
+            <fr:p>For the special case of <fr:tex display="inline"><![CDATA[\mathcal {C} = 1]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}^* : \mathsf {Psh}(\mathsf {Set}) \to  \mathsf {Set}]]></fr:tex> evaluates at <fr:tex display="inline"><![CDATA[1]]></fr:tex>. We get
+  <fr:tex display="block"><![CDATA[\operatorname {Lan}_{1} F(G) = \operatorname *{colim}_{1 \leftarrow  G} F = F]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[F, G]]></fr:tex> are sets. So the left adjoint is the constant functor functor <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[\Delta (X)(Y) = X]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-002A.tree</fr:source-path>
+            <fr:anchor>579</fr:anchor>
+            <fr:addr type="user">algm-002A</fr:addr>
+            <fr:route>algm-002A.xml</fr:route>
+            <fr:title text="Presheaf category over a small category is total">Presheaf category over a small category is total</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given a small category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, the locally small category <fr:tex display="inline"><![CDATA[\mathsf {Psh}(\mathcal {C})]]></fr:tex> is a <fr:link href="algm-0025.xml" title="Total category" addr="algm-0025" type="local">total category</fr:link>. In fact, the left adjoint to <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} : \mathsf {Psh}(\mathcal {C}) \to  \mathsf {Psh}^2(\mathcal {C})]]></fr:tex> is given by <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}^*]]></fr:tex>, i.e. the map that sends the double presheaf <fr:tex display="inline"><![CDATA[R]]></fr:tex> to the presheaf <fr:tex display="inline"><![CDATA[X \mapsto  R(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X))]]></fr:tex>.</fr:p>
+            <fr:p>To see this, we compute <fr:tex display="inline"><![CDATA[\hom _{\mathsf {Psh}(\mathcal {C})}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}^* R, F)]]></fr:tex> to be the set of natural transforms that assign an arrow <fr:tex display="inline"><![CDATA[R(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X)) \to  F(X)]]></fr:tex> for every object <fr:tex display="inline"><![CDATA[X]]></fr:tex>. On the other hand, <fr:tex display="inline"><![CDATA[\hom _{\mathsf {Psh}^2(\mathcal {C})}(R, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} F)]]></fr:tex> assigns an arrow <fr:tex display="inline"><![CDATA[R(G) \to  \hom (G, F)]]></fr:tex> for every presheaf <fr:tex display="inline"><![CDATA[G]]></fr:tex>. The latter obviously have a map to the former, and we need to prove that any map in the former uniquely extends to the latter. <fr:tex display="inline"><![CDATA[G]]></fr:tex> is a colimit of representables, so we can decompose <fr:tex display="inline"><![CDATA[\hom (G, F)]]></fr:tex> into a limit of <fr:tex display="inline"><![CDATA[F(X)]]></fr:tex>. The naturality requirement then forces a unique value for each component.</fr:p>
+            <fr:p>In particular, if <fr:tex display="inline"><![CDATA[\mathcal {C} = 0]]></fr:tex>, we get a left adjoint for the yoneda embedding <fr:tex display="block"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} : \mathsf {Psh}(0) = 1 \to  \mathsf {Psh}(1) = \mathsf {Set}.]]></fr:tex>
+  In this case <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> is essentially picking out the terminal object, and <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}^*]]></fr:tex> is the unique functor. We can also take <fr:tex display="inline"><![CDATA[\mathcal {C} = 1]]></fr:tex>, then
+  <fr:tex display="block"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} : \mathsf {Set} \to  \mathsf {Psh}(\mathsf {Set}),]]></fr:tex>
+  and the left adjoint is <fr:tex display="inline"><![CDATA[F \mapsto  F(1)]]></fr:tex>, evaluating the presheaf at the singleton set. It is also possible to calculate this directly via the colimit characterization of total cocompleteness.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>581</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>12</fr:day>
+    </fr:date>
+    <fr:anchor>2377</fr:anchor>
+    <fr:addr type="machine">unstable/495</fr:addr>
+    <fr:route>unstable-495.xml</fr:route>
+    <fr:title text="A superphantom map KU \to \Sigma H \mathbb Z › "><fr:link href="hmlg-002Z.xml" title="A superphantom map KU \to \Sigma H \mathbb Z" addr="hmlg-002Z" type="local">A superphantom map <fr:tex display="inline"><![CDATA[KU \to  \Sigma  H \mathbb  Z]]></fr:tex></fr:link> › </fr:title>
+    <fr:taxon>Proof</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+  <fr:p>Consider any space <fr:tex display="inline"><![CDATA[X]]></fr:tex>. A cohomology class <fr:tex display="inline"><![CDATA[\omega  \in  KU(X)]]></fr:tex> corresponds to a vector bundle on <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and the image in <fr:tex display="inline"><![CDATA[H^1 (X; \mathbb {Z})]]></fr:tex> assigns a characteristic class <fr:tex display="inline"><![CDATA[\theta (\omega )]]></fr:tex> for each vector bundle. Consider the universal example, the tautological bundle <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> on <fr:tex display="inline"><![CDATA[BU(n)]]></fr:tex>. All vector bundles come from the pullback of a map <fr:tex display="inline"><![CDATA[f : X \to  BU(n)]]></fr:tex>, and the characteristic class will also come from the pullback <fr:tex display="inline"><![CDATA[f^* \theta (\tau )]]></fr:tex> of the universal characteristic class. However, <fr:tex display="inline"><![CDATA[H^1 (BU(n)) = 0]]></fr:tex>, so this cohomology operation vanishes on all spaces.</fr:p>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2371</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2373</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-002Z.tree</fr:source-path>
+            <fr:anchor>2372</fr:anchor>
+            <fr:addr type="user">hmlg-002Z</fr:addr>
+            <fr:route>hmlg-002Z.xml</fr:route>
+            <fr:title text="A superphantom map KU \to \Sigma H \mathbb Z">A superphantom map <fr:tex display="inline"><![CDATA[KU \to  \Sigma  H \mathbb  Z]]></fr:tex></fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>For the complex <fr:tex display="inline"><![CDATA[K]]></fr:tex>-theory spectrum <fr:tex display="inline"><![CDATA[KU]]></fr:tex>, the integral homology is given by <fr:tex display="inline"><![CDATA[H_{2n} (K U) = \mathbb {Q}]]></fr:tex>, and the odd degrees are zero. Therefore <fr:tex display="inline"><![CDATA[H^1 (KU) = \operatorname {Ext}(\mathbb {Q}, \mathbb {Z})]]></fr:tex> by the universal coefficient theorem. Pick a non-zero map <fr:tex display="inline"><![CDATA[\theta  : KU \to  \Sigma  H \mathbb {Z}]]></fr:tex>. We claim it is a <fr:link href="hmlg-002Y.xml" title="Ghost and phantom maps" addr="hmlg-002Y" type="local">cohomology superphantom map</fr:link>.</fr:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>12</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-002Z.tree</fr:source-path><fr:anchor>1540</fr:anchor><fr:addr type="machine">unstable/495</fr:addr><fr:route>unstable-495.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>Consider any space <fr:tex display="inline"><![CDATA[X]]></fr:tex>. A cohomology class <fr:tex display="inline"><![CDATA[\omega  \in  KU(X)]]></fr:tex> corresponds to a vector bundle on <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and the image in <fr:tex display="inline"><![CDATA[H^1 (X; \mathbb {Z})]]></fr:tex> assigns a characteristic class <fr:tex display="inline"><![CDATA[\theta (\omega )]]></fr:tex> for each vector bundle. Consider the universal example, the tautological bundle <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> on <fr:tex display="inline"><![CDATA[BU(n)]]></fr:tex>. All vector bundles come from the pullback of a map <fr:tex display="inline"><![CDATA[f : X \to  BU(n)]]></fr:tex>, and the characteristic class will also come from the pullback <fr:tex display="inline"><![CDATA[f^* \theta (\tau )]]></fr:tex> of the universal characteristic class. However, <fr:tex display="inline"><![CDATA[H^1 (BU(n)) = 0]]></fr:tex>, so this cohomology operation vanishes on all spaces.</fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2374</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2375</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2376</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

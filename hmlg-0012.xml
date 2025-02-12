@@ -1,24 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2717</fr:anchor><fr:addr
-type="user">hmlg-0012</fr:addr><fr:route>hmlg-0012.xml</fr:route><fr:title
-text="Long exact sequence of homologies">Long exact sequence of homologies</fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a short exact sequence of chain complexes
-  <fr:tex
-display="block"><![CDATA[0 \to  A_\bullet  \to  B_\bullet  \to  C_\bullet  \to  0,]]></fr:tex>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>20</fr:day>
+    </fr:date>
+    <fr:anchor>2172</fr:anchor>
+    <fr:addr type="user">hmlg-0012</fr:addr>
+    <fr:route>hmlg-0012.xml</fr:route>
+    <fr:title text="Long exact sequence of homologies">Long exact sequence of homologies</fr:title>
+    <fr:taxon>Construction</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Given a short exact sequence of chain complexes
+  <fr:tex display="block"><![CDATA[0 \to  A_\bullet  \to  B_\bullet  \to  C_\bullet  \to  0,]]></fr:tex>
   there is a long exact sequence of homology groups
-  <fr:tex
-display="block"><![CDATA[\cdots  \to  H_{n+1}(C) \xrightarrow {\partial } H_n(A) \to  H_n (B) \to  H_n (C) \xrightarrow {\partial } H_{n-1} (A) \to  \cdots ]]></fr:tex>
-  The map <fr:tex
-display="inline"><![CDATA[\partial ]]></fr:tex> here is, after unpacking some quotients, simply the boundary map <fr:tex
-display="inline"><![CDATA[B_n \to  B_{n-1}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:tex display="block"><![CDATA[\cdots  \to  H_{n+1}(C) \xrightarrow {\partial } H_n(A) \to  H_n (B) \to  H_n (C) \xrightarrow {\partial } H_{n-1} (A) \to  \cdots ]]></fr:tex>
+  The map <fr:tex display="inline"><![CDATA[\partial ]]></fr:tex> here is, after unpacking some quotients, simply the boundary map <fr:tex display="inline"><![CDATA[B_n \to  B_{n-1}]]></fr:tex>.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2167</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2168</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2169</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2170</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2171</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

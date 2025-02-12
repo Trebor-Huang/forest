@@ -1,80 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3120</fr:anchor><fr:addr
-type="user">variete-riemannienne-suffisamment-pincee</fr:addr><fr:route>variete-riemannienne-suffisamment-pincee.xml</fr:route><fr:title
-text="Sur quelques variétés riemanniennes suffisamment pincées">Sur quelques variétés riemanniennes suffisamment pincées</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>1960</fr:year></fr:date><fr:authors><fr:author>Marcel Berger</fr:author></fr:authors><fr:meta
-name="external">http://www.numdam.org/item/10.24033/bsmf.1543.pdf</fr:meta></fr:frontmatter><fr:mainmatter /><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3122</fr:anchor><fr:addr
-type="user">misc-0001</fr:addr><fr:route>misc-0001.xml</fr:route><fr:title
-text="Berger’s lemma">Berger’s lemma</fr:title><fr:date><fr:year>2024</fr:year><fr:month>9</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a Riemannian manifold <fr:tex
-display="inline"><![CDATA[M]]></fr:tex> with metric <fr:tex
-display="inline"><![CDATA[g]]></fr:tex>, if the sectional curvature at a point <fr:tex
-display="inline"><![CDATA[\operatorname {sec}(v, w)]]></fr:tex> is bounded between <fr:tex
-display="inline"><![CDATA[\kappa _1]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\kappa _2]]></fr:tex>, we can make some bounds on the curvature tensor, essentially by linear algebra. This is discussed in section 6 from <fr:link
-type="local"
-href="variete-riemannienne-suffisamment-pincee.xml"
-addr="variete-riemannienne-suffisamment-pincee"
-title="Sur quelques variétés riemanniennes suffisamment pincées">Sur quelques variétés riemanniennes suffisamment pincées</fr:link>.</fr:p><fr:p>Take an orthonormal set of vectors <fr:tex
-display="inline"><![CDATA[X_i, X_j, X_k, X_l]]></fr:tex>. The sectional curvature is given by <fr:tex
-display="inline"><![CDATA[\operatorname {sec}(X_i, X_j) = R(X_i, X_j, X_j, X_i)]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[a^2 + b^2 = c^2 + d^2 = 1]]></fr:tex>, then we can generate a family of inequalities
-  <fr:tex
-display="block"><![CDATA[\kappa _1 < \operatorname {sec}(a X_i + b X_j, c X_k + d X_l) < \kappa _2.]]></fr:tex>
-  Let us write <fr:tex
-display="inline"><![CDATA[\operatorname {sec}_{i j}]]></fr:tex> for <fr:tex
-display="inline"><![CDATA[\operatorname {sec}(X_i, X_j)]]></fr:tex>. Then we can expand the definition to get
-  <fr:tex
-display="block"><![CDATA[\begin {aligned}     \kappa _1 &< a^2 c^2 \operatorname {sec}_{ik} &&+ 2 a^2 c d R_{ikli} &&+ a^2 d^2 \operatorname {sec}_{il} \\       &+ 2 a b c^2 R_{ikkj} &&+ 2 a b c d (R_{iklj} + R_{ilkj}) &&+ 2 a b d^2 R_{illj} \\       &+ b^2 c^2 \operatorname {sec}_{jk} &&+ 2 b^2 c d R_{jklj} &&+ b^2 d^2 \operatorname {sec}_{jl} &< \kappa _2.   \end {aligned}]]></fr:tex></fr:p><fr:p>In the case <fr:tex
-display="inline"><![CDATA[(c, d) = (1, 0)]]></fr:tex>, the inequality expands to
-  <fr:tex
-display="block"><![CDATA[\kappa _1 < a^2 \operatorname {sec}_{i k} + 2 a b R_{ikkj} + b^2 \operatorname {sec}_{j k} < \kappa _2.]]></fr:tex>
-  From the AM–GM inequality, we can take the appropriate signs for <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[b]]></fr:tex> to get
-  <fr:tex
-display="inline"><![CDATA[ |R_{ikkj}| < \sqrt {(\operatorname {sec}_{i k} - \kappa _1)(\operatorname {sec}_{j k} - \kappa _1)}]]></fr:tex>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>Marcel Berger</fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>1960</fr:year>
+    </fr:date>
+    <fr:anchor>3133</fr:anchor>
+    <fr:addr type="user">variete-riemannienne-suffisamment-pincee</fr:addr>
+    <fr:route>variete-riemannienne-suffisamment-pincee.xml</fr:route>
+    <fr:title text="Sur quelques variétés riemanniennes suffisamment pincées">Sur quelques variétés riemanniennes suffisamment pincées</fr:title>
+    <fr:taxon>Reference</fr:taxon>
+    <fr:meta name="external">http://www.numdam.org/item/10.24033/bsmf.1543.pdf</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3127</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3128</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3130</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/misc-0001.tree</fr:source-path>
+            <fr:anchor>3129</fr:anchor>
+            <fr:addr type="user">misc-0001</fr:addr>
+            <fr:route>misc-0001.xml</fr:route>
+            <fr:title text="Berger’s lemma">Berger’s lemma</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given a Riemannian manifold <fr:tex display="inline"><![CDATA[M]]></fr:tex> with metric <fr:tex display="inline"><![CDATA[g]]></fr:tex>, if the sectional curvature at a point <fr:tex display="inline"><![CDATA[\operatorname {sec}(v, w)]]></fr:tex> is bounded between <fr:tex display="inline"><![CDATA[\kappa _1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\kappa _2]]></fr:tex>, we can make some bounds on the curvature tensor, essentially by linear algebra. This is discussed in section 6 from <fr:link href="variete-riemannienne-suffisamment-pincee.xml" title="Sur quelques variétés riemanniennes suffisamment pincées" addr="variete-riemannienne-suffisamment-pincee" type="local">Sur quelques variétés riemanniennes suffisamment pincées</fr:link>.</fr:p>
+            <fr:p>Take an orthonormal set of vectors <fr:tex display="inline"><![CDATA[X_i, X_j, X_k, X_l]]></fr:tex>. The sectional curvature is given by <fr:tex display="inline"><![CDATA[\operatorname {sec}(X_i, X_j) = R(X_i, X_j, X_j, X_i)]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[a^2 + b^2 = c^2 + d^2 = 1]]></fr:tex>, then we can generate a family of inequalities
+  <fr:tex display="block"><![CDATA[\kappa _1 < \operatorname {sec}(a X_i + b X_j, c X_k + d X_l) < \kappa _2.]]></fr:tex>
+  Let us write <fr:tex display="inline"><![CDATA[\operatorname {sec}_{i j}]]></fr:tex> for <fr:tex display="inline"><![CDATA[\operatorname {sec}(X_i, X_j)]]></fr:tex>. Then we can expand the definition to get
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \kappa _1 &< a^2 c^2 \operatorname {sec}_{ik} &&+ 2 a^2 c d R_{ikli} &&+ a^2 d^2 \operatorname {sec}_{il} \\
+      &+ 2 a b c^2 R_{ikkj} &&+ 2 a b c d (R_{iklj} + R_{ilkj}) &&+ 2 a b d^2 R_{illj} \\
+      &+ b^2 c^2 \operatorname {sec}_{jk} &&+ 2 b^2 c d R_{jklj} &&+ b^2 d^2 \operatorname {sec}_{jl} &< \kappa _2.
+  \end {aligned}]]></fr:tex></fr:p>
+            <fr:p>In the case <fr:tex display="inline"><![CDATA[(c, d) = (1, 0)]]></fr:tex>, the inequality expands to
+  <fr:tex display="block"><![CDATA[\kappa _1 < a^2 \operatorname {sec}_{i k} + 2 a b R_{ikkj} + b^2 \operatorname {sec}_{j k} < \kappa _2.]]></fr:tex>
+  From the AM–GM inequality, we can take the appropriate signs for <fr:tex display="inline"><![CDATA[a]]></fr:tex> and <fr:tex display="inline"><![CDATA[b]]></fr:tex> to get
+  <fr:tex display="inline"><![CDATA[ |R_{ikkj}| < \sqrt {(\operatorname {sec}_{i k} - \kappa _1)(\operatorname {sec}_{j k} - \kappa _1)}]]></fr:tex>
   and
-  <fr:tex
-display="inline"><![CDATA[ |R_{ikkj}| < \sqrt {(\operatorname {sec}_{i k} - \kappa _2)(\operatorname {sec}_{j k} - \kappa _2)}]]></fr:tex>.
-  We can also just take <fr:tex
-display="inline"><![CDATA[a = b = \pm  1/\sqrt {2}]]></fr:tex> to get coarser bounds.</fr:p><fr:p>Now for the general case. Taking <fr:tex
-display="inline"><![CDATA[b = ±b']]></fr:tex>, <fr:tex
-display="inline"><![CDATA[d = ±d']]></fr:tex> and summing the two inequalities, we cancel out four of the terms. Now take <fr:tex
-display="inline"><![CDATA[a \mapsto  -a]]></fr:tex> and permute <fr:tex
-display="inline"><![CDATA[(j, k, l) \mapsto  (l, j, k)]]></fr:tex> to get a new inequality. Taking the sum we now have
-  <fr:tex
-display="block"><![CDATA[\begin {aligned}     2\kappa _1 <&\quad  a^2 c^2 (\operatorname {sec}_{ik} + \operatorname {sec}_{ij})     + a^2 d^2 (\operatorname {sec}_{il} + \operatorname {sec}_{ik}) & \\     & + b^2 c^2 (\operatorname {sec}_{jk} + \operatorname {sec}_{lj})     + b^2 d^2 (\operatorname {sec}_{jl} + \operatorname {sec}_{lk}) & \\     & + 2 a b c d (R_{iklj} + R_{ilkj} - R_{ijkl} - R_{ikjl}) & < 2\kappa _2.   \end {aligned}]]></fr:tex>
-  The last term can be reduced to <fr:tex
-display="inline"><![CDATA[-6 abcd R_{ljki}]]></fr:tex> by the symmetries of the curvature tensor. AM–GM inequality now gives a rich set of bounds. Finally, we take <fr:tex
-display="inline"><![CDATA[a = b = c = d = 1/\sqrt {2}]]></fr:tex> up to a sign. Let <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> be the sum of all the sectional curvatures involved. Then we have
-  <fr:tex
-display="block"><![CDATA[2\kappa _1 < 2 S ± \frac {3}{2} |R_{ljki}| < 2\kappa _2.]]></fr:tex>
-  Therefore we have <fr:tex
-display="inline"><![CDATA[|R_{ljki}| < \frac {2}{3} (\kappa _2 - \kappa _1)]]></fr:tex>. And of course, if we start with non-strict pinching, we get analogous non-strict bounds.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+  <fr:tex display="inline"><![CDATA[ |R_{ikkj}| < \sqrt {(\operatorname {sec}_{i k} - \kappa _2)(\operatorname {sec}_{j k} - \kappa _2)}]]></fr:tex>.
+  We can also just take <fr:tex display="inline"><![CDATA[a = b = \pm  1/\sqrt {2}]]></fr:tex> to get coarser bounds.</fr:p>
+            <fr:p>Now for the general case. Taking <fr:tex display="inline"><![CDATA[b = ±b']]></fr:tex>, <fr:tex display="inline"><![CDATA[d = ±d']]></fr:tex> and summing the two inequalities, we cancel out four of the terms. Now take <fr:tex display="inline"><![CDATA[a \mapsto  -a]]></fr:tex> and permute <fr:tex display="inline"><![CDATA[(j, k, l) \mapsto  (l, j, k)]]></fr:tex> to get a new inequality. Taking the sum we now have
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    2\kappa _1 <&\quad  a^2 c^2 (\operatorname {sec}_{ik} + \operatorname {sec}_{ij})
+    + a^2 d^2 (\operatorname {sec}_{il} + \operatorname {sec}_{ik}) & \\
+    & + b^2 c^2 (\operatorname {sec}_{jk} + \operatorname {sec}_{lj})
+    + b^2 d^2 (\operatorname {sec}_{jl} + \operatorname {sec}_{lk}) & \\
+    & + 2 a b c d (R_{iklj} + R_{ilkj} - R_{ijkl} - R_{ikjl}) & < 2\kappa _2.
+  \end {aligned}]]></fr:tex>
+  The last term can be reduced to <fr:tex display="inline"><![CDATA[-6 abcd R_{ljki}]]></fr:tex> by the symmetries of the curvature tensor. AM–GM inequality now gives a rich set of bounds. Finally, we take <fr:tex display="inline"><![CDATA[a = b = c = d = 1/\sqrt {2}]]></fr:tex> up to a sign. Let <fr:tex display="inline"><![CDATA[S]]></fr:tex> be the sum of all the sectional curvatures involved. Then we have
+  <fr:tex display="block"><![CDATA[2\kappa _1 < 2 S ± \frac {3}{2} |R_{ljki}| < 2\kappa _2.]]></fr:tex>
+  Therefore we have <fr:tex display="inline"><![CDATA[|R_{ljki}| < \frac {2}{3} (\kappa _2 - \kappa _1)]]></fr:tex>. And of course, if we start with non-strict pinching, we get analogous non-strict bounds.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3131</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3132</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>1</fr:month>
+      <fr:day>6</fr:day>
+    </fr:date>
+    <fr:anchor>2718</fr:anchor>
+    <fr:addr type="machine">unstable/478</fr:addr>
+    <fr:route>unstable-478.xml</fr:route>
+    <fr:title text="A total category is cocomplete and complete › "><fr:link href="algm-0026.xml" title="A total category is cocomplete and complete" addr="algm-0026" type="local">A total category is cocomplete and complete</fr:link> › </fr:title>
+    <fr:taxon>Proof</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+  <fr:p>Using the colimit characterization of totality, given a small diagram <fr:tex display="inline"><![CDATA[D : I \to  \mathcal {C}]]></fr:tex>, we can attempt to construct a presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex> assigning <fr:tex display="inline"><![CDATA[F(X)]]></fr:tex> the set of all objects in <fr:tex display="inline"><![CDATA[I]]></fr:tex> mapped to <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and require that <fr:tex display="inline"><![CDATA[F(f)]]></fr:tex> sends the object <fr:tex display="inline"><![CDATA[i \in  I]]></fr:tex> to <fr:tex display="inline"><![CDATA[j \in  I]]></fr:tex> if there is an arrow in the colimit diagram going from <fr:tex display="inline"><![CDATA[j]]></fr:tex> to <fr:tex display="inline"><![CDATA[i]]></fr:tex> that is mapped to <fr:tex display="inline"><![CDATA[f]]></fr:tex> (multiple of the same arrow appearing in the colimit diagram doesn’t matter). But this leaves many functoriality requirements unsatisfied, so we freely add elements to <fr:tex display="inline"><![CDATA[F]]></fr:tex> for them. This will create additional arrows in the corresponding colimit diagram that end at existing objects, so the colimit is still unaffected.</fr:p>
+
+  <fr:p>It is nice to have a more uniform description of this. If we have a single object <fr:tex display="inline"><![CDATA[A]]></fr:tex> in the diagram, then the resulting presheaf will be exactly <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex>. For a general diagram, we need a colimit to glue all the <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex>’s together, and it’s not hard to see the required colimit is exactly <fr:tex display="inline"><![CDATA[\operatorname *{colim} \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} \mathbin {\circ } D]]></fr:tex>, where <fr:tex display="inline"><![CDATA[D]]></fr:tex> is the diagram functor.</fr:p>
+
+  <fr:p>For completeness, we use the same technique in proving cocomplete posets are complete: we can define <fr:tex display="inline"><![CDATA[\sup  U]]></fr:tex> as <fr:tex display="inline"><![CDATA[\inf  \{x \mid  x \ge  U\}]]></fr:tex>. In the same spirit, given a diagram <fr:tex display="inline"><![CDATA[U : I \to  \mathcal {C}]]></fr:tex>, we consider a locally small category whose objects are <fr:tex display="inline"><![CDATA[(X, F)]]></fr:tex> where <fr:tex display="inline"><![CDATA[X \in  \mathcal {C}]]></fr:tex> and <fr:tex display="inline"><![CDATA[F : \operatorname {const}(X) \to  U]]></fr:tex>, and the morphisms are obvious. This is equivalently the comma category <fr:tex display="inline"><![CDATA[\operatorname {const} \downarrow  U]]></fr:tex>. The limit is then the same as the colimit of the functor <fr:tex display="inline"><![CDATA[(X, F) \mapsto  X]]></fr:tex>. But this functor can be constructed as <fr:tex display="inline"><![CDATA[\pi _G : \int  G \to  \mathcal {C}]]></fr:tex> for some presheaf <fr:tex display="inline"><![CDATA[G]]></fr:tex>, namely <fr:tex display="inline"><![CDATA[G(Y) = \hom (\operatorname {const}(Y), U)]]></fr:tex>. Therefore the argument goes through despite involving large colimits.</fr:p>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2712</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2714</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0026.tree</fr:source-path>
+            <fr:anchor>2713</fr:anchor>
+            <fr:addr type="user">algm-0026</fr:addr>
+            <fr:route>algm-0026.xml</fr:route>
+            <fr:title text="A total category is cocomplete and complete">A total category is cocomplete and complete</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>A <fr:link href="algm-0025.xml" title="Total category" addr="algm-0025" type="local">total category</fr:link> is (small) cocomplete and complete. This shows totality is a strong form of cocompleteness, strong enough to behave like cocompleteness in posets, which also guarantees completeness.</fr:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0026.tree</fr:source-path><fr:anchor>1847</fr:anchor><fr:addr type="machine">unstable/478</fr:addr><fr:route>unstable-478.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>Using the colimit characterization of totality, given a small diagram <fr:tex display="inline"><![CDATA[D : I \to  \mathcal {C}]]></fr:tex>, we can attempt to construct a presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex> assigning <fr:tex display="inline"><![CDATA[F(X)]]></fr:tex> the set of all objects in <fr:tex display="inline"><![CDATA[I]]></fr:tex> mapped to <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and require that <fr:tex display="inline"><![CDATA[F(f)]]></fr:tex> sends the object <fr:tex display="inline"><![CDATA[i \in  I]]></fr:tex> to <fr:tex display="inline"><![CDATA[j \in  I]]></fr:tex> if there is an arrow in the colimit diagram going from <fr:tex display="inline"><![CDATA[j]]></fr:tex> to <fr:tex display="inline"><![CDATA[i]]></fr:tex> that is mapped to <fr:tex display="inline"><![CDATA[f]]></fr:tex> (multiple of the same arrow appearing in the colimit diagram doesn’t matter). But this leaves many functoriality requirements unsatisfied, so we freely add elements to <fr:tex display="inline"><![CDATA[F]]></fr:tex> for them. This will create additional arrows in the corresponding colimit diagram that end at existing objects, so the colimit is still unaffected.</fr:p>
+
+  <fr:p>It is nice to have a more uniform description of this. If we have a single object <fr:tex display="inline"><![CDATA[A]]></fr:tex> in the diagram, then the resulting presheaf will be exactly <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex>. For a general diagram, we need a colimit to glue all the <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex>’s together, and it’s not hard to see the required colimit is exactly <fr:tex display="inline"><![CDATA[\operatorname *{colim} \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} \mathbin {\circ } D]]></fr:tex>, where <fr:tex display="inline"><![CDATA[D]]></fr:tex> is the diagram functor.</fr:p>
+
+  <fr:p>For completeness, we use the same technique in proving cocomplete posets are complete: we can define <fr:tex display="inline"><![CDATA[\sup  U]]></fr:tex> as <fr:tex display="inline"><![CDATA[\inf  \{x \mid  x \ge  U\}]]></fr:tex>. In the same spirit, given a diagram <fr:tex display="inline"><![CDATA[U : I \to  \mathcal {C}]]></fr:tex>, we consider a locally small category whose objects are <fr:tex display="inline"><![CDATA[(X, F)]]></fr:tex> where <fr:tex display="inline"><![CDATA[X \in  \mathcal {C}]]></fr:tex> and <fr:tex display="inline"><![CDATA[F : \operatorname {const}(X) \to  U]]></fr:tex>, and the morphisms are obvious. This is equivalently the comma category <fr:tex display="inline"><![CDATA[\operatorname {const} \downarrow  U]]></fr:tex>. The limit is then the same as the colimit of the functor <fr:tex display="inline"><![CDATA[(X, F) \mapsto  X]]></fr:tex>. But this functor can be constructed as <fr:tex display="inline"><![CDATA[\pi _G : \int  G \to  \mathcal {C}]]></fr:tex> for some presheaf <fr:tex display="inline"><![CDATA[G]]></fr:tex>, namely <fr:tex display="inline"><![CDATA[G(Y) = \hom (\operatorname {const}(Y), U)]]></fr:tex>. Therefore the argument goes through despite involving large colimits.</fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2715</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2716</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2717</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

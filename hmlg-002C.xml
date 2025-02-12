@@ -1,135 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1144</fr:anchor><fr:addr
-type="user">hmlg-002C</fr:addr><fr:route>hmlg-002C.xml</fr:route><fr:title
-text="Associated simplicial fiber bundle">Associated simplicial fiber bundle</fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
-type="local"
-href="hmlg-0028.xml"
-addr="hmlg-0028"
-title="Simplicial principal fiber bundle">simplicial principal fiber bundle</fr:link> <fr:tex
-display="inline"><![CDATA[p : E \to  B]]></fr:tex> with simplicial group <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>, and a simplicial set <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> with a group action <fr:tex
-display="inline"><![CDATA[G \times  F \to  F]]></fr:tex>, we can construct a fiber bundle with fiber <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>, such that the twisting behaviour is described by the <fr:link
-type="local"
-href="hmlg-0028.xml"
-addr="hmlg-0028"
-title="Simplicial principal fiber bundle">principal bundle</fr:link> <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>.</fr:p><fr:p>We consider a group action on <fr:tex
-display="inline"><![CDATA[E \times  F]]></fr:tex>, by <fr:tex
-display="inline"><![CDATA[g \cdot  (e, f) = (e \cdot  g^{-1}, g \cdot  f)]]></fr:tex>. This action is clearly free. Suppose the quotient simplicial set is <fr:tex
-display="inline"><![CDATA[E']]></fr:tex>, then we have a <fr:link
-type="local"
-href="hmlg-0026.xml"
-addr="hmlg-0026"
-title="Simplicial fiber bundle">simplicial fiber bundle</fr:link> <fr:tex
-display="inline"><![CDATA[p' : E' \to  B]]></fr:tex> induced from <fr:tex
-display="inline"><![CDATA[p]]></fr:tex>. There is a <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>-action on the fibers, by acting on the <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> factor.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1146</fr:anchor><fr:addr
-type="user">hmlg-002D</fr:addr><fr:route>hmlg-002D.xml</fr:route><fr:title
-text="Associated twisted product">Associated twisted product</fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>5</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
-type="local"
-href="hmlg-002C.xml"
-addr="hmlg-002C"
-title="Associated simplicial fiber bundle">associated simplicial fiber bundle</fr:link> of <fr:link
-type="local"
-href="hmlg-002B.xml"
-addr="hmlg-002B"
-title="Twisted product of simplicial sets">twisted products</fr:link> admits a simpler description. Suppose we have simplicial sets <fr:tex
-display="inline"><![CDATA[F, B]]></fr:tex>, a simplicial group <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> with an action <fr:tex
-display="inline"><![CDATA[G \times  F \to  F]]></fr:tex> and a <fr:link
-type="local"
-href="hmlg-002A.xml"
-addr="hmlg-002A"
-title="Twisting function">twisting function</fr:link> <fr:tex
-display="inline"><![CDATA[\tau ]]></fr:tex> on <fr:tex
-display="inline"><![CDATA[B]]></fr:tex>. The <fr:strong>associated twisted product</fr:strong> <fr:tex
-display="inline"><![CDATA[B \times _\tau  F]]></fr:tex> is defined exactly the same as twisted products, except we replace the factor <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> with <fr:tex
-display="inline"><![CDATA[F]]></fr:tex>. This still makes sense, because we can interpret the multiplication <fr:tex
-display="inline"><![CDATA[\tau (b) \cdot  \partial _n f]]></fr:tex> as the <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>-action.</fr:p><fr:p>In particular, if we consider <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> as a simplicial set with a <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>-action on the left via multiplication, then the associated twisted product <fr:tex
-display="inline"><![CDATA[B \times _\tau  G]]></fr:tex> is exactly the same as the twisted product <fr:tex
-display="inline"><![CDATA[B \times _\tau  G]]></fr:tex>, which explains our identical notation.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1148</fr:anchor><fr:addr
-type="user">hmlg-0026</fr:addr><fr:route>hmlg-0026.xml</fr:route><fr:title
-text="Simplicial fiber bundle">Simplicial fiber bundle</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A (strict) <fr:strong>simplicial fiber bundle</fr:strong> <fr:tex
-display="inline"><![CDATA[p : E \to  B]]></fr:tex> with fiber <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is a simplicial map <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> such that for every simplex <fr:tex
-display="inline"><![CDATA[\Delta ^n \to  B]]></fr:tex>, the pullback of <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> along the simplex is isomorphic to <fr:tex
-display="inline"><![CDATA[\Delta ^n \times  F \to  \Delta ^n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1150</fr:anchor><fr:addr
-type="user">hmlg-0028</fr:addr><fr:route>hmlg-0028.xml</fr:route><fr:title
-text="Simplicial principal fiber bundle">Simplicial principal fiber bundle</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a simplicial group <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>, a <fr:link
-type="local"
-href="hmlg-0026.xml"
-addr="hmlg-0026"
-title="Simplicial fiber bundle">fiber bundle</fr:link> <fr:tex
-display="inline"><![CDATA[p : E \to  B]]></fr:tex> is <fr:strong>principal</fr:strong> if <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> acts on the fibers freely and transitively <fr:em>on the right</fr:em>. This condition can be checked in each dimension separately.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>2</fr:day>
+    </fr:date>
+    <fr:anchor>1074</fr:anchor>
+    <fr:addr type="user">hmlg-002C</fr:addr>
+    <fr:route>hmlg-002C.xml</fr:route>
+    <fr:title text="Associated simplicial fiber bundle">Associated simplicial fiber bundle</fr:title>
+    <fr:taxon>Construction</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Given a <fr:link href="hmlg-0028.xml" title="Simplicial principal fiber bundle" addr="hmlg-0028" type="local">simplicial principal fiber bundle</fr:link> <fr:tex display="inline"><![CDATA[p : E \to  B]]></fr:tex> with simplicial group <fr:tex display="inline"><![CDATA[G]]></fr:tex>, and a simplicial set <fr:tex display="inline"><![CDATA[F]]></fr:tex> with a group action <fr:tex display="inline"><![CDATA[G \times  F \to  F]]></fr:tex>, we can construct a fiber bundle with fiber <fr:tex display="inline"><![CDATA[F]]></fr:tex>, such that the twisting behaviour is described by the <fr:link href="hmlg-0028.xml" title="Simplicial principal fiber bundle" addr="hmlg-0028" type="local">principal bundle</fr:link> <fr:tex display="inline"><![CDATA[p]]></fr:tex>.</fr:p>
+    <fr:p>We consider a group action on <fr:tex display="inline"><![CDATA[E \times  F]]></fr:tex>, by <fr:tex display="inline"><![CDATA[g \cdot  (e, f) = (e \cdot  g^{-1}, g \cdot  f)]]></fr:tex>. This action is clearly free. Suppose the quotient simplicial set is <fr:tex display="inline"><![CDATA[E']]></fr:tex>, then we have a <fr:link href="hmlg-0026.xml" title="Simplicial fiber bundle" addr="hmlg-0026" type="local">simplicial fiber bundle</fr:link> <fr:tex display="inline"><![CDATA[p' : E' \to  B]]></fr:tex> induced from <fr:tex display="inline"><![CDATA[p]]></fr:tex>. There is a <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action on the fibers, by acting on the <fr:tex display="inline"><![CDATA[F]]></fr:tex> factor.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1066</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1067</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1069</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>3</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-002D.tree</fr:source-path>
+            <fr:anchor>1068</fr:anchor>
+            <fr:addr type="user">hmlg-002D</fr:addr>
+            <fr:route>hmlg-002D.xml</fr:route>
+            <fr:title text="Associated twisted product">Associated twisted product</fr:title>
+            <fr:taxon>Construction</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The <fr:link href="hmlg-002C.xml" title="Associated simplicial fiber bundle" addr="hmlg-002C" type="local">associated simplicial fiber bundle</fr:link> of <fr:link href="hmlg-002B.xml" title="Twisted product of simplicial sets" addr="hmlg-002B" type="local">twisted products</fr:link> admits a simpler description. Suppose we have simplicial sets <fr:tex display="inline"><![CDATA[F, B]]></fr:tex>, a simplicial group <fr:tex display="inline"><![CDATA[G]]></fr:tex> with an action <fr:tex display="inline"><![CDATA[G \times  F \to  F]]></fr:tex> and a <fr:link href="hmlg-002A.xml" title="Twisting function" addr="hmlg-002A" type="local">twisting function</fr:link> <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> on <fr:tex display="inline"><![CDATA[B]]></fr:tex>. The <fr:strong>associated twisted product</fr:strong> <fr:tex display="inline"><![CDATA[B \times _\tau  F]]></fr:tex> is defined exactly the same as twisted products, except we replace the factor <fr:tex display="inline"><![CDATA[G]]></fr:tex> with <fr:tex display="inline"><![CDATA[F]]></fr:tex>. This still makes sense, because we can interpret the multiplication <fr:tex display="inline"><![CDATA[\tau (b) \cdot  \partial _n f]]></fr:tex> as the <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action.</fr:p>
+            <fr:p>In particular, if we consider <fr:tex display="inline"><![CDATA[G]]></fr:tex> as a simplicial set with a <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action on the left via multiplication, then the associated twisted product <fr:tex display="inline"><![CDATA[B \times _\tau  G]]></fr:tex> is exactly the same as the twisted product <fr:tex display="inline"><![CDATA[B \times _\tau  G]]></fr:tex>, which explains our identical notation.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1072</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>29</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-0026.tree</fr:source-path>
+            <fr:anchor>1070</fr:anchor>
+            <fr:addr type="user">hmlg-0026</fr:addr>
+            <fr:route>hmlg-0026.xml</fr:route>
+            <fr:title text="Simplicial fiber bundle">Simplicial fiber bundle</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A (strict) <fr:strong>simplicial fiber bundle</fr:strong> <fr:tex display="inline"><![CDATA[p : E \to  B]]></fr:tex> with fiber <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a simplicial map <fr:tex display="inline"><![CDATA[p]]></fr:tex> such that for every simplex <fr:tex display="inline"><![CDATA[\Delta ^n \to  B]]></fr:tex>, the pullback of <fr:tex display="inline"><![CDATA[p]]></fr:tex> along the simplex is isomorphic to <fr:tex display="inline"><![CDATA[\Delta ^n \times  F \to  \Delta ^n]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>29</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-0028.tree</fr:source-path>
+            <fr:anchor>1071</fr:anchor>
+            <fr:addr type="user">hmlg-0028</fr:addr>
+            <fr:route>hmlg-0028.xml</fr:route>
+            <fr:title text="Simplicial principal fiber bundle">Simplicial principal fiber bundle</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given a simplicial group <fr:tex display="inline"><![CDATA[G]]></fr:tex>, a <fr:link href="hmlg-0026.xml" title="Simplicial fiber bundle" addr="hmlg-0026" type="local">fiber bundle</fr:link> <fr:tex display="inline"><![CDATA[p : E \to  B]]></fr:tex> is <fr:strong>principal</fr:strong> if <fr:tex display="inline"><![CDATA[G]]></fr:tex> acts on the fibers freely and transitively <fr:em>on the right</fr:em>. This condition can be checked in each dimension separately.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1073</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

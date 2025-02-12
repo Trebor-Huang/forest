@@ -1,288 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>851</fr:anchor><fr:addr
-type="user">algm-001Y</fr:addr><fr:route>algm-001Y.xml</fr:route><fr:title
-text="Affinification">Affinification</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
-type="local"
-href="algm-000R.xml"
-addr="algm-000R"
-title="Scheme">scheme</fr:link> <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, we can produce a best <fr:link
-type="local"
-href="algm-000Q.xml"
-addr="algm-000Q"
-title="Affine scheme">affine</fr:link> approximation <fr:tex
-display="inline"><![CDATA[S \to  S']]></fr:tex> for it. This serves as the adjoint unit of the <fr:link
-type="local"
-href="algm-0014.xml"
-addr="algm-0014"
-title="Adjunction of global section and {Spec}">adjunction of global section and <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex></fr:link>. Here we give a construction from the ground up.</fr:p><fr:p>We define <fr:tex
-display="inline"><![CDATA[S' = \operatorname {Spec} \Gamma (\top , \mathscr {O}_X)]]></fr:tex>. For the map <fr:tex
-display="inline"><![CDATA[S \to  S']]></fr:tex>, we define the preimage of the distinguished open <fr:tex
-display="inline"><![CDATA[D(f)]]></fr:tex> to be the non-vanishing open of <fr:tex
-display="inline"><![CDATA[f \in  \Gamma (\top , \mathscr {O}_X)]]></fr:tex>, which is defined on each affine subscheme as the distinguished open of <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>. This is obviously continuous. We can then pull back a section <fr:tex
-display="inline"><![CDATA[f/g]]></fr:tex> by considering them as an element of <fr:tex
-display="inline"><![CDATA[\Gamma (\top , \mathscr {O}_X)]]></fr:tex> and restricting them.</fr:p><fr:p>A scheme is affine iff the affinification is an isomorphism. This is a formal consequence that affine schemes form a full subcategory of schemes.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>853</fr:anchor><fr:addr
-type="user">algm-0020</fr:addr><fr:route>algm-0020.xml</fr:route><fr:title
-text="A non-distinguished affine subscheme">A non-distinguished affine subscheme</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>9</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Consider the <fr:link
-type="local"
-href="algm-000Q.xml"
-addr="algm-000Q"
-title="Affine scheme">affine scheme</fr:link> <fr:tex
-display="inline"><![CDATA[X = \operatorname {Spec} \mathbb {C}[x, y]/(y^2 - x^3) \simeq  \operatorname {Spec} \mathbb {C}[t^2, t^3]]]></fr:tex>, which is a degenerate cubic curve. We can remove the point <fr:tex
-display="inline"><![CDATA[(1,1)]]></fr:tex>, giving the open <fr:tex
-display="inline"><![CDATA[U = D(x-1) \cup  D(y-1)]]></fr:tex>. We claim that <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> is an affine subscheme but it is not of the form <fr:tex
-display="inline"><![CDATA[D(f)]]></fr:tex>.</fr:p>
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz">
-    <fr:embedded-tex
-hash="f96098304da00e10f55a64cfbdc3d338"><fr:embedded-tex-preamble><![CDATA[
-            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
-      \usetikzlibrary{decorations.pathreplacing}
-    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-      \begin {tikzpicture}
-  \draw [->] (-1, 0) -- (3, 0);
-  \draw [->] (0, -3) -- (0, 3);
-  \draw [domain=-1.4:1.4, samples=50, thick] plot ({(\x )^2}, {(\x )^3});
-  \filldraw [fill = white] (1,1) circle (0.05);
-\end {tikzpicture}
-    ]]></fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>8</fr:month>
+      <fr:day>22</fr:day>
+    </fr:date>
+    <fr:anchor>2782</fr:anchor>
+    <fr:addr type="user">algm-001Y</fr:addr>
+    <fr:route>algm-001Y.xml</fr:route>
+    <fr:title text="Affinification">Affinification</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Given a <fr:link href="algm-000R.xml" title="Scheme" addr="algm-000R" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex>, we can produce a best <fr:link href="algm-000Q.xml" title="Affine scheme" addr="algm-000Q" type="local">affine</fr:link> approximation <fr:tex display="inline"><![CDATA[S \to  S']]></fr:tex> for it. This serves as the adjoint unit of the <fr:link href="algm-0014.xml" title="Adjunction of global section and \operatorname{Spec}" addr="algm-0014" type="local">adjunction of global section and <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex></fr:link>. Here we give a construction from the ground up.</fr:p>
+    <fr:p>We define <fr:tex display="inline"><![CDATA[S' = \operatorname {Spec} \Gamma (\top , \mathscr {O}_X)]]></fr:tex>. For the map <fr:tex display="inline"><![CDATA[S \to  S']]></fr:tex>, we define the preimage of the distinguished open <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> to be the non-vanishing open of <fr:tex display="inline"><![CDATA[f \in  \Gamma (\top , \mathscr {O}_X)]]></fr:tex>, which is defined on each affine subscheme as the distinguished open of <fr:tex display="inline"><![CDATA[f]]></fr:tex>. This is obviously continuous. We can then pull back a section <fr:tex display="inline"><![CDATA[f/g]]></fr:tex> by considering them as an element of <fr:tex display="inline"><![CDATA[\Gamma (\top , \mathscr {O}_X)]]></fr:tex> and restricting them.</fr:p>
+    <fr:p>A scheme is affine iff the affinification is an isomorphism. This is a formal consequence that affine schemes form a full subcategory of schemes.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2772</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2773</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2776</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>3</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0020.tree</fr:source-path>
+            <fr:anchor>2774</fr:anchor>
+            <fr:addr type="machine">unstable/467</fr:addr>
+            <fr:route>unstable-467.xml</fr:route>
+            <fr:title text="A non-distinguished affine subscheme › "><fr:link href="algm-0020.xml" title="A non-distinguished affine subscheme" addr="algm-0020" type="local">A non-distinguished affine subscheme</fr:link> › </fr:title>
+            <fr:taxon>Proof</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+  <fr:p>We first prove it is not distinguished. Suppose <fr:tex display="inline"><![CDATA[U = D(f)]]></fr:tex>, we can choose a representative of <fr:tex display="inline"><![CDATA[f]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y]]]></fr:tex>. Now substituting <fr:tex display="inline"><![CDATA[x \mapsto  t^2, y \mapsto  t^3]]></fr:tex>, we need <fr:tex display="inline"><![CDATA[f(t^2, t^3)]]></fr:tex> to vanish only at <fr:tex display="inline"><![CDATA[t = 1]]></fr:tex>. Hence this is a polynomial <fr:tex display="inline"><![CDATA[\lambda  (t - 1)^n]]></fr:tex>. But this is impossible since it has a linear term, which cannot be produced by <fr:tex display="inline"><![CDATA[t^2]]></fr:tex> and <fr:tex display="inline"><![CDATA[t^3]]></fr:tex>.</fr:p>
 
+  <fr:p>Now we need to show <fr:tex display="inline"><![CDATA[U]]></fr:tex> is affine. The coordinate ring is actually given by the subring <fr:tex display="inline"><![CDATA[R]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathbb {C}[t, (t-1)^{-1}]]]></fr:tex> such that the derivative at zero is zero, which can be verified by gluing. By <fr:link href="algm-001Y.xml" title="Affinification" addr="algm-001Y" type="local">Definition <fr:contextual-number addr="algm-001Y" /></fr:link> we have a canonical map <fr:tex display="inline"><![CDATA[U \to  \operatorname {Spec} R]]></fr:tex>. Now restricting to the open <fr:tex display="inline"><![CDATA[D(t^2 - 1)]]></fr:tex> and <fr:tex display="inline"><![CDATA[D(t^3 - 1)]]></fr:tex> respectively, the two schemes are affine. By verifying the isomorphism of global sections, we see that they are isomorphic. Note that
+    <fr:tex display="block"><![CDATA[(t^3 - 1) \cdot  \frac {t^2}{t - 1} - (t^2 - 1) \cdot  \left (\frac {t^3}{t - 1} + 1\right ) = 1.]]></fr:tex>
+    So these cover <fr:tex display="inline"><![CDATA[\operatorname {Spec} R]]></fr:tex> (this is where it differs from <fr:link href="algm-001Z.xml" title="A non-affine scheme" addr="algm-001Z" type="local">Example <fr:contextual-number addr="algm-001Z" /></fr:link>), and we have our isomorphism.</fr:p>
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>8</fr:month>
+              <fr:day>22</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-001Z.tree</fr:source-path>
+            <fr:anchor>2775</fr:anchor>
+            <fr:addr type="machine">unstable/419</fr:addr>
+            <fr:route>unstable-419.xml</fr:route>
+            <fr:title text="A non-affine scheme › "><fr:link href="algm-001Z.xml" title="A non-affine scheme" addr="algm-001Z" type="local">A non-affine scheme</fr:link> › </fr:title>
+            <fr:taxon>Proof</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+  <fr:p>We just need to prove the <fr:link href="algm-001Y.xml" title="Affinification" addr="algm-001Y" type="local">affinification</fr:link> is not an isomorphism. Consider the global sections of the <fr:link href="algm-000M.xml" title="Ringed space" addr="algm-000M" type="local">structure sheaf</fr:link>, which comes from the pullback of <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y, x^{-1}]]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y, y^{-1}]]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y, x^{-1}, y^{-1}]]]></fr:tex>. The result is simply <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y]]]></fr:tex>. We can compute that the affinification map is the inclusion map into <fr:tex display="inline"><![CDATA[\mathbb {A}_{\mathbb {C}}^2]]></fr:tex>. This cannot be an isomorphism because the underlying space is different.</fr:p>
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2780</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0014.tree</fr:source-path>
+            <fr:anchor>2777</fr:anchor>
+            <fr:addr type="user">algm-0014</fr:addr>
+            <fr:route>algm-0014.xml</fr:route>
+            <fr:title text="Adjunction of global section and \operatorname{Spec}">Adjunction of global section and <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex></fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>We have an adjunction of functors <fr:tex display="block"><![CDATA[\mathsf {CRing}^\textrm {op} \xtofrom [\Gamma (\top , \mathscr {O}_{(-)})]{\operatorname {Spec}} \mathsf {Sch},]]></fr:tex> with <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> being the right adjoint (or <fr:tex display="inline"><![CDATA[\operatorname {Spec} : \mathsf {CRing} \to  \mathsf {Sch}^\textrm {op}]]></fr:tex> being the left adjoint). In fact, we can replace <fr:tex display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> with the category of <fr:link href="algm-000L.xml" title="Locally ringed space" addr="algm-000L" type="local">locally ringed spaces</fr:link> <fr:tex display="inline"><![CDATA[\mathsf {LRS}]]></fr:tex>, of whom <fr:tex display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> is a full subcategory.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>811</fr:anchor><fr:addr
-type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>9</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0020</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>We first prove it is not distinguished. Suppose <fr:tex
-display="inline"><![CDATA[U = D(f)]]></fr:tex>, we can choose a representative of <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[\mathbb {C}[x, y]]]></fr:tex>. Now substituting <fr:tex
-display="inline"><![CDATA[x \mapsto  t^2, y \mapsto  t^3]]></fr:tex>, we need <fr:tex
-display="inline"><![CDATA[f(t^2, t^3)]]></fr:tex> to vanish only at <fr:tex
-display="inline"><![CDATA[t = 1]]></fr:tex>. Hence this is a polynomial <fr:tex
-display="inline"><![CDATA[\lambda  (t - 1)^n]]></fr:tex>. But this is impossible since it has a linear term, which cannot be produced by <fr:tex
-display="inline"><![CDATA[t^2]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[t^3]]></fr:tex>.</fr:p>
-
-  <fr:p>Now we need to show <fr:tex
-display="inline"><![CDATA[U]]></fr:tex> is affine. The coordinate ring is actually given by the subring <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\mathbb {C}[t, (t-1)^{-1}]]]></fr:tex> such that the derivative at zero is zero, which can be verified by gluing. By <fr:ref
-addr="algm-001Y"
-href="algm-001Y.xml"
-taxon="Definition" /> we have a canonical map <fr:tex
-display="inline"><![CDATA[U \to  \operatorname {Spec} R]]></fr:tex>. Now restricting to the open <fr:tex
-display="inline"><![CDATA[D(t^2 - 1)]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[D(t^3 - 1)]]></fr:tex> respectively, the two schemes are affine. By verifying the isomorphism of global sections, we see that they are isomorphic. Note that
-    <fr:tex
-display="block"><![CDATA[(t^3 - 1) \cdot  \frac {t^2}{t - 1} - (t^2 - 1) \cdot  \left (\frac {t^3}{t - 1} + 1\right ) = 1.]]></fr:tex>
-    So these cover <fr:tex
-display="inline"><![CDATA[\operatorname {Spec} R]]></fr:tex> (this is where it differs from <fr:ref
-addr="algm-001Z"
-href="algm-001Z.xml"
-taxon="Example" />), and we have our isomorphism.</fr:p>
-</fr:mainmatter><fr:backmatter /></fr:tree>
-  
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>855</fr:anchor><fr:addr
-type="user">algm-001Z</fr:addr><fr:route>algm-001Z.xml</fr:route><fr:title
-text="A non-affine scheme">A non-affine scheme</fr:title><fr:taxon>Example</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The open subscheme of <fr:tex
-display="inline"><![CDATA[\mathbb {A}_{\mathbb {C}}^2 = \operatorname {Spec} \mathbb {C}[x, y]]]></fr:tex> given by removing the origin, or equivalently the open <fr:tex
-display="inline"><![CDATA[D(x) \cup  D(y)]]></fr:tex>, is not <fr:link
-type="local"
-href="algm-000Q.xml"
-addr="algm-000Q"
-title="Affine scheme">affine</fr:link>.</fr:p>
-  
-    
-    <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>831</fr:anchor><fr:addr
-type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-001Z</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>We just need to prove the <fr:link
-type="local"
-href="algm-001Y.xml"
-addr="algm-001Y"
-title="Affinification">affinification</fr:link> is not an isomorphism. Consider the global sections of the <fr:link
-type="local"
-href="algm-000M.xml"
-addr="algm-000M"
-title="Ringed space">structure sheaf</fr:link>, which comes from the pullback of <fr:tex
-display="inline"><![CDATA[\mathbb {C}[x, y, x^{-1}]]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\mathbb {C}[x, y, y^{-1}]]]></fr:tex> over <fr:tex
-display="inline"><![CDATA[\mathbb {C}[x, y, x^{-1}, y^{-1}]]]></fr:tex>. The result is simply <fr:tex
-display="inline"><![CDATA[\mathbb {C}[x, y]]]></fr:tex>. We can compute that the affinification map is the inclusion map into <fr:tex
-display="inline"><![CDATA[\mathbb {A}_{\mathbb {C}}^2]]></fr:tex>. This cannot be an isomorphism because the underlying space is different.</fr:p>
-</fr:mainmatter><fr:backmatter /></fr:tree>
-  
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>857</fr:anchor><fr:addr
-type="user">algm-0014</fr:addr><fr:route>algm-0014.xml</fr:route><fr:title
-text="Adjunction of global section and {Spec}">Adjunction of global section and <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex></fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We have an adjunction of functors <fr:tex
-display="block"><![CDATA[\mathsf {CRing}^\textrm {op} \xtofrom [\Gamma (\top , \mathscr {O}_{(-)})]{\operatorname {Spec}} \mathsf {Sch},]]></fr:tex> with <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> being the right adjoint (or <fr:tex
-display="inline"><![CDATA[\operatorname {Spec} : \mathsf {CRing} \to  \mathsf {Sch}^\textrm {op}]]></fr:tex> being the left adjoint). In fact, we can replace <fr:tex
-display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> with the category of <fr:link
-type="local"
-href="algm-000L.xml"
-addr="algm-000L"
-title="Locally ringed space">locally ringed spaces</fr:link> <fr:tex
-display="inline"><![CDATA[\mathsf {LRS}]]></fr:tex>, of whom <fr:tex
-display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> is a full subcategory.</fr:p>
-  
-    
-    <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>859</fr:anchor><fr:addr
-type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0014</fr:parent></fr:frontmatter><fr:mainmatter>
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0014.tree</fr:source-path><fr:anchor>2738</fr:anchor><fr:addr type="machine">unstable/471</fr:addr><fr:route>unstable-471.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
   <fr:p>We need to give a natural bijection
-    <fr:tex
-display="block"><![CDATA[\hom (X, \operatorname {Spec}(R)) \cong  \hom (R, \Gamma (\top , \mathscr {O}_X)).]]></fr:tex>
-    In other words, maps <fr:tex
-display="inline"><![CDATA[X \to  \operatorname {Spec}(R)]]></fr:tex> between locally ringed spaces are uniquely specified by the action of global sections.</fr:p>
+    <fr:tex display="block"><![CDATA[\hom (X, \operatorname {Spec}(R)) \cong  \hom (R, \Gamma (\top , \mathscr {O}_X)).]]></fr:tex>
+    In other words, maps <fr:tex display="inline"><![CDATA[X \to  \operatorname {Spec}(R)]]></fr:tex> between locally ringed spaces are uniquely specified by the action of global sections.</fr:p>
 
-  <fr:p>Since <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is glued from affine open subschemes, a map from <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> is equivalent to a map from each open subscheme <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(S_i)]]></fr:tex> that agree on common restrictions (which again can be checked on an affine covering). Since the codomain is affine, these maps are equivalently ring homomorphisms <fr:tex
-display="inline"><![CDATA[R \to  S_i]]></fr:tex> by <fr:ref
-addr="algm-000X"
-href="algm-000X.xml"
-taxon="Theorem" />. The elements of <fr:tex
-display="inline"><![CDATA[\Gamma (\top , \mathscr {O}_X)]]></fr:tex> are also given by a set of compatible elements from <fr:tex
-display="inline"><![CDATA[S_i]]></fr:tex>. Hence these two sets are naturally bijective.</fr:p>
-</fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:p>Since <fr:tex display="inline"><![CDATA[X]]></fr:tex> is glued from affine open subschemes, a map from <fr:tex display="inline"><![CDATA[X]]></fr:tex> is equivalent to a map from each open subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S_i)]]></fr:tex> that agree on common restrictions (which again can be checked on an affine covering). Since the codomain is affine, these maps are equivalently ring homomorphisms <fr:tex display="inline"><![CDATA[R \to  S_i]]></fr:tex> by <fr:link href="algm-000X.xml" title="Morphisms of affine schemes" addr="algm-000X" type="local">Theorem <fr:contextual-number addr="algm-000X" /></fr:link>. The elements of <fr:tex display="inline"><![CDATA[\Gamma (\top , \mathscr {O}_X)]]></fr:tex> are also given by a set of compatible elements from <fr:tex display="inline"><![CDATA[S_i]]></fr:tex>. Hence these two sets are naturally bijective.</fr:p>
+</fr:mainmatter></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>861</fr:anchor><fr:addr
-type="user">algm-000Q</fr:addr><fr:route>algm-000Q.xml</fr:route><fr:title
-text="Affine scheme">Affine scheme</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>An <fr:strong>affine scheme</fr:strong> is a <fr:link
-type="local"
-href="algm-000L.xml"
-addr="algm-000L"
-title="Locally ringed space">locally ringed space</fr:link> of the form <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> for some commutative ring <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>863</fr:anchor><fr:addr
-type="user">algm-000R</fr:addr><fr:route>algm-000R.xml</fr:route><fr:title
-text="Scheme">Scheme</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:strong>scheme</fr:strong> is a <fr:link
-type="local"
-href="algm-000L.xml"
-addr="algm-000L"
-title="Locally ringed space">locally ringed space</fr:link> with an open covering on which the space is isomorphic to <fr:link
-type="local"
-href="algm-000Q.xml"
-addr="algm-000Q"
-title="Affine scheme">affine schemes</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-000Q.tree</fr:source-path>
+            <fr:anchor>2778</fr:anchor>
+            <fr:addr type="user">algm-000Q</fr:addr>
+            <fr:route>algm-000Q.xml</fr:route>
+            <fr:title text="Affine scheme">Affine scheme</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>An <fr:strong>affine scheme</fr:strong> is a <fr:link href="algm-000L.xml" title="Locally ringed space" addr="algm-000L" type="local">locally ringed space</fr:link> of the form <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> for some commutative ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-000R.tree</fr:source-path>
+            <fr:anchor>2779</fr:anchor>
+            <fr:addr type="user">algm-000R</fr:addr>
+            <fr:route>algm-000R.xml</fr:route>
+            <fr:title text="Scheme">Scheme</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A <fr:strong>scheme</fr:strong> is a <fr:link href="algm-000L.xml" title="Locally ringed space" addr="algm-000L" type="local">locally ringed space</fr:link> with an open covering on which the space is isomorphic to <fr:link href="algm-000Q.xml" title="Affine scheme" addr="algm-000Q" type="local">affine schemes</fr:link>.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2781</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

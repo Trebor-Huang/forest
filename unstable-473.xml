@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>1</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:anchor>3100</fr:anchor>
+    <fr:addr type="machine">unstable/473</fr:addr>
+    <fr:route>unstable-473.xml</fr:route>
+    <fr:title text="Wave › "><fr:link href="algm-002D.xml" title="Wave" addr="algm-002D" type="local">Wave</fr:link> › </fr:title>
+    <fr:taxon>Proof</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+  <fr:p>We need to show that <fr:tex display="inline"><![CDATA[\operatorname {wave}(Y, X)]]></fr:tex> is a small set. Let <fr:tex display="inline"><![CDATA[Y^*]]></fr:tex> be the functor sending a presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex> to the set <fr:tex display="inline"><![CDATA[F(Y)]]></fr:tex>. The right Kan extension is given by
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      Y_* (A)(B) &= \hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (B), Y_* (A)) \\
+      &= \hom (Y^* (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (B)), A) \\
+      &= \hom (\hom (Y, B), A) = A^{B^Y}.
+    \end {aligned}]]></fr:tex>
+    Using the fact that <fr:link href="algm-002E.xml" title="\mathsf{Set} is total and cototal" addr="algm-002E" type="local"><fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex> is total and cototal</fr:link> and writing <fr:tex display="inline"><![CDATA[\operatorname {¿}]]></fr:tex> as the witness of cototality, we calculate
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      \operatorname {wave}(Y, X) &= \hom _{\mathsf {Psh}(\mathcal {C}) \to  \mathsf {Set}} (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?}, Y^*) \\
+      &= \hom _{\mathsf {Set} \to  \mathsf {Set}} (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?} \mathbin {\circ } Y_*, \textrm {Id}) \\
+      &= \hom _{\mathsf {Set} \to  \mathsf {Set}} (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?} \mathbin {\circ } Y_*, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (1^\textrm {op})) \\
+      &= \hom _{\mathsf {Set}} (1, \operatorname {¿}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?} \mathbin {\circ } Y_*)) \\
+      &= \operatorname {¿}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?} \mathbin {\circ } {Y_*})
+    \end {aligned}]]></fr:tex>
+    where the second equality is because the pseudofunctor <fr:tex display="inline"><![CDATA[(- \to  \mathsf {Set})]]></fr:tex> preserves adjoint pairs. Hence we know this is a small set.</fr:p>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3093</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3095</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-002D.tree</fr:source-path>
+            <fr:anchor>3094</fr:anchor>
+            <fr:addr type="user">algm-002D</fr:addr>
+            <fr:route>algm-002D.xml</fr:route>
+            <fr:title text="Wave">Wave</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>For a <fr:link href="algm-0025.xml" title="Total category" addr="algm-0025" type="local">total category</fr:link> <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, we can define a functor <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {ろ}\mkern {-2mu}} : \mathcal {C} \to  \mathsf {Psh}(\mathcal {C})]]></fr:tex> that will serve as the double left adjoint of <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> iff the category is actually a <fr:link href="algm-0028.xml" title="Totally distributive category" addr="algm-0028" type="local">totally distributive category</fr:link>. Since <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X)(Y) = \hom (Y, X)]]></fr:tex>, we similarly define <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {ろ}\mkern {-2mu}}(X)(Y) = \operatorname {wave}(Y, X)]]></fr:tex>, and call the elements <fr:strong>waves</fr:strong>.</fr:p><fr:p>A wave <fr:tex display="inline"><![CDATA[w : Y \rightsquigarrow  X]]></fr:tex> is defined by a family of maps <fr:tex display="inline"><![CDATA[\hom (X, \operatorname {?} F) \to  F(Y)]]></fr:tex> natural in the presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\operatorname {?} \dashv  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex>. This is intuitively a categorification of the “way way below” relation <fr:tex display="inline"><![CDATA[Y \lll  X]]></fr:tex> in posets. If we take <fr:tex display="inline"><![CDATA[F = \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X)]]></fr:tex>, then we get an actual arrow <fr:tex display="inline"><![CDATA[\bar {w} : Y \to  X]]></fr:tex>. This defines a natural transform <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {ろ}\mkern {-2mu}} \to  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex>, or equivalently <fr:tex display="inline"><![CDATA[\operatorname {?} \mathbin {\circ } \mathop {\mkern {-2mu}\text {ろ}\mkern {-2mu}} \to  \textrm {Id}]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>8</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-002D.tree</fr:source-path><fr:anchor>1843</fr:anchor><fr:addr type="machine">unstable/473</fr:addr><fr:route>unstable-473.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>We need to show that <fr:tex display="inline"><![CDATA[\operatorname {wave}(Y, X)]]></fr:tex> is a small set. Let <fr:tex display="inline"><![CDATA[Y^*]]></fr:tex> be the functor sending a presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex> to the set <fr:tex display="inline"><![CDATA[F(Y)]]></fr:tex>. The right Kan extension is given by
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      Y_* (A)(B) &= \hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (B), Y_* (A)) \\
+      &= \hom (Y^* (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (B)), A) \\
+      &= \hom (\hom (Y, B), A) = A^{B^Y}.
+    \end {aligned}]]></fr:tex>
+    Using the fact that <fr:link href="algm-002E.xml" title="\mathsf{Set} is total and cototal" addr="algm-002E" type="local"><fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex> is total and cototal</fr:link> and writing <fr:tex display="inline"><![CDATA[\operatorname {¿}]]></fr:tex> as the witness of cototality, we calculate
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      \operatorname {wave}(Y, X) &= \hom _{\mathsf {Psh}(\mathcal {C}) \to  \mathsf {Set}} (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?}, Y^*) \\
+      &= \hom _{\mathsf {Set} \to  \mathsf {Set}} (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?} \mathbin {\circ } Y_*, \textrm {Id}) \\
+      &= \hom _{\mathsf {Set} \to  \mathsf {Set}} (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?} \mathbin {\circ } Y_*, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (1^\textrm {op})) \\
+      &= \hom _{\mathsf {Set}} (1, \operatorname {¿}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?} \mathbin {\circ } Y_*)) \\
+      &= \operatorname {¿}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?} \mathbin {\circ } {Y_*})
+    \end {aligned}]]></fr:tex>
+    where the second equality is because the pseudofunctor <fr:tex display="inline"><![CDATA[(- \to  \mathsf {Set})]]></fr:tex> preserves adjoint pairs. Hence we know this is a small set.</fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3096</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3098</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-002E.tree</fr:source-path>
+            <fr:anchor>3097</fr:anchor>
+            <fr:addr type="user">algm-002E</fr:addr>
+            <fr:route>algm-002E.xml</fr:route>
+            <fr:title text="\mathsf{Set} is total and cototal"><fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex> is total and cototal</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>The category of small sets <fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex> is a <fr:link href="algm-0025.xml" title="Total category" addr="algm-0025" type="local">total category</fr:link>, and so is <fr:tex display="inline"><![CDATA[\mathsf {Set}^\textrm {op}]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>8</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-002E.tree</fr:source-path><fr:anchor>1841</fr:anchor><fr:addr type="machine">unstable/456</fr:addr><fr:route>unstable-456.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>The first claim is a special case of <fr:link href="algm-002A.xml" title="Presheaf category over a small category is total" addr="algm-002A" type="local">Example <fr:contextual-number addr="algm-002A" /></fr:link>. For the second claim, we use the limit characterization of cototality. Given a functor <fr:tex display="inline"><![CDATA[F : \mathsf {Set} \to  \mathsf {Set}]]></fr:tex>, we need to show the existence of <fr:tex display="inline"><![CDATA[\lim  (\pi _F : \int  F \to  \mathsf {Set})]]></fr:tex>. We claim that this is a subset of <fr:tex display="inline"><![CDATA[\mathcal {P}(F(\mathcal {P}(1)))]]></fr:tex>, i.e. we need to show that all the other components of an element in the limit are determined by the <fr:tex display="inline"><![CDATA[F(\mathcal {P}(1))]]></fr:tex> component. This is true because <fr:tex display="inline"><![CDATA[\mathcal {P}(1)]]></fr:tex> is a cogenerator of <fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex>.</fr:p>
+
+  <fr:p>Another way to see this is to let <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}^\textrm {op} \dashv  \operatorname {¿}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}^\textrm {op} : \mathsf {Set} \to  (\mathsf {Set} \to  \mathsf {Set})^\textrm {op}]]></fr:tex> is the coyoneda embedding, and calculate
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      \operatorname {¿}(F) &= \hom (1, \operatorname {¿}(F)) \\
+      &= \hom _{\mathsf {Set} \to  \mathsf {Set}} (F, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (1^\textrm {op})) \\
+      &= \hom (F, \textrm {Id}).
+    \end {aligned}]]></fr:tex>
+    So we only need to prove the natural transformations <fr:tex display="inline"><![CDATA[FX \to  X]]></fr:tex> form a small set, which works the same way, by substituting <fr:tex display="inline"><![CDATA[X]]></fr:tex> by the powerset of <fr:tex display="inline"><![CDATA[1]]></fr:tex>.</fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3099</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

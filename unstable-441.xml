@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>21</fr:day>
+    </fr:date>
+    <fr:anchor>2890</fr:anchor>
+    <fr:addr type="machine">unstable/441</fr:addr>
+    <fr:route>unstable-441.xml</fr:route>
+    <fr:title text="Completely distributive complete Boolean algebras are powersets › "><fr:link href="ualg-000L.xml" title="Completely distributive complete Boolean algebras are powersets" addr="ualg-000L" type="local">Completely distributive complete Boolean algebras are powersets</fr:link> › </fr:title>
+    <fr:taxon>Proof</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+  <fr:p>Consider the set of <fr:em>atoms</fr:em> <fr:tex display="inline"><![CDATA[A]]></fr:tex>, defined as minimal non-bottom elements. It suffices to prove the algebra is <fr:em>atomic</fr:em>, i.e. every non-bottom element has an atom below it. This is because we can remove all the atoms that an element contains, and the result must be <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex>. So every element is given by a join of atoms. Such a join must be unique, since the intersection of different atoms is empty, so given two ways to write an element as a join of atoms, we take the intersection and see that they must agree. This shows that the elements are in bijection with <fr:tex display="inline"><![CDATA[\mathcal {P}(A)]]></fr:tex>, with joins, meets and complements given by unions, intersections and complements, respectively.</fr:p>
+
+  <fr:p>To show atomicity, consider <fr:tex display="block"><![CDATA[\top  = \bigwedge _{b \in  B} (b \lor  \neg  b) = \bigvee _{S \subseteq  B} \left [ \bigwedge _{b \in  S} b \wedge  \bigwedge _{b \notin  S} \neg  b \right ].]]></fr:tex> Consider the disjunctive clauses in here not equal to <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> (which must exist unless <fr:tex display="inline"><![CDATA[\top  = \bot ]]></fr:tex> which trivially satisfies the requirements). They must be atoms because any element <fr:tex display="inline"><![CDATA[x]]></fr:tex> strictly below them must be below all the conjunctive items, so either <fr:tex display="inline"><![CDATA[x < x]]></fr:tex> or <fr:tex display="inline"><![CDATA[x < \neg  x]]></fr:tex>. The former is absurd and the latter implies <fr:tex display="inline"><![CDATA[x = \bot ]]></fr:tex>.</fr:p>
+
+  <fr:p>Taking the meet of the equation with an arbitrary element <fr:tex display="inline"><![CDATA[x]]></fr:tex> gives <fr:tex display="block"><![CDATA[x = \bigvee _{S \subseteq  B} \left [x \wedge  \bigwedge _{b \in  S} b \wedge  \bigwedge _{b \notin  S} \neg  b \right ].]]></fr:tex> If there are no atoms <fr:tex display="inline"><![CDATA[a \le  x]]></fr:tex>, then all the clauses must be <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> meaning <fr:tex display="inline"><![CDATA[x = \bot ]]></fr:tex>. This finishes the proof.</fr:p>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2884</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2886</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/ualg-000L.tree</fr:source-path>
+            <fr:anchor>2885</fr:anchor>
+            <fr:addr type="user">ualg-000L</fr:addr>
+            <fr:route>ualg-000L.xml</fr:route>
+            <fr:title text="Completely distributive complete Boolean algebras are powersets">Completely distributive complete Boolean algebras are powersets</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Every <fr:link href="ualg-000J.xml" title="Completely distributive complete Boolean algebra" addr="ualg-000J" type="local">completely distributive complete Boolean algebra</fr:link> is isomorphic to the set algebra of a powerset, and homomorphisms are given by inverse image map. In other words, the category of CDCBA is isomorphic to <fr:tex display="inline"><![CDATA[\mathsf {Set}^{\textrm {op}}]]></fr:tex> and the forgetful functor is given by the powerset <fr:tex display="inline"><![CDATA[\mathcal {P}(X) = 2^X]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/ualg-000L.tree</fr:source-path><fr:anchor>1502</fr:anchor><fr:addr type="machine">unstable/441</fr:addr><fr:route>unstable-441.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>Consider the set of <fr:em>atoms</fr:em> <fr:tex display="inline"><![CDATA[A]]></fr:tex>, defined as minimal non-bottom elements. It suffices to prove the algebra is <fr:em>atomic</fr:em>, i.e. every non-bottom element has an atom below it. This is because we can remove all the atoms that an element contains, and the result must be <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex>. So every element is given by a join of atoms. Such a join must be unique, since the intersection of different atoms is empty, so given two ways to write an element as a join of atoms, we take the intersection and see that they must agree. This shows that the elements are in bijection with <fr:tex display="inline"><![CDATA[\mathcal {P}(A)]]></fr:tex>, with joins, meets and complements given by unions, intersections and complements, respectively.</fr:p>
+
+  <fr:p>To show atomicity, consider <fr:tex display="block"><![CDATA[\top  = \bigwedge _{b \in  B} (b \lor  \neg  b) = \bigvee _{S \subseteq  B} \left [ \bigwedge _{b \in  S} b \wedge  \bigwedge _{b \notin  S} \neg  b \right ].]]></fr:tex> Consider the disjunctive clauses in here not equal to <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> (which must exist unless <fr:tex display="inline"><![CDATA[\top  = \bot ]]></fr:tex> which trivially satisfies the requirements). They must be atoms because any element <fr:tex display="inline"><![CDATA[x]]></fr:tex> strictly below them must be below all the conjunctive items, so either <fr:tex display="inline"><![CDATA[x < x]]></fr:tex> or <fr:tex display="inline"><![CDATA[x < \neg  x]]></fr:tex>. The former is absurd and the latter implies <fr:tex display="inline"><![CDATA[x = \bot ]]></fr:tex>.</fr:p>
+
+  <fr:p>Taking the meet of the equation with an arbitrary element <fr:tex display="inline"><![CDATA[x]]></fr:tex> gives <fr:tex display="block"><![CDATA[x = \bigvee _{S \subseteq  B} \left [x \wedge  \bigwedge _{b \in  S} b \wedge  \bigwedge _{b \notin  S} \neg  b \right ].]]></fr:tex> If there are no atoms <fr:tex display="inline"><![CDATA[a \le  x]]></fr:tex>, then all the clauses must be <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> meaning <fr:tex display="inline"><![CDATA[x = \bot ]]></fr:tex>. This finishes the proof.</fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2887</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2888</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2889</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

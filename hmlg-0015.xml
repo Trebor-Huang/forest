@@ -1,34 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2710</fr:anchor><fr:addr
-type="user">hmlg-0015</fr:addr><fr:route>hmlg-0015.xml</fr:route><fr:title
-text="Filtered chain complex">Filtered chain complex</fr:title><fr:taxon>Visualization</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Combining <fr:ref
-addr="hmlg-000A"
-href="hmlg-000A.xml"
-taxon="Visualization" /> and <fr:ref
-addr="hmlg-0014"
-href="hmlg-0014.xml"
-taxon="Visualization" />, we arrive at the following picture. Each family of colors corresponds to the filtration <fr:tex
-display="inline"><![CDATA[F_\bullet  C_n]]></fr:tex> in one dimension, and the different shades corresponds to the degree in the filtration.</fr:p>
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz">
-    <fr:embedded-tex
-hash="b55e54a19c8b33ac97aac70df87d7ce3"><fr:embedded-tex-preamble><![CDATA[
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>20</fr:day>
+    </fr:date>
+    <fr:anchor>1048</fr:anchor>
+    <fr:addr type="user">hmlg-0015</fr:addr>
+    <fr:route>hmlg-0015.xml</fr:route>
+    <fr:title text="Filtered chain complex">Filtered chain complex</fr:title>
+    <fr:taxon>Visualization</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><fr:p>Combining <fr:link href="hmlg-000A.xml" title="Chain complex" addr="hmlg-000A" type="local">Visualization <fr:contextual-number addr="hmlg-000A" /></fr:link> and <fr:link href="hmlg-0014.xml" title="Filtered object" addr="hmlg-0014" type="local">Visualization <fr:contextual-number addr="hmlg-0014" /></fr:link>, we arrive at the following picture. Each family of colors corresponds to the filtration <fr:tex display="inline"><![CDATA[F_\bullet  C_n]]></fr:tex> in one dimension, and the different shades corresponds to the degree in the filtration.</fr:p>
+  <html:span class="tikz" xmlns:html="http://www.w3.org/1999/xhtml">
+    <fr:resource hash="1b0bc236e964ca3af53d1a4230f7c01d"><fr:resource-content><fr:img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMC4zIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzQ2MC4wMDkzNjVwdCcgaGVpZ2h0PScxMTkuODUyMDM1cHQnIHZpZXdCb3g9Jy03MiAtNzIgNDYwLjAwOTM2NSAxMTkuODUyMDM1Jz4KPGcgaWQ9J3BhZ2UxJz4KPGcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg0NC42MTg5MDMsNDQuNjE4OTAzKXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknPgo8ZyBmaWxsPScjMDAwJyBzdHJva2U9JyMwMDAnPgo8ZyBzdHJva2Utd2lkdGg9JzAuNCc+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgZmlsbC1vcGFjaXR5PScwLjInPgo8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KPGcgZmlsbD0nIzMzYycgc3Ryb2tlPScjMzNjJz4KPHBhdGggZD0nTS0xMTMuODEwOTcgMTEzLjgxMDk3TDAgMEgxMTMuODEwOTdMMCAxMTMuODEwOTdaJyBzdHJva2U9J25vbmUnLz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIGZpbGwtb3BhY2l0eT0nMC4yJz4KPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CjxnIGZpbGw9JyMyNmNjMGMnIHN0cm9rZT0nIzI2Y2MwYyc+CjxwYXRoIGQ9J00wIDBMMTEzLjgxMDk3IDExMy44MTA5N0gyMjcuNjIxOTVMMTEzLjgxMDk3IDBaJyBzdHJva2U9J25vbmUnLz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIGZpbGwtb3BhY2l0eT0nMC4yJz4KPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CjxnIGZpbGw9JyNmYzAnIHN0cm9rZT0nI2ZjMCc+CjxwYXRoIGQ9J00xMTMuODEwOTcgMTEzLjgxMDk3TDIyNy42MjE5NSAwSDM0MS40MzI5MkwyMjcuNjIxOTUgMTEzLjgxMDk3Wicgc3Ryb2tlPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuMic+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8ZyBmaWxsPScjMzNjJyBzdHJva2U9JyMzM2MnPgo8cGF0aCBkPSdNLTExMy44MTA5NyAxMTMuODEwOTdMMCAwSDg1LjM1ODIzTC0yOC40NTI3NCAxMTMuODEwOTdaJyBzdHJva2U9J25vbmUnLz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIGZpbGwtb3BhY2l0eT0nMC4yJz4KPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CjxnIGZpbGw9JyMyNmNjMGMnIHN0cm9rZT0nIzI2Y2MwYyc+CjxwYXRoIGQ9J00wIDBMMTEzLjgxMDk3IDExMy44MTA5N0gxOTkuMTY5Mkw4NS4zNTgyMyAwWicgc3Ryb2tlPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuMic+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8ZyBmaWxsPScjZmMwJyBzdHJva2U9JyNmYzAnPgo8cGF0aCBkPSdNMTEzLjgxMDk3IDExMy44MTA5N0wyMjcuNjIxOTUgMEgzMTIuOTgwMThMMTk5LjE2OTIgMTEzLjgxMDk3Wicgc3Ryb2tlPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuMic+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8ZyBmaWxsPScjMzNjJyBzdHJva2U9JyMzM2MnPgo8cGF0aCBkPSdNLTExMy44MTA5NyAxMTMuODEwOTdMMCAwSDU2LjkwNTQ5TC01Ni45MDU0OSAxMTMuODEwOTdaJyBzdHJva2U9J25vbmUnLz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIGZpbGwtb3BhY2l0eT0nMC4yJz4KPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CjxnIGZpbGw9JyMyNmNjMGMnIHN0cm9rZT0nIzI2Y2MwYyc+CjxwYXRoIGQ9J00wIDBMMTEzLjgxMDk3IDExMy44MTA5N0gxNzAuNzE2NDZMNTYuOTA1NDkgMFonIHN0cm9rZT0nbm9uZScvPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgZmlsbC1vcGFjaXR5PScwLjInPgo8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KPGcgZmlsbD0nI2ZjMCcgc3Ryb2tlPScjZmMwJz4KPHBhdGggZD0nTTExMy44MTA5NyAxMTMuODEwOTdMMjI3LjYyMTk1IDBIMjg0LjUyNzQ0TDE3MC43MTY0NiAxMTMuODEwOTdaJyBzdHJva2U9J25vbmUnLz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIGZpbGwtb3BhY2l0eT0nMC4yJz4KPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CjxnIGZpbGw9JyMzM2MnIHN0cm9rZT0nIzMzYyc+CjxwYXRoIGQ9J00tMTEzLjgxMDk3IDExMy44MTA5N0wwIDBIMjguNDUyNzRMLTg1LjM1ODIzIDExMy44MTA5N1onIHN0cm9rZT0nbm9uZScvPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgZmlsbC1vcGFjaXR5PScwLjInPgo8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KPGcgZmlsbD0nIzI2Y2MwYycgc3Ryb2tlPScjMjZjYzBjJz4KPHBhdGggZD0nTTAgMEwxMTMuODEwOTcgMTEzLjgxMDk3SDE0Mi4yNjM3MkwyOC40NTI3NCAwWicgc3Ryb2tlPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuMic+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8ZyBmaWxsPScjZmMwJyBzdHJva2U9JyNmYzAnPgo8cGF0aCBkPSdNMTEzLjgxMDk3IDExMy44MTA5N0wyMjcuNjIxOTUgMEgyNTYuMDc0NjlMMTQyLjI2MzcyIDExMy44MTA5N1onIHN0cm9rZT0nbm9uZScvPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgZmlsbC1vcGFjaXR5PScwLjInPgo8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KPHBhdGggZD0nTS0yOC40NTI3NCAxMTMuODEwOTdMODUuMzU4MjMgMEgxMTMuODEwOTdMMCAxMTMuODEwOTdaJyBmaWxsPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgZmlsbC1vcGFjaXR5PScwLjInPgo8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KPHBhdGggZD0nTTg1LjM1ODIzIDBMMTk5LjE2OTIgMTEzLjgxMDk3SDIyNy42MjE5NUwxMTMuODEwOTcgMFonIGZpbGw9J25vbmUnLz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuMic+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8cGF0aCBkPSdNMTk5LjE2OTIgMTEzLjgxMDk3TDMxMi45ODAxOCAwSDM0MS40MzI5MkwyMjcuNjIxOTUgMTEzLjgxMDk3WicgZmlsbD0nbm9uZScvPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIGZpbGwtb3BhY2l0eT0nMC4yJz4KPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CjxwYXRoIGQ9J00tNTYuOTA1NDkgMTEzLjgxMDk3TDU2LjkwNTQ5IDBIODUuMzU4MjNMLTI4LjQ1Mjc0IDExMy44MTA5N1onIGZpbGw9J25vbmUnLz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuMic+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8cGF0aCBkPSdNNTYuOTA1NDkgMEwxNzAuNzE2NDYgMTEzLjgxMDk3SDE5OS4xNjkyTDg1LjM1ODIzIDBaJyBmaWxsPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgZmlsbC1vcGFjaXR5PScwLjInPgo8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KPHBhdGggZD0nTTE3MC43MTY0NiAxMTMuODEwOTdMMjg0LjUyNzQ0IDBIMzEyLjk4MDE4TDE5OS4xNjkyIDExMy44MTA5N1onIGZpbGw9J25vbmUnLz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuMic+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8cGF0aCBkPSdNLTg1LjM1ODIzIDExMy44MTA5N0wyOC40NTI3NCAwSDU2LjkwNTQ5TC01Ni45MDU0OSAxMTMuODEwOTdaJyBmaWxsPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgZmlsbC1vcGFjaXR5PScwLjInPgo8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KPHBhdGggZD0nTTI4LjQ1Mjc0IDBMMTQyLjI2MzcyIDExMy44MTA5N0gxNzAuNzE2NDZMNTYuOTA1NDkgMFonIGZpbGw9J25vbmUnLz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuMic+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8cGF0aCBkPSdNMTQyLjI2MzcyIDExMy44MTA5N0wyNTYuMDc0NjkgMEgyODQuNTI3NDRMMTcwLjcxNjQ2IDExMy44MTA5N1onIGZpbGw9J25vbmUnLz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuMic+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8cGF0aCBkPSdNLTExMy44MTA5NyAxMTMuODEwOTdMMCAwSDI4LjQ1Mjc0TC04NS4zNTgyMyAxMTMuODEwOTdaJyBmaWxsPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgZmlsbC1vcGFjaXR5PScwLjInPgo8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KPHBhdGggZD0nTTAgMEwxMTMuODEwOTcgMTEzLjgxMDk3SDE0Mi4yNjM3MkwyOC40NTI3NCAwWicgZmlsbD0nbm9uZScvPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIGZpbGwtb3BhY2l0eT0nMC4yJz4KPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CjxwYXRoIGQ9J00xMTMuODEwOTcgMTEzLjgxMDk3TDIyNy42MjE5NSAwSDI1Ni4wNzQ2OUwxNDIuMjYzNzIgMTEzLjgxMDk3WicgZmlsbD0nbm9uZScvPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+Cjwvc3ZnPg==" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
       \usetikzlibrary{decorations.pathreplacing}
-    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
       \begin {tikzpicture}
   \tikzset {every path/.style={thick, fill opacity = 0.2, line join = round}}
   \foreach  \depth  in {4,3,2,1} {
@@ -43,20 +38,15 @@ hash="b55e54a19c8b33ac97aac70df87d7ce3"><fr:embedded-tex-preamble><![CDATA[
     \draw  ({\depth  + 3},4) -- ({\depth  + 7},0) -- ({\depth  + 8}, 0) -- ({\depth  + 4}, 4) -- cycle;
   }
 \end {tikzpicture}
-    ]]></fr:embedded-tex-body></fr:embedded-tex>
+    ]]></fr:resource-source></fr:resource>
   </html:span>
-<fr:p>Note that we arranged so that only the higher degree (i.e. the lighter color) components may touch the lower degree components in the next dimension. So the intersection is a triangle shape instead of a complete diamond grid. This corresponds to the requirement that the boundary map sends <fr:tex
-display="inline"><![CDATA[F_i C_j]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[F_i C_{j+1}]]></fr:tex>.</fr:p><fr:p>We can see the associated spectral sequences directly from the visualization. We start with the graded components, which form strands of chain complexes. Here the second degree is highlighted.
+<fr:p>Note that we arranged so that only the higher degree (i.e. the lighter color) components may touch the lower degree components in the next dimension. So the intersection is a triangle shape instead of a complete diamond grid. This corresponds to the requirement that the boundary map sends <fr:tex display="inline"><![CDATA[F_i C_j]]></fr:tex> to <fr:tex display="inline"><![CDATA[F_i C_{j+1}]]></fr:tex>.</fr:p><fr:p>We can see the associated spectral sequences directly from the visualization. We start with the graded components, which form strands of chain complexes. Here the second degree is highlighted.
   
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz">
-    <fr:embedded-tex
-hash="503f03422a46aab9e25b88aafcb49af9"><fr:embedded-tex-preamble><![CDATA[
+  <html:span class="tikz" xmlns:html="http://www.w3.org/1999/xhtml">
+    <fr:resource hash="e2904413301f156cb054d096081fa0a6"><fr:resource-content><fr:img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMC4zIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzQ2MC4wMDkzNjVwdCcgaGVpZ2h0PScxMTkuODUyMDM1cHQnIHZpZXdCb3g9Jy03MiAtNzIgNDYwLjAwOTM2NSAxMTkuODUyMDM1Jz4KPGcgaWQ9J3BhZ2UxJz4KPGcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg0NC42MTg5MDMsNDQuNjE4OTAzKXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknPgo8ZyBmaWxsPScjMDAwJyBzdHJva2U9JyMwMDAnPgo8ZyBzdHJva2Utd2lkdGg9JzAuNCc+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgZmlsbC1vcGFjaXR5PScwLjQnPgo8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KPGcgZmlsbD0nIzMzYycgc3Ryb2tlPScjMzNjJz4KPHBhdGggZD0nTS04NS4zNTgyMyAxMTMuODEwOTdMMjguNDUyNzQgMEg1Ni45MDU0OUwtNTYuOTA1NDkgMTEzLjgxMDk3Wicgc3Ryb2tlPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuNCc+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8ZyBmaWxsPScjMjZjYzBjJyBzdHJva2U9JyMyNmNjMGMnPgo8cGF0aCBkPSdNMjguNDUyNzQgMEwxNDIuMjYzNzIgMTEzLjgxMDk3SDE3MC43MTY0Nkw1Ni45MDU0OSAwWicgc3Ryb2tlPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuNCc+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8ZyBmaWxsPScjZmMwJyBzdHJva2U9JyNmYzAnPgo8cGF0aCBkPSdNMTQyLjI2MzcyIDExMy44MTA5N0wyNTYuMDc0NjkgMEgyODQuNTI3NDRMMTcwLjcxNjQ2IDExMy44MTA5N1onIHN0cm9rZT0nbm9uZScvPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgZmlsbC1vcGFjaXR5PScwLjQnPgo8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KPHBhdGggZD0nTS0yOC40NTI3NCAxMTMuODEwOTdMODUuMzU4MjMgMEgxMTMuODEwOTdMMCAxMTMuODEwOTdaJyBmaWxsPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgZmlsbC1vcGFjaXR5PScwLjQnPgo8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KPHBhdGggZD0nTTg1LjM1ODIzIDBMMTk5LjE2OTIgMTEzLjgxMDk3SDIyNy42MjE5NUwxMTMuODEwOTcgMFonIGZpbGw9J25vbmUnLz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuNCc+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8cGF0aCBkPSdNMTk5LjE2OTIgMTEzLjgxMDk3TDMxMi45ODAxOCAwSDM0MS40MzI5MkwyMjcuNjIxOTUgMTEzLjgxMDk3WicgZmlsbD0nbm9uZScvPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIGZpbGwtb3BhY2l0eT0nMC40Jz4KPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CjxwYXRoIGQ9J00tNTYuOTA1NDkgMTEzLjgxMDk3TDU2LjkwNTQ5IDBIODUuMzU4MjNMLTI4LjQ1Mjc0IDExMy44MTA5N1onIGZpbGw9J25vbmUnLz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuNCc+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8cGF0aCBkPSdNNTYuOTA1NDkgMEwxNzAuNzE2NDYgMTEzLjgxMDk3SDE5OS4xNjkyTDg1LjM1ODIzIDBaJyBmaWxsPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgZmlsbC1vcGFjaXR5PScwLjQnPgo8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KPHBhdGggZD0nTTE3MC43MTY0NiAxMTMuODEwOTdMMjg0LjUyNzQ0IDBIMzEyLjk4MDE4TDE5OS4xNjkyIDExMy44MTA5N1onIGZpbGw9J25vbmUnLz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuNCc+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8cGF0aCBkPSdNLTg1LjM1ODIzIDExMy44MTA5N0wyOC40NTI3NCAwSDU2LjkwNTQ5TC01Ni45MDU0OSAxMTMuODEwOTdaJyBmaWxsPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgZmlsbC1vcGFjaXR5PScwLjQnPgo8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KPHBhdGggZD0nTTI4LjQ1Mjc0IDBMMTQyLjI2MzcyIDExMy44MTA5N0gxNzAuNzE2NDZMNTYuOTA1NDkgMFonIGZpbGw9J25vbmUnLz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuNCc+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8cGF0aCBkPSdNMTQyLjI2MzcyIDExMy44MTA5N0wyNTYuMDc0NjkgMEgyODQuNTI3NDRMMTcwLjcxNjQ2IDExMy44MTA5N1onIGZpbGw9J25vbmUnLz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuNCc+CjxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgo8cGF0aCBkPSdNLTExMy44MTA5NyAxMTMuODEwOTdMMCAwSDI4LjQ1Mjc0TC04NS4zNTgyMyAxMTMuODEwOTdaJyBmaWxsPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgZmlsbC1vcGFjaXR5PScwLjQnPgo8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KPHBhdGggZD0nTTAgMEwxMTMuODEwOTcgMTEzLjgxMDk3SDE0Mi4yNjM3MkwyOC40NTI3NCAwWicgZmlsbD0nbm9uZScvPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIGZpbGwtb3BhY2l0eT0nMC40Jz4KPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CjxwYXRoIGQ9J00xMTMuODEwOTcgMTEzLjgxMDk3TDIyNy42MjE5NSAwSDI1Ni4wNzQ2OUwxNDIuMjYzNzIgMTEzLjgxMDk3WicgZmlsbD0nbm9uZScvPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+Cjwvc3ZnPg==" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
       \usetikzlibrary{decorations.pathreplacing}
-    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
       \begin {tikzpicture}
     \tikzset {every path/.style={thick, fill opacity = 0.4, line join = round}}
     \foreach  \depth  in {2} {
@@ -71,40 +61,63 @@ hash="503f03422a46aab9e25b88aafcb49af9"><fr:embedded-tex-preamble><![CDATA[
       \draw  ({\depth  + 3},4) -- ({\depth  + 7},0) -- ({\depth  + 8}, 0) -- ({\depth  + 4}, 4) -- cycle;
     }
   \end {tikzpicture}
-    ]]></fr:embedded-tex-body></fr:embedded-tex>
+    ]]></fr:resource-source></fr:resource>
   </html:span>
 
-  The homology chops off the intersections, and so we enter the first page of the spectral sequence, consisting of strands with the top and bottom part cut off. Repeatedly taking homology, we are finally left with the rectangular part in the middle, which is the graded components of the desired homology group of the entire complex.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2712</fr:anchor><fr:addr
-type="user">hmlg-0014</fr:addr><fr:route>hmlg-0014.xml</fr:route><fr:title
-text="Filtered object">Filtered object</fr:title><fr:taxon>Visualization</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>20</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>We can visualize a filtered object <fr:tex
-display="inline"><![CDATA[F_1 A \subseteq  F_2 A \subseteq  F_3 A \subseteq  A]]></fr:tex> as nested rectangles. The graded components of this filtration are the individual rectangular regions.</fr:p>
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz">
-    <fr:embedded-tex
-hash="3c05fffcc0c2aff9060e6b53726e0007"><fr:embedded-tex-preamble><![CDATA[
+  The homology chops off the intersections, and so we enter the first page of the spectral sequence, consisting of strands with the top and bottom part cut off. Repeatedly taking homology, we are finally left with the rectangular part in the middle, which is the graded components of the desired homology group of the entire complex.</fr:p></fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1041</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1042</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1043</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1046</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-0014.tree</fr:source-path>
+            <fr:anchor>1044</fr:anchor>
+            <fr:addr type="user">hmlg-0014</fr:addr>
+            <fr:route>hmlg-0014.xml</fr:route>
+            <fr:title text="Filtered object">Filtered object</fr:title>
+            <fr:taxon>Visualization</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>We can visualize a filtered object <fr:tex display="inline"><![CDATA[F_1 A \subseteq  F_2 A \subseteq  F_3 A \subseteq  A]]></fr:tex> as nested rectangles. The graded components of this filtration are the individual rectangular regions.</fr:p>
+  <html:span class="tikz" xmlns:html="http://www.w3.org/1999/xhtml">
+    <fr:resource hash="6768e0511351b64e03293bedb4a92f13"><fr:resource-content><fr:img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMC4zIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzExOS44NTIwMzVwdCcgaGVpZ2h0PSc2My4xNTkxNTNwdCcgdmlld0JveD0nLTcyIC03MiAxMTkuODUyMDM1IDYzLjE1OTE1Myc+CjxnIGlkPSdwYWdlMSc+CjxnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTY4Ljc2Njg3NCwtNDAuNDIwNDMpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIGZpbGw9JyMwMDAnIHN0cm9rZT0nIzAwMCc+CjxnIHN0cm9rZS13aWR0aD0nMC40Jz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsPScjMzNjJz4KPGcgZmlsbC1vcGFjaXR5PScwLjEnPgo8cGF0aCBkPSdNMC0yOC40NTI3NFYyOC40NTI3NEgxMTMuODEwOTdWLTI4LjQ1Mjc0Wk0xMTMuODEwOTcgMjguNDUyNzQnLz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsPScjMzNjJz4KPGcgZmlsbC1vcGFjaXR5PScwLjEnPgo8cGF0aCBkPSdNMC0yOC40NTI3NFYyOC40NTI3NEg4NS4zNTgyM1YtMjguNDUyNzRaTTg1LjM1ODIzIDI4LjQ1Mjc0Jy8+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgZmlsbD0nIzMzYyc+CjxnIGZpbGwtb3BhY2l0eT0nMC4xJz4KPHBhdGggZD0nTTAtMjguNDUyNzRWMjguNDUyNzRINTYuOTA1NDlWLTI4LjQ1Mjc0Wk01Ni45MDU0OSAyOC40NTI3NCcvPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIGZpbGw9JyMzM2MnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuMSc+CjxwYXRoIGQ9J00wLTI4LjQ1Mjc0VjI4LjQ1Mjc0SDI4LjQ1Mjc0Vi0yOC40NTI3NFpNMjguNDUyNzQgMjguNDUyNzQnLz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L3N2Zz4=" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
       \usetikzlibrary{decorations.pathreplacing}
-    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
       \begin {tikzpicture}
   \tikzset {every path/.style={thick, fill = blue!80!yellow, fill opacity = 0.1}}
   \filldraw  (0,-1) rectangle (4,1);
@@ -112,32 +125,35 @@ hash="3c05fffcc0c2aff9060e6b53726e0007"><fr:embedded-tex-preamble><![CDATA[
   \filldraw  (0,-1) rectangle (2,1);
   \filldraw  (0,-1) rectangle (1,1);
 \end {tikzpicture}
-    ]]></fr:embedded-tex-body></fr:embedded-tex>
+    ]]></fr:resource-source></fr:resource>
   </html:span>
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2714</fr:anchor><fr:addr
-type="user">hmlg-000A</fr:addr><fr:route>hmlg-000A.xml</fr:route><fr:title
-text="Chain complex">Chain complex</fr:title><fr:taxon>Visualization</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Since the boundary subgroup in one dimension can also be considered as a quotient in a lower dimension, it may be beneficial to identify the two in a visualization. This leads to the following picture. Regions appearing to the right are to be considered as quotients, and those to the left as subobjects. Further development of this visualization scheme can be seen <fr:link
-type="external"
-href="https://www.3blue1brown.com/blog/exact-sequence-picturebook">here</fr:link>.</fr:p>
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz">
-    <fr:embedded-tex
-hash="75975521ce806e2a3d6a44765ebdd313"><fr:embedded-tex-preamble><![CDATA[
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-000A.tree</fr:source-path>
+            <fr:anchor>1045</fr:anchor>
+            <fr:addr type="user">hmlg-000A</fr:addr>
+            <fr:route>hmlg-000A.xml</fr:route>
+            <fr:title text="Chain complex">Chain complex</fr:title>
+            <fr:taxon>Visualization</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Since the boundary subgroup in one dimension can also be considered as a quotient in a lower dimension, it may be beneficial to identify the two in a visualization. This leads to the following picture. Regions appearing to the right are to be considered as quotients, and those to the left as subobjects. Further development of this visualization scheme can be seen <fr:link href="https://www.3blue1brown.com/blog/exact-sequence-picturebook" type="external">here</fr:link>.</fr:p>
+  <html:span class="tikz" xmlns:html="http://www.w3.org/1999/xhtml">
+    <fr:resource hash="e6f840e52babb21ae173e2964ca5c1be"><fr:resource-content><fr:img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMC4zIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzIyNi43NzExNThwdCcgaGVpZ2h0PScxMzAuMzkzNDQ1cHQnIHZpZXdCb3g9Jy03MiAtNzIgMjI2Ljc3MTE1OCAxMzAuMzkzNDQ1Jz4KPHN0eWxlIHR5cGU9J3RleHQvY3NzJz4KPCFbQ0RBVEFbQGZvbnQtZmFjZXtmb250LWZhbWlseTptbG1zeTg7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQUw0QUFvQUFBQUFBMXdBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRW9BQUFCZ3FuQ1VrV050WVhBQUFBRkFBQUFBS2dBQUFEUUFEQ0psWjJ4NVpnQUFBV3dBQUFBd0FBQUFNTTU3Ynd4b1pXRmtBQUFCbkFBQUFDd0FBQUEyS2doMVNHaG9aV0VBQUFISUFBQUFIZ0FBQUNRR2QvOTFhRzEwZUFBQUFlZ0FBQUFJQUFBQUNBWkpBRk5zYjJOaEFBQUI4QUFBQUFZQUFBQUdBQmdBQUcxaGVIQUFBQUg0QUFBQUZ3QUFBQ0FBQkFBTmJtRnRaUUFBQWhBQUFBRFdBQUFCUGtOaEpTTndiM04wQUFBQzZBQUFBQkFBQUFBZ0FBTUFBWGphWTJCbTltT2N3TURLd01BMGkrbnNQeEdHZmhETitJYnhEWU14SXljREVMQXhvQUFIR0NPbHVDeWRnVTFKU0VtSVdlT1BDZ01Ec3diekhhQXdJMExwLy84TURBRGxzdzQxQUFCNDJtTmdZR0JpWUdCZ0JtSVJJTWtJcGxrWUZJQTBDeEFDK1VwQy8vOUR5THZ2d2ZJTUFGR29CcEFBQUFBQkFGTUEzd0w3QVNFQUN3QUFBVElXRkFZaklTSW1ORFl6QXM0VEdob1QvYkVTR2hvU0FTRU9KZzRPSmc0QUFIamFZMkJrWUdBQTR2MmlrdWJ4L0RaZkdaaFpHRURnOFNYSnFjZzBzeCtqSXBEaVlHQUM4UUR5UmdnUWVOcGpZR1JnWU5iNG93SWsvUmlDR1JpWWZqTUFSVkFBRXdCSldBTHhBQUFEVGdBQUF2c0FVd0FBQUFBQUdBQUFlTnBqWUdSZ1lHQmk0R0VBMFF4UUVna0FBQUhKQUJJQWVOcFZqN0Zxd3pBUWhqOVR4MUEzMEtrZE9oUk5HWVdETTNqc2xpV2FBaGtMTmhhSmkyV0RaUXhlU2grZ0Q5MnpvNlVuN3ZqdXYvOEVCNlI4RTdGRXhQTmFsNGhKcEx2emhpZGVBaWZ5Vk9DVU4zWThFTVdQb3J6ekVUaG15MmZnRGE5OEJVNUUvd21jY3VEWG5Jd3B4OXQ1ZGxYZitzSzF6cy9GeFE2KzZUdTExOWxkT05yT0R1Vm9hMVhOcXA0YVAxMmR5bldtY3d3blNVUEp5STB6TTQ2S25oWlBJZHhLZWxFTExsZ0c0VWFtblZ5d1I1UDljeHpGMGEydTVUZExMYTVLSmtwb2tqMHY5U3B1UmI3dWF2SS9SaUF4d1FBQWVOcGpZR1pBQm93TWFBQUFBSTRBQlE9PSkgZm9ybWF0KCd3b2ZmJyk7fQpAZm9udC1mYWNle2ZvbnQtZmFtaWx5Om1sbW1pODtzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBT29BQW9BQUFBQUJCd0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFY0FBQUJnaFp0MDVXTnRZWEFBQUFFOEFBQUFLUUFBQURRQURBREJaMng1WmdBQUFXZ0FBQURtQUFBQTlMVU5SRTlvWldGa0FBQUNVQUFBQUM4QUFBQTJLVXgxNFdob1pXRUFBQUtBQUFBQUlBQUFBQ1FGblFHa2FHMTBlQUFBQXFBQUFBQUlBQUFBQ0FVa0FCWnNiMk5oQUFBQ3FBQUFBQVlBQUFBR0FIb0FBRzFoZUhBQUFBS3dBQUFBRndBQUFDQUFCQUJRYm1GdFpRQUFBc2dBQUFEUUFBQUJPekNRVWp0d2IzTjBBQUFEbUFBQUFCQUFBQUFnQUFNQUFYamFZMkJtbXNRNGdZR1ZnWUZwRnRQWmZ5SU0vU0NhOFEzakd3WmpSazRHSUdCamdBTkdCaVNRVWx5V0RwVE1ZOGhqNXZ6M25ZR0JtUk9zSGtuTi8vOE1EQUQrL2c1dkFIamFZMkJnWUdKZ1lHQUdZaEVneVFpbVdSZ1VnRFFMRUlMNGVmLy9ROGovazhGOEJnQldTQWJLQUFBQWVOb2R5ckZPd3pBVWhXRmYzOG91U1czSEJkbEpLNW8yRWJFSUVFUWFuRkpFT2xTcXhGSVdOa1lXSG9JWDRtRjRGTGJ1Tk9weXBPL29KMERNL3gvOWhsK3lKK1NxdG94TDRGbmhtZzEwMFBwSDczcExVTWc0NDRYekcrcWJ3dlZRd0RMWDlzME1iTCsxc2FkVG51UmJUejlqQUI3dDFyY3J3RkRrd1FBYnY3VktES09ZSTVlNVErVGRFTTlVTWhveE5iaWhRZmpRbE90Z3NuL3FYZ0hIU3NTTWFqc1B6d1grMkNpcTNuRjVwNFBMK1ZkbDFUT2xxNFhOWnJ1UGJDd1RwQzR4aDFRc0xLQzltQzYxS2NzM2hESlBLK2hlMnZzNjNlcHJDaE05clF3aFIxbFNIVUVBQUhqYVkyQmtZR0FBNHRTUDNUbngvRFpmR1poWkdFRGc4U1hKcVFqNi8xdW1pWXhuZ1Z3T0JpYVFLQUJONUF3VEFIamFZMkJrWUdEbS9QZWRnWUZwTW9NWWd6aFREUU5RQkFVd0FRQlhXQU5HQXBFQUFBS1RBQllBQUFBQUFIb0FBSGphWTJCa1lHQmdZdkJuQU5FTVVCSUpBQUFJVkFCVkFIamFWWXl4YXNNd0ZFV1BxV09vV3pxVkRxVVFMVjJGZ3p0NDZ4Z0MwWnFsa3hJTFIyQTVZQnREaG5idlgvZlowZEwzME9Yb2NpUWc1NGVFZVJLZWxwd25KWlBialZjODhCdzVrMTFIem5ubG5UdVM5RjZhTno0anB6enlGWG5GQzAza1RQcnZ5RGtmL0pxOU1YWTg3MGJiK2xNVjJoQjhkWEQ5NEMrZDJ1amlWbXhkNTNvN3Vsb2RyNnFlL0RBMVFaVzYwQ1dHdlJ5RFplVE1UdExTNGpsUkVZU0NyQmMrNE9nWmhDOTBLRFpvaW4vR1ZveHVzZWEvSExWWVI2NlNOWk1ZZzJRanJxSmMzbXJLUHlIaU1DOTQybU5nWmtBR2pBeG9BQUFBamdBRikgZm9ybWF0KCd3b2ZmJyk7fQpAZm9udC1mYWNle2ZvbnQtZmFtaWx5OnJtLW1sbXI4O3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFPTUFBb0FBQUFBQkFnQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVjQUFBQmdod04ySEdOdFlYQUFBQUU4QUFBQU1RQUFBRHdBU1FDQ1oyeDVaZ0FBQVhBQUFBREdBQUFBMktYOWNhMW9aV0ZrQUFBQ09BQUFBQzhBQUFBMktkVjJabWhvWldFQUFBSm9BQUFBSHdBQUFDUUgyUUpTYUcxMGVBQUFBb2dBQUFBTUFBQUFEQWdWQUkxc2IyTmhBQUFDbEFBQUFBZ0FBQUFJQUN3QWJHMWhlSEFBQUFLY0FBQUFGd0FBQUNBQUJRQXFibUZ0WlFBQUFyUUFBQURNQUFBQk9JcmRMWEJ3YjNOMEFBQURnQUFBQUF3QUFBQWdBQU1BQUhqYVkyQm0yc2c0Z1lHVmdZRnBGdFBaZnlJTS9TQ2E4UTNqR3daalJrNEdJR0JqZ0FOR0JpU1FVbHlXRHBUVVpqQms2ZngzaG9HQnBaUFJCRlhOLy84TURBQVNlZzhRQUhqYVkyQmdZR0pnWUdBR1loRWd5UWltV1JnMGdEUWJrR1lFeW1vekdQNy9EK1NENmYvWC9sOEVxd0lDQUl1U0NNVUFBQUI0MmgyTU1WTERNQlJFLzBxSll4ZVJVZXpJaVpqeFJIWkdDcFMySXhlMFRLNlF3RGs0QnJmaEV2UjA1Z3pVVkRnb3J2YnR2SjBsVUhkOTU1cTkwVDBSR3BWSHRaRjVWTm1qTkpYdGZHdGs1eHUxbHV3bjB6b2J2NFZianNOSzZ4WHMwZ2tZWWNVNDNCUnNRTmhwTlJEbzVmcUxML1pCQjZKNXZiRHU2UHRXK1Q0VGNGTnBmTzliSDU3ekVrOVF4VHBhT0d4Znp6RVE3OHQranNkVG5nUit2dXpZVE1uMG9kN2YxRG5paUt0QXZHRHBYY2pFSkNoM0hPbm03N01RczBueWZ6cDdJYWtBQUhqYVkyQmtZR0FBNG9QUnBZengvRFpmR1poWkdFRGc4U1hKcVFqNmZ3K3pGTk5tSUplRGdRa2tDZ0Foandwb0FIamFZMkJrWUdEcC9IZUdnWUhaajhHRXdZUlppZ0VvZ2dLWUFWbFlBek1BQXFjQUFBTk9BRFFDSUFCWkFBQUFBQUFzQUd4NDJtTmdaR0JnWUdiUVpBRFJERkFTQ1FBQUJMa0FNQUI0Mm1XT3NZckNRQkJBWDdnb2Q3RlJDd3U1WWd0YmwwaXVTSFd0alFHeHNEYVNSUUx1QmpZU3NMRzg3M2FTV3lzSFp1Yk44QVlHU0hnUTBVZkUxMUQ3aVBtVTZaOUhUSmdGSHN2K08zRENraFVmUkhGdnp2a05IRE5sSDNqRWdsUGdzZXk3d0FrLy9CVzc0dERZMHVYZXJ1M1YrdnhvZkZzM1RtMTArbHB0alRPK3ZKbEtuZStxNnVxMnUxaVY2VlJuRk93a0R6UllTaHc1WG1ndGVaWDBNaDh4MGx0cWNSeUtEWnIwemRxSzVRYXo1Q2E5RXZQTVhXb2wvOVp5MzNFUlY1RU45NXJzQ1JkV0x0MTQybU5nWnNBTEFBQjlBQVE9KSBmb3JtYXQoJ3dvZmYnKTt9CkBmb250LWZhY2V7Zm9udC1mYW1pbHk6bWxtbWkxMjtzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBVDhBQW9BQUFBQUJlUUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFb0FBQUJnaGJoMUNtTnRZWEFBQUFGQUFBQUFNZ0FBQUR3QVlBQ2JaMng1WmdBQUFYUUFBQUlkQUFBQ29GU3VCRkZvWldGa0FBQURsQUFBQUM4QUFBQTJLak4yNG1ob1pXRUFBQVBFQUFBQUhnQUFBQ1FHcXdJQWFHMTBlQUFBQStRQUFBQVFBQUFBRUF0eEFIaHNiMk5oQUFBRDlBQUFBQW9BQUFBS0Fid0EwRzFoZUhBQUFBUUFBQUFBR0FBQUFDQUFDQUJXYm1GdFpRQUFCQmdBQUFEV0FBQUJSTEJJd3RCd2IzTjBBQUFFOEFBQUFBd0FBQUFnQUFNQUFIamFZMkJtdXNNNGdZR1ZnWUZwRnRQWmZ5SU0vU0NhOFEzakd3WmpSazRHSUdCamdBTkdCaVNRVWx5V0RwUjBZdkJnNXZyM25ZR0JtUXVzSHFiR2c0SGgvMzhHQmdBU2RRNnhBQUI0Mm1OZ1lHQmlZR0JnQm1JUklNa0lwbGtZTklBMEc1Qm1CTW82TTNqOC93L2tPNEhvLy92Lzd3YXJBZ0lBa1JnSTlRQUFlTnBka1R0dkUwRVVSdWZPckdkdHg5Nk45Mms3Zm1TenI5aEFndGIyYklMdERZbWNnSVZJZ1YyUlJDRVNpZ2dGYVVtRGFDSkswbEJRMGZJYnFLZ1FCUlVsaUlJTzBWR0FCQklieHJIa1JHaWFtWFAxU2ZmTWh3aWFQLzFGTUg2UE1paEFhd2k1VGMrM2lkR0dDRUlHekxRQ3d6UjBDVVFxVnNDa0lyOVoxR3N4MDJDaHloWkFuUE1TUE9GUmtjclE0S0VJOE40eWU5T0gxTXYrZ1phS0Q4R0IvczM3Q3NWZDM2NEhOekJ4M0tlRCtOVzBBbDdScGM4RjdNaXlDaC9JZzJOWkZRanBQQXNITTByaFc3TU44VWNDbSswU2ZKNGx5eTNWWUp0NUl5dXRSMnYxNWdhQUtNMEtRSE40S2FNUW5IeDREMk1oVGFXZlVLdHFMWVFBMVUrL0Vvby9vUlgrQ0V4TmxQQm85d1h3K2ZMaFNLN0JmVUlXR2lhUndLWit5TVU5KzB4MFpLbnphY0RIL09BbktnaEMvcXAzNVhCbDk3aWlnMWQvc2JmYTZ3NktVVkxLd1hXY2xsUkNMdFhMODlmMm5hTGVMMHpKc0wvbDFocUw2MVlDa2tveUxiTU55MThFMkxuVld0MGVicCs0QlFqODJ4bUFYUHc3STRQS29ydTZESmNyZW41cnh4bmF1NDlBVXJ5bEEybms0ZkYrSHVOM2FNZ2ZyR0UyUW1aU24zODNFUTJ6RVJpNlp2dTJTUDNtV1NIVy8vUmlUNjBMY1Jtc2NFenhIU2gxanRwNUFLZmtpaWNZSzNOWnJkUTlhdXVrV3E2bGV2R1gzb1IxTktKcFJXZGMyclFLTTkxSk1BS3JPNmI0ZFJsak1Lb0VVK1h2V3lrSllyYkVnVllCU0JpZ3h0L1BrVG9Ga3dyRjdIbnN6NDh6Z3RBL1FnZG5Dd0FBQUhqYVkyQmtZR0FBWW1GZmNmVjRmcHV2RE13c0RDRHcrSkxrVkFUOS95RnpCZE10SUplRGdRa2tDZ0FCZlFwT0FIamFZMkJrWUdEbSt2Y2RTTm94cVAwL3hsekJBQlJCQVN3QWRNTUVzQUFBQW0wQUFBTDVBQ2dDelFBcUF6NEFKZ0FBQUFBQWJBRFFBVkFBQUhqYVkyQmtZR0JnWVFobFlHWUFBVVlHTkFBQUNVNEFYM2phWFk2OWFzTXdGSVUvVXllbExqUmJodzVGM1RvSi8vUUpzb1JBdEdhdUVvdEVZRGxnRzBPV1RuMkNQSEd1WFUyOVFvZnZITTRWQWpKK1NKZ21ZVFhyTkNtUDR2NTR3VE92a1plU2YwVE9lT09UQjVMMFNaSjMxcEZUWHZpT3ZKRE5OdkpTOHQvSUdWL2N6TTRZTzV5M2cyMzhzU2hERTRJdnlyM3JlbjlwVmFIem1HeGM2em83dUZvZHJxb2VmVCtlZ3FwMHJpc01PN2tHeThDWnJhaWx3WE9rb0NRSUJ6bCtkbnNjSGIyNGkveEpTYWJKLzNVMjBtbm4zdlNpbzViZWdhdG96U2lkWHZRa2JVVTFiMnVxTzhTbk1XRUFBSGphWTJCbXdBc0FBSDBBQkE9PSkgZm9ybWF0KCd3b2ZmJyk7fQp0ZXh0LmYwIHtmb250LWZhbWlseTptbG1zeTg7Zm9udC1zaXplOjcuOTcwMTEycHh9CnRleHQuZjEge2ZvbnQtZmFtaWx5Om1sbW1pODtmb250LXNpemU6Ny45NzAxMTJweH0KdGV4dC5mMiB7Zm9udC1mYW1pbHk6bWxtbWkxMjtmb250LXNpemU6MTEuOTU1MTY4cHh9CnRleHQuZjMge2ZvbnQtZmFtaWx5OnJtLW1sbXI4O2ZvbnQtc2l6ZTo3Ljk3MDExMnB4fQpdXT4KPC9zdHlsZT4KPGcgaWQ9J3BhZ2UxJz4KPGcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMTUuMzA3MzEzLC0xMi40NzI0ODUpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIGZpbGw9JyMwMDAnIHN0cm9rZT0nIzAwMCc+CjxnIHN0cm9rZS13aWR0aD0nMC40Jz4KPGNsaXBQYXRoIGlkPSdwZ2ZjcDEnPgo8cGF0aCBkPSdNLTU0LjA2MDAzLTY4LjI4NjRWNTYuOTA1NDlIMTY3Ljg3MVYtNjguMjg2NFpNMTY3Ljg3MSA1Ni45MDU0OScvPiA8L2NsaXBQYXRoPgo8ZyBjbGlwLXBhdGg9J3VybCgjcGdmY3AxKSc+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPHBhdGggZD0nTS0xMS4zODA5NCAwQy0xMS4zODA5NCAyNS4xNDI4NC0zMS43NjI2NSA0NS41MjQ1NS01Ni45MDU0OSA0NS41MjQ1NUMtODIuMDQ4MzIgNDUuNTI0NTUtMTAyLjQzMDA0IDI1LjE0Mjg0LTEwMi40MzAwNCAwUy04Mi4wNDgzMi00NS41MjQ1NS01Ni45MDU0OS00NS41MjQ1NUMtMzEuNzYyNjUtNDUuNTI0NTUtMTEuMzgwOTQtMjUuMTQyODQtMTEuMzgwOTQgMFpNLTU2LjkwNTQ5IDAnIGZpbGw9J25vbmUnLz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxwYXRoIGQ9J000NS41MjQ1NSAwQzQ1LjUyNDU1IDI1LjE0Mjg0IDI1LjE0Mjg0IDQ1LjUyNDU1IDAgNDUuNTI0NTVTLTQ1LjUyNDU1IDI1LjE0Mjg0LTQ1LjUyNDU1IDBTLTI1LjE0Mjg0LTQ1LjUyNDU1IDAtNDUuNTI0NTVTNDUuNTI0NTUtMjUuMTQyODQgNDUuNTI0NTUgMFpNMCAwJyBmaWxsPSdub25lJy8+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMTIuNDYyNDUsLTU5LjY4OTQ4KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtMTUuMzA3MzEzLC0xMi40NzI0ODUpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMicgeD0nLTE1LjMwNzMxMycgeT0nLTEyLjQ3MjQ4NSc+QzwvdGV4dD4KPHRleHQgY2xhc3M9J2YxJyB4PSctNi45MzIyNjcnIHk9Jy0xMC42NzkyMjInPm48L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nLTEuNzk0MDY1JyB5PSctMTAuNjc5MjIyJz4rMTwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTEzLjEyNjksMjUuNjY4NzUpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC0xNS4zMDczMTMsLTEyLjQ3MjQ4NSlzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YyJyB4PSctMTUuMzA3MzEzJyB5PSctMTIuNDcyNDg1Jz5IPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjEnIHg9Jy01LjYwODMzMycgeT0nLTEwLjY3OTIyMic+bjwvdGV4dD4KPHRleHQgY2xhc3M9J2YzJyB4PSctLjQ3MDEzJyB5PSctMTAuNjc5MjIyJz4rMTwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMjEuMTYwODYsLTMuMiknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTE1LjMwNzMxMywtMTIuNDcyNDg1KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjInIHg9Jy0xNS4zMDczMTMnIHk9Jy0xMi40NzI0ODUnPkI8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nLTYuNDE0MzUnIHk9Jy0xMC42NzkyMjInPm48L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxwYXRoIGQ9J00xMDIuNDMwMDQgMEMxMDIuNDMwMDQgMjUuMTQyODQgODIuMDQ4MzIgNDUuNTI0NTUgNTYuOTA1NDkgNDUuNTI0NTVDMzEuNzYyNjUgNDUuNTI0NTUgMTEuMzgwOTQgMjUuMTQyODQgMTEuMzgwOTQgMFMzMS43NjI2NS00NS41MjQ1NSA1Ni45MDU0OS00NS41MjQ1NUM4Mi4wNDgzMi00NS41MjQ1NSAxMDIuNDMwMDQtMjUuMTQyODQgMTAyLjQzMDA0IDBaTTU2LjkwNTQ5IDAnIGZpbGw9J25vbmUnLz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDQ5Ljg3MzU0LC02MC4xMDU0OCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTE1LjMwNzMxMywtMTIuNDcyNDg1KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjInIHg9Jy0xNS4zMDczMTMnIHk9Jy0xMi40NzI0ODUnPkM8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nLTYuOTMyMjY3JyB5PSctMTAuNjc5MjIyJz5uPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg0OS4yMDkwOCwyNS4yNTI3NSknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTE1LjMwNzMxMywtMTIuNDcyNDg1KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjInIHg9Jy0xNS4zMDczMTMnIHk9Jy0xMi40NzI0ODUnPkg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nLTUuNjA4MzMzJyB5PSctMTAuNjc5MjIyJz5uPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg3Mi42MzU3NCwtMi43ODMzMSknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTE1LjMwNzMxMywtMTIuNDcyNDg1KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjInIHg9Jy0xNS4zMDczMTMnIHk9Jy0xMi40NzI0ODUnPkI8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nLTYuNDE0MzUnIHk9Jy0xMC42NzkyMjInPm48L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTEuMjc2MTQ4JyB5PSctMTAuNjc5MjIyJz7iiJI8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nNS4zMTAzNTknIHk9Jy0xMC42NzkyMjInPjE8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxwYXRoIGQ9J00xNTkuMzM1NTMgMEMxNTkuMzM1NTMgMjUuMTQyODQgMTM4Ljk1MzgxIDQ1LjUyNDU1IDExMy44MTA5NyA0NS41MjQ1NUM4OC42NjgxNCA0NS41MjQ1NSA2OC4yODY0MiAyNS4xNDI4NCA2OC4yODY0MiAwUzg4LjY2ODE0LTQ1LjUyNDU1IDExMy44MTA5Ny00NS41MjQ1NUMxMzguOTUzODEtNDUuNTI0NTUgMTU5LjMzNTUzLTI1LjE0Mjg0IDE1OS4zMzU1MyAwWk0xMTMuODEwOTcgMCcgZmlsbD0nbm9uZScvPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTAxLjM0ODQyLC01OS42ODg4KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtMTUuMzA3MzEzLC0xMi40NzI0ODUpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMicgeD0nLTE1LjMwNzMxMycgeT0nLTEyLjQ3MjQ4NSc+QzwvdGV4dD4KPHRleHQgY2xhc3M9J2YxJyB4PSctNi45MzIyNjcnIHk9Jy0xMC42NzkyMjInPm48L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTEuNzk0MDY1JyB5PSctMTAuNjc5MjIyJz7iiJI8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nNC43OTI0NDInIHk9Jy0xMC42NzkyMjInPjE8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDEwMC42ODM5NiwyNS42Njk0MyknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTE1LjMwNzMxMywtMTIuNDcyNDg1KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjInIHg9Jy0xNS4zMDczMTMnIHk9Jy0xMi40NzI0ODUnPkg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nLTUuNjA4MzMzJyB5PSctMTAuNjc5MjIyJz5uPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjAnIHg9Jy0uNDcwMTMnIHk9Jy0xMC42NzkyMjInPuKIkjwvdGV4dD4KPHRleHQgY2xhc3M9J2YzJyB4PSc2LjExNjM3NicgeT0nLTEwLjY3OTIyMic+MTwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPHBhdGggZD0nTTIxNi4yNDEwMSAwQzIxNi4yNDEwMSAyNS4xNDI4NCAxOTUuODU5MyA0NS41MjQ1NSAxNzAuNzE2NDYgNDUuNTI0NTVTMTI1LjE5MTkxIDI1LjE0Mjg0IDEyNS4xOTE5MSAwUzE0NS41NzM2Mi00NS41MjQ1NSAxNzAuNzE2NDYtNDUuNTI0NTVTMjE2LjI0MTAxLTI1LjE0Mjg0IDIxNi4yNDEwMSAwWk0xNzAuNzE2NDYgMCcgZmlsbD0nbm9uZScvPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L3N2Zz4=" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
       \usetikzlibrary{decorations.pathreplacing}
-    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
       \begin {tikzpicture}
     \clip (-1.9, -2.4) rectangle (5.9, 2);
   \tikzset{every path/.style={thick}}
@@ -161,6 +177,18 @@ hash="75975521ce806e2a3d6a44765ebdd313"><fr:embedded-tex-preamble><![CDATA[
 
   \draw (6,0) circle (1.6);
 \end {tikzpicture}
-    ]]></fr:embedded-tex-body></fr:embedded-tex>
+    ]]></fr:resource-source></fr:resource>
   </html:span>
-<fr:p>We chose to draw circles to emphasize the individual chain groups. In more complicated situations, it is more convenient to draw a chain of rectangles, with each chain group spanning three rectangular regions. We would then need other means to convey the confines of each object.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+<fr:p>We chose to draw circles to emphasize the individual chain groups. In more complicated situations, it is more convenient to draw a chain of rectangles, with each chain group spanning three rectangular regions. We would then need other means to convey the confines of each object.</fr:p></fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1047</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

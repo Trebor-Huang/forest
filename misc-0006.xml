@@ -1,286 +1,252 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>578</fr:anchor><fr:addr
-type="user">misc-0006</fr:addr><fr:route>misc-0006.xml</fr:route><fr:title
-text="Braided Hopf algebra">Braided Hopf algebra</fr:title><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given an arbitrary <fr:link
-type="local"
-href="misc-0002.xml"
-addr="misc-0002"
-title="Hopf algebra">Hopf algebra</fr:link> <fr:tex
-display="inline"><![CDATA[H]]></fr:tex>, the <fr:link
-type="local"
-href="misc-0004.xml"
-addr="misc-0004"
-title="Tensor product and dual of Hopf algebra representations">monoidal category</fr:link> of its representations may not have a braiding. The obvious braiding <fr:tex
-display="inline"><![CDATA[\tau ]]></fr:tex> that simply swaps the two factors <fr:link
-type="local"
-href="misc-0005.xml"
-addr="misc-0005"
-title="Symmetric monoidal product on representations of cocommutative Hopf algebras">works for cocommutative Hopf algebras</fr:link> only. Therefore we need to add suitable structures on <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> so that we can select an appropriate map <fr:tex
-display="inline"><![CDATA[V \otimes  W \to  W \otimes  V]]></fr:tex> between representations that commute with the <fr:tex
-display="inline"><![CDATA[H]]></fr:tex>-action.</fr:p><fr:p>Since the twisting map <fr:tex
-display="inline"><![CDATA[\tau  : V \otimes  W \to  W \otimes  V]]></fr:tex> does not work, without loss of generality we could consider modifying it by precomposing an automorphism <fr:tex
-display="inline"><![CDATA[V \otimes  W \to  V \otimes  W]]></fr:tex>. (We can also consider a postcomposition, which is equivalent.) But we need to specify such an automorphism for every representation <fr:tex
-display="inline"><![CDATA[V, W]]></fr:tex>. So the simplest way to achieve this is to select an invertible element <fr:tex
-display="inline"><![CDATA[R \in  H \otimes  H]]></fr:tex>, and demand that the automorphism is given by left multiplication by this element. This has the added benefit that naturality is now automatic, since homomorphisms are required to commute with left multiplication.</fr:p><fr:p>Let <fr:tex
-display="inline"><![CDATA[R = \sum _i r_i \otimes  s_i]]></fr:tex>, then the automorphism is given by <fr:tex
-display="inline"><![CDATA[v \otimes  w \mapsto  R\cdot  (v \otimes  w) = \sum _i \rho _V (r_i) v \otimes  \rho _V (s_i) w]]></fr:tex>. For this to create a braiding homomorphism, we need <fr:tex
-display="inline"><![CDATA[\rho _{W \otimes  V}(a) \tau (R \cdot  (v \otimes  w)) = \tau (R \cdot  \rho _{V \otimes  W}(a) (v \otimes  w))]]></fr:tex>. Let <fr:tex
-display="inline"><![CDATA[\Delta (a) = \sum _j a_j \otimes  b_j]]></fr:tex>, then this equation expands to
-  <fr:tex
-display="block"><![CDATA[\sum _{i,j} \rho _W (a_j s_i) w \otimes  \rho _V (b_j r_i) v = \sum _{i,j} \rho _W (s_i b_j) w \otimes  \rho _V (r_i a_j) v.]]></fr:tex>
-  Since this needs to hold for all <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[W]]></fr:tex>, we can conclude that
-  <fr:tex
-display="block"><![CDATA[\sum _{i,j} a_j s_i \otimes  b_j r_i = \sum _{i,j} s_i b_j \otimes  r_i a_j.]]></fr:tex>
-  We can write this more succinctly if we write the natural algebra structure on <fr:tex
-display="inline"><![CDATA[H \otimes  H]]></fr:tex> as juxtaposition: <fr:tex
-display="inline"><![CDATA[\Delta (a) \tau (R) = \tau (R \Delta (a))]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[\tau ]]></fr:tex> is an involution as a linear map, and <fr:tex
-display="inline"><![CDATA[R]]></fr:tex> is an invertible element of <fr:tex
-display="inline"><![CDATA[H \otimes  H]]></fr:tex>, we can rewrite this as
-  <fr:tex
-display="block"><![CDATA[\tau (\Delta (a)) = R\Delta (a) R^{-1}.]]></fr:tex></fr:p><fr:p>We also need to satisfy the equation for braiding. This basically says that for <fr:tex
-display="inline"><![CDATA[V \otimes  (W_1 \otimes  \cdots  \otimes  W_n)]]></fr:tex>, braiding <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> to the right in one step is equal to composing the braiding for <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[W_i]]></fr:tex> for each <fr:tex
-display="inline"><![CDATA[i]]></fr:tex>, up to suitable associators. The same for braiding to the left. Abstract nonsense tells us it suffices to verify <fr:tex
-display="inline"><![CDATA[n = 2]]></fr:tex>. We can perform a calculation similar to what we did above, and it results in the equation
-  <fr:tex
-display="block"><![CDATA[(\textrm {id} \otimes  \Delta )(R) = R_{13} R_{12}]]></fr:tex>
-  where <fr:tex
-display="inline"><![CDATA[\textrm {id} \otimes  \Delta  : H \otimes  H \to  H \otimes  (H \otimes  H)]]></fr:tex> applies the comultiplication to the second factor, and <fr:tex
-display="inline"><![CDATA[R_{12} : H^{\otimes  3}]]></fr:tex> is the identity on the third factor, only acting on the first two factors. Braiding in the other direction amounts to
-  <fr:tex
-display="block"><![CDATA[(\Delta  \otimes  \textrm {id})(R) = R_{13} R_{23}.]]></fr:tex>
-  We have now arrived at the definition of a braided Hopf algebra.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>518</fr:anchor><fr:addr
-type="user">misc-0007</fr:addr><fr:route>misc-0007.xml</fr:route><fr:title
-text="Braided Hopf algebra">Braided Hopf algebra</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
-type="local"
-href="misc-0002.xml"
-addr="misc-0002"
-title="Hopf algebra">Hopf algebra</fr:link> <fr:tex
-display="inline"><![CDATA[H]]></fr:tex>, suppose it is equipped with an element <fr:tex
-display="inline"><![CDATA[R \in  H \otimes  H]]></fr:tex>, such that
-  <fr:tex
-display="block"><![CDATA[\begin {aligned}     \tau (\Delta (a)) &= R \Delta (a) R^{-1} \\     (\Delta  \otimes  \textrm {id})(R) &= R_{13} R_{23} \\     (\textrm {id} \otimes  \Delta )(R) &= R_{13} R_{12}   \end {aligned}]]></fr:tex>
-  then we call it a <fr:strong>braided Hopf algebra</fr:strong>. Here <fr:tex
-display="inline"><![CDATA[\tau  : H \otimes  H \to  H \otimes  H]]></fr:tex> is the twisting map of tensor products, and <fr:tex
-display="inline"><![CDATA[R_{i j} \in  H^{\otimes  3}]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[R \otimes  1]]></fr:tex> with the appropriate factors permuted.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>520</fr:anchor><fr:addr
-type="user">misc-000C</fr:addr><fr:route>misc-000C.xml</fr:route><fr:title
-text="Dual representation of Hopf algebras">Dual representation of Hopf algebras</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>11</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The <fr:link
-type="local"
-href="misc-0003.xml"
-addr="misc-0003"
-title="Antipode of a Hopf algebra">antipode of a Hopf algebra</fr:link> provides us with the structure to define dual representations. Given a representation <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex>, we can define an action on <fr:tex
-display="inline"><![CDATA[V^*]]></fr:tex> by <fr:tex
-display="inline"><![CDATA[(h \cdot  f)(v) = f(S(h) \cdot  v)]]></fr:tex>. This works out because the antipode is an anti-homomorphism. This induces a contravariant functor on the category of representations.</fr:p><fr:p>Categorically speaking, for <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> to have a right dual structure on <fr:tex
-display="inline"><![CDATA[V^*]]></fr:tex>, we need structure maps <fr:tex
-display="inline"><![CDATA[1 \to  V \otimes  V^*]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[V^* \otimes  V \to  1]]></fr:tex>. This requires <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> to be finite dimensional. In this case, we need to verify the obvious map from linear algebra is indeed a module homomorphism. This essentially follows from <fr:tex
-display="inline"><![CDATA[x_{(1)} \cdot  S(x_{(2)}) = \epsilon (x) = S(x_{(1)}) \cdot  x_{(2)}]]></fr:tex>.</fr:p><fr:p>However, this module structure on <fr:tex
-display="inline"><![CDATA[V^*]]></fr:tex> cannot be taken as the left dual of <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>! The reason is the evaluation map <fr:tex
-display="inline"><![CDATA[v \otimes  f \mapsto  f(v)]]></fr:tex> doesn’t respect multiplication, since <fr:tex
-display="inline"><![CDATA[S(x_{(2)}) x_{(1)}]]></fr:tex> is not necessarily equal to <fr:tex
-display="inline"><![CDATA[S(x_{(1)}) \cdot  x_{(2)}]]></fr:tex>. Instead we need another module structure on the same vector space, using <fr:tex
-display="inline"><![CDATA[S^{-1}]]></fr:tex> in place of <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>. Let this representation be denoted as <fr:tex
-display="inline"><![CDATA[{^{\vee }V}]]></fr:tex>, and for clarity we denote the right dual module as <fr:tex
-display="inline"><![CDATA[V^{\vee }]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>580</fr:anchor><fr:addr
-type="user">misc-000B</fr:addr><fr:route>misc-000B.xml</fr:route><fr:title
-text="Ribbon Hopf algebra">Ribbon Hopf algebra</fr:title><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-type="local"
-href="misc-0002.xml"
-addr="misc-0002"
-title="Hopf algebra">Hopf algebras</fr:link> already have the concept of <fr:link
-type="local"
-href="misc-000C.xml"
-addr="misc-000C"
-title="Dual representation of Hopf algebras">dual modules</fr:link>, and for finite dimensional modules, the dual is a categorical dual. For a <fr:link
-type="local"
-href="misc-0007.xml"
-addr="misc-0007"
-title="Braided Hopf algebra">braided Hopf algebra</fr:link>, the modules further form a braided monoidal category. Hence to form ribbon categories, we only need to implement the twisting natural isomorphism <fr:tex
-display="inline"><![CDATA[\theta ]]></fr:tex>.</fr:p><fr:p>Similar to the discussion in <fr:ref
-addr="misc-0006"
-href="misc-0006.xml" />, we attempt to represent this isomorphism via an invertible element <fr:tex
-display="inline"><![CDATA[v]]></fr:tex>. For it to commute with every module homomorphism, this element needs to be in the center of the algebra. The equation <fr:tex
-display="inline"><![CDATA[\theta _1 = \textrm {id}]]></fr:tex> translates to <fr:tex
-display="inline"><![CDATA[\epsilon (v) = 1]]></fr:tex>. For <fr:tex
-display="inline"><![CDATA[\theta _{X^{\vee }} = (\theta _X)^{\vee }]]></fr:tex>, we need <fr:tex
-display="inline"><![CDATA[S(v) = v]]></fr:tex>. Finally we have the equation <fr:tex
-display="block"><![CDATA[\beta _{Y, X} \mathbin {\circ } \beta _{X, Y} \mathbin {\circ } \theta _{X \otimes  Y} = \theta _X \otimes  \theta _Y,]]></fr:tex> which translates to <fr:tex
-display="inline"><![CDATA[\Delta (v) = (\tau (R) R)^{-1} (v \otimes  v)]]></fr:tex>. This defines ribbon Hopf algebras.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>510</fr:anchor><fr:addr
-type="user">misc-000D</fr:addr><fr:route>misc-000D.xml</fr:route><fr:title
-text="Ribbon Hopf algebra">Ribbon Hopf algebra</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>11</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:strong>ribbon Hopf algebra</fr:strong> is defined as a <fr:link
-type="local"
-href="misc-0007.xml"
-addr="misc-0007"
-title="Braided Hopf algebra">braided Hopf algebra</fr:link> <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> together with an element <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> of the algebra, such that
-  <fr:tex
-display="block"><![CDATA[\begin {aligned}     \epsilon (v) &= 1 \\     \Delta (v) &= (\tau (R) R)^{-1} (v \otimes  v) \\     S(v) &= v.   \end {aligned}]]></fr:tex></fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>582</fr:anchor><fr:addr
-type="user">misc-0002</fr:addr><fr:route>misc-0002.xml</fr:route><fr:title
-text="Hopf algebra">Hopf algebra</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a vector space <fr:tex
-display="inline"><![CDATA[V]]></fr:tex>, we can equip <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> with the structure of an associative algebra, given by multilinear maps <fr:tex
-display="inline"><![CDATA[V^{\otimes  m} \to  V]]></fr:tex>, usually written as juxtaposition. We can also equip <fr:tex
-display="inline"><![CDATA[V]]></fr:tex> with the structure of an coassociative coalgebra, given by maps <fr:tex
-display="inline"><![CDATA[V \to  V^{\otimes  m}]]></fr:tex>. We write the comultiplication as <fr:tex
-display="inline"><![CDATA[\Delta  : V \to  V \otimes  V]]></fr:tex>, and the counit <fr:tex
-display="inline"><![CDATA[\epsilon  : V \to  \Bbbk ]]></fr:tex>. When multiplication and comultiplication distribute over each other, we call the structure a <fr:strong>bialgebra</fr:strong>.</fr:p><fr:p>In this case, we can write linear maps in a seemingly non-linear fashion, by using the comultiplication to duplicate variables. For example <fr:tex
-display="inline"><![CDATA[f(x) = x_{(1)} x_{(2)}]]></fr:tex> stands for the composition of <fr:tex
-display="inline"><![CDATA[\Delta  : V \to  V \otimes  V]]></fr:tex> and the multiplication map <fr:tex
-display="inline"><![CDATA[V \otimes  V \to  V]]></fr:tex>. Note that the duplicated variables needs to be numbered when the comultiplication is not cocommutative. This is called <fr:strong>Sweedler’s notation</fr:strong>.</fr:p><fr:p>Furthermore, suppose there is a map <fr:tex
-display="inline"><![CDATA[S : V \to  V]]></fr:tex> called the <fr:strong>antipode</fr:strong> such that <fr:tex
-display="inline"><![CDATA[f(x) = x_{(1)} S(x_{(2)})]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[g(x) = S(x_{(1)}) x_{(2)}]]></fr:tex> are equal to the map <fr:tex
-display="inline"><![CDATA[h(x) = \epsilon (x) \cdot  1]]></fr:tex>. We also write the antipode as <fr:tex
-display="inline"><![CDATA[x^{-1}]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[x \in  V]]></fr:tex>. But note that if <fr:tex
-display="inline"><![CDATA[f : V \to  V]]></fr:tex> is a linear map, the notation <fr:tex
-display="inline"><![CDATA[f^{-1}]]></fr:tex> instead stands for the usual set-theoretic inverse map.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>584</fr:anchor><fr:addr
-type="user">misc-0005</fr:addr><fr:route>misc-0005.xml</fr:route><fr:title
-text="Symmetric monoidal product on representations of cocommutative Hopf algebras">Symmetric monoidal product on representations of cocommutative Hopf algebras</fr:title><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose a <fr:link
-type="local"
-href="misc-0002.xml"
-addr="misc-0002"
-title="Hopf algebra">Hopf algebra</fr:link> <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> is cocommutative, i.e. <fr:tex
-display="inline"><![CDATA[\Delta (a) \in  H \otimes  H]]></fr:tex> is invariant under swapping the two factors, then the monoidal structure of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex>-representations defined in <fr:ref
-addr="misc-0004"
-href="misc-0004.xml"
-taxon="Definition" /> is actually symmetric. The braiding is simply given by the braiding of vector space tensor products, and we only need to show that it is a homomorphism of representations. This immediately follows from the definition.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>586</fr:anchor><fr:addr
-type="user">misc-0004</fr:addr><fr:route>misc-0004.xml</fr:route><fr:title
-text="Tensor product and dual of Hopf algebra representations">Tensor product and dual of Hopf algebra representations</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>25</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
-type="local"
-href="misc-0002.xml"
-addr="misc-0002"
-title="Hopf algebra">Hopf algebra</fr:link> <fr:tex
-display="inline"><![CDATA[H]]></fr:tex>, its representations (i.e. left modules of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex> considered as an associative algebra) have a monoidal structure. The underlying vector space is given by the tensor product of vector spaces, and the module structure <fr:tex
-display="inline"><![CDATA[\rho _{V_1 \otimes  V_2} : H \otimes  (V_1 \otimes  V_2) \to  V_1 \otimes  V_2]]></fr:tex> is given by the comultiplication: Suppose <fr:tex
-display="inline"><![CDATA[\Delta (a) = \sum _i b_i \otimes  c_i]]></fr:tex>, then
-  <fr:tex
-display="block"><![CDATA[\rho _{V_1 \otimes  V_2} (a) (x \otimes  y) = \sum _i \rho _{V_1}(b_i) x \otimes  \rho _{V_2}(c_i) y.]]></fr:tex>
-  Or in Sweedler’s notation, <fr:tex
-display="inline"><![CDATA[\rho _{V_1} (a_{(1)}) x \otimes  \rho _{V_2} (a_{(2)}) x]]></fr:tex>. Similarly, the antipode provides a module structure on the dual vector space:
-  <fr:tex
-display="block"><![CDATA[(\rho _{V^*} (a) \alpha )(x) = \alpha (\rho _V (a^{-1}) x).]]></fr:tex>
-  Hence the category of <fr:tex
-display="inline"><![CDATA[H]]></fr:tex>-representations is monoidal closed.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>10</fr:month>
+      <fr:day>25</fr:day>
+    </fr:date>
+    <fr:anchor>1979</fr:anchor>
+    <fr:addr type="user">misc-0006</fr:addr>
+    <fr:route>misc-0006.xml</fr:route>
+    <fr:title text="Braided Hopf algebra">Braided Hopf algebra</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Given an arbitrary <fr:link href="misc-0002.xml" title="Hopf algebra" addr="misc-0002" type="local">Hopf algebra</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>, the <fr:link href="misc-0004.xml" title="Tensor product and dual of Hopf algebra representations" addr="misc-0004" type="local">monoidal category</fr:link> of its representations may not have a braiding. The obvious braiding <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> that simply swaps the two factors <fr:link href="misc-0005.xml" title="Symmetric monoidal product on representations of cocommutative Hopf algebras" addr="misc-0005" type="local">works for cocommutative Hopf algebras</fr:link> only. Therefore we need to add suitable structures on <fr:tex display="inline"><![CDATA[H]]></fr:tex> so that we can select an appropriate map <fr:tex display="inline"><![CDATA[V \otimes  W \to  W \otimes  V]]></fr:tex> between representations that commute with the <fr:tex display="inline"><![CDATA[H]]></fr:tex>-action.</fr:p>
+    <fr:p>Since the twisting map <fr:tex display="inline"><![CDATA[\tau  : V \otimes  W \to  W \otimes  V]]></fr:tex> does not work, without loss of generality we could consider modifying it by precomposing an automorphism <fr:tex display="inline"><![CDATA[V \otimes  W \to  V \otimes  W]]></fr:tex>. (We can also consider a postcomposition, which is equivalent.) But we need to specify such an automorphism for every representation <fr:tex display="inline"><![CDATA[V, W]]></fr:tex>. So the simplest way to achieve this is to select an invertible element <fr:tex display="inline"><![CDATA[R \in  H \otimes  H]]></fr:tex>, and demand that the automorphism is given by left multiplication by this element. This has the added benefit that naturality is now automatic, since homomorphisms are required to commute with left multiplication.</fr:p>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[R = \sum _i r_i \otimes  s_i]]></fr:tex>, then the automorphism is given by <fr:tex display="inline"><![CDATA[v \otimes  w \mapsto  R\cdot  (v \otimes  w) = \sum _i \rho _V (r_i) v \otimes  \rho _V (s_i) w]]></fr:tex>. For this to create a braiding homomorphism, we need <fr:tex display="inline"><![CDATA[\rho _{W \otimes  V}(a) \tau (R \cdot  (v \otimes  w)) = \tau (R \cdot  \rho _{V \otimes  W}(a) (v \otimes  w))]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\Delta (a) = \sum _j a_j \otimes  b_j]]></fr:tex>, then this equation expands to
+  <fr:tex display="block"><![CDATA[\sum _{i,j} \rho _W (a_j s_i) w \otimes  \rho _V (b_j r_i) v = \sum _{i,j} \rho _W (s_i b_j) w \otimes  \rho _V (r_i a_j) v.]]></fr:tex>
+  Since this needs to hold for all <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W]]></fr:tex>, we can conclude that
+  <fr:tex display="block"><![CDATA[\sum _{i,j} a_j s_i \otimes  b_j r_i = \sum _{i,j} s_i b_j \otimes  r_i a_j.]]></fr:tex>
+  We can write this more succinctly if we write the natural algebra structure on <fr:tex display="inline"><![CDATA[H \otimes  H]]></fr:tex> as juxtaposition: <fr:tex display="inline"><![CDATA[\Delta (a) \tau (R) = \tau (R \Delta (a))]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> is an involution as a linear map, and <fr:tex display="inline"><![CDATA[R]]></fr:tex> is an invertible element of <fr:tex display="inline"><![CDATA[H \otimes  H]]></fr:tex>, we can rewrite this as
+  <fr:tex display="block"><![CDATA[\tau (\Delta (a)) = R\Delta (a) R^{-1}.]]></fr:tex></fr:p>
+    <fr:p>We also need to satisfy the equation for braiding. This basically says that for <fr:tex display="inline"><![CDATA[V \otimes  (W_1 \otimes  \cdots  \otimes  W_n)]]></fr:tex>, braiding <fr:tex display="inline"><![CDATA[V]]></fr:tex> to the right in one step is equal to composing the braiding for <fr:tex display="inline"><![CDATA[V]]></fr:tex> and <fr:tex display="inline"><![CDATA[W_i]]></fr:tex> for each <fr:tex display="inline"><![CDATA[i]]></fr:tex>, up to suitable associators. The same for braiding to the left. Abstract nonsense tells us it suffices to verify <fr:tex display="inline"><![CDATA[n = 2]]></fr:tex>. We can perform a calculation similar to what we did above, and it results in the equation
+  <fr:tex display="block"><![CDATA[(\textrm {id} \otimes  \Delta )(R) = R_{13} R_{12}]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[\textrm {id} \otimes  \Delta  : H \otimes  H \to  H \otimes  (H \otimes  H)]]></fr:tex> applies the comultiplication to the second factor, and <fr:tex display="inline"><![CDATA[R_{12} : H^{\otimes  3}]]></fr:tex> is the identity on the third factor, only acting on the first two factors. Braiding in the other direction amounts to
+  <fr:tex display="block"><![CDATA[(\Delta  \otimes  \textrm {id})(R) = R_{13} R_{23}.]]></fr:tex>
+  We have now arrived at the definition of a braided Hopf algebra.</fr:p>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>10</fr:month>
+          <fr:day>25</fr:day>
+        </fr:date>
+        <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/misc-0007.tree</fr:source-path>
+        <fr:anchor>752</fr:anchor>
+        <fr:addr type="user">misc-0007</fr:addr>
+        <fr:route>misc-0007.xml</fr:route>
+        <fr:title text="Braided Hopf algebra">Braided Hopf algebra</fr:title>
+        <fr:taxon>Definition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:p>Given a <fr:link href="misc-0002.xml" title="Hopf algebra" addr="misc-0002" type="local">Hopf algebra</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>, suppose it is equipped with an element <fr:tex display="inline"><![CDATA[R \in  H \otimes  H]]></fr:tex>, such that
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \tau (\Delta (a)) &= R \Delta (a) R^{-1} \\
+    (\Delta  \otimes  \textrm {id})(R) &= R_{13} R_{23} \\
+    (\textrm {id} \otimes  \Delta )(R) &= R_{13} R_{12}
+  \end {aligned}]]></fr:tex>
+  then we call it a <fr:strong>braided Hopf algebra</fr:strong>. Here <fr:tex display="inline"><![CDATA[\tau  : H \otimes  H \to  H \otimes  H]]></fr:tex> is the twisting map of tensor products, and <fr:tex display="inline"><![CDATA[R_{i j} \in  H^{\otimes  3}]]></fr:tex> is <fr:tex display="inline"><![CDATA[R \otimes  1]]></fr:tex> with the appropriate factors permuted.</fr:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2024</fr:year>
+          <fr:month>11</fr:month>
+          <fr:day>11</fr:day>
+        </fr:date>
+        <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/misc-000C.tree</fr:source-path>
+        <fr:anchor>753</fr:anchor>
+        <fr:addr type="user">misc-000C</fr:addr>
+        <fr:route>misc-000C.xml</fr:route>
+        <fr:title text="Dual representation of Hopf algebras">Dual representation of Hopf algebras</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:p>The <fr:link href="misc-0003.xml" title="Antipode of a Hopf algebra" addr="misc-0003" type="local">antipode of a Hopf algebra</fr:link> provides us with the structure to define dual representations. Given a representation <fr:tex display="inline"><![CDATA[V]]></fr:tex> of <fr:tex display="inline"><![CDATA[H]]></fr:tex>, we can define an action on <fr:tex display="inline"><![CDATA[V^*]]></fr:tex> by <fr:tex display="inline"><![CDATA[(h \cdot  f)(v) = f(S(h) \cdot  v)]]></fr:tex>. This works out because the antipode is an anti-homomorphism. This induces a contravariant functor on the category of representations.</fr:p>
+        <fr:p>Categorically speaking, for <fr:tex display="inline"><![CDATA[V]]></fr:tex> to have a right dual structure on <fr:tex display="inline"><![CDATA[V^*]]></fr:tex>, we need structure maps <fr:tex display="inline"><![CDATA[1 \to  V \otimes  V^*]]></fr:tex> and <fr:tex display="inline"><![CDATA[V^* \otimes  V \to  1]]></fr:tex>. This requires <fr:tex display="inline"><![CDATA[V]]></fr:tex> to be finite dimensional. In this case, we need to verify the obvious map from linear algebra is indeed a module homomorphism. This essentially follows from <fr:tex display="inline"><![CDATA[x_{(1)} \cdot  S(x_{(2)}) = \epsilon (x) = S(x_{(1)}) \cdot  x_{(2)}]]></fr:tex>.</fr:p>
+        <fr:p>However, this module structure on <fr:tex display="inline"><![CDATA[V^*]]></fr:tex> cannot be taken as the left dual of <fr:tex display="inline"><![CDATA[V]]></fr:tex>! The reason is the evaluation map <fr:tex display="inline"><![CDATA[v \otimes  f \mapsto  f(v)]]></fr:tex> doesn’t respect multiplication, since <fr:tex display="inline"><![CDATA[S(x_{(2)}) x_{(1)}]]></fr:tex> is not necessarily equal to <fr:tex display="inline"><![CDATA[S(x_{(1)}) \cdot  x_{(2)}]]></fr:tex>. Instead we need another module structure on the same vector space, using <fr:tex display="inline"><![CDATA[S^{-1}]]></fr:tex> in place of <fr:tex display="inline"><![CDATA[S]]></fr:tex>. Let this representation be denoted as <fr:tex display="inline"><![CDATA[{^{\vee }V}]]></fr:tex>, and for clarity we denote the right dual module as <fr:tex display="inline"><![CDATA[V^{\vee }]]></fr:tex>.</fr:p>
+      </fr:mainmatter>
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1970</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1971</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1973</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>11</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/misc-000B.tree</fr:source-path>
+            <fr:anchor>1972</fr:anchor>
+            <fr:addr type="user">misc-000B</fr:addr>
+            <fr:route>misc-000B.xml</fr:route>
+            <fr:title text="Ribbon Hopf algebra">Ribbon Hopf algebra</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p><fr:link href="misc-0002.xml" title="Hopf algebra" addr="misc-0002" type="local">Hopf algebras</fr:link> already have the concept of <fr:link href="misc-000C.xml" title="Dual representation of Hopf algebras" addr="misc-000C" type="local">dual modules</fr:link>, and for finite dimensional modules, the dual is a categorical dual. For a <fr:link href="misc-0007.xml" title="Braided Hopf algebra" addr="misc-0007" type="local">braided Hopf algebra</fr:link>, the modules further form a braided monoidal category. Hence to form ribbon categories, we only need to implement the twisting natural isomorphism <fr:tex display="inline"><![CDATA[\theta ]]></fr:tex>.</fr:p>
+            <fr:p>Similar to the discussion in <fr:link href="misc-0006.xml" title="Braided Hopf algebra" addr="misc-0006" type="local">§ <fr:contextual-number addr="misc-0006" /></fr:link>, we attempt to represent this isomorphism via an invertible element <fr:tex display="inline"><![CDATA[v]]></fr:tex>. For it to commute with every module homomorphism, this element needs to be in the center of the algebra. The equation <fr:tex display="inline"><![CDATA[\theta _1 = \textrm {id}]]></fr:tex> translates to <fr:tex display="inline"><![CDATA[\epsilon (v) = 1]]></fr:tex>. For <fr:tex display="inline"><![CDATA[\theta _{X^{\vee }} = (\theta _X)^{\vee }]]></fr:tex>, we need <fr:tex display="inline"><![CDATA[S(v) = v]]></fr:tex>. Finally we have the equation <fr:tex display="block"><![CDATA[\beta _{Y, X} \mathbin {\circ } \beta _{X, Y} \mathbin {\circ } \theta _{X \otimes  Y} = \theta _X \otimes  \theta _Y,]]></fr:tex> which translates to <fr:tex display="inline"><![CDATA[\Delta (v) = (\tau (R) R)^{-1} (v \otimes  v)]]></fr:tex>. This defines ribbon Hopf algebras.</fr:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>11</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/misc-000D.tree</fr:source-path>
+                <fr:anchor>818</fr:anchor>
+                <fr:addr type="user">misc-000D</fr:addr>
+                <fr:route>misc-000D.xml</fr:route>
+                <fr:title text="Ribbon Hopf algebra">Ribbon Hopf algebra</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>A <fr:strong>ribbon Hopf algebra</fr:strong> is defined as a <fr:link href="misc-0007.xml" title="Braided Hopf algebra" addr="misc-0007" type="local">braided Hopf algebra</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex> together with an element <fr:tex display="inline"><![CDATA[v]]></fr:tex> of the algebra, such that
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \epsilon (v) &= 1 \\
+    \Delta (v) &= (\tau (R) R)^{-1} (v \otimes  v) \\
+    S(v) &= v.
+  \end {aligned}]]></fr:tex></fr:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1977</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/misc-0002.tree</fr:source-path>
+            <fr:anchor>1974</fr:anchor>
+            <fr:addr type="user">misc-0002</fr:addr>
+            <fr:route>misc-0002.xml</fr:route>
+            <fr:title text="Hopf algebra">Hopf algebra</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given a vector space <fr:tex display="inline"><![CDATA[V]]></fr:tex>, we can equip <fr:tex display="inline"><![CDATA[V]]></fr:tex> with the structure of an associative algebra, given by multilinear maps <fr:tex display="inline"><![CDATA[V^{\otimes  m} \to  V]]></fr:tex>, usually written as juxtaposition. We can also equip <fr:tex display="inline"><![CDATA[V]]></fr:tex> with the structure of an coassociative coalgebra, given by maps <fr:tex display="inline"><![CDATA[V \to  V^{\otimes  m}]]></fr:tex>. We write the comultiplication as <fr:tex display="inline"><![CDATA[\Delta  : V \to  V \otimes  V]]></fr:tex>, and the counit <fr:tex display="inline"><![CDATA[\epsilon  : V \to  \Bbbk ]]></fr:tex>. When multiplication and comultiplication distribute over each other, we call the structure a <fr:strong>bialgebra</fr:strong>.</fr:p>
+            <fr:p>In this case, we can write linear maps in a seemingly non-linear fashion, by using the comultiplication to duplicate variables. For example <fr:tex display="inline"><![CDATA[f(x) = x_{(1)} x_{(2)}]]></fr:tex> stands for the composition of <fr:tex display="inline"><![CDATA[\Delta  : V \to  V \otimes  V]]></fr:tex> and the multiplication map <fr:tex display="inline"><![CDATA[V \otimes  V \to  V]]></fr:tex>. Note that the duplicated variables needs to be numbered when the comultiplication is not cocommutative. This is called <fr:strong>Sweedler’s notation</fr:strong>.</fr:p>
+            <fr:p>Furthermore, suppose there is a map <fr:tex display="inline"><![CDATA[S : V \to  V]]></fr:tex> called the <fr:strong>antipode</fr:strong> such that <fr:tex display="inline"><![CDATA[f(x) = x_{(1)} S(x_{(2)})]]></fr:tex> and <fr:tex display="inline"><![CDATA[g(x) = S(x_{(1)}) x_{(2)}]]></fr:tex> are equal to the map <fr:tex display="inline"><![CDATA[h(x) = \epsilon (x) \cdot  1]]></fr:tex>. We also write the antipode as <fr:tex display="inline"><![CDATA[x^{-1}]]></fr:tex> where <fr:tex display="inline"><![CDATA[x \in  V]]></fr:tex>. But note that if <fr:tex display="inline"><![CDATA[f : V \to  V]]></fr:tex> is a linear map, the notation <fr:tex display="inline"><![CDATA[f^{-1}]]></fr:tex> instead stands for the usual set-theoretic inverse map.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/misc-0005.tree</fr:source-path>
+            <fr:anchor>1975</fr:anchor>
+            <fr:addr type="user">misc-0005</fr:addr>
+            <fr:route>misc-0005.xml</fr:route>
+            <fr:title text="Symmetric monoidal product on representations of cocommutative Hopf algebras">Symmetric monoidal product on representations of cocommutative Hopf algebras</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Suppose a <fr:link href="misc-0002.xml" title="Hopf algebra" addr="misc-0002" type="local">Hopf algebra</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex> is cocommutative, i.e. <fr:tex display="inline"><![CDATA[\Delta (a) \in  H \otimes  H]]></fr:tex> is invariant under swapping the two factors, then the monoidal structure of <fr:tex display="inline"><![CDATA[H]]></fr:tex>-representations defined in <fr:link href="misc-0004.xml" title="Tensor product and dual of Hopf algebra representations" addr="misc-0004" type="local">Definition <fr:contextual-number addr="misc-0004" /></fr:link> is actually symmetric. The braiding is simply given by the braiding of vector space tensor products, and we only need to show that it is a homomorphism of representations. This immediately follows from the definition.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/misc-0004.tree</fr:source-path>
+            <fr:anchor>1976</fr:anchor>
+            <fr:addr type="user">misc-0004</fr:addr>
+            <fr:route>misc-0004.xml</fr:route>
+            <fr:title text="Tensor product and dual of Hopf algebra representations">Tensor product and dual of Hopf algebra representations</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given a <fr:link href="misc-0002.xml" title="Hopf algebra" addr="misc-0002" type="local">Hopf algebra</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>, its representations (i.e. left modules of <fr:tex display="inline"><![CDATA[H]]></fr:tex> considered as an associative algebra) have a monoidal structure. The underlying vector space is given by the tensor product of vector spaces, and the module structure <fr:tex display="inline"><![CDATA[\rho _{V_1 \otimes  V_2} : H \otimes  (V_1 \otimes  V_2) \to  V_1 \otimes  V_2]]></fr:tex> is given by the comultiplication: Suppose <fr:tex display="inline"><![CDATA[\Delta (a) = \sum _i b_i \otimes  c_i]]></fr:tex>, then
+  <fr:tex display="block"><![CDATA[\rho _{V_1 \otimes  V_2} (a) (x \otimes  y) = \sum _i \rho _{V_1}(b_i) x \otimes  \rho _{V_2}(c_i) y.]]></fr:tex>
+  Or in Sweedler’s notation, <fr:tex display="inline"><![CDATA[\rho _{V_1} (a_{(1)}) x \otimes  \rho _{V_2} (a_{(2)}) x]]></fr:tex>. Similarly, the antipode provides a module structure on the dual vector space:
+  <fr:tex display="block"><![CDATA[(\rho _{V^*} (a) \alpha )(x) = \alpha (\rho _V (a^{-1}) x).]]></fr:tex>
+  Hence the category of <fr:tex display="inline"><![CDATA[H]]></fr:tex>-representations is monoidal closed.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1978</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

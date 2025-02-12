@@ -1,305 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2020</fr:anchor><fr:addr
-type="user">algm-0016</fr:addr><fr:route>algm-0016.xml</fr:route><fr:title
-text="Nike’s trick">Nike’s trick</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>The intersections of two <fr:link
-type="local"
-href="algm-000Q.xml"
-addr="algm-000Q"
-title="Affine scheme">affine</fr:link> subschemes <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R_1), \operatorname {Spec}(R_2) \hookrightarrow  X]]></fr:tex> can be covered by affine schemes distinguished in both of them.</fr:p>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>15</fr:day>
+    </fr:date>
+    <fr:anchor>2649</fr:anchor>
+    <fr:addr type="user">algm-0016</fr:addr>
+    <fr:route>algm-0016.xml</fr:route>
+    <fr:title text="Nike’s trick">Nike’s trick</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><fr:p>The intersections of two <fr:link href="algm-000Q.xml" title="Affine scheme" addr="algm-000Q" type="local">affine</fr:link> subschemes <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_1), \operatorname {Spec}(R_2) \hookrightarrow  X]]></fr:tex> can be covered by affine schemes distinguished in both of them.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>815</fr:anchor><fr:addr
-type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0016</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>We just need to cover each point of the intersection. Suppose a point in the intersection is given by a prime ideal <fr:tex
-display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[R_1]]></fr:tex>. We can pick a distinguished open <fr:tex
-display="inline"><![CDATA[D(f)]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R_2)]]></fr:tex> contained in the intersection and containing <fr:tex
-display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>, and a distinguished open <fr:tex
-display="inline"><![CDATA[D(g)]]></fr:tex> of <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R_1)]]></fr:tex> contained in <fr:tex
-display="inline"><![CDATA[D(f)]]></fr:tex> and containing <fr:tex
-display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>. Now we prove that <fr:tex
-display="inline"><![CDATA[D(g)]]></fr:tex> is a distinguished open in <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R_2)]]></fr:tex>.</fr:p>
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0016.tree</fr:source-path><fr:anchor>966</fr:anchor><fr:addr type="machine">unstable/464</fr:addr><fr:route>unstable-464.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>We just need to cover each point of the intersection. Suppose a point in the intersection is given by a prime ideal <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> of <fr:tex display="inline"><![CDATA[R_1]]></fr:tex>. We can pick a distinguished open <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2)]]></fr:tex> contained in the intersection and containing <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>, and a distinguished open <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_1)]]></fr:tex> contained in <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> and containing <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>. Now we prove that <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex> is a distinguished open in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2)]]></fr:tex>.</fr:p>
 
-  <fr:p>It suffices to prove that <fr:tex
-display="inline"><![CDATA[D(g)]]></fr:tex> is a distinguished open in <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R_2 [f^{-1}])]]></fr:tex>, since this would imply the existence of an element <fr:tex
-display="inline"><![CDATA[g'/f^{n} \in  R_2[f^{-1}]]]></fr:tex>, and we can take <fr:tex
-display="inline"><![CDATA[D(g') \cap  D(f) = D(g' f)]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R_2)]]></fr:tex>. Now there is an inclusion map <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R_2[f^{-1}]) \to  \operatorname {Spec}(R_1)]]></fr:tex>, which amounts to a ring homomorphism <fr:tex
-display="inline"><![CDATA[\varphi ]]></fr:tex> by <fr:ref
-addr="algm-000X"
-href="algm-000X.xml"
-taxon="Theorem" />. In this case, <fr:tex
-display="inline"><![CDATA[D(\varphi (g))]]></fr:tex> is the required distinguished open, since <fr:tex
-display="inline"><![CDATA[\varphi ^{-1}D(u)]]></fr:tex> is equal to <fr:tex
-display="inline"><![CDATA[D(\varphi (u))]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R_2 [f^{-1}])]]></fr:tex>.</fr:p>
-</fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:p>It suffices to prove that <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex> is a distinguished open in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2 [f^{-1}])]]></fr:tex>, since this would imply the existence of an element <fr:tex display="inline"><![CDATA[g'/f^{n} \in  R_2[f^{-1}]]]></fr:tex>, and we can take <fr:tex display="inline"><![CDATA[D(g') \cap  D(f) = D(g' f)]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2)]]></fr:tex>. Now there is an inclusion map <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2[f^{-1}]) \to  \operatorname {Spec}(R_1)]]></fr:tex>, which amounts to a ring homomorphism <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> by <fr:link href="algm-000X.xml" title="Morphisms of affine schemes" addr="algm-000X" type="local">Theorem <fr:contextual-number addr="algm-000X" /></fr:link>. In this case, <fr:tex display="inline"><![CDATA[D(\varphi (g))]]></fr:tex> is the required distinguished open, since <fr:tex display="inline"><![CDATA[\varphi ^{-1}D(u)]]></fr:tex> is equal to <fr:tex display="inline"><![CDATA[D(\varphi (u))]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2 [f^{-1}])]]></fr:tex>.</fr:p>
+</fr:mainmatter></fr:tree>
   
-</fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2022</fr:anchor><fr:addr
-type="user">algm-0022</fr:addr><fr:route>algm-0022.xml</fr:route><fr:title
-text="Dense subsite of affine opens">Dense subsite of affine opens</fr:title><fr:date><fr:year>2024</fr:year><fr:month>9</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
-type="local"
-href="algm-000R.xml"
-addr="algm-000R"
-title="Scheme">scheme</fr:link> <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, the underlying locale (equipped with the canonical coverage) has a <fr:link
-type="local"
-href="algm-0021.xml"
-addr="algm-0021"
-title="Dense subsite">dense subsite</fr:link> whose objects are affine opens, and morphisms are distinguished open subspaces. Note that this isn’t a full subcategory, since <fr:link
-type="local"
-href="algm-0020.xml"
-addr="algm-0020"
-title="A non-distinguished affine subscheme">there exist affine open subspaces that are not distinguished</fr:link>.</fr:p><fr:p>Since schemes are covered by affine schemes, and distinguished opens form a basis in the <fr:link
-type="local"
-href="algm-0007.xml"
-addr="algm-0007"
-title="Localic spectrum of a commutative ring">localic spectrum of a commutative ring</fr:link>, every open in <fr:tex
-display="inline"><![CDATA[S]]></fr:tex> is covered by affine opens. On the other hand, <fr:link
-type="local"
-href="algm-0016.xml"
-addr="algm-0016"
-title="Nike’s trick">Nike’s trick</fr:link> guarantees the condition on morphisms for dense subsites.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2024</fr:anchor><fr:addr
-type="user">algm-0017</fr:addr><fr:route>algm-0017.xml</fr:route><fr:title
-text="Affine local properties">Affine local properties</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose a property on affine subschemes <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R) \hookrightarrow  X]]></fr:tex> is closed under taking distinguished subsets <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R_f) \hookrightarrow  X]]></fr:tex>, and for <fr:tex
-display="inline"><![CDATA[\gcd \{f_i\} = 1]]></fr:tex>, the property being true on <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R_{f_i}) \hookrightarrow  X]]></fr:tex> implies it being true on <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R) \hookrightarrow  X]]></fr:tex>. Then such a property is called <fr:strong>affine local</fr:strong>. We then say that <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> has such a property if some affine cover has such a property: the result doesn’t depend on the chosen cover.</fr:p><fr:p>If the property <fr:tex
-display="inline"><![CDATA[P]]></fr:tex> only depends on <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> and not <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> (or the inclusion map), it can be simplified as a property on affine schemes. In this case, the above definition extends it to a property <fr:tex
-display="inline"><![CDATA[P']]></fr:tex> on schemes, which we will usually refer to as <fr:strong>locally</fr:strong> <fr:tex
-display="inline"><![CDATA[P]]></fr:tex>. Suppose the scheme is furthermore <fr:link
-type="local"
-href="algm-000A.xml"
-addr="algm-000A"
-title="Terminology of compactness in algebraic geometry">quasi-compact</fr:link>, we say the scheme satisfies <fr:tex
-display="inline"><![CDATA[P]]></fr:tex>.</fr:p>
-  
-    
-    <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2014</fr:anchor><fr:addr
-type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-0017</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>We prove that if some affine cover <fr:tex
-display="inline"><![CDATA[\{\operatorname {Spec}(R_i) \hookrightarrow  X\}]]></fr:tex> has such a property, then all the affine subschemes has it, hence we can check on any affine cover. Given an affine subscheme <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(S) \hookrightarrow  X]]></fr:tex>, using <fr:link
-type="local"
-href="algm-0016.xml"
-addr="algm-0016"
-title="Nike’s trick">Nike’s trick</fr:link>, we see that the intersection with <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R_i)]]></fr:tex> is covered by affine subschemes, which will all have the said property. Hence we get a cover of <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(S) \hookrightarrow  X]]></fr:tex> with the said property, and therefore itself also.</fr:p>
-</fr:mainmatter><fr:backmatter /></fr:tree>
-  
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2026</fr:anchor><fr:addr
-type="user">algm-000X</fr:addr><fr:route>algm-000X.xml</fr:route><fr:title
-text="Morphisms of affine schemes">Morphisms of affine schemes</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p><fr:link
-type="local"
-href="algm-000U.xml"
-addr="algm-000U"
-title="Morphism of locally ringed spaces">Morphism</fr:link> of <fr:link
-type="local"
-href="algm-000Q.xml"
-addr="algm-000Q"
-title="Affine scheme">affine schemes</fr:link> are in natural bijection with ring homomorphisms in the opposite direction. In other words, there is a fully faithful embedding <fr:tex
-display="inline"><![CDATA[\mathsf {CRing}^\textrm {op} \to  \mathsf {Sch}]]></fr:tex>.</fr:p>
-  
-    
-    <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1121</fr:anchor><fr:addr
-type="machine">#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>algm-000X</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Given two rings <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>, <fr:tex
-display="inline"><![CDATA[S]]></fr:tex>, a ring homomorphism <fr:tex
-display="inline"><![CDATA[\varphi  : S \to  R]]></fr:tex> naturally induces a map of <fr:link
-type="local"
-href="algm-0004.xml"
-addr="algm-0004"
-title="Distinguished opens of {Spec}(R)">distinguished opens</fr:link> <fr:tex
-display="inline"><![CDATA[f \mapsto  \varphi (f)]]></fr:tex>. This is a continuous map <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R) \to  \operatorname {Spec}(S)]]></fr:tex>, because <fr:tex
-display="inline"><![CDATA[\varphi ]]></fr:tex> preserves <fr:tex
-display="inline"><![CDATA[\operatorname {lcm}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\gcd ]]></fr:tex> on radical ideals. For the structure sheaf, we can use the distinguished basis, thus we need to supply a ring homomorphism <fr:tex
-display="inline"><![CDATA[\Gamma (D(s), \mathscr {O}_{\operatorname {Spec}(S)}) \to  \Gamma (D(r), \mathscr {O}_{\operatorname {Spec}(R)})]]></fr:tex> whenever <fr:tex
-display="inline"><![CDATA[D(r) \subseteq  \varphi ^{-1}D(s) = D(\varphi (s))]]></fr:tex>. This is just a homomorphism <fr:tex
-display="inline"><![CDATA[S[s^{-1}] \to  R[r^{-1}]]]></fr:tex>, which is obvious because <fr:tex
-display="inline"><![CDATA[\varphi (s)]]></fr:tex> must be invertible in <fr:tex
-display="inline"><![CDATA[R[r^{-1}]]]></fr:tex>.</fr:p>
-
-  <fr:p>We need to prove our map is <fr:link
-type="local"
-href="algm-000U.xml"
-addr="algm-000U"
-title="Morphism of locally ringed spaces">local</fr:link>. Using the <fr:link
-type="local"
-href="algm-000W.xml"
-addr="algm-000W"
-title="Action of morphisms on stalks of locally ringed spaces">characterization on stalks</fr:link>, we just need to verify that <fr:tex
-display="inline"><![CDATA[S_{\varphi ^{-1}(\mathfrak {p})} \to  R_{\mathfrak {p}}]]></fr:tex> reflects invertibility. This is true by construction. Hence we have a map <fr:tex
-display="inline"><![CDATA[\hom _{\mathsf {CRing}}(S, R) \to  \hom _{\mathsf {Sch}}(\operatorname {Spec}(R), \operatorname {Spec}(S))]]></fr:tex>.</fr:p>
-
-  <fr:p>In the reverse direction, given a morphism <fr:tex
-display="inline"><![CDATA[\varphi  : \operatorname {Spec}(R) \to  \operatorname {Spec}(S)]]></fr:tex>, we can extract a ring homomorphism by looking at the global sections
-    <fr:tex
-display="block"><![CDATA[S \cong  \Gamma (\top , \varphi ^{-1}\mathscr {O}_{\operatorname {Spec}(S)}) \to  \Gamma (\top , \mathscr {O}_{\operatorname {Spec}(R)}) \cong  R.]]></fr:tex>
-    We obviously have going from <fr:tex
-display="inline"><![CDATA[\mathsf {CRing}]]></fr:tex> to <fr:tex
-display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> and then back is the identity. For the other direction, we first claim that the global section ring homomorphism (and the topological map) completely determines the morphism. Indeed, we need a commutative diagram:
-
-    
-  <html:span
-xmlns:html="http://www.w3.org/1999/xhtml"
-class="tikz tikzcd">
-    <fr:embedded-tex
-hash="c53e81307d06912948fdb79b10c12ad6"><fr:embedded-tex-preamble><![CDATA[
-            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
-    ]]></fr:embedded-tex-preamble><fr:embedded-tex-body><![CDATA[
-      \begin {tikzcd}
-      S & R \\
-      {S_{\mathfrak {q}}} & {R_{\mathfrak {p}}}
-      \arrow [from=1-1, to=1-2]
-      \arrow [from=2-1, to=2-2]
-      \arrow [two heads, from=1-1, to=2-1]
-      \arrow [two heads, from=1-2, to=2-2]
-    \end {tikzcd}
-    ]]></fr:embedded-tex-body></fr:embedded-tex>
-  </html:span>
-
-
-    where <fr:tex
-display="inline"><![CDATA[\left [\mathfrak {q}\right ]]]></fr:tex> is the image of the point <fr:tex
-display="inline"><![CDATA[\left [\mathfrak {p}\right ]]]></fr:tex> under the underlying continuous map of <fr:tex
-display="inline"><![CDATA[\varphi ]]></fr:tex>. This fixes the action of <fr:tex
-display="inline"><![CDATA[\varphi ]]></fr:tex> on the stalks. Furthermore, the <fr:link
-type="local"
-href="algm-000W.xml"
-addr="algm-000W"
-title="Action of morphisms on stalks of locally ringed spaces">locality</fr:link> implies the preimage of <fr:tex
-display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> under the ring homomorphism divides <fr:tex
-display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and since <fr:tex
-display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> is maximal in the local ring <fr:tex
-display="inline"><![CDATA[S_{\mathfrak {q}}]]></fr:tex>, the two ideals are equal. Hence the ring homomorphism determines the topological map too. This finishes the proof.</fr:p>
-</fr:mainmatter><fr:backmatter /></fr:tree>
-  
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2028</fr:anchor><fr:addr
-type="user">algm-000Q</fr:addr><fr:route>algm-000Q.xml</fr:route><fr:title
-text="Affine scheme">Affine scheme</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>An <fr:strong>affine scheme</fr:strong> is a <fr:link
-type="local"
-href="algm-000L.xml"
-addr="algm-000L"
-title="Locally ringed space">locally ringed space</fr:link> of the form <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> for some commutative ring <fr:tex
-display="inline"><![CDATA[R]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2641</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2642</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2645</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0022.tree</fr:source-path>
+            <fr:anchor>2643</fr:anchor>
+            <fr:addr type="user">algm-0022</fr:addr>
+            <fr:route>algm-0022.xml</fr:route>
+            <fr:title text="Dense subsite of affine opens">Dense subsite of affine opens</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given a <fr:link href="algm-000R.xml" title="Scheme" addr="algm-000R" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex>, the underlying locale (equipped with the canonical coverage) has a <fr:link href="algm-0021.xml" title="Dense subsite" addr="algm-0021" type="local">dense subsite</fr:link> whose objects are affine opens, and morphisms are distinguished open subspaces. Note that this isn’t a full subcategory, since <fr:link href="algm-0020.xml" title="A non-distinguished affine subscheme" addr="algm-0020" type="local">there exist affine open subspaces that are not distinguished</fr:link>.</fr:p>
+            <fr:p>Since schemes are covered by affine schemes, and distinguished opens form a basis in the <fr:link href="algm-0007.xml" title="Localic spectrum of a commutative ring" addr="algm-0007" type="local">localic spectrum of a commutative ring</fr:link>, every open in <fr:tex display="inline"><![CDATA[S]]></fr:tex> is covered by affine opens. On the other hand, <fr:link href="algm-0016.xml" title="Nike’s trick" addr="algm-0016" type="local">Nike’s trick</fr:link> guarantees the condition on morphisms for dense subsites.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0017.tree</fr:source-path>
+            <fr:anchor>2644</fr:anchor>
+            <fr:addr type="machine">unstable/428</fr:addr>
+            <fr:route>unstable-428.xml</fr:route>
+            <fr:title text="Affine local properties › "><fr:link href="algm-0017.xml" title="Affine local properties" addr="algm-0017" type="local">Affine local properties</fr:link> › </fr:title>
+            <fr:taxon>Proof</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+  <fr:p>We prove that if some affine cover <fr:tex display="inline"><![CDATA[\{\operatorname {Spec}(R_i) \hookrightarrow  X\}]]></fr:tex> has such a property, then all the affine subschemes has it, hence we can check on any affine cover. Given an affine subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S) \hookrightarrow  X]]></fr:tex>, using <fr:link href="algm-0016.xml" title="Nike’s trick" addr="algm-0016" type="local">Nike’s trick</fr:link>, we see that the intersection with <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_i)]]></fr:tex> is covered by affine subschemes, which will all have the said property. Hence we get a cover of <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S) \hookrightarrow  X]]></fr:tex> with the said property, and therefore itself also.</fr:p>
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2647</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-000Q.tree</fr:source-path>
+            <fr:anchor>2646</fr:anchor>
+            <fr:addr type="user">algm-000Q</fr:addr>
+            <fr:route>algm-000Q.xml</fr:route>
+            <fr:title text="Affine scheme">Affine scheme</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>An <fr:strong>affine scheme</fr:strong> is a <fr:link href="algm-000L.xml" title="Locally ringed space" addr="algm-000L" type="local">locally ringed space</fr:link> of the form <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> for some commutative ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2648</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

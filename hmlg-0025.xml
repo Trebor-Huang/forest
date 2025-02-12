@@ -1,19 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1244</fr:anchor><fr:addr
-type="user">hmlg-0025</fr:addr><fr:route>hmlg-0025.xml</fr:route><fr:title
-text="Degeneracy maps">Degeneracy maps</fr:title><fr:taxon>Notation</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given the monotone surjection <fr:tex
-display="inline"><![CDATA[\{0, \dots , n+1\} \to  \{0, \dots , n\}]]></fr:tex> with multiplicity at <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>, we write the corresponding degeneracy map of a simplicial set as <fr:tex
-display="inline"><![CDATA[s_k]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>28</fr:day>
+    </fr:date>
+    <fr:anchor>3784</fr:anchor>
+    <fr:addr type="user">hmlg-0025</fr:addr>
+    <fr:route>hmlg-0025.xml</fr:route>
+    <fr:title text="Degeneracy maps">Degeneracy maps</fr:title>
+    <fr:taxon>Notation</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Given the monotone surjection <fr:tex display="inline"><![CDATA[\{0, \dots , n+1\} \to  \{0, \dots , n\}]]></fr:tex> with multiplicity at <fr:tex display="inline"><![CDATA[k]]></fr:tex>, we write the corresponding degeneracy map of a simplicial set as <fr:tex display="inline"><![CDATA[s_k]]></fr:tex>.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3779</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3780</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3781</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3782</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3783</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

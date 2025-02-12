@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>10</fr:month>
+      <fr:day>5</fr:day>
+    </fr:date>
+    <fr:anchor>1145</fr:anchor>
+    <fr:addr type="machine">unstable/422</fr:addr>
+    <fr:route>unstable-422.xml</fr:route>
+    <fr:title text="Integration around a pole › "><fr:link href="cplx-0007.xml" title="Integration around a pole" addr="cplx-0007" type="local">Integration around a pole</fr:link> › </fr:title>
+    <fr:taxon>Proof</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+  <fr:p>Intuitively, <fr:tex display="inline"><![CDATA[1/(z-a)]]></fr:tex> is the derivative of the function <fr:tex display="inline"><![CDATA[\log (z - a)]]></fr:tex>. But formalizing this is difficult, since logarithms are not single-valued, so what happens near the branch cuts is not clear. However, we can avoid this by considering the inverse function <fr:tex display="inline"><![CDATA[\exp ]]></fr:tex> instead.</fr:p>
+
+  <fr:p>Let the path be parametrized by the interval <fr:tex display="inline"><![CDATA[[0,1]]]></fr:tex> for convenience. Consider the function <fr:tex display="block"><![CDATA[g(t) = \int _0^t \frac {\gamma '(t)}{\gamma (t) - a} \operatorname {d}\mathclose {t}.]]></fr:tex> By the intuition above, we expect <fr:tex display="inline"><![CDATA[g(t) \xlongequal {?} \log (\gamma (t) - a) + C]]></fr:tex>. So we instead consider <fr:tex display="inline"><![CDATA[h(t) = \exp (g(t))/(\gamma (t) - a)]]></fr:tex> and prove it is a constant. This can be verified by differentiation, using the chain rule and the fundamental theorem of calculus.</fr:p>
+
+  <fr:p>Of course, <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is only piecewise differentiable. So <fr:tex display="inline"><![CDATA[h(t)]]></fr:tex> is only constant on each piece. But in addition, <fr:tex display="inline"><![CDATA[h(t)]]></fr:tex> is continuous on the entire curve, so it must be globally constant. Moreover, since <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is a loop, we have <fr:tex display="inline"><![CDATA[\gamma (0) = \gamma (1)]]></fr:tex>, and since <fr:tex display="inline"><![CDATA[h(0) = h(1)]]></fr:tex>, we can deduce <fr:tex display="inline"><![CDATA[1 = \exp (g(0)) = \exp (g(1))]]></fr:tex>, which means the integral <fr:tex display="inline"><![CDATA[g(1)]]></fr:tex> is a multiple of <fr:tex display="inline"><![CDATA[2 \pi  i]]></fr:tex> as desired.</fr:p>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1138</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1141</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>5</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0007.tree</fr:source-path>
+            <fr:anchor>1140</fr:anchor>
+            <fr:addr type="user">cplx-0007</fr:addr>
+            <fr:route>cplx-0007.xml</fr:route>
+            <fr:title text="Integration around a pole">Integration around a pole</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Given a piecewise differentiable closed curve <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> not passing through <fr:tex display="inline"><![CDATA[a]]></fr:tex>, the complex <fr:link href="cplx-0005.xml" title="Line integral" addr="cplx-0005" type="local">line integral</fr:link> <fr:tex display="block"><![CDATA[\int _\gamma  \frac {1}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex> is always a multiple of <fr:tex display="inline"><![CDATA[2 \pi  i]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0007.tree</fr:source-path><fr:anchor>1139</fr:anchor><fr:addr type="machine">unstable/422</fr:addr><fr:route>unstable-422.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>Intuitively, <fr:tex display="inline"><![CDATA[1/(z-a)]]></fr:tex> is the derivative of the function <fr:tex display="inline"><![CDATA[\log (z - a)]]></fr:tex>. But formalizing this is difficult, since logarithms are not single-valued, so what happens near the branch cuts is not clear. However, we can avoid this by considering the inverse function <fr:tex display="inline"><![CDATA[\exp ]]></fr:tex> instead.</fr:p>
+
+  <fr:p>Let the path be parametrized by the interval <fr:tex display="inline"><![CDATA[[0,1]]]></fr:tex> for convenience. Consider the function <fr:tex display="block"><![CDATA[g(t) = \int _0^t \frac {\gamma '(t)}{\gamma (t) - a} \operatorname {d}\mathclose {t}.]]></fr:tex> By the intuition above, we expect <fr:tex display="inline"><![CDATA[g(t) \xlongequal {?} \log (\gamma (t) - a) + C]]></fr:tex>. So we instead consider <fr:tex display="inline"><![CDATA[h(t) = \exp (g(t))/(\gamma (t) - a)]]></fr:tex> and prove it is a constant. This can be verified by differentiation, using the chain rule and the fundamental theorem of calculus.</fr:p>
+
+  <fr:p>Of course, <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is only piecewise differentiable. So <fr:tex display="inline"><![CDATA[h(t)]]></fr:tex> is only constant on each piece. But in addition, <fr:tex display="inline"><![CDATA[h(t)]]></fr:tex> is continuous on the entire curve, so it must be globally constant. Moreover, since <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is a loop, we have <fr:tex display="inline"><![CDATA[\gamma (0) = \gamma (1)]]></fr:tex>, and since <fr:tex display="inline"><![CDATA[h(0) = h(1)]]></fr:tex>, we can deduce <fr:tex display="inline"><![CDATA[1 = \exp (g(0)) = \exp (g(1))]]></fr:tex>, which means the integral <fr:tex display="inline"><![CDATA[g(1)]]></fr:tex> is a multiple of <fr:tex display="inline"><![CDATA[2 \pi  i]]></fr:tex> as desired.</fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1142</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1143</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1144</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

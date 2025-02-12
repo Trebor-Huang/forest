@@ -1,93 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1176</fr:anchor><fr:addr
-type="user">hmlg-0029</fr:addr><fr:route>hmlg-0029.xml</fr:route><fr:title
-text="Kan fiber bundle">Kan fiber bundle</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
-type="local"
-href="hmlg-0026.xml"
-addr="hmlg-0026"
-title="Simplicial fiber bundle">simplicial fiber bundle</fr:link> <fr:tex
-display="inline"><![CDATA[p : E \to  B]]></fr:tex>, it is a Kan fibration iff the fiber <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is a Kan complex. Hence we call it a <fr:strong>Kan fiber bundle</fr:strong>. The proof yields an <fr:link
-type="local"
-href="hmlg-0027.xml"
-addr="hmlg-0027"
-title="Effective Kan fibration">effective Kan fibration</fr:link> if all the inputs are effective.</fr:p>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>29</fr:day>
+    </fr:date>
+    <fr:anchor>1726</fr:anchor>
+    <fr:addr type="user">hmlg-0029</fr:addr>
+    <fr:route>hmlg-0029.xml</fr:route>
+    <fr:title text="Kan fiber bundle">Kan fiber bundle</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><fr:p>Given a <fr:link href="hmlg-0026.xml" title="Simplicial fiber bundle" addr="hmlg-0026" type="local">simplicial fiber bundle</fr:link> <fr:tex display="inline"><![CDATA[p : E \to  B]]></fr:tex>, it is a Kan fibration iff the fiber <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a Kan complex. Hence we call it a <fr:strong>Kan fiber bundle</fr:strong>. The proof yields an <fr:link href="hmlg-0027.xml" title="Effective Kan fibration" addr="hmlg-0027" type="local">effective Kan fibration</fr:link> if all the inputs are effective.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1174</fr:anchor><fr:addr
-type="machine">#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>hmlg-0029</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Given a horn <fr:tex
-display="inline"><![CDATA[\Lambda ^n_k \to  E]]></fr:tex> and a compatible simplex <fr:tex
-display="inline"><![CDATA[\Delta ^n \to  B]]></fr:tex>, by the definition of simplicial fiber bundles, we may trivialize the bundle on the simplex locally. But since <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is Kan, obviously <fr:tex
-display="inline"><![CDATA[F \times  \Delta ^n \to  \Delta ^n]]></fr:tex> is also Kan. Hence we may select the required filling.</fr:p>
-</fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-0029.tree</fr:source-path><fr:anchor>992</fr:anchor><fr:addr type="machine">unstable/430</fr:addr><fr:route>unstable-430.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>Given a horn <fr:tex display="inline"><![CDATA[\Lambda ^n_k \to  E]]></fr:tex> and a compatible simplex <fr:tex display="inline"><![CDATA[\Delta ^n \to  B]]></fr:tex>, by the definition of simplicial fiber bundles, we may trivialize the bundle on the simplex locally. But since <fr:tex display="inline"><![CDATA[F]]></fr:tex> is Kan, obviously <fr:tex display="inline"><![CDATA[F \times  \Delta ^n \to  \Delta ^n]]></fr:tex> is also Kan. Hence we may select the required filling.</fr:p>
+</fr:mainmatter></fr:tree>
   
-</fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1178</fr:anchor><fr:addr
-type="user">hmlg-0027</fr:addr><fr:route>hmlg-0027.xml</fr:route><fr:title
-text="Effective Kan fibration">Effective Kan fibration</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>An <fr:strong>effective Kan fibration</fr:strong> is a Kan fibration of <fr:link
-type="local"
-href="hmlg-001T.xml"
-addr="hmlg-001T"
-title="Effective simplicial set">effective simplicial sets</fr:link> equipped with a computable choice of horn-filling. Note that it is different from <fr:em>algebraic</fr:em> Kan fibrations, because morphisms are not required to preserve the choice.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1180</fr:anchor><fr:addr
-type="user">hmlg-0026</fr:addr><fr:route>hmlg-0026.xml</fr:route><fr:title
-text="Simplicial fiber bundle">Simplicial fiber bundle</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A (strict) <fr:strong>simplicial fiber bundle</fr:strong> <fr:tex
-display="inline"><![CDATA[p : E \to  B]]></fr:tex> with fiber <fr:tex
-display="inline"><![CDATA[F]]></fr:tex> is a simplicial map <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> such that for every simplex <fr:tex
-display="inline"><![CDATA[\Delta ^n \to  B]]></fr:tex>, the pullback of <fr:tex
-display="inline"><![CDATA[p]]></fr:tex> along the simplex is isomorphic to <fr:tex
-display="inline"><![CDATA[\Delta ^n \times  F \to  \Delta ^n]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1719</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1720</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1721</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1724</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>29</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-0027.tree</fr:source-path>
+            <fr:anchor>1722</fr:anchor>
+            <fr:addr type="user">hmlg-0027</fr:addr>
+            <fr:route>hmlg-0027.xml</fr:route>
+            <fr:title text="Effective Kan fibration">Effective Kan fibration</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>An <fr:strong>effective Kan fibration</fr:strong> is a Kan fibration of <fr:link href="hmlg-001T.xml" title="Effective simplicial set" addr="hmlg-001T" type="local">effective simplicial sets</fr:link> equipped with a computable choice of horn-filling. Note that it is different from <fr:em>algebraic</fr:em> Kan fibrations, because morphisms are not required to preserve the choice.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>29</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-0026.tree</fr:source-path>
+            <fr:anchor>1723</fr:anchor>
+            <fr:addr type="user">hmlg-0026</fr:addr>
+            <fr:route>hmlg-0026.xml</fr:route>
+            <fr:title text="Simplicial fiber bundle">Simplicial fiber bundle</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A (strict) <fr:strong>simplicial fiber bundle</fr:strong> <fr:tex display="inline"><![CDATA[p : E \to  B]]></fr:tex> with fiber <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a simplicial map <fr:tex display="inline"><![CDATA[p]]></fr:tex> such that for every simplex <fr:tex display="inline"><![CDATA[\Delta ^n \to  B]]></fr:tex>, the pullback of <fr:tex display="inline"><![CDATA[p]]></fr:tex> along the simplex is isomorphic to <fr:tex display="inline"><![CDATA[\Delta ^n \times  F \to  \Delta ^n]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>1725</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

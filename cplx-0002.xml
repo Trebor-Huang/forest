@@ -1,995 +1,654 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>740</fr:anchor><fr:addr
-type="user">cplx-0002</fr:addr><fr:route>cplx-0002.xml</fr:route><fr:title
-text="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[f : U \to  \mathbb {C}]]></fr:tex> be a <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link> defined on an open set <fr:tex
-display="inline"><![CDATA[U \subseteq  \mathbb {C}]]></fr:tex>. Viewed as two functions of two real variables <fr:tex
-display="inline"><![CDATA[f(x + i y) = u(x, y) + i v(x, y)]]></fr:tex>, they are differentiable, and moreover satisfies equations
-  <fr:tex
-display="block"><![CDATA[\begin {aligned}     \frac {\partial  u}{\partial  x} &= \frac {\partial  v}{\partial  y}, \\     \frac {\partial  u}{\partial  y} &= -\frac {\partial  v}{\partial  x}.   \end {aligned}]]></fr:tex>
-  These are necessary and sufficient conditions for holomorphicity. We say <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> is a <fr:strong>harmonic conjugate</fr:strong> of <fr:tex
-display="inline"><![CDATA[u]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[-u]]></fr:tex> is similarly a harmonic conjugate of <fr:tex
-display="inline"><![CDATA[v]]></fr:tex>. They determine each other up to a constant, by the Poincaré lemma recovering a function from its differential.</fr:p><fr:p>Intuitively, for a function <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> to be complex differentiable, we need <fr:tex
-display="inline"><![CDATA[(f(z + \epsilon ) - f(z)) / \epsilon ]]></fr:tex> to converge to the <fr:em>same</fr:em> value for both real and imaginary <fr:tex
-display="inline"><![CDATA[\epsilon ]]></fr:tex>. The real and imaginary parts of this equality correspond to the two Cauchy–Riemann equations.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Context">Context</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>742</fr:anchor><fr:addr
-type="user">cplx-0008</fr:addr><fr:route>cplx-0008.xml</fr:route><fr:title
-text="First consequences of complex differentiability">First consequences of complex differentiability</fr:title><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>From the definition of a <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link>, we can immediately start exploring some of its consequences. It turns out that complex differentiability is much stronger than real differentiability, and the following theorem gives a first glimpse.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>668</fr:anchor><fr:addr
-type="user">cplx-0002</fr:addr><fr:route>cplx-0002.xml</fr:route><fr:title
-text="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[f : U \to  \mathbb {C}]]></fr:tex> be a <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link> defined on an open set <fr:tex
-display="inline"><![CDATA[U \subseteq  \mathbb {C}]]></fr:tex>. Viewed as two functions of two real variables <fr:tex
-display="inline"><![CDATA[f(x + i y) = u(x, y) + i v(x, y)]]></fr:tex>, they are differentiable, and moreover satisfies equations
-  <fr:tex
-display="block"><![CDATA[\begin {aligned}     \frac {\partial  u}{\partial  x} &= \frac {\partial  v}{\partial  y}, \\     \frac {\partial  u}{\partial  y} &= -\frac {\partial  v}{\partial  x}.   \end {aligned}]]></fr:tex>
-  These are necessary and sufficient conditions for holomorphicity. We say <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> is a <fr:strong>harmonic conjugate</fr:strong> of <fr:tex
-display="inline"><![CDATA[u]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[-u]]></fr:tex> is similarly a harmonic conjugate of <fr:tex
-display="inline"><![CDATA[v]]></fr:tex>. They determine each other up to a constant, by the Poincaré lemma recovering a function from its differential.</fr:p><fr:p>Intuitively, for a function <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> to be complex differentiable, we need <fr:tex
-display="inline"><![CDATA[(f(z + \epsilon ) - f(z)) / \epsilon ]]></fr:tex> to converge to the <fr:em>same</fr:em> value for both real and imaginary <fr:tex
-display="inline"><![CDATA[\epsilon ]]></fr:tex>. The real and imaginary parts of this equality correspond to the two Cauchy–Riemann equations.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can write these equations formally in a more suggestive way.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>670</fr:anchor><fr:addr
-type="user">cplx-0003</fr:addr><fr:route>cplx-0003.xml</fr:route><fr:title
-text="Complexifying the (co)tangent space">Complexifying the (co)tangent space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Considering <fr:tex
-display="inline"><![CDATA[\mathbb {C}]]></fr:tex> as a two dimensional real space, the tangent space at a point (take zero as an example) is <fr:tex
-display="inline"><![CDATA[\mathbb {R}^2]]></fr:tex>. It comes equipped with a complex structure <fr:tex
-display="inline"><![CDATA[J]]></fr:tex> sending <fr:tex
-display="inline"><![CDATA[\partial _x \mapsto  \partial _y]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\partial _y \mapsto  -\partial _x]]></fr:tex>, acting as multiplication by <fr:tex
-display="inline"><![CDATA[i]]></fr:tex>. A (real) smooth function <fr:tex
-display="inline"><![CDATA[\mathbb {C} \to  \mathbb {C}]]></fr:tex> then has a Jacobian at each point, which is a <fr:tex
-display="inline"><![CDATA[2 \times  2]]></fr:tex> matrix <fr:tex
-display="inline"><![CDATA[M]]></fr:tex>. The <fr:link
-type="local"
-href="cplx-0002.xml"
-addr="cplx-0002"
-title="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:link> then imposes a condition on this matrix, which can be written as <fr:tex
-display="inline"><![CDATA[J M = M J]]></fr:tex>.</fr:p><fr:p>It is sometimes convenient to complexify this vector space <fr:tex
-display="inline"><![CDATA[\mathbb {R}^2 \otimes  \mathbb {C} = \mathbb {C}^2]]></fr:tex>. This corresponds to formally allowing the <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> components to be complex-valued. This is because we often want to view a complex function as a scalar field on a two dimensional (real) manifold, but the scalar can be complex. So to do calculus with these scalars, naturally the associated tangent and cotangent spaces needs to be complexified. <fr:tex
-display="inline"><![CDATA[J]]></fr:tex> now has two eigenvalues <fr:tex
-display="inline"><![CDATA[i]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[-i]]></fr:tex>, corresponding to the <fr:strong>holomorphic</fr:strong> and <fr:strong>antiholomorphic</fr:strong> subspaces.</fr:p><fr:p>Of course this only happens in the tangent space, and the coordinate functions cannot be extended to complex domains. The Jacobian then extends to the complexified tangent space. This space has an alternative basis <fr:tex
-display="block"><![CDATA[\partial _z = \frac {1}{2}(\partial _x - i \partial _y) \quad \text {and}\quad \partial _{\bar {z}} = \frac {1}{2}(\partial _x + i \partial _y).]]></fr:tex> This has the dual basis on <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>-forms, given by <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {z} = \operatorname {d}\mathclose {x} + i \operatorname {d}\mathclose {y}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {\bar {z}} = \operatorname {d}\mathclose {x} - i \operatorname {d}\mathclose {y}]]></fr:tex>. In this basis, the Cauchy–Riemann equation can be written as <fr:tex
-display="inline"><![CDATA[\partial _{\bar {z}} f = 0]]></fr:tex>.</fr:p><fr:p>This gives a heuristic procedure for finding the <fr:link
-type="local"
-href="cplx-0002.xml"
-addr="cplx-0002"
-title="Cauchy–Riemann equations">harmonic conjugate</fr:link> of a function.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>672</fr:anchor><fr:addr
-type="user">cplx-0004</fr:addr><fr:route>cplx-0004.xml</fr:route><fr:title
-text="Formal method to calculate the harmonic conjugate">Formal method to calculate the harmonic conjugate</fr:title><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> is the real part of some <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link> <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>. Then we have <fr:tex
-display="inline"><![CDATA[2 u(x, y) = f(x + i y) + \overline {f(x + i y)}]]></fr:tex>. If we could extend the coordinates <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> to complex numbers, then similar to <fr:link
-type="local"
-href="cplx-0003.xml"
-addr="cplx-0003"
-title="Complexifying the (co)tangent space">what happens in the tangent space</fr:link>, we have a <fr:tex
-display="inline"><![CDATA[(z, \bar {z})]]></fr:tex> coordinate system with <fr:tex
-display="inline"><![CDATA[z = x + i y]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\bar {z} = x - i y]]></fr:tex> acting as <fr:em>independent</fr:em> variables in <fr:tex
-display="inline"><![CDATA[\mathbb {C}^2]]></fr:tex>.</fr:p><fr:p>By the <fr:link
-type="local"
-href="cplx-0002.xml"
-addr="cplx-0002"
-title="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:link>, <fr:tex
-display="inline"><![CDATA[f(x + i y)]]></fr:tex> should only depend on <fr:tex
-display="inline"><![CDATA[z]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\overline {f(x + i y)}]]></fr:tex> should only depend on <fr:tex
-display="inline"><![CDATA[\bar {z}]]></fr:tex>. So we can write the latter as another function <fr:tex
-display="inline"><![CDATA[g(\bar {z})]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[2 u = f(z) + g(\bar {z})]]></fr:tex>, we can look at the value at the point <fr:tex
-display="inline"><![CDATA[(z, \bar {z}) = (\alpha , 0)]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[\alpha  \in  \mathbb {C}]]></fr:tex>, which corresponds to <fr:tex
-display="inline"><![CDATA[x = \alpha  / 2]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y = - i \alpha  / 2]]></fr:tex>. Hence <fr:tex
-display="block"><![CDATA[2 u(\alpha  / 2, - i \alpha  / 2) = f(\alpha ) + g(0),]]></fr:tex> which determines <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> up to some constant. This method requires an analytic expression of <fr:tex
-display="inline"><![CDATA[u(x, y)]]></fr:tex>, so it makes sense to plug in complex numbers into <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>The <fr:link
-type="local"
-href="cplx-0002.xml"
-addr="cplx-0002"
-title="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:link> is very suggestive of the assumption in Green’s theorem in (real) multi-variable calculus. This prompts us to define notions of line integrals on the complex plane.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>674</fr:anchor><fr:addr
-type="user">cplx-0005</fr:addr><fr:route>cplx-0005.xml</fr:route><fr:title
-text="Line integral">Line integral</fr:title><fr:taxon>Defintion</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a complex function <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> and a piecewise differentiable curve <fr:tex
-display="inline"><![CDATA[\gamma  : [a, b] \to  \mathbb {C}]]></fr:tex>, we can define a few different kinds of line integrals along <fr:tex
-display="inline"><![CDATA[\gamma ]]></fr:tex>. The first is the <fr:strong>naive line integral</fr:strong>, given by directly integrating
-  <fr:tex
-display="block"><![CDATA[\int _a^b f(\gamma (t)) \operatorname {d}\mathclose {t}.]]></fr:tex>
-  But this depends on the parametrization of the curve.</fr:p><fr:p>We can also define the <fr:strong>complex line integral</fr:strong>, which is independent of parametrization:
-  <fr:tex
-display="block"><![CDATA[\int _\gamma  f(z) \operatorname {d}\mathclose {z} = \int _a^b f(\gamma (t)) \gamma '(t) \operatorname {d}\mathclose {t}.]]></fr:tex>
-  Following the convention of <fr:link
-type="local"
-href="cplx-0003.xml"
-addr="cplx-0003"
-title="Complexifying the (co)tangent space">complexifying the (co)tangent space</fr:link>, we can write <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {z} = \operatorname {d}\mathclose {x} + i \operatorname {d}\mathclose {y}]]></fr:tex>. This leads to the evident definition of integrating against <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {x}]]></fr:tex>, given by
-  <fr:tex
-display="block"><![CDATA[\int _\gamma  f(z) \operatorname {d}\mathclose {x} = \int _a^b f(\gamma (t)) \operatorname {Re}\gamma '(t) \operatorname {d}\mathclose {t}.]]></fr:tex> And <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {y}]]></fr:tex> is defined similarly.</fr:p><fr:p>Finally, there is also the <fr:strong>arc length integral</fr:strong>, which is given by
-  <fr:tex
-display="block"><![CDATA[\int _\gamma  f(z) \left |\operatorname {d}\mathclose {z}\right | = \int _a^b f(\gamma (t)) \left |\gamma '(t)\right | \operatorname {d}\mathclose {t}.]]></fr:tex>
-  In particular, integrating the constant function <fr:tex
-display="inline"><![CDATA[1]]></fr:tex> gives the length of the curve.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>676</fr:anchor><fr:addr
-type="user">cplx-0006</fr:addr><fr:route>cplx-0006.xml</fr:route><fr:title
-text="Integral of holomorphic function does not depend on path">Integral of holomorphic function does not depend on path</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link> <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> on an open set <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>, the <fr:link
-type="local"
-href="cplx-0005.xml"
-addr="cplx-0005"
-title="Line integral">complex line integral</fr:link> of <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> along two homotopic paths are equal. This is a direct consequence of the <fr:link
-type="local"
-href="cplx-0002.xml"
-addr="cplx-0002"
-title="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:link> and Green’s theorem. However, we need to be careful with the hypotheses when we have low differentiability.</fr:p><fr:p>We can write down the idea more succinctly using <fr:link
-type="local"
-href="cplx-0003.xml"
-addr="cplx-0003"
-title="Complexifying the (co)tangent space">the notation</fr:link> of <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {z}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {\bar {z}}]]></fr:tex>. We are integrating along <fr:tex
-display="inline"><![CDATA[f(z) \operatorname {d}\mathclose {z}]]></fr:tex>, but this is an closed differential, since <fr:tex
-display="block"><![CDATA[\operatorname {d} (f(z) \operatorname {d}\mathclose {z}) = - \partial _{\bar {z}} f(z) \operatorname {d}\mathclose {z} \wedge  \operatorname {d}\mathclose {\bar {z}} = 0.]]></fr:tex>
-  This shows the power of complexifying the tangent space.</fr:p><fr:p>This applies when <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is complex differentiable at every point, since complex differentiability implies (real) Fréchet differentiability (i.e. <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> can be approximated by a linear map at each point), which suffices for Green’s theorem to apply. It also suffices that <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is the derivative of another <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link>, and it is Riemann integrable. In this case we can simply apply the fundamental theorem of calculus.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>In fact, <fr:ref
-addr="cplx-0006"
-href="cplx-0006.xml"
-taxon="Theorem" /> is still applicable when the function <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is holomorphic except at isolated points <fr:tex
-display="inline"><![CDATA[z_i]]></fr:tex>, but <fr:tex
-display="inline"><![CDATA[f(z)]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[o(|z - z_i|^{-1})]]></fr:tex>. This can be seen by making the curve loop around a small disk of radius <fr:tex
-display="inline"><![CDATA[r]]></fr:tex> around these bad points. The loop integral goes to zero as <fr:tex
-display="inline"><![CDATA[O(r) o(r^{-1}) = o(1)]]></fr:tex>, and so does not affect the result. This is important because there is a function in the definition of complex differentiability, namely
-  <fr:tex
-display="block"><![CDATA[g(z) = \frac {f(z) - f(a)}{z - a}.]]></fr:tex>
-  And so the integral of <fr:tex
-display="inline"><![CDATA[g(z)]]></fr:tex> along a circle around <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> must be zero. Now we can separate out the second term <fr:tex
-display="inline"><![CDATA[f(a) \cdot  \int _\gamma  1/(z - a) \operatorname {d}\mathclose {z}]]></fr:tex>. This can be directly computed to be <fr:tex
-display="inline"><![CDATA[2 \pi  i f(a)]]></fr:tex>. This proves the following formula.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>678</fr:anchor><fr:addr
-type="user">cplx-0009</fr:addr><fr:route>cplx-0009.xml</fr:route><fr:title
-text="Cauchy integral formula">Cauchy integral formula</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link> <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>, and a point <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> such that a disk containing <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> lies within the domain of <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>, we have
-  <fr:tex
-display="block"><![CDATA[f(a) = \frac {1}{2 \pi  i} \int _{\gamma } \frac {f(z)}{z - a} \operatorname {d}\mathclose {z},]]></fr:tex>
-  where <fr:tex
-display="inline"><![CDATA[\gamma ]]></fr:tex> is the boundary of the disk.</fr:p>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>10</fr:month>
+      <fr:day>4</fr:day>
+    </fr:date>
+    <fr:anchor>3811</fr:anchor>
+    <fr:addr type="user">cplx-0002</fr:addr>
+    <fr:route>cplx-0002.xml</fr:route>
+    <fr:title text="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Let <fr:tex display="inline"><![CDATA[f : U \to  \mathbb {C}]]></fr:tex> be a <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link> defined on an open set <fr:tex display="inline"><![CDATA[U \subseteq  \mathbb {C}]]></fr:tex>. Viewed as two functions of two real variables <fr:tex display="inline"><![CDATA[f(x + i y) = u(x, y) + i v(x, y)]]></fr:tex>, they are differentiable, and moreover satisfies equations
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \frac {\partial  u}{\partial  x} &= \frac {\partial  v}{\partial  y}, \\
+    \frac {\partial  u}{\partial  y} &= -\frac {\partial  v}{\partial  x}.
+  \end {aligned}]]></fr:tex>
+  These are necessary and sufficient conditions for holomorphicity. We say <fr:tex display="inline"><![CDATA[v]]></fr:tex> is a <fr:strong>harmonic conjugate</fr:strong> of <fr:tex display="inline"><![CDATA[u]]></fr:tex>, and <fr:tex display="inline"><![CDATA[-u]]></fr:tex> is similarly a harmonic conjugate of <fr:tex display="inline"><![CDATA[v]]></fr:tex>. They determine each other up to a constant, by the Poincaré lemma recovering a function from its differential.</fr:p>
+    <fr:p>Intuitively, for a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> to be complex differentiable, we need <fr:tex display="inline"><![CDATA[(f(z + \epsilon ) - f(z)) / \epsilon ]]></fr:tex> to converge to the <fr:em>same</fr:em> value for both real and imaginary <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>. The real and imaginary parts of this equality correspond to the two Cauchy–Riemann equations.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3800</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3802</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0008.tree</fr:source-path>
+            <fr:anchor>3801</fr:anchor>
+            <fr:addr type="user">cplx-0008</fr:addr>
+            <fr:route>cplx-0008.xml</fr:route>
+            <fr:title text="First consequences of complex differentiability">First consequences of complex differentiability</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>From the definition of a <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link>, we can immediately start exploring some of its consequences. It turns out that complex differentiability is much stronger than real differentiability, and the following theorem gives a first glimpse.</fr:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0002.tree</fr:source-path>
+                <fr:anchor>1434</fr:anchor>
+                <fr:addr type="user">cplx-0002</fr:addr>
+                <fr:route>cplx-0002.xml</fr:route>
+                <fr:title text="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[f : U \to  \mathbb {C}]]></fr:tex> be a <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link> defined on an open set <fr:tex display="inline"><![CDATA[U \subseteq  \mathbb {C}]]></fr:tex>. Viewed as two functions of two real variables <fr:tex display="inline"><![CDATA[f(x + i y) = u(x, y) + i v(x, y)]]></fr:tex>, they are differentiable, and moreover satisfies equations
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \frac {\partial  u}{\partial  x} &= \frac {\partial  v}{\partial  y}, \\
+    \frac {\partial  u}{\partial  y} &= -\frac {\partial  v}{\partial  x}.
+  \end {aligned}]]></fr:tex>
+  These are necessary and sufficient conditions for holomorphicity. We say <fr:tex display="inline"><![CDATA[v]]></fr:tex> is a <fr:strong>harmonic conjugate</fr:strong> of <fr:tex display="inline"><![CDATA[u]]></fr:tex>, and <fr:tex display="inline"><![CDATA[-u]]></fr:tex> is similarly a harmonic conjugate of <fr:tex display="inline"><![CDATA[v]]></fr:tex>. They determine each other up to a constant, by the Poincaré lemma recovering a function from its differential.</fr:p>
+                <fr:p>Intuitively, for a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> to be complex differentiable, we need <fr:tex display="inline"><![CDATA[(f(z + \epsilon ) - f(z)) / \epsilon ]]></fr:tex> to converge to the <fr:em>same</fr:em> value for both real and imaginary <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>. The real and imaginary parts of this equality correspond to the two Cauchy–Riemann equations.</fr:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:p>We can write these equations formally in a more suggestive way.</fr:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0003.tree</fr:source-path>
+                <fr:anchor>1436</fr:anchor>
+                <fr:addr type="user">cplx-0003</fr:addr>
+                <fr:route>cplx-0003.xml</fr:route>
+                <fr:title text="Complexifying the (co)tangent space">Complexifying the (co)tangent space</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Considering <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> as a two dimensional real space, the tangent space at a point (take zero as an example) is <fr:tex display="inline"><![CDATA[\mathbb {R}^2]]></fr:tex>. It comes equipped with a complex structure <fr:tex display="inline"><![CDATA[J]]></fr:tex> sending <fr:tex display="inline"><![CDATA[\partial _x \mapsto  \partial _y]]></fr:tex> and <fr:tex display="inline"><![CDATA[\partial _y \mapsto  -\partial _x]]></fr:tex>, acting as multiplication by <fr:tex display="inline"><![CDATA[i]]></fr:tex>. A (real) smooth function <fr:tex display="inline"><![CDATA[\mathbb {C} \to  \mathbb {C}]]></fr:tex> then has a Jacobian at each point, which is a <fr:tex display="inline"><![CDATA[2 \times  2]]></fr:tex> matrix <fr:tex display="inline"><![CDATA[M]]></fr:tex>. The <fr:link href="cplx-0002.xml" title="Cauchy–Riemann equations" addr="cplx-0002" type="local">Cauchy–Riemann equations</fr:link> then imposes a condition on this matrix, which can be written as <fr:tex display="inline"><![CDATA[J M = M J]]></fr:tex>.</fr:p>
+                <fr:p>It is sometimes convenient to complexify this vector space <fr:tex display="inline"><![CDATA[\mathbb {R}^2 \otimes  \mathbb {C} = \mathbb {C}^2]]></fr:tex>. This corresponds to formally allowing the <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> components to be complex-valued. This is because we often want to view a complex function as a scalar field on a two dimensional (real) manifold, but the scalar can be complex. So to do calculus with these scalars, naturally the associated tangent and cotangent spaces needs to be complexified. <fr:tex display="inline"><![CDATA[J]]></fr:tex> now has two eigenvalues <fr:tex display="inline"><![CDATA[i]]></fr:tex> and <fr:tex display="inline"><![CDATA[-i]]></fr:tex>, corresponding to the <fr:strong>holomorphic</fr:strong> and <fr:strong>antiholomorphic</fr:strong> subspaces.</fr:p>
+                <fr:p>Of course this only happens in the tangent space, and the coordinate functions cannot be extended to complex domains. The Jacobian then extends to the complexified tangent space. This space has an alternative basis <fr:tex display="block"><![CDATA[\partial _z = \frac {1}{2}(\partial _x - i \partial _y) \quad \text {and}\quad \partial _{\bar {z}} = \frac {1}{2}(\partial _x + i \partial _y).]]></fr:tex> This has the dual basis on <fr:tex display="inline"><![CDATA[1]]></fr:tex>-forms, given by <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {z} = \operatorname {d}\mathclose {x} + i \operatorname {d}\mathclose {y}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {\bar {z}} = \operatorname {d}\mathclose {x} - i \operatorname {d}\mathclose {y}]]></fr:tex>. In this basis, the Cauchy–Riemann equation can be written as <fr:tex display="inline"><![CDATA[\partial _{\bar {z}} f = 0]]></fr:tex>.</fr:p>
+                <fr:p>This gives a heuristic procedure for finding the <fr:link href="cplx-0002.xml" title="Cauchy–Riemann equations" addr="cplx-0002" type="local">harmonic conjugate</fr:link> of a function.</fr:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>10</fr:month>
+                      <fr:day>4</fr:day>
+                    </fr:date>
+                    <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0004.tree</fr:source-path>
+                    <fr:anchor>1435</fr:anchor>
+                    <fr:addr type="user">cplx-0004</fr:addr>
+                    <fr:route>cplx-0004.xml</fr:route>
+                    <fr:title text="Formal method to calculate the harmonic conjugate">Formal method to calculate the harmonic conjugate</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <fr:p>Suppose <fr:tex display="inline"><![CDATA[u]]></fr:tex> is the real part of some <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Then we have <fr:tex display="inline"><![CDATA[2 u(x, y) = f(x + i y) + \overline {f(x + i y)}]]></fr:tex>. If we could extend the coordinates <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> to complex numbers, then similar to <fr:link href="cplx-0003.xml" title="Complexifying the (co)tangent space" addr="cplx-0003" type="local">what happens in the tangent space</fr:link>, we have a <fr:tex display="inline"><![CDATA[(z, \bar {z})]]></fr:tex> coordinate system with <fr:tex display="inline"><![CDATA[z = x + i y]]></fr:tex> and <fr:tex display="inline"><![CDATA[\bar {z} = x - i y]]></fr:tex> acting as <fr:em>independent</fr:em> variables in <fr:tex display="inline"><![CDATA[\mathbb {C}^2]]></fr:tex>.</fr:p>
+                    <fr:p>By the <fr:link href="cplx-0002.xml" title="Cauchy–Riemann equations" addr="cplx-0002" type="local">Cauchy–Riemann equations</fr:link>, <fr:tex display="inline"><![CDATA[f(x + i y)]]></fr:tex> should only depend on <fr:tex display="inline"><![CDATA[z]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {f(x + i y)}]]></fr:tex> should only depend on <fr:tex display="inline"><![CDATA[\bar {z}]]></fr:tex>. So we can write the latter as another function <fr:tex display="inline"><![CDATA[g(\bar {z})]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[2 u = f(z) + g(\bar {z})]]></fr:tex>, we can look at the value at the point <fr:tex display="inline"><![CDATA[(z, \bar {z}) = (\alpha , 0)]]></fr:tex> where <fr:tex display="inline"><![CDATA[\alpha  \in  \mathbb {C}]]></fr:tex>, which corresponds to <fr:tex display="inline"><![CDATA[x = \alpha  / 2]]></fr:tex> and <fr:tex display="inline"><![CDATA[y = - i \alpha  / 2]]></fr:tex>. Hence <fr:tex display="block"><![CDATA[2 u(\alpha  / 2, - i \alpha  / 2) = f(\alpha ) + g(0),]]></fr:tex> which determines <fr:tex display="inline"><![CDATA[f]]></fr:tex> up to some constant. This method requires an analytic expression of <fr:tex display="inline"><![CDATA[u(x, y)]]></fr:tex>, so it makes sense to plug in complex numbers into <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex>.</fr:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:p>The <fr:link href="cplx-0002.xml" title="Cauchy–Riemann equations" addr="cplx-0002" type="local">Cauchy–Riemann equations</fr:link> is very suggestive of the assumption in Green’s theorem in (real) multi-variable calculus. This prompts us to define notions of line integrals on the complex plane.</fr:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0005.tree</fr:source-path>
+                <fr:anchor>1437</fr:anchor>
+                <fr:addr type="user">cplx-0005</fr:addr>
+                <fr:route>cplx-0005.xml</fr:route>
+                <fr:title text="Line integral">Line integral</fr:title>
+                <fr:taxon>Defintion</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Given a complex function <fr:tex display="inline"><![CDATA[f]]></fr:tex> and a piecewise differentiable curve <fr:tex display="inline"><![CDATA[\gamma  : [a, b] \to  \mathbb {C}]]></fr:tex>, we can define a few different kinds of line integrals along <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex>. The first is the <fr:strong>naive line integral</fr:strong>, given by directly integrating
+  <fr:tex display="block"><![CDATA[\int _a^b f(\gamma (t)) \operatorname {d}\mathclose {t}.]]></fr:tex>
+  But this depends on the parametrization of the curve.</fr:p>
+                <fr:p>We can also define the <fr:strong>complex line integral</fr:strong>, which is independent of parametrization:
+  <fr:tex display="block"><![CDATA[\int _\gamma  f(z) \operatorname {d}\mathclose {z} = \int _a^b f(\gamma (t)) \gamma '(t) \operatorname {d}\mathclose {t}.]]></fr:tex>
+  Following the convention of <fr:link href="cplx-0003.xml" title="Complexifying the (co)tangent space" addr="cplx-0003" type="local">complexifying the (co)tangent space</fr:link>, we can write <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {z} = \operatorname {d}\mathclose {x} + i \operatorname {d}\mathclose {y}]]></fr:tex>. This leads to the evident definition of integrating against <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {x}]]></fr:tex>, given by
+  <fr:tex display="block"><![CDATA[\int _\gamma  f(z) \operatorname {d}\mathclose {x} = \int _a^b f(\gamma (t)) \operatorname {Re}\gamma '(t) \operatorname {d}\mathclose {t}.]]></fr:tex> And <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {y}]]></fr:tex> is defined similarly.</fr:p>
+                <fr:p>Finally, there is also the <fr:strong>arc length integral</fr:strong>, which is given by
+  <fr:tex display="block"><![CDATA[\int _\gamma  f(z) \left |\operatorname {d}\mathclose {z}\right | = \int _a^b f(\gamma (t)) \left |\gamma '(t)\right | \operatorname {d}\mathclose {t}.]]></fr:tex>
+  In particular, integrating the constant function <fr:tex display="inline"><![CDATA[1]]></fr:tex> gives the length of the curve.</fr:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0006.tree</fr:source-path>
+                <fr:anchor>1438</fr:anchor>
+                <fr:addr type="user">cplx-0006</fr:addr>
+                <fr:route>cplx-0006.xml</fr:route>
+                <fr:title text="Integral of holomorphic function does not depend on path">Integral of holomorphic function does not depend on path</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Given a <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex> on an open set <fr:tex display="inline"><![CDATA[U]]></fr:tex>, the <fr:link href="cplx-0005.xml" title="Line integral" addr="cplx-0005" type="local">complex line integral</fr:link> of <fr:tex display="inline"><![CDATA[f]]></fr:tex> along two homotopic paths are equal. This is a direct consequence of the <fr:link href="cplx-0002.xml" title="Cauchy–Riemann equations" addr="cplx-0002" type="local">Cauchy–Riemann equations</fr:link> and Green’s theorem. However, we need to be careful with the hypotheses when we have low differentiability.</fr:p>
+                <fr:p>We can write down the idea more succinctly using <fr:link href="cplx-0003.xml" title="Complexifying the (co)tangent space" addr="cplx-0003" type="local">the notation</fr:link> of <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {z}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {\bar {z}}]]></fr:tex>. We are integrating along <fr:tex display="inline"><![CDATA[f(z) \operatorname {d}\mathclose {z}]]></fr:tex>, but this is an closed differential, since <fr:tex display="block"><![CDATA[\operatorname {d} (f(z) \operatorname {d}\mathclose {z}) = - \partial _{\bar {z}} f(z) \operatorname {d}\mathclose {z} \wedge  \operatorname {d}\mathclose {\bar {z}} = 0.]]></fr:tex>
+  This shows the power of complexifying the tangent space.</fr:p>
+                <fr:p>This applies when <fr:tex display="inline"><![CDATA[f]]></fr:tex> is complex differentiable at every point, since complex differentiability implies (real) Fréchet differentiability (i.e. <fr:tex display="inline"><![CDATA[f]]></fr:tex> can be approximated by a linear map at each point), which suffices for Green’s theorem to apply. It also suffices that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is the derivative of another <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link>, and it is Riemann integrable. In this case we can simply apply the fundamental theorem of calculus.</fr:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:p>In fact, <fr:link href="cplx-0006.xml" title="Integral of holomorphic function does not depend on path" addr="cplx-0006" type="local">Theorem <fr:contextual-number addr="cplx-0006" /></fr:link> is still applicable when the function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is holomorphic except at isolated points <fr:tex display="inline"><![CDATA[z_i]]></fr:tex>, but <fr:tex display="inline"><![CDATA[f(z)]]></fr:tex> is <fr:tex display="inline"><![CDATA[o(|z - z_i|^{-1})]]></fr:tex>. This can be seen by making the curve loop around a small disk of radius <fr:tex display="inline"><![CDATA[r]]></fr:tex> around these bad points. The loop integral goes to zero as <fr:tex display="inline"><![CDATA[O(r) o(r^{-1}) = o(1)]]></fr:tex>, and so does not affect the result. This is important because there is a function in the definition of complex differentiability, namely
+  <fr:tex display="block"><![CDATA[g(z) = \frac {f(z) - f(a)}{z - a}.]]></fr:tex>
+  And so the integral of <fr:tex display="inline"><![CDATA[g(z)]]></fr:tex> along a circle around <fr:tex display="inline"><![CDATA[a]]></fr:tex> must be zero. Now we can separate out the second term <fr:tex display="inline"><![CDATA[f(a) \cdot  \int _\gamma  1/(z - a) \operatorname {d}\mathclose {z}]]></fr:tex>. This can be directly computed to be <fr:tex display="inline"><![CDATA[2 \pi  i f(a)]]></fr:tex>. This proves the following formula.</fr:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>6</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0009.tree</fr:source-path>
+                <fr:anchor>1440</fr:anchor>
+                <fr:addr type="user">cplx-0009</fr:addr>
+                <fr:route>cplx-0009.xml</fr:route>
+                <fr:title text="Cauchy integral formula">Cauchy integral formula</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Given a <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex>, and a point <fr:tex display="inline"><![CDATA[a]]></fr:tex> such that a disk containing <fr:tex display="inline"><![CDATA[a]]></fr:tex> lies within the domain of <fr:tex display="inline"><![CDATA[f]]></fr:tex>, we have
+  <fr:tex display="block"><![CDATA[f(a) = \frac {1}{2 \pi  i} \int _{\gamma } \frac {f(z)}{z - a} \operatorname {d}\mathclose {z},]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the boundary of the disk.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>652</fr:anchor><fr:addr
-type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>cplx-0009</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Removing a smaller disk of radius <fr:tex
-display="inline"><![CDATA[r]]></fr:tex> around <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\frac {f(z) - f(a)}{z - a}]]></fr:tex> is an analytic function in this region. Applying <fr:link
-type="local"
-href="cplx-0006.xml"
-addr="cplx-0006"
-title="Integral of holomorphic function does not depend on path">Green’s formula</fr:link> we have
-    <fr:tex
-display="block"><![CDATA[\int _{\gamma } \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z} = \int _{\gamma '} \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex>
-    where <fr:tex
-display="inline"><![CDATA[\gamma ]]></fr:tex> is the original circle, and <fr:tex
-display="inline"><![CDATA[\gamma ']]></fr:tex> is the smaller circle. Now since <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is holomorphic, the integrand has a limit as <fr:tex
-display="inline"><![CDATA[z \to  a]]></fr:tex> by definition, so in particular it is bounded for small enough <fr:tex
-display="inline"><![CDATA[r]]></fr:tex>. Therefore the right hand side is bounded by <fr:tex
-display="inline"><![CDATA[2 \pi  r C]]></fr:tex> for a constant <fr:tex
-display="inline"><![CDATA[C]]></fr:tex>, which goes to zero. So the left hand side must be zero since it does not depend on <fr:tex
-display="inline"><![CDATA[r]]></fr:tex>.</fr:p>
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>6</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0009.tree</fr:source-path><fr:anchor>1439</fr:anchor><fr:addr type="machine">unstable/436</fr:addr><fr:route>unstable-436.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>Removing a smaller disk of radius <fr:tex display="inline"><![CDATA[r]]></fr:tex> around <fr:tex display="inline"><![CDATA[a]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\frac {f(z) - f(a)}{z - a}]]></fr:tex> is an analytic function in this region. Applying <fr:link href="cplx-0006.xml" title="Integral of holomorphic function does not depend on path" addr="cplx-0006" type="local">Green’s formula</fr:link> we have
+    <fr:tex display="block"><![CDATA[\int _{\gamma } \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z} = \int _{\gamma '} \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex>
+    where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the original circle, and <fr:tex display="inline"><![CDATA[\gamma ']]></fr:tex> is the smaller circle. Now since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is holomorphic, the integrand has a limit as <fr:tex display="inline"><![CDATA[z \to  a]]></fr:tex> by definition, so in particular it is bounded for small enough <fr:tex display="inline"><![CDATA[r]]></fr:tex>. Therefore the right hand side is bounded by <fr:tex display="inline"><![CDATA[2 \pi  r C]]></fr:tex> for a constant <fr:tex display="inline"><![CDATA[C]]></fr:tex>, which goes to zero. So the left hand side must be zero since it does not depend on <fr:tex display="inline"><![CDATA[r]]></fr:tex>.</fr:p>
 
   <fr:p>Separating the two terms in the integral, we are left to prove
-    <fr:tex
-display="block"><![CDATA[\int _\gamma  \frac {\operatorname {d}\mathclose {z}}{z - a} = 2 \pi  i.]]></fr:tex>
+    <fr:tex display="block"><![CDATA[\int _\gamma  \frac {\operatorname {d}\mathclose {z}}{z - a} = 2 \pi  i.]]></fr:tex>
     This can be done by looking up integral tables.</fr:p>
-</fr:mainmatter><fr:backmatter /></fr:tree>
+</fr:mainmatter></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>The integral of <fr:tex
-display="inline"><![CDATA[1/(z-a)]]></fr:tex> can in fact be computed more generally. This also means we can use more general closed curves in <fr:ref
-addr="cplx-0009"
-href="cplx-0009.xml"
-taxon="Theorem" />, which will be useful in calculations.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>680</fr:anchor><fr:addr
-type="user">cplx-0007</fr:addr><fr:route>cplx-0007.xml</fr:route><fr:title
-text="Integration around a pole">Integration around a pole</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a piecewise differentiable closed curve <fr:tex
-display="inline"><![CDATA[\gamma ]]></fr:tex> not passing through <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>, the complex <fr:link
-type="local"
-href="cplx-0005.xml"
-addr="cplx-0005"
-title="Line integral">line integral</fr:link> <fr:tex
-display="block"><![CDATA[\int _\gamma  \frac {1}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex> is always a multiple of <fr:tex
-display="inline"><![CDATA[2 \pi  i]]></fr:tex>.</fr:p>
+</fr:mainmatter>
+            </fr:tree>
+            <fr:p>The integral of <fr:tex display="inline"><![CDATA[1/(z-a)]]></fr:tex> can in fact be computed more generally. This also means we can use more general closed curves in <fr:link href="cplx-0009.xml" title="Cauchy integral formula" addr="cplx-0009" type="local">Theorem <fr:contextual-number addr="cplx-0009" /></fr:link>, which will be useful in calculations.</fr:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0007.tree</fr:source-path>
+                <fr:anchor>1441</fr:anchor>
+                <fr:addr type="user">cplx-0007</fr:addr>
+                <fr:route>cplx-0007.xml</fr:route>
+                <fr:title text="Integration around a pole">Integration around a pole</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Given a piecewise differentiable closed curve <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> not passing through <fr:tex display="inline"><![CDATA[a]]></fr:tex>, the complex <fr:link href="cplx-0005.xml" title="Line integral" addr="cplx-0005" type="local">line integral</fr:link> <fr:tex display="block"><![CDATA[\int _\gamma  \frac {1}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex> is always a multiple of <fr:tex display="inline"><![CDATA[2 \pi  i]]></fr:tex>.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>682</fr:anchor><fr:addr
-type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>cplx-0007</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Intuitively, <fr:tex
-display="inline"><![CDATA[1/(z-a)]]></fr:tex> is the derivative of the function <fr:tex
-display="inline"><![CDATA[\log (z - a)]]></fr:tex>. But formalizing this is difficult, since logarithms are not single-valued, so what happens near the branch cuts is not clear. However, we can avoid this by considering the inverse function <fr:tex
-display="inline"><![CDATA[\exp ]]></fr:tex> instead.</fr:p>
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0007.tree</fr:source-path><fr:anchor>1139</fr:anchor><fr:addr type="machine">unstable/422</fr:addr><fr:route>unstable-422.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>Intuitively, <fr:tex display="inline"><![CDATA[1/(z-a)]]></fr:tex> is the derivative of the function <fr:tex display="inline"><![CDATA[\log (z - a)]]></fr:tex>. But formalizing this is difficult, since logarithms are not single-valued, so what happens near the branch cuts is not clear. However, we can avoid this by considering the inverse function <fr:tex display="inline"><![CDATA[\exp ]]></fr:tex> instead.</fr:p>
 
-  <fr:p>Let the path be parametrized by the interval <fr:tex
-display="inline"><![CDATA[[0,1]]]></fr:tex> for convenience. Consider the function <fr:tex
-display="block"><![CDATA[g(t) = \int _0^t \frac {\gamma '(t)}{\gamma (t) - a} \operatorname {d}\mathclose {t}.]]></fr:tex> By the intuition above, we expect <fr:tex
-display="inline"><![CDATA[g(t) \xlongequal {?} \log (\gamma (t) - a) + C]]></fr:tex>. So we instead consider <fr:tex
-display="inline"><![CDATA[h(t) = \exp (g(t))/(\gamma (t) - a)]]></fr:tex> and prove it is a constant. This can be verified by differentiation, using the chain rule and the fundamental theorem of calculus.</fr:p>
+  <fr:p>Let the path be parametrized by the interval <fr:tex display="inline"><![CDATA[[0,1]]]></fr:tex> for convenience. Consider the function <fr:tex display="block"><![CDATA[g(t) = \int _0^t \frac {\gamma '(t)}{\gamma (t) - a} \operatorname {d}\mathclose {t}.]]></fr:tex> By the intuition above, we expect <fr:tex display="inline"><![CDATA[g(t) \xlongequal {?} \log (\gamma (t) - a) + C]]></fr:tex>. So we instead consider <fr:tex display="inline"><![CDATA[h(t) = \exp (g(t))/(\gamma (t) - a)]]></fr:tex> and prove it is a constant. This can be verified by differentiation, using the chain rule and the fundamental theorem of calculus.</fr:p>
 
-  <fr:p>Of course, <fr:tex
-display="inline"><![CDATA[\gamma ]]></fr:tex> is only piecewise differentiable. So <fr:tex
-display="inline"><![CDATA[h(t)]]></fr:tex> is only constant on each piece. But in addition, <fr:tex
-display="inline"><![CDATA[h(t)]]></fr:tex> is continuous on the entire curve, so it must be globally constant. Moreover, since <fr:tex
-display="inline"><![CDATA[\gamma ]]></fr:tex> is a loop, we have <fr:tex
-display="inline"><![CDATA[\gamma (0) = \gamma (1)]]></fr:tex>, and since <fr:tex
-display="inline"><![CDATA[h(0) = h(1)]]></fr:tex>, we can deduce <fr:tex
-display="inline"><![CDATA[1 = \exp (g(0)) = \exp (g(1))]]></fr:tex>, which means the integral <fr:tex
-display="inline"><![CDATA[g(1)]]></fr:tex> is a multiple of <fr:tex
-display="inline"><![CDATA[2 \pi  i]]></fr:tex> as desired.</fr:p>
-</fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:p>Of course, <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is only piecewise differentiable. So <fr:tex display="inline"><![CDATA[h(t)]]></fr:tex> is only constant on each piece. But in addition, <fr:tex display="inline"><![CDATA[h(t)]]></fr:tex> is continuous on the entire curve, so it must be globally constant. Moreover, since <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is a loop, we have <fr:tex display="inline"><![CDATA[\gamma (0) = \gamma (1)]]></fr:tex>, and since <fr:tex display="inline"><![CDATA[h(0) = h(1)]]></fr:tex>, we can deduce <fr:tex display="inline"><![CDATA[1 = \exp (g(0)) = \exp (g(1))]]></fr:tex>, which means the integral <fr:tex display="inline"><![CDATA[g(1)]]></fr:tex> is a multiple of <fr:tex display="inline"><![CDATA[2 \pi  i]]></fr:tex> as desired.</fr:p>
+</fr:mainmatter></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>744</fr:anchor><fr:addr
-type="user">cplx-0008</fr:addr><fr:route>cplx-0008.xml</fr:route><fr:title
-text="First consequences of complex differentiability">First consequences of complex differentiability</fr:title><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>From the definition of a <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link>, we can immediately start exploring some of its consequences. It turns out that complex differentiability is much stronger than real differentiability, and the following theorem gives a first glimpse.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>668</fr:anchor><fr:addr
-type="user">cplx-0002</fr:addr><fr:route>cplx-0002.xml</fr:route><fr:title
-text="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
-display="inline"><![CDATA[f : U \to  \mathbb {C}]]></fr:tex> be a <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link> defined on an open set <fr:tex
-display="inline"><![CDATA[U \subseteq  \mathbb {C}]]></fr:tex>. Viewed as two functions of two real variables <fr:tex
-display="inline"><![CDATA[f(x + i y) = u(x, y) + i v(x, y)]]></fr:tex>, they are differentiable, and moreover satisfies equations
-  <fr:tex
-display="block"><![CDATA[\begin {aligned}     \frac {\partial  u}{\partial  x} &= \frac {\partial  v}{\partial  y}, \\     \frac {\partial  u}{\partial  y} &= -\frac {\partial  v}{\partial  x}.   \end {aligned}]]></fr:tex>
-  These are necessary and sufficient conditions for holomorphicity. We say <fr:tex
-display="inline"><![CDATA[v]]></fr:tex> is a <fr:strong>harmonic conjugate</fr:strong> of <fr:tex
-display="inline"><![CDATA[u]]></fr:tex>, and <fr:tex
-display="inline"><![CDATA[-u]]></fr:tex> is similarly a harmonic conjugate of <fr:tex
-display="inline"><![CDATA[v]]></fr:tex>. They determine each other up to a constant, by the Poincaré lemma recovering a function from its differential.</fr:p><fr:p>Intuitively, for a function <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> to be complex differentiable, we need <fr:tex
-display="inline"><![CDATA[(f(z + \epsilon ) - f(z)) / \epsilon ]]></fr:tex> to converge to the <fr:em>same</fr:em> value for both real and imaginary <fr:tex
-display="inline"><![CDATA[\epsilon ]]></fr:tex>. The real and imaginary parts of this equality correspond to the two Cauchy–Riemann equations.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>We can write these equations formally in a more suggestive way.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>670</fr:anchor><fr:addr
-type="user">cplx-0003</fr:addr><fr:route>cplx-0003.xml</fr:route><fr:title
-text="Complexifying the (co)tangent space">Complexifying the (co)tangent space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Considering <fr:tex
-display="inline"><![CDATA[\mathbb {C}]]></fr:tex> as a two dimensional real space, the tangent space at a point (take zero as an example) is <fr:tex
-display="inline"><![CDATA[\mathbb {R}^2]]></fr:tex>. It comes equipped with a complex structure <fr:tex
-display="inline"><![CDATA[J]]></fr:tex> sending <fr:tex
-display="inline"><![CDATA[\partial _x \mapsto  \partial _y]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\partial _y \mapsto  -\partial _x]]></fr:tex>, acting as multiplication by <fr:tex
-display="inline"><![CDATA[i]]></fr:tex>. A (real) smooth function <fr:tex
-display="inline"><![CDATA[\mathbb {C} \to  \mathbb {C}]]></fr:tex> then has a Jacobian at each point, which is a <fr:tex
-display="inline"><![CDATA[2 \times  2]]></fr:tex> matrix <fr:tex
-display="inline"><![CDATA[M]]></fr:tex>. The <fr:link
-type="local"
-href="cplx-0002.xml"
-addr="cplx-0002"
-title="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:link> then imposes a condition on this matrix, which can be written as <fr:tex
-display="inline"><![CDATA[J M = M J]]></fr:tex>.</fr:p><fr:p>It is sometimes convenient to complexify this vector space <fr:tex
-display="inline"><![CDATA[\mathbb {R}^2 \otimes  \mathbb {C} = \mathbb {C}^2]]></fr:tex>. This corresponds to formally allowing the <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> components to be complex-valued. This is because we often want to view a complex function as a scalar field on a two dimensional (real) manifold, but the scalar can be complex. So to do calculus with these scalars, naturally the associated tangent and cotangent spaces needs to be complexified. <fr:tex
-display="inline"><![CDATA[J]]></fr:tex> now has two eigenvalues <fr:tex
-display="inline"><![CDATA[i]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[-i]]></fr:tex>, corresponding to the <fr:strong>holomorphic</fr:strong> and <fr:strong>antiholomorphic</fr:strong> subspaces.</fr:p><fr:p>Of course this only happens in the tangent space, and the coordinate functions cannot be extended to complex domains. The Jacobian then extends to the complexified tangent space. This space has an alternative basis <fr:tex
-display="block"><![CDATA[\partial _z = \frac {1}{2}(\partial _x - i \partial _y) \quad \text {and}\quad \partial _{\bar {z}} = \frac {1}{2}(\partial _x + i \partial _y).]]></fr:tex> This has the dual basis on <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>-forms, given by <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {z} = \operatorname {d}\mathclose {x} + i \operatorname {d}\mathclose {y}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {\bar {z}} = \operatorname {d}\mathclose {x} - i \operatorname {d}\mathclose {y}]]></fr:tex>. In this basis, the Cauchy–Riemann equation can be written as <fr:tex
-display="inline"><![CDATA[\partial _{\bar {z}} f = 0]]></fr:tex>.</fr:p><fr:p>This gives a heuristic procedure for finding the <fr:link
-type="local"
-href="cplx-0002.xml"
-addr="cplx-0002"
-title="Cauchy–Riemann equations">harmonic conjugate</fr:link> of a function.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>672</fr:anchor><fr:addr
-type="user">cplx-0004</fr:addr><fr:route>cplx-0004.xml</fr:route><fr:title
-text="Formal method to calculate the harmonic conjugate">Formal method to calculate the harmonic conjugate</fr:title><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> is the real part of some <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link> <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>. Then we have <fr:tex
-display="inline"><![CDATA[2 u(x, y) = f(x + i y) + \overline {f(x + i y)}]]></fr:tex>. If we could extend the coordinates <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> to complex numbers, then similar to <fr:link
-type="local"
-href="cplx-0003.xml"
-addr="cplx-0003"
-title="Complexifying the (co)tangent space">what happens in the tangent space</fr:link>, we have a <fr:tex
-display="inline"><![CDATA[(z, \bar {z})]]></fr:tex> coordinate system with <fr:tex
-display="inline"><![CDATA[z = x + i y]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\bar {z} = x - i y]]></fr:tex> acting as <fr:em>independent</fr:em> variables in <fr:tex
-display="inline"><![CDATA[\mathbb {C}^2]]></fr:tex>.</fr:p><fr:p>By the <fr:link
-type="local"
-href="cplx-0002.xml"
-addr="cplx-0002"
-title="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:link>, <fr:tex
-display="inline"><![CDATA[f(x + i y)]]></fr:tex> should only depend on <fr:tex
-display="inline"><![CDATA[z]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\overline {f(x + i y)}]]></fr:tex> should only depend on <fr:tex
-display="inline"><![CDATA[\bar {z}]]></fr:tex>. So we can write the latter as another function <fr:tex
-display="inline"><![CDATA[g(\bar {z})]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[2 u = f(z) + g(\bar {z})]]></fr:tex>, we can look at the value at the point <fr:tex
-display="inline"><![CDATA[(z, \bar {z}) = (\alpha , 0)]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[\alpha  \in  \mathbb {C}]]></fr:tex>, which corresponds to <fr:tex
-display="inline"><![CDATA[x = \alpha  / 2]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y = - i \alpha  / 2]]></fr:tex>. Hence <fr:tex
-display="block"><![CDATA[2 u(\alpha  / 2, - i \alpha  / 2) = f(\alpha ) + g(0),]]></fr:tex> which determines <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> up to some constant. This method requires an analytic expression of <fr:tex
-display="inline"><![CDATA[u(x, y)]]></fr:tex>, so it makes sense to plug in complex numbers into <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>The <fr:link
-type="local"
-href="cplx-0002.xml"
-addr="cplx-0002"
-title="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:link> is very suggestive of the assumption in Green’s theorem in (real) multi-variable calculus. This prompts us to define notions of line integrals on the complex plane.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>674</fr:anchor><fr:addr
-type="user">cplx-0005</fr:addr><fr:route>cplx-0005.xml</fr:route><fr:title
-text="Line integral">Line integral</fr:title><fr:taxon>Defintion</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a complex function <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> and a piecewise differentiable curve <fr:tex
-display="inline"><![CDATA[\gamma  : [a, b] \to  \mathbb {C}]]></fr:tex>, we can define a few different kinds of line integrals along <fr:tex
-display="inline"><![CDATA[\gamma ]]></fr:tex>. The first is the <fr:strong>naive line integral</fr:strong>, given by directly integrating
-  <fr:tex
-display="block"><![CDATA[\int _a^b f(\gamma (t)) \operatorname {d}\mathclose {t}.]]></fr:tex>
-  But this depends on the parametrization of the curve.</fr:p><fr:p>We can also define the <fr:strong>complex line integral</fr:strong>, which is independent of parametrization:
-  <fr:tex
-display="block"><![CDATA[\int _\gamma  f(z) \operatorname {d}\mathclose {z} = \int _a^b f(\gamma (t)) \gamma '(t) \operatorname {d}\mathclose {t}.]]></fr:tex>
-  Following the convention of <fr:link
-type="local"
-href="cplx-0003.xml"
-addr="cplx-0003"
-title="Complexifying the (co)tangent space">complexifying the (co)tangent space</fr:link>, we can write <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {z} = \operatorname {d}\mathclose {x} + i \operatorname {d}\mathclose {y}]]></fr:tex>. This leads to the evident definition of integrating against <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {x}]]></fr:tex>, given by
-  <fr:tex
-display="block"><![CDATA[\int _\gamma  f(z) \operatorname {d}\mathclose {x} = \int _a^b f(\gamma (t)) \operatorname {Re}\gamma '(t) \operatorname {d}\mathclose {t}.]]></fr:tex> And <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {y}]]></fr:tex> is defined similarly.</fr:p><fr:p>Finally, there is also the <fr:strong>arc length integral</fr:strong>, which is given by
-  <fr:tex
-display="block"><![CDATA[\int _\gamma  f(z) \left |\operatorname {d}\mathclose {z}\right | = \int _a^b f(\gamma (t)) \left |\gamma '(t)\right | \operatorname {d}\mathclose {t}.]]></fr:tex>
-  In particular, integrating the constant function <fr:tex
-display="inline"><![CDATA[1]]></fr:tex> gives the length of the curve.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>676</fr:anchor><fr:addr
-type="user">cplx-0006</fr:addr><fr:route>cplx-0006.xml</fr:route><fr:title
-text="Integral of holomorphic function does not depend on path">Integral of holomorphic function does not depend on path</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link> <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> on an open set <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>, the <fr:link
-type="local"
-href="cplx-0005.xml"
-addr="cplx-0005"
-title="Line integral">complex line integral</fr:link> of <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> along two homotopic paths are equal. This is a direct consequence of the <fr:link
-type="local"
-href="cplx-0002.xml"
-addr="cplx-0002"
-title="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:link> and Green’s theorem. However, we need to be careful with the hypotheses when we have low differentiability.</fr:p><fr:p>We can write down the idea more succinctly using <fr:link
-type="local"
-href="cplx-0003.xml"
-addr="cplx-0003"
-title="Complexifying the (co)tangent space">the notation</fr:link> of <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {z}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {\bar {z}}]]></fr:tex>. We are integrating along <fr:tex
-display="inline"><![CDATA[f(z) \operatorname {d}\mathclose {z}]]></fr:tex>, but this is an closed differential, since <fr:tex
-display="block"><![CDATA[\operatorname {d} (f(z) \operatorname {d}\mathclose {z}) = - \partial _{\bar {z}} f(z) \operatorname {d}\mathclose {z} \wedge  \operatorname {d}\mathclose {\bar {z}} = 0.]]></fr:tex>
-  This shows the power of complexifying the tangent space.</fr:p><fr:p>This applies when <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is complex differentiable at every point, since complex differentiability implies (real) Fréchet differentiability (i.e. <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> can be approximated by a linear map at each point), which suffices for Green’s theorem to apply. It also suffices that <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is the derivative of another <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link>, and it is Riemann integrable. In this case we can simply apply the fundamental theorem of calculus.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:p>In fact, <fr:ref
-addr="cplx-0006"
-href="cplx-0006.xml"
-taxon="Theorem" /> is still applicable when the function <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is holomorphic except at isolated points <fr:tex
-display="inline"><![CDATA[z_i]]></fr:tex>, but <fr:tex
-display="inline"><![CDATA[f(z)]]></fr:tex> is <fr:tex
-display="inline"><![CDATA[o(|z - z_i|^{-1})]]></fr:tex>. This can be seen by making the curve loop around a small disk of radius <fr:tex
-display="inline"><![CDATA[r]]></fr:tex> around these bad points. The loop integral goes to zero as <fr:tex
-display="inline"><![CDATA[O(r) o(r^{-1}) = o(1)]]></fr:tex>, and so does not affect the result. This is important because there is a function in the definition of complex differentiability, namely
-  <fr:tex
-display="block"><![CDATA[g(z) = \frac {f(z) - f(a)}{z - a}.]]></fr:tex>
-  And so the integral of <fr:tex
-display="inline"><![CDATA[g(z)]]></fr:tex> along a circle around <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> must be zero. Now we can separate out the second term <fr:tex
-display="inline"><![CDATA[f(a) \cdot  \int _\gamma  1/(z - a) \operatorname {d}\mathclose {z}]]></fr:tex>. This can be directly computed to be <fr:tex
-display="inline"><![CDATA[2 \pi  i f(a)]]></fr:tex>. This proves the following formula.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>678</fr:anchor><fr:addr
-type="user">cplx-0009</fr:addr><fr:route>cplx-0009.xml</fr:route><fr:title
-text="Cauchy integral formula">Cauchy integral formula</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link> <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>, and a point <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> such that a disk containing <fr:tex
-display="inline"><![CDATA[a]]></fr:tex> lies within the domain of <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>, we have
-  <fr:tex
-display="block"><![CDATA[f(a) = \frac {1}{2 \pi  i} \int _{\gamma } \frac {f(z)}{z - a} \operatorname {d}\mathclose {z},]]></fr:tex>
-  where <fr:tex
-display="inline"><![CDATA[\gamma ]]></fr:tex> is the boundary of the disk.</fr:p>
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3807</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0008.tree</fr:source-path>
+            <fr:anchor>3803</fr:anchor>
+            <fr:addr type="user">cplx-0008</fr:addr>
+            <fr:route>cplx-0008.xml</fr:route>
+            <fr:title text="First consequences of complex differentiability">First consequences of complex differentiability</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>From the definition of a <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link>, we can immediately start exploring some of its consequences. It turns out that complex differentiability is much stronger than real differentiability, and the following theorem gives a first glimpse.</fr:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0002.tree</fr:source-path>
+                <fr:anchor>1434</fr:anchor>
+                <fr:addr type="user">cplx-0002</fr:addr>
+                <fr:route>cplx-0002.xml</fr:route>
+                <fr:title text="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Let <fr:tex display="inline"><![CDATA[f : U \to  \mathbb {C}]]></fr:tex> be a <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link> defined on an open set <fr:tex display="inline"><![CDATA[U \subseteq  \mathbb {C}]]></fr:tex>. Viewed as two functions of two real variables <fr:tex display="inline"><![CDATA[f(x + i y) = u(x, y) + i v(x, y)]]></fr:tex>, they are differentiable, and moreover satisfies equations
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \frac {\partial  u}{\partial  x} &= \frac {\partial  v}{\partial  y}, \\
+    \frac {\partial  u}{\partial  y} &= -\frac {\partial  v}{\partial  x}.
+  \end {aligned}]]></fr:tex>
+  These are necessary and sufficient conditions for holomorphicity. We say <fr:tex display="inline"><![CDATA[v]]></fr:tex> is a <fr:strong>harmonic conjugate</fr:strong> of <fr:tex display="inline"><![CDATA[u]]></fr:tex>, and <fr:tex display="inline"><![CDATA[-u]]></fr:tex> is similarly a harmonic conjugate of <fr:tex display="inline"><![CDATA[v]]></fr:tex>. They determine each other up to a constant, by the Poincaré lemma recovering a function from its differential.</fr:p>
+                <fr:p>Intuitively, for a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> to be complex differentiable, we need <fr:tex display="inline"><![CDATA[(f(z + \epsilon ) - f(z)) / \epsilon ]]></fr:tex> to converge to the <fr:em>same</fr:em> value for both real and imaginary <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>. The real and imaginary parts of this equality correspond to the two Cauchy–Riemann equations.</fr:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:p>We can write these equations formally in a more suggestive way.</fr:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0003.tree</fr:source-path>
+                <fr:anchor>1436</fr:anchor>
+                <fr:addr type="user">cplx-0003</fr:addr>
+                <fr:route>cplx-0003.xml</fr:route>
+                <fr:title text="Complexifying the (co)tangent space">Complexifying the (co)tangent space</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Considering <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> as a two dimensional real space, the tangent space at a point (take zero as an example) is <fr:tex display="inline"><![CDATA[\mathbb {R}^2]]></fr:tex>. It comes equipped with a complex structure <fr:tex display="inline"><![CDATA[J]]></fr:tex> sending <fr:tex display="inline"><![CDATA[\partial _x \mapsto  \partial _y]]></fr:tex> and <fr:tex display="inline"><![CDATA[\partial _y \mapsto  -\partial _x]]></fr:tex>, acting as multiplication by <fr:tex display="inline"><![CDATA[i]]></fr:tex>. A (real) smooth function <fr:tex display="inline"><![CDATA[\mathbb {C} \to  \mathbb {C}]]></fr:tex> then has a Jacobian at each point, which is a <fr:tex display="inline"><![CDATA[2 \times  2]]></fr:tex> matrix <fr:tex display="inline"><![CDATA[M]]></fr:tex>. The <fr:link href="cplx-0002.xml" title="Cauchy–Riemann equations" addr="cplx-0002" type="local">Cauchy–Riemann equations</fr:link> then imposes a condition on this matrix, which can be written as <fr:tex display="inline"><![CDATA[J M = M J]]></fr:tex>.</fr:p>
+                <fr:p>It is sometimes convenient to complexify this vector space <fr:tex display="inline"><![CDATA[\mathbb {R}^2 \otimes  \mathbb {C} = \mathbb {C}^2]]></fr:tex>. This corresponds to formally allowing the <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> components to be complex-valued. This is because we often want to view a complex function as a scalar field on a two dimensional (real) manifold, but the scalar can be complex. So to do calculus with these scalars, naturally the associated tangent and cotangent spaces needs to be complexified. <fr:tex display="inline"><![CDATA[J]]></fr:tex> now has two eigenvalues <fr:tex display="inline"><![CDATA[i]]></fr:tex> and <fr:tex display="inline"><![CDATA[-i]]></fr:tex>, corresponding to the <fr:strong>holomorphic</fr:strong> and <fr:strong>antiholomorphic</fr:strong> subspaces.</fr:p>
+                <fr:p>Of course this only happens in the tangent space, and the coordinate functions cannot be extended to complex domains. The Jacobian then extends to the complexified tangent space. This space has an alternative basis <fr:tex display="block"><![CDATA[\partial _z = \frac {1}{2}(\partial _x - i \partial _y) \quad \text {and}\quad \partial _{\bar {z}} = \frac {1}{2}(\partial _x + i \partial _y).]]></fr:tex> This has the dual basis on <fr:tex display="inline"><![CDATA[1]]></fr:tex>-forms, given by <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {z} = \operatorname {d}\mathclose {x} + i \operatorname {d}\mathclose {y}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {\bar {z}} = \operatorname {d}\mathclose {x} - i \operatorname {d}\mathclose {y}]]></fr:tex>. In this basis, the Cauchy–Riemann equation can be written as <fr:tex display="inline"><![CDATA[\partial _{\bar {z}} f = 0]]></fr:tex>.</fr:p>
+                <fr:p>This gives a heuristic procedure for finding the <fr:link href="cplx-0002.xml" title="Cauchy–Riemann equations" addr="cplx-0002" type="local">harmonic conjugate</fr:link> of a function.</fr:p>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>10</fr:month>
+                      <fr:day>4</fr:day>
+                    </fr:date>
+                    <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0004.tree</fr:source-path>
+                    <fr:anchor>1435</fr:anchor>
+                    <fr:addr type="user">cplx-0004</fr:addr>
+                    <fr:route>cplx-0004.xml</fr:route>
+                    <fr:title text="Formal method to calculate the harmonic conjugate">Formal method to calculate the harmonic conjugate</fr:title>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <fr:p>Suppose <fr:tex display="inline"><![CDATA[u]]></fr:tex> is the real part of some <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Then we have <fr:tex display="inline"><![CDATA[2 u(x, y) = f(x + i y) + \overline {f(x + i y)}]]></fr:tex>. If we could extend the coordinates <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> to complex numbers, then similar to <fr:link href="cplx-0003.xml" title="Complexifying the (co)tangent space" addr="cplx-0003" type="local">what happens in the tangent space</fr:link>, we have a <fr:tex display="inline"><![CDATA[(z, \bar {z})]]></fr:tex> coordinate system with <fr:tex display="inline"><![CDATA[z = x + i y]]></fr:tex> and <fr:tex display="inline"><![CDATA[\bar {z} = x - i y]]></fr:tex> acting as <fr:em>independent</fr:em> variables in <fr:tex display="inline"><![CDATA[\mathbb {C}^2]]></fr:tex>.</fr:p>
+                    <fr:p>By the <fr:link href="cplx-0002.xml" title="Cauchy–Riemann equations" addr="cplx-0002" type="local">Cauchy–Riemann equations</fr:link>, <fr:tex display="inline"><![CDATA[f(x + i y)]]></fr:tex> should only depend on <fr:tex display="inline"><![CDATA[z]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {f(x + i y)}]]></fr:tex> should only depend on <fr:tex display="inline"><![CDATA[\bar {z}]]></fr:tex>. So we can write the latter as another function <fr:tex display="inline"><![CDATA[g(\bar {z})]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[2 u = f(z) + g(\bar {z})]]></fr:tex>, we can look at the value at the point <fr:tex display="inline"><![CDATA[(z, \bar {z}) = (\alpha , 0)]]></fr:tex> where <fr:tex display="inline"><![CDATA[\alpha  \in  \mathbb {C}]]></fr:tex>, which corresponds to <fr:tex display="inline"><![CDATA[x = \alpha  / 2]]></fr:tex> and <fr:tex display="inline"><![CDATA[y = - i \alpha  / 2]]></fr:tex>. Hence <fr:tex display="block"><![CDATA[2 u(\alpha  / 2, - i \alpha  / 2) = f(\alpha ) + g(0),]]></fr:tex> which determines <fr:tex display="inline"><![CDATA[f]]></fr:tex> up to some constant. This method requires an analytic expression of <fr:tex display="inline"><![CDATA[u(x, y)]]></fr:tex>, so it makes sense to plug in complex numbers into <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex>.</fr:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:p>The <fr:link href="cplx-0002.xml" title="Cauchy–Riemann equations" addr="cplx-0002" type="local">Cauchy–Riemann equations</fr:link> is very suggestive of the assumption in Green’s theorem in (real) multi-variable calculus. This prompts us to define notions of line integrals on the complex plane.</fr:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0005.tree</fr:source-path>
+                <fr:anchor>1437</fr:anchor>
+                <fr:addr type="user">cplx-0005</fr:addr>
+                <fr:route>cplx-0005.xml</fr:route>
+                <fr:title text="Line integral">Line integral</fr:title>
+                <fr:taxon>Defintion</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Given a complex function <fr:tex display="inline"><![CDATA[f]]></fr:tex> and a piecewise differentiable curve <fr:tex display="inline"><![CDATA[\gamma  : [a, b] \to  \mathbb {C}]]></fr:tex>, we can define a few different kinds of line integrals along <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex>. The first is the <fr:strong>naive line integral</fr:strong>, given by directly integrating
+  <fr:tex display="block"><![CDATA[\int _a^b f(\gamma (t)) \operatorname {d}\mathclose {t}.]]></fr:tex>
+  But this depends on the parametrization of the curve.</fr:p>
+                <fr:p>We can also define the <fr:strong>complex line integral</fr:strong>, which is independent of parametrization:
+  <fr:tex display="block"><![CDATA[\int _\gamma  f(z) \operatorname {d}\mathclose {z} = \int _a^b f(\gamma (t)) \gamma '(t) \operatorname {d}\mathclose {t}.]]></fr:tex>
+  Following the convention of <fr:link href="cplx-0003.xml" title="Complexifying the (co)tangent space" addr="cplx-0003" type="local">complexifying the (co)tangent space</fr:link>, we can write <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {z} = \operatorname {d}\mathclose {x} + i \operatorname {d}\mathclose {y}]]></fr:tex>. This leads to the evident definition of integrating against <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {x}]]></fr:tex>, given by
+  <fr:tex display="block"><![CDATA[\int _\gamma  f(z) \operatorname {d}\mathclose {x} = \int _a^b f(\gamma (t)) \operatorname {Re}\gamma '(t) \operatorname {d}\mathclose {t}.]]></fr:tex> And <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {y}]]></fr:tex> is defined similarly.</fr:p>
+                <fr:p>Finally, there is also the <fr:strong>arc length integral</fr:strong>, which is given by
+  <fr:tex display="block"><![CDATA[\int _\gamma  f(z) \left |\operatorname {d}\mathclose {z}\right | = \int _a^b f(\gamma (t)) \left |\gamma '(t)\right | \operatorname {d}\mathclose {t}.]]></fr:tex>
+  In particular, integrating the constant function <fr:tex display="inline"><![CDATA[1]]></fr:tex> gives the length of the curve.</fr:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0006.tree</fr:source-path>
+                <fr:anchor>1438</fr:anchor>
+                <fr:addr type="user">cplx-0006</fr:addr>
+                <fr:route>cplx-0006.xml</fr:route>
+                <fr:title text="Integral of holomorphic function does not depend on path">Integral of holomorphic function does not depend on path</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Given a <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex> on an open set <fr:tex display="inline"><![CDATA[U]]></fr:tex>, the <fr:link href="cplx-0005.xml" title="Line integral" addr="cplx-0005" type="local">complex line integral</fr:link> of <fr:tex display="inline"><![CDATA[f]]></fr:tex> along two homotopic paths are equal. This is a direct consequence of the <fr:link href="cplx-0002.xml" title="Cauchy–Riemann equations" addr="cplx-0002" type="local">Cauchy–Riemann equations</fr:link> and Green’s theorem. However, we need to be careful with the hypotheses when we have low differentiability.</fr:p>
+                <fr:p>We can write down the idea more succinctly using <fr:link href="cplx-0003.xml" title="Complexifying the (co)tangent space" addr="cplx-0003" type="local">the notation</fr:link> of <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {z}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {\bar {z}}]]></fr:tex>. We are integrating along <fr:tex display="inline"><![CDATA[f(z) \operatorname {d}\mathclose {z}]]></fr:tex>, but this is an closed differential, since <fr:tex display="block"><![CDATA[\operatorname {d} (f(z) \operatorname {d}\mathclose {z}) = - \partial _{\bar {z}} f(z) \operatorname {d}\mathclose {z} \wedge  \operatorname {d}\mathclose {\bar {z}} = 0.]]></fr:tex>
+  This shows the power of complexifying the tangent space.</fr:p>
+                <fr:p>This applies when <fr:tex display="inline"><![CDATA[f]]></fr:tex> is complex differentiable at every point, since complex differentiability implies (real) Fréchet differentiability (i.e. <fr:tex display="inline"><![CDATA[f]]></fr:tex> can be approximated by a linear map at each point), which suffices for Green’s theorem to apply. It also suffices that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is the derivative of another <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link>, and it is Riemann integrable. In this case we can simply apply the fundamental theorem of calculus.</fr:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:p>In fact, <fr:link href="cplx-0006.xml" title="Integral of holomorphic function does not depend on path" addr="cplx-0006" type="local">Theorem <fr:contextual-number addr="cplx-0006" /></fr:link> is still applicable when the function <fr:tex display="inline"><![CDATA[f]]></fr:tex> is holomorphic except at isolated points <fr:tex display="inline"><![CDATA[z_i]]></fr:tex>, but <fr:tex display="inline"><![CDATA[f(z)]]></fr:tex> is <fr:tex display="inline"><![CDATA[o(|z - z_i|^{-1})]]></fr:tex>. This can be seen by making the curve loop around a small disk of radius <fr:tex display="inline"><![CDATA[r]]></fr:tex> around these bad points. The loop integral goes to zero as <fr:tex display="inline"><![CDATA[O(r) o(r^{-1}) = o(1)]]></fr:tex>, and so does not affect the result. This is important because there is a function in the definition of complex differentiability, namely
+  <fr:tex display="block"><![CDATA[g(z) = \frac {f(z) - f(a)}{z - a}.]]></fr:tex>
+  And so the integral of <fr:tex display="inline"><![CDATA[g(z)]]></fr:tex> along a circle around <fr:tex display="inline"><![CDATA[a]]></fr:tex> must be zero. Now we can separate out the second term <fr:tex display="inline"><![CDATA[f(a) \cdot  \int _\gamma  1/(z - a) \operatorname {d}\mathclose {z}]]></fr:tex>. This can be directly computed to be <fr:tex display="inline"><![CDATA[2 \pi  i f(a)]]></fr:tex>. This proves the following formula.</fr:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>6</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0009.tree</fr:source-path>
+                <fr:anchor>1440</fr:anchor>
+                <fr:addr type="user">cplx-0009</fr:addr>
+                <fr:route>cplx-0009.xml</fr:route>
+                <fr:title text="Cauchy integral formula">Cauchy integral formula</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Given a <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex>, and a point <fr:tex display="inline"><![CDATA[a]]></fr:tex> such that a disk containing <fr:tex display="inline"><![CDATA[a]]></fr:tex> lies within the domain of <fr:tex display="inline"><![CDATA[f]]></fr:tex>, we have
+  <fr:tex display="block"><![CDATA[f(a) = \frac {1}{2 \pi  i} \int _{\gamma } \frac {f(z)}{z - a} \operatorname {d}\mathclose {z},]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the boundary of the disk.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>652</fr:anchor><fr:addr
-type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>cplx-0009</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Removing a smaller disk of radius <fr:tex
-display="inline"><![CDATA[r]]></fr:tex> around <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>. Then <fr:tex
-display="inline"><![CDATA[\frac {f(z) - f(a)}{z - a}]]></fr:tex> is an analytic function in this region. Applying <fr:link
-type="local"
-href="cplx-0006.xml"
-addr="cplx-0006"
-title="Integral of holomorphic function does not depend on path">Green’s formula</fr:link> we have
-    <fr:tex
-display="block"><![CDATA[\int _{\gamma } \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z} = \int _{\gamma '} \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex>
-    where <fr:tex
-display="inline"><![CDATA[\gamma ]]></fr:tex> is the original circle, and <fr:tex
-display="inline"><![CDATA[\gamma ']]></fr:tex> is the smaller circle. Now since <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is holomorphic, the integrand has a limit as <fr:tex
-display="inline"><![CDATA[z \to  a]]></fr:tex> by definition, so in particular it is bounded for small enough <fr:tex
-display="inline"><![CDATA[r]]></fr:tex>. Therefore the right hand side is bounded by <fr:tex
-display="inline"><![CDATA[2 \pi  r C]]></fr:tex> for a constant <fr:tex
-display="inline"><![CDATA[C]]></fr:tex>, which goes to zero. So the left hand side must be zero since it does not depend on <fr:tex
-display="inline"><![CDATA[r]]></fr:tex>.</fr:p>
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>6</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0009.tree</fr:source-path><fr:anchor>1439</fr:anchor><fr:addr type="machine">unstable/436</fr:addr><fr:route>unstable-436.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>Removing a smaller disk of radius <fr:tex display="inline"><![CDATA[r]]></fr:tex> around <fr:tex display="inline"><![CDATA[a]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\frac {f(z) - f(a)}{z - a}]]></fr:tex> is an analytic function in this region. Applying <fr:link href="cplx-0006.xml" title="Integral of holomorphic function does not depend on path" addr="cplx-0006" type="local">Green’s formula</fr:link> we have
+    <fr:tex display="block"><![CDATA[\int _{\gamma } \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z} = \int _{\gamma '} \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex>
+    where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the original circle, and <fr:tex display="inline"><![CDATA[\gamma ']]></fr:tex> is the smaller circle. Now since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is holomorphic, the integrand has a limit as <fr:tex display="inline"><![CDATA[z \to  a]]></fr:tex> by definition, so in particular it is bounded for small enough <fr:tex display="inline"><![CDATA[r]]></fr:tex>. Therefore the right hand side is bounded by <fr:tex display="inline"><![CDATA[2 \pi  r C]]></fr:tex> for a constant <fr:tex display="inline"><![CDATA[C]]></fr:tex>, which goes to zero. So the left hand side must be zero since it does not depend on <fr:tex display="inline"><![CDATA[r]]></fr:tex>.</fr:p>
 
   <fr:p>Separating the two terms in the integral, we are left to prove
-    <fr:tex
-display="block"><![CDATA[\int _\gamma  \frac {\operatorname {d}\mathclose {z}}{z - a} = 2 \pi  i.]]></fr:tex>
+    <fr:tex display="block"><![CDATA[\int _\gamma  \frac {\operatorname {d}\mathclose {z}}{z - a} = 2 \pi  i.]]></fr:tex>
     This can be done by looking up integral tables.</fr:p>
-</fr:mainmatter><fr:backmatter /></fr:tree>
+</fr:mainmatter></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree><fr:p>The integral of <fr:tex
-display="inline"><![CDATA[1/(z-a)]]></fr:tex> can in fact be computed more generally. This also means we can use more general closed curves in <fr:ref
-addr="cplx-0009"
-href="cplx-0009.xml"
-taxon="Theorem" />, which will be useful in calculations.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>680</fr:anchor><fr:addr
-type="user">cplx-0007</fr:addr><fr:route>cplx-0007.xml</fr:route><fr:title
-text="Integration around a pole">Integration around a pole</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a piecewise differentiable closed curve <fr:tex
-display="inline"><![CDATA[\gamma ]]></fr:tex> not passing through <fr:tex
-display="inline"><![CDATA[a]]></fr:tex>, the complex <fr:link
-type="local"
-href="cplx-0005.xml"
-addr="cplx-0005"
-title="Line integral">line integral</fr:link> <fr:tex
-display="block"><![CDATA[\int _\gamma  \frac {1}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex> is always a multiple of <fr:tex
-display="inline"><![CDATA[2 \pi  i]]></fr:tex>.</fr:p>
+</fr:mainmatter>
+            </fr:tree>
+            <fr:p>The integral of <fr:tex display="inline"><![CDATA[1/(z-a)]]></fr:tex> can in fact be computed more generally. This also means we can use more general closed curves in <fr:link href="cplx-0009.xml" title="Cauchy integral formula" addr="cplx-0009" type="local">Theorem <fr:contextual-number addr="cplx-0009" /></fr:link>, which will be useful in calculations.</fr:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0007.tree</fr:source-path>
+                <fr:anchor>1441</fr:anchor>
+                <fr:addr type="user">cplx-0007</fr:addr>
+                <fr:route>cplx-0007.xml</fr:route>
+                <fr:title text="Integration around a pole">Integration around a pole</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Given a piecewise differentiable closed curve <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> not passing through <fr:tex display="inline"><![CDATA[a]]></fr:tex>, the complex <fr:link href="cplx-0005.xml" title="Line integral" addr="cplx-0005" type="local">line integral</fr:link> <fr:tex display="block"><![CDATA[\int _\gamma  \frac {1}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex> is always a multiple of <fr:tex display="inline"><![CDATA[2 \pi  i]]></fr:tex>.</fr:p>
   
     
-    <fr:tree
-toc="false"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>682</fr:anchor><fr:addr
-type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors><fr:parent>cplx-0007</fr:parent></fr:frontmatter><fr:mainmatter>
-  <fr:p>Intuitively, <fr:tex
-display="inline"><![CDATA[1/(z-a)]]></fr:tex> is the derivative of the function <fr:tex
-display="inline"><![CDATA[\log (z - a)]]></fr:tex>. But formalizing this is difficult, since logarithms are not single-valued, so what happens near the branch cuts is not clear. However, we can avoid this by considering the inverse function <fr:tex
-display="inline"><![CDATA[\exp ]]></fr:tex> instead.</fr:p>
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0007.tree</fr:source-path><fr:anchor>1139</fr:anchor><fr:addr type="machine">unstable/422</fr:addr><fr:route>unstable-422.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>Intuitively, <fr:tex display="inline"><![CDATA[1/(z-a)]]></fr:tex> is the derivative of the function <fr:tex display="inline"><![CDATA[\log (z - a)]]></fr:tex>. But formalizing this is difficult, since logarithms are not single-valued, so what happens near the branch cuts is not clear. However, we can avoid this by considering the inverse function <fr:tex display="inline"><![CDATA[\exp ]]></fr:tex> instead.</fr:p>
 
-  <fr:p>Let the path be parametrized by the interval <fr:tex
-display="inline"><![CDATA[[0,1]]]></fr:tex> for convenience. Consider the function <fr:tex
-display="block"><![CDATA[g(t) = \int _0^t \frac {\gamma '(t)}{\gamma (t) - a} \operatorname {d}\mathclose {t}.]]></fr:tex> By the intuition above, we expect <fr:tex
-display="inline"><![CDATA[g(t) \xlongequal {?} \log (\gamma (t) - a) + C]]></fr:tex>. So we instead consider <fr:tex
-display="inline"><![CDATA[h(t) = \exp (g(t))/(\gamma (t) - a)]]></fr:tex> and prove it is a constant. This can be verified by differentiation, using the chain rule and the fundamental theorem of calculus.</fr:p>
+  <fr:p>Let the path be parametrized by the interval <fr:tex display="inline"><![CDATA[[0,1]]]></fr:tex> for convenience. Consider the function <fr:tex display="block"><![CDATA[g(t) = \int _0^t \frac {\gamma '(t)}{\gamma (t) - a} \operatorname {d}\mathclose {t}.]]></fr:tex> By the intuition above, we expect <fr:tex display="inline"><![CDATA[g(t) \xlongequal {?} \log (\gamma (t) - a) + C]]></fr:tex>. So we instead consider <fr:tex display="inline"><![CDATA[h(t) = \exp (g(t))/(\gamma (t) - a)]]></fr:tex> and prove it is a constant. This can be verified by differentiation, using the chain rule and the fundamental theorem of calculus.</fr:p>
 
-  <fr:p>Of course, <fr:tex
-display="inline"><![CDATA[\gamma ]]></fr:tex> is only piecewise differentiable. So <fr:tex
-display="inline"><![CDATA[h(t)]]></fr:tex> is only constant on each piece. But in addition, <fr:tex
-display="inline"><![CDATA[h(t)]]></fr:tex> is continuous on the entire curve, so it must be globally constant. Moreover, since <fr:tex
-display="inline"><![CDATA[\gamma ]]></fr:tex> is a loop, we have <fr:tex
-display="inline"><![CDATA[\gamma (0) = \gamma (1)]]></fr:tex>, and since <fr:tex
-display="inline"><![CDATA[h(0) = h(1)]]></fr:tex>, we can deduce <fr:tex
-display="inline"><![CDATA[1 = \exp (g(0)) = \exp (g(1))]]></fr:tex>, which means the integral <fr:tex
-display="inline"><![CDATA[g(1)]]></fr:tex> is a multiple of <fr:tex
-display="inline"><![CDATA[2 \pi  i]]></fr:tex> as desired.</fr:p>
-</fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:p>Of course, <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is only piecewise differentiable. So <fr:tex display="inline"><![CDATA[h(t)]]></fr:tex> is only constant on each piece. But in addition, <fr:tex display="inline"><![CDATA[h(t)]]></fr:tex> is continuous on the entire curve, so it must be globally constant. Moreover, since <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is a loop, we have <fr:tex display="inline"><![CDATA[\gamma (0) = \gamma (1)]]></fr:tex>, and since <fr:tex display="inline"><![CDATA[h(0) = h(1)]]></fr:tex>, we can deduce <fr:tex display="inline"><![CDATA[1 = \exp (g(0)) = \exp (g(1))]]></fr:tex>, which means the integral <fr:tex display="inline"><![CDATA[g(1)]]></fr:tex> is a multiple of <fr:tex display="inline"><![CDATA[2 \pi  i]]></fr:tex> as desired.</fr:p>
+</fr:mainmatter></fr:tree>
   
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>746</fr:anchor><fr:addr
-type="user">cplx-0006</fr:addr><fr:route>cplx-0006.xml</fr:route><fr:title
-text="Integral of holomorphic function does not depend on path">Integral of holomorphic function does not depend on path</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link> <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> on an open set <fr:tex
-display="inline"><![CDATA[U]]></fr:tex>, the <fr:link
-type="local"
-href="cplx-0005.xml"
-addr="cplx-0005"
-title="Line integral">complex line integral</fr:link> of <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> along two homotopic paths are equal. This is a direct consequence of the <fr:link
-type="local"
-href="cplx-0002.xml"
-addr="cplx-0002"
-title="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:link> and Green’s theorem. However, we need to be careful with the hypotheses when we have low differentiability.</fr:p><fr:p>We can write down the idea more succinctly using <fr:link
-type="local"
-href="cplx-0003.xml"
-addr="cplx-0003"
-title="Complexifying the (co)tangent space">the notation</fr:link> of <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {z}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {\bar {z}}]]></fr:tex>. We are integrating along <fr:tex
-display="inline"><![CDATA[f(z) \operatorname {d}\mathclose {z}]]></fr:tex>, but this is an closed differential, since <fr:tex
-display="block"><![CDATA[\operatorname {d} (f(z) \operatorname {d}\mathclose {z}) = - \partial _{\bar {z}} f(z) \operatorname {d}\mathclose {z} \wedge  \operatorname {d}\mathclose {\bar {z}} = 0.]]></fr:tex>
-  This shows the power of complexifying the tangent space.</fr:p><fr:p>This applies when <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is complex differentiable at every point, since complex differentiability implies (real) Fréchet differentiability (i.e. <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> can be approximated by a linear map at each point), which suffices for Green’s theorem to apply. It also suffices that <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> is the derivative of another <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link>, and it is Riemann integrable. In this case we can simply apply the fundamental theorem of calculus.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>748</fr:anchor><fr:addr
-type="user">cplx-0003</fr:addr><fr:route>cplx-0003.xml</fr:route><fr:title
-text="Complexifying the (co)tangent space">Complexifying the (co)tangent space</fr:title><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Considering <fr:tex
-display="inline"><![CDATA[\mathbb {C}]]></fr:tex> as a two dimensional real space, the tangent space at a point (take zero as an example) is <fr:tex
-display="inline"><![CDATA[\mathbb {R}^2]]></fr:tex>. It comes equipped with a complex structure <fr:tex
-display="inline"><![CDATA[J]]></fr:tex> sending <fr:tex
-display="inline"><![CDATA[\partial _x \mapsto  \partial _y]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\partial _y \mapsto  -\partial _x]]></fr:tex>, acting as multiplication by <fr:tex
-display="inline"><![CDATA[i]]></fr:tex>. A (real) smooth function <fr:tex
-display="inline"><![CDATA[\mathbb {C} \to  \mathbb {C}]]></fr:tex> then has a Jacobian at each point, which is a <fr:tex
-display="inline"><![CDATA[2 \times  2]]></fr:tex> matrix <fr:tex
-display="inline"><![CDATA[M]]></fr:tex>. The <fr:link
-type="local"
-href="cplx-0002.xml"
-addr="cplx-0002"
-title="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:link> then imposes a condition on this matrix, which can be written as <fr:tex
-display="inline"><![CDATA[J M = M J]]></fr:tex>.</fr:p><fr:p>It is sometimes convenient to complexify this vector space <fr:tex
-display="inline"><![CDATA[\mathbb {R}^2 \otimes  \mathbb {C} = \mathbb {C}^2]]></fr:tex>. This corresponds to formally allowing the <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> components to be complex-valued. This is because we often want to view a complex function as a scalar field on a two dimensional (real) manifold, but the scalar can be complex. So to do calculus with these scalars, naturally the associated tangent and cotangent spaces needs to be complexified. <fr:tex
-display="inline"><![CDATA[J]]></fr:tex> now has two eigenvalues <fr:tex
-display="inline"><![CDATA[i]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[-i]]></fr:tex>, corresponding to the <fr:strong>holomorphic</fr:strong> and <fr:strong>antiholomorphic</fr:strong> subspaces.</fr:p><fr:p>Of course this only happens in the tangent space, and the coordinate functions cannot be extended to complex domains. The Jacobian then extends to the complexified tangent space. This space has an alternative basis <fr:tex
-display="block"><![CDATA[\partial _z = \frac {1}{2}(\partial _x - i \partial _y) \quad \text {and}\quad \partial _{\bar {z}} = \frac {1}{2}(\partial _x + i \partial _y).]]></fr:tex> This has the dual basis on <fr:tex
-display="inline"><![CDATA[1]]></fr:tex>-forms, given by <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {z} = \operatorname {d}\mathclose {x} + i \operatorname {d}\mathclose {y}]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\operatorname {d}\mathclose {\bar {z}} = \operatorname {d}\mathclose {x} - i \operatorname {d}\mathclose {y}]]></fr:tex>. In this basis, the Cauchy–Riemann equation can be written as <fr:tex
-display="inline"><![CDATA[\partial _{\bar {z}} f = 0]]></fr:tex>.</fr:p><fr:p>This gives a heuristic procedure for finding the <fr:link
-type="local"
-href="cplx-0002.xml"
-addr="cplx-0002"
-title="Cauchy–Riemann equations">harmonic conjugate</fr:link> of a function.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>672</fr:anchor><fr:addr
-type="user">cplx-0004</fr:addr><fr:route>cplx-0004.xml</fr:route><fr:title
-text="Formal method to calculate the harmonic conjugate">Formal method to calculate the harmonic conjugate</fr:title><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> is the real part of some <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link> <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>. Then we have <fr:tex
-display="inline"><![CDATA[2 u(x, y) = f(x + i y) + \overline {f(x + i y)}]]></fr:tex>. If we could extend the coordinates <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> to complex numbers, then similar to <fr:link
-type="local"
-href="cplx-0003.xml"
-addr="cplx-0003"
-title="Complexifying the (co)tangent space">what happens in the tangent space</fr:link>, we have a <fr:tex
-display="inline"><![CDATA[(z, \bar {z})]]></fr:tex> coordinate system with <fr:tex
-display="inline"><![CDATA[z = x + i y]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\bar {z} = x - i y]]></fr:tex> acting as <fr:em>independent</fr:em> variables in <fr:tex
-display="inline"><![CDATA[\mathbb {C}^2]]></fr:tex>.</fr:p><fr:p>By the <fr:link
-type="local"
-href="cplx-0002.xml"
-addr="cplx-0002"
-title="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:link>, <fr:tex
-display="inline"><![CDATA[f(x + i y)]]></fr:tex> should only depend on <fr:tex
-display="inline"><![CDATA[z]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\overline {f(x + i y)}]]></fr:tex> should only depend on <fr:tex
-display="inline"><![CDATA[\bar {z}]]></fr:tex>. So we can write the latter as another function <fr:tex
-display="inline"><![CDATA[g(\bar {z})]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[2 u = f(z) + g(\bar {z})]]></fr:tex>, we can look at the value at the point <fr:tex
-display="inline"><![CDATA[(z, \bar {z}) = (\alpha , 0)]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[\alpha  \in  \mathbb {C}]]></fr:tex>, which corresponds to <fr:tex
-display="inline"><![CDATA[x = \alpha  / 2]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y = - i \alpha  / 2]]></fr:tex>. Hence <fr:tex
-display="block"><![CDATA[2 u(\alpha  / 2, - i \alpha  / 2) = f(\alpha ) + g(0),]]></fr:tex> which determines <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> up to some constant. This method requires an analytic expression of <fr:tex
-display="inline"><![CDATA[u(x, y)]]></fr:tex>, so it makes sense to plug in complex numbers into <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>750</fr:anchor><fr:addr
-type="user">cplx-0004</fr:addr><fr:route>cplx-0004.xml</fr:route><fr:title
-text="Formal method to calculate the harmonic conjugate">Formal method to calculate the harmonic conjugate</fr:title><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Suppose <fr:tex
-display="inline"><![CDATA[u]]></fr:tex> is the real part of some <fr:link
-type="local"
-href="cplx-0001.xml"
-addr="cplx-0001"
-title="Holomorphic function">holomorphic function</fr:link> <fr:tex
-display="inline"><![CDATA[f]]></fr:tex>. Then we have <fr:tex
-display="inline"><![CDATA[2 u(x, y) = f(x + i y) + \overline {f(x + i y)}]]></fr:tex>. If we could extend the coordinates <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex> to complex numbers, then similar to <fr:link
-type="local"
-href="cplx-0003.xml"
-addr="cplx-0003"
-title="Complexifying the (co)tangent space">what happens in the tangent space</fr:link>, we have a <fr:tex
-display="inline"><![CDATA[(z, \bar {z})]]></fr:tex> coordinate system with <fr:tex
-display="inline"><![CDATA[z = x + i y]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\bar {z} = x - i y]]></fr:tex> acting as <fr:em>independent</fr:em> variables in <fr:tex
-display="inline"><![CDATA[\mathbb {C}^2]]></fr:tex>.</fr:p><fr:p>By the <fr:link
-type="local"
-href="cplx-0002.xml"
-addr="cplx-0002"
-title="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:link>, <fr:tex
-display="inline"><![CDATA[f(x + i y)]]></fr:tex> should only depend on <fr:tex
-display="inline"><![CDATA[z]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[\overline {f(x + i y)}]]></fr:tex> should only depend on <fr:tex
-display="inline"><![CDATA[\bar {z}]]></fr:tex>. So we can write the latter as another function <fr:tex
-display="inline"><![CDATA[g(\bar {z})]]></fr:tex>. Since <fr:tex
-display="inline"><![CDATA[2 u = f(z) + g(\bar {z})]]></fr:tex>, we can look at the value at the point <fr:tex
-display="inline"><![CDATA[(z, \bar {z}) = (\alpha , 0)]]></fr:tex> where <fr:tex
-display="inline"><![CDATA[\alpha  \in  \mathbb {C}]]></fr:tex>, which corresponds to <fr:tex
-display="inline"><![CDATA[x = \alpha  / 2]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y = - i \alpha  / 2]]></fr:tex>. Hence <fr:tex
-display="block"><![CDATA[2 u(\alpha  / 2, - i \alpha  / 2) = f(\alpha ) + g(0),]]></fr:tex> which determines <fr:tex
-display="inline"><![CDATA[f]]></fr:tex> up to some constant. This method requires an analytic expression of <fr:tex
-display="inline"><![CDATA[u(x, y)]]></fr:tex>, so it makes sense to plug in complex numbers into <fr:tex
-display="inline"><![CDATA[x]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[y]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>752</fr:anchor><fr:addr
-type="user">cplx-0001</fr:addr><fr:route>cplx-0001.xml</fr:route><fr:title
-text="Holomorphic function">Holomorphic function</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A holomorphic function defined on an open set <fr:tex
-display="inline"><![CDATA[U \subseteq  \mathbb {C}]]></fr:tex> is a complex-valued function that is complex differentiable at every point. In other words, the limit
-  <fr:tex
-display="block"><![CDATA[f'(z) = \lim _{h \to  0} \frac {f(z + h) - f(z)}{h}]]></fr:tex>
-  exists for all <fr:tex
-display="inline"><![CDATA[z \in  U]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>5</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0006.tree</fr:source-path>
+            <fr:anchor>3804</fr:anchor>
+            <fr:addr type="user">cplx-0006</fr:addr>
+            <fr:route>cplx-0006.xml</fr:route>
+            <fr:title text="Integral of holomorphic function does not depend on path">Integral of holomorphic function does not depend on path</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given a <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex> on an open set <fr:tex display="inline"><![CDATA[U]]></fr:tex>, the <fr:link href="cplx-0005.xml" title="Line integral" addr="cplx-0005" type="local">complex line integral</fr:link> of <fr:tex display="inline"><![CDATA[f]]></fr:tex> along two homotopic paths are equal. This is a direct consequence of the <fr:link href="cplx-0002.xml" title="Cauchy–Riemann equations" addr="cplx-0002" type="local">Cauchy–Riemann equations</fr:link> and Green’s theorem. However, we need to be careful with the hypotheses when we have low differentiability.</fr:p>
+            <fr:p>We can write down the idea more succinctly using <fr:link href="cplx-0003.xml" title="Complexifying the (co)tangent space" addr="cplx-0003" type="local">the notation</fr:link> of <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {z}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {\bar {z}}]]></fr:tex>. We are integrating along <fr:tex display="inline"><![CDATA[f(z) \operatorname {d}\mathclose {z}]]></fr:tex>, but this is an closed differential, since <fr:tex display="block"><![CDATA[\operatorname {d} (f(z) \operatorname {d}\mathclose {z}) = - \partial _{\bar {z}} f(z) \operatorname {d}\mathclose {z} \wedge  \operatorname {d}\mathclose {\bar {z}} = 0.]]></fr:tex>
+  This shows the power of complexifying the tangent space.</fr:p>
+            <fr:p>This applies when <fr:tex display="inline"><![CDATA[f]]></fr:tex> is complex differentiable at every point, since complex differentiability implies (real) Fréchet differentiability (i.e. <fr:tex display="inline"><![CDATA[f]]></fr:tex> can be approximated by a linear map at each point), which suffices for Green’s theorem to apply. It also suffices that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is the derivative of another <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link>, and it is Riemann integrable. In this case we can simply apply the fundamental theorem of calculus.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0003.tree</fr:source-path>
+            <fr:anchor>3805</fr:anchor>
+            <fr:addr type="user">cplx-0003</fr:addr>
+            <fr:route>cplx-0003.xml</fr:route>
+            <fr:title text="Complexifying the (co)tangent space">Complexifying the (co)tangent space</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Considering <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> as a two dimensional real space, the tangent space at a point (take zero as an example) is <fr:tex display="inline"><![CDATA[\mathbb {R}^2]]></fr:tex>. It comes equipped with a complex structure <fr:tex display="inline"><![CDATA[J]]></fr:tex> sending <fr:tex display="inline"><![CDATA[\partial _x \mapsto  \partial _y]]></fr:tex> and <fr:tex display="inline"><![CDATA[\partial _y \mapsto  -\partial _x]]></fr:tex>, acting as multiplication by <fr:tex display="inline"><![CDATA[i]]></fr:tex>. A (real) smooth function <fr:tex display="inline"><![CDATA[\mathbb {C} \to  \mathbb {C}]]></fr:tex> then has a Jacobian at each point, which is a <fr:tex display="inline"><![CDATA[2 \times  2]]></fr:tex> matrix <fr:tex display="inline"><![CDATA[M]]></fr:tex>. The <fr:link href="cplx-0002.xml" title="Cauchy–Riemann equations" addr="cplx-0002" type="local">Cauchy–Riemann equations</fr:link> then imposes a condition on this matrix, which can be written as <fr:tex display="inline"><![CDATA[J M = M J]]></fr:tex>.</fr:p>
+            <fr:p>It is sometimes convenient to complexify this vector space <fr:tex display="inline"><![CDATA[\mathbb {R}^2 \otimes  \mathbb {C} = \mathbb {C}^2]]></fr:tex>. This corresponds to formally allowing the <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> components to be complex-valued. This is because we often want to view a complex function as a scalar field on a two dimensional (real) manifold, but the scalar can be complex. So to do calculus with these scalars, naturally the associated tangent and cotangent spaces needs to be complexified. <fr:tex display="inline"><![CDATA[J]]></fr:tex> now has two eigenvalues <fr:tex display="inline"><![CDATA[i]]></fr:tex> and <fr:tex display="inline"><![CDATA[-i]]></fr:tex>, corresponding to the <fr:strong>holomorphic</fr:strong> and <fr:strong>antiholomorphic</fr:strong> subspaces.</fr:p>
+            <fr:p>Of course this only happens in the tangent space, and the coordinate functions cannot be extended to complex domains. The Jacobian then extends to the complexified tangent space. This space has an alternative basis <fr:tex display="block"><![CDATA[\partial _z = \frac {1}{2}(\partial _x - i \partial _y) \quad \text {and}\quad \partial _{\bar {z}} = \frac {1}{2}(\partial _x + i \partial _y).]]></fr:tex> This has the dual basis on <fr:tex display="inline"><![CDATA[1]]></fr:tex>-forms, given by <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {z} = \operatorname {d}\mathclose {x} + i \operatorname {d}\mathclose {y}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {\bar {z}} = \operatorname {d}\mathclose {x} - i \operatorname {d}\mathclose {y}]]></fr:tex>. In this basis, the Cauchy–Riemann equation can be written as <fr:tex display="inline"><![CDATA[\partial _{\bar {z}} f = 0]]></fr:tex>.</fr:p>
+            <fr:p>This gives a heuristic procedure for finding the <fr:link href="cplx-0002.xml" title="Cauchy–Riemann equations" addr="cplx-0002" type="local">harmonic conjugate</fr:link> of a function.</fr:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0004.tree</fr:source-path>
+                <fr:anchor>1435</fr:anchor>
+                <fr:addr type="user">cplx-0004</fr:addr>
+                <fr:route>cplx-0004.xml</fr:route>
+                <fr:title text="Formal method to calculate the harmonic conjugate">Formal method to calculate the harmonic conjugate</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Suppose <fr:tex display="inline"><![CDATA[u]]></fr:tex> is the real part of some <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Then we have <fr:tex display="inline"><![CDATA[2 u(x, y) = f(x + i y) + \overline {f(x + i y)}]]></fr:tex>. If we could extend the coordinates <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> to complex numbers, then similar to <fr:link href="cplx-0003.xml" title="Complexifying the (co)tangent space" addr="cplx-0003" type="local">what happens in the tangent space</fr:link>, we have a <fr:tex display="inline"><![CDATA[(z, \bar {z})]]></fr:tex> coordinate system with <fr:tex display="inline"><![CDATA[z = x + i y]]></fr:tex> and <fr:tex display="inline"><![CDATA[\bar {z} = x - i y]]></fr:tex> acting as <fr:em>independent</fr:em> variables in <fr:tex display="inline"><![CDATA[\mathbb {C}^2]]></fr:tex>.</fr:p>
+                <fr:p>By the <fr:link href="cplx-0002.xml" title="Cauchy–Riemann equations" addr="cplx-0002" type="local">Cauchy–Riemann equations</fr:link>, <fr:tex display="inline"><![CDATA[f(x + i y)]]></fr:tex> should only depend on <fr:tex display="inline"><![CDATA[z]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {f(x + i y)}]]></fr:tex> should only depend on <fr:tex display="inline"><![CDATA[\bar {z}]]></fr:tex>. So we can write the latter as another function <fr:tex display="inline"><![CDATA[g(\bar {z})]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[2 u = f(z) + g(\bar {z})]]></fr:tex>, we can look at the value at the point <fr:tex display="inline"><![CDATA[(z, \bar {z}) = (\alpha , 0)]]></fr:tex> where <fr:tex display="inline"><![CDATA[\alpha  \in  \mathbb {C}]]></fr:tex>, which corresponds to <fr:tex display="inline"><![CDATA[x = \alpha  / 2]]></fr:tex> and <fr:tex display="inline"><![CDATA[y = - i \alpha  / 2]]></fr:tex>. Hence <fr:tex display="block"><![CDATA[2 u(\alpha  / 2, - i \alpha  / 2) = f(\alpha ) + g(0),]]></fr:tex> which determines <fr:tex display="inline"><![CDATA[f]]></fr:tex> up to some constant. This method requires an analytic expression of <fr:tex display="inline"><![CDATA[u(x, y)]]></fr:tex>, so it makes sense to plug in complex numbers into <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0004.tree</fr:source-path>
+            <fr:anchor>3806</fr:anchor>
+            <fr:addr type="user">cplx-0004</fr:addr>
+            <fr:route>cplx-0004.xml</fr:route>
+            <fr:title text="Formal method to calculate the harmonic conjugate">Formal method to calculate the harmonic conjugate</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Suppose <fr:tex display="inline"><![CDATA[u]]></fr:tex> is the real part of some <fr:link href="cplx-0001.xml" title="Holomorphic function" addr="cplx-0001" type="local">holomorphic function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Then we have <fr:tex display="inline"><![CDATA[2 u(x, y) = f(x + i y) + \overline {f(x + i y)}]]></fr:tex>. If we could extend the coordinates <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> to complex numbers, then similar to <fr:link href="cplx-0003.xml" title="Complexifying the (co)tangent space" addr="cplx-0003" type="local">what happens in the tangent space</fr:link>, we have a <fr:tex display="inline"><![CDATA[(z, \bar {z})]]></fr:tex> coordinate system with <fr:tex display="inline"><![CDATA[z = x + i y]]></fr:tex> and <fr:tex display="inline"><![CDATA[\bar {z} = x - i y]]></fr:tex> acting as <fr:em>independent</fr:em> variables in <fr:tex display="inline"><![CDATA[\mathbb {C}^2]]></fr:tex>.</fr:p>
+            <fr:p>By the <fr:link href="cplx-0002.xml" title="Cauchy–Riemann equations" addr="cplx-0002" type="local">Cauchy–Riemann equations</fr:link>, <fr:tex display="inline"><![CDATA[f(x + i y)]]></fr:tex> should only depend on <fr:tex display="inline"><![CDATA[z]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {f(x + i y)}]]></fr:tex> should only depend on <fr:tex display="inline"><![CDATA[\bar {z}]]></fr:tex>. So we can write the latter as another function <fr:tex display="inline"><![CDATA[g(\bar {z})]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[2 u = f(z) + g(\bar {z})]]></fr:tex>, we can look at the value at the point <fr:tex display="inline"><![CDATA[(z, \bar {z}) = (\alpha , 0)]]></fr:tex> where <fr:tex display="inline"><![CDATA[\alpha  \in  \mathbb {C}]]></fr:tex>, which corresponds to <fr:tex display="inline"><![CDATA[x = \alpha  / 2]]></fr:tex> and <fr:tex display="inline"><![CDATA[y = - i \alpha  / 2]]></fr:tex>. Hence <fr:tex display="block"><![CDATA[2 u(\alpha  / 2, - i \alpha  / 2) = f(\alpha ) + g(0),]]></fr:tex> which determines <fr:tex display="inline"><![CDATA[f]]></fr:tex> up to some constant. This method requires an analytic expression of <fr:tex display="inline"><![CDATA[u(x, y)]]></fr:tex>, so it makes sense to plug in complex numbers into <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3809</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/cplx-0001.tree</fr:source-path>
+            <fr:anchor>3808</fr:anchor>
+            <fr:addr type="user">cplx-0001</fr:addr>
+            <fr:route>cplx-0001.xml</fr:route>
+            <fr:title text="Holomorphic function">Holomorphic function</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A holomorphic function defined on an open set <fr:tex display="inline"><![CDATA[U \subseteq  \mathbb {C}]]></fr:tex> is a complex-valued function that is complex differentiable at every point. In other words, the limit
+  <fr:tex display="block"><![CDATA[f'(z) = \lim _{h \to  0} \frac {f(z + h) - f(z)}{h}]]></fr:tex>
+  exists for all <fr:tex display="inline"><![CDATA[z \in  U]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3810</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

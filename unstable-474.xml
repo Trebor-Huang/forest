@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>12</fr:day>
+    </fr:date>
+    <fr:anchor>3318</fr:anchor>
+    <fr:addr type="machine">unstable/474</fr:addr>
+    <fr:route>unstable-474.xml</fr:route>
+    <fr:title text="Points of the projective spectrum › "><fr:link href="algm-0012.xml" title="Points of the projective spectrum" addr="algm-0012" type="local">Points of the projective spectrum</fr:link> › </fr:title>
+    <fr:taxon>Proof</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+  <fr:p>To specify a point <fr:tex display="inline"><![CDATA[P]]></fr:tex>, we need to specify which opens <fr:tex display="inline"><![CDATA[D_+(f)]]></fr:tex> it belongs to, where <fr:tex display="inline"><![CDATA[f]]></fr:tex> ranges over positively graded elements. Equivalently, we specify the closeds <fr:tex display="inline"><![CDATA[V_+(f)]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[V_+(f) \cap  V_+(g) \subseteq  V_+(f + g)]]></fr:tex>, if <fr:tex display="inline"><![CDATA[P \in  V_+(f)]]></fr:tex> and <fr:tex display="inline"><![CDATA[P \in  V_+(g)]]></fr:tex> then <fr:tex display="inline"><![CDATA[P \in  V_+(f + g)]]></fr:tex>. Similarly since <fr:tex display="inline"><![CDATA[V_+(f) \subseteq  V_+(f g)]]></fr:tex>, <fr:tex display="inline"><![CDATA[P \in  V_+(f)]]></fr:tex> implies <fr:tex display="inline"><![CDATA[P \in  V_+(f g)]]></fr:tex>. Collecting all the elements whose distinguished closed contains <fr:tex display="inline"><![CDATA[P]]></fr:tex>, we get an ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> whose zeroth degree vanishes.</fr:p>
+
+  <fr:p>We have <fr:tex display="inline"><![CDATA[V_+(f g) = V_+(f) \cup  V_+(g)]]></fr:tex>, so if <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f g]]></fr:tex>, then either <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f]]></fr:tex> or <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  g]]></fr:tex>. This is almost the condition for prime ideals, but recall that <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex> must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with <fr:link href="algm-0011.xml" title="Characterization of the locale \operatorname{Proj}(S)" addr="algm-0011" type="local">Theorem <fr:contextual-number addr="algm-0011" /></fr:link>.</fr:p>
+
+  <fr:p>Next, we prove these ideals are in bijection with prime ideals not dividing <fr:tex display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. One direction of the correspondence is obvious: we take a prime ideal <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and remove the zeroth degree, which amounts to taking <fr:tex display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {p}, \mathord {\odot })]]></fr:tex>.</fr:p>
+
+  <fr:p>We prove injectivity. Suppose primes <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> satisfy <fr:tex display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {p}, \mathord {\odot }) = \operatorname {lcm}(\mathfrak {q}, \mathord {\odot })]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \operatorname {lcm}(\mathfrak {q}, \mathord {\odot }) \mid  \mathfrak {q} \cdot  \mathord {\odot }]]></fr:tex>, so either <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathord {\odot }]]></fr:tex> which is forbidden, or <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {q}]]></fr:tex>. Conversely we must have <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  \mathfrak {p}]]></fr:tex>, hence <fr:tex display="inline"><![CDATA[\mathfrak {p} = \mathfrak {q}]]></fr:tex>.</fr:p>
+
+  <fr:p>We prove surjectivity. Given an ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex>, we need to supplement it with a zeroth degree component <fr:tex display="inline"><![CDATA[\mathfrak {a}_0]]></fr:tex> so that together they make a prime ideal not divided by <fr:tex display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. We define <fr:tex display="inline"><![CDATA[\mathfrak {a}_0 \mid  c]]></fr:tex> iff there exists some positively graded <fr:tex display="inline"><![CDATA[\mathfrak {a} \nmid  f]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  cf]]></fr:tex>. The verification is routine element chasing.</fr:p>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3311</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3313</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0012.tree</fr:source-path>
+            <fr:anchor>3312</fr:anchor>
+            <fr:addr type="user">algm-0012</fr:addr>
+            <fr:route>algm-0012.xml</fr:route>
+            <fr:title text="Points of the projective spectrum">Points of the projective spectrum</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>The points of the <fr:link href="algm-000Y.xml" title="Projective spectrum of a graded ring" addr="algm-000Y" type="local">projective scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> are given by prime ideals not dividing the <fr:link href="algm-0013.xml" title="Irrelevant ideal" addr="algm-0013" type="local">irrelevant ideal</fr:link> <fr:tex display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. This is in bijection with ideals with <fr:tex display="inline"><![CDATA[\mathfrak {p}_0 = 0]]></fr:tex> (equivalently <fr:tex display="inline"><![CDATA[\mathord {\odot } \nmid  \mathfrak {p}]]></fr:tex>), and the condition for prime ideals holds for positively graded elements, i.e. <fr:tex display="block"><![CDATA[\mathfrak {p} \mid  x y \iff  (\mathfrak {p} \mid  x \lor  \mathfrak {p} \mid  y)]]></fr:tex> for positively graded <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0012.tree</fr:source-path><fr:anchor>2671</fr:anchor><fr:addr type="machine">unstable/474</fr:addr><fr:route>unstable-474.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>To specify a point <fr:tex display="inline"><![CDATA[P]]></fr:tex>, we need to specify which opens <fr:tex display="inline"><![CDATA[D_+(f)]]></fr:tex> it belongs to, where <fr:tex display="inline"><![CDATA[f]]></fr:tex> ranges over positively graded elements. Equivalently, we specify the closeds <fr:tex display="inline"><![CDATA[V_+(f)]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[V_+(f) \cap  V_+(g) \subseteq  V_+(f + g)]]></fr:tex>, if <fr:tex display="inline"><![CDATA[P \in  V_+(f)]]></fr:tex> and <fr:tex display="inline"><![CDATA[P \in  V_+(g)]]></fr:tex> then <fr:tex display="inline"><![CDATA[P \in  V_+(f + g)]]></fr:tex>. Similarly since <fr:tex display="inline"><![CDATA[V_+(f) \subseteq  V_+(f g)]]></fr:tex>, <fr:tex display="inline"><![CDATA[P \in  V_+(f)]]></fr:tex> implies <fr:tex display="inline"><![CDATA[P \in  V_+(f g)]]></fr:tex>. Collecting all the elements whose distinguished closed contains <fr:tex display="inline"><![CDATA[P]]></fr:tex>, we get an ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> whose zeroth degree vanishes.</fr:p>
+
+  <fr:p>We have <fr:tex display="inline"><![CDATA[V_+(f g) = V_+(f) \cup  V_+(g)]]></fr:tex>, so if <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f g]]></fr:tex>, then either <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f]]></fr:tex> or <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  g]]></fr:tex>. This is almost the condition for prime ideals, but recall that <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex> must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with <fr:link href="algm-0011.xml" title="Characterization of the locale \operatorname{Proj}(S)" addr="algm-0011" type="local">Theorem <fr:contextual-number addr="algm-0011" /></fr:link>.</fr:p>
+
+  <fr:p>Next, we prove these ideals are in bijection with prime ideals not dividing <fr:tex display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. One direction of the correspondence is obvious: we take a prime ideal <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and remove the zeroth degree, which amounts to taking <fr:tex display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {p}, \mathord {\odot })]]></fr:tex>.</fr:p>
+
+  <fr:p>We prove injectivity. Suppose primes <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> satisfy <fr:tex display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {p}, \mathord {\odot }) = \operatorname {lcm}(\mathfrak {q}, \mathord {\odot })]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \operatorname {lcm}(\mathfrak {q}, \mathord {\odot }) \mid  \mathfrak {q} \cdot  \mathord {\odot }]]></fr:tex>, so either <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathord {\odot }]]></fr:tex> which is forbidden, or <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {q}]]></fr:tex>. Conversely we must have <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  \mathfrak {p}]]></fr:tex>, hence <fr:tex display="inline"><![CDATA[\mathfrak {p} = \mathfrak {q}]]></fr:tex>.</fr:p>
+
+  <fr:p>We prove surjectivity. Given an ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex>, we need to supplement it with a zeroth degree component <fr:tex display="inline"><![CDATA[\mathfrak {a}_0]]></fr:tex> so that together they make a prime ideal not divided by <fr:tex display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. We define <fr:tex display="inline"><![CDATA[\mathfrak {a}_0 \mid  c]]></fr:tex> iff there exists some positively graded <fr:tex display="inline"><![CDATA[\mathfrak {a} \nmid  f]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  cf]]></fr:tex>. The verification is routine element chasing.</fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3314</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3316</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0011.tree</fr:source-path>
+            <fr:anchor>3315</fr:anchor>
+            <fr:addr type="user">algm-0011</fr:addr>
+            <fr:route>algm-0011.xml</fr:route>
+            <fr:title text="Characterization of the locale \operatorname{Proj}(S)">Characterization of the locale <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex></fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The opens of the <fr:link href="algm-000Y.xml" title="Projective spectrum of a graded ring" addr="algm-000Y" type="local">projective spectrum</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> are in bijection with graded radical ideals with <fr:tex display="inline"><![CDATA[\mathfrak {r}_0 = 0]]></fr:tex>. Hence we write <fr:tex display="inline"><![CDATA[D_+ (\mathfrak {r})]]></fr:tex> for this open. The proof is exactly the same as <fr:link href="algm-0008.xml" title="Characterization of the locale \operatorname{Spec}(R)" addr="algm-0008" type="local">Theorem <fr:contextual-number addr="algm-0008" /></fr:link>.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>3317</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>21</fr:day>
+    </fr:date>
+    <fr:anchor>572</fr:anchor>
+    <fr:addr type="machine">unstable/494</fr:addr>
+    <fr:route>unstable-494.xml</fr:route>
+    <fr:title text="An additive functor is exact iff it preserves quasi-isomorphisms › "><fr:link href="hmlg-0018.xml" title="An additive functor is exact iff it preserves quasi-isomorphisms" addr="hmlg-0018" type="local">An additive functor is exact iff it preserves quasi-isomorphisms</fr:link> › </fr:title>
+    <fr:taxon>Proof</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+  <fr:p>Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.</fr:p>
+
+  <fr:p>On the other hand, <fr:link href="todo.xml" title="Unfinished trees" addr="todo" type="local">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex display="inline"><![CDATA[f : C_\bullet  \to  D_\bullet ]]></fr:tex> is a quasi-isomorphism, <fr:tex display="inline"><![CDATA[H_n (f)]]></fr:tex> are all isomorphisms. Therefore <fr:tex display="inline"><![CDATA[H_n (F(f)) = F(H_n(f))]]></fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.</fr:p>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>558</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>561</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-0018.tree</fr:source-path>
+            <fr:anchor>560</fr:anchor>
+            <fr:addr type="user">hmlg-0018</fr:addr>
+            <fr:route>hmlg-0018.xml</fr:route>
+            <fr:title text="An additive functor is exact iff it preserves quasi-isomorphisms">An additive functor is exact iff it preserves quasi-isomorphisms</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Given an <fr:link href="hmlg-000S.xml" title="Additive functor" addr="hmlg-000S" type="local">additive functor</fr:link> <fr:tex display="inline"><![CDATA[F : \mathcal {A} \to  \mathcal {B}]]></fr:tex> between <fr:link href="hmlg-000Q.xml" title="Abelian category" addr="hmlg-000Q" type="local">abelian categories</fr:link>, it is <fr:link href="hmlg-000X.xml" title="Left and right exact functor" addr="hmlg-000X" type="local">exact</fr:link> iff it sends <fr:link href="hmlg-000C.xml" title="Quasi-isomorphism" addr="hmlg-000C" type="local">quasi-isomorphisms</fr:link> to quasi-isomorphisms.</fr:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-0018.tree</fr:source-path><fr:anchor>559</fr:anchor><fr:addr type="machine">unstable/494</fr:addr><fr:route>unstable-494.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <fr:p>Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.</fr:p>
+
+  <fr:p>On the other hand, <fr:link href="todo.xml" title="Unfinished trees" addr="todo" type="local">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex display="inline"><![CDATA[f : C_\bullet  \to  D_\bullet ]]></fr:tex> is a quasi-isomorphism, <fr:tex display="inline"><![CDATA[H_n (f)]]></fr:tex> are all isomorphisms. Therefore <fr:tex display="inline"><![CDATA[H_n (F(f)) = F(H_n(f))]]></fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.</fr:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>562</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>570</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/todo.tree</fr:source-path>
+            <fr:anchor>569</fr:anchor>
+            <fr:addr type="user">todo</fr:addr>
+            <fr:route>todo.xml</fr:route>
+            <fr:title text="Unfinished trees">Unfinished trees</fr:title>
+            <fr:taxon>Meta</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</fr:p>
+            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-002F.tree</fr:source-path>
+                <fr:anchor>563</fr:anchor>
+                <fr:addr type="user">hmlg-002F</fr:addr>
+                <fr:route>hmlg-002F.xml</fr:route>
+                <fr:title text="Twisted tensor product">Twisted tensor product</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>(...)</fr:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>3</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-002D.tree</fr:source-path>
+                <fr:anchor>564</fr:anchor>
+                <fr:addr type="user">hmlg-002D</fr:addr>
+                <fr:route>hmlg-002D.xml</fr:route>
+                <fr:title text="Associated twisted product">Associated twisted product</fr:title>
+                <fr:taxon>Construction</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>The <fr:link href="hmlg-002C.xml" title="Associated simplicial fiber bundle" addr="hmlg-002C" type="local">associated simplicial fiber bundle</fr:link> of <fr:link href="hmlg-002B.xml" title="Twisted product of simplicial sets" addr="hmlg-002B" type="local">twisted products</fr:link> admits a simpler description. Suppose we have simplicial sets <fr:tex display="inline"><![CDATA[F, B]]></fr:tex>, a simplicial group <fr:tex display="inline"><![CDATA[G]]></fr:tex> with an action <fr:tex display="inline"><![CDATA[G \times  F \to  F]]></fr:tex> and a <fr:link href="hmlg-002A.xml" title="Twisting function" addr="hmlg-002A" type="local">twisting function</fr:link> <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> on <fr:tex display="inline"><![CDATA[B]]></fr:tex>. The <fr:strong>associated twisted product</fr:strong> <fr:tex display="inline"><![CDATA[B \times _\tau  F]]></fr:tex> is defined exactly the same as twisted products, except we replace the factor <fr:tex display="inline"><![CDATA[G]]></fr:tex> with <fr:tex display="inline"><![CDATA[F]]></fr:tex>. This still makes sense, because we can interpret the multiplication <fr:tex display="inline"><![CDATA[\tau (b) \cdot  \partial _n f]]></fr:tex> as the <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action.</fr:p>
+                <fr:p>In particular, if we consider <fr:tex display="inline"><![CDATA[G]]></fr:tex> as a simplicial set with a <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action on the left via multiplication, then the associated twisted product <fr:tex display="inline"><![CDATA[B \times _\tau  G]]></fr:tex> is exactly the same as the twisted product <fr:tex display="inline"><![CDATA[B \times _\tau  G]]></fr:tex>, which explains our identical notation.</fr:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-001M.tree</fr:source-path>
+                <fr:anchor>565</fr:anchor>
+                <fr:addr type="user">hmlg-001M</fr:addr>
+                <fr:route>hmlg-001M.xml</fr:route>
+                <fr:title text="Chain reduction of mapping cones">Chain reduction of mapping cones</fr:title>
+                <fr:taxon>Construction</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Given a pair of <fr:link href="hmlg-0017.xml" title="Chain reduction" addr="hmlg-0017" type="local">chain reductions</fr:link> <fr:tex display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex> and <fr:tex display="inline"><![CDATA[\rho ' : C' \Rightarrow \mkern {-14mu}\Rightarrow  D']]></fr:tex>, we can construct a reduction from the mapping cone <fr:tex display="inline"><![CDATA[\operatorname {Cone}(f)]]></fr:tex> of a chain map <fr:tex display="inline"><![CDATA[f : C \to  C']]></fr:tex> to (the action of <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> on <fr:tex display="inline"><![CDATA[f]]></fr:tex>).</fr:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>1</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-001K.tree</fr:source-path>
+                <fr:anchor>566</fr:anchor>
+                <fr:addr type="user">hmlg-001K</fr:addr>
+                <fr:route>hmlg-001K.xml</fr:route>
+                <fr:title text="Effective homology">Effective homology</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>This is a set of notes on effective homology and algebraic topology. Main references are <fr:link href="constructive-homological-algebra.xml" title="Constructive Homological Algebra and Applications" addr="constructive-homological-algebra" type="local">Constructive Homological Algebra and Applications</fr:link> and <fr:link href="discrete-vector-fields.xml" title="Discrete Vector Fields and Fundamental Algebraic Topology" addr="discrete-vector-fields" type="local">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. We assume basic familiarity with the classical aspects of the theory, although there will also be links within this forest to the relevant concepts.</fr:p>
+                <fr:ul><fr:li><fr:link href="hmlg-0021.xml" title="W-bar construction" addr="hmlg-0021" type="local">W-bar construction</fr:link>, simplicial principal bundles, twisted products by <fr:link href="simplicial-objects.xml" title="Simplicial objects in algebraic topology" addr="simplicial-objects" type="local">Simplicial objects in algebraic topology</fr:link></fr:li>
+  <fr:li>classifying space, loop space</fr:li>
+  <fr:li>composition of <fr:link href="hmlg-001I.xml" title="Strong homology equivalence" addr="hmlg-001I" type="local">strong homology equivalence</fr:link>, tensor product, cone, bicomplex</fr:li>
+  <fr:li>simplicial group, Kan complex</fr:li>
+  <fr:li>organize into notes</fr:li></fr:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-000F.tree</fr:source-path>
+                <fr:anchor>568</fr:anchor>
+                <fr:addr type="user">hmlg-000F</fr:addr>
+                <fr:route>hmlg-000F.xml</fr:route>
+                <fr:title text="Freyd–Mitchell embedding theorem">Freyd–Mitchell embedding theorem</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><fr:p>Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex display="inline"><![CDATA[R]]></fr:tex>-modules for some ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-000F.tree</fr:source-path><fr:anchor>567</fr:anchor><fr:addr type="machine">unstable/460</fr:addr><fr:route>unstable-460.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter><fr:p>(TODO)</fr:p></fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>571</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

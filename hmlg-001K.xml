@@ -1,242 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2511</fr:anchor><fr:addr
-type="user">hmlg-001K</fr:addr><fr:route>hmlg-001K.xml</fr:route><fr:title
-text="Effective homology">Effective homology</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This is a set of notes on effective homology and algebraic topology. Main references are <fr:link
-type="local"
-href="constructive-homological-algebra.xml"
-addr="constructive-homological-algebra"
-title="Constructive Homological Algebra and Applications">Constructive Homological Algebra and Applications</fr:link> and <fr:link
-type="local"
-href="discrete-vector-fields.xml"
-addr="discrete-vector-fields"
-title="Discrete Vector Fields and Fundamental Algebraic Topology">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. We assume basic familiarity with the classical aspects of the theory, although there will also be links within this forest to the relevant concepts.</fr:p><fr:ul><fr:li><fr:link
-type="local"
-href="hmlg-0021.xml"
-addr="hmlg-0021"
-title="W-bar construction">W-bar construction</fr:link>, simplicial principal bundles, twisted products by <fr:link
-type="local"
-href="simplicial-objects.xml"
-addr="simplicial-objects"
-title="Simplicial objects in algebraic topology">Simplicial objects in algebraic topology</fr:link></fr:li>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>1</fr:day>
+    </fr:date>
+    <fr:anchor>2614</fr:anchor>
+    <fr:addr type="user">hmlg-001K</fr:addr>
+    <fr:route>hmlg-001K.xml</fr:route>
+    <fr:title text="Effective homology">Effective homology</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>This is a set of notes on effective homology and algebraic topology. Main references are <fr:link href="constructive-homological-algebra.xml" title="Constructive Homological Algebra and Applications" addr="constructive-homological-algebra" type="local">Constructive Homological Algebra and Applications</fr:link> and <fr:link href="discrete-vector-fields.xml" title="Discrete Vector Fields and Fundamental Algebraic Topology" addr="discrete-vector-fields" type="local">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. We assume basic familiarity with the classical aspects of the theory, although there will also be links within this forest to the relevant concepts.</fr:p>
+    <fr:ul><fr:li><fr:link href="hmlg-0021.xml" title="W-bar construction" addr="hmlg-0021" type="local">W-bar construction</fr:link>, simplicial principal bundles, twisted products by <fr:link href="simplicial-objects.xml" title="Simplicial objects in algebraic topology" addr="simplicial-objects" type="local">Simplicial objects in algebraic topology</fr:link></fr:li>
   <fr:li>classifying space, loop space</fr:li>
-  <fr:li>composition of <fr:link
-type="local"
-href="hmlg-001I.xml"
-addr="hmlg-001I"
-title="Strong homology equivalence">strong homology equivalence</fr:link>, tensor product, cone, bicomplex</fr:li>
+  <fr:li>composition of <fr:link href="hmlg-001I.xml" title="Strong homology equivalence" addr="hmlg-001I" type="local">strong homology equivalence</fr:link>, tensor product, cone, bicomplex</fr:li>
   <fr:li>simplicial group, Kan complex</fr:li>
-  <fr:li>organize into notes</fr:li></fr:ul></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="References">References</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2513</fr:anchor><fr:addr
-type="user">constructive-homological-algebra</fr:addr><fr:route>constructive-homological-algebra.xml</fr:route><fr:title
-text="Constructive Homological Algebra and Applications">Constructive Homological Algebra and Applications</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2013</fr:year><fr:month>8</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author>Julio Rubio García and Francis Sergeraert</fr:author></fr:authors><fr:meta
-name="doi">10.48550/arXiv.1208.3816</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>This text was written and used for a MAP Summer School at the University of Genova, August 28 to September 2, 2006. Available since then on the web site of the second author, it has been used and referenced by several colleagues working in Commutative Algebra and Algebraic Topology. To make safer such references, it was suggested to place it on the Arxiv repository. It is a relatively detailed exposition of the use of the <fr:link
-type="local"
-href="hmlg-001G.xml"
-addr="hmlg-001G"
-title="Perturbation of the larger chain complex in a chain reduction">Basic Perturbation Lemma</fr:link> to make constructive Homological Algebra (standard Homological Algebra is not constructive) and how this technology can be used in Commutative Algebra (Koszul complexes) and Algebraic Topology (effective versions of spectral sequences).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2515</fr:anchor><fr:addr
-type="user">discrete-vector-fields</fr:addr><fr:route>discrete-vector-fields.xml</fr:route><fr:title
-text="Discrete Vector Fields and Fundamental Algebraic Topology">Discrete Vector Fields and Fundamental Algebraic Topology</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>2010</fr:year><fr:month>5</fr:month><fr:day>31</fr:day></fr:date><fr:authors><fr:author>Ana Romero and Francis Sergeraert</fr:author></fr:authors><fr:meta
-name="doi">10.48550/arXiv.1005.5685</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>We show in this text how the most important homology equivalences of fundamental Algebraic Topology can be obtained as <fr:link
-type="local"
-href="hmlg-0017.xml"
-addr="hmlg-0017"
-title="Chain reduction">reductions</fr:link> <fr:link
-type="local"
-href="hmlg-001Z.xml"
-addr="hmlg-001Z"
-title="Chain reduction generated by a discrete vector field">associated</fr:link> to <fr:link
-type="local"
-href="hmlg-001N.xml"
-addr="hmlg-001N"
-title="Discrete vector field">discrete vector fields</fr:link>. Mainly the homology equivalences whose existence — most often non-constructive — is proved by the main spectral sequences, the Serre and Eilenberg-Moore spectral sequences. On the contrary, the constructive existence is here systematically looked for and obtained.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2517</fr:anchor><fr:addr
-type="user">simplicial-objects</fr:addr><fr:route>simplicial-objects.xml</fr:route><fr:title
-text="Simplicial objects in algebraic topology">Simplicial objects in algebraic topology</fr:title><fr:taxon>Reference</fr:taxon><fr:date><fr:year>1967</fr:year></fr:date><fr:authors><fr:author>Jon Peter May</fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A copy of the book can be found at <fr:link
-type="external"
-href="https://ncatlab.org/nlab/files/May_SimplicialObjectsInAlgebraicTopology.pdf">https://ncatlab.org/nlab/files/May_SimplicialObjectsInAlgebraicTopology.pdf</fr:link>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="true"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2519</fr:anchor><fr:addr
-type="user">trebor-0001</fr:addr><fr:route>index.xml</fr:route><fr:title
-text="Trebor’s forest">Trebor’s forest</fr:title><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>This is my forest. Forests are <fr:link
-type="external"
-href="https://www.jonmsterling.com/jms-005P.xml">a way of organizing notes</fr:link>, and here is <fr:link
-type="external"
-href="https://www.jonmsterling.com/jms-009H.xml">a list of other websites organized as forests</fr:link>. Some of the contents here:</fr:p><fr:ul><fr:li><fr:link
-type="local"
-href="hmlg-0001.xml"
-addr="hmlg-0001"
-title="Homological Algebra">Notes on homological algebra</fr:link></fr:li>
-  <fr:li><fr:link
-type="local"
-href="hmlg-001K.xml"
-addr="hmlg-001K"
-title="Effective homology">Effective homology</fr:link></fr:li>
+  <fr:li>organize into notes</fr:li></fr:ul>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2606</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>Julio Rubio García and Francis Sergeraert</fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2013</fr:year>
+              <fr:month>8</fr:month>
+              <fr:day>22</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/refs/constructive-homological-algebra.tree</fr:source-path>
+            <fr:anchor>2603</fr:anchor>
+            <fr:addr type="user">constructive-homological-algebra</fr:addr>
+            <fr:route>constructive-homological-algebra.xml</fr:route>
+            <fr:title text="Constructive Homological Algebra and Applications">Constructive Homological Algebra and Applications</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="doi">10.48550/arXiv.1208.3816</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>This text was written and used for a MAP Summer School at the University of Genova, August 28 to September 2, 2006. Available since then on the web site of the second author, it has been used and referenced by several colleagues working in Commutative Algebra and Algebraic Topology. To make safer such references, it was suggested to place it on the Arxiv repository. It is a relatively detailed exposition of the use of the <fr:link href="hmlg-001G.xml" title="Perturbation of the larger chain complex in a chain reduction" addr="hmlg-001G" type="local">Basic Perturbation Lemma</fr:link> to make constructive Homological Algebra (standard Homological Algebra is not constructive) and how this technology can be used in Commutative Algebra (Koszul complexes) and Algebraic Topology (effective versions of spectral sequences).</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>Ana Romero and Francis Sergeraert</fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2010</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>31</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/refs/discrete-vector-fields.tree</fr:source-path>
+            <fr:anchor>2604</fr:anchor>
+            <fr:addr type="user">discrete-vector-fields</fr:addr>
+            <fr:route>discrete-vector-fields.xml</fr:route>
+            <fr:title text="Discrete Vector Fields and Fundamental Algebraic Topology">Discrete Vector Fields and Fundamental Algebraic Topology</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="doi">10.48550/arXiv.1005.5685</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>We show in this text how the most important homology equivalences of fundamental Algebraic Topology can be obtained as <fr:link href="hmlg-0017.xml" title="Chain reduction" addr="hmlg-0017" type="local">reductions</fr:link> <fr:link href="hmlg-001Z.xml" title="Chain reduction generated by a discrete vector field" addr="hmlg-001Z" type="local">associated</fr:link> to <fr:link href="hmlg-001N.xml" title="Discrete vector field" addr="hmlg-001N" type="local">discrete vector fields</fr:link>. Mainly the homology equivalences whose existence — most often non-constructive — is proved by the main spectral sequences, the Serre and Eilenberg-Moore spectral sequences. On the contrary, the constructive existence is here systematically looked for and obtained.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>Jon Peter May</fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>1967</fr:year>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/refs/simplicial-objects.tree</fr:source-path>
+            <fr:anchor>2605</fr:anchor>
+            <fr:addr type="user">simplicial-objects</fr:addr>
+            <fr:route>simplicial-objects.xml</fr:route>
+            <fr:title text="Simplicial objects in algebraic topology">Simplicial objects in algebraic topology</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A copy of the book can be found at <fr:link href="https://ncatlab.org/nlab/files/May_SimplicialObjectsInAlgebraicTopology.pdf" type="external">https://ncatlab.org/nlab/files/May_SimplicialObjectsInAlgebraicTopology.pdf</fr:link>.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2607</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2609</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/trebor-0001.tree</fr:source-path>
+            <fr:anchor>2608</fr:anchor>
+            <fr:addr type="user">trebor-0001</fr:addr>
+            <fr:route>index.xml</fr:route>
+            <fr:title text="Trebor’s forest">Trebor’s forest</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>This is my forest. Forests are <fr:link href="https://www.jonmsterling.com/jms-005P.xml" type="external">a way of organizing notes</fr:link>, and here is <fr:link href="https://www.jonmsterling.com/jms-009H.xml" type="external">a list of other websites organized as forests</fr:link>. Some of the contents here:</fr:p>
+            <fr:ul><fr:li><fr:link href="hmlg-0001.xml" title="Homological Algebra" addr="hmlg-0001" type="local">Notes on homological algebra</fr:link></fr:li>
+  <fr:li><fr:link href="hmlg-001K.xml" title="Effective homology" addr="hmlg-001K" type="local">Effective homology</fr:link></fr:li>
   <fr:li>Algebraic geometry (Under namespace <fr:code>algm</fr:code>, not organized)</fr:li>
-  <fr:li><fr:link
-type="local"
-href="ualg-000H.xml"
-addr="ualg-000H"
-title="Beck monadicity theorem">Beck monadicity theorem</fr:link></fr:li></fr:ul><fr:p>On a computer, you can press Ctrl–K to search for trees. You can also visit my <fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">contributor page</fr:link> to see a list of my trees.</fr:p><fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1381</fr:anchor><fr:addr
-type="user">trebor-0002</fr:addr><fr:route>trebor-0002.xml</fr:route><fr:title
-text="Style of writing">Style of writing</fr:title><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>I try to adhere to several principles when composing trees.</fr:p><fr:ul><fr:li>If a part of a proof has an easy constructive phrasing, use it and avoid classical reasoning. But if it requires some complication, then the classical way is used.</fr:li>
-  <fr:li>Avoid abstraction leaks. Even if A is defined as B, do not use them interchangeably. For instance, an ideal is defined as a subset of a ring satisfying certain conditions. But we will insist on writing ideals as numbers, for example saying <fr:tex
-display="inline"><![CDATA[\mathfrak {a} \mid  x]]></fr:tex> instead of <fr:tex
-display="inline"><![CDATA[x \in  \mathfrak {a}]]></fr:tex>. This is not too heretic, since algebraic number theory already uses this kind of notation. Similarly, although prime ideals correspond to points in <fr:tex
-display="inline"><![CDATA[\operatorname {Spec}(A)]]></fr:tex>, we do not identify them.</fr:li>
-  <fr:li>Apply <fr:link
-type="external"
-href="https://ncatlab.org/nlab/show/biased+definition">unbiased terminology</fr:link> and <fr:link
-type="external"
-href="https://ncatlab.org/nlab/show/negative+thinking">negative thinking</fr:link>.</fr:li></fr:ul></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2521</fr:anchor><fr:addr
-type="user">hmlg-0021</fr:addr><fr:route>hmlg-0021.xml</fr:route><fr:title
-text="W-bar construction">W-bar construction</fr:title><fr:taxon>Construction</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a simplicial group, we can define a model of its universal principal bundle <fr:tex
-display="inline"><![CDATA[\mathbf {E} G \to  \mathbf {B} G]]></fr:tex> as simplicial sets <fr:tex
-display="inline"><![CDATA[W G \to  \bar {W} G]]></fr:tex>. This is a generalization of the <fr:link
-type="local"
-href="hmlg-001W.xml"
-addr="hmlg-001W"
-title="Bar construction">bar construction</fr:link>, if we consider a group <fr:tex
-display="inline"><![CDATA[G]]></fr:tex> as a discrete simplicial set. It classifies principal <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>-bundles in the sense of Theorem 21.13 in <fr:link
-type="local"
-href="simplicial-objects.xml"
-addr="simplicial-objects"
-title="Simplicial objects in algebraic topology">Simplicial objects in algebraic topology</fr:link>.</fr:p><fr:p>We define the <fr:tex
-display="inline"><![CDATA[n]]></fr:tex>-simplices of <fr:tex
-display="inline"><![CDATA[W G]]></fr:tex> to be
-  <fr:tex
-display="block"><![CDATA[(W G)_n = G_0 \times  G_1 \times  \cdots  \times  G_n]]></fr:tex>
-  so that <fr:tex
-display="inline"><![CDATA[G_n]]></fr:tex> acts on <fr:tex
-display="inline"><![CDATA[(W G)_n]]></fr:tex> by taking the face map that discards the last <fr:tex
-display="inline"><![CDATA[k]]></fr:tex> vertices for each <fr:tex
-display="inline"><![CDATA[k]]></fr:tex>, and then acting on the appropriate factor on the right. This forces the face maps and degeneracy maps to be
-  <fr:tex
-display="block"><![CDATA[\begin {aligned}     \partial _k (g_0, \dots , g_n) &=       (g_0, \dots , g_{k-1}, \partial _k g_{k+1}, \dots , \partial _k g_n), \\     \sigma _k (g_0, \dots , g_n) &=       (g_0, \dots , g_{k}, \sigma _k g_{k}, \dots , \sigma _k g_n).   \end {aligned}]]></fr:tex>
-  We define <fr:tex
-display="inline"><![CDATA[\bar {W} G]]></fr:tex> to be <fr:tex
-display="inline"><![CDATA[W G]]></fr:tex> quotiented by the action of <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>. This can be represented as <fr:tex
-display="inline"><![CDATA[(\bar {W} G)_n = G_0 \times  \cdots  \times  G_{n-1}]]></fr:tex>,
-  with the quotient map <fr:tex
-display="inline"><![CDATA[(W G)_n \twoheadrightarrow  (\bar {W} G)_n]]></fr:tex> given by
-  <fr:tex
-display="block"><![CDATA[(g_0, \dots , g_n) \mapsto  (g_0 (\partial _1 g_1)^{-1}, \dots , g_{n-1} (\partial _n g_n)^{-1}).]]></fr:tex>
+  <fr:li><fr:link href="ualg-000H.xml" title="Beck monadicity theorem" addr="ualg-000H" type="local">Beck monadicity theorem</fr:link></fr:li></fr:ul>
+            <fr:p>On a computer, you can press Ctrl–K to search for trees. You can also visit my <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">contributor page</fr:link> to see a list of my trees.</fr:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/trebor-0002.tree</fr:source-path>
+                <fr:anchor>1529</fr:anchor>
+                <fr:addr type="user">trebor-0002</fr:addr>
+                <fr:route>trebor-0002.xml</fr:route>
+                <fr:title text="Style of writing">Style of writing</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>I try to adhere to several principles when composing trees.</fr:p>
+                <fr:ul><fr:li>If a part of a proof has an easy constructive phrasing, use it and avoid classical reasoning. But if it requires some complication, then the classical way is used.</fr:li>
+  <fr:li>Avoid abstraction leaks. Even if A is defined as B, do not use them interchangeably. For instance, an ideal is defined as a subset of a ring satisfying certain conditions. But we will insist on writing ideals as numbers, for example saying <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  x]]></fr:tex> instead of <fr:tex display="inline"><![CDATA[x \in  \mathfrak {a}]]></fr:tex>. This is not too heretic, since algebraic number theory already uses this kind of notation. Similarly, although prime ideals correspond to points in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(A)]]></fr:tex>, we do not identify them.</fr:li>
+  <fr:li>Apply <fr:link href="https://ncatlab.org/nlab/show/biased+definition" type="external">unbiased terminology</fr:link> and <fr:link href="https://ncatlab.org/nlab/show/negative+thinking" type="external">negative thinking</fr:link>.</fr:li></fr:ul>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2612</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>28</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-0021.tree</fr:source-path>
+            <fr:anchor>2610</fr:anchor>
+            <fr:addr type="user">hmlg-0021</fr:addr>
+            <fr:route>hmlg-0021.xml</fr:route>
+            <fr:title text="W-bar construction">W-bar construction</fr:title>
+            <fr:taxon>Construction</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given a simplicial group, we can define a model of its universal principal bundle <fr:tex display="inline"><![CDATA[\mathbf {E} G \to  \mathbf {B} G]]></fr:tex> as simplicial sets <fr:tex display="inline"><![CDATA[W G \to  \bar {W} G]]></fr:tex>. This is a generalization of the <fr:link href="hmlg-001W.xml" title="Bar construction" addr="hmlg-001W" type="local">bar construction</fr:link>, if we consider a group <fr:tex display="inline"><![CDATA[G]]></fr:tex> as a discrete simplicial set. It classifies principal <fr:tex display="inline"><![CDATA[G]]></fr:tex>-bundles in the sense of Theorem 21.13 in <fr:link href="simplicial-objects.xml" title="Simplicial objects in algebraic topology" addr="simplicial-objects" type="local">Simplicial objects in algebraic topology</fr:link>.</fr:p>
+            <fr:p>We define the <fr:tex display="inline"><![CDATA[n]]></fr:tex>-simplices of <fr:tex display="inline"><![CDATA[W G]]></fr:tex> to be
+  <fr:tex display="block"><![CDATA[(W G)_n = G_0 \times  G_1 \times  \cdots  \times  G_n]]></fr:tex>
+  so that <fr:tex display="inline"><![CDATA[G_n]]></fr:tex> acts on <fr:tex display="inline"><![CDATA[(W G)_n]]></fr:tex> by taking the face map that discards the last <fr:tex display="inline"><![CDATA[k]]></fr:tex> vertices for each <fr:tex display="inline"><![CDATA[k]]></fr:tex>, and then acting on the appropriate factor on the right. This forces the face maps and degeneracy maps to be
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \partial _k (g_0, \dots , g_n) &=
+      (g_0, \dots , g_{k-1}, \partial _k g_{k+1}, \dots , \partial _k g_n), \\
+    \sigma _k (g_0, \dots , g_n) &=
+      (g_0, \dots , g_{k}, \sigma _k g_{k}, \dots , \sigma _k g_n).
+  \end {aligned}]]></fr:tex>
+  We define <fr:tex display="inline"><![CDATA[\bar {W} G]]></fr:tex> to be <fr:tex display="inline"><![CDATA[W G]]></fr:tex> quotiented by the action of <fr:tex display="inline"><![CDATA[G]]></fr:tex>. This can be represented as <fr:tex display="inline"><![CDATA[(\bar {W} G)_n = G_0 \times  \cdots  \times  G_{n-1}]]></fr:tex>,
+  with the quotient map <fr:tex display="inline"><![CDATA[(W G)_n \twoheadrightarrow  (\bar {W} G)_n]]></fr:tex> given by
+  <fr:tex display="block"><![CDATA[(g_0, \dots , g_n) \mapsto  (g_0 (\partial _1 g_1)^{-1}, \dots , g_{n-1} (\partial _n g_n)^{-1}).]]></fr:tex>
   The face and degeneracy maps can then be computed to be
-  <fr:tex
-display="block"><![CDATA[\begin {aligned}     \partial _k (g_0, \dots , g_{n-1}) &=       (g_0, g_1, \dots , g_{k-1} \cdot  \partial _k g_k, \partial _k g_{k+1}, \dots , \partial _k g_{n-1}), \\     \partial _n (g_0, \dots , g_{n-1}) &=       (g_0, g_1, \dots , g_{n-2}) \\     \sigma _k (g_0, \dots , g_{n-1}) &=       (g_0, g_1, \dots , g_{k-1}, 1, \sigma _k g_{k}, \dots , \sigma _k g_{n-1}).   \end {aligned}]]></fr:tex>
-  A quick computation shows that this indeed produces a <fr:link
-type="local"
-href="hmlg-0028.xml"
-addr="hmlg-0028"
-title="Simplicial principal fiber bundle">simplicial principal fiber bundle</fr:link> with fiber <fr:tex
-display="inline"><![CDATA[G]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2523</fr:anchor><fr:addr
-type="user">hmlg-001I</fr:addr><fr:route>hmlg-001I.xml</fr:route><fr:title
-text="Strong homology equivalence">Strong homology equivalence</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:strong>strong homology equivalence</fr:strong> between chain complexes <fr:tex
-display="inline"><![CDATA[C]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[D]]></fr:tex> is a span of chain reductions, i.e. a third chain complex <fr:tex
-display="inline"><![CDATA[X]]></fr:tex> with <fr:tex
-display="inline"><![CDATA[X \Rightarrow \mkern {-14mu}\Rightarrow  C]]></fr:tex> and <fr:tex
-display="inline"><![CDATA[X \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex>. We denote a strong homology equivalence with <fr:tex
-display="inline"><![CDATA[C \mathbin {\Leftarrow  \mkern {-13mu} \Leftrightarrow  \mkern {-13mu} \Rightarrow } D]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \partial _k (g_0, \dots , g_{n-1}) &=
+      (g_0, g_1, \dots , g_{k-1} \cdot  \partial _k g_k, \partial _k g_{k+1}, \dots , \partial _k g_{n-1}), \\
+    \partial _n (g_0, \dots , g_{n-1}) &=
+      (g_0, g_1, \dots , g_{n-2}) \\
+    \sigma _k (g_0, \dots , g_{n-1}) &=
+      (g_0, g_1, \dots , g_{k-1}, 1, \sigma _k g_{k}, \dots , \sigma _k g_{n-1}).
+  \end {aligned}]]></fr:tex>
+  A quick computation shows that this indeed produces a <fr:link href="hmlg-0028.xml" title="Simplicial principal fiber bundle" addr="hmlg-0028" type="local">simplicial principal fiber bundle</fr:link> with fiber <fr:tex display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-001I.tree</fr:source-path>
+            <fr:anchor>2611</fr:anchor>
+            <fr:addr type="user">hmlg-001I</fr:addr>
+            <fr:route>hmlg-001I.xml</fr:route>
+            <fr:title text="Strong homology equivalence">Strong homology equivalence</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A <fr:strong>strong homology equivalence</fr:strong> between chain complexes <fr:tex display="inline"><![CDATA[C]]></fr:tex> and <fr:tex display="inline"><![CDATA[D]]></fr:tex> is a span of chain reductions, i.e. a third chain complex <fr:tex display="inline"><![CDATA[X]]></fr:tex> with <fr:tex display="inline"><![CDATA[X \Rightarrow \mkern {-14mu}\Rightarrow  C]]></fr:tex> and <fr:tex display="inline"><![CDATA[X \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex>. We denote a strong homology equivalence with <fr:tex display="inline"><![CDATA[C \mathbin {\Leftarrow  \mkern {-13mu} \Leftrightarrow  \mkern {-13mu} \Rightarrow } D]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>2613</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

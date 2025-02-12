@@ -1,106 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree
-toc="true"
-numbered="true"
-show-heading="true"
-show-metadata="true"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1055</fr:anchor><fr:addr
-type="user">hmlg-002L</fr:addr><fr:route>hmlg-002L.xml</fr:route><fr:title
-text="Morphism of -functors">Morphism of <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functors</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given two <fr:link
-type="local"
-href="hmlg-002K.xml"
-addr="hmlg-002K"
-title="-Functor"><fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functors</fr:link>, a morphism between them is given by a sequence of natural transformations <fr:tex
-display="inline"><![CDATA[f_n : T_n \to  S_n]]></fr:tex> that additionally commutes with <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1057</fr:anchor><fr:addr
-type="user">hmlg-002N</fr:addr><fr:route>hmlg-002N.xml</fr:route><fr:title
-text="Universal -functor">Universal <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Given a <fr:link
-type="local"
-href="hmlg-002K.xml"
-addr="hmlg-002K"
-title="-Functor">homological <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:link> <fr:tex
-display="inline"><![CDATA[T_n]]></fr:tex>, it is <fr:strong>universal</fr:strong> if given any other <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functor <fr:tex
-display="inline"><![CDATA[S_n]]></fr:tex> and a natural transformation <fr:tex
-display="inline"><![CDATA[S_0 \to  T_0]]></fr:tex> at degree 0, it can be uniquely extended to a <fr:link
-type="local"
-href="hmlg-002L.xml"
-addr="hmlg-002L"
-title="Morphism of -functors">morphism of <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functors</fr:link>. Dually, we can reverse the arrows to get the definition of a universal <fr:em>cohomological</fr:em> <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functor.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1059</fr:anchor><fr:addr
-type="user">hmlg-002K</fr:addr><fr:route>hmlg-002K.xml</fr:route><fr:title
-text="-Functor"><fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:title><fr:taxon>Definition</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>14</fr:day></fr:date><fr:authors><fr:author><fr:link
-type="local"
-href="trebor.xml"
-addr="trebor"
-title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>A <fr:strong>homological <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:strong> is a sequence of <fr:link
-type="local"
-href="hmlg-000S.xml"
-addr="hmlg-000S"
-title="Additive functor">additive functors</fr:link> <fr:tex
-display="inline"><![CDATA[T_n : \mathcal {A} \to  \mathcal {B}]]></fr:tex> between <fr:link
-type="local"
-href="hmlg-000Q.xml"
-addr="hmlg-000Q"
-title="Abelian category">abelian categories</fr:link>, with the convention that <fr:tex
-display="inline"><![CDATA[T_n = 0]]></fr:tex> for <fr:tex
-display="inline"><![CDATA[n < 0]]></fr:tex>. For every <fr:link
-type="local"
-href="hmlg-000H.xml"
-addr="hmlg-000H"
-title="Short exact sequence">short exact sequence</fr:link> <fr:tex
-display="inline"><![CDATA[0 \to  X \to  Y \to  Z \to  0]]></fr:tex> in <fr:tex
-display="inline"><![CDATA[\mathcal {A}]]></fr:tex>, we have a connecting map <fr:tex
-display="inline"><![CDATA[\delta _n : T_n(Z) \to  T_{n-1}(X)]]></fr:tex>, such that this assignment is natural in the exact sequence.</fr:p><fr:p>Similarly, a <fr:strong>cohomological <fr:tex
-display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:strong> can be defined with <fr:tex
-display="inline"><![CDATA[\delta ^n : T^n(Z) \to  T^{n+1}(X)]]></fr:tex>. Notice that cohomology does not imply contravariance here. These also have contravariant versions, by replacing <fr:tex
-display="inline"><![CDATA[\mathcal {A}]]></fr:tex> with <fr:tex
-display="inline"><![CDATA[\mathcal {A}^\textrm {op}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>14</fr:day>
+    </fr:date>
+    <fr:anchor>858</fr:anchor>
+    <fr:addr type="user">hmlg-002L</fr:addr>
+    <fr:route>hmlg-002L.xml</fr:route>
+    <fr:title text="Morphism of \delta-functors">Morphism of <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functors</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Given two <fr:link href="hmlg-002K.xml" title="\delta-functor" addr="hmlg-002K" type="local"><fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functors</fr:link>, a morphism between them is given by a sequence of natural transformations <fr:tex display="inline"><![CDATA[f_n : T_n \to  S_n]]></fr:tex> that additionally commutes with <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>851</fr:anchor>
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>852</fr:anchor>
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>854</fr:anchor>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>14</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-002N.tree</fr:source-path>
+            <fr:anchor>853</fr:anchor>
+            <fr:addr type="user">hmlg-002N</fr:addr>
+            <fr:route>hmlg-002N.xml</fr:route>
+            <fr:title text="Universal \delta-functor">Universal <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given a <fr:link href="hmlg-002K.xml" title="\delta-functor" addr="hmlg-002K" type="local">homological <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:link> <fr:tex display="inline"><![CDATA[T_n]]></fr:tex>, it is <fr:strong>universal</fr:strong> if given any other <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functor <fr:tex display="inline"><![CDATA[S_n]]></fr:tex> and a natural transformation <fr:tex display="inline"><![CDATA[S_0 \to  T_0]]></fr:tex> at degree 0, it can be uniquely extended to a <fr:link href="hmlg-002L.xml" title="Morphism of \delta-functors" addr="hmlg-002L" type="local">morphism of <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functors</fr:link>. Dually, we can reverse the arrows to get the definition of a universal <fr:em>cohomological</fr:em> <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functor.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>856</fr:anchor>
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>14</fr:day>
+            </fr:date>
+            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-002K.tree</fr:source-path>
+            <fr:anchor>855</fr:anchor>
+            <fr:addr type="user">hmlg-002K</fr:addr>
+            <fr:route>hmlg-002K.xml</fr:route>
+            <fr:title text="\delta-functor"><fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A <fr:strong>homological <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:strong> is a sequence of <fr:link href="hmlg-000S.xml" title="Additive functor" addr="hmlg-000S" type="local">additive functors</fr:link> <fr:tex display="inline"><![CDATA[T_n : \mathcal {A} \to  \mathcal {B}]]></fr:tex> between <fr:link href="hmlg-000Q.xml" title="Abelian category" addr="hmlg-000Q" type="local">abelian categories</fr:link>, with the convention that <fr:tex display="inline"><![CDATA[T_n = 0]]></fr:tex> for <fr:tex display="inline"><![CDATA[n < 0]]></fr:tex>. For every <fr:link href="hmlg-000H.xml" title="Short exact sequence" addr="hmlg-000H" type="local">short exact sequence</fr:link> <fr:tex display="inline"><![CDATA[0 \to  X \to  Y \to  Z \to  0]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex>, we have a connecting map <fr:tex display="inline"><![CDATA[\delta _n : T_n(Z) \to  T_{n-1}(X)]]></fr:tex>, such that this assignment is natural in the exact sequence.</fr:p>
+            <fr:p>Similarly, a <fr:strong>cohomological <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:strong> can be defined with <fr:tex display="inline"><![CDATA[\delta ^n : T^n(Z) \to  T^{n+1}(X)]]></fr:tex>. Notice that cohomology does not imply contravariance here. These also have contravariant versions, by replacing <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex> with <fr:tex display="inline"><![CDATA[\mathcal {A}^\textrm {op}]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:anchor>857</fr:anchor>
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
