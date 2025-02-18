@@ -10,6 +10,6 @@
 
 \proof{
   \p{
-    Consider any space #{X}. A cohomology class #{\omega \in KU(X)} corresponds to a vector bundle on #{X}, and the image in #{H^1 (X; \mathbb{Z})} assigns a characteristic class #{\theta(\omega)} for each vector bundle. Consider the universal example, the tautological bundle #{\tau} on #{BU(n)}. All vector bundles come from the pullback of a map #{f : X \to BU(n)}, and the characteristic class will also come from the pullback #{f^* \theta(\tau)} of the universal characteristic class. However, #{H^1 (BU(n)) = 0}, so this cohomology operation vanishes on all spaces.
+    Consider any space #{X}. Cohomology classes #{\omega \in KU(X)} correspond to (formal sums of) vector bundles on #{X}, and the image in #{H^1 (X; \mathbb{Z})} assigns a characteristic class #{\theta(\omega)} for each vector bundle. Consider the universal example, the tautological bundle #{\tau} on #{BU(n)}. All vector bundles come from the pullback of a map #{f : X \to BU(n)}, and the characteristic class will also come from the pullback #{f^* \theta(\tau)} of the universal characteristic class. However, #{H^1 (BU(n)) = 0}, so this cohomology operation vanishes on all spaces.
   }
 }

@@ -1,0 +1,37 @@
+\date{2025-02-17}
+\title{quasi-isomorphism between projective complexes is homotopy equivalence}
+\author{trebor}
+\taxon{theorem}
+\import{common}
+
+\p{
+  Given two chain complexes #{C_\bullet}, #{D_\bullet} and a [[hmlg-000C]] #{f : C_\bullet \to D_\bullet}, if all the objects involved are [projective](hmlg-0004), then #{f} has a [homotopy](hmlg-0016) inverse.
+}
+
+\proof{
+  \p{
+    Consider the mapping cone #{\Cone(f)}, whose objects are given by #{\Cone_n (f) = C_{n-1} \oplus D_n}. Since direct sums of projective objects are still projective, #{\Cone(f)} is also a chain complex of projective objects. We have a short exact sequence of chain complexes #{0 \to D_\bullet \to \Cone_\bullet (f) \to C_{\bullet - 1} \to 0}, which induces a [[hmlg-0012]], in which the boundary maps #{H_n (C) \to H_n (D)} are given by #{f}.
+  }
+
+  \p{
+    However, we know #{f} is a quasi-isomorphism. Therefore the boundary maps are all isomorphisms. So by exactness of the sequence, #{H_n (\Cone(f))} must all be zero. But this means #{\Cone(f)} is an [acyclic complex](hmlg-000D), and therefore a projective resolution of #{0}. Since projective resolutions are unique up to chain homotopy, we have a chain homotopy from #{\Cone(f)} to #{0}. Throwing away the trivial components, we get a degree 1 map #{h_n : \Cone_n (f) \to \Cone_{n+1} (f)} such that #{d_{n+1} h_n + h_{n-1} d_n = 1}. Writing it down in components, we have
+    ##{\begin{aligned}
+      h_n^{CC} &: C_{n-1} \to C_n \\
+      h_n^{CD} &: C_{n-1} \to D_{n+1} \\
+      h_n^{DC} &: D_n \to C_n \\
+      h_n^{DD} &: D_n \to D_{n+1} \\
+    \end{aligned}}
+    such that
+    ##{\begin{aligned}
+      h_n^{CC} d^C_n + d^C_{n+1} h_{n+1}^{CC} + 1 &= h^{DC}_n f_{n} \\
+      d^C_n h^{DC}_n &= h^{DC}_n d^D_{n+1} \\
+      f_n h^{CC}_n + d^D_{n+1} h^{CD}_n + h_n^{DD} f_n &= h^{CD}_n d^C_n \\
+      f_n h^{DC}_n + d^D_{n+1} h^{DD}_n + h^{DD}_n d^D_{n+1} &= 1.
+    \end{aligned}}
+    The second equation shows that #{h^{DC}_\bullet} forms a chain map. The first and fourth equation then shows that #{h^{DC} f} and #{f h^{DC}} are homotopic to the identity, respectively, with homotopies given by #{h^{CC}} and #{h^{DD}}. Therefore #{f} has a homotopy inverse.
+  }
+
+  \p{
+    Curiously, there is an extra equation here, showing that #{h^{CD}} is not a chain map and giving the exact deviation.
+  }
+}
