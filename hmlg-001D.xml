@@ -1,105 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:authors>
-      <fr:author>
-        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-      </fr:author>
-    </fr:authors>
+    <fr:anchor>2681</fr:anchor>
+    <fr:addr type="user">hmlg-001D</fr:addr>
+    <fr:route>hmlg-001D.xml</fr:route>
+    <fr:title text="Geometric interpretation of algebraic cellular complex">Geometric interpretation of <fr:link type="local" href="hmlg-0013.xml" addr="hmlg-0013" title="Algebraic cellular complex">algebraic cellular complex</fr:link></fr:title>
     <fr:date>
       <fr:year>2024</fr:year>
       <fr:month>2</fr:month>
       <fr:day>26</fr:day>
     </fr:date>
-    <fr:anchor>2898</fr:anchor>
-    <fr:addr type="user">hmlg-001D</fr:addr>
-    <fr:route>hmlg-001D.xml</fr:route>
-    <fr:title text="Geometric interpretation of algebraic cellular complex">Geometric interpretation of <fr:link href="hmlg-0013.xml" title="Algebraic cellular complex" addr="hmlg-0013" type="local">algebraic cellular complex</fr:link></fr:title>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>An ACC can be viewed as the algebraic distillation of a <fr:link href="hmlg-0002.xml" title="Chain complex of abelian groups" addr="hmlg-0002" type="local">chain complex</fr:link>. The generators in dimension <fr:tex display="inline"><![CDATA[n]]></fr:tex> are regarded as <fr:tex display="inline"><![CDATA[n]]></fr:tex>-cells. However, we only record a formal sum of the boundaries, and forget the exact configuration. Hence, ACC is a suitable middle ground for both geometric transformations and algebraic operations.</fr:p>
+    <fr:p>An ACC can be viewed as the algebraic distillation of a <fr:link type="local" href="hmlg-0002.xml" addr="hmlg-0002" title="Chain complex of abelian groups">chain complex</fr:link>. The generators in dimension <fr:tex display="inline"><![CDATA[n]]></fr:tex> are regarded as <fr:tex display="inline"><![CDATA[n]]></fr:tex>-cells. However, we only record a formal sum of the boundaries, and forget the exact configuration. Hence, ACC is a suitable middle ground for both geometric transformations and algebraic operations.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:anchor>2891</fr:anchor>
-        <fr:title text="References">References</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2892</fr:anchor>
-        <fr:title text="Context">Context</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2893</fr:anchor>
-        <fr:title text="Backlinks">Backlinks</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2896</fr:anchor>
         <fr:title text="Related">Related</fr:title>
+        <fr:authors />
       </fr:frontmatter>
       <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
+            <fr:anchor>2683</fr:anchor>
+            <fr:addr type="user">hmlg-0013</fr:addr>
+            <fr:route>hmlg-0013.xml</fr:route>
+            <fr:title text="Algebraic cellular complex">Algebraic cellular complex</fr:title>
+            <fr:taxon>Definition</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>2</fr:month>
               <fr:day>20</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-0013.tree</fr:source-path>
-            <fr:anchor>2894</fr:anchor>
-            <fr:addr type="user">hmlg-0013</fr:addr>
-            <fr:route>hmlg-0013.xml</fr:route>
-            <fr:title text="Algebraic cellular complex">Algebraic cellular complex</fr:title>
-            <fr:taxon>Definition</fr:taxon>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>An <fr:strong>algebraic cellular complex</fr:strong> (or ACC) is a <fr:link href="hmlg-0002.xml" title="Chain complex of abelian groups" addr="hmlg-0002" type="local">chain complex</fr:link> of free abelian groups. The generators are called <fr:strong>cells</fr:strong>, and the boundary maps can be expressed using the generators as a basis, yielding the <fr:strong>incidence matrices</fr:strong>.</fr:p>
+            <fr:p>An <fr:strong>algebraic cellular complex</fr:strong> (or ACC) is a <fr:link type="local" href="hmlg-0002.xml" addr="hmlg-0002" title="Chain complex of abelian groups">chain complex</fr:link> of free abelian groups. The generators are called <fr:strong>cells</fr:strong>, and the boundary maps can be expressed using the generators as a basis, yielding the <fr:strong>incidence matrices</fr:strong>.</fr:p>
             <fr:p>More precisely, we may define an ACC as a sequence of sets <fr:tex display="inline"><![CDATA[C_\bullet ]]></fr:tex>, with a sequence of functions <fr:tex display="inline"><![CDATA[d : C_k \to  \mathbb {Z}[C_{k-1}]]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[d^2 = 0]]></fr:tex> is satisfied. When a generator has non-zero coefficient in some <fr:tex display="inline"><![CDATA[d\sigma ]]></fr:tex>, the generator is called a <fr:strong>face</fr:strong> of <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex>.</fr:p>
-            <fr:p>Note that the generators of these chain groups are <fr:link href="ualg-0006.xml" title="Objects of the Kleisli category" addr="ualg-0006" type="local">canonically chosen</fr:link> as part of the data. So a more accurate definition is a chain complex in the <fr:link href="ualg-0004.xml" title="The Kleisli category of a monad" addr="ualg-0004" type="local">Kleisli category</fr:link> of abelian groups.</fr:p>
+            <fr:p>Note that the generators of these chain groups are <fr:link type="local" href="ualg-0006.xml" addr="ualg-0006" title="Objects of the Kleisli category">canonically chosen</fr:link> as part of the data. So a more accurate definition is a chain complex in the <fr:link type="local" href="ualg-0004.xml" addr="ualg-0004" title="The Kleisli category of a monad">Kleisli category</fr:link> of abelian groups.</fr:p>
           </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors />
+            <fr:anchor>2685</fr:anchor>
+            <fr:addr type="user">hmlg-0002</fr:addr>
+            <fr:route>hmlg-0002.xml</fr:route>
+            <fr:title text="Chain complex of abelian groups">Chain complex of abelian groups</fr:title>
+            <fr:taxon>Definition</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>2</fr:month>
               <fr:day>16</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-0002.tree</fr:source-path>
-            <fr:anchor>2895</fr:anchor>
-            <fr:addr type="user">hmlg-0002</fr:addr>
-            <fr:route>hmlg-0002.xml</fr:route>
-            <fr:title text="Chain complex of abelian groups">Chain complex of abelian groups</fr:title>
-            <fr:taxon>Definition</fr:taxon>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>A chain complex of abelian groups is given by a sequence of abelian groups <fr:tex display="inline"><![CDATA[G_\bullet ]]></fr:tex> together with homomorphisms <fr:tex display="inline"><![CDATA[d_n : G_n \to  G_{n-1}]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[d_{n-1} \mathbin {\circ } d_n = 0]]></fr:tex>.</fr:p>
           </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2897</fr:anchor>
-        <fr:title text="Contributions">Contributions</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:backmatter />
     </fr:tree>
   </fr:backmatter>
 </fr:tree>

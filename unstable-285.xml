@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>2108</fr:anchor>
+    <fr:addr type="machine">#285</fr:addr>
+    <fr:route>unstable-285.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>15</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+  <fr:p>We just need to cover each point of the intersection. Suppose a point in the intersection is given by a prime ideal <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> of <fr:tex display="inline"><![CDATA[R_1]]></fr:tex>. We can pick a distinguished open <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2)]]></fr:tex> contained in the intersection and containing <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>, and a distinguished open <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_1)]]></fr:tex> contained in <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> and containing <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>. Now we prove that <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex> is a distinguished open in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2)]]></fr:tex>.</fr:p>
+
+  <fr:p>It suffices to prove that <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex> is a distinguished open in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2 [f^{-1}])]]></fr:tex>, since this would imply the existence of an element <fr:tex display="inline"><![CDATA[g'/f^{n} \in  R_2[f^{-1}]]]></fr:tex>, and we can take <fr:tex display="inline"><![CDATA[D(g') \cap  D(f) = D(g' f)]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2)]]></fr:tex>. Now there is an inclusion map <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2[f^{-1}]) \to  \operatorname {Spec}(R_1)]]></fr:tex>, which amounts to a ring homomorphism <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> by <fr:ref addr="algm-000X" href="algm-000X.xml" taxon="Theorem" />. In this case, <fr:tex display="inline"><![CDATA[D(\varphi (g))]]></fr:tex> is the required distinguished open, since <fr:tex display="inline"><![CDATA[\varphi ^{-1}D(u)]]></fr:tex> is equal to <fr:tex display="inline"><![CDATA[D(\varphi (u))]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2 [f^{-1}])]]></fr:tex>.</fr:p>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2110</fr:anchor>
+            <fr:addr type="user">algm-0016</fr:addr>
+            <fr:route>algm-0016.xml</fr:route>
+            <fr:title text="Nike’s trick">Nike’s trick</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>The intersections of two <fr:link type="local" href="algm-000Q.xml" addr="algm-000Q" title="Affine scheme">affine</fr:link> subschemes <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_1), \operatorname {Spec}(R_2) \hookrightarrow  X]]></fr:tex> can be covered by affine schemes distinguished in both of them.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>924</fr:anchor><fr:addr type="machine">#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>We just need to cover each point of the intersection. Suppose a point in the intersection is given by a prime ideal <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> of <fr:tex display="inline"><![CDATA[R_1]]></fr:tex>. We can pick a distinguished open <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2)]]></fr:tex> contained in the intersection and containing <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>, and a distinguished open <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex> of <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_1)]]></fr:tex> contained in <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> and containing <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>. Now we prove that <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex> is a distinguished open in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2)]]></fr:tex>.</fr:p>
+
+  <fr:p>It suffices to prove that <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex> is a distinguished open in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2 [f^{-1}])]]></fr:tex>, since this would imply the existence of an element <fr:tex display="inline"><![CDATA[g'/f^{n} \in  R_2[f^{-1}]]]></fr:tex>, and we can take <fr:tex display="inline"><![CDATA[D(g') \cap  D(f) = D(g' f)]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2)]]></fr:tex>. Now there is an inclusion map <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2[f^{-1}]) \to  \operatorname {Spec}(R_1)]]></fr:tex>, which amounts to a ring homomorphism <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> by <fr:ref addr="algm-000X" href="algm-000X.xml" taxon="Theorem" />. In this case, <fr:tex display="inline"><![CDATA[D(\varphi (g))]]></fr:tex> is the required distinguished open, since <fr:tex display="inline"><![CDATA[\varphi ^{-1}D(u)]]></fr:tex> is equal to <fr:tex display="inline"><![CDATA[D(\varphi (u))]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_2 [f^{-1}])]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

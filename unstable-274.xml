@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>458</fr:anchor>
+    <fr:addr type="machine">#274</fr:addr>
+    <fr:route>unstable-274.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>1</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+  <fr:p>The first three functors appear in <fr:ref addr="algm-002A" href="algm-002A.xml" taxon="Example" /> and <fr:ref addr="algm-002B" href="algm-002B.xml" taxon="Example" />. The next adjoint <fr:tex display="inline"><![CDATA[\operatorname {ev}_0\dashv \Delta ]]></fr:tex> is dual to <fr:tex display="inline"><![CDATA[\Delta \dashv \operatorname {ev}_1]]></fr:tex>, and it is also not hard to see manually. Finally, a natural transform <fr:tex display="inline"><![CDATA[0_! (X) \to  F]]></fr:tex> consists of a single map <fr:tex display="inline"><![CDATA[X \to  F(0)]]></fr:tex>, since all the other components are empty functions, hence trivial. Moreover, <fr:tex display="inline"><![CDATA[0_!]]></fr:tex> does not preserve products, so no more left adjoints are possible.</fr:p>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>460</fr:anchor>
+            <fr:addr type="user">algm-002C</fr:addr>
+            <fr:route>algm-002C.xml</fr:route>
+            <fr:title text="Adjoint chain over {Set}">Adjoint chain over <fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex></fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>The yoneda embedding <fr:tex display="inline"><![CDATA[\mathsf {Set} \to  \mathsf {Psh}(\mathsf {Set})]]></fr:tex> has a chain of four left adjoints <fr:tex display="block"><![CDATA[0_!\dashv \operatorname {ev}_0\dashv \Delta \dashv \operatorname {ev}_1\dashv \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[0_! (X)(Y) = X \times  \hom (Y, 0)]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>426</fr:anchor><fr:addr type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>The first three functors appear in <fr:ref addr="algm-002A" href="algm-002A.xml" taxon="Example" /> and <fr:ref addr="algm-002B" href="algm-002B.xml" taxon="Example" />. The next adjoint <fr:tex display="inline"><![CDATA[\operatorname {ev}_0\dashv \Delta ]]></fr:tex> is dual to <fr:tex display="inline"><![CDATA[\Delta \dashv \operatorname {ev}_1]]></fr:tex>, and it is also not hard to see manually. Finally, a natural transform <fr:tex display="inline"><![CDATA[0_! (X) \to  F]]></fr:tex> consists of a single map <fr:tex display="inline"><![CDATA[X \to  F(0)]]></fr:tex>, since all the other components are empty functions, hence trivial. Moreover, <fr:tex display="inline"><![CDATA[0_!]]></fr:tex> does not preserve products, so no more left adjoints are possible.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

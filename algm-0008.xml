@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:authors>
-      <fr:author>
-        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-      </fr:author>
-    </fr:authors>
+    <fr:anchor>2498</fr:anchor>
+    <fr:addr type="user">algm-0008</fr:addr>
+    <fr:route>algm-0008.xml</fr:route>
+    <fr:title text="Characterization of the locale {Spec}(R)">Characterization of the locale <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:title>
+    <fr:taxon>Theorem</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
       <fr:month>3</fr:month>
       <fr:day>3</fr:day>
     </fr:date>
-    <fr:anchor>2405</fr:anchor>
-    <fr:addr type="user">algm-0008</fr:addr>
-    <fr:route>algm-0008.xml</fr:route>
-    <fr:title text="Characterization of the locale \operatorname{Spec}(R)">Characterization of the locale <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:title>
-    <fr:taxon>Theorem</fr:taxon>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
   </fr:frontmatter>
-  <fr:mainmatter><fr:p>The opens in <fr:link href="algm-0007.xml" title="Localic spectrum of a commutative ring" addr="algm-0007" type="local">the locale</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> bijectively corresponds to radical ideals of <fr:tex display="inline"><![CDATA[R]]></fr:tex>, whose divisibility relation agree with the inverse inclusion relation of opens. Intersections correspond to lowest common multiple, and unions correspond to the radical of the greatest common divisor. In other words, the locale is isomorphic to the locale corresponding to the <fr:link href="algm-0001.xml" title="Topological spectrum of a commutative ring" addr="algm-0001" type="local">topological spectrum of a commutative ring</fr:link> by <fr:link href="algm-0002.xml" title="Radical ideals bijectively correspond to open sets" addr="algm-0002" type="local">Theorem <fr:contextual-number addr="algm-0002" /></fr:link>.</fr:p>
+  <fr:mainmatter><fr:p>The opens in <fr:link type="local" href="algm-0007.xml" addr="algm-0007" title="Localic spectrum of a commutative ring">the locale</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> bijectively corresponds to radical ideals of <fr:tex display="inline"><![CDATA[R]]></fr:tex>, whose divisibility relation agree with the inverse inclusion relation of opens. Intersections correspond to lowest common multiple, and unions correspond to the radical of the greatest common divisor. In other words, the locale is isomorphic to the locale corresponding to the <fr:link type="local" href="algm-0001.xml" addr="algm-0001" title="Topological spectrum of a commutative ring">topological spectrum of a commutative ring</fr:link> by <fr:ref addr="algm-0002" href="algm-0002.xml" taxon="Theorem" />.</fr:p>
   
     
-    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0008.tree</fr:source-path><fr:anchor>515</fr:anchor><fr:addr type="machine">unstable/457</fr:addr><fr:route>unstable-457.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2162</fr:anchor><fr:addr type="machine">#299</fr:addr><fr:route>unstable-299.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We can first put the opens in disjunctive normal form
     <fr:tex display="block"><![CDATA[U = \bigcup _{i \in  I} \bigcap _{j=1}^{n_i} D(f_{i, j}).]]></fr:tex>
     By the definition we can reduce the intersections into products. Write <fr:tex display="inline"><![CDATA[f_i = \prod _j f_{i, j}]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[U = \bigcup _i D(f_i)]]></fr:tex>. Given this form, we can try to <fr:em>saturate</fr:em> the union, by throwing in everything that doesn’t enlarge <fr:tex display="inline"><![CDATA[U]]></fr:tex>. In other words, we only consider the unions such that no other generator <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> can be added, i.e. <fr:tex display="inline"><![CDATA[D(f) \nsubseteq  U]]></fr:tex>. This would uniquely determine <fr:tex display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
@@ -29,121 +29,107 @@
   <fr:p>Such a saturated set would have to be closed under addition since <fr:tex display="inline"><![CDATA[D(f+g) \subseteq  D(f) \cup  D(g)]]></fr:tex>, and for the nullary case it must include <fr:tex display="inline"><![CDATA[D(0) = \bot ]]></fr:tex>. It also has to absorb multiplication, because <fr:tex display="inline"><![CDATA[D(f \cdot  g) \subseteq  D(f)]]></fr:tex>. This means we are dealing with ideals. Henceforth, we write <fr:tex display="inline"><![CDATA[D(\mathfrak {a})]]></fr:tex> for the union <fr:tex display="inline"><![CDATA[\bigcup _{\mathfrak {a} \mid  f} D(f)]]></fr:tex>.</fr:p>
 
   <fr:p>There is one last requirement we haven’t dealt with, i.e. <fr:tex display="inline"><![CDATA[D(f \cdot  g)]]></fr:tex> is the <fr:em>greatest</fr:em> lower bound of <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> and <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex>, instead of simply a lower bound. For example, this gives the equality <fr:tex display="inline"><![CDATA[D(f^n) = D(f)]]></fr:tex>, so we need to restrict our attention to radical ideals. It then suffices to prove that the radical ideal generated by <fr:tex display="inline"><![CDATA[f \cdot  g]]></fr:tex> is equal to the lowest common multiple of the radical ideals generated by <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex>, which is true.</fr:p>
-</fr:mainmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
   <fr:backmatter>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:anchor>2395</fr:anchor>
-        <fr:title text="References">References</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2397</fr:anchor>
         <fr:title text="Context">Context</fr:title>
+        <fr:authors />
       </fr:frontmatter>
       <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
+            <fr:anchor>2500</fr:anchor>
+            <fr:addr type="user">algm-0005</fr:addr>
+            <fr:route>algm-0005.xml</fr:route>
+            <fr:title text="Localic spectrum of a commutative ring">Localic spectrum of a commutative ring</fr:title>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>3</fr:month>
               <fr:day>3</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0005.tree</fr:source-path>
-            <fr:anchor>2396</fr:anchor>
-            <fr:addr type="user">algm-0005</fr:addr>
-            <fr:route>algm-0005.xml</fr:route>
-            <fr:title text="Localic spectrum of a commutative ring">Localic spectrum of a commutative ring</fr:title>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>To define functions on an “algebraic space”, we need to define the possible domains. The correct structure formed by the domains is a locale. Intuitively, the only algebraic way for a function to become partially defined is by having zero in the denominator <fr:tex display="inline"><![CDATA[f/g]]></fr:tex>, so the domain should be the non-vanishing part of <fr:tex display="inline"><![CDATA[g]]></fr:tex>, which we denote as <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex>.</fr:p>
-            <fr:tree show-metadata="false">
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-                  </fr:author>
-                </fr:authors>
+                <fr:anchor>2502</fr:anchor>
+                <fr:addr type="user">algm-0006</fr:addr>
+                <fr:route>algm-0006.xml</fr:route>
+                <fr:title text="Rational functions not definable via a single expression">Rational functions not definable via a single expression</fr:title>
                 <fr:date>
                   <fr:year>2024</fr:year>
                   <fr:month>3</fr:month>
                   <fr:day>3</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0006.tree</fr:source-path>
-                <fr:anchor>796</fr:anchor>
-                <fr:addr type="user">algm-0006</fr:addr>
-                <fr:route>algm-0006.xml</fr:route>
-                <fr:title text="Rational functions not definable via a single expression">Rational functions not definable via a single expression</fr:title>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
               </fr:frontmatter>
               <fr:mainmatter>
                 <fr:p>We can sometimes define two functions that agree on their common domain, which suggests we should be able to piece them together into a larger function. But this may not always be expressible with one single expression.</fr:p>
                 <fr:p>For example, on the space given by <fr:tex display="inline"><![CDATA[xy = zw]]></fr:tex>, we can define a funtion given by <fr:tex display="inline"><![CDATA[x/w]]></fr:tex>, which is equal to <fr:tex display="inline"><![CDATA[z/y]]></fr:tex>. They are only jointly undefined on <fr:tex display="inline"><![CDATA[w = z = 0]]></fr:tex>, but there is no single expression that achieves this.</fr:p>
               </fr:mainmatter>
+              <fr:backmatter />
             </fr:tree>
             <fr:p>Recognizing this, we can try to freely generate a locale using <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex> as generators. We would like some obvious relations corresponding to each algebraic operation in the ring.</fr:p>
-            <fr:tree show-metadata="false">
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-                  </fr:author>
-                </fr:authors>
-                <fr:date>
-                  <fr:year>2024</fr:year>
-                  <fr:month>3</fr:month>
-                  <fr:day>3</fr:day>
-                </fr:date>
-                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0007.tree</fr:source-path>
-                <fr:anchor>797</fr:anchor>
+                <fr:anchor>2504</fr:anchor>
                 <fr:addr type="user">algm-0007</fr:addr>
                 <fr:route>algm-0007.xml</fr:route>
                 <fr:title text="Localic spectrum of a commutative ring">Localic spectrum of a commutative ring</fr:title>
                 <fr:taxon>Definition</fr:taxon>
-              </fr:frontmatter>
-              <fr:mainmatter>
-                <fr:p>Given a commutative ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>, we define a frame generated by the symbols <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> for <fr:tex display="inline"><![CDATA[f \in  R]]></fr:tex>, subject to the following relations:
-  <fr:tex display="block"><![CDATA[\begin {aligned}
-    D(0) &= \bot  \\
-    D(1) &= \top  \\
-    D(f \cdot  g) &= D(f) \cap  D(g) \\
-    D(f + g) &\subseteq  D(f) \cup  D(g)
-  \end {aligned}]]></fr:tex>
-  The resulting frame defines the <fr:strong>localic spectrum</fr:strong> <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex>.</fr:p>
-              </fr:mainmatter>
-            </fr:tree>
-            <fr:p>We can actually produce a characterization of these generated opens. The following theorem is best read by skipping the statement and jump right into the proof, allowing the correct statement to gradually reveal itself.</fr:p>
-            <fr:tree show-metadata="false">
-              <fr:frontmatter>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-                  </fr:author>
-                </fr:authors>
                 <fr:date>
                   <fr:year>2024</fr:year>
                   <fr:month>3</fr:month>
                   <fr:day>3</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0008.tree</fr:source-path>
-                <fr:anchor>798</fr:anchor>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Given a commutative ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>, we define a frame generated by the symbols <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> for <fr:tex display="inline"><![CDATA[f \in  R]]></fr:tex>, subject to the following relations:
+  <fr:tex display="block"><![CDATA[\begin {aligned}     D(0) &= \bot  \\     D(1) &= \top  \\     D(f \cdot  g) &= D(f) \cap  D(g) \\     D(f + g) &\subseteq  D(f) \cup  D(g)   \end {aligned}]]></fr:tex>
+  The resulting frame defines the <fr:strong>localic spectrum</fr:strong> <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>We can actually produce a characterization of these generated opens. The following theorem is best read by skipping the statement and jump right into the proof, allowing the correct statement to gradually reveal itself.</fr:p>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2506</fr:anchor>
                 <fr:addr type="user">algm-0008</fr:addr>
                 <fr:route>algm-0008.xml</fr:route>
-                <fr:title text="Characterization of the locale \operatorname{Spec}(R)">Characterization of the locale <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:title>
+                <fr:title text="Characterization of the locale {Spec}(R)">Characterization of the locale <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:title>
                 <fr:taxon>Theorem</fr:taxon>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>3</fr:day>
+                </fr:date>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
               </fr:frontmatter>
-              <fr:mainmatter><fr:p>The opens in <fr:link href="algm-0007.xml" title="Localic spectrum of a commutative ring" addr="algm-0007" type="local">the locale</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> bijectively corresponds to radical ideals of <fr:tex display="inline"><![CDATA[R]]></fr:tex>, whose divisibility relation agree with the inverse inclusion relation of opens. Intersections correspond to lowest common multiple, and unions correspond to the radical of the greatest common divisor. In other words, the locale is isomorphic to the locale corresponding to the <fr:link href="algm-0001.xml" title="Topological spectrum of a commutative ring" addr="algm-0001" type="local">topological spectrum of a commutative ring</fr:link> by <fr:link href="algm-0002.xml" title="Radical ideals bijectively correspond to open sets" addr="algm-0002" type="local">Theorem <fr:contextual-number addr="algm-0002" /></fr:link>.</fr:p>
+              <fr:mainmatter><fr:p>The opens in <fr:link type="local" href="algm-0007.xml" addr="algm-0007" title="Localic spectrum of a commutative ring">the locale</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> bijectively corresponds to radical ideals of <fr:tex display="inline"><![CDATA[R]]></fr:tex>, whose divisibility relation agree with the inverse inclusion relation of opens. Intersections correspond to lowest common multiple, and unions correspond to the radical of the greatest common divisor. In other words, the locale is isomorphic to the locale corresponding to the <fr:link type="local" href="algm-0001.xml" addr="algm-0001" title="Topological spectrum of a commutative ring">topological spectrum of a commutative ring</fr:link> by <fr:ref addr="algm-0002" href="algm-0002.xml" taxon="Theorem" />.</fr:p>
   
     
-    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0008.tree</fr:source-path><fr:anchor>515</fr:anchor><fr:addr type="machine">unstable/457</fr:addr><fr:route>unstable-457.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2162</fr:anchor><fr:addr type="machine">#299</fr:addr><fr:route>unstable-299.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We can first put the opens in disjunctive normal form
     <fr:tex display="block"><![CDATA[U = \bigcup _{i \in  I} \bigcap _{j=1}^{n_i} D(f_{i, j}).]]></fr:tex>
     By the definition we can reduce the intersections into products. Write <fr:tex display="inline"><![CDATA[f_i = \prod _j f_{i, j}]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[U = \bigcup _i D(f_i)]]></fr:tex>. Given this form, we can try to <fr:em>saturate</fr:em> the union, by throwing in everything that doesn’t enlarge <fr:tex display="inline"><![CDATA[U]]></fr:tex>. In other words, we only consider the unions such that no other generator <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> can be added, i.e. <fr:tex display="inline"><![CDATA[D(f) \nsubseteq  U]]></fr:tex>. This would uniquely determine <fr:tex display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
@@ -151,154 +137,147 @@
   <fr:p>Such a saturated set would have to be closed under addition since <fr:tex display="inline"><![CDATA[D(f+g) \subseteq  D(f) \cup  D(g)]]></fr:tex>, and for the nullary case it must include <fr:tex display="inline"><![CDATA[D(0) = \bot ]]></fr:tex>. It also has to absorb multiplication, because <fr:tex display="inline"><![CDATA[D(f \cdot  g) \subseteq  D(f)]]></fr:tex>. This means we are dealing with ideals. Henceforth, we write <fr:tex display="inline"><![CDATA[D(\mathfrak {a})]]></fr:tex> for the union <fr:tex display="inline"><![CDATA[\bigcup _{\mathfrak {a} \mid  f} D(f)]]></fr:tex>.</fr:p>
 
   <fr:p>There is one last requirement we haven’t dealt with, i.e. <fr:tex display="inline"><![CDATA[D(f \cdot  g)]]></fr:tex> is the <fr:em>greatest</fr:em> lower bound of <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> and <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex>, instead of simply a lower bound. For example, this gives the equality <fr:tex display="inline"><![CDATA[D(f^n) = D(f)]]></fr:tex>, so we need to restrict our attention to radical ideals. It then suffices to prove that the radical ideal generated by <fr:tex display="inline"><![CDATA[f \cdot  g]]></fr:tex> is equal to the lowest common multiple of the radical ideals generated by <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex>, which is true.</fr:p>
-</fr:mainmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
+              <fr:backmatter />
             </fr:tree>
           </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
+      <fr:backmatter />
     </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:anchor>2399</fr:anchor>
         <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
       </fr:frontmatter>
       <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
+            <fr:anchor>2508</fr:anchor>
+            <fr:addr type="user">algm-0011</fr:addr>
+            <fr:route>algm-0011.xml</fr:route>
+            <fr:title text="Characterization of the locale {Proj}(S)">Characterization of the locale <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex></fr:title>
+            <fr:taxon>Theorem</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>3</fr:month>
               <fr:day>12</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0011.tree</fr:source-path>
-            <fr:anchor>2398</fr:anchor>
-            <fr:addr type="user">algm-0011</fr:addr>
-            <fr:route>algm-0011.xml</fr:route>
-            <fr:title text="Characterization of the locale \operatorname{Proj}(S)">Characterization of the locale <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex></fr:title>
-            <fr:taxon>Theorem</fr:taxon>
-          </fr:frontmatter>
-          <fr:mainmatter>
-            <fr:p>The opens of the <fr:link href="algm-000Y.xml" title="Projective spectrum of a graded ring" addr="algm-000Y" type="local">projective spectrum</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> are in bijection with graded radical ideals with <fr:tex display="inline"><![CDATA[\mathfrak {r}_0 = 0]]></fr:tex>. Hence we write <fr:tex display="inline"><![CDATA[D_+ (\mathfrak {r})]]></fr:tex> for this open. The proof is exactly the same as <fr:link href="algm-0008.xml" title="Characterization of the locale \operatorname{Spec}(R)" addr="algm-0008" type="local">Theorem <fr:contextual-number addr="algm-0008" /></fr:link>.</fr:p>
-          </fr:mainmatter>
-        </fr:tree>
-      </fr:mainmatter>
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2403</fr:anchor>
-        <fr:title text="Related">Related</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
-          <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
               </fr:author>
             </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The opens of the <fr:link type="local" href="algm-000Y.xml" addr="algm-000Y" title="Projective spectrum of a graded ring">projective spectrum</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> are in bijection with graded radical ideals with <fr:tex display="inline"><![CDATA[\mathfrak {r}_0 = 0]]></fr:tex>. Hence we write <fr:tex display="inline"><![CDATA[D_+ (\mathfrak {r})]]></fr:tex> for this open. The proof is exactly the same as <fr:ref addr="algm-0008" href="algm-0008.xml" taxon="Theorem" />.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2510</fr:anchor>
+            <fr:addr type="user">algm-0007</fr:addr>
+            <fr:route>algm-0007.xml</fr:route>
+            <fr:title text="Localic spectrum of a commutative ring">Localic spectrum of a commutative ring</fr:title>
+            <fr:taxon>Definition</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>3</fr:month>
               <fr:day>3</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0007.tree</fr:source-path>
-            <fr:anchor>2400</fr:anchor>
-            <fr:addr type="user">algm-0007</fr:addr>
-            <fr:route>algm-0007.xml</fr:route>
-            <fr:title text="Localic spectrum of a commutative ring">Localic spectrum of a commutative ring</fr:title>
-            <fr:taxon>Definition</fr:taxon>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Given a commutative ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>, we define a frame generated by the symbols <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> for <fr:tex display="inline"><![CDATA[f \in  R]]></fr:tex>, subject to the following relations:
-  <fr:tex display="block"><![CDATA[\begin {aligned}
-    D(0) &= \bot  \\
-    D(1) &= \top  \\
-    D(f \cdot  g) &= D(f) \cap  D(g) \\
-    D(f + g) &\subseteq  D(f) \cup  D(g)
-  \end {aligned}]]></fr:tex>
+  <fr:tex display="block"><![CDATA[\begin {aligned}     D(0) &= \bot  \\     D(1) &= \top  \\     D(f \cdot  g) &= D(f) \cap  D(g) \\     D(f + g) &\subseteq  D(f) \cup  D(g)   \end {aligned}]]></fr:tex>
   The resulting frame defines the <fr:strong>localic spectrum</fr:strong> <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex>.</fr:p>
           </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
-            <fr:date>
-              <fr:year>2024</fr:year>
-              <fr:month>3</fr:month>
-              <fr:day>2</fr:day>
-            </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0002.tree</fr:source-path>
-            <fr:anchor>2401</fr:anchor>
+            <fr:anchor>2512</fr:anchor>
             <fr:addr type="user">algm-0002</fr:addr>
             <fr:route>algm-0002.xml</fr:route>
             <fr:title text="Radical ideals bijectively correspond to open sets">Radical ideals bijectively correspond to open sets</fr:title>
             <fr:taxon>Theorem</fr:taxon>
-          </fr:frontmatter>
-          <fr:mainmatter><fr:p>In an arbitrary <fr:link href="algm-0001.xml" title="Topological spectrum of a commutative ring" addr="algm-0001" type="local">topological spectrum of a commutative ring</fr:link>, we have <fr:tex display="inline"><![CDATA[D(\mathfrak {a}) = D(\sqrt {\mathfrak {a}})]]></fr:tex>. There is a containment of opens <fr:tex display="inline"><![CDATA[D(\mathfrak {a}) \subseteq  D(\mathfrak {b})]]></fr:tex> — equivalently <fr:tex display="inline"><![CDATA[V(\mathfrak {b}) \subseteq  V(\mathfrak {a})]]></fr:tex> — iff <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {b}} \mid  \sqrt {\mathfrak {a}}]]></fr:tex>, and the points contained in an open set completely determines the radical ideal.</fr:p>
-  
-    
-    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0002.tree</fr:source-path><fr:anchor>644</fr:anchor><fr:addr type="machine">unstable/420</fr:addr><fr:route>unstable-420.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
-  <fr:p>Since <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex> implies <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {p}} \mid  \sqrt {\mathfrak {a}}]]></fr:tex>, but <fr:tex display="inline"><![CDATA[\mathfrak {p} = \sqrt {\mathfrak {p}}]]></fr:tex>, we see that <fr:tex display="inline"><![CDATA[D(\mathfrak {a}) = D(\sqrt {\mathfrak {a}})]]></fr:tex>. We just have to prove the forward implication of the last statement. Suppose for all prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {b} \implies  \mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>. We need to prove that <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f \implies  \sqrt {\mathfrak {b}} \mid  f]]></fr:tex>.</fr:p>
-
-  <fr:p>Given <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex> for all prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \sqrt {\mathfrak {a}}]]></fr:tex> (which is equivalent to <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>). So we know that for all <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {b}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex>. This is now purely a condition on <fr:tex display="inline"><![CDATA[\mathfrak {b}]]></fr:tex>. The next lemma finishes the proof.</fr:p>
-
-  <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0003.tree</fr:source-path><fr:anchor>643</fr:anchor><fr:addr type="user">algm-0003</fr:addr><fr:route>algm-0003.xml</fr:route><fr:title text="The radical ideal is the lcm of prime ideal divisors">The radical ideal is the lcm of prime ideal divisors</fr:title><fr:taxon>Theorem</fr:taxon></fr:frontmatter><fr:mainmatter><fr:p>For any ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> of a commutative ring, the radical <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}}]]></fr:tex> is the lowest common multiple of the prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>.</fr:p>
-  
-    
-    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0003.tree</fr:source-path><fr:anchor>642</fr:anchor><fr:addr type="machine">unstable/400</fr:addr><fr:route>unstable-400.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
-  <fr:p>On one hand, if <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f^n]]></fr:tex> for some natural number <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This means for all <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f^n]]></fr:tex>, which by being a prime ideal implies <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex>.</fr:p>
-
-  <fr:p>On the other hand, suppose <fr:tex display="inline"><![CDATA[\mathfrak {a} \nmid  f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>, we construct a prime ideal divisor of <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> that is not a divisor of <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Consider the set of all ideals not a divisor of <fr:tex display="inline"><![CDATA[f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> still in this set, since <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link href="https://en.wikipedia.org/wiki/Zorn's_lemma" type="external">Zorn’s lemma</fr:link>, the set contains some <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex display="inline"><![CDATA[\mathfrak {q} \nmid  x, y]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {q}' = \gcd (\mathfrak {q}, x y)]]></fr:tex> is a proper divisor of <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x y \mid  f^n]]></fr:tex>, so <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y \mid  f^n]]></fr:tex>, contradiction.</fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter></fr:tree>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter>
-        </fr:tree>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
-          <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>3</fr:month>
               <fr:day>2</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0001.tree</fr:source-path>
-            <fr:anchor>2402</fr:anchor>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>In an arbitrary <fr:link type="local" href="algm-0001.xml" addr="algm-0001" title="Topological spectrum of a commutative ring">topological spectrum of a commutative ring</fr:link>, we have <fr:tex display="inline"><![CDATA[D(\mathfrak {a}) = D(\sqrt {\mathfrak {a}})]]></fr:tex>. There is a containment of opens <fr:tex display="inline"><![CDATA[D(\mathfrak {a}) \subseteq  D(\mathfrak {b})]]></fr:tex> — equivalently <fr:tex display="inline"><![CDATA[V(\mathfrak {b}) \subseteq  V(\mathfrak {a})]]></fr:tex> — iff <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {b}} \mid  \sqrt {\mathfrak {a}}]]></fr:tex>, and the points contained in an open set completely determines the radical ideal.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2416</fr:anchor><fr:addr type="machine">#302</fr:addr><fr:route>unstable-302.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>Since <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex> implies <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {p}} \mid  \sqrt {\mathfrak {a}}]]></fr:tex>, but <fr:tex display="inline"><![CDATA[\mathfrak {p} = \sqrt {\mathfrak {p}}]]></fr:tex>, we see that <fr:tex display="inline"><![CDATA[D(\mathfrak {a}) = D(\sqrt {\mathfrak {a}})]]></fr:tex>. We just have to prove the forward implication of the last statement. Suppose for all prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {b} \implies  \mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>. We need to prove that <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f \implies  \sqrt {\mathfrak {b}} \mid  f]]></fr:tex>.</fr:p>
+
+  <fr:p>Given <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex> for all prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \sqrt {\mathfrak {a}}]]></fr:tex> (which is equivalent to <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>). So we know that for all <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {b}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex>. This is now purely a condition on <fr:tex display="inline"><![CDATA[\mathfrak {b}]]></fr:tex>. The next lemma finishes the proof.</fr:p>
+
+  <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2418</fr:anchor><fr:addr type="user">algm-0003</fr:addr><fr:route>algm-0003.xml</fr:route><fr:title text="The radical ideal is the lcm of prime ideal divisors">The radical ideal is the lcm of prime ideal divisors</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> of a commutative ring, the radical <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}}]]></fr:tex> is the lowest common multiple of the prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2420</fr:anchor><fr:addr type="machine">#301</fr:addr><fr:route>unstable-301.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>On one hand, if <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f^n]]></fr:tex> for some natural number <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This means for all <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f^n]]></fr:tex>, which by being a prime ideal implies <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex>.</fr:p>
+
+  <fr:p>On the other hand, suppose <fr:tex display="inline"><![CDATA[\mathfrak {a} \nmid  f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>, we construct a prime ideal divisor of <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> that is not a divisor of <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Consider the set of all ideals not a divisor of <fr:tex display="inline"><![CDATA[f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> still in this set, since <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link type="external" href="https://en.wikipedia.org/wiki/Zorn's_lemma">Zorn’s lemma</fr:link>, the set contains some <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex display="inline"><![CDATA[\mathfrak {q} \nmid  x, y]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {q}' = \gcd (\mathfrak {q}, x y)]]></fr:tex> is a proper divisor of <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x y \mid  f^n]]></fr:tex>, so <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y \mid  f^n]]></fr:tex>, contradiction.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter><fr:backmatter /></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2514</fr:anchor>
             <fr:addr type="user">algm-0001</fr:addr>
             <fr:route>algm-0001.xml</fr:route>
             <fr:title text="Topological spectrum of a commutative ring">Topological spectrum of a commutative ring</fr:title>
             <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>The topological <fr:strong>spectrum</fr:strong> of a commutative ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex>, is a topological space whose points are given by prime ideals of <fr:tex display="inline"><![CDATA[R]]></fr:tex>. We denote the point corresponding to <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> as <fr:tex display="inline"><![CDATA[\left [\mathfrak {p}\right ]]]></fr:tex>. We define an open <fr:tex display="inline"><![CDATA[D(\mathfrak {a})]]></fr:tex> for each ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> which contains the point <fr:tex display="inline"><![CDATA[\left [\mathfrak {p}\right ]]]></fr:tex> when <fr:tex display="inline"><![CDATA[\mathfrak {p} \nmid  \mathfrak {a}]]></fr:tex>. The corresponding closed is written as <fr:tex display="inline"><![CDATA[V(\mathfrak {a})]]></fr:tex>.</fr:p>
             <fr:p>We abuse the notation and write <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> for the case where <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> is generated by <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Similar notations apply to <fr:tex display="inline"><![CDATA[V]]></fr:tex>.</fr:p>
           </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2404</fr:anchor>
-        <fr:title text="Contributions">Contributions</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:backmatter />
     </fr:tree>
   </fr:backmatter>
 </fr:tree>

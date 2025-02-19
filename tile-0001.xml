@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>363</fr:anchor>
+    <fr:addr type="user">tile-0001</fr:addr>
+    <fr:route>tile-0001.xml</fr:route>
+    <fr:title text="Generating aperiodic tilings with substitution systems">Generating aperiodic tilings with substitution systems</fr:title>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>18</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>I assume familiarity with <fr:link type="external" href="https://en.wikipedia.org/wiki/Aperiodic_tiling">aperiodic tilings</fr:link> and <fr:link type="external" href="https://en.wikipedia.org/wiki/Substitution_tiling">substitution systems</fr:link>. It is already possible, via naïve use of the substitution system, to construct algorithms that generate arbitrarily large patches of the tilings. However, the collection of algorithms persented here has several advantages.</fr:p>
+    <fr:ul><fr:li>It can incrementally generate patches arbitrarily far away from the starting point, without needing to specify the size up front.</fr:li>
+  <fr:li>It is very efficient, both in time and in space, as it only generates tiles on demand, as they enter the viewport.</fr:li>
+  <fr:li>For each concrete tiling system, it requires minimal manual input, automatically constructing almost the entire algorithm.</fr:li>
+  <fr:li>The generation itself does <fr:em>not</fr:em> depend on the geometric information! This avoids difficult calculations with arbitrary-precision numbers.</fr:li>
+  <fr:li>The algorithm elegantly handles very problematic situations such as substitutions with disjoint tiles, or zero-width spurs.</fr:li></fr:ul>
+    <fr:p>These materials essentially come from <fr:link type="external" href="https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/aperiodic-tilings/">a four part series</fr:link> in Tatham’s blog. However, I removed the intermediate algorithms that are later replaced with better ones, and organized the presentation, so as to serve as a better reference if you want to implement your own generation engine.</fr:p>
+    <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:anchor>343</fr:anchor>
+        <fr:addr type="user">tile-0002</fr:addr>
+        <fr:route>tile-0002.xml</fr:route>
+        <fr:title text="Overview of the setup">Overview of the setup</fr:title>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>2</fr:month>
+          <fr:day>19</fr:day>
+        </fr:date>
+        <fr:authors>
+          <fr:author>
+            <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+          </fr:author>
+        </fr:authors>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:p>To generate a tiling, we need to determine what kind of information the computer needs. This can be divided into two parts. The <fr:em>geometric</fr:em> information records the shape of each tile, and the <fr:em>combinatorial</fr:em> information records the matching rules and combinatorial data of the substitution rules. Given some combinatorial data, we can algorithmically produce the neighbor structure of each tile, which can then be easily graphically displayed by suitably translating and rotating the tiles using the geometric information. Note that producing the neighbor is non-trivial, since naïvely attempting every possible tile under the matching rules require arbitrarily far backtracking.</fr:p>
+        <fr:p>Given some combinatorial data, we will first construct a <fr:strong>recursive neighborhood algorithm</fr:strong>, which computes the neighbor tile when we specify a tile and one of its edges. This is already enough if you want to display random patches of the tiling, but there are cases with zero probability where the program will hang. However, these cases often contain interesting features, such as a high degree of symmetry, or fractal structures. So we will construct another <fr:strong>transduction neighborhood algorithm</fr:strong> (depending on the recursive one) that increases laziness, allowing us to handle those inputs.</fr:p>
+        <fr:p>There is still a smaller set of input that cannot be handled. The situation is not unlike attempting to calculate <fr:tex display="inline"><![CDATA[0.9999\cdots  + 0.0000\cdots ]]></fr:tex>, with the algorithm forever unable to determine if it should output <fr:tex display="inline"><![CDATA[1.00\cdots ]]></fr:tex> or <fr:tex display="inline"><![CDATA[0.99\cdots ]]></fr:tex>, because it is unsure whether it will encounter a digit less than <fr:tex display="inline"><![CDATA[9]]></fr:tex> in the first summand, or a non-zero digit in the second summand. This is obviously impossible to solve, unless we have more information. For example, if we know beforehand that the first summand is indeed <fr:tex display="inline"><![CDATA[0.9\overline {9}]]></fr:tex>, then we can safely output <fr:tex display="inline"><![CDATA[1.]]></fr:tex> as the first digit. This also applies to our tiling algorithm. We will be able to classify all the failure cases, and if we know beforehand the input falls in one of those cases, then we can bypass the problem in an ad hoc way.</fr:p>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter />
+</fr:tree>

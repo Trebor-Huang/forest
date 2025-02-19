@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:authors>
-      <fr:author>
-        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-      </fr:author>
-    </fr:authors>
+    <fr:anchor>2764</fr:anchor>
+    <fr:addr type="user">hmlg-0019</fr:addr>
+    <fr:route>hmlg-0019.xml</fr:route>
+    <fr:title text="Chain reduction">Chain reduction</fr:title>
+    <fr:taxon>Visualization</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
       <fr:month>2</fr:month>
       <fr:day>21</fr:day>
     </fr:date>
-    <fr:anchor>1573</fr:anchor>
-    <fr:addr type="user">hmlg-0019</fr:addr>
-    <fr:route>hmlg-0019.xml</fr:route>
-    <fr:title text="Chain reduction">Chain reduction</fr:title>
-    <fr:taxon>Visualization</fr:taxon>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
   </fr:frontmatter>
-  <fr:mainmatter><fr:p>For a <fr:link href="hmlg-0017.xml" title="Chain reduction" addr="hmlg-0017" type="local">chain reduction</fr:link> <fr:tex display="inline"><![CDATA[C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex>, <fr:tex display="inline"><![CDATA[D]]></fr:tex> is embedded as a subcomplex of <fr:tex display="inline"><![CDATA[C]]></fr:tex>. It is cleanly separated, indicating that <fr:link href="hmlg-001H.xml" title="Characterization of chain reduction" addr="hmlg-001H" type="local">it is split</fr:link>. The other part of <fr:tex display="inline"><![CDATA[C]]></fr:tex> is <fr:link href="todo.xml" title="Unfinished trees" addr="todo" type="local">split exact</fr:link>, and so its homology component is drawn as empty, with the components separated.</fr:p>
-  <html:span class="tikz" xmlns:html="http://www.w3.org/1999/xhtml">
-    <fr:resource hash="4d0c77efd66acef9def5a402f9c54bac"><fr:resource-content><fr:img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMC4zIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzI4Mi4wNzI1OThwdCcgaGVpZ2h0PScxMDguMDk1NDUycHQnIHZpZXdCb3g9Jy03MiAtNzIgMjgyLjA3MjU5OCAxMDguMDk1NDUyJz4KPHN0eWxlIHR5cGU9J3RleHQvY3NzJz4KPCFbQ0RBVEFbQGZvbnQtZmFjZXtmb250LWZhbWlseTptbG1zeTg7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQUw4QUFvQUFBQUFBMkFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRXNBQUFCZ3FFRVNDbU50WVhBQUFBRkFBQUFBS2dBQUFEUUFEQ0IxWjJ4NVpnQUFBV3dBQUFBMEFBQUFOS1lCN3hSb1pXRmtBQUFCb0FBQUFDd0FBQUEyS2doMkFtaG9aV0VBQUFITUFBQUFIZ0FBQUNRRlNQK3BhRzEwZUFBQUFld0FBQUFJQUFBQUNBVnVBRE5zYjJOaEFBQUI5QUFBQUFZQUFBQUdBQm9BQUcxaGVIQUFBQUg4QUFBQUZ3QUFBQ0FBQkFBTmJtRnRaUUFBQWhRQUFBRFdBQUFCUGtOaEpTTndiM04wQUFBQzdBQUFBQkFBQUFBZ0FBTUFBWGphWTJCbTJzNDRnWUdWZ1lGcEZ0UFpmeUlNL1NDYThRM2pHd1pqUms0R0lHQmpnSUFHQmxTUVVseVd6c0Ntb0tTZ3hLenhSNFdCZ1ZtRCtRNVFtQkdoNHY5L0JnWUFIZzBPK1FCNDJtTmdZR0JpWUdCZ0JtSVJJTWtJcGxrWUZJQTBDeEFDK1FwSy8vOUR5UHYzd2ZJTUFGTE1CcDRBQUFBQkFETUFJd0hzQWQwQUN3QUFBUTRCQnk0Qkp6NEJOeDRCQWV3RGUxOWVmQUlDZkY1ZmV3RUFYbjBDQW4xZVhuMENBbjE0Mm1OZ1pHQmdBR0tKY29YSWVINmJyd3pNTEF3ZzhQaVM1QlJrbXRtUDhTNlE0bUJnQXZFQTlFNElybmphWTJCa1lHRFcrS01DSlAwWWpCbE1HTjh3QUVWUUFCTUFTWXNDOVFBQUEwNEFBQUlnQURNQUFBQUFBQm9BQUhqYVkyQmtZR0JnWXVCaEFORU1VQklKQUFBQnlRQVNBSGphVlkreGFzTXdFSVkvVThkUU45Q3BIVG9VVFJtRmd6TjQ3SllsbWdJWkN6WVdpWXRsZzJVTVhrb2ZvQS9kczZPbEorNzQ3ci8vQkFla2ZCT3hSTVR6V3BlSVNhUzc4NFluWGdJbjhsVGdsRGQyUEJERmo2Szg4eEU0WnN0bjRBMnZmQVZPUlA4Sm5ITGcxNXlNS2NmYmVYWlYzL3JDdGM3UHhjVU92dWs3dGRmWlhUamF6ZzdsYUd0VnphcWVHajlkbmNwMXBuTU1KMGxEeWNpTk16T09pcDRXVHlIY1NucFJDeTVZQnVGR3BwMWNzRWVUL1hNY3hkR3RydVUzU3kydVNpWkthSkk5TC9VcWJrVys3bXJ5UDBZZ01jRUFBSGphWTJCbVFBYU1ER2dBQUFDT0FBVT0pIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTptbG1taTg7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQU9vQUFvQUFBQUFCQndBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRWNBQUFCZ2hadDA1V050WVhBQUFBRThBQUFBS1FBQUFEUUFEQURCWjJ4NVpnQUFBV2dBQUFEbUFBQUE5TFVOUkU5b1pXRmtBQUFDVUFBQUFDOEFBQUEyS1V4MTMyaG9aV0VBQUFLQUFBQUFJQUFBQUNRRm5RR2thRzEwZUFBQUFxQUFBQUFJQUFBQUNBVWtBQlpzYjJOaEFBQUNxQUFBQUFZQUFBQUdBSG9BQUcxaGVIQUFBQUt3QUFBQUZ3QUFBQ0FBQkFCUWJtRnRaUUFBQXNnQUFBRFFBQUFCT3pDUVVqdHdiM04wQUFBRG1BQUFBQkFBQUFBZ0FBTUFBWGphWTJCbW1zUTRnWUdWZ1lGcEZ0UFpmeUlNL1NDYThRM2pHd1pqUms0R0lHQmpnQU5HQmlTUVVseVdEcFRNWThoajV2ejNuWUdCbVJPc0hrbk4vLzhNREFEKy9nNXZBSGphWTJCZ1lHSmdZR0FHWWhFZ3lRaW1XUmdVZ0RRTEVJTDRlZi8vUThqL2s4RjhCZ0JXU0FiS0FBQUFlTm9keXJGT3d6QVVoV0ZmMzhvdVNXM0hCZGxKSzVvMkViRUlFRVFhbkZKRU9sU3F4RklXTmtZV0hvSVg0bUY0RkxidU5PcHlwTy9vSjBETS94LzlobCt5SitTcXRveEw0Rm5obWcxMDBQcEg3M3BMVU1nNDQ0WHpHK3Fid3ZWUXdETFg5czBNYkwrMXNhZFRudVJiVHo5akFCN3QxcmNyd0ZEa3dRQWJ2N1ZLREtPWUk1ZTVRK1RkRU05VU1ob3hOYmloUWZqUWxPdGdzbi9xWGdISFNzU01hanNQendYKzJDaXEzbkY1cDRQTCtWZGwxVE9scTRYTlpydVBiQ3dUcEM0eGgxUXNMS0M5bUM2MUtjczNoREpQSytoZTJ2czYzZXByQ2hNOXJRd2hSMWxTSFVFQUFIamFZMkJrWUdBQTR0U1AzUVh4L0RaZkdaaFpHRURnOFNYSktRajYvMXVtaVl4bmdWd09CaWFRS0FCT1lnd1ZBSGphWTJCa1lHRG0vUGVkZ1lGcE1vTVlnemhURFFOUUJBVXdBUUJYV0FOR0FwRUFBQUtUQUJZQUFBQUFBSG9BQUhqYVkyQmtZR0JnWXZCbkFORU1VQklKQUFBSVZBQlZBSGphVll5eGFzTXdGRVdQcVdPb1d6cVZEcVVRTFYyRmd6dDQ2eGdDMFpxbGt4SUxSMkE1WUJ0RGhuYnZYL2ZaMGRMMzBPWG9jaVFnNTRlRWVSS2VscHduSlpQYmpWYzg4Qnc1azExSHpubmxuVHVTOUY2YU56NGpwenp5RlhuRkMwM2tUUHJ2eURrZi9KcTlNWFk4NzBiYitsTVYyaEI4ZFhEOTRDK2QydWppVm14ZDUzbzd1bG9kcjZxZS9EQTFRWlc2MENXR3ZSeURaZVRNVHRMUzRqbFJFWVNDckJjKzRPZ1poQzkwS0Rab2luL0dWb3h1c2VhL0hMVllSNjZTTlpNWWcyUWpycUpjM21yS1B5SGlNQzk0Mm1OZ1prQUdqQXhvQUFBQWpnQUYpIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTptbG1taTEyO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFUWUFBb0FBQUFBQmJnQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVvQUFBQmdoYmwxSEdOdFlYQUFBQUZBQUFBQU1nQUFBRHdBWHdDZFoyeDVaZ0FBQVhRQUFBSDdBQUFDZE9FVFJwWm9aV0ZrQUFBRGNBQUFBQzhBQUFBMktqTjI0R2hvWldFQUFBT2dBQUFBSGdBQUFDUUdxd0lEYUcxMGVBQUFBOEFBQUFBUUFBQUFFQXU1QUhkc2IyTmhBQUFEMEFBQUFBb0FBQUFLQVo0QXVtMWhlSEFBQUFQY0FBQUFHQUFBQUNBQUJ3QldibUZ0WlFBQUEvUUFBQURXQUFBQlJMQkl3dEJ3YjNOMEFBQUV6QUFBQUF3QUFBQWdBQU1BQUhqYVkyQm1lc2M0Z1lHVmdZRnBGdFBaZnlJTS9TQ2E4UTNqR3daalJrNEdJR0JqZ0FOR0JpU1FVbHlXRHBSMFp2Qmc1dnIzbllHQm1RdXNIcWJHZzRIaC8zOEdCZ0FaSGc3RUFBQjQybU5nWUdCaVlHQmdCbUlSSU1rSXBsa1lOSUEwRzVCbUJNcTZNSGo4L3cva080UG8vL3YrN3dhckFnSUFrVGNJOWdBQWVOcGRqMDFyRTFFVWh1OTc3M1FtVFpNN3pYeW1NVWs3bmN5TVNiVzFtV1NtbUkrMkVBc2xDS0tCRnRNUzNGUkVVTnpaalNzL3dJMTE0WC93RjdodzVVcGMrUU5FRjRJcmQyNEVoYWJldENVdGNsYjNPZmZBOHhDUXl0RjNKdE12WkpVUVZHMUQ0VlRoVUJZUitQVW9iaU9Pd2lMc09Jb3RtM0c0Y2hEWC9NQjN4UmRaREljcHRsV3hGa09mNkpDazdCWC84c1BWd2JPaUNiL3k1czU2cDNVcjEwN3dETlpva3V1TUxWUUtGNi91bFhMbTVzeVVpcjIrVnc2WHJqa1RTR2lKcEJwdE9NRVNzTnV0cisvMGRnNjhHVlNENnlrZ00veVRVcUZIN2R1bWlrdEZNOXZmTGZYY3dRTnd6Vis1eHdtaEpEajZ6WmJwSjJLUW1pZ1JrcTQvTW1SV0E2SmlGT0pGdGlOc0xkTVlGY3F1STR0RTI0cGlQVnFFTXUvVHovM2VJMVdYR0h1TnlhZmQrKzVDbkZhR1FBbWJuVUV4ZEwzbjI4MjE0ZnRwRFg3T2sxOUp0S1NxT3I1dUQwQ2xwTXdQM3pFMHlzc3Z1dlVmY3d5MThzYmRyUnRiTDkwc0ZENG5RYzdRbFpUR2FFTElFVis0UHFZZlNVODhvdEFPNDhpV0E2SExGTXNPcTBMUURWeEZEbXJIY3M3LzlMeHovZHk1Q2ljK0xibUpmSE8va1JYdWVVODVvRlNiVHh2NTFuN0RaTE9GOG1SbitLMHpaazJER1VhdWROSXpyZU5DYTN6WWh0TTZvZlJ0Z1ZKWXM0eksydUVIbm9DU3pndGdGSUVKQy9ydzV4blNwekNPVmRKblozOS9IUk5DL2dGQ2pHR0tBSGphWTJCa1lHQUE0bDhHVXhqaitXMitNakN6TUlEQTQwdVNVeEQwLzRmTUZVeTNnRndPQmlhUUtBQTAwZ3R0QUhqYVkyQmtZR0RtK3ZjZFNEb3lxUDAveGx6QkFCUkJBU3dBZFE0RXN3QUFBbTBBQUFMTkFDb0RRUUFuQXo0QUpnQUFBQUFBWkFDNkFUb0FBSGphWTJCa1lHQmdZUWhsWUdJQUFVWUdOQUFBQ1RjQVhuamFYWTY5YXNNd0ZJVS9VeWVsTGpSYmh3NUYzVG9KLy9RSnNvUkF0R2F1RW90RVlEbGdHME9XVG4yQ1BIR3VYVTI5UW9mdkhNNFZBakorU0pnbVlUWHJOQ21QNHY1NHdUT3ZrWmVTZjBUT2VPT1RCNUwwU1pKMzFwRlRYdmlPdkpETk52SlM4dC9JR1YvY3pNNFlPNXkzZzIzOHNTaERFNEl2eXIzcmVuOXBWYUh6bUd4YzZ6bzd1Rm9kcnFvZWZUK2VncXAwcmlzTU83a0d5OENacmFpbHdYT2tvQ1FJQnpsK2Ruc2NIYjI0aS94SlNhYkovM1UyMG1ubjN2U2lvNWJlZ2F0b3pTaWRYdlFrYlVVMWIydXFPOFNuTVdFQUFIamFZMkJtd0FzQUFIMEFCQT09KSBmb3JtYXQoJ3dvZmYnKTt9CnRleHQuZjAge2ZvbnQtZmFtaWx5Om1sbXN5ODtmb250LXNpemU6Ny45NzAxMTJweH0KdGV4dC5mMSB7Zm9udC1mYW1pbHk6bWxtbWk4O2ZvbnQtc2l6ZTo3Ljk3MDExMnB4fQp0ZXh0LmYyIHtmb250LWZhbWlseTptbG1taTEyO2ZvbnQtc2l6ZToxMS45NTUxNjhweH0KXV0+Cjwvc3R5bGU+CjxnIGlkPSdwYWdlMSc+CjxnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTEuNjcxMjc1LC0yMC45NzY1MTQpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIGZpbGw9JyMwMDAnIHN0cm9rZT0nIzAwMCc+CjxnIHN0cm9rZS13aWR0aD0nMC40Jz4KPGNsaXBQYXRoIGlkPSdwZ2ZjcDEnPgo8cGF0aCBkPSdNLTU0LjA2MDAzLTM5LjgzMzY2VjQ4LjM2OTU3SDE2Ny44NzFWLTM5LjgzMzY2Wk0xNjcuODcxIDQ4LjM2OTU3Jy8+IDwvY2xpcFBhdGg+CjxnIGNsaXAtcGF0aD0ndXJsKCNwZ2ZjcDEpJz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8cGF0aCBkPSdNLTEwMi40MzAwNCAwSC0xMS4zODA5MkMtMTEuMzgwOTIgMjUuMTQyODQtMzEuNzYyNjMgNDUuNTI0NTUtNTYuOTA1NDcgNDUuNTI0NTVTLTEwMi40MzAwMiAyNS4xNDI4NC0xMDIuNDMwMDIgMCcgZmlsbD0nbm9uZScvPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPHBhdGggZD0nTS00NS41MjQ1NSAwSDQ1LjUyNDU1QzQ1LjUyNDU1IDI1LjE0Mjg0IDI1LjE0Mjg0IDQ1LjUyNDU1IDAgNDUuNTI0NTVTLTQ1LjUyNDU1IDI1LjE0Mjg0LTQ1LjUyNDU1IDAnIGZpbGw9J25vbmUnLz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIGZpbGw9JyMzM2MnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuMic+CjxwYXRoIGQ9J00xMS4zODA5MiAwSDEwMi40MzAwNEMxMDIuNDMwMDQgMjUuMTQyODQgODIuMDQ4MzIgNDUuNTI0NTUgNTYuOTA1NDkgNDUuNTI0NTVDMzEuNzYyNjUgNDUuNTI0NTUgMTEuMzgwOTQgMjUuMTQyODQgMTEuMzgwOTQgMCcvPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxwYXRoIGQ9J002OC4yODY0IDBIMTU5LjMzNTUzQzE1OS4zMzU1MyAyNS4xNDI4NCAxMzguOTUzODEgNDUuNTI0NTUgMTEzLjgxMDk3IDQ1LjUyNDU1Qzg4LjY2ODE0IDQ1LjUyNDU1IDY4LjI4NjQyIDI1LjE0Mjg0IDY4LjI4NjQyIDAnIGZpbGw9J25vbmUnLz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxwYXRoIGQ9J00xMjUuMTkxOSAwSDIxNi4yNDEwMUMyMTYuMjQxMDEgMjUuMTQyODQgMTk1Ljg1OTMgNDUuNTI0NTUgMTcwLjcxNjQ2IDQ1LjUyNDU1UzEyNS4xOTE5MSAyNS4xNDI4NCAxMjUuMTkxOTEgMCcgZmlsbD0nbm9uZScvPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPHBhdGggZD0nTS00NS41MjQ1NS0yLjg0NTQ0SC0xMS4zODA5MkMtMTEuMzgwOTItMTYuNjY2ODctMTcuNjY1NDQtMjkuNzQzNjctMjguNDU0MDMtMzguMzgxNjJDLTM5LjI0MjYxLTI5Ljc0MzY3LTQ1LjUyNzEzLTE2LjY2Njg3LTQ1LjUyNzEzLTIuODQ1NDQnIGZpbGw9J25vbmUnLz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIGZpbGw9JyMzM2MnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuMic+CjxwYXRoIGQ9J00xMS4zODA5Mi0yLjg0NTQ0SDQ1LjUyNDU1QzQ1LjUyNDU1LTE2LjY2Njg3IDM5LjI0MDA0LTI5Ljc0MzY3IDI4LjQ1MTQ1LTM4LjM4MTYyQzE3LjY2Mjg2LTI5Ljc0MzY3IDExLjM3ODM0LTE2LjY2Njg3IDExLjM3ODM0LTIuODQ1NDQnLz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsPScjMzNjJz4KPGcgZmlsbC1vcGFjaXR5PScwLjInPgo8cGF0aCBkPSdNNjguMjg2NC0yLjg0NTQ0SDEwMi40MzAwNEMxMDIuNDMwMDQtMTYuNjY2ODcgOTYuMTQ1NTItMjkuNzQzNjcgODUuMzU2OTMtMzguMzgxNjJDNzQuNTY4MzQtMjkuNzQzNjcgNjguMjgzODMtMTYuNjY2ODcgNjguMjgzODMtMi44NDU0NCcvPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxwYXRoIGQ9J00xMjUuMTkxOS0yLjg0NTQ0SDE1OS4zMzU1M0MxNTkuMzM1NTMtMTYuNjY2ODcgMTUzLjA1MTAxLTI5Ljc0MzY3IDE0Mi4yNjI0Mi0zOC4zODE2MkMxMzEuNDczODMtMjkuNzQzNjcgMTI1LjE4OTMyLTE2LjY2Njg3IDEyNS4xODkzMi0yLjg0NTQ0JyBmaWxsPSdub25lJy8+CjwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg0OS44NzM1NCwtNDguNzI0NTUpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKDExLjY3MTI3NSwtMjAuOTc2NTE0KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjInIHg9JzExLjY3MTI3NScgeT0nLTIwLjk3NjUxNCc+QzwvdGV4dD4KPHRleHQgY2xhc3M9J2YxJyB4PScyMC4wNDYzMjEnIHk9Jy0xOS4xODMyNTEnPm48L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoNDkuMjA5MDgsMjguMDk4MTkpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKDExLjY3MTI3NSwtMjAuOTc2NTE0KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjInIHg9JzExLjY3MTI3NScgeT0nLTIwLjk3NjUxNCc+SDwvdGV4dD4KPHRleHQgY2xhc3M9J2YxJyB4PScyMS4zNzAyNTUnIHk9Jy0xOS4xODMyNTEnPm48L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8cGF0aCBkPSdNLTU5Ljc1MDkzIDQ1LjUyNDU1Qy02MC41MDA5MyA0NS4xNDk1Ny02MS4wMDA5MyA0NC4yNzQ1NS02MS4wMDA5MyA0My4wMjQ1NVY2LjA1NjZDLTYxLjAwMDkzIDQuODA2Ni02MS41MDA5MiAzLjkzMTU4LTYyLjI1MDkzIDMuNTU2NkMtNjEuNTAwOTIgMy4xODE2MS02MS4wMDA5MyAyLjMwNjYtNjEuMDAwOTMgMS4wNTY2Vi0zNS45MTEzOEMtNjEuMDAwOTMtMzcuMTYxMzgtNjAuNTAwOTMtMzguMDM2MzktNTkuNzUwOTMtMzguNDExMzgnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTc3LjIyMzYsMC4zNTY2KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgxMS42NzEyNzUsLTIwLjk3NjUxNClzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YyJyB4PScxMS42NzEyNzUnIHk9Jy0yMC45NzY1MTQnPkM8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nMjAuMDQ2MzIxJyB5PSctMTkuMTgzMjUxJz7igKI8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxwYXRoIGQ9J00xNzMuNTYxOSA0NS41MjQ1NUMxNzQuMzExOSA0NS4xNDk1NyAxNzQuODExOSA0NC4yNzQ1NSAxNzQuODExOSA0My4wMjQ1NVYyNS4yNjIyOEMxNzQuODExOSAyNC4wMTIyOCAxNzUuMzExODkgMjMuMTM3MjcgMTc2LjA2MTkgMjIuNzYyMjhDMTc1LjMxMTg5IDIyLjM4NzMgMTc0LjgxMTkgMjEuNTEyMjggMTc0LjgxMTkgMjAuMjYyMjhWMi41QzE3NC44MTE5IDEuMjUgMTc0LjMxMTkgLjM3NDk4IDE3My41NjE5IDAnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTc3Ljg3ODA4LDE5LjU2MjI5KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgxMS42NzEyNzUsLTIwLjk3NjUxNClzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YyJyB4PScxMS42NzEyNzUnIHk9Jy0yMC45NzY1MTQnPkQ8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nMjEuMzkwNTg0JyB5PSctMTkuMTgzMjUxJz7igKI8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+Cjwvc3ZnPg==" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+  <fr:mainmatter><fr:p>For a <fr:link type="local" href="hmlg-0017.xml" addr="hmlg-0017" title="Chain reduction">chain reduction</fr:link> <fr:tex display="inline"><![CDATA[C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex>, <fr:tex display="inline"><![CDATA[D]]></fr:tex> is embedded as a subcomplex of <fr:tex display="inline"><![CDATA[C]]></fr:tex>. It is cleanly separated, indicating that <fr:link type="local" href="hmlg-001H.xml" addr="hmlg-001H" title="Characterization of chain reduction">it is split</fr:link>. The other part of <fr:tex display="inline"><![CDATA[C]]></fr:tex> is <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">split exact</fr:link>, and so its homology component is drawn as empty, with the components separated.</fr:p>
+  <html:span xmlns:html="http://www.w3.org/1999/xhtml" class="tikz">
+    <fr:resource hash="4d0c77efd66acef9def5a402f9c54bac"><fr:resource-content><fr:img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMC4zIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzI4Mi4wNzI1OThwdCcgaGVpZ2h0PScxMDguMDk1NDUycHQnIHZpZXdCb3g9Jy03MiAtNzIgMjgyLjA3MjU5OCAxMDguMDk1NDUyJz4KPHN0eWxlIHR5cGU9J3RleHQvY3NzJz4KPCFbQ0RBVEFbQGZvbnQtZmFjZXtmb250LWZhbWlseTptbG1zeTg7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQUw4QUFvQUFBQUFBMkFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRXNBQUFCZ3FFRVNDbU50WVhBQUFBRkFBQUFBS2dBQUFEUUFEQ0IxWjJ4NVpnQUFBV3dBQUFBMEFBQUFOS1lCN3hSb1pXRmtBQUFCb0FBQUFDd0FBQUEyS2h0L0VHaG9aV0VBQUFITUFBQUFIZ0FBQUNRRlNQK3BhRzEwZUFBQUFld0FBQUFJQUFBQUNBVnVBRE5zYjJOaEFBQUI5QUFBQUFZQUFBQUdBQm9BQUcxaGVIQUFBQUg4QUFBQUZ3QUFBQ0FBQkFBTmJtRnRaUUFBQWhRQUFBRFdBQUFCUGtOaEpTTndiM04wQUFBQzdBQUFBQkFBQUFBZ0FBTUFBWGphWTJCbTJzNDRnWUdWZ1lGcEZ0UFpmeUlNL1NDYThRM2pHd1pqUms0R0lHQmpnSUFHQmxTUVVseVd6c0Ntb0tTZ3hLenhSNFdCZ1ZtRCtRNVFtQkdoNHY5L0JnWUFIZzBPK1FCNDJtTmdZR0JpWUdCZ0JtSVJJTWtJcGxrWUZJQTBDeEFDK1FwSy8vOUR5UHYzd2ZJTUFGTE1CcDRBQUFBQkFETUFJd0hzQWQwQUN3QUFBUTRCQnk0Qkp6NEJOeDRCQWV3RGUxOWVmQUlDZkY1ZmV3RUFYbjBDQW4xZVhuMENBbjE0Mm1OZ1pHQmdBR0tKUUQ3YmVINmJyd3pNTEF3ZzhQajJQR2xrbXRtUDhTNlE0bUJnQXZFQTZzZ0loSGphWTJCa1lHRFcrS01DSlAwWWpCbE1HTjh3QUVWUUFCTUFTWXNDOVFBQUEwNEFBQUlnQURNQUFBQUFBQm9BQUhqYVkyQmtZR0JnWXVCaEFORU1VQklKQUFBQnlRQVNBSGphVlkreGFzTXdFSVkvVThkUU45Q3BIVG9VVFJtRmd6TjQ3SllsbWdJWkN6WVdpWXRsZzJVTVhrb2ZvQS9kczZPbEorNzQ3ci8vQkFla2ZCT3hSTVR6V3BlSVNhUzc4NFluWGdJbjhsVGdsRGQyUEJERmo2Szg4eEU0WnN0bjRBMnZmQVZPUlA4Sm5ITGcxNXlNS2NmYmVYWlYzL3JDdGM3UHhjVU92dWs3dGRmWlhUamF6ZzdsYUd0VnphcWVHajlkbmNwMXBuTU1KMGxEeWNpTk16T09pcDRXVHlIY1NucFJDeTVZQnVGR3BwMWNzRWVUL1hNY3hkR3RydVUzU3kydVNpWkthSkk5TC9VcWJrVys3bXJ5UDBZZ01jRUFBSGphWTJCbVFBYU1ER2dBQUFDT0FBVT0pIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTptbG1taTg7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQU9vQUFvQUFBQUFCQndBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRWNBQUFCZ2hadDA1V050WVhBQUFBRThBQUFBS1FBQUFEUUFEQURCWjJ4NVpnQUFBV2dBQUFEbUFBQUE5TFVOUkU5b1pXRmtBQUFDVUFBQUFDOEFBQUEyS1Y5KzdXaG9aV0VBQUFLQUFBQUFJQUFBQUNRRm5RR2thRzEwZUFBQUFxQUFBQUFJQUFBQUNBVWtBQlpzYjJOaEFBQUNxQUFBQUFZQUFBQUdBSG9BQUcxaGVIQUFBQUt3QUFBQUZ3QUFBQ0FBQkFCUWJtRnRaUUFBQXNnQUFBRFFBQUFCT3pDUVVqdHdiM04wQUFBRG1BQUFBQkFBQUFBZ0FBTUFBWGphWTJCbW1zUTRnWUdWZ1lGcEZ0UFpmeUlNL1NDYThRM2pHd1pqUms0R0lHQmpnQU5HQmlTUVVseVdEcFRNWThoajV2ejNuWUdCbVJPc0hrbk4vLzhNREFEKy9nNXZBSGphWTJCZ1lHSmdZR0FHWWhFZ3lRaW1XUmdVZ0RRTEVJTDRlZi8vUThqL2s4RjhCZ0JXU0FiS0FBQUFlTm9keXJGT3d6QVVoV0ZmMzhvdVNXM0hCZGxKSzVvMkViRUlFRVFhbkZKRU9sU3F4RklXTmtZV0hvSVg0bUY0RkxidU5PcHlwTy9vSjBETS94LzlobCt5SitTcXRveEw0Rm5obWcxMDBQcEg3M3BMVU1nNDQ0WHpHK3Fid3ZWUXdETFg5czBNYkwrMXNhZFRudVJiVHo5akFCN3QxcmNyd0ZEa3dRQWJ2N1ZLREtPWUk1ZTVRK1RkRU05VU1ob3hOYmloUWZqUWxPdGdzbi9xWGdISFNzU01hanNQendYKzJDaXEzbkY1cDRQTCtWZGwxVE9scTRYTlpydVBiQ3dUcEM0eGgxUXNMS0M5bUM2MUtjczNoREpQSytoZTJ2czYzZXByQ2hNOXJRd2hSMWxTSFVFQUFIamFZMkJrWUdBQTR0VFRsU0h4L0RaZkdaaFpHRURnOGUxNTBnajYvMXVtaVl4bmdWd09CaWFRS0FCRTNBdnJBSGphWTJCa1lHRG0vUGVkZ1lGcE1vTVlnemhURFFOUUJBVXdBUUJYV0FOR0FwRUFBQUtUQUJZQUFBQUFBSG9BQUhqYVkyQmtZR0JnWXZCbkFORU1VQklKQUFBSVZBQlZBSGphVll5eGFzTXdGRVdQcVdPb1d6cVZEcVVRTFYyRmd6dDQ2eGdDMFpxbGt4SUxSMkE1WUJ0RGhuYnZYL2ZaMGRMMzBPWG9jaVFnNTRlRWVSS2VscHduSlpQYmpWYzg4Qnc1azExSHpubmxuVHVTOUY2YU56NGpwenp5RlhuRkMwM2tUUHJ2eURrZi9KcTlNWFk4NzBiYitsTVYyaEI4ZFhEOTRDK2QydWppVm14ZDUzbzd1bG9kcjZxZS9EQTFRWlc2MENXR3ZSeURaZVRNVHRMUzRqbFJFWVNDckJjKzRPZ1poQzkwS0Rab2luL0dWb3h1c2VhL0hMVllSNjZTTlpNWWcyUWpycUpjM21yS1B5SGlNQzk0Mm1OZ1prQUdqQXhvQUFBQWpnQUYpIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTptbG1taTEyO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFUWUFBb0FBQUFBQmJnQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVvQUFBQmdoYmwxSEdOdFlYQUFBQUZBQUFBQU1nQUFBRHdBWHdDZFoyeDVaZ0FBQVhRQUFBSDdBQUFDZE9FVFJwWm9aV0ZrQUFBRGNBQUFBQzhBQUFBMktrWi83bWhvWldFQUFBT2dBQUFBSGdBQUFDUUdxd0lEYUcxMGVBQUFBOEFBQUFBUUFBQUFFQXU1QUhkc2IyTmhBQUFEMEFBQUFBb0FBQUFLQVo0QXVtMWhlSEFBQUFQY0FBQUFHQUFBQUNBQUJ3QldibUZ0WlFBQUEvUUFBQURXQUFBQlJMQkl3dEJ3YjNOMEFBQUV6QUFBQUF3QUFBQWdBQU1BQUhqYVkyQm1lc2M0Z1lHVmdZRnBGdFBaZnlJTS9TQ2E4UTNqR3daalJrNEdJR0JqZ0FOR0JpU1FVbHlXRHBSMFp2Qmc1dnIzbllHQm1RdXNIcWJHZzRIaC8zOEdCZ0FaSGc3RUFBQjQybU5nWUdCaVlHQmdCbUlSSU1rSXBsa1lOSUEwRzVCbUJNcTZNSGo4L3cva080UG8vL3YrN3dhckFnSUFrVGNJOWdBQWVOcGRqMDFyRTFFVWh1OTc3M1FtVFpNN3pYeW1NVWs3bmN5TVNiVzFtV1NtbUkrMkVBc2xDS0tCRnRNUzNGUkVVTnpaalNzL3dJMTE0WC93RjdodzVVcGMrUU5FRjRJcmQyNEVoYWJldENVdGNsYjNPZmZBOHhDUXl0RjNKdE12WkpVUVZHMUQ0VlRoVUJZUitQVW9iaU9Pd2lMc09Jb3RtM0c0Y2hEWC9NQjN4UmRaREljcHRsV3hGa09mNkpDazdCWC84c1BWd2JPaUNiL3k1czU2cDNVcjEwN3dETlpva3V1TUxWUUtGNi91bFhMbTVzeVVpcjIrVnc2WHJqa1RTR2lKcEJwdE9NRVNzTnV0cisvMGRnNjhHVlNENnlrZ00veVRVcUZIN2R1bWlrdEZNOXZmTGZYY3dRTnd6Vis1eHdtaEpEajZ6WmJwSjJLUW1pZ1JrcTQvTW1SV0E2SmlGT0pGdGlOc0xkTVlGY3F1STR0RTI0cGlQVnFFTXUvVHovM2VJMVdYR0h1TnlhZmQrKzVDbkZhR1FBbWJuVUV4ZEwzbjI4MjE0ZnRwRFg3T2sxOUp0S1NxT3I1dUQwQ2xwTXdQM3pFMHlzc3Z1dlVmY3d5MThzYmRyUnRiTDkwc0ZENG5RYzdRbFpUR2FFTElFVis0UHFZZlNVODhvdEFPNDhpV0E2SExGTXNPcTBMUURWeEZEbXJIY3M3LzlMeHovZHk1Q2ljK0xibUpmSE8va1JYdWVVODVvRlNiVHh2NTFuN0RaTE9GOG1SbitLMHpaazJER1VhdWROSXpyZU5DYTN6WWh0TTZvZlJ0Z1ZKWXM0eksydUVIbm9DU3pndGdGSUVKQy9ydzV4blNwekNPVmRKblozOS9IUk5DL2dGQ2pHR0tBSGphWTJCa1lHQUE0bDljalUvaitXMitNakN6TUlEQTQ5dnpwQkgwLzRmTUZVeTNnRndPQmlhUUtBQldJQXhDQUhqYVkyQmtZR0RtK3ZjZFNEb3lxUDAveGx6QkFCUkJBU3dBZFE0RXN3QUFBbTBBQUFMTkFDb0RRUUFuQXo0QUpnQUFBQUFBWkFDNkFUb0FBSGphWTJCa1lHQmdZUWhsWUdJQUFVWUdOQUFBQ1RjQVhuamFYWTY5YXNNd0ZJVS9VeWVsTGpSYmh3NUYzVG9KLy9RSnNvUkF0R2F1RW90RVlEbGdHME9XVG4yQ1BIR3VYVTI5UW9mdkhNNFZBakorU0pnbVlUWHJOQ21QNHY1NHdUT3ZrWmVTZjBUT2VPT1RCNUwwU1pKMzFwRlRYdmlPdkpETk52SlM4dC9JR1YvY3pNNFlPNXkzZzIzOHNTaERFNEl2eXIzcmVuOXBWYUh6bUd4YzZ6bzd1Rm9kcnFvZWZUK2VncXAwcmlzTU83a0d5OENacmFpbHdYT2tvQ1FJQnpsK2Ruc2NIYjI0aS94SlNhYkovM1UyMG1ubjN2U2lvNWJlZ2F0b3pTaWRYdlFrYlVVMWIydXFPOFNuTVdFQUFIamFZMkJtd0FzQUFIMEFCQT09KSBmb3JtYXQoJ3dvZmYnKTt9CnRleHQuZjAge2ZvbnQtZmFtaWx5Om1sbXN5ODtmb250LXNpemU6Ny45NzAxMTJweH0KdGV4dC5mMSB7Zm9udC1mYW1pbHk6bWxtbWk4O2ZvbnQtc2l6ZTo3Ljk3MDExMnB4fQp0ZXh0LmYyIHtmb250LWZhbWlseTptbG1taTEyO2ZvbnQtc2l6ZToxMS45NTUxNjhweH0KXV0+Cjwvc3R5bGU+CjxnIGlkPSdwYWdlMSc+CjxnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTEuNjcxMjc1LC0yMC45NzY1MTQpc2NhbGUoMC45OTYyNjQsLTAuOTk2MjY0KSc+CjxnIGZpbGw9JyMwMDAnIHN0cm9rZT0nIzAwMCc+CjxnIHN0cm9rZS13aWR0aD0nMC40Jz4KPGNsaXBQYXRoIGlkPSdwZ2ZjcDEnPgo8cGF0aCBkPSdNLTU0LjA2MDAzLTM5LjgzMzY2VjQ4LjM2OTU3SDE2Ny44NzFWLTM5LjgzMzY2Wk0xNjcuODcxIDQ4LjM2OTU3Jy8+IDwvY2xpcFBhdGg+CjxnIGNsaXAtcGF0aD0ndXJsKCNwZ2ZjcDEpJz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8cGF0aCBkPSdNLTEwMi40MzAwNCAwSC0xMS4zODA5MkMtMTEuMzgwOTIgMjUuMTQyODQtMzEuNzYyNjMgNDUuNTI0NTUtNTYuOTA1NDcgNDUuNTI0NTVTLTEwMi40MzAwMiAyNS4xNDI4NC0xMDIuNDMwMDIgMCcgZmlsbD0nbm9uZScvPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPHBhdGggZD0nTS00NS41MjQ1NSAwSDQ1LjUyNDU1QzQ1LjUyNDU1IDI1LjE0Mjg0IDI1LjE0Mjg0IDQ1LjUyNDU1IDAgNDUuNTI0NTVTLTQ1LjUyNDU1IDI1LjE0Mjg0LTQ1LjUyNDU1IDAnIGZpbGw9J25vbmUnLz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIGZpbGw9JyMzM2MnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuMic+CjxwYXRoIGQ9J00xMS4zODA5MiAwSDEwMi40MzAwNEMxMDIuNDMwMDQgMjUuMTQyODQgODIuMDQ4MzIgNDUuNTI0NTUgNTYuOTA1NDkgNDUuNTI0NTVDMzEuNzYyNjUgNDUuNTI0NTUgMTEuMzgwOTQgMjUuMTQyODQgMTEuMzgwOTQgMCcvPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxwYXRoIGQ9J002OC4yODY0IDBIMTU5LjMzNTUzQzE1OS4zMzU1MyAyNS4xNDI4NCAxMzguOTUzODEgNDUuNTI0NTUgMTEzLjgxMDk3IDQ1LjUyNDU1Qzg4LjY2ODE0IDQ1LjUyNDU1IDY4LjI4NjQyIDI1LjE0Mjg0IDY4LjI4NjQyIDAnIGZpbGw9J25vbmUnLz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxwYXRoIGQ9J00xMjUuMTkxOSAwSDIxNi4yNDEwMUMyMTYuMjQxMDEgMjUuMTQyODQgMTk1Ljg1OTMgNDUuNTI0NTUgMTcwLjcxNjQ2IDQ1LjUyNDU1UzEyNS4xOTE5MSAyNS4xNDI4NCAxMjUuMTkxOTEgMCcgZmlsbD0nbm9uZScvPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC44Jz4KPHBhdGggZD0nTS00NS41MjQ1NS0yLjg0NTQ0SC0xMS4zODA5MkMtMTEuMzgwOTItMTYuNjY2ODctMTcuNjY1NDQtMjkuNzQzNjctMjguNDU0MDMtMzguMzgxNjJDLTM5LjI0MjYxLTI5Ljc0MzY3LTQ1LjUyNzEzLTE2LjY2Njg3LTQ1LjUyNzEzLTIuODQ1NDQnIGZpbGw9J25vbmUnLz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxnIGZpbGw9JyMzM2MnPgo8ZyBmaWxsLW9wYWNpdHk9JzAuMic+CjxwYXRoIGQ9J00xMS4zODA5Mi0yLjg0NTQ0SDQ1LjUyNDU1QzQ1LjUyNDU1LTE2LjY2Njg3IDM5LjI0MDA0LTI5Ljc0MzY3IDI4LjQ1MTQ1LTM4LjM4MTYyQzE3LjY2Mjg2LTI5Ljc0MzY3IDExLjM3ODM0LTE2LjY2Njg3IDExLjM3ODM0LTIuODQ1NDQnLz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8ZyBmaWxsPScjMzNjJz4KPGcgZmlsbC1vcGFjaXR5PScwLjInPgo8cGF0aCBkPSdNNjguMjg2NC0yLjg0NTQ0SDEwMi40MzAwNEMxMDIuNDMwMDQtMTYuNjY2ODcgOTYuMTQ1NTItMjkuNzQzNjcgODUuMzU2OTMtMzguMzgxNjJDNzQuNTY4MzQtMjkuNzQzNjcgNjguMjgzODMtMTYuNjY2ODcgNjguMjgzODMtMi44NDU0NCcvPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxwYXRoIGQ9J00xMjUuMTkxOS0yLjg0NTQ0SDE1OS4zMzU1M0MxNTkuMzM1NTMtMTYuNjY2ODcgMTUzLjA1MTAxLTI5Ljc0MzY3IDE0Mi4yNjI0Mi0zOC4zODE2MkMxMzEuNDczODMtMjkuNzQzNjcgMTI1LjE4OTMyLTE2LjY2Njg3IDEyNS4xODkzMi0yLjg0NTQ0JyBmaWxsPSdub25lJy8+CjwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg0OS44NzM1NCwtNDguNzI0NTUpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKDExLjY3MTI3NSwtMjAuOTc2NTE0KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjInIHg9JzExLjY3MTI3NScgeT0nLTIwLjk3NjUxNCc+QzwvdGV4dD4KPHRleHQgY2xhc3M9J2YxJyB4PScyMC4wNDYzMjEnIHk9Jy0xOS4xODMyNTEnPm48L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoNDkuMjA5MDgsMjguMDk4MTkpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKDExLjY3MTI3NSwtMjAuOTc2NTE0KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjInIHg9JzExLjY3MTI3NScgeT0nLTIwLjk3NjUxNCc+SDwvdGV4dD4KPHRleHQgY2xhc3M9J2YxJyB4PScyMS4zNzAyNTUnIHk9Jy0xOS4xODMyNTEnPm48L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjgnPgo8cGF0aCBkPSdNLTU5Ljc1MDkzIDQ1LjUyNDU1Qy02MC41MDA5MyA0NS4xNDk1Ny02MS4wMDA5MyA0NC4yNzQ1NS02MS4wMDA5MyA0My4wMjQ1NVY2LjA1NjZDLTYxLjAwMDkzIDQuODA2Ni02MS41MDA5MiAzLjkzMTU4LTYyLjI1MDkzIDMuNTU2NkMtNjEuNTAwOTIgMy4xODE2MS02MS4wMDA5MyAyLjMwNjYtNjEuMDAwOTMgMS4wNTY2Vi0zNS45MTEzOEMtNjEuMDAwOTMtMzcuMTYxMzgtNjAuNTAwOTMtMzguMDM2MzktNTkuNzUwOTMtMzguNDExMzgnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTc3LjIyMzYsMC4zNTY2KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgxMS42NzEyNzUsLTIwLjk3NjUxNClzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YyJyB4PScxMS42NzEyNzUnIHk9Jy0yMC45NzY1MTQnPkM8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nMjAuMDQ2MzIxJyB5PSctMTkuMTgzMjUxJz7igKI8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuOCc+CjxwYXRoIGQ9J00xNzMuNTYxOSA0NS41MjQ1NUMxNzQuMzExOSA0NS4xNDk1NyAxNzQuODExOSA0NC4yNzQ1NSAxNzQuODExOSA0My4wMjQ1NVYyNS4yNjIyOEMxNzQuODExOSAyNC4wMTIyOCAxNzUuMzExODkgMjMuMTM3MjcgMTc2LjA2MTkgMjIuNzYyMjhDMTc1LjMxMTg5IDIyLjM4NzMgMTc0LjgxMTkgMjEuNTEyMjggMTc0LjgxMTkgMjAuMjYyMjhWMi41QzE3NC44MTE5IDEuMjUgMTc0LjMxMTkgLjM3NDk4IDE3My41NjE5IDAnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoMTc3Ljg3ODA4LDE5LjU2MjI5KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgxMS42NzEyNzUsLTIwLjk3NjUxNClzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YyJyB4PScxMS42NzEyNzUnIHk9Jy0yMC45NzY1MTQnPkQ8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nMjEuMzkwNTg0JyB5PSctMTkuMTgzMjUxJz7igKI8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+Cjwvc3ZnPg==" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
             \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
       \usetikzlibrary{decorations.pathreplacing}
     ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
@@ -54,250 +54,215 @@
   </html:span>
 </fr:mainmatter>
   <fr:backmatter>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:anchor>1560</fr:anchor>
-        <fr:title text="References">References</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>1561</fr:anchor>
-        <fr:title text="Context">Context</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>1562</fr:anchor>
-        <fr:title text="Backlinks">Backlinks</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>1571</fr:anchor>
         <fr:title text="Related">Related</fr:title>
+        <fr:authors />
       </fr:frontmatter>
       <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
+            <fr:anchor>2766</fr:anchor>
+            <fr:addr type="user">hmlg-001H</fr:addr>
+            <fr:route>hmlg-001H.xml</fr:route>
+            <fr:title text="Characterization of chain reduction">Characterization of <fr:link type="local" href="hmlg-0017.xml" addr="hmlg-0017" title="Chain reduction">chain reduction</fr:link></fr:title>
+            <fr:taxon>Theorem</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>2</fr:month>
               <fr:day>27</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-001H.tree</fr:source-path>
-            <fr:anchor>1563</fr:anchor>
-            <fr:addr type="user">hmlg-001H</fr:addr>
-            <fr:route>hmlg-001H.xml</fr:route>
-            <fr:title text="Characterization of chain reduction">Characterization of <fr:link href="hmlg-0017.xml" title="Chain reduction" addr="hmlg-0017" type="local">chain reduction</fr:link></fr:title>
-            <fr:taxon>Theorem</fr:taxon>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>The following data are equivalent.</fr:p><fr:ul><fr:li>A <fr:link href="hmlg-0017.xml" title="Chain reduction" addr="hmlg-0017" type="local">chain reduction</fr:link> <fr:tex display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex>.</fr:li>
-  <fr:li>A splitting <fr:tex display="inline"><![CDATA[C \cong  D \oplus  E]]></fr:tex>, where <fr:tex display="inline"><![CDATA[E]]></fr:tex> is a <fr:link href="todo.xml" title="Unfinished trees" addr="todo" type="local">split exact</fr:link>.</fr:li>
-  <fr:li>A <fr:link href="hmlg-0016.xml" title="Chain homotopy" addr="hmlg-0016" type="local">chain homotopy</fr:link> <fr:tex display="inline"><![CDATA[h : C \to  C]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[h \mathbin {\circ } h = 0]]></fr:tex> and <fr:tex display="inline"><![CDATA[h \mathbin {\circ } d_C \mathbin {\circ } h = h]]></fr:tex>.</fr:li></fr:ul>
+          <fr:mainmatter><fr:p>The following data are equivalent.</fr:p><fr:ul><fr:li>A <fr:link type="local" href="hmlg-0017.xml" addr="hmlg-0017" title="Chain reduction">chain reduction</fr:link> <fr:tex display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex>.</fr:li>
+  <fr:li>A splitting <fr:tex display="inline"><![CDATA[C \cong  D \oplus  E]]></fr:tex>, where <fr:tex display="inline"><![CDATA[E]]></fr:tex> is a <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">split exact</fr:link>.</fr:li>
+  <fr:li>A <fr:link type="local" href="hmlg-0016.xml" addr="hmlg-0016" title="Chain homotopy">chain homotopy</fr:link> <fr:tex display="inline"><![CDATA[h : C \to  C]]></fr:tex> satisfying <fr:tex display="inline"><![CDATA[h \mathbin {\circ } h = 0]]></fr:tex> and <fr:tex display="inline"><![CDATA[h \mathbin {\circ } d_C \mathbin {\circ } h = h]]></fr:tex>.</fr:li></fr:ul>
   
     
-    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-001H.tree</fr:source-path><fr:anchor>1097</fr:anchor><fr:addr type="machine">unstable/447</fr:addr><fr:route>unstable-447.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
-  <fr:p>A chain reduction consists of maps <fr:tex display="inline"><![CDATA[C_k \mathrel {\smash {\xtofrom [g_k]{f_k}}} D_k]]></fr:tex> such that <fr:tex display="inline"><![CDATA[f_k \mathbin {\circ } g_k = \textrm {id}]]></fr:tex>. Therefore <fr:tex display="inline"><![CDATA[C_\bullet ]]></fr:tex> <fr:link href="todo.xml" title="Unfinished trees" addr="todo" type="local">splits</fr:link> as <fr:tex display="inline"><![CDATA[D_\bullet  \oplus  E_\bullet ]]></fr:tex>, and the boundary maps are preserved since <fr:tex display="inline"><![CDATA[f, g]]></fr:tex> are chain maps. We have a homotopy <fr:tex display="inline"><![CDATA[h_k : D_k \oplus  E_k \to  D_{k+1} \oplus  E_{k+1}]]></fr:tex>, which we may write as a <fr:tex display="inline"><![CDATA[(2 \times  2)]]></fr:tex>-matrix. <fr:tex display="inline"><![CDATA[f \mathbin {\circ } h = 0]]></fr:tex> demands the first row to be zero, and <fr:tex display="inline"><![CDATA[h \mathbin {\circ } g = 0]]></fr:tex> requires the first column to vanish. This leaves us with
-    <fr:tex display="block"><![CDATA[\begin {bmatrix}
-      0 & 0 \\
-      0 & r_k
-    \end {bmatrix}]]></fr:tex>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1735</fr:anchor><fr:addr type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>A chain reduction consists of maps <fr:tex display="inline"><![CDATA[C_k \mathrel {\smash {\xtofrom [g_k]{f_k}}} D_k]]></fr:tex> such that <fr:tex display="inline"><![CDATA[f_k \mathbin {\circ } g_k = \textrm {id}]]></fr:tex>. Therefore <fr:tex display="inline"><![CDATA[C_\bullet ]]></fr:tex> <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">splits</fr:link> as <fr:tex display="inline"><![CDATA[D_\bullet  \oplus  E_\bullet ]]></fr:tex>, and the boundary maps are preserved since <fr:tex display="inline"><![CDATA[f, g]]></fr:tex> are chain maps. We have a homotopy <fr:tex display="inline"><![CDATA[h_k : D_k \oplus  E_k \to  D_{k+1} \oplus  E_{k+1}]]></fr:tex>, which we may write as a <fr:tex display="inline"><![CDATA[(2 \times  2)]]></fr:tex>-matrix. <fr:tex display="inline"><![CDATA[f \mathbin {\circ } h = 0]]></fr:tex> demands the first row to be zero, and <fr:tex display="inline"><![CDATA[h \mathbin {\circ } g = 0]]></fr:tex> requires the first column to vanish. This leaves us with
+    <fr:tex display="block"><![CDATA[\begin {bmatrix}       0 & 0 \\       0 & r_k     \end {bmatrix}]]></fr:tex>
     such that <fr:tex display="inline"><![CDATA[r_{k+1} \mathbin {\circ } r_k = 0]]></fr:tex>, since <fr:tex display="inline"><![CDATA[h \mathbin {\circ } h = 0]]></fr:tex>.</fr:p>
 
-  <fr:p>Substituting the requirement that <fr:tex display="inline"><![CDATA[h]]></fr:tex> is a homotopy <fr:tex display="inline"><![CDATA[\textrm {id} \to  g \mathbin {\circ } f]]></fr:tex>, we get the equation <fr:tex display="block"><![CDATA[d_{k+1} \mathbin {\circ } r_k + r_{k-1} \mathbin {\circ } d_k = \textrm {id},]]></fr:tex> where <fr:tex display="inline"><![CDATA[d]]></fr:tex> is the boundary operator on <fr:tex display="inline"><![CDATA[E_\bullet ]]></fr:tex>. In other words, <fr:tex display="inline"><![CDATA[r]]></fr:tex> is a null-homotopy of <fr:tex display="inline"><![CDATA[E_\bullet ]]></fr:tex>, rendering it <fr:link href="todo.xml" title="Unfinished trees" addr="todo" type="local">split exact</fr:link>. Conversely, given <fr:tex display="inline"><![CDATA[C \cong  D \oplus  E]]></fr:tex>, we can reconstruct <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex> as the projection and inclusion maps, with <fr:tex display="inline"><![CDATA[h]]></fr:tex> obtained out of <fr:tex display="inline"><![CDATA[r]]></fr:tex> in the manner depicted above.</fr:p>
+  <fr:p>Substituting the requirement that <fr:tex display="inline"><![CDATA[h]]></fr:tex> is a homotopy <fr:tex display="inline"><![CDATA[\textrm {id} \to  g \mathbin {\circ } f]]></fr:tex>, we get the equation <fr:tex display="block"><![CDATA[d_{k+1} \mathbin {\circ } r_k + r_{k-1} \mathbin {\circ } d_k = \textrm {id},]]></fr:tex> where <fr:tex display="inline"><![CDATA[d]]></fr:tex> is the boundary operator on <fr:tex display="inline"><![CDATA[E_\bullet ]]></fr:tex>. In other words, <fr:tex display="inline"><![CDATA[r]]></fr:tex> is a null-homotopy of <fr:tex display="inline"><![CDATA[E_\bullet ]]></fr:tex>, rendering it <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">split exact</fr:link>. Conversely, given <fr:tex display="inline"><![CDATA[C \cong  D \oplus  E]]></fr:tex>, we can reconstruct <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex> as the projection and inclusion maps, with <fr:tex display="inline"><![CDATA[h]]></fr:tex> obtained out of <fr:tex display="inline"><![CDATA[r]]></fr:tex> in the manner depicted above.</fr:p>
 
   <fr:p>On the other hand, given only the homotopy operator, we expect to have <fr:tex display="inline"><![CDATA[d \mathbin {\circ } h + h \mathbin {\circ } d = \textrm {id} - g \mathbin {\circ } f]]></fr:tex>. And since <fr:tex display="inline"><![CDATA[g \mathbin {\circ } f]]></fr:tex> should be the projector of <fr:tex display="inline"><![CDATA[C]]></fr:tex> onto the subspace <fr:tex display="inline"><![CDATA[D]]></fr:tex>, <fr:tex display="inline"><![CDATA[\textrm {id} - g \mathbin {\circ } f]]></fr:tex> should be the projector onto <fr:tex display="inline"><![CDATA[E]]></fr:tex>. We are thus led to proving <fr:tex display="inline"><![CDATA[p = d \mathbin {\circ } h + h \mathbin {\circ } d]]></fr:tex> is indeed a projector.
-    <fr:tex display="block"><![CDATA[\begin {aligned}
-      p_k \mathbin {\circ } p_k &= (d_{k+1} \mathbin {\circ } h_k + h_{k-1} \mathbin {\circ } d_k) \mathbin {\circ } (d_{k+1} \mathbin {\circ } h_k + h_{k-1} \mathbin {\circ } d_k) \\
-      &= d_{k+1} \mathbin {\circ } \overbrace {h_k \mathbin {\circ } d_{k+1} \mathbin {\circ } h_k}^{h_k} + d_{k+1} \mathbin {\circ } \overbrace {h_k \mathbin {\circ } h_{k-1}}^{0} \mathbin {\circ } d_k \\
-      &\qquad  + h_{k-1} \mathbin {\circ } \underbrace {d_k \mathbin {\circ } d_{k+1}}_{0} \mathbin {\circ } h_k + \underbrace {h_{k-1} \mathbin {\circ } d_k \mathbin {\circ } h_{k-1}}_{h_{k-1}} \mathbin {\circ } d_k \\
-      &= d_{k+1} \mathbin {\circ } h_k + h_{k-1} \mathbin {\circ } d_k = p_k.
-    \end {aligned}]]></fr:tex>
+    <fr:tex display="block"><![CDATA[\begin {aligned}       p_k \mathbin {\circ } p_k &= (d_{k+1} \mathbin {\circ } h_k + h_{k-1} \mathbin {\circ } d_k) \mathbin {\circ } (d_{k+1} \mathbin {\circ } h_k + h_{k-1} \mathbin {\circ } d_k) \\       &= d_{k+1} \mathbin {\circ } \overbrace {h_k \mathbin {\circ } d_{k+1} \mathbin {\circ } h_k}^{h_k} + d_{k+1} \mathbin {\circ } \overbrace {h_k \mathbin {\circ } h_{k-1}}^{0} \mathbin {\circ } d_k \\       &\qquad  + h_{k-1} \mathbin {\circ } \underbrace {d_k \mathbin {\circ } d_{k+1}}_{0} \mathbin {\circ } h_k + \underbrace {h_{k-1} \mathbin {\circ } d_k \mathbin {\circ } h_{k-1}}_{h_{k-1}} \mathbin {\circ } d_k \\       &= d_{k+1} \mathbin {\circ } h_k + h_{k-1} \mathbin {\circ } d_k = p_k.     \end {aligned}]]></fr:tex>
     Therefore we conclude that <fr:tex display="inline"><![CDATA[p_k]]></fr:tex> splits <fr:tex display="inline"><![CDATA[C_k \cong  D_k \oplus  E_k]]></fr:tex>. More over, <fr:tex display="inline"><![CDATA[p \mathbin {\circ } d = d \mathbin {\circ } h \mathbin {\circ } d = d \mathbin {\circ } p]]></fr:tex>, meaning <fr:tex display="inline"><![CDATA[p]]></fr:tex> is a chain map, and therefore the splitting is compatible with the boundary operator. Since <fr:tex display="inline"><![CDATA[h \mathbin {\circ } p = p \mathbin {\circ } h = h \mathbin {\circ } d \mathbin {\circ } h = h]]></fr:tex>, the homotopy is also compatible with the splitting, so we can restrict it onto <fr:tex display="inline"><![CDATA[E_k]]></fr:tex> to get a homotopy from <fr:tex display="inline"><![CDATA[\textrm {id}_E]]></fr:tex> to <fr:tex display="inline"><![CDATA[0]]></fr:tex>.</fr:p>
 
   <fr:p>Finally, restricting <fr:tex display="inline"><![CDATA[h]]></fr:tex> onto <fr:tex display="inline"><![CDATA[D_k]]></fr:tex> we see that it must be zero, since <fr:tex display="inline"><![CDATA[h(\textrm {id} - p) = h - h \mathbin {\circ } d \mathbin {\circ } h = 0]]></fr:tex>. This means that all the information of <fr:tex display="inline"><![CDATA[h]]></fr:tex> can be reconstructed from the splitting, and thus all three sets of data are equivalent.</fr:p>
-</fr:mainmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
+            <fr:anchor>2768</fr:anchor>
+            <fr:addr type="user">hmlg-0017</fr:addr>
+            <fr:route>hmlg-0017.xml</fr:route>
+            <fr:title text="Chain reduction">Chain reduction</fr:title>
+            <fr:taxon>Definition</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>2</fr:month>
               <fr:day>21</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-0017.tree</fr:source-path>
-            <fr:anchor>1564</fr:anchor>
-            <fr:addr type="user">hmlg-0017</fr:addr>
-            <fr:route>hmlg-0017.xml</fr:route>
-            <fr:title text="Chain reduction">Chain reduction</fr:title>
-            <fr:taxon>Definition</fr:taxon>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>Given two chain complexes <fr:tex display="inline"><![CDATA[C, D]]></fr:tex>, a <fr:strong>chain reduction</fr:strong> consists of a chain map <fr:tex display="inline"><![CDATA[\pi  : C \to  D]]></fr:tex>, a chain map <fr:tex display="inline"><![CDATA[\iota  : D \to  C]]></fr:tex> and a <fr:link href="hmlg-0016.xml" title="Chain homotopy" addr="hmlg-0016" type="local">chain homotopy</fr:link> <fr:tex display="inline"><![CDATA[h : \textrm {id} \to  g \mathbin {\circ } f]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[\pi  \mathbin {\circ } \iota  = \textrm {id}]]></fr:tex>, and <fr:tex display="block"><![CDATA[\pi  \mathbin {\circ } h = h \mathbin {\circ } \iota  = h \mathbin {\circ } h = 0.]]></fr:tex> Here the compositions are understood to have the appropriate subscript so the degrees match.</fr:p>
+            <fr:p>Given two chain complexes <fr:tex display="inline"><![CDATA[C, D]]></fr:tex>, a <fr:strong>chain reduction</fr:strong> consists of a chain map <fr:tex display="inline"><![CDATA[\pi  : C \to  D]]></fr:tex>, a chain map <fr:tex display="inline"><![CDATA[\iota  : D \to  C]]></fr:tex> and a <fr:link type="local" href="hmlg-0016.xml" addr="hmlg-0016" title="Chain homotopy">chain homotopy</fr:link> <fr:tex display="inline"><![CDATA[h : \textrm {id} \to  g \mathbin {\circ } f]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[\pi  \mathbin {\circ } \iota  = \textrm {id}]]></fr:tex>, and <fr:tex display="block"><![CDATA[\pi  \mathbin {\circ } h = h \mathbin {\circ } \iota  = h \mathbin {\circ } h = 0.]]></fr:tex> Here the compositions are understood to have the appropriate subscript so the degrees match.</fr:p>
             <fr:p>We write the reduction as <fr:tex display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex>. The three components are denoted <fr:tex display="inline"><![CDATA[\pi _{\rho } : C \to  D]]></fr:tex>, <fr:tex display="inline"><![CDATA[\iota _{\rho } : D \to  C]]></fr:tex> and <fr:tex display="inline"><![CDATA[h_{\rho } : C \to  C]]></fr:tex>, respectively.</fr:p>
           </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors />
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/todo.tree</fr:source-path>
-            <fr:anchor>1570</fr:anchor>
+            <fr:anchor>2770</fr:anchor>
             <fr:addr type="user">todo</fr:addr>
             <fr:route>todo.xml</fr:route>
             <fr:title text="Unfinished trees">Unfinished trees</fr:title>
             <fr:taxon>Meta</fr:taxon>
+            <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</fr:p>
-            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+            <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-                  </fr:author>
-                </fr:authors>
+                <fr:anchor>1848</fr:anchor>
+                <fr:addr type="user">hmlg-002F</fr:addr>
+                <fr:route>hmlg-002F.xml</fr:route>
+                <fr:title text="Twisted tensor product">Twisted tensor product</fr:title>
+                <fr:taxon>Definition</fr:taxon>
                 <fr:date>
                   <fr:year>2024</fr:year>
                   <fr:month>5</fr:month>
                   <fr:day>4</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-002F.tree</fr:source-path>
-                <fr:anchor>1565</fr:anchor>
-                <fr:addr type="user">hmlg-002F</fr:addr>
-                <fr:route>hmlg-002F.xml</fr:route>
-                <fr:title text="Twisted tensor product">Twisted tensor product</fr:title>
-                <fr:taxon>Definition</fr:taxon>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
               </fr:frontmatter>
               <fr:mainmatter>
                 <fr:p>(...)</fr:p>
               </fr:mainmatter>
+              <fr:backmatter />
             </fr:tree>
-            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+            <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-                  </fr:author>
-                </fr:authors>
+                <fr:anchor>1850</fr:anchor>
+                <fr:addr type="user">hmlg-002D</fr:addr>
+                <fr:route>hmlg-002D.xml</fr:route>
+                <fr:title text="Associated twisted product">Associated twisted product</fr:title>
+                <fr:taxon>Construction</fr:taxon>
                 <fr:date>
                   <fr:year>2024</fr:year>
                   <fr:month>5</fr:month>
                   <fr:day>3</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-002D.tree</fr:source-path>
-                <fr:anchor>1566</fr:anchor>
-                <fr:addr type="user">hmlg-002D</fr:addr>
-                <fr:route>hmlg-002D.xml</fr:route>
-                <fr:title text="Associated twisted product">Associated twisted product</fr:title>
-                <fr:taxon>Construction</fr:taxon>
-              </fr:frontmatter>
-              <fr:mainmatter>
-                <fr:p>The <fr:link href="hmlg-002C.xml" title="Associated simplicial fiber bundle" addr="hmlg-002C" type="local">associated simplicial fiber bundle</fr:link> of <fr:link href="hmlg-002B.xml" title="Twisted product of simplicial sets" addr="hmlg-002B" type="local">twisted products</fr:link> admits a simpler description. Suppose we have simplicial sets <fr:tex display="inline"><![CDATA[F, B]]></fr:tex>, a simplicial group <fr:tex display="inline"><![CDATA[G]]></fr:tex> with an action <fr:tex display="inline"><![CDATA[G \times  F \to  F]]></fr:tex> and a <fr:link href="hmlg-002A.xml" title="Twisting function" addr="hmlg-002A" type="local">twisting function</fr:link> <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> on <fr:tex display="inline"><![CDATA[B]]></fr:tex>. The <fr:strong>associated twisted product</fr:strong> <fr:tex display="inline"><![CDATA[B \times _\tau  F]]></fr:tex> is defined exactly the same as twisted products, except we replace the factor <fr:tex display="inline"><![CDATA[G]]></fr:tex> with <fr:tex display="inline"><![CDATA[F]]></fr:tex>. This still makes sense, because we can interpret the multiplication <fr:tex display="inline"><![CDATA[\tau (b) \cdot  \partial _n f]]></fr:tex> as the <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action.</fr:p>
-                <fr:p>In particular, if we consider <fr:tex display="inline"><![CDATA[G]]></fr:tex> as a simplicial set with a <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action on the left via multiplication, then the associated twisted product <fr:tex display="inline"><![CDATA[B \times _\tau  G]]></fr:tex> is exactly the same as the twisted product <fr:tex display="inline"><![CDATA[B \times _\tau  G]]></fr:tex>, which explains our identical notation.</fr:p>
-              </fr:mainmatter>
-            </fr:tree>
-            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
-              <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
                   </fr:author>
                 </fr:authors>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>The <fr:link type="local" href="hmlg-002C.xml" addr="hmlg-002C" title="Associated simplicial fiber bundle">associated simplicial fiber bundle</fr:link> of <fr:link type="local" href="hmlg-002B.xml" addr="hmlg-002B" title="Twisted product of simplicial sets">twisted products</fr:link> admits a simpler description. Suppose we have simplicial sets <fr:tex display="inline"><![CDATA[F, B]]></fr:tex>, a simplicial group <fr:tex display="inline"><![CDATA[G]]></fr:tex> with an action <fr:tex display="inline"><![CDATA[G \times  F \to  F]]></fr:tex> and a <fr:link type="local" href="hmlg-002A.xml" addr="hmlg-002A" title="Twisting function">twisting function</fr:link> <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> on <fr:tex display="inline"><![CDATA[B]]></fr:tex>. The <fr:strong>associated twisted product</fr:strong> <fr:tex display="inline"><![CDATA[B \times _\tau  F]]></fr:tex> is defined exactly the same as twisted products, except we replace the factor <fr:tex display="inline"><![CDATA[G]]></fr:tex> with <fr:tex display="inline"><![CDATA[F]]></fr:tex>. This still makes sense, because we can interpret the multiplication <fr:tex display="inline"><![CDATA[\tau (b) \cdot  \partial _n f]]></fr:tex> as the <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action.</fr:p>
+                <fr:p>In particular, if we consider <fr:tex display="inline"><![CDATA[G]]></fr:tex> as a simplicial set with a <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action on the left via multiplication, then the associated twisted product <fr:tex display="inline"><![CDATA[B \times _\tau  G]]></fr:tex> is exactly the same as the twisted product <fr:tex display="inline"><![CDATA[B \times _\tau  G]]></fr:tex>, which explains our identical notation.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>1852</fr:anchor>
+                <fr:addr type="user">hmlg-001M</fr:addr>
+                <fr:route>hmlg-001M.xml</fr:route>
+                <fr:title text="Chain reduction of mapping cones">Chain reduction of mapping cones</fr:title>
+                <fr:taxon>Construction</fr:taxon>
                 <fr:date>
                   <fr:year>2024</fr:year>
                   <fr:month>3</fr:month>
                   <fr:day>18</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-001M.tree</fr:source-path>
-                <fr:anchor>1567</fr:anchor>
-                <fr:addr type="user">hmlg-001M</fr:addr>
-                <fr:route>hmlg-001M.xml</fr:route>
-                <fr:title text="Chain reduction of mapping cones">Chain reduction of mapping cones</fr:title>
-                <fr:taxon>Construction</fr:taxon>
-              </fr:frontmatter>
-              <fr:mainmatter>
-                <fr:p>Given a pair of <fr:link href="hmlg-0017.xml" title="Chain reduction" addr="hmlg-0017" type="local">chain reductions</fr:link> <fr:tex display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex> and <fr:tex display="inline"><![CDATA[\rho ' : C' \Rightarrow \mkern {-14mu}\Rightarrow  D']]></fr:tex>, we can construct a reduction from the mapping cone <fr:tex display="inline"><![CDATA[\operatorname {Cone}(f)]]></fr:tex> of a chain map <fr:tex display="inline"><![CDATA[f : C \to  C']]></fr:tex> to (the action of <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> on <fr:tex display="inline"><![CDATA[f]]></fr:tex>).</fr:p>
-              </fr:mainmatter>
-            </fr:tree>
-            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
-              <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
                   </fr:author>
                 </fr:authors>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Given a pair of <fr:link type="local" href="hmlg-0017.xml" addr="hmlg-0017" title="Chain reduction">chain reductions</fr:link> <fr:tex display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex> and <fr:tex display="inline"><![CDATA[\rho ' : C' \Rightarrow \mkern {-14mu}\Rightarrow  D']]></fr:tex>, we can construct a reduction from the mapping cone <fr:tex display="inline"><![CDATA[\operatorname {Cone}(f)]]></fr:tex> of a chain map <fr:tex display="inline"><![CDATA[f : C \to  C']]></fr:tex> to (the action of <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> on <fr:tex display="inline"><![CDATA[f]]></fr:tex>).</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>1854</fr:anchor>
+                <fr:addr type="user">hmlg-001K</fr:addr>
+                <fr:route>hmlg-001K.xml</fr:route>
+                <fr:title text="Effective homology">Effective homology</fr:title>
                 <fr:date>
                   <fr:year>2024</fr:year>
                   <fr:month>3</fr:month>
                   <fr:day>1</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-001K.tree</fr:source-path>
-                <fr:anchor>1568</fr:anchor>
-                <fr:addr type="user">hmlg-001K</fr:addr>
-                <fr:route>hmlg-001K.xml</fr:route>
-                <fr:title text="Effective homology">Effective homology</fr:title>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
               </fr:frontmatter>
               <fr:mainmatter>
-                <fr:p>This is a set of notes on effective homology and algebraic topology. Main references are <fr:link href="constructive-homological-algebra.xml" title="Constructive Homological Algebra and Applications" addr="constructive-homological-algebra" type="local">Constructive Homological Algebra and Applications</fr:link> and <fr:link href="discrete-vector-fields.xml" title="Discrete Vector Fields and Fundamental Algebraic Topology" addr="discrete-vector-fields" type="local">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. We assume basic familiarity with the classical aspects of the theory, although there will also be links within this forest to the relevant concepts.</fr:p>
-                <fr:ul><fr:li><fr:link href="hmlg-0021.xml" title="W-bar construction" addr="hmlg-0021" type="local">W-bar construction</fr:link>, simplicial principal bundles, twisted products by <fr:link href="simplicial-objects.xml" title="Simplicial objects in algebraic topology" addr="simplicial-objects" type="local">Simplicial objects in algebraic topology</fr:link></fr:li>
+                <fr:p>This is a set of notes on effective homology and algebraic topology. Main references are <fr:link type="local" href="constructive-homological-algebra.xml" addr="constructive-homological-algebra" title="Constructive Homological Algebra and Applications">Constructive Homological Algebra and Applications</fr:link> and <fr:link type="local" href="discrete-vector-fields.xml" addr="discrete-vector-fields" title="Discrete Vector Fields and Fundamental Algebraic Topology">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. We assume basic familiarity with the classical aspects of the theory, although there will also be links within this forest to the relevant concepts.</fr:p>
+                <fr:ul><fr:li><fr:link type="local" href="hmlg-0021.xml" addr="hmlg-0021" title="W-bar construction">W-bar construction</fr:link>, simplicial principal bundles, twisted products by <fr:link type="local" href="simplicial-objects.xml" addr="simplicial-objects" title="Simplicial objects in algebraic topology">Simplicial objects in algebraic topology</fr:link></fr:li>
   <fr:li>classifying space, loop space</fr:li>
-  <fr:li>composition of <fr:link href="hmlg-001I.xml" title="Strong homology equivalence" addr="hmlg-001I" type="local">strong homology equivalence</fr:link>, tensor product, cone, bicomplex</fr:li>
+  <fr:li>composition of <fr:link type="local" href="hmlg-001I.xml" addr="hmlg-001I" title="Strong homology equivalence">strong homology equivalence</fr:link>, tensor product, cone, bicomplex</fr:li>
   <fr:li>simplicial group, Kan complex</fr:li>
   <fr:li>organize into notes</fr:li></fr:ul>
               </fr:mainmatter>
+              <fr:backmatter />
             </fr:tree>
-            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+            <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-                  </fr:author>
-                </fr:authors>
+                <fr:anchor>1856</fr:anchor>
+                <fr:addr type="user">hmlg-000F</fr:addr>
+                <fr:route>hmlg-000F.xml</fr:route>
+                <fr:title text="Freyd–Mitchell embedding theorem">Freyd–Mitchell embedding theorem</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
                 <fr:date>
                   <fr:year>2024</fr:year>
                   <fr:month>2</fr:month>
                   <fr:day>18</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-000F.tree</fr:source-path>
-                <fr:anchor>1569</fr:anchor>
-                <fr:addr type="user">hmlg-000F</fr:addr>
-                <fr:route>hmlg-000F.xml</fr:route>
-                <fr:title text="Freyd–Mitchell embedding theorem">Freyd–Mitchell embedding theorem</fr:title>
-                <fr:taxon>Theorem</fr:taxon>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
               </fr:frontmatter>
               <fr:mainmatter><fr:p>Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex display="inline"><![CDATA[R]]></fr:tex>-modules for some ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
   
     
-    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-000F.tree</fr:source-path><fr:anchor>567</fr:anchor><fr:addr type="machine">unstable/460</fr:addr><fr:route>unstable-460.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter><fr:p>(TODO)</fr:p></fr:mainmatter></fr:tree>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1858</fr:anchor><fr:addr type="machine">#268</fr:addr><fr:route>unstable-268.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(TODO)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
+              <fr:backmatter />
             </fr:tree>
           </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>1572</fr:anchor>
-        <fr:title text="Contributions">Contributions</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:backmatter />
     </fr:tree>
   </fr:backmatter>
 </fr:tree>

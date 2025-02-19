@@ -1,282 +1,266 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:authors>
-      <fr:author>
-        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-      </fr:author>
-    </fr:authors>
+    <fr:anchor>2202</fr:anchor>
+    <fr:addr type="user">algm-000Y</fr:addr>
+    <fr:route>algm-000Y.xml</fr:route>
+    <fr:title text="Projective spectrum of a graded ring">Projective spectrum of a graded ring</fr:title>
+    <fr:taxon>Definition</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
       <fr:month>3</fr:month>
       <fr:day>12</fr:day>
     </fr:date>
-    <fr:anchor>2764</fr:anchor>
-    <fr:addr type="user">algm-000Y</fr:addr>
-    <fr:route>algm-000Y.xml</fr:route>
-    <fr:title text="Projective spectrum of a graded ring">Projective spectrum of a graded ring</fr:title>
-    <fr:taxon>Definition</fr:taxon>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Given a <fr:tex display="inline"><![CDATA[\mathbb  N]]></fr:tex>-graded ring <fr:tex display="inline"><![CDATA[S_\bullet ]]></fr:tex>, we construct a locale analogous to <fr:link href="algm-0007.xml" title="Localic spectrum of a commutative ring" addr="algm-0007" type="local">the <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> construction</fr:link> for affine schemes. We start with symbols of <fr:strong>distinguished opens</fr:strong> <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> for each positively graded element <fr:tex display="inline"><![CDATA[f]]></fr:tex>, and impose the same relations: <fr:tex display="inline"><![CDATA[D_+]]></fr:tex> sends finite products to finite intersections, and for elements of the same grade, <fr:tex display="inline"><![CDATA[D_+ (\sum _i f_i) \subseteq  \bigcup _i D_+(f_i)]]></fr:tex>.</fr:p>
+    <fr:p>Given a <fr:tex display="inline"><![CDATA[\mathbb  N]]></fr:tex>-graded ring <fr:tex display="inline"><![CDATA[S_\bullet ]]></fr:tex>, we construct a locale analogous to <fr:link type="local" href="algm-0007.xml" addr="algm-0007" title="Localic spectrum of a commutative ring">the <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> construction</fr:link> for affine schemes. We start with symbols of <fr:strong>distinguished opens</fr:strong> <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> for each positively graded element <fr:tex display="inline"><![CDATA[f]]></fr:tex>, and impose the same relations: <fr:tex display="inline"><![CDATA[D_+]]></fr:tex> sends finite products to finite intersections, and for elements of the same grade, <fr:tex display="inline"><![CDATA[D_+ (\sum _i f_i) \subseteq  \bigcup _i D_+(f_i)]]></fr:tex>.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:anchor>2754</fr:anchor>
-        <fr:title text="References">References</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2756</fr:anchor>
         <fr:title text="Context">Context</fr:title>
+        <fr:authors />
       </fr:frontmatter>
       <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
+            <fr:anchor>2204</fr:anchor>
+            <fr:addr type="user">algm-000Z</fr:addr>
+            <fr:route>algm-000Z.xml</fr:route>
+            <fr:title text="Geometry of graded rings">Geometry of graded rings</fr:title>
+            <fr:taxon>Intuition</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>3</fr:month>
               <fr:day>12</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-000Z.tree</fr:source-path>
-            <fr:anchor>2755</fr:anchor>
-            <fr:addr type="user">algm-000Z</fr:addr>
-            <fr:route>algm-000Z.xml</fr:route>
-            <fr:title text="Geometry of graded rings">Geometry of graded rings</fr:title>
-            <fr:taxon>Intuition</fr:taxon>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>To define projective spaces, we start with an affine space, and restricts ourselves to regions invariant under dilation — or using the language of points, we consider lines through the origin as points. Hence we need to define how an element of a ring (which is geometrically a function on the affine space) behaves under dilation.</fr:p>
             <fr:p>In polynomial rings, for example, the polynomial <fr:tex display="inline"><![CDATA[x^2 + 2y + 7]]></fr:tex> becomes <fr:tex display="inline"><![CDATA[\lambda ^2 x^2 + 2 \lambda  y + 7]]></fr:tex> under a dilation by <fr:tex display="inline"><![CDATA[\lambda ]]></fr:tex>. Note how each term can be classified by the power of <fr:tex display="inline"><![CDATA[\lambda ]]></fr:tex> it obtains. Hence, what we need is a <fr:strong>grading</fr:strong> on the ring, which partitions <fr:tex display="inline"><![CDATA[R = \bigoplus _d R_d]]></fr:tex> (as abelian groups). <fr:tex display="inline"><![CDATA[R_d]]></fr:tex> is intuitively the elements that get the factor <fr:tex display="inline"><![CDATA[\lambda ^d]]></fr:tex> upon dilation. The multiplication of a degree <fr:tex display="inline"><![CDATA[p]]></fr:tex> element with a degree <fr:tex display="inline"><![CDATA[q]]></fr:tex> element should produce a degree <fr:tex display="inline"><![CDATA[(p+q)]]></fr:tex> element, since <fr:tex display="inline"><![CDATA[\lambda ^p \lambda ^q = \lambda ^{p+q}]]></fr:tex>.</fr:p>
-            <fr:tree show-metadata="false">
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-                  </fr:author>
-                </fr:authors>
+                <fr:anchor>2166</fr:anchor>
+                <fr:addr type="user">hmlg-001L</fr:addr>
+                <fr:route>hmlg-001L.xml</fr:route>
+                <fr:title text="Graded ring">Graded ring</fr:title>
+                <fr:taxon>Definition</fr:taxon>
                 <fr:date>
                   <fr:year>2024</fr:year>
                   <fr:month>3</fr:month>
                   <fr:day>12</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-001L.tree</fr:source-path>
-                <fr:anchor>803</fr:anchor>
-                <fr:addr type="user">hmlg-001L</fr:addr>
-                <fr:route>hmlg-001L.xml</fr:route>
-                <fr:title text="Graded ring">Graded ring</fr:title>
-                <fr:taxon>Definition</fr:taxon>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
               </fr:frontmatter>
               <fr:mainmatter>
                 <fr:p>A D-<fr:strong>graded ring</fr:strong> is a sequence of abelian groups <fr:tex display="inline"><![CDATA[R_d]]></fr:tex>, where <fr:tex display="inline"><![CDATA[d \in  D]]></fr:tex> are elements of a commutative monoid called the <fr:strong>grading</fr:strong>. We have a bilinear multiplication map <fr:tex display="block"><![CDATA[R_p \otimes  R_q \to  R_{p+q}]]></fr:tex> and a identity element <fr:tex display="inline"><![CDATA[1 \in  R_0]]></fr:tex> satisfying the associativity and identity laws.</fr:p>
                 <fr:p>Usually, the grading is one of <fr:tex display="inline"><![CDATA[\mathbb  Z]]></fr:tex> or <fr:tex display="inline"><![CDATA[\mathbb  N]]></fr:tex>. A <fr:strong>bigraded ring</fr:strong> is graded over <fr:tex display="inline"><![CDATA[D^2]]></fr:tex> instead of <fr:tex display="inline"><![CDATA[D]]></fr:tex>, whatever the context implies the grading is.</fr:p>
               </fr:mainmatter>
+              <fr:backmatter />
             </fr:tree>
-            <fr:p>The opens of a projective space should come from the non-vanishing region of a homogeneous function, i.e. elements with a single degree. This ensures that dilation doesn’t change the opens. However, we would have multiple ways to represent the entire space: in a two-dimensional affine space, <fr:tex display="inline"><![CDATA[D(x) \cup  D(y)]]></fr:tex> and <fr:tex display="inline"><![CDATA[D(1)]]></fr:tex> are both invariant under dilation, but the former excludes the origin, while the latter does not. In a projective setting, we don’t care about the origin at all, and considering that all homogeneous polynomials of positive degree vanish at the origin, we should make that mandatory. Hence, we only consider the opens corresponding to positively graded elements, which we write as <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex>. We can construct a space similar to the <fr:link href="algm-0007.xml" title="Localic spectrum of a commutative ring" addr="algm-0007" type="local">localic spectrum of a commutative ring</fr:link>.</fr:p>
-            <fr:tree show-metadata="false">
+            <fr:p>The opens of a projective space should come from the non-vanishing region of a homogeneous function, i.e. elements with a single degree. This ensures that dilation doesn’t change the opens. However, we would have multiple ways to represent the entire space: in a two-dimensional affine space, <fr:tex display="inline"><![CDATA[D(x) \cup  D(y)]]></fr:tex> and <fr:tex display="inline"><![CDATA[D(1)]]></fr:tex> are both invariant under dilation, but the former excludes the origin, while the latter does not. In a projective setting, we don’t care about the origin at all, and considering that all homogeneous polynomials of positive degree vanish at the origin, we should make that mandatory. Hence, we only consider the opens corresponding to positively graded elements, which we write as <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex>. We can construct a space similar to the <fr:link type="local" href="algm-0007.xml" addr="algm-0007" title="Localic spectrum of a commutative ring">localic spectrum of a commutative ring</fr:link>.</fr:p>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-                  </fr:author>
-                </fr:authors>
-                <fr:date>
-                  <fr:year>2024</fr:year>
-                  <fr:month>3</fr:month>
-                  <fr:day>12</fr:day>
-                </fr:date>
-                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-000Y.tree</fr:source-path>
-                <fr:anchor>804</fr:anchor>
+                <fr:anchor>2168</fr:anchor>
                 <fr:addr type="user">algm-000Y</fr:addr>
                 <fr:route>algm-000Y.xml</fr:route>
                 <fr:title text="Projective spectrum of a graded ring">Projective spectrum of a graded ring</fr:title>
                 <fr:taxon>Definition</fr:taxon>
-              </fr:frontmatter>
-              <fr:mainmatter>
-                <fr:p>Given a <fr:tex display="inline"><![CDATA[\mathbb  N]]></fr:tex>-graded ring <fr:tex display="inline"><![CDATA[S_\bullet ]]></fr:tex>, we construct a locale analogous to <fr:link href="algm-0007.xml" title="Localic spectrum of a commutative ring" addr="algm-0007" type="local">the <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> construction</fr:link> for affine schemes. We start with symbols of <fr:strong>distinguished opens</fr:strong> <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> for each positively graded element <fr:tex display="inline"><![CDATA[f]]></fr:tex>, and impose the same relations: <fr:tex display="inline"><![CDATA[D_+]]></fr:tex> sends finite products to finite intersections, and for elements of the same grade, <fr:tex display="inline"><![CDATA[D_+ (\sum _i f_i) \subseteq  \bigcup _i D_+(f_i)]]></fr:tex>.</fr:p>
-              </fr:mainmatter>
-            </fr:tree>
-            <fr:p>As for the structure sheaf, we need to decide what the sections over <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> are. They should be functions defined on the affine space <fr:tex display="inline"><![CDATA[D(f) \subseteq  \operatorname {Spec}(S)]]></fr:tex>, but invariant under dilation. Note that it is stronger than requiring vanishing region be invariant. We actually need the grade <fr:tex display="inline"><![CDATA[0]]></fr:tex> elements here. Recalling from <fr:link href="algm-000I.xml" title="Structure sheaf of a ring spectrum" addr="algm-000I" type="local">structure sheaf of a ring spectrum</fr:link> that <fr:tex display="inline"><![CDATA[\Gamma (D(f), \mathscr {O}_{\operatorname {Spec}(S)}) = S[f^{-1}]]]></fr:tex> (which can be given a canonical grading since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a graded element), we can make the following definition.</fr:p>
-            <fr:tree show-metadata="false">
-              <fr:frontmatter>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-                  </fr:author>
-                </fr:authors>
                 <fr:date>
                   <fr:year>2024</fr:year>
                   <fr:month>3</fr:month>
                   <fr:day>12</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0010.tree</fr:source-path>
-                <fr:anchor>806</fr:anchor>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Given a <fr:tex display="inline"><![CDATA[\mathbb  N]]></fr:tex>-graded ring <fr:tex display="inline"><![CDATA[S_\bullet ]]></fr:tex>, we construct a locale analogous to <fr:link type="local" href="algm-0007.xml" addr="algm-0007" title="Localic spectrum of a commutative ring">the <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> construction</fr:link> for affine schemes. We start with symbols of <fr:strong>distinguished opens</fr:strong> <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> for each positively graded element <fr:tex display="inline"><![CDATA[f]]></fr:tex>, and impose the same relations: <fr:tex display="inline"><![CDATA[D_+]]></fr:tex> sends finite products to finite intersections, and for elements of the same grade, <fr:tex display="inline"><![CDATA[D_+ (\sum _i f_i) \subseteq  \bigcup _i D_+(f_i)]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>As for the structure sheaf, we need to decide what the sections over <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> are. They should be functions defined on the affine space <fr:tex display="inline"><![CDATA[D(f) \subseteq  \operatorname {Spec}(S)]]></fr:tex>, but invariant under dilation. Note that it is stronger than requiring vanishing region be invariant. We actually need the grade <fr:tex display="inline"><![CDATA[0]]></fr:tex> elements here. Recalling from <fr:link type="local" href="algm-000I.xml" addr="algm-000I" title="Structure sheaf of a ring spectrum">structure sheaf of a ring spectrum</fr:link> that <fr:tex display="inline"><![CDATA[\Gamma (D(f), \mathscr {O}_{\operatorname {Spec}(S)}) = S[f^{-1}]]]></fr:tex> (which can be given a canonical grading since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a graded element), we can make the following definition.</fr:p>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>2170</fr:anchor>
                 <fr:addr type="user">algm-0010</fr:addr>
                 <fr:route>algm-0010.xml</fr:route>
-                <fr:title text="Structure sheaf of \operatorname{Proj}(S)">Structure sheaf of <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex></fr:title>
+                <fr:title text="Structure sheaf of {Proj}(S)">Structure sheaf of <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex></fr:title>
                 <fr:taxon>Definition</fr:taxon>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
               </fr:frontmatter>
-              <fr:mainmatter><fr:p>Fix a <fr:link href="hmlg-001L.xml" title="Graded ring" addr="hmlg-001L" type="local">graded ring</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex>. For a positively graded element <fr:tex display="inline"><![CDATA[f]]></fr:tex>, we have a graded ring localization <fr:tex display="inline"><![CDATA[S[f^{-1}]_\bullet ]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\Gamma (D_+(f), \mathscr {O})]]></fr:tex> be the zeroth degree component <fr:tex display="inline"><![CDATA[S[f^{-1}]_0]]></fr:tex>. This defines a sheaf over the <fr:link href="algm-000Y.xml" title="Projective spectrum of a graded ring" addr="algm-000Y" type="local">projective spectrum</fr:link>, and moreover gives a <fr:link href="algm-000R.xml" title="Scheme" addr="algm-000R" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex>.</fr:p>
+              <fr:mainmatter><fr:p>Fix a <fr:link type="local" href="hmlg-001L.xml" addr="hmlg-001L" title="Graded ring">graded ring</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex>. For a positively graded element <fr:tex display="inline"><![CDATA[f]]></fr:tex>, we have a graded ring localization <fr:tex display="inline"><![CDATA[S[f^{-1}]_\bullet ]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\Gamma (D_+(f), \mathscr {O})]]></fr:tex> be the zeroth degree component <fr:tex display="inline"><![CDATA[S[f^{-1}]_0]]></fr:tex>. This defines a sheaf over the <fr:link type="local" href="algm-000Y.xml" addr="algm-000Y" title="Projective spectrum of a graded ring">projective spectrum</fr:link>, and moreover gives a <fr:link type="local" href="algm-000R.xml" addr="algm-000R" title="Scheme">scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex>.</fr:p>
   
     
-    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0010.tree</fr:source-path><fr:anchor>805</fr:anchor><fr:addr type="machine">unstable/452</fr:addr><fr:route>unstable-452.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2144</fr:anchor><fr:addr type="machine">#288</fr:addr><fr:route>unstable-288.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We claim that <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> can alternatively be given by gluing affine schemes. We assign <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> the affine scheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> (which is possible because the open subspace <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> is homeomorphic to <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> as a space). Given two positively graded elements <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex>, we have an isomorphism between <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> restricted to <fr:tex display="inline"><![CDATA[D_+ (f g)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> restricted to <fr:tex display="inline"><![CDATA[D(g^{\deg  f}/f^{\deg  g})]]></fr:tex>, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.</fr:p>
-</fr:mainmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
+              <fr:backmatter />
             </fr:tree>
           </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
+      <fr:backmatter />
     </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:anchor>2760</fr:anchor>
         <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
       </fr:frontmatter>
       <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
-            <fr:date>
-              <fr:year>2024</fr:year>
-              <fr:month>3</fr:month>
-              <fr:day>12</fr:day>
-            </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0011.tree</fr:source-path>
-            <fr:anchor>2757</fr:anchor>
+            <fr:anchor>2206</fr:anchor>
             <fr:addr type="user">algm-0011</fr:addr>
             <fr:route>algm-0011.xml</fr:route>
-            <fr:title text="Characterization of the locale \operatorname{Proj}(S)">Characterization of the locale <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex></fr:title>
+            <fr:title text="Characterization of the locale {Proj}(S)">Characterization of the locale <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex></fr:title>
             <fr:taxon>Theorem</fr:taxon>
-          </fr:frontmatter>
-          <fr:mainmatter>
-            <fr:p>The opens of the <fr:link href="algm-000Y.xml" title="Projective spectrum of a graded ring" addr="algm-000Y" type="local">projective spectrum</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> are in bijection with graded radical ideals with <fr:tex display="inline"><![CDATA[\mathfrak {r}_0 = 0]]></fr:tex>. Hence we write <fr:tex display="inline"><![CDATA[D_+ (\mathfrak {r})]]></fr:tex> for this open. The proof is exactly the same as <fr:link href="algm-0008.xml" title="Characterization of the locale \operatorname{Spec}(R)" addr="algm-0008" type="local">Theorem <fr:contextual-number addr="algm-0008" /></fr:link>.</fr:p>
-          </fr:mainmatter>
-        </fr:tree>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
-          <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>3</fr:month>
               <fr:day>12</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0012.tree</fr:source-path>
-            <fr:anchor>2758</fr:anchor>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>The opens of the <fr:link type="local" href="algm-000Y.xml" addr="algm-000Y" title="Projective spectrum of a graded ring">projective spectrum</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> are in bijection with graded radical ideals with <fr:tex display="inline"><![CDATA[\mathfrak {r}_0 = 0]]></fr:tex>. Hence we write <fr:tex display="inline"><![CDATA[D_+ (\mathfrak {r})]]></fr:tex> for this open. The proof is exactly the same as <fr:ref addr="algm-0008" href="algm-0008.xml" taxon="Theorem" />.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2208</fr:anchor>
             <fr:addr type="user">algm-0012</fr:addr>
             <fr:route>algm-0012.xml</fr:route>
             <fr:title text="Points of the projective spectrum">Points of the projective spectrum</fr:title>
             <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>The points of the <fr:link href="algm-000Y.xml" title="Projective spectrum of a graded ring" addr="algm-000Y" type="local">projective scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> are given by prime ideals not dividing the <fr:link href="algm-0013.xml" title="Irrelevant ideal" addr="algm-0013" type="local">irrelevant ideal</fr:link> <fr:tex display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. This is in bijection with ideals with <fr:tex display="inline"><![CDATA[\mathfrak {p}_0 = 0]]></fr:tex> (equivalently <fr:tex display="inline"><![CDATA[\mathord {\odot } \nmid  \mathfrak {p}]]></fr:tex>), and the condition for prime ideals holds for positively graded elements, i.e. <fr:tex display="block"><![CDATA[\mathfrak {p} \mid  x y \iff  (\mathfrak {p} \mid  x \lor  \mathfrak {p} \mid  y)]]></fr:tex> for positively graded <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex>.</fr:p>
+          <fr:mainmatter><fr:p>The points of the <fr:link type="local" href="algm-000Y.xml" addr="algm-000Y" title="Projective spectrum of a graded ring">projective scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> are given by prime ideals not dividing the <fr:link type="local" href="algm-0013.xml" addr="algm-0013" title="Irrelevant ideal">irrelevant ideal</fr:link> <fr:tex display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. This is in bijection with ideals with <fr:tex display="inline"><![CDATA[\mathfrak {p}_0 = 0]]></fr:tex> (equivalently <fr:tex display="inline"><![CDATA[\mathord {\odot } \nmid  \mathfrak {p}]]></fr:tex>), and the condition for prime ideals holds for positively graded elements, i.e. <fr:tex display="block"><![CDATA[\mathfrak {p} \mid  x y \iff  (\mathfrak {p} \mid  x \lor  \mathfrak {p} \mid  y)]]></fr:tex> for positively graded <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex>.</fr:p>
   
     
-    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0012.tree</fr:source-path><fr:anchor>2671</fr:anchor><fr:addr type="machine">unstable/474</fr:addr><fr:route>unstable-474.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2138</fr:anchor><fr:addr type="machine">#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>To specify a point <fr:tex display="inline"><![CDATA[P]]></fr:tex>, we need to specify which opens <fr:tex display="inline"><![CDATA[D_+(f)]]></fr:tex> it belongs to, where <fr:tex display="inline"><![CDATA[f]]></fr:tex> ranges over positively graded elements. Equivalently, we specify the closeds <fr:tex display="inline"><![CDATA[V_+(f)]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[V_+(f) \cap  V_+(g) \subseteq  V_+(f + g)]]></fr:tex>, if <fr:tex display="inline"><![CDATA[P \in  V_+(f)]]></fr:tex> and <fr:tex display="inline"><![CDATA[P \in  V_+(g)]]></fr:tex> then <fr:tex display="inline"><![CDATA[P \in  V_+(f + g)]]></fr:tex>. Similarly since <fr:tex display="inline"><![CDATA[V_+(f) \subseteq  V_+(f g)]]></fr:tex>, <fr:tex display="inline"><![CDATA[P \in  V_+(f)]]></fr:tex> implies <fr:tex display="inline"><![CDATA[P \in  V_+(f g)]]></fr:tex>. Collecting all the elements whose distinguished closed contains <fr:tex display="inline"><![CDATA[P]]></fr:tex>, we get an ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> whose zeroth degree vanishes.</fr:p>
 
-  <fr:p>We have <fr:tex display="inline"><![CDATA[V_+(f g) = V_+(f) \cup  V_+(g)]]></fr:tex>, so if <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f g]]></fr:tex>, then either <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f]]></fr:tex> or <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  g]]></fr:tex>. This is almost the condition for prime ideals, but recall that <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex> must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with <fr:link href="algm-0011.xml" title="Characterization of the locale \operatorname{Proj}(S)" addr="algm-0011" type="local">Theorem <fr:contextual-number addr="algm-0011" /></fr:link>.</fr:p>
+  <fr:p>We have <fr:tex display="inline"><![CDATA[V_+(f g) = V_+(f) \cup  V_+(g)]]></fr:tex>, so if <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f g]]></fr:tex>, then either <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f]]></fr:tex> or <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  g]]></fr:tex>. This is almost the condition for prime ideals, but recall that <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex> must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with <fr:ref addr="algm-0011" href="algm-0011.xml" taxon="Theorem" />.</fr:p>
 
   <fr:p>Next, we prove these ideals are in bijection with prime ideals not dividing <fr:tex display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. One direction of the correspondence is obvious: we take a prime ideal <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and remove the zeroth degree, which amounts to taking <fr:tex display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {p}, \mathord {\odot })]]></fr:tex>.</fr:p>
 
   <fr:p>We prove injectivity. Suppose primes <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> satisfy <fr:tex display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {p}, \mathord {\odot }) = \operatorname {lcm}(\mathfrak {q}, \mathord {\odot })]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \operatorname {lcm}(\mathfrak {q}, \mathord {\odot }) \mid  \mathfrak {q} \cdot  \mathord {\odot }]]></fr:tex>, so either <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathord {\odot }]]></fr:tex> which is forbidden, or <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {q}]]></fr:tex>. Conversely we must have <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  \mathfrak {p}]]></fr:tex>, hence <fr:tex display="inline"><![CDATA[\mathfrak {p} = \mathfrak {q}]]></fr:tex>.</fr:p>
 
   <fr:p>We prove surjectivity. Given an ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex>, we need to supplement it with a zeroth degree component <fr:tex display="inline"><![CDATA[\mathfrak {a}_0]]></fr:tex> so that together they make a prime ideal not divided by <fr:tex display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. We define <fr:tex display="inline"><![CDATA[\mathfrak {a}_0 \mid  c]]></fr:tex> iff there exists some positively graded <fr:tex display="inline"><![CDATA[\mathfrak {a} \nmid  f]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  cf]]></fr:tex>. The verification is routine element chasing.</fr:p>
-</fr:mainmatter></fr:tree>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
+            <fr:anchor>2210</fr:anchor>
+            <fr:addr type="user">algm-0010</fr:addr>
+            <fr:route>algm-0010.xml</fr:route>
+            <fr:title text="Structure sheaf of {Proj}(S)">Structure sheaf of <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex></fr:title>
+            <fr:taxon>Definition</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>3</fr:month>
               <fr:day>12</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0010.tree</fr:source-path>
-            <fr:anchor>2759</fr:anchor>
-            <fr:addr type="user">algm-0010</fr:addr>
-            <fr:route>algm-0010.xml</fr:route>
-            <fr:title text="Structure sheaf of \operatorname{Proj}(S)">Structure sheaf of <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex></fr:title>
-            <fr:taxon>Definition</fr:taxon>
-          </fr:frontmatter>
-          <fr:mainmatter><fr:p>Fix a <fr:link href="hmlg-001L.xml" title="Graded ring" addr="hmlg-001L" type="local">graded ring</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex>. For a positively graded element <fr:tex display="inline"><![CDATA[f]]></fr:tex>, we have a graded ring localization <fr:tex display="inline"><![CDATA[S[f^{-1}]_\bullet ]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\Gamma (D_+(f), \mathscr {O})]]></fr:tex> be the zeroth degree component <fr:tex display="inline"><![CDATA[S[f^{-1}]_0]]></fr:tex>. This defines a sheaf over the <fr:link href="algm-000Y.xml" title="Projective spectrum of a graded ring" addr="algm-000Y" type="local">projective spectrum</fr:link>, and moreover gives a <fr:link href="algm-000R.xml" title="Scheme" addr="algm-000R" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex>.</fr:p>
-  
-    
-    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0010.tree</fr:source-path><fr:anchor>805</fr:anchor><fr:addr type="machine">unstable/452</fr:addr><fr:route>unstable-452.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
-  <fr:p>We claim that <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> can alternatively be given by gluing affine schemes. We assign <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> the affine scheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> (which is possible because the open subspace <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> is homeomorphic to <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> as a space). Given two positively graded elements <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex>, we have an isomorphism between <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> restricted to <fr:tex display="inline"><![CDATA[D_+ (f g)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> restricted to <fr:tex display="inline"><![CDATA[D(g^{\deg  f}/f^{\deg  g})]]></fr:tex>, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.</fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter>
-        </fr:tree>
-      </fr:mainmatter>
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2762</fr:anchor>
-        <fr:title text="Related">Related</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
-          <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
               </fr:author>
             </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Fix a <fr:link type="local" href="hmlg-001L.xml" addr="hmlg-001L" title="Graded ring">graded ring</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex>. For a positively graded element <fr:tex display="inline"><![CDATA[f]]></fr:tex>, we have a graded ring localization <fr:tex display="inline"><![CDATA[S[f^{-1}]_\bullet ]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\Gamma (D_+(f), \mathscr {O})]]></fr:tex> be the zeroth degree component <fr:tex display="inline"><![CDATA[S[f^{-1}]_0]]></fr:tex>. This defines a sheaf over the <fr:link type="local" href="algm-000Y.xml" addr="algm-000Y" title="Projective spectrum of a graded ring">projective spectrum</fr:link>, and moreover gives a <fr:link type="local" href="algm-000R.xml" addr="algm-000R" title="Scheme">scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2144</fr:anchor><fr:addr type="machine">#288</fr:addr><fr:route>unstable-288.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>We claim that <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> can alternatively be given by gluing affine schemes. We assign <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> the affine scheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> (which is possible because the open subspace <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> is homeomorphic to <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> as a space). Given two positively graded elements <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex>, we have an isomorphism between <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> restricted to <fr:tex display="inline"><![CDATA[D_+ (f g)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> restricted to <fr:tex display="inline"><![CDATA[D(g^{\deg  f}/f^{\deg  g})]]></fr:tex>, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2212</fr:anchor>
+            <fr:addr type="user">algm-0007</fr:addr>
+            <fr:route>algm-0007.xml</fr:route>
+            <fr:title text="Localic spectrum of a commutative ring">Localic spectrum of a commutative ring</fr:title>
+            <fr:taxon>Definition</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>3</fr:month>
               <fr:day>3</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-0007.tree</fr:source-path>
-            <fr:anchor>2761</fr:anchor>
-            <fr:addr type="user">algm-0007</fr:addr>
-            <fr:route>algm-0007.xml</fr:route>
-            <fr:title text="Localic spectrum of a commutative ring">Localic spectrum of a commutative ring</fr:title>
-            <fr:taxon>Definition</fr:taxon>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Given a commutative ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>, we define a frame generated by the symbols <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> for <fr:tex display="inline"><![CDATA[f \in  R]]></fr:tex>, subject to the following relations:
-  <fr:tex display="block"><![CDATA[\begin {aligned}
-    D(0) &= \bot  \\
-    D(1) &= \top  \\
-    D(f \cdot  g) &= D(f) \cap  D(g) \\
-    D(f + g) &\subseteq  D(f) \cup  D(g)
-  \end {aligned}]]></fr:tex>
+  <fr:tex display="block"><![CDATA[\begin {aligned}     D(0) &= \bot  \\     D(1) &= \top  \\     D(f \cdot  g) &= D(f) \cap  D(g) \\     D(f + g) &\subseteq  D(f) \cup  D(g)   \end {aligned}]]></fr:tex>
   The resulting frame defines the <fr:strong>localic spectrum</fr:strong> <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex>.</fr:p>
           </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2763</fr:anchor>
-        <fr:title text="Contributions">Contributions</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:backmatter />
     </fr:tree>
   </fr:backmatter>
 </fr:tree>

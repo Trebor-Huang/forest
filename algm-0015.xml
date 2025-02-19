@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:authors>
-      <fr:author>
-        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-      </fr:author>
-    </fr:authors>
+    <fr:anchor>2128</fr:anchor>
+    <fr:addr type="user">algm-0015</fr:addr>
+    <fr:route>algm-0015.xml</fr:route>
+    <fr:title text="Irreducible space">Irreducible space</fr:title>
+    <fr:taxon>Definition</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
       <fr:month>3</fr:month>
       <fr:day>15</fr:day>
     </fr:date>
-    <fr:anchor>1900</fr:anchor>
-    <fr:addr type="user">algm-0015</fr:addr>
-    <fr:route>algm-0015.xml</fr:route>
-    <fr:title text="Irreducible space">Irreducible space</fr:title>
-    <fr:taxon>Definition</fr:taxon>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>A space is <fr:strong>irreducible</fr:strong> iff finitely many non-empty opens always has non-empty intersection. In other words, iff it is non-empty and cannot be written as a union of two closed sets.</fr:p>
   </fr:mainmatter>
-  <fr:backmatter>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>1895</fr:anchor>
-        <fr:title text="References">References</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>1896</fr:anchor>
-        <fr:title text="Context">Context</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>1897</fr:anchor>
-        <fr:title text="Backlinks">Backlinks</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>1898</fr:anchor>
-        <fr:title text="Related">Related</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>1899</fr:anchor>
-        <fr:title text="Contributions">Contributions</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-  </fr:backmatter>
+  <fr:backmatter />
 </fr:tree>

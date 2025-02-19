@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:authors>
-      <fr:author>Julio Rubio García, Francis Sergeraert et al.</fr:author>
-    </fr:authors>
-    <fr:anchor>2336</fr:anchor>
+    <fr:anchor>3215</fr:anchor>
     <fr:addr type="user">kenzo</fr:addr>
     <fr:route>kenzo.xml</fr:route>
     <fr:title text="Kenzo">Kenzo</fr:title>
     <fr:taxon>Reference</fr:taxon>
+    <fr:authors>
+      <fr:author>Julio Rubio García, Francis Sergeraert et al.</fr:author>
+    </fr:authors>
     <fr:meta name="external">https://github.com/gheber/kenzo</fr:meta>
     <fr:meta name="external">https://www-fourier.ujf-grenoble.fr/~sergerar/Kenzo/</fr:meta>
   </fr:frontmatter>
@@ -17,64 +17,37 @@
     <fr:p>Kenzo is a symbolic software for effective homology computation.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:anchor>2330</fr:anchor>
-        <fr:title text="References">References</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2331</fr:anchor>
-        <fr:title text="Context">Context</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2333</fr:anchor>
         <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
       </fr:frontmatter>
       <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
+            <fr:anchor>3217</fr:anchor>
+            <fr:addr type="user">hmlg-001B</fr:addr>
+            <fr:route>hmlg-001B.xml</fr:route>
+            <fr:title text="Terminology of effective algebraic cellular complex">Terminology of <fr:link type="local" href="hmlg-001A.xml" addr="hmlg-001A" title="Effective algebraic cellular complex">effective <fr:link type="local" href="hmlg-0013.xml" addr="hmlg-0013" title="Algebraic cellular complex">algebraic cellular complex</fr:link></fr:link></fr:title>
+            <fr:taxon>Remark</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>2</fr:month>
               <fr:day>26</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-001B.tree</fr:source-path>
-            <fr:anchor>2332</fr:anchor>
-            <fr:addr type="user">hmlg-001B</fr:addr>
-            <fr:route>hmlg-001B.xml</fr:route>
-            <fr:title text="Terminology of effective algebraic cellular complex">Terminology of <fr:link href="hmlg-001A.xml" title="Effective algebraic cellular complex" addr="hmlg-001A" type="local">effective <fr:link href="hmlg-0013.xml" title="Algebraic cellular complex" addr="hmlg-0013" type="local">algebraic cellular complex</fr:link></fr:link></fr:title>
-            <fr:taxon>Remark</fr:taxon>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>The terminology chosen here differs from that in <fr:link href="kenzo.xml" title="Kenzo" addr="kenzo" type="local">Kenzo</fr:link>. What we call effective is named <fr:em>locally effective</fr:em>; and what we call effective of finite type is named <fr:em>effective</fr:em> instead.</fr:p>
+            <fr:p>The terminology chosen here differs from that in <fr:link type="local" href="kenzo.xml" addr="kenzo" title="Kenzo">Kenzo</fr:link>. What we call effective is named <fr:em>locally effective</fr:em>; and what we call effective of finite type is named <fr:em>effective</fr:em> instead.</fr:p>
           </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2334</fr:anchor>
-        <fr:title text="Related">Related</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2335</fr:anchor>
-        <fr:title text="Contributions">Contributions</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:backmatter />
     </fr:tree>
   </fr:backmatter>
 </fr:tree>

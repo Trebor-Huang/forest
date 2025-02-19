@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>2102</fr:anchor>
+    <fr:addr type="machine">#284</fr:addr>
+    <fr:route>unstable-284.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>15</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+  <fr:p>We prove that if some affine cover <fr:tex display="inline"><![CDATA[\{\operatorname {Spec}(R_i) \hookrightarrow  X\}]]></fr:tex> has such a property, then all the affine subschemes has it, hence we can check on any affine cover. Given an affine subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S) \hookrightarrow  X]]></fr:tex>, using <fr:link type="local" href="algm-0016.xml" addr="algm-0016" title="Nike’s trick">Nike’s trick</fr:link>, we see that the intersection with <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_i)]]></fr:tex> is covered by affine subschemes, which will all have the said property. Hence we get a cover of <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S) \hookrightarrow  X]]></fr:tex> with the said property, and therefore itself also.</fr:p>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2104</fr:anchor>
+            <fr:addr type="user">algm-0017</fr:addr>
+            <fr:route>algm-0017.xml</fr:route>
+            <fr:title text="Affine local properties">Affine local properties</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Suppose a property on affine subschemes <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R) \hookrightarrow  X]]></fr:tex> is closed under taking distinguished subsets <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_f) \hookrightarrow  X]]></fr:tex>, and for <fr:tex display="inline"><![CDATA[\gcd \{f_i\} = 1]]></fr:tex>, the property being true on <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_{f_i}) \hookrightarrow  X]]></fr:tex> implies it being true on <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R) \hookrightarrow  X]]></fr:tex>. Then such a property is called <fr:strong>affine local</fr:strong>. We then say that <fr:tex display="inline"><![CDATA[X]]></fr:tex> has such a property if some affine cover has such a property: the result doesn’t depend on the chosen cover.</fr:p><fr:p>If the property <fr:tex display="inline"><![CDATA[P]]></fr:tex> only depends on <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> and not <fr:tex display="inline"><![CDATA[X]]></fr:tex> (or the inclusion map), it can be simplified as a property on affine schemes. In this case, the above definition extends it to a property <fr:tex display="inline"><![CDATA[P']]></fr:tex> on schemes, which we will usually refer to as <fr:strong>locally</fr:strong> <fr:tex display="inline"><![CDATA[P]]></fr:tex>. Suppose the scheme is furthermore <fr:link type="local" href="algm-000A.xml" addr="algm-000A" title="Terminology of compactness in algebraic geometry">quasi-compact</fr:link>, we say the scheme satisfies <fr:tex display="inline"><![CDATA[P]]></fr:tex>.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2106</fr:anchor><fr:addr type="machine">#284</fr:addr><fr:route>unstable-284.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>15</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>We prove that if some affine cover <fr:tex display="inline"><![CDATA[\{\operatorname {Spec}(R_i) \hookrightarrow  X\}]]></fr:tex> has such a property, then all the affine subschemes has it, hence we can check on any affine cover. Given an affine subscheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S) \hookrightarrow  X]]></fr:tex>, using <fr:link type="local" href="algm-0016.xml" addr="algm-0016" title="Nike’s trick">Nike’s trick</fr:link>, we see that the intersection with <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R_i)]]></fr:tex> is covered by affine subschemes, which will all have the said property. Hence we get a cover of <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S) \hookrightarrow  X]]></fr:tex> with the said property, and therefore itself also.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

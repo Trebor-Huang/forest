@@ -1,115 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:authors>
-      <fr:author>
-        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-      </fr:author>
-    </fr:authors>
+    <fr:anchor>1286</fr:anchor>
+    <fr:addr type="user">hmlg-0027</fr:addr>
+    <fr:route>hmlg-0027.xml</fr:route>
+    <fr:title text="Effective Kan fibration">Effective Kan fibration</fr:title>
+    <fr:taxon>Definition</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
       <fr:month>4</fr:month>
       <fr:day>29</fr:day>
     </fr:date>
-    <fr:anchor>3217</fr:anchor>
-    <fr:addr type="user">hmlg-0027</fr:addr>
-    <fr:route>hmlg-0027.xml</fr:route>
-    <fr:title text="Effective Kan fibration">Effective Kan fibration</fr:title>
-    <fr:taxon>Definition</fr:taxon>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>An <fr:strong>effective Kan fibration</fr:strong> is a Kan fibration of <fr:link href="hmlg-001T.xml" title="Effective simplicial set" addr="hmlg-001T" type="local">effective simplicial sets</fr:link> equipped with a computable choice of horn-filling. Note that it is different from <fr:em>algebraic</fr:em> Kan fibrations, because morphisms are not required to preserve the choice.</fr:p>
+    <fr:p>An <fr:strong>effective Kan fibration</fr:strong> is a Kan fibration of <fr:link type="local" href="hmlg-001T.xml" addr="hmlg-001T" title="Effective simplicial set">effective simplicial sets</fr:link> equipped with a computable choice of horn-filling. Note that it is different from <fr:em>algebraic</fr:em> Kan fibrations, because morphisms are not required to preserve the choice.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:anchor>3210</fr:anchor>
-        <fr:title text="References">References</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>3211</fr:anchor>
-        <fr:title text="Context">Context</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>3213</fr:anchor>
         <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
       </fr:frontmatter>
       <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
+            <fr:anchor>1288</fr:anchor>
+            <fr:addr type="user">hmlg-0029</fr:addr>
+            <fr:route>hmlg-0029.xml</fr:route>
+            <fr:title text="Kan fiber bundle">Kan fiber bundle</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>4</fr:month>
               <fr:day>29</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-0029.tree</fr:source-path>
-            <fr:anchor>3212</fr:anchor>
-            <fr:addr type="user">hmlg-0029</fr:addr>
-            <fr:route>hmlg-0029.xml</fr:route>
-            <fr:title text="Kan fiber bundle">Kan fiber bundle</fr:title>
-            <fr:taxon>Theorem</fr:taxon>
-          </fr:frontmatter>
-          <fr:mainmatter><fr:p>Given a <fr:link href="hmlg-0026.xml" title="Simplicial fiber bundle" addr="hmlg-0026" type="local">simplicial fiber bundle</fr:link> <fr:tex display="inline"><![CDATA[p : E \to  B]]></fr:tex>, it is a Kan fibration iff the fiber <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a Kan complex. Hence we call it a <fr:strong>Kan fiber bundle</fr:strong>. The proof yields an <fr:link href="hmlg-0027.xml" title="Effective Kan fibration" addr="hmlg-0027" type="local">effective Kan fibration</fr:link> if all the inputs are effective.</fr:p>
-  
-    
-    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-0029.tree</fr:source-path><fr:anchor>992</fr:anchor><fr:addr type="machine">unstable/430</fr:addr><fr:route>unstable-430.xml</fr:route><fr:title text="" /><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
-  <fr:p>Given a horn <fr:tex display="inline"><![CDATA[\Lambda ^n_k \to  E]]></fr:tex> and a compatible simplex <fr:tex display="inline"><![CDATA[\Delta ^n \to  B]]></fr:tex>, by the definition of simplicial fiber bundles, we may trivialize the bundle on the simplex locally. But since <fr:tex display="inline"><![CDATA[F]]></fr:tex> is Kan, obviously <fr:tex display="inline"><![CDATA[F \times  \Delta ^n \to  \Delta ^n]]></fr:tex> is also Kan. Hence we may select the required filling.</fr:p>
-</fr:mainmatter></fr:tree>
-  
-</fr:mainmatter>
-        </fr:tree>
-      </fr:mainmatter>
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>3215</fr:anchor>
-        <fr:title text="Related">Related</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
-          <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
               </fr:author>
             </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Given a <fr:link type="local" href="hmlg-0026.xml" addr="hmlg-0026" title="Simplicial fiber bundle">simplicial fiber bundle</fr:link> <fr:tex display="inline"><![CDATA[p : E \to  B]]></fr:tex>, it is a Kan fibration iff the fiber <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a Kan complex. Hence we call it a <fr:strong>Kan fiber bundle</fr:strong>. The proof yields an <fr:link type="local" href="hmlg-0027.xml" addr="hmlg-0027" title="Effective Kan fibration">effective Kan fibration</fr:link> if all the inputs are effective.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1278</fr:anchor><fr:addr type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>Given a horn <fr:tex display="inline"><![CDATA[\Lambda ^n_k \to  E]]></fr:tex> and a compatible simplex <fr:tex display="inline"><![CDATA[\Delta ^n \to  B]]></fr:tex>, by the definition of simplicial fiber bundles, we may trivialize the bundle on the simplex locally. But since <fr:tex display="inline"><![CDATA[F]]></fr:tex> is Kan, obviously <fr:tex display="inline"><![CDATA[F \times  \Delta ^n \to  \Delta ^n]]></fr:tex> is also Kan. Hence we may select the required filling.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>1290</fr:anchor>
+            <fr:addr type="user">hmlg-001T</fr:addr>
+            <fr:route>hmlg-001T.xml</fr:route>
+            <fr:title text="Effective simplicial set">Effective simplicial set</fr:title>
+            <fr:taxon>Definition</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>4</fr:month>
               <fr:day>24</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-001T.tree</fr:source-path>
-            <fr:anchor>3214</fr:anchor>
-            <fr:addr type="user">hmlg-001T</fr:addr>
-            <fr:route>hmlg-001T.xml</fr:route>
-            <fr:title text="Effective simplicial set">Effective simplicial set</fr:title>
-            <fr:taxon>Definition</fr:taxon>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>An <fr:strong>effective</fr:strong> simplicial set consists of a sequence of types <fr:tex display="inline"><![CDATA[\operatorname {Geom}_n(X)]]></fr:tex> with decidable equality, representing the <fr:strong>geometric</fr:strong>, a.k.a. non-degenerate, simplices. The full set of simplices, written <fr:tex display="inline"><![CDATA[\Gamma (\Delta ^n, X)]]></fr:tex> or more simply <fr:tex display="inline"><![CDATA[X_n]]></fr:tex>, is given by a geometric simplex <fr:tex display="inline"><![CDATA[g \in  \operatorname {Geom}_k(X)]]></fr:tex> for some <fr:tex display="inline"><![CDATA[k]]></fr:tex> together with a <fr:strong>degeneracy symbol</fr:strong>, defined as a surjection <fr:tex display="inline"><![CDATA[\eta  : [n+1] \twoheadrightarrow  [k+1]]]></fr:tex>, formally representing the degeneracy map that brought <fr:tex display="inline"><![CDATA[g]]></fr:tex> up to dimension <fr:tex display="inline"><![CDATA[n]]></fr:tex>, written as <fr:tex display="inline"><![CDATA[\eta ^* g]]></fr:tex>. The effective simplicial set is also required to have computable <fr:strong>face maps</fr:strong> <fr:tex display="inline"><![CDATA[\partial _i : \operatorname {Geom}_{n+1}(X) \to  \Gamma (\Delta ^n, X)]]></fr:tex> for <fr:tex display="inline"><![CDATA[0 \le  i \le  n+1]]></fr:tex>, so that the usual simplicial identities hold. The simplicial set is <fr:strong>of finite type</fr:strong> if each <fr:tex display="inline"><![CDATA[\operatorname {Geom}_n(X)]]></fr:tex> is computably finite.</fr:p>
             <fr:p>Alternatively, we can make a definition that more closely follows the traditional one, requiring a sequence of types with decidable equality representing <fr:em>all</fr:em> simplices instead of geometric ones. We then need to impose an additional requirement that the degeneracy of a simplex is decidable. The equivalence of the two definitions is given by the Eilenberg–Zilber lemma.</fr:p>
           </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>3216</fr:anchor>
-        <fr:title text="Contributions">Contributions</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:backmatter />
     </fr:tree>
   </fr:backmatter>
 </fr:tree>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>770</fr:anchor>
+    <fr:addr type="machine">#272</fr:addr>
+    <fr:route>unstable-272.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>10</fr:month>
+      <fr:day>6</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+  <fr:p>Removing a smaller disk of radius <fr:tex display="inline"><![CDATA[r]]></fr:tex> around <fr:tex display="inline"><![CDATA[a]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\frac {f(z) - f(a)}{z - a}]]></fr:tex> is an analytic function in this region. Applying <fr:link type="local" href="cplx-0006.xml" addr="cplx-0006" title="Integral of holomorphic function does not depend on path">Green’s formula</fr:link> we have
+    <fr:tex display="block"><![CDATA[\int _{\gamma } \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z} = \int _{\gamma '} \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex>
+    where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the original circle, and <fr:tex display="inline"><![CDATA[\gamma ']]></fr:tex> is the smaller circle. Now since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is holomorphic, the integrand has a limit as <fr:tex display="inline"><![CDATA[z \to  a]]></fr:tex> by definition, so in particular it is bounded for small enough <fr:tex display="inline"><![CDATA[r]]></fr:tex>. Therefore the right hand side is bounded by <fr:tex display="inline"><![CDATA[2 \pi  r C]]></fr:tex> for a constant <fr:tex display="inline"><![CDATA[C]]></fr:tex>, which goes to zero. So the left hand side must be zero since it does not depend on <fr:tex display="inline"><![CDATA[r]]></fr:tex>.</fr:p>
+
+  <fr:p>Separating the two terms in the integral, we are left to prove
+    <fr:tex display="block"><![CDATA[\int _\gamma  \frac {\operatorname {d}\mathclose {z}}{z - a} = 2 \pi  i.]]></fr:tex>
+    This can be done by looking up integral tables.</fr:p>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>772</fr:anchor>
+            <fr:addr type="user">cplx-0009</fr:addr>
+            <fr:route>cplx-0009.xml</fr:route>
+            <fr:title text="Cauchy integral formula">Cauchy integral formula</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Given a <fr:link type="local" href="cplx-0001.xml" addr="cplx-0001" title="Holomorphic function">holomorphic function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex>, and a point <fr:tex display="inline"><![CDATA[a]]></fr:tex> such that a disk containing <fr:tex display="inline"><![CDATA[a]]></fr:tex> lies within the domain of <fr:tex display="inline"><![CDATA[f]]></fr:tex>, we have
+  <fr:tex display="block"><![CDATA[f(a) = \frac {1}{2 \pi  i} \int _{\gamma } \frac {f(z)}{z - a} \operatorname {d}\mathclose {z},]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the boundary of the disk.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>762</fr:anchor><fr:addr type="machine">#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>Removing a smaller disk of radius <fr:tex display="inline"><![CDATA[r]]></fr:tex> around <fr:tex display="inline"><![CDATA[a]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\frac {f(z) - f(a)}{z - a}]]></fr:tex> is an analytic function in this region. Applying <fr:link type="local" href="cplx-0006.xml" addr="cplx-0006" title="Integral of holomorphic function does not depend on path">Green’s formula</fr:link> we have
+    <fr:tex display="block"><![CDATA[\int _{\gamma } \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z} = \int _{\gamma '} \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex>
+    where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the original circle, and <fr:tex display="inline"><![CDATA[\gamma ']]></fr:tex> is the smaller circle. Now since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is holomorphic, the integrand has a limit as <fr:tex display="inline"><![CDATA[z \to  a]]></fr:tex> by definition, so in particular it is bounded for small enough <fr:tex display="inline"><![CDATA[r]]></fr:tex>. Therefore the right hand side is bounded by <fr:tex display="inline"><![CDATA[2 \pi  r C]]></fr:tex> for a constant <fr:tex display="inline"><![CDATA[C]]></fr:tex>, which goes to zero. So the left hand side must be zero since it does not depend on <fr:tex display="inline"><![CDATA[r]]></fr:tex>.</fr:p>
+
+  <fr:p>Separating the two terms in the integral, we are left to prove
+    <fr:tex display="block"><![CDATA[\int _\gamma  \frac {\operatorname {d}\mathclose {z}}{z - a} = 2 \pi  i.]]></fr:tex>
+    This can be done by looking up integral tables.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

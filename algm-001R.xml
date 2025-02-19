@@ -1,185 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:authors>
-      <fr:author>
-        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-      </fr:author>
-    </fr:authors>
+    <fr:anchor>1860</fr:anchor>
+    <fr:addr type="user">algm-001R</fr:addr>
+    <fr:route>algm-001R.xml</fr:route>
+    <fr:title text="Local object">Local object</fr:title>
+    <fr:taxon>Definition</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
       <fr:month>4</fr:month>
       <fr:day>5</fr:day>
     </fr:date>
-    <fr:anchor>702</fr:anchor>
-    <fr:addr type="user">algm-001R</fr:addr>
-    <fr:route>algm-001R.xml</fr:route>
-    <fr:title text="Local object">Local object</fr:title>
-    <fr:taxon>Definition</fr:taxon>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>Given a class of arrows <fr:tex display="inline"><![CDATA[S]]></fr:tex>, an <fr:tex display="inline"><![CDATA[S]]></fr:tex>-<fr:strong>local object</fr:strong> is an object <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that for every <fr:tex display="inline"><![CDATA[f : A \to  B]]></fr:tex> in <fr:tex display="inline"><![CDATA[S]]></fr:tex>, the composition map <fr:tex display="block"><![CDATA[\hom (B, X) \to  \hom (A, X)]]></fr:tex> is an isomorphism.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:anchor>692</fr:anchor>
-        <fr:title text="References">References</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>697</fr:anchor>
         <fr:title text="Context">Context</fr:title>
+        <fr:authors />
       </fr:frontmatter>
       <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
+            <fr:anchor>1862</fr:anchor>
+            <fr:addr type="user">algm-001P</fr:addr>
+            <fr:route>algm-001P.xml</fr:route>
+            <fr:title text="Sheaf condition using Lawvere–Tierney operators">Sheaf condition using Lawvere–Tierney operators</fr:title>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>4</fr:month>
               <fr:day>5</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-001P.tree</fr:source-path>
-            <fr:anchor>696</fr:anchor>
-            <fr:addr type="user">algm-001P</fr:addr>
-            <fr:route>algm-001P.xml</fr:route>
-            <fr:title text="Sheaf condition using Lawvere–Tierney operators">Sheaf condition using Lawvere–Tierney operators</fr:title>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>Knowing the <fr:link href="algm-001N.xml" title="Grothendieck coverages and Lawvere–Tierney operators" addr="algm-001N" type="local">correspondence</fr:link> of Grothendieck coverages on <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> and Lawvere–Tierney operators on <fr:tex display="inline"><![CDATA[\mathsf {Psh}(\mathcal {C})]]></fr:tex>, we naturally want to rewrite the <fr:link href="algm-001F.xml" title="Sheaf" addr="algm-001F" type="local">sheaf condition</fr:link> to use <fr:link href="algm-001L.xml" title="Lawvere–Tierney operator" addr="algm-001L" type="local">Lawvere–Tierney operators</fr:link> instead of <fr:link href="algm-001A.xml" title="Grothendieck coverage" addr="algm-001A" type="local">Grothendieck coverages</fr:link>.</fr:p>
-            <fr:p>Recall that the <fr:link href="algm-001F.xml" title="Sheaf" addr="algm-001F" type="local">sheaf condition</fr:link> requires for every covering sieve <fr:tex display="inline"><![CDATA[S \hookrightarrow  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)]]></fr:tex> that the composition <fr:tex display="inline"><![CDATA[\hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U), X) \to  \hom (S, X)]]></fr:tex> is an isomorphism. We can reify this to a definition.</fr:p>
-            <fr:tree show-metadata="false">
+            <fr:p>Knowing the <fr:link type="local" href="algm-001N.xml" addr="algm-001N" title="Grothendieck coverages and Lawvere–Tierney operators">correspondence</fr:link> of Grothendieck coverages on <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> and Lawvere–Tierney operators on <fr:tex display="inline"><![CDATA[\mathsf {Psh}(\mathcal {C})]]></fr:tex>, we naturally want to rewrite the <fr:link type="local" href="algm-001F.xml" addr="algm-001F" title="Sheaf">sheaf condition</fr:link> to use <fr:link type="local" href="algm-001L.xml" addr="algm-001L" title="Lawvere–Tierney operator">Lawvere–Tierney operators</fr:link> instead of <fr:link type="local" href="algm-001A.xml" addr="algm-001A" title="Grothendieck coverage">Grothendieck coverages</fr:link>.</fr:p>
+            <fr:p>Recall that the <fr:link type="local" href="algm-001F.xml" addr="algm-001F" title="Sheaf">sheaf condition</fr:link> requires for every covering sieve <fr:tex display="inline"><![CDATA[S \hookrightarrow  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)]]></fr:tex> that the composition <fr:tex display="inline"><![CDATA[\hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U), X) \to  \hom (S, X)]]></fr:tex> is an isomorphism. We can reify this to a definition.</fr:p>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-                  </fr:author>
-                </fr:authors>
-                <fr:date>
-                  <fr:year>2024</fr:year>
-                  <fr:month>4</fr:month>
-                  <fr:day>5</fr:day>
-                </fr:date>
-                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-001R.tree</fr:source-path>
-                <fr:anchor>693</fr:anchor>
+                <fr:anchor>1829</fr:anchor>
                 <fr:addr type="user">algm-001R</fr:addr>
                 <fr:route>algm-001R.xml</fr:route>
                 <fr:title text="Local object">Local object</fr:title>
                 <fr:taxon>Definition</fr:taxon>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
               </fr:frontmatter>
               <fr:mainmatter>
                 <fr:p>Given a class of arrows <fr:tex display="inline"><![CDATA[S]]></fr:tex>, an <fr:tex display="inline"><![CDATA[S]]></fr:tex>-<fr:strong>local object</fr:strong> is an object <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that for every <fr:tex display="inline"><![CDATA[f : A \to  B]]></fr:tex> in <fr:tex display="inline"><![CDATA[S]]></fr:tex>, the composition map <fr:tex display="block"><![CDATA[\hom (B, X) \to  \hom (A, X)]]></fr:tex> is an isomorphism.</fr:p>
               </fr:mainmatter>
+              <fr:backmatter />
             </fr:tree>
             <fr:p>Now we just need to pick out the class of morphisms <fr:tex display="inline"><![CDATA[S \hookrightarrow  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)]]></fr:tex> using the Lawvere–Tierney operator <fr:tex display="inline"><![CDATA[j]]></fr:tex>. Note that this operator does not necessarily live in a presheaf topos, so we must find a way to generalize this class of arrows to not necessarily representable presheaves. Since every presheaf is a colimit of representables, we can look at the corresponding colimit of morphisms <fr:tex display="inline"><![CDATA[\operatorname *{colim} S_i \hookrightarrow  \operatorname *{colim} \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U_i)]]></fr:tex>. A local object will satisfy
-  <fr:tex display="block"><![CDATA[\begin {aligned}
-    \hom (\operatorname *{colim}\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U_i), X) \cong  \lim \hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U_i), X) \quad  \\
-    \xrightarrow {\sim } \lim \hom (S_i, X) \cong  \hom (\operatorname *{colim} S_i, X).
-  \end {aligned}]]></fr:tex>
+  <fr:tex display="block"><![CDATA[\begin {aligned}     \hom (\operatorname *{colim}\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U_i), X) \cong  \lim \hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U_i), X) \quad  \\     \xrightarrow {\sim } \lim \hom (S_i, X) \cong  \hom (\operatorname *{colim} S_i, X).   \end {aligned}]]></fr:tex>
   Hence we can safely include these arrows into the class and still get the same concept of local objects. Now it’s illuminating to look at the characteristic maps. A sieve <fr:tex display="inline"><![CDATA[S \to  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)]]></fr:tex> corresponds to a characteristic map in <fr:tex display="inline"><![CDATA[\hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U), \Omega ) \cong  \Gamma (U, \Omega )]]></fr:tex>. Generalizing to an arbitrary presheaf expressed (canonically) as a colimit of representables, we need the image of every section to be a covering sieve.</fr:p>
-            <fr:tree show-metadata="false">
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-                  </fr:author>
-                </fr:authors>
-                <fr:date>
-                  <fr:year>2024</fr:year>
-                  <fr:month>4</fr:month>
-                  <fr:day>5</fr:day>
-                </fr:date>
-                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-001Q.tree</fr:source-path>
-                <fr:anchor>694</fr:anchor>
+                <fr:anchor>1831</fr:anchor>
                 <fr:addr type="user">algm-001Q</fr:addr>
                 <fr:route>algm-001Q.xml</fr:route>
                 <fr:title text="Dense subobject of a Lawvere–Tierney operator">Dense subobject of a Lawvere–Tierney operator</fr:title>
                 <fr:taxon>Definition</fr:taxon>
-              </fr:frontmatter>
-              <fr:mainmatter>
-                <fr:p>Given a <fr:link href="algm-001L.xml" title="Lawvere–Tierney operator" addr="algm-001L" type="local">Lawvere–Tierney operator</fr:link> <fr:tex display="inline"><![CDATA[j]]></fr:tex>, a subobject <fr:tex display="inline"><![CDATA[F \hookrightarrow  G]]></fr:tex> is <fr:tex display="inline"><![CDATA[j]]></fr:tex>-<fr:strong>dense</fr:strong> if <fr:tex display="inline"><![CDATA[G \to  \Omega  \xrightarrow {j} \Omega ]]></fr:tex> is the constant true. In terms of the corresponding <fr:tex display="inline"><![CDATA[J \hookrightarrow  \Omega ]]></fr:tex>, we need the pullback of it with <fr:tex display="inline"><![CDATA[G \to  \Omega ]]></fr:tex> to be <fr:tex display="inline"><![CDATA[\textrm {id} : G \to  G]]></fr:tex>.</fr:p>
-              </fr:mainmatter>
-            </fr:tree>
-            <fr:p>In terms of sieves, for every section <fr:tex display="inline"><![CDATA[s \in  \Gamma (U, G)]]></fr:tex>, the sieve of arrows on <fr:tex display="inline"><![CDATA[U]]></fr:tex> along whom the restriction of <fr:tex display="inline"><![CDATA[s]]></fr:tex> is in <fr:tex display="inline"><![CDATA[F]]></fr:tex> must be a covering sieve. We have arrived at the desired reformulation of the sheaf condition.</fr:p>
-            <fr:tree show-metadata="false">
-              <fr:frontmatter>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-                  </fr:author>
-                </fr:authors>
                 <fr:date>
                   <fr:year>2024</fr:year>
                   <fr:month>4</fr:month>
                   <fr:day>5</fr:day>
                 </fr:date>
-                <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-001S.tree</fr:source-path>
-                <fr:anchor>695</fr:anchor>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>Given a <fr:link type="local" href="algm-001L.xml" addr="algm-001L" title="Lawvere–Tierney operator">Lawvere–Tierney operator</fr:link> <fr:tex display="inline"><![CDATA[j]]></fr:tex>, a subobject <fr:tex display="inline"><![CDATA[F \hookrightarrow  G]]></fr:tex> is <fr:tex display="inline"><![CDATA[j]]></fr:tex>-<fr:strong>dense</fr:strong> if <fr:tex display="inline"><![CDATA[G \to  \Omega  \xrightarrow {j} \Omega ]]></fr:tex> is the constant true. In terms of the corresponding <fr:tex display="inline"><![CDATA[J \hookrightarrow  \Omega ]]></fr:tex>, we need the pullback of it with <fr:tex display="inline"><![CDATA[G \to  \Omega ]]></fr:tex> to be <fr:tex display="inline"><![CDATA[\textrm {id} : G \to  G]]></fr:tex>.</fr:p>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
+            <fr:p>In terms of sieves, for every section <fr:tex display="inline"><![CDATA[s \in  \Gamma (U, G)]]></fr:tex>, the sieve of arrows on <fr:tex display="inline"><![CDATA[U]]></fr:tex> along whom the restriction of <fr:tex display="inline"><![CDATA[s]]></fr:tex> is in <fr:tex display="inline"><![CDATA[F]]></fr:tex> must be a covering sieve. We have arrived at the desired reformulation of the sheaf condition.</fr:p>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>1833</fr:anchor>
                 <fr:addr type="user">algm-001S</fr:addr>
                 <fr:route>algm-001S.xml</fr:route>
                 <fr:title text="Sheaf of a Lawvere–Tierney operator">Sheaf of a Lawvere–Tierney operator</fr:title>
                 <fr:taxon>Definition</fr:taxon>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
               </fr:frontmatter>
               <fr:mainmatter>
-                <fr:p>Given a <fr:link href="algm-001L.xml" title="Lawvere–Tierney operator" addr="algm-001L" type="local">Lawvere–Tierney operator</fr:link> <fr:tex display="inline"><![CDATA[j]]></fr:tex>, a <fr:tex display="inline"><![CDATA[j]]></fr:tex>-<fr:strong>sheaf</fr:strong> is defined as a <fr:tex display="inline"><![CDATA[j]]></fr:tex>-<fr:strong>local object</fr:strong>, i.e. a <fr:link href="algm-001R.xml" title="Local object" addr="algm-001R" type="local">local object</fr:link> under the <fr:link href="algm-001Q.xml" title="Dense subobject of a Lawvere–Tierney operator" addr="algm-001Q" type="local"><fr:tex display="inline"><![CDATA[j]]></fr:tex>-dense monomorphisms</fr:link>.</fr:p>
+                <fr:p>Given a <fr:link type="local" href="algm-001L.xml" addr="algm-001L" title="Lawvere–Tierney operator">Lawvere–Tierney operator</fr:link> <fr:tex display="inline"><![CDATA[j]]></fr:tex>, a <fr:tex display="inline"><![CDATA[j]]></fr:tex>-<fr:strong>sheaf</fr:strong> is defined as a <fr:tex display="inline"><![CDATA[j]]></fr:tex>-<fr:strong>local object</fr:strong>, i.e. a <fr:link type="local" href="algm-001R.xml" addr="algm-001R" title="Local object">local object</fr:link> under the <fr:link type="local" href="algm-001Q.xml" addr="algm-001Q" title="Dense subobject of a Lawvere–Tierney operator"><fr:tex display="inline"><![CDATA[j]]></fr:tex>-dense monomorphisms</fr:link>.</fr:p>
               </fr:mainmatter>
+              <fr:backmatter />
             </fr:tree>
           </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
+      <fr:backmatter />
     </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:anchor>699</fr:anchor>
         <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
       </fr:frontmatter>
       <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
+            <fr:anchor>1864</fr:anchor>
+            <fr:addr type="user">algm-001S</fr:addr>
+            <fr:route>algm-001S.xml</fr:route>
+            <fr:title text="Sheaf of a Lawvere–Tierney operator">Sheaf of a Lawvere–Tierney operator</fr:title>
+            <fr:taxon>Definition</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>4</fr:month>
               <fr:day>5</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/algm-001S.tree</fr:source-path>
-            <fr:anchor>698</fr:anchor>
-            <fr:addr type="user">algm-001S</fr:addr>
-            <fr:route>algm-001S.xml</fr:route>
-            <fr:title text="Sheaf of a Lawvere–Tierney operator">Sheaf of a Lawvere–Tierney operator</fr:title>
-            <fr:taxon>Definition</fr:taxon>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>Given a <fr:link href="algm-001L.xml" title="Lawvere–Tierney operator" addr="algm-001L" type="local">Lawvere–Tierney operator</fr:link> <fr:tex display="inline"><![CDATA[j]]></fr:tex>, a <fr:tex display="inline"><![CDATA[j]]></fr:tex>-<fr:strong>sheaf</fr:strong> is defined as a <fr:tex display="inline"><![CDATA[j]]></fr:tex>-<fr:strong>local object</fr:strong>, i.e. a <fr:link href="algm-001R.xml" title="Local object" addr="algm-001R" type="local">local object</fr:link> under the <fr:link href="algm-001Q.xml" title="Dense subobject of a Lawvere–Tierney operator" addr="algm-001Q" type="local"><fr:tex display="inline"><![CDATA[j]]></fr:tex>-dense monomorphisms</fr:link>.</fr:p>
+            <fr:p>Given a <fr:link type="local" href="algm-001L.xml" addr="algm-001L" title="Lawvere–Tierney operator">Lawvere–Tierney operator</fr:link> <fr:tex display="inline"><![CDATA[j]]></fr:tex>, a <fr:tex display="inline"><![CDATA[j]]></fr:tex>-<fr:strong>sheaf</fr:strong> is defined as a <fr:tex display="inline"><![CDATA[j]]></fr:tex>-<fr:strong>local object</fr:strong>, i.e. a <fr:link type="local" href="algm-001R.xml" addr="algm-001R" title="Local object">local object</fr:link> under the <fr:link type="local" href="algm-001Q.xml" addr="algm-001Q" title="Dense subobject of a Lawvere–Tierney operator"><fr:tex display="inline"><![CDATA[j]]></fr:tex>-dense monomorphisms</fr:link>.</fr:p>
           </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>700</fr:anchor>
-        <fr:title text="Related">Related</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>701</fr:anchor>
-        <fr:title text="Contributions">Contributions</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:backmatter />
     </fr:tree>
   </fr:backmatter>
 </fr:tree>

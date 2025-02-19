@@ -1,62 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:authors>
-      <fr:author>
-        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-      </fr:author>
-    </fr:authors>
+    <fr:anchor>974</fr:anchor>
+    <fr:addr type="user">hmlg-002X</fr:addr>
+    <fr:route>hmlg-002X.xml</fr:route>
+    <fr:title text="Commutativity of H {Z}-modules">Commutativity of <fr:tex display="inline"><![CDATA[H \mathbb {Z}]]></fr:tex>-modules</fr:title>
+    <fr:taxon>Intuition</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
       <fr:month>8</fr:month>
       <fr:day>6</fr:day>
     </fr:date>
-    <fr:anchor>3076</fr:anchor>
-    <fr:addr type="user">hmlg-002X</fr:addr>
-    <fr:route>hmlg-002X.xml</fr:route>
-    <fr:title text="Commutativity of H \mathbb{Z}-modules">Commutativity of <fr:tex display="inline"><![CDATA[H \mathbb {Z}]]></fr:tex>-modules</fr:title>
-    <fr:taxon>Intuition</fr:taxon>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
     <fr:p>Connective spectra can be thought of as <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-groups that are maximally commutative, within the confines of operadic algebras. This manifests as the little cubes operad, being able to freely move around in high dimensional space.</fr:p>
     <fr:p>However, <fr:tex display="inline"><![CDATA[H \mathbb {Z}]]></fr:tex>-modules can be seen as even more commutative. Consider the equation <fr:tex display="inline"><![CDATA[x + x = x + x]]></fr:tex> swapping the two arguments. It is impossible to talk about the behavior of this path because in operads variables cannot repeat. Hence this might not be homotopic to the trivial path, and indeed it is not in the sphere spectrum <fr:tex display="inline"><![CDATA[\mathbb {S}]]></fr:tex> — this path is given by the non-trivial element in the second stable homotopy group <fr:tex display="inline"><![CDATA[\mathbb  Z / 2 \mathbb  Z]]></fr:tex>. <fr:tex display="inline"><![CDATA[H \mathbb {Z}]]></fr:tex>-modules requires further that given <fr:tex display="inline"><![CDATA[n]]></fr:tex> identical elements, the space of different possible sums is contractible.</fr:p>
   </fr:mainmatter>
-  <fr:backmatter>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>3071</fr:anchor>
-        <fr:title text="References">References</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>3072</fr:anchor>
-        <fr:title text="Context">Context</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>3073</fr:anchor>
-        <fr:title text="Backlinks">Backlinks</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>3074</fr:anchor>
-        <fr:title text="Related">Related</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>3075</fr:anchor>
-        <fr:title text="Contributions">Contributions</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-  </fr:backmatter>
+  <fr:backmatter />
 </fr:tree>

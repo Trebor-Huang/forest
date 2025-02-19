@@ -1,107 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree xmlns:fr="http://www.jonmsterling.com/jms-005P.xml" root="false">
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:authors>
-      <fr:author>
-        <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-      </fr:author>
-    </fr:authors>
+    <fr:anchor>1234</fr:anchor>
+    <fr:addr type="user">hmlg-002E</fr:addr>
+    <fr:route>hmlg-002E.xml</fr:route>
+    <fr:title text="Abelian group structure on the W-bar construction">Abelian group structure on the W-bar construction</fr:title>
+    <fr:taxon>Definition</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
       <fr:month>5</fr:month>
       <fr:day>4</fr:day>
     </fr:date>
-    <fr:anchor>2988</fr:anchor>
-    <fr:addr type="user">hmlg-002E</fr:addr>
-    <fr:route>hmlg-002E.xml</fr:route>
-    <fr:title text="Abelian group structure on the W-bar construction">Abelian group structure on the W-bar construction</fr:title>
-    <fr:taxon>Definition</fr:taxon>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Suppose the simplicial group <fr:tex display="inline"><![CDATA[G]]></fr:tex> is abelian, then the <fr:link href="hmlg-0021.xml" title="W-bar construction" addr="hmlg-0021" type="local">W-bar construction</fr:link> still has an abelian group structure, by multiplication element-wise.</fr:p>
+    <fr:p>Suppose the simplicial group <fr:tex display="inline"><![CDATA[G]]></fr:tex> is abelian, then the <fr:link type="local" href="hmlg-0021.xml" addr="hmlg-0021" title="W-bar construction">W-bar construction</fr:link> still has an abelian group structure, by multiplication element-wise.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:anchor>2982</fr:anchor>
-        <fr:title text="References">References</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2983</fr:anchor>
-        <fr:title text="Context">Context</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2984</fr:anchor>
-        <fr:title text="Backlinks">Backlinks</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2986</fr:anchor>
         <fr:title text="Related">Related</fr:title>
+        <fr:authors />
       </fr:frontmatter>
       <fr:mainmatter>
-        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:authors>
-              <fr:author>
-                <fr:link href="trebor.xml" title="Trebor" addr="trebor" type="local">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
+            <fr:anchor>1236</fr:anchor>
+            <fr:addr type="user">hmlg-0021</fr:addr>
+            <fr:route>hmlg-0021.xml</fr:route>
+            <fr:title text="W-bar construction">W-bar construction</fr:title>
+            <fr:taxon>Construction</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>4</fr:month>
               <fr:day>28</fr:day>
             </fr:date>
-            <fr:source-path>/Users/trebor/Desktop/blog/forest/trees/hmlg-0021.tree</fr:source-path>
-            <fr:anchor>2985</fr:anchor>
-            <fr:addr type="user">hmlg-0021</fr:addr>
-            <fr:route>hmlg-0021.xml</fr:route>
-            <fr:title text="W-bar construction">W-bar construction</fr:title>
-            <fr:taxon>Construction</fr:taxon>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>Given a simplicial group, we can define a model of its universal principal bundle <fr:tex display="inline"><![CDATA[\mathbf {E} G \to  \mathbf {B} G]]></fr:tex> as simplicial sets <fr:tex display="inline"><![CDATA[W G \to  \bar {W} G]]></fr:tex>. This is a generalization of the <fr:link href="hmlg-001W.xml" title="Bar construction" addr="hmlg-001W" type="local">bar construction</fr:link>, if we consider a group <fr:tex display="inline"><![CDATA[G]]></fr:tex> as a discrete simplicial set. It classifies principal <fr:tex display="inline"><![CDATA[G]]></fr:tex>-bundles in the sense of Theorem 21.13 in <fr:link href="simplicial-objects.xml" title="Simplicial objects in algebraic topology" addr="simplicial-objects" type="local">Simplicial objects in algebraic topology</fr:link>.</fr:p>
+            <fr:p>Given a simplicial group, we can define a model of its universal principal bundle <fr:tex display="inline"><![CDATA[\mathbf {E} G \to  \mathbf {B} G]]></fr:tex> as simplicial sets <fr:tex display="inline"><![CDATA[W G \to  \bar {W} G]]></fr:tex>. This is a generalization of the <fr:link type="local" href="hmlg-001W.xml" addr="hmlg-001W" title="Bar construction">bar construction</fr:link>, if we consider a group <fr:tex display="inline"><![CDATA[G]]></fr:tex> as a discrete simplicial set. It classifies principal <fr:tex display="inline"><![CDATA[G]]></fr:tex>-bundles in the sense of Theorem 21.13 in <fr:link type="local" href="simplicial-objects.xml" addr="simplicial-objects" title="Simplicial objects in algebraic topology">Simplicial objects in algebraic topology</fr:link>.</fr:p>
             <fr:p>We define the <fr:tex display="inline"><![CDATA[n]]></fr:tex>-simplices of <fr:tex display="inline"><![CDATA[W G]]></fr:tex> to be
   <fr:tex display="block"><![CDATA[(W G)_n = G_0 \times  G_1 \times  \cdots  \times  G_n]]></fr:tex>
   so that <fr:tex display="inline"><![CDATA[G_n]]></fr:tex> acts on <fr:tex display="inline"><![CDATA[(W G)_n]]></fr:tex> by taking the face map that discards the last <fr:tex display="inline"><![CDATA[k]]></fr:tex> vertices for each <fr:tex display="inline"><![CDATA[k]]></fr:tex>, and then acting on the appropriate factor on the right. This forces the face maps and degeneracy maps to be
-  <fr:tex display="block"><![CDATA[\begin {aligned}
-    \partial _k (g_0, \dots , g_n) &=
-      (g_0, \dots , g_{k-1}, \partial _k g_{k+1}, \dots , \partial _k g_n), \\
-    \sigma _k (g_0, \dots , g_n) &=
-      (g_0, \dots , g_{k}, \sigma _k g_{k}, \dots , \sigma _k g_n).
-  \end {aligned}]]></fr:tex>
+  <fr:tex display="block"><![CDATA[\begin {aligned}     \partial _k (g_0, \dots , g_n) &=       (g_0, \dots , g_{k-1}, \partial _k g_{k+1}, \dots , \partial _k g_n), \\     \sigma _k (g_0, \dots , g_n) &=       (g_0, \dots , g_{k}, \sigma _k g_{k}, \dots , \sigma _k g_n).   \end {aligned}]]></fr:tex>
   We define <fr:tex display="inline"><![CDATA[\bar {W} G]]></fr:tex> to be <fr:tex display="inline"><![CDATA[W G]]></fr:tex> quotiented by the action of <fr:tex display="inline"><![CDATA[G]]></fr:tex>. This can be represented as <fr:tex display="inline"><![CDATA[(\bar {W} G)_n = G_0 \times  \cdots  \times  G_{n-1}]]></fr:tex>,
   with the quotient map <fr:tex display="inline"><![CDATA[(W G)_n \twoheadrightarrow  (\bar {W} G)_n]]></fr:tex> given by
   <fr:tex display="block"><![CDATA[(g_0, \dots , g_n) \mapsto  (g_0 (\partial _1 g_1)^{-1}, \dots , g_{n-1} (\partial _n g_n)^{-1}).]]></fr:tex>
   The face and degeneracy maps can then be computed to be
-  <fr:tex display="block"><![CDATA[\begin {aligned}
-    \partial _k (g_0, \dots , g_{n-1}) &=
-      (g_0, g_1, \dots , g_{k-1} \cdot  \partial _k g_k, \partial _k g_{k+1}, \dots , \partial _k g_{n-1}), \\
-    \partial _n (g_0, \dots , g_{n-1}) &=
-      (g_0, g_1, \dots , g_{n-2}) \\
-    \sigma _k (g_0, \dots , g_{n-1}) &=
-      (g_0, g_1, \dots , g_{k-1}, 1, \sigma _k g_{k}, \dots , \sigma _k g_{n-1}).
-  \end {aligned}]]></fr:tex>
-  A quick computation shows that this indeed produces a <fr:link href="hmlg-0028.xml" title="Simplicial principal fiber bundle" addr="hmlg-0028" type="local">simplicial principal fiber bundle</fr:link> with fiber <fr:tex display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
+  <fr:tex display="block"><![CDATA[\begin {aligned}     \partial _k (g_0, \dots , g_{n-1}) &=       (g_0, g_1, \dots , g_{k-1} \cdot  \partial _k g_k, \partial _k g_{k+1}, \dots , \partial _k g_{n-1}), \\     \partial _n (g_0, \dots , g_{n-1}) &=       (g_0, g_1, \dots , g_{n-2}) \\     \sigma _k (g_0, \dots , g_{n-1}) &=       (g_0, g_1, \dots , g_{k-1}, 1, \sigma _k g_{k}, \dots , \sigma _k g_{n-1}).   \end {aligned}]]></fr:tex>
+  A quick computation shows that this indeed produces a <fr:link type="local" href="hmlg-0028.xml" addr="hmlg-0028" title="Simplicial principal fiber bundle">simplicial principal fiber bundle</fr:link> with fiber <fr:tex display="inline"><![CDATA[G]]></fr:tex>.</fr:p>
           </fr:mainmatter>
+          <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>
-    </fr:tree>
-    <fr:tree show-metadata="false" hidden-when-empty="true">
-      <fr:frontmatter>
-        <fr:anchor>2987</fr:anchor>
-        <fr:title text="Contributions">Contributions</fr:title>
-      </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:backmatter />
     </fr:tree>
   </fr:backmatter>
 </fr:tree>
