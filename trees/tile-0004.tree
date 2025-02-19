@@ -1,0 +1,14 @@
+\date{2025-02-19}
+\title{substitution system}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  Given a [[tile-0003]], a \strong{substitution system} is a map from each tile to a patch of tiles, such that when we replace each tile in a tiling with the substitution, the resulting patches of tiles can fit together in the same way, forming another tiling. This process is called \strong{deflation}, while the inverse process, if it exists, is called \strong{inflation}.
+}
+
+\p{
+  More precisely, given a tile #{t}, we assign a list of deflated tiles #{t_i}. Each edge of #{t} will be subdivided into several subedges (with their own colors), such that the subdivision only depends on the color, and edges of opposite colors are divided in a way such that the resulting subedges match. We have a perfect pairing on the set
+  ##{\{\text{subedges of $t$}\} \cup \bigcup_i \{\text{edges of $t_i$}\}} such that the paired edges are compatible. Specifically, if two edges of deflated tiles, or two subedges of #{t} are matched, they must be of opposite colors; if an edge of a deflated tile is matched with a subedge, they must share colors.
+}

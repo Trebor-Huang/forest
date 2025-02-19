@@ -1,0 +1,63 @@
+\date{2025-02-19}
+\title{Penrose rhombs}
+\author{trebor}
+\import{common}
+\taxon{example}
+
+\p{
+  The \strong{Penrose rhombs} form a [[tile-0003]]. It consists of two tiles, the thick and thin rhombuses. They have the same side length, and has an internal angle of #{2\pi / 5} and #{\pi / 5}, respectively. The colors of the edges are #{±c_1, ±c_2} as drawn below.
+}
+
+\p{
+  This comes with a [[tile-0004]], depicted as follows.
+}
+
+\tikz{[scale=1.5]
+  \tikzset{every path/.style={thick, line join=bevel, fill opacity=0.5, font=\footnotesize}}
+  \draw[fill=blue]
+    (-2, 2)
+      -- ++(144:1) node[pos=0.3, above=4pt, fill opacity=1] {$+c_1$}
+      -- ++(-144:1) node[pos=0.7, above=4pt, fill opacity=1] {$+c_2$}
+      -- ++(-36:1) node[pos=0.3, below=4pt, fill opacity=1] {$-c_2$}
+      -- ++(36:1) node[pos=0.7, below=4pt, fill opacity=1] {$-c_1$}
+      -- cycle;
+  \node[fill opacity=1] at (-0.8, 2) {$\implies$};
+  \draw[fill=blue]
+    (2, 2) -- ++(0:1) node (a2) {} -- ++(108:1) -- ++(180:1) -- ++(-72:1) -- cycle;
+  \draw[fill=cyan]
+    (2, 2) -- ++(108:1) node (a3) {} -- ++(144:1) -- ++(-72:1) -- ++(-36:1) -- cycle;
+  \draw[fill=blue]
+    (2, 2) -- ++(144:1)
+    -- ++(-144:1) node[pos=0.7, above=4pt, fill opacity=1] {$-c_1$} node (a4) {}
+    -- ++(-36:1) -- ++(36:1) -- cycle;
+  \draw (2, 2) -- ++(-108:1) node (a1) {};
+
+  \foreach \i in {1,2,3,4} {
+    \fill[opacity=1] (a\i) circle (0.07);
+  }
+
+  \draw[fill=cyan]
+    (-1.8, -0.6)
+      -- ++(162:1) node[pos=0.3, above=3pt, fill opacity=1] {$-c_2$}
+      -- ++(-162:1) node[pos=0.7, above=3pt, fill opacity=1] {$+c_2$}
+      -- ++(-18:1) node[pos=0.3, below=4pt, fill opacity=1] {$-c_1$}
+      -- ++(18:1) node[pos=0.7, below=4pt, fill opacity=1] {$+c_1$}
+      -- cycle;
+  \node[fill opacity=1] at (-0.8, -0.6) {$\implies$};
+  \draw[fill=blue]
+    (1.8, -1.1) node (b1) {} -- ++(-18:1)
+      -- ++(54:1) node[pos=0.8, below=8pt, fill opacity=1] {$-c_1$} node (b2) {}
+      -- ++(162:1) -- ++(-126:1) -- cycle;
+  \draw[fill=cyan]
+    (1.8, -1.1) -- ++(90:1) node (b3) {} -- ++(126:1)
+    -- ++(-90:1) node[midway, left=-2pt, fill opacity=1] {$+c_1$}
+    -- ++(-54:1) -- cycle;
+  \draw (1.8, -1.1) ++(126:1) -- ++(-162:1) node (b4) {};
+  \foreach \i in {1,2,3,4} {
+    \fill[opacity=1] (b\i) circle (0.07);
+  }
+}
+
+\p{
+  Notice that #{±c_1} edges always split into two subedges, and #{±c_2} edges three. They are separated by the four vertices drawn as black dots. However, these subedges may be pinched together, creating zero-width “spurs” protruding from the tiling. They are to be read as two subedges, first going out from the tilings and turning back. This is necessary to uniformly define how the tiles fit together after the substitution.
+}

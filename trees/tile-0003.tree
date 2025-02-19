@@ -1,0 +1,13 @@
+\date{2025-02-19}
+\title{tile system}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  We define a (two-dimensional) \strong{tile system} as a collection of finitely many polygons, called tiles, with colored edges, such that the colors come in pairs written as #{+c, -c}. A \strong{tiling} of the tile system is a tessellation of the plane by these tiles, such that tiles can only touch by sharing entire edges, such that the colors on those edges are in pairs.
+}
+
+\p{
+  For tilings with finite local complexity, these restrictions do not lose generality, as we can always break a line segment up into multiple edges.
+}
