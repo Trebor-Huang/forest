@@ -1,0 +1,43 @@
+\date{2025-02-20}
+\title{recursive neighborhood algorithm}
+\author{trebor}
+\import{common}
+\taxon{algorithm}
+
+\p{
+  Suppose we have a [[tile-0004]]. Given the [[tile-0006]] of a tile #{t} and an edge label #{\epsilon} of that tile, we can calculate the signature of the neighboring tile #{t'} and the edge label #{\epsilon'} of #{t'} that coincides with #{\epsilon}. This is implemented by mutual recursion with another auxiliary function. Given the signature of a tile and a subedge of that tile under deflation, it calculates the signature of the subtile #{t'} we will arrive in if we cross the subedge inwards, and the edge label of #{t'} corresponding to the input subedge.
+}
+
+\p{
+  This second function is non-trivial, because for some substitution systems, crossing inwards through a subedge may lead us immediately out through another subedge, if they are pinched together. See \ref{tile-0005}.
+}
+
+\p{
+  The neighborhood function is as follows. Suppose we have a [[tile-0006]]
+  ##{t_0 \xrightarrow{s_1} t_1 \xrightarrow{s_2} t_2 \longrightarrow \cdots}
+  and an edge #{\epsilon_0} of the tile #{t_0}. We consult the pairing of edges as specified in the [[tile-0004]]. This has two cases.
+}
+
+\ul{
+  \li{Suppose the edge #{\epsilon_0} (of the subtile labelled #{s_1}) is paired with another edge #{\epsilon'_0} of the subtile numbered #{s'_1}. Then since these two subtiles are neighbors already, we can directly output the signature
+  ##{t'_0 \xrightarrow{s'_1} t_1 \xrightarrow{s_2} t_2 \longrightarrow \cdots}
+  and the edge label #{\epsilon'_0}, where #{t'_0} is the prototile type of the #{s'_1} subtile in #{t_1}.}
+  \li{Suppose the edge is paired with a subedge #{\sigma_1} of an edge #{\epsilon_1} in the tile #{t_1}. Then we need to exit the tile #{t_1} through this edge. We recursively call this function on the Conway signature #{t_1 \xrightarrow{s_2} \cdots} and the edge label #{\epsilon_1}. Suppose the algorithm determines that its neighbor has the Conway signature #{\Delta} and the edge label #{\epsilon'_1}. We then invoke the auxiliary function to calculate the subtile we would obtain if we enter #{\Delta} from the subedge #{\sigma_1} of its edge #{\epsilon'_1}, and we can return its output, tail-recursively.}
+}
+
+\p{
+  For the auxiliary function, suppose again we have a signature
+  ##{\Sigma = t_0 \xrightarrow{s_1} t_1 \xrightarrow{s_2} t_2 \longrightarrow \cdots}
+  and we have specified an edge #{\epsilon_0} of the tile #{t_0}, together with one of its subedges #{\sigma_0}. Again, we look up what is paired, in the substitution of #{t_0}, with the subedge #{\sigma_0}.
+}
+
+\ul{
+  \li{
+    Suppose the result is an edge #{\epsilon_{-1}} in the subtile #{s_0} of #{t_0}. Then we can output
+    ##{t_{-1} \xrightarrow{s_{0}} t_0 \xrightarrow{s_1} t_1 \longrightarrow \cdots}
+    and the edge label #{\epsilon_{-1}}, where #{t_{-1}} is the prototile label corresponding to the subtile #{s_0}.
+  }
+  \li{
+    Suppose the result is another subedge #{\sigma'_0} of the edge #{\epsilon'_0}. Then we call the neighborhood function on the Conway signature #{\Sigma} and the edge label #{\epsilon'_0}. Let the result be the signature #{\Delta} and the edge #{\epsilon''_0}. Now we just need to call the auxiliary function on #{\Delta} with the subedge #{\sigma'_0} of #{\epsilon''_0}, and return its result.
+  }
+}

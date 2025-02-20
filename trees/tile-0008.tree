@@ -1,0 +1,26 @@
+\date{2025-02-20}
+\title{Combinatorial data}
+\author{trebor}
+\import{common}
+
+\p{
+  We specify the combinatorial data required to define a substitution tile system.
+}
+
+\transclude{tile-0003}
+
+\transclude{tile-0004}
+
+\p{
+  On a first read, the definition of a substitution system may seem to contain some surprising cases. Why is it possible to have subedges paired against each other? This is because there are [examples](tile-0005) where this occurs. Even though we can often transform our substitution systems to avoid this, it allows for very economic presentations, and thus more efficient algorithms. In addition, accounting for these cases reveals some symmetry in the recursive structure of our programs.
+}
+
+\p{
+  Now we have enough terminology to define the fundamental object in our algorithms, the Conway signature.
+}
+
+\transclude{tile-0006}
+
+\p{
+  Computationally, this can be regarded as an infinite stream of data. In lazy languages like Haskell, we can directly implement this as an infinite list. Notice that there will be a lot of sharing as the signature of different tiles will often share a tail. So if your language does not have lazy functional data structures, you need to make sure sharing has a low cost.
+}
