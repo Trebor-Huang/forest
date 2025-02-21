@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1070</fr:anchor>
+    <fr:anchor>1168</fr:anchor>
     <fr:addr type="machine">#252</fr:addr>
     <fr:route>unstable-252.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
@@ -31,7 +31,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1072</fr:anchor>
+            <fr:anchor>1170</fr:anchor>
             <fr:addr type="user">hmlg-002O</fr:addr>
             <fr:route>hmlg-002O.xml</fr:route>
             <fr:title text="Abelian groups are injective iff divisible">Abelian groups are injective iff divisible</fr:title>
@@ -50,7 +50,7 @@
           <fr:mainmatter><fr:p>An abelian group <fr:tex display="inline"><![CDATA[G]]></fr:tex> is <fr:link type="local" href="hmlg-002J.xml" addr="hmlg-002J" title="Injective object">injective</fr:link> iff it is <fr:strong>divisible</fr:strong>, i.e. for element <fr:tex display="inline"><![CDATA[g \in  G]]></fr:tex> and positive integer <fr:tex display="inline"><![CDATA[n]]></fr:tex>, there exists a (non-unique) solution of <fr:tex display="inline"><![CDATA[nx = g]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1074</fr:anchor><fr:addr type="machine">#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1172</fr:anchor><fr:addr type="machine">#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>In one direction, suppose the group is injective, then the map <fr:tex display="inline"><![CDATA[\mathbb {Z} \to  G]]></fr:tex> defined by <fr:tex display="inline"><![CDATA[k \mapsto  k g]]></fr:tex> can be extended along the monomorphism <fr:tex display="inline"><![CDATA[(n \times  -) : \mathbb {Z} \to  \mathbb {Z}]]></fr:tex>. This provides the division.</fr:p>
 
   <fr:p>On the other hand, suppose divisibility holds. Given a morphism <fr:tex display="inline"><![CDATA[f : A \to  G]]></fr:tex> and an injection <fr:tex display="inline"><![CDATA[A \hookrightarrow  B]]></fr:tex>, we extend <fr:tex display="inline"><![CDATA[f]]></fr:tex> to <fr:tex display="inline"><![CDATA[B]]></fr:tex> by Zorn's lemma. Consider the poset of homomorphisms extending <fr:tex display="inline"><![CDATA[f]]></fr:tex> to some subgroup of <fr:tex display="inline"><![CDATA[B]]></fr:tex>. Given a chain in this poset, we can take the union to create an upper bound. And it is non-empty since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is an element. Hence it has a maximal element <fr:tex display="inline"><![CDATA[\phi ]]></fr:tex>. Suppose it is defined on <fr:tex display="inline"><![CDATA[B' \subsetneq  B]]></fr:tex>, then there is an element <fr:tex display="inline"><![CDATA[b \in  B]]></fr:tex> not in <fr:tex display="inline"><![CDATA[B']]></fr:tex>. Suppose <fr:tex display="inline"><![CDATA[n b \notin  B']]></fr:tex> for all non-zero integers <fr:tex display="inline"><![CDATA[n]]></fr:tex>, then we can define a larger homomorphism on <fr:tex display="inline"><![CDATA[B + \mathbb {Z} b]]></fr:tex>, contradicting the maximality. Suppose there is some <fr:tex display="inline"><![CDATA[n b \in  B']]></fr:tex>, then by divisibility we can assign <fr:tex display="inline"><![CDATA[\phi (b)]]></fr:tex> a division of <fr:tex display="inline"><![CDATA[\phi (n b)]]></fr:tex> by <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This too contradicts maximality.</fr:p>

@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2976</fr:anchor>
+    <fr:anchor>3074</fr:anchor>
     <fr:addr type="user">hmlg-000P</fr:addr>
     <fr:route>hmlg-000P.xml</fr:route>
     <fr:title text="Additive category">Additive category</fr:title>
@@ -21,7 +21,7 @@
   <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> be <fr:link type="local" href="hmlg-000O.xml" addr="hmlg-000O" title="{Ab}-enriched category"><fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched</fr:link>. The finite products and coproducts, if they exist, are isomorphic via a canonical map. If they all exist, then this category is called an <fr:strong>additive category</fr:strong>. In particular, the nullary product and coproduct coincide, and we call the object <fr:strong>zero object</fr:strong>, denoted <fr:tex display="inline"><![CDATA[0]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1134</fr:anchor><fr:addr type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1232</fr:anchor><fr:addr type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>By the universal property of products and coproducts, a map from the coproduct of some objects <fr:tex display="inline"><![CDATA[X_i]]></fr:tex> to their product is given by a matrix of morphisms <fr:tex display="inline"><![CDATA[f_{ij} : X_i \to  X_j]]></fr:tex>. We choose the identity matrix
     <fr:tex display="block"><![CDATA[f_{ij} = \begin {cases}       \textrm {id} & (i = j) \\       0 & (i \ne  j)     \end {cases}]]></fr:tex>
     where <fr:tex display="inline"><![CDATA[0]]></fr:tex> is the additive neutral element in the abelian group <fr:tex display="inline"><![CDATA[\hom (X_i, X_j)]]></fr:tex>. This gives a canonical map <fr:tex display="inline"><![CDATA[\coprod _i X_i \to  \prod _i X_i]]></fr:tex>.</fr:p>
@@ -39,7 +39,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2978</fr:anchor>
+            <fr:anchor>3076</fr:anchor>
             <fr:addr type="user">hmlg-000U</fr:addr>
             <fr:route>hmlg-000U.xml</fr:route>
             <fr:title text="Additive and abelian categories">Additive and abelian categories</fr:title>
@@ -59,7 +59,7 @@
             <fr:p>First, we wish to let the morphisms form abelian groups. This turns out to have a surprising impact on the structure of categories, the most important of which is the coincidence of finite products and coproducts.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>1130</fr:anchor>
+                <fr:anchor>1228</fr:anchor>
                 <fr:addr type="user">hmlg-000O</fr:addr>
                 <fr:route>hmlg-000O.xml</fr:route>
                 <fr:title text="{Ab}-enriched category"><fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched category</fr:title>
@@ -82,7 +82,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>1132</fr:anchor>
+                <fr:anchor>1230</fr:anchor>
                 <fr:addr type="user">hmlg-000P</fr:addr>
                 <fr:route>hmlg-000P.xml</fr:route>
                 <fr:title text="Additive category">Additive category</fr:title>
@@ -101,7 +101,7 @@
               <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> be <fr:link type="local" href="hmlg-000O.xml" addr="hmlg-000O" title="{Ab}-enriched category"><fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched</fr:link>. The finite products and coproducts, if they exist, are isomorphic via a canonical map. If they all exist, then this category is called an <fr:strong>additive category</fr:strong>. In particular, the nullary product and coproduct coincide, and we call the object <fr:strong>zero object</fr:strong>, denoted <fr:tex display="inline"><![CDATA[0]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1134</fr:anchor><fr:addr type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1232</fr:anchor><fr:addr type="machine">#267</fr:addr><fr:route>unstable-267.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>By the universal property of products and coproducts, a map from the coproduct of some objects <fr:tex display="inline"><![CDATA[X_i]]></fr:tex> to their product is given by a matrix of morphisms <fr:tex display="inline"><![CDATA[f_{ij} : X_i \to  X_j]]></fr:tex>. We choose the identity matrix
     <fr:tex display="block"><![CDATA[f_{ij} = \begin {cases}       \textrm {id} & (i = j) \\       0 & (i \ne  j)     \end {cases}]]></fr:tex>
     where <fr:tex display="inline"><![CDATA[0]]></fr:tex> is the additive neutral element in the abelian group <fr:tex display="inline"><![CDATA[\hom (X_i, X_j)]]></fr:tex>. This gives a canonical map <fr:tex display="inline"><![CDATA[\coprod _i X_i \to  \prod _i X_i]]></fr:tex>.</fr:p>
@@ -115,7 +115,7 @@
             <fr:p>Due to this coincidence creating gadgets with <fr:em>two universal properties</fr:em>, the structure of additive categories are uniquely determined. This also means that we only need very mild conditions on functors to preserve the structures of an additive category.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>1136</fr:anchor>
+                <fr:anchor>1234</fr:anchor>
                 <fr:addr type="user">hmlg-000R</fr:addr>
                 <fr:route>hmlg-000R.xml</fr:route>
                 <fr:title text="Being an additive category is a property">Being an additive category is a <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">property</fr:link></fr:title>
@@ -134,7 +134,7 @@
               <fr:mainmatter><fr:p>Given a category, if it can be endowed with an <fr:link type="local" href="hmlg-000O.xml" addr="hmlg-000O" title="{Ab}-enriched category"><fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enrichment</fr:link> that makes it an <fr:link type="local" href="hmlg-000P.xml" addr="hmlg-000P" title="Additive category">additive category</fr:link>, then it only has one possible enrichment. In particular, there is at most one way to turn a category into an additive category.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1138</fr:anchor><fr:addr type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1236</fr:anchor><fr:addr type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Notice that having finite products and coproducts is a <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">property</fr:link>, and the canonical morphism between them being an isomorphism is also a <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">property</fr:link>. These do not mention the enrichment structure.</fr:p>
 
   <fr:p>With these properties satisfied, the addition structure on the <fr:tex display="inline"><![CDATA[\hom ]]></fr:tex>-sets are fixed. We claim that the additive neutral element is given by the composition
@@ -151,7 +151,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>1140</fr:anchor>
+                <fr:anchor>1238</fr:anchor>
                 <fr:addr type="user">hmlg-000S</fr:addr>
                 <fr:route>hmlg-000S.xml</fr:route>
                 <fr:title text="Additive functor">Additive functor</fr:title>
@@ -172,7 +172,7 @@
   <fr:li>The functor is a homomorphism on the abelian groups <fr:tex display="inline"><![CDATA[\hom _{\mathcal {C}}(X, Y)]]></fr:tex>, i.e. it is an <fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched functor.</fr:li></fr:ul>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>986</fr:anchor><fr:addr type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1084</fr:anchor><fr:addr type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>For the equivalence of the first two claims, we have a composition
     <fr:tex display="block"><![CDATA[F(X) + F(Y) \to  F(X + Y) \stackrel {\sim \,}{\to } F(X \times  Y) \to  F(X) \times  F(Y),]]></fr:tex>
     where the middle morphism comes from the canonical isomorphism <fr:tex display="inline"><![CDATA[X + Y \stackrel {\sim \,}{\to } F(X \times  Y)]]></fr:tex>. The first two claim is equivalent to the right and left arrows being iso, respectively. Recall that a morphism from a coproduct to a product is determined by a matrix of morphisms. With this fact and the functoriality of <fr:tex display="inline"><![CDATA[F]]></fr:tex>, we can compute that the composition is the canonical isomorphism from <fr:tex display="inline"><![CDATA[F(X) + F(Y)]]></fr:tex> to <fr:tex display="inline"><![CDATA[F(X) \times  F(Y)]]></fr:tex>. Therefore the leftmost arrow being iso is equivalent to the rightmost arrow being iso.</fr:p>
@@ -187,7 +187,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>1142</fr:anchor>
+                <fr:anchor>1240</fr:anchor>
                 <fr:addr type="user">hmlg-000T</fr:addr>
                 <fr:route>hmlg-000T.xml</fr:route>
                 <fr:title text="Adjunctions are additive">Adjunctions are additive</fr:title>
@@ -206,7 +206,7 @@
               <fr:mainmatter><fr:p>In an adjunction <fr:tex display="inline"><![CDATA[F \dashv  G]]></fr:tex>, both functors are automatically additive.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1144</fr:anchor><fr:addr type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Since the left adjoint preserves colimits, it preserves finite coproducts. Therefore by <fr:ref addr="hmlg-000S" href="hmlg-000S.xml" taxon="Definition" /> it is an additive functor. Dually, the right adjoint preserves limits, and is also additive.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1242</fr:anchor><fr:addr type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Since the left adjoint preserves colimits, it preserves finite coproducts. Therefore by <fr:ref addr="hmlg-000S" href="hmlg-000S.xml" taxon="Definition" /> it is an additive functor. Dually, the right adjoint preserves limits, and is also additive.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
               <fr:backmatter />
@@ -214,7 +214,7 @@
             <fr:p>Kernels and cokernels are also greatly simplified in additive categories.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>1146</fr:anchor>
+                <fr:anchor>1244</fr:anchor>
                 <fr:addr type="user">hmlg-000Y</fr:addr>
                 <fr:route>hmlg-000Y.xml</fr:route>
                 <fr:title text="Equalizers can be reduced to kernels in {Ab}-enriched categories">Equalizers can be reduced to kernels in <fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched categories</fr:title>
@@ -233,7 +233,7 @@
               <fr:mainmatter><fr:p>We can express equalizers with kernels (which are equalizers with the zero morphism).</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1148</fr:anchor><fr:addr type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1246</fr:anchor><fr:addr type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We simply need to note that an equalizer for <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex> is equivalent to an equalizer for <fr:tex display="inline"><![CDATA[(f-g)]]></fr:tex> and <fr:tex display="inline"><![CDATA[0]]></fr:tex>, by bilinearity of composition.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
@@ -242,7 +242,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>1150</fr:anchor>
+                <fr:anchor>1248</fr:anchor>
                 <fr:addr type="user">hmlg-000W</fr:addr>
                 <fr:route>hmlg-000W.xml</fr:route>
                 <fr:title text="Abelian categories">Abelian categories</fr:title>
@@ -265,7 +265,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>1152</fr:anchor>
+                <fr:anchor>1250</fr:anchor>
                 <fr:addr type="user">hmlg-000Q</fr:addr>
                 <fr:route>hmlg-000Q.xml</fr:route>
                 <fr:title text="Abelian category">Abelian category</fr:title>
@@ -293,7 +293,7 @@
             <fr:p>Although practically every important functor between additive categories is additive, the same cannot be said for abelian categories. Functors preserving the structure of abelian categories are called <fr:link type="local" href="hmlg-000X.xml" addr="hmlg-000X" title="Left and right exact functor">exact</fr:link>, but many functors fail to satisfy this for various reasons. <html:mark xmlns:html="http://www.w3.org/1999/xhtml">One of the main endeavours of homological algebra is to characterize the failures of exactness, and study their consequences.</html:mark> This leads to intricate and beautiful structures emerging.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>1154</fr:anchor>
+                <fr:anchor>1252</fr:anchor>
                 <fr:addr type="user">hmlg-000X</fr:addr>
                 <fr:route>hmlg-000X.xml</fr:route>
                 <fr:title text="Left and right exact functor">Left and right exact functor</fr:title>
@@ -316,7 +316,7 @@
   <fr:li>It preserves the exactness of sequences <fr:tex display="block"><![CDATA[A \to  B \to  C \to  0.]]></fr:tex></fr:li></fr:ul><fr:p>If a functor is both left exact and right exact, it is simply called an <fr:strong>exact functor</fr:strong>, which is equivalent to it preserving the exactness of sequences <fr:tex display="inline"><![CDATA[A \to  B \to  C]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1065</fr:anchor><fr:addr type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1163</fr:anchor><fr:addr type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Since additive functors already preserves finite products, and <fr:link type="local" href="hmlg-000Y.xml" addr="hmlg-000Y" title="Equalizers can be reduced to kernels in {Ab}-enriched categories">kernels are equivalent to general equalizers</fr:link> using the additive structure, the first two conditions are equivalent.</fr:p>
 
   <fr:p>The sequence <fr:tex display="inline"><![CDATA[A \rightarrowtail  B \to  C]]></fr:tex> being exact is equivalent to <fr:tex display="inline"><![CDATA[A]]></fr:tex> being a kernel of <fr:tex display="inline"><![CDATA[B \to  C]]></fr:tex>. So the third condition is equivalent to the first. This completes the equivalence proof.</fr:p>
@@ -339,7 +339,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2980</fr:anchor>
+            <fr:anchor>3078</fr:anchor>
             <fr:addr type="user">hmlg-000W</fr:addr>
             <fr:route>hmlg-000W.xml</fr:route>
             <fr:title text="Abelian categories">Abelian categories</fr:title>
@@ -362,7 +362,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2982</fr:anchor>
+            <fr:anchor>3080</fr:anchor>
             <fr:addr type="user">hmlg-000Q</fr:addr>
             <fr:route>hmlg-000Q.xml</fr:route>
             <fr:title text="Abelian category">Abelian category</fr:title>
@@ -388,7 +388,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2984</fr:anchor>
+            <fr:anchor>3082</fr:anchor>
             <fr:addr type="user">hmlg-000S</fr:addr>
             <fr:route>hmlg-000S.xml</fr:route>
             <fr:title text="Additive functor">Additive functor</fr:title>
@@ -409,7 +409,7 @@
   <fr:li>The functor is a homomorphism on the abelian groups <fr:tex display="inline"><![CDATA[\hom _{\mathcal {C}}(X, Y)]]></fr:tex>, i.e. it is an <fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched functor.</fr:li></fr:ul>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>986</fr:anchor><fr:addr type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1084</fr:anchor><fr:addr type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>For the equivalence of the first two claims, we have a composition
     <fr:tex display="block"><![CDATA[F(X) + F(Y) \to  F(X + Y) \stackrel {\sim \,}{\to } F(X \times  Y) \to  F(X) \times  F(Y),]]></fr:tex>
     where the middle morphism comes from the canonical isomorphism <fr:tex display="inline"><![CDATA[X + Y \stackrel {\sim \,}{\to } F(X \times  Y)]]></fr:tex>. The first two claim is equivalent to the right and left arrows being iso, respectively. Recall that a morphism from a coproduct to a product is determined by a matrix of morphisms. With this fact and the functoriality of <fr:tex display="inline"><![CDATA[F]]></fr:tex>, we can compute that the composition is the canonical isomorphism from <fr:tex display="inline"><![CDATA[F(X) + F(Y)]]></fr:tex> to <fr:tex display="inline"><![CDATA[F(X) \times  F(Y)]]></fr:tex>. Therefore the leftmost arrow being iso is equivalent to the rightmost arrow being iso.</fr:p>
@@ -424,7 +424,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2986</fr:anchor>
+            <fr:anchor>3084</fr:anchor>
             <fr:addr type="user">hmlg-000R</fr:addr>
             <fr:route>hmlg-000R.xml</fr:route>
             <fr:title text="Being an additive category is a property">Being an additive category is a <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">property</fr:link></fr:title>
@@ -443,7 +443,7 @@
           <fr:mainmatter><fr:p>Given a category, if it can be endowed with an <fr:link type="local" href="hmlg-000O.xml" addr="hmlg-000O" title="{Ab}-enriched category"><fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enrichment</fr:link> that makes it an <fr:link type="local" href="hmlg-000P.xml" addr="hmlg-000P" title="Additive category">additive category</fr:link>, then it only has one possible enrichment. In particular, there is at most one way to turn a category into an additive category.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1138</fr:anchor><fr:addr type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1236</fr:anchor><fr:addr type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Notice that having finite products and coproducts is a <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">property</fr:link>, and the canonical morphism between them being an isomorphism is also a <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">property</fr:link>. These do not mention the enrichment structure.</fr:p>
 
   <fr:p>With these properties satisfied, the addition structure on the <fr:tex display="inline"><![CDATA[\hom ]]></fr:tex>-sets are fixed. We claim that the additive neutral element is given by the composition
@@ -469,7 +469,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2988</fr:anchor>
+            <fr:anchor>3086</fr:anchor>
             <fr:addr type="user">hmlg-000O</fr:addr>
             <fr:route>hmlg-000O.xml</fr:route>
             <fr:title text="{Ab}-enriched category"><fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched category</fr:title>

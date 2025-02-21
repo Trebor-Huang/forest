@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2480</fr:anchor>
+    <fr:anchor>2578</fr:anchor>
     <fr:addr type="machine">#301</fr:addr>
     <fr:route>unstable-301.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
@@ -31,7 +31,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2482</fr:anchor>
+            <fr:anchor>2580</fr:anchor>
             <fr:addr type="user">algm-0003</fr:addr>
             <fr:route>algm-0003.xml</fr:route>
             <fr:title text="The radical ideal is the lcm of prime ideal divisors">The radical ideal is the lcm of prime ideal divisors</fr:title>
@@ -50,7 +50,7 @@
           <fr:mainmatter><fr:p>For any ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> of a commutative ring, the radical <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}}]]></fr:tex> is the lowest common multiple of the prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2420</fr:anchor><fr:addr type="machine">#301</fr:addr><fr:route>unstable-301.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2518</fr:anchor><fr:addr type="machine">#301</fr:addr><fr:route>unstable-301.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>On one hand, if <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f^n]]></fr:tex> for some natural number <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This means for all <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f^n]]></fr:tex>, which by being a prime ideal implies <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex>.</fr:p>
 
   <fr:p>On the other hand, suppose <fr:tex display="inline"><![CDATA[\mathfrak {a} \nmid  f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>, we construct a prime ideal divisor of <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> that is not a divisor of <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Consider the set of all ideals not a divisor of <fr:tex display="inline"><![CDATA[f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> still in this set, since <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link type="external" href="https://en.wikipedia.org/wiki/Zorn's_lemma">Zorn’s lemma</fr:link>, the set contains some <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex display="inline"><![CDATA[\mathfrak {q} \nmid  x, y]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {q}' = \gcd (\mathfrak {q}, x y)]]></fr:tex> is a proper divisor of <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x y \mid  f^n]]></fr:tex>, so <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y \mid  f^n]]></fr:tex>, contradiction.</fr:p>

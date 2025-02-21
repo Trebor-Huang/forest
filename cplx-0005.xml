@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>840</fr:anchor>
+    <fr:anchor>938</fr:anchor>
     <fr:addr type="user">cplx-0005</fr:addr>
     <fr:route>cplx-0005.xml</fr:route>
     <fr:title text="Line integral">Line integral</fr:title>
@@ -39,7 +39,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>842</fr:anchor>
+            <fr:anchor>940</fr:anchor>
             <fr:addr type="user">cplx-0008</fr:addr>
             <fr:route>cplx-0008.xml</fr:route>
             <fr:title text="First consequences of complex differentiability">First consequences of complex differentiability</fr:title>
@@ -58,7 +58,7 @@
             <fr:p>From the definition of a <fr:link type="local" href="cplx-0001.xml" addr="cplx-0001" title="Holomorphic function">holomorphic function</fr:link>, we can immediately start exploring some of its consequences. It turns out that complex differentiability is much stronger than real differentiability, and the following theorem gives a first glimpse.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>778</fr:anchor>
+                <fr:anchor>876</fr:anchor>
                 <fr:addr type="user">cplx-0002</fr:addr>
                 <fr:route>cplx-0002.xml</fr:route>
                 <fr:title text="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:title>
@@ -85,7 +85,7 @@
             <fr:p>We can write these equations formally in a more suggestive way.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>780</fr:anchor>
+                <fr:anchor>878</fr:anchor>
                 <fr:addr type="user">cplx-0003</fr:addr>
                 <fr:route>cplx-0003.xml</fr:route>
                 <fr:title text="Complexifying the (co)tangent space">Complexifying the (co)tangent space</fr:title>
@@ -107,7 +107,7 @@
                 <fr:p>This gives a heuristic procedure for finding the <fr:link type="local" href="cplx-0002.xml" addr="cplx-0002" title="Cauchy–Riemann equations">harmonic conjugate</fr:link> of a function.</fr:p>
                 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
                   <fr:frontmatter>
-                    <fr:anchor>782</fr:anchor>
+                    <fr:anchor>880</fr:anchor>
                     <fr:addr type="user">cplx-0004</fr:addr>
                     <fr:route>cplx-0004.xml</fr:route>
                     <fr:title text="Formal method to calculate the harmonic conjugate">Formal method to calculate the harmonic conjugate</fr:title>
@@ -134,7 +134,7 @@
             <fr:p>The <fr:link type="local" href="cplx-0002.xml" addr="cplx-0002" title="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:link> is very suggestive of the assumption in Green’s theorem in (real) multi-variable calculus. This prompts us to define notions of line integrals on the complex plane.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>784</fr:anchor>
+                <fr:anchor>882</fr:anchor>
                 <fr:addr type="user">cplx-0005</fr:addr>
                 <fr:route>cplx-0005.xml</fr:route>
                 <fr:title text="Line integral">Line integral</fr:title>
@@ -166,7 +166,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>786</fr:anchor>
+                <fr:anchor>884</fr:anchor>
                 <fr:addr type="user">cplx-0006</fr:addr>
                 <fr:route>cplx-0006.xml</fr:route>
                 <fr:title text="Integral of holomorphic function does not depend on path">Integral of holomorphic function does not depend on path</fr:title>
@@ -195,7 +195,7 @@
   And so the integral of <fr:tex display="inline"><![CDATA[g(z)]]></fr:tex> along a circle around <fr:tex display="inline"><![CDATA[a]]></fr:tex> must be zero. Now we can separate out the second term <fr:tex display="inline"><![CDATA[f(a) \cdot  \int _\gamma  1/(z - a) \operatorname {d}\mathclose {z}]]></fr:tex>. This can be directly computed to be <fr:tex display="inline"><![CDATA[2 \pi  i f(a)]]></fr:tex>. This proves the following formula.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>788</fr:anchor>
+                <fr:anchor>886</fr:anchor>
                 <fr:addr type="user">cplx-0009</fr:addr>
                 <fr:route>cplx-0009.xml</fr:route>
                 <fr:title text="Cauchy integral formula">Cauchy integral formula</fr:title>
@@ -216,7 +216,7 @@
   where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the boundary of the disk.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>762</fr:anchor><fr:addr type="machine">#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>860</fr:anchor><fr:addr type="machine">#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Removing a smaller disk of radius <fr:tex display="inline"><![CDATA[r]]></fr:tex> around <fr:tex display="inline"><![CDATA[a]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\frac {f(z) - f(a)}{z - a}]]></fr:tex> is an analytic function in this region. Applying <fr:link type="local" href="cplx-0006.xml" addr="cplx-0006" title="Integral of holomorphic function does not depend on path">Green’s formula</fr:link> we have
     <fr:tex display="block"><![CDATA[\int _{\gamma } \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z} = \int _{\gamma '} \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex>
     where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the original circle, and <fr:tex display="inline"><![CDATA[\gamma ']]></fr:tex> is the smaller circle. Now since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is holomorphic, the integrand has a limit as <fr:tex display="inline"><![CDATA[z \to  a]]></fr:tex> by definition, so in particular it is bounded for small enough <fr:tex display="inline"><![CDATA[r]]></fr:tex>. Therefore the right hand side is bounded by <fr:tex display="inline"><![CDATA[2 \pi  r C]]></fr:tex> for a constant <fr:tex display="inline"><![CDATA[C]]></fr:tex>, which goes to zero. So the left hand side must be zero since it does not depend on <fr:tex display="inline"><![CDATA[r]]></fr:tex>.</fr:p>
@@ -232,7 +232,7 @@
             <fr:p>The integral of <fr:tex display="inline"><![CDATA[1/(z-a)]]></fr:tex> can in fact be computed more generally. This also means we can use more general closed curves in <fr:ref addr="cplx-0009" href="cplx-0009.xml" taxon="Theorem" />, which will be useful in calculations.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>790</fr:anchor>
+                <fr:anchor>888</fr:anchor>
                 <fr:addr type="user">cplx-0007</fr:addr>
                 <fr:route>cplx-0007.xml</fr:route>
                 <fr:title text="Integration around a pole">Integration around a pole</fr:title>
@@ -251,7 +251,7 @@
               <fr:mainmatter><fr:p>Given a piecewise differentiable closed curve <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> not passing through <fr:tex display="inline"><![CDATA[a]]></fr:tex>, the complex <fr:link type="local" href="cplx-0005.xml" addr="cplx-0005" title="Line integral">line integral</fr:link> <fr:tex display="block"><![CDATA[\int _\gamma  \frac {1}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex> is always a multiple of <fr:tex display="inline"><![CDATA[2 \pi  i]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>792</fr:anchor><fr:addr type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>890</fr:anchor><fr:addr type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Intuitively, <fr:tex display="inline"><![CDATA[1/(z-a)]]></fr:tex> is the derivative of the function <fr:tex display="inline"><![CDATA[\log (z - a)]]></fr:tex>. But formalizing this is difficult, since logarithms are not single-valued, so what happens near the branch cuts is not clear. However, we can avoid this by considering the inverse function <fr:tex display="inline"><![CDATA[\exp ]]></fr:tex> instead.</fr:p>
 
   <fr:p>Let the path be parametrized by the interval <fr:tex display="inline"><![CDATA[[0,1]]]></fr:tex> for convenience. Consider the function <fr:tex display="block"><![CDATA[g(t) = \int _0^t \frac {\gamma '(t)}{\gamma (t) - a} \operatorname {d}\mathclose {t}.]]></fr:tex> By the intuition above, we expect <fr:tex display="inline"><![CDATA[g(t) \xlongequal {?} \log (\gamma (t) - a) + C]]></fr:tex>. So we instead consider <fr:tex display="inline"><![CDATA[h(t) = \exp (g(t))/(\gamma (t) - a)]]></fr:tex> and prove it is a constant. This can be verified by differentiation, using the chain rule and the fundamental theorem of calculus.</fr:p>
@@ -276,7 +276,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>844</fr:anchor>
+            <fr:anchor>942</fr:anchor>
             <fr:addr type="user">cplx-0006</fr:addr>
             <fr:route>cplx-0006.xml</fr:route>
             <fr:title text="Integral of holomorphic function does not depend on path">Integral of holomorphic function does not depend on path</fr:title>
@@ -302,7 +302,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>846</fr:anchor>
+            <fr:anchor>944</fr:anchor>
             <fr:addr type="user">cplx-0007</fr:addr>
             <fr:route>cplx-0007.xml</fr:route>
             <fr:title text="Integration around a pole">Integration around a pole</fr:title>
@@ -321,7 +321,7 @@
           <fr:mainmatter><fr:p>Given a piecewise differentiable closed curve <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> not passing through <fr:tex display="inline"><![CDATA[a]]></fr:tex>, the complex <fr:link type="local" href="cplx-0005.xml" addr="cplx-0005" title="Line integral">line integral</fr:link> <fr:tex display="block"><![CDATA[\int _\gamma  \frac {1}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex> is always a multiple of <fr:tex display="inline"><![CDATA[2 \pi  i]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>792</fr:anchor><fr:addr type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>890</fr:anchor><fr:addr type="machine">#273</fr:addr><fr:route>unstable-273.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Intuitively, <fr:tex display="inline"><![CDATA[1/(z-a)]]></fr:tex> is the derivative of the function <fr:tex display="inline"><![CDATA[\log (z - a)]]></fr:tex>. But formalizing this is difficult, since logarithms are not single-valued, so what happens near the branch cuts is not clear. However, we can avoid this by considering the inverse function <fr:tex display="inline"><![CDATA[\exp ]]></fr:tex> instead.</fr:p>
 
   <fr:p>Let the path be parametrized by the interval <fr:tex display="inline"><![CDATA[[0,1]]]></fr:tex> for convenience. Consider the function <fr:tex display="block"><![CDATA[g(t) = \int _0^t \frac {\gamma '(t)}{\gamma (t) - a} \operatorname {d}\mathclose {t}.]]></fr:tex> By the intuition above, we expect <fr:tex display="inline"><![CDATA[g(t) \xlongequal {?} \log (\gamma (t) - a) + C]]></fr:tex>. So we instead consider <fr:tex display="inline"><![CDATA[h(t) = \exp (g(t))/(\gamma (t) - a)]]></fr:tex> and prove it is a constant. This can be verified by differentiation, using the chain rule and the fundamental theorem of calculus.</fr:p>
@@ -343,7 +343,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>848</fr:anchor>
+            <fr:anchor>946</fr:anchor>
             <fr:addr type="user">cplx-0003</fr:addr>
             <fr:route>cplx-0003.xml</fr:route>
             <fr:title text="Complexifying the (co)tangent space">Complexifying the (co)tangent space</fr:title>
@@ -365,7 +365,7 @@
             <fr:p>This gives a heuristic procedure for finding the <fr:link type="local" href="cplx-0002.xml" addr="cplx-0002" title="Cauchy–Riemann equations">harmonic conjugate</fr:link> of a function.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>782</fr:anchor>
+                <fr:anchor>880</fr:anchor>
                 <fr:addr type="user">cplx-0004</fr:addr>
                 <fr:route>cplx-0004.xml</fr:route>
                 <fr:title text="Formal method to calculate the harmonic conjugate">Formal method to calculate the harmonic conjugate</fr:title>

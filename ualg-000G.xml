@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1533</fr:anchor>
+    <fr:anchor>1631</fr:anchor>
     <fr:addr type="user">ualg-000G</fr:addr>
     <fr:route>ualg-000G.xml</fr:route>
     <fr:title text="Preservation, lifting, reflection and creation of limits">Preservation, lifting, reflection and creation of limits</fr:title>
@@ -35,7 +35,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1535</fr:anchor>
+            <fr:anchor>1633</fr:anchor>
             <fr:addr type="user">ualg-000H</fr:addr>
             <fr:route>ualg-000H.xml</fr:route>
             <fr:title text="Beck monadicity theorem">Beck monadicity theorem</fr:title>
@@ -54,7 +54,7 @@
           <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[G : \mathcal {D} \to  \mathcal {C}]]></fr:tex> be a functor with a left adjoint <fr:tex display="inline"><![CDATA[F]]></fr:tex>. <fr:tex display="inline"><![CDATA[G]]></fr:tex> is <fr:link type="local" href="ualg-000A.xml" addr="ualg-000A" title="Monadic functor">monadic</fr:link> iff <fr:tex display="inline"><![CDATA[G]]></fr:tex> <fr:link type="local" href="ualg-000G.xml" addr="ualg-000G" title="Preservation, lifting, reflection and creation of limits">creates</fr:link> coequalizers whose image under <fr:tex display="inline"><![CDATA[G]]></fr:tex> is <fr:link type="local" href="ualg-000B.xml" addr="ualg-000B" title="Split coequalizer">split</fr:link>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1479</fr:anchor><fr:addr type="machine">#239</fr:addr><fr:route>unstable-239.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1577</fr:anchor><fr:addr type="machine">#239</fr:addr><fr:route>unstable-239.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>For necessity, using <fr:ref addr="ualg-000I" href="ualg-000I.xml" taxon="Theorem" />, we only need to verify that a monad <fr:tex display="inline"><![CDATA[M]]></fr:tex> preserves the relevant coequalizers, which is true since <fr:link type="local" href="ualg-000D.xml" addr="ualg-000D" title="Characterization of absolute coequalizers">they are absolute</fr:link>.</fr:p>
 
   <fr:p>For sufficiency, we observe the proof of <fr:ref addr="ualg-000E" href="ualg-000E.xml" taxon="Theorem" />. Notice that the coequalizers involved are of the form <fr:tex display="inline"><![CDATA[F\alpha , \epsilon  : FGFA \rightrightarrows  FA]]></fr:tex>. The images of these under <fr:tex display="inline"><![CDATA[G]]></fr:tex> are indeed split by <fr:tex display="inline"><![CDATA[\eta  : GFA \to  GFGFA]]></fr:tex> and <fr:tex display="inline"><![CDATA[\eta  : A \to  GFA]]></fr:tex>. Therefore we just have to show <fr:tex display="inline"><![CDATA[G]]></fr:tex> reflects isomorphisms. Given an isomorphism <fr:tex display="inline"><![CDATA[Gf : GA \cong  GB]]></fr:tex>, we have a split coequalizer <fr:tex display="inline"><![CDATA[GA \rightrightarrows  GB \to  GA]]></fr:tex> where the two maps on the left are <fr:tex display="inline"><![CDATA[Gf]]></fr:tex>, and the map on the right is its inverse. This creates a map <fr:tex display="inline"><![CDATA[g : B \to  A]]></fr:tex> which is the coequalizer of <fr:tex display="inline"><![CDATA[f]]></fr:tex> with itself. So this map must be an isomorphism. We then consider the coequalizer <fr:tex display="inline"><![CDATA[GB \rightrightarrows  GA \to  GB]]></fr:tex>, where the two maps on the left are <fr:tex display="inline"><![CDATA[Gg]]></fr:tex> and the map on the right is <fr:tex display="inline"><![CDATA[Gf]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[G]]></fr:tex> reflects this limit, <fr:tex display="inline"><![CDATA[f]]></fr:tex> must also be an isomorphism.</fr:p>
@@ -65,7 +65,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1537</fr:anchor>
+            <fr:anchor>1635</fr:anchor>
             <fr:addr type="user">ualg-000I</fr:addr>
             <fr:route>ualg-000I.xml</fr:route>
             <fr:title text="Limits and colimits created by a monadic functor">Limits and colimits created by a monadic functor</fr:title>
@@ -84,7 +84,7 @@
           <fr:mainmatter><fr:p>A <fr:link type="local" href="ualg-000A.xml" addr="ualg-000A" title="Monadic functor">monadic functor</fr:link> <fr:link type="local" href="ualg-000G.xml" addr="ualg-000G" title="Preservation, lifting, reflection and creation of limits">creates</fr:link> all limits. It also creates all colimits preserved by the monad.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1473</fr:anchor><fr:addr type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1571</fr:anchor><fr:addr type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>By definition, we just need to prove the functor <fr:tex display="inline"><![CDATA[\mathcal {C}^M \to  \mathcal {C}]]></fr:tex> creates these limits and colimits. Given a diagram <fr:tex display="inline"><![CDATA[(M X_i \xrightarrow {\alpha _i} X_i)]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathcal {C}^M]]></fr:tex>, we can simply define an <fr:tex display="inline"><![CDATA[M]]></fr:tex>-algebra structure on <fr:tex display="inline"><![CDATA[\lim  X_i]]></fr:tex> by assigning <fr:tex display="inline"><![CDATA[M(\lim  X_i) \to  \lim  X_i]]></fr:tex> the obvious map. This is the limit of the original diagram by a simple diagram chase, hence it is lifted. The cones over the diagram are determined by their image under the forgetful functor, so the lift is unique, which means the limit is trivially reflected.</fr:p>
 
   <fr:p>For colimits, if <fr:tex display="inline"><![CDATA[M]]></fr:tex> preserves a colimit, then we can similarly define an algebra structure as <fr:tex display="inline"><![CDATA[M(\operatorname *{colim} X_i) \cong  \operatorname *{colim} M X_i \to  \operatorname *{colim} X_i]]></fr:tex>. The lift is also unique, which means it is reflected.</fr:p>

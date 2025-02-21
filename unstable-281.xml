@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1930</fr:anchor>
+    <fr:anchor>2028</fr:anchor>
     <fr:addr type="machine">#281</fr:addr>
     <fr:route>unstable-281.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
@@ -29,7 +29,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1932</fr:anchor>
+            <fr:anchor>2030</fr:anchor>
             <fr:addr type="user">algm-001H</fr:addr>
             <fr:route>algm-001H.xml</fr:route>
             <fr:title text="Universal property of plus construction">Universal property of <fr:link type="local" href="algm-001E.xml" addr="algm-001E" title="Plus construction">plus construction</fr:link></fr:title>
@@ -48,7 +48,7 @@
           <fr:mainmatter><fr:p>For any presheaf <fr:tex display="inline"><![CDATA[P]]></fr:tex> and sheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex>, there is a natural bijection <fr:tex display="block"><![CDATA[\hom (P, F) \cong  \hom (P^+, F)]]></fr:tex> given by composition with <fr:tex display="inline"><![CDATA[\eta _P : P \to  P^+]]></fr:tex>.</fr:p><fr:p>As a corollary of this and <fr:ref addr="algm-001G" href="algm-001G.xml" taxon="Theorem" />, when restricted to separated presheaves, it is left adjoint to the forgetful functor from sheaves to separated presheaves.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1934</fr:anchor><fr:addr type="machine">#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2032</fr:anchor><fr:addr type="machine">#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>For every morphism <fr:tex display="inline"><![CDATA[P \to  F]]></fr:tex>, there is a unique way to extend the map to <fr:tex display="inline"><![CDATA[P^+]]></fr:tex> using the <fr:link type="local" href="algm-001F.xml" addr="algm-001F" title="Sheaf">sheaf condition</fr:link> of <fr:tex display="inline"><![CDATA[F]]></fr:tex>. A section of <fr:tex display="inline"><![CDATA[P^+]]></fr:tex> consists of a matching family <fr:tex display="inline"><![CDATA[s_f]]></fr:tex>, and it is also the gluing of <fr:tex display="inline"><![CDATA[\eta _P(s_f)]]></fr:tex>.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
