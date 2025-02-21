@@ -5,7 +5,7 @@
 \taxon{definition}
 
 \p{
-  We define a (two-dimensional) \strong{tile system} as a collection of finitely many polygons, called tiles, with colored edges, such that the colors come in pairs written as #{+c, -c}. A \strong{tiling} of the tile system is a tessellation of the plane by these tiles, such that tiles can only touch by sharing entire edges, such that the colors on those edges are in pairs. For tilings with finite local complexity, these restrictions do not lose generality, as we can always break a line segment up into multiple edges.
+  We define a (two-dimensional, simple) \strong{tile system} as a collection of finitely many polygons, called tiles, with colored edges, such that the colors come in pairs written as #{+c, -c}. A \strong{tiling} of the tile system is a tessellation of the plane by these tiles, such that tiles can only touch by sharing entire edges, such that the colors on those edges are in pairs. In principle, a tiling only allows translations of tiles, but in implementation it is convenient to have a finite set of rotations (and possibly reflections), as it reduces code duplication.
 }
 
 \p{

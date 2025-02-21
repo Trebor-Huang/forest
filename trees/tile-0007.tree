@@ -41,3 +41,7 @@
     Suppose the result is another subedge #{\sigma'_0} of the edge #{\epsilon'_0}. Then we call the neighborhood function on the Conway signature #{\Sigma} and the edge label #{\epsilon'_0}. Let the result be the signature #{\Delta} and the edge #{\epsilon''_0}. Now we just need to call the auxiliary function on #{\Delta} with the subedge #{\sigma'_0} of #{\epsilon''_0}, and return its result.
   }
 }
+
+\p{
+  If we are dealing with finite Conway signatures, then the algorithm should raise an exception if at any point the path is too short. This signals that it has reached the boundary of the finite patch of tiles. Otherwise, the neighborhood function should always output a Conway path of equal length.
+}

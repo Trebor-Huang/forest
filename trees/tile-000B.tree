@@ -1,0 +1,23 @@
+\date{2025-02-21}
+\title{infinite walls}
+\author{trebor}
+\import{common}
+\taxon{example}
+
+\p{
+  Consider the substitution system of [[tile-0005]]. Take the cyclic [[tile-0006]]
+  ##{
+    \Sigma_0 = \text{Thin} \xrightarrow{\text{left}} \text{Thin} \xrightarrow{\text{left}} \cdots
+  }
+  This repeatedly selects the thin #{36\degree} subtile on the left. No matter how many times we use the substitution rules, the selected thin rhomb will not have a neighbor.
+}
+
+\p{
+  (To do: reproduce the image [here](https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/aperiodic-followup/p3-disconnected.svg))
+}
+
+\p{
+  However, after any finite length of this Conway signature, we can replace the rest of the signature with
+  ##{\cdots \text{Thin} \xrightarrow{\text{top}} \text{Thick} \xrightarrow{\text{left}} \text{Thick}\xrightarrow{\text{left}} \text{Thick}\xrightarrow{\text{left}} \cdots}
+  and this will cover the whole neighborhood. Therefore, for any finite radius, there is a patch of tiling that looks like it can be described by #{\Sigma_0} in that radius. As the radius tends to infinity, these patches converge to a single complete tiling whose center tile has Conway signature #{\Sigma_0}.
+}

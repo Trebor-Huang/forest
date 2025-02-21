@@ -16,3 +16,7 @@
 \p{
   In addition to this, the subdivision must also match geometrically, but we shall not give its full definition here, as it suffices to recognize this intuitively.
 }
+
+\p{
+  For convenience, if two edges #{\epsilon} and #{\epsilon'} have opposite colors, we use the \em{same label} for their subedges in a substitution. This simplifies the presentation since we avoid using a conversion look-up table, but requires us to be somewhat careful in assigning labels. In general, we can assign the subedge labels counterclockwise for edges with positive colors, and clockwise for negative colors.
+}

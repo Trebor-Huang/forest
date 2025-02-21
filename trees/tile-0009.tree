@@ -1,0 +1,34 @@
+\date{2025-02-21}
+\title{The recursive algorithm}
+\author{trebor}
+\import{common}
+
+\p{
+  It is straightforward to write down a recursive algorithm for calculating neighborhood Conway signatures. It has an elegantly symmetric structure.
+}
+
+\transclude{tile-0007}
+
+\p{
+  With this algorithm, we can generate any patch of tiling by repeatedly asking the program what the neighbor of each tile is, until the generated tiles fill the area, like growing a crystal. We just need a Conway signature to begin with. Some methods to create this initial seed are discussed in (...), each designed for a different purpose.
+}
+
+\p{
+  However, this recursive algorithm actually doesn’t generate all the possible tilings in our substitution system. This is because the definition of substitution tilings has a secret catch.
+}
+
+\transclude{tile-000A}
+
+\p{
+  When we talk about the set of, say, [Penrose tilings](tile-0005), we are actually referring to the \em{closure} of all the iterated deflations of a single tile. Each of those iterated deflations only cover a finite portion of the plane, and an \em{actual} tiling completely covers the plane in a way that any finite portion of it can be found in one of those deflations.
+}
+
+\p{
+  In our \ref{tile-0007}, we are assuming the entire tiling comes from a single iterated deflation, so when we attempt to calculate the neighbor of a tile, we first repeatedly inflate the tiles so that both of them are contained in one giant tile, and then deflate back down. However, an actual tiling may only look like an iterated deflation on each finite patch. It may be the case that no amount of inflation brings the neighbor into the same supertile.
+}
+
+\transclude{tile-000B}
+
+\p{
+  As an analogy, the neighborhood algorithm behaves like the algorithm adding #{1} to an integer in decimal notation. Suppose it encounters #{\cdots 999 + 1}, then it will scan forwards until it reads a digit #{d} that is not #{9}. Then it performs the carry and outputs #{[d+1]00\cdots 00}. However, the tilings are only required to locally look like iterated deflations. In this analogy, we have numbers that only locally look like an “actual” integer, so it is possible to have infinitely many digit #{9}s. On the other hand, we don’t actually need to read ahead: as soon as we see a #{9}, we can go ahead and output a #{0}, since that is the only possible result! In \ref{tile-000C}, we shall make this precise, in the context of Conway signatures.
+}

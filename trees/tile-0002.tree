@@ -4,11 +4,11 @@
 \import{common}
 
 \p{
-  To generate a tiling, we need to determine what kind of information the computer needs. This can be divided into two parts. The \em{geometric} information records the shape of each tile, and the \em{combinatorial} information records the matching rules and combinatorial data of the substitution rules. Given some combinatorial data, we can algorithmically produce the neighbor structure of each tile, which can then be easily graphically displayed by suitably translating and rotating the tiles using the geometric information. Note that producing the neighbor is non-trivial, since naïvely attempting every possible tile under the matching rules require arbitrarily far backtracking.
+  To generate a tiling, we need to determine what kind of information the computer needs. This can be divided into two parts. The \em{geometric} information records the shape of each tile, and the \em{combinatorial} information records the matching rules and combinatorial data of the substitution rules. Given [some combinatorial data](tile-0008), we can algorithmically produce the neighbor structure of each tile, which can then be easily graphically displayed by suitably translating and rotating the tiles using the geometric information. Note that producing the neighbor is non-trivial, since naïvely attempting every possible tile under the matching rules require arbitrarily far backtracking.
 }
 
 \p{
-  Given some combinatorial data, we will first construct a \strong{[[tile-0007]]}, which computes the neighbor tile when we specify a tile and one of its edges. This is already enough if you want to display random patches of the tiling, but there are cases with zero probability where the program will hang. However, these cases often contain interesting features, such as a high degree of symmetry, or fractal structures. So we will construct another \strong{transduction neighborhood algorithm} (depending on the recursive one) that increases laziness, allowing us to handle those inputs.
+  We will first construct a \strong{[[tile-0007]]}, which computes the neighbor tile when we specify a tile and one of its edges. This is already enough if you want to display random patches of the tiling, but there are cases with zero probability where the program will hang. However, these cases often contain interesting features, such as a high degree of symmetry, or fractal structures. So we will construct another \strong{transductive neighborhood algorithm} (depending on the recursive one) that increases laziness, allowing us to handle those inputs.
 }
 
 \p{

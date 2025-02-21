@@ -50,7 +50,7 @@
       -- ++(162:1) -- ++(-126:1) -- cycle;
   \draw[fill=cyan]
     (1.8, -1.1) -- ++(90:1) node (b3) {} -- ++(126:1)
-    -- ++(-90:1) node[midway, left=-2pt, fill opacity=1] {$+c_1$}
+    -- ++(-90:1) node[midway, left=-2pt, fill opacity=1] {$-c_2$}
     -- ++(-54:1) -- cycle;
   \draw (1.8, -1.1) ++(126:1) -- ++(-162:1) node (b4) {};
   \foreach \i in {1,2,3,4} {
