@@ -20,28 +20,20 @@
 \transclude{tile-000E}
 
 \p{
-  We define the augmented language in this way because it has a very important property, which will be useful later. With this definition in hand, we see that \ref{tile-000D} is actually a well-known construction in #{\omega}-languages, i.e. languages with infinitely long words.
+  We define the augmented language in this way because it has a very important property, which will be useful later. With this definition in hand, we see that \ref{tile-000D} can be defined in terms of a well-known construction in #{\omega}-languages, i.e. languages with infinitely long words.
 }
 
 \transclude{misc-000H}
 
 \p{
-  Obviously, we have #{\lim \mathcal{L} = \lim \mathcal{L}^+} since a terminating symbol can’t affect the limit. Limits are nice because they can be recognized by deterministic finite state machines (also known as deterministic Büchi machines, to emphasize they are for #{\omega}-languages).
+  We see that the limit of prefixes #{\operatorname{prfx}\mathcal{L} = \operatorname{prfx}\mathcal{L}^+} is exactly the neighborhood relation on infinite Conway signatures. Limits are nice because they can be recognized by deterministic finite state machines (also known as deterministic Büchi machines, to emphasize they are for #{\omega}-languages).
 }
 
 \transclude{misc-000I}
 
-
 \p{
+  If #{\mathcal{L}} is recognized by an automata, then #{\operatorname{prfx}\mathcal{L}} is recognized by an automata with every state declared to be accepting. This paired with \ref{misc-000I} gives a nice construction of a Büchi automata that recognizes neighborhood relations.
   Now, there is one single hypothesis that I am not able to get rid of. It doesn’t even need a constructive proof, as we will later give a construction that provably satisfies the hypothesis \em{given that it is true}.
 }
 
 \transclude{tile-000F}
-
-\p{
-  As promised, we reveal the special property that #{\mathcal{L}^+} enjoys.
-}
-
-\transclude{misc-000L}
-
-\transclude{misc-000M}

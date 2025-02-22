@@ -1,12 +1,58 @@
 \date{2025-02-22}
-\title{Transductive neighborhood algorithm}
+\title{The transductive algorithm}
 \author{trebor}
 \import{common}
 
 \p{
-  Induction of reversible languages
+  The discussion in \ref{tile-000C} suggests that we can take the following approach to generate neighbor Conway signatures:
+}
+
+\ul{
+  \li{Construct a finite automaton that recognizes #{\mathcal{L}}, the [[tile-000E]].}
+  \li{Convert a recognizer for the binary relation into a \em{transducer}, i.e. a finite state machine with input and output.}
+  \li{Simulate the transducer efficiently.}
 }
 
 \p{
-  Turning into nondet transducer, and executing
+  The second step is very easy. Suppose we are working over the alphabet #{\Delta}, and we have a finite state automata where the transition edges are labelled with pairs #{(x, y) \in \Delta \times \Delta}. So we can just relabel it by #{x/y}, i.e. a transition that consumes the symbol #{x} and outputs the symbol #{y}. Of course, this results in a non-deterministic transducer. But there is a lot of previous work on executing non-deterministic transducers, which we can use verbatim.
+}
+
+\p{
+  So, we have reduced our problem to the first step. But unless we can resolve \ref{tile-000F} constructively, how are we going to product such an automaton? This is due to a special property that #{\mathcal{L}^+} enjoys, as promised.
+}
+
+\transclude{misc-000L}
+
+\transclude{misc-000M}
+
+\transclude{misc-000N}
+
+\p{
+  By the way, this suggests a definition for reversible languages in general, without restricting to regular languages. And indeed, Tatham had the [important realization](https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/aperiodic-followup/#adjrec-dsf) that #{\mathcal{L}^+} is reversible, although the result there is stated in terms of #{\mathcal{L}}. This is essentially the same, because in the automaton for #{\mathcal{L}}, there are many accepting states, each corresponding to a tile type. And the automaton for #{\mathcal{L}^+} simply adds a “true” accepting state, and connects each of the original accepting states to it by a transition that expects an input character of the correct tile type. Since we know what the tile type is at all times, there is no fundamental difference between the two languages. But for #{\mathcal{L}^+}, the start and end is completely symmetric, so it allows for a cleaner treatment.
+}
+
+\transclude{tile-000G}
+
+\p{
+  We are finally ready to discuss the benefits of a reversible languages: they admit a very efficient algorithm that learns the language from a series of examples. This problem, called \em{language induction}, is very difficult for general languages.
+}
+
+\transclude{misc-000O}
+
+\p{
+  It is easy to generate example strings in our use case: simply feed in valid finite Conway signatures in \ref{tile-0007}. Now all we need is a way to know when to stop. A possible criterion is when the resulting transducer never rejects a valid Conway signature. To do this, erase the outputs and turn it into an automaton #{A}. Now consider another automaton #{B} that recognizes valid Conway signatures (paired with an edge label at the beginning and a terminating tile label). Take the product of these two automata, remove dead states, and check whether there are states where #{B} has a valid transition but #{A} doesn’t.
+}
+
+\p{
+  Since the learned language only grows larger with each example, this condition is obviously sufficient because the original language came from a recursive function. Furthermore, we will prove that under some conditions, this can always be achieved in finite time, so the language inference algorithm terminates. Recall that for the transducer, we modified it so that every state is accepting, so this claim is reduced to the following theorem.
+}
+
+\transclude{tile-000J}
+
+\p{
+  We finish with some discussion on methods to execute the resulting non-deterministic transducer efficiently. One obvious way is to attempt to determinize the transducer. This is not always possible, since the transducer also has a “potential output” state, which means the powerset construction may produce infinitely many states. However, this frequently works, and produces a deterministic finite state transducer.
+}
+
+\p{
+  Another, more convenient method is via programs like [Kleenex](https://kleenexlang.org/) to compile the transducers. We can either directly extract the resulting deterministic streaming transducer and simulate it, or compile it into a binary and use FFI.
 }

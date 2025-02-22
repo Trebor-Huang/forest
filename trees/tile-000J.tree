@@ -1,0 +1,19 @@
+\date{2025-02-22}
+\title{totality of the neighborhood relation}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  Suppose we have a [[tile-0004]] that doesn’t involve a prototile that never appears in its [hull](tile-000A), then for every finite [[tile-0006]] #{\Sigma} with a valid edge label #{\epsilon}, it is always possible to extend #{\Sigma} so that the [[tile-0007]] accepts it.
+}
+
+\p{
+  There are contrived substitution systems that violate the condition of this theorem. For example, consider a one-dimensional system with two kinds of tiles #{a, b}. Let the substitution rules be #{a \mapsto aa}, #{b \mapsto ba}. Iterated deflations result in the patches #{baa\dots a}, and taking the hull results in the periodic tiling #{\dots aaa \dots}, where #{b} doesn’t occur. These are therefore probably#{^?} never interesting.
+}
+
+\proof{
+  \p{
+    If a prototile #{t} can appear in the hull of #{\mathscr{S}}, this means for any radius, there is a patch of tiling in #{\mathscr{S}} covering that radius, with this tile in the center. In this case, #{\mathscr{S}} consists of iterated deflations of a single tile. So there exists #{t'} such that its #{n}-th deflation contains #{t}, such that all the edges of #{t} have neighbors in the deflation. So #{t} has a Conway signature #{\Sigma' = t \rightarrow \cdots \rightarrow t'}. Now take #{t} to be the last prototile label in #{\Sigma}, and let the extension be the concatenation #{\Sigma \frown \Sigma'}.
+  }
+}

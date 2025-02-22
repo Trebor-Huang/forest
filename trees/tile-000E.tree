@@ -5,7 +5,7 @@
 \taxon{definition}
 
 \p{
-  Consider the alphabet #{\Delta} where each symbol is either of the form #{(\text{tile label }t, \text{edge label of }t)}, #{(\text{tile label }t, \text{subtile label of }t)}. We define a language #{\mathcal{L}} on #{\Delta \times \Delta}, representing a binary relation on #{\Delta^*} between words of the same length.
+  Consider the alphabet #{\Delta} where each symbol is either of the form #{(\text{tile label }t, \text{edge label of }t)} or #{(\text{tile label }t, \text{subtile label of }t)}. We define a language #{\mathcal{L}} on #{\Delta \times \Delta}, representing a binary relation on #{\Delta^*} between words of the same length.
   Let ##{\Sigma = t_0 \xrightarrow{s_1} t_1 \xrightarrow{s_2} \cdots \xrightarrow{s_n} t_n} be a \em{finite} [[tile-0006]] and #{\epsilon} be an edge label of the corresponding tile. We regard this as a word #{(t_0, \epsilon)(t_1, s_1) \cdots (t_n, s_n)} over the alphabet #{\Delta}. Suppose the [[tile-0007]] sends #{(\Sigma_1, \epsilon_1)} to #{(\Sigma_2, \epsilon_2)}, then the two corresponding words can be zipped together to form a word over #{\Delta \times \Delta}. We define the set of all such words as the \strong{language of neighborhood relation} #{\mathcal{L}}.
 }
 

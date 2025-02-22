@@ -10,6 +10,10 @@
 
 \proof{
   \p{
-    ...
+    We use the [[misc-000N]]. Any substring (ignoring the special starting and ending symbols) in this case describes a fixed geometric transformation between a tile and some supertile that it is contained in. So suppose #{xz, yz \in \mathcal{L}^+}, then inverting the transformation given by #{z}, we know that #{x} and #{y} describe equivalent geometric configurations of a tile in some supertile. Therefore they must actually be [Nerode congruent](misc-000J).
+  }
+
+  \p{
+    Since we have not rigorously defined the geometric aspects of tile systems, we will not attempt to articulate a completely formal proof. But it should be noted how geometry plays a crucial role here, meaning that substitution systems that are “non-rigid” may fail this property.
   }
 }

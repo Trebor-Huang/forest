@@ -1,0 +1,13 @@
+\date{2025-02-22}
+\title{induction of reversible languages}
+\author{trebor}
+\import{common}
+\taxon{algorithm}
+
+\p{
+  This algorithm is described in [[inference-of-reversible-languages]]. It inputs a set of example strings in a [[misc-000M]], and outputs a finite [[misc-000L]]. The soundness proof is given as Theorem 26, and if the input enumerates all the strings in the language, then the output is guaranteed to converge to the correct minimal DFA at a finite stage by Theorem 27. Note that obviously we cannot algorithmically determine whether it has converged or not, without further information.
+}
+
+\p{
+  The algorithm proceeds as follows. Start with a trivial automata with a start and accept state, but no transitions. When we read a new example string, add a new chain of states and transitions from the start to the accept state, solely accepting this new string. Then we perform a merging process. Whenever a state has two transitions on the same letter, we merge the destination states, and vice versa for transitions to that state. This process obviously terminates and produces a bideterministic automata. And we can read the next example string.
+}

@@ -1,0 +1,15 @@
+\date{2025-02-22}
+\title{characterization of reversible languages}
+\taxon{theorem}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a language #{\mathcal{L}}, it is a [[misc-000M]] if and only if it is regular, and if #{xz, yz \in \mathcal{L}} for some strings #{x, y, z}, then for all strings #{w} we have #{xw \in \mathcal{L} \iff yw \in \mathcal{L}}.
+}
+
+\proof{
+  \p{
+    See Theorem 7 in [[inference-of-reversible-languages]].
+  }
+}
