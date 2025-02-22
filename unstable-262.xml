@@ -2,14 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2932</fr:anchor>
+    <fr:anchor>2955</fr:anchor>
     <fr:addr type="machine">#262</fr:addr>
     <fr:route>unstable-262.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
       <fr:month>2</fr:month>
-      <fr:day>19</fr:day>
+      <fr:day>21</fr:day>
     </fr:date>
     <fr:authors>
       <fr:author>
@@ -18,7 +18,9 @@
     </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-  <fr:p>We simply need to note that an equalizer for <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex> is equivalent to an equalizer for <fr:tex display="inline"><![CDATA[(f-g)]]></fr:tex> and <fr:tex display="inline"><![CDATA[0]]></fr:tex>, by bilinearity of composition.</fr:p>
+  <fr:p>Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.</fr:p>
+
+  <fr:p>On the other hand, <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex display="inline"><![CDATA[f : C_\bullet  \to  D_\bullet ]]></fr:tex> is a quasi-isomorphism, <fr:tex display="inline"><![CDATA[H_n (f)]]></fr:tex> are all isomorphisms. Therefore <fr:tex display="inline"><![CDATA[H_n (F(f)) = F(H_n(f))]]></fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.</fr:p>
 </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -29,15 +31,15 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2934</fr:anchor>
-            <fr:addr type="user">hmlg-000Y</fr:addr>
-            <fr:route>hmlg-000Y.xml</fr:route>
-            <fr:title text="Equalizers can be reduced to kernels in {Ab}-enriched categories">Equalizers can be reduced to kernels in <fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched categories</fr:title>
+            <fr:anchor>2957</fr:anchor>
+            <fr:addr type="user">hmlg-0018</fr:addr>
+            <fr:route>hmlg-0018.xml</fr:route>
+            <fr:title text="An additive functor is exact iff it preserves quasi-isomorphisms">An additive functor is exact iff it preserves quasi-isomorphisms</fr:title>
             <fr:taxon>Theorem</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>2</fr:month>
-              <fr:day>19</fr:day>
+              <fr:day>21</fr:day>
             </fr:date>
             <fr:authors>
               <fr:author>
@@ -45,11 +47,13 @@
               </fr:author>
             </fr:authors>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>We can express equalizers with kernels (which are equalizers with the zero morphism).</fr:p>
+          <fr:mainmatter><fr:p>Given an <fr:link type="local" href="hmlg-000S.xml" addr="hmlg-000S" title="Additive functor">additive functor</fr:link> <fr:tex display="inline"><![CDATA[F : \mathcal {A} \to  \mathcal {B}]]></fr:tex> between <fr:link type="local" href="hmlg-000Q.xml" addr="hmlg-000Q" title="Abelian category">abelian categories</fr:link>, it is <fr:link type="local" href="hmlg-000X.xml" addr="hmlg-000X" title="Left and right exact functor">exact</fr:link> iff it sends <fr:link type="local" href="hmlg-000C.xml" addr="hmlg-000C" title="Quasi-isomorphism">quasi-isomorphisms</fr:link> to quasi-isomorphisms.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1246</fr:anchor><fr:addr type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-  <fr:p>We simply need to note that an equalizer for <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex> is equivalent to an equalizer for <fr:tex display="inline"><![CDATA[(f-g)]]></fr:tex> and <fr:tex display="inline"><![CDATA[0]]></fr:tex>, by bilinearity of composition.</fr:p>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2959</fr:anchor><fr:addr type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.</fr:p>
+
+  <fr:p>On the other hand, <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex display="inline"><![CDATA[f : C_\bullet  \to  D_\bullet ]]></fr:tex> is a quasi-isomorphism, <fr:tex display="inline"><![CDATA[H_n (f)]]></fr:tex> are all isomorphisms. Therefore <fr:tex display="inline"><![CDATA[H_n (F(f)) = F(H_n(f))]]></fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

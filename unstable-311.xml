@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>776</fr:anchor>
+    <fr:addr type="machine">#311</fr:addr>
+    <fr:route>unstable-311.xml</fr:route>
+    <fr:taxon>Proof</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>1</fr:month>
+      <fr:day>6</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+  <fr:p>The universal property of the colimit says <fr:tex display="block"><![CDATA[\hom (\operatorname *{colim} \pi _F, X) \cong  \lim _{(Y, p)} \hom (Y, X).]]></fr:tex>
+    Using the characterization of limits in <fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex>, an element in this set maps <fr:tex display="inline"><![CDATA[F(Y)]]></fr:tex> to <fr:tex display="inline"><![CDATA[\hom (Y, X)]]></fr:tex> for each <fr:tex display="inline"><![CDATA[Y]]></fr:tex> naturally, which is exactly <fr:tex display="inline"><![CDATA[\hom (F, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X))]]></fr:tex>.</fr:p>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Context">Context</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>778</fr:anchor>
+            <fr:addr type="user">algm-0025</fr:addr>
+            <fr:route>algm-0025.xml</fr:route>
+            <fr:title text="Total category">Total category</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Given a locally small category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, if the Yoneda embedding <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} : \mathcal {C} \to  \mathsf {Psh}(\mathcal {C})]]></fr:tex> has a left adjoint <fr:tex display="inline"><![CDATA[\operatorname {?}]]></fr:tex>, then we say teh category is <fr:strong>total</fr:strong>, or <fr:strong>totally cocomplete</fr:strong>. This is equivalent to requiring the colimit of <fr:tex display="inline"><![CDATA[\pi _F : \int  F \to  \mathcal {C}]]></fr:tex> to exist for every presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex>, which is the value of <fr:tex display="inline"><![CDATA[L(F)]]></fr:tex>. Notice that <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> being fully faithful implies the counit <fr:tex display="inline"><![CDATA[\operatorname {?}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)) \to  A]]></fr:tex> is an isomorphism.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>682</fr:anchor><fr:addr type="machine">#311</fr:addr><fr:route>unstable-311.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>The universal property of the colimit says <fr:tex display="block"><![CDATA[\hom (\operatorname *{colim} \pi _F, X) \cong  \lim _{(Y, p)} \hom (Y, X).]]></fr:tex>
+    Using the characterization of limits in <fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex>, an element in this set maps <fr:tex display="inline"><![CDATA[F(Y)]]></fr:tex> to <fr:tex display="inline"><![CDATA[\hom (Y, X)]]></fr:tex> for each <fr:tex display="inline"><![CDATA[Y]]></fr:tex> naturally, which is exactly <fr:tex display="inline"><![CDATA[\hom (F, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X))]]></fr:tex>.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

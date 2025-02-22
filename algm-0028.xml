@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>676</fr:anchor>
+    <fr:anchor>822</fr:anchor>
     <fr:addr type="user">algm-0028</fr:addr>
     <fr:route>algm-0028.xml</fr:route>
     <fr:title text="Totally distributive category">Totally distributive category</fr:title>
@@ -30,7 +30,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>678</fr:anchor>
+            <fr:anchor>824</fr:anchor>
             <fr:addr type="user">algm-002G</fr:addr>
             <fr:route>algm-002G.xml</fr:route>
             <fr:title text="Waves and totally distributive categories">Waves and totally distributive categories</fr:title>
@@ -53,7 +53,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>680</fr:anchor>
+            <fr:anchor>826</fr:anchor>
             <fr:addr type="user">algm-002B</fr:addr>
             <fr:route>algm-002B.xml</fr:route>
             <fr:title text="Presheaf category over a small category is totally distributive">Presheaf category over a small category is totally distributive</fr:title>
@@ -81,7 +81,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>682</fr:anchor>
+            <fr:anchor>828</fr:anchor>
             <fr:addr type="user">algm-002D</fr:addr>
             <fr:route>algm-002D.xml</fr:route>
             <fr:title text="Wave">Wave</fr:title>
@@ -100,7 +100,7 @@
           <fr:mainmatter><fr:p>For a <fr:link type="local" href="algm-0025.xml" addr="algm-0025" title="Total category">total category</fr:link> <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, we can define a functor <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {ろ}\mkern {-2mu}} : \mathcal {C} \to  \mathsf {Psh}(\mathcal {C})]]></fr:tex> that will serve as the double left adjoint of <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> iff the category is actually a <fr:link type="local" href="algm-0028.xml" addr="algm-0028" title="Totally distributive category">totally distributive category</fr:link>. Since <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X)(Y) = \hom (Y, X)]]></fr:tex>, we similarly define <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {ろ}\mkern {-2mu}}(X)(Y) = \operatorname {wave}(Y, X)]]></fr:tex>, and call the elements <fr:strong>waves</fr:strong>.</fr:p><fr:p>A wave <fr:tex display="inline"><![CDATA[w : Y \rightsquigarrow  X]]></fr:tex> is defined by a family of maps <fr:tex display="inline"><![CDATA[\hom (X, \operatorname {?} F) \to  F(Y)]]></fr:tex> natural in the presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\operatorname {?} \dashv  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex>. This is intuitively a categorification of the “way way below” relation <fr:tex display="inline"><![CDATA[Y \lll  X]]></fr:tex> in posets. If we take <fr:tex display="inline"><![CDATA[F = \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X)]]></fr:tex>, then we get an actual arrow <fr:tex display="inline"><![CDATA[\bar {w} : Y \to  X]]></fr:tex>. This defines a natural transform <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {ろ}\mkern {-2mu}} \to  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex>, or equivalently <fr:tex display="inline"><![CDATA[\operatorname {?} \mathbin {\circ } \mathop {\mkern {-2mu}\text {ろ}\mkern {-2mu}} \to  \textrm {Id}]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>532</fr:anchor><fr:addr type="machine">#305</fr:addr><fr:route>unstable-305.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>678</fr:anchor><fr:addr type="machine">#307</fr:addr><fr:route>unstable-307.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We need to show that <fr:tex display="inline"><![CDATA[\operatorname {wave}(Y, X)]]></fr:tex> is a small set. Let <fr:tex display="inline"><![CDATA[Y^*]]></fr:tex> be the functor sending a presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex> to the set <fr:tex display="inline"><![CDATA[F(Y)]]></fr:tex>. The right Kan extension is given by
     <fr:tex display="block"><![CDATA[\begin {aligned}       Y_* (A)(B) &= \hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (B), Y_* (A)) \\       &= \hom (Y^* (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (B)), A) \\       &= \hom (\hom (Y, B), A) = A^{B^Y}.     \end {aligned}]]></fr:tex>
     Using the fact that <fr:link type="local" href="algm-002E.xml" addr="algm-002E" title="{Set} is total and cototal"><fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex> is total and cototal</fr:link> and writing <fr:tex display="inline"><![CDATA[\operatorname {¿}]]></fr:tex> as the witness of cototality, we calculate
@@ -122,7 +122,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>684</fr:anchor>
+            <fr:anchor>830</fr:anchor>
             <fr:addr type="user">algm-0025</fr:addr>
             <fr:route>algm-0025.xml</fr:route>
             <fr:title text="Total category">Total category</fr:title>
@@ -141,7 +141,7 @@
           <fr:mainmatter><fr:p>Given a locally small category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, if the Yoneda embedding <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} : \mathcal {C} \to  \mathsf {Psh}(\mathcal {C})]]></fr:tex> has a left adjoint <fr:tex display="inline"><![CDATA[\operatorname {?}]]></fr:tex>, then we say teh category is <fr:strong>total</fr:strong>, or <fr:strong>totally cocomplete</fr:strong>. This is equivalent to requiring the colimit of <fr:tex display="inline"><![CDATA[\pi _F : \int  F \to  \mathcal {C}]]></fr:tex> to exist for every presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex>, which is the value of <fr:tex display="inline"><![CDATA[L(F)]]></fr:tex>. Notice that <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> being fully faithful implies the counit <fr:tex display="inline"><![CDATA[\operatorname {?}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)) \to  A]]></fr:tex> is an isomorphism.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>536</fr:anchor><fr:addr type="machine">#309</fr:addr><fr:route>unstable-309.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>682</fr:anchor><fr:addr type="machine">#311</fr:addr><fr:route>unstable-311.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>The universal property of the colimit says <fr:tex display="block"><![CDATA[\hom (\operatorname *{colim} \pi _F, X) \cong  \lim _{(Y, p)} \hom (Y, X).]]></fr:tex>
     Using the characterization of limits in <fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex>, an element in this set maps <fr:tex display="inline"><![CDATA[F(Y)]]></fr:tex> to <fr:tex display="inline"><![CDATA[\hom (Y, X)]]></fr:tex> for each <fr:tex display="inline"><![CDATA[Y]]></fr:tex> naturally, which is exactly <fr:tex display="inline"><![CDATA[\hom (F, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X))]]></fr:tex>.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>

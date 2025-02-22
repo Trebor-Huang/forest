@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2484</fr:anchor>
+    <fr:anchor>2630</fr:anchor>
     <fr:addr type="user">algm-000J</fr:addr>
     <fr:route>algm-000J.xml</fr:route>
     <fr:title text="Stalk of the structure sheaf on {Spec}(R)">Stalk of the structure sheaf on <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:title>
@@ -21,7 +21,7 @@
   <fr:mainmatter><fr:p>Given a point <fr:tex display="inline"><![CDATA[\left [\mathfrak {p}\right ] \in  \operatorname {Spec}(R)]]></fr:tex>, the stalk at the point is the localization <fr:tex display="inline"><![CDATA[R_{\mathfrak {p}}]]></fr:tex>. In particular, the ring spectrum is a <fr:link type="local" href="algm-000L.xml" addr="algm-000L" title="Locally ringed space">locally ringed space</fr:link> by <fr:ref addr="algm-000N" href="algm-000N.xml" taxon="Theorem" />.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2442</fr:anchor><fr:addr type="machine">#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2588</fr:anchor><fr:addr type="machine">#294</fr:addr><fr:route>unstable-294.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We take a directed limit. The elements are from some <fr:tex display="inline"><![CDATA[R[f^{-1}]]]></fr:tex> with <fr:tex display="inline"><![CDATA[\mathfrak {p} \nmid  f]]></fr:tex>, i.e. the elements can be written as <fr:tex display="inline"><![CDATA[g/f^n]]></fr:tex>. Two elements are equal iff their common restriction to some <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> is equal, i.e. <fr:tex display="inline"><![CDATA[g_1/f_1^n = g_2/f_2^m]]></fr:tex> iff <fr:tex display="inline"><![CDATA[(g_1 f_2^m - g_2 f_1^n) f^k = 0]]></fr:tex>. These are exactly the definition of the localization away from <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
@@ -35,7 +35,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2486</fr:anchor>
+            <fr:anchor>2632</fr:anchor>
             <fr:addr type="user">algm-000K</fr:addr>
             <fr:route>algm-000K.xml</fr:route>
             <fr:title text="Sheaf and stalk from R-modules">Sheaf and stalk from <fr:tex display="inline"><![CDATA[R]]></fr:tex>-modules</fr:title>
@@ -67,7 +67,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2488</fr:anchor>
+            <fr:anchor>2634</fr:anchor>
             <fr:addr type="user">algm-000L</fr:addr>
             <fr:route>algm-000L.xml</fr:route>
             <fr:title text="Locally ringed space">Locally ringed space</fr:title>
@@ -93,7 +93,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2490</fr:anchor>
+            <fr:anchor>2636</fr:anchor>
             <fr:addr type="user">algm-000N</fr:addr>
             <fr:route>algm-000N.xml</fr:route>
             <fr:title text="Stalks of locally ringed topological space">Stalks of locally ringed topological space</fr:title>
@@ -112,7 +112,7 @@
           <fr:mainmatter><fr:p>Given a <fr:link type="local" href="algm-000M.xml" addr="algm-000M" title="Ringed space">ringed</fr:link> topological space, it is <fr:link type="local" href="algm-000L.xml" addr="algm-000L" title="Locally ringed space">locally ringed</fr:link> iff every stalk is a local ring.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2436</fr:anchor><fr:addr type="machine">#291</fr:addr><fr:route>unstable-291.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2582</fr:anchor><fr:addr type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Recall the axiom for a local ring: if any sum is invertible, then one of the summand is invertible. When applied to the direct limit in each stalk, this immediately expands to the definition of a locally ringed space.</fr:p>
 
   <fr:p>In particular, a crucial property is used in the reverse implication, i.e. if one open contains all the points of another, then the former covers the latter. This is equivalent to the condition of having enough points.</fr:p>

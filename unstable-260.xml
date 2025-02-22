@@ -2,14 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2809</fr:anchor>
+    <fr:anchor>2888</fr:anchor>
     <fr:addr type="machine">#260</fr:addr>
     <fr:route>unstable-260.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
       <fr:month>2</fr:month>
-      <fr:day>21</fr:day>
+      <fr:day>27</fr:day>
     </fr:date>
     <fr:authors>
       <fr:author>
@@ -18,9 +18,19 @@
     </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-  <fr:p>Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.</fr:p>
+  <fr:p>For this construction using the third equivalent definition of a chain reduction in <fr:ref addr="hmlg-001H" href="hmlg-001H.xml" taxon="Theorem" />, i.e. a homotopy operator on <fr:tex display="inline"><![CDATA[C]]></fr:tex> such that <fr:tex display="inline"><![CDATA[h \mathbin {\circ } h = 0]]></fr:tex> and <fr:tex display="inline"><![CDATA[h \mathbin {\circ } d_C \mathbin {\circ } h = h]]></fr:tex>.</fr:p>
 
-  <fr:p>On the other hand, <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex display="inline"><![CDATA[f : C_\bullet  \to  D_\bullet ]]></fr:tex> is a quasi-isomorphism, <fr:tex display="inline"><![CDATA[H_n (f)]]></fr:tex> are all isomorphisms. Therefore <fr:tex display="inline"><![CDATA[H_n (F(f)) = F(H_n(f))]]></fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.</fr:p>
+  <fr:p>We need to construct a new homotopy operator such that <fr:tex display="inline"><![CDATA[h' \mathbin {\circ } h' = 0]]></fr:tex> and <fr:tex display="inline"><![CDATA[h' \mathbin {\circ } (d_C + \delta _C) \mathbin {\circ } h' = h']]></fr:tex>. We approach this through a “perturbative” mindset. Starting with <fr:tex display="inline"><![CDATA[h_0 = h]]></fr:tex>, the second equation is off by a difference of <fr:tex display="inline"><![CDATA[h_0 \delta _C h_0]]></fr:tex>. We simply add this as a correction term, <fr:tex display="inline"><![CDATA[h_1 = h_0 + \alpha  h_0 \delta _C h_0]]></fr:tex> where <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is some coefficient. (Note that essentially the only terms we can consider are of the form <fr:tex display="inline"><![CDATA[h_0 \delta _C h_0 \delta _C \cdots  h_0]]></fr:tex>, since nothing else has the same type.) We still have <fr:tex display="inline"><![CDATA[h_1 \mathbin {\circ } h_1 = 0]]></fr:tex>, and for the second equation this creates a new error term
+    <fr:tex display="block"><![CDATA[\begin {aligned}       &\quad  h_1 (d_C + \delta _C) h_1 - h_1 \\       &= (1 + \alpha ) h_0 \delta _C h_0 + 2 (\alpha  + \alpha ^2) h_0 \delta _C h_0 \delta _C h_0 + \alpha ^2 h_0 \delta _C h_0 \delta _C h_0 \delta _C h_0     \end {aligned}]]></fr:tex>
+    and we can eliminate the first and second order part by setting <fr:tex display="inline"><![CDATA[\alpha  = -1]]></fr:tex>. The natural next step would be to add a further correction <fr:tex display="inline"><![CDATA[h_2 = h_1 + \beta  h_0 \delta _C h_0 \delta _C h_0]]></fr:tex>. This turns out to require <fr:tex display="inline"><![CDATA[\beta  = +1]]></fr:tex>, and so on.</fr:p>
+
+  <fr:p>From the informal discussion above, we can conjecture the formula
+    <fr:tex display="block"><![CDATA[h' = \sum _{k=0}^\infty  (-1)^k (h \delta _C)^k h.]]></fr:tex>
+    This reveals the reason for our pointwise nilpotency condition. With a little bit of care manipulating the infinite sum, we can prove that <fr:tex display="inline"><![CDATA[h' \mathbin {\circ } h' = 0]]></fr:tex> from <fr:tex display="inline"><![CDATA[h \mathbin {\circ } h = 0]]></fr:tex>, and the second equation follows from a nice telescopic sum
+    <fr:tex display="block"><![CDATA[\begin {aligned}       h' \mathbin {\circ } (d_C + \delta _C) \mathbin {\circ } h'       &= \sum _{i, j} (-1)^{i + j} (h \delta _C)^i h (d_C + \delta _C) (h \delta _C)^j h \\       &= \sum _{i, j} (-1)^{i + j} \left [(h \delta _C)^{i + j + 1} h + (h \delta _C)^{i + j} h\right ] \\       &= \sum _{k} (k+1) (-1)^k \left [(h \delta _C)^{k + 1} h + (h \delta _C)^k h\right ] \\       &= \sum _k (-1)^k (h \delta _C)^k h = h'.     \end {aligned}]]></fr:tex></fr:p>
+
+  <fr:p>We can reconstruct the other two components of the reduction <fr:tex display="inline"><![CDATA[\iota _{\rho '}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\pi _{\rho '}]]></fr:tex> through <fr:ref addr="hmlg-001H" href="hmlg-001H.xml" taxon="Theorem" />. In particular, <fr:tex display="inline"><![CDATA[D']]></fr:tex> is given by a perturbation of <fr:tex display="inline"><![CDATA[D]]></fr:tex>. We only write down the results below for easy reference.
+    <fr:tex display="block"><![CDATA[\begin {aligned}     \pi _{\rho '} &= \sum _{k=0}^\infty  (-1)^k \pi _{\rho } (\delta _C h_{\rho })^k \\     \iota _{\rho '} &= \sum _{k=0}^\infty  (-1)^k (h_{\rho } \delta _C)^k \iota _{\rho } \\     \delta _D &= \sum _{k=0}^\infty  (-1)^k \pi _{\rho } \delta _C (h_{\rho } \delta _C)^k \iota _{\rho }.     \end {aligned}]]></fr:tex></fr:p>
 </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -31,15 +41,15 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2811</fr:anchor>
-            <fr:addr type="user">hmlg-0018</fr:addr>
-            <fr:route>hmlg-0018.xml</fr:route>
-            <fr:title text="An additive functor is exact iff it preserves quasi-isomorphisms">An additive functor is exact iff it preserves quasi-isomorphisms</fr:title>
-            <fr:taxon>Theorem</fr:taxon>
+            <fr:anchor>2890</fr:anchor>
+            <fr:addr type="user">hmlg-001G</fr:addr>
+            <fr:route>hmlg-001G.xml</fr:route>
+            <fr:title text="Perturbation of the larger chain complex in a chain reduction"><fr:link type="local" href="hmlg-001G.xml" addr="hmlg-001G" title="Perturbation of the larger chain complex in a chain reduction">Perturbation</fr:link> of the larger chain complex in a <fr:link type="local" href="hmlg-0017.xml" addr="hmlg-0017" title="Chain reduction">chain reduction</fr:link></fr:title>
+            <fr:taxon>Construction</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>2</fr:month>
-              <fr:day>21</fr:day>
+              <fr:day>27</fr:day>
             </fr:date>
             <fr:authors>
               <fr:author>
@@ -47,13 +57,23 @@
               </fr:author>
             </fr:authors>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Given an <fr:link type="local" href="hmlg-000S.xml" addr="hmlg-000S" title="Additive functor">additive functor</fr:link> <fr:tex display="inline"><![CDATA[F : \mathcal {A} \to  \mathcal {B}]]></fr:tex> between <fr:link type="local" href="hmlg-000Q.xml" addr="hmlg-000Q" title="Abelian category">abelian categories</fr:link>, it is <fr:link type="local" href="hmlg-000X.xml" addr="hmlg-000X" title="Left and right exact functor">exact</fr:link> iff it sends <fr:link type="local" href="hmlg-000C.xml" addr="hmlg-000C" title="Quasi-isomorphism">quasi-isomorphisms</fr:link> to quasi-isomorphisms.</fr:p>
+          <fr:mainmatter><fr:p>Given a reduction <fr:tex display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex> and a perturbation <fr:tex display="inline"><![CDATA[\delta _C]]></fr:tex> for <fr:tex display="inline"><![CDATA[C]]></fr:tex>, we assume that <fr:tex display="inline"><![CDATA[h_{\rho } \mathbin {\circ } \delta _C]]></fr:tex> is pointwise nilpotent, i.e. <fr:tex display="block"><![CDATA[\forall  c \in  C_k, \exists  n \in  \mathbb {N}, \; (h_{\rho }\delta _C)^n (c) = 0.]]></fr:tex> We can construct a new chain reduction <fr:tex display="inline"><![CDATA[\rho ' : C' \Rightarrow \mkern {-14mu}\Rightarrow  D']]></fr:tex>, where <fr:tex display="inline"><![CDATA[C']]></fr:tex> is <fr:tex display="inline"><![CDATA[C]]></fr:tex> perturbed by <fr:tex display="inline"><![CDATA[\delta _C]]></fr:tex>.</fr:p><fr:p>Note that this situation is much harder compared to <fr:ref addr="hmlg-001E" href="hmlg-001E.xml" taxon="Construction" />, as it is generally impossible without the added condition.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2813</fr:anchor><fr:addr type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-  <fr:p>Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.</fr:p>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1975</fr:anchor><fr:addr type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>For this construction using the third equivalent definition of a chain reduction in <fr:ref addr="hmlg-001H" href="hmlg-001H.xml" taxon="Theorem" />, i.e. a homotopy operator on <fr:tex display="inline"><![CDATA[C]]></fr:tex> such that <fr:tex display="inline"><![CDATA[h \mathbin {\circ } h = 0]]></fr:tex> and <fr:tex display="inline"><![CDATA[h \mathbin {\circ } d_C \mathbin {\circ } h = h]]></fr:tex>.</fr:p>
 
-  <fr:p>On the other hand, <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex display="inline"><![CDATA[f : C_\bullet  \to  D_\bullet ]]></fr:tex> is a quasi-isomorphism, <fr:tex display="inline"><![CDATA[H_n (f)]]></fr:tex> are all isomorphisms. Therefore <fr:tex display="inline"><![CDATA[H_n (F(f)) = F(H_n(f))]]></fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.</fr:p>
+  <fr:p>We need to construct a new homotopy operator such that <fr:tex display="inline"><![CDATA[h' \mathbin {\circ } h' = 0]]></fr:tex> and <fr:tex display="inline"><![CDATA[h' \mathbin {\circ } (d_C + \delta _C) \mathbin {\circ } h' = h']]></fr:tex>. We approach this through a “perturbative” mindset. Starting with <fr:tex display="inline"><![CDATA[h_0 = h]]></fr:tex>, the second equation is off by a difference of <fr:tex display="inline"><![CDATA[h_0 \delta _C h_0]]></fr:tex>. We simply add this as a correction term, <fr:tex display="inline"><![CDATA[h_1 = h_0 + \alpha  h_0 \delta _C h_0]]></fr:tex> where <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is some coefficient. (Note that essentially the only terms we can consider are of the form <fr:tex display="inline"><![CDATA[h_0 \delta _C h_0 \delta _C \cdots  h_0]]></fr:tex>, since nothing else has the same type.) We still have <fr:tex display="inline"><![CDATA[h_1 \mathbin {\circ } h_1 = 0]]></fr:tex>, and for the second equation this creates a new error term
+    <fr:tex display="block"><![CDATA[\begin {aligned}       &\quad  h_1 (d_C + \delta _C) h_1 - h_1 \\       &= (1 + \alpha ) h_0 \delta _C h_0 + 2 (\alpha  + \alpha ^2) h_0 \delta _C h_0 \delta _C h_0 + \alpha ^2 h_0 \delta _C h_0 \delta _C h_0 \delta _C h_0     \end {aligned}]]></fr:tex>
+    and we can eliminate the first and second order part by setting <fr:tex display="inline"><![CDATA[\alpha  = -1]]></fr:tex>. The natural next step would be to add a further correction <fr:tex display="inline"><![CDATA[h_2 = h_1 + \beta  h_0 \delta _C h_0 \delta _C h_0]]></fr:tex>. This turns out to require <fr:tex display="inline"><![CDATA[\beta  = +1]]></fr:tex>, and so on.</fr:p>
+
+  <fr:p>From the informal discussion above, we can conjecture the formula
+    <fr:tex display="block"><![CDATA[h' = \sum _{k=0}^\infty  (-1)^k (h \delta _C)^k h.]]></fr:tex>
+    This reveals the reason for our pointwise nilpotency condition. With a little bit of care manipulating the infinite sum, we can prove that <fr:tex display="inline"><![CDATA[h' \mathbin {\circ } h' = 0]]></fr:tex> from <fr:tex display="inline"><![CDATA[h \mathbin {\circ } h = 0]]></fr:tex>, and the second equation follows from a nice telescopic sum
+    <fr:tex display="block"><![CDATA[\begin {aligned}       h' \mathbin {\circ } (d_C + \delta _C) \mathbin {\circ } h'       &= \sum _{i, j} (-1)^{i + j} (h \delta _C)^i h (d_C + \delta _C) (h \delta _C)^j h \\       &= \sum _{i, j} (-1)^{i + j} \left [(h \delta _C)^{i + j + 1} h + (h \delta _C)^{i + j} h\right ] \\       &= \sum _{k} (k+1) (-1)^k \left [(h \delta _C)^{k + 1} h + (h \delta _C)^k h\right ] \\       &= \sum _k (-1)^k (h \delta _C)^k h = h'.     \end {aligned}]]></fr:tex></fr:p>
+
+  <fr:p>We can reconstruct the other two components of the reduction <fr:tex display="inline"><![CDATA[\iota _{\rho '}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\pi _{\rho '}]]></fr:tex> through <fr:ref addr="hmlg-001H" href="hmlg-001H.xml" taxon="Theorem" />. In particular, <fr:tex display="inline"><![CDATA[D']]></fr:tex> is given by a perturbation of <fr:tex display="inline"><![CDATA[D]]></fr:tex>. We only write down the results below for easy reference.
+    <fr:tex display="block"><![CDATA[\begin {aligned}     \pi _{\rho '} &= \sum _{k=0}^\infty  (-1)^k \pi _{\rho } (\delta _C h_{\rho })^k \\     \iota _{\rho '} &= \sum _{k=0}^\infty  (-1)^k (h_{\rho } \delta _C)^k \iota _{\rho } \\     \delta _D &= \sum _{k=0}^\infty  (-1)^k \pi _{\rho } \delta _C (h_{\rho } \delta _C)^k \iota _{\rho }.     \end {aligned}]]></fr:tex></fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

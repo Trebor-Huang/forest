@@ -2,14 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>838</fr:anchor>
+    <fr:anchor>3158</fr:anchor>
     <fr:addr type="machine">#270</fr:addr>
     <fr:route>unstable-270.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
-      <fr:month>10</fr:month>
-      <fr:day>13</fr:day>
+      <fr:month>2</fr:month>
+      <fr:day>18</fr:day>
     </fr:date>
     <fr:authors>
       <fr:author>
@@ -18,12 +18,8 @@
     </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-  <fr:p>Consider the integral formulas for derivatives in <fr:ref addr="cplx-000B" href="cplx-000B.xml" />
-    <fr:tex display="block"><![CDATA[f'(z) = \frac {1}{2 \pi  i} \int _\gamma  \frac {f(w)}{(w - z)^2} \operatorname {d}\mathclose {w},]]></fr:tex>
-    where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is some circle of radius <fr:tex display="inline"><![CDATA[r]]></fr:tex> enclosing <fr:tex display="inline"><![CDATA[z]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[f(w)]]></fr:tex> is bounded, the integrand is bounded by <fr:tex display="inline"><![CDATA[C r^{-2}]]></fr:tex> for some constant <fr:tex display="inline"><![CDATA[C]]></fr:tex>. But this means the derivative is bounded by <fr:tex display="inline"><![CDATA[O(r^{-1})]]></fr:tex>. Since the function is holomorphic on the entire plane, <fr:tex display="inline"><![CDATA[r]]></fr:tex> can be arbitrary large, which means <fr:tex display="inline"><![CDATA[f'(z) = 0]]></fr:tex>.</fr:p>
-
-  <fr:p>When <fr:tex display="inline"><![CDATA[f]]></fr:tex> is not defined on the entire plane, this method still gives an upper bound on the magnitude of the derivative <fr:tex display="block"><![CDATA[|f^{(n)} (z)| \le  M n! \cdot  r^{-n}.]]></fr:tex> This is known as the <fr:strong>Cauchy estimate</fr:strong>.</fr:p>
-</fr:mainmatter>
+    <fr:p>(TODO)</fr:p>
+  </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
@@ -33,15 +29,15 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>840</fr:anchor>
-            <fr:addr type="user">cplx-000C</fr:addr>
-            <fr:route>cplx-000C.xml</fr:route>
-            <fr:title text="Liouville’s theorem">Liouville’s theorem</fr:title>
+            <fr:anchor>3160</fr:anchor>
+            <fr:addr type="user">hmlg-000F</fr:addr>
+            <fr:route>hmlg-000F.xml</fr:route>
+            <fr:title text="Freyd–Mitchell embedding theorem">Freyd–Mitchell embedding theorem</fr:title>
             <fr:taxon>Theorem</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
-              <fr:month>10</fr:month>
-              <fr:day>13</fr:day>
+              <fr:month>2</fr:month>
+              <fr:day>18</fr:day>
             </fr:date>
             <fr:authors>
               <fr:author>
@@ -49,16 +45,10 @@
               </fr:author>
             </fr:authors>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>A bounded holomorphic function <fr:tex display="inline"><![CDATA[f]]></fr:tex> defined on the entire complex plane must be constant.</fr:p>
+          <fr:mainmatter><fr:p>Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex display="inline"><![CDATA[R]]></fr:tex>-modules for some ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>842</fr:anchor><fr:addr type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-  <fr:p>Consider the integral formulas for derivatives in <fr:ref addr="cplx-000B" href="cplx-000B.xml" />
-    <fr:tex display="block"><![CDATA[f'(z) = \frac {1}{2 \pi  i} \int _\gamma  \frac {f(w)}{(w - z)^2} \operatorname {d}\mathclose {w},]]></fr:tex>
-    where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is some circle of radius <fr:tex display="inline"><![CDATA[r]]></fr:tex> enclosing <fr:tex display="inline"><![CDATA[z]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[f(w)]]></fr:tex> is bounded, the integrand is bounded by <fr:tex display="inline"><![CDATA[C r^{-2}]]></fr:tex> for some constant <fr:tex display="inline"><![CDATA[C]]></fr:tex>. But this means the derivative is bounded by <fr:tex display="inline"><![CDATA[O(r^{-1})]]></fr:tex>. Since the function is holomorphic on the entire plane, <fr:tex display="inline"><![CDATA[r]]></fr:tex> can be arbitrary large, which means <fr:tex display="inline"><![CDATA[f'(z) = 0]]></fr:tex>.</fr:p>
-
-  <fr:p>When <fr:tex display="inline"><![CDATA[f]]></fr:tex> is not defined on the entire plane, this method still gives an upper bound on the magnitude of the derivative <fr:tex display="block"><![CDATA[|f^{(n)} (z)| \le  M n! \cdot  r^{-n}.]]></fr:tex> This is known as the <fr:strong>Cauchy estimate</fr:strong>.</fr:p>
-</fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2102</fr:anchor><fr:addr type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(TODO)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
           <fr:backmatter />

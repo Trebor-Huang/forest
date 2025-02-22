@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>395</fr:anchor>
+    <fr:anchor>525</fr:anchor>
     <fr:addr type="user">tile-0006</fr:addr>
     <fr:route>tile-0006.xml</fr:route>
     <fr:title text="Conway signature">Conway signature</fr:title>
@@ -33,7 +33,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>397</fr:anchor>
+            <fr:anchor>527</fr:anchor>
             <fr:addr type="user">tile-0008</fr:addr>
             <fr:route>tile-0008.xml</fr:route>
             <fr:title text="Combinatorial data">Combinatorial data</fr:title>
@@ -52,7 +52,7 @@
             <fr:p>We specify the combinatorial data required to define a substitution tile system.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>353</fr:anchor>
+                <fr:anchor>371</fr:anchor>
                 <fr:addr type="user">tile-0003</fr:addr>
                 <fr:route>tile-0003.xml</fr:route>
                 <fr:title text="Tile system">Tile system</fr:title>
@@ -76,7 +76,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>355</fr:anchor>
+                <fr:anchor>373</fr:anchor>
                 <fr:addr type="user">tile-0004</fr:addr>
                 <fr:route>tile-0004.xml</fr:route>
                 <fr:title text="Substitution system">Substitution system</fr:title>
@@ -93,7 +93,7 @@
                 </fr:authors>
               </fr:frontmatter>
               <fr:mainmatter>
-                <fr:p>Given a <fr:link type="local" href="tile-0003.xml" addr="tile-0003" title="Tile system">tile system</fr:link>, a <fr:strong>substitution system</fr:strong> is a map from each prototile to a patch of tiles, such that when we replace each tile in a tiling with the substitution, the resulting patches of tiles can fit together in the same way, forming another tiling. This process is called <fr:strong>deflation</fr:strong>, while the inverse process, if it exists, is called <fr:strong>inflation</fr:strong>.</fr:p>
+                <fr:p>Given a <fr:link type="local" href="tile-0003.xml" addr="tile-0003" title="Tile system">tile system</fr:link>, a <fr:strong>substitution system</fr:strong> is a map from each prototile to a patch of tiles, such that when we replace each tile in a tiling with the substitution, the resulting patches of tiles can fit together in the same way, forming another tiling. This process is called <fr:strong>deflation</fr:strong>, while the inverse process, if it exists, is called <fr:strong>inflation</fr:strong>. We usually only consider substitution systems where inflation exists and is unique.</fr:p>
                 <fr:p>More precisely, given a prototile <fr:tex display="inline"><![CDATA[t]]></fr:tex>, we assign a list of deflated tiles <fr:tex display="inline"><![CDATA[t_i]]></fr:tex>. Each edge of <fr:tex display="inline"><![CDATA[t]]></fr:tex> will be subdivided into several subedges (with their own colors), such that the subdivision only depends on the color, and edges of opposite colors are divided in a way such that the resulting subedges match. For the data of how the deflated tiles glue together, we have a perfect pairing on the set
   <fr:tex display="block"><![CDATA[\{\text {subedges of $t$}\} \sqcup  \coprod _i \{\text {edges of $t_i$}\}]]></fr:tex> such that the paired edges are compatible. Specifically, if two edges of deflated tiles, or two subedges of <fr:tex display="inline"><![CDATA[t]]></fr:tex> are matched, they must be of opposite colors; if an edge of a deflated tile is matched with a subedge, they must share colors.</fr:p>
                 <fr:p>In addition to this, the subdivision must also match geometrically, but we shall not give its full definition here, as it suffices to recognize this intuitively.</fr:p>
@@ -105,7 +105,7 @@
             <fr:p>Now we have enough terminology to define the fundamental object in our algorithms, the Conway signature.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>357</fr:anchor>
+                <fr:anchor>375</fr:anchor>
                 <fr:addr type="user">tile-0006</fr:addr>
                 <fr:route>tile-0006.xml</fr:route>
                 <fr:title text="Conway signature">Conway signature</fr:title>
@@ -144,7 +144,32 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>399</fr:anchor>
+            <fr:anchor>529</fr:anchor>
+            <fr:addr type="user">tile-000E</fr:addr>
+            <fr:route>tile-000E.xml</fr:route>
+            <fr:title text="Language of neighborhood relation">Language of neighborhood relation</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>22</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Consider the alphabet <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> where each symbol is either of the form <fr:tex display="inline"><![CDATA[(\text {tile label }t, \text {edge label of }t)]]></fr:tex>, <fr:tex display="inline"><![CDATA[(\text {tile label }t, \text {subtile label of }t)]]></fr:tex>. We define a language <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> on <fr:tex display="inline"><![CDATA[\Delta  \times  \Delta ]]></fr:tex>, representing a binary relation on <fr:tex display="inline"><![CDATA[\Delta ^*]]></fr:tex> between words of the same length.
+  Let <fr:tex display="block"><![CDATA[\Sigma  = t_0 \xrightarrow {s_1} t_1 \xrightarrow {s_2} \cdots  \xrightarrow {s_n} t_n]]></fr:tex> be a <fr:em>finite</fr:em> <fr:link type="local" href="tile-0006.xml" addr="tile-0006" title="Conway signature">Conway signature</fr:link> and <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex> be an edge label of the corresponding tile. We regard this as a word <fr:tex display="inline"><![CDATA[(t_0, \epsilon )(t_1, s_1) \cdots  (t_n, s_n)]]></fr:tex> over the alphabet <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex>. Suppose the <fr:link type="local" href="tile-0007.xml" addr="tile-0007" title="Recursive neighborhood algorithm">recursive neighborhood algorithm</fr:link> sends <fr:tex display="inline"><![CDATA[(\Sigma _1, \epsilon _1)]]></fr:tex> to <fr:tex display="inline"><![CDATA[(\Sigma _2, \epsilon _2)]]></fr:tex>, then the two corresponding words can be zipped together to form a word over <fr:tex display="inline"><![CDATA[\Delta  \times  \Delta ]]></fr:tex>. We define the set of all such words as the <fr:strong>language of neighborhood relation</fr:strong> <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>.</fr:p>
+            <fr:p>Furthermore, consider the set of tile labels <fr:tex display="inline"><![CDATA[\mathrm {T}]]></fr:tex>. We define another language <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex>, called the <fr:em>augmented</fr:em> language of neighborhood relation, over the alphabet <fr:tex display="inline"><![CDATA[(\Delta  \times  \Delta ) \sqcup  \mathrm {T}]]></fr:tex>. Notice that if the <fr:link type="local" href="tile-0007.xml" addr="tile-0007" title="Recursive neighborhood algorithm">recursive neighborhood algorithm</fr:link> sends <fr:tex display="inline"><![CDATA[(\Sigma _1, \epsilon _1)]]></fr:tex> to <fr:tex display="inline"><![CDATA[(\Sigma _2, \epsilon _2)]]></fr:tex>, the two signatures always share the last prototile label <fr:tex display="inline"><![CDATA[t_n]]></fr:tex>. We append the symbol <fr:tex display="inline"><![CDATA[t_n]]></fr:tex> to the corresponding word in <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>, and define <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex> to be all the words of this form.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>531</fr:anchor>
             <fr:addr type="user">tile-000B</fr:addr>
             <fr:route>tile-000B.xml</fr:route>
             <fr:title text="Infinite walls">Infinite walls</fr:title>
@@ -167,13 +192,37 @@
             <fr:p>(To do: reproduce the image <fr:link type="external" href="https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/aperiodic-followup/p3-disconnected.svg">here</fr:link>)</fr:p>
             <fr:p>However, after any finite length of this Conway signature, we can replace the rest of the signature with
   <fr:tex display="block"><![CDATA[\cdots  \text {Thin} \xrightarrow {\text {top}} \text {Thick} \xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \cdots ]]></fr:tex>
-  and this will cover the whole neighborhood. Therefore, for any finite radius, there is a patch of tiling that looks like it can be described by <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex> in that radius. As the radius tends to infinity, these patches converge to a single complete tiling whose center tile has Conway signature <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex>.</fr:p>
+  and this will cover the whole neighborhood. Therefore, for any finite radius, there is a patch of tiling that looks like it can be described by <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex> in that radius. As the radius tends to infinity, these patches converge to a single complete tiling whose center tile has Conway signature <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex>, which is therefore in the <fr:link type="local" href="tile-000A.xml" addr="tile-000A" title="Hull of set of tilings">hull</fr:link> of Penrose tilings.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>401</fr:anchor>
+            <fr:anchor>533</fr:anchor>
+            <fr:addr type="user">tile-000D</fr:addr>
+            <fr:route>tile-000D.xml</fr:route>
+            <fr:title text="Neighborhood relation on Conway signatures">Neighborhood relation on Conway signatures</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given a <fr:link type="local" href="tile-0004.xml" addr="tile-0004" title="Substitution system">substitution system</fr:link>, two infinite <fr:link type="local" href="tile-0006.xml" addr="tile-0006" title="Conway signature">Conway signatures</fr:link> <fr:tex display="inline"><![CDATA[\Sigma _1, \Sigma _2]]></fr:tex>, and an edge label <fr:tex display="inline"><![CDATA[\epsilon _1, \epsilon _2]]></fr:tex> for each signature, we define a neighborhood relation, denoted as <fr:tex display="inline"><![CDATA[\Sigma _1 \xrightleftharpoons [\epsilon _2]{\epsilon _1} \Sigma _2]]></fr:tex>. It holds if and only if, for every natural number <fr:tex display="inline"><![CDATA[n]]></fr:tex>, there exists finite signatures <fr:tex display="inline"><![CDATA[\Sigma '_1]]></fr:tex>, <fr:tex display="inline"><![CDATA[\Sigma '_2]]></fr:tex> that agree with <fr:tex display="inline"><![CDATA[\Sigma _1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Sigma _2]]></fr:tex> at the first <fr:tex display="inline"><![CDATA[n]]></fr:tex> places, and the <fr:link type="local" href="tile-0007.xml" addr="tile-0007" title="Recursive neighborhood algorithm">recursive neighborhood algorithm</fr:link> sends <fr:tex display="inline"><![CDATA[(\Sigma '_1, \epsilon _1)]]></fr:tex> to <fr:tex display="inline"><![CDATA[(\Sigma '_2, \epsilon _2)]]></fr:tex>.</fr:p>
+            <fr:p>Note that this relation is not necessarily symmetric, total or functional.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>535</fr:anchor>
             <fr:addr type="user">tile-0007</fr:addr>
             <fr:route>tile-0007.xml</fr:route>
             <fr:title text="Recursive neighborhood algorithm">Recursive neighborhood algorithm</fr:title>
@@ -221,7 +270,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>403</fr:anchor>
+            <fr:anchor>537</fr:anchor>
             <fr:addr type="user">tile-0004</fr:addr>
             <fr:route>tile-0004.xml</fr:route>
             <fr:title text="Substitution system">Substitution system</fr:title>
@@ -238,7 +287,7 @@
             </fr:authors>
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>Given a <fr:link type="local" href="tile-0003.xml" addr="tile-0003" title="Tile system">tile system</fr:link>, a <fr:strong>substitution system</fr:strong> is a map from each prototile to a patch of tiles, such that when we replace each tile in a tiling with the substitution, the resulting patches of tiles can fit together in the same way, forming another tiling. This process is called <fr:strong>deflation</fr:strong>, while the inverse process, if it exists, is called <fr:strong>inflation</fr:strong>.</fr:p>
+            <fr:p>Given a <fr:link type="local" href="tile-0003.xml" addr="tile-0003" title="Tile system">tile system</fr:link>, a <fr:strong>substitution system</fr:strong> is a map from each prototile to a patch of tiles, such that when we replace each tile in a tiling with the substitution, the resulting patches of tiles can fit together in the same way, forming another tiling. This process is called <fr:strong>deflation</fr:strong>, while the inverse process, if it exists, is called <fr:strong>inflation</fr:strong>. We usually only consider substitution systems where inflation exists and is unique.</fr:p>
             <fr:p>More precisely, given a prototile <fr:tex display="inline"><![CDATA[t]]></fr:tex>, we assign a list of deflated tiles <fr:tex display="inline"><![CDATA[t_i]]></fr:tex>. Each edge of <fr:tex display="inline"><![CDATA[t]]></fr:tex> will be subdivided into several subedges (with their own colors), such that the subdivision only depends on the color, and edges of opposite colors are divided in a way such that the resulting subedges match. For the data of how the deflated tiles glue together, we have a perfect pairing on the set
   <fr:tex display="block"><![CDATA[\{\text {subedges of $t$}\} \sqcup  \coprod _i \{\text {edges of $t_i$}\}]]></fr:tex> such that the paired edges are compatible. Specifically, if two edges of deflated tiles, or two subedges of <fr:tex display="inline"><![CDATA[t]]></fr:tex> are matched, they must be of opposite colors; if an edge of a deflated tile is matched with a subedge, they must share colors.</fr:p>
             <fr:p>In addition to this, the subdivision must also match geometrically, but we shall not give its full definition here, as it suffices to recognize this intuitively.</fr:p>
