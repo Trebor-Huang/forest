@@ -1,20 +1,47 @@
 \date{2025-02-21}
-\title{Transductive neighborhood algorithm}
+\title{The structure of neighbor Conway signatures}
 \author{trebor}
 \import{common}
 
 \p{
-  (Define a relation)
+  The [[tile-0007]] computes neighboring tiles in some iterated deflation of a supertile, and we wish to extend this function to work with the [hull](tile-000A) of these deflations, i.e. the full set of possible Penrose tilings. It is first useful to consider a \em{binary relation}, instead of a function, between Conway signatures.
+}
+
+\transclude{tile-000D}
+
+\p{
+  Essentially the definition says that, if you look at a finite patch of tiles, it is always plausible that this \em{can} (hence the #{\exists} quantifier, not #{\forall}) be extended to a larger patch where they are neighbors in an iterated deflation of one single tile. This also leaves open the possibility that there may be multiple different possible Conway signatures for a neighbor, which is why we opted to consider a binary relation, instead of a function.
 }
 
 \p{
-  Prove the relation is recognized by a finite state automata??
+  Next, we need some general theory relating these infinite objects to finite ones. For this we make some definitions.
 }
 
-\p{
-  Automata to non-deterministic finite state transducer
-}
+\transclude{tile-000E}
 
 \p{
-  Executing (...)
+  We define the augmented language in this way because it has a very important property, which will be useful later. With this definition in hand, we see that \ref{tile-000D} is actually a well-known construction in #{\omega}-languages, i.e. languages with infinitely long words.
 }
+
+\transclude{misc-000H}
+
+\p{
+  Obviously, we have #{\lim \mathcal{L} = \lim \mathcal{L}^+} since a terminating symbol can’t affect the limit. Limits are nice because they can be recognized by deterministic finite state machines (also known as deterministic Büchi machines, to emphasize they are for #{\omega}-languages).
+}
+
+\transclude{misc-000I}
+
+
+\p{
+  Now, there is one single hypothesis that I am not able to get rid of. It doesn’t even need a constructive proof, as we will later give a construction that provably satisfies the hypothesis \em{given that it is true}.
+}
+
+\transclude{tile-000F}
+
+\p{
+  As promised, we reveal the special property that #{\mathcal{L}^+} enjoys.
+}
+
+\transclude{misc-000L}
+
+\transclude{misc-000M}

@@ -1,0 +1,9 @@
+\date{2025-02-22}
+\title{bideterministic automaton}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  A deterministic automaton is \strong{bideterministic} if it has only one accepting state, and if reversing all transitions and swapping the starting and accepting state produces another deterministic automaton.
+}

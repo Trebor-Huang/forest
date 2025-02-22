@@ -14,17 +14,17 @@
 }
 
 \p{
-  However, this recursive algorithm actually doesn’t generate all the possible tilings in our substitution system. This is because the definition of substitution tilings has a secret catch.
+  Unfortunately, this recursive algorithm actually doesn’t generate all the possible tilings in our substitution system. This is surprising, because it seems that Conway signatures uniquely determines the arrangement of tiles we are in, if we suppose inflation is always unique. However, the definition of substitution tilings has a secret catch.
 }
 
 \transclude{tile-000A}
 
 \p{
-  When we talk about the set of, say, [Penrose tilings](tile-0005), we are actually referring to the \em{closure} of all the iterated deflations of a single tile. Each of those iterated deflations only cover a finite portion of the plane, and an \em{actual} tiling completely covers the plane in a way that any finite portion of it can be found in one of those deflations.
+  When we talk about the set of, say, [Penrose tilings](tile-0005), we are actually referring to the \em{hull} of all the iterated deflations of a single tile. Each of those iterated deflations only cover a finite portion of the plane, and an \em{actual} tiling completely covers the plane in a way that any finite portion of it can be found in one of those deflations.
 }
 
 \p{
-  In our \ref{tile-0007}, we are assuming the entire tiling comes from a single iterated deflation, so when we attempt to calculate the neighbor of a tile, we first repeatedly inflate the tiles so that both of them are contained in one giant tile, and then deflate back down. However, an actual tiling may only look like an iterated deflation on each finite patch. It may be the case that no amount of inflation brings the neighbor into the same supertile.
+  In our \ref{tile-0007}, we are assuming the entire tiling comes from a single iterated deflation, so when we attempt to calculate the neighbor of a tile, we first repeatedly inflate the tiles so that both of them are contained in one giant tile, and then deflate back down. However, an actual tiling may only look like an iterated deflation on each finite patch, so it may be the case that no amount of inflation brings the neighbor into the same supertile.
 }
 
 \transclude{tile-000B}

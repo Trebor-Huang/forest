@@ -8,7 +8,7 @@
 }
 
 \p{
-  We will first construct a \strong{[[tile-0007]]}, which computes the neighbor tile when we specify a tile and one of its edges. This is already enough if you want to display random patches of the tiling, but there are cases with zero probability where the program will hang. However, these cases often contain interesting features, such as a high degree of symmetry, or fractal structures. So we will construct another \strong{transductive neighborhood algorithm} (depending on the recursive one) that increases laziness, allowing us to handle those inputs.
+  We will first construct a \strong{[[tile-0007]]}, which computes the neighbor tile when we specify a tile and one of its edges. This is already enough if you want to display random patches of the tiling, but there are cases with zero probability where the program will hang. However, these cases often contain interesting features, such as a high degree of symmetry, or fractal structures. So we will construct another \strong{transductive neighborhood algorithm}, depending on the recursive one, that allows us to handle those inputs by producing partial outputs as soon as they can be determined.
 }
 
 \p{

@@ -1,0 +1,13 @@
+\date{2025-02-22}
+\title{reversible regular language}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  A regular language is \strong{reversible} if it can be recognized by a [bideterministic](misc-000L) DFA, which is equivalent to requiring the [[misc-000K]] to be bideterministic.
+}
+
+\p{
+  Note that there are stronger and weaker notions of reversible regular languages in the literature, with inconsistent names.
+}
