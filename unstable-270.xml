@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3158</fr:anchor>
+    <fr:anchor>3254</fr:anchor>
     <fr:addr type="machine">#270</fr:addr>
     <fr:route>unstable-270.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
@@ -18,8 +18,16 @@
     </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>(TODO)</fr:p>
-  </fr:mainmatter>
+  <fr:p>Notice that having finite products and coproducts is a <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">property</fr:link>, and the canonical morphism between them being an isomorphism is also a <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">property</fr:link>. These do not mention the enrichment structure.</fr:p>
+
+  <fr:p>With these properties satisfied, the addition structure on the <fr:tex display="inline"><![CDATA[\hom ]]></fr:tex>-sets are fixed. We claim that the additive neutral element is given by the composition
+    <fr:tex display="block"><![CDATA[X \to  0 \to  Y,]]></fr:tex>
+    and given two parallel morphisms <fr:tex display="inline"><![CDATA[f, g : X \to  Y]]></fr:tex>, the following composition
+    <fr:tex display="block"><![CDATA[X \xrightarrow {\Delta } X \oplus  X \xrightarrow {f \oplus  g} Y \oplus  Y \xrightarrow {\nabla } Y.]]></fr:tex>
+    is equal to the addition <fr:tex display="inline"><![CDATA[f + g]]></fr:tex>. For disambiguation, we temporarily denote these constructions as <fr:tex display="inline"><![CDATA[0']]></fr:tex> and <fr:tex display="inline"><![CDATA[f +' g]]></fr:tex>. By interpreting <fr:tex display="inline"><![CDATA[\oplus ]]></fr:tex> as a product or a coproduct at appropriate times, it is easy to see that <fr:tex display="inline"><![CDATA[0']]></fr:tex> is indeed the neutral element for <fr:tex display="inline"><![CDATA[+']]></fr:tex>.</fr:p>
+
+  <fr:p>Recall that arrows <fr:tex display="inline"><![CDATA[X \oplus  X \to  Y \oplus  Y]]></fr:tex> is given by a <fr:tex display="inline"><![CDATA[2 \times  2]]></fr:tex> matrix, and this correspondence is an abelian group isomorphism by general enriched category theory. <fr:tex display="inline"><![CDATA[f \oplus  g]]></fr:tex> comes from a diagonal matrix with <fr:tex display="inline"><![CDATA[f, g]]></fr:tex> as entries, so this operation is linear, which entails <fr:tex display="inline"><![CDATA[+']]></fr:tex> is also linear. By the <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">Eckmann–Hilton argument</fr:link>, the two addition operations must coincide.</fr:p>
+</fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
@@ -29,10 +37,10 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3160</fr:anchor>
-            <fr:addr type="user">hmlg-000F</fr:addr>
-            <fr:route>hmlg-000F.xml</fr:route>
-            <fr:title text="Freyd–Mitchell embedding theorem">Freyd–Mitchell embedding theorem</fr:title>
+            <fr:anchor>3256</fr:anchor>
+            <fr:addr type="user">hmlg-000R</fr:addr>
+            <fr:route>hmlg-000R.xml</fr:route>
+            <fr:title text="Being an additive category is a property">Being an additive category is a <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">property</fr:link></fr:title>
             <fr:taxon>Theorem</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
@@ -45,10 +53,20 @@
               </fr:author>
             </fr:authors>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex display="inline"><![CDATA[R]]></fr:tex>-modules for some ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
+          <fr:mainmatter><fr:p>Given a category, if it can be endowed with an <fr:link type="local" href="hmlg-000O.xml" addr="hmlg-000O" title="{Ab}-enriched category"><fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enrichment</fr:link> that makes it an <fr:link type="local" href="hmlg-000P.xml" addr="hmlg-000P" title="Additive category">additive category</fr:link>, then it only has one possible enrichment. In particular, there is at most one way to turn a category into an additive category.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2102</fr:anchor><fr:addr type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(TODO)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1486</fr:anchor><fr:addr type="machine">#270</fr:addr><fr:route>unstable-270.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>Notice that having finite products and coproducts is a <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">property</fr:link>, and the canonical morphism between them being an isomorphism is also a <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">property</fr:link>. These do not mention the enrichment structure.</fr:p>
+
+  <fr:p>With these properties satisfied, the addition structure on the <fr:tex display="inline"><![CDATA[\hom ]]></fr:tex>-sets are fixed. We claim that the additive neutral element is given by the composition
+    <fr:tex display="block"><![CDATA[X \to  0 \to  Y,]]></fr:tex>
+    and given two parallel morphisms <fr:tex display="inline"><![CDATA[f, g : X \to  Y]]></fr:tex>, the following composition
+    <fr:tex display="block"><![CDATA[X \xrightarrow {\Delta } X \oplus  X \xrightarrow {f \oplus  g} Y \oplus  Y \xrightarrow {\nabla } Y.]]></fr:tex>
+    is equal to the addition <fr:tex display="inline"><![CDATA[f + g]]></fr:tex>. For disambiguation, we temporarily denote these constructions as <fr:tex display="inline"><![CDATA[0']]></fr:tex> and <fr:tex display="inline"><![CDATA[f +' g]]></fr:tex>. By interpreting <fr:tex display="inline"><![CDATA[\oplus ]]></fr:tex> as a product or a coproduct at appropriate times, it is easy to see that <fr:tex display="inline"><![CDATA[0']]></fr:tex> is indeed the neutral element for <fr:tex display="inline"><![CDATA[+']]></fr:tex>.</fr:p>
+
+  <fr:p>Recall that arrows <fr:tex display="inline"><![CDATA[X \oplus  X \to  Y \oplus  Y]]></fr:tex> is given by a <fr:tex display="inline"><![CDATA[2 \times  2]]></fr:tex> matrix, and this correspondence is an abelian group isomorphism by general enriched category theory. <fr:tex display="inline"><![CDATA[f \oplus  g]]></fr:tex> comes from a diagonal matrix with <fr:tex display="inline"><![CDATA[f, g]]></fr:tex> as entries, so this operation is linear, which entails <fr:tex display="inline"><![CDATA[+']]></fr:tex> is also linear. By the <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">Eckmann–Hilton argument</fr:link>, the two addition operations must coincide.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
           <fr:backmatter />

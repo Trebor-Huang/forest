@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2180</fr:anchor>
+    <fr:anchor>2284</fr:anchor>
     <fr:addr type="user">algm-001K</fr:addr>
     <fr:route>algm-001K.xml</fr:route>
     <fr:title text="Separation of presheaf">Separation of presheaf</fr:title>
@@ -21,7 +21,7 @@
   <fr:mainmatter><fr:p>Given a <fr:link type="local" href="algm-001A.xml" addr="algm-001A" title="Grothendieck coverage">Grothendieck coverage</fr:link>, the inclusion of <fr:link type="local" href="algm-001F.xml" addr="algm-001F" title="Sheaf">separated presheaves</fr:link> to presheaves has a left adjoint <fr:tex display="inline"><![CDATA[(-)^{\operatorname {sep}}]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2168</fr:anchor><fr:addr type="machine">#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2272</fr:anchor><fr:addr type="machine">#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We define <fr:tex display="inline"><![CDATA[\Gamma (U, P^{\operatorname {sep}})]]></fr:tex> to be a quotient of <fr:tex display="inline"><![CDATA[\Gamma (U, P)]]></fr:tex>. Two sections are considered the same if they are equal on a covering sieve. It is obvious that this is separated, and in a morphism <fr:tex display="inline"><![CDATA[P \to  Q]]></fr:tex> to a separated presheaf, if two sections of <fr:tex display="inline"><![CDATA[P]]></fr:tex> are equal on a covering sieve, then their image will also be, and by separatedness they must be actually equal in <fr:tex display="inline"><![CDATA[Q]]></fr:tex>.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
@@ -35,7 +35,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2182</fr:anchor>
+            <fr:anchor>2286</fr:anchor>
             <fr:addr type="user">algm-001J</fr:addr>
             <fr:route>algm-001J.xml</fr:route>
             <fr:title text="Sheafification">Sheafification</fr:title>
@@ -54,7 +54,7 @@
           <fr:mainmatter><fr:p><fr:strong>Sheafification</fr:strong> is defined as the left adjoint of the inclusion from <fr:link type="local" href="algm-001F.xml" addr="algm-001F" title="Sheaf">sheaves</fr:link> to the category of presheaves. Hence it freely constructs a sheaf from a presheaf.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>838</fr:anchor><fr:addr type="machine">#282</fr:addr><fr:route>unstable-282.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>942</fr:anchor><fr:addr type="machine">#284</fr:addr><fr:route>unstable-284.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We construct sheafification as <fr:link type="local" href="algm-001G.xml" addr="algm-001G" title="Iterated plus construction produces a sheaf">an iterated plus construction</fr:link>. This produces a functor. By <fr:ref addr="algm-001H" href="algm-001H.xml" taxon="Theorem" /> we have a natural bijection
     <fr:tex display="block"><![CDATA[\hom (P^{++}, F) \cong  \hom (P^+, F) \cong  \hom (P, F).]]></fr:tex>
     Hence it is indeed the left adjoint. Since the bijections are given by composition with <fr:tex display="inline"><![CDATA[P \to  P^+]]></fr:tex> and <fr:tex display="inline"><![CDATA[P^+ \to  P^{++}]]></fr:tex>, we see that the unit of the adjunction is given by the composition <fr:tex display="inline"><![CDATA[P \to  P^{++}]]></fr:tex>.</fr:p>
@@ -76,7 +76,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2184</fr:anchor>
+            <fr:anchor>2288</fr:anchor>
             <fr:addr type="user">algm-001A</fr:addr>
             <fr:route>algm-001A.xml</fr:route>
             <fr:title text="Grothendieck coverage">Grothendieck coverage</fr:title>
@@ -104,7 +104,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2186</fr:anchor>
+            <fr:anchor>2290</fr:anchor>
             <fr:addr type="user">algm-001F</fr:addr>
             <fr:route>algm-001F.xml</fr:route>
             <fr:title text="Sheaf">Sheaf</fr:title>

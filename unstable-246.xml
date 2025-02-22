@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>347</fr:anchor>
+    <fr:anchor>349</fr:anchor>
     <fr:addr type="machine">#246</fr:addr>
     <fr:route>unstable-246.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
@@ -18,7 +18,9 @@
     </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-  <fr:p>We define the states of the automaton be the Nerode congruence classes. For each letter <fr:tex display="inline"><![CDATA[a \in  \Sigma ]]></fr:tex>, we add a transition between the congruence classes <fr:tex display="inline"><![CDATA[[x]]]></fr:tex> and <fr:tex display="inline"><![CDATA[[xa]]]></fr:tex>. This is well-defined and deterministic by definition of the congruence. It is also obvious that a DFA for <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> cannot have less states.</fr:p>
+  <fr:p>We use the <fr:link type="local" href="misc-000N.xml" addr="misc-000N" title="Characterization of reversible languages">characterization of reversible languages</fr:link>. Any substring (ignoring the special starting and ending symbols) in this case describes a fixed geometric transformation between a tile and some supertile that it is contained in. So suppose <fr:tex display="inline"><![CDATA[xz, yz \in  \mathcal {L}^+]]></fr:tex>, then inverting the transformation given by <fr:tex display="inline"><![CDATA[z]]></fr:tex>, we know that <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> describe equivalent geometric configurations of a tile in some supertile. Therefore they must actually be <fr:link type="local" href="misc-000J.xml" addr="misc-000J" title="Nerode congruence">Nerode congruent</fr:link>.</fr:p>
+
+  <fr:p>Since we have not rigorously defined the geometric aspects of tile systems, we will not attempt to articulate a completely formal proof. But it should be noted how geometry plays a crucial role here, meaning that substitution systems that are “non-rigid” may fail this property.</fr:p>
 </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -29,11 +31,11 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>349</fr:anchor>
-            <fr:addr type="user">misc-000K</fr:addr>
-            <fr:route>misc-000K.xml</fr:route>
-            <fr:title text="Myhill–Nerode automaton">Myhill–Nerode automaton</fr:title>
-            <fr:taxon>Construction</fr:taxon>
+            <fr:anchor>351</fr:anchor>
+            <fr:addr type="user">tile-000G</fr:addr>
+            <fr:route>tile-000G.xml</fr:route>
+            <fr:title text="The augmented language of neighborhood relation is reversible">The augmented language of neighborhood relation is reversible</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>2</fr:month>
@@ -45,11 +47,13 @@
               </fr:author>
             </fr:authors>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>For any language <fr:tex display="inline"><![CDATA[\mathcal {L} \subseteq  \Sigma ^*]]></fr:tex>, the <fr:strong>Myhill–Nerode automaton</fr:strong> of <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> is a deterministic automata (possibly with infinitely many states) that recognizes <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>. The language <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> is regular iff there are only finitely many <fr:link type="local" href="misc-000J.xml" addr="misc-000J" title="Nerode congruence">Nerode congruence</fr:link> classes of <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>. In this case, the automaton is the unique minimal DFA for <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>.</fr:p>
+          <fr:mainmatter><fr:p>Given any <fr:link type="local" href="tile-0004.xml" addr="tile-0004" title="Substitution system">substitution system</fr:link>, the augmented <fr:link type="local" href="tile-000E.xml" addr="tile-000E" title="Language of neighborhood relation">language of neighborhood relation</fr:link> <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex> is <fr:link type="local" href="misc-000M.xml" addr="misc-000M" title="Reversible regular language">reversible</fr:link>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>351</fr:anchor><fr:addr type="machine">#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-  <fr:p>We define the states of the automaton be the Nerode congruence classes. For each letter <fr:tex display="inline"><![CDATA[a \in  \Sigma ]]></fr:tex>, we add a transition between the congruence classes <fr:tex display="inline"><![CDATA[[x]]]></fr:tex> and <fr:tex display="inline"><![CDATA[[xa]]]></fr:tex>. This is well-defined and deterministic by definition of the congruence. It is also obvious that a DFA for <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> cannot have less states.</fr:p>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>353</fr:anchor><fr:addr type="machine">#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>We use the <fr:link type="local" href="misc-000N.xml" addr="misc-000N" title="Characterization of reversible languages">characterization of reversible languages</fr:link>. Any substring (ignoring the special starting and ending symbols) in this case describes a fixed geometric transformation between a tile and some supertile that it is contained in. So suppose <fr:tex display="inline"><![CDATA[xz, yz \in  \mathcal {L}^+]]></fr:tex>, then inverting the transformation given by <fr:tex display="inline"><![CDATA[z]]></fr:tex>, we know that <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> describe equivalent geometric configurations of a tile in some supertile. Therefore they must actually be <fr:link type="local" href="misc-000J.xml" addr="misc-000J" title="Nerode congruence">Nerode congruent</fr:link>.</fr:p>
+
+  <fr:p>Since we have not rigorously defined the geometric aspects of tile systems, we will not attempt to articulate a completely formal proof. But it should be noted how geometry plays a crucial role here, meaning that substitution systems that are “non-rigid” may fail this property.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

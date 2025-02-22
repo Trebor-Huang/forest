@@ -2,14 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1190</fr:anchor>
+    <fr:anchor>806</fr:anchor>
     <fr:addr type="machine">#278</fr:addr>
     <fr:route>unstable-278.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:date>
-      <fr:year>2024</fr:year>
-      <fr:month>8</fr:month>
-      <fr:day>22</fr:day>
+      <fr:year>2025</fr:year>
+      <fr:month>1</fr:month>
+      <fr:day>8</fr:day>
     </fr:date>
     <fr:authors>
       <fr:author>
@@ -18,7 +18,7 @@
     </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-  <fr:p>We just need to prove the <fr:link type="local" href="algm-001Y.xml" addr="algm-001Y" title="Affinification">affinification</fr:link> is not an isomorphism. Consider the global sections of the <fr:link type="local" href="algm-000M.xml" addr="algm-000M" title="Ringed space">structure sheaf</fr:link>, which comes from the pullback of <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y, x^{-1}]]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y, y^{-1}]]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y, x^{-1}, y^{-1}]]]></fr:tex>. The result is simply <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y]]]></fr:tex>. We can compute that the affinification map is the inclusion map into <fr:tex display="inline"><![CDATA[\mathbb {A}_{\mathbb {C}}^2]]></fr:tex>. This cannot be an isomorphism because the underlying space is different.</fr:p>
+  <fr:p>The first three functors appear in <fr:ref addr="algm-002A" href="algm-002A.xml" taxon="Example" /> and <fr:ref addr="algm-002B" href="algm-002B.xml" taxon="Example" />. The next adjoint <fr:tex display="inline"><![CDATA[\operatorname {ev}_0\dashv \Delta ]]></fr:tex> is dual to <fr:tex display="inline"><![CDATA[\Delta \dashv \operatorname {ev}_1]]></fr:tex>, and it is also not hard to see manually. Finally, a natural transform <fr:tex display="inline"><![CDATA[0_! (X) \to  F]]></fr:tex> consists of a single map <fr:tex display="inline"><![CDATA[X \to  F(0)]]></fr:tex>, since all the other components are empty functions, hence trivial. Moreover, <fr:tex display="inline"><![CDATA[0_!]]></fr:tex> does not preserve products, so no more left adjoints are possible.</fr:p>
 </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -29,15 +29,15 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1192</fr:anchor>
-            <fr:addr type="user">algm-001Z</fr:addr>
-            <fr:route>algm-001Z.xml</fr:route>
-            <fr:title text="A non-affine scheme">A non-affine scheme</fr:title>
-            <fr:taxon>Example</fr:taxon>
+            <fr:anchor>808</fr:anchor>
+            <fr:addr type="user">algm-002C</fr:addr>
+            <fr:route>algm-002C.xml</fr:route>
+            <fr:title text="Adjoint chain over {Set}">Adjoint chain over <fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex></fr:title>
+            <fr:taxon>Theorem</fr:taxon>
             <fr:date>
-              <fr:year>2024</fr:year>
-              <fr:month>8</fr:month>
-              <fr:day>22</fr:day>
+              <fr:year>2025</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>8</fr:day>
             </fr:date>
             <fr:authors>
               <fr:author>
@@ -45,11 +45,12 @@
               </fr:author>
             </fr:authors>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>The open subscheme of <fr:tex display="inline"><![CDATA[\mathbb {A}_{\mathbb {C}}^2 = \operatorname {Spec} \mathbb {C}[x, y]]]></fr:tex> given by removing the origin, or equivalently the open <fr:tex display="inline"><![CDATA[D(x) \cup  D(y)]]></fr:tex>, is not <fr:link type="local" href="algm-000Q.xml" addr="algm-000Q" title="Affine scheme">affine</fr:link>.</fr:p>
+          <fr:mainmatter><fr:p>The yoneda embedding <fr:tex display="inline"><![CDATA[\mathsf {Set} \to  \mathsf {Psh}(\mathsf {Set})]]></fr:tex> has a chain of four left adjoints <fr:tex display="block"><![CDATA[0_!\dashv \operatorname {ev}_0\dashv \Delta \dashv \operatorname {ev}_1\dashv \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[0_! (X)(Y) = X \times  \hom (Y, 0)]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1184</fr:anchor><fr:addr type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-  <fr:p>We just need to prove the <fr:link type="local" href="algm-001Y.xml" addr="algm-001Y" title="Affinification">affinification</fr:link> is not an isomorphism. Consider the global sections of the <fr:link type="local" href="algm-000M.xml" addr="algm-000M" title="Ringed space">structure sheaf</fr:link>, which comes from the pullback of <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y, x^{-1}]]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y, y^{-1}]]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y, x^{-1}, y^{-1}]]]></fr:tex>. The result is simply <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y]]]></fr:tex>. We can compute that the affinification map is the inclusion map into <fr:tex display="inline"><![CDATA[\mathbb {A}_{\mathbb {C}}^2]]></fr:tex>. This cannot be an isomorphism because the underlying space is different.</fr:p>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>774</fr:anchor><fr:addr type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>The first three functors appear in <fr:ref addr="algm-002A" href="algm-002A.xml" taxon="Example" /> and <fr:ref addr="algm-002B" href="algm-002B.xml" taxon="Example" />. The next adjoint <fr:tex display="inline"><![CDATA[\operatorname {ev}_0\dashv \Delta ]]></fr:tex> is dual to <fr:tex display="inline"><![CDATA[\Delta \dashv \operatorname {ev}_1]]></fr:tex>, and it is also not hard to see manually. Finally, a natural transform <fr:tex display="inline"><![CDATA[0_! (X) \to  F]]></fr:tex> consists of a single map <fr:tex display="inline"><![CDATA[X \to  F(0)]]></fr:tex>, since all the other components are empty functions, hence trivial. Moreover, <fr:tex display="inline"><![CDATA[0_!]]></fr:tex> does not preserve products, so no more left adjoints are possible.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

@@ -2,14 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2472</fr:anchor>
+    <fr:anchor>2488</fr:anchor>
     <fr:addr type="machine">#292</fr:addr>
     <fr:route>unstable-292.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
       <fr:month>3</fr:month>
-      <fr:day>8</fr:day>
+      <fr:day>12</fr:day>
     </fr:date>
     <fr:authors>
       <fr:author>
@@ -18,9 +18,7 @@
     </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-  <fr:p>Note that the stalk <fr:tex display="inline"><![CDATA[(\varphi ^{-1}\mathscr {O}_{Y})_x = \mathscr {O}_{Y, \varphi (x)}]]></fr:tex>. A germ being invertible implies for some neighborhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, it comes from an invertible section <fr:tex display="inline"><![CDATA[f \in  \Gamma (U, \varphi ^{-1}\mathscr {O}_Y)]]></fr:tex>, so the image in <fr:tex display="inline"><![CDATA[\Gamma (U, \mathscr {O}_X)]]></fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.</fr:p>
-
-  <fr:p>On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.</fr:p>
+  <fr:p>We claim that <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> can alternatively be given by gluing affine schemes. We assign <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> the affine scheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> (which is possible because the open subspace <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> is homeomorphic to <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> as a space). Given two positively graded elements <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex>, we have an isomorphism between <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> restricted to <fr:tex display="inline"><![CDATA[D_+ (f g)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> restricted to <fr:tex display="inline"><![CDATA[D(g^{\deg  f}/f^{\deg  g})]]></fr:tex>, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.</fr:p>
 </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -31,15 +29,15 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2474</fr:anchor>
-            <fr:addr type="user">algm-000W</fr:addr>
-            <fr:route>algm-000W.xml</fr:route>
-            <fr:title text="Action of morphisms on stalks of locally ringed spaces">Action of morphisms on stalks of locally ringed spaces</fr:title>
-            <fr:taxon>Theorem</fr:taxon>
+            <fr:anchor>2490</fr:anchor>
+            <fr:addr type="user">algm-0010</fr:addr>
+            <fr:route>algm-0010.xml</fr:route>
+            <fr:title text="Structure sheaf of {Proj}(S)">Structure sheaf of <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex></fr:title>
+            <fr:taxon>Definition</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>3</fr:month>
-              <fr:day>8</fr:day>
+              <fr:day>12</fr:day>
             </fr:date>
             <fr:authors>
               <fr:author>
@@ -47,13 +45,11 @@
               </fr:author>
             </fr:authors>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Given a <fr:link type="local" href="algm-000S.xml" addr="algm-000S" title="Morphism of ringed spaces">morphism of ringed spaces</fr:link> <fr:tex display="inline"><![CDATA[\varphi  : X \to  Y]]></fr:tex>, if it is <fr:link type="local" href="algm-000U.xml" addr="algm-000U" title="Morphism of locally ringed spaces">local</fr:link>, a germ is invertible iff its <fr:link type="local" href="algm-000V.xml" addr="algm-000V" title="Terminology of pullbacks">pullback</fr:link> under <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> is invertible. If the space <fr:tex display="inline"><![CDATA[X]]></fr:tex> has enough points, then the inverse implication is also true.</fr:p>
+          <fr:mainmatter><fr:p>Fix a <fr:link type="local" href="hmlg-001L.xml" addr="hmlg-001L" title="Graded ring">graded ring</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex>. For a positively graded element <fr:tex display="inline"><![CDATA[f]]></fr:tex>, we have a graded ring localization <fr:tex display="inline"><![CDATA[S[f^{-1}]_\bullet ]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\Gamma (D_+(f), \mathscr {O})]]></fr:tex> be the zeroth degree component <fr:tex display="inline"><![CDATA[S[f^{-1}]_0]]></fr:tex>. This defines a sheaf over the <fr:link type="local" href="algm-000Y.xml" addr="algm-000Y" title="Projective spectrum of a graded ring">projective spectrum</fr:link>, and moreover gives a <fr:link type="local" href="algm-000R.xml" addr="algm-000R" title="Scheme">scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2476</fr:anchor><fr:addr type="machine">#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-  <fr:p>Note that the stalk <fr:tex display="inline"><![CDATA[(\varphi ^{-1}\mathscr {O}_{Y})_x = \mathscr {O}_{Y, \varphi (x)}]]></fr:tex>. A germ being invertible implies for some neighborhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, it comes from an invertible section <fr:tex display="inline"><![CDATA[f \in  \Gamma (U, \varphi ^{-1}\mathscr {O}_Y)]]></fr:tex>, so the image in <fr:tex display="inline"><![CDATA[\Gamma (U, \mathscr {O}_X)]]></fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.</fr:p>
-
-  <fr:p>On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.</fr:p>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2492</fr:anchor><fr:addr type="machine">#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>We claim that <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> can alternatively be given by gluing affine schemes. We assign <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> the affine scheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> (which is possible because the open subspace <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> is homeomorphic to <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> as a space). Given two positively graded elements <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex>, we have an isomorphism between <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> restricted to <fr:tex display="inline"><![CDATA[D_+ (f g)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> restricted to <fr:tex display="inline"><![CDATA[D(g^{\deg  f}/f^{\deg  g})]]></fr:tex>, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

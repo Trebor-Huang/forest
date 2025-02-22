@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2252</fr:anchor>
+    <fr:anchor>2356</fr:anchor>
     <fr:addr type="user">algm-001D</fr:addr>
     <fr:route>algm-001D.xml</fr:route>
     <fr:title text="Descent data of presheaves">Descent data of presheaves</fr:title>
@@ -31,7 +31,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2254</fr:anchor>
+            <fr:anchor>2358</fr:anchor>
             <fr:addr type="user">algm-001G</fr:addr>
             <fr:route>algm-001G.xml</fr:route>
             <fr:title text="Iterated plus construction produces a sheaf">Iterated <fr:link type="local" href="algm-001E.xml" addr="algm-001E" title="Plus construction">plus construction</fr:link> produces a sheaf</fr:title>
@@ -50,7 +50,7 @@
           <fr:mainmatter><fr:p>Given any presheaf <fr:tex display="inline"><![CDATA[P]]></fr:tex>, <fr:tex display="inline"><![CDATA[P^+]]></fr:tex> is a <fr:link type="local" href="algm-001F.xml" addr="algm-001F" title="Sheaf">separated presheaf</fr:link>, and if <fr:tex display="inline"><![CDATA[P]]></fr:tex> is already separated, <fr:tex display="inline"><![CDATA[P^+]]></fr:tex> is a <fr:link type="local" href="algm-001F.xml" addr="algm-001F" title="Sheaf">sheaf</fr:link>. Therefore <fr:tex display="inline"><![CDATA[P^{++}]]></fr:tex> is always a sheaf.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2204</fr:anchor><fr:addr type="machine">#284</fr:addr><fr:route>unstable-284.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2308</fr:anchor><fr:addr type="machine">#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We first prove that <fr:tex display="inline"><![CDATA[P^+]]></fr:tex> is separated. Suppose there are two gluings of a set of descent data on a <fr:link type="local" href="algm-001A.xml" addr="algm-001A" title="Grothendieck coverage">covering sieve</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex> over <fr:tex display="inline"><![CDATA[A]]></fr:tex>, then we have two sieves <fr:tex display="inline"><![CDATA[S_1, S_2]]></fr:tex> over <fr:tex display="inline"><![CDATA[A]]></fr:tex> with compatible families <fr:tex display="inline"><![CDATA[s_{1, f}, s_{2, f}]]></fr:tex>. Since they are gluings of the same descent data, the restriction along any morphism <fr:tex display="inline"><![CDATA[g : U \to  A]]></fr:tex> in <fr:tex display="inline"><![CDATA[S]]></fr:tex> would be equal. Hence there is a common refinement of <fr:tex display="inline"><![CDATA[g^* S_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[g^* S_2]]></fr:tex> where the two families become equal. Expanding this, there is a covering sieve on <fr:tex display="inline"><![CDATA[U]]></fr:tex> such that <fr:tex display="inline"><![CDATA[g \mathbin {\circ } h \in  S_1 \cap  S_2]]></fr:tex> for every <fr:tex display="inline"><![CDATA[h]]></fr:tex> in the sieve, and <fr:tex display="inline"><![CDATA[s_{1, g \mathbin {\circ } h} = s_{2, g \mathbin {\circ } h}]]></fr:tex>. But then by the axioms of a <fr:link type="local" href="algm-001A.xml" addr="algm-001A" title="Grothendieck coverage">Grothendieck coverage</fr:link>, <fr:tex display="inline"><![CDATA[g \mathbin {\circ } h]]></fr:tex> for all <fr:tex display="inline"><![CDATA[h]]></fr:tex> in the said sieve and <fr:tex display="inline"><![CDATA[g \in  S]]></fr:tex> also generates a covering sieve. Hence <fr:tex display="inline"><![CDATA[s_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[s_2]]></fr:tex> are already equal on a covering subsieve, and so they are equal in <fr:tex display="inline"><![CDATA[\Gamma (A, P^+)]]></fr:tex>.</fr:p>
 
   <fr:p>Let’s see why <fr:tex display="inline"><![CDATA[P^+]]></fr:tex> is not necessarily a sheaf. To be a sheaf, we need to find a gluing for each compatible family. A <fr:link type="local" href="algm-001D.xml" addr="algm-001D" title="Descent data of presheaves">compatible family</fr:link> of local sections of <fr:tex display="inline"><![CDATA[P^+]]></fr:tex> is a family of covering sieves <fr:tex display="inline"><![CDATA[S_f]]></fr:tex> over <fr:tex display="inline"><![CDATA[U]]></fr:tex> for each morphism <fr:tex display="inline"><![CDATA[f : U \to  A]]></fr:tex> in <fr:tex display="inline"><![CDATA[S]]></fr:tex>, and for each <fr:tex display="inline"><![CDATA[S_f]]></fr:tex> a family of sections <fr:tex display="inline"><![CDATA[s_{f, g} \in  \Gamma (V, P)]]></fr:tex> where <fr:tex display="inline"><![CDATA[g : V \to  U]]></fr:tex> lies in <fr:tex display="inline"><![CDATA[S_f]]></fr:tex>. By the axioms of a <fr:link type="local" href="algm-001A.xml" addr="algm-001A" title="Grothendieck coverage">Grothendieck coverage</fr:link>, the union <fr:tex display="inline"><![CDATA[\bigcup _{f \in  S} f \mathbin {\circ } S_f]]></fr:tex> is a sieve, since <fr:tex display="inline"><![CDATA[S_f \subseteq  f^* (f \mathbin {\circ } S_f)]]></fr:tex>. (Warning: <fr:tex display="inline"><![CDATA[f \mathbin {\circ } S_f]]></fr:tex> is not a covering sieve itself.) So we are tempted to simply construct a glued section <fr:tex display="inline"><![CDATA[s']]></fr:tex> by <fr:tex display="inline"><![CDATA[s'_{f \mathbin {\circ } g} = s_{f, g}]]></fr:tex>. Hence we need to prove <fr:tex display="inline"><![CDATA[s_{f, g} = s_{f', g'}]]></fr:tex> if <fr:tex display="inline"><![CDATA[f \mathbin {\circ } g = f' \mathbin {\circ } g']]></fr:tex>.</fr:p>
@@ -63,7 +63,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2256</fr:anchor>
+            <fr:anchor>2360</fr:anchor>
             <fr:addr type="user">algm-001E</fr:addr>
             <fr:route>algm-001E.xml</fr:route>
             <fr:title text="Plus construction">Plus construction</fr:title>
@@ -87,7 +87,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2258</fr:anchor>
+            <fr:anchor>2362</fr:anchor>
             <fr:addr type="user">algm-001F</fr:addr>
             <fr:route>algm-001F.xml</fr:route>
             <fr:title text="Sheaf">Sheaf</fr:title>
@@ -119,7 +119,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2260</fr:anchor>
+            <fr:anchor>2364</fr:anchor>
             <fr:addr type="user">algm-0019</fr:addr>
             <fr:route>algm-0019.xml</fr:route>
             <fr:title text="Coverage">Coverage</fr:title>
@@ -142,7 +142,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2262</fr:anchor>
+            <fr:anchor>2366</fr:anchor>
             <fr:addr type="user">algm-001B</fr:addr>
             <fr:route>algm-001B.xml</fr:route>
             <fr:title text="Sieve">Sieve</fr:title>

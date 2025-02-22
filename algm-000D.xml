@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2738</fr:anchor>
+    <fr:anchor>2842</fr:anchor>
     <fr:addr type="user">algm-000D</fr:addr>
     <fr:route>algm-000D.xml</fr:route>
     <fr:title text="A closed in a noetherian space is uniquely a finite union of irreducible closeds">A closed in a noetherian space is uniquely a finite union of irreducible closeds</fr:title>
@@ -21,7 +21,7 @@
   <fr:mainmatter><fr:p>If <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a <fr:link type="local" href="algm-000C.xml" addr="algm-000C" title="Noetherian space">noetherian space</fr:link>, then a closed <fr:tex display="inline"><![CDATA[Z \subseteq  X]]></fr:tex> can be written uniquely as the union of finitely many irreducible closeds.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2706</fr:anchor><fr:addr type="machine">#298</fr:addr><fr:route>unstable-298.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2810</fr:anchor><fr:addr type="machine">#300</fr:addr><fr:route>unstable-300.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We first deal with existence. By noetherianness, we perform well-founded induction. Suppose all the closed subsets of <fr:tex display="inline"><![CDATA[Z]]></fr:tex> can be written as a finite union. If <fr:tex display="inline"><![CDATA[Z]]></fr:tex> is irreducible then we’re done. Otherwise <fr:tex display="inline"><![CDATA[Z = Z_1 \cup  Z_2]]></fr:tex> is a non-trivial union of two closeds. By the induction hypothesis <fr:tex display="inline"><![CDATA[Z_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[Z_2]]></fr:tex> can be written as a finite union of irreducible closeds, which we can combine to get the desired union.</fr:p>
 
   <fr:p>We then prove uniqueness. Suppose
@@ -39,7 +39,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2740</fr:anchor>
+            <fr:anchor>2844</fr:anchor>
             <fr:addr type="user">algm-000C</fr:addr>
             <fr:route>algm-000C.xml</fr:route>
             <fr:title text="Noetherian space">Noetherian space</fr:title>

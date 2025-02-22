@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1701</fr:anchor>
+    <fr:anchor>1805</fr:anchor>
     <fr:addr type="machine">#236</fr:addr>
     <fr:route>unstable-236.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
@@ -31,7 +31,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1703</fr:anchor>
+            <fr:anchor>1807</fr:anchor>
             <fr:addr type="user">ualg-000M</fr:addr>
             <fr:route>ualg-000M.xml</fr:route>
             <fr:title text="Complete Boolean algebra not isomorphic to a powerset">Complete Boolean algebra not isomorphic to a powerset</fr:title>
@@ -50,7 +50,7 @@
           <fr:mainmatter><fr:p>Consider the Lebesgue measurable sets on the interval <fr:tex display="inline"><![CDATA[[0,1]]]></fr:tex> quotiented by measure-zero sets. This is a complete Boolean algebra, but it is not a powerset, showing the necessity of complete distributivity in <fr:ref addr="ualg-000L" href="ualg-000L.xml" taxon="Theorem" />.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1705</fr:anchor><fr:addr type="machine">#236</fr:addr><fr:route>unstable-236.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1809</fr:anchor><fr:addr type="machine">#236</fr:addr><fr:route>unstable-236.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>This is indeed a Boolean algebra since measure-zero sets form a Boolean ideal of the Lebesgue <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex>-algebra. So we just need to show the existence of arbitrary joins. Given a family <fr:tex display="inline"><![CDATA[X_\alpha ]]></fr:tex> of measurable sets, we inductively construct a countable union. On each step, consider the area of each set outside of the current union. Select a set such that this excess area is within <fr:tex display="inline"><![CDATA[\frac 12]]></fr:tex> of the supremum. Since <fr:tex display="inline"><![CDATA[\mu ([0,1]) = 1]]></fr:tex>, such a process must lead to an excess area converging to zero.</fr:p>
 
   <fr:p>By construction, every set <fr:tex display="inline"><![CDATA[X_\alpha ]]></fr:tex> has zero area outside of this countable union, so they are under the union in the Boolean algebra. And the countable union <fr:tex display="inline"><![CDATA[\bigcup _{k=1}^\infty  X_{\alpha _k}]]></fr:tex> is the join of <fr:tex display="inline"><![CDATA[X_{\alpha _k}]]></fr:tex> in the algebra, since a countable union of neglegible set is still neglegible. Hence by chasing elements, it must be the join of the entire family <fr:tex display="inline"><![CDATA[X_\alpha ]]></fr:tex>.</fr:p>

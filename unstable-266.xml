@@ -2,14 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3142</fr:anchor>
+    <fr:anchor>3182</fr:anchor>
     <fr:addr type="machine">#266</fr:addr>
     <fr:route>unstable-266.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
       <fr:month>2</fr:month>
-      <fr:day>18</fr:day>
+      <fr:day>19</fr:day>
     </fr:date>
     <fr:authors>
       <fr:author>
@@ -18,8 +18,8 @@
     </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Since the left adjoint preserves colimits, it preserves finite coproducts. Therefore by <fr:ref addr="hmlg-000S" href="hmlg-000S.xml" taxon="Definition" /> it is an additive functor. Dually, the right adjoint preserves limits, and is also additive.</fr:p>
-  </fr:mainmatter>
+  <fr:p>We simply need to note that an equalizer for <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex> is equivalent to an equalizer for <fr:tex display="inline"><![CDATA[(f-g)]]></fr:tex> and <fr:tex display="inline"><![CDATA[0]]></fr:tex>, by bilinearity of composition.</fr:p>
+</fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
@@ -29,15 +29,15 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3144</fr:anchor>
-            <fr:addr type="user">hmlg-000T</fr:addr>
-            <fr:route>hmlg-000T.xml</fr:route>
-            <fr:title text="Adjunctions are additive">Adjunctions are additive</fr:title>
+            <fr:anchor>3184</fr:anchor>
+            <fr:addr type="user">hmlg-000Y</fr:addr>
+            <fr:route>hmlg-000Y.xml</fr:route>
+            <fr:title text="Equalizers can be reduced to kernels in {Ab}-enriched categories">Equalizers can be reduced to kernels in <fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched categories</fr:title>
             <fr:taxon>Theorem</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>2</fr:month>
-              <fr:day>18</fr:day>
+              <fr:day>19</fr:day>
             </fr:date>
             <fr:authors>
               <fr:author>
@@ -45,10 +45,12 @@
               </fr:author>
             </fr:authors>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>In an adjunction <fr:tex display="inline"><![CDATA[F \dashv  G]]></fr:tex>, both functors are automatically additive.</fr:p>
+          <fr:mainmatter><fr:p>We can express equalizers with kernels (which are equalizers with the zero morphism).</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1388</fr:anchor><fr:addr type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>Since the left adjoint preserves colimits, it preserves finite coproducts. Therefore by <fr:ref addr="hmlg-000S" href="hmlg-000S.xml" taxon="Definition" /> it is an additive functor. Dually, the right adjoint preserves limits, and is also additive.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1496</fr:anchor><fr:addr type="machine">#266</fr:addr><fr:route>unstable-266.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>We simply need to note that an equalizer for <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex> is equivalent to an equalizer for <fr:tex display="inline"><![CDATA[(f-g)]]></fr:tex> and <fr:tex display="inline"><![CDATA[0]]></fr:tex>, by bilinearity of composition.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
           <fr:backmatter />
