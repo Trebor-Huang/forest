@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1387</fr:anchor>
+    <fr:anchor>1405</fr:anchor>
     <fr:addr type="user">hott-book</fr:addr>
     <fr:route>hott-book.xml</fr:route>
     <fr:title text="Homotopy Type Theory: Univalent Foundations of Mathematics">Homotopy Type Theory: Univalent Foundations of Mathematics</fr:title>
@@ -27,7 +27,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1389</fr:anchor>
+            <fr:anchor>1407</fr:anchor>
             <fr:addr type="user">hmlg-002Q</fr:addr>
             <fr:route>hmlg-002Q.xml</fr:route>
             <fr:title text="Synthetic characterization of the James construction">Synthetic characterization of the James construction</fr:title>
@@ -45,7 +45,7 @@
           <fr:mainmatter><fr:p>The <fr:link type="local" href="hmlg-002R.xml" addr="hmlg-002R" title="James construction">James construction</fr:link> <fr:tex display="inline"><![CDATA[JX]]></fr:tex> of a connected pointed space <fr:tex display="inline"><![CDATA[X]]></fr:tex> is equivalent to the space <fr:tex display="inline"><![CDATA[\Omega  \Sigma  X]]></fr:tex>, which is very intriguing considering that <fr:tex display="inline"><![CDATA[\Omega  \Sigma  X]]></fr:tex> actually has a group structure up to homotopy. Its synthetic proof is enlightening.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1385</fr:anchor><fr:addr type="machine">#314</fr:addr><fr:route>unstable-314.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1403</fr:anchor><fr:addr type="machine">#314</fr:addr><fr:route>unstable-314.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Since <fr:tex display="inline"><![CDATA[X]]></fr:tex> is connected, for each <fr:tex display="inline"><![CDATA[x]]></fr:tex> there exists a path back to the point <fr:tex display="inline"><![CDATA[x_0]]></fr:tex>. <fr:tex display="inline"><![CDATA[(x_0 \mathbin {::} -) = \textrm {id}]]></fr:tex> is an auto-equivalence on <fr:tex display="inline"><![CDATA[JX]]></fr:tex>, so noting that being an equivalence is a proposition, <fr:tex display="inline"><![CDATA[(x \mathbin {::} -)]]></fr:tex> is too, for all <fr:tex display="inline"><![CDATA[x]]></fr:tex>.</fr:p>
 
   <fr:p>Now consider a family of spaces indexed by <fr:tex display="inline"><![CDATA[\Sigma  X]]></fr:tex>. For the north and south pole we assign the space <fr:tex display="inline"><![CDATA[JX]]></fr:tex>, and for each path between the poles induced by an element <fr:tex display="inline"><![CDATA[x \in  X]]></fr:tex>, we assign the equivalence <fr:tex display="inline"><![CDATA[(x \mathbin {::} -)]]></fr:tex>, which by univalence induces a path.

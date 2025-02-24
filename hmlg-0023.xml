@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1664</fr:anchor>
+    <fr:anchor>1682</fr:anchor>
     <fr:addr type="user">hmlg-0023</fr:addr>
     <fr:route>hmlg-0023.xml</fr:route>
     <fr:title text="Eilenberg–Zilber theorem">Eilenberg–Zilber theorem</fr:title>
@@ -22,7 +22,7 @@
   <fr:tex display="block"><![CDATA[C_* (X \times  Y) \Rightarrow \mkern {-14mu}\Rightarrow  C_* (X) \otimes  C_* (Y).]]></fr:tex></fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1662</fr:anchor><fr:addr type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1680</fr:anchor><fr:addr type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>For every product of simplices <fr:tex display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex>, we put on the <fr:link type="local" href="hmlg-0022.xml" addr="hmlg-0022" title="Discrete vector field on ^p  ^q">discrete vector field on <fr:tex display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex></fr:link>. This DVF is <fr:link type="local" href="hmlg-001P.xml" addr="hmlg-001P" title="Admissible discrete vector field">admissible</fr:link> because the time a path stays in <fr:tex display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex> is bounded by a function of <fr:tex display="inline"><![CDATA[p]]></fr:tex> and <fr:tex display="inline"><![CDATA[q]]></fr:tex>. Then it is sent to a boundary cell.</fr:p>
 
   <fr:p>Using <fr:ref addr="hmlg-001R" href="hmlg-001R.xml" taxon="Construction" />, we get the required chain reduction. This is identical to the Eilenberg–Zilber reduction in literature, but the proof requires some combinatorics, and can be seen in Section 5.13 of <fr:link type="local" href="discrete-vector-fields.xml" addr="discrete-vector-fields" title="Discrete Vector Fields and Fundamental Algebraic Topology">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. However, this formulation gives a much better computational performance.</fr:p>
@@ -38,7 +38,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1666</fr:anchor>
+            <fr:anchor>1684</fr:anchor>
             <fr:addr type="user">discrete-vector-fields</fr:addr>
             <fr:route>discrete-vector-fields.xml</fr:route>
             <fr:title text="Discrete Vector Fields and Fundamental Algebraic Topology">Discrete Vector Fields and Fundamental Algebraic Topology</fr:title>
@@ -69,7 +69,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1668</fr:anchor>
+            <fr:anchor>1686</fr:anchor>
             <fr:addr type="user">hmlg-0024</fr:addr>
             <fr:route>hmlg-0024.xml</fr:route>
             <fr:title text="Naturality of the Eilenberg–Zilber reduction">Naturality of the Eilenberg–Zilber reduction</fr:title>
@@ -101,7 +101,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1670</fr:anchor>
+            <fr:anchor>1688</fr:anchor>
             <fr:addr type="user">hmlg-0022</fr:addr>
             <fr:route>hmlg-0022.xml</fr:route>
             <fr:title text="Discrete vector field on ^p  ^q">Discrete vector field on <fr:tex display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex></fr:title>
@@ -127,7 +127,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1672</fr:anchor>
+            <fr:anchor>1690</fr:anchor>
             <fr:addr type="user">hmlg-001R</fr:addr>
             <fr:route>hmlg-001R.xml</fr:route>
             <fr:title text="Chain reduction generated by a discrete vector field">Chain reduction generated by a discrete vector field</fr:title>
@@ -146,7 +146,7 @@
           <fr:mainmatter><fr:p>Given an <fr:link type="local" href="hmlg-001P.xml" addr="hmlg-001P" title="Admissible discrete vector field">admissible discrete vector field</fr:link> on an <fr:link type="local" href="hmlg-0013.xml" addr="hmlg-0013" title="Algebraic cellular complex">algebraic cellular complex</fr:link> <fr:tex display="inline"><![CDATA[(C_k, d)]]></fr:tex>, we can generate a <fr:link type="local" href="hmlg-0017.xml" addr="hmlg-0017" title="Chain reduction">chain reduction</fr:link>. It will be computable when the cellular complex is <fr:link type="local" href="hmlg-001A.xml" addr="hmlg-001A" title="Effective algebraic cellular complex">effective</fr:link>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1674</fr:anchor><fr:addr type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1692</fr:anchor><fr:addr type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>The DVF partitions the chain groups into a direct sum <fr:tex display="inline"><![CDATA[C_k^{s} \oplus  C_k^t \oplus  C_k^c]]></fr:tex>, corresponding to source, target and critical cells. We would like to create a reduction to the critical cells only. To do this, we invoke <fr:link type="local" href="hmlg-001G.xml" addr="hmlg-001G" title="Perturbation of the larger chain complex in a chain reduction"><fr:link type="local" href="hmlg-001G.xml" addr="hmlg-001G" title="Perturbation of the larger chain complex in a chain reduction">perturbation</fr:link> of the larger chain complex in a <fr:link type="local" href="hmlg-0017.xml" addr="hmlg-0017" title="Chain reduction">chain reduction</fr:link></fr:link> and start with a simpler chain reduction.</fr:p>
 
   <fr:p>Consider the algebraic cellular complex whose chain groups are <fr:tex display="inline"><![CDATA[C_k]]></fr:tex>, but the differential <fr:tex display="inline"><![CDATA[d'(\sigma ) = \pm  \tau ]]></fr:tex> iff <fr:tex display="inline"><![CDATA[\overrightharpoon {\tau  \sigma }]]></fr:tex> is in the vector field, and zero otherwise. The sign is determined as the sign of <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> in <fr:tex display="inline"><![CDATA[d(\sigma )]]></fr:tex>. Hence <fr:tex display="inline"><![CDATA[d' : C_{k+1}^{t} \to  C_k^s]]></fr:tex>, and is zero otherwise. Therefore using the <fr:link type="local" href="hmlg-001H.xml" addr="hmlg-001H" title="Characterization of chain reduction">characterization of <fr:link type="local" href="hmlg-0017.xml" addr="hmlg-0017" title="Chain reduction">chain reduction</fr:link></fr:link> as a direct sum with a split exact chain complex, we see that this complex can be reduced to the complex on <fr:tex display="inline"><![CDATA[C_k^p]]></fr:tex> whose differential is identically zero.</fr:p>
@@ -159,7 +159,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1676</fr:anchor>
+            <fr:anchor>1694</fr:anchor>
             <fr:addr type="user">hmlg-001P</fr:addr>
             <fr:route>hmlg-001P.xml</fr:route>
             <fr:title text="Admissible discrete vector field">Admissible discrete vector field</fr:title>
@@ -182,7 +182,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1678</fr:anchor>
+            <fr:anchor>1696</fr:anchor>
             <fr:addr type="user">hmlg-0017</fr:addr>
             <fr:route>hmlg-0017.xml</fr:route>
             <fr:title text="Chain reduction">Chain reduction</fr:title>

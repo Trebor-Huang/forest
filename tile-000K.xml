@@ -2,15 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>601</fr:anchor>
-    <fr:addr type="user">tile-000B</fr:addr>
-    <fr:route>tile-000B.xml</fr:route>
-    <fr:title text="Infinite walls">Infinite walls</fr:title>
-    <fr:taxon>Example</fr:taxon>
+    <fr:anchor>343</fr:anchor>
+    <fr:addr type="user">tile-000K</fr:addr>
+    <fr:route>tile-000K.xml</fr:route>
+    <fr:title text="Distribution of Conway signatures">Distribution of Conway signatures</fr:title>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>2</fr:month>
-      <fr:day>21</fr:day>
+      <fr:day>24</fr:day>
     </fr:date>
     <fr:authors>
       <fr:author>
@@ -19,13 +18,10 @@
     </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Consider the substitution system of <fr:link type="local" href="tile-0005.xml" addr="tile-0005" title="Penrose rhombs">Penrose rhombs</fr:link>. Take the cyclic <fr:link type="local" href="tile-0006.xml" addr="tile-0006" title="Conway signature">Conway signature</fr:link>
-  <fr:tex display="block"><![CDATA[     \Sigma _0 = \text {Thin} \xrightarrow {\text {left}} \text {Thin} \xrightarrow {\text {left}} \cdots    ]]></fr:tex>
-  This repeatedly selects the thin <fr:tex display="inline"><![CDATA[36\degree ]]></fr:tex> subtile on the left. No matter how many times we use the substitution rules, the selected thin rhomb will not have a neighbor.</fr:p>
-    <fr:p>(To do: reproduce the image <fr:link type="external" href="https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/aperiodic-followup/p3-disconnected.svg">here</fr:link>)</fr:p>
-    <fr:p>However, after any finite length of this Conway signature, we can replace the rest of the signature with
-  <fr:tex display="block"><![CDATA[\cdots  \text {Thin} \xrightarrow {\text {top}} \text {Thick} \xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \cdots ]]></fr:tex>
-  and this will cover the whole neighborhood. Therefore, for any finite radius, there is a patch of tiling that looks like it can be described by <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex> in that radius. As the radius tends to infinity, these patches converge to a single complete tiling whose center tile has Conway signature <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex>, which is therefore in the <fr:link type="local" href="tile-000A.xml" addr="tile-000A" title="Hull of set of tilings">hull</fr:link> of Penrose tilings.</fr:p>
+    <fr:p>Given a <fr:link type="local" href="tile-0004.xml" addr="tile-0004" title="Substitution system">substitution system</fr:link>, there is a canonical probability distribution on the set of tilings with a vertex at the origin. Consider the <fr:strong>substitution matrix</fr:strong> <fr:tex display="inline"><![CDATA[(a_{ij})]]></fr:tex>, where <fr:tex display="inline"><![CDATA[i, j]]></fr:tex> are labels of prototiles, and <fr:tex display="inline"><![CDATA[a_{ij}]]></fr:tex> is the number of times the tile <fr:tex display="inline"><![CDATA[i]]></fr:tex> appears in <fr:tex display="inline"><![CDATA[j]]></fr:tex>. When, for example, <fr:tex display="inline"><![CDATA[a_{ij} > 0]]></fr:tex> for all entries, there is a unique positive eigenvector <fr:tex display="inline"><![CDATA[v]]></fr:tex>. We can then use <fr:tex display="inline"><![CDATA[v_i]]></fr:tex> as the weight for selecting a tile of type <fr:tex display="inline"><![CDATA[i]]></fr:tex> in each step.</fr:p>
+    <fr:p>Taking the example of <fr:link type="local" href="tile-0005.xml" addr="tile-0005" title="Penrose rhombs">Penrose rhombs</fr:link>, the substitution matrix is <fr:tex display="block"><![CDATA[\begin {pmatrix}     2 & 1 \\     1 & 1   \end {pmatrix}]]></fr:tex>
+  with the unique positive eigenvector <fr:tex display="inline"><![CDATA[v_1 = \frac {1+\sqrt {5}}{2} = \varphi ]]></fr:tex>, <fr:tex display="inline"><![CDATA[v_2 = 1]]></fr:tex>. So given a thick rhomb, we have probability <fr:tex display="inline"><![CDATA[\varphi  /(2\varphi  + 1) = 1/\varphi ^2]]></fr:tex> to select a thick rhomb in its deflated subtiles, and <fr:tex display="inline"><![CDATA[1/(2\varphi +1) = 1/\varphi ^3]]></fr:tex> probability to select the thin rhomb. This defines a Markov process, with steady state distribution also given by <fr:tex display="inline"><![CDATA[v]]></fr:tex> (normalized so the entries sum to <fr:tex display="inline"><![CDATA[1]]></fr:tex>).</fr:p>
+    <fr:p>However, we usually need to generate the signature in the backwards direction, i.e. from small to big. For this, we just invert the Markov process. Given a prototile <fr:tex display="inline"><![CDATA[i]]></fr:tex>, the probability of it being the <fr:tex display="inline"><![CDATA[s]]></fr:tex>-th subtile of <fr:tex display="inline"><![CDATA[j]]></fr:tex> is given by <fr:tex display="inline"><![CDATA[v_j / v_i]]></fr:tex> times the corresponding probability in the forwards direction.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -36,14 +32,14 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>603</fr:anchor>
-            <fr:addr type="user">tile-0009</fr:addr>
-            <fr:route>tile-0009.xml</fr:route>
-            <fr:title text="The recursive algorithm">The recursive algorithm</fr:title>
+            <fr:anchor>345</fr:anchor>
+            <fr:addr type="user">tile-000I</fr:addr>
+            <fr:route>tile-000I.xml</fr:route>
+            <fr:title text="Seed generation">Seed generation</fr:title>
             <fr:date>
               <fr:year>2025</fr:year>
               <fr:month>2</fr:month>
-              <fr:day>21</fr:day>
+              <fr:day>22</fr:day>
             </fr:date>
             <fr:authors>
               <fr:author>
@@ -52,18 +48,17 @@
             </fr:authors>
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>It is straightforward to write down a recursive algorithm for calculating neighborhood Conway signatures. It has an elegantly symmetric structure.</fr:p>
+            <fr:p>There are multiple ways to generate an initial <fr:link type="local" href="tile-0006.xml" addr="tile-0006" title="Conway signature">Conway signature</fr:link>. If we want to randomly generate a typical tiling according to some natural probability distribution, we can try to calculate the corresponding probability distribution on the signatures. We will also discuss some special eventually periodic signatures, whose tiling exhibit interesting features, such as rotational (or almost rotational) symmetry, fractal structures, and Conway worms, i.e. two similar tilings differing only on a narrow stripe of tiles. In addition, if we see a picture of some tiling in the wild, we may want to calculate Conway signatures that lead to this tiling, even when it is originally generated using a different or unknown technique.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>405</fr:anchor>
-                <fr:addr type="user">tile-0007</fr:addr>
-                <fr:route>tile-0007.xml</fr:route>
-                <fr:title text="Recursive neighborhood algorithm">Recursive neighborhood algorithm</fr:title>
-                <fr:taxon>Algorithm</fr:taxon>
+                <fr:anchor>347</fr:anchor>
+                <fr:addr type="user">tile-000K</fr:addr>
+                <fr:route>tile-000K.xml</fr:route>
+                <fr:title text="Distribution of Conway signatures">Distribution of Conway signatures</fr:title>
                 <fr:date>
                   <fr:year>2025</fr:year>
                   <fr:month>2</fr:month>
-                  <fr:day>20</fr:day>
+                  <fr:day>24</fr:day>
                 </fr:date>
                 <fr:authors>
                   <fr:author>
@@ -72,83 +67,15 @@
                 </fr:authors>
               </fr:frontmatter>
               <fr:mainmatter>
-                <fr:p>Suppose we have a <fr:link type="local" href="tile-0004.xml" addr="tile-0004" title="Substitution system">substitution system</fr:link>. Given the <fr:link type="local" href="tile-0006.xml" addr="tile-0006" title="Conway signature">Conway signature</fr:link> of a tile <fr:tex display="inline"><![CDATA[t]]></fr:tex> and an edge label <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex> of that tile, we can calculate the signature of the neighboring tile <fr:tex display="inline"><![CDATA[t']]></fr:tex> and the edge label <fr:tex display="inline"><![CDATA[\epsilon ']]></fr:tex> of <fr:tex display="inline"><![CDATA[t']]></fr:tex> that coincides with <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>. This is implemented by mutual recursion with another auxiliary function. Given the signature of a tile and a subedge of that tile under deflation, it calculates the signature of the subtile <fr:tex display="inline"><![CDATA[t']]></fr:tex> we will arrive in if we cross the subedge inwards, and the edge label of <fr:tex display="inline"><![CDATA[t']]></fr:tex> corresponding to the input subedge.</fr:p>
-                <fr:p>This second function is non-trivial, because for some substitution systems, crossing inwards through a subedge may lead us immediately out through another subedge, if they are pinched together. See <fr:ref addr="tile-0005" href="tile-0005.xml" taxon="Example" />.</fr:p>
-                <fr:p>The neighborhood function is as follows. Suppose we have a <fr:link type="local" href="tile-0006.xml" addr="tile-0006" title="Conway signature">Conway signature</fr:link>
-  <fr:tex display="block"><![CDATA[t_0 \xrightarrow {s_1} t_1 \xrightarrow {s_2} t_2 \longrightarrow  \cdots ]]></fr:tex>
-  and an edge <fr:tex display="inline"><![CDATA[\epsilon _0]]></fr:tex> of the tile <fr:tex display="inline"><![CDATA[t_0]]></fr:tex>. We consult the pairing of edges as specified in the <fr:link type="local" href="tile-0004.xml" addr="tile-0004" title="Substitution system">substitution system</fr:link>. This has two cases.</fr:p>
-                <fr:ul><fr:li>Suppose the edge <fr:tex display="inline"><![CDATA[\epsilon _0]]></fr:tex> (of the subtile labelled <fr:tex display="inline"><![CDATA[s_1]]></fr:tex>) is paired with another edge <fr:tex display="inline"><![CDATA[\epsilon '_0]]></fr:tex> of the subtile numbered <fr:tex display="inline"><![CDATA[s'_1]]></fr:tex>. Then since these two subtiles are neighbors already, we can directly output the signature
-  <fr:tex display="block"><![CDATA[t'_0 \xrightarrow {s'_1} t_1 \xrightarrow {s_2} t_2 \longrightarrow  \cdots ]]></fr:tex>
-  and the edge label <fr:tex display="inline"><![CDATA[\epsilon '_0]]></fr:tex>, where <fr:tex display="inline"><![CDATA[t'_0]]></fr:tex> is the prototile type of the <fr:tex display="inline"><![CDATA[s'_1]]></fr:tex> subtile in <fr:tex display="inline"><![CDATA[t_1]]></fr:tex>.</fr:li>
-  <fr:li>Suppose the edge is paired with a subedge <fr:tex display="inline"><![CDATA[\sigma _1]]></fr:tex> of an edge <fr:tex display="inline"><![CDATA[\epsilon _1]]></fr:tex> in the tile <fr:tex display="inline"><![CDATA[t_1]]></fr:tex>. Then we need to exit the tile <fr:tex display="inline"><![CDATA[t_1]]></fr:tex> through this edge. We recursively call this function on the Conway signature <fr:tex display="inline"><![CDATA[t_1 \xrightarrow {s_2} \cdots ]]></fr:tex> and the edge label <fr:tex display="inline"><![CDATA[\epsilon _1]]></fr:tex>. Suppose the algorithm determines that its neighbor has the Conway signature <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> and the edge label <fr:tex display="inline"><![CDATA[\epsilon '_1]]></fr:tex>. We then invoke the auxiliary function to calculate the subtile we would obtain if we enter <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> from the subedge <fr:tex display="inline"><![CDATA[\sigma _1]]></fr:tex> of its edge <fr:tex display="inline"><![CDATA[\epsilon '_1]]></fr:tex>, and we can return its output, tail-recursively.</fr:li></fr:ul>
-                <fr:p>For the auxiliary function, suppose again we have a signature
-  <fr:tex display="block"><![CDATA[\Sigma  = t_0 \xrightarrow {s_1} t_1 \xrightarrow {s_2} t_2 \longrightarrow  \cdots ]]></fr:tex>
-  and we have specified an edge <fr:tex display="inline"><![CDATA[\epsilon _0]]></fr:tex> of the tile <fr:tex display="inline"><![CDATA[t_0]]></fr:tex>, together with one of its subedges <fr:tex display="inline"><![CDATA[\sigma _0]]></fr:tex>. Again, we look up what is paired, in the substitution of <fr:tex display="inline"><![CDATA[t_0]]></fr:tex>, with the subedge <fr:tex display="inline"><![CDATA[\sigma _0]]></fr:tex>.</fr:p>
-                <fr:ul><fr:li>Suppose the result is an edge <fr:tex display="inline"><![CDATA[\epsilon _{-1}]]></fr:tex> in the subtile <fr:tex display="inline"><![CDATA[s_0]]></fr:tex> of <fr:tex display="inline"><![CDATA[t_0]]></fr:tex>. Then we can output
-    <fr:tex display="block"><![CDATA[t_{-1} \xrightarrow {s_{0}} t_0 \xrightarrow {s_1} t_1 \longrightarrow  \cdots ]]></fr:tex>
-    and the edge label <fr:tex display="inline"><![CDATA[\epsilon _{-1}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[t_{-1}]]></fr:tex> is the prototile label corresponding to the subtile <fr:tex display="inline"><![CDATA[s_0]]></fr:tex>.</fr:li>
-  <fr:li>Suppose the result is another subedge <fr:tex display="inline"><![CDATA[\sigma '_0]]></fr:tex> of the edge <fr:tex display="inline"><![CDATA[\epsilon '_0]]></fr:tex>. Then we call the neighborhood function on the Conway signature <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> and the edge label <fr:tex display="inline"><![CDATA[\epsilon '_0]]></fr:tex>. Let the result be the signature <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> and the edge <fr:tex display="inline"><![CDATA[\epsilon ''_0]]></fr:tex>. Now we just need to call the auxiliary function on <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> with the subedge <fr:tex display="inline"><![CDATA[\sigma '_0]]></fr:tex> of <fr:tex display="inline"><![CDATA[\epsilon ''_0]]></fr:tex>, and return its result.</fr:li></fr:ul>
-                <fr:p>If we are dealing with finite Conway signatures, then the algorithm should raise an exception if at any point the path is too short. This signals that it has reached the boundary of the finite patch of tiles. Otherwise, the neighborhood function should always output a Conway path of equal length.</fr:p>
+                <fr:p>Given a <fr:link type="local" href="tile-0004.xml" addr="tile-0004" title="Substitution system">substitution system</fr:link>, there is a canonical probability distribution on the set of tilings with a vertex at the origin. Consider the <fr:strong>substitution matrix</fr:strong> <fr:tex display="inline"><![CDATA[(a_{ij})]]></fr:tex>, where <fr:tex display="inline"><![CDATA[i, j]]></fr:tex> are labels of prototiles, and <fr:tex display="inline"><![CDATA[a_{ij}]]></fr:tex> is the number of times the tile <fr:tex display="inline"><![CDATA[i]]></fr:tex> appears in <fr:tex display="inline"><![CDATA[j]]></fr:tex>. When, for example, <fr:tex display="inline"><![CDATA[a_{ij} > 0]]></fr:tex> for all entries, there is a unique positive eigenvector <fr:tex display="inline"><![CDATA[v]]></fr:tex>. We can then use <fr:tex display="inline"><![CDATA[v_i]]></fr:tex> as the weight for selecting a tile of type <fr:tex display="inline"><![CDATA[i]]></fr:tex> in each step.</fr:p>
+                <fr:p>Taking the example of <fr:link type="local" href="tile-0005.xml" addr="tile-0005" title="Penrose rhombs">Penrose rhombs</fr:link>, the substitution matrix is <fr:tex display="block"><![CDATA[\begin {pmatrix}     2 & 1 \\     1 & 1   \end {pmatrix}]]></fr:tex>
+  with the unique positive eigenvector <fr:tex display="inline"><![CDATA[v_1 = \frac {1+\sqrt {5}}{2} = \varphi ]]></fr:tex>, <fr:tex display="inline"><![CDATA[v_2 = 1]]></fr:tex>. So given a thick rhomb, we have probability <fr:tex display="inline"><![CDATA[\varphi  /(2\varphi  + 1) = 1/\varphi ^2]]></fr:tex> to select a thick rhomb in its deflated subtiles, and <fr:tex display="inline"><![CDATA[1/(2\varphi +1) = 1/\varphi ^3]]></fr:tex> probability to select the thin rhomb. This defines a Markov process, with steady state distribution also given by <fr:tex display="inline"><![CDATA[v]]></fr:tex> (normalized so the entries sum to <fr:tex display="inline"><![CDATA[1]]></fr:tex>).</fr:p>
+                <fr:p>However, we usually need to generate the signature in the backwards direction, i.e. from small to big. For this, we just invert the Markov process. Given a prototile <fr:tex display="inline"><![CDATA[i]]></fr:tex>, the probability of it being the <fr:tex display="inline"><![CDATA[s]]></fr:tex>-th subtile of <fr:tex display="inline"><![CDATA[j]]></fr:tex> is given by <fr:tex display="inline"><![CDATA[v_j / v_i]]></fr:tex> times the corresponding probability in the forwards direction.</fr:p>
               </fr:mainmatter>
               <fr:backmatter />
             </fr:tree>
-            <fr:p>With this algorithm, we can generate any patch of tiling by repeatedly asking the program what the neighbor of each tile is, until the generated tiles fill the area, like growing a crystal. We just need a Conway signature to begin with. Some methods to create this initial seed are discussed in <fr:link type="local" href="tile-000I.xml" addr="tile-000I" title="Seed generation">Seed generation</fr:link>, each designed for a different purpose.</fr:p>
-            <fr:p>Unfortunately, this recursive algorithm actually doesn’t generate all the possible tilings in our substitution system. This is surprising, because it seems that Conway signatures uniquely determines the arrangement of tiles we are in, if we suppose inflation is always unique. However, the definition of substitution tilings has a secret catch.</fr:p>
-            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-              <fr:frontmatter>
-                <fr:anchor>407</fr:anchor>
-                <fr:addr type="user">tile-000A</fr:addr>
-                <fr:route>tile-000A.xml</fr:route>
-                <fr:title text="Hull of set of tilings">Hull of set of tilings</fr:title>
-                <fr:taxon>Definition</fr:taxon>
-                <fr:date>
-                  <fr:year>2025</fr:year>
-                  <fr:month>2</fr:month>
-                  <fr:day>21</fr:day>
-                </fr:date>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
-                  </fr:author>
-                </fr:authors>
-              </fr:frontmatter>
-              <fr:mainmatter>
-                <fr:p>Given a set <fr:tex display="inline"><![CDATA[\mathscr {S}]]></fr:tex> of (possibly incomplete) tilings of the plane, its <fr:strong>hull</fr:strong> <fr:tex display="inline"><![CDATA[\overline {\mathscr {S}}]]></fr:tex> is the set of complete tilings <fr:tex display="inline"><![CDATA[T]]></fr:tex>, such that given an arbitrarily large disk <fr:tex display="inline"><![CDATA[D \subseteq  \mathbb {R}^2]]></fr:tex>, the patch of tiles in <fr:tex display="inline"><![CDATA[T]]></fr:tex> intersecting <fr:tex display="inline"><![CDATA[D]]></fr:tex> appears inside a tiling <fr:tex display="inline"><![CDATA[T' \in  \mathscr {S}]]></fr:tex>, up to translation.</fr:p>
-              </fr:mainmatter>
-              <fr:backmatter />
-            </fr:tree>
-            <fr:p>When we talk about the set of, say, <fr:link type="local" href="tile-0005.xml" addr="tile-0005" title="Penrose rhombs">Penrose tilings</fr:link>, we are actually referring to the <fr:em>hull</fr:em> of all the iterated deflations of a single tile. Each of those iterated deflations only cover a finite portion of the plane, and an <fr:em>actual</fr:em> tiling completely covers the plane in a way that any finite portion of it can be found in one of those deflations.</fr:p>
-            <fr:p>In our <fr:ref addr="tile-0007" href="tile-0007.xml" taxon="Algorithm" />, we are assuming the entire tiling comes from a single iterated deflation, so when we attempt to calculate the neighbor of a tile, we first repeatedly inflate the tiles so that both of them are contained in one giant tile, and then deflate back down. However, an actual tiling may only look like an iterated deflation on each finite patch, so it may be the case that no amount of inflation brings the neighbor into the same supertile.</fr:p>
-            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-              <fr:frontmatter>
-                <fr:anchor>409</fr:anchor>
-                <fr:addr type="user">tile-000B</fr:addr>
-                <fr:route>tile-000B.xml</fr:route>
-                <fr:title text="Infinite walls">Infinite walls</fr:title>
-                <fr:taxon>Example</fr:taxon>
-                <fr:date>
-                  <fr:year>2025</fr:year>
-                  <fr:month>2</fr:month>
-                  <fr:day>21</fr:day>
-                </fr:date>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
-                  </fr:author>
-                </fr:authors>
-              </fr:frontmatter>
-              <fr:mainmatter>
-                <fr:p>Consider the substitution system of <fr:link type="local" href="tile-0005.xml" addr="tile-0005" title="Penrose rhombs">Penrose rhombs</fr:link>. Take the cyclic <fr:link type="local" href="tile-0006.xml" addr="tile-0006" title="Conway signature">Conway signature</fr:link>
-  <fr:tex display="block"><![CDATA[     \Sigma _0 = \text {Thin} \xrightarrow {\text {left}} \text {Thin} \xrightarrow {\text {left}} \cdots    ]]></fr:tex>
-  This repeatedly selects the thin <fr:tex display="inline"><![CDATA[36\degree ]]></fr:tex> subtile on the left. No matter how many times we use the substitution rules, the selected thin rhomb will not have a neighbor.</fr:p>
-                <fr:p>(To do: reproduce the image <fr:link type="external" href="https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/aperiodic-followup/p3-disconnected.svg">here</fr:link>)</fr:p>
-                <fr:p>However, after any finite length of this Conway signature, we can replace the rest of the signature with
-  <fr:tex display="block"><![CDATA[\cdots  \text {Thin} \xrightarrow {\text {top}} \text {Thick} \xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \cdots ]]></fr:tex>
-  and this will cover the whole neighborhood. Therefore, for any finite radius, there is a patch of tiling that looks like it can be described by <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex> in that radius. As the radius tends to infinity, these patches converge to a single complete tiling whose center tile has Conway signature <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex>, which is therefore in the <fr:link type="local" href="tile-000A.xml" addr="tile-000A" title="Hull of set of tilings">hull</fr:link> of Penrose tilings.</fr:p>
-              </fr:mainmatter>
-              <fr:backmatter />
-            </fr:tree>
-            <fr:p>As an analogy, the neighborhood algorithm behaves like the algorithm adding <fr:tex display="inline"><![CDATA[1]]></fr:tex> to an integer in decimal notation. Suppose it encounters <fr:tex display="inline"><![CDATA[\cdots  999 + 1]]></fr:tex>, then it will scan forwards until it reads a digit <fr:tex display="inline"><![CDATA[d]]></fr:tex> that is not <fr:tex display="inline"><![CDATA[9]]></fr:tex>. Then it performs the carry and outputs <fr:tex display="inline"><![CDATA[[d+1]00\cdots  00]]></fr:tex>. However, the tilings are only required to locally look like iterated deflations. In this analogy, we have numbers that only locally look like an “actual” integer, so it is possible to have infinitely many digit <fr:tex display="inline"><![CDATA[9]]></fr:tex>s. On the other hand, we don’t actually need to read ahead: as soon as we see a <fr:tex display="inline"><![CDATA[9]]></fr:tex>, we can go ahead and output a <fr:tex display="inline"><![CDATA[0]]></fr:tex>, since that is the only possible result! In <fr:ref addr="tile-000C" href="tile-000C.xml" />, we shall make this precise, in the context of Conway signatures.</fr:p>
+            <fr:p>discussion of cyclic signatures and their fractal structure</fr:p>
+            <fr:p>signature finder</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
@@ -163,56 +90,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>605</fr:anchor>
-            <fr:addr type="user">tile-000A</fr:addr>
-            <fr:route>tile-000A.xml</fr:route>
-            <fr:title text="Hull of set of tilings">Hull of set of tilings</fr:title>
-            <fr:taxon>Definition</fr:taxon>
-            <fr:date>
-              <fr:year>2025</fr:year>
-              <fr:month>2</fr:month>
-              <fr:day>21</fr:day>
-            </fr:date>
-            <fr:authors>
-              <fr:author>
-                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
-          </fr:frontmatter>
-          <fr:mainmatter>
-            <fr:p>Given a set <fr:tex display="inline"><![CDATA[\mathscr {S}]]></fr:tex> of (possibly incomplete) tilings of the plane, its <fr:strong>hull</fr:strong> <fr:tex display="inline"><![CDATA[\overline {\mathscr {S}}]]></fr:tex> is the set of complete tilings <fr:tex display="inline"><![CDATA[T]]></fr:tex>, such that given an arbitrarily large disk <fr:tex display="inline"><![CDATA[D \subseteq  \mathbb {R}^2]]></fr:tex>, the patch of tiles in <fr:tex display="inline"><![CDATA[T]]></fr:tex> intersecting <fr:tex display="inline"><![CDATA[D]]></fr:tex> appears inside a tiling <fr:tex display="inline"><![CDATA[T' \in  \mathscr {S}]]></fr:tex>, up to translation.</fr:p>
-          </fr:mainmatter>
-          <fr:backmatter />
-        </fr:tree>
-        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-          <fr:frontmatter>
-            <fr:anchor>607</fr:anchor>
-            <fr:addr type="user">tile-0006</fr:addr>
-            <fr:route>tile-0006.xml</fr:route>
-            <fr:title text="Conway signature">Conway signature</fr:title>
-            <fr:taxon>Definition</fr:taxon>
-            <fr:date>
-              <fr:year>2025</fr:year>
-              <fr:month>2</fr:month>
-              <fr:day>20</fr:day>
-            </fr:date>
-            <fr:authors>
-              <fr:author>
-                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
-              </fr:author>
-            </fr:authors>
-          </fr:frontmatter>
-          <fr:mainmatter>
-            <fr:p>Assume we have a <fr:link type="local" href="tile-0004.xml" addr="tile-0004" title="Substitution system">substitution system</fr:link> with unique inflation. For a tile <fr:tex display="inline"><![CDATA[t]]></fr:tex> in a tiling, we can inflate the tiling to find <fr:tex display="inline"><![CDATA[t]]></fr:tex> as a subtile in an inflated tile <fr:tex display="inline"><![CDATA[t_1]]></fr:tex>. If we give a unique number to each subtile in a substitution system, we can write this as <fr:tex display="inline"><![CDATA[t \xrightarrow {n_1} t_1]]></fr:tex>, meaning <fr:tex display="inline"><![CDATA[t]]></fr:tex> is the <fr:tex display="inline"><![CDATA[n_1]]></fr:tex>-th subtile. This process can be repeated, generating an infinite path
-  <fr:tex display="block"><![CDATA[\Sigma  = t \xrightarrow {n_1} t_1 \xrightarrow {n_2} t_2 \longrightarrow  \cdots ]]></fr:tex>
-  where <fr:tex display="inline"><![CDATA[t, t_1, t_2, \dots ]]></fr:tex> are prototile labels, and <fr:tex display="inline"><![CDATA[n_i]]></fr:tex> are subtile labels.
-  This path <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> is called the <fr:strong>Conway signature</fr:strong> of the tile. We will also consider the case of a finite patch of tiling, in which case the Conway signature will be a finite path.</fr:p>
-          </fr:mainmatter>
-          <fr:backmatter />
-        </fr:tree>
-        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-          <fr:frontmatter>
-            <fr:anchor>609</fr:anchor>
+            <fr:anchor>349</fr:anchor>
             <fr:addr type="user">tile-0005</fr:addr>
             <fr:route>tile-0005.xml</fr:route>
             <fr:title text="Penrose rhombs">Penrose rhombs</fr:title>
@@ -282,6 +160,33 @@
     ]]></fr:resource-source></fr:resource>
   </html:span>
 <fr:p>Notice that <fr:tex display="inline"><![CDATA[±c_1]]></fr:tex> edges always split into two subedges, and <fr:tex display="inline"><![CDATA[±c_2]]></fr:tex> edges three. They are separated by the four vertices drawn as black dots. However, these subedges may be pinched together, creating zero-width “spurs” protruding from the tiling. They are to be read as two subedges, first going out from the tilings and turning back. This is necessary to uniformly define how the tiles fit together after the substitution.</fr:p></fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>351</fr:anchor>
+            <fr:addr type="user">tile-0004</fr:addr>
+            <fr:route>tile-0004.xml</fr:route>
+            <fr:title text="Substitution system">Substitution system</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>19</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given a <fr:link type="local" href="tile-0003.xml" addr="tile-0003" title="Tile system">tile system</fr:link>, a <fr:strong>substitution system</fr:strong> is a map from each prototile to a patch of tiles, such that when we replace each tile in a tiling with the substitution, the resulting patches of tiles can fit together in the same way, forming another tiling. This process is called <fr:strong>deflation</fr:strong>, while the inverse process, if it exists, is called <fr:strong>inflation</fr:strong>. We usually only consider substitution systems where inflation exists and is unique.</fr:p>
+            <fr:p>More precisely, given a prototile <fr:tex display="inline"><![CDATA[t]]></fr:tex>, we assign a list of deflated tiles <fr:tex display="inline"><![CDATA[t_i]]></fr:tex>. Each edge of <fr:tex display="inline"><![CDATA[t]]></fr:tex> will be subdivided into several subedges (with their own colors), such that the subdivision only depends on the color, and edges of opposite colors are divided in a way such that the resulting subedges match. For the data of how the deflated tiles glue together, we have a perfect pairing on the set
+  <fr:tex display="block"><![CDATA[\{\text {subedges of $t$}\} \sqcup  \coprod _i \{\text {edges of $t_i$}\}]]></fr:tex> such that the paired edges are compatible. Specifically, if two edges of deflated tiles, or two subedges of <fr:tex display="inline"><![CDATA[t]]></fr:tex> are matched, they must be of opposite colors; if an edge of a deflated tile is matched with a subedge, they must share colors.</fr:p>
+            <fr:p>In addition to this, the subdivision must also match geometrically, but we shall not give its full definition here, as it suffices to recognize this intuitively.</fr:p>
+            <fr:p>For convenience, if two edges <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\epsilon ']]></fr:tex> have opposite colors, we use the <fr:em>same label</fr:em> for their subedges in a substitution. This simplifies the presentation since we avoid using a conversion look-up table, but requires us to be somewhat careful in assigning labels. In general, we can assign the subedge labels counterclockwise for edges with positive colors, and clockwise for negative colors.</fr:p>
+          </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
       </fr:mainmatter>

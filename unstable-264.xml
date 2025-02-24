@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3059</fr:anchor>
+    <fr:anchor>3077</fr:anchor>
     <fr:addr type="machine">#264</fr:addr>
     <fr:route>unstable-264.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
@@ -31,7 +31,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3061</fr:anchor>
+            <fr:anchor>3079</fr:anchor>
             <fr:addr type="user">hmlg-0018</fr:addr>
             <fr:route>hmlg-0018.xml</fr:route>
             <fr:title text="An additive functor is exact iff it preserves quasi-isomorphisms">An additive functor is exact iff it preserves quasi-isomorphisms</fr:title>
@@ -50,7 +50,7 @@
           <fr:mainmatter><fr:p>Given an <fr:link type="local" href="hmlg-000S.xml" addr="hmlg-000S" title="Additive functor">additive functor</fr:link> <fr:tex display="inline"><![CDATA[F : \mathcal {A} \to  \mathcal {B}]]></fr:tex> between <fr:link type="local" href="hmlg-000Q.xml" addr="hmlg-000Q" title="Abelian category">abelian categories</fr:link>, it is <fr:link type="local" href="hmlg-000X.xml" addr="hmlg-000X" title="Left and right exact functor">exact</fr:link> iff it sends <fr:link type="local" href="hmlg-000C.xml" addr="hmlg-000C" title="Quasi-isomorphism">quasi-isomorphisms</fr:link> to quasi-isomorphisms.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3063</fr:anchor><fr:addr type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3081</fr:anchor><fr:addr type="machine">#264</fr:addr><fr:route>unstable-264.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.</fr:p>
 
   <fr:p>On the other hand, <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex display="inline"><![CDATA[f : C_\bullet  \to  D_\bullet ]]></fr:tex> is a quasi-isomorphism, <fr:tex display="inline"><![CDATA[H_n (f)]]></fr:tex> are all isomorphisms. Therefore <fr:tex display="inline"><![CDATA[H_n (F(f)) = F(H_n(f))]]></fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.</fr:p>

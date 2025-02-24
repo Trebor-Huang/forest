@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>487</fr:anchor>
+    <fr:anchor>499</fr:anchor>
     <fr:addr type="user">misc-000H</fr:addr>
     <fr:route>misc-000H.xml</fr:route>
     <fr:title text="Limit of a language">Limit of a language</fr:title>
@@ -30,7 +30,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>489</fr:anchor>
+            <fr:anchor>501</fr:anchor>
             <fr:addr type="user">tile-000C</fr:addr>
             <fr:route>tile-000C.xml</fr:route>
             <fr:title text="The structure of neighbor Conway signatures">The structure of neighbor Conway signatures</fr:title>
@@ -49,7 +49,7 @@
             <fr:p>The <fr:link type="local" href="tile-0007.xml" addr="tile-0007" title="Recursive neighborhood algorithm">recursive neighborhood algorithm</fr:link> computes neighboring tiles in some iterated deflation of a supertile, and we wish to extend this function to work with the <fr:link type="local" href="tile-000A.xml" addr="tile-000A" title="Hull of set of tilings">hull</fr:link> of these deflations, i.e. the full set of possible Penrose tilings. It is first useful to consider a <fr:em>binary relation</fr:em>, instead of a function, between Conway signatures.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>403</fr:anchor>
+                <fr:anchor>413</fr:anchor>
                 <fr:addr type="user">tile-000D</fr:addr>
                 <fr:route>tile-000D.xml</fr:route>
                 <fr:title text="Neighborhood relation on Conway signatures">Neighborhood relation on Conway signatures</fr:title>
@@ -75,7 +75,7 @@
             <fr:p>Next, we need some general theory relating these infinite objects to finite ones. For this we make some definitions.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>405</fr:anchor>
+                <fr:anchor>415</fr:anchor>
                 <fr:addr type="user">tile-000E</fr:addr>
                 <fr:route>tile-000E.xml</fr:route>
                 <fr:title text="Language of neighborhood relation">Language of neighborhood relation</fr:title>
@@ -101,7 +101,7 @@
             <fr:p>We define the augmented language in this way because it has a very important property, which will be useful later. With this definition in hand, we see that <fr:ref addr="tile-000D" href="tile-000D.xml" taxon="Definition" /> can be defined in terms of a well-known construction in <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>-languages, i.e. languages with infinitely long words.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>407</fr:anchor>
+                <fr:anchor>417</fr:anchor>
                 <fr:addr type="user">misc-000H</fr:addr>
                 <fr:route>misc-000H.xml</fr:route>
                 <fr:title text="Limit of a language">Limit of a language</fr:title>
@@ -122,10 +122,10 @@
               </fr:mainmatter>
               <fr:backmatter />
             </fr:tree>
-            <fr:p>We see that the limit of prefixes <fr:tex display="inline"><![CDATA[\operatorname {prfx}\mathcal {L} = \operatorname {prfx}\mathcal {L}^+]]></fr:tex> is exactly the neighborhood relation on infinite Conway signatures. Limits are nice because they can be recognized by deterministic finite state machines (also known as deterministic Büchi machines, to emphasize they are for <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>-languages).</fr:p>
+            <fr:p>We see that the limit of prefixes <fr:tex display="inline"><![CDATA[\operatorname {prfx}\mathcal {L}]]></fr:tex>, or equivalently that of <fr:tex display="inline"><![CDATA[\operatorname {prfx}\mathcal {L}^+]]></fr:tex> is exactly the neighborhood relation on infinite Conway signatures. Limits are nice because they can be recognized by deterministic finite state machines (also known as deterministic Büchi machines, to emphasize they are for <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>-languages).</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>409</fr:anchor>
+                <fr:anchor>419</fr:anchor>
                 <fr:addr type="user">misc-000I</fr:addr>
                 <fr:route>misc-000I.xml</fr:route>
                 <fr:title text="Limits of regular languages are deterministic Büchi recognizable">Limits of regular languages are deterministic Büchi recognizable</fr:title>
@@ -150,7 +150,7 @@
   Now, there is one single hypothesis that I am not able to get rid of. It doesn’t even need a constructive proof, as we will later give a construction that provably satisfies the hypothesis <fr:em>given that it is true</fr:em>.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>411</fr:anchor>
+                <fr:anchor>421</fr:anchor>
                 <fr:addr type="user">tile-000F</fr:addr>
                 <fr:route>tile-000F.xml</fr:route>
                 <fr:title text="Regularity of the neighborhood relation">Regularity of the neighborhood relation</fr:title>
@@ -185,7 +185,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>491</fr:anchor>
+            <fr:anchor>503</fr:anchor>
             <fr:addr type="user">misc-000I</fr:addr>
             <fr:route>misc-000I.xml</fr:route>
             <fr:title text="Limits of regular languages are deterministic Büchi recognizable">Limits of regular languages are deterministic Büchi recognizable</fr:title>

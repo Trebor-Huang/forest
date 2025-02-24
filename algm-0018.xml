@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2444</fr:anchor>
+    <fr:anchor>2462</fr:anchor>
     <fr:addr type="user">algm-0018</fr:addr>
     <fr:route>algm-0018.xml</fr:route>
     <fr:title text="A space is noetherian iff hereditarily quasi-compact">A space is noetherian iff hereditarily quasi-compact</fr:title>
@@ -21,7 +21,7 @@
   <fr:mainmatter><fr:p>A space is <fr:link type="local" href="algm-000C.xml" addr="algm-000C" title="Noetherian space">noetherian</fr:link> iff it is <fr:em>hereditarily</fr:em> <fr:link type="local" href="algm-000A.xml" addr="algm-000A" title="Terminology of compactness in algebraic geometry">quasi-compact</fr:link>, that is, if all its opens are quasi-compact.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2442</fr:anchor><fr:addr type="machine">#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2460</fr:anchor><fr:addr type="machine">#287</fr:addr><fr:route>unstable-287.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>16</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We first show the forward direction. By the definition of being noetherian, all its opens are automatically noetherian. So we just need to prove that noetherian spaces are quasi-compact. This is obvious, since taking unions of the open covers we have an ascending chain of opens, which must terminate.</fr:p>
 
   <fr:p>For the other direction, given an ascending chain of opens, they form a cover of their union. Since the union is an open, it is quasi-compact by hypothesis, and therefore the cover has a finite subcover, proving that the chain stabilizes after finitely many terms.</fr:p>
@@ -37,7 +37,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2446</fr:anchor>
+            <fr:anchor>2464</fr:anchor>
             <fr:addr type="user">algm-000C</fr:addr>
             <fr:route>algm-000C.xml</fr:route>
             <fr:title text="Noetherian space">Noetherian space</fr:title>
@@ -60,7 +60,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2448</fr:anchor>
+            <fr:anchor>2466</fr:anchor>
             <fr:addr type="user">algm-000A</fr:addr>
             <fr:route>algm-000A.xml</fr:route>
             <fr:title text="Terminology of compactness in algebraic geometry">Terminology of compactness in algebraic geometry</fr:title>

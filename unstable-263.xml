@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3019</fr:anchor>
+    <fr:anchor>3037</fr:anchor>
     <fr:addr type="machine">#263</fr:addr>
     <fr:route>unstable-263.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
@@ -29,7 +29,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3021</fr:anchor>
+            <fr:anchor>3039</fr:anchor>
             <fr:addr type="user">hmlg-001E</fr:addr>
             <fr:route>hmlg-001E.xml</fr:route>
             <fr:title text="Perturbation of the smaller chain complex in a chain reduction"><fr:link type="local" href="hmlg-001C.xml" addr="hmlg-001C" title="Perturbation of chain complex">Perturbation</fr:link> of the smaller chain complex in a <fr:link type="local" href="hmlg-0017.xml" addr="hmlg-0017" title="Chain reduction">chain reduction</fr:link></fr:title>
@@ -48,7 +48,7 @@
           <fr:mainmatter><fr:p>Given a reduction <fr:tex display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex> and a perturbation <fr:tex display="inline"><![CDATA[\delta _D]]></fr:tex> for <fr:tex display="inline"><![CDATA[D]]></fr:tex>, we can construct a perturbation <fr:tex display="inline"><![CDATA[\delta _C]]></fr:tex> for <fr:tex display="inline"><![CDATA[C]]></fr:tex>, such that the same <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> can serve as a reduction of the perturbed chain complexes.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2984</fr:anchor><fr:addr type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3002</fr:anchor><fr:addr type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>26</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Let the reduction <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> be made out of the three maps <fr:tex display="inline"><![CDATA[\pi _{\rho } : C \to  D]]></fr:tex>, <fr:tex display="inline"><![CDATA[\iota _{\rho } : D \to  C]]></fr:tex> and <fr:tex display="inline"><![CDATA[h_{\rho } : C \to  C]]></fr:tex>. Then since <fr:tex display="inline"><![CDATA[C]]></fr:tex> splits as the direct sum of <fr:tex display="inline"><![CDATA[D]]></fr:tex> and an <fr:link type="local" href="hmlg-000D.xml" addr="hmlg-000D" title="Acyclic chain complex">acyclic</fr:link> complex, we can simply copy over the perturbation, and leave the acyclic part untouched. This gives us the definition <fr:tex display="inline"><![CDATA[\delta _C = \iota _{\rho } \mathbin {\circ } \delta _D \mathbin {\circ } \pi _{\rho }]]></fr:tex>. A quick computation shows that <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> is still a reduction of the perturbed chain complexes.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
