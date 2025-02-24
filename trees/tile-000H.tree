@@ -18,7 +18,7 @@
 }
 
 \p{
-  So, we have reduced our problem to the first step. But unless we can resolve \ref{tile-000F} constructively, how are we going to product such an automaton? This is due to a special property that #{\mathcal{L}^+} enjoys, as promised.
+  So, we have reduced our problem to the first step. But unless we can resolve \ref{tile-000F} constructively, how are we going to produce such an automaton? This is due to a special property that #{\mathcal{L}^+} enjoys, as promised.
 }
 
 \transclude{misc-000L}
@@ -34,13 +34,13 @@
 \transclude{tile-000G}
 
 \p{
-  We are finally ready to discuss the benefits of a reversible languages: they admit a very efficient algorithm that learns the language from a series of examples. This problem, called \em{language induction}, is very difficult for general languages.
+  We are finally ready to discuss the benefits of a reversible language: they admit a very efficient algorithm that learns the language from a series of examples. This problem, called \em{language induction}, is very difficult for general languages.
 }
 
 \transclude{misc-000O}
 
 \p{
-  It is easy to generate example strings in our use case: simply feed in valid finite Conway signatures in \ref{tile-0007}. Now all we need is a way to know when to stop. A possible criterion is when the resulting transducer never rejects a valid Conway signature. To do this, erase the outputs and turn it into an automaton #{A}. Now consider another automaton #{B} that recognizes valid Conway signatures (paired with an edge label at the beginning and a terminating tile label). Take the product of these two automata, remove dead states, and check whether there are states where #{B} has a valid transition but #{A} doesn’t.
+  It is easy to generate example strings in our use case: simply feed in valid finite Conway signatures in \ref{tile-0007}. Now all we need is a way to know when to stop. A possible criterion is when the resulting transducer never rejects a valid Conway signature. To do this, erase the outputs to get an automaton, and determinize it to get a DFA #{A}. Now consider another automaton #{B} that recognizes valid Conway signatures (paired with an edge label at the beginning and a terminating tile label). Take the product of these two automata, remove unreachable states, and check whether there are states where #{B} has a valid transition but #{A} doesn’t. This is essentially a special case of the standard algorithm deciding regular language containment.
 }
 
 \p{

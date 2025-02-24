@@ -1,0 +1,20 @@
+\date{2025-02-24}
+\title{distribution of Conway signatures}
+\author{trebor}
+\import{common}
+
+\p{
+  Given a [[tile-0004]], there is a canonical probability distribution on the set of tilings with a vertex at the origin. Consider the \strong{substitution matrix} #{(a_{ij})}, where #{i, j} are labels of prototiles, and #{a_{ij}} is the number of times the tile #{i} appears in #{j}. When, for example, #{a_{ij} > 0} for all entries, there is a unique positive eigenvector #{v}. We can then use #{v_i} as the weight for selecting a tile of type #{i} in each step.
+}
+
+\p{
+  Taking the example of [[tile-0005]], the substitution matrix is ##{\begin{pmatrix}
+    2 & 1 \\
+    1 & 1
+  \end{pmatrix}}
+  with the unique positive eigenvector #{v_1 = \frac{1+\sqrt{5}}{2} = \varphi}, #{v_2 = 1}. So given a thick rhomb, we have probability #{\varphi /(2\varphi + 1) = 1/\varphi^2} to select a thick rhomb in its deflated subtiles, and #{1/(2\varphi+1) = 1/\varphi^3} probability to select the thin rhomb. This defines a Markov process, with steady state distribution also given by #{v} (normalized so the entries sum to #{1}).
+}
+
+\p{
+  However, we usually need to generate the signature in the backwards direction, i.e. from small to big. For this, we just invert the Markov process. Given a prototile #{i}, the probability of it being the #{s}-th subtile of #{j} is given by #{v_j / v_i} times the corresponding probability in the forwards direction.
+}

@@ -9,7 +9,11 @@
 }
 
 \p{
-  There are contrived substitution systems that violate the condition of this theorem. For example, consider a one-dimensional system with two kinds of tiles #{a, b}. Let the substitution rules be #{a \mapsto aa}, #{b \mapsto ba}. Iterated deflations result in the patches #{baa\dots a}, and taking the hull results in the periodic tiling #{\dots aaa \dots}, where #{b} doesn’t occur. These are therefore probably#{^?} never interesting.
+  There are contrived substitution systems that violate the condition of this theorem. For example, consider a one-dimensional system with two kinds of tiles #{a, b}. Let the substitution rules be #{a \mapsto aa}, #{b \mapsto ba}. Iterated deflations produce the patches #{baa\dots a}, and taking the hull results in the periodic tiling #{\dots aaa \dots}, where #{b} doesn’t occur. These are probably#{^?} never interesting.
+}
+
+\p{
+  Another caveat is when the substitution system contains a final stage of deflation. This technically makes most of the results invalid since deflation rules are no longer unique. But it should be apparent that this can be fixed by suitably changing our definitions and proofs.
 }
 
 \proof{

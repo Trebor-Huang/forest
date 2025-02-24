@@ -4,8 +4,10 @@
 \import{common}
 
 \p{
-  Random distribution of conway signatures
+  There are multiple ways to generate an initial [[tile-0006]]. If we want to randomly generate a typical tiling according to some natural probability distribution, we can try to calculate the corresponding probability distribution on the signatures. We will also discuss some special eventually periodic signatures, whose tiling exhibit interesting features, such as rotational (or almost rotational) symmetry, fractal structures, and Conway worms, i.e. two similar tilings differing only on a narrow stripe of tiles. In addition, if we see a picture of some tiling in the wild, we may want to calculate Conway signatures that lead to this tiling, even when it is originally generated using a different or unknown technique.
 }
+
+\transclude{tile-000K}
 
 \p{
   discussion of cyclic signatures and their fractal structure
