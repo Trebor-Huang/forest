@@ -2,6 +2,9 @@
 \title{Generating aperiodic tilings with substitution systems}
 \author{trebor}
 \import{common}
+\meta{external}{https://github.com/Trebor-Huang/aperiodic}
+
+\<html:img>[src]{spectre-cyclic.svg}{}
 
 \p{
   I assume familiarity with [aperiodic tilings](https://en.wikipedia.org/wiki/Aperiodic_tiling) and [substitution systems](https://en.wikipedia.org/wiki/Substitution_tiling). It is already possible, via naïve use of the substitution system, to construct algorithms that generate arbitrarily large patches of the tilings. However, the collection of algorithms persented here has several advantages.
@@ -14,6 +17,8 @@
   \li{The generation itself does \em{not} depend on the geometric information! This avoids difficult calculations with arbitrary-precision numbers.}
   \li{The algorithm elegantly handles very problematic situations such as substitutions with disjoint tiles, or zero-width spurs.}
 }
+
+\<html:img>[src]{penrose-infinite-wall-colored.svg}{}
 
 \p{
   These materials essentially come from [a four part series](https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/aperiodic-tilings/) in Tatham’s blog. I strongly recommend reading through them first. In my own writeup, I removed the intermediate algorithms that are later replaced with better ones, and gave some more precise definitions and proofs.
