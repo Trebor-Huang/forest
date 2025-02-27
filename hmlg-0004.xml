@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3531</fr:anchor>
+    <fr:anchor>3533</fr:anchor>
     <fr:addr type="user">hmlg-0004</fr:addr>
     <fr:route>hmlg-0004.xml</fr:route>
     <fr:title text="Projective object">Projective object</fr:title>
@@ -26,7 +26,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3532</fr:anchor>
+            <fr:anchor>3534</fr:anchor>
             <fr:addr type="user">hmlg-002H</fr:addr>
             <fr:route>hmlg-002H.xml</fr:route>
             <fr:title text="Exactness of ">Exactness of <fr:tex display="inline"><![CDATA[\hom ]]></fr:tex></fr:title>
@@ -45,7 +45,7 @@
             <fr:p>Since <fr:tex display="inline"><![CDATA[\hom (P, -)]]></fr:tex> preserves limits, by <fr:ref addr="hmlg-000X" href="hmlg-000X.xml" taxon="Definition" /> it is left exact. Similarly <fr:tex display="inline"><![CDATA[\hom (-, I)]]></fr:tex> is right exact. Therefore we naturally want to find out when <fr:tex display="inline"><![CDATA[\hom (P, -)]]></fr:tex> is <fr:em>right</fr:em> exact. We only need to guarantee that <fr:tex display="inline"><![CDATA[\hom (P, -)]]></fr:tex> preserves epimorphisms. This can be unpackaged to the following definition.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>1446</fr:anchor>
+                <fr:anchor>1448</fr:anchor>
                 <fr:addr type="user">hmlg-0004</fr:addr>
                 <fr:route>hmlg-0004.xml</fr:route>
                 <fr:title text="Projective object">Projective object</fr:title>
@@ -64,7 +64,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>1447</fr:anchor>
+                <fr:anchor>1449</fr:anchor>
                 <fr:addr type="user">hmlg-0005</fr:addr>
                 <fr:route>hmlg-0005.xml</fr:route>
                 <fr:title text="Projective objects">Projective objects</fr:title>
@@ -84,7 +84,7 @@
             <fr:p>As an example, consider the projective objects in the category of modules. We can give a nice characterization of projective modules.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>1448</fr:anchor>
+                <fr:anchor>1450</fr:anchor>
                 <fr:addr type="user">hmlg-002I</fr:addr>
                 <fr:route>hmlg-002I.xml</fr:route>
                 <fr:title text="Projective modules are direct summands of free modules">Projective modules are direct summands of free modules</fr:title>
@@ -103,7 +103,7 @@
               <fr:mainmatter><fr:p>In the <fr:link type="local" href="hmlg-000Q.xml" addr="hmlg-000Q" title="Abelian category">abelian category</fr:link> of modules over a ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>, the <fr:link type="local" href="hmlg-0004.xml" addr="hmlg-0004" title="Projective object">projective object</fr:link> modules are exactly the modules that appear as a direct summand of some free module <fr:tex display="inline"><![CDATA[P \oplus  Q = R^{\oplus  n}]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1450</fr:anchor><fr:addr type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1452</fr:anchor><fr:addr type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>A free module evidently projective. If <fr:tex display="inline"><![CDATA[P]]></fr:tex> is a direct summand of a projective module <fr:tex display="inline"><![CDATA[Q]]></fr:tex>, then we can extend any map <fr:tex display="inline"><![CDATA[P \to  B]]></fr:tex> to <fr:tex display="inline"><![CDATA[Q]]></fr:tex> by zero. Then the projectivity of <fr:tex display="inline"><![CDATA[Q]]></fr:tex> implies that of <fr:tex display="inline"><![CDATA[P]]></fr:tex>.</fr:p>
 
   <fr:p>On the other hand, suppose <fr:tex display="inline"><![CDATA[P]]></fr:tex> is projective, then we have an epimorphism <fr:tex display="inline"><![CDATA[R^{\oplus  |P|} \twoheadrightarrow  P]]></fr:tex>. The identity map <fr:tex display="inline"><![CDATA[P \to  P]]></fr:tex> lifts against this epimorphism to a splitting of it, hence <fr:tex display="inline"><![CDATA[P]]></fr:tex> is its direct summand.</fr:p>
@@ -115,7 +115,7 @@
             <fr:p>Dually, we have the definition of injective objects, which make <fr:tex display="inline"><![CDATA[\hom (-, I)]]></fr:tex> exact.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>1452</fr:anchor>
+                <fr:anchor>1454</fr:anchor>
                 <fr:addr type="user">hmlg-002J</fr:addr>
                 <fr:route>hmlg-002J.xml</fr:route>
                 <fr:title text="Injective object">Injective object</fr:title>
@@ -139,7 +139,7 @@
             <fr:p>As an example, we characterize injective abelian groups. Similar characterizations can be done for modules over principal ideal domains.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>1454</fr:anchor>
+                <fr:anchor>1456</fr:anchor>
                 <fr:addr type="user">hmlg-002O</fr:addr>
                 <fr:route>hmlg-002O.xml</fr:route>
                 <fr:title text="Abelian groups are injective iff divisible">Abelian groups are injective iff divisible</fr:title>
@@ -158,7 +158,7 @@
               <fr:mainmatter><fr:p>An abelian group <fr:tex display="inline"><![CDATA[G]]></fr:tex> is <fr:link type="local" href="hmlg-002J.xml" addr="hmlg-002J" title="Injective object">injective</fr:link> iff it is <fr:strong>divisible</fr:strong>, i.e. for element <fr:tex display="inline"><![CDATA[g \in  G]]></fr:tex> and positive integer <fr:tex display="inline"><![CDATA[n]]></fr:tex>, there exists a (non-unique) solution of <fr:tex display="inline"><![CDATA[nx = g]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1440</fr:anchor><fr:addr type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1442</fr:anchor><fr:addr type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>In one direction, suppose the group is injective, then the map <fr:tex display="inline"><![CDATA[\mathbb {Z} \to  G]]></fr:tex> defined by <fr:tex display="inline"><![CDATA[k \mapsto  k g]]></fr:tex> can be extended along the monomorphism <fr:tex display="inline"><![CDATA[(n \times  -) : \mathbb {Z} \to  \mathbb {Z}]]></fr:tex>. This provides the division.</fr:p>
 
   <fr:p>On the other hand, suppose divisibility holds. Given a morphism <fr:tex display="inline"><![CDATA[f : A \to  G]]></fr:tex> and an injection <fr:tex display="inline"><![CDATA[A \hookrightarrow  B]]></fr:tex>, we extend <fr:tex display="inline"><![CDATA[f]]></fr:tex> to <fr:tex display="inline"><![CDATA[B]]></fr:tex> by Zorn's lemma. Consider the poset of homomorphisms extending <fr:tex display="inline"><![CDATA[f]]></fr:tex> to some subgroup of <fr:tex display="inline"><![CDATA[B]]></fr:tex>. Given a chain in this poset, we can take the union to create an upper bound. And it is non-empty since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is an element. Hence it has a maximal element <fr:tex display="inline"><![CDATA[\phi ]]></fr:tex>. Suppose it is defined on <fr:tex display="inline"><![CDATA[B' \subsetneq  B]]></fr:tex>, then there is an element <fr:tex display="inline"><![CDATA[b \in  B]]></fr:tex> not in <fr:tex display="inline"><![CDATA[B']]></fr:tex>. Suppose <fr:tex display="inline"><![CDATA[n b \notin  B']]></fr:tex> for all non-zero integers <fr:tex display="inline"><![CDATA[n]]></fr:tex>, then we can define a larger homomorphism on <fr:tex display="inline"><![CDATA[B + \mathbb {Z} b]]></fr:tex>, contradicting the maximality. Suppose there is some <fr:tex display="inline"><![CDATA[n b \in  B']]></fr:tex>, then by divisibility we can assign <fr:tex display="inline"><![CDATA[\phi (b)]]></fr:tex> a division of <fr:tex display="inline"><![CDATA[\phi (n b)]]></fr:tex> by <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This too contradicts maximality.</fr:p>
@@ -181,7 +181,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3534</fr:anchor>
+            <fr:anchor>3536</fr:anchor>
             <fr:addr type="user">hmlg-0031</fr:addr>
             <fr:route>hmlg-0031.xml</fr:route>
             <fr:title text="Quasi-isomorphism between projective complexes is homotopy equivalence">Quasi-isomorphism between projective complexes is homotopy equivalence</fr:title>
@@ -200,7 +200,7 @@
           <fr:mainmatter><fr:p>Given two chain complexes <fr:tex display="inline"><![CDATA[C_\bullet ]]></fr:tex>, <fr:tex display="inline"><![CDATA[D_\bullet ]]></fr:tex> and a <fr:link type="local" href="hmlg-000C.xml" addr="hmlg-000C" title="Quasi-isomorphism">quasi-isomorphism</fr:link> <fr:tex display="inline"><![CDATA[f : C_\bullet  \to  D_\bullet ]]></fr:tex>, if all the objects involved are <fr:link type="local" href="hmlg-0004.xml" addr="hmlg-0004" title="Projective object">projective</fr:link>, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> has a <fr:link type="local" href="hmlg-0016.xml" addr="hmlg-0016" title="Chain homotopy">homotopy</fr:link> inverse.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>735</fr:anchor><fr:addr type="machine">#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>739</fr:anchor><fr:addr type="machine">#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Consider the mapping cone <fr:tex display="inline"><![CDATA[\operatorname {Cone}(f)]]></fr:tex>, whose objects are given by <fr:tex display="inline"><![CDATA[\operatorname {Cone}_n (f) = C_{n-1} \oplus  D_n]]></fr:tex>. Since direct sums of projective objects are still projective, <fr:tex display="inline"><![CDATA[\operatorname {Cone}(f)]]></fr:tex> is also a chain complex of projective objects. We have a short exact sequence of chain complexes <fr:tex display="inline"><![CDATA[0 \to  D_\bullet  \to  \operatorname {Cone}_\bullet  (f) \to  C_{\bullet  - 1} \to  0]]></fr:tex>, which induces a <fr:link type="local" href="hmlg-0012.xml" addr="hmlg-0012" title="Long exact sequence of homologies">long exact sequence of homologies</fr:link>, in which the boundary maps <fr:tex display="inline"><![CDATA[H_n (C) \to  H_n (D)]]></fr:tex> are given by <fr:tex display="inline"><![CDATA[f]]></fr:tex>.</fr:p>
 
   <fr:p>However, we know <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a quasi-isomorphism. Therefore the boundary maps are all isomorphisms. So by exactness of the sequence, <fr:tex display="inline"><![CDATA[H_n (\operatorname {Cone}(f))]]></fr:tex> must all be zero. But this means <fr:tex display="inline"><![CDATA[\operatorname {Cone}(f)]]></fr:tex> is an <fr:link type="local" href="hmlg-000D.xml" addr="hmlg-000D" title="Acyclic chain complex">acyclic complex</fr:link>, and therefore a projective resolution of <fr:tex display="inline"><![CDATA[0]]></fr:tex>. Since projective resolutions are unique up to chain homotopy, we have a chain homotopy from <fr:tex display="inline"><![CDATA[\operatorname {Cone}(f)]]></fr:tex> to <fr:tex display="inline"><![CDATA[0]]></fr:tex>. Throwing away the trivial components, we get a degree 1 map <fr:tex display="inline"><![CDATA[h_n : \operatorname {Cone}_n (f) \to  \operatorname {Cone}_{n+1} (f)]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d_{n+1} h_n + h_{n-1} d_n = 1]]></fr:tex>. Writing it down in components, we have
@@ -217,7 +217,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3536</fr:anchor>
+            <fr:anchor>3538</fr:anchor>
             <fr:addr type="user">hmlg-002U</fr:addr>
             <fr:route>hmlg-002U.xml</fr:route>
             <fr:title text="Enough injectives">Enough injectives</fr:title>
@@ -240,7 +240,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3538</fr:anchor>
+            <fr:anchor>3540</fr:anchor>
             <fr:addr type="user">hmlg-002P</fr:addr>
             <fr:route>hmlg-002P.xml</fr:route>
             <fr:title text="Right adjoint of exact functor preserves injectives">Right adjoint of exact functor preserves injectives</fr:title>
@@ -259,7 +259,7 @@
           <fr:mainmatter><fr:p>Suppose <fr:tex display="inline"><![CDATA[F \dashv  R]]></fr:tex>, <fr:tex display="inline"><![CDATA[F]]></fr:tex> is exact and <fr:tex display="inline"><![CDATA[I]]></fr:tex> is an <fr:link type="local" href="hmlg-002J.xml" addr="hmlg-002J" title="Injective object">injective</fr:link>, then <fr:tex display="inline"><![CDATA[R(I)]]></fr:tex> is also an injective. Dually, if <fr:tex display="inline"><![CDATA[L \dashv  F]]></fr:tex>, <fr:tex display="inline"><![CDATA[F]]></fr:tex> is exact and <fr:tex display="inline"><![CDATA[P]]></fr:tex> is a <fr:link type="local" href="hmlg-0004.xml" addr="hmlg-0004" title="Projective object">projective</fr:link>, then <fr:tex display="inline"><![CDATA[L(P)]]></fr:tex> is also a projective.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1423</fr:anchor><fr:addr type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1425</fr:anchor><fr:addr type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Notice that the right adjoint preserves products, and so is <fr:link type="local" href="hmlg-000S.xml" addr="hmlg-000S" title="Additive functor">additive</fr:link>. We need to show that <fr:tex display="inline"><![CDATA[\hom (-, R(I))]]></fr:tex> is <fr:link type="local" href="hmlg-000X.xml" addr="hmlg-000X" title="Left and right exact functor">exact</fr:link>, which amounts to saying the composition of <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[\hom (-, I)]]></fr:tex> is exact, which is true because both are exact.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
@@ -268,7 +268,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3540</fr:anchor>
+            <fr:anchor>3542</fr:anchor>
             <fr:addr type="user">hmlg-002J</fr:addr>
             <fr:route>hmlg-002J.xml</fr:route>
             <fr:title text="Injective object">Injective object</fr:title>
@@ -291,7 +291,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3542</fr:anchor>
+            <fr:anchor>3544</fr:anchor>
             <fr:addr type="user">hmlg-002I</fr:addr>
             <fr:route>hmlg-002I.xml</fr:route>
             <fr:title text="Projective modules are direct summands of free modules">Projective modules are direct summands of free modules</fr:title>
@@ -310,7 +310,7 @@
           <fr:mainmatter><fr:p>In the <fr:link type="local" href="hmlg-000Q.xml" addr="hmlg-000Q" title="Abelian category">abelian category</fr:link> of modules over a ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>, the <fr:link type="local" href="hmlg-0004.xml" addr="hmlg-0004" title="Projective object">projective object</fr:link> modules are exactly the modules that appear as a direct summand of some free module <fr:tex display="inline"><![CDATA[P \oplus  Q = R^{\oplus  n}]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1450</fr:anchor><fr:addr type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1452</fr:anchor><fr:addr type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>A free module evidently projective. If <fr:tex display="inline"><![CDATA[P]]></fr:tex> is a direct summand of a projective module <fr:tex display="inline"><![CDATA[Q]]></fr:tex>, then we can extend any map <fr:tex display="inline"><![CDATA[P \to  B]]></fr:tex> to <fr:tex display="inline"><![CDATA[Q]]></fr:tex> by zero. Then the projectivity of <fr:tex display="inline"><![CDATA[Q]]></fr:tex> implies that of <fr:tex display="inline"><![CDATA[P]]></fr:tex>.</fr:p>
 
   <fr:p>On the other hand, suppose <fr:tex display="inline"><![CDATA[P]]></fr:tex> is projective, then we have an epimorphism <fr:tex display="inline"><![CDATA[R^{\oplus  |P|} \twoheadrightarrow  P]]></fr:tex>. The identity map <fr:tex display="inline"><![CDATA[P \to  P]]></fr:tex> lifts against this epimorphism to a splitting of it, hence <fr:tex display="inline"><![CDATA[P]]></fr:tex> is its direct summand.</fr:p>
@@ -321,7 +321,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3544</fr:anchor>
+            <fr:anchor>3546</fr:anchor>
             <fr:addr type="user">hmlg-0005</fr:addr>
             <fr:route>hmlg-0005.xml</fr:route>
             <fr:title text="Projective objects">Projective objects</fr:title>

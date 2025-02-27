@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3549</fr:anchor>
+    <fr:anchor>3551</fr:anchor>
     <fr:addr type="user">constructive-homological-algebra</fr:addr>
     <fr:route>constructive-homological-algebra.xml</fr:route>
     <fr:title text="Constructive Homological Algebra and Applications">Constructive Homological Algebra and Applications</fr:title>
@@ -29,7 +29,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3551</fr:anchor>
+            <fr:anchor>3553</fr:anchor>
             <fr:addr type="user">hmlg-001K</fr:addr>
             <fr:route>hmlg-001K.xml</fr:route>
             <fr:title text="Effective homology">Effective homology</fr:title>
@@ -65,7 +65,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3553</fr:anchor>
+            <fr:anchor>3555</fr:anchor>
             <fr:addr type="user">hmlg-001G</fr:addr>
             <fr:route>hmlg-001G.xml</fr:route>
             <fr:title text="Perturbation of the larger chain complex in a chain reduction"><fr:link type="local" href="hmlg-001G.xml" addr="hmlg-001G" title="Perturbation of the larger chain complex in a chain reduction">Perturbation</fr:link> of the larger chain complex in a <fr:link type="local" href="hmlg-0017.xml" addr="hmlg-0017" title="Chain reduction">chain reduction</fr:link></fr:title>
@@ -84,7 +84,7 @@
           <fr:mainmatter><fr:p>Given a reduction <fr:tex display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex> and a perturbation <fr:tex display="inline"><![CDATA[\delta _C]]></fr:tex> for <fr:tex display="inline"><![CDATA[C]]></fr:tex>, we assume that <fr:tex display="inline"><![CDATA[h_{\rho } \mathbin {\circ } \delta _C]]></fr:tex> is pointwise nilpotent, i.e. <fr:tex display="block"><![CDATA[\forall  c \in  C_k, \exists  n \in  \mathbb {N}, \; (h_{\rho }\delta _C)^n (c) = 0.]]></fr:tex> We can construct a new chain reduction <fr:tex display="inline"><![CDATA[\rho ' : C' \Rightarrow \mkern {-14mu}\Rightarrow  D']]></fr:tex>, where <fr:tex display="inline"><![CDATA[C']]></fr:tex> is <fr:tex display="inline"><![CDATA[C]]></fr:tex> perturbed by <fr:tex display="inline"><![CDATA[\delta _C]]></fr:tex>.</fr:p><fr:p>Note that this situation is much harder compared to <fr:ref addr="hmlg-001E" href="hmlg-001E.xml" taxon="Construction" />, as it is generally impossible without the added condition.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2097</fr:anchor><fr:addr type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2099</fr:anchor><fr:addr type="machine">#262</fr:addr><fr:route>unstable-262.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>For this construction using the third equivalent definition of a chain reduction in <fr:ref addr="hmlg-001H" href="hmlg-001H.xml" taxon="Theorem" />, i.e. a homotopy operator on <fr:tex display="inline"><![CDATA[C]]></fr:tex> such that <fr:tex display="inline"><![CDATA[h \mathbin {\circ } h = 0]]></fr:tex> and <fr:tex display="inline"><![CDATA[h \mathbin {\circ } d_C \mathbin {\circ } h = h]]></fr:tex>.</fr:p>
 
   <fr:p>We need to construct a new homotopy operator such that <fr:tex display="inline"><![CDATA[h' \mathbin {\circ } h' = 0]]></fr:tex> and <fr:tex display="inline"><![CDATA[h' \mathbin {\circ } (d_C + \delta _C) \mathbin {\circ } h' = h']]></fr:tex>. We approach this through a “perturbative” mindset. Starting with <fr:tex display="inline"><![CDATA[h_0 = h]]></fr:tex>, the second equation is off by a difference of <fr:tex display="inline"><![CDATA[h_0 \delta _C h_0]]></fr:tex>. We simply add this as a correction term, <fr:tex display="inline"><![CDATA[h_1 = h_0 + \alpha  h_0 \delta _C h_0]]></fr:tex> where <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is some coefficient. (Note that essentially the only terms we can consider are of the form <fr:tex display="inline"><![CDATA[h_0 \delta _C h_0 \delta _C \cdots  h_0]]></fr:tex>, since nothing else has the same type.) We still have <fr:tex display="inline"><![CDATA[h_1 \mathbin {\circ } h_1 = 0]]></fr:tex>, and for the second equation this creates a new error term

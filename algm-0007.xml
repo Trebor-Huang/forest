@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2894</fr:anchor>
+    <fr:anchor>2896</fr:anchor>
     <fr:addr type="user">algm-0007</fr:addr>
     <fr:route>algm-0007.xml</fr:route>
     <fr:title text="Localic spectrum of a commutative ring">Localic spectrum of a commutative ring</fr:title>
@@ -32,7 +32,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2896</fr:anchor>
+            <fr:anchor>2898</fr:anchor>
             <fr:addr type="user">algm-0005</fr:addr>
             <fr:route>algm-0005.xml</fr:route>
             <fr:title text="Localic spectrum of a commutative ring">Localic spectrum of a commutative ring</fr:title>
@@ -51,7 +51,7 @@
             <fr:p>To define functions on an “algebraic space”, we need to define the possible domains. The correct structure formed by the domains is a locale. Intuitively, the only algebraic way for a function to become partially defined is by having zero in the denominator <fr:tex display="inline"><![CDATA[f/g]]></fr:tex>, so the domain should be the non-vanishing part of <fr:tex display="inline"><![CDATA[g]]></fr:tex>, which we denote as <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex>.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2868</fr:anchor>
+                <fr:anchor>2870</fr:anchor>
                 <fr:addr type="user">algm-0006</fr:addr>
                 <fr:route>algm-0006.xml</fr:route>
                 <fr:title text="Rational functions not definable via a single expression">Rational functions not definable via a single expression</fr:title>
@@ -75,7 +75,7 @@
             <fr:p>Recognizing this, we can try to freely generate a locale using <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex> as generators. We would like some obvious relations corresponding to each algebraic operation in the ring.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2870</fr:anchor>
+                <fr:anchor>2872</fr:anchor>
                 <fr:addr type="user">algm-0007</fr:addr>
                 <fr:route>algm-0007.xml</fr:route>
                 <fr:title text="Localic spectrum of a commutative ring">Localic spectrum of a commutative ring</fr:title>
@@ -101,7 +101,7 @@
             <fr:p>We can actually produce a characterization of these generated opens. The following theorem is best read by skipping the statement and jump right into the proof, allowing the correct statement to gradually reveal itself.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2872</fr:anchor>
+                <fr:anchor>2874</fr:anchor>
                 <fr:addr type="user">algm-0008</fr:addr>
                 <fr:route>algm-0008.xml</fr:route>
                 <fr:title text="Characterization of the locale {Spec}(R)">Characterization of the locale <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:title>
@@ -120,7 +120,7 @@
               <fr:mainmatter><fr:p>The opens in <fr:link type="local" href="algm-0007.xml" addr="algm-0007" title="Localic spectrum of a commutative ring">the locale</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> bijectively corresponds to radical ideals of <fr:tex display="inline"><![CDATA[R]]></fr:tex>, whose divisibility relation agree with the inverse inclusion relation of opens. Intersections correspond to lowest common multiple, and unions correspond to the radical of the greatest common divisor. In other words, the locale is isomorphic to the locale corresponding to the <fr:link type="local" href="algm-0001.xml" addr="algm-0001" title="Topological spectrum of a commutative ring">topological spectrum of a commutative ring</fr:link> by <fr:ref addr="algm-0002" href="algm-0002.xml" taxon="Theorem" />.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2528</fr:anchor><fr:addr type="machine">#303</fr:addr><fr:route>unstable-303.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2530</fr:anchor><fr:addr type="machine">#303</fr:addr><fr:route>unstable-303.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We can first put the opens in disjunctive normal form
     <fr:tex display="block"><![CDATA[U = \bigcup _{i \in  I} \bigcap _{j=1}^{n_i} D(f_{i, j}).]]></fr:tex>
     By the definition we can reduce the intersections into products. Write <fr:tex display="inline"><![CDATA[f_i = \prod _j f_{i, j}]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[U = \bigcup _i D(f_i)]]></fr:tex>. Given this form, we can try to <fr:em>saturate</fr:em> the union, by throwing in everything that doesn’t enlarge <fr:tex display="inline"><![CDATA[U]]></fr:tex>. In other words, we only consider the unions such that no other generator <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> can be added, i.e. <fr:tex display="inline"><![CDATA[D(f) \nsubseteq  U]]></fr:tex>. This would uniquely determine <fr:tex display="inline"><![CDATA[U]]></fr:tex>.</fr:p>
@@ -147,7 +147,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2898</fr:anchor>
+            <fr:anchor>2900</fr:anchor>
             <fr:addr type="user">algm-0023</fr:addr>
             <fr:route>algm-0023.xml</fr:route>
             <fr:title text="Alternative presentation of the localic spectrum of a commutative ring">Alternative presentation of the localic spectrum of a commutative ring</fr:title>
@@ -170,7 +170,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2900</fr:anchor>
+            <fr:anchor>2902</fr:anchor>
             <fr:addr type="user">algm-0022</fr:addr>
             <fr:route>algm-0022.xml</fr:route>
             <fr:title text="Dense subsite of affine opens">Dense subsite of affine opens</fr:title>
@@ -193,7 +193,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2902</fr:anchor>
+            <fr:anchor>2904</fr:anchor>
             <fr:addr type="user">algm-000Z</fr:addr>
             <fr:route>algm-000Z.xml</fr:route>
             <fr:title text="Geometry of graded rings">Geometry of graded rings</fr:title>
@@ -214,7 +214,7 @@
             <fr:p>In polynomial rings, for example, the polynomial <fr:tex display="inline"><![CDATA[x^2 + 2y + 7]]></fr:tex> becomes <fr:tex display="inline"><![CDATA[\lambda ^2 x^2 + 2 \lambda  y + 7]]></fr:tex> under a dilation by <fr:tex display="inline"><![CDATA[\lambda ]]></fr:tex>. Note how each term can be classified by the power of <fr:tex display="inline"><![CDATA[\lambda ]]></fr:tex> it obtains. Hence, what we need is a <fr:strong>grading</fr:strong> on the ring, which partitions <fr:tex display="inline"><![CDATA[R = \bigoplus _d R_d]]></fr:tex> (as abelian groups). <fr:tex display="inline"><![CDATA[R_d]]></fr:tex> is intuitively the elements that get the factor <fr:tex display="inline"><![CDATA[\lambda ^d]]></fr:tex> upon dilation. The multiplication of a degree <fr:tex display="inline"><![CDATA[p]]></fr:tex> element with a degree <fr:tex display="inline"><![CDATA[q]]></fr:tex> element should produce a degree <fr:tex display="inline"><![CDATA[(p+q)]]></fr:tex> element, since <fr:tex display="inline"><![CDATA[\lambda ^p \lambda ^q = \lambda ^{p+q}]]></fr:tex>.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2532</fr:anchor>
+                <fr:anchor>2534</fr:anchor>
                 <fr:addr type="user">hmlg-001L</fr:addr>
                 <fr:route>hmlg-001L.xml</fr:route>
                 <fr:title text="Graded ring">Graded ring</fr:title>
@@ -239,7 +239,7 @@
             <fr:p>The opens of a projective space should come from the non-vanishing region of a homogeneous function, i.e. elements with a single degree. This ensures that dilation doesn’t change the opens. However, we would have multiple ways to represent the entire space: in a two-dimensional affine space, <fr:tex display="inline"><![CDATA[D(x) \cup  D(y)]]></fr:tex> and <fr:tex display="inline"><![CDATA[D(1)]]></fr:tex> are both invariant under dilation, but the former excludes the origin, while the latter does not. In a projective setting, we don’t care about the origin at all, and considering that all homogeneous polynomials of positive degree vanish at the origin, we should make that mandatory. Hence, we only consider the opens corresponding to positively graded elements, which we write as <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex>. We can construct a space similar to the <fr:link type="local" href="algm-0007.xml" addr="algm-0007" title="Localic spectrum of a commutative ring">localic spectrum of a commutative ring</fr:link>.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2534</fr:anchor>
+                <fr:anchor>2536</fr:anchor>
                 <fr:addr type="user">algm-000Y</fr:addr>
                 <fr:route>algm-000Y.xml</fr:route>
                 <fr:title text="Projective spectrum of a graded ring">Projective spectrum of a graded ring</fr:title>
@@ -263,7 +263,7 @@
             <fr:p>As for the structure sheaf, we need to decide what the sections over <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> are. They should be functions defined on the affine space <fr:tex display="inline"><![CDATA[D(f) \subseteq  \operatorname {Spec}(S)]]></fr:tex>, but invariant under dilation. Note that it is stronger than requiring vanishing region be invariant. We actually need the grade <fr:tex display="inline"><![CDATA[0]]></fr:tex> elements here. Recalling from <fr:link type="local" href="algm-000I.xml" addr="algm-000I" title="Structure sheaf of a ring spectrum">structure sheaf of a ring spectrum</fr:link> that <fr:tex display="inline"><![CDATA[\Gamma (D(f), \mathscr {O}_{\operatorname {Spec}(S)}) = S[f^{-1}]]]></fr:tex> (which can be given a canonical grading since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a graded element), we can make the following definition.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2536</fr:anchor>
+                <fr:anchor>2538</fr:anchor>
                 <fr:addr type="user">algm-0010</fr:addr>
                 <fr:route>algm-0010.xml</fr:route>
                 <fr:title text="Structure sheaf of {Proj}(S)">Structure sheaf of <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex></fr:title>
@@ -282,7 +282,7 @@
               <fr:mainmatter><fr:p>Fix a <fr:link type="local" href="hmlg-001L.xml" addr="hmlg-001L" title="Graded ring">graded ring</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex>. For a positively graded element <fr:tex display="inline"><![CDATA[f]]></fr:tex>, we have a graded ring localization <fr:tex display="inline"><![CDATA[S[f^{-1}]_\bullet ]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\Gamma (D_+(f), \mathscr {O})]]></fr:tex> be the zeroth degree component <fr:tex display="inline"><![CDATA[S[f^{-1}]_0]]></fr:tex>. This defines a sheaf over the <fr:link type="local" href="algm-000Y.xml" addr="algm-000Y" title="Projective spectrum of a graded ring">projective spectrum</fr:link>, and moreover gives a <fr:link type="local" href="algm-000R.xml" addr="algm-000R" title="Scheme">scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2510</fr:anchor><fr:addr type="machine">#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2512</fr:anchor><fr:addr type="machine">#292</fr:addr><fr:route>unstable-292.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We claim that <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> can alternatively be given by gluing affine schemes. We assign <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> the affine scheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> (which is possible because the open subspace <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> is homeomorphic to <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> as a space). Given two positively graded elements <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex>, we have an isomorphism between <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> restricted to <fr:tex display="inline"><![CDATA[D_+ (f g)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> restricted to <fr:tex display="inline"><![CDATA[D(g^{\deg  f}/f^{\deg  g})]]></fr:tex>, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
@@ -294,7 +294,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2904</fr:anchor>
+            <fr:anchor>2906</fr:anchor>
             <fr:addr type="user">algm-000Y</fr:addr>
             <fr:route>algm-000Y.xml</fr:route>
             <fr:title text="Projective spectrum of a graded ring">Projective spectrum of a graded ring</fr:title>
@@ -317,7 +317,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2906</fr:anchor>
+            <fr:anchor>2908</fr:anchor>
             <fr:addr type="user">algm-0008</fr:addr>
             <fr:route>algm-0008.xml</fr:route>
             <fr:title text="Characterization of the locale {Spec}(R)">Characterization of the locale <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex></fr:title>
@@ -336,7 +336,7 @@
           <fr:mainmatter><fr:p>The opens in <fr:link type="local" href="algm-0007.xml" addr="algm-0007" title="Localic spectrum of a commutative ring">the locale</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> bijectively corresponds to radical ideals of <fr:tex display="inline"><![CDATA[R]]></fr:tex>, whose divisibility relation agree with the inverse inclusion relation of opens. Intersections correspond to lowest common multiple, and unions correspond to the radical of the greatest common divisor. In other words, the locale is isomorphic to the locale corresponding to the <fr:link type="local" href="algm-0001.xml" addr="algm-0001" title="Topological spectrum of a commutative ring">topological spectrum of a commutative ring</fr:link> by <fr:ref addr="algm-0002" href="algm-0002.xml" taxon="Theorem" />.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2528</fr:anchor><fr:addr type="machine">#303</fr:addr><fr:route>unstable-303.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2530</fr:anchor><fr:addr type="machine">#303</fr:addr><fr:route>unstable-303.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We can first put the opens in disjunctive normal form
     <fr:tex display="block"><![CDATA[U = \bigcup _{i \in  I} \bigcap _{j=1}^{n_i} D(f_{i, j}).]]></fr:tex>
     By the definition we can reduce the intersections into products. Write <fr:tex display="inline"><![CDATA[f_i = \prod _j f_{i, j}]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[U = \bigcup _i D(f_i)]]></fr:tex>. Given this form, we can try to <fr:em>saturate</fr:em> the union, by throwing in everything that doesn’t enlarge <fr:tex display="inline"><![CDATA[U]]></fr:tex>. In other words, we only consider the unions such that no other generator <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> can be added, i.e. <fr:tex display="inline"><![CDATA[D(f) \nsubseteq  U]]></fr:tex>. This would uniquely determine <fr:tex display="inline"><![CDATA[U]]></fr:tex>.</fr:p>

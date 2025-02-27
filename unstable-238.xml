@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1835</fr:anchor>
+    <fr:anchor>1837</fr:anchor>
     <fr:addr type="machine">#238</fr:addr>
     <fr:route>unstable-238.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
@@ -31,7 +31,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1837</fr:anchor>
+            <fr:anchor>1839</fr:anchor>
             <fr:addr type="user">ualg-000I</fr:addr>
             <fr:route>ualg-000I.xml</fr:route>
             <fr:title text="Limits and colimits created by a monadic functor">Limits and colimits created by a monadic functor</fr:title>
@@ -50,7 +50,7 @@
           <fr:mainmatter><fr:p>A <fr:link type="local" href="ualg-000A.xml" addr="ualg-000A" title="Monadic functor">monadic functor</fr:link> <fr:link type="local" href="ualg-000G.xml" addr="ualg-000G" title="Preservation, lifting, reflection and creation of limits">creates</fr:link> all limits. It also creates all colimits preserved by the monad.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1839</fr:anchor><fr:addr type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1841</fr:anchor><fr:addr type="machine">#238</fr:addr><fr:route>unstable-238.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>By definition, we just need to prove the functor <fr:tex display="inline"><![CDATA[\mathcal {C}^M \to  \mathcal {C}]]></fr:tex> creates these limits and colimits. Given a diagram <fr:tex display="inline"><![CDATA[(M X_i \xrightarrow {\alpha _i} X_i)]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathcal {C}^M]]></fr:tex>, we can simply define an <fr:tex display="inline"><![CDATA[M]]></fr:tex>-algebra structure on <fr:tex display="inline"><![CDATA[\lim  X_i]]></fr:tex> by assigning <fr:tex display="inline"><![CDATA[M(\lim  X_i) \to  \lim  X_i]]></fr:tex> the obvious map. This is the limit of the original diagram by a simple diagram chase, hence it is lifted. The cones over the diagram are determined by their image under the forgetful functor, so the lift is unique, which means the limit is trivially reflected.</fr:p>
 
   <fr:p>For colimits, if <fr:tex display="inline"><![CDATA[M]]></fr:tex> preserves a colimit, then we can similarly define an algebra structure as <fr:tex display="inline"><![CDATA[M(\operatorname *{colim} X_i) \cong  \operatorname *{colim} M X_i \to  \operatorname *{colim} X_i]]></fr:tex>. The lift is also unique, which means it is reflected.</fr:p>

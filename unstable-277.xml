@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1180</fr:anchor>
+    <fr:anchor>1182</fr:anchor>
     <fr:addr type="machine">#277</fr:addr>
     <fr:route>unstable-277.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
@@ -33,7 +33,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1182</fr:anchor>
+            <fr:anchor>1184</fr:anchor>
             <fr:addr type="user">cplx-0007</fr:addr>
             <fr:route>cplx-0007.xml</fr:route>
             <fr:title text="Integration around a pole">Integration around a pole</fr:title>
@@ -52,7 +52,7 @@
           <fr:mainmatter><fr:p>Given a piecewise differentiable closed curve <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> not passing through <fr:tex display="inline"><![CDATA[a]]></fr:tex>, the complex <fr:link type="local" href="cplx-0005.xml" addr="cplx-0005" title="Line integral">line integral</fr:link> <fr:tex display="block"><![CDATA[\int _\gamma  \frac {1}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex> is always a multiple of <fr:tex display="inline"><![CDATA[2 \pi  i]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1158</fr:anchor><fr:addr type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1160</fr:anchor><fr:addr type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>5</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Intuitively, <fr:tex display="inline"><![CDATA[1/(z-a)]]></fr:tex> is the derivative of the function <fr:tex display="inline"><![CDATA[\log (z - a)]]></fr:tex>. But formalizing this is difficult, since logarithms are not single-valued, so what happens near the branch cuts is not clear. However, we can avoid this by considering the inverse function <fr:tex display="inline"><![CDATA[\exp ]]></fr:tex> instead.</fr:p>
 
   <fr:p>Let the path be parametrized by the interval <fr:tex display="inline"><![CDATA[[0,1]]]></fr:tex> for convenience. Consider the function <fr:tex display="block"><![CDATA[g(t) = \int _0^t \frac {\gamma '(t)}{\gamma (t) - a} \operatorname {d}\mathclose {t}.]]></fr:tex> By the intuition above, we expect <fr:tex display="inline"><![CDATA[g(t) \xlongequal {?} \log (\gamma (t) - a) + C]]></fr:tex>. So we instead consider <fr:tex display="inline"><![CDATA[h(t) = \exp (g(t))/(\gamma (t) - a)]]></fr:tex> and prove it is a constant. This can be verified by differentiation, using the chain rule and the fundamental theorem of calculus.</fr:p>

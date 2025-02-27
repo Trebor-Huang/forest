@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2768</fr:anchor>
+    <fr:anchor>2770</fr:anchor>
     <fr:addr type="machine">#297</fr:addr>
     <fr:route>unstable-297.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
@@ -44,7 +44,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2770</fr:anchor>
+            <fr:anchor>2772</fr:anchor>
             <fr:addr type="user">algm-000I</fr:addr>
             <fr:route>algm-000I.xml</fr:route>
             <fr:title text="Structure sheaf of a ring spectrum">Structure sheaf of a ring spectrum</fr:title>
@@ -63,7 +63,7 @@
           <fr:mainmatter><fr:p>Given a commutative ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>, we define a sheaf <fr:tex display="inline"><![CDATA[\mathscr {O}]]></fr:tex> of rings on <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> called the <fr:strong>structure sheaf</fr:strong>. Let <fr:tex display="inline"><![CDATA[\Gamma (D(f), \mathscr {O}) = R[f^{-1}]]]></fr:tex>. Suppose <fr:tex display="inline"><![CDATA[D(f) \subseteq  D(g)]]></fr:tex> we define the restriction morphism to be the localization map <fr:tex display="inline"><![CDATA[R[g^{-1}] \to  R[f^{-1}]]]></fr:tex>, since by <fr:ref addr="algm-0002" href="algm-0002.xml" taxon="Theorem" /> the latter is a further localization of the former. This turns <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> into a <fr:link type="local" href="algm-000M.xml" addr="algm-000M" title="Ringed space">ringed space</fr:link>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2540</fr:anchor><fr:addr type="machine">#297</fr:addr><fr:route>unstable-297.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2542</fr:anchor><fr:addr type="machine">#297</fr:addr><fr:route>unstable-297.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex display="inline"><![CDATA[f_i \in  R]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\bigcup _i D(f_i) = D(f)]]></fr:tex>, we need to show that
     <fr:tex display="block"><![CDATA[R[f^{-1}] \to  \prod _{i \in  I} R[f_i^{-1}] \rightrightarrows  \prod _{i \ne  j} R[(f_i f_j)^{-1}]]]></fr:tex>
     is an equalizer. Notice that <fr:tex display="inline"><![CDATA[R[f_i^{-1}] \cong  R[f^{-1}][f_i^{-1}]]]></fr:tex>. So we may reassign <fr:tex display="inline"><![CDATA[S = R[f^{-1}]]]></fr:tex>. This simplifies the problem to

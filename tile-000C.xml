@@ -167,14 +167,17 @@
                 <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
               </fr:author>
             </fr:authors>
+            <fr:meta name="external">https://github.com/Trebor-Huang/aperiodic</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
+            <html:img xmlns:html="http://www.w3.org/1999/xhtml" src="spectre-cyclic.svg" />
             <fr:p>I assume familiarity with <fr:link type="external" href="https://en.wikipedia.org/wiki/Aperiodic_tiling">aperiodic tilings</fr:link> and <fr:link type="external" href="https://en.wikipedia.org/wiki/Substitution_tiling">substitution systems</fr:link>. It is already possible, via naïve use of the substitution system, to construct algorithms that generate arbitrarily large patches of the tilings. However, the collection of algorithms persented here has several advantages.</fr:p>
             <fr:ul><fr:li>It can incrementally generate patches arbitrarily far away from the starting point, without needing to specify the size up front.</fr:li>
   <fr:li>It is very efficient, both in time and in space, as it only generates tiles on demand, as they enter the viewport.</fr:li>
   <fr:li>For each concrete tiling system, it requires minimal manual input, automatically constructing almost the entire algorithm.</fr:li>
   <fr:li>The generation itself does <fr:em>not</fr:em> depend on the geometric information! This avoids difficult calculations with arbitrary-precision numbers.</fr:li>
   <fr:li>The algorithm elegantly handles very problematic situations such as substitutions with disjoint tiles, or zero-width spurs.</fr:li></fr:ul>
+            <html:img xmlns:html="http://www.w3.org/1999/xhtml" src="penrose-infinite-wall-colored.svg" />
             <fr:p>These materials essentially come from <fr:link type="external" href="https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/aperiodic-tilings/">a four part series</fr:link> in Tatham’s blog. I strongly recommend reading through them first. In my own writeup, I removed the intermediate algorithms that are later replaced with better ones, and gave some more precise definitions and proofs.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
@@ -409,7 +412,7 @@
                     <fr:p>Consider the substitution system of <fr:link type="local" href="tile-0005.xml" addr="tile-0005" title="Penrose rhombs">Penrose rhombs</fr:link>. Take the cyclic <fr:link type="local" href="tile-0006.xml" addr="tile-0006" title="Conway signature">Conway signature</fr:link>
   <fr:tex display="block"><![CDATA[     \Sigma _0 = \text {Thin} \xrightarrow {\text {left}} \text {Thin} \xrightarrow {\text {left}} \cdots    ]]></fr:tex>
   This repeatedly selects the thin <fr:tex display="inline"><![CDATA[36\degree ]]></fr:tex> subtile on the left. No matter how many times we use the substitution rules, the selected thin rhomb will not have a neighbor.</fr:p>
-                    <fr:p>(To do: reproduce the image <fr:link type="external" href="https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/aperiodic-followup/p3-disconnected.svg">here</fr:link>)</fr:p>
+                    <html:img xmlns:html="http://www.w3.org/1999/xhtml" src="penrose-infinite-wall-cyclic.svg" />
                     <fr:p>However, after any finite length of this Conway signature, we can replace the rest of the signature with
   <fr:tex display="block"><![CDATA[\cdots  \text {Thin} \xrightarrow {\text {top}} \text {Thick} \xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \cdots ]]></fr:tex>
   and this will cover the whole neighborhood. Therefore, for any finite radius, there is a patch of tiling that looks like it can be described by <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex> in that radius. As the radius tends to infinity, these patches converge to a single complete tiling whose center tile has Conway signature <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex>, which is therefore in the <fr:link type="local" href="tile-000A.xml" addr="tile-000A" title="Hull of set of tilings">hull</fr:link> of Penrose tilings.</fr:p>
@@ -1114,7 +1117,7 @@
                 <fr:p>Consider the substitution system of <fr:link type="local" href="tile-0005.xml" addr="tile-0005" title="Penrose rhombs">Penrose rhombs</fr:link>. Take the cyclic <fr:link type="local" href="tile-0006.xml" addr="tile-0006" title="Conway signature">Conway signature</fr:link>
   <fr:tex display="block"><![CDATA[     \Sigma _0 = \text {Thin} \xrightarrow {\text {left}} \text {Thin} \xrightarrow {\text {left}} \cdots    ]]></fr:tex>
   This repeatedly selects the thin <fr:tex display="inline"><![CDATA[36\degree ]]></fr:tex> subtile on the left. No matter how many times we use the substitution rules, the selected thin rhomb will not have a neighbor.</fr:p>
-                <fr:p>(To do: reproduce the image <fr:link type="external" href="https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/aperiodic-followup/p3-disconnected.svg">here</fr:link>)</fr:p>
+                <html:img xmlns:html="http://www.w3.org/1999/xhtml" src="penrose-infinite-wall-cyclic.svg" />
                 <fr:p>However, after any finite length of this Conway signature, we can replace the rest of the signature with
   <fr:tex display="block"><![CDATA[\cdots  \text {Thin} \xrightarrow {\text {top}} \text {Thick} \xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \cdots ]]></fr:tex>
   and this will cover the whole neighborhood. Therefore, for any finite radius, there is a patch of tiling that looks like it can be described by <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex> in that radius. As the radius tends to infinity, these patches converge to a single complete tiling whose center tile has Conway signature <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex>, which is therefore in the <fr:link type="local" href="tile-000A.xml" addr="tile-000A" title="Hull of set of tilings">hull</fr:link> of Penrose tilings.</fr:p>

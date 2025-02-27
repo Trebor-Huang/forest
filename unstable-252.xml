@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1342</fr:anchor>
+    <fr:anchor>1344</fr:anchor>
     <fr:addr type="machine">#252</fr:addr>
     <fr:route>unstable-252.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
@@ -35,7 +35,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1344</fr:anchor>
+            <fr:anchor>1346</fr:anchor>
             <fr:addr type="user">hmlg-002W</fr:addr>
             <fr:route>hmlg-002W.xml</fr:route>
             <fr:title text="Additive functor is faithful iff it reflects exactness">Additive functor is faithful iff it reflects exactness</fr:title>
@@ -54,7 +54,7 @@
           <fr:mainmatter><fr:p>An <fr:link type="local" href="hmlg-000S.xml" addr="hmlg-000S" title="Additive functor">additive functor</fr:link> is faithful iff it reflects exactness.</fr:p><fr:p>This implies that faithful additive functors reflects kernels, cokernels, etc. Note that faithful functors need not preserve kernels or cokernels. This is because we can take the direct sum of a faithful functor with an arbitrary additive functor and the result is still faithful. The second summand can behave badly.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1346</fr:anchor><fr:addr type="machine">#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1348</fr:anchor><fr:addr type="machine">#252</fr:addr><fr:route>unstable-252.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We first prove the forward implication. Given a sequence
     <fr:tex display="block"><![CDATA[X \xrightarrow {f} Y \xrightarrow {g} Z]]></fr:tex>
     whose image under <fr:tex display="inline"><![CDATA[F]]></fr:tex> is exact, by faithfulness <fr:tex display="inline"><![CDATA[F(g \mathbin {\circ } f) = 0]]></fr:tex> implies <fr:tex display="inline"><![CDATA[g \mathbin {\circ } f = 0]]></fr:tex>. Now we wish to prove the composite <fr:tex display="inline"><![CDATA[\ker  g \to  Y \to  \operatorname {coker} f]]></fr:tex> is zero. We can decompose its image under <fr:tex display="inline"><![CDATA[F]]></fr:tex> as

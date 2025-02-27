@@ -16,14 +16,17 @@
         <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
       </fr:author>
     </fr:authors>
+    <fr:meta name="external">https://github.com/Trebor-Huang/aperiodic</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
+    <html:img xmlns:html="http://www.w3.org/1999/xhtml" src="spectre-cyclic.svg" />
     <fr:p>I assume familiarity with <fr:link type="external" href="https://en.wikipedia.org/wiki/Aperiodic_tiling">aperiodic tilings</fr:link> and <fr:link type="external" href="https://en.wikipedia.org/wiki/Substitution_tiling">substitution systems</fr:link>. It is already possible, via naïve use of the substitution system, to construct algorithms that generate arbitrarily large patches of the tilings. However, the collection of algorithms persented here has several advantages.</fr:p>
     <fr:ul><fr:li>It can incrementally generate patches arbitrarily far away from the starting point, without needing to specify the size up front.</fr:li>
   <fr:li>It is very efficient, both in time and in space, as it only generates tiles on demand, as they enter the viewport.</fr:li>
   <fr:li>For each concrete tiling system, it requires minimal manual input, automatically constructing almost the entire algorithm.</fr:li>
   <fr:li>The generation itself does <fr:em>not</fr:em> depend on the geometric information! This avoids difficult calculations with arbitrary-precision numbers.</fr:li>
   <fr:li>The algorithm elegantly handles very problematic situations such as substitutions with disjoint tiles, or zero-width spurs.</fr:li></fr:ul>
+    <html:img xmlns:html="http://www.w3.org/1999/xhtml" src="penrose-infinite-wall-colored.svg" />
     <fr:p>These materials essentially come from <fr:link type="external" href="https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/aperiodic-tilings/">a four part series</fr:link> in Tatham’s blog. I strongly recommend reading through them first. In my own writeup, I removed the intermediate algorithms that are later replaced with better ones, and gave some more precise definitions and proofs.</fr:p>
     <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
@@ -258,7 +261,7 @@
             <fr:p>Consider the substitution system of <fr:link type="local" href="tile-0005.xml" addr="tile-0005" title="Penrose rhombs">Penrose rhombs</fr:link>. Take the cyclic <fr:link type="local" href="tile-0006.xml" addr="tile-0006" title="Conway signature">Conway signature</fr:link>
   <fr:tex display="block"><![CDATA[     \Sigma _0 = \text {Thin} \xrightarrow {\text {left}} \text {Thin} \xrightarrow {\text {left}} \cdots    ]]></fr:tex>
   This repeatedly selects the thin <fr:tex display="inline"><![CDATA[36\degree ]]></fr:tex> subtile on the left. No matter how many times we use the substitution rules, the selected thin rhomb will not have a neighbor.</fr:p>
-            <fr:p>(To do: reproduce the image <fr:link type="external" href="https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/aperiodic-followup/p3-disconnected.svg">here</fr:link>)</fr:p>
+            <html:img xmlns:html="http://www.w3.org/1999/xhtml" src="penrose-infinite-wall-cyclic.svg" />
             <fr:p>However, after any finite length of this Conway signature, we can replace the rest of the signature with
   <fr:tex display="block"><![CDATA[\cdots  \text {Thin} \xrightarrow {\text {top}} \text {Thick} \xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \cdots ]]></fr:tex>
   and this will cover the whole neighborhood. Therefore, for any finite radius, there is a patch of tiling that looks like it can be described by <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex> in that radius. As the radius tends to infinity, these patches converge to a single complete tiling whose center tile has Conway signature <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex>, which is therefore in the <fr:link type="local" href="tile-000A.xml" addr="tile-000A" title="Hull of set of tilings">hull</fr:link> of Penrose tilings.</fr:p>
@@ -676,11 +679,74 @@
             <fr:authors>
               <fr:author>Dana Angluin</fr:author>
             </fr:authors>
-            <fr:meta name="doi">10.1142/S0218196792000207</fr:meta>
-            <fr:meta name="external">https://dl.acm.org/doi/pdf/10.1145/322326.322334</fr:meta>
+            <fr:meta name="doi">10.1145/322326.322334</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>We consider inductive inference of certain classes of languages, namely the <fr:tex display="inline"><![CDATA[k]]></fr:tex>-reversible languages for some fixed <fr:tex display="inline"><![CDATA[k \ge  0]]></fr:tex>, from positive, possibly infinite samples. More precisely, given any rational language <fr:tex display="inline"><![CDATA[S]]></fr:tex>, the sample, we prove that there exists a smallest, with respect to inclusion, <fr:tex display="inline"><![CDATA[k]]></fr:tex>-reversible language containing it, which is then also rational. After an algebraic proof, we describe a polynomial algorithm performing the inference.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="true" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>731</fr:anchor>
+            <fr:addr type="user">trebor-0001</fr:addr>
+            <fr:route>index.xml</fr:route>
+            <fr:title text="Trebor’s forest">Trebor’s forest</fr:title>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>This is my forest. Forests are <fr:link type="external" href="https://www.jonmsterling.com/jms-005P.xml">a way of organizing notes</fr:link>, and here is <fr:link type="external" href="https://www.jonmsterling.com/jms-009H.xml">a list of other websites organized as forests</fr:link>. Some of the contents here:</fr:p>
+            <fr:ul><fr:li><fr:link type="local" href="tile-0001.xml" addr="tile-0001" title="Generating aperiodic tilings with substitution systems">Generating aperiodic tilings with substitution systems</fr:link></fr:li>
+  <fr:li><fr:link type="local" href="hmlg-0001.xml" addr="hmlg-0001" title="Homological Algebra">Notes on homological algebra</fr:link></fr:li>
+  <fr:li><fr:link type="local" href="hmlg-001K.xml" addr="hmlg-001K" title="Effective homology">Effective homology</fr:link></fr:li>
+  <fr:li>Algebraic geometry (Under namespace <fr:code>algm</fr:code>, not organized)</fr:li>
+  <fr:li><fr:link type="local" href="ualg-000H.xml" addr="ualg-000H" title="Beck monadicity theorem">Beck monadicity theorem</fr:link></fr:li>
+  <fr:li>On <fr:link type="local" href="hmlg-002Y.xml" addr="hmlg-002Y" title="Ghost and phantom maps">ghost and phantom maps</fr:link></fr:li></fr:ul>
+            <fr:p>On a computer, you can press Ctrl–K to search for trees. <html:mark xmlns:html="http://www.w3.org/1999/xhtml">You can also visit my <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">contributor page</fr:link> to see a list of my trees.</html:mark></fr:p>
+            <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+              <fr:frontmatter>
+                <fr:anchor>733</fr:anchor>
+                <fr:addr type="user">trebor-0002</fr:addr>
+                <fr:route>trebor-0002.xml</fr:route>
+                <fr:title text="Style of writing">Style of writing</fr:title>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:p>I try to adhere to several principles when composing trees.</fr:p>
+                <fr:ul><fr:li>If a definition or a lemma would present itself during a proof attempt, then do not introduce it until that part of the proof. The nature of forests makes this kind of organization more viable, as each definition is a tree by itself.</fr:li>
+  <fr:li>If a part of a proof has an easy constructive phrasing, use it and avoid classical reasoning. But if it requires some complication, then the classical way is used.</fr:li>
+  <fr:li>Avoid abstraction leaks. Even if A is defined as B, do not use them interchangeably. For instance, an ideal is defined as a subset of a ring satisfying certain conditions. But we will insist on writing ideals as numbers, for example saying <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  x]]></fr:tex> instead of <fr:tex display="inline"><![CDATA[x \in  \mathfrak {a}]]></fr:tex>. This is not too heretic, since algebraic number theory already uses this kind of notation. Similarly, although prime ideals correspond to points in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(A)]]></fr:tex>, we do not identify them.</fr:li>
+  <fr:li>Apply <fr:link type="external" href="https://ncatlab.org/nlab/show/biased+definition">unbiased terminology</fr:link> and <fr:link type="external" href="https://ncatlab.org/nlab/show/negative+thinking">negative thinking</fr:link>.</fr:li></fr:ul>
+              </fr:mainmatter>
+              <fr:backmatter />
+            </fr:tree>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>

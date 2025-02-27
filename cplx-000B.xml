@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1122</fr:anchor>
+    <fr:anchor>1124</fr:anchor>
     <fr:addr type="user">cplx-000B</fr:addr>
     <fr:route>cplx-000B.xml</fr:route>
     <fr:title text="Holomorphic functions have holomorphic derivatives">Holomorphic functions have holomorphic derivatives</fr:title>
@@ -22,7 +22,7 @@
   where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is a circle around <fr:tex display="inline"><![CDATA[z]]></fr:tex> contained in the open set.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1116</fr:anchor><fr:addr type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1118</fr:anchor><fr:addr type="machine">#275</fr:addr><fr:route>unstable-275.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We perform induction. The case for <fr:tex display="inline"><![CDATA[n = 0]]></fr:tex> is the <fr:link type="local" href="cplx-0009.xml" addr="cplx-0009" title="Cauchy integral formula">Cauchy integral formula</fr:link>. Suppose it holds for some <fr:tex display="inline"><![CDATA[n]]></fr:tex>, now using the difference of powers formula
     <fr:tex display="block"><![CDATA[\begin {aligned}       f^{(n+1)}(z_0) &= \lim _{z \to  z_0} \frac {f^{(n)}(z) - f^{(n)}(z_0)}{z - z_0} \\       &= \lim _{z \to  z_0} \frac {n!}{2 \pi  i (z - z_0)} \int _\gamma  f(w) \left (\frac {1}{(w - z)^{n + 1}} - \frac {1}{(w - z_0)^{n + 1}}\right ) \operatorname {d}\mathclose {w} \\       &= \lim _{z \to  z_0} \frac {n!}{2 \pi  i} \int _\gamma  \frac {f(w)}{(w - z)^{n+1} (w - z_0)^{n+1}} \sum _{k=0}^{n} (w - z)^k (w - z_0)^{n-k} \operatorname {d}\mathclose {w}.     \end {aligned}]]></fr:tex>
     As <fr:tex display="inline"><![CDATA[z \to  z_0]]></fr:tex> the sum uniformly converges to <fr:tex display="inline"><![CDATA[(n+1)(w - z_0)^{n}]]></fr:tex>. This proves the claim.</fr:p>
@@ -38,7 +38,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1124</fr:anchor>
+            <fr:anchor>1126</fr:anchor>
             <fr:addr type="user">cplx-000C</fr:addr>
             <fr:route>cplx-000C.xml</fr:route>
             <fr:title text="Liouville’s theorem">Liouville’s theorem</fr:title>
@@ -57,7 +57,7 @@
           <fr:mainmatter><fr:p>A bounded holomorphic function <fr:tex display="inline"><![CDATA[f]]></fr:tex> defined on the entire complex plane must be constant.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1110</fr:anchor><fr:addr type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1112</fr:anchor><fr:addr type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>13</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Consider the integral formulas for derivatives in <fr:ref addr="cplx-000B" href="cplx-000B.xml" />
     <fr:tex display="block"><![CDATA[f'(z) = \frac {1}{2 \pi  i} \int _\gamma  \frac {f(w)}{(w - z)^2} \operatorname {d}\mathclose {w},]]></fr:tex>
     where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is some circle of radius <fr:tex display="inline"><![CDATA[r]]></fr:tex> enclosing <fr:tex display="inline"><![CDATA[z]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[f(w)]]></fr:tex> is bounded, the integrand is bounded by <fr:tex display="inline"><![CDATA[C r^{-2}]]></fr:tex> for some constant <fr:tex display="inline"><![CDATA[C]]></fr:tex>. But this means the derivative is bounded by <fr:tex display="inline"><![CDATA[O(r^{-1})]]></fr:tex>. Since the function is holomorphic on the entire plane, <fr:tex display="inline"><![CDATA[r]]></fr:tex> can be arbitrary large, which means <fr:tex display="inline"><![CDATA[f'(z) = 0]]></fr:tex>.</fr:p>
@@ -79,7 +79,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1126</fr:anchor>
+            <fr:anchor>1128</fr:anchor>
             <fr:addr type="user">cplx-0009</fr:addr>
             <fr:route>cplx-0009.xml</fr:route>
             <fr:title text="Cauchy integral formula">Cauchy integral formula</fr:title>
@@ -100,7 +100,7 @@
   where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the boundary of the disk.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1128</fr:anchor><fr:addr type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1130</fr:anchor><fr:addr type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Removing a smaller disk of radius <fr:tex display="inline"><![CDATA[r]]></fr:tex> around <fr:tex display="inline"><![CDATA[a]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\frac {f(z) - f(a)}{z - a}]]></fr:tex> is an analytic function in this region. Applying <fr:link type="local" href="cplx-0006.xml" addr="cplx-0006" title="Integral of holomorphic function does not depend on path">Green’s formula</fr:link> we have
     <fr:tex display="block"><![CDATA[\int _{\gamma } \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z} = \int _{\gamma '} \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex>
     where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the original circle, and <fr:tex display="inline"><![CDATA[\gamma ']]></fr:tex> is the smaller circle. Now since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is holomorphic, the integrand has a limit as <fr:tex display="inline"><![CDATA[z \to  a]]></fr:tex> by definition, so in particular it is bounded for small enough <fr:tex display="inline"><![CDATA[r]]></fr:tex>. Therefore the right hand side is bounded by <fr:tex display="inline"><![CDATA[2 \pi  r C]]></fr:tex> for a constant <fr:tex display="inline"><![CDATA[C]]></fr:tex>, which goes to zero. So the left hand side must be zero since it does not depend on <fr:tex display="inline"><![CDATA[r]]></fr:tex>.</fr:p>
