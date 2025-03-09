@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>428</fr:anchor>
+    <fr:addr type="user">htt-000D</fr:addr>
+    <fr:route>htt-000D.xml</fr:route>
+    <fr:title text="Join of -categories is a -category">Join of <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories is a <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>9</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter><fr:p>Given two <fr:link type="local" href="htt-0001.xml" addr="htt-0001" title="-Category"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories</fr:link> <fr:tex display="inline"><![CDATA[X, Y]]></fr:tex>, their <fr:link type="local" href="htt-000B.xml" addr="htt-000B" title="Join of (augmented) simplicial set">join</fr:link> <fr:tex display="inline"><![CDATA[X \star  Y]]></fr:tex> is still an <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>362</fr:anchor><fr:addr type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>The vertices of <fr:tex display="inline"><![CDATA[X \star  Y]]></fr:tex> is given by <fr:tex display="inline"><![CDATA[X_0 \sqcup  Y_0]]></fr:tex>. Consider a horn <fr:tex display="inline"><![CDATA[\Lambda ^n_i]]></fr:tex>. Suppose its vertices lie entirely within <fr:tex display="inline"><![CDATA[X_0]]></fr:tex>, then all its higher simplices are in <fr:tex display="inline"><![CDATA[X]]></fr:tex> too, so we can fill the horn within <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Similarly for <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.</fr:p>
+
+  <fr:p>For the other cases, notice that an edge can only go from <fr:tex display="inline"><![CDATA[X]]></fr:tex> to <fr:tex display="inline"><![CDATA[Y]]></fr:tex> and not backwards. As long as <fr:tex display="inline"><![CDATA[(n, i) \ne  (2, 0), (2, 2)]]></fr:tex> — which does not occur since we only need inner horns — we know the first <fr:tex display="inline"><![CDATA[k]]></fr:tex> vertices are in <fr:tex display="inline"><![CDATA[X]]></fr:tex> and the rest are in <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and we can restrict the horn along <fr:tex display="inline"><![CDATA[\Delta ^{ \{0, \dots , k-1\} } \hookrightarrow  \Lambda ^n_i]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Delta ^{ \{k, \dots , n\} } \hookrightarrow  \Lambda ^n_i]]></fr:tex>. From this we can construct the simplex <fr:tex display="inline"><![CDATA[\Delta ^n \to  X \star  Y]]></fr:tex> by definition of the join.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>430</fr:anchor>
+            <fr:addr type="user">htt-000B</fr:addr>
+            <fr:route>htt-000B.xml</fr:route>
+            <fr:title text="Join of (augmented) simplicial set">Join of (augmented) simplicial set</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given two <fr:link type="local" href="htt-000A.xml" addr="htt-000A" title="Augmented simplicial set">augmented simplicial sets</fr:link> <fr:tex display="inline"><![CDATA[X, Y]]></fr:tex>, the <fr:strong>join</fr:strong> is given by a Day convolution. Let <fr:tex display="inline"><![CDATA[\oplus ]]></fr:tex> denote the ordinal sum. Then we have <fr:tex display="inline"><![CDATA[[m] \oplus  [n] = [m+n+1]]]></fr:tex>, since <fr:tex display="inline"><![CDATA[[m]]]></fr:tex> represents the linear order with <fr:tex display="inline"><![CDATA[(m+1)]]></fr:tex> elements. We have
+  <fr:tex display="block"><![CDATA[(X \star  Y)_k = \int ^{m, n} X_m \times  Y_n \times  \hom ([k], [m] \oplus  [n]).]]></fr:tex>
+  More concretely, the <fr:tex display="inline"><![CDATA[k]]></fr:tex>-simplices of <fr:tex display="inline"><![CDATA[X \star  Y]]></fr:tex> is given by the disjoint union of <fr:tex display="inline"><![CDATA[X_m \times  Y_n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[k = m + n + 1]]></fr:tex>. The face and degeneracy maps act on the corresponding components. Note that this is non-symmetric since <fr:tex display="inline"><![CDATA[X]]></fr:tex> handles the first few face maps, and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> handles the last ones.</fr:p>
+            <fr:p>Given two simplicial sets, the join of their <fr:link type="local" href="htt-000A.xml" addr="htt-000A" title="Augmented simplicial set">codiscrete augmentation</fr:link> is again a codiscrete augmented simplicial set. We define the simplicial join <fr:tex display="inline"><![CDATA[X \star  Y \in  \mathsf {sSet}]]></fr:tex> by forgetting its augmentation.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>432</fr:anchor>
+            <fr:addr type="user">htt-0001</fr:addr>
+            <fr:route>htt-0001.xml</fr:route>
+            <fr:title text="-Category"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>A simplicial set <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an <fr:strong><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:strong> if it has the extension property against the inner horn inclusions <fr:tex display="inline"><![CDATA[\Lambda ^n_i \to  \Delta ^n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[0 < i < n]]></fr:tex>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

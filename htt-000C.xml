@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>392</fr:anchor>
+    <fr:addr type="user">htt-000C</fr:addr>
+    <fr:route>htt-000C.xml</fr:route>
+    <fr:title text="Cone over a simplicial set">Cone over a simplicial set</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>9</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>Given a simplicial set <fr:tex display="inline"><![CDATA[X]]></fr:tex>, the <fr:strong>cone</fr:strong> <fr:tex display="inline"><![CDATA[X^\triangleleft ]]></fr:tex> is defined by the <fr:link type="local" href="htt-000B.xml" addr="htt-000B" title="Join of (augmented) simplicial set">join</fr:link> <fr:tex display="inline"><![CDATA[1 \star  X]]></fr:tex> with the singleton. Dually, the <fr:strong>cocone</fr:strong> <fr:tex display="inline"><![CDATA[X^\triangleright ]]></fr:tex> is defined by <fr:tex display="inline"><![CDATA[X \star  1]]></fr:tex>.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>394</fr:anchor>
+            <fr:addr type="user">htt-000E</fr:addr>
+            <fr:route>htt-000E.xml</fr:route>
+            <fr:title text="Slice of simplicial sets">Slice of simplicial sets</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given a simplicial set <fr:tex display="inline"><![CDATA[Y]]></fr:tex> and a vertex <fr:tex display="inline"><![CDATA[p : 1 \to  Y]]></fr:tex>, we define the <fr:strong>slice</fr:strong> simplicial set <fr:tex display="inline"><![CDATA[Y_{/p}]]></fr:tex> by the universal property that maps <fr:tex display="inline"><![CDATA[K \to  Y_{/p}]]></fr:tex> are in natural bijection with maps <fr:tex display="inline"><![CDATA[K^{\triangleright } \to  Y]]></fr:tex> from the <fr:link type="local" href="htt-000C.xml" addr="htt-000C" title="Cone over a simplicial set">cocone</fr:link> such that the cocone point is mapped to <fr:tex display="inline"><![CDATA[p]]></fr:tex>.</fr:p>
+            <fr:p>More generally, given simplicial sets <fr:tex display="inline"><![CDATA[X, Y]]></fr:tex> and a map <fr:tex display="inline"><![CDATA[p : X \to  Y]]></fr:tex>, the <fr:strong>slice</fr:strong> simplicial set <fr:tex display="inline"><![CDATA[Y_{/p}]]></fr:tex> is defined by the universal property that maps <fr:tex display="inline"><![CDATA[K \to  Y_{/p}]]></fr:tex> is in bijection with maps <fr:tex display="inline"><![CDATA[K \star  X \to  Y]]></fr:tex> such that the restriction <fr:tex display="inline"><![CDATA[X \hookrightarrow  K \star  X \to  Y]]></fr:tex> is <fr:tex display="inline"><![CDATA[p]]></fr:tex>.</fr:p>
+            <fr:p>Dually, we can define <fr:strong>coslice</fr:strong> simplicial sets <fr:tex display="inline"><![CDATA[Y_{p/}]]></fr:tex> using cones <fr:tex display="inline"><![CDATA[K^{\triangleleft } \to  Y]]></fr:tex>. When <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is an <fr:link type="local" href="htt-0001.xml" addr="htt-0001" title="-Category"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:link>, we also call them <fr:em>overcategories</fr:em> and <fr:em>undercategories</fr:em>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>396</fr:anchor>
+            <fr:addr type="user">htt-000B</fr:addr>
+            <fr:route>htt-000B.xml</fr:route>
+            <fr:title text="Join of (augmented) simplicial set">Join of (augmented) simplicial set</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given two <fr:link type="local" href="htt-000A.xml" addr="htt-000A" title="Augmented simplicial set">augmented simplicial sets</fr:link> <fr:tex display="inline"><![CDATA[X, Y]]></fr:tex>, the <fr:strong>join</fr:strong> is given by a Day convolution. Let <fr:tex display="inline"><![CDATA[\oplus ]]></fr:tex> denote the ordinal sum. Then we have <fr:tex display="inline"><![CDATA[[m] \oplus  [n] = [m+n+1]]]></fr:tex>, since <fr:tex display="inline"><![CDATA[[m]]]></fr:tex> represents the linear order with <fr:tex display="inline"><![CDATA[(m+1)]]></fr:tex> elements. We have
+  <fr:tex display="block"><![CDATA[(X \star  Y)_k = \int ^{m, n} X_m \times  Y_n \times  \hom ([k], [m] \oplus  [n]).]]></fr:tex>
+  More concretely, the <fr:tex display="inline"><![CDATA[k]]></fr:tex>-simplices of <fr:tex display="inline"><![CDATA[X \star  Y]]></fr:tex> is given by the disjoint union of <fr:tex display="inline"><![CDATA[X_m \times  Y_n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[k = m + n + 1]]></fr:tex>. The face and degeneracy maps act on the corresponding components. Note that this is non-symmetric since <fr:tex display="inline"><![CDATA[X]]></fr:tex> handles the first few face maps, and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> handles the last ones.</fr:p>
+            <fr:p>Given two simplicial sets, the join of their <fr:link type="local" href="htt-000A.xml" addr="htt-000A" title="Augmented simplicial set">codiscrete augmentation</fr:link> is again a codiscrete augmented simplicial set. We define the simplicial join <fr:tex display="inline"><![CDATA[X \star  Y \in  \mathsf {sSet}]]></fr:tex> by forgetting its augmentation.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

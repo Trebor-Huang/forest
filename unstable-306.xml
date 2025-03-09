@@ -2,14 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>2934</fr:anchor>
+    <fr:anchor>3043</fr:anchor>
     <fr:addr type="machine">#306</fr:addr>
     <fr:route>unstable-306.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
       <fr:month>3</fr:month>
-      <fr:day>2</fr:day>
+      <fr:day>3</fr:day>
     </fr:date>
     <fr:authors>
       <fr:author>
@@ -18,20 +18,7 @@
     </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-  <fr:p>Since <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex> implies <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {p}} \mid  \sqrt {\mathfrak {a}}]]></fr:tex>, but <fr:tex display="inline"><![CDATA[\mathfrak {p} = \sqrt {\mathfrak {p}}]]></fr:tex>, we see that <fr:tex display="inline"><![CDATA[D(\mathfrak {a}) = D(\sqrt {\mathfrak {a}})]]></fr:tex>. We just have to prove the forward implication of the last statement. Suppose for all prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {b} \implies  \mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>. We need to prove that <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f \implies  \sqrt {\mathfrak {b}} \mid  f]]></fr:tex>.</fr:p>
-
-  <fr:p>Given <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex> for all prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \sqrt {\mathfrak {a}}]]></fr:tex> (which is equivalent to <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>). So we know that for all <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {b}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex>. This is now purely a condition on <fr:tex display="inline"><![CDATA[\mathfrak {b}]]></fr:tex>. The next lemma finishes the proof.</fr:p>
-
-  <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2786</fr:anchor><fr:addr type="user">algm-0003</fr:addr><fr:route>algm-0003.xml</fr:route><fr:title text="The radical ideal is the lcm of prime ideal divisors">The radical ideal is the lcm of prime ideal divisors</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> of a commutative ring, the radical <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}}]]></fr:tex> is the lowest common multiple of the prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>.</fr:p>
-  
-    
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2788</fr:anchor><fr:addr type="machine">#305</fr:addr><fr:route>unstable-305.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-  <fr:p>On one hand, if <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f^n]]></fr:tex> for some natural number <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This means for all <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f^n]]></fr:tex>, which by being a prime ideal implies <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex>.</fr:p>
-
-  <fr:p>On the other hand, suppose <fr:tex display="inline"><![CDATA[\mathfrak {a} \nmid  f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>, we construct a prime ideal divisor of <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> that is not a divisor of <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Consider the set of all ideals not a divisor of <fr:tex display="inline"><![CDATA[f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> still in this set, since <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link type="external" href="https://en.wikipedia.org/wiki/Zorn's_lemma">Zorn’s lemma</fr:link>, the set contains some <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex display="inline"><![CDATA[\mathfrak {q} \nmid  x, y]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {q}' = \gcd (\mathfrak {q}, x y)]]></fr:tex> is a proper divisor of <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x y \mid  f^n]]></fr:tex>, so <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y \mid  f^n]]></fr:tex>, contradiction.</fr:p>
-</fr:mainmatter><fr:backmatter /></fr:tree>
-  
-</fr:mainmatter><fr:backmatter /></fr:tree>
+  <fr:p>Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex display="inline"><![CDATA[\bigcup _i D(f_i) = \top ]]></fr:tex>, then there is a finite union equal to <fr:tex display="inline"><![CDATA[\top ]]></fr:tex>. Algebraically this means <fr:tex display="inline"><![CDATA[\sqrt {\gcd \{f_i\}} = 1]]></fr:tex>, equivalently <fr:tex display="inline"><![CDATA[\gcd \{f_i\} = 1]]></fr:tex>. So we have a linear combination <fr:tex display="inline"><![CDATA[\sum _k a_k f_k = 1]]></fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.</fr:p>
 </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -42,15 +29,15 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>2936</fr:anchor>
-            <fr:addr type="user">algm-0002</fr:addr>
-            <fr:route>algm-0002.xml</fr:route>
-            <fr:title text="Radical ideals bijectively correspond to open sets">Radical ideals bijectively correspond to open sets</fr:title>
+            <fr:anchor>3045</fr:anchor>
+            <fr:addr type="user">algm-000B</fr:addr>
+            <fr:route>algm-000B.xml</fr:route>
+            <fr:title text="A ring spectrum is quasi-compact">A <fr:link type="local" href="algm-0001.xml" addr="algm-0001" title="Topological spectrum of a commutative ring">ring spectrum</fr:link> is quasi-compact</fr:title>
             <fr:taxon>Theorem</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>3</fr:month>
-              <fr:day>2</fr:day>
+              <fr:day>3</fr:day>
             </fr:date>
             <fr:authors>
               <fr:author>
@@ -58,24 +45,11 @@
               </fr:author>
             </fr:authors>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>In an arbitrary <fr:link type="local" href="algm-0001.xml" addr="algm-0001" title="Topological spectrum of a commutative ring">topological spectrum of a commutative ring</fr:link>, we have <fr:tex display="inline"><![CDATA[D(\mathfrak {a}) = D(\sqrt {\mathfrak {a}})]]></fr:tex>. There is a containment of opens <fr:tex display="inline"><![CDATA[D(\mathfrak {a}) \subseteq  D(\mathfrak {b})]]></fr:tex> — equivalently <fr:tex display="inline"><![CDATA[V(\mathfrak {b}) \subseteq  V(\mathfrak {a})]]></fr:tex> — iff <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {b}} \mid  \sqrt {\mathfrak {a}}]]></fr:tex>, and the points contained in an open set completely determines the radical ideal.</fr:p>
+          <fr:mainmatter><fr:p>The space <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> is always <fr:link type="local" href="algm-000A.xml" addr="algm-000A" title="Terminology of compactness in algebraic geometry">quasi-compact</fr:link>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2784</fr:anchor><fr:addr type="machine">#306</fr:addr><fr:route>unstable-306.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-  <fr:p>Since <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex> implies <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {p}} \mid  \sqrt {\mathfrak {a}}]]></fr:tex>, but <fr:tex display="inline"><![CDATA[\mathfrak {p} = \sqrt {\mathfrak {p}}]]></fr:tex>, we see that <fr:tex display="inline"><![CDATA[D(\mathfrak {a}) = D(\sqrt {\mathfrak {a}})]]></fr:tex>. We just have to prove the forward implication of the last statement. Suppose for all prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {b} \implies  \mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>. We need to prove that <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f \implies  \sqrt {\mathfrak {b}} \mid  f]]></fr:tex>.</fr:p>
-
-  <fr:p>Given <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex> for all prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \sqrt {\mathfrak {a}}]]></fr:tex> (which is equivalent to <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>). So we know that for all <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {b}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex>. This is now purely a condition on <fr:tex display="inline"><![CDATA[\mathfrak {b}]]></fr:tex>. The next lemma finishes the proof.</fr:p>
-
-  <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2786</fr:anchor><fr:addr type="user">algm-0003</fr:addr><fr:route>algm-0003.xml</fr:route><fr:title text="The radical ideal is the lcm of prime ideal divisors">The radical ideal is the lcm of prime ideal divisors</fr:title><fr:taxon>Theorem</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>For any ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> of a commutative ring, the radical <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}}]]></fr:tex> is the lowest common multiple of the prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>.</fr:p>
-  
-    
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2788</fr:anchor><fr:addr type="machine">#305</fr:addr><fr:route>unstable-305.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-  <fr:p>On one hand, if <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f^n]]></fr:tex> for some natural number <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This means for all <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f^n]]></fr:tex>, which by being a prime ideal implies <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex>.</fr:p>
-
-  <fr:p>On the other hand, suppose <fr:tex display="inline"><![CDATA[\mathfrak {a} \nmid  f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>, we construct a prime ideal divisor of <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> that is not a divisor of <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Consider the set of all ideals not a divisor of <fr:tex display="inline"><![CDATA[f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> still in this set, since <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link type="external" href="https://en.wikipedia.org/wiki/Zorn's_lemma">Zorn’s lemma</fr:link>, the set contains some <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex display="inline"><![CDATA[\mathfrak {q} \nmid  x, y]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {q}' = \gcd (\mathfrak {q}, x y)]]></fr:tex> is a proper divisor of <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x y \mid  f^n]]></fr:tex>, so <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y \mid  f^n]]></fr:tex>, contradiction.</fr:p>
-</fr:mainmatter><fr:backmatter /></fr:tree>
-  
-</fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3019</fr:anchor><fr:addr type="machine">#306</fr:addr><fr:route>unstable-306.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>Since quasi-compectness can be tested on a basis, we just have to show that if <fr:tex display="inline"><![CDATA[\bigcup _i D(f_i) = \top ]]></fr:tex>, then there is a finite union equal to <fr:tex display="inline"><![CDATA[\top ]]></fr:tex>. Algebraically this means <fr:tex display="inline"><![CDATA[\sqrt {\gcd \{f_i\}} = 1]]></fr:tex>, equivalently <fr:tex display="inline"><![CDATA[\gcd \{f_i\} = 1]]></fr:tex>. So we have a linear combination <fr:tex display="inline"><![CDATA[\sum _k a_k f_k = 1]]></fr:tex>. Crucially, this can only be a finite combination. Hence we can take the non-zero terms, whose corresponding opens already cover the whole space.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

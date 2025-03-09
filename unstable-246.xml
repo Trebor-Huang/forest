@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>359</fr:anchor>
+    <fr:anchor>570</fr:anchor>
     <fr:addr type="machine">#246</fr:addr>
     <fr:route>unstable-246.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
@@ -31,7 +31,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>361</fr:anchor>
+            <fr:anchor>572</fr:anchor>
             <fr:addr type="user">tile-000G</fr:addr>
             <fr:route>tile-000G.xml</fr:route>
             <fr:title text="The augmented language of neighborhood relation is reversible">The augmented language of neighborhood relation is reversible</fr:title>
@@ -50,7 +50,7 @@
           <fr:mainmatter><fr:p>Given any <fr:link type="local" href="tile-0004.xml" addr="tile-0004" title="Substitution system">substitution system</fr:link>, the augmented <fr:link type="local" href="tile-000E.xml" addr="tile-000E" title="Language of neighborhood relation">language of neighborhood relation</fr:link> <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex> is <fr:link type="local" href="misc-000M.xml" addr="misc-000M" title="Reversible regular language">reversible</fr:link>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>363</fr:anchor><fr:addr type="machine">#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>574</fr:anchor><fr:addr type="machine">#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We use the <fr:link type="local" href="misc-000N.xml" addr="misc-000N" title="Characterization of reversible languages">characterization of reversible languages</fr:link>. Any substring (ignoring the special starting and ending symbols) in this case describes a fixed geometric transformation between a tile and some supertile that it is contained in. So suppose <fr:tex display="inline"><![CDATA[xz, yz \in  \mathcal {L}^+]]></fr:tex>, then inverting the transformation given by <fr:tex display="inline"><![CDATA[z]]></fr:tex>, we know that <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> describe equivalent geometric configurations of a tile in some supertile. Therefore they must actually be <fr:link type="local" href="misc-000J.xml" addr="misc-000J" title="Nerode congruence">Nerode congruent</fr:link>.</fr:p>
 
   <fr:p>Since we have not rigorously defined the geometric aspects of tile systems, we will not attempt to articulate a completely formal proof. But it should be noted how geometry plays a crucial role here, meaning that substitution systems that are “non-rigid” may fail this property.</fr:p>

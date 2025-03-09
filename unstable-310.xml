@@ -2,14 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>882</fr:anchor>
+    <fr:anchor>3059</fr:anchor>
     <fr:addr type="machine">#310</fr:addr>
     <fr:route>unstable-310.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:date>
-      <fr:year>2025</fr:year>
-      <fr:month>1</fr:month>
-      <fr:day>6</fr:day>
+      <fr:year>2024</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>3</fr:day>
     </fr:date>
     <fr:authors>
       <fr:author>
@@ -18,10 +18,9 @@
     </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-  <fr:p>The idea of the adjoint functor theorem is to construct the large colimit
-    <fr:tex display="block"><![CDATA[G(X) = \operatorname *{colim}_{FY \to  X} Y.]]></fr:tex>
-    But this is exactly the kind of colimits mentioned in <fr:ref addr="algm-0025" href="algm-0025.xml" taxon="Definition" />.
-    We can construct the right adjoint by letting <fr:tex display="inline"><![CDATA[G(X) = \operatorname {?}(F^* \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X))]]></fr:tex>.</fr:p>
+  <fr:p>On one hand, if <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f^n]]></fr:tex> for some natural number <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This means for all <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f^n]]></fr:tex>, which by being a prime ideal implies <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex>.</fr:p>
+
+  <fr:p>On the other hand, suppose <fr:tex display="inline"><![CDATA[\mathfrak {a} \nmid  f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>, we construct a prime ideal divisor of <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> that is not a divisor of <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Consider the set of all ideals not a divisor of <fr:tex display="inline"><![CDATA[f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> still in this set, since <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link type="external" href="https://en.wikipedia.org/wiki/Zorn's_lemma">Zorn’s lemma</fr:link>, the set contains some <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex display="inline"><![CDATA[\mathfrak {q} \nmid  x, y]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {q}' = \gcd (\mathfrak {q}, x y)]]></fr:tex> is a proper divisor of <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x y \mid  f^n]]></fr:tex>, so <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y \mid  f^n]]></fr:tex>, contradiction.</fr:p>
 </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -32,15 +31,15 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>884</fr:anchor>
-            <fr:addr type="user">algm-0029</fr:addr>
-            <fr:route>algm-0029.xml</fr:route>
-            <fr:title text="Adjoint functor theorem for total categories">Adjoint functor theorem for total categories</fr:title>
+            <fr:anchor>3061</fr:anchor>
+            <fr:addr type="user">algm-0003</fr:addr>
+            <fr:route>algm-0003.xml</fr:route>
+            <fr:title text="The radical ideal is the lcm of prime ideal divisors">The radical ideal is the lcm of prime ideal divisors</fr:title>
             <fr:taxon>Theorem</fr:taxon>
             <fr:date>
-              <fr:year>2025</fr:year>
-              <fr:month>1</fr:month>
-              <fr:day>6</fr:day>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>3</fr:day>
             </fr:date>
             <fr:authors>
               <fr:author>
@@ -48,14 +47,13 @@
               </fr:author>
             </fr:authors>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Given any cocontinuous functor <fr:tex display="inline"><![CDATA[F]]></fr:tex> from a <fr:link type="local" href="algm-0025.xml" addr="algm-0025" title="Total category">total category</fr:link> <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> to a locally small category <fr:tex display="inline"><![CDATA[\mathcal {D}]]></fr:tex>, it has a right adjoint without additional assumptions.</fr:p>
+          <fr:mainmatter><fr:p>For any ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> of a commutative ring, the radical <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}}]]></fr:tex> is the lowest common multiple of the prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>886</fr:anchor><fr:addr type="machine">#310</fr:addr><fr:route>unstable-310.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-  <fr:p>The idea of the adjoint functor theorem is to construct the large colimit
-    <fr:tex display="block"><![CDATA[G(X) = \operatorname *{colim}_{FY \to  X} Y.]]></fr:tex>
-    But this is exactly the kind of colimits mentioned in <fr:ref addr="algm-0025" href="algm-0025.xml" taxon="Definition" />.
-    We can construct the right adjoint by letting <fr:tex display="inline"><![CDATA[G(X) = \operatorname {?}(F^* \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X))]]></fr:tex>.</fr:p>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2999</fr:anchor><fr:addr type="machine">#310</fr:addr><fr:route>unstable-310.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>On one hand, if <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f^n]]></fr:tex> for some natural number <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This means for all <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f^n]]></fr:tex>, which by being a prime ideal implies <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex>.</fr:p>
+
+  <fr:p>On the other hand, suppose <fr:tex display="inline"><![CDATA[\mathfrak {a} \nmid  f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>, we construct a prime ideal divisor of <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> that is not a divisor of <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Consider the set of all ideals not a divisor of <fr:tex display="inline"><![CDATA[f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> still in this set, since <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link type="external" href="https://en.wikipedia.org/wiki/Zorn's_lemma">Zorn’s lemma</fr:link>, the set contains some <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex display="inline"><![CDATA[\mathfrak {q} \nmid  x, y]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {q}' = \gcd (\mathfrak {q}, x y)]]></fr:tex> is a proper divisor of <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x y \mid  f^n]]></fr:tex>, so <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y \mid  f^n]]></fr:tex>, contradiction.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

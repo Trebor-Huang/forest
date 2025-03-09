@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>904</fr:anchor>
+    <fr:anchor>1115</fr:anchor>
     <fr:addr type="user">algm-0026</fr:addr>
     <fr:route>algm-0026.xml</fr:route>
     <fr:title text="A total category is cocomplete and complete">A total category is cocomplete and complete</fr:title>
@@ -21,7 +21,7 @@
   <fr:mainmatter><fr:p>A <fr:link type="local" href="algm-0025.xml" addr="algm-0025" title="Total category">total category</fr:link> is (small) cocomplete and complete. This shows totality is a strong form of cocompleteness, strong enough to behave like cocompleteness in posets, which also guarantees completeness.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>898</fr:anchor><fr:addr type="machine">#312</fr:addr><fr:route>unstable-312.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1109</fr:anchor><fr:addr type="machine">#317</fr:addr><fr:route>unstable-317.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Using the colimit characterization of totality, given a small diagram <fr:tex display="inline"><![CDATA[D : I \to  \mathcal {C}]]></fr:tex>, we can attempt to construct a presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex> assigning <fr:tex display="inline"><![CDATA[F(X)]]></fr:tex> the set of all objects in <fr:tex display="inline"><![CDATA[I]]></fr:tex> mapped to <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and require that <fr:tex display="inline"><![CDATA[F(f)]]></fr:tex> sends the object <fr:tex display="inline"><![CDATA[i \in  I]]></fr:tex> to <fr:tex display="inline"><![CDATA[j \in  I]]></fr:tex> if there is an arrow in the colimit diagram going from <fr:tex display="inline"><![CDATA[j]]></fr:tex> to <fr:tex display="inline"><![CDATA[i]]></fr:tex> that is mapped to <fr:tex display="inline"><![CDATA[f]]></fr:tex> (multiple of the same arrow appearing in the colimit diagram doesn’t matter). But this leaves many functoriality requirements unsatisfied, so we freely add elements to <fr:tex display="inline"><![CDATA[F]]></fr:tex> for them. This will create additional arrows in the corresponding colimit diagram that end at existing objects, so the colimit is still unaffected.</fr:p>
 
   <fr:p>It is nice to have a more uniform description of this. If we have a single object <fr:tex display="inline"><![CDATA[A]]></fr:tex> in the diagram, then the resulting presheaf will be exactly <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex>. For a general diagram, we need a colimit to glue all the <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex>’s together, and it’s not hard to see the required colimit is exactly <fr:tex display="inline"><![CDATA[\operatorname *{colim} \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} \mathbin {\circ } D]]></fr:tex>, where <fr:tex display="inline"><![CDATA[D]]></fr:tex> is the diagram functor.</fr:p>
@@ -39,7 +39,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>906</fr:anchor>
+            <fr:anchor>1117</fr:anchor>
             <fr:addr type="user">algm-0027</fr:addr>
             <fr:route>algm-0027.xml</fr:route>
             <fr:title text="Cartesian closed total category">Cartesian closed total category</fr:title>
@@ -58,7 +58,7 @@
           <fr:mainmatter><fr:p>A <fr:link type="local" href="algm-0025.xml" addr="algm-0025" title="Total category">total category</fr:link> is cartesian closed iff the left adjoint <fr:tex display="inline"><![CDATA[\operatorname {?}]]></fr:tex> preserves binary products.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>892</fr:anchor><fr:addr type="machine">#311</fr:addr><fr:route>unstable-311.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1103</fr:anchor><fr:addr type="machine">#316</fr:addr><fr:route>unstable-316.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>If the total category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is cartesian closed, then
     <fr:tex display="block"><![CDATA[\hom (F, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A^B)) = \hom (\operatorname {?}(F), A^B) = \hom (\operatorname {?}(F) \times  B, A).]]></fr:tex>
     On the other hand, <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> preserves exponentials, and therefore
@@ -87,7 +87,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>908</fr:anchor>
+            <fr:anchor>1119</fr:anchor>
             <fr:addr type="user">algm-0025</fr:addr>
             <fr:route>algm-0025.xml</fr:route>
             <fr:title text="Total category">Total category</fr:title>
@@ -106,7 +106,7 @@
           <fr:mainmatter><fr:p>Given a locally small category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, if the Yoneda embedding <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} : \mathcal {C} \to  \mathsf {Psh}(\mathcal {C})]]></fr:tex> has a left adjoint <fr:tex display="inline"><![CDATA[\operatorname {?}]]></fr:tex>, then we say teh category is <fr:strong>total</fr:strong>, or <fr:strong>totally cocomplete</fr:strong>. This is equivalent to requiring the colimit of <fr:tex display="inline"><![CDATA[\pi _F : \int  F \to  \mathcal {C}]]></fr:tex> to exist for every presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex>, which is the value of <fr:tex display="inline"><![CDATA[L(F)]]></fr:tex>. Notice that <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> being fully faithful implies the counit <fr:tex display="inline"><![CDATA[\operatorname {?}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)) \to  A]]></fr:tex> is an isomorphism.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>806</fr:anchor><fr:addr type="machine">#313</fr:addr><fr:route>unstable-313.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1017</fr:anchor><fr:addr type="machine">#318</fr:addr><fr:route>unstable-318.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>The universal property of the colimit says <fr:tex display="block"><![CDATA[\hom (\operatorname *{colim} \pi _F, X) \cong  \lim _{(Y, p)} \hom (Y, X).]]></fr:tex>
     Using the characterization of limits in <fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex>, an element in this set maps <fr:tex display="inline"><![CDATA[F(Y)]]></fr:tex> to <fr:tex display="inline"><![CDATA[\hom (Y, X)]]></fr:tex> for each <fr:tex display="inline"><![CDATA[Y]]></fr:tex> naturally, which is exactly <fr:tex display="inline"><![CDATA[\hom (F, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X))]]></fr:tex>.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
