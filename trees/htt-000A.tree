@@ -1,0 +1,13 @@
+\date{2025-03-09}
+\title{augmented simplicial set}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  An \strong{augmented simplicial set} is a presheaf over the category of finite linear orders. More concretely, it is a simplicial set equipped with a set of colors, and an assignment of colors for each connected component.
+}
+
+\p{
+  We have an obvious forgetful functor #{\asSet \to \sSet}. It has a left and a right adjoint. The left adjoint has colors in bijection with the connected components, while the right adjoint has exactly one color. We shall call them \strong{discrete} and \strong{codiscrete augmentation}, respectively.
+}

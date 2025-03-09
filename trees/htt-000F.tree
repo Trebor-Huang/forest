@@ -1,0 +1,26 @@
+\date{2025-03-09}
+\title{slice of augmented simplicial sets}
+\author{trebor}
+\import{common}
+\def\over{\mathbin{/}}
+\def\under{\mathbin{\backslash}}
+
+\p{
+  Given two [augmented simplicial sets](htt-000A) #{X, Y}, the Day convolution definition of their [joins](htt-000B) induces an internal hom functor
+  ##{(Y \over X)_k = \int_{m, n} [n]^{[k] \oplus [m]} \times X_m \to Y_n}
+  right adjoint to the join functor #{(- \star X)}. This is the augmented version of [slice simplicial sets](htt-000E). More concretely, we have
+  ##{(Y \over X)_k = \hom_{\asSet}([k] \star X, Y),}
+  and the face and degeneracy maps act in the obvious way.
+}
+
+\p{
+  The #{(-1)}-simplices, or colors, of #{Y \over X} is given by maps #{p : X \to Y}. Since each connected component can only be assigned one color, we can decompose
+  ##{Y \over X = \coprod_{p : X \to Y} Z_p}
+  where #{Z_p} is some simplicial set equipped with the [codiscrete augmentation](htt-000A). Expanding the definitions, we see that #{Z_p} satisfies the property that maps #{K \to Z_p}, where #{K} is a simplicial set, is in bijection with maps #{K \star X \to Y}, such that the composition #{X \to K \star X \to Y} is #{p}. If #{X} and #{Y} have codiscrete augmentation, then #{Z_p} is exactly #{Y_{/p}}.
+}
+
+\p{
+  For general augmented simplicial sets, we can also similarly define #{Y_{/p}}, which would be an \em{unaugmented} simplicial set. Then we have the isomorphism
+  ##{(Y \over X) = \coprod_{p : X \to Y} Y_{/p}.}
+  If we replace #{[k] \oplus [m]} with #{[m] \oplus [k]} in the definition, then we get the right adjoint functor #{(X \star -) \dashv (X \under Y)}, and correspondingly the coslice construction.
+}

@@ -11,7 +11,7 @@
 }
 
 \p{
-  For the special case of #{\CatVar{C} = 1}, #{\yo^* : \Cat{Psh}(\Cat{Set}) \to \Cat{Set}} evaluates at #{1}. We get
+  For the special case of #{\CatVar{C} = 1}, #{\yo^* : \Cat{Psh}(\Set) \to \Set} evaluates at #{1}. We get
   ##{\operatorname{Lan}_{1} F(G) = \colim_{1 \leftarrow G} F = F}
   where #{F, G} are sets. So the left adjoint is the constant functor functor #{\Delta}, such that #{\Delta(X)(Y) = X}.
 }

@@ -14,8 +14,8 @@
 }
 
 \p{
-  In particular, if #{\CatVar{C} = 0}, we get a left adjoint for the yoneda embedding ##{\yo : \Cat{Psh}(0) = 1 \to \Cat{Psh}(1) = \Cat{Set}.}
+  In particular, if #{\CatVar{C} = 0}, we get a left adjoint for the yoneda embedding ##{\yo : \Cat{Psh}(0) = 1 \to \Cat{Psh}(1) = \Set.}
   In this case #{\yo} is essentially picking out the terminal object, and #{\yo^*} is the unique functor. We can also take #{\CatVar{C} = 1}, then
-  ##{\yo : \Cat{Set} \to \Cat{Psh}(\Cat{Set}),}
+  ##{\yo : \Set \to \Cat{Psh}(\Set),}
   and the left adjoint is #{F \mapsto F(1)}, evaluating the presheaf at the singleton set. It is also possible to calculate this directly via the colimit characterization of total cocompleteness.
 }

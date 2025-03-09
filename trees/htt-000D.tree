@@ -1,0 +1,19 @@
+\date{2025-03-09}
+\title{join of #{\infty}-categories is a #{\infty}-category}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  Given two [#{\infty}-categories](htt-0001) #{X, Y}, their [join](htt-000B) #{X \star Y} is still an #{\infty}-category.
+}
+
+\proof{
+  \p{
+    The vertices of #{X \star Y} is given by #{X_0 \sqcup Y_0}. Consider a horn #{\Lambda^n_i}. Suppose its vertices lie entirely within #{X_0}, then all its higher simplices are in #{X} too, so we can fill the horn within #{X}. Similarly for #{Y}.
+  }
+
+  \p{
+    For the other cases, notice that an edge can only go from #{X} to #{Y} and not backwards. As long as #{(n, i) \ne (2, 0), (2, 2)} — which does not occur since we only need inner horns — we know the first #{k} vertices are in #{X} and the rest are in #{Y}, and we can restrict the horn along #{\Delta^{ \{0, \dots, k-1\} } \hookrightarrow \Lambda^n_i} and #{\Delta^{ \{k, \dots, n\} } \hookrightarrow \Lambda^n_i}. From this we can construct the simplex #{\Delta^n \to X \star Y} by definition of the join.
+  }
+}

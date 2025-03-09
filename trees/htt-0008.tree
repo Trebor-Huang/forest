@@ -1,0 +1,25 @@
+\date{2025-03-08}
+\title{#{\infty}-groupoids are the same as Kan complexes}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  A simplicial set is an [[htt-0007]] iff it is a [[htt-0002]].
+}
+
+\proof{
+  \p{
+    Given an [[htt-0001]] #{X}, we can extend along inner horn inclusions #{\Lambda^n_i \hookrightarrow \Delta^n}, where #{0 < i < n}. So to prove it is a [[htt-0002]], we need to additionally prove the extension property for #{i = 0} (the left horn) and #{i = n} (the right horn). Inspecting the cases where #{n = 2}, we see that intuitively the left horn extension requires the leftmost arrow #{\Delta^{\{0,1\}} \hookrightarrow \Delta^n} to be “invertible”. Dually for the right horn. We can propose a lemma.
+  }
+
+  \transclude{htt-0006}
+
+  \p{
+    Now suppose #{X} is an [[htt-0007]], a left horn #{\Lambda^n_0 \to X} can always be extended to #{\Delta^n \to X}, because all arrows, and hence the leftmost arrow in particular, are equivalences. Dually all the right horns can be extended. Therefore a [[htt-0007]] is a [[htt-0002]].
+  }
+
+  \p{
+    The other direction is easy. We consider the horns #{\Lambda^2_i \hookrightarrow \Delta^2} where #{i = 0, 2}. Let the longest edge be the identity arrow. Then the extension property implies the other edge is invertible.
+  }
+}

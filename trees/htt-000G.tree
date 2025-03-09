@@ -1,0 +1,34 @@
+\date{2025-03-09}
+\title{Joyal–Tierney calculus on joins and slices}
+\author{trebor}
+\import{common}
+\import{htt-000F}
+\def\pj{\mathbin{\bar\star}}
+\def\po{\mathbin{\bar /}}
+\def\pu{\mathbin{\bar\backslash}}
+
+\p{
+  We can specialize the Joyal–Tierney calculus to [joins](htt-000B) and [slices](htt-000F) of augmented simplicial sets.
+  Define the pushout-join of two maps #{f : A \to B} and #{g : C \to D} as
+  ##{f \pj g : (B \star C) \sqcup_{A \star C} (A \star D) \to B \star D,}
+  and similarly the pushout-power is given by
+  ##{f \po g : A \over D \to (B \over D) \times_{B \over C} (A \over C)}
+  and
+  ##{f \pu g : B \under C \to (A \under C) \times_{A \under D} (B \under D).}
+  Then by abstract nonsense we have the equivalence of lifting properties:
+  ##{(f \pj g) \ortho p \iff f \ortho (p \po g) \iff g \ortho (f \pu p).}
+  So we only need to establish the easiest one, i.e. #{(f \pj g) \ortho p} for suitable classes of maps, to establish all three.
+}
+
+\transclude{htt-000I}
+
+\p{
+  This shows that we can take
+  ##{\begin{array}{rcl|rcl|rcl}
+    f &\in& A_{\text{right}} & g &\in& M & p &\in& F_{\text{inner}} \\
+    f &\in& A_{\text{left}} & g &\in& M & p &\in& F_{\text{left}} \\
+    f &\in& M & g &\in& A_{\text{left}} & p &\in& F_{\text{inner}} \\
+    f &\in& M & g &\in& A_{\text{right}} & p &\in& F_{\text{right}} \\
+  \end{array}}
+  in the equivalences above.
+}

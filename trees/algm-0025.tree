@@ -12,6 +12,6 @@
 \proof{
   \p{
     The universal property of the colimit says ##{\hom(\colim \pi_F, X) \cong \lim_{(Y, p)} \hom(Y, X).}
-    Using the characterization of limits in #{\Cat{Set}}, an element in this set maps #{F(Y)} to #{\hom(Y, X)} for each #{Y} naturally, which is exactly #{\hom(F, \yo(X))}.
+    Using the characterization of limits in #{\Set}, an element in this set maps #{F(Y)} to #{\hom(Y, X)} for each #{Y} naturally, which is exactly #{\hom(F, \yo(X))}.
   }
 }

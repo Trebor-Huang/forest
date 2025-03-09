@@ -5,7 +5,7 @@
 \import{common}
 
 \p{
-  Given a [[algm-001A]] on #{\CatVar{C}} and a presheaf #{P : \CatVar{C}^\op \to \Cat{Set}}, the \strong{plus construction} produces a new presheaf #{P^+} by taking a directed limit over all the [descent data](algm-001D). More precisely, we assign ##{\section(A, P^+) = \colim_{S \text{ covers } A} \hom(S, P).} This means the sections of #{P^+} are compatible families of sections of #{P}, and two families are considered equal if they are equal on a common covering subsieve.
+  Given a [[algm-001A]] on #{\CatVar{C}} and a presheaf #{P : \CatVar{C}^\op \to \Set}, the \strong{plus construction} produces a new presheaf #{P^+} by taking a directed limit over all the [descent data](algm-001D). More precisely, we assign ##{\section(A, P^+) = \colim_{S \text{ covers } A} \hom(S, P).} This means the sections of #{P^+} are compatible families of sections of #{P}, and two families are considered equal if they are equal on a common covering subsieve.
 }
 
 \p{

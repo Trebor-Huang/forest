@@ -23,12 +23,12 @@
     \end{aligned}}
     Using the fact that [[algm-002E]] and writing #{\corealize} as the witness of cototality, we calculate
     ##{\begin{aligned}
-      \wave(Y, X) &= \hom_{\Cat{Psh}(\CatVar{C}) \to \Cat{Set}} (\yo (X^\op) \compose \realize, Y^*) \\
-      &= \hom_{\Cat{Set} \to \Cat{Set}} (\yo (X^\op) \compose \realize \compose Y_*, \Id) \\
-      &= \hom_{\Cat{Set} \to \Cat{Set}} (\yo (X^\op) \compose \realize \compose Y_*, \yo (1^\op)) \\
-      &= \hom_{\Cat{Set}} (1, \corealize(\yo (X^\op) \compose \realize \compose Y_*)) \\
+      \wave(Y, X) &= \hom_{\Cat{Psh}(\CatVar{C}) \to \Set} (\yo (X^\op) \compose \realize, Y^*) \\
+      &= \hom_{\Set \to \Set} (\yo (X^\op) \compose \realize \compose Y_*, \Id) \\
+      &= \hom_{\Set \to \Set} (\yo (X^\op) \compose \realize \compose Y_*, \yo (1^\op)) \\
+      &= \hom_{\Set} (1, \corealize(\yo (X^\op) \compose \realize \compose Y_*)) \\
       &= \corealize(\yo (X^\op) \compose \realize \compose {Y_*})
     \end{aligned}}
-    where the second equality is because the pseudofunctor #{(- \to \Cat{Set})} preserves adjoint pairs. Hence we know this is a small set.
+    where the second equality is because the pseudofunctor #{(- \to \Set)} preserves adjoint pairs. Hence we know this is a small set.
   }
 }

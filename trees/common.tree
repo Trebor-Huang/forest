@@ -45,14 +45,22 @@
 % ===== Mathematical macros
 \def\Cat[name]{#{\mathsf{\name}}}
 \def\CatVar[name]{#{\mathcal{\name}}}
+\def\Set{#{\Cat{Set}}}
+\def\sSet{#{\Cat{sSet}}}
+\def\asSet{#{\Cat{asSet}}}
 \def\op{#{\textrm{op}}}
 \def\id{#{\textrm{id}}}
 \def\Id{#{\textrm{Id}}}
+\def\ortho{#{\pitchfork}}
 \def\colim{\operatorname*{colim}}
 \def\pair[content]{#{\left\langle \content \right\rangle}}
 \def\compose{\mathbin{\circ}}
 \def\yo{\mathop{\mkern{-2mu}\text{よ}\mkern{-2mu}}}
 \def\power{#{\mathcal{P}}}
+\def\ho{\operatorname{ho}}
+\def\core[cat]{#{\operatorname{core}(\cat)}}
+\def\cone{#{\triangleleft}}
+\def\cocone{#{\triangleright}}
 
 % Algebra
 \def\lcm{\operatorname{lcm}}

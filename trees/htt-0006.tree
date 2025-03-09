@@ -1,0 +1,45 @@
+\date{2025-03-08}
+\title{characterization of equivalences in an #{\infty}-category}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  An arrow #{f} in an [[htt-0001]] #{X} is an [equivalence](htt-0005) iff any left horn #{\Lambda^n_0 \to X} with the leftmost arrow #{\Delta^{\{0,1\}} \subseteq \Lambda^n_0} being #{f} can be extended to #{\Delta^n}, where #{n \ge 2}.
+}
+
+\proof{
+  \p{
+    Given the definition of a [[htt-000E]], we can reduce the #{n}-simplices and left horns to a single arrow in a slice category. Consider the map #{q : X_{/\Delta^{n-2}} \to X_{/\partial\Delta^{n-2}}}. A left horn is equivalent to a square
+  }
+  \tikzcd{
+    {\Delta^0} & {X_{/\Delta^{n-2}}} \\
+    {\Delta^1} & {X_{/\partial\Delta^{n-2}}}
+    \arrow[from=1-1, to=1-2]
+    \arrow["0"', from=1-1, to=2-1]
+    \arrow["q", from=1-2, to=2-2]
+    \arrow[from=2-1, to=2-2]
+  }
+  \p{
+    Here the top arrow specifies the simplex spanning the vertices #{\{0, 2, 3, \dots, n\} = [n] \setminus 1}, and the bottom arrow specifies all the simplex faces except #{[n] \setminus 0} and #{[n] \setminus 1}. A solution to this lifting problem is equivalent to filling the required horn.
+  }
+
+  \p{
+    Performing this reduction allows us to remove all the consideration of higher simplices, because we can view the right arrow as a black box #{q : E \to B}, and all the information we need is that the bottom arrow is an [equivalence](htt-0005), and the right arrow is a [right fibration](htt-000H).
+  }
+
+  \p{
+    To see that #{q} is a right fibration, use the [[htt-000G]]. Since #{X} is an [[htt-0001]], #{X \to 1} is an inner fibration. #{\partial\Delta^{n-2} \to \Delta^{n-2}} is obviously a monomorphism. The pullback-power of them is isomorphic to #{q}.
+  }
+
+  \p{
+    To see that the bottom arrow #{f'} selects an equivalence in #{X_{/\partial\Delta^k}}, we first note that #{X_{/\partial\Delta^{n-2}} \to X_{/\varnothing} = X}, the functor that forgets the slicing and returns the underlying object, is also a right fibration in the same way as above. And the image of #{f'} under this functor is #{f}, which is an equivalence. The theorem now reduces to two facts about equivalences under right fibrations:
+  }
+  \ul{
+    \li{If the image of an arrow under a right fibration is an equivalence, then the arrow itself is already an equivalence.}
+    \li{Given a right fibration #{q : E \to B}, an equivalence #{f'} in #{B} and a lift of the \em{left} object (i.e. domain of the equivalence), there exists a compatible lift of #{f'} under #{q}.}
+  }
+  \p{
+    These can both be proven by elementary manipulations of lifting properties.
+  }
+}

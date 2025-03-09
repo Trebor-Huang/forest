@@ -1,0 +1,15 @@
+\date{2025-03-09}
+\title{join of (augmented) simplicial set}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  Given two [augmented simplicial sets](htt-000A) #{X, Y}, the \strong{join} is given by a Day convolution. Let #{\oplus} denote the ordinal sum. Then we have #{[m] \oplus [n] = [m+n+1]}, since #{[m]} represents the linear order with #{(m+1)} elements. We have
+  ##{(X \star Y)_k = \int^{m, n} X_m \times Y_n \times \hom([k], [m] \oplus [n]).}
+  More concretely, the #{k}-simplices of #{X \star Y} is given by the disjoint union of #{X_m \times Y_n}, where #{k = m + n + 1}. The face and degeneracy maps act on the corresponding components. Note that this is non-symmetric since #{X} handles the first few face maps, and #{Y} handles the last ones.
+}
+
+\p{
+  Given two simplicial sets, the join of their [codiscrete augmentation](htt-000A) is again a codiscrete augmented simplicial set. We define the simplicial join #{X \star Y \in \sSet} by forgetting its augmentation.
+}

@@ -1,0 +1,13 @@
+\date{2025-03-08}
+\title{equivalence arrow in an #{\infty}-category}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  Given an [[htt-0001]] #{X}, an arrow is an \strong{equivalence} iff it is an isomorphism in the [homotopy category](htt-0004). More concretely, there need to be left and right inverse arrows #{g_1, g_2} with two triangles witnessing #{f \compose g_1 = \id} and #{g_2 \compose f = \id} in the homotopy category.
+}
+
+\p{
+  Following the proof in group theory and #{1}-category theory, we see that we can take #{g_1} homotopic to #{g_2} (i.e. equal in the homotopy category) without loss of generality. But then the well-definedness of composition in the homotopy category implies #{g_1 \compose f = \id} too.
+}

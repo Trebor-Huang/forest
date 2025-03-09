@@ -1,0 +1,13 @@
+\date{2025-03-09}
+\title{fibrations and anodyne maps}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  Suppose a map #{f} of simplicial sets has the right lifting property against all inner horn inclusions #{\Lambda^n_i \hookrightarrow \Delta^n}, where #{n \ge 1} and #{0 < i < n}, then we say #{f} is an \strong{inner fibration}. If we strengthen the condition to #{0 \le i < n}, then we get the \strong{left fibration}. Similarly for right fibrations. If we allow #{0 \le i \le n}, then we get a \strong{Kan fibration}. Hence, an [[htt-0001]] is the same as an inner fibration #{X \to 1}. The same goes for a [[htt-0002]].
+}
+
+\p{
+  The class of maps that have left lifting property against all inner fibrations is called \strong{inner anodyne}. Similarly for left and right anodyne maps. For Kan fibrations, we use the unqualified phrase “anodyne map”. Obviously we have inner anodyne maps contained in both left and right anodyne maps, which in turn are contained in anodyne maps. They are all monomorphisms.
+}

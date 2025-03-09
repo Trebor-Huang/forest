@@ -1,0 +1,27 @@
+\date{2025-03-09}
+\title{Joyal’s lemma}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  Let #{M} be the class of momomorphisms of augmented simplicial sets. We can define #{F_{\text{kan/left/right/inner}}}, the class of augmented [fibrations](htt-000H) in the same way as ordinary simplicial sets. Note that we still require #{n \ge 1} in the horns #{\Lambda^n_i}. Let #{A_\bullet} be the corresponding class of augmented anodyne maps.
+}
+
+\p{
+  Given two monomorphism #{f : A_0 \hookrightarrow A} and #{g : B_0 \hookrightarrow B} of ([augmented](htt-000A)) simplicial sets, we consider the inclusion
+  ##{h : (A_0 \star B) \sqcup_{(A_0 \star B_0)} (A \star B_0) \to A \star B.}
+  We have the following table of implications:
+  ##{\begin{array}{ccc}
+    f \in A_{\text{right}} & \implies & h \in A_{\text{inner}} \\
+    f \in A_{\text{left}} & \implies & h \in A_{\text{left}} \\
+    g \in A_{\text{left}} & \implies & h \in A_{\text{inner}} \\
+    g \in A_{\text{right}} & \implies & h \in A_{\text{right}} \\
+  \end{array}}
+}
+
+\proof{
+  \p{
+    We proceed by using the universal property for anodyne morphisms. Consider #{A' \subseteq A_{\text{right}}}, the class of morphisms #{f} such that the corresponding #{h \in A_{\text{inner}}} for all #{g \in M}. We need to prove #{A'} is weakly saturated and contains all the relevant horn inclusions. To do this, we fix #{f} to be a particular horn inclusion, and let #{M' \subseteq M} be the class of morphisms #{g} such that the corresponding #{h \in A_{\text{inner}}}. Repeating the argument, we need to show #{M'} is weakly saturated and contains all the boundary inclusions #{\partial \Delta^n \hookrightarrow \Delta^n}. This finally reduces the case to a concrete #{h}, given by #{\Lambda^{n+m+1}_j \hookrightarrow \Delta^{n+m+1}}. Since we started with #{f} right anodyne, we will end up with #{0 < j \le n < n+m+1}, so #{h} is obviously inner anodyne. The other claims are similarly reduced to making sure #{j} falls in the right range.
+  }
+}
