@@ -1,0 +1,19 @@
+\date{2025-05-01}
+\title{constructing minimal Kan fibrations}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  Given a [Kan fibration](htt-000H) #{f : X \to Y}, there is a subset #{X' \subseteq X}, being a strong deformation retract relative to #{f}, such that #{X' \to Y} is a [[htt-000O]].
+}
+
+\proof{
+  \p{
+    Notice that among degenerate simplices, the minimality condition is already satisfied, because degenerate simplices are determined by their boundaries. To construct #{X'}, we proceed by dimension. First take the homotopy equivalence classes of simplices of #{X} whose boundaries lie in #{X'}, and if a class contains a degenerate simplex, pick one as a representative, otherwise pick any. Let these representatives be in #{X'}. Notice that all the degenerate simplices from earlier dimensions are all picked by the observation earlier.
+  }
+
+  \p{
+    Now we construct a strong deformation retract, i.e. a homotopy #{\Delta^1 \times X \to X}, such that the restriction to #{\Delta^1 \times X'} is the projection map, the restruction to #{\{0\} \times X} is also the projection map, and composition with #{f} produces a constant homotopy. We also proceed by levels. For each level, we have an open prism in #{\Delta^1 \times \Delta^n}, which we can fill since this subset is anodyne, and then we can compose with a homotopy relative to the boundaries to get into #{X'}.
+  }
+}

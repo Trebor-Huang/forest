@@ -1,0 +1,14 @@
+\date{2025-05-01}
+\title{minimal fibration is locally a product}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+\p{
+  A [[htt-000O]] #{f : X \to Y} restricted to a simplex is isomorphic to a product projection #{\Delta^n \times F \to \Delta^n}, i.e. it is a [[hmlg-0029]].
+}
+
+\proof{
+  \p{
+    Consider the strong deformation retract from #{\Delta^n} to the zeroth vertex. We can pull #{f} back along this homotopy to get a minimal fibration #{X' \to \Delta^n \times \Delta^1}, such that over #{\Delta^n \times \{1\}} the fibration is a product where #{F} is the preimage of the zeroth vertex. Now using the Kan condition we can construct a homotopy equivalence between the fibration over #{\Delta^n \times \{0\}} and #{\Delta^n \times \{1\}}, but by \ref{htt-000R} this gives an isomorphism between the minimal fibration and a product.
+  }
+}

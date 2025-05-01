@@ -1,0 +1,23 @@
+\date{2025-05-01}
+\title{pinched homotopy}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  Given a simplicial map #{f : X \to Y} and two #{n}-simplices #{a, b} in #{X} such that #{\partial a = \partial b} and #{f(a) = f(b)}, a #{k}-\strong{pinched homotopy} between them is an #{(n+1)}-simplex #{x} such that the #{k}-th and #{(k+1)}-th faces are #{a} and #{b}, the rest of the faces are suitably degenerate, and #{f(x)} is equal to #{f(a)} and #{f(b)} but degenerate at the #{k}-th position. All pinched homotopy relations coincide with the [one-step homotopy relation](htt-000O) in a [Kan fibration](htt-000H).
+}
+
+\proof{
+  \p{
+    Notice that #{\Delta^1 \times \Delta^n} consists of #{(n+1)} simplices, and they correspond to a #{k}-pinched homotopy for #{0 \le k \le n}. Therefore the one-step homotopy relation is the composition of the #{k}-pinched homotopy relations. All of these relations are reflexive, so the former contains the latter ones.
+  }
+
+  \p{
+    Given #{k}-pinched homotopies #{h_1} and #{h_2} from #{a} to #{b} to #{c}, we construct a horn #{\Lambda^{n+2}_{k+1} \hookrightarrow \Delta^{n+2}} whose #{k}-th face is #{h_1} and #{(k+2)}-th face is #{h_2}. The rest of the faces are degenerate along the #{k}-#{(k+1)}-#{(k+2)} edges. This creates a #{k}-pinched homotopy from #{a} to #{c} by taking its #{(k+1)}-th face. Similarly, taking the #{k}-th face to be #{h_1} and #{(k+1)}-th face to be degenerate proves symmetry. Therefore #{k}-pinched homotopy is an equivalence relation.
+  }
+
+  \p{
+    Let #{k' < k}, the other case is similar. Consider a #{k}-pinched homotopy #{h}. We can construct an #{(n+2)}-simplex that will give us a #{k'}-pinched homotopy between the same simplices. To do this, place #{h} as the #{(k'+1)}-th face, and we want to fetch the result #{h'} at the #{(k+2)}-th face. We need to require that the image under #{f} is degenerate at the #{k'}-th position and #{(k+1)}-th position, which uniquely determines the image as the #{k'}-th degeneracy of #{f(h)}. We also need that the #{n}-face excluding the #{(k+2)}-th vertex and one other vertex is correct. In fact, we should require all the #{(n+1)}-faces — excluding #{h} and #{h'} — that contain either the #{k'}-#{(k'+1)} edge or the #{(k+1)}-#{(k+2)} edge to be degenerate along that edge (if both, then both). This fixes a horn, whose filler gives us the result. Therefore all the pinched homotopies coincide, and since they are equivalence relations, their composition also coincide with them.
+  }
+}

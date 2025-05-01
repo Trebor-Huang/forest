@@ -1,0 +1,35 @@
+\date{2025-05-01}
+\title{Kan fibration is trivial iff it is a weak equivalence}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  A [Kan fibration](htt-000H) is a [trivial fibration](htt-000M) iff it is a [[htt-000J]].
+}
+
+\proof{
+  \p{
+    Let #{f : X \to Y} be a Kan fibration. In one direction, if #{f} is a trivial fibration, it has a section #{f \compose s = \id}, such that #{s \compose f} is homotopic to the identity (see \ref{htt-000V}). This induces a bijection between connected components of #{Z^X} and #{Z^Y}.
+  }
+
+  \p{
+    In the other direction, notice that if #{X} and #{Y} themselves are Kan, then by Yoneda a map between them is a homotopy equivalence iff it is a weak equivalence. If the map is furthermore a fibration, then by \ref{htt-000V} it is a trivial fibration. Hence, we attempt to use this by taking a fibrant replacement #{Y \hookrightarrow \bar{Y}} such that the inclusion map is anodyne. We need to extend the fibration along this inclusion, but this is difficult because fibrations can be very diverse. One option is to use the theory of [minimal fibrations](htt-000O). They are locally product projections, which are much easier to extend.
+  }
+
+  \p{
+    Use \ref{htt-000Q} to obtain a strong deformation retract #{X' \subseteq X} relative to #{X} such that #{f' : X' \to Y} is a [[htt-000O]]. A strong deformation retract is a homotopy equivalence, which is a weak equivalence. By the two-out-of-three for weak equivalences, #{f'} is a weak equivalence. We know #{f'} is a [[hmlg-0029]] by \ref{htt-000S}, and we can attempt to extend this to #{\bar{Y}}, which naturally motivates us to prove \ref{htt-000W}. This leads to a pullback square of Kan fiber bundles:
+  }
+  \tikzcd{
+    {X'} & {\bar X'} \\
+    Y & {\bar Y}
+    \arrow[hook, from=1-1, to=1-2]
+    \arrow[two heads, from=1-1, to=2-1]
+    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+    \arrow[two heads, from=1-2, to=2-2]
+    \arrow[hook, from=2-1, to=2-2]
+  }
+  \p{
+    Use the first part of \ref{htt-000U} to conclude that the top and bottom anodyne maps are weak equivalences. By two-out-of-three, the right map is a weak equivalence. From the observation above, this means the right map is a trivial fibration, since #{\bar{Y}} is Kan. We can now conclude that the left map is a trivial fibration, and in particular a homotopy equivalence. Since #{X' \to X} is also a homotopy equivalence, by two-out-of-three we see #{X \to Y} is a homotopy equivalence, which means it is a trivial fibration by \ref{htt-000V}.
+  }
+}

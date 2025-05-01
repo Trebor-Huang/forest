@@ -1,0 +1,23 @@
+\date{2025-05-01}
+\title{trivial fibrations of simplicial sets}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  A \strong{trivial fibration} of simplicial sets is a map that right lifts against all simplex boundary inclusions #{\partial \Delta^n \hookrightarrow \Delta^n}. A \strong{cofibration} is a map that left lifts against all trivial fibrations. A cofibration is exactly a monomorphism.
+}
+
+\proof{
+  \p{
+    Using the small object argument, a trivial cofibration is the smallest #{\omega}-[[htt-000L]] containing simplex boundary inclusions. Monomorphisms form such a class, and so a trivial cofibration is a monomorphism. For the other direction, we prove that every monomorphism can be obtained by #{\omega}-saturation. We first note that any subset #{X \subseteq \Delta^n} is a trivial fibration by inductively dropping faces from #{\Delta^n \subseteq \Delta^n}: if we want to drop a #{k}-dimensional face, perform a cobase change of #{\partial \Delta^k \hookrightarrow \Delta^k} and compose it with the current subset inclusion.
+  }
+
+  \p{
+    Given a simplicial subset #{X \subseteq Y}, we construct a tower of inclusions #{X \subseteq Z_0 \subseteq Z_1 \subseteq \cdots \subseteq Y}, where #{Z_n} is the union of #{X} with the #{n}-skeleton of #{Y}, considered as simplicial subsets of #{Y}. We just need to prove each inclusion is a trivial cofibration. For #{X \subseteq Z_0}, simply take the coproduct with a bunch of #{\varnothing = \partial \Delta^0 \subseteq \Delta^0}. For #{Z_{n-1} \subseteq Z_{n}}, take the coproduct of a bunch of #{\partial\Delta^n \subseteq \Delta^n}, and perform a cobase change to glue them onto #{Z_{n-1}}.
+  }
+
+  \p{
+    Constructively, this argument requires us to decide whether a simplex is in the subset, and if so determine whether it is non-degerate (otherwise we do not want to take a copy of that simplex in the coproduct).
+  }
+}

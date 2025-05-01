@@ -1,0 +1,19 @@
+\date{2025-05-01}
+\title{extension of minimal fibrations along anodyne maps}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  Given a minimal fibration #{p : E \to X} and an anodyne map #{i : X \to X'}, we can extend the fibration to #{p' : E' \to X'}, such that #{p} is the pullback of #{p'} along #{i}, and #{i' : E \to E'} is also an anodyne map.
+}
+
+\proof{
+  \p{
+    We prove that we can do this for all horn inclusions, and then prove the class of such maps is a [[htt-000L]]. For horn inclusions, a high-brow way to see this is to use the simplicial group #{\mathrm{Aut}(F) \subseteq F^F} where #{F} is the fiber, and #{\mathrm{Aut}} takes the simplicial subset spanned by the isomorphisms. We see that a [[hmlg-0026]] is essentially described by a map into the classifying space defined by the [[hmlg-0021]]. In any case, a minimal fibration over a horn is isomorphic to a product projection, and therefore #{\Delta^n \times F \to \Delta^n} obviously qualifies as an extension. We note that anodyne maps are closed under product with other simplicial sets.
+  }
+
+  \p{
+    Saturation is mostly straightforward, except pushouts. The obvious solution for pushouts requires us to verify this variant of Mather cube theorem in the category of simplicial sets (and hence sets): if there are cartesian morphisms of maps #{f_1 \leftarrow f \rightarrow f_2}, then taking pushouts we have #{f_1 \to g \leftarrow f_2}. If #{f \to f_1} is injective, then #{f_1 \to g \leftarrow f_2} is also cartesian. This is known as [adhesiveness](https://ncatlab.org/nlab/show/adhesive+category).
+  }
+}

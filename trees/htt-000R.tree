@@ -1,0 +1,21 @@
+\date{2025-05-01}
+\title{homotopy equivalence is isomorphism for minimal complexes}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  Homotopy equivalences between [minimal fibrations](htt-000O) #{X_1 \to Y, X_2 \to Y} relative to the base are actually isomorphisms of fibrations.
+}
+
+\proof{
+  \p{
+    We simply need to prove that a map #{f : X \to X} homotopic to the identity relative to #{p : X \to Y} is an isomorphism, which allows us to conclude by two-out-of-six of isomorphisms.
+  }
+  \p{
+    We can prove injectivity by induction on the dimension. Suppose #{f(x) = f(y) = z}, by induction hypothesis, the boundaries of #{x} and #{y} are equal. Now #{x} and #{y} are both homotopic to #{z}, and the homotopy restricted to the boundaries must be the same (since they are given by the same homotopy #{f \sim \id}). So we can compose to get a homotopy relative to the boundaries from #{x} to #{y}, which means #{x = y} by minimality.
+  }
+  \p{
+    Now we prove surjectivity by induction. Given #{z \in X}, we have the boundaries #{\partial x} such that #{f(\partial x) = \partial z} by induction hypothesis, which must match by injectivity of #{f}. The homotopy from #{f} to #{\id} gives an open cylinder dragging #{\partial z} to #{\partial x} with the cap being #{z}. We can fill this to obtain a simplex #{x}. Now again the homotopy gives us a cylinder from #{f(x)} to #{x}, and this homotopy agrees on the previous on on the boundaries. Therefore we can compose to get a homotopy from #{f(x)} to #{z} relative to the boundaries, proving that they are equal.
+  }
+}

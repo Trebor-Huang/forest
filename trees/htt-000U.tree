@@ -1,0 +1,30 @@
+\date{2025-05-01}
+\title{Cofibration is trivial iff it is a weak equivalence}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  A [cofibration](htt-000M) (monomorphism) is a [trivial cofibration](htt-000H) (anodyne map) iff it is a [[htt-000J]].
+}
+\proof{
+  \p{
+    By the Joyal–Tierney calculus on product and exponentials, given an anodyne map #{i : X \to Y} and a [[htt-0002]] #{Z}, the map #{Z^Y \to Z^X} is a trivial fibration. This means it is a bijection on connected components, and hence #{i} is a weak equivalence.
+  }
+
+  \p{
+    On the other hand, if #{i} is a weak equivalence, we factor it as a trivial cofibration #{j : X \to Z} composed with a Kan fibration #{p : Z \to Y}. By two-out-of-three and the previous part of the proof, #{p} must be a weak equivalence. By \ref{htt-000T}, #{p} is a trivial Kan fibration. Therefore #{i} left lifts against #{p}, this produces a diagram:
+  }
+  \tikzcd{
+    X & Y \\
+    Z & Z
+    \arrow["j", from=1-1, to=1-2]
+    \arrow["i"', from=1-1, to=2-1]
+    \arrow["p", from=1-2, to=2-2]
+    \arrow[dashed, from=2-1, to=1-2]
+    \arrow[equals, from=2-1, to=2-2]
+  }
+  \p{
+    We can now retract #{p} away from #{i = p \compose j}, to express #{i} as a retract of #{j}. Since trivial cofibrations are closed under retracts, #{i} is also a trivial cofibration.
+  }
+}

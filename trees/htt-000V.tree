@@ -1,0 +1,48 @@
+\date{2025-05-01}
+\title{Kan fibration is a homotopy equivalence iff it is trivial}
+\author{trebor}
+\import{common}
+\taxon{theorem}
+
+\p{
+  A [Kan fibration](htt-000H) is a homotopy equivalence iff it is a [trivial fibration](htt-000M).
+}
+
+\proof{
+  \p{
+    In one direction, suppose we have a trivial fibration #{f : X \to Y}. Consider the monomorphism #{\id : X \to X}. The lifting property for the obvious square gives a section #{s : Y \to X}, i.e. #{f \compose s = \id}. Now consider this lifting problem:
+  }
+  \tikzcd{
+    {\{0,1\} \times X} & X \\
+    {\Delta^1 \times X} & Y
+    \arrow["{\langle \id, s \compose f \rangle}", from=1-1, to=1-2]
+    \arrow[hook, from=1-1, to=2-1]
+    \arrow["f", from=1-2, to=2-2]
+    \arrow[dashed, from=2-1, to=1-2]
+    \arrow[from=2-1, to=2-2]
+  }
+  \p{
+    This provides a homotopy from #{s \compose f} to #{\id}. In particular #{f} is a homotopy equivalence. We can improve this even further: since #{s} provides an embedding of #{Y} into #{X}, we can change the top-left corner to #{(\{0, 1\} \times X) \cup (\Delta^1 \times Y)}, since #{s \compose f} is equal to the identity there. This exhibites #{Y} as a strong deformation retract of #{X}.
+  }
+
+  \p{
+    On the other hand, if #{f} is a fibration and a homotopy equivalence, we can proceed in the opposite direction, and we first improve it to a deformation retract. The following lifting problem replaces #{s} with #{s'} such that #{fs'} equals #{\id} on the nose.
+  }
+  \tikzcd{
+    Y & X \\
+    {\Delta^1 \times Y} & Y
+    \arrow["s", from=1-1, to=1-2]
+    \arrow["0"', from=1-1, to=2-1]
+    \arrow["f", from=1-2, to=2-2]
+    \arrow["{s \sim s'}"{description}, dashed, from=2-1, to=1-2]
+    \arrow["{fs \sim \id}"', from=2-1, to=2-2]
+  }
+
+  \p{
+    Now we further improve the homotopy equivalence into a strong deformation retract. This time we can’t use #{(\{0, 1\} \times X) \cup (\Delta^1 \times Y)} as the top-left corner since we don't have trivial fibrancy yet, but we know there exists a homotopy #{s' f \sim \id}, so we can exploit this to use ##{(\Lambda^2_1 \times X) \cup (\Delta^2 \times Y) \hookrightarrow \Delta^2 \times X,} where the top map goes from #{\id} to #{s' f} back to #{\id} on the #{X} part, and the #{Y} part is given by the triangle witnessing the composition of inverses cancel.
+  }
+
+  \p{
+    Finally, given a strong deformation retract, we can lift along any map #{A \to B} by composition with the section #{s'}, but then the upper triangle only commute up to homotopy. Now (here we use #{A \to B} being mono) we can construct a lifting problem against the anodyne map ##{(\{0\} \times B) \cup (\Delta^1 \times A) \hookrightarrow \Delta^1 \times A} to make a strict lifting.
+  }
+}

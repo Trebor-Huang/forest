@@ -1,0 +1,9 @@
+\date{2025-05-01}
+\title{weak equivalence of simplicial sets}
+\author{trebor}
+\import{common}
+\taxon{definition}
+
+\p{
+  Given a map #{f : X \to Y} between simplicial sets, it is a \strong{weak equivalence} if #{\hom(Y, K) \to \hom(X, K)} induces a bijection on connected components for all [Kan complexes](htt-0002).
+}
