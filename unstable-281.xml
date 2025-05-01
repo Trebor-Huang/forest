@@ -2,14 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1349</fr:anchor>
+    <fr:anchor>3648</fr:anchor>
     <fr:addr type="machine">#281</fr:addr>
     <fr:route>unstable-281.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
-      <fr:month>10</fr:month>
-      <fr:day>6</fr:day>
+      <fr:month>2</fr:month>
+      <fr:day>19</fr:day>
     </fr:date>
     <fr:authors>
       <fr:author>
@@ -18,13 +18,9 @@
     </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-  <fr:p>Removing a smaller disk of radius <fr:tex display="inline"><![CDATA[r]]></fr:tex> around <fr:tex display="inline"><![CDATA[a]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\frac {f(z) - f(a)}{z - a}]]></fr:tex> is an analytic function in this region. Applying <fr:link type="local" href="cplx-0006.xml" addr="cplx-0006" title="Integral of holomorphic function does not depend on path">Green’s formula</fr:link> we have
-    <fr:tex display="block"><![CDATA[\int _{\gamma } \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z} = \int _{\gamma '} \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex>
-    where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the original circle, and <fr:tex display="inline"><![CDATA[\gamma ']]></fr:tex> is the smaller circle. Now since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is holomorphic, the integrand has a limit as <fr:tex display="inline"><![CDATA[z \to  a]]></fr:tex> by definition, so in particular it is bounded for small enough <fr:tex display="inline"><![CDATA[r]]></fr:tex>. Therefore the right hand side is bounded by <fr:tex display="inline"><![CDATA[2 \pi  r C]]></fr:tex> for a constant <fr:tex display="inline"><![CDATA[C]]></fr:tex>, which goes to zero. So the left hand side must be zero since it does not depend on <fr:tex display="inline"><![CDATA[r]]></fr:tex>.</fr:p>
+  <fr:p>Since additive functors already preserves finite products, and <fr:link type="local" href="hmlg-000Y.xml" addr="hmlg-000Y" title="Equalizers can be reduced to kernels in {Ab}-enriched categories">kernels are equivalent to general equalizers</fr:link> using the additive structure, the first two conditions are equivalent.</fr:p>
 
-  <fr:p>Separating the two terms in the integral, we are left to prove
-    <fr:tex display="block"><![CDATA[\int _\gamma  \frac {\operatorname {d}\mathclose {z}}{z - a} = 2 \pi  i.]]></fr:tex>
-    This can be done by looking up integral tables.</fr:p>
+  <fr:p>The sequence <fr:tex display="inline"><![CDATA[A \rightarrowtail  B \to  C]]></fr:tex> being exact is equivalent to <fr:tex display="inline"><![CDATA[A]]></fr:tex> being a kernel of <fr:tex display="inline"><![CDATA[B \to  C]]></fr:tex>. So the third condition is equivalent to the first. This completes the equivalence proof.</fr:p>
 </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -35,15 +31,15 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1351</fr:anchor>
-            <fr:addr type="user">cplx-0009</fr:addr>
-            <fr:route>cplx-0009.xml</fr:route>
-            <fr:title text="Cauchy integral formula">Cauchy integral formula</fr:title>
-            <fr:taxon>Theorem</fr:taxon>
+            <fr:anchor>3650</fr:anchor>
+            <fr:addr type="user">hmlg-000X</fr:addr>
+            <fr:route>hmlg-000X.xml</fr:route>
+            <fr:title text="Left and right exact functor">Left and right exact functor</fr:title>
+            <fr:taxon>Definition</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
-              <fr:month>10</fr:month>
-              <fr:day>6</fr:day>
+              <fr:month>2</fr:month>
+              <fr:day>19</fr:day>
             </fr:date>
             <fr:authors>
               <fr:author>
@@ -51,19 +47,17 @@
               </fr:author>
             </fr:authors>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Given a <fr:link type="local" href="cplx-0001.xml" addr="cplx-0001" title="Holomorphic function">holomorphic function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex>, and a point <fr:tex display="inline"><![CDATA[a]]></fr:tex> such that a disk containing <fr:tex display="inline"><![CDATA[a]]></fr:tex> lies within the domain of <fr:tex display="inline"><![CDATA[f]]></fr:tex>, we have
-  <fr:tex display="block"><![CDATA[f(a) = \frac {1}{2 \pi  i} \int _{\gamma } \frac {f(z)}{z - a} \operatorname {d}\mathclose {z},]]></fr:tex>
-  where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the boundary of the disk.</fr:p>
+          <fr:mainmatter><fr:p>An <fr:link type="local" href="hmlg-000S.xml" addr="hmlg-000S" title="Additive functor">additive functor</fr:link> <fr:tex display="inline"><![CDATA[F : \mathcal {A} \to  \mathcal {B}]]></fr:tex> between abelian categories is <fr:strong>left exact</fr:strong> if it satisfies the following equivalent conditions.</fr:p><fr:ul><fr:li>It preserves kernels.</fr:li>
+  <fr:li>It preserves finite limits.</fr:li>
+  <fr:li>It preserves the exactness of sequences <fr:tex display="block"><![CDATA[0 \to  A \to  B \to  C.]]></fr:tex></fr:li></fr:ul><fr:p>Dually, an additive functor is <fr:strong>right exact</fr:strong> if it satisfies the following equivalent conditions.</fr:p><fr:ul><fr:li>It preserves cokernels.</fr:li>
+  <fr:li>It preserves finite colimits.</fr:li>
+  <fr:li>It preserves the exactness of sequences <fr:tex display="block"><![CDATA[A \to  B \to  C \to  0.]]></fr:tex></fr:li></fr:ul><fr:p>If a functor is both left exact and right exact, it is simply called an <fr:strong>exact functor</fr:strong>, which is equivalent to it preserving the exactness of sequences <fr:tex display="inline"><![CDATA[A \to  B \to  C]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1341</fr:anchor><fr:addr type="machine">#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>6</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-  <fr:p>Removing a smaller disk of radius <fr:tex display="inline"><![CDATA[r]]></fr:tex> around <fr:tex display="inline"><![CDATA[a]]></fr:tex>. Then <fr:tex display="inline"><![CDATA[\frac {f(z) - f(a)}{z - a}]]></fr:tex> is an analytic function in this region. Applying <fr:link type="local" href="cplx-0006.xml" addr="cplx-0006" title="Integral of holomorphic function does not depend on path">Green’s formula</fr:link> we have
-    <fr:tex display="block"><![CDATA[\int _{\gamma } \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z} = \int _{\gamma '} \frac {f(z) - f(a)}{z - a} \operatorname {d}\mathclose {z}]]></fr:tex>
-    where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is the original circle, and <fr:tex display="inline"><![CDATA[\gamma ']]></fr:tex> is the smaller circle. Now since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is holomorphic, the integrand has a limit as <fr:tex display="inline"><![CDATA[z \to  a]]></fr:tex> by definition, so in particular it is bounded for small enough <fr:tex display="inline"><![CDATA[r]]></fr:tex>. Therefore the right hand side is bounded by <fr:tex display="inline"><![CDATA[2 \pi  r C]]></fr:tex> for a constant <fr:tex display="inline"><![CDATA[C]]></fr:tex>, which goes to zero. So the left hand side must be zero since it does not depend on <fr:tex display="inline"><![CDATA[r]]></fr:tex>.</fr:p>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1869</fr:anchor><fr:addr type="machine">#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>Since additive functors already preserves finite products, and <fr:link type="local" href="hmlg-000Y.xml" addr="hmlg-000Y" title="Equalizers can be reduced to kernels in {Ab}-enriched categories">kernels are equivalent to general equalizers</fr:link> using the additive structure, the first two conditions are equivalent.</fr:p>
 
-  <fr:p>Separating the two terms in the integral, we are left to prove
-    <fr:tex display="block"><![CDATA[\int _\gamma  \frac {\operatorname {d}\mathclose {z}}{z - a} = 2 \pi  i.]]></fr:tex>
-    This can be done by looking up integral tables.</fr:p>
+  <fr:p>The sequence <fr:tex display="inline"><![CDATA[A \rightarrowtail  B \to  C]]></fr:tex> being exact is equivalent to <fr:tex display="inline"><![CDATA[A]]></fr:tex> being a kernel of <fr:tex display="inline"><![CDATA[B \to  C]]></fr:tex>. So the third condition is equivalent to the first. This completes the equivalence proof.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

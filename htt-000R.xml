@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>485</fr:anchor>
+    <fr:addr type="user">htt-000R</fr:addr>
+    <fr:route>htt-000R.xml</fr:route>
+    <fr:title text="Homotopy equivalence is isomorphism for minimal complexes">Homotopy equivalence is isomorphism for minimal complexes</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>1</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter><fr:p>Homotopy equivalences between <fr:link type="local" href="htt-000O.xml" addr="htt-000O" title="Minimal Kan fibration">minimal fibrations</fr:link> <fr:tex display="inline"><![CDATA[X_1 \to  Y, X_2 \to  Y]]></fr:tex> relative to the base are actually isomorphisms of fibrations.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>399</fr:anchor><fr:addr type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>We simply need to prove that a map <fr:tex display="inline"><![CDATA[f : X \to  X]]></fr:tex> homotopic to the identity relative to <fr:tex display="inline"><![CDATA[p : X \to  Y]]></fr:tex> is an isomorphism, which allows us to conclude by two-out-of-six of isomorphisms.</fr:p>
+  <fr:p>We can prove injectivity by induction on the dimension. Suppose <fr:tex display="inline"><![CDATA[f(x) = f(y) = z]]></fr:tex>, by induction hypothesis, the boundaries of <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> are equal. Now <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> are both homotopic to <fr:tex display="inline"><![CDATA[z]]></fr:tex>, and the homotopy restricted to the boundaries must be the same (since they are given by the same homotopy <fr:tex display="inline"><![CDATA[f \sim  \textrm {id}]]></fr:tex>). So we can compose to get a homotopy relative to the boundaries from <fr:tex display="inline"><![CDATA[x]]></fr:tex> to <fr:tex display="inline"><![CDATA[y]]></fr:tex>, which means <fr:tex display="inline"><![CDATA[x = y]]></fr:tex> by minimality.</fr:p>
+  <fr:p>Now we prove surjectivity by induction. Given <fr:tex display="inline"><![CDATA[z \in  X]]></fr:tex>, we have the boundaries <fr:tex display="inline"><![CDATA[\partial  x]]></fr:tex> such that <fr:tex display="inline"><![CDATA[f(\partial  x) = \partial  z]]></fr:tex> by induction hypothesis, which must match by injectivity of <fr:tex display="inline"><![CDATA[f]]></fr:tex>. The homotopy from <fr:tex display="inline"><![CDATA[f]]></fr:tex> to <fr:tex display="inline"><![CDATA[\textrm {id}]]></fr:tex> gives an open cylinder dragging <fr:tex display="inline"><![CDATA[\partial  z]]></fr:tex> to <fr:tex display="inline"><![CDATA[\partial  x]]></fr:tex> with the cap being <fr:tex display="inline"><![CDATA[z]]></fr:tex>. We can fill this to obtain a simplex <fr:tex display="inline"><![CDATA[x]]></fr:tex>. Now again the homotopy gives us a cylinder from <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex> to <fr:tex display="inline"><![CDATA[x]]></fr:tex>, and this homotopy agrees on the previous on on the boundaries. Therefore we can compose to get a homotopy from <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex> to <fr:tex display="inline"><![CDATA[z]]></fr:tex> relative to the boundaries, proving that they are equal.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>487</fr:anchor>
+            <fr:addr type="user">htt-000S</fr:addr>
+            <fr:route>htt-000S.xml</fr:route>
+            <fr:title text="Minimal fibration is locally a product">Minimal fibration is locally a product</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>A <fr:link type="local" href="htt-000O.xml" addr="htt-000O" title="Minimal Kan fibration">minimal Kan fibration</fr:link> <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> restricted to a simplex is isomorphic to a product projection <fr:tex display="inline"><![CDATA[\Delta ^n \times  F \to  \Delta ^n]]></fr:tex>, i.e. it is a <fr:link type="local" href="hmlg-0029.xml" addr="hmlg-0029" title="Kan fiber bundle">Kan fiber bundle</fr:link>.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>393</fr:anchor><fr:addr type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>Consider the strong deformation retract from <fr:tex display="inline"><![CDATA[\Delta ^n]]></fr:tex> to the zeroth vertex. We can pull <fr:tex display="inline"><![CDATA[f]]></fr:tex> back along this homotopy to get a minimal fibration <fr:tex display="inline"><![CDATA[X' \to  \Delta ^n \times  \Delta ^1]]></fr:tex>, such that over <fr:tex display="inline"><![CDATA[\Delta ^n \times  \{1\}]]></fr:tex> the fibration is a product where <fr:tex display="inline"><![CDATA[F]]></fr:tex> is the preimage of the zeroth vertex. Now using the Kan condition we can construct a homotopy equivalence between the fibration over <fr:tex display="inline"><![CDATA[\Delta ^n \times  \{0\}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Delta ^n \times  \{1\}]]></fr:tex>, but by <fr:ref addr="htt-000R" href="htt-000R.xml" taxon="Theorem" /> this gives an isomorphism between the minimal fibration and a product.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>489</fr:anchor>
+            <fr:addr type="user">htt-000O</fr:addr>
+            <fr:route>htt-000O.xml</fr:route>
+            <fr:title text="Minimal Kan fibration">Minimal Kan fibration</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given a <fr:link type="local" href="htt-000H.xml" addr="htt-000H" title="Fibrations and anodyne maps">Kan fibration</fr:link> <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex>, it is <fr:strong>minimal</fr:strong> if for all <fr:tex display="inline"><![CDATA[n]]></fr:tex>-simplices <fr:tex display="inline"><![CDATA[a, b]]></fr:tex> in <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\partial  a = \partial  b]]></fr:tex> and <fr:tex display="inline"><![CDATA[f(a) = f(b)]]></fr:tex>, they are one-step homotopic relative to <fr:tex display="inline"><![CDATA[f]]></fr:tex> (i.e. there is a map from <fr:tex display="inline"><![CDATA[\Delta ^1 \times  \Delta ^n]]></fr:tex> with endpoints <fr:tex display="inline"><![CDATA[a]]></fr:tex> and <fr:tex display="inline"><![CDATA[b]]></fr:tex> such that composing with <fr:tex display="inline"><![CDATA[f]]></fr:tex> gives a constant homotopy) iff they are already equal.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

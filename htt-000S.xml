@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>505</fr:anchor>
+    <fr:addr type="user">htt-000S</fr:addr>
+    <fr:route>htt-000S.xml</fr:route>
+    <fr:title text="Minimal fibration is locally a product">Minimal fibration is locally a product</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>1</fr:day>
+    </fr:date>
+    <fr:authors>
+      <fr:author>
+        <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+  </fr:frontmatter>
+  <fr:mainmatter><fr:p>A <fr:link type="local" href="htt-000O.xml" addr="htt-000O" title="Minimal Kan fibration">minimal Kan fibration</fr:link> <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> restricted to a simplex is isomorphic to a product projection <fr:tex display="inline"><![CDATA[\Delta ^n \times  F \to  \Delta ^n]]></fr:tex>, i.e. it is a <fr:link type="local" href="hmlg-0029.xml" addr="hmlg-0029" title="Kan fiber bundle">Kan fiber bundle</fr:link>.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>393</fr:anchor><fr:addr type="machine">#254</fr:addr><fr:route>unstable-254.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>Consider the strong deformation retract from <fr:tex display="inline"><![CDATA[\Delta ^n]]></fr:tex> to the zeroth vertex. We can pull <fr:tex display="inline"><![CDATA[f]]></fr:tex> back along this homotopy to get a minimal fibration <fr:tex display="inline"><![CDATA[X' \to  \Delta ^n \times  \Delta ^1]]></fr:tex>, such that over <fr:tex display="inline"><![CDATA[\Delta ^n \times  \{1\}]]></fr:tex> the fibration is a product where <fr:tex display="inline"><![CDATA[F]]></fr:tex> is the preimage of the zeroth vertex. Now using the Kan condition we can construct a homotopy equivalence between the fibration over <fr:tex display="inline"><![CDATA[\Delta ^n \times  \{0\}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Delta ^n \times  \{1\}]]></fr:tex>, but by <fr:ref addr="htt-000R" href="htt-000R.xml" taxon="Theorem" /> this gives an isomorphism between the minimal fibration and a product.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>507</fr:anchor>
+            <fr:addr type="user">htt-000T</fr:addr>
+            <fr:route>htt-000T.xml</fr:route>
+            <fr:title text="Kan fibration is trivial iff it is a weak equivalence">Kan fibration is trivial iff it is a weak equivalence</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>A <fr:link type="local" href="htt-000H.xml" addr="htt-000H" title="Fibrations and anodyne maps">Kan fibration</fr:link> is a <fr:link type="local" href="htt-000M.xml" addr="htt-000M" title="Trivial fibrations of simplicial sets">trivial fibration</fr:link> iff it is a <fr:link type="local" href="htt-000J.xml" addr="htt-000J" title="Weak equivalence of simplicial sets">weak equivalence of simplicial sets</fr:link>.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>387</fr:anchor><fr:addr type="machine">#253</fr:addr><fr:route>unstable-253.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>Let <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> be a Kan fibration. In one direction, if <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a trivial fibration, it has a section <fr:tex display="inline"><![CDATA[f \mathbin {\circ } s = \textrm {id}]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[s \mathbin {\circ } f]]></fr:tex> is homotopic to the identity (see <fr:ref addr="htt-000V" href="htt-000V.xml" taxon="Theorem" />). This induces a bijection between connected components of <fr:tex display="inline"><![CDATA[Z^X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Z^Y]]></fr:tex>.</fr:p>
+
+  <fr:p>In the other direction, notice that if <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> themselves are Kan, then by Yoneda a map between them is a homotopy equivalence iff it is a weak equivalence. If the map is furthermore a fibration, then by <fr:ref addr="htt-000V" href="htt-000V.xml" taxon="Theorem" /> it is a trivial fibration. Hence, we attempt to use this by taking a fibrant replacement <fr:tex display="inline"><![CDATA[Y \hookrightarrow  \bar {Y}]]></fr:tex> such that the inclusion map is anodyne. We need to extend the fibration along this inclusion, but this is difficult because fibrations can be very diverse. One option is to use the theory of <fr:link type="local" href="htt-000O.xml" addr="htt-000O" title="Minimal Kan fibration">minimal fibrations</fr:link>. They are locally product projections, which are much easier to extend.</fr:p>
+
+  <fr:p>Use <fr:ref addr="htt-000Q" href="htt-000Q.xml" taxon="Theorem" /> to obtain a strong deformation retract <fr:tex display="inline"><![CDATA[X' \subseteq  X]]></fr:tex> relative to <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that <fr:tex display="inline"><![CDATA[f' : X' \to  Y]]></fr:tex> is a <fr:link type="local" href="htt-000O.xml" addr="htt-000O" title="Minimal Kan fibration">minimal Kan fibration</fr:link>. A strong deformation retract is a homotopy equivalence, which is a weak equivalence. By the two-out-of-three for weak equivalences, <fr:tex display="inline"><![CDATA[f']]></fr:tex> is a weak equivalence. We know <fr:tex display="inline"><![CDATA[f']]></fr:tex> is a <fr:link type="local" href="hmlg-0029.xml" addr="hmlg-0029" title="Kan fiber bundle">Kan fiber bundle</fr:link> by <fr:ref addr="htt-000S" href="htt-000S.xml" taxon="Theorem" />, and we can attempt to extend this to <fr:tex display="inline"><![CDATA[\bar {Y}]]></fr:tex>, which naturally motivates us to prove <fr:ref addr="htt-000W" href="htt-000W.xml" taxon="Theorem" />. This leads to a pullback square of Kan fiber bundles:</fr:p>
+  
+  <html:span xmlns:html="http://www.w3.org/1999/xhtml" class="tikz tikzcd">
+    <fr:resource hash="eac34fb45998b39f88b24a3bec4573a3"><fr:resource-content><fr:img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMC4zIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzgxLjI1MzI1cHQnIGhlaWdodD0nNjUuMzQyMDk3cHQnIHZpZXdCb3g9Jy03MiAtNzIgODEuMjUzMjUgNjUuMzQyMDk3Jz4KPHN0eWxlIHR5cGU9J3RleHQvY3NzJz4KPCFbQ0RBVEFbQGZvbnQtZmFjZXtmb250LWZhbWlseTptc2FtMTA7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQUx3QUFvQUFBQUFBMUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRXNBQUFCZ1ozRmxGV050WVhBQUFBRkFBQUFBS2dBQUFEUUFET0RNWjJ4NVpnQUFBV3dBQUFCRUFBQUFSSHRzMHVkb1pXRmtBQUFCc0FBQUFDOEFBQUEyS3FYSDUyaG9aV0VBQUFIZ0FBQUFId0FBQUNRR0JnRithRzEwZUFBQUFnQUFBQUFJQUFBQUNBVWNBRHBzYjJOaEFBQUNDQUFBQUFZQUFBQUdBQ0lBQUcxaGVIQUFBQUlRQUFBQUZ3QUFBQ0FBQkFBU2JtRnRaUUFBQWlnQUFBQzJBQUFCSUo5RnAvdHdiM04wQUFBQzRBQUFBQkFBQUFBZ0FBTUFBWGphWTJCbTZtT2N3TURLd01BMGkrbnNQeEdHZmhETitJYnhEWU14SXljREVMQXhJSUFBRWp1bHVDeWRnZTFCNVlOS0Z1Wi9hZ3dNTE15TXQ0RENqQWdWLy84ek1BQUFNNFlRUmdCNDJtTmdZR0JpWUdCZ0JtSVJJTWtJcGxrWUZJQTBDeEFDK1E4cS8vK0hrUElkWUhrR0FHcHZCN1VBQUFBQkFEci82QUhIQVhZQUVBQUFBUkVXQmljaEJpWTBOaGNoRVNZMk1oWUJ4Z0VPRi82N0RSWVZEZ0ZBQVFjY0NBRlUvcmdXRGdFQkNCd0hBUUUrRGhnVkFBQUFlTnBqWUdSZ1lBQmkwOUNXd25oK202OE16Q3dNSVBERTB1a1lndjcvZ2xtR3NRekk1V0JnQW9rQ0FCSmdDZmtBZU5wallHUmdZR0grcDhiQXdDekRZTVZneVhpY0FTaUNBcGdBUHc4Q2lnQURIQUFBQWdBQU9nQUFBQUFBSWdBQWVOcGpZR1JnWUdCaUVHUUEwUXhRRWdrQUFBSkdBQmNBZU5wTmk3RUtnekFVUlk5VWhkck9IVXFIZkVGUUxKMjdsQzZkdXl1R0ltZ0VvNEpMdjcxUHpkRDM0T2JrY2g2UThDVmdtWUJveldWQ1l2bHRISEdRM1RpV1BYbE9PSE5oUnhEdXBVbTRlUTQ1Y3ZjY2lmM3lIRXRmZWs2NFloOWpZL3JXRlcyV3ZrM3Y2czZxVEtkYjhUVFc5TVZnS2xYT3FwcHFOMzFhbGV0VTV6d1lhVEQwdERnS3lZeVU5OW80YWpvc1Nqb3Q3Yi94Rk1PdVZzRWdieVZXeVN4Wk1jbWRrL3lJcThqWFcwMytBOGlVS0dVQUFIamFZMkJtUUFhTURHZ0FBQUNPQUFVPSkgZm9ybWF0KCd3b2ZmJyk7fQpAZm9udC1mYWNle2ZvbnQtZmFtaWx5OnJtLW1sbXIxMjtzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBTDRBQW9BQUFBQUEyUUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFb0FBQUJnaDM1MkttTnRZWEFBQUFGQUFBQUFLUUFBQURRQURBRUNaMng1WmdBQUFXd0FBQUEwQUFBQU5QZlFaSzVvWldGa0FBQUJvQUFBQUMwQUFBQTJLZnJKREdob1pXRUFBQUhRQUFBQUlBQUFBQ1FHZ1FHS2FHMTBlQUFBQWZBQUFBQUlBQUFBQ0FSbkFEeHNiMk5oQUFBQitBQUFBQVlBQUFBR0FCb0FBRzFoZUhBQUFBSUFBQUFBRndBQUFDQUFCQUFOYm1GdFpRQUFBaGdBQUFET0FBQUJRYStVVlpSd2IzTjBBQUFDNkFBQUFCQUFBQUFnQUFNQUFYamFZMkJtTW1hY3dNREt3TUEwaStuc1B4R0dmaEROK0lieERZTXhJeWNERUxBeHdBRVRBeEpJS1M1TEIwcXVaMWpQMHYzdkJnTURTemVqQmxDWUVhSGkvMzhHQmdBRDBRK1pBQUI0Mm1OZ1lHQmlZR0JnQm1JUklNa0lwbGtZRklBMEN4Q0MrT3YvLzRlUS80UEFmQVlBVzUwSEN3QUFBQUFCQUR3Q1V3RzRBb01BQ3dBQUFTRW1KelUyTnlFV0Z4VUdBYS8rbHdrQkFRa0JhUWdCQVFKVEFRZ2VDQUVCQ0I0SUFBQjQybU5nWkdCZ0FPSzdteGI4aXVlMytjckF6TUlBQWs4c25ZNGgwMHhGVE0xQWlvT0JDY1FEQUVRZkNoOEFBQUI0Mm1OZ1pHQmc2ZjUzZzRHQnFZakJoc0dXY1FjRFVBUUZNQUVBYTJJRUVBSnlBQUFCOVFBOEFBQUFBQUFhQUFCNDJtTmdaR0JnWUdMZ1lRRFJERkFTQ1FBQUFja0FFZ0I0Mm0yTXZXckRNQmhGajZrVGlMdTFwVU9Ib3ExVGpILzZBcDJ5eEV1ZzJSMHNqQ0dTUVE2R0RPMHI5SlY3NjRwT0ZkeFBSNGY3Q2NqNEpPSG5KR0lpcDJ6MCt1VVZ0OXhIWHNzL1I4NTQ0b1Via25Rajg4QmI1SlE3M2lPdmVLU1B2SmIvaUp6eHlsZXpidzZqYTMxWkJiZDFaeGZLNm1qRE5JemVsSG54NTNiVzI5QmViR2RPVjlQTnd6VDN6dFI1a2RjMDdKVURJNDRXVDBsRkVHK1ZzeElXYzhTS0pnYjFQRVl1cC9pbnQxUFBMOTJXaSs1TzNSTlh6WTVaMjVObXI3YWhYbjdJcWI4QnEzNHdEd0FBZU5wallHWkFCb3dNYUFBQUFJNEFCUT09KSBmb3JtYXQoJ3dvZmYnKTt9CkBmb250LWZhY2V7Zm9udC1mYW1pbHk6bWxtc3k4O3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFNTUFBb0FBQUFBQTJ3QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVzQUFBQmdhRTlobTJOdFlYQUFBQUZBQUFBQUtnQUFBRFFBRE9DRFoyeDVaZ0FBQVd3QUFBQkFBQUFBUUlYQjVQRm9aV0ZrQUFBQnJBQUFBQzBBQUFBMkt0Ykl6MmhvWldFQUFBSGNBQUFBSGdBQUFDUUVZdjk2YUcxMGVBQUFBZndBQUFBSUFBQUFDQVIxQUJkc2IyTmhBQUFDQkFBQUFBWUFBQUFHQUNBQUFHMWhlSEFBQUFJTUFBQUFGd0FBQUNBQUJBQVJibUZ0WlFBQUFpUUFBQURXQUFBQlBrTmhKU053YjNOMEFBQUMvQUFBQUJBQUFBQWdBQU1BQVhqYVkyQm1zbUtjd01ES3dNQTBpK25zUHhHR2ZoRE4rSWJ4RFlNeEl5Y0RFTEF4SUlBQUVqdWx1Q3lkZ2UyQndRTURabzAvS2d3TXpCck1kNERDakFnVi8vOHpNQUFBQ293UHFBQjQybU5nWUdCaVlHQmdCbUlSSU1rSXBsa1lGSUEwQ3hBQytROE0vditIa1BJWHdmSU1BR1J5QjJ3QUFBQUJBQmNBSVFFaUFrWUFEd0FBRXg0QkZ3WUhBd1lISWlZbk54TStBZDBkSndFQ0Jyd0ZFaEFmQVFhQkJSOENSZ0VqSFJJTi9rOFJBeEVQRkFHN0Z4NTQybU5nWkdCZ0FPSmI3L0sveHZQYmZHVmdabUVBZ1NlV1RzZVFhV1kvSmpjZ3hjSEFCT0lCQUVCNUNjSUFBQUI0Mm1OZ1pHQmcxdmlqQWlUOUdNUVpXQm1WR0lBaUtJQUpBRFF1QWVBQUFBTk9BQUFCSndBWEFBQUFBQUFnQUFCNDJtTmdaR0JnWUdJUVlBRFJERkFTQ1FBQUFpMEFGZ0I0MmxXUHNXckRNQkNHUDFQSFVEZlFxUjA2RkUwWmhZTXplT3lXSlpvQ0dRczJGb21MWllObERGNUtINkFQM2JPanBTZnUrTzYvL3dRSHBId1RzVVRFODFxWGlFbWt1L09HSjE0Q0ovSlU0SlEzZGp3UXhZK2l2UE1ST0diTForQU5yM3dGVGtUL0NaeHk0TmVjakNuSDIzbDJWZC82d3JYT3o4WEZEcjdwTzdYWDJWMDQyczRPNVdoclZjMnFuaG8vWFozS2RhWnpEQ2RKUThuSWpUTXpqb3FlRms4aDNFcDZVUXN1V0FiaFJxYWRYTEJIay8xekhNWFJyYTdsTjBzdHJrb21TbWlTUFMvMUttNUZ2dTVxOGo5R0lESEJBQUI0Mm1OZ1prQUdqQXhvQUFBQWpnQUYpIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTptbG1taTEyO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFSRUFBb0FBQUFBQk9BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVjQUFBQmdoWVowNVdOdFlYQUFBQUU4QUFBQUxBQUFBRFFBREFDc1oyeDVaZ0FBQVdnQUFBRjZBQUFCck41VnZYaG9aV0ZrQUFBQzVBQUFBQzRBQUFBMkt1ekpSV2hvWldFQUFBTVVBQUFBSGdBQUFDUUdnQUY3YUcxMGVBQUFBelFBQUFBTUFBQUFEQWZ5QUNsc2IyTmhBQUFEUUFBQUFBZ0FBQUFJQUhRQTFtMWhlSEFBQUFOSUFBQUFGd0FBQUNBQUJRQlBibUZ0WlFBQUEyQUFBQURXQUFBQlJMQkl3dEJ3YjNOMEFBQUVPQUFBQUF3QUFBQWdBQU1BQUhqYVkyQm1Xc1k0Z1lHVmdZRnBGdFBaZnlJTS9TQ2E4UTNqR3daalJrNEdJR0JqZ0FOR0JpU1FVbHlXRHBTTVlJaGs1dnIzbllHQm1RdXNIa25OLy84TURBQUJkZzVhQUhqYVkyQmdZR0pnWUdBR1loRWd5UWltV1JnVWdEUUxFSUw0a2YvL0E4bUkvLy8vcndUekdRQlVpd2ExZU5wTnp6RnYwMEFZQm1DLzM4Vm5VNjYyNDR2dmtseGlWVGExaFpvR0ZDZDJVRkN6SVNURXlNQ01ZRUZDVkVKQ1RDeGQrQ2RrWTZFL29XcW5EbDBxVnFiK0FTU1dsTE1FRXVQMzZ2Mms5M0hnUkxlLzJDczZjNTQ3RHVwS1Y4MU04enhBQ0psQ3E2cld2YnpNUFY3T203b3BQZTZsU0hpYlpPVzhPc0lhYklxeXlMTmlNVytmYloxNzJsYW5vR01NM3p5WUpJQjUvRFRkblBBZzNsVURacGJ2bDRwTUdyMjk4c0VtTUs4ZlRucVVMcDZZSHg5ZEVRcTFHdy9mclpZYWo2S1hHMEZ1U1pzUlVUSnlxK3o3OWlLU1JFemJBTDBSS1A3OTB3OGtFa01reDUxcGVvTytFRVMrR051Q0duYms1YWtJWXppVzVneXMwN1hPdFQzczFHYW1RclJNOEJBOFVicXExVitvbnRWcktxM0wrMC9WMGcyT3NDZ3lPaGlkRkJMeS91QmVUMjl2ZDlpaGkzZy9oVmw5V2lVc1QvZjlUTExQZkR3TXBGa2VOMzNzbVM1OXVPbnVzSUsrMm1VSHpQZjZpZDVlaS9oYkZQam96RnZPSHVQcXk3TUFMN3AzL3dIR0lIWm5ldzRoazA3ay9BR2N3VUE3QUFCNDJtTmdaR0JnQUdMT1JzNzM4ZncyWHhtWVdSaEE0SW1sMHpFRS9mOGJjeklUaU0vQndBUVNCUUFhSXdxaUFBQjQybU5nWkdCZzV2cjNIVWphTXdqOGQyUk9aZ0NLb0FCbUFHWnBCQUFBQUFKdEFBQURQd0FRQWtZQUdRQUFBQUFBZEFEV2VOcGpZR1JnWUdCbThHTUEwUXhRRWdrQUFBaFdBRlVBZU5wZGpyMXF3ekFVaFQ5VEo2VXVORnVIRGtYZE9nbi85QW15aEVDMFpxNFNpMFJnT1dBYlE1Wk9mWUk4Y2E1ZFRiMUNoKzhjemhVQ01uNUltQ1poTmVzMEtZL2kvbmpCTTYrUmw1Si9STTU0NDVNSGt2UkprbmZXa1ZOZStJNjhrTTAyOGxMeTM4Z1pYOXpNemhnN25MZURiZnl4S0VNVGdpL0t2ZXQ2ZjJsVm9mT1liRnpyT2p1NFdoMnVxaDU5UDU2Q3FuU3VLd3c3dVFiTHdKbXRxS1hCYzZTZ0pBZ0hPWDUyZXh3ZHZiaUwvRWxKcHNuL2RUYlNhZWZlOUtLamx0NkJxMmpOS0oxZTlDUnRSVFZ2YTZvN3hLY3hZUUFBZU5wallHYkFDd0FBZlFBRSkgZm9ybWF0KCd3b2ZmJyk7fQp0ZXh0LmYwIHtmb250LWZhbWlseTptc2FtMTA7Zm9udC1zaXplOjcuOTcwMTEycHh9CnRleHQuZjEge2ZvbnQtZmFtaWx5Om1sbXN5ODtmb250LXNpemU6Ny45NzAxMTJweH0KdGV4dC5mMiB7Zm9udC1mYW1pbHk6bWxtbWkxMjtmb250LXNpemU6MTEuOTU1MTY4cHh9CnRleHQuZjMge2ZvbnQtZmFtaWx5OnJtLW1sbXIxMjtmb250LXNpemU6MTEuOTU1MTY4cHh9Cl1dPgo8L3N0eWxlPgo8ZyBpZD0ncGFnZTEnPgo8ZyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0zMS4zNzMzNzgsLTM5LjMyODk1NylzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJz4KPGcgZmlsbD0nIzAwMCcgc3Ryb2tlPScjMDAwJz4KPGcgc3Ryb2tlLXdpZHRoPScwLjQnPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtMzcuOTMzNzIsLTI1LjU1NjYxKSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtMzEuMzczMzc4LC0zOS4zMjg5NTcpc2NhbGUoLTEsLTEpJz4KPGcgc3Ryb2tlPScjMDAwJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKC0xOS41MDA5MjIsLTc5LjcwMDcyNilzY2FsZSgwLjk5NjI2NCwtMC45OTYyNjQpJz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTYuNzUwMywwLjApJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC0xOS41MDA5MjIsLTc5LjcwMDcyNilzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YyJyB4PSctMTkuNTAwOTIyJyB5PSctNzkuNzAwNzI2Jz5YPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjEnIHg9Jy04Ljg0NTgxNScgeT0nLTg0LjAzOTE2Mic+7oCwPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlPScjMDAwJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDMyLjMzODE1OSwtNzkuNzAwNzI2KXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtNi43NTAzLDAuMCknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoMzIuMzM4MTU5LC03OS43MDA3MjYpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMycgeD0nMzUuNzE0Njg3JyB5PSctODIuNzIyNzE4Jz7CrzwvdGV4dD4KPHRleHQgY2xhc3M9J2YyJyB4PSczMi4zMzgxNTknIHk9Jy03OS43MDA3MjYnPlg8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nNDIuOTkzMjY3JyB5PSctODQuMDM5MTYyJz7ugLA8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2U9JyMwMDAnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTE5LjUwMDkyMiwtMzkuMzI4OTU3KXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtNC43MTQxOSwwLjApJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC0xOS41MDA5MjIsLTM5LjMyODk1NylzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YyJyB4PSctMTkuNTAwOTIyJyB5PSctMzkuMzI4OTU3Jz5ZPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlPScjMDAwJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDMyLjMzODE1OSwtMzkuMzI4OTU3KXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgtNC43MTQxOSwwLjApJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKDMyLjMzODE1OSwtMzkuMzI4OTU3KXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjMnIHg9JzM0LjEwODIyNCcgeT0nLTQyLjM1MDk1Jz7CrzwvdGV4dD4KPHRleHQgY2xhc3M9J2YyJyB4PSczMi4zMzgxNTknIHk9Jy0zOS4zMjg5NTcnPlk8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjQ4OTQ5Jz4KPHBhdGggZD0nTS0xMi4xMzc2MiAxNy45NjY1NUgxMy40MTAzJyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0nbWF0cml4KC0xLjAsMC4wLDAuMCwxLjAsLTEyLjEzNzYyLDE3Ljk2NjU1KSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdtaXRlcic+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPHBhdGggZD0nTTAgMi4zOTg0N0MuODM4MDQgMi4zOTg0NyAxLjUxNzQxIDEuODYxNTYgMS41MTc0MSAxLjE5OTIzQzEuNTE3NDEgLjUzNjkxIC44MzgwNCAwIDAgMCcgZmlsbD0nbm9uZScvPgogPC9nPgogPC9nPgogPC9nPgo8L2c+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDEzLjY1NTAzLDE3Ljk2NjU1KSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJz4KIDxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgogPHBhdGggZD0nTS0yLjU0NTMyIDIuOTM2ODlDLTIuMDgwMjkgMS4xNzQ3My0xLjA0NDA1IC4zNDI2NCAwIDBDLTEuMDQ0MDUtLjM0MjY0LTIuMDgwMjktMS4xNzQ3My0yLjU0NTMyLTIuOTM2ODknIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC40ODk0OSc+CjxwYXRoIGQ9J00tMjYuMDE2NzQgMTAuMzc0ODZWLTEyLjI3NTQ3JyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0nbWF0cml4KDAuMCwtMS4wLDEuMCwwLjAsLTI2LjAxNjc0LC0xMC43NTgwNyknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi41NDUzMiAyLjkzNjg5Qy0yLjA4MDI5IDEuMTc0NzMtMS4wNDQwNSAuMzQyNjQgMCAwQy0xLjA0NDA1LS4zNDI2NC0yLjA4MDI5LTEuMTc0NzMtMi41NDUzMi0yLjkzNjg5JyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CiA8L2c+CjwvZz4KPGcgdHJhbnNmb3JtPSdtYXRyaXgoMC4wLC0xLjAsMS4wLDAuMCwtMjYuMDE2NzQsLTEyLjUyMDIpJz4KPGcgc3Ryb2tlLWRhc2hhcnJheT0nbm9uZScgc3Ryb2tlLWRhc2hvZmZzZXQ9JzAuMCc+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CiA8cGF0aCBkPSdNLTIuNTQ1MzIgMi45MzY4OUMtMi4wODAyOSAxLjE3NDczLTEuMDQ0MDUgLjM0MjY0IDAgMEMtMS4wNDQwNS0uMzQyNjQtMi4wODAyOS0xLjE3NDczLTIuNTQ1MzItMi45MzY4OScgZmlsbD0nbm9uZScvPgogPC9nPgogPC9nPgogPC9nPgo8L2c+CjwvZz4KPGcgc3Ryb2tlLXdpZHRoPScwLjQ4OTQ5Jz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTE0LjI0Njc3LDUuNzI3ODcpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC0zMS4zNzMzNzgsLTM5LjMyODk1NylzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YwJyB4PSctMzEuMzczMzc4JyB5PSctMzkuMzI4OTU3Jz7ugbk8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8ZyBzdHJva2Utd2lkdGg9JzAuNDg5NDknPgo8cGF0aCBkPSdNMjYuMDE2NzQgMTAuMzc0ODZWLTkuODg1MzknIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSdtYXRyaXgoMC4wLC0xLjAsMS4wLDAuMCwyNi4wMTY3NCwtOC4zNjgpJz4KPGcgc3Ryb2tlLWRhc2hhcnJheT0nbm9uZScgc3Ryb2tlLWRhc2hvZmZzZXQ9JzAuMCc+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdyb3VuZCc+CiA8cGF0aCBkPSdNLTIuNTQ1MzIgMi45MzY4OUMtMi4wODAyOSAxLjE3NDczLTEuMDQ0MDUgLjM0MjY0IDAgMEMtMS4wNDQwNS0uMzQyNjQtMi4wODAyOS0xLjE3NDczLTIuNTQ1MzItMi45MzY4OScgZmlsbD0nbm9uZScvPgogPC9nPgogPC9nPgogPC9nPgo8L2c+CjxnIHRyYW5zZm9ybT0nbWF0cml4KDAuMCwtMS4wLDEuMCwwLjAsMjYuMDE2NzQsLTEwLjEzMDEzKSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJz4KIDxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgogPHBhdGggZD0nTS0yLjU0NTMyIDIuOTM2ODlDLTIuMDgwMjkgMS4xNzQ3My0xLjA0NDA1IC4zNDI2NCAwIDBDLTEuMDQ0MDUtLjM0MjY0LTIuMDgwMjktMS4xNzQ3My0yLjU0NTMyLTIuOTM2ODknIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8L2c+CjxnIHN0cm9rZS13aWR0aD0nMC40ODk0OSc+CjxwYXRoIGQ9J00tMTQuMTczNzQtMjIuNTU2NjFIMTUuNDQ2NDEnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSdtYXRyaXgoLTEuMCwwLjAsMC4wLDEuMCwtMTQuMTczNzQsLTIyLjU1NjYxKSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdtaXRlcic+CiA8ZyBzdHJva2UtbGluZWNhcD0ncm91bmQnPgogPHBhdGggZD0nTTAgMi4zOTg0N0MuODM4MDQgMi4zOTg0NyAxLjUxNzQxIDEuODYxNTYgMS41MTc0MSAxLjE5OTIzQzEuNTE3NDEgLjUzNjkxIC44MzgwNCAwIDAgMCcgZmlsbD0nbm9uZScvPgogPC9nPgogPC9nPgogPC9nPgo8L2c+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDE1LjY5MTE1LC0yMi41NTY2MSknPgo8ZyBzdHJva2UtZGFzaGFycmF5PSdub25lJyBzdHJva2UtZGFzaG9mZnNldD0nMC4wJz4KIDxnIHN0cm9rZS1saW5lY2FwPSdyb3VuZCc+CiA8ZyBzdHJva2UtbGluZWpvaW49J3JvdW5kJz4KIDxwYXRoIGQ9J00tMi41NDUzMiAyLjkzNjg5Qy0yLjA4MDI5IDEuMTc0NzMtMS4wNDQwNSAuMzQyNjQgMCAwQy0xLjA0NDA1LS4zNDI2NC0yLjA4MDI5LTEuMTc0NzMtMi41NDUzMi0yLjkzNjg5JyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CiA8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+Cjwvc3ZnPg==" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+    {X'} & {\bar  X'} \\
+    Y & {\bar  Y}
+    \arrow [hook, from=1-1, to=1-2]
+    \arrow [two heads, from=1-1, to=2-1]
+    \arrow ["\lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+    \arrow [two heads, from=1-2, to=2-2]
+    \arrow [hook, from=2-1, to=2-2]
+  \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+  <fr:p>Use the first part of <fr:ref addr="htt-000U" href="htt-000U.xml" taxon="Theorem" /> to conclude that the top and bottom anodyne maps are weak equivalences. By two-out-of-three, the right map is a weak equivalence. From the observation above, this means the right map is a trivial fibration, since <fr:tex display="inline"><![CDATA[\bar {Y}]]></fr:tex> is Kan. We can now conclude that the left map is a trivial fibration, and in particular a homotopy equivalence. Since <fr:tex display="inline"><![CDATA[X' \to  X]]></fr:tex> is also a homotopy equivalence, by two-out-of-three we see <fr:tex display="inline"><![CDATA[X \to  Y]]></fr:tex> is a homotopy equivalence, which means it is a trivial fibration by <fr:ref addr="htt-000V" href="htt-000V.xml" taxon="Theorem" />.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>509</fr:anchor>
+            <fr:addr type="user">htt-000R</fr:addr>
+            <fr:route>htt-000R.xml</fr:route>
+            <fr:title text="Homotopy equivalence is isomorphism for minimal complexes">Homotopy equivalence is isomorphism for minimal complexes</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Homotopy equivalences between <fr:link type="local" href="htt-000O.xml" addr="htt-000O" title="Minimal Kan fibration">minimal fibrations</fr:link> <fr:tex display="inline"><![CDATA[X_1 \to  Y, X_2 \to  Y]]></fr:tex> relative to the base are actually isomorphisms of fibrations.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>399</fr:anchor><fr:addr type="machine">#255</fr:addr><fr:route>unstable-255.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>We simply need to prove that a map <fr:tex display="inline"><![CDATA[f : X \to  X]]></fr:tex> homotopic to the identity relative to <fr:tex display="inline"><![CDATA[p : X \to  Y]]></fr:tex> is an isomorphism, which allows us to conclude by two-out-of-six of isomorphisms.</fr:p>
+  <fr:p>We can prove injectivity by induction on the dimension. Suppose <fr:tex display="inline"><![CDATA[f(x) = f(y) = z]]></fr:tex>, by induction hypothesis, the boundaries of <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> are equal. Now <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> are both homotopic to <fr:tex display="inline"><![CDATA[z]]></fr:tex>, and the homotopy restricted to the boundaries must be the same (since they are given by the same homotopy <fr:tex display="inline"><![CDATA[f \sim  \textrm {id}]]></fr:tex>). So we can compose to get a homotopy relative to the boundaries from <fr:tex display="inline"><![CDATA[x]]></fr:tex> to <fr:tex display="inline"><![CDATA[y]]></fr:tex>, which means <fr:tex display="inline"><![CDATA[x = y]]></fr:tex> by minimality.</fr:p>
+  <fr:p>Now we prove surjectivity by induction. Given <fr:tex display="inline"><![CDATA[z \in  X]]></fr:tex>, we have the boundaries <fr:tex display="inline"><![CDATA[\partial  x]]></fr:tex> such that <fr:tex display="inline"><![CDATA[f(\partial  x) = \partial  z]]></fr:tex> by induction hypothesis, which must match by injectivity of <fr:tex display="inline"><![CDATA[f]]></fr:tex>. The homotopy from <fr:tex display="inline"><![CDATA[f]]></fr:tex> to <fr:tex display="inline"><![CDATA[\textrm {id}]]></fr:tex> gives an open cylinder dragging <fr:tex display="inline"><![CDATA[\partial  z]]></fr:tex> to <fr:tex display="inline"><![CDATA[\partial  x]]></fr:tex> with the cap being <fr:tex display="inline"><![CDATA[z]]></fr:tex>. We can fill this to obtain a simplex <fr:tex display="inline"><![CDATA[x]]></fr:tex>. Now again the homotopy gives us a cylinder from <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex> to <fr:tex display="inline"><![CDATA[x]]></fr:tex>, and this homotopy agrees on the previous on on the boundaries. Therefore we can compose to get a homotopy from <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex> to <fr:tex display="inline"><![CDATA[z]]></fr:tex> relative to the boundaries, proving that they are equal.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>511</fr:anchor>
+            <fr:addr type="user">htt-000O</fr:addr>
+            <fr:route>htt-000O.xml</fr:route>
+            <fr:title text="Minimal Kan fibration">Minimal Kan fibration</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Given a <fr:link type="local" href="htt-000H.xml" addr="htt-000H" title="Fibrations and anodyne maps">Kan fibration</fr:link> <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex>, it is <fr:strong>minimal</fr:strong> if for all <fr:tex display="inline"><![CDATA[n]]></fr:tex>-simplices <fr:tex display="inline"><![CDATA[a, b]]></fr:tex> in <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\partial  a = \partial  b]]></fr:tex> and <fr:tex display="inline"><![CDATA[f(a) = f(b)]]></fr:tex>, they are one-step homotopic relative to <fr:tex display="inline"><![CDATA[f]]></fr:tex> (i.e. there is a map from <fr:tex display="inline"><![CDATA[\Delta ^1 \times  \Delta ^n]]></fr:tex> with endpoints <fr:tex display="inline"><![CDATA[a]]></fr:tex> and <fr:tex display="inline"><![CDATA[b]]></fr:tex> such that composing with <fr:tex display="inline"><![CDATA[f]]></fr:tex> gives a constant homotopy) iff they are already equal.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>513</fr:anchor>
+            <fr:addr type="user">hmlg-0029</fr:addr>
+            <fr:route>hmlg-0029.xml</fr:route>
+            <fr:title text="Kan fiber bundle">Kan fiber bundle</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>29</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Given a <fr:link type="local" href="hmlg-0026.xml" addr="hmlg-0026" title="Simplicial fiber bundle">simplicial fiber bundle</fr:link> <fr:tex display="inline"><![CDATA[p : E \to  B]]></fr:tex>, it is a Kan fibration iff the fiber <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a Kan complex. Hence we call it a <fr:strong>Kan fiber bundle</fr:strong>. The proof yields an <fr:link type="local" href="hmlg-0027.xml" addr="hmlg-0027" title="Effective Kan fibration">effective Kan fibration</fr:link> if all the inputs are effective.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>457</fr:anchor><fr:addr type="machine">#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>Given a horn <fr:tex display="inline"><![CDATA[\Lambda ^n_k \to  E]]></fr:tex> and a compatible simplex <fr:tex display="inline"><![CDATA[\Delta ^n \to  B]]></fr:tex>, by the definition of simplicial fiber bundles, we may trivialize the bundle on the simplex locally. But since <fr:tex display="inline"><![CDATA[F]]></fr:tex> is Kan, obviously <fr:tex display="inline"><![CDATA[F \times  \Delta ^n \to  \Delta ^n]]></fr:tex> is also Kan. Hence we may select the required filling.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

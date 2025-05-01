@@ -2,14 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1555</fr:anchor>
+    <fr:anchor>407</fr:anchor>
     <fr:addr type="machine">#257</fr:addr>
     <fr:route>unstable-257.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:date>
-      <fr:year>2024</fr:year>
-      <fr:month>7</fr:month>
-      <fr:day>12</fr:day>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>1</fr:day>
     </fr:date>
     <fr:authors>
       <fr:author>
@@ -18,13 +18,11 @@
     </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-  <fr:p>We first prove the forward implication. Given a sequence
-    <fr:tex display="block"><![CDATA[X \xrightarrow {f} Y \xrightarrow {g} Z]]></fr:tex>
-    whose image under <fr:tex display="inline"><![CDATA[F]]></fr:tex> is exact, by faithfulness <fr:tex display="inline"><![CDATA[F(g \mathbin {\circ } f) = 0]]></fr:tex> implies <fr:tex display="inline"><![CDATA[g \mathbin {\circ } f = 0]]></fr:tex>. Now we wish to prove the composite <fr:tex display="inline"><![CDATA[\ker  g \to  Y \to  \operatorname {coker} f]]></fr:tex> is zero. We can decompose its image under <fr:tex display="inline"><![CDATA[F]]></fr:tex> as
-    <fr:tex display="block"><![CDATA[F(\ker  g) \to  \ker  Fg \to  FY \to  \operatorname {coker} Ff \to  F(\operatorname {coker} f).]]></fr:tex>
-    But the inner two morphisms compose to zero, so by faithfulness we get our result.</fr:p>
+  <fr:p>Notice that <fr:tex display="inline"><![CDATA[\Delta ^1 \times  \Delta ^n]]></fr:tex> consists of <fr:tex display="inline"><![CDATA[(n+1)]]></fr:tex> simplices, and they correspond to a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-pinched homotopy for <fr:tex display="inline"><![CDATA[0 \le  k \le  n]]></fr:tex>. Therefore the one-step homotopy relation is the composition of the <fr:tex display="inline"><![CDATA[k]]></fr:tex>-pinched homotopy relations. All of these relations are reflexive, so the former contains the latter ones.</fr:p>
 
-  <fr:p>On the other hand, suppose <fr:tex display="inline"><![CDATA[F]]></fr:tex> reflects exactness. Given a morphism <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex>, suppose <fr:tex display="inline"><![CDATA[Ff = 0]]></fr:tex>, then <fr:tex display="inline"><![CDATA[FX \xrightarrow {\textrm {id}} FX \xrightarrow {Ff} FY]]></fr:tex> is exact. Hence <fr:tex display="inline"><![CDATA[X \xrightarrow {\textrm {id}} X \xrightarrow {f} Y]]></fr:tex> is also exact, so <fr:tex display="inline"><![CDATA[f = 0]]></fr:tex> too.</fr:p>
+  <fr:p>Given <fr:tex display="inline"><![CDATA[k]]></fr:tex>-pinched homotopies <fr:tex display="inline"><![CDATA[h_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[h_2]]></fr:tex> from <fr:tex display="inline"><![CDATA[a]]></fr:tex> to <fr:tex display="inline"><![CDATA[b]]></fr:tex> to <fr:tex display="inline"><![CDATA[c]]></fr:tex>, we construct a horn <fr:tex display="inline"><![CDATA[\Lambda ^{n+2}_{k+1} \hookrightarrow  \Delta ^{n+2}]]></fr:tex> whose <fr:tex display="inline"><![CDATA[k]]></fr:tex>-th face is <fr:tex display="inline"><![CDATA[h_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[(k+2)]]></fr:tex>-th face is <fr:tex display="inline"><![CDATA[h_2]]></fr:tex>. The rest of the faces are degenerate along the <fr:tex display="inline"><![CDATA[k]]></fr:tex>-<fr:tex display="inline"><![CDATA[(k+1)]]></fr:tex>-<fr:tex display="inline"><![CDATA[(k+2)]]></fr:tex> edges. This creates a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-pinched homotopy from <fr:tex display="inline"><![CDATA[a]]></fr:tex> to <fr:tex display="inline"><![CDATA[c]]></fr:tex> by taking its <fr:tex display="inline"><![CDATA[(k+1)]]></fr:tex>-th face. Similarly, taking the <fr:tex display="inline"><![CDATA[k]]></fr:tex>-th face to be <fr:tex display="inline"><![CDATA[h_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[(k+1)]]></fr:tex>-th face to be degenerate proves symmetry. Therefore <fr:tex display="inline"><![CDATA[k]]></fr:tex>-pinched homotopy is an equivalence relation.</fr:p>
+
+  <fr:p>Let <fr:tex display="inline"><![CDATA[k' < k]]></fr:tex>, the other case is similar. Consider a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-pinched homotopy <fr:tex display="inline"><![CDATA[h]]></fr:tex>. We can construct an <fr:tex display="inline"><![CDATA[(n+2)]]></fr:tex>-simplex that will give us a <fr:tex display="inline"><![CDATA[k']]></fr:tex>-pinched homotopy between the same simplices. To do this, place <fr:tex display="inline"><![CDATA[h]]></fr:tex> as the <fr:tex display="inline"><![CDATA[(k'+1)]]></fr:tex>-th face, and we want to fetch the result <fr:tex display="inline"><![CDATA[h']]></fr:tex> at the <fr:tex display="inline"><![CDATA[(k+2)]]></fr:tex>-th face. We need to require that the image under <fr:tex display="inline"><![CDATA[f]]></fr:tex> is degenerate at the <fr:tex display="inline"><![CDATA[k']]></fr:tex>-th position and <fr:tex display="inline"><![CDATA[(k+1)]]></fr:tex>-th position, which uniquely determines the image as the <fr:tex display="inline"><![CDATA[k']]></fr:tex>-th degeneracy of <fr:tex display="inline"><![CDATA[f(h)]]></fr:tex>. We also need that the <fr:tex display="inline"><![CDATA[n]]></fr:tex>-face excluding the <fr:tex display="inline"><![CDATA[(k+2)]]></fr:tex>-th vertex and one other vertex is correct. In fact, we should require all the <fr:tex display="inline"><![CDATA[(n+1)]]></fr:tex>-faces — excluding <fr:tex display="inline"><![CDATA[h]]></fr:tex> and <fr:tex display="inline"><![CDATA[h']]></fr:tex> — that contain either the <fr:tex display="inline"><![CDATA[k']]></fr:tex>-<fr:tex display="inline"><![CDATA[(k'+1)]]></fr:tex> edge or the <fr:tex display="inline"><![CDATA[(k+1)]]></fr:tex>-<fr:tex display="inline"><![CDATA[(k+2)]]></fr:tex> edge to be degenerate along that edge (if both, then both). This fixes a horn, whose filler gives us the result. Therefore all the pinched homotopies coincide, and since they are equivalence relations, their composition also coincide with them.</fr:p>
 </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -35,15 +33,15 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1557</fr:anchor>
-            <fr:addr type="user">hmlg-002W</fr:addr>
-            <fr:route>hmlg-002W.xml</fr:route>
-            <fr:title text="Additive functor is faithful iff it reflects exactness">Additive functor is faithful iff it reflects exactness</fr:title>
+            <fr:anchor>409</fr:anchor>
+            <fr:addr type="user">htt-000P</fr:addr>
+            <fr:route>htt-000P.xml</fr:route>
+            <fr:title text="Pinched homotopy">Pinched homotopy</fr:title>
             <fr:taxon>Theorem</fr:taxon>
             <fr:date>
-              <fr:year>2024</fr:year>
-              <fr:month>7</fr:month>
-              <fr:day>12</fr:day>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
             </fr:date>
             <fr:authors>
               <fr:author>
@@ -51,17 +49,15 @@
               </fr:author>
             </fr:authors>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>An <fr:link type="local" href="hmlg-000S.xml" addr="hmlg-000S" title="Additive functor">additive functor</fr:link> is faithful iff it reflects exactness.</fr:p><fr:p>This implies that faithful additive functors reflects kernels, cokernels, etc. Note that faithful functors need not preserve kernels or cokernels. This is because we can take the direct sum of a faithful functor with an arbitrary additive functor and the result is still faithful. The second summand can behave badly.</fr:p>
+          <fr:mainmatter><fr:p>Given a simplicial map <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> and two <fr:tex display="inline"><![CDATA[n]]></fr:tex>-simplices <fr:tex display="inline"><![CDATA[a, b]]></fr:tex> in <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\partial  a = \partial  b]]></fr:tex> and <fr:tex display="inline"><![CDATA[f(a) = f(b)]]></fr:tex>, a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-<fr:strong>pinched homotopy</fr:strong> between them is an <fr:tex display="inline"><![CDATA[(n+1)]]></fr:tex>-simplex <fr:tex display="inline"><![CDATA[x]]></fr:tex> such that the <fr:tex display="inline"><![CDATA[k]]></fr:tex>-th and <fr:tex display="inline"><![CDATA[(k+1)]]></fr:tex>-th faces are <fr:tex display="inline"><![CDATA[a]]></fr:tex> and <fr:tex display="inline"><![CDATA[b]]></fr:tex>, the rest of the faces are suitably degenerate, and <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex> is equal to <fr:tex display="inline"><![CDATA[f(a)]]></fr:tex> and <fr:tex display="inline"><![CDATA[f(b)]]></fr:tex> but degenerate at the <fr:tex display="inline"><![CDATA[k]]></fr:tex>-th position. All pinched homotopy relations coincide with the <fr:link type="local" href="htt-000O.xml" addr="htt-000O" title="Minimal Kan fibration">one-step homotopy relation</fr:link> in a <fr:link type="local" href="htt-000H.xml" addr="htt-000H" title="Fibrations and anodyne maps">Kan fibration</fr:link>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1559</fr:anchor><fr:addr type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-  <fr:p>We first prove the forward implication. Given a sequence
-    <fr:tex display="block"><![CDATA[X \xrightarrow {f} Y \xrightarrow {g} Z]]></fr:tex>
-    whose image under <fr:tex display="inline"><![CDATA[F]]></fr:tex> is exact, by faithfulness <fr:tex display="inline"><![CDATA[F(g \mathbin {\circ } f) = 0]]></fr:tex> implies <fr:tex display="inline"><![CDATA[g \mathbin {\circ } f = 0]]></fr:tex>. Now we wish to prove the composite <fr:tex display="inline"><![CDATA[\ker  g \to  Y \to  \operatorname {coker} f]]></fr:tex> is zero. We can decompose its image under <fr:tex display="inline"><![CDATA[F]]></fr:tex> as
-    <fr:tex display="block"><![CDATA[F(\ker  g) \to  \ker  Fg \to  FY \to  \operatorname {coker} Ff \to  F(\operatorname {coker} f).]]></fr:tex>
-    But the inner two morphisms compose to zero, so by faithfulness we get our result.</fr:p>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>411</fr:anchor><fr:addr type="machine">#257</fr:addr><fr:route>unstable-257.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>Notice that <fr:tex display="inline"><![CDATA[\Delta ^1 \times  \Delta ^n]]></fr:tex> consists of <fr:tex display="inline"><![CDATA[(n+1)]]></fr:tex> simplices, and they correspond to a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-pinched homotopy for <fr:tex display="inline"><![CDATA[0 \le  k \le  n]]></fr:tex>. Therefore the one-step homotopy relation is the composition of the <fr:tex display="inline"><![CDATA[k]]></fr:tex>-pinched homotopy relations. All of these relations are reflexive, so the former contains the latter ones.</fr:p>
 
-  <fr:p>On the other hand, suppose <fr:tex display="inline"><![CDATA[F]]></fr:tex> reflects exactness. Given a morphism <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex>, suppose <fr:tex display="inline"><![CDATA[Ff = 0]]></fr:tex>, then <fr:tex display="inline"><![CDATA[FX \xrightarrow {\textrm {id}} FX \xrightarrow {Ff} FY]]></fr:tex> is exact. Hence <fr:tex display="inline"><![CDATA[X \xrightarrow {\textrm {id}} X \xrightarrow {f} Y]]></fr:tex> is also exact, so <fr:tex display="inline"><![CDATA[f = 0]]></fr:tex> too.</fr:p>
+  <fr:p>Given <fr:tex display="inline"><![CDATA[k]]></fr:tex>-pinched homotopies <fr:tex display="inline"><![CDATA[h_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[h_2]]></fr:tex> from <fr:tex display="inline"><![CDATA[a]]></fr:tex> to <fr:tex display="inline"><![CDATA[b]]></fr:tex> to <fr:tex display="inline"><![CDATA[c]]></fr:tex>, we construct a horn <fr:tex display="inline"><![CDATA[\Lambda ^{n+2}_{k+1} \hookrightarrow  \Delta ^{n+2}]]></fr:tex> whose <fr:tex display="inline"><![CDATA[k]]></fr:tex>-th face is <fr:tex display="inline"><![CDATA[h_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[(k+2)]]></fr:tex>-th face is <fr:tex display="inline"><![CDATA[h_2]]></fr:tex>. The rest of the faces are degenerate along the <fr:tex display="inline"><![CDATA[k]]></fr:tex>-<fr:tex display="inline"><![CDATA[(k+1)]]></fr:tex>-<fr:tex display="inline"><![CDATA[(k+2)]]></fr:tex> edges. This creates a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-pinched homotopy from <fr:tex display="inline"><![CDATA[a]]></fr:tex> to <fr:tex display="inline"><![CDATA[c]]></fr:tex> by taking its <fr:tex display="inline"><![CDATA[(k+1)]]></fr:tex>-th face. Similarly, taking the <fr:tex display="inline"><![CDATA[k]]></fr:tex>-th face to be <fr:tex display="inline"><![CDATA[h_1]]></fr:tex> and <fr:tex display="inline"><![CDATA[(k+1)]]></fr:tex>-th face to be degenerate proves symmetry. Therefore <fr:tex display="inline"><![CDATA[k]]></fr:tex>-pinched homotopy is an equivalence relation.</fr:p>
+
+  <fr:p>Let <fr:tex display="inline"><![CDATA[k' < k]]></fr:tex>, the other case is similar. Consider a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-pinched homotopy <fr:tex display="inline"><![CDATA[h]]></fr:tex>. We can construct an <fr:tex display="inline"><![CDATA[(n+2)]]></fr:tex>-simplex that will give us a <fr:tex display="inline"><![CDATA[k']]></fr:tex>-pinched homotopy between the same simplices. To do this, place <fr:tex display="inline"><![CDATA[h]]></fr:tex> as the <fr:tex display="inline"><![CDATA[(k'+1)]]></fr:tex>-th face, and we want to fetch the result <fr:tex display="inline"><![CDATA[h']]></fr:tex> at the <fr:tex display="inline"><![CDATA[(k+2)]]></fr:tex>-th face. We need to require that the image under <fr:tex display="inline"><![CDATA[f]]></fr:tex> is degenerate at the <fr:tex display="inline"><![CDATA[k']]></fr:tex>-th position and <fr:tex display="inline"><![CDATA[(k+1)]]></fr:tex>-th position, which uniquely determines the image as the <fr:tex display="inline"><![CDATA[k']]></fr:tex>-th degeneracy of <fr:tex display="inline"><![CDATA[f(h)]]></fr:tex>. We also need that the <fr:tex display="inline"><![CDATA[n]]></fr:tex>-face excluding the <fr:tex display="inline"><![CDATA[(k+2)]]></fr:tex>-th vertex and one other vertex is correct. In fact, we should require all the <fr:tex display="inline"><![CDATA[(n+1)]]></fr:tex>-faces — excluding <fr:tex display="inline"><![CDATA[h]]></fr:tex> and <fr:tex display="inline"><![CDATA[h']]></fr:tex> — that contain either the <fr:tex display="inline"><![CDATA[k']]></fr:tex>-<fr:tex display="inline"><![CDATA[(k'+1)]]></fr:tex> edge or the <fr:tex display="inline"><![CDATA[(k+1)]]></fr:tex>-<fr:tex display="inline"><![CDATA[(k+2)]]></fr:tex> edge to be degenerate along that edge (if both, then both). This fixes a horn, whose filler gives us the result. Therefore all the pinched homotopies coincide, and since they are equivalence relations, their composition also coincide with them.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>

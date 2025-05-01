@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>686</fr:anchor>
+    <fr:anchor>911</fr:anchor>
     <fr:addr type="user">misc-000O</fr:addr>
     <fr:route>misc-000O.xml</fr:route>
     <fr:title text="Induction of reversible languages">Induction of reversible languages</fr:title>
@@ -31,7 +31,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>688</fr:anchor>
+            <fr:anchor>913</fr:anchor>
             <fr:addr type="user">inference-of-reversible-languages</fr:addr>
             <fr:route>inference-of-reversible-languages.xml</fr:route>
             <fr:title text="Inference of Reversible Languages">Inference of Reversible Languages</fr:title>
@@ -61,7 +61,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>690</fr:anchor>
+            <fr:anchor>915</fr:anchor>
             <fr:addr type="user">tile-000H</fr:addr>
             <fr:route>tile-000H.xml</fr:route>
             <fr:title text="The transductive algorithm">The transductive algorithm</fr:title>
@@ -85,7 +85,7 @@
             <fr:p>So, we have reduced our problem to the first step. But unless we can resolve <fr:ref addr="tile-000F" href="tile-000F.xml" taxon="Conjecture" /> constructively, how are we going to produce such an automaton? This is due to a special property that <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex> enjoys, as promised.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>636</fr:anchor>
+                <fr:anchor>861</fr:anchor>
                 <fr:addr type="user">misc-000L</fr:addr>
                 <fr:route>misc-000L.xml</fr:route>
                 <fr:title text="Bideterministic automaton">Bideterministic automaton</fr:title>
@@ -108,7 +108,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>638</fr:anchor>
+                <fr:anchor>863</fr:anchor>
                 <fr:addr type="user">misc-000M</fr:addr>
                 <fr:route>misc-000M.xml</fr:route>
                 <fr:title text="Reversible regular language">Reversible regular language</fr:title>
@@ -132,7 +132,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>640</fr:anchor>
+                <fr:anchor>865</fr:anchor>
                 <fr:addr type="user">misc-000N</fr:addr>
                 <fr:route>misc-000N.xml</fr:route>
                 <fr:title text="Characterization of reversible languages">Characterization of reversible languages</fr:title>
@@ -151,7 +151,7 @@
               <fr:mainmatter><fr:p>Given a language <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>, it is a <fr:link type="local" href="misc-000M.xml" addr="misc-000M" title="Reversible regular language">reversible regular language</fr:link> if and only if it is regular, and if <fr:tex display="inline"><![CDATA[xz, yz \in  \mathcal {L}]]></fr:tex> for some strings <fr:tex display="inline"><![CDATA[x, y, z]]></fr:tex>, then for all strings <fr:tex display="inline"><![CDATA[w]]></fr:tex> we have <fr:tex display="inline"><![CDATA[xw \in  \mathcal {L} \iff  yw \in  \mathcal {L}]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>580</fr:anchor><fr:addr type="machine">#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>805</fr:anchor><fr:addr type="machine">#247</fr:addr><fr:route>unstable-247.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>See Theorem 7 in <fr:link type="local" href="inference-of-reversible-languages.xml" addr="inference-of-reversible-languages" title="Inference of Reversible Languages">Inference of Reversible Languages</fr:link>.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
@@ -161,7 +161,7 @@
             <fr:p>By the way, this suggests a definition for reversible languages in general, without restricting to regular languages. And indeed, Tatham had the <fr:link type="external" href="https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/aperiodic-followup/#adjrec-dsf">important realization</fr:link> that <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex> is reversible, although the result there is stated in terms of <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>. This is essentially the same, because in the automaton for <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>, there are many accepting states, each corresponding to a tile type. And the automaton for <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex> simply adds a “true” accepting state, and connects each of the original accepting states to it by a transition that expects an input character of the correct tile type. Since we know what the tile type is at all times, there is no fundamental difference between the two languages. But for <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex>, the start and end is completely symmetric, so it allows for a cleaner treatment.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>642</fr:anchor>
+                <fr:anchor>867</fr:anchor>
                 <fr:addr type="user">tile-000G</fr:addr>
                 <fr:route>tile-000G.xml</fr:route>
                 <fr:title text="The augmented language of neighborhood relation is reversible">The augmented language of neighborhood relation is reversible</fr:title>
@@ -180,7 +180,7 @@
               <fr:mainmatter><fr:p>Given any <fr:link type="local" href="tile-0004.xml" addr="tile-0004" title="Substitution system">substitution system</fr:link>, the augmented <fr:link type="local" href="tile-000E.xml" addr="tile-000E" title="Language of neighborhood relation">language of neighborhood relation</fr:link> <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex> is <fr:link type="local" href="misc-000M.xml" addr="misc-000M" title="Reversible regular language">reversible</fr:link>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>574</fr:anchor><fr:addr type="machine">#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>799</fr:anchor><fr:addr type="machine">#246</fr:addr><fr:route>unstable-246.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We use the <fr:link type="local" href="misc-000N.xml" addr="misc-000N" title="Characterization of reversible languages">characterization of reversible languages</fr:link>. Any substring (ignoring the special starting and ending symbols) in this case describes a fixed geometric transformation between a tile and some supertile that it is contained in. So suppose <fr:tex display="inline"><![CDATA[xz, yz \in  \mathcal {L}^+]]></fr:tex>, then inverting the transformation given by <fr:tex display="inline"><![CDATA[z]]></fr:tex>, we know that <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> describe equivalent geometric configurations of a tile in some supertile. Therefore they must actually be <fr:link type="local" href="misc-000J.xml" addr="misc-000J" title="Nerode congruence">Nerode congruent</fr:link>.</fr:p>
 
   <fr:p>Since we have not rigorously defined the geometric aspects of tile systems, we will not attempt to articulate a completely formal proof. But it should be noted how geometry plays a crucial role here, meaning that substitution systems that are “non-rigid” may fail this property.</fr:p>
@@ -192,7 +192,7 @@
             <fr:p>We are finally ready to discuss the benefits of a reversible language: they admit a very efficient algorithm that learns the language from a series of examples. This problem, called <fr:em>language induction</fr:em>, is very difficult for general languages.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>644</fr:anchor>
+                <fr:anchor>869</fr:anchor>
                 <fr:addr type="user">misc-000O</fr:addr>
                 <fr:route>misc-000O.xml</fr:route>
                 <fr:title text="Induction of reversible languages">Induction of reversible languages</fr:title>
@@ -218,7 +218,7 @@
             <fr:p>Since the learned language only grows larger with each example, this condition is obviously sufficient because the original language came from a recursive function. Furthermore, we will prove that under some conditions, this can always be achieved in finite time, so the language inference algorithm terminates. Recall that for the transducer, we modified it so that every state is accepting, so this claim is reduced to the following theorem.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>646</fr:anchor>
+                <fr:anchor>871</fr:anchor>
                 <fr:addr type="user">tile-000J</fr:addr>
                 <fr:route>tile-000J.xml</fr:route>
                 <fr:title text="Totality of the neighborhood relation">Totality of the neighborhood relation</fr:title>
@@ -237,7 +237,7 @@
               <fr:mainmatter><fr:p>Suppose we have a <fr:link type="local" href="tile-0004.xml" addr="tile-0004" title="Substitution system">substitution system</fr:link> that doesn’t involve a prototile that never appears in its <fr:link type="local" href="tile-000A.xml" addr="tile-000A" title="Hull of set of tilings">hull</fr:link>, then for every finite <fr:link type="local" href="tile-0006.xml" addr="tile-0006" title="Conway signature">Conway signature</fr:link> <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> with a valid edge label <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>, it is always possible to extend <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> so that the <fr:link type="local" href="tile-0007.xml" addr="tile-0007" title="Recursive neighborhood algorithm">recursive neighborhood algorithm</fr:link> accepts it.</fr:p><fr:p>There are contrived substitution systems that violate the condition of this theorem. For example, consider a one-dimensional system with two kinds of tiles <fr:tex display="inline"><![CDATA[a, b]]></fr:tex>. Let the substitution rules be <fr:tex display="inline"><![CDATA[a \mapsto  aa]]></fr:tex>, <fr:tex display="inline"><![CDATA[b \mapsto  ba]]></fr:tex>. Iterated deflations produce the patches <fr:tex display="inline"><![CDATA[baa\dots  a]]></fr:tex>, and taking the hull results in the periodic tiling <fr:tex display="inline"><![CDATA[\dots  aaa \dots ]]></fr:tex>, where <fr:tex display="inline"><![CDATA[b]]></fr:tex> doesn’t occur. These are probably<fr:tex display="inline"><![CDATA[^?]]></fr:tex> never interesting.</fr:p><fr:p>Another caveat is when the substitution system contains a final stage of deflation. This technically makes most of the results invalid since deflation rules are no longer unique. But it should be apparent that this can be fixed by suitably changing our definitions and proofs.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>568</fr:anchor><fr:addr type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>793</fr:anchor><fr:addr type="machine">#245</fr:addr><fr:route>unstable-245.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>If a prototile <fr:tex display="inline"><![CDATA[t]]></fr:tex> can appear in the hull of <fr:tex display="inline"><![CDATA[\mathscr {S}]]></fr:tex>, this means for any radius, there is a patch of tiling in <fr:tex display="inline"><![CDATA[\mathscr {S}]]></fr:tex> covering that radius, with this tile in the center. In this case, <fr:tex display="inline"><![CDATA[\mathscr {S}]]></fr:tex> consists of iterated deflations of a single tile. So there exists <fr:tex display="inline"><![CDATA[t']]></fr:tex> such that its <fr:tex display="inline"><![CDATA[n]]></fr:tex>-th deflation contains <fr:tex display="inline"><![CDATA[t]]></fr:tex>, such that all the edges of <fr:tex display="inline"><![CDATA[t]]></fr:tex> have neighbors in the deflation. So <fr:tex display="inline"><![CDATA[t]]></fr:tex> has a Conway signature <fr:tex display="inline"><![CDATA[\Sigma ' = t \rightarrow  \cdots  \rightarrow  t']]></fr:tex>. Now take <fr:tex display="inline"><![CDATA[t]]></fr:tex> to be the last prototile label in <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex>, and let the extension be the concatenation <fr:tex display="inline"><![CDATA[\Sigma  \frown  \Sigma ']]></fr:tex>.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
@@ -260,7 +260,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>692</fr:anchor>
+            <fr:anchor>917</fr:anchor>
             <fr:addr type="user">misc-000L</fr:addr>
             <fr:route>misc-000L.xml</fr:route>
             <fr:title text="Bideterministic automaton">Bideterministic automaton</fr:title>
@@ -283,7 +283,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>694</fr:anchor>
+            <fr:anchor>919</fr:anchor>
             <fr:addr type="user">misc-000M</fr:addr>
             <fr:route>misc-000M.xml</fr:route>
             <fr:title text="Reversible regular language">Reversible regular language</fr:title>

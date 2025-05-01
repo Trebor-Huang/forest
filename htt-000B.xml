@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>416</fr:anchor>
+    <fr:anchor>637</fr:anchor>
     <fr:addr type="user">htt-000B</fr:addr>
     <fr:route>htt-000B.xml</fr:route>
     <fr:title text="Join of (augmented) simplicial set">Join of (augmented) simplicial set</fr:title>
@@ -33,7 +33,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>418</fr:anchor>
+            <fr:anchor>639</fr:anchor>
             <fr:addr type="user">htt-000G</fr:addr>
             <fr:route>htt-000G.xml</fr:route>
             <fr:title text="Joyal–Tierney calculus on joins and slices">Joyal–Tierney calculus on joins and slices</fr:title>
@@ -61,7 +61,7 @@
   So we only need to establish the easiest one, i.e. <fr:tex display="inline"><![CDATA[(f \mathbin {\bar \star } g) \pitchfork  p]]></fr:tex> for suitable classes of maps, to establish all three.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>366</fr:anchor>
+                <fr:anchor>573</fr:anchor>
                 <fr:addr type="user">htt-000I</fr:addr>
                 <fr:route>htt-000I.xml</fr:route>
                 <fr:title text="Joyal’s lemma">Joyal’s lemma</fr:title>
@@ -83,7 +83,7 @@
   <fr:tex display="block"><![CDATA[\begin {array}{ccc}     f \in  A_{\text {right}} & \implies  & h \in  A_{\text {inner}} \\     f \in  A_{\text {left}} & \implies  & h \in  A_{\text {left}} \\     g \in  A_{\text {left}} & \implies  & h \in  A_{\text {inner}} \\     g \in  A_{\text {right}} & \implies  & h \in  A_{\text {right}} \\   \end {array}]]></fr:tex></fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>356</fr:anchor><fr:addr type="machine">#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>563</fr:anchor><fr:addr type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We proceed by using the universal property for anodyne morphisms. Consider <fr:tex display="inline"><![CDATA[A' \subseteq  A_{\text {right}}]]></fr:tex>, the class of morphisms <fr:tex display="inline"><![CDATA[f]]></fr:tex> such that the corresponding <fr:tex display="inline"><![CDATA[h \in  A_{\text {inner}}]]></fr:tex> for all <fr:tex display="inline"><![CDATA[g \in  M]]></fr:tex>. We need to prove <fr:tex display="inline"><![CDATA[A']]></fr:tex> is weakly saturated and contains all the relevant horn inclusions. To do this, we fix <fr:tex display="inline"><![CDATA[f]]></fr:tex> to be a particular horn inclusion, and let <fr:tex display="inline"><![CDATA[M' \subseteq  M]]></fr:tex> be the class of morphisms <fr:tex display="inline"><![CDATA[g]]></fr:tex> such that the corresponding <fr:tex display="inline"><![CDATA[h \in  A_{\text {inner}}]]></fr:tex>. Repeating the argument, we need to show <fr:tex display="inline"><![CDATA[M']]></fr:tex> is weakly saturated and contains all the boundary inclusions <fr:tex display="inline"><![CDATA[\partial  \Delta ^n \hookrightarrow  \Delta ^n]]></fr:tex>. This finally reduces the case to a concrete <fr:tex display="inline"><![CDATA[h]]></fr:tex>, given by <fr:tex display="inline"><![CDATA[\Lambda ^{n+m+1}_j \hookrightarrow  \Delta ^{n+m+1}]]></fr:tex>. Since we started with <fr:tex display="inline"><![CDATA[f]]></fr:tex> right anodyne, we will end up with <fr:tex display="inline"><![CDATA[0 < j \le  n < n+m+1]]></fr:tex>, so <fr:tex display="inline"><![CDATA[h]]></fr:tex> is obviously inner anodyne. The other claims are similarly reduced to making sure <fr:tex display="inline"><![CDATA[j]]></fr:tex> falls in the right range.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
@@ -98,7 +98,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>420</fr:anchor>
+            <fr:anchor>641</fr:anchor>
             <fr:addr type="user">htt-000C</fr:addr>
             <fr:route>htt-000C.xml</fr:route>
             <fr:title text="Cone over a simplicial set">Cone over a simplicial set</fr:title>
@@ -121,7 +121,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>422</fr:anchor>
+            <fr:anchor>643</fr:anchor>
             <fr:addr type="user">htt-000D</fr:addr>
             <fr:route>htt-000D.xml</fr:route>
             <fr:title text="Join of -categories is a -category">Join of <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories is a <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:title>
@@ -140,7 +140,7 @@
           <fr:mainmatter><fr:p>Given two <fr:link type="local" href="htt-0001.xml" addr="htt-0001" title="-Category"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories</fr:link> <fr:tex display="inline"><![CDATA[X, Y]]></fr:tex>, their <fr:link type="local" href="htt-000B.xml" addr="htt-000B" title="Join of (augmented) simplicial set">join</fr:link> <fr:tex display="inline"><![CDATA[X \star  Y]]></fr:tex> is still an <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>362</fr:anchor><fr:addr type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>569</fr:anchor><fr:addr type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>The vertices of <fr:tex display="inline"><![CDATA[X \star  Y]]></fr:tex> is given by <fr:tex display="inline"><![CDATA[X_0 \sqcup  Y_0]]></fr:tex>. Consider a horn <fr:tex display="inline"><![CDATA[\Lambda ^n_i]]></fr:tex>. Suppose its vertices lie entirely within <fr:tex display="inline"><![CDATA[X_0]]></fr:tex>, then all its higher simplices are in <fr:tex display="inline"><![CDATA[X]]></fr:tex> too, so we can fill the horn within <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Similarly for <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.</fr:p>
 
   <fr:p>For the other cases, notice that an edge can only go from <fr:tex display="inline"><![CDATA[X]]></fr:tex> to <fr:tex display="inline"><![CDATA[Y]]></fr:tex> and not backwards. As long as <fr:tex display="inline"><![CDATA[(n, i) \ne  (2, 0), (2, 2)]]></fr:tex> — which does not occur since we only need inner horns — we know the first <fr:tex display="inline"><![CDATA[k]]></fr:tex> vertices are in <fr:tex display="inline"><![CDATA[X]]></fr:tex> and the rest are in <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and we can restrict the horn along <fr:tex display="inline"><![CDATA[\Delta ^{ \{0, \dots , k-1\} } \hookrightarrow  \Lambda ^n_i]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Delta ^{ \{k, \dots , n\} } \hookrightarrow  \Lambda ^n_i]]></fr:tex>. From this we can construct the simplex <fr:tex display="inline"><![CDATA[\Delta ^n \to  X \star  Y]]></fr:tex> by definition of the join.</fr:p>
@@ -151,7 +151,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>424</fr:anchor>
+            <fr:anchor>645</fr:anchor>
             <fr:addr type="user">htt-000F</fr:addr>
             <fr:route>htt-000F.xml</fr:route>
             <fr:title text="Slice of augmented simplicial sets">Slice of augmented simplicial sets</fr:title>
@@ -192,7 +192,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>426</fr:anchor>
+            <fr:anchor>647</fr:anchor>
             <fr:addr type="user">htt-000A</fr:addr>
             <fr:route>htt-000A.xml</fr:route>
             <fr:title text="Augmented simplicial set">Augmented simplicial set</fr:title>

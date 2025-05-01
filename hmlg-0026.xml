@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1871</fr:anchor>
+    <fr:anchor>2098</fr:anchor>
     <fr:addr type="user">hmlg-0026</fr:addr>
     <fr:route>hmlg-0026.xml</fr:route>
     <fr:title text="Simplicial fiber bundle">Simplicial fiber bundle</fr:title>
@@ -30,7 +30,37 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1873</fr:anchor>
+            <fr:anchor>2100</fr:anchor>
+            <fr:addr type="user">htt-000W</fr:addr>
+            <fr:route>htt-000W.xml</fr:route>
+            <fr:title text="Extension of minimal fibrations along anodyne maps">Extension of minimal fibrations along anodyne maps</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:authors>
+              <fr:author>
+                <fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter><fr:p>Given a minimal fibration <fr:tex display="inline"><![CDATA[p : E \to  X]]></fr:tex> and an anodyne map <fr:tex display="inline"><![CDATA[i : X \to  X']]></fr:tex>, we can extend the fibration to <fr:tex display="inline"><![CDATA[p' : E' \to  X']]></fr:tex>, such that <fr:tex display="inline"><![CDATA[p]]></fr:tex> is the pullback of <fr:tex display="inline"><![CDATA[p']]></fr:tex> along <fr:tex display="inline"><![CDATA[i]]></fr:tex>, and <fr:tex display="inline"><![CDATA[i' : E \to  E']]></fr:tex> is also an anodyne map.</fr:p>
+  
+    
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>369</fr:anchor><fr:addr type="machine">#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>We prove that we can do this for all horn inclusions, and then prove the class of such maps is a <fr:link type="local" href="htt-000L.xml" addr="htt-000L" title="Saturated cofibration class">saturated cofibration class</fr:link>. For horn inclusions, a high-brow way to see this is to use the simplicial group <fr:tex display="inline"><![CDATA[\mathrm {Aut}(F) \subseteq  F^F]]></fr:tex> where <fr:tex display="inline"><![CDATA[F]]></fr:tex> is the fiber, and <fr:tex display="inline"><![CDATA[\mathrm {Aut}]]></fr:tex> takes the simplicial subset spanned by the isomorphisms. We see that a <fr:link type="local" href="hmlg-0026.xml" addr="hmlg-0026" title="Simplicial fiber bundle">simplicial fiber bundle</fr:link> is essentially described by a map into the classifying space defined by the <fr:link type="local" href="hmlg-0021.xml" addr="hmlg-0021" title="W-bar construction">W-bar construction</fr:link>. In any case, a minimal fibration over a horn is isomorphic to a product projection, and therefore <fr:tex display="inline"><![CDATA[\Delta ^n \times  F \to  \Delta ^n]]></fr:tex> obviously qualifies as an extension. We note that anodyne maps are closed under product with other simplicial sets.</fr:p>
+
+  <fr:p>Saturation is mostly straightforward, except pushouts. The obvious solution for pushouts requires us to verify this variant of Mather cube theorem in the category of simplicial sets (and hence sets): if there are cartesian morphisms of maps <fr:tex display="inline"><![CDATA[f_1 \leftarrow  f \rightarrow  f_2]]></fr:tex>, then taking pushouts we have <fr:tex display="inline"><![CDATA[f_1 \to  g \leftarrow  f_2]]></fr:tex>. If <fr:tex display="inline"><![CDATA[f \to  f_1]]></fr:tex> is injective, then <fr:tex display="inline"><![CDATA[f_1 \to  g \leftarrow  f_2]]></fr:tex> is also cartesian. This is known as <fr:link type="external" href="https://ncatlab.org/nlab/show/adhesive+category">adhesiveness</fr:link>.</fr:p>
+</fr:mainmatter><fr:backmatter /></fr:tree>
+  
+</fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>2102</fr:anchor>
             <fr:addr type="user">hmlg-002C</fr:addr>
             <fr:route>hmlg-002C.xml</fr:route>
             <fr:title text="Associated simplicial fiber bundle">Associated simplicial fiber bundle</fr:title>
@@ -54,7 +84,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1875</fr:anchor>
+            <fr:anchor>2104</fr:anchor>
             <fr:addr type="user">hmlg-0029</fr:addr>
             <fr:route>hmlg-0029.xml</fr:route>
             <fr:title text="Kan fiber bundle">Kan fiber bundle</fr:title>
@@ -73,7 +103,7 @@
           <fr:mainmatter><fr:p>Given a <fr:link type="local" href="hmlg-0026.xml" addr="hmlg-0026" title="Simplicial fiber bundle">simplicial fiber bundle</fr:link> <fr:tex display="inline"><![CDATA[p : E \to  B]]></fr:tex>, it is a Kan fibration iff the fiber <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a Kan complex. Hence we call it a <fr:strong>Kan fiber bundle</fr:strong>. The proof yields an <fr:link type="local" href="hmlg-0027.xml" addr="hmlg-0027" title="Effective Kan fibration">effective Kan fibration</fr:link> if all the inputs are effective.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1857</fr:anchor><fr:addr type="machine">#263</fr:addr><fr:route>unstable-263.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>457</fr:anchor><fr:addr type="machine">#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Given a horn <fr:tex display="inline"><![CDATA[\Lambda ^n_k \to  E]]></fr:tex> and a compatible simplex <fr:tex display="inline"><![CDATA[\Delta ^n \to  B]]></fr:tex>, by the definition of simplicial fiber bundles, we may trivialize the bundle on the simplex locally. But since <fr:tex display="inline"><![CDATA[F]]></fr:tex> is Kan, obviously <fr:tex display="inline"><![CDATA[F \times  \Delta ^n \to  \Delta ^n]]></fr:tex> is also Kan. Hence we may select the required filling.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
@@ -82,7 +112,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1877</fr:anchor>
+            <fr:anchor>2106</fr:anchor>
             <fr:addr type="user">hmlg-0028</fr:addr>
             <fr:route>hmlg-0028.xml</fr:route>
             <fr:title text="Simplicial principal fiber bundle">Simplicial principal fiber bundle</fr:title>

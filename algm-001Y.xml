@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1539</fr:anchor>
+    <fr:anchor>1764</fr:anchor>
     <fr:addr type="user">algm-001Y</fr:addr>
     <fr:route>algm-001Y.xml</fr:route>
     <fr:title text="Affinification">Affinification</fr:title>
@@ -32,7 +32,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1541</fr:anchor>
+            <fr:anchor>1766</fr:anchor>
             <fr:addr type="user">algm-0020</fr:addr>
             <fr:route>algm-0020.xml</fr:route>
             <fr:title text="A non-distinguished affine subscheme">A non-distinguished affine subscheme</fr:title>
@@ -65,7 +65,7 @@
 
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1499</fr:anchor><fr:addr type="machine">#284</fr:addr><fr:route>unstable-284.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>9</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1724</fr:anchor><fr:addr type="machine">#293</fr:addr><fr:route>unstable-293.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>9</fr:month><fr:day>3</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We first prove it is not distinguished. Suppose <fr:tex display="inline"><![CDATA[U = D(f)]]></fr:tex>, we can choose a representative of <fr:tex display="inline"><![CDATA[f]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y]]]></fr:tex>. Now substituting <fr:tex display="inline"><![CDATA[x \mapsto  t^2, y \mapsto  t^3]]></fr:tex>, we need <fr:tex display="inline"><![CDATA[f(t^2, t^3)]]></fr:tex> to vanish only at <fr:tex display="inline"><![CDATA[t = 1]]></fr:tex>. Hence this is a polynomial <fr:tex display="inline"><![CDATA[\lambda  (t - 1)^n]]></fr:tex>. But this is impossible since it has a linear term, which cannot be produced by <fr:tex display="inline"><![CDATA[t^2]]></fr:tex> and <fr:tex display="inline"><![CDATA[t^3]]></fr:tex>.</fr:p>
 
   <fr:p>Now we need to show <fr:tex display="inline"><![CDATA[U]]></fr:tex> is affine. The coordinate ring is actually given by the subring <fr:tex display="inline"><![CDATA[R]]></fr:tex> of <fr:tex display="inline"><![CDATA[\mathbb {C}[t, (t-1)^{-1}]]]></fr:tex> such that the derivative at zero is zero, which can be verified by gluing. By <fr:ref addr="algm-001Y" href="algm-001Y.xml" taxon="Definition" /> we have a canonical map <fr:tex display="inline"><![CDATA[U \to  \operatorname {Spec} R]]></fr:tex>. Now restricting to the open <fr:tex display="inline"><![CDATA[D(t^2 - 1)]]></fr:tex> and <fr:tex display="inline"><![CDATA[D(t^3 - 1)]]></fr:tex> respectively, the two schemes are affine. By verifying the isomorphism of global sections, we see that they are isomorphic. Note that
@@ -78,7 +78,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1543</fr:anchor>
+            <fr:anchor>1768</fr:anchor>
             <fr:addr type="user">algm-001Z</fr:addr>
             <fr:route>algm-001Z.xml</fr:route>
             <fr:title text="A non-affine scheme">A non-affine scheme</fr:title>
@@ -97,7 +97,7 @@
           <fr:mainmatter><fr:p>The open subscheme of <fr:tex display="inline"><![CDATA[\mathbb {A}_{\mathbb {C}}^2 = \operatorname {Spec} \mathbb {C}[x, y]]]></fr:tex> given by removing the origin, or equivalently the open <fr:tex display="inline"><![CDATA[D(x) \cup  D(y)]]></fr:tex>, is not <fr:link type="local" href="algm-000Q.xml" addr="algm-000Q" title="Affine scheme">affine</fr:link>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1519</fr:anchor><fr:addr type="machine">#285</fr:addr><fr:route>unstable-285.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1744</fr:anchor><fr:addr type="machine">#294</fr:addr><fr:route>unstable-294.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>8</fr:month><fr:day>22</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We just need to prove the <fr:link type="local" href="algm-001Y.xml" addr="algm-001Y" title="Affinification">affinification</fr:link> is not an isomorphism. Consider the global sections of the <fr:link type="local" href="algm-000M.xml" addr="algm-000M" title="Ringed space">structure sheaf</fr:link>, which comes from the pullback of <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y, x^{-1}]]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y, y^{-1}]]]></fr:tex> over <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y, x^{-1}, y^{-1}]]]></fr:tex>. The result is simply <fr:tex display="inline"><![CDATA[\mathbb {C}[x, y]]]></fr:tex>. We can compute that the affinification map is the inclusion map into <fr:tex display="inline"><![CDATA[\mathbb {A}_{\mathbb {C}}^2]]></fr:tex>. This cannot be an isomorphism because the underlying space is different.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
@@ -115,7 +115,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1545</fr:anchor>
+            <fr:anchor>1770</fr:anchor>
             <fr:addr type="user">algm-0014</fr:addr>
             <fr:route>algm-0014.xml</fr:route>
             <fr:title text="Adjunction of global section and {Spec}">Adjunction of global section and <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex></fr:title>
@@ -134,7 +134,7 @@
           <fr:mainmatter><fr:p>We have an adjunction of functors <fr:tex display="block"><![CDATA[\mathsf {CRing}^\textrm {op} \xtofrom [\Gamma (\top , \mathscr {O}_{(-)})]{\operatorname {Spec}} \mathsf {Sch},]]></fr:tex> with <fr:tex display="inline"><![CDATA[\operatorname {Spec}]]></fr:tex> being the right adjoint (or <fr:tex display="inline"><![CDATA[\operatorname {Spec} : \mathsf {CRing} \to  \mathsf {Sch}^\textrm {op}]]></fr:tex> being the left adjoint). In fact, we can replace <fr:tex display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> with the category of <fr:link type="local" href="algm-000L.xml" addr="algm-000L" title="Locally ringed space">locally ringed spaces</fr:link> <fr:tex display="inline"><![CDATA[\mathsf {LRS}]]></fr:tex>, of whom <fr:tex display="inline"><![CDATA[\mathsf {Sch}]]></fr:tex> is a full subcategory.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1547</fr:anchor><fr:addr type="machine">#295</fr:addr><fr:route>unstable-295.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1772</fr:anchor><fr:addr type="machine">#304</fr:addr><fr:route>unstable-304.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We need to give a natural bijection
     <fr:tex display="block"><![CDATA[\hom (X, \operatorname {Spec}(R)) \cong  \hom (R, \Gamma (\top , \mathscr {O}_X)).]]></fr:tex>
     In other words, maps <fr:tex display="inline"><![CDATA[X \to  \operatorname {Spec}(R)]]></fr:tex> between locally ringed spaces are uniquely specified by the action of global sections.</fr:p>
@@ -147,7 +147,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1549</fr:anchor>
+            <fr:anchor>1774</fr:anchor>
             <fr:addr type="user">algm-000Q</fr:addr>
             <fr:route>algm-000Q.xml</fr:route>
             <fr:title text="Affine scheme">Affine scheme</fr:title>
@@ -170,7 +170,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1551</fr:anchor>
+            <fr:anchor>1776</fr:anchor>
             <fr:addr type="user">algm-000R</fr:addr>
             <fr:route>algm-000R.xml</fr:route>
             <fr:title text="Scheme">Scheme</fr:title>

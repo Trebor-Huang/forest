@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>428</fr:anchor>
+    <fr:anchor>649</fr:anchor>
     <fr:addr type="user">htt-000D</fr:addr>
     <fr:route>htt-000D.xml</fr:route>
     <fr:title text="Join of -categories is a -category">Join of <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories is a <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:title>
@@ -21,7 +21,7 @@
   <fr:mainmatter><fr:p>Given two <fr:link type="local" href="htt-0001.xml" addr="htt-0001" title="-Category"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories</fr:link> <fr:tex display="inline"><![CDATA[X, Y]]></fr:tex>, their <fr:link type="local" href="htt-000B.xml" addr="htt-000B" title="Join of (augmented) simplicial set">join</fr:link> <fr:tex display="inline"><![CDATA[X \star  Y]]></fr:tex> is still an <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>362</fr:anchor><fr:addr type="machine">#251</fr:addr><fr:route>unstable-251.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>569</fr:anchor><fr:addr type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>The vertices of <fr:tex display="inline"><![CDATA[X \star  Y]]></fr:tex> is given by <fr:tex display="inline"><![CDATA[X_0 \sqcup  Y_0]]></fr:tex>. Consider a horn <fr:tex display="inline"><![CDATA[\Lambda ^n_i]]></fr:tex>. Suppose its vertices lie entirely within <fr:tex display="inline"><![CDATA[X_0]]></fr:tex>, then all its higher simplices are in <fr:tex display="inline"><![CDATA[X]]></fr:tex> too, so we can fill the horn within <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Similarly for <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.</fr:p>
 
   <fr:p>For the other cases, notice that an edge can only go from <fr:tex display="inline"><![CDATA[X]]></fr:tex> to <fr:tex display="inline"><![CDATA[Y]]></fr:tex> and not backwards. As long as <fr:tex display="inline"><![CDATA[(n, i) \ne  (2, 0), (2, 2)]]></fr:tex> — which does not occur since we only need inner horns — we know the first <fr:tex display="inline"><![CDATA[k]]></fr:tex> vertices are in <fr:tex display="inline"><![CDATA[X]]></fr:tex> and the rest are in <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and we can restrict the horn along <fr:tex display="inline"><![CDATA[\Delta ^{ \{0, \dots , k-1\} } \hookrightarrow  \Lambda ^n_i]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Delta ^{ \{k, \dots , n\} } \hookrightarrow  \Lambda ^n_i]]></fr:tex>. From this we can construct the simplex <fr:tex display="inline"><![CDATA[\Delta ^n \to  X \star  Y]]></fr:tex> by definition of the join.</fr:p>
@@ -37,7 +37,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>430</fr:anchor>
+            <fr:anchor>651</fr:anchor>
             <fr:addr type="user">htt-000B</fr:addr>
             <fr:route>htt-000B.xml</fr:route>
             <fr:title text="Join of (augmented) simplicial set">Join of (augmented) simplicial set</fr:title>
@@ -63,7 +63,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>432</fr:anchor>
+            <fr:anchor>653</fr:anchor>
             <fr:addr type="user">htt-0001</fr:addr>
             <fr:route>htt-0001.xml</fr:route>
             <fr:title text="-Category"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:title>

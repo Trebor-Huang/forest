@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>1638</fr:anchor>
+    <fr:anchor>1863</fr:anchor>
     <fr:addr type="user">hmlg-002P</fr:addr>
     <fr:route>hmlg-002P.xml</fr:route>
     <fr:title text="Right adjoint of exact functor preserves injectives">Right adjoint of exact functor preserves injectives</fr:title>
@@ -21,7 +21,7 @@
   <fr:mainmatter><fr:p>Suppose <fr:tex display="inline"><![CDATA[F \dashv  R]]></fr:tex>, <fr:tex display="inline"><![CDATA[F]]></fr:tex> is exact and <fr:tex display="inline"><![CDATA[I]]></fr:tex> is an <fr:link type="local" href="hmlg-002J.xml" addr="hmlg-002J" title="Injective object">injective</fr:link>, then <fr:tex display="inline"><![CDATA[R(I)]]></fr:tex> is also an injective. Dually, if <fr:tex display="inline"><![CDATA[L \dashv  F]]></fr:tex>, <fr:tex display="inline"><![CDATA[F]]></fr:tex> is exact and <fr:tex display="inline"><![CDATA[P]]></fr:tex> is a <fr:link type="local" href="hmlg-0004.xml" addr="hmlg-0004" title="Projective object">projective</fr:link>, then <fr:tex display="inline"><![CDATA[L(P)]]></fr:tex> is also a projective.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1636</fr:anchor><fr:addr type="machine">#260</fr:addr><fr:route>unstable-260.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1861</fr:anchor><fr:addr type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Notice that the right adjoint preserves products, and so is <fr:link type="local" href="hmlg-000S.xml" addr="hmlg-000S" title="Additive functor">additive</fr:link>. We need to show that <fr:tex display="inline"><![CDATA[\hom (-, R(I))]]></fr:tex> is <fr:link type="local" href="hmlg-000X.xml" addr="hmlg-000X" title="Left and right exact functor">exact</fr:link>, which amounts to saying the composition of <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[\hom (-, I)]]></fr:tex> is exact, which is true because both are exact.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
@@ -35,7 +35,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1640</fr:anchor>
+            <fr:anchor>1865</fr:anchor>
             <fr:addr type="user">hmlg-002J</fr:addr>
             <fr:route>hmlg-002J.xml</fr:route>
             <fr:title text="Injective object">Injective object</fr:title>
@@ -58,7 +58,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1642</fr:anchor>
+            <fr:anchor>1867</fr:anchor>
             <fr:addr type="user">hmlg-000X</fr:addr>
             <fr:route>hmlg-000X.xml</fr:route>
             <fr:title text="Left and right exact functor">Left and right exact functor</fr:title>
@@ -81,7 +81,7 @@
   <fr:li>It preserves the exactness of sequences <fr:tex display="block"><![CDATA[A \to  B \to  C \to  0.]]></fr:tex></fr:li></fr:ul><fr:p>If a functor is both left exact and right exact, it is simply called an <fr:strong>exact functor</fr:strong>, which is equivalent to it preserving the exactness of sequences <fr:tex display="inline"><![CDATA[A \to  B \to  C]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1644</fr:anchor><fr:addr type="machine">#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1869</fr:anchor><fr:addr type="machine">#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Since additive functors already preserves finite products, and <fr:link type="local" href="hmlg-000Y.xml" addr="hmlg-000Y" title="Equalizers can be reduced to kernels in {Ab}-enriched categories">kernels are equivalent to general equalizers</fr:link> using the additive structure, the first two conditions are equivalent.</fr:p>
 
   <fr:p>The sequence <fr:tex display="inline"><![CDATA[A \rightarrowtail  B \to  C]]></fr:tex> being exact is equivalent to <fr:tex display="inline"><![CDATA[A]]></fr:tex> being a kernel of <fr:tex display="inline"><![CDATA[B \to  C]]></fr:tex>. So the third condition is equivalent to the first. This completes the equivalence proof.</fr:p>
@@ -92,7 +92,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1646</fr:anchor>
+            <fr:anchor>1871</fr:anchor>
             <fr:addr type="user">hmlg-000S</fr:addr>
             <fr:route>hmlg-000S.xml</fr:route>
             <fr:title text="Additive functor">Additive functor</fr:title>
@@ -113,7 +113,7 @@
   <fr:li>The functor is a homomorphism on the abelian groups <fr:tex display="inline"><![CDATA[\hom _{\mathcal {C}}(X, Y)]]></fr:tex>, i.e. it is an <fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched functor.</fr:li></fr:ul>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1565</fr:anchor><fr:addr type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1790</fr:anchor><fr:addr type="machine">#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>For the equivalence of the first two claims, we have a composition
     <fr:tex display="block"><![CDATA[F(X) + F(Y) \to  F(X + Y) \stackrel {\sim \,}{\to } F(X \times  Y) \to  F(X) \times  F(Y),]]></fr:tex>
     where the middle morphism comes from the canonical isomorphism <fr:tex display="inline"><![CDATA[X + Y \stackrel {\sim \,}{\to } F(X \times  Y)]]></fr:tex>. The first two claim is equivalent to the right and left arrows being iso, respectively. Recall that a morphism from a coproduct to a product is determined by a matrix of morphisms. With this fact and the functoriality of <fr:tex display="inline"><![CDATA[F]]></fr:tex>, we can compute that the composition is the canonical isomorphism from <fr:tex display="inline"><![CDATA[F(X) + F(Y)]]></fr:tex> to <fr:tex display="inline"><![CDATA[F(X) \times  F(Y)]]></fr:tex>. Therefore the leftmost arrow being iso is equivalent to the rightmost arrow being iso.</fr:p>
@@ -128,7 +128,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>1648</fr:anchor>
+            <fr:anchor>1873</fr:anchor>
             <fr:addr type="user">hmlg-0004</fr:addr>
             <fr:route>hmlg-0004.xml</fr:route>
             <fr:title text="Projective object">Projective object</fr:title>

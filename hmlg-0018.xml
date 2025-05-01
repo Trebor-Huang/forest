@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3296</fr:anchor>
+    <fr:anchor>3527</fr:anchor>
     <fr:addr type="user">hmlg-0018</fr:addr>
     <fr:route>hmlg-0018.xml</fr:route>
     <fr:title text="An additive functor is exact iff it preserves quasi-isomorphisms">An additive functor is exact iff it preserves quasi-isomorphisms</fr:title>
@@ -21,7 +21,7 @@
   <fr:mainmatter><fr:p>Given an <fr:link type="local" href="hmlg-000S.xml" addr="hmlg-000S" title="Additive functor">additive functor</fr:link> <fr:tex display="inline"><![CDATA[F : \mathcal {A} \to  \mathcal {B}]]></fr:tex> between <fr:link type="local" href="hmlg-000Q.xml" addr="hmlg-000Q" title="Abelian category">abelian categories</fr:link>, it is <fr:link type="local" href="hmlg-000X.xml" addr="hmlg-000X" title="Left and right exact functor">exact</fr:link> iff it sends <fr:link type="local" href="hmlg-000C.xml" addr="hmlg-000C" title="Quasi-isomorphism">quasi-isomorphisms</fr:link> to quasi-isomorphisms.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3294</fr:anchor><fr:addr type="machine">#269</fr:addr><fr:route>unstable-269.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>3525</fr:anchor><fr:addr type="machine">#278</fr:addr><fr:route>unstable-278.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.</fr:p>
 
   <fr:p>On the other hand, <fr:link type="local" href="todo.xml" addr="todo" title="Unfinished trees">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex display="inline"><![CDATA[f : C_\bullet  \to  D_\bullet ]]></fr:tex> is a quasi-isomorphism, <fr:tex display="inline"><![CDATA[H_n (f)]]></fr:tex> are all isomorphisms. Therefore <fr:tex display="inline"><![CDATA[H_n (F(f)) = F(H_n(f))]]></fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.</fr:p>
@@ -37,7 +37,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3298</fr:anchor>
+            <fr:anchor>3529</fr:anchor>
             <fr:addr type="user">hmlg-000X</fr:addr>
             <fr:route>hmlg-000X.xml</fr:route>
             <fr:title text="Left and right exact functor">Left and right exact functor</fr:title>
@@ -60,7 +60,7 @@
   <fr:li>It preserves the exactness of sequences <fr:tex display="block"><![CDATA[A \to  B \to  C \to  0.]]></fr:tex></fr:li></fr:ul><fr:p>If a functor is both left exact and right exact, it is simply called an <fr:strong>exact functor</fr:strong>, which is equivalent to it preserving the exactness of sequences <fr:tex display="inline"><![CDATA[A \to  B \to  C]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1644</fr:anchor><fr:addr type="machine">#272</fr:addr><fr:route>unstable-272.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1869</fr:anchor><fr:addr type="machine">#281</fr:addr><fr:route>unstable-281.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Since additive functors already preserves finite products, and <fr:link type="local" href="hmlg-000Y.xml" addr="hmlg-000Y" title="Equalizers can be reduced to kernels in {Ab}-enriched categories">kernels are equivalent to general equalizers</fr:link> using the additive structure, the first two conditions are equivalent.</fr:p>
 
   <fr:p>The sequence <fr:tex display="inline"><![CDATA[A \rightarrowtail  B \to  C]]></fr:tex> being exact is equivalent to <fr:tex display="inline"><![CDATA[A]]></fr:tex> being a kernel of <fr:tex display="inline"><![CDATA[B \to  C]]></fr:tex>. So the third condition is equivalent to the first. This completes the equivalence proof.</fr:p>
@@ -71,7 +71,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3300</fr:anchor>
+            <fr:anchor>3531</fr:anchor>
             <fr:addr type="user">hmlg-000Q</fr:addr>
             <fr:route>hmlg-000Q.xml</fr:route>
             <fr:title text="Abelian category">Abelian category</fr:title>
@@ -97,7 +97,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3302</fr:anchor>
+            <fr:anchor>3533</fr:anchor>
             <fr:addr type="user">hmlg-000S</fr:addr>
             <fr:route>hmlg-000S.xml</fr:route>
             <fr:title text="Additive functor">Additive functor</fr:title>
@@ -118,7 +118,7 @@
   <fr:li>The functor is a homomorphism on the abelian groups <fr:tex display="inline"><![CDATA[\hom _{\mathcal {C}}(X, Y)]]></fr:tex>, i.e. it is an <fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched functor.</fr:li></fr:ul>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1565</fr:anchor><fr:addr type="machine">#274</fr:addr><fr:route>unstable-274.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1790</fr:anchor><fr:addr type="machine">#283</fr:addr><fr:route>unstable-283.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>For the equivalence of the first two claims, we have a composition
     <fr:tex display="block"><![CDATA[F(X) + F(Y) \to  F(X + Y) \stackrel {\sim \,}{\to } F(X \times  Y) \to  F(X) \times  F(Y),]]></fr:tex>
     where the middle morphism comes from the canonical isomorphism <fr:tex display="inline"><![CDATA[X + Y \stackrel {\sim \,}{\to } F(X \times  Y)]]></fr:tex>. The first two claim is equivalent to the right and left arrows being iso, respectively. Recall that a morphism from a coproduct to a product is determined by a matrix of morphisms. With this fact and the functoriality of <fr:tex display="inline"><![CDATA[F]]></fr:tex>, we can compute that the composition is the canonical isomorphism from <fr:tex display="inline"><![CDATA[F(X) + F(Y)]]></fr:tex> to <fr:tex display="inline"><![CDATA[F(X) \times  F(Y)]]></fr:tex>. Therefore the leftmost arrow being iso is equivalent to the rightmost arrow being iso.</fr:p>
@@ -133,7 +133,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3304</fr:anchor>
+            <fr:anchor>3535</fr:anchor>
             <fr:addr type="user">hmlg-000C</fr:addr>
             <fr:route>hmlg-000C.xml</fr:route>
             <fr:title text="Quasi-isomorphism">Quasi-isomorphism</fr:title>
@@ -156,7 +156,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3306</fr:anchor>
+            <fr:anchor>3537</fr:anchor>
             <fr:addr type="user">todo</fr:addr>
             <fr:route>todo.xml</fr:route>
             <fr:title text="Unfinished trees">Unfinished trees</fr:title>
@@ -167,7 +167,7 @@
             <fr:p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</fr:p>
             <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2427</fr:anchor>
+                <fr:anchor>2658</fr:anchor>
                 <fr:addr type="user">hmlg-002F</fr:addr>
                 <fr:route>hmlg-002F.xml</fr:route>
                 <fr:title text="Twisted tensor product">Twisted tensor product</fr:title>
@@ -190,7 +190,7 @@
             </fr:tree>
             <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2429</fr:anchor>
+                <fr:anchor>2660</fr:anchor>
                 <fr:addr type="user">hmlg-002D</fr:addr>
                 <fr:route>hmlg-002D.xml</fr:route>
                 <fr:title text="Associated twisted product">Associated twisted product</fr:title>
@@ -214,7 +214,7 @@
             </fr:tree>
             <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2431</fr:anchor>
+                <fr:anchor>2662</fr:anchor>
                 <fr:addr type="user">hmlg-001M</fr:addr>
                 <fr:route>hmlg-001M.xml</fr:route>
                 <fr:title text="Chain reduction of mapping cones">Chain reduction of mapping cones</fr:title>
@@ -237,7 +237,7 @@
             </fr:tree>
             <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2433</fr:anchor>
+                <fr:anchor>2664</fr:anchor>
                 <fr:addr type="user">hmlg-001K</fr:addr>
                 <fr:route>hmlg-001K.xml</fr:route>
                 <fr:title text="Effective homology">Effective homology</fr:title>
@@ -264,7 +264,7 @@
             </fr:tree>
             <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>2435</fr:anchor>
+                <fr:anchor>2666</fr:anchor>
                 <fr:addr type="user">hmlg-000F</fr:addr>
                 <fr:route>hmlg-000F.xml</fr:route>
                 <fr:title text="Freyd–Mitchell embedding theorem">Freyd–Mitchell embedding theorem</fr:title>
@@ -283,7 +283,7 @@
               <fr:mainmatter><fr:p>Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex display="inline"><![CDATA[R]]></fr:tex>-modules for some ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2437</fr:anchor><fr:addr type="machine">#277</fr:addr><fr:route>unstable-277.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(TODO)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2668</fr:anchor><fr:addr type="machine">#286</fr:addr><fr:route>unstable-286.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter><fr:p>(TODO)</fr:p></fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
               <fr:backmatter />

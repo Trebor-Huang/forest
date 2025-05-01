@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>384</fr:anchor>
+    <fr:anchor>591</fr:anchor>
     <fr:addr type="user">htt-000A</fr:addr>
     <fr:route>htt-000A.xml</fr:route>
     <fr:title text="Augmented simplicial set">Augmented simplicial set</fr:title>
@@ -31,7 +31,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>386</fr:anchor>
+            <fr:anchor>593</fr:anchor>
             <fr:addr type="user">htt-000I</fr:addr>
             <fr:route>htt-000I.xml</fr:route>
             <fr:title text="Joyal’s lemma">Joyal’s lemma</fr:title>
@@ -53,7 +53,7 @@
   <fr:tex display="block"><![CDATA[\begin {array}{ccc}     f \in  A_{\text {right}} & \implies  & h \in  A_{\text {inner}} \\     f \in  A_{\text {left}} & \implies  & h \in  A_{\text {left}} \\     g \in  A_{\text {left}} & \implies  & h \in  A_{\text {inner}} \\     g \in  A_{\text {right}} & \implies  & h \in  A_{\text {right}} \\   \end {array}]]></fr:tex></fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>356</fr:anchor><fr:addr type="machine">#250</fr:addr><fr:route>unstable-250.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>563</fr:anchor><fr:addr type="machine">#259</fr:addr><fr:route>unstable-259.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>9</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>We proceed by using the universal property for anodyne morphisms. Consider <fr:tex display="inline"><![CDATA[A' \subseteq  A_{\text {right}}]]></fr:tex>, the class of morphisms <fr:tex display="inline"><![CDATA[f]]></fr:tex> such that the corresponding <fr:tex display="inline"><![CDATA[h \in  A_{\text {inner}}]]></fr:tex> for all <fr:tex display="inline"><![CDATA[g \in  M]]></fr:tex>. We need to prove <fr:tex display="inline"><![CDATA[A']]></fr:tex> is weakly saturated and contains all the relevant horn inclusions. To do this, we fix <fr:tex display="inline"><![CDATA[f]]></fr:tex> to be a particular horn inclusion, and let <fr:tex display="inline"><![CDATA[M' \subseteq  M]]></fr:tex> be the class of morphisms <fr:tex display="inline"><![CDATA[g]]></fr:tex> such that the corresponding <fr:tex display="inline"><![CDATA[h \in  A_{\text {inner}}]]></fr:tex>. Repeating the argument, we need to show <fr:tex display="inline"><![CDATA[M']]></fr:tex> is weakly saturated and contains all the boundary inclusions <fr:tex display="inline"><![CDATA[\partial  \Delta ^n \hookrightarrow  \Delta ^n]]></fr:tex>. This finally reduces the case to a concrete <fr:tex display="inline"><![CDATA[h]]></fr:tex>, given by <fr:tex display="inline"><![CDATA[\Lambda ^{n+m+1}_j \hookrightarrow  \Delta ^{n+m+1}]]></fr:tex>. Since we started with <fr:tex display="inline"><![CDATA[f]]></fr:tex> right anodyne, we will end up with <fr:tex display="inline"><![CDATA[0 < j \le  n < n+m+1]]></fr:tex>, so <fr:tex display="inline"><![CDATA[h]]></fr:tex> is obviously inner anodyne. The other claims are similarly reduced to making sure <fr:tex display="inline"><![CDATA[j]]></fr:tex> falls in the right range.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
@@ -62,7 +62,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>388</fr:anchor>
+            <fr:anchor>595</fr:anchor>
             <fr:addr type="user">htt-000B</fr:addr>
             <fr:route>htt-000B.xml</fr:route>
             <fr:title text="Join of (augmented) simplicial set">Join of (augmented) simplicial set</fr:title>
@@ -88,7 +88,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>390</fr:anchor>
+            <fr:anchor>597</fr:anchor>
             <fr:addr type="user">htt-000F</fr:addr>
             <fr:route>htt-000F.xml</fr:route>
             <fr:title text="Slice of augmented simplicial sets">Slice of augmented simplicial sets</fr:title>

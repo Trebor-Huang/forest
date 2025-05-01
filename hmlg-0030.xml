@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>987</fr:anchor>
+    <fr:anchor>1212</fr:anchor>
     <fr:addr type="user">hmlg-0030</fr:addr>
     <fr:route>hmlg-0030.xml</fr:route>
     <fr:title text="Phantom maps K({Q}, n)  K({Z}, n+1)">Phantom maps <fr:tex display="inline"><![CDATA[K(\mathbb {Q}, n) \to  K(\mathbb {Z}, n+1)]]></fr:tex></fr:title>
@@ -30,7 +30,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>989</fr:anchor>
+            <fr:anchor>1214</fr:anchor>
             <fr:addr type="user">hmlg-002Y</fr:addr>
             <fr:route>hmlg-002Y.xml</fr:route>
             <fr:title text="Ghost and phantom maps">Ghost and phantom maps</fr:title>
@@ -55,7 +55,7 @@
             <fr:p>Since homology preserves filtered colimits, every homology superphantom map comes from a phantom map, and vice versa. Similarly, we can extend this to ultraphantom maps. Therefore these three concepts collapse into one, and the phrases <fr:em>phantom maps</fr:em> and <fr:em>superphantom maps</fr:em> suffices to unambiguously refer to all of these concepts.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>973</fr:anchor>
+                <fr:anchor>1198</fr:anchor>
                 <fr:addr type="user">hmlg-0030</fr:addr>
                 <fr:route>hmlg-0030.xml</fr:route>
                 <fr:title text="Phantom maps K({Q}, n)  K({Z}, n+1)">Phantom maps <fr:tex display="inline"><![CDATA[K(\mathbb {Q}, n) \to  K(\mathbb {Z}, n+1)]]></fr:tex></fr:title>
@@ -78,7 +78,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>975</fr:anchor>
+                <fr:anchor>1200</fr:anchor>
                 <fr:addr type="user">hmlg-002Z</fr:addr>
                 <fr:route>hmlg-002Z.xml</fr:route>
                 <fr:title text="A superphantom map KU   H  Z">A superphantom map <fr:tex display="inline"><![CDATA[KU \to  \Sigma  H \mathbb  Z]]></fr:tex></fr:title>
@@ -97,7 +97,7 @@
               <fr:mainmatter><fr:p>For the complex <fr:tex display="inline"><![CDATA[K]]></fr:tex>-theory spectrum <fr:tex display="inline"><![CDATA[KU]]></fr:tex>, the integral homology is given by <fr:tex display="inline"><![CDATA[H_{2n} (K U) = \mathbb {Q}]]></fr:tex>, and the odd degrees are zero. Therefore <fr:tex display="inline"><![CDATA[H^1 (KU) = \operatorname {Ext}(\mathbb {Q}, \mathbb {Z})]]></fr:tex> by the universal coefficient theorem. Pick a non-zero map <fr:tex display="inline"><![CDATA[\theta  : KU \to  \Sigma  H \mathbb {Z}]]></fr:tex>. We claim it is a <fr:link type="local" href="hmlg-002Y.xml" addr="hmlg-002Y" title="Ghost and phantom maps">cohomology superphantom map</fr:link>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>967</fr:anchor><fr:addr type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1192</fr:anchor><fr:addr type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Consider any space <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Cohomology classes <fr:tex display="inline"><![CDATA[\omega  \in  KU(X)]]></fr:tex> correspond to (formal sums of) vector bundles on <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and the image in <fr:tex display="inline"><![CDATA[H^1 (X; \mathbb {Z})]]></fr:tex> assigns a characteristic class <fr:tex display="inline"><![CDATA[\theta (\omega )]]></fr:tex> for each vector bundle. Consider the universal example, the tautological bundle <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> on <fr:tex display="inline"><![CDATA[BU(n)]]></fr:tex>. All vector bundles come from the pullback of a map <fr:tex display="inline"><![CDATA[f : X \to  BU(n)]]></fr:tex>, and the characteristic class will also come from the pullback <fr:tex display="inline"><![CDATA[f^* \theta (\tau )]]></fr:tex> of the universal characteristic class. However, <fr:tex display="inline"><![CDATA[H^1 (BU(n)) = 0]]></fr:tex>, so this cohomology operation vanishes on all spaces.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
@@ -118,7 +118,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>991</fr:anchor>
+            <fr:anchor>1216</fr:anchor>
             <fr:addr type="user">hmlg-002Y</fr:addr>
             <fr:route>hmlg-002Y.xml</fr:route>
             <fr:title text="Ghost and phantom maps">Ghost and phantom maps</fr:title>
@@ -143,7 +143,7 @@
             <fr:p>Since homology preserves filtered colimits, every homology superphantom map comes from a phantom map, and vice versa. Similarly, we can extend this to ultraphantom maps. Therefore these three concepts collapse into one, and the phrases <fr:em>phantom maps</fr:em> and <fr:em>superphantom maps</fr:em> suffices to unambiguously refer to all of these concepts.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>973</fr:anchor>
+                <fr:anchor>1198</fr:anchor>
                 <fr:addr type="user">hmlg-0030</fr:addr>
                 <fr:route>hmlg-0030.xml</fr:route>
                 <fr:title text="Phantom maps K({Q}, n)  K({Z}, n+1)">Phantom maps <fr:tex display="inline"><![CDATA[K(\mathbb {Q}, n) \to  K(\mathbb {Z}, n+1)]]></fr:tex></fr:title>
@@ -166,7 +166,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>975</fr:anchor>
+                <fr:anchor>1200</fr:anchor>
                 <fr:addr type="user">hmlg-002Z</fr:addr>
                 <fr:route>hmlg-002Z.xml</fr:route>
                 <fr:title text="A superphantom map KU   H  Z">A superphantom map <fr:tex display="inline"><![CDATA[KU \to  \Sigma  H \mathbb  Z]]></fr:tex></fr:title>
@@ -185,7 +185,7 @@
               <fr:mainmatter><fr:p>For the complex <fr:tex display="inline"><![CDATA[K]]></fr:tex>-theory spectrum <fr:tex display="inline"><![CDATA[KU]]></fr:tex>, the integral homology is given by <fr:tex display="inline"><![CDATA[H_{2n} (K U) = \mathbb {Q}]]></fr:tex>, and the odd degrees are zero. Therefore <fr:tex display="inline"><![CDATA[H^1 (KU) = \operatorname {Ext}(\mathbb {Q}, \mathbb {Z})]]></fr:tex> by the universal coefficient theorem. Pick a non-zero map <fr:tex display="inline"><![CDATA[\theta  : KU \to  \Sigma  H \mathbb {Z}]]></fr:tex>. We claim it is a <fr:link type="local" href="hmlg-002Y.xml" addr="hmlg-002Y" title="Ghost and phantom maps">cohomology superphantom map</fr:link>.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>967</fr:anchor><fr:addr type="machine">#256</fr:addr><fr:route>unstable-256.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1192</fr:anchor><fr:addr type="machine">#265</fr:addr><fr:route>unstable-265.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>12</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
   <fr:p>Consider any space <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Cohomology classes <fr:tex display="inline"><![CDATA[\omega  \in  KU(X)]]></fr:tex> correspond to (formal sums of) vector bundles on <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and the image in <fr:tex display="inline"><![CDATA[H^1 (X; \mathbb {Z})]]></fr:tex> assigns a characteristic class <fr:tex display="inline"><![CDATA[\theta (\omega )]]></fr:tex> for each vector bundle. Consider the universal example, the tautological bundle <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> on <fr:tex display="inline"><![CDATA[BU(n)]]></fr:tex>. All vector bundles come from the pullback of a map <fr:tex display="inline"><![CDATA[f : X \to  BU(n)]]></fr:tex>, and the characteristic class will also come from the pullback <fr:tex display="inline"><![CDATA[f^* \theta (\tau )]]></fr:tex> of the universal characteristic class. However, <fr:tex display="inline"><![CDATA[H^1 (BU(n)) = 0]]></fr:tex>, so this cohomology operation vanishes on all spaces.</fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   

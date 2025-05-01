@@ -2,14 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>3489</fr:anchor>
+    <fr:anchor>3454</fr:anchor>
     <fr:addr type="machine">#276</fr:addr>
     <fr:route>unstable-276.xml</fr:route>
     <fr:taxon>Proof</fr:taxon>
     <fr:date>
       <fr:year>2024</fr:year>
       <fr:month>2</fr:month>
-      <fr:day>18</fr:day>
+      <fr:day>27</fr:day>
     </fr:date>
     <fr:authors>
       <fr:author>
@@ -18,11 +18,19 @@
     </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-  <fr:p>By the universal property of products and coproducts, a map from the coproduct of some objects <fr:tex display="inline"><![CDATA[X_i]]></fr:tex> to their product is given by a matrix of morphisms <fr:tex display="inline"><![CDATA[f_{ij} : X_i \to  X_j]]></fr:tex>. We choose the identity matrix
-    <fr:tex display="block"><![CDATA[f_{ij} = \begin {cases}       \textrm {id} & (i = j) \\       0 & (i \ne  j)     \end {cases}]]></fr:tex>
-    where <fr:tex display="inline"><![CDATA[0]]></fr:tex> is the additive neutral element in the abelian group <fr:tex display="inline"><![CDATA[\hom (X_i, X_j)]]></fr:tex>. This gives a canonical map <fr:tex display="inline"><![CDATA[\coprod _i X_i \to  \prod _i X_i]]></fr:tex>.</fr:p>
+  <fr:p>For this construction using the third equivalent definition of a chain reduction in <fr:ref addr="hmlg-001H" href="hmlg-001H.xml" taxon="Theorem" />, i.e. a homotopy operator on <fr:tex display="inline"><![CDATA[C]]></fr:tex> such that <fr:tex display="inline"><![CDATA[h \mathbin {\circ } h = 0]]></fr:tex> and <fr:tex display="inline"><![CDATA[h \mathbin {\circ } d_C \mathbin {\circ } h = h]]></fr:tex>.</fr:p>
 
-  <fr:p>When there are finitely many objects involved, we can construct an inverse. Consider the morphisms <fr:tex display="block"><![CDATA[\prod _i X_i \xrightarrow {\pi _j} X_j \xrightarrow {\iota _j} \coprod _i X_i.]]></fr:tex> We claim the sum of these morphisms is the desired inverse. To verify this, we compose them. Using bilinearity, we are reduced to showing that the coproduct and product of the identity map is the identity, which is true.</fr:p>
+  <fr:p>We need to construct a new homotopy operator such that <fr:tex display="inline"><![CDATA[h' \mathbin {\circ } h' = 0]]></fr:tex> and <fr:tex display="inline"><![CDATA[h' \mathbin {\circ } (d_C + \delta _C) \mathbin {\circ } h' = h']]></fr:tex>. We approach this through a “perturbative” mindset. Starting with <fr:tex display="inline"><![CDATA[h_0 = h]]></fr:tex>, the second equation is off by a difference of <fr:tex display="inline"><![CDATA[h_0 \delta _C h_0]]></fr:tex>. We simply add this as a correction term, <fr:tex display="inline"><![CDATA[h_1 = h_0 + \alpha  h_0 \delta _C h_0]]></fr:tex> where <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is some coefficient. (Note that essentially the only terms we can consider are of the form <fr:tex display="inline"><![CDATA[h_0 \delta _C h_0 \delta _C \cdots  h_0]]></fr:tex>, since nothing else has the same type.) We still have <fr:tex display="inline"><![CDATA[h_1 \mathbin {\circ } h_1 = 0]]></fr:tex>, and for the second equation this creates a new error term
+    <fr:tex display="block"><![CDATA[\begin {aligned}       &\quad  h_1 (d_C + \delta _C) h_1 - h_1 \\       &= (1 + \alpha ) h_0 \delta _C h_0 + 2 (\alpha  + \alpha ^2) h_0 \delta _C h_0 \delta _C h_0 + \alpha ^2 h_0 \delta _C h_0 \delta _C h_0 \delta _C h_0     \end {aligned}]]></fr:tex>
+    and we can eliminate the first and second order part by setting <fr:tex display="inline"><![CDATA[\alpha  = -1]]></fr:tex>. The natural next step would be to add a further correction <fr:tex display="inline"><![CDATA[h_2 = h_1 + \beta  h_0 \delta _C h_0 \delta _C h_0]]></fr:tex>. This turns out to require <fr:tex display="inline"><![CDATA[\beta  = +1]]></fr:tex>, and so on.</fr:p>
+
+  <fr:p>From the informal discussion above, we can conjecture the formula
+    <fr:tex display="block"><![CDATA[h' = \sum _{k=0}^\infty  (-1)^k (h \delta _C)^k h.]]></fr:tex>
+    This reveals the reason for our pointwise nilpotency condition. With a little bit of care manipulating the infinite sum, we can prove that <fr:tex display="inline"><![CDATA[h' \mathbin {\circ } h' = 0]]></fr:tex> from <fr:tex display="inline"><![CDATA[h \mathbin {\circ } h = 0]]></fr:tex>, and the second equation follows from a nice telescopic sum
+    <fr:tex display="block"><![CDATA[\begin {aligned}       h' \mathbin {\circ } (d_C + \delta _C) \mathbin {\circ } h'       &= \sum _{i, j} (-1)^{i + j} (h \delta _C)^i h (d_C + \delta _C) (h \delta _C)^j h \\       &= \sum _{i, j} (-1)^{i + j} \left [(h \delta _C)^{i + j + 1} h + (h \delta _C)^{i + j} h\right ] \\       &= \sum _{k} (k+1) (-1)^k \left [(h \delta _C)^{k + 1} h + (h \delta _C)^k h\right ] \\       &= \sum _k (-1)^k (h \delta _C)^k h = h'.     \end {aligned}]]></fr:tex></fr:p>
+
+  <fr:p>We can reconstruct the other two components of the reduction <fr:tex display="inline"><![CDATA[\iota _{\rho '}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\pi _{\rho '}]]></fr:tex> through <fr:ref addr="hmlg-001H" href="hmlg-001H.xml" taxon="Theorem" />. In particular, <fr:tex display="inline"><![CDATA[D']]></fr:tex> is given by a perturbation of <fr:tex display="inline"><![CDATA[D]]></fr:tex>. We only write down the results below for easy reference.
+    <fr:tex display="block"><![CDATA[\begin {aligned}     \pi _{\rho '} &= \sum _{k=0}^\infty  (-1)^k \pi _{\rho } (\delta _C h_{\rho })^k \\     \iota _{\rho '} &= \sum _{k=0}^\infty  (-1)^k (h_{\rho } \delta _C)^k \iota _{\rho } \\     \delta _D &= \sum _{k=0}^\infty  (-1)^k \pi _{\rho } \delta _C (h_{\rho } \delta _C)^k \iota _{\rho }.     \end {aligned}]]></fr:tex></fr:p>
 </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -33,15 +41,15 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>3491</fr:anchor>
-            <fr:addr type="user">hmlg-000P</fr:addr>
-            <fr:route>hmlg-000P.xml</fr:route>
-            <fr:title text="Additive category">Additive category</fr:title>
-            <fr:taxon>Definition</fr:taxon>
+            <fr:anchor>3456</fr:anchor>
+            <fr:addr type="user">hmlg-001G</fr:addr>
+            <fr:route>hmlg-001G.xml</fr:route>
+            <fr:title text="Perturbation of the larger chain complex in a chain reduction"><fr:link type="local" href="hmlg-001G.xml" addr="hmlg-001G" title="Perturbation of the larger chain complex in a chain reduction">Perturbation</fr:link> of the larger chain complex in a <fr:link type="local" href="hmlg-0017.xml" addr="hmlg-0017" title="Chain reduction">chain reduction</fr:link></fr:title>
+            <fr:taxon>Construction</fr:taxon>
             <fr:date>
               <fr:year>2024</fr:year>
               <fr:month>2</fr:month>
-              <fr:day>18</fr:day>
+              <fr:day>27</fr:day>
             </fr:date>
             <fr:authors>
               <fr:author>
@@ -49,15 +57,23 @@
               </fr:author>
             </fr:authors>
           </fr:frontmatter>
-          <fr:mainmatter><fr:p>Let <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> be <fr:link type="local" href="hmlg-000O.xml" addr="hmlg-000O" title="{Ab}-enriched category"><fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched</fr:link>. The finite products and coproducts, if they exist, are isomorphic via a canonical map. If they all exist, then this category is called an <fr:strong>additive category</fr:strong>. In particular, the nullary product and coproduct coincide, and we call the object <fr:strong>zero object</fr:strong>, denoted <fr:tex display="inline"><![CDATA[0]]></fr:tex>.</fr:p>
+          <fr:mainmatter><fr:p>Given a reduction <fr:tex display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex> and a perturbation <fr:tex display="inline"><![CDATA[\delta _C]]></fr:tex> for <fr:tex display="inline"><![CDATA[C]]></fr:tex>, we assume that <fr:tex display="inline"><![CDATA[h_{\rho } \mathbin {\circ } \delta _C]]></fr:tex> is pointwise nilpotent, i.e. <fr:tex display="block"><![CDATA[\forall  c \in  C_k, \exists  n \in  \mathbb {N}, \; (h_{\rho }\delta _C)^n (c) = 0.]]></fr:tex> We can construct a new chain reduction <fr:tex display="inline"><![CDATA[\rho ' : C' \Rightarrow \mkern {-14mu}\Rightarrow  D']]></fr:tex>, where <fr:tex display="inline"><![CDATA[C']]></fr:tex> is <fr:tex display="inline"><![CDATA[C]]></fr:tex> perturbed by <fr:tex display="inline"><![CDATA[\delta _C]]></fr:tex>.</fr:p><fr:p>Note that this situation is much harder compared to <fr:ref addr="hmlg-001E" href="hmlg-001E.xml" taxon="Construction" />, as it is generally impossible without the added condition.</fr:p>
   
     
-    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>1713</fr:anchor><fr:addr type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
-  <fr:p>By the universal property of products and coproducts, a map from the coproduct of some objects <fr:tex display="inline"><![CDATA[X_i]]></fr:tex> to their product is given by a matrix of morphisms <fr:tex display="inline"><![CDATA[f_{ij} : X_i \to  X_j]]></fr:tex>. We choose the identity matrix
-    <fr:tex display="block"><![CDATA[f_{ij} = \begin {cases}       \textrm {id} & (i = j) \\       0 & (i \ne  j)     \end {cases}]]></fr:tex>
-    where <fr:tex display="inline"><![CDATA[0]]></fr:tex> is the additive neutral element in the abelian group <fr:tex display="inline"><![CDATA[\hom (X_i, X_j)]]></fr:tex>. This gives a canonical map <fr:tex display="inline"><![CDATA[\coprod _i X_i \to  \prod _i X_i]]></fr:tex>.</fr:p>
+    <fr:tree toc="false" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>2541</fr:anchor><fr:addr type="machine">#276</fr:addr><fr:route>unstable-276.xml</fr:route><fr:taxon>Proof</fr:taxon><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>27</fr:day></fr:date><fr:authors><fr:author><fr:link type="local" href="trebor.xml" addr="trebor" title="Trebor">Trebor</fr:link></fr:author></fr:authors></fr:frontmatter><fr:mainmatter>
+  <fr:p>For this construction using the third equivalent definition of a chain reduction in <fr:ref addr="hmlg-001H" href="hmlg-001H.xml" taxon="Theorem" />, i.e. a homotopy operator on <fr:tex display="inline"><![CDATA[C]]></fr:tex> such that <fr:tex display="inline"><![CDATA[h \mathbin {\circ } h = 0]]></fr:tex> and <fr:tex display="inline"><![CDATA[h \mathbin {\circ } d_C \mathbin {\circ } h = h]]></fr:tex>.</fr:p>
 
-  <fr:p>When there are finitely many objects involved, we can construct an inverse. Consider the morphisms <fr:tex display="block"><![CDATA[\prod _i X_i \xrightarrow {\pi _j} X_j \xrightarrow {\iota _j} \coprod _i X_i.]]></fr:tex> We claim the sum of these morphisms is the desired inverse. To verify this, we compose them. Using bilinearity, we are reduced to showing that the coproduct and product of the identity map is the identity, which is true.</fr:p>
+  <fr:p>We need to construct a new homotopy operator such that <fr:tex display="inline"><![CDATA[h' \mathbin {\circ } h' = 0]]></fr:tex> and <fr:tex display="inline"><![CDATA[h' \mathbin {\circ } (d_C + \delta _C) \mathbin {\circ } h' = h']]></fr:tex>. We approach this through a “perturbative” mindset. Starting with <fr:tex display="inline"><![CDATA[h_0 = h]]></fr:tex>, the second equation is off by a difference of <fr:tex display="inline"><![CDATA[h_0 \delta _C h_0]]></fr:tex>. We simply add this as a correction term, <fr:tex display="inline"><![CDATA[h_1 = h_0 + \alpha  h_0 \delta _C h_0]]></fr:tex> where <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> is some coefficient. (Note that essentially the only terms we can consider are of the form <fr:tex display="inline"><![CDATA[h_0 \delta _C h_0 \delta _C \cdots  h_0]]></fr:tex>, since nothing else has the same type.) We still have <fr:tex display="inline"><![CDATA[h_1 \mathbin {\circ } h_1 = 0]]></fr:tex>, and for the second equation this creates a new error term
+    <fr:tex display="block"><![CDATA[\begin {aligned}       &\quad  h_1 (d_C + \delta _C) h_1 - h_1 \\       &= (1 + \alpha ) h_0 \delta _C h_0 + 2 (\alpha  + \alpha ^2) h_0 \delta _C h_0 \delta _C h_0 + \alpha ^2 h_0 \delta _C h_0 \delta _C h_0 \delta _C h_0     \end {aligned}]]></fr:tex>
+    and we can eliminate the first and second order part by setting <fr:tex display="inline"><![CDATA[\alpha  = -1]]></fr:tex>. The natural next step would be to add a further correction <fr:tex display="inline"><![CDATA[h_2 = h_1 + \beta  h_0 \delta _C h_0 \delta _C h_0]]></fr:tex>. This turns out to require <fr:tex display="inline"><![CDATA[\beta  = +1]]></fr:tex>, and so on.</fr:p>
+
+  <fr:p>From the informal discussion above, we can conjecture the formula
+    <fr:tex display="block"><![CDATA[h' = \sum _{k=0}^\infty  (-1)^k (h \delta _C)^k h.]]></fr:tex>
+    This reveals the reason for our pointwise nilpotency condition. With a little bit of care manipulating the infinite sum, we can prove that <fr:tex display="inline"><![CDATA[h' \mathbin {\circ } h' = 0]]></fr:tex> from <fr:tex display="inline"><![CDATA[h \mathbin {\circ } h = 0]]></fr:tex>, and the second equation follows from a nice telescopic sum
+    <fr:tex display="block"><![CDATA[\begin {aligned}       h' \mathbin {\circ } (d_C + \delta _C) \mathbin {\circ } h'       &= \sum _{i, j} (-1)^{i + j} (h \delta _C)^i h (d_C + \delta _C) (h \delta _C)^j h \\       &= \sum _{i, j} (-1)^{i + j} \left [(h \delta _C)^{i + j + 1} h + (h \delta _C)^{i + j} h\right ] \\       &= \sum _{k} (k+1) (-1)^k \left [(h \delta _C)^{k + 1} h + (h \delta _C)^k h\right ] \\       &= \sum _k (-1)^k (h \delta _C)^k h = h'.     \end {aligned}]]></fr:tex></fr:p>
+
+  <fr:p>We can reconstruct the other two components of the reduction <fr:tex display="inline"><![CDATA[\iota _{\rho '}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\pi _{\rho '}]]></fr:tex> through <fr:ref addr="hmlg-001H" href="hmlg-001H.xml" taxon="Theorem" />. In particular, <fr:tex display="inline"><![CDATA[D']]></fr:tex> is given by a perturbation of <fr:tex display="inline"><![CDATA[D]]></fr:tex>. We only write down the results below for easy reference.
+    <fr:tex display="block"><![CDATA[\begin {aligned}     \pi _{\rho '} &= \sum _{k=0}^\infty  (-1)^k \pi _{\rho } (\delta _C h_{\rho })^k \\     \iota _{\rho '} &= \sum _{k=0}^\infty  (-1)^k (h_{\rho } \delta _C)^k \iota _{\rho } \\     \delta _D &= \sum _{k=0}^\infty  (-1)^k \pi _{\rho } \delta _C (h_{\rho } \delta _C)^k \iota _{\rho }.     \end {aligned}]]></fr:tex></fr:p>
 </fr:mainmatter><fr:backmatter /></fr:tree>
   
 </fr:mainmatter>
