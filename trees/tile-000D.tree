@@ -2,7 +2,7 @@
 \title{neighborhood relation on Conway signatures}
 \author{trebor}
 \import{common}
-\taxon{definition}
+\taxon{Definition}
 
 \p{
   Given a [[tile-0004]], two infinite [Conway signatures](tile-0006) #{\Sigma_1, \Sigma_2}, and an edge label #{\epsilon_1, \epsilon_2} for each signature, we define a neighborhood relation, denoted as #{\Sigma_1 \xrightleftharpoons[\epsilon_2]{\epsilon_1} \Sigma_2}. It holds if and only if, for every natural number #{n}, there exists finite signatures #{\Sigma'_1}, #{\Sigma'_2} that agree with #{\Sigma_1} and #{\Sigma_2} at the first #{n} places, and the [[tile-0007]] sends #{(\Sigma'_1, \epsilon_1)} to #{(\Sigma'_2, \epsilon_2)}.

@@ -2,7 +2,7 @@
 \title{Conway signature}
 \author{trebor}
 \import{common}
-\taxon{definition}
+\taxon{Definition}
 
 \p{
   Assume we have a [[tile-0004]] with unique inflation. For a tile #{t} in a tiling, we can inflate the tiling to find #{t} as a subtile in an inflated tile #{t_1}. If we give a unique number to each subtile in a substitution system, we can write this as #{t \xrightarrow{n_1} t_1}, meaning #{t} is the #{n_1}-th subtile. This process can be repeated, generating an infinite path

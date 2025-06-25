@@ -2,7 +2,7 @@
 \title{weak factorization system}
 \author{trebor}
 \import{common}
-\taxon{definition}
+\taxon{Definition}
 
 \p{
   Given two classes of maps #{\mathcal{L}, \mathcal{R}} in a category, it is a \strong{weak factorization system} if every morphism #{f : X \to Y} factorizes as ##{X \xto{\mathcal{L}} Z \xto{\mathcal{R}} Y,} and a morphism belongs to #{\mathcal{L}} iff it left lifts against every morphism in #{\mathcal{R}}, and vice versa.

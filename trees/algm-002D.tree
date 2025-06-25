@@ -3,7 +3,7 @@
 \author{trebor}
 \import{common}
 \import{wave}
-\taxon{definition}
+\taxon{Definition}
 
 \p{
   For a [[algm-0025]] #{\CatVar{C}}, we can define a functor #{\ro : \CatVar{C} \to \Cat{Psh}(\CatVar{C})} that will serve as the double left adjoint of #{\yo} iff the category is actually a [[algm-0028]]. Since #{\yo(X)(Y) = \hom(Y, X)}, we similarly define #{\ro(X)(Y) = \wave(Y, X)}, and call the elements \strong{waves}.

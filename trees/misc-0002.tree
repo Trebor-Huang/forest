@@ -2,7 +2,7 @@
 \title{Hopf algebra}
 \author{trebor}
 \import{common}
-\taxon{definition}
+\taxon{Definition}
 
 \p{
   Given a vector space #{V}, we can equip #{V} with the structure of an associative algebra, given by multilinear maps #{V^{\otimes m} \to V}, usually written as juxtaposition. We can also equip #{V} with the structure of an coassociative coalgebra, given by maps #{V \to V^{\otimes m}}. We write the comultiplication as #{\Delta : V \to V \otimes V}, and the counit #{\epsilon : V \to \Bbbk}. When multiplication and comultiplication distribute over each other, we call the structure a \strong{bialgebra}.

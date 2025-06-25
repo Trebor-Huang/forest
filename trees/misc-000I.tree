@@ -2,7 +2,7 @@
 \title{limits of regular languages are deterministic Büchi recognizable}
 \author{trebor}
 \import{common}
-\taxon{theorem}
+\taxon{Theorem}
 
 \p{
   Given a regular language #{\mathcal{L}}, its [limit](misc-000H) #{\lim \mathcal{L}} can be recognized by a deterministic Büchi automaton, by simply regarding a DFA for #{\mathcal{L}} as a Büchi automaton. In fact, every deterministic Büchi recognizable #{\omega}-language is of this form.

@@ -2,7 +2,7 @@
 \title{Presheaf category over a small category is totally distributive}
 \author{trebor}
 \import{common}
-\taxon{example}
+\taxon{Example}
 
 \p{
   A presheaf category over a small categroy #{\CatVar{C}} is not only a [[algm-0025]], as proven in \ref{algm-002A}, but also a [[algm-0028]]. This is because #{\yo^*} has a left adjoint #{\yo_!} a.k.a. the left Kan extension. We need to be careful because #{\Cat{Psh}^2 (\CatVar{C})} is not locally small. The colimit formula for (pointwise) left Kan extensions is

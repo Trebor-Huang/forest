@@ -2,7 +2,7 @@
 \title{recursive neighborhood algorithm}
 \author{trebor}
 \import{common}
-\taxon{algorithm}
+\taxon{Algorithm}
 
 \p{
   Suppose we have a [[tile-0004]]. Given the [[tile-0006]] of a tile #{t} and an edge label #{\epsilon} of that tile, we can calculate the signature of the neighboring tile #{t'} and the edge label #{\epsilon'} of #{t'} that coincides with #{\epsilon}. This is implemented by mutual recursion with another auxiliary function. Given the signature of a tile and a subedge of that tile under deflation, it calculates the signature of the subtile #{t'} we will arrive in if we cross the subedge inwards, and the edge label of #{t'} corresponding to the input subedge.

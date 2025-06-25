@@ -3,7 +3,7 @@
 \author{trebor}
 \import{common}
 \import{wave}
-\taxon{example}
+\taxon{Example}
 
 \p{
   Given a small category #{\CatVar{C}}, the locally small category #{\Cat{Psh}(\CatVar{C})} is a [[algm-0025]]. In fact, the left adjoint to #{\yo : \Cat{Psh}(\CatVar{C}) \to \Cat{Psh}^2(\CatVar{C})} is given by #{\yo^*}, i.e. the map that sends the double presheaf #{R} to the presheaf #{X \mapsto R(\yo(X))}.

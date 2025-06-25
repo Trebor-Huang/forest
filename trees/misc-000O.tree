@@ -2,7 +2,7 @@
 \title{induction of reversible languages}
 \author{trebor}
 \import{common}
-\taxon{algorithm}
+\taxon{Algorithm}
 
 \p{
   This algorithm is described in [[inference-of-reversible-languages]]. It inputs a set of example strings in a [[misc-000M]], and outputs a finite [[misc-000L]]. The soundness proof is given as Theorem 26, and if the input enumerates all the strings in the language, then the output is guaranteed to converge to the correct minimal DFA at a finite stage by Theorem 27. Note that obviously we cannot algorithmically determine whether it has converged or not, without further information.

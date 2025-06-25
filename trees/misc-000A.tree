@@ -2,7 +2,7 @@
 \title{Drinfeld double}
 \author{trebor}
 \import{common}
-\taxon{definition}
+\taxon{Definition}
 
 \p{
   Given a [[misc-0002]] #{H} with [invertible antipode](misc-0003), we construct another Hopf algebra #{D(H)} on the vector space #{(H^\op)^\circ \otimes H}, where #{H^\op} is the [[misc-0008]], and #{H^\circ} is the [Sweedler dual](misc-0009). We define the unit to be #{1 \otimes 1}, the counit as #{\epsilon(f \otimes a) = \epsilon(a) \cdot f(1)}, and the antipode #{S^D(f \otimes a) = S^\circ (f) \otimes S(a)}. The comultiplication ##{\Delta^D (f \otimes a) = \sum_{i j} (g_i \otimes b_j) \otimes (h_i \otimes c_j)} where #{\Delta^\circ (f) = \sum_i g_i \otimes h_i}, and #{\Delta (a) = \sum_j b_j \otimes c_j}. We let

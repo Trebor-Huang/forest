@@ -2,7 +2,7 @@
 \title{hull of set of tilings}
 \author{trebor}
 \import{common}
-\taxon{definition}
+\taxon{Definition}
 
 \p{
   Given a set #{\mathscr{S}} of (possibly incomplete) tilings of the plane, its \strong{hull} #{\overline{\mathscr{S}}} is the set of complete tilings #{T}, such that given an arbitrarily large disk #{D \subseteq \mathbb{R}^2}, the patch of tiles in #{T} intersecting #{D} appears inside a tiling #{T' \in \mathscr{S}}, up to translation.

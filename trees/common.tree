@@ -8,7 +8,7 @@
   \scope{
     \put\transclude/toc{false}
     \subtree{
-      \taxon{proof}
+      \taxon{Proof}
       \body
     }
   }
@@ -17,7 +17,7 @@
 % ===== TeX embeddings
 % Since the main styling uses 12pt, we change the font to fit
 % Also we give a little more space to avoid clipping
-\def\tikz[body]{
+\def\tikz[~body]{
   \<html:span>[class]{tikz}{
     \tex{
       \startverb
@@ -25,19 +25,19 @@
       \usetikzlibrary{decorations.pathreplacing}
       \stopverb
     }{
-      \begin{tikzpicture}\body\end{tikzpicture}
+      \begin{tikzpicture}\body{}\end{tikzpicture}
     }
   }
 }
 
-\def\tikzcd[body]{
+\def\tikzcd[~body]{
   \<html:span>[class]{tikz tikzcd}{
     \tex{
       \startverb
       \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
       \stopverb
     }{
-      \begin{tikzcd}\body\end{tikzcd}
+      \begin{tikzcd}\body{}\end{tikzcd}
     }
   }
 }

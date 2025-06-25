@@ -2,7 +2,7 @@
 \title{phantom maps #{K(\mathbb{Q}, n) \to K(\mathbb{Z}, n+1)}}
 \author{trebor}
 \import{common}
-\taxon{example}
+\taxon{Example}
 
 \p{
   By construction, the homotopy classes of maps #{f : K(\mathbb{Q}, n) \to K(\mathbb{Z}, n+1)} corresponds to elements #{\Ext(\mathbb{Q}, \mathbb{Z})}. However, any map from a finite CW-complex into #{K(\mathbb{Q}, n)} lifts to #{K(A, n)} where #{A \subseteq \mathbb{Q}} is finitely generated. But #{\Ext(A, \mathbb{Z}) = 0}. This means #{f} is a [ghost](hmlg-002Y), and consequently a [phantom](hmlg-002Y) #{H \mathbb{Q} \to \Sigma H \mathbb{Z}}.

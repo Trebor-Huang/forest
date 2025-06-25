@@ -2,7 +2,7 @@
 \title{pinched homotopy}
 \author{trebor}
 \import{common}
-\taxon{theorem}
+\taxon{Theorem}
 
 \p{
   Given a simplicial map #{f : X \to Y} and two #{n}-simplices #{a, b} in #{X} such that #{\partial a = \partial b} and #{f(a) = f(b)}, a #{k}-\strong{pinched homotopy} between them is an #{(n+1)}-simplex #{x} such that the #{k}-th and #{(k+1)}-th faces are #{a} and #{b}, the rest of the faces are suitably degenerate, and #{f(x)} is equal to #{f(a)} and #{f(b)} but degenerate at the #{k}-th position. All pinched homotopy relations coincide with the [one-step homotopy relation](htt-000O) in a [Kan fibration](htt-000H).

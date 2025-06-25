@@ -2,7 +2,7 @@
 \title{Myhill–Nerode automaton}
 \author{trebor}
 \import{common}
-\taxon{construction}
+\taxon{Construction}
 
 \p{
   For any language #{\mathcal{L} \subseteq \Sigma^*}, the \strong{Myhill–Nerode automaton} of #{\mathcal{L}} is a deterministic automata (possibly with infinitely many states) that recognizes #{\mathcal{L}}. The language #{\mathcal{L}} is regular iff there are only finitely many [[misc-000J]] classes of #{\mathcal{L}}. In this case, the automaton is the unique minimal DFA for #{\mathcal{L}}.

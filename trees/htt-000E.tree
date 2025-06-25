@@ -2,7 +2,7 @@
 \title{slice of simplicial sets}
 \author{trebor}
 \import{common}
-\taxon{definition}
+\taxon{Definition}
 
 \p{
   Given a simplicial set #{Y} and a vertex #{p : 1 \to Y}, we define the \strong{slice} simplicial set #{Y_{/p}} by the universal property that maps #{K \to Y_{/p}} are in natural bijection with maps #{K^{\cocone} \to Y} from the [cocone](htt-000C) such that the cocone point is mapped to #{p}.

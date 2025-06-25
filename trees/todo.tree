@@ -1,8 +1,9 @@
 \title{Unfinished trees}
-\taxon{meta}
+\taxon{Meta}
 
 \p{Here are the unfinished trees. The links not written is also shown in the backlinks section.}
 
-\query{
-  \query/tag{unfinished}
+\query\datalog{
+ ?X -:
+   {\rel/has-tag ?X '{unfinished}}
 }

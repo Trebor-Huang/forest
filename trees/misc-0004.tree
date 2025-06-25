@@ -2,7 +2,7 @@
 \title{tensor product and dual of Hopf algebra representations}
 \author{trebor}
 \import{common}
-\taxon{definition}
+\taxon{Definition}
 
 \p{
   Given a [[misc-0002]] #{H}, its representations (i.e. left modules of #{H} considered as an associative algebra) have a monoidal structure. The underlying vector space is given by the tensor product of vector spaces, and the module structure #{\rho_{V_1 \otimes V_2} : H \otimes (V_1 \otimes V_2) \to V_1 \otimes V_2} is given by the comultiplication: Suppose #{\Delta(a) = \sum_i b_i \otimes c_i}, then

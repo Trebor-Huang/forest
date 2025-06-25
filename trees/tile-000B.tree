@@ -2,7 +2,7 @@
 \title{infinite walls}
 \author{trebor}
 \import{common}
-\taxon{example}
+\taxon{Example}
 
 \p{
   Consider the substitution system of [[tile-0005]]. Take the cyclic [[tile-0006]]
@@ -12,7 +12,7 @@
   This repeatedly selects the thin #{36\degree} subtile on the left. No matter how many times we use the substitution rules, the selected thin rhomb will not have a neighbor.
 }
 
-\<html:img>[src]{penrose-infinite-wall-cyclic.svg}{}
+\<html:img>[src]{\route-asset{assets/penrose-infinite-wall-cyclic.svg}}{}
 
 \p{
   However, after any finite length of this Conway signature, we can replace the rest of the signature with
