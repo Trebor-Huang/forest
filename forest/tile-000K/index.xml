@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>24</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/tile-000K/</fr:uri>
+    <fr:display-uri>tile-000K</fr:display-uri>
+    <fr:route>/forest/tile-000K/</fr:route>
+    <fr:title text="Distribution of Conway signatures">Distribution of Conway signatures</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Given a <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link>, there is a canonical probability distribution on the set of tilings with a vertex at the origin. Consider the <html:strong>substitution matrix</html:strong> <fr:tex display="inline"><![CDATA[(a_{ij})]]></fr:tex>, where <fr:tex display="inline"><![CDATA[i, j]]></fr:tex> are labels of prototiles, and <fr:tex display="inline"><![CDATA[a_{ij}]]></fr:tex> is the number of times the tile <fr:tex display="inline"><![CDATA[i]]></fr:tex> appears in <fr:tex display="inline"><![CDATA[j]]></fr:tex>. When, for example, <fr:tex display="inline"><![CDATA[a_{ij} > 0]]></fr:tex> for all entries, there is a unique positive eigenvector <fr:tex display="inline"><![CDATA[v]]></fr:tex>. We can then use <fr:tex display="inline"><![CDATA[v_i]]></fr:tex> as the weight for selecting a tile of type <fr:tex display="inline"><![CDATA[i]]></fr:tex> in each step.
+</html:p>
+    <html:p>
+  Taking the example of <fr:link href="/forest/tile-0005/" title="Penrose rhombs" uri="https://trebor-huang.github.io/forest/tile-0005/" display-uri="tile-0005" type="local">Penrose rhombs</fr:link>, the substitution matrix is <fr:tex display="block"><![CDATA[\begin {pmatrix}
+    2 & 1 \\
+    1 & 1
+  \end {pmatrix}]]></fr:tex>
+  with the unique positive eigenvector <fr:tex display="inline"><![CDATA[v_1 = \frac {1+\sqrt {5}}{2} = \varphi ]]></fr:tex>, <fr:tex display="inline"><![CDATA[v_2 = 1]]></fr:tex>. So given a thick rhomb, we have probability <fr:tex display="inline"><![CDATA[\varphi  /(2\varphi  + 1) = 1/\varphi ^2]]></fr:tex> to select a thick rhomb in its deflated subtiles, and <fr:tex display="inline"><![CDATA[1/(2\varphi +1) = 1/\varphi ^3]]></fr:tex> probability to select the thin rhomb. This defines a Markov process, with steady state distribution also given by <fr:tex display="inline"><![CDATA[v]]></fr:tex> (normalized so the entries sum to <fr:tex display="inline"><![CDATA[1]]></fr:tex>).
+</html:p>
+    <html:p>
+  However, we usually need to generate the signature in the backwards direction, i.e. from small to big. For this, we just invert the Markov process. Given a prototile <fr:tex display="inline"><![CDATA[i]]></fr:tex>, the probability of it being the <fr:tex display="inline"><![CDATA[s]]></fr:tex>-th subtile of <fr:tex display="inline"><![CDATA[j]]></fr:tex> is given by <fr:tex display="inline"><![CDATA[v_j / v_i]]></fr:tex> times the corresponding probability in the forwards direction.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>22</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-000I/</fr:uri>
+            <fr:display-uri>tile-000I</fr:display-uri>
+            <fr:route>/forest/tile-000I/</fr:route>
+            <fr:title text="Seed generation">Seed generation</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  There are multiple ways to generate an initial <fr:link href="/forest/tile-0006/" title="Conway signature" uri="https://trebor-huang.github.io/forest/tile-0006/" display-uri="tile-0006" type="local">Conway signature</fr:link>. If we want to randomly generate a typical tiling according to some natural probability distribution, we can try to calculate the corresponding probability distribution on the signatures. We will also discuss some special eventually periodic signatures, whose tiling exhibit interesting features, such as rotational (or almost rotational) symmetry, fractal structures, and Conway worms, i.e. two similar tilings differing only on a narrow stripe of tiles. In addition, if we see a picture of some tiling in the wild, we may want to calculate Conway signatures that lead to this tiling, even when it is originally generated using a different or unknown technique.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>24</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/tile-000K/</fr:uri>
+                <fr:display-uri>tile-000K</fr:display-uri>
+                <fr:route>/forest/tile-000K/</fr:route>
+                <fr:title text="Distribution of Conway signatures">Distribution of Conway signatures</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Given a <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link>, there is a canonical probability distribution on the set of tilings with a vertex at the origin. Consider the <html:strong>substitution matrix</html:strong> <fr:tex display="inline"><![CDATA[(a_{ij})]]></fr:tex>, where <fr:tex display="inline"><![CDATA[i, j]]></fr:tex> are labels of prototiles, and <fr:tex display="inline"><![CDATA[a_{ij}]]></fr:tex> is the number of times the tile <fr:tex display="inline"><![CDATA[i]]></fr:tex> appears in <fr:tex display="inline"><![CDATA[j]]></fr:tex>. When, for example, <fr:tex display="inline"><![CDATA[a_{ij} > 0]]></fr:tex> for all entries, there is a unique positive eigenvector <fr:tex display="inline"><![CDATA[v]]></fr:tex>. We can then use <fr:tex display="inline"><![CDATA[v_i]]></fr:tex> as the weight for selecting a tile of type <fr:tex display="inline"><![CDATA[i]]></fr:tex> in each step.
+</html:p>
+                <html:p>
+  Taking the example of <fr:link href="/forest/tile-0005/" title="Penrose rhombs" uri="https://trebor-huang.github.io/forest/tile-0005/" display-uri="tile-0005" type="local">Penrose rhombs</fr:link>, the substitution matrix is <fr:tex display="block"><![CDATA[\begin {pmatrix}
+    2 & 1 \\
+    1 & 1
+  \end {pmatrix}]]></fr:tex>
+  with the unique positive eigenvector <fr:tex display="inline"><![CDATA[v_1 = \frac {1+\sqrt {5}}{2} = \varphi ]]></fr:tex>, <fr:tex display="inline"><![CDATA[v_2 = 1]]></fr:tex>. So given a thick rhomb, we have probability <fr:tex display="inline"><![CDATA[\varphi  /(2\varphi  + 1) = 1/\varphi ^2]]></fr:tex> to select a thick rhomb in its deflated subtiles, and <fr:tex display="inline"><![CDATA[1/(2\varphi +1) = 1/\varphi ^3]]></fr:tex> probability to select the thin rhomb. This defines a Markov process, with steady state distribution also given by <fr:tex display="inline"><![CDATA[v]]></fr:tex> (normalized so the entries sum to <fr:tex display="inline"><![CDATA[1]]></fr:tex>).
+</html:p>
+                <html:p>
+  However, we usually need to generate the signature in the backwards direction, i.e. from small to big. For this, we just invert the Markov process. Given a prototile <fr:tex display="inline"><![CDATA[i]]></fr:tex>, the probability of it being the <fr:tex display="inline"><![CDATA[s]]></fr:tex>-th subtile of <fr:tex display="inline"><![CDATA[j]]></fr:tex> is given by <fr:tex display="inline"><![CDATA[v_j / v_i]]></fr:tex> times the corresponding probability in the forwards direction.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  (...) discussion of cyclic signatures and their fractal structure
+</html:p>
+            <html:p>
+  (...) signature finder
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>19</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-0005/</fr:uri>
+            <fr:display-uri>tile-0005</fr:display-uri>
+            <fr:route>/forest/tile-0005/</fr:route>
+            <fr:title text="Penrose rhombs">Penrose rhombs</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  The <html:strong>Penrose rhombs</html:strong> form a <fr:link href="/forest/tile-0003/" title="tile system" uri="https://trebor-huang.github.io/forest/tile-0003/" display-uri="tile-0003" type="local">tile system</fr:link>. It consists of two prototiles, the thick and thin rhombuses. They have the same side length, and has an internal angle of <fr:tex display="inline"><![CDATA[2\pi  / 5]]></fr:tex> and <fr:tex display="inline"><![CDATA[\pi  / 5]]></fr:tex>, respectively. The colors of the edges are <fr:tex display="inline"><![CDATA[±c_1, ±c_2]]></fr:tex> as drawn below.
+</html:p><html:p>
+  This comes with a <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link>, depicted as follows.
+</html:p>
+  <html:span class="tikz">
+    <fr:resource hash="3e630065382a66b7824527fdefdee24e"><fr:resource-content><html:img src="/forest/3e630065382a66b7824527fdefdee24e.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
+      \usetikzlibrary{decorations.pathreplacing}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzpicture}[scale=1.5]
+  \tikzset {every path/.style={thick, line join=bevel, fill opacity=0.5, font=\footnotesize }}
+  \draw [fill=blue]
+    (-2, 2)
+      -- ++(144:1) node[pos=0.3, above=4pt, fill opacity=1] {$+c_1$}
+      -- ++(-144:1) node[pos=0.7, above=4pt, fill opacity=1] {$+c_2$}
+      -- ++(-36:1) node[pos=0.3, below=4pt, fill opacity=1] {$-c_2$}
+      -- ++(36:1) node[pos=0.7, below=4pt, fill opacity=1] {$-c_1$}
+      -- cycle;
+  \node [fill opacity=1] at (-0.8, 2) {$\implies $};
+  \draw [fill=blue]
+    (2, 2) -- ++(0:1) node (a2) {} -- ++(108:1) -- ++(180:1) -- ++(-72:1) -- cycle;
+  \draw [fill=cyan]
+    (2, 2) -- ++(108:1) node (a3) {} -- ++(144:1) -- ++(-72:1) -- ++(-36:1) -- cycle;
+  \draw [fill=blue]
+    (2, 2) -- ++(144:1)
+    -- ++(-144:1) node[pos=0.7, above=4pt, fill opacity=1] {$-c_1$} node (a4) {}
+    -- ++(-36:1) -- ++(36:1) -- cycle;
+  \draw  (2, 2) -- ++(-108:1) node (a1) {};
+
+  \foreach  \i  in {1,2,3,4} {
+    \fill [opacity=1] (a\i ) circle (0.07);
+  }
+
+  \draw [fill=cyan]
+    (-1.8, -0.6)
+      -- ++(162:1) node[pos=0.3, above=3pt, fill opacity=1] {$-c_2$}
+      -- ++(-162:1) node[pos=0.7, above=3pt, fill opacity=1] {$+c_2$}
+      -- ++(-18:1) node[pos=0.3, below=4pt, fill opacity=1] {$-c_1$}
+      -- ++(18:1) node[pos=0.7, below=4pt, fill opacity=1] {$+c_1$}
+      -- cycle;
+  \node [fill opacity=1] at (-0.8, -0.6) {$\implies $};
+  \draw [fill=blue]
+    (1.8, -1.1) node (b1) {} -- ++(-18:1)
+      -- ++(54:1) node[pos=0.8, below=8pt, fill opacity=1] {$-c_1$} node (b2) {}
+      -- ++(162:1) -- ++(-126:1) -- cycle;
+  \draw [fill=cyan]
+    (1.8, -1.1) -- ++(90:1) node (b3) {} -- ++(126:1)
+    -- ++(-90:1) node[midway, left=-2pt, fill opacity=1] {$-c_2$}
+    -- ++(-54:1) -- cycle;
+  \draw  (1.8, -1.1) ++(126:1) -- ++(-162:1) node (b4) {};
+  \foreach  \i  in {1,2,3,4} {
+    \fill [opacity=1] (b\i ) circle (0.07);
+  }
+\end {tikzpicture}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+<html:p>
+  Notice that <fr:tex display="inline"><![CDATA[±c_1]]></fr:tex> edges always split into two subedges, and <fr:tex display="inline"><![CDATA[±c_2]]></fr:tex> edges three. They are separated by the four vertices drawn as black dots. However, these subedges may be pinched together, creating zero-width “spurs” protruding from the tiling. They are to be read as two subedges, first going out from the tilings and turning back. This is necessary to uniformly define how the tiles fit together after the substitution.
+</html:p></fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>19</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-0004/</fr:uri>
+            <fr:display-uri>tile-0004</fr:display-uri>
+            <fr:route>/forest/tile-0004/</fr:route>
+            <fr:title text="substitution system">substitution system</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/tile-0003/" title="tile system" uri="https://trebor-huang.github.io/forest/tile-0003/" display-uri="tile-0003" type="local">tile system</fr:link>, a <html:strong>substitution system</html:strong> is a map from each prototile to a patch of tiles, such that when we replace each tile in a tiling with the substitution, the resulting patches of tiles can fit together in the same way, forming another tiling. This process is called <html:strong>deflation</html:strong>, while the inverse process, if it exists, is called <html:strong>inflation</html:strong>. We usually only consider substitution systems where inflation exists and is unique.
+</html:p>
+            <html:p>
+  More precisely, given a prototile <fr:tex display="inline"><![CDATA[t]]></fr:tex>, we assign a list of deflated tiles <fr:tex display="inline"><![CDATA[t_i]]></fr:tex>. Each edge of <fr:tex display="inline"><![CDATA[t]]></fr:tex> will be subdivided into several subedges (with their own colors), such that the subdivision only depends on the color, and edges of opposite colors are divided in a way such that the resulting subedges match. For the data of how the deflated tiles glue together, we have a perfect pairing on the set
+  <fr:tex display="block"><![CDATA[\{\text {subedges of $t$}\} \sqcup  \coprod _i \{\text {edges of $t_i$}\}]]></fr:tex> such that the paired edges are compatible. Specifically, if two edges of deflated tiles, or two subedges of <fr:tex display="inline"><![CDATA[t]]></fr:tex> are matched, they must be of opposite colors; if an edge of a deflated tile is matched with a subedge, they must share colors.
+</html:p>
+            <html:p>
+  In addition to this, the subdivision must also match geometrically, but we shall not give its full definition here, as it suffices to recognize this intuitively.
+</html:p>
+            <html:p>
+  For convenience, if two edges <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\epsilon ']]></fr:tex> have opposite colors, we use the <html:em>same label</html:em> for their subedges in a substitution. This simplifies the presentation since we avoid using a conversion look-up table, but requires us to be somewhat careful in assigning labels. In general, we can assign the subedge labels counterclockwise for edges with positive colors, and clockwise for negative colors.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

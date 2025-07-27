@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>7</fr:month>
+      <fr:day>4</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-002S/</fr:uri>
+    <fr:display-uri>hmlg-002S</fr:display-uri>
+    <fr:route>/forest/hmlg-002S/</fr:route>
+    <fr:title text="effaceable functor">effaceable functor</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  An <fr:link href="/forest/hmlg-000S/" title="additive functor" uri="https://trebor-huang.github.io/forest/hmlg-000S/" display-uri="hmlg-000S" type="local">additive functor</fr:link> <fr:tex display="inline"><![CDATA[F : \mathcal {A} \to  \mathcal {B}]]></fr:tex> is <html:strong>effaceable</html:strong> iff for each object <fr:tex display="inline"><![CDATA[X]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex>, there exists a monomorphism <fr:tex display="inline"><![CDATA[X \to  I]]></fr:tex> whose image under <fr:tex display="inline"><![CDATA[F]]></fr:tex> is zero. Dually, it is <html:strong>coeffaceable</html:strong> iff for each object <fr:tex display="inline"><![CDATA[X]]></fr:tex> there exists an epimorphism <fr:tex display="inline"><![CDATA[P \to  X]]></fr:tex> whose image under <fr:tex display="inline"><![CDATA[F]]></fr:tex> is zero.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>7</fr:month>
+              <fr:day>5</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-002V/</fr:uri>
+            <fr:display-uri>hmlg-002V</fr:display-uri>
+            <fr:route>/forest/hmlg-002V/</fr:route>
+            <fr:title text="homology is a universal \delta -functor">homology is a universal <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Homology <fr:tex display="inline"><![CDATA[H_\bullet ]]></fr:tex> as a functor from the category of chain complexes (bounded from below) of <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex> to <fr:tex display="inline"><![CDATA[\mathcal {A}]]></fr:tex> is a homological <fr:link href="/forest/hmlg-002N/" title="universal \delta -functor" uri="https://trebor-huang.github.io/forest/hmlg-002N/" display-uri="hmlg-002N" type="local">universal <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:link>. Dually, cohomology is a cohomological <fr:link href="/forest/hmlg-002N/" title="universal \delta -functor" uri="https://trebor-huang.github.io/forest/hmlg-002N/" display-uri="hmlg-002N" type="local">universal <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:link>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>5</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Every chain complex injects into its cone, whose cohomology is zero. So cohomology is <fr:link href="/forest/hmlg-002S/" title="effaceable functor" uri="https://trebor-huang.github.io/forest/hmlg-002S/" display-uri="hmlg-002S" type="local">effaceable</fr:link>. Dually every chain complex is a quotient of its cocone, hence homology is coeffaceable. Therefore by <fr:link href="/forest/hmlg-002T/" title="criterion for universality of \delta -functors" uri="https://trebor-huang.github.io/forest/hmlg-002T/" display-uri="hmlg-002T" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/hmlg-002T/" display-uri="hmlg-002T" /></fr:link> we finish the proof.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>7</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-002T/</fr:uri>
+            <fr:display-uri>hmlg-002T</fr:display-uri>
+            <fr:route>/forest/hmlg-002T/</fr:route>
+            <fr:title text="criterion for universality of \delta -functors">criterion for universality of <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functors</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a cohomological <fr:link href="/forest/hmlg-002K/" title="\delta -functor" uri="https://trebor-huang.github.io/forest/hmlg-002K/" display-uri="hmlg-002K" type="local"><fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:link> <fr:tex display="inline"><![CDATA[T^\bullet ]]></fr:tex>, if each <fr:tex display="inline"><![CDATA[T^n]]></fr:tex> for <fr:tex display="inline"><![CDATA[n > 0]]></fr:tex> is <fr:link href="/forest/hmlg-002S/" title="effaceable functor" uri="https://trebor-huang.github.io/forest/hmlg-002S/" display-uri="hmlg-002S" type="local">effaceable</fr:link>, then it is a <fr:link href="/forest/hmlg-002N/" title="universal \delta -functor" uri="https://trebor-huang.github.io/forest/hmlg-002N/" display-uri="hmlg-002N" type="local">universal <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:link>. Dually, if a homological <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functor is coeffaceable, then it is universal.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>4</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Given an object <fr:tex display="inline"><![CDATA[X]]></fr:tex>, consider the exact sequence given by <fr:link href="/forest/hmlg-002S/" title="effaceable functor" uri="https://trebor-huang.github.io/forest/hmlg-002S/" display-uri="hmlg-002S" type="local">effaceability</fr:link>
+    <fr:tex display="block"><![CDATA[0 \longrightarrow  X \longrightarrow  I \longrightarrow  Y \longrightarrow  0.]]></fr:tex>
+    Then we have a long exact sequence
+    <fr:tex display="block"><![CDATA[0 \to  T^0 X \to  T^0 I \to  T^0 Y \xrightarrow {\delta } T^1 X \xrightarrow {0} T^1 I.]]></fr:tex>
+    and the rest breaks into infinitely many short exact sequences
+    <fr:tex display="block"><![CDATA[0 \to  T^{n+1} I \to  T^{n+1} Y \to  T^{n+2} X \to  0.]]></fr:tex></html:p>
+
+  <html:p>
+    Consider another <fr:link href="/forest/hmlg-002K/" title="\delta -functor" uri="https://trebor-huang.github.io/forest/hmlg-002K/" display-uri="hmlg-002K" type="local"><fr:tex display="inline"><![CDATA[\delta ]]></fr:tex>-functor</fr:link> <fr:tex display="inline"><![CDATA[S^\bullet ]]></fr:tex> with a natural transformation <fr:tex display="inline"><![CDATA[f : T^0 \to  S^0]]></fr:tex>. We now have a diagram
+    
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="ee17b3adf6d02a04715188bb2728235c"><fr:resource-content><html:img src="/forest/ee17b3adf6d02a04715188bb2728235c.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+      {T^0 I} & {T^0 Y} & {T^1 X} \\
+      {S^0 I} & {S^0 Y} & {S^1 X}
+      \arrow [from=1-1, to=1-2]
+      \arrow [from=1-1, to=2-1]
+      \arrow ["\delta ", two heads, from=1-2, to=1-3]
+      \arrow [from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+      \arrow ["\delta "', from=2-2, to=2-3]
+    \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+    where we can fill the vertical map on the right, because the composite of the lower left route is zero on the kernel of <fr:tex display="inline"><![CDATA[\delta  : T^0 Y \to  T^1 X]]></fr:tex>, and uniqueness follows from epimorphism. This then yields a transformation <fr:tex display="inline"><![CDATA[T^1 \to  S^1]]></fr:tex>, we need to prove it’s natural and does not depend on the chosen <fr:tex display="inline"><![CDATA[I]]></fr:tex>. Then we can repeat the move to extend to arbitrary degrees.
+  </html:p>
+
+  <html:p>
+    Given a morphism <fr:tex display="inline"><![CDATA[\varphi  : X \to  X']]></fr:tex> and the corresponding monomorphisms <fr:tex display="inline"><![CDATA[X \to  I]]></fr:tex>, <fr:tex display="inline"><![CDATA[X' \to  I']]></fr:tex>, we can replace <fr:tex display="inline"><![CDATA[X \to  I]]></fr:tex> with <fr:tex display="inline"><![CDATA[X \to  I \times  I']]></fr:tex> since both components of the map are sent to <fr:tex display="inline"><![CDATA[0]]></fr:tex> by <fr:tex display="inline"><![CDATA[T^0]]></fr:tex>, an additive functor. This together with the projection map <fr:tex display="inline"><![CDATA[I \times  I' \to  I]]></fr:tex> forms a commutative square. Taking the cokernel we also have an induced map <fr:tex display="inline"><![CDATA[\psi  : Y \to  Y']]></fr:tex>.
+
+
+    This leads to a 3-dimensional diagram
+    
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="c3aaf88a89aed9fc44dc47a514071670"><fr:resource-content><html:img src="/forest/c3aaf88a89aed9fc44dc47a514071670.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+      {T^0 Y} && {T^1 X} \\
+      & {T^0 Y'} && {T^1 X'} \\
+      {S^0 Y} && {S^1 X} \\
+      & {S^0 Y'} && {S^1 X'}
+      \arrow ["\delta ", two heads, from=1-1, to=1-3]
+      \arrow ["{T^0 \psi }"', from=1-1, to=2-2]
+      \arrow ["f"', from=1-1, to=3-1]
+      \arrow ["{T^1 \varphi }", from=1-3, to=2-4]
+      \arrow [from=1-3, to=3-3]
+      \arrow ["\delta "{pos=0.3}, two heads, from=2-2, to=2-4]
+      \arrow ["f"'{pos=0.3}, from=2-2, to=4-2]
+      \arrow [from=2-4, to=4-4]
+      \arrow [from=3-1, to=3-3]
+      \arrow ["{S^0 \psi }"', from=3-1, to=4-2]
+      \arrow ["{S^1 \varphi }", from=3-3, to=4-4]
+      \arrow ["\delta "', from=4-2, to=4-4]
+    \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+    where all but the right face commutes. After composing with <fr:tex display="inline"><![CDATA[\delta  : T^0 Y \to  T^1 X]]></fr:tex>, we can use all five commutative squares to prove that the two compositions are equal. And since the morphism is epimorphic, the right square commutes as expected.
+  </html:p>
+
+  <html:p>
+    For independence, we first prove that if two effacements <fr:tex display="inline"><![CDATA[X \to  I]]></fr:tex>, <fr:tex display="inline"><![CDATA[X \to  I']]></fr:tex> are connected by a morphism <fr:tex display="inline"><![CDATA[I \to  I']]></fr:tex>, then the resulting transformations are equal. This is essentially the same as the proof of naturality, except <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> is replaced with <fr:tex display="inline"><![CDATA[\textrm {id}]]></fr:tex>. Now any two effacements are connected by a zigzag, since we can take the diagonal <fr:tex display="inline"><![CDATA[X \to  I \times  I']]></fr:tex> and project out.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000S/</fr:uri>
+            <fr:display-uri>hmlg-000S</fr:display-uri>
+            <fr:route>/forest/hmlg-000S/</fr:route>
+            <fr:title text="additive functor">additive functor</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given two <fr:link href="/forest/hmlg-000P/" title="additive category" uri="https://trebor-huang.github.io/forest/hmlg-000P/" display-uri="hmlg-000P" type="local">additive categories</fr:link> and a functor <fr:tex display="inline"><![CDATA[F : \mathcal {C} \to  \mathcal {D}]]></fr:tex> between them, the following are equivalent. In this case, we call the functor <html:strong>additive</html:strong>.
+</html:p><html:ul><html:li>The functor preserves finite products.</html:li>
+  <html:li>The functor preserves finite coproducts.</html:li>
+  <html:li>The functor is a homomorphism on the abelian groups <fr:tex display="inline"><![CDATA[\hom _{\mathcal {C}}(X, Y)]]></fr:tex>, i.e. it is an <fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched functor.</html:li></html:ul>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    For the equivalence of the first two claims, we have a composition
+    <fr:tex display="block"><![CDATA[F(X) + F(Y) \to  F(X + Y) \stackrel {\sim \,}{\to } F(X \times  Y) \to  F(X) \times  F(Y),]]></fr:tex>
+    where the middle morphism comes from the canonical isomorphism <fr:tex display="inline"><![CDATA[X + Y \stackrel {\sim \,}{\to } F(X \times  Y)]]></fr:tex>. The first two claim is equivalent to the right and left arrows being iso, respectively. Recall that a morphism from a coproduct to a product is determined by a matrix of morphisms. With this fact and the functoriality of <fr:tex display="inline"><![CDATA[F]]></fr:tex>, we can compute that the composition is the canonical isomorphism from <fr:tex display="inline"><![CDATA[F(X) + F(Y)]]></fr:tex> to <fr:tex display="inline"><![CDATA[F(X) \times  F(Y)]]></fr:tex>. Therefore the leftmost arrow being iso is equivalent to the rightmost arrow being iso.
+  </html:p>
+
+  <html:p>
+    Since the abelian group structure on morphisms is <fr:link href="/forest/hmlg-000R/" title="being an additive category is a property" uri="https://trebor-huang.github.io/forest/hmlg-000R/" display-uri="hmlg-000R" type="local">uniquely determined</fr:link> from the finite products and coproducts in an additive category, a functor satisfying the first two conditions automatically satisfies the third. Conversely, we need to prove the canonical maps <fr:tex display="inline"><![CDATA[F(1) \to  1]]></fr:tex> and <fr:tex display="inline"><![CDATA[F(X \times  Y) \to  F(X) \times  F(Y)]]></fr:tex> are isomorphisms. For the first one, since <fr:tex display="inline"><![CDATA[1]]></fr:tex> is also the initial object, any morphism into it is automatically iso. For the second one, we again look at the diagram which composes to an isomorphism:
+    <fr:tex display="block"><![CDATA[F(X) + F(Y) \to  F(X + Y) \stackrel {\sim \,}{\to } F(X \times  Y) \to  F(X) \times  F(Y).]]></fr:tex>
+    Using the bilinearity of composition and that <fr:tex display="inline"><![CDATA[F]]></fr:tex> preserves addition on morphisms, we can verify that this provides a two-sided inverse.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

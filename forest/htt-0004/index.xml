@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/htt-0004/</fr:uri>
+    <fr:display-uri>htt-0004</fr:display-uri>
+    <fr:route>/forest/htt-0004/</fr:route>
+    <fr:title text="homotopy category of \infty -categories">homotopy category of <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Given an <fr:link href="/forest/htt-0001/" title="\infty -category" uri="https://trebor-huang.github.io/forest/htt-0001/" display-uri="htt-0001" type="local"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we can alternatively define its <fr:link href="/forest/htt-0003/" title="homotopy category" uri="https://trebor-huang.github.io/forest/htt-0003/" display-uri="htt-0003" type="local">homotopy category</fr:link> in this way: The objects are given by the vertices of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, the arrows are equivalence classes of edges, where two edges <fr:tex display="inline"><![CDATA[f, g : x \to  y]]></fr:tex> are equivalent if there is a <fr:tex display="inline"><![CDATA[2]]></fr:tex>-simplex <fr:tex display="inline"><![CDATA[x \xrightarrow {f} y = y]]></fr:tex> with the long edge given by <fr:tex display="inline"><![CDATA[g]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>There is a long list of things we need to do.</html:p>
+  <html:ul><html:li>We need to prove the given relation is indeed an equivalence.</html:li>
+    <html:li>We need to construct the composition operation.</html:li>
+    <html:li>We need to prove the composition is well-defined under the quotient.</html:li>
+    <html:li>We need to prove associativity and identity laws for the composition.</html:li>
+    <html:li>Finally, we need to prove the two constructions of homotopy category are equivalent. In fact, they are strictly isomorphic.</html:li></html:ul>
+
+  <html:p>
+    The identity arrow is given by the degenerate edge, and composition is given by the inner Kan extension against <fr:tex display="inline"><![CDATA[\Lambda ^2_1 \hookrightarrow  \Delta ^2]]></fr:tex>. Another Kan extension shows that this construction doesn’t depend on the choice of extensions: Suppose we have two possible compositions, being the upper edge and the long diagonal edge in the <fr:tex display="inline"><![CDATA[3]]></fr:tex>-simplex:
+  </html:p>
+  
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="8b7c58ac783434a879050b94d6b67820"><fr:resource-content><html:img src="/forest/8b7c58ac783434a879050b94d6b67820.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+    x && z \\
+    & y && z
+    \arrow ["{g \mathbin {\circ } f}", from=1-1, to=1-3]
+    \arrow ["f"', from=1-1, to=2-2]
+    \arrow [equals, from=1-3, to=2-4]
+    \arrow ["g"', from=2-2, to=1-3]
+    \arrow ["g"', from=2-2, to=2-4]
+    \arrow [from=1-1, to=2-4]
+  \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+  <html:p>
+    By filling the upper-right triangle, we get the equivalence of the two arrows. The quotiented relation being an equivalence relation, and that composition respects it can also be proved similarly.
+    The identity law <fr:tex display="inline"><![CDATA[\textrm {id} \mathbin {\circ } f = f]]></fr:tex> is obvious and the other identity law is given by another Kan extension:
+  </html:p>
+
+  
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="82bf6538ef45607024b24c611993fdfa"><fr:resource-content><html:img src="/forest/82bf6538ef45607024b24c611993fdfa.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+    x && y \\
+    & x && y
+    \arrow ["f", from=1-1, to=1-3]
+    \arrow [equals, from=1-1, to=2-2]
+    \arrow [from=1-1, to=2-4]
+    \arrow [equals, from=1-3, to=2-4]
+    \arrow [from=2-2, to=1-3]
+    \arrow ["f"', from=2-2, to=2-4]
+  \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+
+  <html:p>
+    Here the long arrow is given by <fr:tex display="inline"><![CDATA[f \mathbin {\circ } \textrm {id}]]></fr:tex>. All but the triangle on the top-right can be filled easily, and we fill in the last one via Kan extension, proving <fr:tex display="inline"><![CDATA[f]]></fr:tex> is equivalent to <fr:tex display="inline"><![CDATA[f \mathbin {\circ } \textrm {id}]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    As for associativity, consider this <fr:tex display="inline"><![CDATA[3]]></fr:tex>-simplex, with the long arrow given by <fr:tex display="inline"><![CDATA[h \mathbin {\circ } (g \mathbin {\circ } f)]]></fr:tex>. We can fill in the top-right triangle between <fr:tex display="inline"><![CDATA[f]]></fr:tex>, <fr:tex display="inline"><![CDATA[h \mathbin {\circ } g]]></fr:tex> and <fr:tex display="inline"><![CDATA[h \mathbin {\circ } (g \mathbin {\circ } f)]]></fr:tex>.
+  </html:p>
+  
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="dda82b8c073eb8f3face0845054ac29f"><fr:resource-content><html:img src="/forest/dda82b8c073eb8f3face0845054ac29f.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+    x && z \\
+    & y && w
+    \arrow ["{g\mathbin {\circ } f}", from=1-1, to=1-3]
+    \arrow ["f"', from=1-1, to=2-2]
+    \arrow [from=1-1, to=2-4]
+    \arrow ["h", from=1-3, to=2-4]
+    \arrow [from=2-2, to=1-3]
+    \arrow ["{h\mathbin {\circ } g}"', from=2-2, to=2-4]
+  \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+  <html:p>
+    Now we can use the fact that the composition doesn’t depend on the choice of Kan extension to get the equality between <fr:tex display="inline"><![CDATA[h \mathbin {\circ } (g\mathbin {\circ } f)]]></fr:tex> and <fr:tex display="inline"><![CDATA[(h\mathbin {\circ } g) \mathbin {\circ } f]]></fr:tex>. We next need to prove the equivalence of this definition with the original definition of <fr:link href="/forest/htt-0003/" title="homotopy category" uri="https://trebor-huang.github.io/forest/htt-0003/" display-uri="htt-0003" type="local">homotopy category</fr:link>. Let the new definition be temporarily denoted <fr:tex display="inline"><![CDATA[\operatorname {ho}' X]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    To obtain a functor <fr:tex display="inline"><![CDATA[\operatorname {ho} X \to  \operatorname {ho}' X]]></fr:tex>, we need to prove that the composition indeed satisfies <fr:tex display="inline"><![CDATA[g \mathbin {\circ } f = h]]></fr:tex> whenever there is a <fr:tex display="inline"><![CDATA[2]]></fr:tex>-simplex with these three edges. This is true because composition is independent of the choice of Kan extensions. The functor is obviously full and surjective on objects. For faithfulness, we have two strings of composable arrows, with a collection of triangles filling them. By performing induction on the length of these strings, we can compose the triangles together to prove the equivalence of their images in <fr:tex display="inline"><![CDATA[\operatorname {ho}' X]]></fr:tex>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-0005/</fr:uri>
+            <fr:display-uri>htt-0005</fr:display-uri>
+            <fr:route>/forest/htt-0005/</fr:route>
+            <fr:title text="equivalence arrow in an \infty -category">equivalence arrow in an <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given an <fr:link href="/forest/htt-0001/" title="\infty -category" uri="https://trebor-huang.github.io/forest/htt-0001/" display-uri="htt-0001" type="local"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex>, an arrow is an <html:strong>equivalence</html:strong> iff it is an isomorphism in the <fr:link href="/forest/htt-0004/" title="homotopy category of \infty -categories" uri="https://trebor-huang.github.io/forest/htt-0004/" display-uri="htt-0004" type="local">homotopy category</fr:link>. More concretely, there need to be left and right inverse arrows <fr:tex display="inline"><![CDATA[g_1, g_2]]></fr:tex> with two triangles witnessing <fr:tex display="inline"><![CDATA[f \mathbin {\circ } g_1 = \textrm {id}]]></fr:tex> and <fr:tex display="inline"><![CDATA[g_2 \mathbin {\circ } f = \textrm {id}]]></fr:tex> in the homotopy category.
+</html:p>
+            <html:p>
+  Following the proof in group theory and <fr:tex display="inline"><![CDATA[1]]></fr:tex>-category theory, we see that we can take <fr:tex display="inline"><![CDATA[g_1]]></fr:tex> homotopic to <fr:tex display="inline"><![CDATA[g_2]]></fr:tex> (i.e. equal in the homotopy category) without loss of generality. But then the well-definedness of composition in the homotopy category implies <fr:tex display="inline"><![CDATA[g_1 \mathbin {\circ } f = \textrm {id}]]></fr:tex> too.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-0001/</fr:uri>
+            <fr:display-uri>htt-0001</fr:display-uri>
+            <fr:route>/forest/htt-0001/</fr:route>
+            <fr:title text="\infty -category"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A simplicial set <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an <html:strong><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</html:strong> if it has the extension property against the inner horn inclusions <fr:tex display="inline"><![CDATA[\Lambda ^n_i \to  \Delta ^n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[0 < i < n]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-0003/</fr:uri>
+            <fr:display-uri>htt-0003</fr:display-uri>
+            <fr:route>/forest/htt-0003/</fr:route>
+            <fr:title text="homotopy category">homotopy category</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a simplicial set <fr:tex display="inline"><![CDATA[X]]></fr:tex>, its <html:strong>homotopy category</html:strong> is a category <fr:tex display="inline"><![CDATA[\operatorname {ho} X]]></fr:tex> whose objects are the vertices of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, arrows are generated by the edges of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, under the relation that if there is a <fr:tex display="inline"><![CDATA[2]]></fr:tex>-simplex with edges <fr:tex display="inline"><![CDATA[f, g, h]]></fr:tex>, then <fr:tex display="inline"><![CDATA[g \mathbin {\circ } f = h]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

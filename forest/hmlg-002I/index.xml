@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-002I/</fr:uri>
+    <fr:display-uri>hmlg-002I</fr:display-uri>
+    <fr:route>/forest/hmlg-002I/</fr:route>
+    <fr:title text="projective modules are direct summands of free modules">projective modules are direct summands of free modules</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  In the <fr:link href="/forest/hmlg-000Q/" title="abelian category" uri="https://trebor-huang.github.io/forest/hmlg-000Q/" display-uri="hmlg-000Q" type="local">abelian category</fr:link> of modules over a ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>, the <fr:link href="/forest/hmlg-0004/" title="projective object" uri="https://trebor-huang.github.io/forest/hmlg-0004/" display-uri="hmlg-0004" type="local">projective object</fr:link> modules are exactly the modules that appear as a direct summand of some free module <fr:tex display="inline"><![CDATA[P \oplus  Q = R^{\oplus  n}]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    A free module evidently projective. If <fr:tex display="inline"><![CDATA[P]]></fr:tex> is a direct summand of a projective module <fr:tex display="inline"><![CDATA[Q]]></fr:tex>, then we can extend any map <fr:tex display="inline"><![CDATA[P \to  B]]></fr:tex> to <fr:tex display="inline"><![CDATA[Q]]></fr:tex> by zero. Then the projectivity of <fr:tex display="inline"><![CDATA[Q]]></fr:tex> implies that of <fr:tex display="inline"><![CDATA[P]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    On the other hand, suppose <fr:tex display="inline"><![CDATA[P]]></fr:tex> is projective, then we have an epimorphism <fr:tex display="inline"><![CDATA[R^{\oplus  |P|} \twoheadrightarrow  P]]></fr:tex>. The identity map <fr:tex display="inline"><![CDATA[P \to  P]]></fr:tex> lifts against this epimorphism to a splitting of it, hence <fr:tex display="inline"><![CDATA[P]]></fr:tex> is its direct summand.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-002H/</fr:uri>
+            <fr:display-uri>hmlg-002H</fr:display-uri>
+            <fr:route>/forest/hmlg-002H/</fr:route>
+            <fr:title text="Exactness of \hom ">Exactness of <fr:tex display="inline"><![CDATA[\hom ]]></fr:tex></fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Since <fr:tex display="inline"><![CDATA[\hom (P, -)]]></fr:tex> preserves limits, by <fr:link href="/forest/hmlg-000X/" title="left and right exact functor" uri="https://trebor-huang.github.io/forest/hmlg-000X/" display-uri="hmlg-000X" type="local">Definition <fr:contextual-number uri="https://trebor-huang.github.io/forest/hmlg-000X/" display-uri="hmlg-000X" /></fr:link> it is left exact. Similarly <fr:tex display="inline"><![CDATA[\hom (-, I)]]></fr:tex> is right exact. Therefore we naturally want to find out when <fr:tex display="inline"><![CDATA[\hom (P, -)]]></fr:tex> is <html:em>right</html:em> exact. We only need to guarantee that <fr:tex display="inline"><![CDATA[\hom (P, -)]]></fr:tex> preserves epimorphisms. This can be unpackaged to the following definition.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-0004/</fr:uri>
+                <fr:display-uri>hmlg-0004</fr:display-uri>
+                <fr:route>/forest/hmlg-0004/</fr:route>
+                <fr:title text="projective object">projective object</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>In an abelian category, an object <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <html:strong>projective</html:strong> iff for every morphism <fr:tex display="inline"><![CDATA[P \to  B]]></fr:tex> can be lifted through an epimorphism <fr:tex display="inline"><![CDATA[A \twoheadrightarrow  B]]></fr:tex>, i.e. there exists a (non-unique) morphism <fr:tex display="inline"><![CDATA[P \to  A]]></fr:tex> making the triangle commute.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>16</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-0005/</fr:uri>
+                <fr:display-uri>hmlg-0005</fr:display-uri>
+                <fr:route>/forest/hmlg-0005/</fr:route>
+                <fr:title text="projective objects">projective objects</fr:title>
+                <fr:taxon>Intuition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p><fr:link href="/forest/hmlg-0004/" title="projective object" uri="https://trebor-huang.github.io/forest/hmlg-0004/" display-uri="hmlg-0004" type="local">Projective objects</fr:link> are defined to capture a key property of free objects. For an arbitrary abelian group <fr:tex display="inline"><![CDATA[P]]></fr:tex>, lifting a map <fr:tex display="inline"><![CDATA[P \to  B]]></fr:tex> through an epimorphism requires us to pick a lifting for every generator, such that the relations between the generators still hold after lifting. If such a thing can always be done, then we may say that the relations, or tangling between generators are practically non-existent. A projective object can thus be reguarded as generated by some elements with zero or undetectable “tangling”.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  As an example, consider the projective objects in the category of modules. We can give a nice characterization of projective modules.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>8</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-002I/</fr:uri>
+                <fr:display-uri>hmlg-002I</fr:display-uri>
+                <fr:route>/forest/hmlg-002I/</fr:route>
+                <fr:title text="projective modules are direct summands of free modules">projective modules are direct summands of free modules</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  In the <fr:link href="/forest/hmlg-000Q/" title="abelian category" uri="https://trebor-huang.github.io/forest/hmlg-000Q/" display-uri="hmlg-000Q" type="local">abelian category</fr:link> of modules over a ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>, the <fr:link href="/forest/hmlg-0004/" title="projective object" uri="https://trebor-huang.github.io/forest/hmlg-0004/" display-uri="hmlg-0004" type="local">projective object</fr:link> modules are exactly the modules that appear as a direct summand of some free module <fr:tex display="inline"><![CDATA[P \oplus  Q = R^{\oplus  n}]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    A free module evidently projective. If <fr:tex display="inline"><![CDATA[P]]></fr:tex> is a direct summand of a projective module <fr:tex display="inline"><![CDATA[Q]]></fr:tex>, then we can extend any map <fr:tex display="inline"><![CDATA[P \to  B]]></fr:tex> to <fr:tex display="inline"><![CDATA[Q]]></fr:tex> by zero. Then the projectivity of <fr:tex display="inline"><![CDATA[Q]]></fr:tex> implies that of <fr:tex display="inline"><![CDATA[P]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    On the other hand, suppose <fr:tex display="inline"><![CDATA[P]]></fr:tex> is projective, then we have an epimorphism <fr:tex display="inline"><![CDATA[R^{\oplus  |P|} \twoheadrightarrow  P]]></fr:tex>. The identity map <fr:tex display="inline"><![CDATA[P \to  P]]></fr:tex> lifts against this epimorphism to a splitting of it, hence <fr:tex display="inline"><![CDATA[P]]></fr:tex> is its direct summand.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  Dually, we have the definition of injective objects, which make <fr:tex display="inline"><![CDATA[\hom (-, I)]]></fr:tex> exact.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-002J/</fr:uri>
+                <fr:display-uri>hmlg-002J</fr:display-uri>
+                <fr:route>/forest/hmlg-002J/</fr:route>
+                <fr:title text="injective object">injective object</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  In an <fr:link href="/forest/hmlg-000Q/" title="abelian category" uri="https://trebor-huang.github.io/forest/hmlg-000Q/" display-uri="hmlg-000Q" type="local">abelian category</fr:link>, an object <fr:tex display="inline"><![CDATA[I]]></fr:tex> is <html:strong>injective</html:strong> iff every morphism <fr:tex display="inline"><![CDATA[B \to  I]]></fr:tex> can be extended along monomorphisms <fr:tex display="inline"><![CDATA[B \rightarrowtail  A]]></fr:tex>. Equivalently, it is a <fr:link href="/forest/hmlg-0004/" title="projective object" uri="https://trebor-huang.github.io/forest/hmlg-0004/" display-uri="hmlg-0004" type="local">projective object</fr:link> in the dual category.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  As an example, we characterize injective abelian groups. Similar characterizations can be done for modules over principal ideal domains.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-002O/</fr:uri>
+                <fr:display-uri>hmlg-002O</fr:display-uri>
+                <fr:route>/forest/hmlg-002O/</fr:route>
+                <fr:title text="abelian groups are injective iff divisible">abelian groups are injective iff divisible</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  An abelian group <fr:tex display="inline"><![CDATA[G]]></fr:tex> is <fr:link href="/forest/hmlg-002J/" title="injective object" uri="https://trebor-huang.github.io/forest/hmlg-002J/" display-uri="hmlg-002J" type="local">injective</fr:link> iff it is <html:strong>divisible</html:strong>, i.e. for element <fr:tex display="inline"><![CDATA[g \in  G]]></fr:tex> and positive integer <fr:tex display="inline"><![CDATA[n]]></fr:tex>, there exists a (non-unique) solution of <fr:tex display="inline"><![CDATA[nx = g]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    In one direction, suppose the group is injective, then the map <fr:tex display="inline"><![CDATA[\mathbb {Z} \to  G]]></fr:tex> defined by <fr:tex display="inline"><![CDATA[k \mapsto  k g]]></fr:tex> can be extended along the monomorphism <fr:tex display="inline"><![CDATA[(n \times  -) : \mathbb {Z} \to  \mathbb {Z}]]></fr:tex>. This provides the division.
+  </html:p>
+
+  <html:p>
+    On the other hand, suppose divisibility holds. Given a morphism <fr:tex display="inline"><![CDATA[f : A \to  G]]></fr:tex> and an injection <fr:tex display="inline"><![CDATA[A \hookrightarrow  B]]></fr:tex>, we extend <fr:tex display="inline"><![CDATA[f]]></fr:tex> to <fr:tex display="inline"><![CDATA[B]]></fr:tex> by Zorn’s lemma. Consider the poset of homomorphisms extending <fr:tex display="inline"><![CDATA[f]]></fr:tex> to some subgroup of <fr:tex display="inline"><![CDATA[B]]></fr:tex>. Given a chain in this poset, we can take the union to create an upper bound. And it is non-empty since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is an element. Hence it has a maximal element <fr:tex display="inline"><![CDATA[\phi ]]></fr:tex>. Suppose it is defined on <fr:tex display="inline"><![CDATA[B' \subsetneq  B]]></fr:tex>, then there is an element <fr:tex display="inline"><![CDATA[b \in  B]]></fr:tex> not in <fr:tex display="inline"><![CDATA[B']]></fr:tex>. Suppose <fr:tex display="inline"><![CDATA[n b \notin  B']]></fr:tex> for all non-zero integers <fr:tex display="inline"><![CDATA[n]]></fr:tex>, then we can define a larger homomorphism on <fr:tex display="inline"><![CDATA[B + \mathbb {Z} b]]></fr:tex>, contradicting the maximality. Suppose there is some <fr:tex display="inline"><![CDATA[n b \in  B']]></fr:tex>, then by divisibility we can assign <fr:tex display="inline"><![CDATA[\phi (b)]]></fr:tex> a division of <fr:tex display="inline"><![CDATA[\phi (n b)]]></fr:tex> by <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This too contradicts maximality.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000Q/</fr:uri>
+            <fr:display-uri>hmlg-000Q</fr:display-uri>
+            <fr:route>/forest/hmlg-000Q/</fr:route>
+            <fr:title text="abelian category">abelian category</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given an <fr:link href="/forest/hmlg-000P/" title="additive category" uri="https://trebor-huang.github.io/forest/hmlg-000P/" display-uri="hmlg-000P" type="local">additive category</fr:link>, it is an <html:strong>abelian category</html:strong> if the following condition holds.
+</html:p>
+            <html:ul><html:li>Every morphism has a kernel and a cokernel.</html:li>
+  <html:li>Every monomorphism is the kernel of its cokernel.</html:li>
+  <html:li>Every epimorphism is the cokernel of its kernel.</html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0004/</fr:uri>
+            <fr:display-uri>hmlg-0004</fr:display-uri>
+            <fr:route>/forest/hmlg-0004/</fr:route>
+            <fr:title text="projective object">projective object</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>In an abelian category, an object <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <html:strong>projective</html:strong> iff for every morphism <fr:tex display="inline"><![CDATA[P \to  B]]></fr:tex> can be lifted through an epimorphism <fr:tex display="inline"><![CDATA[A \twoheadrightarrow  B]]></fr:tex>, i.e. there exists a (non-unique) morphism <fr:tex display="inline"><![CDATA[P \to  A]]></fr:tex> making the triangle commute.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

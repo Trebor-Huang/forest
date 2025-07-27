@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>28</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-0020/</fr:uri>
+    <fr:display-uri>hmlg-0020</fr:display-uri>
+    <fr:route>/forest/hmlg-0020/</fr:route>
+    <fr:title text="simplices of \Delta ^p \times  \Delta ^q">simplices of <fr:tex display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex></fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  The geometric <fr:tex display="inline"><![CDATA[n]]></fr:tex>-simplices of the product simplicial set <fr:tex display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex> are given by a sequence <fr:tex display="inline"><![CDATA[(u_0, v_0) < (u_1, v_1) < \dots  < (u_n, v_n)]]></fr:tex> of elements in <fr:tex display="inline"><![CDATA[\{0, \dots , p\} \times  \{0, \dots , q\}]]></fr:tex> endowed with the product partial order. Among these, the interior simplices, i.e. non-boundary simplices are given by sequences such that <fr:tex display="inline"><![CDATA[u_i]]></fr:tex> ranges over all <fr:tex display="inline"><![CDATA[\{0, \dots , p\}]]></fr:tex> and <fr:tex display="inline"><![CDATA[v_i]]></fr:tex> ranges over <fr:tex display="inline"><![CDATA[\{0, \dots , q\}]]></fr:tex>.
+</html:p>
+    <html:p>
+  We can graphically represent this as a path that only travels upwards and/or rightwards every step in a <fr:tex display="inline"><![CDATA[p \times  q]]></fr:tex> grid. Face maps are given by removing the corresponding vertex in the path, and directly connecting the surrounding two. But notice that a segment can skip through a grid point, such as going from <fr:tex display="inline"><![CDATA[(0,0)]]></fr:tex> to <fr:tex display="inline"><![CDATA[(2,2)]]></fr:tex>, skipping through <fr:tex display="inline"><![CDATA[(1,1)]]></fr:tex>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>28</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0022/</fr:uri>
+            <fr:display-uri>hmlg-0022</fr:display-uri>
+            <fr:route>/forest/hmlg-0022/</fr:route>
+            <fr:title text="discrete vector field on \Delta ^p \times  \Delta ^q">discrete vector field on <fr:tex display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex></fr:title>
+            <fr:taxon>Construction</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We construct a <fr:link href="/forest/hmlg-001N/" title="discrete vector field" uri="https://trebor-huang.github.io/forest/hmlg-001N/" display-uri="hmlg-001N" type="local">discrete vector field</fr:link> on the <fr:link href="/forest/hmlg-001U/" title="algebraic cellular complexes associated with a simplicial set" uri="https://trebor-huang.github.io/forest/hmlg-001U/" display-uri="hmlg-001U" type="local">reduced ACC</fr:link> of <fr:tex display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex> whose critical cells are given by its boundary and one additional cell
+  <fr:tex display="block"><![CDATA[(0,0) < (1,0) < \cdots  < (p,0) < (p,1) < \cdots  < (p,q),]]></fr:tex>
+  in the representation scheme of <fr:link href="/forest/hmlg-0020/" title="simplices of \Delta ^p \times  \Delta ^q" uri="https://trebor-huang.github.io/forest/hmlg-0020/" display-uri="hmlg-0020" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/hmlg-0020/" display-uri="hmlg-0020" /></fr:link>. In particular, this <fr:link href="/forest/hmlg-001R/" title="chain reduction generated by a discrete vector field" uri="https://trebor-huang.github.io/forest/hmlg-001R/" display-uri="hmlg-001R" type="local">gives rise</fr:link> to a <fr:link href="/forest/hmlg-0017/" title="chain reduction" uri="https://trebor-huang.github.io/forest/hmlg-0017/" display-uri="hmlg-0017" type="local">chain reduction</fr:link> <fr:tex display="inline"><![CDATA[C_*(\Delta ^p \times  \Delta ^q) \Rightarrow \mkern {-14mu}\Rightarrow  C_*(\Delta ^p) \otimes  C_*(\Delta ^q)]]></fr:tex>.
+</html:p>
+            <html:p>
+  Regarding the geometric simplices as paths in a <fr:tex display="inline"><![CDATA[p \times  q]]></fr:tex> grid as specified in <fr:link href="/forest/hmlg-0020/" title="simplices of \Delta ^p \times  \Delta ^q" uri="https://trebor-huang.github.io/forest/hmlg-0020/" display-uri="hmlg-0020" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/hmlg-0020/" display-uri="hmlg-0020" /></fr:link>, we assign a <fr:tex display="inline"><![CDATA[(p+q)]]></fr:tex>-simplex as a target cell if it contains a shape <fr:tex display="inline"><![CDATA[\Rsh ]]></fr:tex>. (The shape must go exactly one step up and one step to the right, since it is not possible otherwise in a geometric <fr:tex display="inline"><![CDATA[(p+q)]]></fr:tex>-simplex.) To get its source cell, replace the <html:em>last occurrence</html:em> of this shape with <fr:tex display="inline"><![CDATA[\nearrow ]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

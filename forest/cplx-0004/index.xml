@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>10</fr:month>
+      <fr:day>4</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/cplx-0004/</fr:uri>
+    <fr:display-uri>cplx-0004</fr:display-uri>
+    <fr:route>/forest/cplx-0004/</fr:route>
+    <fr:title text="formal method to calculate the harmonic conjugate">formal method to calculate the harmonic conjugate</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Suppose <fr:tex display="inline"><![CDATA[u]]></fr:tex> is the real part of some <fr:link href="/forest/cplx-0001/" title="holomorphic function" uri="https://trebor-huang.github.io/forest/cplx-0001/" display-uri="cplx-0001" type="local">holomorphic function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Then we have <fr:tex display="inline"><![CDATA[2 u(x, y) = f(x + i y) + \overline {f(x + i y)}]]></fr:tex>. If we could extend the coordinates <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> to complex numbers, then similar to <fr:link href="/forest/cplx-0003/" title="complexifying the (co)tangent space" uri="https://trebor-huang.github.io/forest/cplx-0003/" display-uri="cplx-0003" type="local">what happens in the tangent space</fr:link>, we have a <fr:tex display="inline"><![CDATA[(z, \bar {z})]]></fr:tex> coordinate system with <fr:tex display="inline"><![CDATA[z = x + i y]]></fr:tex> and <fr:tex display="inline"><![CDATA[\bar {z} = x - i y]]></fr:tex> acting as <html:em>independent</html:em> variables in <fr:tex display="inline"><![CDATA[\mathbb {C}^2]]></fr:tex>.
+</html:p>
+    <html:p>
+  By the <fr:link href="/forest/cplx-0002/" title="Cauchy–Riemann equations" uri="https://trebor-huang.github.io/forest/cplx-0002/" display-uri="cplx-0002" type="local">Cauchy–Riemann equations</fr:link>, <fr:tex display="inline"><![CDATA[f(x + i y)]]></fr:tex> should only depend on <fr:tex display="inline"><![CDATA[z]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {f(x + i y)}]]></fr:tex> should only depend on <fr:tex display="inline"><![CDATA[\bar {z}]]></fr:tex>. So we can write the latter as another function <fr:tex display="inline"><![CDATA[g(\bar {z})]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[2 u = f(z) + g(\bar {z})]]></fr:tex>, we can look at the value at the point <fr:tex display="inline"><![CDATA[(z, \bar {z}) = (\alpha , 0)]]></fr:tex> where <fr:tex display="inline"><![CDATA[\alpha  \in  \mathbb {C}]]></fr:tex>, which corresponds to <fr:tex display="inline"><![CDATA[x = \alpha  / 2]]></fr:tex> and <fr:tex display="inline"><![CDATA[y = - i \alpha  / 2]]></fr:tex>. Hence <fr:tex display="block"><![CDATA[2 u(\alpha  / 2, - i \alpha  / 2) = f(\alpha ) + g(0),]]></fr:tex> which determines <fr:tex display="inline"><![CDATA[f]]></fr:tex> up to some constant. This method requires an analytic expression of <fr:tex display="inline"><![CDATA[u(x, y)]]></fr:tex>, so it makes sense to plug in complex numbers into <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/cplx-0003/</fr:uri>
+            <fr:display-uri>cplx-0003</fr:display-uri>
+            <fr:route>/forest/cplx-0003/</fr:route>
+            <fr:title text="complexifying the (co)tangent space">complexifying the (co)tangent space</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Considering <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> as a two dimensional real space, the tangent space at a point (take zero as an example) is <fr:tex display="inline"><![CDATA[\mathbb {R}^2]]></fr:tex>. It comes equipped with a complex structure <fr:tex display="inline"><![CDATA[J]]></fr:tex> sending <fr:tex display="inline"><![CDATA[\partial _x \mapsto  \partial _y]]></fr:tex> and <fr:tex display="inline"><![CDATA[\partial _y \mapsto  -\partial _x]]></fr:tex>, acting as multiplication by <fr:tex display="inline"><![CDATA[i]]></fr:tex>. A (real) smooth function <fr:tex display="inline"><![CDATA[\mathbb {C} \to  \mathbb {C}]]></fr:tex> then has a Jacobian at each point, which is a <fr:tex display="inline"><![CDATA[2 \times  2]]></fr:tex> matrix <fr:tex display="inline"><![CDATA[M]]></fr:tex>. The <fr:link href="/forest/cplx-0002/" title="Cauchy–Riemann equations" uri="https://trebor-huang.github.io/forest/cplx-0002/" display-uri="cplx-0002" type="local">Cauchy–Riemann equations</fr:link> then imposes a condition on this matrix, which can be written as <fr:tex display="inline"><![CDATA[J M = M J]]></fr:tex>.
+</html:p>
+            <html:p>
+  It is sometimes convenient to complexify this vector space <fr:tex display="inline"><![CDATA[\mathbb {R}^2 \otimes  \mathbb {C} = \mathbb {C}^2]]></fr:tex>. This corresponds to formally allowing the <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> components to be complex-valued. This is because we often want to view a complex function as a scalar field on a two dimensional (real) manifold, but the scalar can be complex. So to do calculus with these scalars, naturally the associated tangent and cotangent spaces needs to be complexified. <fr:tex display="inline"><![CDATA[J]]></fr:tex> now has two eigenvalues <fr:tex display="inline"><![CDATA[i]]></fr:tex> and <fr:tex display="inline"><![CDATA[-i]]></fr:tex>, corresponding to the <html:strong>holomorphic</html:strong> and <html:strong>antiholomorphic</html:strong> subspaces.
+</html:p>
+            <html:p>
+  Of course this only happens in the tangent space, and the coordinate functions cannot be extended to complex domains. The Jacobian then extends to the complexified tangent space. This space has an alternative basis <fr:tex display="block"><![CDATA[\partial _z = \frac {1}{2}(\partial _x - i \partial _y) \quad \text {and}\quad \partial _{\bar {z}} = \frac {1}{2}(\partial _x + i \partial _y).]]></fr:tex> This has the dual basis on <fr:tex display="inline"><![CDATA[1]]></fr:tex>-forms, given by <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {z} = \operatorname {d}\mathclose {x} + i \operatorname {d}\mathclose {y}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {\bar {z}} = \operatorname {d}\mathclose {x} - i \operatorname {d}\mathclose {y}]]></fr:tex>. In this basis, the Cauchy–Riemann equation can be written as <fr:tex display="inline"><![CDATA[\partial _{\bar {z}} f = 0]]></fr:tex>.
+</html:p>
+            <html:p>
+  This gives a heuristic procedure for finding the <fr:link href="/forest/cplx-0002/" title="Cauchy–Riemann equations" uri="https://trebor-huang.github.io/forest/cplx-0002/" display-uri="cplx-0002" type="local">harmonic conjugate</fr:link> of a function.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/cplx-0004/</fr:uri>
+                <fr:display-uri>cplx-0004</fr:display-uri>
+                <fr:route>/forest/cplx-0004/</fr:route>
+                <fr:title text="formal method to calculate the harmonic conjugate">formal method to calculate the harmonic conjugate</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Suppose <fr:tex display="inline"><![CDATA[u]]></fr:tex> is the real part of some <fr:link href="/forest/cplx-0001/" title="holomorphic function" uri="https://trebor-huang.github.io/forest/cplx-0001/" display-uri="cplx-0001" type="local">holomorphic function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Then we have <fr:tex display="inline"><![CDATA[2 u(x, y) = f(x + i y) + \overline {f(x + i y)}]]></fr:tex>. If we could extend the coordinates <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> to complex numbers, then similar to <fr:link href="/forest/cplx-0003/" title="complexifying the (co)tangent space" uri="https://trebor-huang.github.io/forest/cplx-0003/" display-uri="cplx-0003" type="local">what happens in the tangent space</fr:link>, we have a <fr:tex display="inline"><![CDATA[(z, \bar {z})]]></fr:tex> coordinate system with <fr:tex display="inline"><![CDATA[z = x + i y]]></fr:tex> and <fr:tex display="inline"><![CDATA[\bar {z} = x - i y]]></fr:tex> acting as <html:em>independent</html:em> variables in <fr:tex display="inline"><![CDATA[\mathbb {C}^2]]></fr:tex>.
+</html:p>
+                <html:p>
+  By the <fr:link href="/forest/cplx-0002/" title="Cauchy–Riemann equations" uri="https://trebor-huang.github.io/forest/cplx-0002/" display-uri="cplx-0002" type="local">Cauchy–Riemann equations</fr:link>, <fr:tex display="inline"><![CDATA[f(x + i y)]]></fr:tex> should only depend on <fr:tex display="inline"><![CDATA[z]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {f(x + i y)}]]></fr:tex> should only depend on <fr:tex display="inline"><![CDATA[\bar {z}]]></fr:tex>. So we can write the latter as another function <fr:tex display="inline"><![CDATA[g(\bar {z})]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[2 u = f(z) + g(\bar {z})]]></fr:tex>, we can look at the value at the point <fr:tex display="inline"><![CDATA[(z, \bar {z}) = (\alpha , 0)]]></fr:tex> where <fr:tex display="inline"><![CDATA[\alpha  \in  \mathbb {C}]]></fr:tex>, which corresponds to <fr:tex display="inline"><![CDATA[x = \alpha  / 2]]></fr:tex> and <fr:tex display="inline"><![CDATA[y = - i \alpha  / 2]]></fr:tex>. Hence <fr:tex display="block"><![CDATA[2 u(\alpha  / 2, - i \alpha  / 2) = f(\alpha ) + g(0),]]></fr:tex> which determines <fr:tex display="inline"><![CDATA[f]]></fr:tex> up to some constant. This method requires an analytic expression of <fr:tex display="inline"><![CDATA[u(x, y)]]></fr:tex>, so it makes sense to plug in complex numbers into <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/cplx-0002/</fr:uri>
+            <fr:display-uri>cplx-0002</fr:display-uri>
+            <fr:route>/forest/cplx-0002/</fr:route>
+            <fr:title text="Cauchy–Riemann equations">Cauchy–Riemann equations</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Let <fr:tex display="inline"><![CDATA[f : U \to  \mathbb {C}]]></fr:tex> be a <fr:link href="/forest/cplx-0001/" title="holomorphic function" uri="https://trebor-huang.github.io/forest/cplx-0001/" display-uri="cplx-0001" type="local">holomorphic function</fr:link> defined on an open set <fr:tex display="inline"><![CDATA[U \subseteq  \mathbb {C}]]></fr:tex>. Viewed as two functions of two real variables <fr:tex display="inline"><![CDATA[f(x + i y) = u(x, y) + i v(x, y)]]></fr:tex>, they are differentiable, and moreover satisfies equations
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \frac {\partial  u}{\partial  x} &= \frac {\partial  v}{\partial  y}, \\
+    \frac {\partial  u}{\partial  y} &= -\frac {\partial  v}{\partial  x}.
+  \end {aligned}]]></fr:tex>
+  These are necessary and sufficient conditions for holomorphicity. We say <fr:tex display="inline"><![CDATA[v]]></fr:tex> is a <html:strong>harmonic conjugate</html:strong> of <fr:tex display="inline"><![CDATA[u]]></fr:tex>, and <fr:tex display="inline"><![CDATA[-u]]></fr:tex> is similarly a harmonic conjugate of <fr:tex display="inline"><![CDATA[v]]></fr:tex>. They determine each other up to a constant, by the Poincaré lemma recovering a function from its differential.
+</html:p>
+            <html:p>
+  Intuitively, for a function <fr:tex display="inline"><![CDATA[f]]></fr:tex> to be complex differentiable, we need <fr:tex display="inline"><![CDATA[(f(z + \epsilon ) - f(z)) / \epsilon ]]></fr:tex> to converge to the <html:em>same</html:em> value for both real and imaginary <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>. The real and imaginary parts of this equality correspond to the two Cauchy–Riemann equations.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/cplx-0003/</fr:uri>
+            <fr:display-uri>cplx-0003</fr:display-uri>
+            <fr:route>/forest/cplx-0003/</fr:route>
+            <fr:title text="complexifying the (co)tangent space">complexifying the (co)tangent space</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Considering <fr:tex display="inline"><![CDATA[\mathbb {C}]]></fr:tex> as a two dimensional real space, the tangent space at a point (take zero as an example) is <fr:tex display="inline"><![CDATA[\mathbb {R}^2]]></fr:tex>. It comes equipped with a complex structure <fr:tex display="inline"><![CDATA[J]]></fr:tex> sending <fr:tex display="inline"><![CDATA[\partial _x \mapsto  \partial _y]]></fr:tex> and <fr:tex display="inline"><![CDATA[\partial _y \mapsto  -\partial _x]]></fr:tex>, acting as multiplication by <fr:tex display="inline"><![CDATA[i]]></fr:tex>. A (real) smooth function <fr:tex display="inline"><![CDATA[\mathbb {C} \to  \mathbb {C}]]></fr:tex> then has a Jacobian at each point, which is a <fr:tex display="inline"><![CDATA[2 \times  2]]></fr:tex> matrix <fr:tex display="inline"><![CDATA[M]]></fr:tex>. The <fr:link href="/forest/cplx-0002/" title="Cauchy–Riemann equations" uri="https://trebor-huang.github.io/forest/cplx-0002/" display-uri="cplx-0002" type="local">Cauchy–Riemann equations</fr:link> then imposes a condition on this matrix, which can be written as <fr:tex display="inline"><![CDATA[J M = M J]]></fr:tex>.
+</html:p>
+            <html:p>
+  It is sometimes convenient to complexify this vector space <fr:tex display="inline"><![CDATA[\mathbb {R}^2 \otimes  \mathbb {C} = \mathbb {C}^2]]></fr:tex>. This corresponds to formally allowing the <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> components to be complex-valued. This is because we often want to view a complex function as a scalar field on a two dimensional (real) manifold, but the scalar can be complex. So to do calculus with these scalars, naturally the associated tangent and cotangent spaces needs to be complexified. <fr:tex display="inline"><![CDATA[J]]></fr:tex> now has two eigenvalues <fr:tex display="inline"><![CDATA[i]]></fr:tex> and <fr:tex display="inline"><![CDATA[-i]]></fr:tex>, corresponding to the <html:strong>holomorphic</html:strong> and <html:strong>antiholomorphic</html:strong> subspaces.
+</html:p>
+            <html:p>
+  Of course this only happens in the tangent space, and the coordinate functions cannot be extended to complex domains. The Jacobian then extends to the complexified tangent space. This space has an alternative basis <fr:tex display="block"><![CDATA[\partial _z = \frac {1}{2}(\partial _x - i \partial _y) \quad \text {and}\quad \partial _{\bar {z}} = \frac {1}{2}(\partial _x + i \partial _y).]]></fr:tex> This has the dual basis on <fr:tex display="inline"><![CDATA[1]]></fr:tex>-forms, given by <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {z} = \operatorname {d}\mathclose {x} + i \operatorname {d}\mathclose {y}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {d}\mathclose {\bar {z}} = \operatorname {d}\mathclose {x} - i \operatorname {d}\mathclose {y}]]></fr:tex>. In this basis, the Cauchy–Riemann equation can be written as <fr:tex display="inline"><![CDATA[\partial _{\bar {z}} f = 0]]></fr:tex>.
+</html:p>
+            <html:p>
+  This gives a heuristic procedure for finding the <fr:link href="/forest/cplx-0002/" title="Cauchy–Riemann equations" uri="https://trebor-huang.github.io/forest/cplx-0002/" display-uri="cplx-0002" type="local">harmonic conjugate</fr:link> of a function.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/cplx-0004/</fr:uri>
+                <fr:display-uri>cplx-0004</fr:display-uri>
+                <fr:route>/forest/cplx-0004/</fr:route>
+                <fr:title text="formal method to calculate the harmonic conjugate">formal method to calculate the harmonic conjugate</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Suppose <fr:tex display="inline"><![CDATA[u]]></fr:tex> is the real part of some <fr:link href="/forest/cplx-0001/" title="holomorphic function" uri="https://trebor-huang.github.io/forest/cplx-0001/" display-uri="cplx-0001" type="local">holomorphic function</fr:link> <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Then we have <fr:tex display="inline"><![CDATA[2 u(x, y) = f(x + i y) + \overline {f(x + i y)}]]></fr:tex>. If we could extend the coordinates <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> to complex numbers, then similar to <fr:link href="/forest/cplx-0003/" title="complexifying the (co)tangent space" uri="https://trebor-huang.github.io/forest/cplx-0003/" display-uri="cplx-0003" type="local">what happens in the tangent space</fr:link>, we have a <fr:tex display="inline"><![CDATA[(z, \bar {z})]]></fr:tex> coordinate system with <fr:tex display="inline"><![CDATA[z = x + i y]]></fr:tex> and <fr:tex display="inline"><![CDATA[\bar {z} = x - i y]]></fr:tex> acting as <html:em>independent</html:em> variables in <fr:tex display="inline"><![CDATA[\mathbb {C}^2]]></fr:tex>.
+</html:p>
+                <html:p>
+  By the <fr:link href="/forest/cplx-0002/" title="Cauchy–Riemann equations" uri="https://trebor-huang.github.io/forest/cplx-0002/" display-uri="cplx-0002" type="local">Cauchy–Riemann equations</fr:link>, <fr:tex display="inline"><![CDATA[f(x + i y)]]></fr:tex> should only depend on <fr:tex display="inline"><![CDATA[z]]></fr:tex> and <fr:tex display="inline"><![CDATA[\overline {f(x + i y)}]]></fr:tex> should only depend on <fr:tex display="inline"><![CDATA[\bar {z}]]></fr:tex>. So we can write the latter as another function <fr:tex display="inline"><![CDATA[g(\bar {z})]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[2 u = f(z) + g(\bar {z})]]></fr:tex>, we can look at the value at the point <fr:tex display="inline"><![CDATA[(z, \bar {z}) = (\alpha , 0)]]></fr:tex> where <fr:tex display="inline"><![CDATA[\alpha  \in  \mathbb {C}]]></fr:tex>, which corresponds to <fr:tex display="inline"><![CDATA[x = \alpha  / 2]]></fr:tex> and <fr:tex display="inline"><![CDATA[y = - i \alpha  / 2]]></fr:tex>. Hence <fr:tex display="block"><![CDATA[2 u(\alpha  / 2, - i \alpha  / 2) = f(\alpha ) + g(0),]]></fr:tex> which determines <fr:tex display="inline"><![CDATA[f]]></fr:tex> up to some constant. This method requires an analytic expression of <fr:tex display="inline"><![CDATA[u(x, y)]]></fr:tex>, so it makes sense to plug in complex numbers into <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/cplx-0001/</fr:uri>
+            <fr:display-uri>cplx-0001</fr:display-uri>
+            <fr:route>/forest/cplx-0001/</fr:route>
+            <fr:title text="holomorphic function">holomorphic function</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A holomorphic function defined on an open set <fr:tex display="inline"><![CDATA[U \subseteq  \mathbb {C}]]></fr:tex> is a complex-valued function that is complex differentiable at every point. In other words, the limit
+  <fr:tex display="block"><![CDATA[f'(z) = \lim _{h \to  0} \frac {f(z + h) - f(z)}{h}]]></fr:tex>
+  exists for all <fr:tex display="inline"><![CDATA[z \in  U]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

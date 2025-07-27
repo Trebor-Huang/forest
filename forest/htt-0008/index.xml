@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>8</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/htt-0008/</fr:uri>
+    <fr:display-uri>htt-0008</fr:display-uri>
+    <fr:route>/forest/htt-0008/</fr:route>
+    <fr:title text="\infty -groupoids are the same as Kan complexes"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-groupoids are the same as Kan complexes</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  A simplicial set is an <fr:link href="/forest/htt-0007/" title="\infty -groupoid" uri="https://trebor-huang.github.io/forest/htt-0007/" display-uri="htt-0007" type="local"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-groupoid</fr:link> iff it is a <fr:link href="/forest/htt-0002/" title="Kan complex" uri="https://trebor-huang.github.io/forest/htt-0002/" display-uri="htt-0002" type="local">Kan complex</fr:link>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Given an <fr:link href="/forest/htt-0001/" title="\infty -category" uri="https://trebor-huang.github.io/forest/htt-0001/" display-uri="htt-0001" type="local"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we can extend along inner horn inclusions <fr:tex display="inline"><![CDATA[\Lambda ^n_i \hookrightarrow  \Delta ^n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[0 < i < n]]></fr:tex>. So to prove it is a <fr:link href="/forest/htt-0002/" title="Kan complex" uri="https://trebor-huang.github.io/forest/htt-0002/" display-uri="htt-0002" type="local">Kan complex</fr:link>, we need to additionally prove the extension property for <fr:tex display="inline"><![CDATA[i = 0]]></fr:tex> (the left horn) and <fr:tex display="inline"><![CDATA[i = n]]></fr:tex> (the right horn). Inspecting the cases where <fr:tex display="inline"><![CDATA[n = 2]]></fr:tex>, we see that intuitively the left horn extension requires the leftmost arrow <fr:tex display="inline"><![CDATA[\Delta ^{\{0,1\}} \hookrightarrow  \Delta ^n]]></fr:tex> to be “invertible”. Dually for the right horn. We can propose a lemma.
+  </html:p>
+
+  <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:uri>https://trebor-huang.github.io/forest/htt-0006/</fr:uri><fr:display-uri>htt-0006</fr:display-uri><fr:route>/forest/htt-0006/</fr:route><fr:title text="characterization of equivalences in an \infty -category">characterization of equivalences in an <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:title><fr:taxon>Theorem</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  An arrow <fr:tex display="inline"><![CDATA[f]]></fr:tex> in an <fr:link href="/forest/htt-0001/" title="\infty -category" uri="https://trebor-huang.github.io/forest/htt-0001/" display-uri="htt-0001" type="local"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an <fr:link href="/forest/htt-0005/" title="equivalence arrow in an \infty -category" uri="https://trebor-huang.github.io/forest/htt-0005/" display-uri="htt-0005" type="local">equivalence</fr:link> iff any left horn <fr:tex display="inline"><![CDATA[\Lambda ^n_0 \to  X]]></fr:tex> with the leftmost arrow <fr:tex display="inline"><![CDATA[\Delta ^{\{0,1\}} \subseteq  \Lambda ^n_0]]></fr:tex> being <fr:tex display="inline"><![CDATA[f]]></fr:tex> can be extended to <fr:tex display="inline"><![CDATA[\Delta ^n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[n \ge  2]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Given the definition of a <fr:link href="/forest/htt-000E/" title="slice of simplicial sets" uri="https://trebor-huang.github.io/forest/htt-000E/" display-uri="htt-000E" type="local">slice of simplicial sets</fr:link>, we can reduce the <fr:tex display="inline"><![CDATA[n]]></fr:tex>-simplices and left horns to a single arrow in a slice category. Consider the map <fr:tex display="inline"><![CDATA[q : X_{/\Delta ^{n-2}} \to  X_{/\partial \Delta ^{n-2}}]]></fr:tex>. A left horn is equivalent to a square
+  </html:p>
+  
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="a689c3a5aad188e56f0579e8069c5c36"><fr:resource-content><html:img src="/forest/a689c3a5aad188e56f0579e8069c5c36.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+    {\Delta ^0} & {X_{/\Delta ^{n-2}}} \\
+    {\Delta ^1} & {X_{/\partial \Delta ^{n-2}}}
+    \arrow [from=1-1, to=1-2]
+    \arrow ["0"', from=1-1, to=2-1]
+    \arrow ["q", from=1-2, to=2-2]
+    \arrow [from=2-1, to=2-2]
+  \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+  <html:p>
+    Here the top arrow specifies the simplex spanning the vertices <fr:tex display="inline"><![CDATA[\{0, 2, 3, \dots , n\} = [n] \setminus  1]]></fr:tex>, and the bottom arrow specifies all the simplex faces except <fr:tex display="inline"><![CDATA[[n] \setminus  0]]></fr:tex> and <fr:tex display="inline"><![CDATA[[n] \setminus  1]]></fr:tex>. A solution to this lifting problem is equivalent to filling the required horn.
+  </html:p>
+
+  <html:p>
+    Performing this reduction allows us to remove all the consideration of higher simplices, because we can view the right arrow as a black box <fr:tex display="inline"><![CDATA[q : E \to  B]]></fr:tex>, and all the information we need is that the bottom arrow is an <fr:link href="/forest/htt-0005/" title="equivalence arrow in an \infty -category" uri="https://trebor-huang.github.io/forest/htt-0005/" display-uri="htt-0005" type="local">equivalence</fr:link>, and the right arrow is a <fr:link href="/forest/htt-000H/" title="fibrations and anodyne maps" uri="https://trebor-huang.github.io/forest/htt-000H/" display-uri="htt-000H" type="local">right fibration</fr:link>.
+  </html:p>
+
+  <html:p>
+    To see that <fr:tex display="inline"><![CDATA[q]]></fr:tex> is a right fibration, use the <fr:link href="/forest/htt-000G/" title="Joyal–Tierney calculus on joins and slices" uri="https://trebor-huang.github.io/forest/htt-000G/" display-uri="htt-000G" type="local">Joyal–Tierney calculus on joins and slices</fr:link>. Since <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an <fr:link href="/forest/htt-0001/" title="\infty -category" uri="https://trebor-huang.github.io/forest/htt-0001/" display-uri="htt-0001" type="local"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:link>, <fr:tex display="inline"><![CDATA[X \to  1]]></fr:tex> is an inner fibration. <fr:tex display="inline"><![CDATA[\partial \Delta ^{n-2} \to  \Delta ^{n-2}]]></fr:tex> is obviously a monomorphism. The pullback-power of them is isomorphic to <fr:tex display="inline"><![CDATA[q]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    To see that the bottom arrow <fr:tex display="inline"><![CDATA[f']]></fr:tex> selects an equivalence in <fr:tex display="inline"><![CDATA[X_{/\partial \Delta ^k}]]></fr:tex>, we first note that <fr:tex display="inline"><![CDATA[X_{/\partial \Delta ^{n-2}} \to  X_{/\varnothing } = X]]></fr:tex>, the functor that forgets the slicing and returns the underlying object, is also a right fibration in the same way as above. And the image of <fr:tex display="inline"><![CDATA[f']]></fr:tex> under this functor is <fr:tex display="inline"><![CDATA[f]]></fr:tex>, which is an equivalence. The theorem now reduces to two facts about equivalences under right fibrations:
+  </html:p>
+  <html:ul><html:li>If the image of an arrow under a right fibration is an equivalence, then the arrow itself is already an equivalence.</html:li>
+    <html:li>Given a right fibration <fr:tex display="inline"><![CDATA[q : E \to  B]]></fr:tex>, an equivalence <fr:tex display="inline"><![CDATA[f']]></fr:tex> in <fr:tex display="inline"><![CDATA[B]]></fr:tex> and a lift of the <html:em>left</html:em> object (i.e. domain of the equivalence), there exists a compatible lift of <fr:tex display="inline"><![CDATA[f']]></fr:tex> under <fr:tex display="inline"><![CDATA[q]]></fr:tex>.</html:li></html:ul>
+  <html:p>
+    These can both be proven by elementary manipulations of lifting properties.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree>
+
+  <html:p>
+    Now suppose <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an <fr:link href="/forest/htt-0007/" title="\infty -groupoid" uri="https://trebor-huang.github.io/forest/htt-0007/" display-uri="htt-0007" type="local"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-groupoid</fr:link>, a left horn <fr:tex display="inline"><![CDATA[\Lambda ^n_0 \to  X]]></fr:tex> can always be extended to <fr:tex display="inline"><![CDATA[\Delta ^n \to  X]]></fr:tex>, because all arrows, and hence the leftmost arrow in particular, are equivalences. Dually all the right horns can be extended. Therefore a <fr:link href="/forest/htt-0007/" title="\infty -groupoid" uri="https://trebor-huang.github.io/forest/htt-0007/" display-uri="htt-0007" type="local"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-groupoid</fr:link> is a <fr:link href="/forest/htt-0002/" title="Kan complex" uri="https://trebor-huang.github.io/forest/htt-0002/" display-uri="htt-0002" type="local">Kan complex</fr:link>.
+  </html:p>
+
+  <html:p>
+    The other direction is easy. We consider the horns <fr:tex display="inline"><![CDATA[\Lambda ^2_i \hookrightarrow  \Delta ^2]]></fr:tex> where <fr:tex display="inline"><![CDATA[i = 0, 2]]></fr:tex>. Let the longest edge be the identity arrow. Then the extension property implies the other edge is invertible.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-0002/</fr:uri>
+            <fr:display-uri>htt-0002</fr:display-uri>
+            <fr:route>/forest/htt-0002/</fr:route>
+            <fr:title text="Kan complex">Kan complex</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A simplicial set <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an <html:strong>Kan complex</html:strong> if it has the extension property against the horn inclusions <fr:tex display="inline"><![CDATA[\Lambda ^n_i \to  \Delta ^n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[0 \le  i \le  n]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-0001/</fr:uri>
+            <fr:display-uri>htt-0001</fr:display-uri>
+            <fr:route>/forest/htt-0001/</fr:route>
+            <fr:title text="\infty -category"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A simplicial set <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an <html:strong><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</html:strong> if it has the extension property against the inner horn inclusions <fr:tex display="inline"><![CDATA[\Lambda ^n_i \to  \Delta ^n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[0 < i < n]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-0007/</fr:uri>
+            <fr:display-uri>htt-0007</fr:display-uri>
+            <fr:route>/forest/htt-0007/</fr:route>
+            <fr:title text="\infty -groupoid"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-groupoid</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A <html:strong><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-groupoid</html:strong> is a <fr:link href="/forest/htt-0001/" title="\infty -category" uri="https://trebor-huang.github.io/forest/htt-0001/" display-uri="htt-0001" type="local"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:link> with all arrows being <fr:link href="/forest/htt-0005/" title="equivalence arrow in an \infty -category" uri="https://trebor-huang.github.io/forest/htt-0005/" display-uri="htt-0005" type="local">equivalences</fr:link>. In other words, it is a <fr:link href="/forest/htt-0001/" title="\infty -category" uri="https://trebor-huang.github.io/forest/htt-0001/" display-uri="htt-0001" type="local"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:link> <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\operatorname {ho} X]]></fr:tex> is a groupoid.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

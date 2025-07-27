@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>22</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/tile-000J/</fr:uri>
+    <fr:display-uri>tile-000J</fr:display-uri>
+    <fr:route>/forest/tile-000J/</fr:route>
+    <fr:title text="totality of the neighborhood relation">totality of the neighborhood relation</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Suppose we have a <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link> that doesn’t involve a prototile that never appears in its <fr:link href="/forest/tile-000A/" title="hull of set of tilings" uri="https://trebor-huang.github.io/forest/tile-000A/" display-uri="tile-000A" type="local">hull</fr:link>, then for every finite <fr:link href="/forest/tile-0006/" title="Conway signature" uri="https://trebor-huang.github.io/forest/tile-0006/" display-uri="tile-0006" type="local">Conway signature</fr:link> <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> with a valid edge label <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>, it is always possible to extend <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> so that the <fr:link href="/forest/tile-0007/" title="recursive neighborhood algorithm" uri="https://trebor-huang.github.io/forest/tile-0007/" display-uri="tile-0007" type="local">recursive neighborhood algorithm</fr:link> accepts it.
+</html:p><html:p>
+  There are contrived substitution systems that violate the condition of this theorem. For example, consider a one-dimensional system with two kinds of tiles <fr:tex display="inline"><![CDATA[a, b]]></fr:tex>. Let the substitution rules be <fr:tex display="inline"><![CDATA[a \mapsto  aa]]></fr:tex>, <fr:tex display="inline"><![CDATA[b \mapsto  ba]]></fr:tex>. Iterated deflations produce the patches <fr:tex display="inline"><![CDATA[baa\dots  a]]></fr:tex>, and taking the hull results in the periodic tiling <fr:tex display="inline"><![CDATA[\dots  aaa \dots ]]></fr:tex>, where <fr:tex display="inline"><![CDATA[b]]></fr:tex> doesn’t occur. These are probably<fr:tex display="inline"><![CDATA[^?]]></fr:tex> never interesting.
+</html:p><html:p>
+  Another caveat is when the substitution system contains a final stage of deflation. This technically makes most of the results invalid since deflation rules are no longer unique. But it should be apparent that this can be fixed by suitably changing our definitions and proofs.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    If a prototile <fr:tex display="inline"><![CDATA[t]]></fr:tex> can appear in the hull of <fr:tex display="inline"><![CDATA[\mathscr {S}]]></fr:tex>, this means for any radius, there is a patch of tiling in <fr:tex display="inline"><![CDATA[\mathscr {S}]]></fr:tex> covering that radius, with this tile in the center. In this case, <fr:tex display="inline"><![CDATA[\mathscr {S}]]></fr:tex> consists of iterated deflations of a single tile. So there exists <fr:tex display="inline"><![CDATA[t']]></fr:tex> such that its <fr:tex display="inline"><![CDATA[n]]></fr:tex>-th deflation contains <fr:tex display="inline"><![CDATA[t]]></fr:tex>, such that all the edges of <fr:tex display="inline"><![CDATA[t]]></fr:tex> have neighbors in the deflation. So <fr:tex display="inline"><![CDATA[t]]></fr:tex> has a Conway signature <fr:tex display="inline"><![CDATA[\Sigma ' = t \rightarrow  \cdots  \rightarrow  t']]></fr:tex>. Now take <fr:tex display="inline"><![CDATA[t]]></fr:tex> to be the last prototile label in <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex>, and let the extension be the concatenation <fr:tex display="inline"><![CDATA[\Sigma  \frown  \Sigma ']]></fr:tex>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>22</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-000H/</fr:uri>
+            <fr:display-uri>tile-000H</fr:display-uri>
+            <fr:route>/forest/tile-000H/</fr:route>
+            <fr:title text="The transductive algorithm">The transductive algorithm</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  The discussion in <fr:link href="/forest/tile-000C/" title="The structure of neighbor Conway signatures" uri="https://trebor-huang.github.io/forest/tile-000C/" display-uri="tile-000C" type="local">§ <fr:contextual-number uri="https://trebor-huang.github.io/forest/tile-000C/" display-uri="tile-000C" /></fr:link> suggests that we can take the following approach to generate neighbor Conway signatures:
+</html:p>
+            <html:ul><html:li>Construct a finite automaton that recognizes <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>, the <fr:link href="/forest/tile-000E/" title="language of neighborhood relation" uri="https://trebor-huang.github.io/forest/tile-000E/" display-uri="tile-000E" type="local">language of neighborhood relation</fr:link>.</html:li>
+  <html:li>Convert a recognizer for the binary relation into a <html:em>transducer</html:em>, i.e. a finite state machine with input and output.</html:li>
+  <html:li>Simulate the transducer efficiently.</html:li></html:ul>
+            <html:p>
+  The second step is very easy. Suppose we are working over the alphabet <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex>, and we have a finite state automata where the transition edges are labelled with pairs <fr:tex display="inline"><![CDATA[(x, y) \in  \Delta  \times  \Delta ]]></fr:tex>. So we can just relabel it by <fr:tex display="inline"><![CDATA[x/y]]></fr:tex>, i.e. a transition that consumes the symbol <fr:tex display="inline"><![CDATA[x]]></fr:tex> and outputs the symbol <fr:tex display="inline"><![CDATA[y]]></fr:tex>. Of course, this results in a non-deterministic transducer. But there is a lot of previous work on executing non-deterministic transducers, which we can use verbatim.
+</html:p>
+            <html:p>
+  So, we have reduced our problem to the first step. But unless we can resolve <fr:link href="/forest/tile-000F/" title="regularity of the neighborhood relation" uri="https://trebor-huang.github.io/forest/tile-000F/" display-uri="tile-000F" type="local">Conjecture <fr:contextual-number uri="https://trebor-huang.github.io/forest/tile-000F/" display-uri="tile-000F" /></fr:link> constructively, how are we going to produce such an automaton? This is due to a special property that <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex> enjoys, as promised.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>22</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/misc-000L/</fr:uri>
+                <fr:display-uri>misc-000L</fr:display-uri>
+                <fr:route>/forest/misc-000L/</fr:route>
+                <fr:title text="bideterministic automaton">bideterministic automaton</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  A deterministic automaton is <html:strong>bideterministic</html:strong> if it has only one accepting state, and if reversing all transitions and swapping the starting and accepting state produces another deterministic automaton.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>22</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/misc-000M/</fr:uri>
+                <fr:display-uri>misc-000M</fr:display-uri>
+                <fr:route>/forest/misc-000M/</fr:route>
+                <fr:title text="reversible regular language">reversible regular language</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  A regular language is <html:strong>reversible</html:strong> if it can be recognized by a <fr:link href="/forest/misc-000L/" title="bideterministic automaton" uri="https://trebor-huang.github.io/forest/misc-000L/" display-uri="misc-000L" type="local">bideterministic</fr:link> DFA, which is equivalent to requiring the <fr:link href="/forest/misc-000K/" title="Myhill–Nerode automaton" uri="https://trebor-huang.github.io/forest/misc-000K/" display-uri="misc-000K" type="local">Myhill–Nerode automaton</fr:link> to be bideterministic.
+</html:p>
+                <html:p>
+  Note that there are stronger and weaker notions of reversible regular languages in the literature, with inconsistent names.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>22</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/misc-000N/</fr:uri>
+                <fr:display-uri>misc-000N</fr:display-uri>
+                <fr:route>/forest/misc-000N/</fr:route>
+                <fr:title text="characterization of reversible languages">characterization of reversible languages</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Given a language <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>, it is a <fr:link href="/forest/misc-000M/" title="reversible regular language" uri="https://trebor-huang.github.io/forest/misc-000M/" display-uri="misc-000M" type="local">reversible regular language</fr:link> if and only if it is regular, and if <fr:tex display="inline"><![CDATA[xz, yz \in  \mathcal {L}]]></fr:tex> for some strings <fr:tex display="inline"><![CDATA[x, y, z]]></fr:tex>, then for all strings <fr:tex display="inline"><![CDATA[w]]></fr:tex> we have <fr:tex display="inline"><![CDATA[xw \in  \mathcal {L} \iff  yw \in  \mathcal {L}]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    See Theorem 7 in <fr:link href="/forest/inference-of-reversible-languages/" title="Inference of Reversible Languages" uri="https://trebor-huang.github.io/forest/inference-of-reversible-languages/" display-uri="inference-of-reversible-languages" type="local">Inference of Reversible Languages</fr:link>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  By the way, this suggests a definition for reversible languages in general, without restricting to regular languages. And indeed, Tatham had the <fr:link href="https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/aperiodic-followup/adjrec-dsf" type="external">important realization</fr:link> that <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex> is reversible, although the result there is stated in terms of <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>. This is essentially the same, because in the automaton for <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>, there are many accepting states, each corresponding to a tile type. And the automaton for <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex> simply adds a “true” accepting state, and connects each of the original accepting states to it by a transition that expects an input character of the correct tile type. Since we know what the tile type is at all times, there is no fundamental difference between the two languages. But for <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex>, the start and end is completely symmetric, so it allows for a cleaner treatment.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>22</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/tile-000G/</fr:uri>
+                <fr:display-uri>tile-000G</fr:display-uri>
+                <fr:route>/forest/tile-000G/</fr:route>
+                <fr:title text="the augmented language of neighborhood relation is reversible">the augmented language of neighborhood relation is reversible</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Given any <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link>, the augmented <fr:link href="/forest/tile-000E/" title="language of neighborhood relation" uri="https://trebor-huang.github.io/forest/tile-000E/" display-uri="tile-000E" type="local">language of neighborhood relation</fr:link> <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex> is <fr:link href="/forest/misc-000M/" title="reversible regular language" uri="https://trebor-huang.github.io/forest/misc-000M/" display-uri="misc-000M" type="local">reversible</fr:link>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We use the <fr:link href="/forest/misc-000N/" title="characterization of reversible languages" uri="https://trebor-huang.github.io/forest/misc-000N/" display-uri="misc-000N" type="local">characterization of reversible languages</fr:link>. Any substring (ignoring the special starting and ending symbols) in this case describes a fixed geometric transformation between a tile and some supertile that it is contained in. So suppose <fr:tex display="inline"><![CDATA[xz, yz \in  \mathcal {L}^+]]></fr:tex>, then inverting the transformation given by <fr:tex display="inline"><![CDATA[z]]></fr:tex>, we know that <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> describe equivalent geometric configurations of a tile in some supertile. Therefore they must actually be <fr:link href="/forest/misc-000J/" title="Nerode congruence" uri="https://trebor-huang.github.io/forest/misc-000J/" display-uri="misc-000J" type="local">Nerode congruent</fr:link>.
+  </html:p>
+
+  <html:p>
+    Since we have not rigorously defined the geometric aspects of tile systems, we will not attempt to articulate a completely formal proof. But it should be noted how geometry plays a crucial role here, meaning that substitution systems that are “non-rigid” may fail this property.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  We are finally ready to discuss the benefits of a reversible language: they admit a very efficient algorithm that learns the language from a series of examples. This problem, called <html:em>language induction</html:em>, is very difficult for general languages.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>22</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/misc-000O/</fr:uri>
+                <fr:display-uri>misc-000O</fr:display-uri>
+                <fr:route>/forest/misc-000O/</fr:route>
+                <fr:title text="induction of reversible languages">induction of reversible languages</fr:title>
+                <fr:taxon>Algorithm</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  This algorithm is described in <fr:link href="/forest/inference-of-reversible-languages/" title="Inference of Reversible Languages" uri="https://trebor-huang.github.io/forest/inference-of-reversible-languages/" display-uri="inference-of-reversible-languages" type="local">Inference of Reversible Languages</fr:link>. It inputs a set of example strings in a <fr:link href="/forest/misc-000M/" title="reversible regular language" uri="https://trebor-huang.github.io/forest/misc-000M/" display-uri="misc-000M" type="local">reversible regular language</fr:link>, and outputs a finite <fr:link href="/forest/misc-000L/" title="bideterministic automaton" uri="https://trebor-huang.github.io/forest/misc-000L/" display-uri="misc-000L" type="local">bideterministic automaton</fr:link>. The soundness proof is given as Theorem 26, and if the input enumerates all the strings in the language, then the output is guaranteed to converge to the correct minimal DFA at a finite stage by Theorem 27. Note that obviously we cannot algorithmically determine whether it has converged or not, without further information.
+</html:p>
+                <html:p>
+  The algorithm proceeds as follows. Start with a trivial automata with a start and accept state, but no transitions. When we read a new example string, add a new chain of states and transitions from the start to the accept state, solely accepting this new string. Then we perform a merging process. Whenever a state has two transitions on the same letter, we merge the destination states, and vice versa for transitions to that state. This process obviously terminates and produces a bideterministic automata. And we can read the next example string.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  It is easy to generate example strings in our use case: simply feed in valid finite Conway signatures in <fr:link href="/forest/tile-0007/" title="recursive neighborhood algorithm" uri="https://trebor-huang.github.io/forest/tile-0007/" display-uri="tile-0007" type="local">Algorithm <fr:contextual-number uri="https://trebor-huang.github.io/forest/tile-0007/" display-uri="tile-0007" /></fr:link>. Now all we need is a way to know when to stop. A possible criterion is when the resulting transducer never rejects a valid Conway signature. To do this, erase the outputs to get an automaton, and determinize it to get a DFA <fr:tex display="inline"><![CDATA[A]]></fr:tex>. Now consider another automaton <fr:tex display="inline"><![CDATA[B]]></fr:tex> that recognizes valid Conway signatures (paired with an edge label at the beginning and a terminating tile label). Take the product of these two automata, remove unreachable states, and check whether there are states where <fr:tex display="inline"><![CDATA[B]]></fr:tex> has a valid transition but <fr:tex display="inline"><![CDATA[A]]></fr:tex> doesn’t. This is essentially a special case of the standard algorithm deciding regular language containment.
+</html:p>
+            <html:p>
+  Since the learned language only grows larger with each example, this condition is obviously sufficient because the original language came from a recursive function. Furthermore, we will prove that under some conditions, this can always be achieved in finite time, so the language inference algorithm terminates. Recall that for the transducer, we modified it so that every state is accepting, so this claim is reduced to the following theorem.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>22</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/tile-000J/</fr:uri>
+                <fr:display-uri>tile-000J</fr:display-uri>
+                <fr:route>/forest/tile-000J/</fr:route>
+                <fr:title text="totality of the neighborhood relation">totality of the neighborhood relation</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Suppose we have a <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link> that doesn’t involve a prototile that never appears in its <fr:link href="/forest/tile-000A/" title="hull of set of tilings" uri="https://trebor-huang.github.io/forest/tile-000A/" display-uri="tile-000A" type="local">hull</fr:link>, then for every finite <fr:link href="/forest/tile-0006/" title="Conway signature" uri="https://trebor-huang.github.io/forest/tile-0006/" display-uri="tile-0006" type="local">Conway signature</fr:link> <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> with a valid edge label <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>, it is always possible to extend <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> so that the <fr:link href="/forest/tile-0007/" title="recursive neighborhood algorithm" uri="https://trebor-huang.github.io/forest/tile-0007/" display-uri="tile-0007" type="local">recursive neighborhood algorithm</fr:link> accepts it.
+</html:p><html:p>
+  There are contrived substitution systems that violate the condition of this theorem. For example, consider a one-dimensional system with two kinds of tiles <fr:tex display="inline"><![CDATA[a, b]]></fr:tex>. Let the substitution rules be <fr:tex display="inline"><![CDATA[a \mapsto  aa]]></fr:tex>, <fr:tex display="inline"><![CDATA[b \mapsto  ba]]></fr:tex>. Iterated deflations produce the patches <fr:tex display="inline"><![CDATA[baa\dots  a]]></fr:tex>, and taking the hull results in the periodic tiling <fr:tex display="inline"><![CDATA[\dots  aaa \dots ]]></fr:tex>, where <fr:tex display="inline"><![CDATA[b]]></fr:tex> doesn’t occur. These are probably<fr:tex display="inline"><![CDATA[^?]]></fr:tex> never interesting.
+</html:p><html:p>
+  Another caveat is when the substitution system contains a final stage of deflation. This technically makes most of the results invalid since deflation rules are no longer unique. But it should be apparent that this can be fixed by suitably changing our definitions and proofs.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    If a prototile <fr:tex display="inline"><![CDATA[t]]></fr:tex> can appear in the hull of <fr:tex display="inline"><![CDATA[\mathscr {S}]]></fr:tex>, this means for any radius, there is a patch of tiling in <fr:tex display="inline"><![CDATA[\mathscr {S}]]></fr:tex> covering that radius, with this tile in the center. In this case, <fr:tex display="inline"><![CDATA[\mathscr {S}]]></fr:tex> consists of iterated deflations of a single tile. So there exists <fr:tex display="inline"><![CDATA[t']]></fr:tex> such that its <fr:tex display="inline"><![CDATA[n]]></fr:tex>-th deflation contains <fr:tex display="inline"><![CDATA[t]]></fr:tex>, such that all the edges of <fr:tex display="inline"><![CDATA[t]]></fr:tex> have neighbors in the deflation. So <fr:tex display="inline"><![CDATA[t]]></fr:tex> has a Conway signature <fr:tex display="inline"><![CDATA[\Sigma ' = t \rightarrow  \cdots  \rightarrow  t']]></fr:tex>. Now take <fr:tex display="inline"><![CDATA[t]]></fr:tex> to be the last prototile label in <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex>, and let the extension be the concatenation <fr:tex display="inline"><![CDATA[\Sigma  \frown  \Sigma ']]></fr:tex>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  We finish with some discussion on methods to execute the resulting non-deterministic transducer efficiently. One obvious way is to attempt to determinize the transducer. This is not always possible, since the transducer also has a “potential output” state, which means the powerset construction may produce infinitely many states. However, this frequently works, and produces a deterministic finite state transducer.
+</html:p>
+            <html:p>
+  Another, more convenient method is via programs like <fr:link href="https://kleenexlang.org/" type="external">Kleenex</fr:link> to compile the transducers. We can either directly extract the resulting deterministic streaming transducer and simulate it, or compile it into a binary and use FFI.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-000A/</fr:uri>
+            <fr:display-uri>tile-000A</fr:display-uri>
+            <fr:route>/forest/tile-000A/</fr:route>
+            <fr:title text="hull of set of tilings">hull of set of tilings</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a set <fr:tex display="inline"><![CDATA[\mathscr {S}]]></fr:tex> of (possibly incomplete) tilings of the plane, its <html:strong>hull</html:strong> <fr:tex display="inline"><![CDATA[\overline {\mathscr {S}}]]></fr:tex> is the set of complete tilings <fr:tex display="inline"><![CDATA[T]]></fr:tex>, such that given an arbitrarily large disk <fr:tex display="inline"><![CDATA[D \subseteq  \mathbb {R}^2]]></fr:tex>, the patch of tiles in <fr:tex display="inline"><![CDATA[T]]></fr:tex> intersecting <fr:tex display="inline"><![CDATA[D]]></fr:tex> appears inside a tiling <fr:tex display="inline"><![CDATA[T' \in  \mathscr {S}]]></fr:tex>, up to translation.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-0006/</fr:uri>
+            <fr:display-uri>tile-0006</fr:display-uri>
+            <fr:route>/forest/tile-0006/</fr:route>
+            <fr:title text="Conway signature">Conway signature</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Assume we have a <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link> with unique inflation. For a tile <fr:tex display="inline"><![CDATA[t]]></fr:tex> in a tiling, we can inflate the tiling to find <fr:tex display="inline"><![CDATA[t]]></fr:tex> as a subtile in an inflated tile <fr:tex display="inline"><![CDATA[t_1]]></fr:tex>. If we give a unique number to each subtile in a substitution system, we can write this as <fr:tex display="inline"><![CDATA[t \xrightarrow {n_1} t_1]]></fr:tex>, meaning <fr:tex display="inline"><![CDATA[t]]></fr:tex> is the <fr:tex display="inline"><![CDATA[n_1]]></fr:tex>-th subtile. This process can be repeated, generating an infinite path
+  <fr:tex display="block"><![CDATA[\Sigma  = t \xrightarrow {n_1} t_1 \xrightarrow {n_2} t_2 \longrightarrow  \cdots ]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[t, t_1, t_2, \dots ]]></fr:tex> are prototile labels, and <fr:tex display="inline"><![CDATA[n_i]]></fr:tex> are subtile labels.
+  This path <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> is called the <html:strong>Conway signature</html:strong> of the tile. We will also consider the case of a finite patch of tiling, in which case the Conway signature will be a finite path.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-0007/</fr:uri>
+            <fr:display-uri>tile-0007</fr:display-uri>
+            <fr:route>/forest/tile-0007/</fr:route>
+            <fr:title text="recursive neighborhood algorithm">recursive neighborhood algorithm</fr:title>
+            <fr:taxon>Algorithm</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Suppose we have a <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link>. Given the <fr:link href="/forest/tile-0006/" title="Conway signature" uri="https://trebor-huang.github.io/forest/tile-0006/" display-uri="tile-0006" type="local">Conway signature</fr:link> of a tile <fr:tex display="inline"><![CDATA[t]]></fr:tex> and an edge label <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex> of that tile, we can calculate the signature of the neighboring tile <fr:tex display="inline"><![CDATA[t']]></fr:tex> and the edge label <fr:tex display="inline"><![CDATA[\epsilon ']]></fr:tex> of <fr:tex display="inline"><![CDATA[t']]></fr:tex> that coincides with <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>. This is implemented by mutual recursion with another auxiliary function. Given the signature of a tile and a subedge of that tile under deflation, it calculates the signature of the subtile <fr:tex display="inline"><![CDATA[t']]></fr:tex> we will arrive in if we cross the subedge inwards, and the edge label of <fr:tex display="inline"><![CDATA[t']]></fr:tex> corresponding to the input subedge.
+</html:p>
+            <html:p>
+  This second function is non-trivial, because for some substitution systems, crossing inwards through a subedge may lead us immediately out through another subedge, if they are pinched together. See <fr:link href="/forest/tile-0005/" title="Penrose rhombs" uri="https://trebor-huang.github.io/forest/tile-0005/" display-uri="tile-0005" type="local">Example <fr:contextual-number uri="https://trebor-huang.github.io/forest/tile-0005/" display-uri="tile-0005" /></fr:link>.
+</html:p>
+            <html:p>
+  The neighborhood function is as follows. Suppose we have a <fr:link href="/forest/tile-0006/" title="Conway signature" uri="https://trebor-huang.github.io/forest/tile-0006/" display-uri="tile-0006" type="local">Conway signature</fr:link>
+  <fr:tex display="block"><![CDATA[t_0 \xrightarrow {s_1} t_1 \xrightarrow {s_2} t_2 \longrightarrow  \cdots ]]></fr:tex>
+  and an edge <fr:tex display="inline"><![CDATA[\epsilon _0]]></fr:tex> of the tile <fr:tex display="inline"><![CDATA[t_0]]></fr:tex>. We consult the pairing of edges as specified in the <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link>. This has two cases.
+</html:p>
+            <html:ul><html:li>Suppose the edge <fr:tex display="inline"><![CDATA[\epsilon _0]]></fr:tex> (of the subtile labelled <fr:tex display="inline"><![CDATA[s_1]]></fr:tex>) is paired with another edge <fr:tex display="inline"><![CDATA[\epsilon '_0]]></fr:tex> of the subtile numbered <fr:tex display="inline"><![CDATA[s'_1]]></fr:tex>. Then since these two subtiles are neighbors already, we can directly output the signature
+  <fr:tex display="block"><![CDATA[t'_0 \xrightarrow {s'_1} t_1 \xrightarrow {s_2} t_2 \longrightarrow  \cdots ]]></fr:tex>
+  and the edge label <fr:tex display="inline"><![CDATA[\epsilon '_0]]></fr:tex>, where <fr:tex display="inline"><![CDATA[t'_0]]></fr:tex> is the prototile type of the <fr:tex display="inline"><![CDATA[s'_1]]></fr:tex> subtile in <fr:tex display="inline"><![CDATA[t_1]]></fr:tex>.</html:li>
+  <html:li>Suppose the edge is paired with a subedge <fr:tex display="inline"><![CDATA[\sigma _1]]></fr:tex> of an edge <fr:tex display="inline"><![CDATA[\epsilon _1]]></fr:tex> in the tile <fr:tex display="inline"><![CDATA[t_1]]></fr:tex>. Then we need to exit the tile <fr:tex display="inline"><![CDATA[t_1]]></fr:tex> through this edge. We recursively call this function on the Conway signature <fr:tex display="inline"><![CDATA[t_1 \xrightarrow {s_2} \cdots ]]></fr:tex> and the edge label <fr:tex display="inline"><![CDATA[\epsilon _1]]></fr:tex>. Suppose the algorithm determines that its neighbor has the Conway signature <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> and the edge label <fr:tex display="inline"><![CDATA[\epsilon '_1]]></fr:tex>. We then invoke the auxiliary function to calculate the subtile we would obtain if we enter <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> from the subedge <fr:tex display="inline"><![CDATA[\sigma _1]]></fr:tex> of its edge <fr:tex display="inline"><![CDATA[\epsilon '_1]]></fr:tex>, and we can return its output, tail-recursively.</html:li></html:ul>
+            <html:p>
+  For the auxiliary function, suppose again we have a signature
+  <fr:tex display="block"><![CDATA[\Sigma  = t_0 \xrightarrow {s_1} t_1 \xrightarrow {s_2} t_2 \longrightarrow  \cdots ]]></fr:tex>
+  and we have specified an edge <fr:tex display="inline"><![CDATA[\epsilon _0]]></fr:tex> of the tile <fr:tex display="inline"><![CDATA[t_0]]></fr:tex>, together with one of its subedges <fr:tex display="inline"><![CDATA[\sigma _0]]></fr:tex>. Again, we look up what is paired, in the substitution of <fr:tex display="inline"><![CDATA[t_0]]></fr:tex>, with the subedge <fr:tex display="inline"><![CDATA[\sigma _0]]></fr:tex>.
+</html:p>
+            <html:ul><html:li>
+    Suppose the result is an edge <fr:tex display="inline"><![CDATA[\epsilon _{-1}]]></fr:tex> in the subtile <fr:tex display="inline"><![CDATA[s_0]]></fr:tex> of <fr:tex display="inline"><![CDATA[t_0]]></fr:tex>. Then we can output
+    <fr:tex display="block"><![CDATA[t_{-1} \xrightarrow {s_{0}} t_0 \xrightarrow {s_1} t_1 \longrightarrow  \cdots ]]></fr:tex>
+    and the edge label <fr:tex display="inline"><![CDATA[\epsilon _{-1}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[t_{-1}]]></fr:tex> is the prototile label corresponding to the subtile <fr:tex display="inline"><![CDATA[s_0]]></fr:tex>.
+  </html:li>
+  <html:li>
+    Suppose the result is another subedge <fr:tex display="inline"><![CDATA[\sigma '_0]]></fr:tex> of the edge <fr:tex display="inline"><![CDATA[\epsilon '_0]]></fr:tex>. Then we call the neighborhood function on the Conway signature <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> and the edge label <fr:tex display="inline"><![CDATA[\epsilon '_0]]></fr:tex>. Let the result be the signature <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> and the edge <fr:tex display="inline"><![CDATA[\epsilon ''_0]]></fr:tex>. Now we just need to call the auxiliary function on <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> with the subedge <fr:tex display="inline"><![CDATA[\sigma '_0]]></fr:tex> of <fr:tex display="inline"><![CDATA[\epsilon ''_0]]></fr:tex>, and return its result.
+  </html:li></html:ul>
+            <html:p>
+  If we are dealing with finite Conway signatures, then the algorithm should raise an exception if at any point the path is too short. This signals that it has reached the boundary of the finite patch of tiles. Otherwise, the neighborhood function should always output a Conway path of equal length.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>19</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-0004/</fr:uri>
+            <fr:display-uri>tile-0004</fr:display-uri>
+            <fr:route>/forest/tile-0004/</fr:route>
+            <fr:title text="substitution system">substitution system</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/tile-0003/" title="tile system" uri="https://trebor-huang.github.io/forest/tile-0003/" display-uri="tile-0003" type="local">tile system</fr:link>, a <html:strong>substitution system</html:strong> is a map from each prototile to a patch of tiles, such that when we replace each tile in a tiling with the substitution, the resulting patches of tiles can fit together in the same way, forming another tiling. This process is called <html:strong>deflation</html:strong>, while the inverse process, if it exists, is called <html:strong>inflation</html:strong>. We usually only consider substitution systems where inflation exists and is unique.
+</html:p>
+            <html:p>
+  More precisely, given a prototile <fr:tex display="inline"><![CDATA[t]]></fr:tex>, we assign a list of deflated tiles <fr:tex display="inline"><![CDATA[t_i]]></fr:tex>. Each edge of <fr:tex display="inline"><![CDATA[t]]></fr:tex> will be subdivided into several subedges (with their own colors), such that the subdivision only depends on the color, and edges of opposite colors are divided in a way such that the resulting subedges match. For the data of how the deflated tiles glue together, we have a perfect pairing on the set
+  <fr:tex display="block"><![CDATA[\{\text {subedges of $t$}\} \sqcup  \coprod _i \{\text {edges of $t_i$}\}]]></fr:tex> such that the paired edges are compatible. Specifically, if two edges of deflated tiles, or two subedges of <fr:tex display="inline"><![CDATA[t]]></fr:tex> are matched, they must be of opposite colors; if an edge of a deflated tile is matched with a subedge, they must share colors.
+</html:p>
+            <html:p>
+  In addition to this, the subdivision must also match geometrically, but we shall not give its full definition here, as it suffices to recognize this intuitively.
+</html:p>
+            <html:p>
+  For convenience, if two edges <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\epsilon ']]></fr:tex> have opposite colors, we use the <html:em>same label</html:em> for their subedges in a substitution. This simplifies the presentation since we avoid using a conversion look-up table, but requires us to be somewhat careful in assigning labels. In general, we can assign the subedge labels counterclockwise for edges with positive colors, and clockwise for negative colors.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

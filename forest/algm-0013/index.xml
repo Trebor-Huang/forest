@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>12</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/algm-0013/</fr:uri>
+    <fr:display-uri>algm-0013</fr:display-uri>
+    <fr:route>/forest/algm-0013/</fr:route>
+    <fr:title text="irrelevant ideal">irrelevant ideal</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Given a <fr:tex display="inline"><![CDATA[\mathbb  N]]></fr:tex>-<fr:link href="/forest/hmlg-001L/" title="graded ring" uri="https://trebor-huang.github.io/forest/hmlg-001L/" display-uri="hmlg-001L" type="local">graded ring</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex>, its <html:strong>irrelevant ideal</html:strong> <fr:tex display="inline"><![CDATA[\mathord {\odot }]]></fr:tex> is defined by the subset <fr:tex display="inline"><![CDATA[S_+]]></fr:tex> of all positively graded elements.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-0012/</fr:uri>
+            <fr:display-uri>algm-0012</fr:display-uri>
+            <fr:route>/forest/algm-0012/</fr:route>
+            <fr:title text="points of the projective spectrum">points of the projective spectrum</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  The points of the <fr:link href="/forest/algm-000Y/" title="projective spectrum of a graded ring" uri="https://trebor-huang.github.io/forest/algm-000Y/" display-uri="algm-000Y" type="local">projective scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> are given by prime ideals not dividing the <fr:link href="/forest/algm-0013/" title="irrelevant ideal" uri="https://trebor-huang.github.io/forest/algm-0013/" display-uri="algm-0013" type="local">irrelevant ideal</fr:link> <fr:tex display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. This is in bijection with ideals with <fr:tex display="inline"><![CDATA[\mathfrak {p}_0 = 0]]></fr:tex> (equivalently <fr:tex display="inline"><![CDATA[\mathord {\odot } \nmid  \mathfrak {p}]]></fr:tex>), and the condition for prime ideals holds for positively graded elements, i.e. <fr:tex display="block"><![CDATA[\mathfrak {p} \mid  x y \iff  (\mathfrak {p} \mid  x \lor  \mathfrak {p} \mid  y)]]></fr:tex> for positively graded <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    To specify a point <fr:tex display="inline"><![CDATA[P]]></fr:tex>, we need to specify which opens <fr:tex display="inline"><![CDATA[D_+(f)]]></fr:tex> it belongs to, where <fr:tex display="inline"><![CDATA[f]]></fr:tex> ranges over positively graded elements. Equivalently, we specify the closeds <fr:tex display="inline"><![CDATA[V_+(f)]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[V_+(f) \cap  V_+(g) \subseteq  V_+(f + g)]]></fr:tex>, if <fr:tex display="inline"><![CDATA[P \in  V_+(f)]]></fr:tex> and <fr:tex display="inline"><![CDATA[P \in  V_+(g)]]></fr:tex> then <fr:tex display="inline"><![CDATA[P \in  V_+(f + g)]]></fr:tex>. Similarly since <fr:tex display="inline"><![CDATA[V_+(f) \subseteq  V_+(f g)]]></fr:tex>, <fr:tex display="inline"><![CDATA[P \in  V_+(f)]]></fr:tex> implies <fr:tex display="inline"><![CDATA[P \in  V_+(f g)]]></fr:tex>. Collecting all the elements whose distinguished closed contains <fr:tex display="inline"><![CDATA[P]]></fr:tex>, we get an ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> whose zeroth degree vanishes.
+  </html:p>
+
+  <html:p>
+    We have <fr:tex display="inline"><![CDATA[V_+(f g) = V_+(f) \cup  V_+(g)]]></fr:tex>, so if <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f g]]></fr:tex>, then either <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f]]></fr:tex> or <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  g]]></fr:tex>. This is almost the condition for prime ideals, but recall that <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex> must have positive grading, so we actually get the ideals in the theorem statement. Conversely, being such an ideal is sufficient condition for the specification of the point to be valid, by calculation with <fr:link href="/forest/algm-0011/" title="characterization of the locale \Proj (S)" uri="https://trebor-huang.github.io/forest/algm-0011/" display-uri="algm-0011" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/algm-0011/" display-uri="algm-0011" /></fr:link>.
+  </html:p>
+
+  <html:p>
+    Next, we prove these ideals are in bijection with prime ideals not dividing <fr:tex display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. One direction of the correspondence is obvious: we take a prime ideal <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and remove the zeroth degree, which amounts to taking <fr:tex display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {p}, \mathord {\odot })]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    We prove injectivity. Suppose primes <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> satisfy <fr:tex display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {p}, \mathord {\odot }) = \operatorname {lcm}(\mathfrak {q}, \mathord {\odot })]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \operatorname {lcm}(\mathfrak {q}, \mathord {\odot }) \mid  \mathfrak {q} \cdot  \mathord {\odot }]]></fr:tex>, so either <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathord {\odot }]]></fr:tex> which is forbidden, or <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {q}]]></fr:tex>. Conversely we must have <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  \mathfrak {p}]]></fr:tex>, hence <fr:tex display="inline"><![CDATA[\mathfrak {p} = \mathfrak {q}]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    We prove surjectivity. Given an ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex>, we need to supplement it with a zeroth degree component <fr:tex display="inline"><![CDATA[\mathfrak {a}_0]]></fr:tex> so that together they make a prime ideal not divided by <fr:tex display="inline"><![CDATA[\mathord {\odot }]]></fr:tex>. We define <fr:tex display="inline"><![CDATA[\mathfrak {a}_0 \mid  c]]></fr:tex> iff there exists some positively graded <fr:tex display="inline"><![CDATA[\mathfrak {a} \nmid  f]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  cf]]></fr:tex>. The verification is routine element chasing.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-001L/</fr:uri>
+            <fr:display-uri>hmlg-001L</fr:display-uri>
+            <fr:route>/forest/hmlg-001L/</fr:route>
+            <fr:title text="graded ring">graded ring</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A D-<html:strong>graded ring</html:strong> is a sequence of abelian groups <fr:tex display="inline"><![CDATA[R_d]]></fr:tex>, where <fr:tex display="inline"><![CDATA[d \in  D]]></fr:tex> are elements of a commutative monoid called the <html:strong>grading</html:strong>. We have a bilinear multiplication map <fr:tex display="block"><![CDATA[R_p \otimes  R_q \to  R_{p+q}]]></fr:tex> and a identity element <fr:tex display="inline"><![CDATA[1 \in  R_0]]></fr:tex> satisfying the associativity and identity laws.
+</html:p>
+            <html:p>
+  Usually, the grading is one of <fr:tex display="inline"><![CDATA[\mathbb  Z]]></fr:tex> or <fr:tex display="inline"><![CDATA[\mathbb  N]]></fr:tex>. A <html:strong>bigraded ring</html:strong> is graded over <fr:tex display="inline"><![CDATA[D^2]]></fr:tex> instead of <fr:tex display="inline"><![CDATA[D]]></fr:tex>, whatever the context implies the grading is.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

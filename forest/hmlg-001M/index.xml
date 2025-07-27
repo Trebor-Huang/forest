@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>18</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-001M/</fr:uri>
+    <fr:display-uri>hmlg-001M</fr:display-uri>
+    <fr:route>/forest/hmlg-001M/</fr:route>
+    <fr:title text="chain reduction of mapping cones">chain reduction of mapping cones</fr:title>
+    <fr:taxon>Construction</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Given a pair of <fr:link href="/forest/hmlg-0017/" title="chain reduction" uri="https://trebor-huang.github.io/forest/hmlg-0017/" display-uri="hmlg-0017" type="local">chain reductions</fr:link> <fr:tex display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex> and <fr:tex display="inline"><![CDATA[\rho ' : C' \Rightarrow \mkern {-14mu}\Rightarrow  D']]></fr:tex>, we can construct a reduction from the mapping cone <fr:tex display="inline"><![CDATA[\operatorname {Cone}(f)]]></fr:tex> of a chain map <fr:tex display="inline"><![CDATA[f : C \to  C']]></fr:tex> to (the action of <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> on <fr:tex display="inline"><![CDATA[f]]></fr:tex>).
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0017/</fr:uri>
+            <fr:display-uri>hmlg-0017</fr:display-uri>
+            <fr:route>/forest/hmlg-0017/</fr:route>
+            <fr:title text="chain reduction">chain reduction</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given two chain complexes <fr:tex display="inline"><![CDATA[C, D]]></fr:tex>, a <html:strong>chain reduction</html:strong> consists of a chain map <fr:tex display="inline"><![CDATA[\pi  : C \to  D]]></fr:tex>, a chain map <fr:tex display="inline"><![CDATA[\iota  : D \to  C]]></fr:tex> and a <fr:link href="/forest/hmlg-0016/" title="chain homotopy" uri="https://trebor-huang.github.io/forest/hmlg-0016/" display-uri="hmlg-0016" type="local">chain homotopy</fr:link> <fr:tex display="inline"><![CDATA[h : \textrm {id} \to  g \mathbin {\circ } f]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[\pi  \mathbin {\circ } \iota  = \textrm {id}]]></fr:tex>, and <fr:tex display="block"><![CDATA[\pi  \mathbin {\circ } h = h \mathbin {\circ } \iota  = h \mathbin {\circ } h = 0.]]></fr:tex> Here the compositions are understood to have the appropriate subscript so the degrees match.
+</html:p>
+            <html:p>
+  We write the reduction as <fr:tex display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex>. The three components are denoted <fr:tex display="inline"><![CDATA[\pi _{\rho } : C \to  D]]></fr:tex>, <fr:tex display="inline"><![CDATA[\iota _{\rho } : D \to  C]]></fr:tex> and <fr:tex display="inline"><![CDATA[h_{\rho } : C \to  C]]></fr:tex>, respectively.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

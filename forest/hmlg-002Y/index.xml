@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>12</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-002Y/</fr:uri>
+    <fr:display-uri>hmlg-002Y</fr:display-uri>
+    <fr:route>/forest/hmlg-002Y/</fr:route>
+    <fr:title text="Ghost and phantom maps">Ghost and phantom maps</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  There are a few different concepts of ghosts and phantoms in homotopy theory.
+  <html:ul><html:li>In the unstable world, a <html:strong>ghost map</html:strong> <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> between CW-complexes is a non-zero map that cannot be detected via homotopy groups (or more generally finite CW-complexes), i.e. all compositions <fr:tex display="inline"><![CDATA[Z \to  X \to  Y]]></fr:tex> with <fr:tex display="inline"><![CDATA[Z]]></fr:tex> finite are null-homotopic.</html:li>
+    <html:li>In the stable case, a map between spectra is a (co)homology <html:strong>phantom</html:strong> if all the induced maps on the (co)homology of finite CW-complexes is zero.</html:li>
+    <html:li>A stronger condition is given by requiring the induced maps on the (co)homology of <html:em>all spaces</html:em> (equivalently, all suspension spectra, possibly with some desuspensions) are zero. This is called a <html:strong>superphantom map</html:strong>.</html:li>
+    <html:li>We can have an even stronger condition, requiring triviality on all spectra. Let’s temporarily call this a (co)homology <html:em>ultraphantom map</html:em>.</html:li></html:ul></html:p>
+    <html:p>
+  Obviously, when we pass to the stable world, ghost maps becomes cohomology phantom maps. By Spanier–Whitehead duality, we can replace finite CW-complexes with their duals, thus establishing that the cohomology and homology phantom maps are identical. On the other hand, it is impossible to have a cohomology ultraphantom map <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex>, since the identity cohomology class <fr:tex display="inline"><![CDATA[\iota  : X \to  X]]></fr:tex> will be sent to zero, meaning <fr:tex display="inline"><![CDATA[f]]></fr:tex> itself is null-homotopic. Similarly, a ghost map cannot give a cohomology superphantom map.
+</html:p>
+    <html:p>
+  Since homology preserves filtered colimits, every homology superphantom map comes from a phantom map, and vice versa. Similarly, we can extend this to ultraphantom maps. Therefore these three concepts collapse into one, and the phrases <html:em>phantom maps</html:em> and <html:em>superphantom maps</html:em> suffices to unambiguously refer to all of these concepts.
+</html:p>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>2</fr:month>
+          <fr:day>12</fr:day>
+        </fr:date>
+        <fr:uri>https://trebor-huang.github.io/forest/hmlg-0030/</fr:uri>
+        <fr:display-uri>hmlg-0030</fr:display-uri>
+        <fr:route>/forest/hmlg-0030/</fr:route>
+        <fr:title text="phantom maps K(\mathbb {Q}, n) \to  K(\mathbb {Z}, n+1)">phantom maps <fr:tex display="inline"><![CDATA[K(\mathbb {Q}, n) \to  K(\mathbb {Z}, n+1)]]></fr:tex></fr:title>
+        <fr:taxon>Example</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>
+  By construction, the homotopy classes of maps <fr:tex display="inline"><![CDATA[f : K(\mathbb {Q}, n) \to  K(\mathbb {Z}, n+1)]]></fr:tex> corresponds to elements <fr:tex display="inline"><![CDATA[\operatorname {Ext}(\mathbb {Q}, \mathbb {Z})]]></fr:tex>. However, any map from a finite CW-complex into <fr:tex display="inline"><![CDATA[K(\mathbb {Q}, n)]]></fr:tex> lifts to <fr:tex display="inline"><![CDATA[K(A, n)]]></fr:tex> where <fr:tex display="inline"><![CDATA[A \subseteq  \mathbb {Q}]]></fr:tex> is finitely generated. But <fr:tex display="inline"><![CDATA[\operatorname {Ext}(A, \mathbb {Z}) = 0]]></fr:tex>. This means <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a <fr:link href="/forest/hmlg-002Y/" title="Ghost and phantom maps" uri="https://trebor-huang.github.io/forest/hmlg-002Y/" display-uri="hmlg-002Y" type="local">ghost</fr:link>, and consequently a <fr:link href="/forest/hmlg-002Y/" title="Ghost and phantom maps" uri="https://trebor-huang.github.io/forest/hmlg-002Y/" display-uri="hmlg-002Y" type="local">phantom</fr:link> <fr:tex display="inline"><![CDATA[H \mathbb {Q} \to  \Sigma  H \mathbb {Z}]]></fr:tex>.
+</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>2</fr:month>
+          <fr:day>12</fr:day>
+        </fr:date>
+        <fr:uri>https://trebor-huang.github.io/forest/hmlg-002Z/</fr:uri>
+        <fr:display-uri>hmlg-002Z</fr:display-uri>
+        <fr:route>/forest/hmlg-002Z/</fr:route>
+        <fr:title text="a superphantom map KU \to  \Sigma  H \mathbb  Z">a superphantom map <fr:tex display="inline"><![CDATA[KU \to  \Sigma  H \mathbb  Z]]></fr:tex></fr:title>
+        <fr:taxon>Example</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter><html:p>
+  For the complex <fr:tex display="inline"><![CDATA[K]]></fr:tex>-theory spectrum <fr:tex display="inline"><![CDATA[KU]]></fr:tex>, the integral homology is given by <fr:tex display="inline"><![CDATA[H_{2n} (K U) = \mathbb {Q}]]></fr:tex>, and the odd degrees are zero. Therefore <fr:tex display="inline"><![CDATA[H^1 (KU) = \operatorname {Ext}(\mathbb {Q}, \mathbb {Z})]]></fr:tex> by the universal coefficient theorem. Pick a non-zero map <fr:tex display="inline"><![CDATA[\theta  : KU \to  \Sigma  H \mathbb {Z}]]></fr:tex>. We claim it is a <fr:link href="/forest/hmlg-002Y/" title="Ghost and phantom maps" uri="https://trebor-huang.github.io/forest/hmlg-002Y/" display-uri="hmlg-002Y" type="local">cohomology superphantom map</fr:link>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>12</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Consider any space <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Cohomology classes <fr:tex display="inline"><![CDATA[\omega  \in  KU(X)]]></fr:tex> correspond to (formal sums of) vector bundles on <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and the image in <fr:tex display="inline"><![CDATA[H^1 (X; \mathbb {Z})]]></fr:tex> assigns a characteristic class <fr:tex display="inline"><![CDATA[\theta (\omega )]]></fr:tex> for each vector bundle. Consider the universal example, the tautological bundle <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> on <fr:tex display="inline"><![CDATA[BU(n)]]></fr:tex>. All vector bundles come from the pullback of a map <fr:tex display="inline"><![CDATA[f : X \to  BU(n)]]></fr:tex>, and the characteristic class will also come from the pullback <fr:tex display="inline"><![CDATA[f^* \theta (\tau )]]></fr:tex> of the universal characteristic class. However, <fr:tex display="inline"><![CDATA[H^1 (BU(n)) = 0]]></fr:tex>, so this cohomology operation vanishes on all spaces.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0030/</fr:uri>
+            <fr:display-uri>hmlg-0030</fr:display-uri>
+            <fr:route>/forest/hmlg-0030/</fr:route>
+            <fr:title text="phantom maps K(\mathbb {Q}, n) \to  K(\mathbb {Z}, n+1)">phantom maps <fr:tex display="inline"><![CDATA[K(\mathbb {Q}, n) \to  K(\mathbb {Z}, n+1)]]></fr:tex></fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  By construction, the homotopy classes of maps <fr:tex display="inline"><![CDATA[f : K(\mathbb {Q}, n) \to  K(\mathbb {Z}, n+1)]]></fr:tex> corresponds to elements <fr:tex display="inline"><![CDATA[\operatorname {Ext}(\mathbb {Q}, \mathbb {Z})]]></fr:tex>. However, any map from a finite CW-complex into <fr:tex display="inline"><![CDATA[K(\mathbb {Q}, n)]]></fr:tex> lifts to <fr:tex display="inline"><![CDATA[K(A, n)]]></fr:tex> where <fr:tex display="inline"><![CDATA[A \subseteq  \mathbb {Q}]]></fr:tex> is finitely generated. But <fr:tex display="inline"><![CDATA[\operatorname {Ext}(A, \mathbb {Z}) = 0]]></fr:tex>. This means <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a <fr:link href="/forest/hmlg-002Y/" title="Ghost and phantom maps" uri="https://trebor-huang.github.io/forest/hmlg-002Y/" display-uri="hmlg-002Y" type="local">ghost</fr:link>, and consequently a <fr:link href="/forest/hmlg-002Y/" title="Ghost and phantom maps" uri="https://trebor-huang.github.io/forest/hmlg-002Y/" display-uri="hmlg-002Y" type="local">phantom</fr:link> <fr:tex display="inline"><![CDATA[H \mathbb {Q} \to  \Sigma  H \mathbb {Z}]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-002Z/</fr:uri>
+            <fr:display-uri>hmlg-002Z</fr:display-uri>
+            <fr:route>/forest/hmlg-002Z/</fr:route>
+            <fr:title text="a superphantom map KU \to  \Sigma  H \mathbb  Z">a superphantom map <fr:tex display="inline"><![CDATA[KU \to  \Sigma  H \mathbb  Z]]></fr:tex></fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  For the complex <fr:tex display="inline"><![CDATA[K]]></fr:tex>-theory spectrum <fr:tex display="inline"><![CDATA[KU]]></fr:tex>, the integral homology is given by <fr:tex display="inline"><![CDATA[H_{2n} (K U) = \mathbb {Q}]]></fr:tex>, and the odd degrees are zero. Therefore <fr:tex display="inline"><![CDATA[H^1 (KU) = \operatorname {Ext}(\mathbb {Q}, \mathbb {Z})]]></fr:tex> by the universal coefficient theorem. Pick a non-zero map <fr:tex display="inline"><![CDATA[\theta  : KU \to  \Sigma  H \mathbb {Z}]]></fr:tex>. We claim it is a <fr:link href="/forest/hmlg-002Y/" title="Ghost and phantom maps" uri="https://trebor-huang.github.io/forest/hmlg-002Y/" display-uri="hmlg-002Y" type="local">cohomology superphantom map</fr:link>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>12</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Consider any space <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Cohomology classes <fr:tex display="inline"><![CDATA[\omega  \in  KU(X)]]></fr:tex> correspond to (formal sums of) vector bundles on <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and the image in <fr:tex display="inline"><![CDATA[H^1 (X; \mathbb {Z})]]></fr:tex> assigns a characteristic class <fr:tex display="inline"><![CDATA[\theta (\omega )]]></fr:tex> for each vector bundle. Consider the universal example, the tautological bundle <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> on <fr:tex display="inline"><![CDATA[BU(n)]]></fr:tex>. All vector bundles come from the pullback of a map <fr:tex display="inline"><![CDATA[f : X \to  BU(n)]]></fr:tex>, and the characteristic class will also come from the pullback <fr:tex display="inline"><![CDATA[f^* \theta (\tau )]]></fr:tex> of the universal characteristic class. However, <fr:tex display="inline"><![CDATA[H^1 (BU(n)) = 0]]></fr:tex>, so this cohomology operation vanishes on all spaces.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/trebor-0001/</fr:uri>
+            <fr:display-uri>trebor-0001</fr:display-uri>
+            <fr:route>/forest/trebor-0001/</fr:route>
+            <fr:title text="Trebor’s forest">Trebor’s forest</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  This is my forest. Forests are <fr:link href="https://www.jonmsterling.com/jms-005P.xml" type="external">a way of organizing notes</fr:link>, and here is <fr:link href="https://www.jonmsterling.com/jms-009H.xml" type="external">a list of other websites organized as forests</fr:link>. Some of the contents here:
+</html:p>
+            <html:ul><html:li><fr:link href="/forest/tile-0001/" title="Generating aperiodic tilings with substitution systems" uri="https://trebor-huang.github.io/forest/tile-0001/" display-uri="tile-0001" type="local">Generating aperiodic tilings with substitution systems</fr:link></html:li>
+  <html:li><fr:link href="/forest/hmlg-0001/" title="Homological Algebra" uri="https://trebor-huang.github.io/forest/hmlg-0001/" display-uri="hmlg-0001" type="local">Notes on homological algebra</fr:link></html:li>
+  <html:li><fr:link href="/forest/hmlg-001K/" title="Effective homology" uri="https://trebor-huang.github.io/forest/hmlg-001K/" display-uri="hmlg-001K" type="local">Effective homology</fr:link></html:li>
+  <html:li>Algebraic geometry (Under namespace <html:code>algm</html:code>, not organized)</html:li>
+  <html:li><fr:link href="/forest/ualg-000H/" title="Beck monadicity theorem" uri="https://trebor-huang.github.io/forest/ualg-000H/" display-uri="ualg-000H" type="local">Beck monadicity theorem</fr:link></html:li>
+  <html:li>On <fr:link href="/forest/hmlg-002Y/" title="Ghost and phantom maps" uri="https://trebor-huang.github.io/forest/hmlg-002Y/" display-uri="hmlg-002Y" type="local">Ghost and phantom maps</fr:link></html:li></html:ul>
+            <html:p>
+  On a computer, you can press Ctrl–K to search for trees.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/trebor-0002/</fr:uri>
+                <fr:display-uri>trebor-0002</fr:display-uri>
+                <fr:route>/forest/trebor-0002/</fr:route>
+                <fr:title text="Style of writing">Style of writing</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  I try to adhere to several principles when composing trees.
+</html:p>
+                <html:ul><html:li>
+    If a definition or a lemma would present itself during a proof attempt, then do not introduce it until that part of the proof. The nature of forests makes this kind of organization more viable, as each definition is a tree by itself.
+  </html:li>
+  <html:li>
+    If a part of a proof has an easy constructive phrasing, use it and avoid classical reasoning. But if it requires some complication, then the classical way is used.
+  </html:li>
+  <html:li>
+    Avoid abstraction leaks. Even if A is defined as B, do not use them interchangeably. For instance, an ideal is defined as a subset of a ring satisfying certain conditions. But we will insist on writing ideals as numbers, for example saying <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  x]]></fr:tex> instead of <fr:tex display="inline"><![CDATA[x \in  \mathfrak {a}]]></fr:tex>. This is not too heretic, since algebraic number theory already uses this kind of notation. Similarly, although prime ideals correspond to points in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(A)]]></fr:tex>, we do not identify them.
+  </html:li>
+  <html:li>
+    Apply <fr:link href="https://ncatlab.org/nlab/show/biased+definition" type="external">unbiased terminology</fr:link> and <fr:link href="https://ncatlab.org/nlab/show/negative+thinking" type="external">negative thinking</fr:link>.
+  </html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

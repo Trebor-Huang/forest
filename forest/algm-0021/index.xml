@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>9</fr:month>
+      <fr:day>6</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/algm-0021/</fr:uri>
+    <fr:display-uri>algm-0021</fr:display-uri>
+    <fr:route>/forest/algm-0021/</fr:route>
+    <fr:title text="dense subsite">dense subsite</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Given a <fr:link href="/forest/algm-001A/" title="Grothendieck coverage" uri="https://trebor-huang.github.io/forest/algm-001A/" display-uri="algm-001A" type="local">Grothendieck coverage</fr:link> on <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, we can induce a coverage on any subcategory <fr:tex display="inline"><![CDATA[\mathcal {D}]]></fr:tex> by restricting the covering sieves to the subcategory. It is <html:strong>dense</html:strong> iff every object in <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> can be covered by morphisms from objects in <fr:tex display="inline"><![CDATA[\mathcal {D}]]></fr:tex>, and for every morphism <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> such that <fr:tex display="inline"><![CDATA[X, Y]]></fr:tex> are in <fr:tex display="inline"><![CDATA[\mathcal {D}]]></fr:tex>, we can cover <fr:tex display="inline"><![CDATA[X]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathcal {D}]]></fr:tex> such that the compositions with <fr:tex display="inline"><![CDATA[f]]></fr:tex> are still in <fr:tex display="inline"><![CDATA[\mathcal {D}]]></fr:tex>.
+</html:p>
+    <html:p>
+  We can define sheaves on dense subsites, and they uniquely extend to the entire site. This induces an equivalence of sheaf categories. For locales with the canonical coverage, full dense subsites are exactly topological bases.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-0022/</fr:uri>
+            <fr:display-uri>algm-0022</fr:display-uri>
+            <fr:route>/forest/algm-0022/</fr:route>
+            <fr:title text="dense subsite of affine opens">dense subsite of affine opens</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/algm-000R/" title="scheme" uri="https://trebor-huang.github.io/forest/algm-000R/" display-uri="algm-000R" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex>, the underlying locale (equipped with the canonical coverage) has a <fr:link href="/forest/algm-0021/" title="dense subsite" uri="https://trebor-huang.github.io/forest/algm-0021/" display-uri="algm-0021" type="local">dense subsite</fr:link> whose objects are affine opens, and morphisms are distinguished open subspaces. Note that this isn’t a full subcategory, since <fr:link href="/forest/algm-0020/" title="a non-distinguished affine subscheme" uri="https://trebor-huang.github.io/forest/algm-0020/" display-uri="algm-0020" type="local">there exist affine open subspaces that are not distinguished</fr:link>.
+</html:p>
+            <html:p>
+  Since schemes are covered by affine schemes, and distinguished opens form a basis in the <fr:link href="/forest/algm-0007/" title="localic spectrum of a commutative ring" uri="https://trebor-huang.github.io/forest/algm-0007/" display-uri="algm-0007" type="local">localic spectrum of a commutative ring</fr:link>, every open in <fr:tex display="inline"><![CDATA[S]]></fr:tex> is covered by affine opens. On the other hand, <fr:link href="/forest/algm-0016/" title="Nike’s trick" uri="https://trebor-huang.github.io/forest/algm-0016/" display-uri="algm-0016" type="local">Nike’s trick</fr:link> guarantees the condition on morphisms for dense subsites.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-001A/</fr:uri>
+            <fr:display-uri>algm-001A</fr:display-uri>
+            <fr:route>/forest/algm-001A/</fr:route>
+            <fr:title text="Grothendieck coverage">Grothendieck coverage</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, a <html:strong>Grothendieck coverage</html:strong> declares some <fr:link href="/forest/algm-001B/" title="sieve" uri="https://trebor-huang.github.io/forest/algm-001B/" display-uri="algm-001B" type="local">sieves</fr:link> to be coverings, such that the following holds.
+</html:p>
+            <html:ul><html:li>The maximal sieve <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A) \subseteq  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex> is always a covering.</html:li>
+  <html:li>Covering sieves are upwards closed, i.e. if <fr:tex display="inline"><![CDATA[S \subseteq  S']]></fr:tex> and <fr:tex display="inline"><![CDATA[S]]></fr:tex> is a covering sieve, then so is <fr:tex display="inline"><![CDATA[S']]></fr:tex>.</html:li>
+  <html:li>If <fr:tex display="inline"><![CDATA[S]]></fr:tex> is a covering sieve of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, and <fr:tex display="inline"><![CDATA[g : B \to  A]]></fr:tex> is a morphism, then the <fr:link href="/forest/algm-001C/" title="pullback of sieves" uri="https://trebor-huang.github.io/forest/algm-001C/" display-uri="algm-001C" type="local">pullback</fr:link> <fr:tex display="inline"><![CDATA[g^* S]]></fr:tex> is also a covering.</html:li>
+  <html:li>Suppose <fr:tex display="inline"><![CDATA[S]]></fr:tex> is a sieve, then the collection of arrows <fr:tex display="inline"><![CDATA[g]]></fr:tex> such that <fr:tex display="inline"><![CDATA[g^* S]]></fr:tex> is a covering is a sieve itself. If this sieve is a covering, then <fr:tex display="inline"><![CDATA[S]]></fr:tex> is also a covering.</html:li></html:ul>
+            <html:p>
+  A Grothendieck coverage can be viewed as a <fr:link href="/forest/algm-0019/" title="coverage" uri="https://trebor-huang.github.io/forest/algm-0019/" display-uri="algm-0019" type="local">coverage</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

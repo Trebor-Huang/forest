@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>25</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-001W/</fr:uri>
+    <fr:display-uri>hmlg-001W</fr:display-uri>
+    <fr:route>/forest/hmlg-001W/</fr:route>
+    <fr:title text="bar construction">bar construction</fr:title>
+    <fr:taxon>Construction</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Given any group <fr:tex display="inline"><![CDATA[G]]></fr:tex>, we can construct a model of the first Eilenberg–MacLane space <fr:tex display="inline"><![CDATA[K(G, 1)]]></fr:tex> as a simplicial set <fr:tex display="inline"><![CDATA[\bar {W}(G)]]></fr:tex>. Consider the contractible simplicial set <fr:tex display="inline"><![CDATA[W(G)]]></fr:tex> whose set of <fr:tex display="inline"><![CDATA[n]]></fr:tex>-simplices is given by <fr:tex display="inline"><![CDATA[G^{n+1}]]></fr:tex>. This has a natural free <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action given by multiplying every entry on the left. <fr:tex display="inline"><![CDATA[\bar {W}(G)]]></fr:tex> is constructed by the quotient of the <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action.
+</html:p>
+    <html:p>
+  More concretely, the <fr:tex display="inline"><![CDATA[n]]></fr:tex>-simplices are given by <fr:tex display="inline"><![CDATA[n]]></fr:tex>-tuples, representing the quotient of consecutive elements in the <fr:tex display="inline"><![CDATA[(n+1)]]></fr:tex>-tuple in the unquotiented simplicial set above. This is traditionally written as a bracketed sequence of elements separated by <html:em>bars</html:em>, <fr:tex display="inline"><![CDATA[[g_1 \mid  g_2 \mid  \dots  \mid  g_n]]]></fr:tex>, hence we name it the <html:strong>bar construction</html:strong>. Face maps are given by removing the corresponding bars so the elements multiply together. Degeneracy maps are given by inserting the identity elements.
+</html:p>
+    <html:p>
+  If the group has decidable equality and multiplication, then the simplicial set is also <fr:link href="/forest/hmlg-001T/" title="effective simplicial set" uri="https://trebor-huang.github.io/forest/hmlg-001T/" display-uri="hmlg-001T" type="local">effective</fr:link>. If further more the group is computably finite, then it is of finite type.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>28</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0021/</fr:uri>
+            <fr:display-uri>hmlg-0021</fr:display-uri>
+            <fr:route>/forest/hmlg-0021/</fr:route>
+            <fr:title text="W-bar construction">W-bar construction</fr:title>
+            <fr:taxon>Construction</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a simplicial group, we can define a model of its universal principal bundle <fr:tex display="inline"><![CDATA[\mathrm {E} G \to  \mathrm {B} G]]></fr:tex> as simplicial sets <fr:tex display="inline"><![CDATA[W G \to  \bar {W} G]]></fr:tex>. This is a generalization of the <fr:link href="/forest/hmlg-001W/" title="bar construction" uri="https://trebor-huang.github.io/forest/hmlg-001W/" display-uri="hmlg-001W" type="local">bar construction</fr:link>, if we consider a group <fr:tex display="inline"><![CDATA[G]]></fr:tex> as a discrete simplicial set. It classifies principal <fr:tex display="inline"><![CDATA[G]]></fr:tex>-bundles in the sense of Theorem 21.13 in <fr:link href="/forest/simplicial-objects/" title="Simplicial objects in algebraic topology" uri="https://trebor-huang.github.io/forest/simplicial-objects/" display-uri="simplicial-objects" type="local">Simplicial objects in algebraic topology</fr:link>.
+</html:p>
+            <html:p>
+  We define the <fr:tex display="inline"><![CDATA[n]]></fr:tex>-simplices of <fr:tex display="inline"><![CDATA[W G]]></fr:tex> to be
+  <fr:tex display="block"><![CDATA[(W G)_n = G_0 \times  G_1 \times  \cdots  \times  G_n]]></fr:tex>
+  so that <fr:tex display="inline"><![CDATA[G_n]]></fr:tex> acts on <fr:tex display="inline"><![CDATA[(W G)_n]]></fr:tex> by taking the face map that discards the last <fr:tex display="inline"><![CDATA[k]]></fr:tex> vertices for each <fr:tex display="inline"><![CDATA[k]]></fr:tex>, and then acting on the appropriate factor on the right. This forces the face maps and degeneracy maps to be
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \partial _k (g_0, \dots , g_n) &=
+      (g_0, \dots , g_{k-1}, \partial _k g_{k+1}, \dots , \partial _k g_n), \\
+    \sigma _k (g_0, \dots , g_n) &=
+      (g_0, \dots , g_{k}, \sigma _k g_{k}, \dots , \sigma _k g_n).
+  \end {aligned}]]></fr:tex>
+  We define <fr:tex display="inline"><![CDATA[\bar {W} G]]></fr:tex> to be <fr:tex display="inline"><![CDATA[W G]]></fr:tex> quotiented by the action of <fr:tex display="inline"><![CDATA[G]]></fr:tex>. This can be represented as <fr:tex display="inline"><![CDATA[(\bar {W} G)_n = G_0 \times  \cdots  \times  G_{n-1}]]></fr:tex>,
+  with the quotient map <fr:tex display="inline"><![CDATA[(W G)_n \twoheadrightarrow  (\bar {W} G)_n]]></fr:tex> given by
+  <fr:tex display="block"><![CDATA[(g_0, \dots , g_n) \mapsto  (g_0 (\partial _1 g_1)^{-1}, \dots , g_{n-1} (\partial _n g_n)^{-1}).]]></fr:tex>
+  The face and degeneracy maps can then be computed to be
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \partial _k (g_0, \dots , g_{n-1}) &=
+      (g_0, g_1, \dots , g_{k-1} \cdot  \partial _k g_k, \partial _k g_{k+1}, \dots , \partial _k g_{n-1}), \\
+    \partial _n (g_0, \dots , g_{n-1}) &=
+      (g_0, g_1, \dots , g_{n-2}) \\
+    \sigma _k (g_0, \dots , g_{n-1}) &=
+      (g_0, g_1, \dots , g_{k-1}, 1, \sigma _k g_{k}, \dots , \sigma _k g_{n-1}).
+  \end {aligned}]]></fr:tex>
+  A quick computation shows that this indeed produces a <fr:link href="/forest/hmlg-0028/" title="simplicial principal fiber bundle" uri="https://trebor-huang.github.io/forest/hmlg-0028/" display-uri="hmlg-0028" type="local">simplicial principal fiber bundle</fr:link> with fiber <fr:tex display="inline"><![CDATA[G]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-001X/</fr:uri>
+            <fr:display-uri>hmlg-001X</fr:display-uri>
+            <fr:route>/forest/hmlg-001X/</fr:route>
+            <fr:title text="reduction from K(\mathbb {Z}, 1) to the circle">reduction from <fr:tex display="inline"><![CDATA[K(\mathbb {Z}, 1)]]></fr:tex> to the circle</fr:title>
+            <fr:taxon>Construction</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  There is a <fr:link href="/forest/hmlg-0017/" title="chain reduction" uri="https://trebor-huang.github.io/forest/hmlg-0017/" display-uri="hmlg-0017" type="local">chain reduction</fr:link> from the <fr:link href="/forest/hmlg-001W/" title="bar construction" uri="https://trebor-huang.github.io/forest/hmlg-001W/" display-uri="hmlg-001W" type="local">bar construction</fr:link> <fr:tex display="inline"><![CDATA[\bar {W}(G)]]></fr:tex> of a group regarded as its <fr:link href="/forest/hmlg-001U/" title="algebraic cellular complexes associated with a simplicial set" uri="https://trebor-huang.github.io/forest/hmlg-001U/" display-uri="hmlg-001U" type="local">reduced algebraic cellular complex</fr:link>, to the <fr:link href="/forest/hmlg-001Y/" title="sphere" uri="https://trebor-huang.github.io/forest/hmlg-001Y/" display-uri="hmlg-001Y" type="local">circle</fr:link> <fr:tex display="inline"><![CDATA[\mathbb {S}^1]]></fr:tex>.
+</html:p>
+            <html:p>
+  By construction, the geometric simplices of <fr:tex display="inline"><![CDATA[K(\mathbb {Z}, 1)]]></fr:tex> are lists <fr:tex display="inline"><![CDATA[[a_1 \mid  a_2 \mid  \cdots  \mid  a_n]]]></fr:tex> of non-zero integers. We construct an <fr:link href="/forest/hmlg-001P/" title="admissible discrete vector field" uri="https://trebor-huang.github.io/forest/hmlg-001P/" display-uri="hmlg-001P" type="local">admissible discrete vector field</fr:link> and use <fr:link href="/forest/hmlg-001R/" title="chain reduction generated by a discrete vector field" uri="https://trebor-huang.github.io/forest/hmlg-001R/" display-uri="hmlg-001R" type="local">the reduction it generates</fr:link>. We assign a cell <fr:tex display="inline"><![CDATA[[a_1 \mid  \cdots ]]]></fr:tex> as a source if <fr:tex display="inline"><![CDATA[a_1 \ne  1]]></fr:tex>. If <fr:tex display="inline"><![CDATA[a_1 \le  0]]></fr:tex>, then we assign its target cell to be <fr:tex display="inline"><![CDATA[[1 \mid  a_1 \mid  \cdots ]]]></fr:tex>; otherwise we assign <fr:tex display="inline"><![CDATA[[1 \mid  a_1 - 1 \mid  \cdots ]]]></fr:tex>. Hence, the critical cells are <fr:tex display="inline"><![CDATA[[]]]></fr:tex> and <fr:tex display="inline"><![CDATA[[1]]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>24</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-001T/</fr:uri>
+            <fr:display-uri>hmlg-001T</fr:display-uri>
+            <fr:route>/forest/hmlg-001T/</fr:route>
+            <fr:title text="effective simplicial set">effective simplicial set</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  An <html:strong>effective</html:strong> simplicial set consists of a sequence of types <fr:tex display="inline"><![CDATA[\operatorname {Geom}_n(X)]]></fr:tex> with decidable equality, representing the <html:strong>geometric</html:strong>, a.k.a. non-degenerate, simplices. The full set of simplices, written <fr:tex display="inline"><![CDATA[\Gamma (\Delta ^n, X)]]></fr:tex> or more simply <fr:tex display="inline"><![CDATA[X_n]]></fr:tex>, is given by a geometric simplex <fr:tex display="inline"><![CDATA[g \in  \operatorname {Geom}_k(X)]]></fr:tex> for some <fr:tex display="inline"><![CDATA[k]]></fr:tex> together with a <html:strong>degeneracy symbol</html:strong>, defined as a surjection <fr:tex display="inline"><![CDATA[\eta  : [n+1] \twoheadrightarrow  [k+1]]]></fr:tex>, formally representing the degeneracy map that brought <fr:tex display="inline"><![CDATA[g]]></fr:tex> up to dimension <fr:tex display="inline"><![CDATA[n]]></fr:tex>, written as <fr:tex display="inline"><![CDATA[\eta ^* g]]></fr:tex>. The effective simplicial set is also required to have computable <html:strong>face maps</html:strong> <fr:tex display="inline"><![CDATA[\partial _i : \operatorname {Geom}_{n+1}(X) \to  \Gamma (\Delta ^n, X)]]></fr:tex> for <fr:tex display="inline"><![CDATA[0 \le  i \le  n+1]]></fr:tex>, so that the usual simplicial identities hold. The simplicial set is <html:strong>of finite type</html:strong> if each <fr:tex display="inline"><![CDATA[\operatorname {Geom}_n(X)]]></fr:tex> is computably finite.
+</html:p>
+            <html:p>
+  Alternatively, we can make a definition that more closely follows the traditional one, requiring a sequence of types with decidable equality representing <html:em>all</html:em> simplices instead of geometric ones. We then need to impose an additional requirement that the degeneracy of a simplex is decidable. The equivalence of the two definitions is given by the Eilenberg–Zilber lemma.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

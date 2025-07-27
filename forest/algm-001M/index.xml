@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>4</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/algm-001M/</fr:uri>
+    <fr:display-uri>algm-001M</fr:display-uri>
+    <fr:route>/forest/algm-001M/</fr:route>
+    <fr:title text="subobject classifier of presheaves">subobject classifier of presheaves</fr:title>
+    <fr:taxon>Construction</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  The subobject classifier <fr:tex display="inline"><![CDATA[\Omega ]]></fr:tex> of presheaves can be given by a quick calculation.
+  <fr:tex display="block"><![CDATA[\Gamma (U, \Omega )
+  \cong  \hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U), \Omega )
+  \cong  \operatorname {Sub}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U))]]></fr:tex>
+  By definition, this is the set of <fr:link href="/forest/algm-001B/" title="sieve" uri="https://trebor-huang.github.io/forest/algm-001B/" display-uri="algm-001B" type="local">sieves</fr:link> on <fr:tex display="inline"><![CDATA[U]]></fr:tex>, and the functorial action is the <fr:link href="/forest/algm-001C/" title="pullback of sieves" uri="https://trebor-huang.github.io/forest/algm-001C/" display-uri="algm-001C" type="local">pullback</fr:link>. For a monomorphism <fr:tex display="inline"><![CDATA[F \hookrightarrow  G]]></fr:tex>, an element <fr:tex display="inline"><![CDATA[s \in  \Gamma (U, G)]]></fr:tex> is sent to the sieve consisting of arrows <fr:tex display="inline"><![CDATA[f : V \to  U]]></fr:tex> such that the restriction along <fr:tex display="inline"><![CDATA[f]]></fr:tex> is included in <fr:tex display="inline"><![CDATA[F]]></fr:tex>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-001N/</fr:uri>
+            <fr:display-uri>algm-001N</fr:display-uri>
+            <fr:route>/forest/algm-001N/</fr:route>
+            <fr:title text="Grothendieck coverages and Lawvere–Tierney operators">Grothendieck coverages and Lawvere–Tierney operators</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Consider a <fr:link href="/forest/algm-001L/" title="Lawvere–Tierney operator" uri="https://trebor-huang.github.io/forest/algm-001L/" display-uri="algm-001L" type="local">Lawvere–Tierney operator</fr:link> on a presheaf category. Then we may calculate the subobject classifier as in <fr:link href="/forest/algm-001M/" title="subobject classifier of presheaves" uri="https://trebor-huang.github.io/forest/algm-001M/" display-uri="algm-001M" type="local">Construction <fr:contextual-number uri="https://trebor-huang.github.io/forest/algm-001M/" display-uri="algm-001M" /></fr:link>.
+</html:p>
+            <html:p>
+  By the definition of subobject classifiers, a <fr:link href="/forest/algm-001L/" title="Lawvere–Tierney operator" uri="https://trebor-huang.github.io/forest/algm-001L/" display-uri="algm-001L" type="local">Lawvere–Tierney operator</fr:link> can be equivalently expressed as a subobject <fr:tex display="inline"><![CDATA[J \subseteq  \Omega ]]></fr:tex>. Translating the condition of preserving finite intersections, it needs to contain the improper sieve, be upwards closed and closed under finite intersections. And <fr:tex display="inline"><![CDATA[j \mathbin {\circ } j = j]]></fr:tex> implies the following pullback square:
+  
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="2b9c8ac34ee25178be732342bce3fa0f"><fr:resource-content><html:img src="/forest/2b9c8ac34ee25178be732342bce3fa0f.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}%tex
+    J & J \\
+    \Omega & \Omega
+    \arrow[hook, from=1-2, to=2-2]
+    \arrow["j"', from=2-1, to=2-2]
+    \arrow[hook, from=1-1, to=2-1]
+    \arrow[from=1-1, to=1-2]
+    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]\end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+  In other words, a sieve is contained in <fr:tex display="inline"><![CDATA[J]]></fr:tex> iff its image under <fr:tex display="inline"><![CDATA[j]]></fr:tex> is also contained in <fr:tex display="inline"><![CDATA[J]]></fr:tex>. Unfolding this, a sieve <fr:tex display="inline"><![CDATA[S]]></fr:tex> is contained in <fr:tex display="inline"><![CDATA[J]]></fr:tex> iff the arrows <fr:tex display="inline"><![CDATA[g]]></fr:tex> such that <fr:tex display="inline"><![CDATA[g^* S]]></fr:tex> is contained in <fr:tex display="inline"><![CDATA[J]]></fr:tex> also form a sieve in <fr:tex display="inline"><![CDATA[J]]></fr:tex>. Looking at the definition of a <fr:link href="/forest/algm-001A/" title="Grothendieck coverage" uri="https://trebor-huang.github.io/forest/algm-001A/" display-uri="algm-001A" type="local">Grothendieck coverage</fr:link>, we see that they are equivalent, if we regard <fr:tex display="inline"><![CDATA[J]]></fr:tex> as picking out the covering sieves.
+</html:p>
+            <html:p>
+  In the operator form <fr:tex display="inline"><![CDATA[j]]></fr:tex>, it takes in a sieve <fr:tex display="inline"><![CDATA[S]]></fr:tex> and outputs the sieve <fr:tex display="inline"><![CDATA[j(S)]]></fr:tex> consisting of all the subobjects <fr:tex display="inline"><![CDATA[S]]></fr:tex> can cover, or equivalently it outputs the largest sieve that covers the “same portion” of the object.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-001C/</fr:uri>
+            <fr:display-uri>algm-001C</fr:display-uri>
+            <fr:route>/forest/algm-001C/</fr:route>
+            <fr:title text="pullback of sieves">pullback of sieves</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/algm-001B/" title="sieve" uri="https://trebor-huang.github.io/forest/algm-001B/" display-uri="algm-001B" type="local">sieve</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex> over <fr:tex display="inline"><![CDATA[A]]></fr:tex> and a morphism <fr:tex display="inline"><![CDATA[g : B \to  A]]></fr:tex>, the <html:strong>pullback</html:strong> <fr:tex display="inline"><![CDATA[g^* S]]></fr:tex> is a sieve over <fr:tex display="inline"><![CDATA[B]]></fr:tex>. <fr:tex display="inline"><![CDATA[h : C \to  B]]></fr:tex> is in this sieve iff <fr:tex display="inline"><![CDATA[g \mathbin {\circ } h]]></fr:tex> is in <fr:tex display="inline"><![CDATA[S]]></fr:tex>. There is a natural map <fr:tex display="inline"><![CDATA[g^* S \to  S]]></fr:tex> given by <fr:tex display="inline"><![CDATA[g \mathbin {\circ } -]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-001B/</fr:uri>
+            <fr:display-uri>algm-001B</fr:display-uri>
+            <fr:route>/forest/algm-001B/</fr:route>
+            <fr:title text="sieve">sieve</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A <html:strong>sieve</html:strong> over an object <fr:tex display="inline"><![CDATA[A]]></fr:tex> of an arbitrary category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is a subfunctor of <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex>. More explicitly, it selects some arrows with codomain <fr:tex display="inline"><![CDATA[A]]></fr:tex>, such that the selected arrows absorbs composition (i.e. if <fr:tex display="inline"><![CDATA[f : B \to  A]]></fr:tex> is selected and <fr:tex display="inline"><![CDATA[g : C \to  B]]></fr:tex>, then <fr:tex display="inline"><![CDATA[g \mathbin {\circ } f]]></fr:tex> is also selected).
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

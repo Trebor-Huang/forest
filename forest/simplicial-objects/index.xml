@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>Jon Peter May</fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>1967</fr:year>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/simplicial-objects/</fr:uri>
+    <fr:display-uri>simplicial-objects</fr:display-uri>
+    <fr:route>/forest/simplicial-objects/</fr:route>
+    <fr:title text="Simplicial objects in algebraic topology">Simplicial objects in algebraic topology</fr:title>
+    <fr:taxon>Reference</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A copy of the book can be found at <fr:link href="https://ncatlab.org/nlab/files/May_SimplicialObjectsInAlgebraicTopology.pdf" type="external">https://ncatlab.org/nlab/files/May_SimplicialObjectsInAlgebraicTopology.pdf</fr:link>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>28</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0021/</fr:uri>
+            <fr:display-uri>hmlg-0021</fr:display-uri>
+            <fr:route>/forest/hmlg-0021/</fr:route>
+            <fr:title text="W-bar construction">W-bar construction</fr:title>
+            <fr:taxon>Construction</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a simplicial group, we can define a model of its universal principal bundle <fr:tex display="inline"><![CDATA[\mathrm {E} G \to  \mathrm {B} G]]></fr:tex> as simplicial sets <fr:tex display="inline"><![CDATA[W G \to  \bar {W} G]]></fr:tex>. This is a generalization of the <fr:link href="/forest/hmlg-001W/" title="bar construction" uri="https://trebor-huang.github.io/forest/hmlg-001W/" display-uri="hmlg-001W" type="local">bar construction</fr:link>, if we consider a group <fr:tex display="inline"><![CDATA[G]]></fr:tex> as a discrete simplicial set. It classifies principal <fr:tex display="inline"><![CDATA[G]]></fr:tex>-bundles in the sense of Theorem 21.13 in <fr:link href="/forest/simplicial-objects/" title="Simplicial objects in algebraic topology" uri="https://trebor-huang.github.io/forest/simplicial-objects/" display-uri="simplicial-objects" type="local">Simplicial objects in algebraic topology</fr:link>.
+</html:p>
+            <html:p>
+  We define the <fr:tex display="inline"><![CDATA[n]]></fr:tex>-simplices of <fr:tex display="inline"><![CDATA[W G]]></fr:tex> to be
+  <fr:tex display="block"><![CDATA[(W G)_n = G_0 \times  G_1 \times  \cdots  \times  G_n]]></fr:tex>
+  so that <fr:tex display="inline"><![CDATA[G_n]]></fr:tex> acts on <fr:tex display="inline"><![CDATA[(W G)_n]]></fr:tex> by taking the face map that discards the last <fr:tex display="inline"><![CDATA[k]]></fr:tex> vertices for each <fr:tex display="inline"><![CDATA[k]]></fr:tex>, and then acting on the appropriate factor on the right. This forces the face maps and degeneracy maps to be
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \partial _k (g_0, \dots , g_n) &=
+      (g_0, \dots , g_{k-1}, \partial _k g_{k+1}, \dots , \partial _k g_n), \\
+    \sigma _k (g_0, \dots , g_n) &=
+      (g_0, \dots , g_{k}, \sigma _k g_{k}, \dots , \sigma _k g_n).
+  \end {aligned}]]></fr:tex>
+  We define <fr:tex display="inline"><![CDATA[\bar {W} G]]></fr:tex> to be <fr:tex display="inline"><![CDATA[W G]]></fr:tex> quotiented by the action of <fr:tex display="inline"><![CDATA[G]]></fr:tex>. This can be represented as <fr:tex display="inline"><![CDATA[(\bar {W} G)_n = G_0 \times  \cdots  \times  G_{n-1}]]></fr:tex>,
+  with the quotient map <fr:tex display="inline"><![CDATA[(W G)_n \twoheadrightarrow  (\bar {W} G)_n]]></fr:tex> given by
+  <fr:tex display="block"><![CDATA[(g_0, \dots , g_n) \mapsto  (g_0 (\partial _1 g_1)^{-1}, \dots , g_{n-1} (\partial _n g_n)^{-1}).]]></fr:tex>
+  The face and degeneracy maps can then be computed to be
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \partial _k (g_0, \dots , g_{n-1}) &=
+      (g_0, g_1, \dots , g_{k-1} \cdot  \partial _k g_k, \partial _k g_{k+1}, \dots , \partial _k g_{n-1}), \\
+    \partial _n (g_0, \dots , g_{n-1}) &=
+      (g_0, g_1, \dots , g_{n-2}) \\
+    \sigma _k (g_0, \dots , g_{n-1}) &=
+      (g_0, g_1, \dots , g_{k-1}, 1, \sigma _k g_{k}, \dots , \sigma _k g_{n-1}).
+  \end {aligned}]]></fr:tex>
+  A quick computation shows that this indeed produces a <fr:link href="/forest/hmlg-0028/" title="simplicial principal fiber bundle" uri="https://trebor-huang.github.io/forest/hmlg-0028/" display-uri="hmlg-0028" type="local">simplicial principal fiber bundle</fr:link> with fiber <fr:tex display="inline"><![CDATA[G]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-001K/</fr:uri>
+            <fr:display-uri>hmlg-001K</fr:display-uri>
+            <fr:route>/forest/hmlg-001K/</fr:route>
+            <fr:title text="Effective homology">Effective homology</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  This is a set of notes on effective homology and algebraic topology. Main references are <fr:link href="/forest/constructive-homological-algebra/" title="Constructive Homological Algebra and Applications" uri="https://trebor-huang.github.io/forest/constructive-homological-algebra/" display-uri="constructive-homological-algebra" type="local">Constructive Homological Algebra and Applications</fr:link> and <fr:link href="/forest/discrete-vector-fields/" title="Discrete Vector Fields and Fundamental Algebraic Topology" uri="https://trebor-huang.github.io/forest/discrete-vector-fields/" display-uri="discrete-vector-fields" type="local">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. We assume basic familiarity with the classical aspects of the theory, although there will also be links within this forest to the relevant concepts.
+</html:p>
+            <html:ul><html:li><fr:link href="/forest/hmlg-0021/" title="W-bar construction" uri="https://trebor-huang.github.io/forest/hmlg-0021/" display-uri="hmlg-0021" type="local">W-bar construction</fr:link>, simplicial principal bundles, twisted products by <fr:link href="/forest/simplicial-objects/" title="Simplicial objects in algebraic topology" uri="https://trebor-huang.github.io/forest/simplicial-objects/" display-uri="simplicial-objects" type="local">Simplicial objects in algebraic topology</fr:link></html:li>
+  <html:li>classifying space, loop space</html:li>
+  <html:li>composition of <fr:link href="/forest/hmlg-001I/" title="strong homology equivalence" uri="https://trebor-huang.github.io/forest/hmlg-001I/" display-uri="hmlg-001I" type="local">strong homology equivalence</fr:link>, tensor product, cone, bicomplex</html:li>
+  <html:li>simplicial group, Kan complex</html:li>
+  <html:li>organize into notes</html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

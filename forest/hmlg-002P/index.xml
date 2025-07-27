@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>19</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-002P/</fr:uri>
+    <fr:display-uri>hmlg-002P</fr:display-uri>
+    <fr:route>/forest/hmlg-002P/</fr:route>
+    <fr:title text="right adjoint of exact functor preserves injectives">right adjoint of exact functor preserves injectives</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Suppose <fr:tex display="inline"><![CDATA[F \dashv  R]]></fr:tex>, <fr:tex display="inline"><![CDATA[F]]></fr:tex> is exact and <fr:tex display="inline"><![CDATA[I]]></fr:tex> is an <fr:link href="/forest/hmlg-002J/" title="injective object" uri="https://trebor-huang.github.io/forest/hmlg-002J/" display-uri="hmlg-002J" type="local">injective</fr:link>, then <fr:tex display="inline"><![CDATA[R(I)]]></fr:tex> is also an injective. Dually, if <fr:tex display="inline"><![CDATA[L \dashv  F]]></fr:tex>, <fr:tex display="inline"><![CDATA[F]]></fr:tex> is exact and <fr:tex display="inline"><![CDATA[P]]></fr:tex> is a <fr:link href="/forest/hmlg-0004/" title="projective object" uri="https://trebor-huang.github.io/forest/hmlg-0004/" display-uri="hmlg-0004" type="local">projective</fr:link>, then <fr:tex display="inline"><![CDATA[L(P)]]></fr:tex> is also a projective.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>6</fr:month><fr:day>19</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Notice that the right adjoint preserves products, and so is <fr:link href="/forest/hmlg-000S/" title="additive functor" uri="https://trebor-huang.github.io/forest/hmlg-000S/" display-uri="hmlg-000S" type="local">additive</fr:link>. We need to show that <fr:tex display="inline"><![CDATA[\hom (-, R(I))]]></fr:tex> is <fr:link href="/forest/hmlg-000X/" title="left and right exact functor" uri="https://trebor-huang.github.io/forest/hmlg-000X/" display-uri="hmlg-000X" type="local">exact</fr:link>, which amounts to saying the composition of <fr:tex display="inline"><![CDATA[F]]></fr:tex> and <fr:tex display="inline"><![CDATA[\hom (-, I)]]></fr:tex> is exact, which is true because both are exact.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-002J/</fr:uri>
+            <fr:display-uri>hmlg-002J</fr:display-uri>
+            <fr:route>/forest/hmlg-002J/</fr:route>
+            <fr:title text="injective object">injective object</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  In an <fr:link href="/forest/hmlg-000Q/" title="abelian category" uri="https://trebor-huang.github.io/forest/hmlg-000Q/" display-uri="hmlg-000Q" type="local">abelian category</fr:link>, an object <fr:tex display="inline"><![CDATA[I]]></fr:tex> is <html:strong>injective</html:strong> iff every morphism <fr:tex display="inline"><![CDATA[B \to  I]]></fr:tex> can be extended along monomorphisms <fr:tex display="inline"><![CDATA[B \rightarrowtail  A]]></fr:tex>. Equivalently, it is a <fr:link href="/forest/hmlg-0004/" title="projective object" uri="https://trebor-huang.github.io/forest/hmlg-0004/" display-uri="hmlg-0004" type="local">projective object</fr:link> in the dual category.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>19</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000X/</fr:uri>
+            <fr:display-uri>hmlg-000X</fr:display-uri>
+            <fr:route>/forest/hmlg-000X/</fr:route>
+            <fr:title text="left and right exact functor">left and right exact functor</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  An <fr:link href="/forest/hmlg-000S/" title="additive functor" uri="https://trebor-huang.github.io/forest/hmlg-000S/" display-uri="hmlg-000S" type="local">additive functor</fr:link> <fr:tex display="inline"><![CDATA[F : \mathcal {A} \to  \mathcal {B}]]></fr:tex> between abelian categories is <html:strong>left exact</html:strong> if it satisfies the following equivalent conditions.
+</html:p><html:ul><html:li>It preserves kernels.</html:li>
+  <html:li>It preserves finite limits.</html:li>
+  <html:li>It preserves the exactness of sequences <fr:tex display="block"><![CDATA[0 \to  A \to  B \to  C.]]></fr:tex></html:li></html:ul><html:p>
+  Dually, an additive functor is <html:strong>right exact</html:strong> if it satisfies the following equivalent conditions.
+</html:p><html:ul><html:li>It preserves cokernels.</html:li>
+  <html:li>It preserves finite colimits.</html:li>
+  <html:li>It preserves the exactness of sequences <fr:tex display="block"><![CDATA[A \to  B \to  C \to  0.]]></fr:tex></html:li></html:ul><html:p>
+  If a functor is both left exact and right exact, it is simply called an <html:strong>exact functor</html:strong>, which is equivalent to it preserving the exactness of sequences <fr:tex display="inline"><![CDATA[A \to  B \to  C]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Since additive functors already preserves finite products, and <fr:link href="/forest/hmlg-000Y/" title="equalizers can be reduced to kernels in \Cat {Ab}-enriched categories" uri="https://trebor-huang.github.io/forest/hmlg-000Y/" display-uri="hmlg-000Y" type="local">kernels are equivalent to general equalizers</fr:link> using the additive structure, the first two conditions are equivalent.
+  </html:p>
+
+  <html:p>
+    The sequence <fr:tex display="inline"><![CDATA[A \rightarrowtail  B \to  C]]></fr:tex> being exact is equivalent to <fr:tex display="inline"><![CDATA[A]]></fr:tex> being a kernel of <fr:tex display="inline"><![CDATA[B \to  C]]></fr:tex>. So the third condition is equivalent to the first. This completes the equivalence proof.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000S/</fr:uri>
+            <fr:display-uri>hmlg-000S</fr:display-uri>
+            <fr:route>/forest/hmlg-000S/</fr:route>
+            <fr:title text="additive functor">additive functor</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given two <fr:link href="/forest/hmlg-000P/" title="additive category" uri="https://trebor-huang.github.io/forest/hmlg-000P/" display-uri="hmlg-000P" type="local">additive categories</fr:link> and a functor <fr:tex display="inline"><![CDATA[F : \mathcal {C} \to  \mathcal {D}]]></fr:tex> between them, the following are equivalent. In this case, we call the functor <html:strong>additive</html:strong>.
+</html:p><html:ul><html:li>The functor preserves finite products.</html:li>
+  <html:li>The functor preserves finite coproducts.</html:li>
+  <html:li>The functor is a homomorphism on the abelian groups <fr:tex display="inline"><![CDATA[\hom _{\mathcal {C}}(X, Y)]]></fr:tex>, i.e. it is an <fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched functor.</html:li></html:ul>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    For the equivalence of the first two claims, we have a composition
+    <fr:tex display="block"><![CDATA[F(X) + F(Y) \to  F(X + Y) \stackrel {\sim \,}{\to } F(X \times  Y) \to  F(X) \times  F(Y),]]></fr:tex>
+    where the middle morphism comes from the canonical isomorphism <fr:tex display="inline"><![CDATA[X + Y \stackrel {\sim \,}{\to } F(X \times  Y)]]></fr:tex>. The first two claim is equivalent to the right and left arrows being iso, respectively. Recall that a morphism from a coproduct to a product is determined by a matrix of morphisms. With this fact and the functoriality of <fr:tex display="inline"><![CDATA[F]]></fr:tex>, we can compute that the composition is the canonical isomorphism from <fr:tex display="inline"><![CDATA[F(X) + F(Y)]]></fr:tex> to <fr:tex display="inline"><![CDATA[F(X) \times  F(Y)]]></fr:tex>. Therefore the leftmost arrow being iso is equivalent to the rightmost arrow being iso.
+  </html:p>
+
+  <html:p>
+    Since the abelian group structure on morphisms is <fr:link href="/forest/hmlg-000R/" title="being an additive category is a property" uri="https://trebor-huang.github.io/forest/hmlg-000R/" display-uri="hmlg-000R" type="local">uniquely determined</fr:link> from the finite products and coproducts in an additive category, a functor satisfying the first two conditions automatically satisfies the third. Conversely, we need to prove the canonical maps <fr:tex display="inline"><![CDATA[F(1) \to  1]]></fr:tex> and <fr:tex display="inline"><![CDATA[F(X \times  Y) \to  F(X) \times  F(Y)]]></fr:tex> are isomorphisms. For the first one, since <fr:tex display="inline"><![CDATA[1]]></fr:tex> is also the initial object, any morphism into it is automatically iso. For the second one, we again look at the diagram which composes to an isomorphism:
+    <fr:tex display="block"><![CDATA[F(X) + F(Y) \to  F(X + Y) \stackrel {\sim \,}{\to } F(X \times  Y) \to  F(X) \times  F(Y).]]></fr:tex>
+    Using the bilinearity of composition and that <fr:tex display="inline"><![CDATA[F]]></fr:tex> preserves addition on morphisms, we can verify that this provides a two-sided inverse.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0004/</fr:uri>
+            <fr:display-uri>hmlg-0004</fr:display-uri>
+            <fr:route>/forest/hmlg-0004/</fr:route>
+            <fr:title text="projective object">projective object</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>In an abelian category, an object <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <html:strong>projective</html:strong> iff for every morphism <fr:tex display="inline"><![CDATA[P \to  B]]></fr:tex> can be lifted through an epimorphism <fr:tex display="inline"><![CDATA[A \twoheadrightarrow  B]]></fr:tex>, i.e. there exists a (non-unique) morphism <fr:tex display="inline"><![CDATA[P \to  A]]></fr:tex> making the triangle commute.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

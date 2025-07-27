@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>4</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-002E/</fr:uri>
+    <fr:display-uri>hmlg-002E</fr:display-uri>
+    <fr:route>/forest/hmlg-002E/</fr:route>
+    <fr:title text="abelian group structure on the W-bar construction">abelian group structure on the W-bar construction</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Suppose the simplicial group <fr:tex display="inline"><![CDATA[G]]></fr:tex> is abelian, then the <fr:link href="/forest/hmlg-0021/" title="W-bar construction" uri="https://trebor-huang.github.io/forest/hmlg-0021/" display-uri="hmlg-0021" type="local">W-bar construction</fr:link> still has an abelian group structure, by multiplication element-wise.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>28</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0021/</fr:uri>
+            <fr:display-uri>hmlg-0021</fr:display-uri>
+            <fr:route>/forest/hmlg-0021/</fr:route>
+            <fr:title text="W-bar construction">W-bar construction</fr:title>
+            <fr:taxon>Construction</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a simplicial group, we can define a model of its universal principal bundle <fr:tex display="inline"><![CDATA[\mathrm {E} G \to  \mathrm {B} G]]></fr:tex> as simplicial sets <fr:tex display="inline"><![CDATA[W G \to  \bar {W} G]]></fr:tex>. This is a generalization of the <fr:link href="/forest/hmlg-001W/" title="bar construction" uri="https://trebor-huang.github.io/forest/hmlg-001W/" display-uri="hmlg-001W" type="local">bar construction</fr:link>, if we consider a group <fr:tex display="inline"><![CDATA[G]]></fr:tex> as a discrete simplicial set. It classifies principal <fr:tex display="inline"><![CDATA[G]]></fr:tex>-bundles in the sense of Theorem 21.13 in <fr:link href="/forest/simplicial-objects/" title="Simplicial objects in algebraic topology" uri="https://trebor-huang.github.io/forest/simplicial-objects/" display-uri="simplicial-objects" type="local">Simplicial objects in algebraic topology</fr:link>.
+</html:p>
+            <html:p>
+  We define the <fr:tex display="inline"><![CDATA[n]]></fr:tex>-simplices of <fr:tex display="inline"><![CDATA[W G]]></fr:tex> to be
+  <fr:tex display="block"><![CDATA[(W G)_n = G_0 \times  G_1 \times  \cdots  \times  G_n]]></fr:tex>
+  so that <fr:tex display="inline"><![CDATA[G_n]]></fr:tex> acts on <fr:tex display="inline"><![CDATA[(W G)_n]]></fr:tex> by taking the face map that discards the last <fr:tex display="inline"><![CDATA[k]]></fr:tex> vertices for each <fr:tex display="inline"><![CDATA[k]]></fr:tex>, and then acting on the appropriate factor on the right. This forces the face maps and degeneracy maps to be
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \partial _k (g_0, \dots , g_n) &=
+      (g_0, \dots , g_{k-1}, \partial _k g_{k+1}, \dots , \partial _k g_n), \\
+    \sigma _k (g_0, \dots , g_n) &=
+      (g_0, \dots , g_{k}, \sigma _k g_{k}, \dots , \sigma _k g_n).
+  \end {aligned}]]></fr:tex>
+  We define <fr:tex display="inline"><![CDATA[\bar {W} G]]></fr:tex> to be <fr:tex display="inline"><![CDATA[W G]]></fr:tex> quotiented by the action of <fr:tex display="inline"><![CDATA[G]]></fr:tex>. This can be represented as <fr:tex display="inline"><![CDATA[(\bar {W} G)_n = G_0 \times  \cdots  \times  G_{n-1}]]></fr:tex>,
+  with the quotient map <fr:tex display="inline"><![CDATA[(W G)_n \twoheadrightarrow  (\bar {W} G)_n]]></fr:tex> given by
+  <fr:tex display="block"><![CDATA[(g_0, \dots , g_n) \mapsto  (g_0 (\partial _1 g_1)^{-1}, \dots , g_{n-1} (\partial _n g_n)^{-1}).]]></fr:tex>
+  The face and degeneracy maps can then be computed to be
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \partial _k (g_0, \dots , g_{n-1}) &=
+      (g_0, g_1, \dots , g_{k-1} \cdot  \partial _k g_k, \partial _k g_{k+1}, \dots , \partial _k g_{n-1}), \\
+    \partial _n (g_0, \dots , g_{n-1}) &=
+      (g_0, g_1, \dots , g_{n-2}) \\
+    \sigma _k (g_0, \dots , g_{n-1}) &=
+      (g_0, g_1, \dots , g_{k-1}, 1, \sigma _k g_{k}, \dots , \sigma _k g_{n-1}).
+  \end {aligned}]]></fr:tex>
+  A quick computation shows that this indeed produces a <fr:link href="/forest/hmlg-0028/" title="simplicial principal fiber bundle" uri="https://trebor-huang.github.io/forest/hmlg-0028/" display-uri="hmlg-0028" type="local">simplicial principal fiber bundle</fr:link> with fiber <fr:tex display="inline"><![CDATA[G]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

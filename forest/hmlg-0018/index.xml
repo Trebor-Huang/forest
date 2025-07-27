@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>21</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-0018/</fr:uri>
+    <fr:display-uri>hmlg-0018</fr:display-uri>
+    <fr:route>/forest/hmlg-0018/</fr:route>
+    <fr:title text="an additive functor is exact iff it preserves quasi-isomorphisms">an additive functor is exact iff it preserves quasi-isomorphisms</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Given an <fr:link href="/forest/hmlg-000S/" title="additive functor" uri="https://trebor-huang.github.io/forest/hmlg-000S/" display-uri="hmlg-000S" type="local">additive functor</fr:link> <fr:tex display="inline"><![CDATA[F : \mathcal {A} \to  \mathcal {B}]]></fr:tex> between <fr:link href="/forest/hmlg-000Q/" title="abelian category" uri="https://trebor-huang.github.io/forest/hmlg-000Q/" display-uri="hmlg-000Q" type="local">abelian categories</fr:link>, it is <fr:link href="/forest/hmlg-000X/" title="left and right exact functor" uri="https://trebor-huang.github.io/forest/hmlg-000X/" display-uri="hmlg-000X" type="local">exact</fr:link> iff it sends <fr:link href="/forest/hmlg-000C/" title="quasi-isomorphism" uri="https://trebor-huang.github.io/forest/hmlg-000C/" display-uri="hmlg-000C" type="local">quasi-isomorphisms</fr:link> to quasi-isomorphisms.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>21</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Suppose an additive functor preserves quasi-isomorphisms. Since a chain complex is exact iff it is quasi-isomorphic to the zero complex, the functor must preserve exactness.
+  </html:p>
+
+  <html:p>
+    On the other hand, <fr:link href="/forest/todo/" title="Unfinished trees" uri="https://trebor-huang.github.io/forest/todo/" display-uri="todo" type="local">exact functors commute with homology functors</fr:link>. Therefore if <fr:tex display="inline"><![CDATA[f : C_\bullet  \to  D_\bullet ]]></fr:tex> is a quasi-isomorphism, <fr:tex display="inline"><![CDATA[H_n (f)]]></fr:tex> are all isomorphisms. Therefore <fr:tex display="inline"><![CDATA[H_n (F(f)) = F(H_n(f))]]></fr:tex> is the functorial action on an isomorphism, which must also produce an isomorphism.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>19</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000X/</fr:uri>
+            <fr:display-uri>hmlg-000X</fr:display-uri>
+            <fr:route>/forest/hmlg-000X/</fr:route>
+            <fr:title text="left and right exact functor">left and right exact functor</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  An <fr:link href="/forest/hmlg-000S/" title="additive functor" uri="https://trebor-huang.github.io/forest/hmlg-000S/" display-uri="hmlg-000S" type="local">additive functor</fr:link> <fr:tex display="inline"><![CDATA[F : \mathcal {A} \to  \mathcal {B}]]></fr:tex> between abelian categories is <html:strong>left exact</html:strong> if it satisfies the following equivalent conditions.
+</html:p><html:ul><html:li>It preserves kernels.</html:li>
+  <html:li>It preserves finite limits.</html:li>
+  <html:li>It preserves the exactness of sequences <fr:tex display="block"><![CDATA[0 \to  A \to  B \to  C.]]></fr:tex></html:li></html:ul><html:p>
+  Dually, an additive functor is <html:strong>right exact</html:strong> if it satisfies the following equivalent conditions.
+</html:p><html:ul><html:li>It preserves cokernels.</html:li>
+  <html:li>It preserves finite colimits.</html:li>
+  <html:li>It preserves the exactness of sequences <fr:tex display="block"><![CDATA[A \to  B \to  C \to  0.]]></fr:tex></html:li></html:ul><html:p>
+  If a functor is both left exact and right exact, it is simply called an <html:strong>exact functor</html:strong>, which is equivalent to it preserving the exactness of sequences <fr:tex display="inline"><![CDATA[A \to  B \to  C]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Since additive functors already preserves finite products, and <fr:link href="/forest/hmlg-000Y/" title="equalizers can be reduced to kernels in \Cat {Ab}-enriched categories" uri="https://trebor-huang.github.io/forest/hmlg-000Y/" display-uri="hmlg-000Y" type="local">kernels are equivalent to general equalizers</fr:link> using the additive structure, the first two conditions are equivalent.
+  </html:p>
+
+  <html:p>
+    The sequence <fr:tex display="inline"><![CDATA[A \rightarrowtail  B \to  C]]></fr:tex> being exact is equivalent to <fr:tex display="inline"><![CDATA[A]]></fr:tex> being a kernel of <fr:tex display="inline"><![CDATA[B \to  C]]></fr:tex>. So the third condition is equivalent to the first. This completes the equivalence proof.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000Q/</fr:uri>
+            <fr:display-uri>hmlg-000Q</fr:display-uri>
+            <fr:route>/forest/hmlg-000Q/</fr:route>
+            <fr:title text="abelian category">abelian category</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given an <fr:link href="/forest/hmlg-000P/" title="additive category" uri="https://trebor-huang.github.io/forest/hmlg-000P/" display-uri="hmlg-000P" type="local">additive category</fr:link>, it is an <html:strong>abelian category</html:strong> if the following condition holds.
+</html:p>
+            <html:ul><html:li>Every morphism has a kernel and a cokernel.</html:li>
+  <html:li>Every monomorphism is the kernel of its cokernel.</html:li>
+  <html:li>Every epimorphism is the cokernel of its kernel.</html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000S/</fr:uri>
+            <fr:display-uri>hmlg-000S</fr:display-uri>
+            <fr:route>/forest/hmlg-000S/</fr:route>
+            <fr:title text="additive functor">additive functor</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given two <fr:link href="/forest/hmlg-000P/" title="additive category" uri="https://trebor-huang.github.io/forest/hmlg-000P/" display-uri="hmlg-000P" type="local">additive categories</fr:link> and a functor <fr:tex display="inline"><![CDATA[F : \mathcal {C} \to  \mathcal {D}]]></fr:tex> between them, the following are equivalent. In this case, we call the functor <html:strong>additive</html:strong>.
+</html:p><html:ul><html:li>The functor preserves finite products.</html:li>
+  <html:li>The functor preserves finite coproducts.</html:li>
+  <html:li>The functor is a homomorphism on the abelian groups <fr:tex display="inline"><![CDATA[\hom _{\mathcal {C}}(X, Y)]]></fr:tex>, i.e. it is an <fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched functor.</html:li></html:ul>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    For the equivalence of the first two claims, we have a composition
+    <fr:tex display="block"><![CDATA[F(X) + F(Y) \to  F(X + Y) \stackrel {\sim \,}{\to } F(X \times  Y) \to  F(X) \times  F(Y),]]></fr:tex>
+    where the middle morphism comes from the canonical isomorphism <fr:tex display="inline"><![CDATA[X + Y \stackrel {\sim \,}{\to } F(X \times  Y)]]></fr:tex>. The first two claim is equivalent to the right and left arrows being iso, respectively. Recall that a morphism from a coproduct to a product is determined by a matrix of morphisms. With this fact and the functoriality of <fr:tex display="inline"><![CDATA[F]]></fr:tex>, we can compute that the composition is the canonical isomorphism from <fr:tex display="inline"><![CDATA[F(X) + F(Y)]]></fr:tex> to <fr:tex display="inline"><![CDATA[F(X) \times  F(Y)]]></fr:tex>. Therefore the leftmost arrow being iso is equivalent to the rightmost arrow being iso.
+  </html:p>
+
+  <html:p>
+    Since the abelian group structure on morphisms is <fr:link href="/forest/hmlg-000R/" title="being an additive category is a property" uri="https://trebor-huang.github.io/forest/hmlg-000R/" display-uri="hmlg-000R" type="local">uniquely determined</fr:link> from the finite products and coproducts in an additive category, a functor satisfying the first two conditions automatically satisfies the third. Conversely, we need to prove the canonical maps <fr:tex display="inline"><![CDATA[F(1) \to  1]]></fr:tex> and <fr:tex display="inline"><![CDATA[F(X \times  Y) \to  F(X) \times  F(Y)]]></fr:tex> are isomorphisms. For the first one, since <fr:tex display="inline"><![CDATA[1]]></fr:tex> is also the initial object, any morphism into it is automatically iso. For the second one, we again look at the diagram which composes to an isomorphism:
+    <fr:tex display="block"><![CDATA[F(X) + F(Y) \to  F(X + Y) \stackrel {\sim \,}{\to } F(X \times  Y) \to  F(X) \times  F(Y).]]></fr:tex>
+    Using the bilinearity of composition and that <fr:tex display="inline"><![CDATA[F]]></fr:tex> preserves addition on morphisms, we can verify that this provides a two-sided inverse.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000C/</fr:uri>
+            <fr:display-uri>hmlg-000C</fr:display-uri>
+            <fr:route>/forest/hmlg-000C/</fr:route>
+            <fr:title text="quasi-isomorphism">quasi-isomorphism</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A <fr:link href="/forest/hmlg-0008/" title="chain map" uri="https://trebor-huang.github.io/forest/hmlg-0008/" display-uri="hmlg-0008" type="local">chain map</fr:link> is a <html:strong>quasi-isomorphism</html:strong> if it induces isomorphisms on the <fr:link href="/forest/hmlg-0007/" title="components of a chain complex" uri="https://trebor-huang.github.io/forest/hmlg-0007/" display-uri="hmlg-0007" type="local">homology groups</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://trebor-huang.github.io/forest/todo/</fr:uri>
+            <fr:display-uri>todo</fr:display-uri>
+            <fr:route>/forest/todo/</fr:route>
+            <fr:title text="Unfinished trees">Unfinished trees</fr:title>
+            <fr:taxon>Meta</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</html:p>
+            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-002F/</fr:uri>
+                <fr:display-uri>hmlg-002F</fr:display-uri>
+                <fr:route>/forest/hmlg-002F/</fr:route>
+                <fr:title text="twisted tensor product">twisted tensor product</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  (...)
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>3</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-002D/</fr:uri>
+                <fr:display-uri>hmlg-002D</fr:display-uri>
+                <fr:route>/forest/hmlg-002D/</fr:route>
+                <fr:title text="associated twisted product">associated twisted product</fr:title>
+                <fr:taxon>Construction</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  The <fr:link href="/forest/hmlg-002C/" title="associated simplicial fiber bundle" uri="https://trebor-huang.github.io/forest/hmlg-002C/" display-uri="hmlg-002C" type="local">associated simplicial fiber bundle</fr:link> of <fr:link href="/forest/hmlg-002B/" title="twisted product of simplicial sets" uri="https://trebor-huang.github.io/forest/hmlg-002B/" display-uri="hmlg-002B" type="local">twisted products</fr:link> admits a simpler description. Suppose we have simplicial sets <fr:tex display="inline"><![CDATA[F, B]]></fr:tex>, a simplicial group <fr:tex display="inline"><![CDATA[G]]></fr:tex> with an action <fr:tex display="inline"><![CDATA[G \times  F \to  F]]></fr:tex> and a <fr:link href="/forest/hmlg-002A/" title="twisting function" uri="https://trebor-huang.github.io/forest/hmlg-002A/" display-uri="hmlg-002A" type="local">twisting function</fr:link> <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> on <fr:tex display="inline"><![CDATA[B]]></fr:tex>. The <html:strong>associated twisted product</html:strong> <fr:tex display="inline"><![CDATA[B \times _\tau  F]]></fr:tex> is defined exactly the same as twisted products, except we replace the factor <fr:tex display="inline"><![CDATA[G]]></fr:tex> with <fr:tex display="inline"><![CDATA[F]]></fr:tex>. This still makes sense, because we can interpret the multiplication <fr:tex display="inline"><![CDATA[\tau (b) \cdot  \partial _n f]]></fr:tex> as the <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action.
+</html:p>
+                <html:p>
+  In particular, if we consider <fr:tex display="inline"><![CDATA[G]]></fr:tex> as a simplicial set with a <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action on the left via multiplication, then the associated twisted product <fr:tex display="inline"><![CDATA[B \times _\tau  G]]></fr:tex> is exactly the same as the twisted product <fr:tex display="inline"><![CDATA[B \times _\tau  G]]></fr:tex>, which explains our identical notation.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-001M/</fr:uri>
+                <fr:display-uri>hmlg-001M</fr:display-uri>
+                <fr:route>/forest/hmlg-001M/</fr:route>
+                <fr:title text="chain reduction of mapping cones">chain reduction of mapping cones</fr:title>
+                <fr:taxon>Construction</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Given a pair of <fr:link href="/forest/hmlg-0017/" title="chain reduction" uri="https://trebor-huang.github.io/forest/hmlg-0017/" display-uri="hmlg-0017" type="local">chain reductions</fr:link> <fr:tex display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex> and <fr:tex display="inline"><![CDATA[\rho ' : C' \Rightarrow \mkern {-14mu}\Rightarrow  D']]></fr:tex>, we can construct a reduction from the mapping cone <fr:tex display="inline"><![CDATA[\operatorname {Cone}(f)]]></fr:tex> of a chain map <fr:tex display="inline"><![CDATA[f : C \to  C']]></fr:tex> to (the action of <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> on <fr:tex display="inline"><![CDATA[f]]></fr:tex>).
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>1</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-001K/</fr:uri>
+                <fr:display-uri>hmlg-001K</fr:display-uri>
+                <fr:route>/forest/hmlg-001K/</fr:route>
+                <fr:title text="Effective homology">Effective homology</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  This is a set of notes on effective homology and algebraic topology. Main references are <fr:link href="/forest/constructive-homological-algebra/" title="Constructive Homological Algebra and Applications" uri="https://trebor-huang.github.io/forest/constructive-homological-algebra/" display-uri="constructive-homological-algebra" type="local">Constructive Homological Algebra and Applications</fr:link> and <fr:link href="/forest/discrete-vector-fields/" title="Discrete Vector Fields and Fundamental Algebraic Topology" uri="https://trebor-huang.github.io/forest/discrete-vector-fields/" display-uri="discrete-vector-fields" type="local">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. We assume basic familiarity with the classical aspects of the theory, although there will also be links within this forest to the relevant concepts.
+</html:p>
+                <html:ul><html:li><fr:link href="/forest/hmlg-0021/" title="W-bar construction" uri="https://trebor-huang.github.io/forest/hmlg-0021/" display-uri="hmlg-0021" type="local">W-bar construction</fr:link>, simplicial principal bundles, twisted products by <fr:link href="/forest/simplicial-objects/" title="Simplicial objects in algebraic topology" uri="https://trebor-huang.github.io/forest/simplicial-objects/" display-uri="simplicial-objects" type="local">Simplicial objects in algebraic topology</fr:link></html:li>
+  <html:li>classifying space, loop space</html:li>
+  <html:li>composition of <fr:link href="/forest/hmlg-001I/" title="strong homology equivalence" uri="https://trebor-huang.github.io/forest/hmlg-001I/" display-uri="hmlg-001I" type="local">strong homology equivalence</fr:link>, tensor product, cone, bicomplex</html:li>
+  <html:li>simplicial group, Kan complex</html:li>
+  <html:li>organize into notes</html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-000F/</fr:uri>
+                <fr:display-uri>hmlg-000F</fr:display-uri>
+                <fr:route>/forest/hmlg-000F/</fr:route>
+                <fr:title text="Freyd–Mitchell embedding theorem">Freyd–Mitchell embedding theorem</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex display="inline"><![CDATA[R]]></fr:tex>-modules for some ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  (TODO)
+</html:p></fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

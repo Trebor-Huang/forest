@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>14</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/misc-000F/</fr:uri>
+    <fr:display-uri>misc-000F</fr:display-uri>
+    <fr:route>/forest/misc-000F/</fr:route>
+    <fr:title text="dissolution locale">dissolution locale</fr:title>
+    <fr:taxon>Construction</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  We can give a concrete construction of the <fr:link href="/forest/misc-000E/" title="dissolution locale" uri="https://trebor-huang.github.io/forest/misc-000E/" display-uri="misc-000E" type="local">dissolution locale</fr:link>. Given a locale <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we define a new locale <fr:tex display="inline"><![CDATA[X_d]]></fr:tex> whose poset of <html:em>closeds</html:em> is the poset of sublocales of <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Given a sublocale <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we write <fr:tex display="inline"><![CDATA[V(\alpha )]]></fr:tex> for the corresponding closed in <fr:tex display="inline"><![CDATA[X_d]]></fr:tex>. The structure map <fr:tex display="inline"><![CDATA[\iota  : X_d \to  X]]></fr:tex> is given by sending every closed to the corresponding closed sublocale.
+</html:p>
+    <html:p>
+  We prove the universal property of dissolution. Suppose there is another map <fr:tex display="inline"><![CDATA[f : Y \to  X]]></fr:tex> such that the preimage of sublocales are closed. We can define a map <fr:tex display="inline"><![CDATA[\pi  : Y \to  X_d]]></fr:tex> by letting it send <fr:tex display="inline"><![CDATA[V(\alpha )]]></fr:tex> to the preimage of <fr:tex display="inline"><![CDATA[\alpha ]]></fr:tex> under <fr:tex display="inline"><![CDATA[f]]></fr:tex>, considered as a closed. This map is unique since the preimage of every closed is fixed by the commutativity requirement.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>14</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/misc-000E/</fr:uri>
+            <fr:display-uri>misc-000E</fr:display-uri>
+            <fr:route>/forest/misc-000E/</fr:route>
+            <fr:title text="dissolution locale">dissolution locale</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a locale <fr:tex display="inline"><![CDATA[X]]></fr:tex>, if we have a map <fr:tex display="inline"><![CDATA[f : Y \to  X]]></fr:tex> such that the preimage of every sublocale is closed, and every map <fr:tex display="inline"><![CDATA[g : Z \to  X]]></fr:tex> satisfying the same property factors through <fr:tex display="inline"><![CDATA[f]]></fr:tex> uniquely, then we say <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is the <html:strong>dissolution</html:strong> of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

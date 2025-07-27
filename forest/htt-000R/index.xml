@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>1</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/htt-000R/</fr:uri>
+    <fr:display-uri>htt-000R</fr:display-uri>
+    <fr:route>/forest/htt-000R/</fr:route>
+    <fr:title text="homotopy equivalence is isomorphism for minimal complexes">homotopy equivalence is isomorphism for minimal complexes</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Homotopy equivalences between <fr:link href="/forest/htt-000O/" title="minimal Kan fibration" uri="https://trebor-huang.github.io/forest/htt-000O/" display-uri="htt-000O" type="local">minimal fibrations</fr:link> <fr:tex display="inline"><![CDATA[X_1 \to  Y, X_2 \to  Y]]></fr:tex> relative to the base are actually isomorphisms of fibrations.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We simply need to prove that a map <fr:tex display="inline"><![CDATA[f : X \to  X]]></fr:tex> homotopic to the identity relative to <fr:tex display="inline"><![CDATA[p : X \to  Y]]></fr:tex> is an isomorphism, which allows us to conclude by two-out-of-six of isomorphisms.
+  </html:p>
+  <html:p>
+    We can prove injectivity by induction on the dimension. Suppose <fr:tex display="inline"><![CDATA[f(x) = f(y) = z]]></fr:tex>, by induction hypothesis, the boundaries of <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> are equal. Now <fr:tex display="inline"><![CDATA[x]]></fr:tex> and <fr:tex display="inline"><![CDATA[y]]></fr:tex> are both homotopic to <fr:tex display="inline"><![CDATA[z]]></fr:tex>, and the homotopy restricted to the boundaries must be the same (since they are given by the same homotopy <fr:tex display="inline"><![CDATA[f \sim  \textrm {id}]]></fr:tex>). So we can compose to get a homotopy relative to the boundaries from <fr:tex display="inline"><![CDATA[x]]></fr:tex> to <fr:tex display="inline"><![CDATA[y]]></fr:tex>, which means <fr:tex display="inline"><![CDATA[x = y]]></fr:tex> by minimality.
+  </html:p>
+  <html:p>
+    Now we prove surjectivity by induction. Given <fr:tex display="inline"><![CDATA[z \in  X]]></fr:tex>, we have the boundaries <fr:tex display="inline"><![CDATA[\partial  x]]></fr:tex> such that <fr:tex display="inline"><![CDATA[f(\partial  x) = \partial  z]]></fr:tex> by induction hypothesis, which must match by injectivity of <fr:tex display="inline"><![CDATA[f]]></fr:tex>. The homotopy from <fr:tex display="inline"><![CDATA[f]]></fr:tex> to <fr:tex display="inline"><![CDATA[\textrm {id}]]></fr:tex> gives an open cylinder dragging <fr:tex display="inline"><![CDATA[\partial  z]]></fr:tex> to <fr:tex display="inline"><![CDATA[\partial  x]]></fr:tex> with the cap being <fr:tex display="inline"><![CDATA[z]]></fr:tex>. We can fill this to obtain a simplex <fr:tex display="inline"><![CDATA[x]]></fr:tex>. Now again the homotopy gives us a cylinder from <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex> to <fr:tex display="inline"><![CDATA[x]]></fr:tex>, and this homotopy agrees on the previous on on the boundaries. Therefore we can compose to get a homotopy from <fr:tex display="inline"><![CDATA[f(x)]]></fr:tex> to <fr:tex display="inline"><![CDATA[z]]></fr:tex> relative to the boundaries, proving that they are equal.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000S/</fr:uri>
+            <fr:display-uri>htt-000S</fr:display-uri>
+            <fr:route>/forest/htt-000S/</fr:route>
+            <fr:title text="minimal fibration is locally a product">minimal fibration is locally a product</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  A <fr:link href="/forest/htt-000O/" title="minimal Kan fibration" uri="https://trebor-huang.github.io/forest/htt-000O/" display-uri="htt-000O" type="local">minimal Kan fibration</fr:link> <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> restricted to a simplex is isomorphic to a product projection <fr:tex display="inline"><![CDATA[\Delta ^n \times  F \to  \Delta ^n]]></fr:tex>, i.e. it is a <fr:link href="/forest/hmlg-0029/" title="Kan fiber bundle" uri="https://trebor-huang.github.io/forest/hmlg-0029/" display-uri="hmlg-0029" type="local">Kan fiber bundle</fr:link>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Consider the strong deformation retract from <fr:tex display="inline"><![CDATA[\Delta ^n]]></fr:tex> to the zeroth vertex. We can pull <fr:tex display="inline"><![CDATA[f]]></fr:tex> back along this homotopy to get a minimal fibration <fr:tex display="inline"><![CDATA[X' \to  \Delta ^n \times  \Delta ^1]]></fr:tex>, such that over <fr:tex display="inline"><![CDATA[\Delta ^n \times  \{1\}]]></fr:tex> the fibration is a product where <fr:tex display="inline"><![CDATA[F]]></fr:tex> is the preimage of the zeroth vertex. Now using the Kan condition we can construct a homotopy equivalence between the fibration over <fr:tex display="inline"><![CDATA[\Delta ^n \times  \{0\}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Delta ^n \times  \{1\}]]></fr:tex>, but by <fr:link href="/forest/htt-000R/" title="homotopy equivalence is isomorphism for minimal complexes" uri="https://trebor-huang.github.io/forest/htt-000R/" display-uri="htt-000R" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/htt-000R/" display-uri="htt-000R" /></fr:link> this gives an isomorphism between the minimal fibration and a product.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000O/</fr:uri>
+            <fr:display-uri>htt-000O</fr:display-uri>
+            <fr:route>/forest/htt-000O/</fr:route>
+            <fr:title text="minimal Kan fibration">minimal Kan fibration</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/htt-000H/" title="fibrations and anodyne maps" uri="https://trebor-huang.github.io/forest/htt-000H/" display-uri="htt-000H" type="local">Kan fibration</fr:link> <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex>, it is <html:strong>minimal</html:strong> if for all <fr:tex display="inline"><![CDATA[n]]></fr:tex>-simplices <fr:tex display="inline"><![CDATA[a, b]]></fr:tex> in <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\partial  a = \partial  b]]></fr:tex> and <fr:tex display="inline"><![CDATA[f(a) = f(b)]]></fr:tex>, they are one-step homotopic relative to <fr:tex display="inline"><![CDATA[f]]></fr:tex> (i.e. there is a map from <fr:tex display="inline"><![CDATA[\Delta ^1 \times  \Delta ^n]]></fr:tex> with endpoints <fr:tex display="inline"><![CDATA[a]]></fr:tex> and <fr:tex display="inline"><![CDATA[b]]></fr:tex> such that composing with <fr:tex display="inline"><![CDATA[f]]></fr:tex> gives a constant homotopy) iff they are already equal.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

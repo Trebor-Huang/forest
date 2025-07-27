@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>1</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/htt-000N/</fr:uri>
+    <fr:display-uri>htt-000N</fr:display-uri>
+    <fr:route>/forest/htt-000N/</fr:route>
+    <fr:title text="weak factorization systems of simplicial sets">weak factorization systems of simplicial sets</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  We have several <fr:link href="/forest/htt-000K/" title="weak factorization system" uri="https://trebor-huang.github.io/forest/htt-000K/" display-uri="htt-000K" type="local">weak factorization systems</fr:link> in the category of simplicial sets.
+</html:p>
+    <html:ul><html:li><fr:link href="/forest/htt-000H/" title="fibrations and anodyne maps" uri="https://trebor-huang.github.io/forest/htt-000H/" display-uri="htt-000H" type="local">Anodyne maps</fr:link> and <fr:link href="/forest/htt-000H/" title="fibrations and anodyne maps" uri="https://trebor-huang.github.io/forest/htt-000H/" display-uri="htt-000H" type="local">Kan fibrations</fr:link>.</html:li>
+  <html:li>Left/right anodyne maps and left/right fibrations.</html:li>
+  <html:li>Monomorphisms and <fr:link href="/forest/htt-000M/" title="trivial fibrations of simplicial sets" uri="https://trebor-huang.github.io/forest/htt-000M/" display-uri="htt-000M" type="local">trivial fibrations</fr:link>.</html:li></html:ul>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000M/</fr:uri>
+            <fr:display-uri>htt-000M</fr:display-uri>
+            <fr:route>/forest/htt-000M/</fr:route>
+            <fr:title text="trivial fibrations of simplicial sets">trivial fibrations of simplicial sets</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  A <html:strong>trivial fibration</html:strong> of simplicial sets is a map that right lifts against all simplex boundary inclusions <fr:tex display="inline"><![CDATA[\partial  \Delta ^n \hookrightarrow  \Delta ^n]]></fr:tex>. A <html:strong>cofibration</html:strong> is a map that left lifts against all trivial fibrations. A cofibration is exactly a monomorphism.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Using the small object argument, a trivial cofibration is the smallest <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>-<fr:link href="/forest/htt-000L/" title="saturated cofibration class" uri="https://trebor-huang.github.io/forest/htt-000L/" display-uri="htt-000L" type="local">saturated cofibration class</fr:link> containing simplex boundary inclusions. Monomorphisms form such a class, and so a trivial cofibration is a monomorphism. For the other direction, we prove that every monomorphism can be obtained by <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>-saturation. We first note that any subset <fr:tex display="inline"><![CDATA[X \subseteq  \Delta ^n]]></fr:tex> is a trivial fibration by inductively dropping faces from <fr:tex display="inline"><![CDATA[\Delta ^n \subseteq  \Delta ^n]]></fr:tex>: if we want to drop a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-dimensional face, perform a cobase change of <fr:tex display="inline"><![CDATA[\partial  \Delta ^k \hookrightarrow  \Delta ^k]]></fr:tex> and compose it with the current subset inclusion.
+  </html:p>
+
+  <html:p>
+    Given a simplicial subset <fr:tex display="inline"><![CDATA[X \subseteq  Y]]></fr:tex>, we construct a tower of inclusions <fr:tex display="inline"><![CDATA[X \subseteq  Z_0 \subseteq  Z_1 \subseteq  \cdots  \subseteq  Y]]></fr:tex>, where <fr:tex display="inline"><![CDATA[Z_n]]></fr:tex> is the union of <fr:tex display="inline"><![CDATA[X]]></fr:tex> with the <fr:tex display="inline"><![CDATA[n]]></fr:tex>-skeleton of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, considered as simplicial subsets of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>. We just need to prove each inclusion is a trivial cofibration. For <fr:tex display="inline"><![CDATA[X \subseteq  Z_0]]></fr:tex>, simply take the coproduct with a bunch of <fr:tex display="inline"><![CDATA[\varnothing  = \partial  \Delta ^0 \subseteq  \Delta ^0]]></fr:tex>. For <fr:tex display="inline"><![CDATA[Z_{n-1} \subseteq  Z_{n}]]></fr:tex>, take the coproduct of a bunch of <fr:tex display="inline"><![CDATA[\partial \Delta ^n \subseteq  \Delta ^n]]></fr:tex>, and perform a cobase change to glue them onto <fr:tex display="inline"><![CDATA[Z_{n-1}]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    Constructively, this argument requires us to decide whether a simplex is in the subset, and if so determine whether it is non-degerate (otherwise we do not want to take a copy of that simplex in the coproduct).
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000K/</fr:uri>
+            <fr:display-uri>htt-000K</fr:display-uri>
+            <fr:route>/forest/htt-000K/</fr:route>
+            <fr:title text="weak factorization system">weak factorization system</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given two classes of maps <fr:tex display="inline"><![CDATA[\mathcal {L}, \mathcal {R}]]></fr:tex> in a category, it is a <html:strong>weak factorization system</html:strong> if every morphism <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> factorizes as <fr:tex display="block"><![CDATA[X \xrightarrow {\mathcal {L}} Z \xrightarrow {\mathcal {R}} Y,]]></fr:tex> and a morphism belongs to <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> iff it left lifts against every morphism in <fr:tex display="inline"><![CDATA[\mathcal {R}]]></fr:tex>, and vice versa.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000H/</fr:uri>
+            <fr:display-uri>htt-000H</fr:display-uri>
+            <fr:route>/forest/htt-000H/</fr:route>
+            <fr:title text="fibrations and anodyne maps">fibrations and anodyne maps</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Suppose a map <fr:tex display="inline"><![CDATA[f]]></fr:tex> of simplicial sets has the right lifting property against all inner horn inclusions <fr:tex display="inline"><![CDATA[\Lambda ^n_i \hookrightarrow  \Delta ^n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[n \ge  1]]></fr:tex> and <fr:tex display="inline"><![CDATA[0 < i < n]]></fr:tex>, then we say <fr:tex display="inline"><![CDATA[f]]></fr:tex> is an <html:strong>inner fibration</html:strong>. If we strengthen the condition to <fr:tex display="inline"><![CDATA[0 \le  i < n]]></fr:tex>, then we get the <html:strong>left fibration</html:strong>. Similarly for right fibrations. If we allow <fr:tex display="inline"><![CDATA[0 \le  i \le  n]]></fr:tex>, then we get a <html:strong>Kan fibration</html:strong>. Hence, an <fr:link href="/forest/htt-0001/" title="\infty -category" uri="https://trebor-huang.github.io/forest/htt-0001/" display-uri="htt-0001" type="local"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:link> is the same as an inner fibration <fr:tex display="inline"><![CDATA[X \to  1]]></fr:tex>. The same goes for a <fr:link href="/forest/htt-0002/" title="Kan complex" uri="https://trebor-huang.github.io/forest/htt-0002/" display-uri="htt-0002" type="local">Kan complex</fr:link>.
+</html:p>
+            <html:p>
+  The class of maps that have left lifting property against all inner fibrations is called <html:strong>inner anodyne</html:strong>. Similarly for left and right anodyne maps. For Kan fibrations, we use the unqualified phrase “anodyne map”. Obviously we have inner anodyne maps contained in both left and right anodyne maps, which in turn are contained in anodyne maps. They are all monomorphisms.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

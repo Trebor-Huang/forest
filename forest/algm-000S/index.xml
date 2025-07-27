@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>6</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/algm-000S/</fr:uri>
+    <fr:display-uri>algm-000S</fr:display-uri>
+    <fr:route>/forest/algm-000S/</fr:route>
+    <fr:title text="morphism of ringed spaces">morphism of ringed spaces</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Given two <fr:link href="/forest/algm-000M/" title="ringed space" uri="https://trebor-huang.github.io/forest/algm-000M/" display-uri="algm-000M" type="local">ringed spaces</fr:link> <fr:tex display="inline"><![CDATA[X, Y]]></fr:tex>, a morphism <fr:tex display="inline"><![CDATA[\varphi  : X \to  Y]]></fr:tex> is given by a continuous map of the underlying spaces, and a sheaf morphism <fr:tex display="inline"><![CDATA[\varphi ^{-1} \mathscr {O}_Y \to  \mathscr {O}_X]]></fr:tex>, equivalently <fr:tex display="inline"><![CDATA[\mathscr {O}_Y \to  \varphi _* \mathscr {O}_X]]></fr:tex>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-000W/</fr:uri>
+            <fr:display-uri>algm-000W</fr:display-uri>
+            <fr:route>/forest/algm-000W/</fr:route>
+            <fr:title text="action of morphisms on stalks of locally ringed spaces">action of morphisms on stalks of locally ringed spaces</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a <fr:link href="/forest/algm-000S/" title="morphism of ringed spaces" uri="https://trebor-huang.github.io/forest/algm-000S/" display-uri="algm-000S" type="local">morphism of ringed spaces</fr:link> <fr:tex display="inline"><![CDATA[\varphi  : X \to  Y]]></fr:tex>, if it is <fr:link href="/forest/algm-000U/" title="morphism of locally ringed spaces" uri="https://trebor-huang.github.io/forest/algm-000U/" display-uri="algm-000U" type="local">local</fr:link>, a germ is invertible iff its <fr:link href="/forest/algm-000V/" title="terminology of pullbacks" uri="https://trebor-huang.github.io/forest/algm-000V/" display-uri="algm-000V" type="local">pullback</fr:link> under <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> is invertible. If the space <fr:tex display="inline"><![CDATA[X]]></fr:tex> has enough points, then the inverse implication is also true.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Note that the stalk <fr:tex display="inline"><![CDATA[(\varphi ^{-1}\mathscr {O}_{Y})_x = \mathscr {O}_{Y, \varphi (x)}]]></fr:tex>. A germ being invertible implies for some neighborhood <fr:tex display="inline"><![CDATA[U]]></fr:tex> of <fr:tex display="inline"><![CDATA[x]]></fr:tex>, it comes from an invertible section <fr:tex display="inline"><![CDATA[f \in  \Gamma (U, \varphi ^{-1}\mathscr {O}_Y)]]></fr:tex>, so the image in <fr:tex display="inline"><![CDATA[\Gamma (U, \mathscr {O}_X)]]></fr:tex> is also invertible, and hence the image germ. The locality condition gives the converse.
+  </html:p>
+
+  <html:p>
+    On the other hand, if the space has enough points, then being invertible at each stalk implies being invertible. This is enough to guarantee logical equivalence.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-000U/</fr:uri>
+            <fr:display-uri>algm-000U</fr:display-uri>
+            <fr:route>/forest/algm-000U/</fr:route>
+            <fr:title text="morphism of locally ringed spaces">morphism of locally ringed spaces</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given two <fr:link href="/forest/algm-000L/" title="locally ringed space" uri="https://trebor-huang.github.io/forest/algm-000L/" display-uri="algm-000L" type="local">locally ringed spaces</fr:link>, a <fr:link href="/forest/algm-000S/" title="morphism of ringed spaces" uri="https://trebor-huang.github.io/forest/algm-000S/" display-uri="algm-000S" type="local">morphism of ringed spaces</fr:link> <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> between them is <html:strong>local</html:strong> when sections of <fr:tex display="inline"><![CDATA[\varphi ^{-1}\mathscr {O}_Y]]></fr:tex> are invertible iff their images in <fr:tex display="inline"><![CDATA[\mathscr {O}_X]]></fr:tex> are invertible, i.e. the following diagram is a pullback:
+
+  
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="ba71b4dbdf2d472f82fc88088cb4e515"><fr:resource-content><html:img src="/forest/ba71b4dbdf2d472f82fc88088cb4e515.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+    {\varphi ^{-1}\mathscr {O}_Y^\times } & {\mathscr {O}_X^\times } \\
+    {\varphi ^{-1}\mathscr {O}_Y} & {\mathscr {O}_X}
+    \arrow [hook, from=1-1, to=2-1]
+    \arrow [hook, from=1-2, to=2-2]
+    \arrow [from=1-1, to=1-2]
+    \arrow [from=2-1, to=2-2]
+    \arrow ["\lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+  \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+
+  Note that the <fr:link href="/forest/algm-000T/" title="subsheaf of units" uri="https://trebor-huang.github.io/forest/algm-000T/" display-uri="algm-000T" type="local">subsheaf of units</fr:link> is given by a finite limit, hence <fr:tex display="inline"><![CDATA[\varphi ^{-1}]]></fr:tex> preserves it. Since the lower map map <fr:tex display="inline"><![CDATA[\varphi ^{-1} \mathscr {O}_Y \to  \mathscr {O}_X]]></fr:tex> is a ring homomorphism on the sections, it maps units to units. Hence restriction to the upper map makes sense.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>5</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-000M/</fr:uri>
+            <fr:display-uri>algm-000M</fr:display-uri>
+            <fr:route>/forest/algm-000M/</fr:route>
+            <fr:title text="ringed space">ringed space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A <html:strong>ringed space</html:strong> is a space equipped with a sheaf of rings, called the <html:strong>structure sheaf</html:strong>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>22</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/misc-000H/</fr:uri>
+    <fr:display-uri>misc-000H</fr:display-uri>
+    <fr:route>/forest/misc-000H/</fr:route>
+    <fr:title text="limit of a language">limit of a language</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Given an alphabet <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> and a language <fr:tex display="inline"><![CDATA[\mathcal {L} \subseteq  \Sigma ^*]]></fr:tex>, its <html:strong>limit</html:strong> is an <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>-language <fr:tex display="inline"><![CDATA[\lim  \mathcal {L} \subseteq  \Sigma ^\omega ]]></fr:tex> containing the words <fr:tex display="inline"><![CDATA[w]]></fr:tex> such that there are infinitely many finite prefixes of <fr:tex display="inline"><![CDATA[w]]></fr:tex> belonging to <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-000C/</fr:uri>
+            <fr:display-uri>tile-000C</fr:display-uri>
+            <fr:route>/forest/tile-000C/</fr:route>
+            <fr:title text="The structure of neighbor Conway signatures">The structure of neighbor Conway signatures</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  The <fr:link href="/forest/tile-0007/" title="recursive neighborhood algorithm" uri="https://trebor-huang.github.io/forest/tile-0007/" display-uri="tile-0007" type="local">recursive neighborhood algorithm</fr:link> computes neighboring tiles in some iterated deflation of a supertile, and we wish to extend this function to work with the <fr:link href="/forest/tile-000A/" title="hull of set of tilings" uri="https://trebor-huang.github.io/forest/tile-000A/" display-uri="tile-000A" type="local">hull</fr:link> of these deflations, i.e. the full set of possible Penrose tilings. It is first useful to consider a <html:em>binary relation</html:em>, instead of a function, between Conway signatures.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/tile-000D/</fr:uri>
+                <fr:display-uri>tile-000D</fr:display-uri>
+                <fr:route>/forest/tile-000D/</fr:route>
+                <fr:title text="neighborhood relation on Conway signatures">neighborhood relation on Conway signatures</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Given a <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link>, two infinite <fr:link href="/forest/tile-0006/" title="Conway signature" uri="https://trebor-huang.github.io/forest/tile-0006/" display-uri="tile-0006" type="local">Conway signatures</fr:link> <fr:tex display="inline"><![CDATA[\Sigma _1, \Sigma _2]]></fr:tex>, and an edge label <fr:tex display="inline"><![CDATA[\epsilon _1, \epsilon _2]]></fr:tex> for each signature, we define a neighborhood relation, denoted as <fr:tex display="inline"><![CDATA[\Sigma _1 \xrightleftharpoons [\epsilon _2]{\epsilon _1} \Sigma _2]]></fr:tex>. It holds if and only if, for every natural number <fr:tex display="inline"><![CDATA[n]]></fr:tex>, there exists finite signatures <fr:tex display="inline"><![CDATA[\Sigma '_1]]></fr:tex>, <fr:tex display="inline"><![CDATA[\Sigma '_2]]></fr:tex> that agree with <fr:tex display="inline"><![CDATA[\Sigma _1]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Sigma _2]]></fr:tex> at the first <fr:tex display="inline"><![CDATA[n]]></fr:tex> places, and the <fr:link href="/forest/tile-0007/" title="recursive neighborhood algorithm" uri="https://trebor-huang.github.io/forest/tile-0007/" display-uri="tile-0007" type="local">recursive neighborhood algorithm</fr:link> sends <fr:tex display="inline"><![CDATA[(\Sigma '_1, \epsilon _1)]]></fr:tex> to <fr:tex display="inline"><![CDATA[(\Sigma '_2, \epsilon _2)]]></fr:tex>.
+</html:p>
+                <html:p>
+  Note that this relation is symmetric, but not necessarily total or functional.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  Essentially the definition says that, if you look at a finite patch of tiles, it is always plausible that this <html:em>can</html:em> (hence the <fr:tex display="inline"><![CDATA[\exists ]]></fr:tex> quantifier, not <fr:tex display="inline"><![CDATA[\forall ]]></fr:tex>) be extended to a larger patch where they are neighbors in an iterated deflation of one single tile. This also leaves open the possibility that there may be multiple different possible Conway signatures for a neighbor, which is why we opted to consider a binary relation, instead of a function.
+</html:p>
+            <html:p>
+  Next, we need some general theory relating these infinite objects to finite ones. For this we make some definitions.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>22</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/tile-000E/</fr:uri>
+                <fr:display-uri>tile-000E</fr:display-uri>
+                <fr:route>/forest/tile-000E/</fr:route>
+                <fr:title text="language of neighborhood relation">language of neighborhood relation</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Consider the alphabet <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> where each symbol is either of the form <fr:tex display="inline"><![CDATA[(\text {tile label }t, \text {edge label of }t)]]></fr:tex> or <fr:tex display="inline"><![CDATA[(\text {tile label }t, \text {subtile label of }t)]]></fr:tex>. We define a language <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> on <fr:tex display="inline"><![CDATA[\Delta  \times  \Delta ]]></fr:tex>, representing a binary relation on <fr:tex display="inline"><![CDATA[\Delta ^*]]></fr:tex> between words of the same length.
+  Let <fr:tex display="block"><![CDATA[\Sigma  = t_0 \xrightarrow {s_1} t_1 \xrightarrow {s_2} \cdots  \xrightarrow {s_n} t_n]]></fr:tex> be a <html:em>finite</html:em> <fr:link href="/forest/tile-0006/" title="Conway signature" uri="https://trebor-huang.github.io/forest/tile-0006/" display-uri="tile-0006" type="local">Conway signature</fr:link> and <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex> be an edge label of the corresponding tile. We regard this as a word <fr:tex display="inline"><![CDATA[(t_0, \epsilon )(t_1, s_1) \cdots  (t_n, s_n)]]></fr:tex> over the alphabet <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex>. Suppose the <fr:link href="/forest/tile-0007/" title="recursive neighborhood algorithm" uri="https://trebor-huang.github.io/forest/tile-0007/" display-uri="tile-0007" type="local">recursive neighborhood algorithm</fr:link> sends <fr:tex display="inline"><![CDATA[(\Sigma _1, \epsilon _1)]]></fr:tex> to <fr:tex display="inline"><![CDATA[(\Sigma _2, \epsilon _2)]]></fr:tex>, then the two corresponding words can be zipped together to form a word over <fr:tex display="inline"><![CDATA[\Delta  \times  \Delta ]]></fr:tex>. We define the set of all such words as the <html:strong>language of neighborhood relation</html:strong> <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>.
+</html:p>
+                <html:p>
+  Furthermore, consider the set of tile labels <fr:tex display="inline"><![CDATA[\mathrm {T}]]></fr:tex>. We define another language <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex>, called the <html:em>augmented</html:em> language of neighborhood relation, over the alphabet <fr:tex display="inline"><![CDATA[(\Delta  \times  \Delta ) \sqcup  \mathrm {T}]]></fr:tex>. Notice that if the <fr:link href="/forest/tile-0007/" title="recursive neighborhood algorithm" uri="https://trebor-huang.github.io/forest/tile-0007/" display-uri="tile-0007" type="local">recursive neighborhood algorithm</fr:link> sends <fr:tex display="inline"><![CDATA[(\Sigma _1, \epsilon _1)]]></fr:tex> to <fr:tex display="inline"><![CDATA[(\Sigma _2, \epsilon _2)]]></fr:tex>, the two signatures always share the last prototile label <fr:tex display="inline"><![CDATA[t_n]]></fr:tex>. We append the symbol <fr:tex display="inline"><![CDATA[t_n]]></fr:tex> to the corresponding word in <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>, and define <fr:tex display="inline"><![CDATA[\mathcal {L}^+]]></fr:tex> to be all the words of this form.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  We define the augmented language in this way because it has a very important property, which will be useful later. With this definition in hand, we see that <fr:link href="/forest/tile-000D/" title="neighborhood relation on Conway signatures" uri="https://trebor-huang.github.io/forest/tile-000D/" display-uri="tile-000D" type="local">Definition <fr:contextual-number uri="https://trebor-huang.github.io/forest/tile-000D/" display-uri="tile-000D" /></fr:link> can be defined in terms of a well-known construction in <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>-languages, i.e. languages with infinitely long words.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>22</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/misc-000H/</fr:uri>
+                <fr:display-uri>misc-000H</fr:display-uri>
+                <fr:route>/forest/misc-000H/</fr:route>
+                <fr:title text="limit of a language">limit of a language</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Given an alphabet <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> and a language <fr:tex display="inline"><![CDATA[\mathcal {L} \subseteq  \Sigma ^*]]></fr:tex>, its <html:strong>limit</html:strong> is an <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>-language <fr:tex display="inline"><![CDATA[\lim  \mathcal {L} \subseteq  \Sigma ^\omega ]]></fr:tex> containing the words <fr:tex display="inline"><![CDATA[w]]></fr:tex> such that there are infinitely many finite prefixes of <fr:tex display="inline"><![CDATA[w]]></fr:tex> belonging to <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  We see that the limit of prefixes <fr:tex display="inline"><![CDATA[\operatorname {prfx}\mathcal {L}]]></fr:tex>, or equivalently that of <fr:tex display="inline"><![CDATA[\operatorname {prfx}\mathcal {L}^+]]></fr:tex> is exactly the neighborhood relation on infinite Conway signatures. Limits are nice because they can be recognized by deterministic finite state machines (also known as deterministic Büchi machines, to emphasize they are for <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>-languages).
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>22</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/misc-000I/</fr:uri>
+                <fr:display-uri>misc-000I</fr:display-uri>
+                <fr:route>/forest/misc-000I/</fr:route>
+                <fr:title text="limits of regular languages are deterministic Büchi recognizable">limits of regular languages are deterministic Büchi recognizable</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Given a regular language <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>, its <fr:link href="/forest/misc-000H/" title="limit of a language" uri="https://trebor-huang.github.io/forest/misc-000H/" display-uri="misc-000H" type="local">limit</fr:link> <fr:tex display="inline"><![CDATA[\lim  \mathcal {L}]]></fr:tex> can be recognized by a deterministic Büchi automaton, by simply regarding a DFA for <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> as a Büchi automaton. In fact, every deterministic Büchi recognizable <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>-language is of this form.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  If <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> is recognized by an automata, then <fr:tex display="inline"><![CDATA[\operatorname {prfx}\mathcal {L}]]></fr:tex> is recognized by an automata with every state declared to be accepting. This paired with <fr:link href="/forest/misc-000I/" title="limits of regular languages are deterministic Büchi recognizable" uri="https://trebor-huang.github.io/forest/misc-000I/" display-uri="misc-000I" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/misc-000I/" display-uri="misc-000I" /></fr:link> gives a nice construction of a Büchi automata that recognizes neighborhood relations.
+  Now, there is one single hypothesis that I am not able to get rid of. It doesn’t even need a constructive proof, as we will later give a construction that provably satisfies the hypothesis <html:em>given that it is true</html:em>.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>22</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/tile-000F/</fr:uri>
+                <fr:display-uri>tile-000F</fr:display-uri>
+                <fr:route>/forest/tile-000F/</fr:route>
+                <fr:title text="regularity of the neighborhood relation">regularity of the neighborhood relation</fr:title>
+                <fr:taxon>Conjecture</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  For any <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link>, the <fr:link href="/forest/tile-000E/" title="language of neighborhood relation" uri="https://trebor-huang.github.io/forest/tile-000E/" display-uri="tile-000E" type="local">language of neighborhood relation</fr:link> is regular.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>22</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/misc-000I/</fr:uri>
+            <fr:display-uri>misc-000I</fr:display-uri>
+            <fr:route>/forest/misc-000I/</fr:route>
+            <fr:title text="limits of regular languages are deterministic Büchi recognizable">limits of regular languages are deterministic Büchi recognizable</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a regular language <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>, its <fr:link href="/forest/misc-000H/" title="limit of a language" uri="https://trebor-huang.github.io/forest/misc-000H/" display-uri="misc-000H" type="local">limit</fr:link> <fr:tex display="inline"><![CDATA[\lim  \mathcal {L}]]></fr:tex> can be recognized by a deterministic Büchi automaton, by simply regarding a DFA for <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> as a Büchi automaton. In fact, every deterministic Büchi recognizable <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>-language is of this form.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

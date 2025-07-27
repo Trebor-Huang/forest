@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>7</fr:month>
+      <fr:day>27</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/misc-000P/</fr:uri>
+    <fr:display-uri>misc-000P</fr:display-uri>
+    <fr:route>/forest/misc-000P/</fr:route>
+    <fr:title text="Angles in the Minkowski plane">Angles in the Minkowski plane</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  We define the angle of a wedge in the <fr:link href="/forest/misc-000Q/" title="Minkowski plane" uri="https://trebor-huang.github.io/forest/misc-000Q/" display-uri="misc-000Q" type="local">Minkowski plane</fr:link> by a case analysis. The angle between two vectors are then defined by choosing a wedge between them in a consistent way.
+</html:p>
+  <html:span class="tikz">
+    <fr:resource hash="27b28dd74c4dfbeb80470e5387f22d28"><fr:resource-content><html:img src="/forest/27b28dd74c4dfbeb80470e5387f22d28.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
+      \usetikzlibrary{decorations.pathreplacing}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzpicture}
+  \draw  (-1.5, -1.5) -- (1.5, 1.5);
+  \draw  (-1.5, 1.5) -- (1.5, -1.5);
+  \draw  [red, domain=-1:1, samples=100] plot ({cosh(\x )}, {sinh(\x )});
+  \draw  [red, domain=-1:1, samples=100] plot ({-cosh(\x )}, {-sinh(\x )});
+  \draw  [blue, domain=-1:1, samples=100] plot ({sinh(\x )}, {cosh(\x )});
+  \draw  [blue, domain=-1:1, samples=100] plot ({-sinh(\x )}, {-cosh(\x )});
+
+  \coordinate  (a) at ({cosh(0.4)}, {-sinh(0.4)});
+  \coordinate  (b) at ({cosh(0.3)}, {sinh(0.3)});
+  \coordinate  (c) at ({sinh(0.3)}, {cosh(0.3)});
+  \coordinate  (d) at ({-sinh(0.3)}, {cosh(0.3)});
+  \coordinate  (e) at ({-0.8}, {0.8});
+  \coordinate  (f) at ({-0.8}, {-0.8});
+
+  \fill  (a) circle (0.04);
+  \draw  [dotted] (0,0) -- (a);
+  \fill  (b) circle (0.04);
+  \draw  [dotted] (0,0) -- (b);
+  \fill  (c) circle (0.04);
+  \draw  [dotted] (0,0) -- (c);
+  \fill  (d) circle (0.04);
+  \draw  [dotted] (0,0) -- (d);
+  \end {tikzpicture}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+<fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://trebor-huang.github.io/forest/misc-000R/</fr:uri><fr:display-uri>misc-000R</fr:display-uri><fr:route>/forest/misc-000R/</fr:route><fr:title text="angle in a space-like wedge">angle in a space-like wedge</fr:title><fr:taxon>Definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  Given a wedge formed by two vectors <fr:tex display="inline"><![CDATA[a]]></fr:tex> and <fr:tex display="inline"><![CDATA[b]]></fr:tex> contained in a space-like region, we define the angle as
+  <fr:tex display="block"><![CDATA[
+    \angle  a b = \operatorname {arcosh} \frac {a \cdot  b}{|a| \cdot  |b|}.
+  ]]></fr:tex>
+  Since <fr:tex display="inline"><![CDATA[\operatorname {arcosh} k = \ln  (k + \sqrt {k^2 - 1})]]></fr:tex>, we can re-express it using the cross product:
+  <fr:tex display="block"><![CDATA[
+    \angle  a b = \ln  \frac {a \cdot  b + |a \times  b|}{|a| \cdot  |b|}.
+  ]]></fr:tex></html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://trebor-huang.github.io/forest/misc-000S/</fr:uri><fr:display-uri>misc-000S</fr:display-uri><fr:route>/forest/misc-000S/</fr:route><fr:title text="angle between a space-like and a time-like vector">angle between a space-like and a time-like vector</fr:title><fr:taxon>Definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  Given a wedge formed by two vectors <fr:tex display="inline"><![CDATA[a]]></fr:tex> and <fr:tex display="inline"><![CDATA[b]]></fr:tex> where <fr:tex display="inline"><![CDATA[a]]></fr:tex> is space-like and <fr:tex display="inline"><![CDATA[b]]></fr:tex> is time-like, we define the angle as
+  <fr:tex display="block"><![CDATA[
+    \angle  a b = \ln  \frac {a \cdot  b + |a \times  b|}{-i |a| \cdot  |b|} - \frac {1}{2} \pi  i.
+  ]]></fr:tex>
+  This is the same formula as <fr:link href="/forest/misc-000R/" title="angle in a space-like wedge" uri="https://trebor-huang.github.io/forest/misc-000R/" display-uri="misc-000R" type="local">Definition <fr:contextual-number uri="https://trebor-huang.github.io/forest/misc-000R/" display-uri="misc-000R" /></fr:link>, but we specify the factor of <fr:tex display="inline"><![CDATA[i]]></fr:tex> in the denominator to contribute <fr:tex display="inline"><![CDATA[- \frac {1}{2} \pi  i]]></fr:tex> to the result.
+</html:p></fr:mainmatter></fr:tree><fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>7</fr:month><fr:day>27</fr:day></fr:date><fr:uri>https://trebor-huang.github.io/forest/misc-000T/</fr:uri><fr:display-uri>misc-000T</fr:display-uri><fr:route>/forest/misc-000T/</fr:route><fr:title text="angle in a time-like wedge">angle in a time-like wedge</fr:title><fr:taxon>Definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  Given a wedge formed by two vectors <fr:tex display="inline"><![CDATA[a]]></fr:tex> and <fr:tex display="inline"><![CDATA[b]]></fr:tex> contained in a time-like region, we define the angle as
+  <fr:tex display="block"><![CDATA[
+    \angle  a b = - \ln  \frac {a \cdot  b - |a \times  b|}{|a| \cdot  |b|}.
+  ]]></fr:tex>
+  Here both the numerator and the denominator are negative.
+</html:p></fr:mainmatter></fr:tree><html:p>
+  Such a definition is additive. Therefore, for more general angles, we can always break it up into smaller fragments, and the sum is well-defined. Under this convention a whole turn has total angle <fr:tex display="inline"><![CDATA[-2 \pi  i]]></fr:tex>.
+</html:p><html:p>
+  Angles involving a null edge will be infinite. This has to do with the fact that they have zero geodesic length, although it is still meaningful to compare the ratio of lengths of null segments. If we specify a unit length of null segments, then it is possible to <html:em>renormalize</html:em> the infinite angles, giving a finite value, while retaining additivity.
+</html:p></fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>7</fr:month>
+              <fr:day>27</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/misc-000Q/</fr:uri>
+            <fr:display-uri>misc-000Q</fr:display-uri>
+            <fr:route>/forest/misc-000Q/</fr:route>
+            <fr:title text="Minkowski plane">Minkowski plane</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  The <html:strong>Minkowski plane</html:strong> is the plane <fr:tex display="inline"><![CDATA[\mathbb {R}^2]]></fr:tex> equipped with the bilinear form <fr:tex display="inline"><![CDATA[(x_1, t_1) \cdot  (x_2, t_2) = x_1 x_2 - t_1 t_2]]></fr:tex>. We write <fr:tex display="inline"><![CDATA[|v|]]></fr:tex> for the square root of <fr:tex display="inline"><![CDATA[v \cdot  v]]></fr:tex>, picking the principal branch. Heuristically, we are taking the square root of <fr:tex display="inline"><![CDATA[v \cdot  v + i \epsilon ]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex> is a positive infinitesimal constant.
+</html:p>
+            <html:p>
+  The cross product is given by <fr:tex display="inline"><![CDATA[(x_1, t_1) \times  (x_2, t_2) = x_1 t_2 - x_2 t_1]]></fr:tex>, identical to the Euclidean case.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

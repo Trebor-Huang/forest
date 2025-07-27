@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>2</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/algm-0002/</fr:uri>
+    <fr:display-uri>algm-0002</fr:display-uri>
+    <fr:route>/forest/algm-0002/</fr:route>
+    <fr:title text="radical ideals bijectively correspond to open sets">radical ideals bijectively correspond to open sets</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  In an arbitrary <fr:link href="/forest/algm-0001/" title="topological spectrum of a commutative ring" uri="https://trebor-huang.github.io/forest/algm-0001/" display-uri="algm-0001" type="local">topological spectrum of a commutative ring</fr:link>, we have <fr:tex display="inline"><![CDATA[D(\mathfrak {a}) = D(\sqrt {\mathfrak {a}})]]></fr:tex>. There is a containment of opens <fr:tex display="inline"><![CDATA[D(\mathfrak {a}) \subseteq  D(\mathfrak {b})]]></fr:tex> — equivalently <fr:tex display="inline"><![CDATA[V(\mathfrak {b}) \subseteq  V(\mathfrak {a})]]></fr:tex> — iff <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {b}} \mid  \sqrt {\mathfrak {a}}]]></fr:tex>, and the points contained in an open set completely determines the radical ideal.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>2</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Since <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex> implies <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {p}} \mid  \sqrt {\mathfrak {a}}]]></fr:tex>, but <fr:tex display="inline"><![CDATA[\mathfrak {p} = \sqrt {\mathfrak {p}}]]></fr:tex>, we see that <fr:tex display="inline"><![CDATA[D(\mathfrak {a}) = D(\sqrt {\mathfrak {a}})]]></fr:tex>. We just have to prove the forward implication of the last statement. Suppose for all prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {b} \implies  \mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>. We need to prove that <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f \implies  \sqrt {\mathfrak {b}} \mid  f]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    Given <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex> for all prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \sqrt {\mathfrak {a}}]]></fr:tex> (which is equivalent to <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>). So we know that for all <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {b}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex>. This is now purely a condition on <fr:tex display="inline"><![CDATA[\mathfrak {b}]]></fr:tex>. The next lemma finishes the proof.
+  </html:p>
+
+  <fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:uri>https://trebor-huang.github.io/forest/algm-0003/</fr:uri><fr:display-uri>algm-0003</fr:display-uri><fr:route>/forest/algm-0003/</fr:route><fr:title text="the radical ideal is the lcm of prime ideal divisors">the radical ideal is the lcm of prime ideal divisors</fr:title><fr:taxon>Theorem</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  For any ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> of a commutative ring, the radical <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}}]]></fr:tex> is the lowest common multiple of the prime ideals <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    On one hand, if <fr:tex display="inline"><![CDATA[\sqrt {\mathfrak {a}} \mid  f]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  f^n]]></fr:tex> for some natural number <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This means for all <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  \mathfrak {a}]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f^n]]></fr:tex>, which by being a prime ideal implies <fr:tex display="inline"><![CDATA[\mathfrak {p} \mid  f]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    On the other hand, suppose <fr:tex display="inline"><![CDATA[\mathfrak {a} \nmid  f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>, we construct a prime ideal divisor of <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> that is not a divisor of <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Consider the set of all ideals not a divisor of <fr:tex display="inline"><![CDATA[f^n]]></fr:tex> for any <fr:tex display="inline"><![CDATA[n]]></fr:tex>. This is partially ordered by divisibility and non-empty. Any chain of divisibility has its greatest common divisor <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> still in this set, since <fr:tex display="inline"><![CDATA[\mathfrak {d}]]></fr:tex> divides exactly the elements divided by some ideal in the chain. By <fr:link href="https://en.wikipedia.org/wiki/Zorn's_lemma" type="external">Zorn’s lemma</fr:link>, the set contains some <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex> not divided by any other ideal in the set. This ideal must be prime: take <fr:tex display="inline"><![CDATA[\mathfrak {q} \nmid  x, y]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {q}' = \gcd (\mathfrak {q}, x y)]]></fr:tex> is a proper divisor of <fr:tex display="inline"><![CDATA[\mathfrak {q}]]></fr:tex>, and by construction it cannot be in the previously constructed set. Hence there is some <fr:tex display="inline"><![CDATA[n]]></fr:tex> such that <fr:tex display="inline"><![CDATA[x y \mid  f^n]]></fr:tex>, so <fr:tex display="inline"><![CDATA[\mathfrak {q} \mid  x y \mid  f^n]]></fr:tex>, contradiction.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter></fr:tree>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-000H/</fr:uri>
+            <fr:display-uri>algm-000H</fr:display-uri>
+            <fr:route>/forest/algm-000H/</fr:route>
+            <fr:title text="irreducible closeds in a ring spectrum">irreducible closeds in a ring spectrum</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  A closed <fr:tex display="inline"><![CDATA[V(\mathfrak {r})]]></fr:tex> in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> is irreducible iff <fr:tex display="inline"><![CDATA[\mathfrak {r}]]></fr:tex> is prime, and it is an irreducible component iff <fr:tex display="inline"><![CDATA[\mathfrak {r}]]></fr:tex> is a minimal prime ideal, i.e. prime ideals that divide no other prime ideals.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Translating via <fr:link href="/forest/algm-0002/" title="radical ideals bijectively correspond to open sets" uri="https://trebor-huang.github.io/forest/algm-0002/" display-uri="algm-0002" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/algm-0002/" display-uri="algm-0002" /></fr:link>, we have a proper ideal <fr:tex display="inline"><![CDATA[\mathfrak {r}]]></fr:tex> that cannot be written as <fr:tex display="inline"><![CDATA[\operatorname {lcm}(\mathfrak {r}_1, \mathfrak {r}_2)]]></fr:tex> non-trivially. Suppose <fr:tex display="inline"><![CDATA[\mathfrak {r} \mid  f g]]></fr:tex>, then <fr:tex display="inline"><![CDATA[\mathfrak {r} \mid  \sqrt {f g} \mid  \operatorname {lcm}(f, g)]]></fr:tex>. So
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      \mathfrak {r} &= \gcd (\mathfrak {r}, \operatorname {lcm}(f, g)) \\
+      &= \operatorname {lcm}(\gcd (\mathfrak {r}, f), \gcd (\mathfrak {r}, g)).
+    \end {aligned}]]></fr:tex>
+    Hence at least one of the two must be equal to <fr:tex display="inline"><![CDATA[\mathfrak {r}]]></fr:tex>. So <fr:tex display="inline"><![CDATA[\mathfrak {r} \mid  f]]></fr:tex> or <fr:tex display="inline"><![CDATA[\mathfrak {r} \mid  g]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    An irreducible closed is an irreducible <html:em>component</html:em> if it is contained in no other irreducible closed. We immediately get the definition of minimal prime ideals translating to the algebraic realm.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-000I/</fr:uri>
+            <fr:display-uri>algm-000I</fr:display-uri>
+            <fr:route>/forest/algm-000I/</fr:route>
+            <fr:title text="structure sheaf of a ring spectrum">structure sheaf of a ring spectrum</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a commutative ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>, we define a sheaf <fr:tex display="inline"><![CDATA[\mathscr {O}]]></fr:tex> of rings on <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> called the <html:strong>structure sheaf</html:strong>. Let <fr:tex display="inline"><![CDATA[\Gamma (D(f), \mathscr {O}) = R[f^{-1}]]]></fr:tex>. Suppose <fr:tex display="inline"><![CDATA[D(f) \subseteq  D(g)]]></fr:tex> we define the restriction morphism to be the localization map <fr:tex display="inline"><![CDATA[R[g^{-1}] \to  R[f^{-1}]]]></fr:tex>, since by <fr:link href="/forest/algm-0002/" title="radical ideals bijectively correspond to open sets" uri="https://trebor-huang.github.io/forest/algm-0002/" display-uri="algm-0002" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/algm-0002/" display-uri="algm-0002" /></fr:link> the latter is a further localization of the former. This turns <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> into a <fr:link href="/forest/algm-000M/" title="ringed space" uri="https://trebor-huang.github.io/forest/algm-000M/" display-uri="algm-000M" type="local">ringed space</fr:link>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex display="inline"><![CDATA[f_i \in  R]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\bigcup _i D(f_i) = D(f)]]></fr:tex>, we need to show that
+    <fr:tex display="block"><![CDATA[R[f^{-1}] \to  \prod _{i \in  I} R[f_i^{-1}] \rightrightarrows  \prod _{i \ne  j} R[(f_i f_j)^{-1}]]]></fr:tex>
+    is an equalizer. Notice that <fr:tex display="inline"><![CDATA[R[f_i^{-1}] \cong  R[f^{-1}][f_i^{-1}]]]></fr:tex>. So we may reassign <fr:tex display="inline"><![CDATA[S = R[f^{-1}]]]></fr:tex>. This simplifies the problem to
+    <fr:tex display="block"><![CDATA[S \to  \prod _{i \in  I} S[f_i^{-1}] \rightrightarrows  \prod _{i \ne  j} S[(f_i f_j)^{-1}],]]></fr:tex>
+    where <fr:tex display="inline"><![CDATA[D(f_i)]]></fr:tex> covers the whole space <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex>. 
+  </html:p>
+
+  <html:p>
+    We first describe the intuition. Since we know <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex> is <fr:link href="/forest/algm-000B/" title="a ring spectrum is quasi-compact" uri="https://trebor-huang.github.io/forest/algm-000B/" display-uri="algm-000B" type="local">quasi-compact</fr:link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <fr:tex display="inline"><![CDATA[g_i/f_i^{d_i} \in  S[f_i^{-1}]]]></fr:tex> that are equal in their common domain. Since <fr:tex display="inline"><![CDATA[D(f_i) = D(f_i^{d_i})]]></fr:tex> covers <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex>, we have a linear combination <fr:tex display="inline"><![CDATA[1 = \sum _i c_i f_i^{d_i}]]></fr:tex>, which is akin to a partition of unity. Suppose the putative gluing is <fr:tex display="inline"><![CDATA[f]]></fr:tex>, multiplying with the partition of unity we get
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      f &= \sum _{i \in  I} c_i f_i^{d_i} f \\
+      &= \sum  c_i f_i^{d_i} \frac {g_i}{f_i^{d_i}} \\
+      &= \sum  c_i g_i.
+    \end {aligned}]]></fr:tex>
+    which defines the gluing. We just have to make this reasoning precise. We first deal with the finite case.
+  </html:p>
+
+  <html:p>
+    Suppose there are elements <fr:tex display="inline"><![CDATA[g_i/f_i^d \in  S[f_i^{-1}]]]></fr:tex>, where we are allowed to use a single exponent <fr:tex display="inline"><![CDATA[d]]></fr:tex> by finiteness. The compatibility requirement is <fr:tex display="block"><![CDATA[(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.]]></fr:tex> If there is a solution <fr:tex display="inline"><![CDATA[f]]></fr:tex> to the gluing problem, it would need to satisfy <fr:tex display="inline"><![CDATA[(f f_i^d - g_i) f_i^M = 0]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[D(f_i) = D(f_i^R)]]></fr:tex> covers <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex>, we have a linear combination <fr:tex display="inline"><![CDATA[1 = \sum _i c_i f_i^R]]></fr:tex> for large enough <fr:tex display="inline"><![CDATA[R]]></fr:tex>. Hence
+    <fr:tex display="block"><![CDATA[f = \sum _{i \in  I} c_i f f_i^R = \sum  c_i g_i f_i^{R-d}.]]></fr:tex> This uniquely determines <fr:tex display="inline"><![CDATA[f]]></fr:tex>. And indeed, this solution satisfies our requirements, because when restricted to <fr:tex display="inline"><![CDATA[D(f_j)]]></fr:tex>, we have
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      f f_j^d \cdot  f_j^R &= \sum  c_i g_i f_i^{R-d} f_j^{R+d} \\
+      &= \sum  c_i g_j f_i^{R} f_j^{R} \\
+      &= g_j f_j^R \cdot  \sum  c_i f_i^R = g_j f_j^R.
+    \end {aligned}]]></fr:tex>
+    This reasoning is valid as long as <fr:tex display="inline"><![CDATA[R > N + 2d]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    If there are infinitely many opens, we first use <fr:link href="/forest/algm-000B/" title="a ring spectrum is quasi-compact" uri="https://trebor-huang.github.io/forest/algm-000B/" display-uri="algm-000B" type="local">quasi-compactness</fr:link> to select a finite number <fr:tex display="inline"><![CDATA[D(f_1), \dots , D(f_k)]]></fr:tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <fr:tex display="inline"><![CDATA[f]]></fr:tex> for <fr:tex display="inline"><![CDATA[D(f_1), \dots , D(f_k)]]></fr:tex>. Then consider the solution on <fr:tex display="inline"><![CDATA[D(f_1), \dots , D(f_k), D(g)]]></fr:tex> for every <fr:tex display="inline"><![CDATA[g]]></fr:tex>. This solution must be equal to <fr:tex display="inline"><![CDATA[f]]></fr:tex> by uniqueness. Therefore <fr:tex display="inline"><![CDATA[f]]></fr:tex> restrict to the correct function on each <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex>, showing that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is the required solution.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>3</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-0008/</fr:uri>
+            <fr:display-uri>algm-0008</fr:display-uri>
+            <fr:route>/forest/algm-0008/</fr:route>
+            <fr:title text="characterization of the locale \Spec (R)">characterization of the locale <fr:tex display="inline"><![CDATA[\Spec (R)]]></fr:tex></fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  The opens in <fr:link href="/forest/algm-0007/" title="localic spectrum of a commutative ring" uri="https://trebor-huang.github.io/forest/algm-0007/" display-uri="algm-0007" type="local">the locale</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> bijectively corresponds to radical ideals of <fr:tex display="inline"><![CDATA[R]]></fr:tex>, whose divisibility relation agree with the inverse inclusion relation of opens. Intersections correspond to lowest common multiple, and unions correspond to the radical of the greatest common divisor. In other words, the locale is isomorphic to the locale corresponding to the <fr:link href="/forest/algm-0001/" title="topological spectrum of a commutative ring" uri="https://trebor-huang.github.io/forest/algm-0001/" display-uri="algm-0001" type="local">topological spectrum of a commutative ring</fr:link> by <fr:link href="/forest/algm-0002/" title="radical ideals bijectively correspond to open sets" uri="https://trebor-huang.github.io/forest/algm-0002/" display-uri="algm-0002" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/algm-0002/" display-uri="algm-0002" /></fr:link>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>3</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We can first put the opens in disjunctive normal form
+    <fr:tex display="block"><![CDATA[U = \bigcup _{i \in  I} \bigcap _{j=1}^{n_i} D(f_{i, j}).]]></fr:tex>
+    By the definition we can reduce the intersections into products. Write <fr:tex display="inline"><![CDATA[f_i = \prod _j f_{i, j}]]></fr:tex>, we have <fr:tex display="inline"><![CDATA[U = \bigcup _i D(f_i)]]></fr:tex>. Given this form, we can try to <html:em>saturate</html:em> the union, by throwing in everything that doesn’t enlarge <fr:tex display="inline"><![CDATA[U]]></fr:tex>. In other words, we only consider the unions such that no other generator <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> can be added, i.e. <fr:tex display="inline"><![CDATA[D(f) \nsubseteq  U]]></fr:tex>. This would uniquely determine <fr:tex display="inline"><![CDATA[U]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    Such a saturated set would have to be closed under addition since <fr:tex display="inline"><![CDATA[D(f+g) \subseteq  D(f) \cup  D(g)]]></fr:tex>, and for the nullary case it must include <fr:tex display="inline"><![CDATA[D(0) = \bot ]]></fr:tex>. It also has to absorb multiplication, because <fr:tex display="inline"><![CDATA[D(f \cdot  g) \subseteq  D(f)]]></fr:tex>. This means we are dealing with ideals. Henceforth, we write <fr:tex display="inline"><![CDATA[D(\mathfrak {a})]]></fr:tex> for the union <fr:tex display="inline"><![CDATA[\bigcup _{\mathfrak {a} \mid  f} D(f)]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    There is one last requirement we haven’t dealt with, i.e. <fr:tex display="inline"><![CDATA[D(f \cdot  g)]]></fr:tex> is the <html:em>greatest</html:em> lower bound of <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> and <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex>, instead of simply a lower bound. For example, this gives the equality <fr:tex display="inline"><![CDATA[D(f^n) = D(f)]]></fr:tex>, so we need to restrict our attention to radical ideals. It then suffices to prove that the radical ideal generated by <fr:tex display="inline"><![CDATA[f \cdot  g]]></fr:tex> is equal to the lowest common multiple of the radical ideals generated by <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex>, which is true.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-0001/</fr:uri>
+            <fr:display-uri>algm-0001</fr:display-uri>
+            <fr:route>/forest/algm-0001/</fr:route>
+            <fr:title text="topological spectrum of a commutative ring">topological spectrum of a commutative ring</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  The topological <html:strong>spectrum</html:strong> of a commutative ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>, denoted <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex>, is a topological space whose points are given by prime ideals of <fr:tex display="inline"><![CDATA[R]]></fr:tex>. We denote the point corresponding to <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex> as <fr:tex display="inline"><![CDATA[\left [\mathfrak {p}\right ]]]></fr:tex>. We define an open <fr:tex display="inline"><![CDATA[D(\mathfrak {a})]]></fr:tex> for each ideal <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> which contains the point <fr:tex display="inline"><![CDATA[\left [\mathfrak {p}\right ]]]></fr:tex> when <fr:tex display="inline"><![CDATA[\mathfrak {p} \nmid  \mathfrak {a}]]></fr:tex>. The corresponding closed is written as <fr:tex display="inline"><![CDATA[V(\mathfrak {a})]]></fr:tex>.
+</html:p>
+            <html:p>
+  We abuse the notation and write <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> for the case where <fr:tex display="inline"><![CDATA[\mathfrak {a}]]></fr:tex> is generated by <fr:tex display="inline"><![CDATA[f]]></fr:tex>. Similar notations apply to <fr:tex display="inline"><![CDATA[V]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

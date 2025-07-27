@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>22</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/misc-000K/</fr:uri>
+    <fr:display-uri>misc-000K</fr:display-uri>
+    <fr:route>/forest/misc-000K/</fr:route>
+    <fr:title text="Myhill–Nerode automaton">Myhill–Nerode automaton</fr:title>
+    <fr:taxon>Construction</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  For any language <fr:tex display="inline"><![CDATA[\mathcal {L} \subseteq  \Sigma ^*]]></fr:tex>, the <html:strong>Myhill–Nerode automaton</html:strong> of <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> is a deterministic automata (possibly with infinitely many states) that recognizes <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>. The language <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> is regular iff there are only finitely many <fr:link href="/forest/misc-000J/" title="Nerode congruence" uri="https://trebor-huang.github.io/forest/misc-000J/" display-uri="misc-000J" type="local">Nerode congruence</fr:link> classes of <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>. In this case, the automaton is the unique minimal DFA for <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We define the states of the automaton be the Nerode congruence classes. For each letter <fr:tex display="inline"><![CDATA[a \in  \Sigma ]]></fr:tex>, we add a transition between the congruence classes <fr:tex display="inline"><![CDATA[[x]]]></fr:tex> and <fr:tex display="inline"><![CDATA[[xa]]]></fr:tex>. This is well-defined and deterministic by definition of the congruence. It is also obvious that a DFA for <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> cannot have less states.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>22</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/misc-000M/</fr:uri>
+            <fr:display-uri>misc-000M</fr:display-uri>
+            <fr:route>/forest/misc-000M/</fr:route>
+            <fr:title text="reversible regular language">reversible regular language</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A regular language is <html:strong>reversible</html:strong> if it can be recognized by a <fr:link href="/forest/misc-000L/" title="bideterministic automaton" uri="https://trebor-huang.github.io/forest/misc-000L/" display-uri="misc-000L" type="local">bideterministic</fr:link> DFA, which is equivalent to requiring the <fr:link href="/forest/misc-000K/" title="Myhill–Nerode automaton" uri="https://trebor-huang.github.io/forest/misc-000K/" display-uri="misc-000K" type="local">Myhill–Nerode automaton</fr:link> to be bideterministic.
+</html:p>
+            <html:p>
+  Note that there are stronger and weaker notions of reversible regular languages in the literature, with inconsistent names.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>22</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/misc-000J/</fr:uri>
+            <fr:display-uri>misc-000J</fr:display-uri>
+            <fr:route>/forest/misc-000J/</fr:route>
+            <fr:title text="Nerode congruence">Nerode congruence</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a language <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> over the alphabet <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex>, two words <fr:tex display="inline"><![CDATA[x, y \in  \Sigma ^*]]></fr:tex> are <html:strong>Nerode congruent</html:strong> if for any word <fr:tex display="inline"><![CDATA[z]]></fr:tex>, <fr:tex display="inline"><![CDATA[xz \in  \mathcal {L}]]></fr:tex> iff <fr:tex display="inline"><![CDATA[yz \in  \mathcal {L}]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

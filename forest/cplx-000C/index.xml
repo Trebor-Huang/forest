@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>10</fr:month>
+      <fr:day>13</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/cplx-000C/</fr:uri>
+    <fr:display-uri>cplx-000C</fr:display-uri>
+    <fr:route>/forest/cplx-000C/</fr:route>
+    <fr:title text="Liouville’s theorem">Liouville’s theorem</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  A bounded holomorphic function <fr:tex display="inline"><![CDATA[f]]></fr:tex> defined on the entire complex plane must be constant.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>13</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Consider the integral formulas for derivatives in <fr:link href="/forest/cplx-000B/" title="holomorphic functions have holomorphic derivatives" uri="https://trebor-huang.github.io/forest/cplx-000B/" display-uri="cplx-000B" type="local">§ <fr:contextual-number uri="https://trebor-huang.github.io/forest/cplx-000B/" display-uri="cplx-000B" /></fr:link>
+    <fr:tex display="block"><![CDATA[f'(z) = \frac {1}{2 \pi  i} \int _\gamma  \frac {f(w)}{(w - z)^2} \operatorname {d}\mathclose {w},]]></fr:tex>
+    where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is some circle of radius <fr:tex display="inline"><![CDATA[r]]></fr:tex> enclosing <fr:tex display="inline"><![CDATA[z]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[f(w)]]></fr:tex> is bounded, the integrand is bounded by <fr:tex display="inline"><![CDATA[C r^{-2}]]></fr:tex> for some constant <fr:tex display="inline"><![CDATA[C]]></fr:tex>. But this means the derivative is bounded by <fr:tex display="inline"><![CDATA[O(r^{-1})]]></fr:tex>. Since the function is holomorphic on the entire plane, <fr:tex display="inline"><![CDATA[r]]></fr:tex> can be arbitrary large, which means <fr:tex display="inline"><![CDATA[f'(z) = 0]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    When <fr:tex display="inline"><![CDATA[f]]></fr:tex> is not defined on the entire plane, this method still gives an upper bound on the magnitude of the derivative <fr:tex display="block"><![CDATA[|f^{(n)} (z)| \le  M n! \cdot  r^{-n}.]]></fr:tex> This is known as the <html:strong>Cauchy estimate</html:strong>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/cplx-000B/</fr:uri>
+            <fr:display-uri>cplx-000B</fr:display-uri>
+            <fr:route>/forest/cplx-000B/</fr:route>
+            <fr:title text="holomorphic functions have holomorphic derivatives">holomorphic functions have holomorphic derivatives</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a holomorphic function <fr:tex display="inline"><![CDATA[f]]></fr:tex> on an open set, it has derivatives of arbitrarily high order, given by the explicit formula
+  <fr:tex display="block"><![CDATA[f^{(n)}(z) = \frac {n!}{2 \pi  i} \int _\gamma  \frac {f(w)}{(w - z)^{n + 1}} \operatorname {d}\mathclose {w},]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[\gamma ]]></fr:tex> is a circle around <fr:tex display="inline"><![CDATA[z]]></fr:tex> contained in the open set.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>10</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We perform induction. The case for <fr:tex display="inline"><![CDATA[n = 0]]></fr:tex> is the <fr:link href="/forest/cplx-0009/" title="Cauchy integral formula" uri="https://trebor-huang.github.io/forest/cplx-0009/" display-uri="cplx-0009" type="local">Cauchy integral formula</fr:link>. Suppose it holds for some <fr:tex display="inline"><![CDATA[n]]></fr:tex>, now using the difference of powers formula
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      f^{(n+1)}(z_0) &= \lim _{z \to  z_0} \frac {f^{(n)}(z) - f^{(n)}(z_0)}{z - z_0} \\
+      &= \lim _{z \to  z_0} \frac {n!}{2 \pi  i (z - z_0)} \int _\gamma  f(w) \left (\frac {1}{(w - z)^{n + 1}} - \frac {1}{(w - z_0)^{n + 1}}\right ) \operatorname {d}\mathclose {w} \\
+      &= \lim _{z \to  z_0} \frac {n!}{2 \pi  i} \int _\gamma  \frac {f(w)}{(w - z)^{n+1} (w - z_0)^{n+1}} \sum _{k=0}^{n} (w - z)^k (w - z_0)^{n-k} \operatorname {d}\mathclose {w}.
+    \end {aligned}]]></fr:tex>
+    As <fr:tex display="inline"><![CDATA[z \to  z_0]]></fr:tex> the sum uniformly converges to <fr:tex display="inline"><![CDATA[(n+1)(w - z_0)^{n}]]></fr:tex>. This proves the claim.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

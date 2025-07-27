@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>9</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/htt-000D/</fr:uri>
+    <fr:display-uri>htt-000D</fr:display-uri>
+    <fr:route>/forest/htt-000D/</fr:route>
+    <fr:title text="join of \infty -categories is a \infty -category">join of <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories is a <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Given two <fr:link href="/forest/htt-0001/" title="\infty -category" uri="https://trebor-huang.github.io/forest/htt-0001/" display-uri="htt-0001" type="local"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories</fr:link> <fr:tex display="inline"><![CDATA[X, Y]]></fr:tex>, their <fr:link href="/forest/htt-000B/" title="join of (augmented) simplicial set" uri="https://trebor-huang.github.io/forest/htt-000B/" display-uri="htt-000B" type="local">join</fr:link> <fr:tex display="inline"><![CDATA[X \star  Y]]></fr:tex> is still an <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    The vertices of <fr:tex display="inline"><![CDATA[X \star  Y]]></fr:tex> is given by <fr:tex display="inline"><![CDATA[X_0 \sqcup  Y_0]]></fr:tex>. Consider a horn <fr:tex display="inline"><![CDATA[\Lambda ^n_i]]></fr:tex>. Suppose its vertices lie entirely within <fr:tex display="inline"><![CDATA[X_0]]></fr:tex>, then all its higher simplices are in <fr:tex display="inline"><![CDATA[X]]></fr:tex> too, so we can fill the horn within <fr:tex display="inline"><![CDATA[X]]></fr:tex>. Similarly for <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    For the other cases, notice that an edge can only go from <fr:tex display="inline"><![CDATA[X]]></fr:tex> to <fr:tex display="inline"><![CDATA[Y]]></fr:tex> and not backwards. As long as <fr:tex display="inline"><![CDATA[(n, i) \ne  (2, 0), (2, 2)]]></fr:tex> — which does not occur since we only need inner horns — we know the first <fr:tex display="inline"><![CDATA[k]]></fr:tex> vertices are in <fr:tex display="inline"><![CDATA[X]]></fr:tex> and the rest are in <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, and we can restrict the horn along <fr:tex display="inline"><![CDATA[\Delta ^{ \{0, \dots , k-1\} } \hookrightarrow  \Lambda ^n_i]]></fr:tex> and <fr:tex display="inline"><![CDATA[\Delta ^{ \{k, \dots , n\} } \hookrightarrow  \Lambda ^n_i]]></fr:tex>. From this we can construct the simplex <fr:tex display="inline"><![CDATA[\Delta ^n \to  X \star  Y]]></fr:tex> by definition of the join.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000B/</fr:uri>
+            <fr:display-uri>htt-000B</fr:display-uri>
+            <fr:route>/forest/htt-000B/</fr:route>
+            <fr:title text="join of (augmented) simplicial set">join of (augmented) simplicial set</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given two <fr:link href="/forest/htt-000A/" title="augmented simplicial set" uri="https://trebor-huang.github.io/forest/htt-000A/" display-uri="htt-000A" type="local">augmented simplicial sets</fr:link> <fr:tex display="inline"><![CDATA[X, Y]]></fr:tex>, the <html:strong>join</html:strong> is given by a Day convolution. Let <fr:tex display="inline"><![CDATA[\oplus ]]></fr:tex> denote the ordinal sum. Then we have <fr:tex display="inline"><![CDATA[[m] \oplus  [n] = [m+n+1]]]></fr:tex>, since <fr:tex display="inline"><![CDATA[[m]]]></fr:tex> represents the linear order with <fr:tex display="inline"><![CDATA[(m+1)]]></fr:tex> elements. We have
+  <fr:tex display="block"><![CDATA[(X \star  Y)_k = \int ^{m, n} X_m \times  Y_n \times  \hom ([k], [m] \oplus  [n]).]]></fr:tex>
+  More concretely, the <fr:tex display="inline"><![CDATA[k]]></fr:tex>-simplices of <fr:tex display="inline"><![CDATA[X \star  Y]]></fr:tex> is given by the disjoint union of <fr:tex display="inline"><![CDATA[X_m \times  Y_n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[k = m + n + 1]]></fr:tex>. The face and degeneracy maps act on the corresponding components. Note that this is non-symmetric since <fr:tex display="inline"><![CDATA[X]]></fr:tex> handles the first few face maps, and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> handles the last ones.
+</html:p>
+            <html:p>
+  Given two simplicial sets, the join of their <fr:link href="/forest/htt-000A/" title="augmented simplicial set" uri="https://trebor-huang.github.io/forest/htt-000A/" display-uri="htt-000A" type="local">codiscrete augmentation</fr:link> is again a codiscrete augmented simplicial set. We define the simplicial join <fr:tex display="inline"><![CDATA[X \star  Y \in  \mathsf {sSet}]]></fr:tex> by forgetting its augmentation.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-0001/</fr:uri>
+            <fr:display-uri>htt-0001</fr:display-uri>
+            <fr:route>/forest/htt-0001/</fr:route>
+            <fr:title text="\infty -category"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A simplicial set <fr:tex display="inline"><![CDATA[X]]></fr:tex> is an <html:strong><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</html:strong> if it has the extension property against the inner horn inclusions <fr:tex display="inline"><![CDATA[\Lambda ^n_i \to  \Delta ^n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[0 < i < n]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

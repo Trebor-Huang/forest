@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>1</fr:month>
+      <fr:day>9</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/algm-002F/</fr:uri>
+    <fr:display-uri>algm-002F</fr:display-uri>
+    <fr:route>/forest/algm-002F/</fr:route>
+    <fr:title text="composition of waves">composition of waves</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  In a <fr:link href="/forest/algm-0025/" title="total category" uri="https://trebor-huang.github.io/forest/algm-0025/" display-uri="algm-0025" type="local">total category</fr:link>, we can freely compose <fr:link href="/forest/algm-002D/" title="wave" uri="https://trebor-huang.github.io/forest/algm-002D/" display-uri="algm-002D" type="local">waves</fr:link> with arrows or other waves associatively.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Let us use <fr:tex display="inline"><![CDATA[f, g, h]]></fr:tex> etc. for arrows, and <fr:tex display="inline"><![CDATA[u, v, w]]></fr:tex> for waves. The composition <fr:tex display="inline"><![CDATA[f \mathbin {\circ } w \mathbin {\circ } g]]></fr:tex> and its associativity is given by functoriality of waves. We define the composition of two waves by <fr:tex display="inline"><![CDATA[w \mathbin {\circ } v = \bar {w} \mathbin {\circ } v = w \mathbin {\circ } \bar {v}]]></fr:tex>, which we can verify are equal by a calculation.
+    Then <fr:tex display="inline"><![CDATA[u \mathbin {\circ } v \mathbin {\circ } w = \bar {u} \mathbin {\circ } v \mathbin {\circ } \bar {w}]]></fr:tex> is associative.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-002D/</fr:uri>
+            <fr:display-uri>algm-002D</fr:display-uri>
+            <fr:route>/forest/algm-002D/</fr:route>
+            <fr:title text="wave">wave</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  For a <fr:link href="/forest/algm-0025/" title="total category" uri="https://trebor-huang.github.io/forest/algm-0025/" display-uri="algm-0025" type="local">total category</fr:link> <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, we can define a functor <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {ろ}\mkern {-2mu}} : \mathcal {C} \to  \mathsf {Psh}(\mathcal {C})]]></fr:tex> that will serve as the double left adjoint of <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> iff the category is actually a <fr:link href="/forest/algm-0028/" title="totally distributive category" uri="https://trebor-huang.github.io/forest/algm-0028/" display-uri="algm-0028" type="local">totally distributive category</fr:link>. Since <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X)(Y) = \hom (Y, X)]]></fr:tex>, we similarly define <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {ろ}\mkern {-2mu}}(X)(Y) = \operatorname {wave}(Y, X)]]></fr:tex>, and call the elements <html:strong>waves</html:strong>.
+</html:p><html:p>
+  A wave <fr:tex display="inline"><![CDATA[w : Y \rightsquigarrow  X]]></fr:tex> is defined by a family of maps <fr:tex display="inline"><![CDATA[\hom (X, \operatorname {?} F) \to  F(Y)]]></fr:tex> natural in the presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\operatorname {?} \dashv  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex>. This is intuitively a categorification of the “way way below” relation <fr:tex display="inline"><![CDATA[Y \lll  X]]></fr:tex> in posets. If we take <fr:tex display="inline"><![CDATA[F = \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X)]]></fr:tex>, then we get an actual arrow <fr:tex display="inline"><![CDATA[\bar {w} : Y \to  X]]></fr:tex>. This defines a natural transform <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {ろ}\mkern {-2mu}} \to  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex>, or equivalently <fr:tex display="inline"><![CDATA[\operatorname {?} \mathbin {\circ } \mathop {\mkern {-2mu}\text {ろ}\mkern {-2mu}} \to  \textrm {Id}]]></fr:tex>. </html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We need to show that <fr:tex display="inline"><![CDATA[\operatorname {wave}(Y, X)]]></fr:tex> is a small set. Let <fr:tex display="inline"><![CDATA[Y^*]]></fr:tex> be the functor sending a presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex> to the set <fr:tex display="inline"><![CDATA[F(Y)]]></fr:tex>. The right Kan extension is given by
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      Y_* (A)(B) &= \hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (B), Y_* (A)) \\
+      &= \hom (Y^* (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (B)), A) \\
+      &= \hom (\hom (Y, B), A) = A^{B^Y}.
+    \end {aligned}]]></fr:tex>
+    Using the fact that <fr:link href="/forest/algm-002E/" title="\Set  is total and cototal" uri="https://trebor-huang.github.io/forest/algm-002E/" display-uri="algm-002E" type="local"><fr:tex display="inline"><![CDATA[\Set ]]></fr:tex> is total and cototal</fr:link> and writing <fr:tex display="inline"><![CDATA[\operatorname {¿}]]></fr:tex> as the witness of cototality, we calculate
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      \operatorname {wave}(Y, X) &= \hom _{\mathsf {Psh}(\mathcal {C}) \to  \mathsf {Set}} (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?}, Y^*) \\
+      &= \hom _{\mathsf {Set} \to  \mathsf {Set}} (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?} \mathbin {\circ } Y_*, \textrm {Id}) \\
+      &= \hom _{\mathsf {Set} \to  \mathsf {Set}} (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?} \mathbin {\circ } Y_*, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (1^\textrm {op})) \\
+      &= \hom _{\mathsf {Set}} (1, \operatorname {¿}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?} \mathbin {\circ } Y_*)) \\
+      &= \operatorname {¿}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?} \mathbin {\circ } {Y_*})
+    \end {aligned}]]></fr:tex>
+    where the second equality is because the pseudofunctor <fr:tex display="inline"><![CDATA[(- \to  \mathsf {Set})]]></fr:tex> preserves adjoint pairs. Hence we know this is a small set.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-0025/</fr:uri>
+            <fr:display-uri>algm-0025</fr:display-uri>
+            <fr:route>/forest/algm-0025/</fr:route>
+            <fr:title text="total category">total category</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a locally small category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, if the Yoneda embedding <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} : \mathcal {C} \to  \mathsf {Psh}(\mathcal {C})]]></fr:tex> has a left adjoint <fr:tex display="inline"><![CDATA[\operatorname {?}]]></fr:tex>, then we say teh category is <html:strong>total</html:strong>, or <html:strong>totally cocomplete</html:strong>. This is equivalent to requiring the colimit of <fr:tex display="inline"><![CDATA[\pi _F : \int  F \to  \mathcal {C}]]></fr:tex> to exist for every presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex>, which is the value of <fr:tex display="inline"><![CDATA[L(F)]]></fr:tex>. Notice that <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> being fully faithful implies the counit <fr:tex display="inline"><![CDATA[\operatorname {?}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)) \to  A]]></fr:tex> is an isomorphism.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    The universal property of the colimit says <fr:tex display="block"><![CDATA[\hom (\operatorname *{colim} \pi _F, X) \cong  \lim _{(Y, p)} \hom (Y, X).]]></fr:tex>
+    Using the characterization of limits in <fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex>, an element in this set maps <fr:tex display="inline"><![CDATA[F(Y)]]></fr:tex> to <fr:tex display="inline"><![CDATA[\hom (Y, X)]]></fr:tex> for each <fr:tex display="inline"><![CDATA[Y]]></fr:tex> naturally, which is exactly <fr:tex display="inline"><![CDATA[\hom (F, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X))]]></fr:tex>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

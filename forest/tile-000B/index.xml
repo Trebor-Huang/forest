@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>21</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/tile-000B/</fr:uri>
+    <fr:display-uri>tile-000B</fr:display-uri>
+    <fr:route>/forest/tile-000B/</fr:route>
+    <fr:title text="infinite walls">infinite walls</fr:title>
+    <fr:taxon>Example</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Consider the substitution system of <fr:link href="/forest/tile-0005/" title="Penrose rhombs" uri="https://trebor-huang.github.io/forest/tile-0005/" display-uri="tile-0005" type="local">Penrose rhombs</fr:link>. Take the cyclic <fr:link href="/forest/tile-0006/" title="Conway signature" uri="https://trebor-huang.github.io/forest/tile-0006/" display-uri="tile-0006" type="local">Conway signature</fr:link>
+  <fr:tex display="block"><![CDATA[
+    \Sigma _0 = \text {Thin} \xrightarrow {\text {left}} \text {Thin} \xrightarrow {\text {left}} \cdots 
+  ]]></fr:tex>
+  This repeatedly selects the thin <fr:tex display="inline"><![CDATA[36\degree ]]></fr:tex> subtile on the left. No matter how many times we use the substitution rules, the selected thin rhomb will not have a neighbor.
+</html:p>
+    <html:img src="/forest/bafkrmiciww3eu7abwydfm6v5zzzkwnnezp4afjcxzo53mauxinonp7lpha.svg" />
+    <html:p>
+  However, after any finite length of this Conway signature, we can replace the rest of the signature with
+  <fr:tex display="block"><![CDATA[\cdots  \text {Thin} \xrightarrow {\text {top}} \text {Thick} \xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \cdots ]]></fr:tex>
+  and this will cover the whole neighborhood. Therefore, for any finite radius, there is a patch of tiling that looks like it can be described by <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex> in that radius. As the radius tends to infinity, these patches converge to a single complete tiling whose center tile has Conway signature <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex>, which is therefore in the <fr:link href="/forest/tile-000A/" title="hull of set of tilings" uri="https://trebor-huang.github.io/forest/tile-000A/" display-uri="tile-000A" type="local">hull</fr:link> of Penrose tilings.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-0009/</fr:uri>
+            <fr:display-uri>tile-0009</fr:display-uri>
+            <fr:route>/forest/tile-0009/</fr:route>
+            <fr:title text="The recursive algorithm">The recursive algorithm</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  It is straightforward to write down a recursive algorithm for calculating neighborhood Conway signatures. It has an elegantly symmetric structure.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/tile-0007/</fr:uri>
+                <fr:display-uri>tile-0007</fr:display-uri>
+                <fr:route>/forest/tile-0007/</fr:route>
+                <fr:title text="recursive neighborhood algorithm">recursive neighborhood algorithm</fr:title>
+                <fr:taxon>Algorithm</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Suppose we have a <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link>. Given the <fr:link href="/forest/tile-0006/" title="Conway signature" uri="https://trebor-huang.github.io/forest/tile-0006/" display-uri="tile-0006" type="local">Conway signature</fr:link> of a tile <fr:tex display="inline"><![CDATA[t]]></fr:tex> and an edge label <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex> of that tile, we can calculate the signature of the neighboring tile <fr:tex display="inline"><![CDATA[t']]></fr:tex> and the edge label <fr:tex display="inline"><![CDATA[\epsilon ']]></fr:tex> of <fr:tex display="inline"><![CDATA[t']]></fr:tex> that coincides with <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex>. This is implemented by mutual recursion with another auxiliary function. Given the signature of a tile and a subedge of that tile under deflation, it calculates the signature of the subtile <fr:tex display="inline"><![CDATA[t']]></fr:tex> we will arrive in if we cross the subedge inwards, and the edge label of <fr:tex display="inline"><![CDATA[t']]></fr:tex> corresponding to the input subedge.
+</html:p>
+                <html:p>
+  This second function is non-trivial, because for some substitution systems, crossing inwards through a subedge may lead us immediately out through another subedge, if they are pinched together. See <fr:link href="/forest/tile-0005/" title="Penrose rhombs" uri="https://trebor-huang.github.io/forest/tile-0005/" display-uri="tile-0005" type="local">Example <fr:contextual-number uri="https://trebor-huang.github.io/forest/tile-0005/" display-uri="tile-0005" /></fr:link>.
+</html:p>
+                <html:p>
+  The neighborhood function is as follows. Suppose we have a <fr:link href="/forest/tile-0006/" title="Conway signature" uri="https://trebor-huang.github.io/forest/tile-0006/" display-uri="tile-0006" type="local">Conway signature</fr:link>
+  <fr:tex display="block"><![CDATA[t_0 \xrightarrow {s_1} t_1 \xrightarrow {s_2} t_2 \longrightarrow  \cdots ]]></fr:tex>
+  and an edge <fr:tex display="inline"><![CDATA[\epsilon _0]]></fr:tex> of the tile <fr:tex display="inline"><![CDATA[t_0]]></fr:tex>. We consult the pairing of edges as specified in the <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link>. This has two cases.
+</html:p>
+                <html:ul><html:li>Suppose the edge <fr:tex display="inline"><![CDATA[\epsilon _0]]></fr:tex> (of the subtile labelled <fr:tex display="inline"><![CDATA[s_1]]></fr:tex>) is paired with another edge <fr:tex display="inline"><![CDATA[\epsilon '_0]]></fr:tex> of the subtile numbered <fr:tex display="inline"><![CDATA[s'_1]]></fr:tex>. Then since these two subtiles are neighbors already, we can directly output the signature
+  <fr:tex display="block"><![CDATA[t'_0 \xrightarrow {s'_1} t_1 \xrightarrow {s_2} t_2 \longrightarrow  \cdots ]]></fr:tex>
+  and the edge label <fr:tex display="inline"><![CDATA[\epsilon '_0]]></fr:tex>, where <fr:tex display="inline"><![CDATA[t'_0]]></fr:tex> is the prototile type of the <fr:tex display="inline"><![CDATA[s'_1]]></fr:tex> subtile in <fr:tex display="inline"><![CDATA[t_1]]></fr:tex>.</html:li>
+  <html:li>Suppose the edge is paired with a subedge <fr:tex display="inline"><![CDATA[\sigma _1]]></fr:tex> of an edge <fr:tex display="inline"><![CDATA[\epsilon _1]]></fr:tex> in the tile <fr:tex display="inline"><![CDATA[t_1]]></fr:tex>. Then we need to exit the tile <fr:tex display="inline"><![CDATA[t_1]]></fr:tex> through this edge. We recursively call this function on the Conway signature <fr:tex display="inline"><![CDATA[t_1 \xrightarrow {s_2} \cdots ]]></fr:tex> and the edge label <fr:tex display="inline"><![CDATA[\epsilon _1]]></fr:tex>. Suppose the algorithm determines that its neighbor has the Conway signature <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> and the edge label <fr:tex display="inline"><![CDATA[\epsilon '_1]]></fr:tex>. We then invoke the auxiliary function to calculate the subtile we would obtain if we enter <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> from the subedge <fr:tex display="inline"><![CDATA[\sigma _1]]></fr:tex> of its edge <fr:tex display="inline"><![CDATA[\epsilon '_1]]></fr:tex>, and we can return its output, tail-recursively.</html:li></html:ul>
+                <html:p>
+  For the auxiliary function, suppose again we have a signature
+  <fr:tex display="block"><![CDATA[\Sigma  = t_0 \xrightarrow {s_1} t_1 \xrightarrow {s_2} t_2 \longrightarrow  \cdots ]]></fr:tex>
+  and we have specified an edge <fr:tex display="inline"><![CDATA[\epsilon _0]]></fr:tex> of the tile <fr:tex display="inline"><![CDATA[t_0]]></fr:tex>, together with one of its subedges <fr:tex display="inline"><![CDATA[\sigma _0]]></fr:tex>. Again, we look up what is paired, in the substitution of <fr:tex display="inline"><![CDATA[t_0]]></fr:tex>, with the subedge <fr:tex display="inline"><![CDATA[\sigma _0]]></fr:tex>.
+</html:p>
+                <html:ul><html:li>
+    Suppose the result is an edge <fr:tex display="inline"><![CDATA[\epsilon _{-1}]]></fr:tex> in the subtile <fr:tex display="inline"><![CDATA[s_0]]></fr:tex> of <fr:tex display="inline"><![CDATA[t_0]]></fr:tex>. Then we can output
+    <fr:tex display="block"><![CDATA[t_{-1} \xrightarrow {s_{0}} t_0 \xrightarrow {s_1} t_1 \longrightarrow  \cdots ]]></fr:tex>
+    and the edge label <fr:tex display="inline"><![CDATA[\epsilon _{-1}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[t_{-1}]]></fr:tex> is the prototile label corresponding to the subtile <fr:tex display="inline"><![CDATA[s_0]]></fr:tex>.
+  </html:li>
+  <html:li>
+    Suppose the result is another subedge <fr:tex display="inline"><![CDATA[\sigma '_0]]></fr:tex> of the edge <fr:tex display="inline"><![CDATA[\epsilon '_0]]></fr:tex>. Then we call the neighborhood function on the Conway signature <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> and the edge label <fr:tex display="inline"><![CDATA[\epsilon '_0]]></fr:tex>. Let the result be the signature <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> and the edge <fr:tex display="inline"><![CDATA[\epsilon ''_0]]></fr:tex>. Now we just need to call the auxiliary function on <fr:tex display="inline"><![CDATA[\Delta ]]></fr:tex> with the subedge <fr:tex display="inline"><![CDATA[\sigma '_0]]></fr:tex> of <fr:tex display="inline"><![CDATA[\epsilon ''_0]]></fr:tex>, and return its result.
+  </html:li></html:ul>
+                <html:p>
+  If we are dealing with finite Conway signatures, then the algorithm should raise an exception if at any point the path is too short. This signals that it has reached the boundary of the finite patch of tiles. Otherwise, the neighborhood function should always output a Conway path of equal length.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  With this algorithm, we can generate any patch of tiling by repeatedly asking the program what the neighbor of each tile is, until the generated tiles fill the area, like growing a crystal. We just need a Conway signature to begin with. Some methods to create this initial seed are discussed in <fr:link href="/forest/tile-000I/" title="Seed generation" uri="https://trebor-huang.github.io/forest/tile-000I/" display-uri="tile-000I" type="local">Seed generation</fr:link>, each designed for a different purpose.
+</html:p>
+            <html:p>
+  Unfortunately, this recursive algorithm actually doesn’t generate all the possible tilings in our substitution system. This is surprising, because it seems that Conway signatures uniquely determines the arrangement of tiles we are in, if we suppose inflation is always unique. However, the definition of substitution tilings has a secret catch.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/tile-000A/</fr:uri>
+                <fr:display-uri>tile-000A</fr:display-uri>
+                <fr:route>/forest/tile-000A/</fr:route>
+                <fr:title text="hull of set of tilings">hull of set of tilings</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Given a set <fr:tex display="inline"><![CDATA[\mathscr {S}]]></fr:tex> of (possibly incomplete) tilings of the plane, its <html:strong>hull</html:strong> <fr:tex display="inline"><![CDATA[\overline {\mathscr {S}}]]></fr:tex> is the set of complete tilings <fr:tex display="inline"><![CDATA[T]]></fr:tex>, such that given an arbitrarily large disk <fr:tex display="inline"><![CDATA[D \subseteq  \mathbb {R}^2]]></fr:tex>, the patch of tiles in <fr:tex display="inline"><![CDATA[T]]></fr:tex> intersecting <fr:tex display="inline"><![CDATA[D]]></fr:tex> appears inside a tiling <fr:tex display="inline"><![CDATA[T' \in  \mathscr {S}]]></fr:tex>, up to translation.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  When we talk about the set of, say, <fr:link href="/forest/tile-0005/" title="Penrose rhombs" uri="https://trebor-huang.github.io/forest/tile-0005/" display-uri="tile-0005" type="local">Penrose tilings</fr:link>, we are actually referring to the <html:em>hull</html:em> of all the iterated deflations of a single tile. Each of those iterated deflations only cover a finite portion of the plane, and an <html:em>actual</html:em> tiling completely covers the plane in a way that any finite portion of it can be found in one of those deflations.
+</html:p>
+            <html:p>
+  In our <fr:link href="/forest/tile-0007/" title="recursive neighborhood algorithm" uri="https://trebor-huang.github.io/forest/tile-0007/" display-uri="tile-0007" type="local">Algorithm <fr:contextual-number uri="https://trebor-huang.github.io/forest/tile-0007/" display-uri="tile-0007" /></fr:link>, we are assuming the entire tiling comes from a single iterated deflation, so when we attempt to calculate the neighbor of a tile, we first repeatedly inflate the tiles so that both of them are contained in one giant tile, and then deflate back down. However, an actual tiling may only look like an iterated deflation on each finite patch, so it may be the case that no amount of inflation brings the neighbor into the same supertile.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>21</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/tile-000B/</fr:uri>
+                <fr:display-uri>tile-000B</fr:display-uri>
+                <fr:route>/forest/tile-000B/</fr:route>
+                <fr:title text="infinite walls">infinite walls</fr:title>
+                <fr:taxon>Example</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Consider the substitution system of <fr:link href="/forest/tile-0005/" title="Penrose rhombs" uri="https://trebor-huang.github.io/forest/tile-0005/" display-uri="tile-0005" type="local">Penrose rhombs</fr:link>. Take the cyclic <fr:link href="/forest/tile-0006/" title="Conway signature" uri="https://trebor-huang.github.io/forest/tile-0006/" display-uri="tile-0006" type="local">Conway signature</fr:link>
+  <fr:tex display="block"><![CDATA[
+    \Sigma _0 = \text {Thin} \xrightarrow {\text {left}} \text {Thin} \xrightarrow {\text {left}} \cdots 
+  ]]></fr:tex>
+  This repeatedly selects the thin <fr:tex display="inline"><![CDATA[36\degree ]]></fr:tex> subtile on the left. No matter how many times we use the substitution rules, the selected thin rhomb will not have a neighbor.
+</html:p>
+                <html:img src="/forest/bafkrmiciww3eu7abwydfm6v5zzzkwnnezp4afjcxzo53mauxinonp7lpha.svg" />
+                <html:p>
+  However, after any finite length of this Conway signature, we can replace the rest of the signature with
+  <fr:tex display="block"><![CDATA[\cdots  \text {Thin} \xrightarrow {\text {top}} \text {Thick} \xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \text {Thick}\xrightarrow {\text {left}} \cdots ]]></fr:tex>
+  and this will cover the whole neighborhood. Therefore, for any finite radius, there is a patch of tiling that looks like it can be described by <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex> in that radius. As the radius tends to infinity, these patches converge to a single complete tiling whose center tile has Conway signature <fr:tex display="inline"><![CDATA[\Sigma _0]]></fr:tex>, which is therefore in the <fr:link href="/forest/tile-000A/" title="hull of set of tilings" uri="https://trebor-huang.github.io/forest/tile-000A/" display-uri="tile-000A" type="local">hull</fr:link> of Penrose tilings.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  As an analogy, the neighborhood algorithm behaves like the algorithm adding <fr:tex display="inline"><![CDATA[1]]></fr:tex> to an integer in decimal notation. Suppose it encounters <fr:tex display="inline"><![CDATA[\cdots  999 + 1]]></fr:tex>, then it will scan forwards until it reads a digit <fr:tex display="inline"><![CDATA[d]]></fr:tex> that is not <fr:tex display="inline"><![CDATA[9]]></fr:tex>. Then it performs the carry and outputs <fr:tex display="inline"><![CDATA[[d+1]00\cdots  00]]></fr:tex>. However, the tilings are only required to locally look like iterated deflations. In this analogy, we have numbers that only locally look like an “actual” integer, so it is possible to have infinitely many digit <fr:tex display="inline"><![CDATA[9]]></fr:tex>s. On the other hand, we don’t actually need to read ahead: as soon as we see a <fr:tex display="inline"><![CDATA[9]]></fr:tex>, we can go ahead and output a <fr:tex display="inline"><![CDATA[0]]></fr:tex>, since that is the only possible result! In <fr:link href="/forest/tile-000C/" title="The structure of neighbor Conway signatures" uri="https://trebor-huang.github.io/forest/tile-000C/" display-uri="tile-000C" type="local">§ <fr:contextual-number uri="https://trebor-huang.github.io/forest/tile-000C/" display-uri="tile-000C" /></fr:link>, we shall make this precise, in the context of Conway signatures.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-000A/</fr:uri>
+            <fr:display-uri>tile-000A</fr:display-uri>
+            <fr:route>/forest/tile-000A/</fr:route>
+            <fr:title text="hull of set of tilings">hull of set of tilings</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a set <fr:tex display="inline"><![CDATA[\mathscr {S}]]></fr:tex> of (possibly incomplete) tilings of the plane, its <html:strong>hull</html:strong> <fr:tex display="inline"><![CDATA[\overline {\mathscr {S}}]]></fr:tex> is the set of complete tilings <fr:tex display="inline"><![CDATA[T]]></fr:tex>, such that given an arbitrarily large disk <fr:tex display="inline"><![CDATA[D \subseteq  \mathbb {R}^2]]></fr:tex>, the patch of tiles in <fr:tex display="inline"><![CDATA[T]]></fr:tex> intersecting <fr:tex display="inline"><![CDATA[D]]></fr:tex> appears inside a tiling <fr:tex display="inline"><![CDATA[T' \in  \mathscr {S}]]></fr:tex>, up to translation.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-0006/</fr:uri>
+            <fr:display-uri>tile-0006</fr:display-uri>
+            <fr:route>/forest/tile-0006/</fr:route>
+            <fr:title text="Conway signature">Conway signature</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Assume we have a <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link> with unique inflation. For a tile <fr:tex display="inline"><![CDATA[t]]></fr:tex> in a tiling, we can inflate the tiling to find <fr:tex display="inline"><![CDATA[t]]></fr:tex> as a subtile in an inflated tile <fr:tex display="inline"><![CDATA[t_1]]></fr:tex>. If we give a unique number to each subtile in a substitution system, we can write this as <fr:tex display="inline"><![CDATA[t \xrightarrow {n_1} t_1]]></fr:tex>, meaning <fr:tex display="inline"><![CDATA[t]]></fr:tex> is the <fr:tex display="inline"><![CDATA[n_1]]></fr:tex>-th subtile. This process can be repeated, generating an infinite path
+  <fr:tex display="block"><![CDATA[\Sigma  = t \xrightarrow {n_1} t_1 \xrightarrow {n_2} t_2 \longrightarrow  \cdots ]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[t, t_1, t_2, \dots ]]></fr:tex> are prototile labels, and <fr:tex display="inline"><![CDATA[n_i]]></fr:tex> are subtile labels.
+  This path <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> is called the <html:strong>Conway signature</html:strong> of the tile. We will also consider the case of a finite patch of tiling, in which case the Conway signature will be a finite path.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>19</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-0005/</fr:uri>
+            <fr:display-uri>tile-0005</fr:display-uri>
+            <fr:route>/forest/tile-0005/</fr:route>
+            <fr:title text="Penrose rhombs">Penrose rhombs</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  The <html:strong>Penrose rhombs</html:strong> form a <fr:link href="/forest/tile-0003/" title="tile system" uri="https://trebor-huang.github.io/forest/tile-0003/" display-uri="tile-0003" type="local">tile system</fr:link>. It consists of two prototiles, the thick and thin rhombuses. They have the same side length, and has an internal angle of <fr:tex display="inline"><![CDATA[2\pi  / 5]]></fr:tex> and <fr:tex display="inline"><![CDATA[\pi  / 5]]></fr:tex>, respectively. The colors of the edges are <fr:tex display="inline"><![CDATA[±c_1, ±c_2]]></fr:tex> as drawn below.
+</html:p><html:p>
+  This comes with a <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link>, depicted as follows.
+</html:p>
+  <html:span class="tikz">
+    <fr:resource hash="3e630065382a66b7824527fdefdee24e"><fr:resource-content><html:img src="/forest/3e630065382a66b7824527fdefdee24e.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
+      \usetikzlibrary{decorations.pathreplacing}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzpicture}[scale=1.5]
+  \tikzset {every path/.style={thick, line join=bevel, fill opacity=0.5, font=\footnotesize }}
+  \draw [fill=blue]
+    (-2, 2)
+      -- ++(144:1) node[pos=0.3, above=4pt, fill opacity=1] {$+c_1$}
+      -- ++(-144:1) node[pos=0.7, above=4pt, fill opacity=1] {$+c_2$}
+      -- ++(-36:1) node[pos=0.3, below=4pt, fill opacity=1] {$-c_2$}
+      -- ++(36:1) node[pos=0.7, below=4pt, fill opacity=1] {$-c_1$}
+      -- cycle;
+  \node [fill opacity=1] at (-0.8, 2) {$\implies $};
+  \draw [fill=blue]
+    (2, 2) -- ++(0:1) node (a2) {} -- ++(108:1) -- ++(180:1) -- ++(-72:1) -- cycle;
+  \draw [fill=cyan]
+    (2, 2) -- ++(108:1) node (a3) {} -- ++(144:1) -- ++(-72:1) -- ++(-36:1) -- cycle;
+  \draw [fill=blue]
+    (2, 2) -- ++(144:1)
+    -- ++(-144:1) node[pos=0.7, above=4pt, fill opacity=1] {$-c_1$} node (a4) {}
+    -- ++(-36:1) -- ++(36:1) -- cycle;
+  \draw  (2, 2) -- ++(-108:1) node (a1) {};
+
+  \foreach  \i  in {1,2,3,4} {
+    \fill [opacity=1] (a\i ) circle (0.07);
+  }
+
+  \draw [fill=cyan]
+    (-1.8, -0.6)
+      -- ++(162:1) node[pos=0.3, above=3pt, fill opacity=1] {$-c_2$}
+      -- ++(-162:1) node[pos=0.7, above=3pt, fill opacity=1] {$+c_2$}
+      -- ++(-18:1) node[pos=0.3, below=4pt, fill opacity=1] {$-c_1$}
+      -- ++(18:1) node[pos=0.7, below=4pt, fill opacity=1] {$+c_1$}
+      -- cycle;
+  \node [fill opacity=1] at (-0.8, -0.6) {$\implies $};
+  \draw [fill=blue]
+    (1.8, -1.1) node (b1) {} -- ++(-18:1)
+      -- ++(54:1) node[pos=0.8, below=8pt, fill opacity=1] {$-c_1$} node (b2) {}
+      -- ++(162:1) -- ++(-126:1) -- cycle;
+  \draw [fill=cyan]
+    (1.8, -1.1) -- ++(90:1) node (b3) {} -- ++(126:1)
+    -- ++(-90:1) node[midway, left=-2pt, fill opacity=1] {$-c_2$}
+    -- ++(-54:1) -- cycle;
+  \draw  (1.8, -1.1) ++(126:1) -- ++(-162:1) node (b4) {};
+  \foreach  \i  in {1,2,3,4} {
+    \fill [opacity=1] (b\i ) circle (0.07);
+  }
+\end {tikzpicture}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+<html:p>
+  Notice that <fr:tex display="inline"><![CDATA[±c_1]]></fr:tex> edges always split into two subedges, and <fr:tex display="inline"><![CDATA[±c_2]]></fr:tex> edges three. They are separated by the four vertices drawn as black dots. However, these subedges may be pinched together, creating zero-width “spurs” protruding from the tiling. They are to be read as two subedges, first going out from the tilings and turning back. This is necessary to uniformly define how the tiles fit together after the substitution.
+</html:p></fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

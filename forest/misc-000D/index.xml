@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>11</fr:month>
+      <fr:day>12</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/misc-000D/</fr:uri>
+    <fr:display-uri>misc-000D</fr:display-uri>
+    <fr:route>/forest/misc-000D/</fr:route>
+    <fr:title text="ribbon Hopf algebra">ribbon Hopf algebra</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A <html:strong>ribbon Hopf algebra</html:strong> is defined as a <fr:link href="/forest/misc-0007/" title="braided Hopf algebra" uri="https://trebor-huang.github.io/forest/misc-0007/" display-uri="misc-0007" type="local">braided Hopf algebra</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex> together with an element <fr:tex display="inline"><![CDATA[v]]></fr:tex> of the algebra, such that
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \epsilon (v) &= 1 \\
+    \Delta (v) &= (\tau (R) R)^{-1} (v \otimes  v) \\
+    S(v) &= v.
+  \end {aligned}]]></fr:tex></html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>11</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/misc-000B/</fr:uri>
+            <fr:display-uri>misc-000B</fr:display-uri>
+            <fr:route>/forest/misc-000B/</fr:route>
+            <fr:title text="ribbon Hopf algebra">ribbon Hopf algebra</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p><fr:link href="/forest/misc-0002/" title="Hopf algebra" uri="https://trebor-huang.github.io/forest/misc-0002/" display-uri="misc-0002" type="local">Hopf algebras</fr:link> already have the concept of <fr:link href="/forest/misc-000C/" title="dual representation of Hopf algebras" uri="https://trebor-huang.github.io/forest/misc-000C/" display-uri="misc-000C" type="local">dual modules</fr:link>, and for finite dimensional modules, the dual is a categorical dual. For a <fr:link href="/forest/misc-0007/" title="braided Hopf algebra" uri="https://trebor-huang.github.io/forest/misc-0007/" display-uri="misc-0007" type="local">braided Hopf algebra</fr:link>, the modules further form a braided monoidal category. Hence to form ribbon categories, we only need to implement the twisting natural isomorphism <fr:tex display="inline"><![CDATA[\theta ]]></fr:tex>.
+</html:p>
+            <html:p>
+  Similar to the discussion in <fr:link href="/forest/misc-0006/" title="braided Hopf algebra" uri="https://trebor-huang.github.io/forest/misc-0006/" display-uri="misc-0006" type="local">§ <fr:contextual-number uri="https://trebor-huang.github.io/forest/misc-0006/" display-uri="misc-0006" /></fr:link>, we attempt to represent this isomorphism via an invertible element <fr:tex display="inline"><![CDATA[v]]></fr:tex>. For it to commute with every module homomorphism, this element needs to be in the center of the algebra. The equation <fr:tex display="inline"><![CDATA[\theta _1 = \textrm {id}]]></fr:tex> translates to <fr:tex display="inline"><![CDATA[\epsilon (v) = 1]]></fr:tex>. For <fr:tex display="inline"><![CDATA[\theta _{X^{\vee }} = (\theta _X)^{\vee }]]></fr:tex>, we need <fr:tex display="inline"><![CDATA[S(v) = v]]></fr:tex>. Finally we have the equation <fr:tex display="block"><![CDATA[\beta _{Y, X} \mathbin {\circ } \beta _{X, Y} \mathbin {\circ } \theta _{X \otimes  Y} = \theta _X \otimes  \theta _Y,]]></fr:tex> which translates to <fr:tex display="inline"><![CDATA[\Delta (v) = (\tau (R) R)^{-1} (v \otimes  v)]]></fr:tex>. This defines ribbon Hopf algebras.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>11</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/misc-000D/</fr:uri>
+                <fr:display-uri>misc-000D</fr:display-uri>
+                <fr:route>/forest/misc-000D/</fr:route>
+                <fr:title text="ribbon Hopf algebra">ribbon Hopf algebra</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  A <html:strong>ribbon Hopf algebra</html:strong> is defined as a <fr:link href="/forest/misc-0007/" title="braided Hopf algebra" uri="https://trebor-huang.github.io/forest/misc-0007/" display-uri="misc-0007" type="local">braided Hopf algebra</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex> together with an element <fr:tex display="inline"><![CDATA[v]]></fr:tex> of the algebra, such that
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \epsilon (v) &= 1 \\
+    \Delta (v) &= (\tau (R) R)^{-1} (v \otimes  v) \\
+    S(v) &= v.
+  \end {aligned}]]></fr:tex></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/misc-0007/</fr:uri>
+            <fr:display-uri>misc-0007</fr:display-uri>
+            <fr:route>/forest/misc-0007/</fr:route>
+            <fr:title text="braided Hopf algebra">braided Hopf algebra</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/misc-0002/" title="Hopf algebra" uri="https://trebor-huang.github.io/forest/misc-0002/" display-uri="misc-0002" type="local">Hopf algebra</fr:link> <fr:tex display="inline"><![CDATA[H]]></fr:tex>, suppose it is equipped with an element <fr:tex display="inline"><![CDATA[R \in  H \otimes  H]]></fr:tex>, such that
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \tau (\Delta (a)) &= R \Delta (a) R^{-1} \\
+    (\Delta  \otimes  \textrm {id})(R) &= R_{13} R_{23} \\
+    (\textrm {id} \otimes  \Delta )(R) &= R_{13} R_{12}
+  \end {aligned}]]></fr:tex>
+  then we call it a <html:strong>braided Hopf algebra</html:strong>. Here <fr:tex display="inline"><![CDATA[\tau  : H \otimes  H \to  H \otimes  H]]></fr:tex> is the twisting map of tensor products, and <fr:tex display="inline"><![CDATA[R_{i j} \in  H^{\otimes  3}]]></fr:tex> is <fr:tex display="inline"><![CDATA[R \otimes  1]]></fr:tex> with the appropriate factors permuted.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

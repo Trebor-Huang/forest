@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>28</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-0024/</fr:uri>
+    <fr:display-uri>hmlg-0024</fr:display-uri>
+    <fr:route>/forest/hmlg-0024/</fr:route>
+    <fr:title text="naturality of the Eilenberg–Zilber reduction">naturality of the Eilenberg–Zilber reduction</fr:title>
+    <fr:taxon>Remark</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  The naturality of the reduction in <fr:link href="/forest/hmlg-0023/" title="Eilenberg–Zilber theorem" uri="https://trebor-huang.github.io/forest/hmlg-0023/" display-uri="hmlg-0023" type="local">Eilenberg–Zilber theorem</fr:link> is not obvious. This is because maps sending geometric simplices to degenerate ones does not respect the vector field. We would need additional properties on the maps to guarantee naturality.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>28</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0023/</fr:uri>
+            <fr:display-uri>hmlg-0023</fr:display-uri>
+            <fr:route>/forest/hmlg-0023/</fr:route>
+            <fr:title text="Eilenberg–Zilber theorem">Eilenberg–Zilber theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  We have a <fr:link href="/forest/hmlg-0017/" title="chain reduction" uri="https://trebor-huang.github.io/forest/hmlg-0017/" display-uri="hmlg-0017" type="local">chain reduction</fr:link>
+  <fr:tex display="block"><![CDATA[C_* (X \times  Y) \Rightarrow \mkern {-14mu}\Rightarrow  C_* (X) \otimes  C_* (Y).]]></fr:tex></html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    For every product of simplices <fr:tex display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex>, we put on the <fr:link href="/forest/hmlg-0022/" title="discrete vector field on \Delta ^p \times  \Delta ^q" uri="https://trebor-huang.github.io/forest/hmlg-0022/" display-uri="hmlg-0022" type="local">discrete vector field on <fr:tex display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex></fr:link>. This DVF is <fr:link href="/forest/hmlg-001P/" title="admissible discrete vector field" uri="https://trebor-huang.github.io/forest/hmlg-001P/" display-uri="hmlg-001P" type="local">admissible</fr:link> because the time a path stays in <fr:tex display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex> is bounded by a function of <fr:tex display="inline"><![CDATA[p]]></fr:tex> and <fr:tex display="inline"><![CDATA[q]]></fr:tex>. Then it is sent to a boundary cell.
+  </html:p>
+
+  <html:p>
+    Using <fr:link href="/forest/hmlg-001R/" title="chain reduction generated by a discrete vector field" uri="https://trebor-huang.github.io/forest/hmlg-001R/" display-uri="hmlg-001R" type="local">Construction <fr:contextual-number uri="https://trebor-huang.github.io/forest/hmlg-001R/" display-uri="hmlg-001R" /></fr:link>, we get the required chain reduction. This is identical to the Eilenberg–Zilber reduction in literature, but the proof requires some combinatorics, and can be seen in Section 5.13 of <fr:link href="/forest/discrete-vector-fields/" title="Discrete Vector Fields and Fundamental Algebraic Topology" uri="https://trebor-huang.github.io/forest/discrete-vector-fields/" display-uri="discrete-vector-fields" type="local">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. However, this formulation gives a much better computational performance.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

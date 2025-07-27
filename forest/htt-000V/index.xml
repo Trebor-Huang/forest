@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>1</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/htt-000V/</fr:uri>
+    <fr:display-uri>htt-000V</fr:display-uri>
+    <fr:route>/forest/htt-000V/</fr:route>
+    <fr:title text="Kan fibration is a homotopy equivalence iff it is trivial">Kan fibration is a homotopy equivalence iff it is trivial</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  A <fr:link href="/forest/htt-000H/" title="fibrations and anodyne maps" uri="https://trebor-huang.github.io/forest/htt-000H/" display-uri="htt-000H" type="local">Kan fibration</fr:link> is a homotopy equivalence iff it is a <fr:link href="/forest/htt-000M/" title="trivial fibrations of simplicial sets" uri="https://trebor-huang.github.io/forest/htt-000M/" display-uri="htt-000M" type="local">trivial fibration</fr:link>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    In one direction, suppose we have a trivial fibration <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex>. Consider the monomorphism <fr:tex display="inline"><![CDATA[\textrm {id} : X \to  X]]></fr:tex>. The lifting property for the obvious square gives a section <fr:tex display="inline"><![CDATA[s : Y \to  X]]></fr:tex>, i.e. <fr:tex display="inline"><![CDATA[f \mathbin {\circ } s = \textrm {id}]]></fr:tex>. Now consider this lifting problem:
+  </html:p>
+  
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="2e89725e2df134c5eae079f5b68af6c9"><fr:resource-content><html:img src="/forest/2e89725e2df134c5eae079f5b68af6c9.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+    {\{0,1\} \times  X} & X \\
+    {\Delta ^1 \times  X} & Y
+    \arrow ["{\langle  \textrm {id}, s \mathbin {\circ } f \rangle }", from=1-1, to=1-2]
+    \arrow [hook, from=1-1, to=2-1]
+    \arrow ["f", from=1-2, to=2-2]
+    \arrow [dashed, from=2-1, to=1-2]
+    \arrow [from=2-1, to=2-2]
+  \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+  <html:p>
+    This provides a homotopy from <fr:tex display="inline"><![CDATA[s \mathbin {\circ } f]]></fr:tex> to <fr:tex display="inline"><![CDATA[\textrm {id}]]></fr:tex>. In particular <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a homotopy equivalence. We can improve this even further: since <fr:tex display="inline"><![CDATA[s]]></fr:tex> provides an embedding of <fr:tex display="inline"><![CDATA[Y]]></fr:tex> into <fr:tex display="inline"><![CDATA[X]]></fr:tex>, we can change the top-left corner to <fr:tex display="inline"><![CDATA[(\{0, 1\} \times  X) \cup  (\Delta ^1 \times  Y)]]></fr:tex>, since <fr:tex display="inline"><![CDATA[s \mathbin {\circ } f]]></fr:tex> is equal to the identity there. This exhibites <fr:tex display="inline"><![CDATA[Y]]></fr:tex> as a strong deformation retract of <fr:tex display="inline"><![CDATA[X]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    On the other hand, if <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a fibration and a homotopy equivalence, we can proceed in the opposite direction, and we first improve it to a deformation retract. The following lifting problem replaces <fr:tex display="inline"><![CDATA[s]]></fr:tex> with <fr:tex display="inline"><![CDATA[s']]></fr:tex> such that <fr:tex display="inline"><![CDATA[fs']]></fr:tex> equals <fr:tex display="inline"><![CDATA[\textrm {id}]]></fr:tex> on the nose.
+  </html:p>
+  
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="027a2e845273c1709b5fca5629105671"><fr:resource-content><html:img src="/forest/027a2e845273c1709b5fca5629105671.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+    Y & X \\
+    {\Delta ^1 \times  Y} & Y
+    \arrow ["s", from=1-1, to=1-2]
+    \arrow ["0"', from=1-1, to=2-1]
+    \arrow ["f", from=1-2, to=2-2]
+    \arrow ["{s \sim  s'}"{description}, dashed, from=2-1, to=1-2]
+    \arrow ["{fs \sim  \textrm {id}}"', from=2-1, to=2-2]
+  \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+
+  <html:p>
+    Now we further improve the homotopy equivalence into a strong deformation retract. This time we can’t use <fr:tex display="inline"><![CDATA[(\{0, 1\} \times  X) \cup  (\Delta ^1 \times  Y)]]></fr:tex> as the top-left corner since we don't have trivial fibrancy yet, but we know there exists a homotopy <fr:tex display="inline"><![CDATA[s' f \sim  \textrm {id}]]></fr:tex>, so we can exploit this to use <fr:tex display="block"><![CDATA[(\Lambda ^2_1 \times  X) \cup  (\Delta ^2 \times  Y) \hookrightarrow  \Delta ^2 \times  X,]]></fr:tex> where the top map goes from <fr:tex display="inline"><![CDATA[\textrm {id}]]></fr:tex> to <fr:tex display="inline"><![CDATA[s' f]]></fr:tex> back to <fr:tex display="inline"><![CDATA[\textrm {id}]]></fr:tex> on the <fr:tex display="inline"><![CDATA[X]]></fr:tex> part, and the <fr:tex display="inline"><![CDATA[Y]]></fr:tex> part is given by the triangle witnessing the composition of inverses cancel.
+  </html:p>
+
+  <html:p>
+    Finally, given a strong deformation retract, we can lift along any map <fr:tex display="inline"><![CDATA[A \to  B]]></fr:tex> by composition with the section <fr:tex display="inline"><![CDATA[s']]></fr:tex>, but then the upper triangle only commute up to homotopy. Now (here we use <fr:tex display="inline"><![CDATA[A \to  B]]></fr:tex> being mono) we can construct a lifting problem against the anodyne map <fr:tex display="block"><![CDATA[(\{0\} \times  B) \cup  (\Delta ^1 \times  A) \hookrightarrow  \Delta ^1 \times  A]]></fr:tex> to make a strict lifting.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000T/</fr:uri>
+            <fr:display-uri>htt-000T</fr:display-uri>
+            <fr:route>/forest/htt-000T/</fr:route>
+            <fr:title text="Kan fibration is trivial iff it is a weak equivalence">Kan fibration is trivial iff it is a weak equivalence</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  A <fr:link href="/forest/htt-000H/" title="fibrations and anodyne maps" uri="https://trebor-huang.github.io/forest/htt-000H/" display-uri="htt-000H" type="local">Kan fibration</fr:link> is a <fr:link href="/forest/htt-000M/" title="trivial fibrations of simplicial sets" uri="https://trebor-huang.github.io/forest/htt-000M/" display-uri="htt-000M" type="local">trivial fibration</fr:link> iff it is a <fr:link href="/forest/htt-000J/" title="weak equivalence of simplicial sets" uri="https://trebor-huang.github.io/forest/htt-000J/" display-uri="htt-000J" type="local">weak equivalence of simplicial sets</fr:link>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Let <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> be a Kan fibration. In one direction, if <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a trivial fibration, it has a section <fr:tex display="inline"><![CDATA[f \mathbin {\circ } s = \textrm {id}]]></fr:tex>, such that <fr:tex display="inline"><![CDATA[s \mathbin {\circ } f]]></fr:tex> is homotopic to the identity (see <fr:link href="/forest/htt-000V/" title="Kan fibration is a homotopy equivalence iff it is trivial" uri="https://trebor-huang.github.io/forest/htt-000V/" display-uri="htt-000V" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/htt-000V/" display-uri="htt-000V" /></fr:link>). This induces a bijection between connected components of <fr:tex display="inline"><![CDATA[Z^X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Z^Y]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    In the other direction, notice that if <fr:tex display="inline"><![CDATA[X]]></fr:tex> and <fr:tex display="inline"><![CDATA[Y]]></fr:tex> themselves are Kan, then by Yoneda a map between them is a homotopy equivalence iff it is a weak equivalence. If the map is furthermore a fibration, then by <fr:link href="/forest/htt-000V/" title="Kan fibration is a homotopy equivalence iff it is trivial" uri="https://trebor-huang.github.io/forest/htt-000V/" display-uri="htt-000V" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/htt-000V/" display-uri="htt-000V" /></fr:link> it is a trivial fibration. Hence, we attempt to use this by taking a fibrant replacement <fr:tex display="inline"><![CDATA[Y \hookrightarrow  \bar {Y}]]></fr:tex> such that the inclusion map is anodyne. We need to extend the fibration along this inclusion, but this is difficult because fibrations can be very diverse. One option is to use the theory of <fr:link href="/forest/htt-000O/" title="minimal Kan fibration" uri="https://trebor-huang.github.io/forest/htt-000O/" display-uri="htt-000O" type="local">minimal fibrations</fr:link>. They are locally product projections, which are much easier to extend.
+  </html:p>
+
+  <html:p>
+    Use <fr:link href="/forest/htt-000Q/" title="constructing minimal Kan fibrations" uri="https://trebor-huang.github.io/forest/htt-000Q/" display-uri="htt-000Q" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/htt-000Q/" display-uri="htt-000Q" /></fr:link> to obtain a strong deformation retract <fr:tex display="inline"><![CDATA[X' \subseteq  X]]></fr:tex> relative to <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that <fr:tex display="inline"><![CDATA[f' : X' \to  Y]]></fr:tex> is a <fr:link href="/forest/htt-000O/" title="minimal Kan fibration" uri="https://trebor-huang.github.io/forest/htt-000O/" display-uri="htt-000O" type="local">minimal Kan fibration</fr:link>. A strong deformation retract is a homotopy equivalence, which is a weak equivalence. By the two-out-of-three for weak equivalences, <fr:tex display="inline"><![CDATA[f']]></fr:tex> is a weak equivalence. We know <fr:tex display="inline"><![CDATA[f']]></fr:tex> is a <fr:link href="/forest/hmlg-0029/" title="Kan fiber bundle" uri="https://trebor-huang.github.io/forest/hmlg-0029/" display-uri="hmlg-0029" type="local">Kan fiber bundle</fr:link> by <fr:link href="/forest/htt-000S/" title="minimal fibration is locally a product" uri="https://trebor-huang.github.io/forest/htt-000S/" display-uri="htt-000S" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/htt-000S/" display-uri="htt-000S" /></fr:link>, and we can attempt to extend this to <fr:tex display="inline"><![CDATA[\bar {Y}]]></fr:tex>, which naturally motivates us to prove <fr:link href="/forest/htt-000W/" title="extension of minimal fibrations along anodyne maps" uri="https://trebor-huang.github.io/forest/htt-000W/" display-uri="htt-000W" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/htt-000W/" display-uri="htt-000W" /></fr:link>. This leads to a pullback square of Kan fiber bundles:
+  </html:p>
+  
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="eac34fb45998b39f88b24a3bec4573a3"><fr:resource-content><html:img src="/forest/eac34fb45998b39f88b24a3bec4573a3.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+    {X'} & {\bar  X'} \\
+    Y & {\bar  Y}
+    \arrow [hook, from=1-1, to=1-2]
+    \arrow [two heads, from=1-1, to=2-1]
+    \arrow ["\lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+    \arrow [two heads, from=1-2, to=2-2]
+    \arrow [hook, from=2-1, to=2-2]
+  \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+  <html:p>
+    Use the first part of <fr:link href="/forest/htt-000U/" title="cofibration is trivial iff it is a weak equivalence" uri="https://trebor-huang.github.io/forest/htt-000U/" display-uri="htt-000U" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/htt-000U/" display-uri="htt-000U" /></fr:link> to conclude that the top and bottom anodyne maps are weak equivalences. By two-out-of-three, the right map is a weak equivalence. From the observation above, this means the right map is a trivial fibration, since <fr:tex display="inline"><![CDATA[\bar {Y}]]></fr:tex> is Kan. We can now conclude that the left map is a trivial fibration, and in particular a homotopy equivalence. Since <fr:tex display="inline"><![CDATA[X' \to  X]]></fr:tex> is also a homotopy equivalence, by two-out-of-three we see <fr:tex display="inline"><![CDATA[X \to  Y]]></fr:tex> is a homotopy equivalence, which means it is a trivial fibration by <fr:link href="/forest/htt-000V/" title="Kan fibration is a homotopy equivalence iff it is trivial" uri="https://trebor-huang.github.io/forest/htt-000V/" display-uri="htt-000V" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/htt-000V/" display-uri="htt-000V" /></fr:link>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000M/</fr:uri>
+            <fr:display-uri>htt-000M</fr:display-uri>
+            <fr:route>/forest/htt-000M/</fr:route>
+            <fr:title text="trivial fibrations of simplicial sets">trivial fibrations of simplicial sets</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  A <html:strong>trivial fibration</html:strong> of simplicial sets is a map that right lifts against all simplex boundary inclusions <fr:tex display="inline"><![CDATA[\partial  \Delta ^n \hookrightarrow  \Delta ^n]]></fr:tex>. A <html:strong>cofibration</html:strong> is a map that left lifts against all trivial fibrations. A cofibration is exactly a monomorphism.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Using the small object argument, a trivial cofibration is the smallest <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>-<fr:link href="/forest/htt-000L/" title="saturated cofibration class" uri="https://trebor-huang.github.io/forest/htt-000L/" display-uri="htt-000L" type="local">saturated cofibration class</fr:link> containing simplex boundary inclusions. Monomorphisms form such a class, and so a trivial cofibration is a monomorphism. For the other direction, we prove that every monomorphism can be obtained by <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>-saturation. We first note that any subset <fr:tex display="inline"><![CDATA[X \subseteq  \Delta ^n]]></fr:tex> is a trivial fibration by inductively dropping faces from <fr:tex display="inline"><![CDATA[\Delta ^n \subseteq  \Delta ^n]]></fr:tex>: if we want to drop a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-dimensional face, perform a cobase change of <fr:tex display="inline"><![CDATA[\partial  \Delta ^k \hookrightarrow  \Delta ^k]]></fr:tex> and compose it with the current subset inclusion.
+  </html:p>
+
+  <html:p>
+    Given a simplicial subset <fr:tex display="inline"><![CDATA[X \subseteq  Y]]></fr:tex>, we construct a tower of inclusions <fr:tex display="inline"><![CDATA[X \subseteq  Z_0 \subseteq  Z_1 \subseteq  \cdots  \subseteq  Y]]></fr:tex>, where <fr:tex display="inline"><![CDATA[Z_n]]></fr:tex> is the union of <fr:tex display="inline"><![CDATA[X]]></fr:tex> with the <fr:tex display="inline"><![CDATA[n]]></fr:tex>-skeleton of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, considered as simplicial subsets of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>. We just need to prove each inclusion is a trivial cofibration. For <fr:tex display="inline"><![CDATA[X \subseteq  Z_0]]></fr:tex>, simply take the coproduct with a bunch of <fr:tex display="inline"><![CDATA[\varnothing  = \partial  \Delta ^0 \subseteq  \Delta ^0]]></fr:tex>. For <fr:tex display="inline"><![CDATA[Z_{n-1} \subseteq  Z_{n}]]></fr:tex>, take the coproduct of a bunch of <fr:tex display="inline"><![CDATA[\partial \Delta ^n \subseteq  \Delta ^n]]></fr:tex>, and perform a cobase change to glue them onto <fr:tex display="inline"><![CDATA[Z_{n-1}]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    Constructively, this argument requires us to decide whether a simplex is in the subset, and if so determine whether it is non-degerate (otherwise we do not want to take a copy of that simplex in the coproduct).
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000H/</fr:uri>
+            <fr:display-uri>htt-000H</fr:display-uri>
+            <fr:route>/forest/htt-000H/</fr:route>
+            <fr:title text="fibrations and anodyne maps">fibrations and anodyne maps</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Suppose a map <fr:tex display="inline"><![CDATA[f]]></fr:tex> of simplicial sets has the right lifting property against all inner horn inclusions <fr:tex display="inline"><![CDATA[\Lambda ^n_i \hookrightarrow  \Delta ^n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[n \ge  1]]></fr:tex> and <fr:tex display="inline"><![CDATA[0 < i < n]]></fr:tex>, then we say <fr:tex display="inline"><![CDATA[f]]></fr:tex> is an <html:strong>inner fibration</html:strong>. If we strengthen the condition to <fr:tex display="inline"><![CDATA[0 \le  i < n]]></fr:tex>, then we get the <html:strong>left fibration</html:strong>. Similarly for right fibrations. If we allow <fr:tex display="inline"><![CDATA[0 \le  i \le  n]]></fr:tex>, then we get a <html:strong>Kan fibration</html:strong>. Hence, an <fr:link href="/forest/htt-0001/" title="\infty -category" uri="https://trebor-huang.github.io/forest/htt-0001/" display-uri="htt-0001" type="local"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:link> is the same as an inner fibration <fr:tex display="inline"><![CDATA[X \to  1]]></fr:tex>. The same goes for a <fr:link href="/forest/htt-0002/" title="Kan complex" uri="https://trebor-huang.github.io/forest/htt-0002/" display-uri="htt-0002" type="local">Kan complex</fr:link>.
+</html:p>
+            <html:p>
+  The class of maps that have left lifting property against all inner fibrations is called <html:strong>inner anodyne</html:strong>. Similarly for left and right anodyne maps. For Kan fibrations, we use the unqualified phrase “anodyne map”. Obviously we have inner anodyne maps contained in both left and right anodyne maps, which in turn are contained in anodyne maps. They are all monomorphisms.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

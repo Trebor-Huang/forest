@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>7</fr:month>
+      <fr:day>4</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-002U/</fr:uri>
+    <fr:display-uri>hmlg-002U</fr:display-uri>
+    <fr:route>/forest/hmlg-002U/</fr:route>
+    <fr:title text="enough injectives">enough injectives</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  An <fr:link href="/forest/hmlg-000Q/" title="abelian category" uri="https://trebor-huang.github.io/forest/hmlg-000Q/" display-uri="hmlg-000Q" type="local">abelian category</fr:link> has enough <fr:link href="/forest/hmlg-002J/" title="injective object" uri="https://trebor-huang.github.io/forest/hmlg-002J/" display-uri="hmlg-002J" type="local">injectives</fr:link> if every object has a monomorphism into an injective. Dually, it has enough <fr:link href="/forest/hmlg-0004/" title="projective object" uri="https://trebor-huang.github.io/forest/hmlg-0004/" display-uri="hmlg-0004" type="local">projectives</fr:link> if every object is a quotient of a projective.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-002J/</fr:uri>
+            <fr:display-uri>hmlg-002J</fr:display-uri>
+            <fr:route>/forest/hmlg-002J/</fr:route>
+            <fr:title text="injective object">injective object</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  In an <fr:link href="/forest/hmlg-000Q/" title="abelian category" uri="https://trebor-huang.github.io/forest/hmlg-000Q/" display-uri="hmlg-000Q" type="local">abelian category</fr:link>, an object <fr:tex display="inline"><![CDATA[I]]></fr:tex> is <html:strong>injective</html:strong> iff every morphism <fr:tex display="inline"><![CDATA[B \to  I]]></fr:tex> can be extended along monomorphisms <fr:tex display="inline"><![CDATA[B \rightarrowtail  A]]></fr:tex>. Equivalently, it is a <fr:link href="/forest/hmlg-0004/" title="projective object" uri="https://trebor-huang.github.io/forest/hmlg-0004/" display-uri="hmlg-0004" type="local">projective object</fr:link> in the dual category.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000Q/</fr:uri>
+            <fr:display-uri>hmlg-000Q</fr:display-uri>
+            <fr:route>/forest/hmlg-000Q/</fr:route>
+            <fr:title text="abelian category">abelian category</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given an <fr:link href="/forest/hmlg-000P/" title="additive category" uri="https://trebor-huang.github.io/forest/hmlg-000P/" display-uri="hmlg-000P" type="local">additive category</fr:link>, it is an <html:strong>abelian category</html:strong> if the following condition holds.
+</html:p>
+            <html:ul><html:li>Every morphism has a kernel and a cokernel.</html:li>
+  <html:li>Every monomorphism is the kernel of its cokernel.</html:li>
+  <html:li>Every epimorphism is the cokernel of its kernel.</html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0004/</fr:uri>
+            <fr:display-uri>hmlg-0004</fr:display-uri>
+            <fr:route>/forest/hmlg-0004/</fr:route>
+            <fr:title text="projective object">projective object</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>In an abelian category, an object <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <html:strong>projective</html:strong> iff for every morphism <fr:tex display="inline"><![CDATA[P \to  B]]></fr:tex> can be lifted through an epimorphism <fr:tex display="inline"><![CDATA[A \twoheadrightarrow  B]]></fr:tex>, i.e. there exists a (non-unique) morphism <fr:tex display="inline"><![CDATA[P \to  A]]></fr:tex> making the triangle commute.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>9</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/htt-000I/</fr:uri>
+    <fr:display-uri>htt-000I</fr:display-uri>
+    <fr:route>/forest/htt-000I/</fr:route>
+    <fr:title text="Joyal’s lemma">Joyal’s lemma</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[M]]></fr:tex> be the class of momomorphisms of augmented simplicial sets. We can define <fr:tex display="inline"><![CDATA[F_{\text {kan/left/right/inner}}]]></fr:tex>, the class of augmented <fr:link href="/forest/htt-000H/" title="fibrations and anodyne maps" uri="https://trebor-huang.github.io/forest/htt-000H/" display-uri="htt-000H" type="local">fibrations</fr:link> in the same way as ordinary simplicial sets. Note that we still require <fr:tex display="inline"><![CDATA[n \ge  1]]></fr:tex> in the horns <fr:tex display="inline"><![CDATA[\Lambda ^n_i]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[A_\bullet ]]></fr:tex> be the corresponding class of augmented anodyne maps.
+</html:p><html:p>
+  Given two monomorphism <fr:tex display="inline"><![CDATA[f : A_0 \hookrightarrow  A]]></fr:tex> and <fr:tex display="inline"><![CDATA[g : B_0 \hookrightarrow  B]]></fr:tex> of (<fr:link href="/forest/htt-000A/" title="augmented simplicial set" uri="https://trebor-huang.github.io/forest/htt-000A/" display-uri="htt-000A" type="local">augmented</fr:link>) simplicial sets, we consider the inclusion
+  <fr:tex display="block"><![CDATA[h : (A_0 \star  B) \sqcup _{(A_0 \star  B_0)} (A \star  B_0) \to  A \star  B.]]></fr:tex>
+  We have the following table of implications:
+  <fr:tex display="block"><![CDATA[\begin {array}{ccc}
+    f \in  A_{\text {right}} & \implies  & h \in  A_{\text {inner}} \\
+    f \in  A_{\text {left}} & \implies  & h \in  A_{\text {left}} \\
+    g \in  A_{\text {left}} & \implies  & h \in  A_{\text {inner}} \\
+    g \in  A_{\text {right}} & \implies  & h \in  A_{\text {right}} \\
+  \end {array}]]></fr:tex></html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We proceed by using the universal property for anodyne morphisms. Consider <fr:tex display="inline"><![CDATA[A' \subseteq  A_{\text {right}}]]></fr:tex>, the class of morphisms <fr:tex display="inline"><![CDATA[f]]></fr:tex> such that the corresponding <fr:tex display="inline"><![CDATA[h \in  A_{\text {inner}}]]></fr:tex> for all <fr:tex display="inline"><![CDATA[g \in  M]]></fr:tex>. We need to prove <fr:tex display="inline"><![CDATA[A']]></fr:tex> is weakly saturated and contains all the relevant horn inclusions. To do this, we fix <fr:tex display="inline"><![CDATA[f]]></fr:tex> to be a particular horn inclusion, and let <fr:tex display="inline"><![CDATA[M' \subseteq  M]]></fr:tex> be the class of morphisms <fr:tex display="inline"><![CDATA[g]]></fr:tex> such that the corresponding <fr:tex display="inline"><![CDATA[h \in  A_{\text {inner}}]]></fr:tex>. Repeating the argument, we need to show <fr:tex display="inline"><![CDATA[M']]></fr:tex> is weakly saturated and contains all the boundary inclusions <fr:tex display="inline"><![CDATA[\partial  \Delta ^n \hookrightarrow  \Delta ^n]]></fr:tex>. This finally reduces the case to a concrete <fr:tex display="inline"><![CDATA[h]]></fr:tex>, given by <fr:tex display="inline"><![CDATA[\Lambda ^{n+m+1}_j \hookrightarrow  \Delta ^{n+m+1}]]></fr:tex>. Since we started with <fr:tex display="inline"><![CDATA[f]]></fr:tex> right anodyne, we will end up with <fr:tex display="inline"><![CDATA[0 < j \le  n < n+m+1]]></fr:tex>, so <fr:tex display="inline"><![CDATA[h]]></fr:tex> is obviously inner anodyne. The other claims are similarly reduced to making sure <fr:tex display="inline"><![CDATA[j]]></fr:tex> falls in the right range.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000G/</fr:uri>
+            <fr:display-uri>htt-000G</fr:display-uri>
+            <fr:route>/forest/htt-000G/</fr:route>
+            <fr:title text="Joyal–Tierney calculus on joins and slices">Joyal–Tierney calculus on joins and slices</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We can specialize the Joyal–Tierney calculus to <fr:link href="/forest/htt-000B/" title="join of (augmented) simplicial set" uri="https://trebor-huang.github.io/forest/htt-000B/" display-uri="htt-000B" type="local">joins</fr:link> and <fr:link href="/forest/htt-000F/" title="slice of augmented simplicial sets" uri="https://trebor-huang.github.io/forest/htt-000F/" display-uri="htt-000F" type="local">slices</fr:link> of augmented simplicial sets.
+  Define the pushout-join of two maps <fr:tex display="inline"><![CDATA[f : A \to  B]]></fr:tex> and <fr:tex display="inline"><![CDATA[g : C \to  D]]></fr:tex> as
+  <fr:tex display="block"><![CDATA[f \mathbin {\bar \star } g : (B \star  C) \sqcup _{A \star  C} (A \star  D) \to  B \star  D,]]></fr:tex>
+  and similarly the pushout-power is given by
+  <fr:tex display="block"><![CDATA[f \mathbin {\bar  /} g : A \mathbin {/} D \to  (B \mathbin {/} D) \times _{B \mathbin {/} C} (A \mathbin {/} C)]]></fr:tex>
+  and
+  <fr:tex display="block"><![CDATA[f \mathbin {\bar \backslash } g : B \mathbin {\backslash } C \to  (A \mathbin {\backslash } C) \times _{A \mathbin {\backslash } D} (B \mathbin {\backslash } D).]]></fr:tex>
+  Then by abstract nonsense we have the equivalence of lifting properties:
+  <fr:tex display="block"><![CDATA[(f \mathbin {\bar \star } g) \pitchfork  p \iff  f \pitchfork  (p \mathbin {\bar  /} g) \iff  g \pitchfork  (f \mathbin {\bar \backslash } p).]]></fr:tex>
+  So we only need to establish the easiest one, i.e. <fr:tex display="inline"><![CDATA[(f \mathbin {\bar \star } g) \pitchfork  p]]></fr:tex> for suitable classes of maps, to establish all three.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/htt-000I/</fr:uri>
+                <fr:display-uri>htt-000I</fr:display-uri>
+                <fr:route>/forest/htt-000I/</fr:route>
+                <fr:title text="Joyal’s lemma">Joyal’s lemma</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[M]]></fr:tex> be the class of momomorphisms of augmented simplicial sets. We can define <fr:tex display="inline"><![CDATA[F_{\text {kan/left/right/inner}}]]></fr:tex>, the class of augmented <fr:link href="/forest/htt-000H/" title="fibrations and anodyne maps" uri="https://trebor-huang.github.io/forest/htt-000H/" display-uri="htt-000H" type="local">fibrations</fr:link> in the same way as ordinary simplicial sets. Note that we still require <fr:tex display="inline"><![CDATA[n \ge  1]]></fr:tex> in the horns <fr:tex display="inline"><![CDATA[\Lambda ^n_i]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[A_\bullet ]]></fr:tex> be the corresponding class of augmented anodyne maps.
+</html:p><html:p>
+  Given two monomorphism <fr:tex display="inline"><![CDATA[f : A_0 \hookrightarrow  A]]></fr:tex> and <fr:tex display="inline"><![CDATA[g : B_0 \hookrightarrow  B]]></fr:tex> of (<fr:link href="/forest/htt-000A/" title="augmented simplicial set" uri="https://trebor-huang.github.io/forest/htt-000A/" display-uri="htt-000A" type="local">augmented</fr:link>) simplicial sets, we consider the inclusion
+  <fr:tex display="block"><![CDATA[h : (A_0 \star  B) \sqcup _{(A_0 \star  B_0)} (A \star  B_0) \to  A \star  B.]]></fr:tex>
+  We have the following table of implications:
+  <fr:tex display="block"><![CDATA[\begin {array}{ccc}
+    f \in  A_{\text {right}} & \implies  & h \in  A_{\text {inner}} \\
+    f \in  A_{\text {left}} & \implies  & h \in  A_{\text {left}} \\
+    g \in  A_{\text {left}} & \implies  & h \in  A_{\text {inner}} \\
+    g \in  A_{\text {right}} & \implies  & h \in  A_{\text {right}} \\
+  \end {array}]]></fr:tex></html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>9</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We proceed by using the universal property for anodyne morphisms. Consider <fr:tex display="inline"><![CDATA[A' \subseteq  A_{\text {right}}]]></fr:tex>, the class of morphisms <fr:tex display="inline"><![CDATA[f]]></fr:tex> such that the corresponding <fr:tex display="inline"><![CDATA[h \in  A_{\text {inner}}]]></fr:tex> for all <fr:tex display="inline"><![CDATA[g \in  M]]></fr:tex>. We need to prove <fr:tex display="inline"><![CDATA[A']]></fr:tex> is weakly saturated and contains all the relevant horn inclusions. To do this, we fix <fr:tex display="inline"><![CDATA[f]]></fr:tex> to be a particular horn inclusion, and let <fr:tex display="inline"><![CDATA[M' \subseteq  M]]></fr:tex> be the class of morphisms <fr:tex display="inline"><![CDATA[g]]></fr:tex> such that the corresponding <fr:tex display="inline"><![CDATA[h \in  A_{\text {inner}}]]></fr:tex>. Repeating the argument, we need to show <fr:tex display="inline"><![CDATA[M']]></fr:tex> is weakly saturated and contains all the boundary inclusions <fr:tex display="inline"><![CDATA[\partial  \Delta ^n \hookrightarrow  \Delta ^n]]></fr:tex>. This finally reduces the case to a concrete <fr:tex display="inline"><![CDATA[h]]></fr:tex>, given by <fr:tex display="inline"><![CDATA[\Lambda ^{n+m+1}_j \hookrightarrow  \Delta ^{n+m+1}]]></fr:tex>. Since we started with <fr:tex display="inline"><![CDATA[f]]></fr:tex> right anodyne, we will end up with <fr:tex display="inline"><![CDATA[0 < j \le  n < n+m+1]]></fr:tex>, so <fr:tex display="inline"><![CDATA[h]]></fr:tex> is obviously inner anodyne. The other claims are similarly reduced to making sure <fr:tex display="inline"><![CDATA[j]]></fr:tex> falls in the right range.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  This shows that we can take
+  <fr:tex display="block"><![CDATA[\begin {array}{rcl|rcl|rcl}
+    f &\in & A_{\text {right}} & g &\in & M & p &\in & F_{\text {inner}} \\
+    f &\in & A_{\text {left}} & g &\in & M & p &\in & F_{\text {left}} \\
+    f &\in & M & g &\in & A_{\text {left}} & p &\in & F_{\text {inner}} \\
+    f &\in & M & g &\in & A_{\text {right}} & p &\in & F_{\text {right}} \\
+  \end {array}]]></fr:tex>
+  in the equivalences above.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000A/</fr:uri>
+            <fr:display-uri>htt-000A</fr:display-uri>
+            <fr:route>/forest/htt-000A/</fr:route>
+            <fr:title text="augmented simplicial set">augmented simplicial set</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  An <html:strong>augmented simplicial set</html:strong> is a presheaf over the category of finite linear orders. More concretely, it is a simplicial set equipped with a set of colors, and an assignment of colors for each connected component.
+</html:p>
+            <html:p>
+  We have an obvious forgetful functor <fr:tex display="inline"><![CDATA[\mathsf {asSet} \to  \mathsf {sSet}]]></fr:tex>. It has a left and a right adjoint. The left adjoint has colors in bijection with the connected components, while the right adjoint has exactly one color. We shall call them <html:strong>discrete</html:strong> and <html:strong>codiscrete augmentation</html:strong>, respectively.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000H/</fr:uri>
+            <fr:display-uri>htt-000H</fr:display-uri>
+            <fr:route>/forest/htt-000H/</fr:route>
+            <fr:title text="fibrations and anodyne maps">fibrations and anodyne maps</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Suppose a map <fr:tex display="inline"><![CDATA[f]]></fr:tex> of simplicial sets has the right lifting property against all inner horn inclusions <fr:tex display="inline"><![CDATA[\Lambda ^n_i \hookrightarrow  \Delta ^n]]></fr:tex>, where <fr:tex display="inline"><![CDATA[n \ge  1]]></fr:tex> and <fr:tex display="inline"><![CDATA[0 < i < n]]></fr:tex>, then we say <fr:tex display="inline"><![CDATA[f]]></fr:tex> is an <html:strong>inner fibration</html:strong>. If we strengthen the condition to <fr:tex display="inline"><![CDATA[0 \le  i < n]]></fr:tex>, then we get the <html:strong>left fibration</html:strong>. Similarly for right fibrations. If we allow <fr:tex display="inline"><![CDATA[0 \le  i \le  n]]></fr:tex>, then we get a <html:strong>Kan fibration</html:strong>. Hence, an <fr:link href="/forest/htt-0001/" title="\infty -category" uri="https://trebor-huang.github.io/forest/htt-0001/" display-uri="htt-0001" type="local"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-category</fr:link> is the same as an inner fibration <fr:tex display="inline"><![CDATA[X \to  1]]></fr:tex>. The same goes for a <fr:link href="/forest/htt-0002/" title="Kan complex" uri="https://trebor-huang.github.io/forest/htt-0002/" display-uri="htt-0002" type="local">Kan complex</fr:link>.
+</html:p>
+            <html:p>
+  The class of maps that have left lifting property against all inner fibrations is called <html:strong>inner anodyne</html:strong>. Similarly for left and right anodyne maps. For Kan fibrations, we use the unqualified phrase “anodyne map”. Obviously we have inner anodyne maps contained in both left and right anodyne maps, which in turn are contained in anodyne maps. They are all monomorphisms.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

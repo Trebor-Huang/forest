@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>7</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/algm-001U/</fr:uri>
+    <fr:display-uri>algm-001U</fr:display-uri>
+    <fr:route>/forest/algm-001U/</fr:route>
+    <fr:title text="slice of sheaf category">slice of sheaf category</fr:title>
+    <fr:taxon>Construction</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Given a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> with a <fr:link href="/forest/algm-001A/" title="Grothendieck coverage" uri="https://trebor-huang.github.io/forest/algm-001A/" display-uri="algm-001A" type="local">Grothendieck coverage</fr:link> <fr:tex display="inline"><![CDATA[J]]></fr:tex> and a sheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex>, there is a Grothendieck coverage <fr:tex display="inline"><![CDATA[J']]></fr:tex> on <fr:tex display="inline"><![CDATA[\int _{\mathcal {C}} F]]></fr:tex> such that the equivalence in <fr:link href="/forest/algm-001T/" title="slice of presheaf category" uri="https://trebor-huang.github.io/forest/algm-001T/" display-uri="algm-001T" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/algm-001T/" display-uri="algm-001T" /></fr:link> restricts to an equivalence
+  <fr:tex display="block"><![CDATA[\mathsf {Sh}(\mathcal {C}, J)/F \cong  \mathsf {Sh}\left (\int _{\mathcal {C}} F, J'\right ).]]></fr:tex></html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>7</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Suppose we have a covering sieve <fr:tex display="inline"><![CDATA[S \hookrightarrow  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, then an element <fr:tex display="inline"><![CDATA[f \in  \Gamma (U, F)]]></fr:tex> uniquely corresponds to a matching family <fr:tex display="inline"><![CDATA[s \in  \hom (S, F)]]></fr:tex>. In the category of elements <fr:tex display="inline"><![CDATA[\int _{\mathcal {C}} F]]></fr:tex>, <fr:tex display="inline"><![CDATA[s]]></fr:tex> corresponds to a sieve over <fr:tex display="inline"><![CDATA[f]]></fr:tex>. This is the required Grothendieck coverage.
+  </html:p>
+
+  <html:p>
+    Another way to construct this is through the <fr:link href="/forest/algm-001L/" title="Lawvere–Tierney operator" uri="https://trebor-huang.github.io/forest/algm-001L/" display-uri="algm-001L" type="local">Lawvere–Tierney operator</fr:link> <fr:tex display="inline"><![CDATA[j]]></fr:tex>. The subobject classifier of a slice category is simply <fr:tex display="inline"><![CDATA[\Omega  \times  F \to  F]]></fr:tex>. Hence we can let <fr:tex display="inline"><![CDATA[j]]></fr:tex> act on the <fr:tex display="inline"><![CDATA[\Omega ]]></fr:tex> factor. This gives a Lawvere–Tierney operator on the slice category and it coincides with the Grothendieck coverage constructed above.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-001T/</fr:uri>
+            <fr:display-uri>algm-001T</fr:display-uri>
+            <fr:route>/forest/algm-001T/</fr:route>
+            <fr:title text="slice of presheaf category">slice of presheaf category</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We have an equivalence of categories
+  <fr:tex display="block"><![CDATA[\mathsf {Psh}(\mathcal {C})/P \cong  \mathsf {Psh}\left (\int _{\mathcal {C}} P\right ).]]></fr:tex>
+  In the special case that <fr:tex display="inline"><![CDATA[P = \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)]]></fr:tex>, we have
+  <fr:tex display="block"><![CDATA[\mathsf {Psh}(\mathcal {C})/\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U) \cong  \mathsf {Psh}(\mathcal {C}/U).]]></fr:tex></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-001L/</fr:uri>
+            <fr:display-uri>algm-001L</fr:display-uri>
+            <fr:route>/forest/algm-001L/</fr:route>
+            <fr:title text="Lawvere–Tierney operator">Lawvere–Tierney operator</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, a <html:strong>Lawvere–Tierney operator</html:strong> is a morphism <fr:tex display="inline"><![CDATA[j : \Omega  \to  \Omega ]]></fr:tex> where <fr:tex display="inline"><![CDATA[\Omega ]]></fr:tex> is the subobject classifier, such that <fr:tex display="inline"><![CDATA[j]]></fr:tex> preserves finite intersections, and <fr:tex display="inline"><![CDATA[j \mathbin {\circ } j = j]]></fr:tex>.
+</html:p>
+            <html:p>
+  We can equivalently express it as an enriched monad on the propositions. This allows for a form more akin to functional programming: we have an operator <fr:tex display="inline"><![CDATA[j]]></fr:tex>, equipped with maps <fr:tex display="inline"><![CDATA[\eta  : \forall  (p : \Omega ), p \to  j(p)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\beta  : \forall  (p, q : \Omega ), j(p) \to  (p \to  j(q)) \to  j(q)]]></fr:tex>. No laws are required since propositions have at most one element.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-001A/</fr:uri>
+            <fr:display-uri>algm-001A</fr:display-uri>
+            <fr:route>/forest/algm-001A/</fr:route>
+            <fr:title text="Grothendieck coverage">Grothendieck coverage</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, a <html:strong>Grothendieck coverage</html:strong> declares some <fr:link href="/forest/algm-001B/" title="sieve" uri="https://trebor-huang.github.io/forest/algm-001B/" display-uri="algm-001B" type="local">sieves</fr:link> to be coverings, such that the following holds.
+</html:p>
+            <html:ul><html:li>The maximal sieve <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A) \subseteq  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex> is always a covering.</html:li>
+  <html:li>Covering sieves are upwards closed, i.e. if <fr:tex display="inline"><![CDATA[S \subseteq  S']]></fr:tex> and <fr:tex display="inline"><![CDATA[S]]></fr:tex> is a covering sieve, then so is <fr:tex display="inline"><![CDATA[S']]></fr:tex>.</html:li>
+  <html:li>If <fr:tex display="inline"><![CDATA[S]]></fr:tex> is a covering sieve of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, and <fr:tex display="inline"><![CDATA[g : B \to  A]]></fr:tex> is a morphism, then the <fr:link href="/forest/algm-001C/" title="pullback of sieves" uri="https://trebor-huang.github.io/forest/algm-001C/" display-uri="algm-001C" type="local">pullback</fr:link> <fr:tex display="inline"><![CDATA[g^* S]]></fr:tex> is also a covering.</html:li>
+  <html:li>Suppose <fr:tex display="inline"><![CDATA[S]]></fr:tex> is a sieve, then the collection of arrows <fr:tex display="inline"><![CDATA[g]]></fr:tex> such that <fr:tex display="inline"><![CDATA[g^* S]]></fr:tex> is a covering is a sieve itself. If this sieve is a covering, then <fr:tex display="inline"><![CDATA[S]]></fr:tex> is also a covering.</html:li></html:ul>
+            <html:p>
+  A Grothendieck coverage can be viewed as a <fr:link href="/forest/algm-0019/" title="coverage" uri="https://trebor-huang.github.io/forest/algm-0019/" display-uri="algm-0019" type="local">coverage</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

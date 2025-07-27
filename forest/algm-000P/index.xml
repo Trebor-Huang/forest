@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>6</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/algm-000P/</fr:uri>
+    <fr:display-uri>algm-000P</fr:display-uri>
+    <fr:route>/forest/algm-000P/</fr:route>
+    <fr:title text="value of section at a point">value of section at a point</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Given a <fr:link href="/forest/algm-000L/" title="locally ringed space" uri="https://trebor-huang.github.io/forest/algm-000L/" display-uri="algm-000L" type="local">locally ringed space</fr:link> and a section <fr:tex display="inline"><![CDATA[f \in  \Gamma (U, \mathscr {O})]]></fr:tex>, the germ of <fr:tex display="inline"><![CDATA[f]]></fr:tex> at a point is an element of a local ring. The image of this element in the residue field, i.e. the quotient by the unique maximal ideal is called the <html:strong>value</html:strong> of this section at this point.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-000O/</fr:uri>
+            <fr:display-uri>algm-000O</fr:display-uri>
+            <fr:route>/forest/algm-000O/</fr:route>
+            <fr:title text="locally ringed space">locally ringed space</fr:title>
+            <fr:taxon>Intuition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  The <fr:link href="/forest/algm-000L/" title="locally ringed space" uri="https://trebor-huang.github.io/forest/algm-000L/" display-uri="algm-000L" type="local">locality</fr:link> requirement for a <fr:link href="/forest/algm-000M/" title="ringed space" uri="https://trebor-huang.github.io/forest/algm-000M/" display-uri="algm-000M" type="local">ringed space</fr:link> is to guarantee that the sections behave like functions valued in some field.
+</html:p>
+            <html:p>
+  It is impossible in general to discuss the vanishing region of a section <fr:tex display="inline"><![CDATA[f \in  \Gamma (U, \mathscr {O})]]></fr:tex>. For instance, the germs of continuous functions are non-zero on their support, which is the closure of the non-vanishing region. In algebraic geometry, such an overspill destroys most valuable information. We can talk about the maximal region on which the section is invertible, but this is different from being non-zero if sections don’t behave like functions. Similarly, it is also impossible to discuss the value of a section at some point in general. In locally ringed space, we have <fr:link href="/forest/algm-000P/" title="value of section at a point" uri="https://trebor-huang.github.io/forest/algm-000P/" display-uri="algm-000P" type="local">Definition <fr:contextual-number uri="https://trebor-huang.github.io/forest/algm-000P/" display-uri="algm-000P" /></fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>5</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-000L/</fr:uri>
+            <fr:display-uri>algm-000L</fr:display-uri>
+            <fr:route>/forest/algm-000L/</fr:route>
+            <fr:title text="locally ringed space">locally ringed space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/algm-000M/" title="ringed space" uri="https://trebor-huang.github.io/forest/algm-000M/" display-uri="algm-000M" type="local">ringed space</fr:link>, i.e. a space <fr:tex display="inline"><![CDATA[X]]></fr:tex> with a sheaf of rings <fr:tex display="inline"><![CDATA[\mathscr {O}]]></fr:tex>, it is said to be <html:strong>locally ringed</html:strong> iff the following conditions hold.
+</html:p>
+            <html:ul><html:li>If <fr:tex display="inline"><![CDATA[\Gamma (U, \mathscr {O}) = 0]]></fr:tex>, then <fr:tex display="inline"><![CDATA[U]]></fr:tex> is empty.</html:li>
+  <html:li>Suppose <fr:tex display="inline"><![CDATA[f + g \in  \Gamma (U, \mathscr {O})]]></fr:tex> is invertible, then we can cover <fr:tex display="inline"><![CDATA[U]]></fr:tex> with two open sets such that <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex> are invertible when restricted respectively.</html:li></html:ul>
+            <html:p>
+  This can be unified as one condition: If a finite sum in <fr:tex display="inline"><![CDATA[\Gamma (U, \mathscr {O})]]></fr:tex> is invertible, then each summand is invertible when restricted to an open, which jointly covers <fr:tex display="inline"><![CDATA[U]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

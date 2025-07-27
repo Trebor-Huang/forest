@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>19</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/tile-0003/</fr:uri>
+    <fr:display-uri>tile-0003</fr:display-uri>
+    <fr:route>/forest/tile-0003/</fr:route>
+    <fr:title text="tile system">tile system</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  We define a (two-dimensional, simple) <html:strong>tile system</html:strong> as a collection of finitely many polygons, called tiles, with colored edges, such that the colors come in pairs written as <fr:tex display="inline"><![CDATA[+c, -c]]></fr:tex>. A <html:strong>tiling</html:strong> of the tile system is a tessellation of the plane by these tiles, such that tiles can only touch by sharing entire edges, such that the colors on those edges are in pairs. In principle, a tiling only allows translations of tiles, but in implementation it is convenient to have a finite set of rotations (and possibly reflections), as it reduces code duplication.
+</html:p>
+    <html:p>
+  Sometimes, to disambiguate between a type of tiles (of which there are only finitely many) and one instance of such a tile in a tiling (which can occur infinitely many times), we refer to the former as a <html:strong>prototile</html:strong>. Every edge of a tile is given a unique number, which we refer to as <html:strong>edge labels</html:strong>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-0008/</fr:uri>
+            <fr:display-uri>tile-0008</fr:display-uri>
+            <fr:route>/forest/tile-0008/</fr:route>
+            <fr:title text="Combinatorial data">Combinatorial data</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We specify the combinatorial data required to define a substitution tile system.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>19</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/tile-0003/</fr:uri>
+                <fr:display-uri>tile-0003</fr:display-uri>
+                <fr:route>/forest/tile-0003/</fr:route>
+                <fr:title text="tile system">tile system</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  We define a (two-dimensional, simple) <html:strong>tile system</html:strong> as a collection of finitely many polygons, called tiles, with colored edges, such that the colors come in pairs written as <fr:tex display="inline"><![CDATA[+c, -c]]></fr:tex>. A <html:strong>tiling</html:strong> of the tile system is a tessellation of the plane by these tiles, such that tiles can only touch by sharing entire edges, such that the colors on those edges are in pairs. In principle, a tiling only allows translations of tiles, but in implementation it is convenient to have a finite set of rotations (and possibly reflections), as it reduces code duplication.
+</html:p>
+                <html:p>
+  Sometimes, to disambiguate between a type of tiles (of which there are only finitely many) and one instance of such a tile in a tiling (which can occur infinitely many times), we refer to the former as a <html:strong>prototile</html:strong>. Every edge of a tile is given a unique number, which we refer to as <html:strong>edge labels</html:strong>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>19</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/tile-0004/</fr:uri>
+                <fr:display-uri>tile-0004</fr:display-uri>
+                <fr:route>/forest/tile-0004/</fr:route>
+                <fr:title text="substitution system">substitution system</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Given a <fr:link href="/forest/tile-0003/" title="tile system" uri="https://trebor-huang.github.io/forest/tile-0003/" display-uri="tile-0003" type="local">tile system</fr:link>, a <html:strong>substitution system</html:strong> is a map from each prototile to a patch of tiles, such that when we replace each tile in a tiling with the substitution, the resulting patches of tiles can fit together in the same way, forming another tiling. This process is called <html:strong>deflation</html:strong>, while the inverse process, if it exists, is called <html:strong>inflation</html:strong>. We usually only consider substitution systems where inflation exists and is unique.
+</html:p>
+                <html:p>
+  More precisely, given a prototile <fr:tex display="inline"><![CDATA[t]]></fr:tex>, we assign a list of deflated tiles <fr:tex display="inline"><![CDATA[t_i]]></fr:tex>. Each edge of <fr:tex display="inline"><![CDATA[t]]></fr:tex> will be subdivided into several subedges (with their own colors), such that the subdivision only depends on the color, and edges of opposite colors are divided in a way such that the resulting subedges match. For the data of how the deflated tiles glue together, we have a perfect pairing on the set
+  <fr:tex display="block"><![CDATA[\{\text {subedges of $t$}\} \sqcup  \coprod _i \{\text {edges of $t_i$}\}]]></fr:tex> such that the paired edges are compatible. Specifically, if two edges of deflated tiles, or two subedges of <fr:tex display="inline"><![CDATA[t]]></fr:tex> are matched, they must be of opposite colors; if an edge of a deflated tile is matched with a subedge, they must share colors.
+</html:p>
+                <html:p>
+  In addition to this, the subdivision must also match geometrically, but we shall not give its full definition here, as it suffices to recognize this intuitively.
+</html:p>
+                <html:p>
+  For convenience, if two edges <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\epsilon ']]></fr:tex> have opposite colors, we use the <html:em>same label</html:em> for their subedges in a substitution. This simplifies the presentation since we avoid using a conversion look-up table, but requires us to be somewhat careful in assigning labels. In general, we can assign the subedge labels counterclockwise for edges with positive colors, and clockwise for negative colors.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  On a first read, the definition of a substitution system may seem to contain some surprising cases. Why is it possible to have subedges paired against each other? This is because there are <fr:link href="/forest/tile-0005/" title="Penrose rhombs" uri="https://trebor-huang.github.io/forest/tile-0005/" display-uri="tile-0005" type="local">examples</fr:link> where this occurs. Even though we can often transform our substitution systems to avoid this, it allows for very economic presentations, and thus more efficient algorithms. In addition, accounting for these cases reveals some symmetry in the recursive structure of our programs.
+</html:p>
+            <html:p>
+  Now we have enough terminology to define the fundamental object in our algorithms, the Conway signature.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/tile-0006/</fr:uri>
+                <fr:display-uri>tile-0006</fr:display-uri>
+                <fr:route>/forest/tile-0006/</fr:route>
+                <fr:title text="Conway signature">Conway signature</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Assume we have a <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link> with unique inflation. For a tile <fr:tex display="inline"><![CDATA[t]]></fr:tex> in a tiling, we can inflate the tiling to find <fr:tex display="inline"><![CDATA[t]]></fr:tex> as a subtile in an inflated tile <fr:tex display="inline"><![CDATA[t_1]]></fr:tex>. If we give a unique number to each subtile in a substitution system, we can write this as <fr:tex display="inline"><![CDATA[t \xrightarrow {n_1} t_1]]></fr:tex>, meaning <fr:tex display="inline"><![CDATA[t]]></fr:tex> is the <fr:tex display="inline"><![CDATA[n_1]]></fr:tex>-th subtile. This process can be repeated, generating an infinite path
+  <fr:tex display="block"><![CDATA[\Sigma  = t \xrightarrow {n_1} t_1 \xrightarrow {n_2} t_2 \longrightarrow  \cdots ]]></fr:tex>
+  where <fr:tex display="inline"><![CDATA[t, t_1, t_2, \dots ]]></fr:tex> are prototile labels, and <fr:tex display="inline"><![CDATA[n_i]]></fr:tex> are subtile labels.
+  This path <fr:tex display="inline"><![CDATA[\Sigma ]]></fr:tex> is called the <html:strong>Conway signature</html:strong> of the tile. We will also consider the case of a finite patch of tiling, in which case the Conway signature will be a finite path.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  Computationally, this can be regarded as an infinite stream of data. In lazy languages like Haskell, we can directly implement this as an infinite list. Notice that there will be a lot of sharing as the signature of different tiles will often share a tail. So if your language does not have lazy functional data structures, you need to make sure sharing has a low cost.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>19</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-0005/</fr:uri>
+            <fr:display-uri>tile-0005</fr:display-uri>
+            <fr:route>/forest/tile-0005/</fr:route>
+            <fr:title text="Penrose rhombs">Penrose rhombs</fr:title>
+            <fr:taxon>Example</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  The <html:strong>Penrose rhombs</html:strong> form a <fr:link href="/forest/tile-0003/" title="tile system" uri="https://trebor-huang.github.io/forest/tile-0003/" display-uri="tile-0003" type="local">tile system</fr:link>. It consists of two prototiles, the thick and thin rhombuses. They have the same side length, and has an internal angle of <fr:tex display="inline"><![CDATA[2\pi  / 5]]></fr:tex> and <fr:tex display="inline"><![CDATA[\pi  / 5]]></fr:tex>, respectively. The colors of the edges are <fr:tex display="inline"><![CDATA[±c_1, ±c_2]]></fr:tex> as drawn below.
+</html:p><html:p>
+  This comes with a <fr:link href="/forest/tile-0004/" title="substitution system" uri="https://trebor-huang.github.io/forest/tile-0004/" display-uri="tile-0004" type="local">substitution system</fr:link>, depicted as follows.
+</html:p>
+  <html:span class="tikz">
+    <fr:resource hash="3e630065382a66b7824527fdefdee24e"><fr:resource-content><html:img src="/forest/3e630065382a66b7824527fdefdee24e.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
+      \usetikzlibrary{decorations.pathreplacing}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzpicture}[scale=1.5]
+  \tikzset {every path/.style={thick, line join=bevel, fill opacity=0.5, font=\footnotesize }}
+  \draw [fill=blue]
+    (-2, 2)
+      -- ++(144:1) node[pos=0.3, above=4pt, fill opacity=1] {$+c_1$}
+      -- ++(-144:1) node[pos=0.7, above=4pt, fill opacity=1] {$+c_2$}
+      -- ++(-36:1) node[pos=0.3, below=4pt, fill opacity=1] {$-c_2$}
+      -- ++(36:1) node[pos=0.7, below=4pt, fill opacity=1] {$-c_1$}
+      -- cycle;
+  \node [fill opacity=1] at (-0.8, 2) {$\implies $};
+  \draw [fill=blue]
+    (2, 2) -- ++(0:1) node (a2) {} -- ++(108:1) -- ++(180:1) -- ++(-72:1) -- cycle;
+  \draw [fill=cyan]
+    (2, 2) -- ++(108:1) node (a3) {} -- ++(144:1) -- ++(-72:1) -- ++(-36:1) -- cycle;
+  \draw [fill=blue]
+    (2, 2) -- ++(144:1)
+    -- ++(-144:1) node[pos=0.7, above=4pt, fill opacity=1] {$-c_1$} node (a4) {}
+    -- ++(-36:1) -- ++(36:1) -- cycle;
+  \draw  (2, 2) -- ++(-108:1) node (a1) {};
+
+  \foreach  \i  in {1,2,3,4} {
+    \fill [opacity=1] (a\i ) circle (0.07);
+  }
+
+  \draw [fill=cyan]
+    (-1.8, -0.6)
+      -- ++(162:1) node[pos=0.3, above=3pt, fill opacity=1] {$-c_2$}
+      -- ++(-162:1) node[pos=0.7, above=3pt, fill opacity=1] {$+c_2$}
+      -- ++(-18:1) node[pos=0.3, below=4pt, fill opacity=1] {$-c_1$}
+      -- ++(18:1) node[pos=0.7, below=4pt, fill opacity=1] {$+c_1$}
+      -- cycle;
+  \node [fill opacity=1] at (-0.8, -0.6) {$\implies $};
+  \draw [fill=blue]
+    (1.8, -1.1) node (b1) {} -- ++(-18:1)
+      -- ++(54:1) node[pos=0.8, below=8pt, fill opacity=1] {$-c_1$} node (b2) {}
+      -- ++(162:1) -- ++(-126:1) -- cycle;
+  \draw [fill=cyan]
+    (1.8, -1.1) -- ++(90:1) node (b3) {} -- ++(126:1)
+    -- ++(-90:1) node[midway, left=-2pt, fill opacity=1] {$-c_2$}
+    -- ++(-54:1) -- cycle;
+  \draw  (1.8, -1.1) ++(126:1) -- ++(-162:1) node (b4) {};
+  \foreach  \i  in {1,2,3,4} {
+    \fill [opacity=1] (b\i ) circle (0.07);
+  }
+\end {tikzpicture}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+<html:p>
+  Notice that <fr:tex display="inline"><![CDATA[±c_1]]></fr:tex> edges always split into two subedges, and <fr:tex display="inline"><![CDATA[±c_2]]></fr:tex> edges three. They are separated by the four vertices drawn as black dots. However, these subedges may be pinched together, creating zero-width “spurs” protruding from the tiling. They are to be read as two subedges, first going out from the tilings and turning back. This is necessary to uniformly define how the tiles fit together after the substitution.
+</html:p></fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>19</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/tile-0004/</fr:uri>
+            <fr:display-uri>tile-0004</fr:display-uri>
+            <fr:route>/forest/tile-0004/</fr:route>
+            <fr:title text="substitution system">substitution system</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/tile-0003/" title="tile system" uri="https://trebor-huang.github.io/forest/tile-0003/" display-uri="tile-0003" type="local">tile system</fr:link>, a <html:strong>substitution system</html:strong> is a map from each prototile to a patch of tiles, such that when we replace each tile in a tiling with the substitution, the resulting patches of tiles can fit together in the same way, forming another tiling. This process is called <html:strong>deflation</html:strong>, while the inverse process, if it exists, is called <html:strong>inflation</html:strong>. We usually only consider substitution systems where inflation exists and is unique.
+</html:p>
+            <html:p>
+  More precisely, given a prototile <fr:tex display="inline"><![CDATA[t]]></fr:tex>, we assign a list of deflated tiles <fr:tex display="inline"><![CDATA[t_i]]></fr:tex>. Each edge of <fr:tex display="inline"><![CDATA[t]]></fr:tex> will be subdivided into several subedges (with their own colors), such that the subdivision only depends on the color, and edges of opposite colors are divided in a way such that the resulting subedges match. For the data of how the deflated tiles glue together, we have a perfect pairing on the set
+  <fr:tex display="block"><![CDATA[\{\text {subedges of $t$}\} \sqcup  \coprod _i \{\text {edges of $t_i$}\}]]></fr:tex> such that the paired edges are compatible. Specifically, if two edges of deflated tiles, or two subedges of <fr:tex display="inline"><![CDATA[t]]></fr:tex> are matched, they must be of opposite colors; if an edge of a deflated tile is matched with a subedge, they must share colors.
+</html:p>
+            <html:p>
+  In addition to this, the subdivision must also match geometrically, but we shall not give its full definition here, as it suffices to recognize this intuitively.
+</html:p>
+            <html:p>
+  For convenience, if two edges <fr:tex display="inline"><![CDATA[\epsilon ]]></fr:tex> and <fr:tex display="inline"><![CDATA[\epsilon ']]></fr:tex> have opposite colors, we use the <html:em>same label</html:em> for their subedges in a substitution. This simplifies the presentation since we avoid using a conversion look-up table, but requires us to be somewhat careful in assigning labels. In general, we can assign the subedge labels counterclockwise for edges with positive colors, and clockwise for negative colors.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>7</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/algm-000T/</fr:uri>
+    <fr:display-uri>algm-000T</fr:display-uri>
+    <fr:route>/forest/algm-000T/</fr:route>
+    <fr:title text="subsheaf of units">subsheaf of units</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Given a sheaf <fr:tex display="inline"><![CDATA[\mathscr {O}]]></fr:tex> of rings, we can define a subsheaf <fr:tex display="inline"><![CDATA[\mathscr {O}^\times ]]></fr:tex> consisting of the invertible elements, i.e. <fr:tex display="inline"><![CDATA[\Gamma (U, \mathscr {O}^\times ) = \Gamma (U, \mathscr {O})^\times ]]></fr:tex>. This is the <html:strong>subsheaf of units</html:strong>.
+</html:p>
+    <html:p>
+  This can be equivalently expressed as a pullback of <fr:tex display="inline"><![CDATA[\mathscr {O} \times  \mathscr {O} \xrightarrow {(f,g) \mapsto  f g} \mathscr {O}]]></fr:tex> and <fr:tex display="inline"><![CDATA[1 \xrightarrow {1} \mathscr {O}]]></fr:tex>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-000U/</fr:uri>
+            <fr:display-uri>algm-000U</fr:display-uri>
+            <fr:route>/forest/algm-000U/</fr:route>
+            <fr:title text="morphism of locally ringed spaces">morphism of locally ringed spaces</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given two <fr:link href="/forest/algm-000L/" title="locally ringed space" uri="https://trebor-huang.github.io/forest/algm-000L/" display-uri="algm-000L" type="local">locally ringed spaces</fr:link>, a <fr:link href="/forest/algm-000S/" title="morphism of ringed spaces" uri="https://trebor-huang.github.io/forest/algm-000S/" display-uri="algm-000S" type="local">morphism of ringed spaces</fr:link> <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> between them is <html:strong>local</html:strong> when sections of <fr:tex display="inline"><![CDATA[\varphi ^{-1}\mathscr {O}_Y]]></fr:tex> are invertible iff their images in <fr:tex display="inline"><![CDATA[\mathscr {O}_X]]></fr:tex> are invertible, i.e. the following diagram is a pullback:
+
+  
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="ba71b4dbdf2d472f82fc88088cb4e515"><fr:resource-content><html:img src="/forest/ba71b4dbdf2d472f82fc88088cb4e515.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+    {\varphi ^{-1}\mathscr {O}_Y^\times } & {\mathscr {O}_X^\times } \\
+    {\varphi ^{-1}\mathscr {O}_Y} & {\mathscr {O}_X}
+    \arrow [hook, from=1-1, to=2-1]
+    \arrow [hook, from=1-2, to=2-2]
+    \arrow [from=1-1, to=1-2]
+    \arrow [from=2-1, to=2-2]
+    \arrow ["\lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+  \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+
+  Note that the <fr:link href="/forest/algm-000T/" title="subsheaf of units" uri="https://trebor-huang.github.io/forest/algm-000T/" display-uri="algm-000T" type="local">subsheaf of units</fr:link> is given by a finite limit, hence <fr:tex display="inline"><![CDATA[\varphi ^{-1}]]></fr:tex> preserves it. Since the lower map map <fr:tex display="inline"><![CDATA[\varphi ^{-1} \mathscr {O}_Y \to  \mathscr {O}_X]]></fr:tex> is a ring homomorphism on the sections, it maps units to units. Hence restriction to the upper map makes sense.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

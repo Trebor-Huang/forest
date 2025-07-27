@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>1</fr:month>
+      <fr:day>6</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/algm-0027/</fr:uri>
+    <fr:display-uri>algm-0027</fr:display-uri>
+    <fr:route>/forest/algm-0027/</fr:route>
+    <fr:title text="cartesian closed total category">cartesian closed total category</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  A <fr:link href="/forest/algm-0025/" title="total category" uri="https://trebor-huang.github.io/forest/algm-0025/" display-uri="algm-0025" type="local">total category</fr:link> is cartesian closed iff the left adjoint <fr:tex display="inline"><![CDATA[\operatorname {?}]]></fr:tex> preserves binary products.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    If the total category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is cartesian closed, then
+    <fr:tex display="block"><![CDATA[\hom (F, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A^B)) = \hom (\operatorname {?}(F), A^B) = \hom (\operatorname {?}(F) \times  B, A).]]></fr:tex>
+    On the other hand, <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> preserves exponentials, and therefore
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      \hom (F, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A^B)) &= \hom (F, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)^{\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(B)}) \\
+      &= \hom (F \times  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(B), \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)) \\
+      &= \hom (\operatorname {?}(F \times  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(B)), A).
+    \end {aligned}]]></fr:tex>
+    Hence we need the canonical map
+    <fr:tex display="block"><![CDATA[\operatorname {?}(F \times  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(B)) \to  \operatorname {?}(F) \times  \operatorname {?}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(B)) \to  \operatorname {?}(F) \times  B]]></fr:tex>
+    to be an isomorphism. But the counit <fr:tex display="inline"><![CDATA[\operatorname {?}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(B)) \to  B]]></fr:tex> is already an isomorphism since <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> is a fully faithful right adjoint. Therefore this happens iff <fr:tex display="inline"><![CDATA[\operatorname {?}(F \times  G) \to  \operatorname {?}(F) \times  \operatorname {?}(G)]]></fr:tex> is an isomorphism for all representable presheaves <fr:tex display="inline"><![CDATA[G]]></fr:tex>. Now presheaves are (large) colimits of representables, and being left adjoints, both <fr:tex display="inline"><![CDATA[\operatorname {?}]]></fr:tex> and binary products preserve all colimits whatsoever. So we can extend this to all presheaves <fr:tex display="inline"><![CDATA[G]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    On the other hand, if <fr:tex display="inline"><![CDATA[\operatorname {?}]]></fr:tex> preserves binary products, then <fr:tex display="inline"><![CDATA[(A \times  -)]]></fr:tex> must be cocontinuous: Every small colimit diagram <fr:tex display="inline"><![CDATA[D : I \to  \mathcal {C}]]></fr:tex> can be <fr:link href="/forest/algm-0026/" title="a total category is cocomplete and complete" uri="https://trebor-huang.github.io/forest/algm-0026/" display-uri="algm-0026" type="local">equivalently represented</fr:link> as a presheaf <fr:tex display="inline"><![CDATA[F = \operatorname *{colim}_{i \in  I} \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} D(i)]]></fr:tex> with colimit <fr:tex display="inline"><![CDATA[\operatorname {?}(F)]]></fr:tex>. The presheaf for the product diagram <fr:tex display="inline"><![CDATA[A \times  D(i)]]></fr:tex> is <fr:tex display="inline"><![CDATA[\operatorname *{colim}_{i \in  I} \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A \times  D(i))]]></fr:tex>, which is equivalent to <fr:tex display="inline"><![CDATA[F \times  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex>, since <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> preserves product and product is cocontinuous in presheaves.
+    (A naive way to construct the presheaf for the product diagram is <fr:tex display="inline"><![CDATA[F \mathbin {\circ } (A \times  -)]]></fr:tex>, but this doesn’t quite work because of contravariance.)
+    We have <fr:tex display="inline"><![CDATA[\operatorname {?}(F \times  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)) = \operatorname {?}(F) \times  A]]></fr:tex>, showing cocontinuity.
+    Therefore by the <fr:link href="/forest/algm-0029/" title="adjoint functor theorem for total categories" uri="https://trebor-huang.github.io/forest/algm-0029/" display-uri="algm-0029" type="local">adjoint functor theorem for total categories</fr:link>, we know exponentials must exist.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-0026/</fr:uri>
+            <fr:display-uri>algm-0026</fr:display-uri>
+            <fr:route>/forest/algm-0026/</fr:route>
+            <fr:title text="a total category is cocomplete and complete">a total category is cocomplete and complete</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  A <fr:link href="/forest/algm-0025/" title="total category" uri="https://trebor-huang.github.io/forest/algm-0025/" display-uri="algm-0025" type="local">total category</fr:link> is (small) cocomplete and complete. This shows totality is a strong form of cocompleteness, strong enough to behave like cocompleteness in posets, which also guarantees completeness.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Using the colimit characterization of totality, given a small diagram <fr:tex display="inline"><![CDATA[D : I \to  \mathcal {C}]]></fr:tex>, we can attempt to construct a presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex> assigning <fr:tex display="inline"><![CDATA[F(X)]]></fr:tex> the set of all objects in <fr:tex display="inline"><![CDATA[I]]></fr:tex> mapped to <fr:tex display="inline"><![CDATA[X]]></fr:tex>, and require that <fr:tex display="inline"><![CDATA[F(f)]]></fr:tex> sends the object <fr:tex display="inline"><![CDATA[i \in  I]]></fr:tex> to <fr:tex display="inline"><![CDATA[j \in  I]]></fr:tex> if there is an arrow in the colimit diagram going from <fr:tex display="inline"><![CDATA[j]]></fr:tex> to <fr:tex display="inline"><![CDATA[i]]></fr:tex> that is mapped to <fr:tex display="inline"><![CDATA[f]]></fr:tex> (multiple of the same arrow appearing in the colimit diagram doesn’t matter). But this leaves many functoriality requirements unsatisfied, so we freely add elements to <fr:tex display="inline"><![CDATA[F]]></fr:tex> for them. This will create additional arrows in the corresponding colimit diagram that end at existing objects, so the colimit is still unaffected.
+  </html:p>
+
+  <html:p>
+    It is nice to have a more uniform description of this. If we have a single object <fr:tex display="inline"><![CDATA[A]]></fr:tex> in the diagram, then the resulting presheaf will be exactly <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex>. For a general diagram, we need a colimit to glue all the <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex>’s together, and it’s not hard to see the required colimit is exactly <fr:tex display="inline"><![CDATA[\operatorname *{colim} \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} \mathbin {\circ } D]]></fr:tex>, where <fr:tex display="inline"><![CDATA[D]]></fr:tex> is the diagram functor.
+  </html:p>
+
+  <html:p>
+    For completeness, we use the same technique in proving cocomplete posets are complete: we can define <fr:tex display="inline"><![CDATA[\sup  U]]></fr:tex> as <fr:tex display="inline"><![CDATA[\inf  \{x \mid  x \ge  U\}]]></fr:tex>. In the same spirit, given a diagram <fr:tex display="inline"><![CDATA[U : I \to  \mathcal {C}]]></fr:tex>, we consider a locally small category whose objects are <fr:tex display="inline"><![CDATA[(X, F)]]></fr:tex> where <fr:tex display="inline"><![CDATA[X \in  \mathcal {C}]]></fr:tex> and <fr:tex display="inline"><![CDATA[F : \operatorname {const}(X) \to  U]]></fr:tex>, and the morphisms are obvious. This is equivalently the comma category <fr:tex display="inline"><![CDATA[\operatorname {const} \downarrow  U]]></fr:tex>. The limit is then the same as the colimit of the functor <fr:tex display="inline"><![CDATA[(X, F) \mapsto  X]]></fr:tex>. But this functor can be constructed as <fr:tex display="inline"><![CDATA[\pi _G : \int  G \to  \mathcal {C}]]></fr:tex> for some presheaf <fr:tex display="inline"><![CDATA[G]]></fr:tex>, namely <fr:tex display="inline"><![CDATA[G(Y) = \hom (\operatorname {const}(Y), U)]]></fr:tex>. Therefore the argument goes through despite involving large colimits.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-0029/</fr:uri>
+            <fr:display-uri>algm-0029</fr:display-uri>
+            <fr:route>/forest/algm-0029/</fr:route>
+            <fr:title text="adjoint functor theorem for total categories">adjoint functor theorem for total categories</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given any cocontinuous functor <fr:tex display="inline"><![CDATA[F]]></fr:tex> from a <fr:link href="/forest/algm-0025/" title="total category" uri="https://trebor-huang.github.io/forest/algm-0025/" display-uri="algm-0025" type="local">total category</fr:link> <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> to a locally small category <fr:tex display="inline"><![CDATA[\mathcal {D}]]></fr:tex>, it has a right adjoint without additional assumptions.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    The idea of the adjoint functor theorem is to construct the large colimit
+    <fr:tex display="block"><![CDATA[G(X) = \operatorname *{colim}_{FY \to  X} Y.]]></fr:tex>
+    But this is exactly the kind of colimits mentioned in <fr:link href="/forest/algm-0025/" title="total category" uri="https://trebor-huang.github.io/forest/algm-0025/" display-uri="algm-0025" type="local">Definition <fr:contextual-number uri="https://trebor-huang.github.io/forest/algm-0025/" display-uri="algm-0025" /></fr:link>.
+    We can construct the right adjoint by letting <fr:tex display="inline"><![CDATA[G(X) = \operatorname {?}(F^* \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X))]]></fr:tex>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-0025/</fr:uri>
+            <fr:display-uri>algm-0025</fr:display-uri>
+            <fr:route>/forest/algm-0025/</fr:route>
+            <fr:title text="total category">total category</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a locally small category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, if the Yoneda embedding <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} : \mathcal {C} \to  \mathsf {Psh}(\mathcal {C})]]></fr:tex> has a left adjoint <fr:tex display="inline"><![CDATA[\operatorname {?}]]></fr:tex>, then we say teh category is <html:strong>total</html:strong>, or <html:strong>totally cocomplete</html:strong>. This is equivalent to requiring the colimit of <fr:tex display="inline"><![CDATA[\pi _F : \int  F \to  \mathcal {C}]]></fr:tex> to exist for every presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex>, which is the value of <fr:tex display="inline"><![CDATA[L(F)]]></fr:tex>. Notice that <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> being fully faithful implies the counit <fr:tex display="inline"><![CDATA[\operatorname {?}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)) \to  A]]></fr:tex> is an isomorphism.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>1</fr:month><fr:day>6</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    The universal property of the colimit says <fr:tex display="block"><![CDATA[\hom (\operatorname *{colim} \pi _F, X) \cong  \lim _{(Y, p)} \hom (Y, X).]]></fr:tex>
+    Using the characterization of limits in <fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex>, an element in this set maps <fr:tex display="inline"><![CDATA[F(Y)]]></fr:tex> to <fr:tex display="inline"><![CDATA[\hom (Y, X)]]></fr:tex> for each <fr:tex display="inline"><![CDATA[Y]]></fr:tex> naturally, which is exactly <fr:tex display="inline"><![CDATA[\hom (F, \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(X))]]></fr:tex>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

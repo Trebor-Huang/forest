@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>29</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-0027/</fr:uri>
+    <fr:display-uri>hmlg-0027</fr:display-uri>
+    <fr:route>/forest/hmlg-0027/</fr:route>
+    <fr:title text="effective Kan fibration">effective Kan fibration</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  An <html:strong>effective Kan fibration</html:strong> is a Kan fibration of <fr:link href="/forest/hmlg-001T/" title="effective simplicial set" uri="https://trebor-huang.github.io/forest/hmlg-001T/" display-uri="hmlg-001T" type="local">effective simplicial sets</fr:link> equipped with a computable choice of horn-filling. Note that it is different from <html:em>algebraic</html:em> Kan fibrations, because morphisms are not required to preserve the choice.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>29</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0029/</fr:uri>
+            <fr:display-uri>hmlg-0029</fr:display-uri>
+            <fr:route>/forest/hmlg-0029/</fr:route>
+            <fr:title text="Kan fiber bundle">Kan fiber bundle</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a <fr:link href="/forest/hmlg-0026/" title="simplicial fiber bundle" uri="https://trebor-huang.github.io/forest/hmlg-0026/" display-uri="hmlg-0026" type="local">simplicial fiber bundle</fr:link> <fr:tex display="inline"><![CDATA[p : E \to  B]]></fr:tex>, it is a Kan fibration iff the fiber <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a Kan complex. Hence we call it a <html:strong>Kan fiber bundle</html:strong>. The proof yields an <fr:link href="/forest/hmlg-0027/" title="effective Kan fibration" uri="https://trebor-huang.github.io/forest/hmlg-0027/" display-uri="hmlg-0027" type="local">effective Kan fibration</fr:link> if all the inputs are effective.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Given a horn <fr:tex display="inline"><![CDATA[\Lambda ^n_k \to  E]]></fr:tex> and a compatible simplex <fr:tex display="inline"><![CDATA[\Delta ^n \to  B]]></fr:tex>, by the definition of simplicial fiber bundles, we may trivialize the bundle on the simplex locally. But since <fr:tex display="inline"><![CDATA[F]]></fr:tex> is Kan, obviously <fr:tex display="inline"><![CDATA[F \times  \Delta ^n \to  \Delta ^n]]></fr:tex> is also Kan. Hence we may select the required filling.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>24</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-001T/</fr:uri>
+            <fr:display-uri>hmlg-001T</fr:display-uri>
+            <fr:route>/forest/hmlg-001T/</fr:route>
+            <fr:title text="effective simplicial set">effective simplicial set</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  An <html:strong>effective</html:strong> simplicial set consists of a sequence of types <fr:tex display="inline"><![CDATA[\operatorname {Geom}_n(X)]]></fr:tex> with decidable equality, representing the <html:strong>geometric</html:strong>, a.k.a. non-degenerate, simplices. The full set of simplices, written <fr:tex display="inline"><![CDATA[\Gamma (\Delta ^n, X)]]></fr:tex> or more simply <fr:tex display="inline"><![CDATA[X_n]]></fr:tex>, is given by a geometric simplex <fr:tex display="inline"><![CDATA[g \in  \operatorname {Geom}_k(X)]]></fr:tex> for some <fr:tex display="inline"><![CDATA[k]]></fr:tex> together with a <html:strong>degeneracy symbol</html:strong>, defined as a surjection <fr:tex display="inline"><![CDATA[\eta  : [n+1] \twoheadrightarrow  [k+1]]]></fr:tex>, formally representing the degeneracy map that brought <fr:tex display="inline"><![CDATA[g]]></fr:tex> up to dimension <fr:tex display="inline"><![CDATA[n]]></fr:tex>, written as <fr:tex display="inline"><![CDATA[\eta ^* g]]></fr:tex>. The effective simplicial set is also required to have computable <html:strong>face maps</html:strong> <fr:tex display="inline"><![CDATA[\partial _i : \operatorname {Geom}_{n+1}(X) \to  \Gamma (\Delta ^n, X)]]></fr:tex> for <fr:tex display="inline"><![CDATA[0 \le  i \le  n+1]]></fr:tex>, so that the usual simplicial identities hold. The simplicial set is <html:strong>of finite type</html:strong> if each <fr:tex display="inline"><![CDATA[\operatorname {Geom}_n(X)]]></fr:tex> is computably finite.
+</html:p>
+            <html:p>
+  Alternatively, we can make a definition that more closely follows the traditional one, requiring a sequence of types with decidable equality representing <html:em>all</html:em> simplices instead of geometric ones. We then need to impose an additional requirement that the degeneracy of a simplex is decidable. The equivalence of the two definitions is given by the Eilenberg–Zilber lemma.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>19</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-000Z/</fr:uri>
+    <fr:display-uri>hmlg-000Z</fr:display-uri>
+    <fr:route>/forest/hmlg-000Z/</fr:route>
+    <fr:title text="monomorphisms can be expressed using finite limits">monomorphisms can be expressed using finite limits</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Given a morphism <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> in an arbitrary category, we can express the condition of being monic using finite limits.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>19</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We claim that <fr:tex display="inline"><![CDATA[f]]></fr:tex> being monic is equivalent to the following square being a pullback square:
+    
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="9fa830daef8af2eee52c950b28cddcd6"><fr:resource-content><html:img src="/forest/9fa830daef8af2eee52c950b28cddcd6.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+      X & X \\
+      X & Y
+      \arrow ["f"', from=2-1, to=2-2]
+      \arrow ["f", from=1-2, to=2-2]
+      \arrow ["\textrm {id}"', from=1-1, to=2-1]
+      \arrow ["\textrm {id}", from=1-1, to=1-2]
+      \arrow ["\lrcorner "{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span></html:p>
+
+  <html:p>
+    For the forward implication, we consider the diagram
+    
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="0db518ebe4f25614019a3b9cc317632c"><fr:resource-content><html:img src="/forest/0db518ebe4f25614019a3b9cc317632c.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+      Z \\
+      & X & X \\
+      & X & Y
+      \arrow ["f"', from=3-2, to=3-3]
+      \arrow ["f", from=2-3, to=3-3]
+      \arrow ["\textrm {id}"', from=2-2, to=3-2]
+      \arrow ["\textrm {id}", from=2-2, to=2-3]
+      \arrow ["\lrcorner "{anchor=center, pos=0.125}, draw=none, from=2-2, to=3-3]
+      \arrow [dashed, from=1-1, to=2-2]
+      \arrow ["g"', curve={height=6pt}, from=1-1, to=3-2]
+      \arrow ["h", curve={height=-6pt}, from=1-1, to=2-3]
+    \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+    Since <fr:tex display="inline"><![CDATA[f]]></fr:tex> is mono, this diagram commutes iff <fr:tex display="inline"><![CDATA[g = h]]></fr:tex>, in which case there is a unique way to fill in the dashed arrow, which is <fr:tex display="inline"><![CDATA[g]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    On the other hand, if the diagram is a pullback, then for every pair of morphisms <fr:tex display="inline"><![CDATA[g, h : Z \rightrightarrows  X]]></fr:tex>, we can draw the diagram above, and obtain the dashed arrow <fr:tex display="inline"><![CDATA[k : Z \to  X]]></fr:tex>. The diagram commuting implies <fr:tex display="inline"><![CDATA[g = \textrm {id} \mathbin {\circ } k = h]]></fr:tex>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

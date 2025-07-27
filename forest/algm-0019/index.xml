@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>2</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/algm-0019/</fr:uri>
+    <fr:display-uri>algm-0019</fr:display-uri>
+    <fr:route>/forest/algm-0019/</fr:route>
+    <fr:title text="coverage">coverage</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A <html:strong>coverage</html:strong> on an arbitrary category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is given by a family of covers. A <html:strong>cover</html:strong> of some object <fr:tex display="inline"><![CDATA[A]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is a family of maps with codomain <fr:tex display="inline"><![CDATA[A]]></fr:tex>. Given a cover <fr:tex display="inline"><![CDATA[f_i : U_i \to  A]]></fr:tex> and a map <fr:tex display="inline"><![CDATA[g : B \to  A]]></fr:tex>, there is a cover of <fr:tex display="inline"><![CDATA[B]]></fr:tex> such that its composition with <fr:tex display="inline"><![CDATA[g]]></fr:tex> is a <html:strong>refinement</html:strong> of <fr:tex display="inline"><![CDATA[f_i]]></fr:tex>, in the sense that every map in the cover factors through one of <fr:tex display="inline"><![CDATA[f_i]]></fr:tex>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-001A/</fr:uri>
+            <fr:display-uri>algm-001A</fr:display-uri>
+            <fr:route>/forest/algm-001A/</fr:route>
+            <fr:title text="Grothendieck coverage">Grothendieck coverage</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, a <html:strong>Grothendieck coverage</html:strong> declares some <fr:link href="/forest/algm-001B/" title="sieve" uri="https://trebor-huang.github.io/forest/algm-001B/" display-uri="algm-001B" type="local">sieves</fr:link> to be coverings, such that the following holds.
+</html:p>
+            <html:ul><html:li>The maximal sieve <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A) \subseteq  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)]]></fr:tex> is always a covering.</html:li>
+  <html:li>Covering sieves are upwards closed, i.e. if <fr:tex display="inline"><![CDATA[S \subseteq  S']]></fr:tex> and <fr:tex display="inline"><![CDATA[S]]></fr:tex> is a covering sieve, then so is <fr:tex display="inline"><![CDATA[S']]></fr:tex>.</html:li>
+  <html:li>If <fr:tex display="inline"><![CDATA[S]]></fr:tex> is a covering sieve of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, and <fr:tex display="inline"><![CDATA[g : B \to  A]]></fr:tex> is a morphism, then the <fr:link href="/forest/algm-001C/" title="pullback of sieves" uri="https://trebor-huang.github.io/forest/algm-001C/" display-uri="algm-001C" type="local">pullback</fr:link> <fr:tex display="inline"><![CDATA[g^* S]]></fr:tex> is also a covering.</html:li>
+  <html:li>Suppose <fr:tex display="inline"><![CDATA[S]]></fr:tex> is a sieve, then the collection of arrows <fr:tex display="inline"><![CDATA[g]]></fr:tex> such that <fr:tex display="inline"><![CDATA[g^* S]]></fr:tex> is a covering is a sieve itself. If this sieve is a covering, then <fr:tex display="inline"><![CDATA[S]]></fr:tex> is also a covering.</html:li></html:ul>
+            <html:p>
+  A Grothendieck coverage can be viewed as a <fr:link href="/forest/algm-0019/" title="coverage" uri="https://trebor-huang.github.io/forest/algm-0019/" display-uri="algm-0019" type="local">coverage</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-001D/</fr:uri>
+            <fr:display-uri>algm-001D</fr:display-uri>
+            <fr:route>/forest/algm-001D/</fr:route>
+            <fr:title text="descent data of presheaves">descent data of presheaves</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, a <fr:link href="/forest/algm-001B/" title="sieve" uri="https://trebor-huang.github.io/forest/algm-001B/" display-uri="algm-001B" type="local">sieve</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex> and a presheaf <fr:tex display="inline"><![CDATA[P : \mathcal {C}^\textrm {op} \to  \mathsf {Set}]]></fr:tex>, a set of <html:strong>descent data</html:strong> or a <html:strong>compatible family</html:strong> is a morphism <fr:tex display="inline"><![CDATA[S \to  P]]></fr:tex>. Expanding this, it is a family of <html:em>local sections</html:em> <fr:tex display="inline"><![CDATA[s \in  \Gamma (U, P)]]></fr:tex> assigned for each morphism <fr:tex display="inline"><![CDATA[U \to  A]]></fr:tex> in the sieve <fr:tex display="inline"><![CDATA[S]]></fr:tex>, such that the local sections are compatible on restriction. There is an obvious map from the sections <fr:tex display="inline"><![CDATA[\Gamma (A, P)]]></fr:tex> to the descent data given by restriction.
+</html:p>
+            <html:p>
+  More generally, given a general <fr:link href="/forest/algm-0019/" title="coverage" uri="https://trebor-huang.github.io/forest/algm-0019/" display-uri="algm-0019" type="local">cover</fr:link>, a set of descent data is a family of sections <fr:tex display="inline"><![CDATA[s_i \in  \Gamma (U_i, P)]]></fr:tex> for each morphism <fr:tex display="inline"><![CDATA[f_i : U_i \to  A]]></fr:tex> in the cover, such that in any common restriction of <fr:tex display="inline"><![CDATA[U_i]]></fr:tex> and <fr:tex display="inline"><![CDATA[U_j]]></fr:tex>, the sections agree. This can be equivalently expressed as the descent data of the sieve generated by the cover.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-001F/</fr:uri>
+            <fr:display-uri>algm-001F</fr:display-uri>
+            <fr:route>/forest/algm-001F/</fr:route>
+            <fr:title text="sheaf">sheaf</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> equipped with a <fr:link href="/forest/algm-0019/" title="coverage" uri="https://trebor-huang.github.io/forest/algm-0019/" display-uri="algm-0019" type="local">coverage</fr:link>, we define a presheaf <fr:tex display="inline"><![CDATA[P : \mathcal {C}^\textrm {op} \to  \mathsf {Set}]]></fr:tex> to be a <html:strong>sheaf</html:strong> if it satisfies the <html:strong>sheaf condition</html:strong>: for every cover of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, the map from sections of <fr:tex display="inline"><![CDATA[A]]></fr:tex> to <fr:link href="/forest/algm-001D/" title="descent data of presheaves" uri="https://trebor-huang.github.io/forest/algm-001D/" display-uri="algm-001D" type="local">descent data</fr:link> of the cover is a bijection. It is a <html:strong>separated presheaf</html:strong> if the map is an injection.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

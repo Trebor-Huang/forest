@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>5</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/algm-000K/</fr:uri>
+    <fr:display-uri>algm-000K</fr:display-uri>
+    <fr:route>/forest/algm-000K/</fr:route>
+    <fr:title text="sheaf and stalk from R-modules">sheaf and stalk from <fr:tex display="inline"><![CDATA[R]]></fr:tex>-modules</fr:title>
+    <fr:taxon>Remark</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  The proofs in <fr:link href="/forest/algm-000I/" title="structure sheaf of a ring spectrum" uri="https://trebor-huang.github.io/forest/algm-000I/" display-uri="algm-000I" type="local">Definition <fr:contextual-number uri="https://trebor-huang.github.io/forest/algm-000I/" display-uri="algm-000I" /></fr:link> and <fr:link href="/forest/algm-000J/" title="stalk of the structure sheaf on \Spec (R)" uri="https://trebor-huang.github.io/forest/algm-000J/" display-uri="algm-000J" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/algm-000J/" display-uri="algm-000J" /></fr:link> do not make use of the multiplication on the numerators. Therefore they immediately generalizes to modules. In particular, we have a sheaf corresponding to an <fr:tex display="inline"><![CDATA[R]]></fr:tex>-module <fr:tex display="inline"><![CDATA[M]]></fr:tex>, whose sections over <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> form the <fr:tex display="inline"><![CDATA[R[f^{-1}]]]></fr:tex>-module <fr:tex display="inline"><![CDATA[M[f^{-1}]]]></fr:tex>. The stalk on <fr:tex display="inline"><![CDATA[\left [\mathfrak {p}\right ]]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[M_{\left [\mathfrak {p}\right ]}]]></fr:tex>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>5</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-000J/</fr:uri>
+            <fr:display-uri>algm-000J</fr:display-uri>
+            <fr:route>/forest/algm-000J/</fr:route>
+            <fr:title text="stalk of the structure sheaf on \Spec (R)">stalk of the structure sheaf on <fr:tex display="inline"><![CDATA[\Spec (R)]]></fr:tex></fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a point <fr:tex display="inline"><![CDATA[\left [\mathfrak {p}\right ] \in  \operatorname {Spec}(R)]]></fr:tex>, the stalk at the point is the localization <fr:tex display="inline"><![CDATA[R_{\mathfrak {p}}]]></fr:tex>. In particular, the ring spectrum is a <fr:link href="/forest/algm-000L/" title="locally ringed space" uri="https://trebor-huang.github.io/forest/algm-000L/" display-uri="algm-000L" type="local">locally ringed space</fr:link> by <fr:link href="/forest/algm-000N/" title="stalks of locally ringed topological space" uri="https://trebor-huang.github.io/forest/algm-000N/" display-uri="algm-000N" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/algm-000N/" display-uri="algm-000N" /></fr:link>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>5</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We take a directed limit. The elements are from some <fr:tex display="inline"><![CDATA[R[f^{-1}]]]></fr:tex> with <fr:tex display="inline"><![CDATA[\mathfrak {p} \nmid  f]]></fr:tex>, i.e. the elements can be written as <fr:tex display="inline"><![CDATA[g/f^n]]></fr:tex>. Two elements are equal iff their common restriction to some <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> is equal, i.e. <fr:tex display="inline"><![CDATA[g_1/f_1^n = g_2/f_2^m]]></fr:tex> iff <fr:tex display="inline"><![CDATA[(g_1 f_2^m - g_2 f_1^n) f^k = 0]]></fr:tex>. These are exactly the definition of the localization away from <fr:tex display="inline"><![CDATA[\mathfrak {p}]]></fr:tex>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-000I/</fr:uri>
+            <fr:display-uri>algm-000I</fr:display-uri>
+            <fr:route>/forest/algm-000I/</fr:route>
+            <fr:title text="structure sheaf of a ring spectrum">structure sheaf of a ring spectrum</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a commutative ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>, we define a sheaf <fr:tex display="inline"><![CDATA[\mathscr {O}]]></fr:tex> of rings on <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> called the <html:strong>structure sheaf</html:strong>. Let <fr:tex display="inline"><![CDATA[\Gamma (D(f), \mathscr {O}) = R[f^{-1}]]]></fr:tex>. Suppose <fr:tex display="inline"><![CDATA[D(f) \subseteq  D(g)]]></fr:tex> we define the restriction morphism to be the localization map <fr:tex display="inline"><![CDATA[R[g^{-1}] \to  R[f^{-1}]]]></fr:tex>, since by <fr:link href="/forest/algm-0002/" title="radical ideals bijectively correspond to open sets" uri="https://trebor-huang.github.io/forest/algm-0002/" display-uri="algm-0002" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/algm-0002/" display-uri="algm-0002" /></fr:link> the latter is a further localization of the former. This turns <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> into a <fr:link href="/forest/algm-000M/" title="ringed space" uri="https://trebor-huang.github.io/forest/algm-000M/" display-uri="algm-000M" type="local">ringed space</fr:link>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We just need to verify the sheaf axioms on the bases, i.e. given a family of elements <fr:tex display="inline"><![CDATA[f_i \in  R]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\bigcup _i D(f_i) = D(f)]]></fr:tex>, we need to show that
+    <fr:tex display="block"><![CDATA[R[f^{-1}] \to  \prod _{i \in  I} R[f_i^{-1}] \rightrightarrows  \prod _{i \ne  j} R[(f_i f_j)^{-1}]]]></fr:tex>
+    is an equalizer. Notice that <fr:tex display="inline"><![CDATA[R[f_i^{-1}] \cong  R[f^{-1}][f_i^{-1}]]]></fr:tex>. So we may reassign <fr:tex display="inline"><![CDATA[S = R[f^{-1}]]]></fr:tex>. This simplifies the problem to
+    <fr:tex display="block"><![CDATA[S \to  \prod _{i \in  I} S[f_i^{-1}] \rightrightarrows  \prod _{i \ne  j} S[(f_i f_j)^{-1}],]]></fr:tex>
+    where <fr:tex display="inline"><![CDATA[D(f_i)]]></fr:tex> covers the whole space <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex>. 
+  </html:p>
+
+  <html:p>
+    We first describe the intuition. Since we know <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex> is <fr:link href="/forest/algm-000B/" title="a ring spectrum is quasi-compact" uri="https://trebor-huang.github.io/forest/algm-000B/" display-uri="algm-000B" type="local">quasi-compact</fr:link>, we can roughly expect to reduce the problem to finite cases. Localization is a bit complicated due to zero-divisors, but suppose we don’t have them, we have elements <fr:tex display="inline"><![CDATA[g_i/f_i^{d_i} \in  S[f_i^{-1}]]]></fr:tex> that are equal in their common domain. Since <fr:tex display="inline"><![CDATA[D(f_i) = D(f_i^{d_i})]]></fr:tex> covers <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex>, we have a linear combination <fr:tex display="inline"><![CDATA[1 = \sum _i c_i f_i^{d_i}]]></fr:tex>, which is akin to a partition of unity. Suppose the putative gluing is <fr:tex display="inline"><![CDATA[f]]></fr:tex>, multiplying with the partition of unity we get
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      f &= \sum _{i \in  I} c_i f_i^{d_i} f \\
+      &= \sum  c_i f_i^{d_i} \frac {g_i}{f_i^{d_i}} \\
+      &= \sum  c_i g_i.
+    \end {aligned}]]></fr:tex>
+    which defines the gluing. We just have to make this reasoning precise. We first deal with the finite case.
+  </html:p>
+
+  <html:p>
+    Suppose there are elements <fr:tex display="inline"><![CDATA[g_i/f_i^d \in  S[f_i^{-1}]]]></fr:tex>, where we are allowed to use a single exponent <fr:tex display="inline"><![CDATA[d]]></fr:tex> by finiteness. The compatibility requirement is <fr:tex display="block"><![CDATA[(g_i f_j^d - g_j f_i^d) (f_i f_j)^{N} = 0.]]></fr:tex> If there is a solution <fr:tex display="inline"><![CDATA[f]]></fr:tex> to the gluing problem, it would need to satisfy <fr:tex display="inline"><![CDATA[(f f_i^d - g_i) f_i^M = 0]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[D(f_i) = D(f_i^R)]]></fr:tex> covers <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S)]]></fr:tex>, we have a linear combination <fr:tex display="inline"><![CDATA[1 = \sum _i c_i f_i^R]]></fr:tex> for large enough <fr:tex display="inline"><![CDATA[R]]></fr:tex>. Hence
+    <fr:tex display="block"><![CDATA[f = \sum _{i \in  I} c_i f f_i^R = \sum  c_i g_i f_i^{R-d}.]]></fr:tex> This uniquely determines <fr:tex display="inline"><![CDATA[f]]></fr:tex>. And indeed, this solution satisfies our requirements, because when restricted to <fr:tex display="inline"><![CDATA[D(f_j)]]></fr:tex>, we have
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      f f_j^d \cdot  f_j^R &= \sum  c_i g_i f_i^{R-d} f_j^{R+d} \\
+      &= \sum  c_i g_j f_i^{R} f_j^{R} \\
+      &= g_j f_j^R \cdot  \sum  c_i f_i^R = g_j f_j^R.
+    \end {aligned}]]></fr:tex>
+    This reasoning is valid as long as <fr:tex display="inline"><![CDATA[R > N + 2d]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    If there are infinitely many opens, we first use <fr:link href="/forest/algm-000B/" title="a ring spectrum is quasi-compact" uri="https://trebor-huang.github.io/forest/algm-000B/" display-uri="algm-000B" type="local">quasi-compactness</fr:link> to select a finite number <fr:tex display="inline"><![CDATA[D(f_1), \dots , D(f_k)]]></fr:tex> that covers the whole space. The uniqueness of gluing solutions in the finite case implies that of the infinite case. For existence, first take the solution <fr:tex display="inline"><![CDATA[f]]></fr:tex> for <fr:tex display="inline"><![CDATA[D(f_1), \dots , D(f_k)]]></fr:tex>. Then consider the solution on <fr:tex display="inline"><![CDATA[D(f_1), \dots , D(f_k), D(g)]]></fr:tex> for every <fr:tex display="inline"><![CDATA[g]]></fr:tex>. This solution must be equal to <fr:tex display="inline"><![CDATA[f]]></fr:tex> by uniqueness. Therefore <fr:tex display="inline"><![CDATA[f]]></fr:tex> restrict to the correct function on each <fr:tex display="inline"><![CDATA[D(g)]]></fr:tex>, showing that <fr:tex display="inline"><![CDATA[f]]></fr:tex> is the required solution.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

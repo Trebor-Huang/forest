@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>19</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-000V/</fr:uri>
+    <fr:display-uri>hmlg-000V</fr:display-uri>
+    <fr:route>/forest/hmlg-000V/</fr:route>
+    <fr:title text="Kernel, image, cokernel and coimage of chain complexes">Kernel, image, cokernel and coimage of chain complexes</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Given a chain map <fr:tex display="inline"><![CDATA[f_\bullet  : C_\bullet  \to  D_\bullet ]]></fr:tex>, we can take the kernel, image, cokernel and coimage in each dimension, to obtain new chain complexes. It is a matter of unpacking and repacking quotients to verify that the relevant squares commute, rendering the following diagram of chain complexes.
+</html:p>
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="0bc1ee6bda6f8c4f95778bed17501fc5"><fr:resource-content><html:img src="/forest/0bc1ee6bda6f8c4f95778bed17501fc5.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+  && {\operatorname {im} f} & {\operatorname {coim} f} \\
+  & C &&& D \\
+  {\ker  f} &&&&& {\operatorname {coker} f}
+  \arrow ["\sim ", from=1-3, to=1-4]
+  \arrow [from=2-2, to=1-3]
+  \arrow [from=1-4, to=2-5]
+  \arrow [from=3-1, to=2-2]
+  \arrow [from=2-5, to=3-6]
+\end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000L/</fr:uri>
+            <fr:display-uri>hmlg-000L</fr:display-uri>
+            <fr:route>/forest/hmlg-000L/</fr:route>
+            <fr:title text="Operations on chain complexes">Operations on chain complexes</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  It is fruitful to manipulate chain complexes as a whole. This allows us to neatly package some common algebraic operations.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-000I/</fr:uri>
+                <fr:display-uri>hmlg-000I</fr:display-uri>
+                <fr:route>/forest/hmlg-000I/</fr:route>
+                <fr:title text="direct sum and product of chain complexes">direct sum and product of chain complexes</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Given a family of chain complexes <fr:tex display="inline"><![CDATA[C_{\alpha , \bullet }]]></fr:tex>, we can take the direct sum in each dimension, giving <fr:tex display="inline"><![CDATA[D_\bullet  = \bigoplus _\alpha  C_{\alpha , \bullet }]]></fr:tex>, which is another chain complex. Dually, we can take the direct product <fr:tex display="inline"><![CDATA[\prod _\alpha  C_{\alpha , \bullet }]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  As another example, the consideration of quotienting out a subspace <fr:tex display="inline"><![CDATA[Y \subseteq  X]]></fr:tex> naturally leads us to relative homology. We construct a chain complex by taking a quotient in each dimension: <fr:tex display="block"><![CDATA[0 \to  C_\bullet (Y) \hookrightarrow  C_\bullet (X) \to  C_\bullet (X, Y) \to  0.]]></fr:tex> These maps commute with the boundary maps, so it can be regarded as an exact sequence of chain complexes. Thus we are led to the following definitions.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-000K/</fr:uri>
+                <fr:display-uri>hmlg-000K</fr:display-uri>
+                <fr:route>/forest/hmlg-000K/</fr:route>
+                <fr:title text="bicomplex">bicomplex</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  A <html:strong>bicomplex</html:strong> is a chain complex of chain complexes. More specifically, we have a grid of objects <fr:tex display="inline"><![CDATA[A_{m, n}]]></fr:tex>, vertical maps <fr:tex display="inline"><![CDATA[d : A_{m, n} \to  A_{m, n-1}]]></fr:tex> and horizontal maps <fr:tex display="inline"><![CDATA[\delta  : A_{m, n} \to  A_{m-1, n}]]></fr:tex>. Every square in the grid commutes, and <fr:tex display="inline"><![CDATA[d^2 = \delta ^2 = 0]]></fr:tex>.
+</html:p>
+                <html:p>
+  Each column <fr:tex display="inline"><![CDATA[A_{m, \bullet }]]></fr:tex> in the bicomplex is a chain complex, and <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex> are chain maps between the column complexes. Similarly, each row forms a chain complex, and <fr:tex display="inline"><![CDATA[d]]></fr:tex> are chain maps between the row complexes.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-000J/</fr:uri>
+                <fr:display-uri>hmlg-000J</fr:display-uri>
+                <fr:route>/forest/hmlg-000J/</fr:route>
+                <fr:title text="exact sequence of chain complexes">exact sequence of chain complexes</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  An <html:strong>exact sequence</html:strong> of chain complexes <fr:tex display="inline"><![CDATA[C_{m, \bullet }]]></fr:tex> is a <fr:link href="/forest/hmlg-000K/" title="bicomplex" uri="https://trebor-huang.github.io/forest/hmlg-000K/" display-uri="hmlg-000K" type="local">bicomplex</fr:link> such that the rows are <fr:link href="/forest/hmlg-000D/" title="acyclic chain complex" uri="https://trebor-huang.github.io/forest/hmlg-000D/" display-uri="hmlg-000D" type="local">exact</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>19</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-000V/</fr:uri>
+                <fr:display-uri>hmlg-000V</fr:display-uri>
+                <fr:route>/forest/hmlg-000V/</fr:route>
+                <fr:title text="Kernel, image, cokernel and coimage of chain complexes">Kernel, image, cokernel and coimage of chain complexes</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Given a chain map <fr:tex display="inline"><![CDATA[f_\bullet  : C_\bullet  \to  D_\bullet ]]></fr:tex>, we can take the kernel, image, cokernel and coimage in each dimension, to obtain new chain complexes. It is a matter of unpacking and repacking quotients to verify that the relevant squares commute, rendering the following diagram of chain complexes.
+</html:p>
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="0bc1ee6bda6f8c4f95778bed17501fc5"><fr:resource-content><html:img src="/forest/0bc1ee6bda6f8c4f95778bed17501fc5.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+  && {\operatorname {im} f} & {\operatorname {coim} f} \\
+  & C &&& D \\
+  {\ker  f} &&&&& {\operatorname {coker} f}
+  \arrow ["\sim ", from=1-3, to=1-4]
+  \arrow [from=2-2, to=1-3]
+  \arrow [from=1-4, to=2-5]
+  \arrow [from=3-1, to=2-2]
+  \arrow [from=2-5, to=3-6]
+\end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

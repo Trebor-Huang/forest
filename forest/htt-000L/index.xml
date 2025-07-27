@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>1</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/htt-000L/</fr:uri>
+    <fr:display-uri>htt-000L</fr:display-uri>
+    <fr:route>/forest/htt-000L/</fr:route>
+    <fr:title text="saturated cofibration class">saturated cofibration class</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A class of morphisms in a category with suitable structures is called a <fr:tex display="inline"><![CDATA[\kappa ]]></fr:tex>-<html:strong>saturated (cofibration) class</html:strong> if it is closed under retracts, pushouts, small coproducts, transfinite compositions up to <fr:tex display="inline"><![CDATA[\kappa ]]></fr:tex> and contains all isomorphisms (nullary compositions).
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000W/</fr:uri>
+            <fr:display-uri>htt-000W</fr:display-uri>
+            <fr:route>/forest/htt-000W/</fr:route>
+            <fr:title text="extension of minimal fibrations along anodyne maps">extension of minimal fibrations along anodyne maps</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a minimal fibration <fr:tex display="inline"><![CDATA[p : E \to  X]]></fr:tex> and an anodyne map <fr:tex display="inline"><![CDATA[i : X \to  X']]></fr:tex>, we can extend the fibration to <fr:tex display="inline"><![CDATA[p' : E' \to  X']]></fr:tex>, such that <fr:tex display="inline"><![CDATA[p]]></fr:tex> is the pullback of <fr:tex display="inline"><![CDATA[p']]></fr:tex> along <fr:tex display="inline"><![CDATA[i]]></fr:tex>, and <fr:tex display="inline"><![CDATA[i' : E \to  E']]></fr:tex> is also an anodyne map.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We prove that we can do this for all horn inclusions, and then prove the class of such maps is a <fr:link href="/forest/htt-000L/" title="saturated cofibration class" uri="https://trebor-huang.github.io/forest/htt-000L/" display-uri="htt-000L" type="local">saturated cofibration class</fr:link>. For horn inclusions, a high-brow way to see this is to use the simplicial group <fr:tex display="inline"><![CDATA[\mathrm {Aut}(F) \subseteq  F^F]]></fr:tex> where <fr:tex display="inline"><![CDATA[F]]></fr:tex> is the fiber, and <fr:tex display="inline"><![CDATA[\mathrm {Aut}]]></fr:tex> takes the simplicial subset spanned by the isomorphisms. We see that a <fr:link href="/forest/hmlg-0026/" title="simplicial fiber bundle" uri="https://trebor-huang.github.io/forest/hmlg-0026/" display-uri="hmlg-0026" type="local">simplicial fiber bundle</fr:link> is essentially described by a map into the classifying space defined by the <fr:link href="/forest/hmlg-0021/" title="W-bar construction" uri="https://trebor-huang.github.io/forest/hmlg-0021/" display-uri="hmlg-0021" type="local">W-bar construction</fr:link>. In any case, a minimal fibration over a horn is isomorphic to a product projection, and therefore <fr:tex display="inline"><![CDATA[\Delta ^n \times  F \to  \Delta ^n]]></fr:tex> obviously qualifies as an extension. We note that anodyne maps are closed under product with other simplicial sets.
+  </html:p>
+
+  <html:p>
+    Saturation is mostly straightforward, except pushouts. The obvious solution for pushouts requires us to verify this variant of Mather cube theorem in the category of simplicial sets (and hence sets): if there are cartesian morphisms of maps <fr:tex display="inline"><![CDATA[f_1 \leftarrow  f \rightarrow  f_2]]></fr:tex>, then taking pushouts we have <fr:tex display="inline"><![CDATA[f_1 \to  g \leftarrow  f_2]]></fr:tex>. If <fr:tex display="inline"><![CDATA[f \to  f_1]]></fr:tex> is injective, then <fr:tex display="inline"><![CDATA[f_1 \to  g \leftarrow  f_2]]></fr:tex> is also cartesian. This is known as <fr:link href="https://ncatlab.org/nlab/show/adhesive+category" type="external">adhesiveness</fr:link>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000M/</fr:uri>
+            <fr:display-uri>htt-000M</fr:display-uri>
+            <fr:route>/forest/htt-000M/</fr:route>
+            <fr:title text="trivial fibrations of simplicial sets">trivial fibrations of simplicial sets</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  A <html:strong>trivial fibration</html:strong> of simplicial sets is a map that right lifts against all simplex boundary inclusions <fr:tex display="inline"><![CDATA[\partial  \Delta ^n \hookrightarrow  \Delta ^n]]></fr:tex>. A <html:strong>cofibration</html:strong> is a map that left lifts against all trivial fibrations. A cofibration is exactly a monomorphism.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Using the small object argument, a trivial cofibration is the smallest <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>-<fr:link href="/forest/htt-000L/" title="saturated cofibration class" uri="https://trebor-huang.github.io/forest/htt-000L/" display-uri="htt-000L" type="local">saturated cofibration class</fr:link> containing simplex boundary inclusions. Monomorphisms form such a class, and so a trivial cofibration is a monomorphism. For the other direction, we prove that every monomorphism can be obtained by <fr:tex display="inline"><![CDATA[\omega ]]></fr:tex>-saturation. We first note that any subset <fr:tex display="inline"><![CDATA[X \subseteq  \Delta ^n]]></fr:tex> is a trivial fibration by inductively dropping faces from <fr:tex display="inline"><![CDATA[\Delta ^n \subseteq  \Delta ^n]]></fr:tex>: if we want to drop a <fr:tex display="inline"><![CDATA[k]]></fr:tex>-dimensional face, perform a cobase change of <fr:tex display="inline"><![CDATA[\partial  \Delta ^k \hookrightarrow  \Delta ^k]]></fr:tex> and compose it with the current subset inclusion.
+  </html:p>
+
+  <html:p>
+    Given a simplicial subset <fr:tex display="inline"><![CDATA[X \subseteq  Y]]></fr:tex>, we construct a tower of inclusions <fr:tex display="inline"><![CDATA[X \subseteq  Z_0 \subseteq  Z_1 \subseteq  \cdots  \subseteq  Y]]></fr:tex>, where <fr:tex display="inline"><![CDATA[Z_n]]></fr:tex> is the union of <fr:tex display="inline"><![CDATA[X]]></fr:tex> with the <fr:tex display="inline"><![CDATA[n]]></fr:tex>-skeleton of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>, considered as simplicial subsets of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>. We just need to prove each inclusion is a trivial cofibration. For <fr:tex display="inline"><![CDATA[X \subseteq  Z_0]]></fr:tex>, simply take the coproduct with a bunch of <fr:tex display="inline"><![CDATA[\varnothing  = \partial  \Delta ^0 \subseteq  \Delta ^0]]></fr:tex>. For <fr:tex display="inline"><![CDATA[Z_{n-1} \subseteq  Z_{n}]]></fr:tex>, take the coproduct of a bunch of <fr:tex display="inline"><![CDATA[\partial \Delta ^n \subseteq  \Delta ^n]]></fr:tex>, and perform a cobase change to glue them onto <fr:tex display="inline"><![CDATA[Z_{n-1}]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    Constructively, this argument requires us to decide whether a simplex is in the subset, and if so determine whether it is non-degerate (otherwise we do not want to take a copy of that simplex in the coproduct).
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

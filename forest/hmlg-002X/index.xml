@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>8</fr:month>
+      <fr:day>6</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-002X/</fr:uri>
+    <fr:display-uri>hmlg-002X</fr:display-uri>
+    <fr:route>/forest/hmlg-002X/</fr:route>
+    <fr:title text="commutativity of H \mathbb {Z}-modules">commutativity of <fr:tex display="inline"><![CDATA[H \mathbb {Z}]]></fr:tex>-modules</fr:title>
+    <fr:taxon>Intuition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Connective spectra can be thought of as <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-groups that are maximally commutative, within the confines of operadic algebras. This manifests as the little cubes operad, being able to freely move around in high dimensional space.
+</html:p>
+    <html:p>
+  However, <fr:tex display="inline"><![CDATA[H \mathbb {Z}]]></fr:tex>-modules can be seen as even more commutative. Consider the equation <fr:tex display="inline"><![CDATA[x + x = x + x]]></fr:tex> swapping the two arguments. It is impossible to talk about the behavior of this path because in operads variables cannot repeat. Hence this might not be homotopic to the trivial path, and indeed it is not in the sphere spectrum <fr:tex display="inline"><![CDATA[\mathbb {S}]]></fr:tex> — this path is given by the non-trivial element in the second stable homotopy group <fr:tex display="inline"><![CDATA[\mathbb  Z / 2 \mathbb  Z]]></fr:tex>. <fr:tex display="inline"><![CDATA[H \mathbb {Z}]]></fr:tex>-modules requires further that given <fr:tex display="inline"><![CDATA[n]]></fr:tex> identical elements, the space of different possible sums is contractible.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

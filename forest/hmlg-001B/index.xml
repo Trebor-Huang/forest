@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-001B/</fr:uri>
+    <fr:display-uri>hmlg-001B</fr:display-uri>
+    <fr:route>/forest/hmlg-001B/</fr:route>
+    <fr:title text="Terminology of effective algebraic cellular complex">Terminology of <fr:link href="/forest/hmlg-001A/" title="effective algebraic cellular complex" uri="https://trebor-huang.github.io/forest/hmlg-001A/" display-uri="hmlg-001A" type="local">effective <fr:link href="/forest/hmlg-0013/" title="algebraic cellular complex" uri="https://trebor-huang.github.io/forest/hmlg-0013/" display-uri="hmlg-0013" type="local">algebraic cellular complex</fr:link></fr:link></fr:title>
+    <fr:taxon>Remark</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  The terminology chosen here differs from that in <fr:link href="/forest/kenzo/" title="Kenzo" uri="https://trebor-huang.github.io/forest/kenzo/" display-uri="kenzo" type="local">Kenzo</fr:link>. What we call effective is named <html:em>locally effective</html:em>; and what we call effective of finite type is named <html:em>effective</html:em> instead.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>Julio Rubio García, Francis Sergeraert et al.</fr:author>
+            </fr:authors>
+            <fr:uri>https://trebor-huang.github.io/forest/kenzo/</fr:uri>
+            <fr:display-uri>kenzo</fr:display-uri>
+            <fr:route>/forest/kenzo/</fr:route>
+            <fr:title text="Kenzo">Kenzo</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="external">https://github.com/gheber/kenzo</fr:meta>
+            <fr:meta name="external">https://www-fourier.ujf-grenoble.fr/~sergerar/Kenzo/</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Kenzo is a symbolic software for effective homology computation.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-001A/</fr:uri>
+            <fr:display-uri>hmlg-001A</fr:display-uri>
+            <fr:route>/forest/hmlg-001A/</fr:route>
+            <fr:title text="effective algebraic cellular complex">effective <fr:link href="/forest/hmlg-0013/" title="algebraic cellular complex" uri="https://trebor-huang.github.io/forest/hmlg-0013/" display-uri="hmlg-0013" type="local">algebraic cellular complex</fr:link></fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given an <fr:link href="/forest/hmlg-0013/" title="algebraic cellular complex" uri="https://trebor-huang.github.io/forest/hmlg-0013/" display-uri="hmlg-0013" type="local">algebraic cellular complex</fr:link>, suppose we can encode the basis sets <fr:tex display="inline"><![CDATA[C_\bullet ]]></fr:tex> such that they have <fr:link href="/forest/todo/" title="Unfinished trees" uri="https://trebor-huang.github.io/forest/todo/" display-uri="todo" type="local">decidable equality</fr:link>, and the maps <fr:tex display="inline"><![CDATA[C_k \to  \mathbb {Z}[C_{k-1}]]]></fr:tex> are computable, then we say the ACC is <html:strong>effective</html:strong>. Suppose further that <fr:tex display="inline"><![CDATA[C_\bullet ]]></fr:tex> are (computably) finite sets, then we say it is <html:strong>effective of finite type</html:strong>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

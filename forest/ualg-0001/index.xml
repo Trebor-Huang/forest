@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>9</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/ualg-0001/</fr:uri>
+    <fr:display-uri>ualg-0001</fr:display-uri>
+    <fr:route>/forest/ualg-0001/</fr:route>
+    <fr:title text="monad on a category">monad on a category</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A <html:strong>monad</html:strong> on a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is a functor <fr:tex display="inline"><![CDATA[M : \mathcal {C} \to  \mathcal {C}]]></fr:tex> equipped with natural transformations <fr:tex display="inline"><![CDATA[\eta  : \textrm {Id} \to  M]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mu  : M \mathbin {\circ } M \to  M]]></fr:tex> satisfying identity and associativity laws. In an unbiased way, we have a family of natural transformations <fr:tex display="inline"><![CDATA[M^n \to  M]]></fr:tex> with associativity.
+</html:p>
+    <html:p>
+  In short, it is a monoid in the category of endofunctors equipped with composition as the monoidal product.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>14</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/ualg-0007/</fr:uri>
+            <fr:display-uri>ualg-0007</fr:display-uri>
+            <fr:route>/forest/ualg-0007/</fr:route>
+            <fr:title text="decomposition of a monad into adjoint functors">decomposition of a monad into adjoint functors</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a pair of adjoint functor <fr:tex display="inline"><![CDATA[F \dashv  G]]></fr:tex>, <fr:tex display="inline"><![CDATA[G \mathbin {\circ } F]]></fr:tex> forms a <fr:link href="/forest/ualg-0001/" title="monad on a category" uri="https://trebor-huang.github.io/forest/ualg-0001/" display-uri="ualg-0001" type="local">monad</fr:link>. As a converse, we can consider the adjunctions whose composition is a given monad <fr:tex display="inline"><![CDATA[M]]></fr:tex>. These decompositions form a bicategory. The morphisms between two adjunctions are given by functors <fr:tex display="inline"><![CDATA[L]]></fr:tex> that make the two triangles below commute.
+  
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="baf94766668b8f952075917586868256"><fr:resource-content><html:img src="/forest/baf94766668b8f952075917586868256.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+    {\mathcal {D}_2} & {\mathcal {D}_1} & {\mathcal {C}}
+    \arrow [shift right, from=1-2, to=1-3]
+    \arrow [shift right, from=1-3, to=1-2]
+    \arrow [shift right, curve={height=18pt}, from=1-1, to=1-3]
+    \arrow [shift right, curve={height=18pt}, from=1-3, to=1-1]
+    \arrow ["L"{description}, from=1-2, to=1-1]
+  \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+  More precisely, the objects of this bicategory are given by adjunctions <fr:tex display="inline"><![CDATA[F \dashv  G]]></fr:tex> together with a natural isomorphism <fr:tex display="inline"><![CDATA[G \mathbin {\circ } F \cong  M]]></fr:tex>. A morphism from <fr:tex display="inline"><![CDATA[F_1 \dashv  G_1]]></fr:tex> to <fr:tex display="inline"><![CDATA[F_2 \dashv  G_2]]></fr:tex> is given by a functor <fr:tex display="inline"><![CDATA[L]]></fr:tex> together with two natural isomorphisms <fr:tex display="inline"><![CDATA[L \mathbin {\circ } G_1 \cong  G_2]]></fr:tex>, <fr:tex display="inline"><![CDATA[F_1 \cong  F_2 \mathbin {\circ } L]]></fr:tex>. A <fr:tex display="inline"><![CDATA[2]]></fr:tex>-morphism is given by a natural transformation such that the relevant composition of natural transformations are equal.
+</html:p>
+            <html:p>
+  This bicategory has initial and terminal objects.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/ualg-0008/</fr:uri>
+                <fr:display-uri>ualg-0008</fr:display-uri>
+                <fr:route>/forest/ualg-0008/</fr:route>
+                <fr:title text="the Kleisli category induces the initial decomposition of a monad">the Kleisli category induces the initial decomposition of a monad</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  The <fr:link href="/forest/ualg-0004/" title="the Kleisli category of a monad" uri="https://trebor-huang.github.io/forest/ualg-0004/" display-uri="ualg-0004" type="local">Kleisli category</fr:link> together with its canonical adjunction is the initial <fr:link href="/forest/ualg-0007/" title="decomposition of a monad into adjoint functors" uri="https://trebor-huang.github.io/forest/ualg-0007/" display-uri="ualg-0007" type="local">decomposition of a monad into adjoint functors</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/ualg-0009/</fr:uri>
+                <fr:display-uri>ualg-0009</fr:display-uri>
+                <fr:route>/forest/ualg-0009/</fr:route>
+                <fr:title text="the Eilenberg–Moore category induces the terminal decomposition of a monad">the Eilenberg–Moore category induces the terminal decomposition of a monad</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  The <fr:link href="/forest/ualg-0002/" title="algebra of a monad" uri="https://trebor-huang.github.io/forest/ualg-0002/" display-uri="ualg-0002" type="local">Eilenberg–Moore category</fr:link> together with its canonical adjunction is the terminal <fr:link href="/forest/ualg-0007/" title="decomposition of a monad into adjoint functors" uri="https://trebor-huang.github.io/forest/ualg-0007/" display-uri="ualg-0007" type="local">decomposition of a monad into adjoint functors</fr:link>. Hence there is a unique morphism from any decomposition to it, named the <html:strong>comparison functor</html:strong>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>15</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Given an adjunction <fr:tex display="inline"><![CDATA[F \dashv  G]]></fr:tex> with the corresponding monad <fr:tex display="inline"><![CDATA[G \mathbin {\circ } F]]></fr:tex>, the comparison functor is defined as sending <fr:tex display="inline"><![CDATA[X]]></fr:tex> to <fr:tex display="inline"><![CDATA[GFGX \to  GX]]></fr:tex>, given by the counit <fr:tex display="inline"><![CDATA[FGX \to  X]]></fr:tex>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/ualg-000A/</fr:uri>
+                <fr:display-uri>ualg-000A</fr:display-uri>
+                <fr:route>/forest/ualg-000A/</fr:route>
+                <fr:title text="monadic functor">monadic functor</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Given a pair of adjoint functors <fr:tex display="inline"><![CDATA[F \dashv  G]]></fr:tex>, <fr:tex display="inline"><![CDATA[G]]></fr:tex> is <html:strong>monadic</html:strong> if the corresponding <fr:link href="/forest/ualg-0009/" title="the Eilenberg–Moore category induces the terminal decomposition of a monad" uri="https://trebor-huang.github.io/forest/ualg-0009/" display-uri="ualg-0009" type="local">comparison functor</fr:link> to <fr:tex display="inline"><![CDATA[\mathcal {C}^{G \mathbin {\circ } F}]]></fr:tex> is an equivalence in <fr:link href="/forest/ualg-0007/" title="decomposition of a monad into adjoint functors" uri="https://trebor-huang.github.io/forest/ualg-0007/" display-uri="ualg-0007" type="local">the bicategory of decompositions</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/ualg-0004/</fr:uri>
+            <fr:display-uri>ualg-0004</fr:display-uri>
+            <fr:route>/forest/ualg-0004/</fr:route>
+            <fr:title text="the Kleisli category of a monad">the Kleisli category of a monad</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/ualg-0001/" title="monad on a category" uri="https://trebor-huang.github.io/forest/ualg-0001/" display-uri="ualg-0001" type="local">monad</fr:link> <fr:tex display="inline"><![CDATA[M : \mathcal {C} \to  \mathcal {C}]]></fr:tex> and two objects <fr:tex display="inline"><![CDATA[X, Y]]></fr:tex> in <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, a <html:strong>Kleisli arrow</html:strong> from <fr:tex display="inline"><![CDATA[X]]></fr:tex> to <fr:tex display="inline"><![CDATA[Y]]></fr:tex> is simply any arrow <fr:tex display="inline"><![CDATA[X \to  MY]]></fr:tex>. This represents an algebra homomorphism from the free algebra generated by <fr:tex display="inline"><![CDATA[X]]></fr:tex> to that of <fr:tex display="inline"><![CDATA[Y]]></fr:tex>.
+</html:p>
+            <html:p>
+  The identity Kleisli arrow is defined as <fr:tex display="inline"><![CDATA[\eta  : X \to  MX]]></fr:tex>. The composition of <fr:tex display="inline"><![CDATA[f : X \to  MY]]></fr:tex> and <fr:tex display="inline"><![CDATA[g : Y \to  MZ]]></fr:tex> is given by <fr:tex display="block"><![CDATA[X \xrightarrow {f} MY \xrightarrow {Mg} M^2 Z \xrightarrow {\mu } MZ.]]></fr:tex> This forms a category whose objects are the objects of <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, as a formal symbol standing for the free algebra generated by those objects, and morphisms are Kleisli arrows. This is the <html:strong>Kleisli category</html:strong> <fr:tex display="inline"><![CDATA[\mathcal {C}_M]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/ualg-0002/</fr:uri>
+            <fr:display-uri>ualg-0002</fr:display-uri>
+            <fr:route>/forest/ualg-0002/</fr:route>
+            <fr:title text="algebra of a monad">algebra of a monad</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a <fr:link href="/forest/ualg-0001/" title="monad on a category" uri="https://trebor-huang.github.io/forest/ualg-0001/" display-uri="ualg-0001" type="local">monad</fr:link> <fr:tex display="inline"><![CDATA[M : \mathcal {C} \to  \mathcal {C}]]></fr:tex>, an <fr:tex display="inline"><![CDATA[M]]></fr:tex>-<html:strong>algebra</html:strong> is defined as an object <fr:tex display="inline"><![CDATA[X]]></fr:tex> equipped with a morphism <fr:tex display="inline"><![CDATA[\alpha  : MX \to  X]]></fr:tex>, such that the following two diagrams commute.
+</html:p>
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="ec3e2921a7219fd3435093d44a04c536"><fr:resource-content><html:img src="/forest/ec3e2921a7219fd3435093d44a04c536.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}%tex
+  {M^2X} & MX & X & MX \\
+  MX & X && X
+  \arrow["\alpha"', from=2-1, to=2-2]
+  \arrow["\alpha", from=1-2, to=2-2]
+  \arrow["\mu"', from=1-1, to=2-1]
+  \arrow["M\alpha", from=1-1, to=1-2]
+  \arrow["\operatorname{id}"', from=1-3, to=2-4]
+  \arrow["\eta", from=1-3, to=1-4]
+  \arrow["\alpha", from=1-4, to=2-4]\end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+<html:p>
+  In an unbiased formulation, we require the natural transformation <fr:tex display="inline"><![CDATA[M^n \to  M]]></fr:tex> of the monad evaluated at the object <fr:tex display="inline"><![CDATA[X]]></fr:tex> composed with <fr:tex display="inline"><![CDATA[\alpha  : MX \to  X]]></fr:tex> to be equal to <fr:tex display="block"><![CDATA[M^n X \xrightarrow {M^{n-1}\alpha } M^{n-1}X \to  \cdots  \xrightarrow {\alpha } X.]]></fr:tex></html:p><html:p>
+  The algebras of a monad form a category <fr:tex display="inline"><![CDATA[\mathcal {C}^M]]></fr:tex>, whose morphisms are commutative squares. This is also known as the <html:strong>Eilenberg–Moore category</html:strong>.
+</html:p></fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>10</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/ualg-0003/</fr:uri>
+            <fr:display-uri>ualg-0003</fr:display-uri>
+            <fr:route>/forest/ualg-0003/</fr:route>
+            <fr:title text="free monad algebras">free monad algebras</fr:title>
+            <fr:taxon>Construction</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a <fr:link href="/forest/ualg-0001/" title="monad on a category" uri="https://trebor-huang.github.io/forest/ualg-0001/" display-uri="ualg-0001" type="local">monad</fr:link> <fr:tex display="inline"><![CDATA[M]]></fr:tex> on a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, there is a canonical adjunction between the <fr:link href="/forest/ualg-0002/" title="algebra of a monad" uri="https://trebor-huang.github.io/forest/ualg-0002/" display-uri="ualg-0002" type="local">category of algebras</fr:link> <fr:tex display="inline"><![CDATA[\mathcal {C}^M]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>. The <html:strong>forgetful functor</html:strong> <fr:tex display="inline"><![CDATA[U_M]]></fr:tex> takes an <fr:link href="/forest/ualg-0002/" title="algebra of a monad" uri="https://trebor-huang.github.io/forest/ualg-0002/" display-uri="ualg-0002" type="local">algebra</fr:link> and forgets the algebra structure. The <html:strong>free functor</html:strong> <fr:tex display="inline"><![CDATA[F_M]]></fr:tex> takes an object <fr:tex display="inline"><![CDATA[X]]></fr:tex> and produces an algebra on <fr:tex display="inline"><![CDATA[MX]]></fr:tex> given by the monad multiplication map <fr:tex display="inline"><![CDATA[\mu  : M^2 X \to  MX]]></fr:tex>, called the <html:strong>free algebra</html:strong>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>10</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We verify that they form an adjunction. Algebra homomorphisms <fr:tex display="inline"><![CDATA[\varphi  : F_M X \to  Y]]></fr:tex> are given by commutative squares
+    
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="b35f82504f70ebae611ed9f9afb485c6"><fr:resource-content><html:img src="/forest/b35f82504f70ebae611ed9f9afb485c6.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}%tex
+      {M^2 X} & MY \\
+      MX & Y
+      \arrow["{\alpha_Y}", from=1-2, to=2-2]
+      \arrow["\mu"', from=1-1, to=2-1]
+      \arrow["\varphi", from=2-1, to=2-2]
+      \arrow["{M\varphi}", from=1-1, to=1-2]\end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+    while morphisms <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> fits in the diagram as such: 
+    
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="f03ff318b9f9c8ab436ffea5a96d408b"><fr:resource-content><html:img src="/forest/f03ff318b9f9c8ab436ffea5a96d408b.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}%tex
+      {M^2 X} & MY \\
+      MX & Y \\
+      X
+      \arrow["{\alpha_Y}", from=1-2, to=2-2]
+      \arrow["\mu"', from=1-1, to=2-1]
+      \arrow["\varphi", from=2-1, to=2-2]
+      \arrow["{M\varphi}", from=1-1, to=1-2]
+      \arrow["f"', from=3-1, to=2-2]
+      \arrow["\eta", from=3-1, to=2-1]
+      \arrow[from=2-1, to=1-2]\end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+    Given a homomorphism <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> of algebras, we can compute <fr:tex display="inline"><![CDATA[f]]></fr:tex> by composing with <fr:tex display="inline"><![CDATA[\eta ]]></fr:tex>. On the other hand, given <fr:tex display="inline"><![CDATA[f]]></fr:tex>, we define <fr:tex display="inline"><![CDATA[\varphi ]]></fr:tex> by <fr:tex display="inline"><![CDATA[\alpha _Y \mathbin {\circ } Mf]]></fr:tex>. This creates a commutative square because
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      \alpha _Y \mathbin {\circ } M \varphi 
+      &= \alpha _Y \mathbin {\circ } M\alpha _Y \mathbin {\circ } M^2 f \\
+      &= \alpha _Y \mathbin {\circ } \mu  \mathbin {\circ } M^2 f \\
+      &= \alpha _Y \mathbin {\circ } M f \mathbin {\circ } \mu  \\
+      &= \varphi  \mathbin {\circ } \mu .
+    \end {aligned}]]></fr:tex></html:p>
+
+  <html:p>
+    We just have to verify that the two conversions are mutual inverses. In one way, we need to verify <fr:tex display="inline"><![CDATA[\alpha _Y \mathbin {\circ } M f \mathbin {\circ } \eta  = f]]></fr:tex>. This is true because by the naturality of <fr:tex display="inline"><![CDATA[\eta ]]></fr:tex> we get <fr:tex display="inline"><![CDATA[M f \mathbin {\circ } \eta  = \eta  \mathbin {\circ } f]]></fr:tex>. Then by the definition of <fr:link href="/forest/ualg-0002/" title="algebra of a monad" uri="https://trebor-huang.github.io/forest/ualg-0002/" display-uri="ualg-0002" type="local">algebra</fr:link> <fr:tex display="inline"><![CDATA[\alpha _Y \mathbin {\circ } \eta  = \textrm {id}]]></fr:tex>, proving the equality. On the other hand, we need to show <fr:tex display="inline"><![CDATA[\alpha _Y \mathbin {\circ } M(\varphi  \mathbin {\circ } \eta ) = \varphi ]]></fr:tex>. This follows from the algebra identity <fr:tex display="inline"><![CDATA[\alpha _Y \mathbin {\circ } M \alpha _Y = \alpha _Y \mathbin {\circ } \mu ]]></fr:tex> and the monad identity <fr:tex display="inline"><![CDATA[\mu  \mathbin {\circ } M \eta  = \textrm {id}]]></fr:tex>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

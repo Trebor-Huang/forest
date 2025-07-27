@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>1</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/htt-000K/</fr:uri>
+    <fr:display-uri>htt-000K</fr:display-uri>
+    <fr:route>/forest/htt-000K/</fr:route>
+    <fr:title text="weak factorization system">weak factorization system</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Given two classes of maps <fr:tex display="inline"><![CDATA[\mathcal {L}, \mathcal {R}]]></fr:tex> in a category, it is a <html:strong>weak factorization system</html:strong> if every morphism <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex> factorizes as <fr:tex display="block"><![CDATA[X \xrightarrow {\mathcal {L}} Z \xrightarrow {\mathcal {R}} Y,]]></fr:tex> and a morphism belongs to <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex> iff it left lifts against every morphism in <fr:tex display="inline"><![CDATA[\mathcal {R}]]></fr:tex>, and vice versa.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000N/</fr:uri>
+            <fr:display-uri>htt-000N</fr:display-uri>
+            <fr:route>/forest/htt-000N/</fr:route>
+            <fr:title text="weak factorization systems of simplicial sets">weak factorization systems of simplicial sets</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We have several <fr:link href="/forest/htt-000K/" title="weak factorization system" uri="https://trebor-huang.github.io/forest/htt-000K/" display-uri="htt-000K" type="local">weak factorization systems</fr:link> in the category of simplicial sets.
+</html:p>
+            <html:ul><html:li><fr:link href="/forest/htt-000H/" title="fibrations and anodyne maps" uri="https://trebor-huang.github.io/forest/htt-000H/" display-uri="htt-000H" type="local">Anodyne maps</fr:link> and <fr:link href="/forest/htt-000H/" title="fibrations and anodyne maps" uri="https://trebor-huang.github.io/forest/htt-000H/" display-uri="htt-000H" type="local">Kan fibrations</fr:link>.</html:li>
+  <html:li>Left/right anodyne maps and left/right fibrations.</html:li>
+  <html:li>Monomorphisms and <fr:link href="/forest/htt-000M/" title="trivial fibrations of simplicial sets" uri="https://trebor-huang.github.io/forest/htt-000M/" display-uri="htt-000M" type="local">trivial fibrations</fr:link>.</html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

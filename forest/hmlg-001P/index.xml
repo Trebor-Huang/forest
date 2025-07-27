@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>7</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-001P/</fr:uri>
+    <fr:display-uri>hmlg-001P</fr:display-uri>
+    <fr:route>/forest/hmlg-001P/</fr:route>
+    <fr:title text="admissible discrete vector field">admissible discrete vector field</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Given a <fr:link href="/forest/hmlg-001N/" title="discrete vector field" uri="https://trebor-huang.github.io/forest/hmlg-001N/" display-uri="hmlg-001N" type="local">discrete vector field</fr:link>, if is <html:strong>admissible</html:strong> if the lengths of the <fr:link href="/forest/hmlg-001Q/" title="discrete field line" uri="https://trebor-huang.github.io/forest/hmlg-001Q/" display-uri="hmlg-001Q" type="local">field lines</fr:link> starting from a cell are bounded. In other words, we can assign a natural number to every cell such that the field lines starting from this cell have length bounded by the number. The number can be different for each cell, and can be unbounded overall.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>28</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0023/</fr:uri>
+            <fr:display-uri>hmlg-0023</fr:display-uri>
+            <fr:route>/forest/hmlg-0023/</fr:route>
+            <fr:title text="Eilenberg–Zilber theorem">Eilenberg–Zilber theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  We have a <fr:link href="/forest/hmlg-0017/" title="chain reduction" uri="https://trebor-huang.github.io/forest/hmlg-0017/" display-uri="hmlg-0017" type="local">chain reduction</fr:link>
+  <fr:tex display="block"><![CDATA[C_* (X \times  Y) \Rightarrow \mkern {-14mu}\Rightarrow  C_* (X) \otimes  C_* (Y).]]></fr:tex></html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>28</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    For every product of simplices <fr:tex display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex>, we put on the <fr:link href="/forest/hmlg-0022/" title="discrete vector field on \Delta ^p \times  \Delta ^q" uri="https://trebor-huang.github.io/forest/hmlg-0022/" display-uri="hmlg-0022" type="local">discrete vector field on <fr:tex display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex></fr:link>. This DVF is <fr:link href="/forest/hmlg-001P/" title="admissible discrete vector field" uri="https://trebor-huang.github.io/forest/hmlg-001P/" display-uri="hmlg-001P" type="local">admissible</fr:link> because the time a path stays in <fr:tex display="inline"><![CDATA[\Delta ^p \times  \Delta ^q]]></fr:tex> is bounded by a function of <fr:tex display="inline"><![CDATA[p]]></fr:tex> and <fr:tex display="inline"><![CDATA[q]]></fr:tex>. Then it is sent to a boundary cell.
+  </html:p>
+
+  <html:p>
+    Using <fr:link href="/forest/hmlg-001R/" title="chain reduction generated by a discrete vector field" uri="https://trebor-huang.github.io/forest/hmlg-001R/" display-uri="hmlg-001R" type="local">Construction <fr:contextual-number uri="https://trebor-huang.github.io/forest/hmlg-001R/" display-uri="hmlg-001R" /></fr:link>, we get the required chain reduction. This is identical to the Eilenberg–Zilber reduction in literature, but the proof requires some combinatorics, and can be seen in Section 5.13 of <fr:link href="/forest/discrete-vector-fields/" title="Discrete Vector Fields and Fundamental Algebraic Topology" uri="https://trebor-huang.github.io/forest/discrete-vector-fields/" display-uri="discrete-vector-fields" type="local">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. However, this formulation gives a much better computational performance.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-001X/</fr:uri>
+            <fr:display-uri>hmlg-001X</fr:display-uri>
+            <fr:route>/forest/hmlg-001X/</fr:route>
+            <fr:title text="reduction from K(\mathbb {Z}, 1) to the circle">reduction from <fr:tex display="inline"><![CDATA[K(\mathbb {Z}, 1)]]></fr:tex> to the circle</fr:title>
+            <fr:taxon>Construction</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  There is a <fr:link href="/forest/hmlg-0017/" title="chain reduction" uri="https://trebor-huang.github.io/forest/hmlg-0017/" display-uri="hmlg-0017" type="local">chain reduction</fr:link> from the <fr:link href="/forest/hmlg-001W/" title="bar construction" uri="https://trebor-huang.github.io/forest/hmlg-001W/" display-uri="hmlg-001W" type="local">bar construction</fr:link> <fr:tex display="inline"><![CDATA[\bar {W}(G)]]></fr:tex> of a group regarded as its <fr:link href="/forest/hmlg-001U/" title="algebraic cellular complexes associated with a simplicial set" uri="https://trebor-huang.github.io/forest/hmlg-001U/" display-uri="hmlg-001U" type="local">reduced algebraic cellular complex</fr:link>, to the <fr:link href="/forest/hmlg-001Y/" title="sphere" uri="https://trebor-huang.github.io/forest/hmlg-001Y/" display-uri="hmlg-001Y" type="local">circle</fr:link> <fr:tex display="inline"><![CDATA[\mathbb {S}^1]]></fr:tex>.
+</html:p>
+            <html:p>
+  By construction, the geometric simplices of <fr:tex display="inline"><![CDATA[K(\mathbb {Z}, 1)]]></fr:tex> are lists <fr:tex display="inline"><![CDATA[[a_1 \mid  a_2 \mid  \cdots  \mid  a_n]]]></fr:tex> of non-zero integers. We construct an <fr:link href="/forest/hmlg-001P/" title="admissible discrete vector field" uri="https://trebor-huang.github.io/forest/hmlg-001P/" display-uri="hmlg-001P" type="local">admissible discrete vector field</fr:link> and use <fr:link href="/forest/hmlg-001R/" title="chain reduction generated by a discrete vector field" uri="https://trebor-huang.github.io/forest/hmlg-001R/" display-uri="hmlg-001R" type="local">the reduction it generates</fr:link>. We assign a cell <fr:tex display="inline"><![CDATA[[a_1 \mid  \cdots ]]]></fr:tex> as a source if <fr:tex display="inline"><![CDATA[a_1 \ne  1]]></fr:tex>. If <fr:tex display="inline"><![CDATA[a_1 \le  0]]></fr:tex>, then we assign its target cell to be <fr:tex display="inline"><![CDATA[[1 \mid  a_1 \mid  \cdots ]]]></fr:tex>; otherwise we assign <fr:tex display="inline"><![CDATA[[1 \mid  a_1 - 1 \mid  \cdots ]]]></fr:tex>. Hence, the critical cells are <fr:tex display="inline"><![CDATA[[]]]></fr:tex> and <fr:tex display="inline"><![CDATA[[1]]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-001R/</fr:uri>
+            <fr:display-uri>hmlg-001R</fr:display-uri>
+            <fr:route>/forest/hmlg-001R/</fr:route>
+            <fr:title text="chain reduction generated by a discrete vector field">chain reduction generated by a discrete vector field</fr:title>
+            <fr:taxon>Construction</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given an <fr:link href="/forest/hmlg-001P/" title="admissible discrete vector field" uri="https://trebor-huang.github.io/forest/hmlg-001P/" display-uri="hmlg-001P" type="local">admissible discrete vector field</fr:link> on an <fr:link href="/forest/hmlg-0013/" title="algebraic cellular complex" uri="https://trebor-huang.github.io/forest/hmlg-0013/" display-uri="hmlg-0013" type="local">algebraic cellular complex</fr:link> <fr:tex display="inline"><![CDATA[(C_k, d)]]></fr:tex>, we can generate a <fr:link href="/forest/hmlg-0017/" title="chain reduction" uri="https://trebor-huang.github.io/forest/hmlg-0017/" display-uri="hmlg-0017" type="local">chain reduction</fr:link>. It will be computable when the cellular complex is <fr:link href="/forest/hmlg-001A/" title="effective algebraic cellular complex" uri="https://trebor-huang.github.io/forest/hmlg-001A/" display-uri="hmlg-001A" type="local">effective</fr:link>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>8</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    The DVF partitions the chain groups into a direct sum <fr:tex display="inline"><![CDATA[C_k^{s} \oplus  C_k^t \oplus  C_k^c]]></fr:tex>, corresponding to source, target and critical cells. We would like to create a reduction to the critical cells only. To do this, we invoke <fr:link href="/forest/hmlg-001G/" title="perturbation of the larger chain complex in a chain reduction" uri="https://trebor-huang.github.io/forest/hmlg-001G/" display-uri="hmlg-001G" type="local"><fr:link href="/forest/hmlg-001G/" title="perturbation of the larger chain complex in a chain reduction" uri="https://trebor-huang.github.io/forest/hmlg-001G/" display-uri="hmlg-001G" type="local">perturbation</fr:link> of the larger chain complex in a <fr:link href="/forest/hmlg-0017/" title="chain reduction" uri="https://trebor-huang.github.io/forest/hmlg-0017/" display-uri="hmlg-0017" type="local">chain reduction</fr:link></fr:link> and start with a simpler chain reduction.
+  </html:p>
+
+  <html:p>
+    Consider the algebraic cellular complex whose chain groups are <fr:tex display="inline"><![CDATA[C_k]]></fr:tex>, but the differential <fr:tex display="inline"><![CDATA[d'(\sigma ) = \pm  \tau ]]></fr:tex> iff <fr:tex display="inline"><![CDATA[\overrightharpoon {\tau  \sigma }]]></fr:tex> is in the vector field, and zero otherwise. The sign is determined as the sign of <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> in <fr:tex display="inline"><![CDATA[d(\sigma )]]></fr:tex>. Hence <fr:tex display="inline"><![CDATA[d' : C_{k+1}^{t} \to  C_k^s]]></fr:tex>, and is zero otherwise. Therefore using the <fr:link href="/forest/hmlg-001H/" title="characterization of chain reduction" uri="https://trebor-huang.github.io/forest/hmlg-001H/" display-uri="hmlg-001H" type="local">characterization of <fr:link href="/forest/hmlg-0017/" title="chain reduction" uri="https://trebor-huang.github.io/forest/hmlg-0017/" display-uri="hmlg-0017" type="local">chain reduction</fr:link></fr:link> as a direct sum with a split exact chain complex, we see that this complex can be reduced to the complex on <fr:tex display="inline"><![CDATA[C_k^p]]></fr:tex> whose differential is identically zero.
+  </html:p>
+
+  <html:p>
+    Next, we try to perturb <fr:tex display="inline"><![CDATA[d']]></fr:tex> to <fr:tex display="inline"><![CDATA[d]]></fr:tex>. We need <fr:tex display="inline"><![CDATA[h_{\rho } \mathbin {\circ } (d' - d)]]></fr:tex> to be locally nilpotent, where <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> is the reduction constructed above. <fr:tex display="inline"><![CDATA[h_{\rho }]]></fr:tex> can be viewed as the inverse of <fr:tex display="inline"><![CDATA[d']]></fr:tex>, as it maps the source cell to the target cell. Expanding the definition, we see that this map transports cells down the <fr:link href="/forest/hmlg-001Q/" title="discrete field line" uri="https://trebor-huang.github.io/forest/hmlg-001Q/" display-uri="hmlg-001Q" type="local">discrete field line</fr:link>. Since the vector field is admissible, such a transportation eventually terminates and it becomes zero.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>8</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-001S/</fr:uri>
+            <fr:display-uri>hmlg-001S</fr:display-uri>
+            <fr:route>/forest/hmlg-001S/</fr:route>
+            <fr:title text="discrete field lines can branch and merge">discrete field lines can branch and merge</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Although we make an analogy between a <fr:link href="/forest/hmlg-001N/" title="discrete vector field" uri="https://trebor-huang.github.io/forest/hmlg-001N/" display-uri="hmlg-001N" type="local">discrete vector field</fr:link> and a vector field, the <fr:link href="/forest/hmlg-001Q/" title="discrete field line" uri="https://trebor-huang.github.io/forest/hmlg-001Q/" display-uri="hmlg-001Q" type="local">field lines</fr:link> of a DVF may branch out. For instance, take a triangle <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> with three edges <fr:tex display="inline"><![CDATA[\sigma _1, \sigma _2, \sigma _3]]></fr:tex>. We can have a vector <fr:tex display="inline"><![CDATA[\overrightharpoon {\sigma _1 \tau }]]></fr:tex> pointing into the triangle, and <fr:tex display="inline"><![CDATA[\sigma _2, \sigma _3]]></fr:tex> each having vectors pointing out. Similarly multiple field lines may join when they reach a lower-degree cell. Because of this, we need to take care in the phrasing of <fr:link href="/forest/hmlg-001P/" title="admissible discrete vector field" uri="https://trebor-huang.github.io/forest/hmlg-001P/" display-uri="hmlg-001P" type="local">admissibility</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-001Q/</fr:uri>
+            <fr:display-uri>hmlg-001Q</fr:display-uri>
+            <fr:route>/forest/hmlg-001Q/</fr:route>
+            <fr:title text="discrete field line">discrete field line</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/hmlg-001N/" title="discrete vector field" uri="https://trebor-huang.github.io/forest/hmlg-001N/" display-uri="hmlg-001N" type="local">discrete vector field</fr:link>, the discrete version of <html:strong>field lines</html:strong> is defined as a sequence of cells alternating between degree <fr:tex display="inline"><![CDATA[p]]></fr:tex> and <fr:tex display="inline"><![CDATA[(p-1)]]></fr:tex> starting and ending with lower-degree cells, with a few requirements.
+</html:p>
+            <html:ul><html:li>When the degree increases, the two cells must occur as a vector in the DVF.</html:li>
+  <html:li>When the degree decreases, the degree <fr:tex display="inline"><![CDATA[(p-1)]]></fr:tex> cell must be a (possible non-<fr:link href="/forest/hmlg-001O/" title="regular face in an algebraic cellular complex" uri="https://trebor-huang.github.io/forest/hmlg-001O/" display-uri="hmlg-001O" type="local">regular</fr:link>) face of the degree <fr:tex display="inline"><![CDATA[p]]></fr:tex> cell.</html:li>
+  <html:li>Two degree <fr:tex display="inline"><![CDATA[(p-1)]]></fr:tex> cells separated by a degree <fr:tex display="inline"><![CDATA[p]]></fr:tex> cell must not be the same.</html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-001N/</fr:uri>
+            <fr:display-uri>hmlg-001N</fr:display-uri>
+            <fr:route>/forest/hmlg-001N/</fr:route>
+            <fr:title text="discrete vector field">discrete vector field</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A <html:strong>discrete vector field</html:strong> (DVF) of degree <fr:tex display="inline"><![CDATA[p]]></fr:tex> on an <fr:link href="/forest/hmlg-0013/" title="algebraic cellular complex" uri="https://trebor-huang.github.io/forest/hmlg-0013/" display-uri="hmlg-0013" type="local">algebraic cellular complex</fr:link> is given by a collection of pairs of cells <fr:tex display="inline"><![CDATA[(\sigma , \tau )]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex> is a <fr:link href="/forest/hmlg-001O/" title="regular face in an algebraic cellular complex" uri="https://trebor-huang.github.io/forest/hmlg-001O/" display-uri="hmlg-001O" type="local">regular face</fr:link> of the degree <fr:tex display="inline"><![CDATA[p]]></fr:tex> cell <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex>, standing for a vector pointing from <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex> to <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex>, which we will write as <fr:tex display="inline"><![CDATA[\overrightharpoon {\sigma  \tau }]]></fr:tex>. We require that every cell appears at most once in these vectors.
+</html:p>
+            <html:p>
+  A DVF naturally partitions the cells into three kinds: the <html:em>sources</html:em>, the <html:em>targets</html:em>, and the rest of the cells are called <html:em>critical cells</html:em>. This name comes from the analogy to Morse theory. Indeed there is a notion of <fr:link href="https://en.wikipedia.org/wiki/Discrete_Morse_theory" type="external">discrete Morse function</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

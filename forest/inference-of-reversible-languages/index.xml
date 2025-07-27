@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>Dana Angluin</fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>1982</fr:year>
+      <fr:month>7</fr:month>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/inference-of-reversible-languages/</fr:uri>
+    <fr:display-uri>inference-of-reversible-languages</fr:display-uri>
+    <fr:route>/forest/inference-of-reversible-languages/</fr:route>
+    <fr:title text="Inference of Reversible Languages">Inference of Reversible Languages</fr:title>
+    <fr:taxon>Reference</fr:taxon>
+    <fr:meta name="doi">10.1145/322326.322334</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  We consider inductive inference of certain classes of languages, namely the <fr:tex display="inline"><![CDATA[k]]></fr:tex>-reversible languages for some fixed <fr:tex display="inline"><![CDATA[k \ge  0]]></fr:tex>, from positive, possibly infinite samples. More precisely, given any rational language <fr:tex display="inline"><![CDATA[S]]></fr:tex>, the sample, we prove that there exists a smallest, with respect to inclusion, <fr:tex display="inline"><![CDATA[k]]></fr:tex>-reversible language containing it, which is then also rational. After an algebraic proof, we describe a polynomial algorithm performing the inference.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>22</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/misc-000N/</fr:uri>
+            <fr:display-uri>misc-000N</fr:display-uri>
+            <fr:route>/forest/misc-000N/</fr:route>
+            <fr:title text="characterization of reversible languages">characterization of reversible languages</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a language <fr:tex display="inline"><![CDATA[\mathcal {L}]]></fr:tex>, it is a <fr:link href="/forest/misc-000M/" title="reversible regular language" uri="https://trebor-huang.github.io/forest/misc-000M/" display-uri="misc-000M" type="local">reversible regular language</fr:link> if and only if it is regular, and if <fr:tex display="inline"><![CDATA[xz, yz \in  \mathcal {L}]]></fr:tex> for some strings <fr:tex display="inline"><![CDATA[x, y, z]]></fr:tex>, then for all strings <fr:tex display="inline"><![CDATA[w]]></fr:tex> we have <fr:tex display="inline"><![CDATA[xw \in  \mathcal {L} \iff  yw \in  \mathcal {L}]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>22</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    See Theorem 7 in <fr:link href="/forest/inference-of-reversible-languages/" title="Inference of Reversible Languages" uri="https://trebor-huang.github.io/forest/inference-of-reversible-languages/" display-uri="inference-of-reversible-languages" type="local">Inference of Reversible Languages</fr:link>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>22</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/misc-000O/</fr:uri>
+            <fr:display-uri>misc-000O</fr:display-uri>
+            <fr:route>/forest/misc-000O/</fr:route>
+            <fr:title text="induction of reversible languages">induction of reversible languages</fr:title>
+            <fr:taxon>Algorithm</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  This algorithm is described in <fr:link href="/forest/inference-of-reversible-languages/" title="Inference of Reversible Languages" uri="https://trebor-huang.github.io/forest/inference-of-reversible-languages/" display-uri="inference-of-reversible-languages" type="local">Inference of Reversible Languages</fr:link>. It inputs a set of example strings in a <fr:link href="/forest/misc-000M/" title="reversible regular language" uri="https://trebor-huang.github.io/forest/misc-000M/" display-uri="misc-000M" type="local">reversible regular language</fr:link>, and outputs a finite <fr:link href="/forest/misc-000L/" title="bideterministic automaton" uri="https://trebor-huang.github.io/forest/misc-000L/" display-uri="misc-000L" type="local">bideterministic automaton</fr:link>. The soundness proof is given as Theorem 26, and if the input enumerates all the strings in the language, then the output is guaranteed to converge to the correct minimal DFA at a finite stage by Theorem 27. Note that obviously we cannot algorithmically determine whether it has converged or not, without further information.
+</html:p>
+            <html:p>
+  The algorithm proceeds as follows. Start with a trivial automata with a start and accept state, but no transitions. When we read a new example string, add a new chain of states and transitions from the start to the accept state, solely accepting this new string. Then we perform a merging process. Whenever a state has two transitions on the same letter, we merge the destination states, and vice versa for transitions to that state. This process obviously terminates and produces a bideterministic automata. And we can read the next example string.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

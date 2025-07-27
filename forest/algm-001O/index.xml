@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>5</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/algm-001O/</fr:uri>
+    <fr:display-uri>algm-001O</fr:display-uri>
+    <fr:route>/forest/algm-001O/</fr:route>
+    <fr:title text="exponentials of sheaves">exponentials of sheaves</fr:title>
+    <fr:taxon>Construction</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  The exponentials of sheaves coincide with those of presheaves. To see this, we assume <fr:tex display="inline"><![CDATA[X^Y]]></fr:tex> is the exponential of sheaves and calculate
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \Gamma (U, X^Y)
+    &= \hom _{\mathsf {Psh}}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U), X^Y) \\
+    &= \hom _{\mathsf {Sh}}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)^{++}, X^Y) \\
+    &= \hom _{\mathsf {Sh}}(Y \times  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)^{++}, X) \\
+    &= \hom _{\mathsf {Sh}}(Y^{++} \times  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)^{++}, X) \\
+    &= \hom _{\mathsf {Sh}}((Y \times  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U))^{++}, X) \\
+    &= \hom _{\mathsf {Psh}}(Y \times  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U), X) \\
+  \end {aligned}]]></fr:tex>
+  which is evidently <fr:tex display="inline"><![CDATA[\Gamma (U, X^Y)]]></fr:tex> but this time the exponential is taken in the category of presheaves. We used the fact that <fr:link href="/forest/todo/" title="Unfinished trees" uri="https://trebor-huang.github.io/forest/todo/" display-uri="todo" type="local">the plus construction preserves finite product</fr:link>. However, we still need to prove that this indeed forms a sheaf.
+</html:p>
+    <html:p>
+  Expressing the <fr:link href="/forest/algm-001P/" title="sheaf condition using Lawvere–Tierney operators" uri="https://trebor-huang.github.io/forest/algm-001P/" display-uri="algm-001P" type="local">sheaf condition using Lawvere–Tierney operators</fr:link>, we only need to show for <fr:link href="/forest/algm-001Q/" title="dense subobject of a Lawvere–Tierney operator" uri="https://trebor-huang.github.io/forest/algm-001Q/" display-uri="algm-001Q" type="local">dense subobjects</fr:link> <fr:tex display="inline"><![CDATA[F \hookrightarrow  G]]></fr:tex> that <fr:tex display="inline"><![CDATA[\hom (G, X^Y) \to  \hom (F, X^Y)]]></fr:tex> is a bijection. This is equivalent to <fr:tex display="block"><![CDATA[\hom (Y \times  G, X) \to  \hom (Y \times  F, X).]]></fr:tex> Note that the subobject <fr:tex display="inline"><![CDATA[Y \times  F \hookrightarrow  Y \times  G]]></fr:tex> corresponds to the characteristic function <fr:tex display="inline"><![CDATA[Y \times  G \to  G \to  \Omega ]]></fr:tex>. Hence the denseness of <fr:tex display="inline"><![CDATA[F \hookrightarrow  G]]></fr:tex> implies the denseness of <fr:tex display="inline"><![CDATA[Y \times  F \hookrightarrow  Y \times  G]]></fr:tex>. Since <fr:tex display="inline"><![CDATA[X]]></fr:tex> is a sheaf, we conclude that <fr:tex display="inline"><![CDATA[X^Y]]></fr:tex> is also a sheaf.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>5</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-001Q/</fr:uri>
+            <fr:display-uri>algm-001Q</fr:display-uri>
+            <fr:route>/forest/algm-001Q/</fr:route>
+            <fr:title text="dense subobject of a Lawvere–Tierney operator">dense subobject of a Lawvere–Tierney operator</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/algm-001L/" title="Lawvere–Tierney operator" uri="https://trebor-huang.github.io/forest/algm-001L/" display-uri="algm-001L" type="local">Lawvere–Tierney operator</fr:link> <fr:tex display="inline"><![CDATA[j]]></fr:tex>, a subobject <fr:tex display="inline"><![CDATA[F \hookrightarrow  G]]></fr:tex> is <fr:tex display="inline"><![CDATA[j]]></fr:tex>-<html:strong>dense</html:strong> if <fr:tex display="inline"><![CDATA[G \to  \Omega  \xrightarrow {j} \Omega ]]></fr:tex> is the constant true. In terms of the corresponding <fr:tex display="inline"><![CDATA[J \hookrightarrow  \Omega ]]></fr:tex>, we need the pullback of it with <fr:tex display="inline"><![CDATA[G \to  \Omega ]]></fr:tex> to be <fr:tex display="inline"><![CDATA[\textrm {id} : G \to  G]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>5</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-001P/</fr:uri>
+            <fr:display-uri>algm-001P</fr:display-uri>
+            <fr:route>/forest/algm-001P/</fr:route>
+            <fr:title text="sheaf condition using Lawvere–Tierney operators">sheaf condition using Lawvere–Tierney operators</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Knowing the <fr:link href="/forest/algm-001N/" title="Grothendieck coverages and Lawvere–Tierney operators" uri="https://trebor-huang.github.io/forest/algm-001N/" display-uri="algm-001N" type="local">correspondence</fr:link> of Grothendieck coverages on <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> and Lawvere–Tierney operators on <fr:tex display="inline"><![CDATA[\mathsf {Psh}(\mathcal {C})]]></fr:tex>, we naturally want to rewrite the <fr:link href="/forest/algm-001F/" title="sheaf" uri="https://trebor-huang.github.io/forest/algm-001F/" display-uri="algm-001F" type="local">sheaf condition</fr:link> to use <fr:link href="/forest/algm-001L/" title="Lawvere–Tierney operator" uri="https://trebor-huang.github.io/forest/algm-001L/" display-uri="algm-001L" type="local">Lawvere–Tierney operators</fr:link> instead of <fr:link href="/forest/algm-001A/" title="Grothendieck coverage" uri="https://trebor-huang.github.io/forest/algm-001A/" display-uri="algm-001A" type="local">Grothendieck coverages</fr:link>.
+</html:p>
+            <html:p>
+  Recall that the <fr:link href="/forest/algm-001F/" title="sheaf" uri="https://trebor-huang.github.io/forest/algm-001F/" display-uri="algm-001F" type="local">sheaf condition</fr:link> requires for every covering sieve <fr:tex display="inline"><![CDATA[S \hookrightarrow  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)]]></fr:tex> that the composition <fr:tex display="inline"><![CDATA[\hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U), X) \to  \hom (S, X)]]></fr:tex> is an isomorphism. We can reify this to a definition.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/algm-001R/</fr:uri>
+                <fr:display-uri>algm-001R</fr:display-uri>
+                <fr:route>/forest/algm-001R/</fr:route>
+                <fr:title text="local object">local object</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Given a class of arrows <fr:tex display="inline"><![CDATA[S]]></fr:tex>, an <fr:tex display="inline"><![CDATA[S]]></fr:tex>-<html:strong>local object</html:strong> is an object <fr:tex display="inline"><![CDATA[X]]></fr:tex> such that for every <fr:tex display="inline"><![CDATA[f : A \to  B]]></fr:tex> in <fr:tex display="inline"><![CDATA[S]]></fr:tex>, the composition map <fr:tex display="block"><![CDATA[\hom (B, X) \to  \hom (A, X)]]></fr:tex> is an isomorphism.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  Now we just need to pick out the class of morphisms <fr:tex display="inline"><![CDATA[S \hookrightarrow  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)]]></fr:tex> using the Lawvere–Tierney operator <fr:tex display="inline"><![CDATA[j]]></fr:tex>. Note that this operator does not necessarily live in a presheaf topos, so we must find a way to generalize this class of arrows to not necessarily representable presheaves. Since every presheaf is a colimit of representables, we can look at the corresponding colimit of morphisms <fr:tex display="inline"><![CDATA[\operatorname *{colim} S_i \hookrightarrow  \operatorname *{colim} \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U_i)]]></fr:tex>. A local object will satisfy
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \hom (\operatorname *{colim}\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U_i), X) \cong  \lim \hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U_i), X) \quad  \\
+    \xrightarrow {\sim } \lim \hom (S_i, X) \cong  \hom (\operatorname *{colim} S_i, X).
+  \end {aligned}]]></fr:tex>
+  Hence we can safely include these arrows into the class and still get the same concept of local objects. Now it’s illuminating to look at the characteristic maps. A sieve <fr:tex display="inline"><![CDATA[S \to  \mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U)]]></fr:tex> corresponds to a characteristic map in <fr:tex display="inline"><![CDATA[\hom (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(U), \Omega ) \cong  \Gamma (U, \Omega )]]></fr:tex>. Generalizing to an arbitrary presheaf expressed (canonically) as a colimit of representables, we need the image of every section to be a covering sieve.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/algm-001Q/</fr:uri>
+                <fr:display-uri>algm-001Q</fr:display-uri>
+                <fr:route>/forest/algm-001Q/</fr:route>
+                <fr:title text="dense subobject of a Lawvere–Tierney operator">dense subobject of a Lawvere–Tierney operator</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Given a <fr:link href="/forest/algm-001L/" title="Lawvere–Tierney operator" uri="https://trebor-huang.github.io/forest/algm-001L/" display-uri="algm-001L" type="local">Lawvere–Tierney operator</fr:link> <fr:tex display="inline"><![CDATA[j]]></fr:tex>, a subobject <fr:tex display="inline"><![CDATA[F \hookrightarrow  G]]></fr:tex> is <fr:tex display="inline"><![CDATA[j]]></fr:tex>-<html:strong>dense</html:strong> if <fr:tex display="inline"><![CDATA[G \to  \Omega  \xrightarrow {j} \Omega ]]></fr:tex> is the constant true. In terms of the corresponding <fr:tex display="inline"><![CDATA[J \hookrightarrow  \Omega ]]></fr:tex>, we need the pullback of it with <fr:tex display="inline"><![CDATA[G \to  \Omega ]]></fr:tex> to be <fr:tex display="inline"><![CDATA[\textrm {id} : G \to  G]]></fr:tex>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <html:p>
+  In terms of sieves, for every section <fr:tex display="inline"><![CDATA[s \in  \Gamma (U, G)]]></fr:tex>, the sieve of arrows on <fr:tex display="inline"><![CDATA[U]]></fr:tex> along whom the restriction of <fr:tex display="inline"><![CDATA[s]]></fr:tex> is in <fr:tex display="inline"><![CDATA[F]]></fr:tex> must be a covering sieve. We have arrived at the desired reformulation of the sheaf condition.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/algm-001S/</fr:uri>
+                <fr:display-uri>algm-001S</fr:display-uri>
+                <fr:route>/forest/algm-001S/</fr:route>
+                <fr:title text="sheaf of a Lawvere–Tierney operator">sheaf of a Lawvere–Tierney operator</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Given a <fr:link href="/forest/algm-001L/" title="Lawvere–Tierney operator" uri="https://trebor-huang.github.io/forest/algm-001L/" display-uri="algm-001L" type="local">Lawvere–Tierney operator</fr:link> <fr:tex display="inline"><![CDATA[j]]></fr:tex>, a <fr:tex display="inline"><![CDATA[j]]></fr:tex>-<html:strong>sheaf</html:strong> is defined as a <fr:tex display="inline"><![CDATA[j]]></fr:tex>-<html:strong>local object</html:strong>, i.e. a <fr:link href="/forest/algm-001R/" title="local object" uri="https://trebor-huang.github.io/forest/algm-001R/" display-uri="algm-001R" type="local">local object</fr:link> under the <fr:link href="/forest/algm-001Q/" title="dense subobject of a Lawvere–Tierney operator" uri="https://trebor-huang.github.io/forest/algm-001Q/" display-uri="algm-001Q" type="local"><fr:tex display="inline"><![CDATA[j]]></fr:tex>-dense monomorphisms</fr:link>.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://trebor-huang.github.io/forest/todo/</fr:uri>
+            <fr:display-uri>todo</fr:display-uri>
+            <fr:route>/forest/todo/</fr:route>
+            <fr:title text="Unfinished trees">Unfinished trees</fr:title>
+            <fr:taxon>Meta</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>Here are the unfinished trees. The links not written is also shown in the backlinks section.</html:p>
+            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-002F/</fr:uri>
+                <fr:display-uri>hmlg-002F</fr:display-uri>
+                <fr:route>/forest/hmlg-002F/</fr:route>
+                <fr:title text="twisted tensor product">twisted tensor product</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  (...)
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>3</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-002D/</fr:uri>
+                <fr:display-uri>hmlg-002D</fr:display-uri>
+                <fr:route>/forest/hmlg-002D/</fr:route>
+                <fr:title text="associated twisted product">associated twisted product</fr:title>
+                <fr:taxon>Construction</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  The <fr:link href="/forest/hmlg-002C/" title="associated simplicial fiber bundle" uri="https://trebor-huang.github.io/forest/hmlg-002C/" display-uri="hmlg-002C" type="local">associated simplicial fiber bundle</fr:link> of <fr:link href="/forest/hmlg-002B/" title="twisted product of simplicial sets" uri="https://trebor-huang.github.io/forest/hmlg-002B/" display-uri="hmlg-002B" type="local">twisted products</fr:link> admits a simpler description. Suppose we have simplicial sets <fr:tex display="inline"><![CDATA[F, B]]></fr:tex>, a simplicial group <fr:tex display="inline"><![CDATA[G]]></fr:tex> with an action <fr:tex display="inline"><![CDATA[G \times  F \to  F]]></fr:tex> and a <fr:link href="/forest/hmlg-002A/" title="twisting function" uri="https://trebor-huang.github.io/forest/hmlg-002A/" display-uri="hmlg-002A" type="local">twisting function</fr:link> <fr:tex display="inline"><![CDATA[\tau ]]></fr:tex> on <fr:tex display="inline"><![CDATA[B]]></fr:tex>. The <html:strong>associated twisted product</html:strong> <fr:tex display="inline"><![CDATA[B \times _\tau  F]]></fr:tex> is defined exactly the same as twisted products, except we replace the factor <fr:tex display="inline"><![CDATA[G]]></fr:tex> with <fr:tex display="inline"><![CDATA[F]]></fr:tex>. This still makes sense, because we can interpret the multiplication <fr:tex display="inline"><![CDATA[\tau (b) \cdot  \partial _n f]]></fr:tex> as the <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action.
+</html:p>
+                <html:p>
+  In particular, if we consider <fr:tex display="inline"><![CDATA[G]]></fr:tex> as a simplicial set with a <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action on the left via multiplication, then the associated twisted product <fr:tex display="inline"><![CDATA[B \times _\tau  G]]></fr:tex> is exactly the same as the twisted product <fr:tex display="inline"><![CDATA[B \times _\tau  G]]></fr:tex>, which explains our identical notation.
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-001M/</fr:uri>
+                <fr:display-uri>hmlg-001M</fr:display-uri>
+                <fr:route>/forest/hmlg-001M/</fr:route>
+                <fr:title text="chain reduction of mapping cones">chain reduction of mapping cones</fr:title>
+                <fr:taxon>Construction</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  Given a pair of <fr:link href="/forest/hmlg-0017/" title="chain reduction" uri="https://trebor-huang.github.io/forest/hmlg-0017/" display-uri="hmlg-0017" type="local">chain reductions</fr:link> <fr:tex display="inline"><![CDATA[\rho  : C \Rightarrow \mkern {-14mu}\Rightarrow  D]]></fr:tex> and <fr:tex display="inline"><![CDATA[\rho ' : C' \Rightarrow \mkern {-14mu}\Rightarrow  D']]></fr:tex>, we can construct a reduction from the mapping cone <fr:tex display="inline"><![CDATA[\operatorname {Cone}(f)]]></fr:tex> of a chain map <fr:tex display="inline"><![CDATA[f : C \to  C']]></fr:tex> to (the action of <fr:tex display="inline"><![CDATA[\rho ]]></fr:tex> on <fr:tex display="inline"><![CDATA[f]]></fr:tex>).
+</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>1</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-001K/</fr:uri>
+                <fr:display-uri>hmlg-001K</fr:display-uri>
+                <fr:route>/forest/hmlg-001K/</fr:route>
+                <fr:title text="Effective homology">Effective homology</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  This is a set of notes on effective homology and algebraic topology. Main references are <fr:link href="/forest/constructive-homological-algebra/" title="Constructive Homological Algebra and Applications" uri="https://trebor-huang.github.io/forest/constructive-homological-algebra/" display-uri="constructive-homological-algebra" type="local">Constructive Homological Algebra and Applications</fr:link> and <fr:link href="/forest/discrete-vector-fields/" title="Discrete Vector Fields and Fundamental Algebraic Topology" uri="https://trebor-huang.github.io/forest/discrete-vector-fields/" display-uri="discrete-vector-fields" type="local">Discrete Vector Fields and Fundamental Algebraic Topology</fr:link>. We assume basic familiarity with the classical aspects of the theory, although there will also be links within this forest to the relevant concepts.
+</html:p>
+                <html:ul><html:li><fr:link href="/forest/hmlg-0021/" title="W-bar construction" uri="https://trebor-huang.github.io/forest/hmlg-0021/" display-uri="hmlg-0021" type="local">W-bar construction</fr:link>, simplicial principal bundles, twisted products by <fr:link href="/forest/simplicial-objects/" title="Simplicial objects in algebraic topology" uri="https://trebor-huang.github.io/forest/simplicial-objects/" display-uri="simplicial-objects" type="local">Simplicial objects in algebraic topology</fr:link></html:li>
+  <html:li>classifying space, loop space</html:li>
+  <html:li>composition of <fr:link href="/forest/hmlg-001I/" title="strong homology equivalence" uri="https://trebor-huang.github.io/forest/hmlg-001I/" display-uri="hmlg-001I" type="local">strong homology equivalence</fr:link>, tensor product, cone, bicomplex</html:li>
+  <html:li>simplicial group, Kan complex</html:li>
+  <html:li>organize into notes</html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>2</fr:month>
+                  <fr:day>18</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/hmlg-000F/</fr:uri>
+                <fr:display-uri>hmlg-000F</fr:display-uri>
+                <fr:route>/forest/hmlg-000F/</fr:route>
+                <fr:title text="Freyd–Mitchell embedding theorem">Freyd–Mitchell embedding theorem</fr:title>
+                <fr:taxon>Theorem</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter><html:p>
+  Any small abelian category can be realized as a full abelian subcategory of a category of left <fr:tex display="inline"><![CDATA[R]]></fr:tex>-modules for some ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  (TODO)
+</html:p></fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

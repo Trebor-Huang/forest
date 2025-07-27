@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>21</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/ualg-000M/</fr:uri>
+    <fr:display-uri>ualg-000M</fr:display-uri>
+    <fr:route>/forest/ualg-000M/</fr:route>
+    <fr:title text="complete Boolean algebra not isomorphic to a powerset">complete Boolean algebra not isomorphic to a powerset</fr:title>
+    <fr:taxon>Example</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Consider the Lebesgue measurable sets on the interval <fr:tex display="inline"><![CDATA[[0,1]]]></fr:tex> quotiented by measure-zero sets. This is a complete Boolean algebra, but it is not a powerset, showing the necessity of complete distributivity in <fr:link href="/forest/ualg-000L/" title="completely distributive complete Boolean algebras are powersets" uri="https://trebor-huang.github.io/forest/ualg-000L/" display-uri="ualg-000L" type="local">Theorem <fr:contextual-number uri="https://trebor-huang.github.io/forest/ualg-000L/" display-uri="ualg-000L" /></fr:link>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    This is indeed a Boolean algebra since measure-zero sets form a Boolean ideal of the Lebesgue <fr:tex display="inline"><![CDATA[\sigma ]]></fr:tex>-algebra. So we just need to show the existence of arbitrary joins. Given a family <fr:tex display="inline"><![CDATA[X_\alpha ]]></fr:tex> of measurable sets, we inductively construct a countable union. On each step, consider the area of each set outside of the current union. Select a set such that this excess area is within <fr:tex display="inline"><![CDATA[\frac 12]]></fr:tex> of the supremum. Since <fr:tex display="inline"><![CDATA[\mu ([0,1]) = 1]]></fr:tex>, such a process must lead to an excess area converging to zero.
+  </html:p>
+
+  <html:p>
+    By construction, every set <fr:tex display="inline"><![CDATA[X_\alpha ]]></fr:tex> has zero area outside of this countable union, so they are under the union in the Boolean algebra. And the countable union <fr:tex display="inline"><![CDATA[\bigcup _{k=1}^\infty  X_{\alpha _k}]]></fr:tex> is the join of <fr:tex display="inline"><![CDATA[X_{\alpha _k}]]></fr:tex> in the algebra, since a countable union of neglegible set is still neglegible. Hence by chasing elements, it must be the join of the entire family <fr:tex display="inline"><![CDATA[X_\alpha ]]></fr:tex>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/ualg-000L/</fr:uri>
+            <fr:display-uri>ualg-000L</fr:display-uri>
+            <fr:route>/forest/ualg-000L/</fr:route>
+            <fr:title text="completely distributive complete Boolean algebras are powersets">completely distributive complete Boolean algebras are powersets</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Every <fr:link href="/forest/ualg-000J/" title="completely distributive complete Boolean algebra" uri="https://trebor-huang.github.io/forest/ualg-000J/" display-uri="ualg-000J" type="local">completely distributive complete Boolean algebra</fr:link> is isomorphic to the set algebra of a powerset, and homomorphisms are given by inverse image map. In other words, the category of CDCBA is isomorphic to <fr:tex display="inline"><![CDATA[\mathsf {Set}^{\textrm {op}}]]></fr:tex> and the forgetful functor is given by the powerset <fr:tex display="inline"><![CDATA[\mathcal {P}(X) = 2^X]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>21</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Consider the set of <html:em>atoms</html:em> <fr:tex display="inline"><![CDATA[A]]></fr:tex>, defined as minimal non-bottom elements. It suffices to prove the algebra is <html:em>atomic</html:em>, i.e. every non-bottom element has an atom below it. This is because we can remove all the atoms that an element contains, and the result must be <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex>. So every element is given by a join of atoms. Such a join must be unique, since the intersection of different atoms is empty, so given two ways to write an element as a join of atoms, we take the intersection and see that they must agree. This shows that the elements are in bijection with <fr:tex display="inline"><![CDATA[\mathcal {P}(A)]]></fr:tex>, with joins, meets and complements given by unions, intersections and complements, respectively.
+  </html:p>
+
+  <html:p>
+    To show atomicity, consider <fr:tex display="block"><![CDATA[\top  = \bigwedge _{b \in  B} (b \lor  \neg  b) = \bigvee _{S \subseteq  B} \left [ \bigwedge _{b \in  S} b \wedge  \bigwedge _{b \notin  S} \neg  b \right ].]]></fr:tex> Consider the disjunctive clauses in here not equal to <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> (which must exist unless <fr:tex display="inline"><![CDATA[\top  = \bot ]]></fr:tex> which trivially satisfies the requirements). They must be atoms because any element <fr:tex display="inline"><![CDATA[x]]></fr:tex> strictly below them must be below all the conjunctive items, so either <fr:tex display="inline"><![CDATA[x < x]]></fr:tex> or <fr:tex display="inline"><![CDATA[x < \neg  x]]></fr:tex>. The former is absurd and the latter implies <fr:tex display="inline"><![CDATA[x = \bot ]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    Taking the meet of the equation with an arbitrary element <fr:tex display="inline"><![CDATA[x]]></fr:tex> gives <fr:tex display="block"><![CDATA[x = \bigvee _{S \subseteq  B} \left [x \wedge  \bigwedge _{b \in  S} b \wedge  \bigwedge _{b \notin  S} \neg  b \right ].]]></fr:tex> If there are no atoms <fr:tex display="inline"><![CDATA[a \le  x]]></fr:tex>, then all the clauses must be <fr:tex display="inline"><![CDATA[\bot ]]></fr:tex> meaning <fr:tex display="inline"><![CDATA[x = \bot ]]></fr:tex>. This finishes the proof.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>29</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-0026/</fr:uri>
+    <fr:display-uri>hmlg-0026</fr:display-uri>
+    <fr:route>/forest/hmlg-0026/</fr:route>
+    <fr:title text="simplicial fiber bundle">simplicial fiber bundle</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A (strict) <html:strong>simplicial fiber bundle</html:strong> <fr:tex display="inline"><![CDATA[p : E \to  B]]></fr:tex> with fiber <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a simplicial map <fr:tex display="inline"><![CDATA[p]]></fr:tex> such that for every simplex <fr:tex display="inline"><![CDATA[\Delta ^n \to  B]]></fr:tex>, the pullback of <fr:tex display="inline"><![CDATA[p]]></fr:tex> along the simplex is isomorphic to <fr:tex display="inline"><![CDATA[\Delta ^n \times  F \to  \Delta ^n]]></fr:tex>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>1</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/htt-000W/</fr:uri>
+            <fr:display-uri>htt-000W</fr:display-uri>
+            <fr:route>/forest/htt-000W/</fr:route>
+            <fr:title text="extension of minimal fibrations along anodyne maps">extension of minimal fibrations along anodyne maps</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a minimal fibration <fr:tex display="inline"><![CDATA[p : E \to  X]]></fr:tex> and an anodyne map <fr:tex display="inline"><![CDATA[i : X \to  X']]></fr:tex>, we can extend the fibration to <fr:tex display="inline"><![CDATA[p' : E' \to  X']]></fr:tex>, such that <fr:tex display="inline"><![CDATA[p]]></fr:tex> is the pullback of <fr:tex display="inline"><![CDATA[p']]></fr:tex> along <fr:tex display="inline"><![CDATA[i]]></fr:tex>, and <fr:tex display="inline"><![CDATA[i' : E \to  E']]></fr:tex> is also an anodyne map.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>5</fr:month><fr:day>1</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We prove that we can do this for all horn inclusions, and then prove the class of such maps is a <fr:link href="/forest/htt-000L/" title="saturated cofibration class" uri="https://trebor-huang.github.io/forest/htt-000L/" display-uri="htt-000L" type="local">saturated cofibration class</fr:link>. For horn inclusions, a high-brow way to see this is to use the simplicial group <fr:tex display="inline"><![CDATA[\mathrm {Aut}(F) \subseteq  F^F]]></fr:tex> where <fr:tex display="inline"><![CDATA[F]]></fr:tex> is the fiber, and <fr:tex display="inline"><![CDATA[\mathrm {Aut}]]></fr:tex> takes the simplicial subset spanned by the isomorphisms. We see that a <fr:link href="/forest/hmlg-0026/" title="simplicial fiber bundle" uri="https://trebor-huang.github.io/forest/hmlg-0026/" display-uri="hmlg-0026" type="local">simplicial fiber bundle</fr:link> is essentially described by a map into the classifying space defined by the <fr:link href="/forest/hmlg-0021/" title="W-bar construction" uri="https://trebor-huang.github.io/forest/hmlg-0021/" display-uri="hmlg-0021" type="local">W-bar construction</fr:link>. In any case, a minimal fibration over a horn is isomorphic to a product projection, and therefore <fr:tex display="inline"><![CDATA[\Delta ^n \times  F \to  \Delta ^n]]></fr:tex> obviously qualifies as an extension. We note that anodyne maps are closed under product with other simplicial sets.
+  </html:p>
+
+  <html:p>
+    Saturation is mostly straightforward, except pushouts. The obvious solution for pushouts requires us to verify this variant of Mather cube theorem in the category of simplicial sets (and hence sets): if there are cartesian morphisms of maps <fr:tex display="inline"><![CDATA[f_1 \leftarrow  f \rightarrow  f_2]]></fr:tex>, then taking pushouts we have <fr:tex display="inline"><![CDATA[f_1 \to  g \leftarrow  f_2]]></fr:tex>. If <fr:tex display="inline"><![CDATA[f \to  f_1]]></fr:tex> is injective, then <fr:tex display="inline"><![CDATA[f_1 \to  g \leftarrow  f_2]]></fr:tex> is also cartesian. This is known as <fr:link href="https://ncatlab.org/nlab/show/adhesive+category" type="external">adhesiveness</fr:link>.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-002C/</fr:uri>
+            <fr:display-uri>hmlg-002C</fr:display-uri>
+            <fr:route>/forest/hmlg-002C/</fr:route>
+            <fr:title text="associated simplicial fiber bundle">associated simplicial fiber bundle</fr:title>
+            <fr:taxon>Construction</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/hmlg-0028/" title="simplicial principal fiber bundle" uri="https://trebor-huang.github.io/forest/hmlg-0028/" display-uri="hmlg-0028" type="local">simplicial principal fiber bundle</fr:link> <fr:tex display="inline"><![CDATA[p : E \to  B]]></fr:tex> with simplicial group <fr:tex display="inline"><![CDATA[G]]></fr:tex>, and a simplicial set <fr:tex display="inline"><![CDATA[F]]></fr:tex> with a group action <fr:tex display="inline"><![CDATA[G \times  F \to  F]]></fr:tex>, we can construct a fiber bundle with fiber <fr:tex display="inline"><![CDATA[F]]></fr:tex>, such that the twisting behaviour is described by the <fr:link href="/forest/hmlg-0028/" title="simplicial principal fiber bundle" uri="https://trebor-huang.github.io/forest/hmlg-0028/" display-uri="hmlg-0028" type="local">principal bundle</fr:link> <fr:tex display="inline"><![CDATA[p]]></fr:tex>.
+</html:p>
+            <html:p>
+  We consider a group action on <fr:tex display="inline"><![CDATA[E \times  F]]></fr:tex>, by <fr:tex display="inline"><![CDATA[g \cdot  (e, f) = (e \cdot  g^{-1}, g \cdot  f)]]></fr:tex>. This action is clearly free. Suppose the quotient simplicial set is <fr:tex display="inline"><![CDATA[E']]></fr:tex>, then we have a <fr:link href="/forest/hmlg-0026/" title="simplicial fiber bundle" uri="https://trebor-huang.github.io/forest/hmlg-0026/" display-uri="hmlg-0026" type="local">simplicial fiber bundle</fr:link> <fr:tex display="inline"><![CDATA[p' : E' \to  B]]></fr:tex> induced from <fr:tex display="inline"><![CDATA[p]]></fr:tex>. There is a <fr:tex display="inline"><![CDATA[G]]></fr:tex>-action on the fibers, by acting on the <fr:tex display="inline"><![CDATA[F]]></fr:tex> factor.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>29</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0029/</fr:uri>
+            <fr:display-uri>hmlg-0029</fr:display-uri>
+            <fr:route>/forest/hmlg-0029/</fr:route>
+            <fr:title text="Kan fiber bundle">Kan fiber bundle</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a <fr:link href="/forest/hmlg-0026/" title="simplicial fiber bundle" uri="https://trebor-huang.github.io/forest/hmlg-0026/" display-uri="hmlg-0026" type="local">simplicial fiber bundle</fr:link> <fr:tex display="inline"><![CDATA[p : E \to  B]]></fr:tex>, it is a Kan fibration iff the fiber <fr:tex display="inline"><![CDATA[F]]></fr:tex> is a Kan complex. Hence we call it a <html:strong>Kan fiber bundle</html:strong>. The proof yields an <fr:link href="/forest/hmlg-0027/" title="effective Kan fibration" uri="https://trebor-huang.github.io/forest/hmlg-0027/" display-uri="hmlg-0027" type="local">effective Kan fibration</fr:link> if all the inputs are effective.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>29</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Given a horn <fr:tex display="inline"><![CDATA[\Lambda ^n_k \to  E]]></fr:tex> and a compatible simplex <fr:tex display="inline"><![CDATA[\Delta ^n \to  B]]></fr:tex>, by the definition of simplicial fiber bundles, we may trivialize the bundle on the simplex locally. But since <fr:tex display="inline"><![CDATA[F]]></fr:tex> is Kan, obviously <fr:tex display="inline"><![CDATA[F \times  \Delta ^n \to  \Delta ^n]]></fr:tex> is also Kan. Hence we may select the required filling.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>29</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0028/</fr:uri>
+            <fr:display-uri>hmlg-0028</fr:display-uri>
+            <fr:route>/forest/hmlg-0028/</fr:route>
+            <fr:title text="simplicial principal fiber bundle">simplicial principal fiber bundle</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a simplicial group <fr:tex display="inline"><![CDATA[G]]></fr:tex>, a <fr:link href="/forest/hmlg-0026/" title="simplicial fiber bundle" uri="https://trebor-huang.github.io/forest/hmlg-0026/" display-uri="hmlg-0026" type="local">fiber bundle</fr:link> <fr:tex display="inline"><![CDATA[p : E \to  B]]></fr:tex> is <html:strong>principal</html:strong> if <fr:tex display="inline"><![CDATA[G]]></fr:tex> acts on the fibers freely and transitively <html:em>on the right</html:em>. This condition can be checked in each dimension separately.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

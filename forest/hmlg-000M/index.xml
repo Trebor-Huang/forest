@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>18</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-000M/</fr:uri>
+    <fr:display-uri>hmlg-000M</fr:display-uri>
+    <fr:route>/forest/hmlg-000M/</fr:route>
+    <fr:title text="total complex">total complex</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Given a <fr:link href="/forest/hmlg-000K/" title="bicomplex" uri="https://trebor-huang.github.io/forest/hmlg-000K/" display-uri="hmlg-000K" type="local">bicomplex</fr:link> <fr:tex display="inline"><![CDATA[C_{\bullet , \bullet }]]></fr:tex>, we can collapse it into a chain complex in two ways. In either way, <fr:tex display="inline"><![CDATA[C_{p, q}]]></fr:tex> is contained in the total complex at degree <fr:tex display="inline"><![CDATA[(m+n)]]></fr:tex>. We can use the direct sum to combine them: <fr:tex display="block"><![CDATA[\operatorname {Tot}^\oplus (C)_n = \bigoplus _{n = p+q} C_{p, q},]]></fr:tex> or the direct product: <fr:tex display="block"><![CDATA[\operatorname {Tot}^\Pi (C)_n = \prod _{n=p+q} C_{p,q}.]]></fr:tex></html:p>
+    <html:p>
+  The total differential acts on elements in <fr:tex display="inline"><![CDATA[C_{p, q}]]></fr:tex> by <fr:tex display="block"><![CDATA[\partial (x) = d(x) + (-1)^q \delta (x),]]></fr:tex> where <fr:tex display="inline"><![CDATA[d]]></fr:tex> is the vertical map, and <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex> the horizontal map. The <fr:link href="/forest/hmlg-000N/" title="signs in bicomplexes" uri="https://trebor-huang.github.io/forest/hmlg-000N/" display-uri="hmlg-000N" type="local">sign</fr:link> here is to ensure that <fr:tex display="inline"><![CDATA[\partial ^2 = 0]]></fr:tex>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000N/</fr:uri>
+            <fr:display-uri>hmlg-000N</fr:display-uri>
+            <fr:route>/forest/hmlg-000N/</fr:route>
+            <fr:title text="signs in bicomplexes">signs in bicomplexes</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Some sources require a <fr:link href="/forest/hmlg-000K/" title="bicomplex" uri="https://trebor-huang.github.io/forest/hmlg-000K/" display-uri="hmlg-000K" type="local">bicomplex</fr:link> to have anti-commuting squares. In this way, the <fr:link href="/forest/hmlg-000M/" title="total complex" uri="https://trebor-huang.github.io/forest/hmlg-000M/" display-uri="hmlg-000M" type="local">total complex</fr:link> has the simpler differential <fr:tex display="inline"><![CDATA[\partial  = d + \delta ]]></fr:tex>. These two definitions are convertible by flipping the signs of the horizontal boundary maps in every other row.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000K/</fr:uri>
+            <fr:display-uri>hmlg-000K</fr:display-uri>
+            <fr:route>/forest/hmlg-000K/</fr:route>
+            <fr:title text="bicomplex">bicomplex</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A <html:strong>bicomplex</html:strong> is a chain complex of chain complexes. More specifically, we have a grid of objects <fr:tex display="inline"><![CDATA[A_{m, n}]]></fr:tex>, vertical maps <fr:tex display="inline"><![CDATA[d : A_{m, n} \to  A_{m, n-1}]]></fr:tex> and horizontal maps <fr:tex display="inline"><![CDATA[\delta  : A_{m, n} \to  A_{m-1, n}]]></fr:tex>. Every square in the grid commutes, and <fr:tex display="inline"><![CDATA[d^2 = \delta ^2 = 0]]></fr:tex>.
+</html:p>
+            <html:p>
+  Each column <fr:tex display="inline"><![CDATA[A_{m, \bullet }]]></fr:tex> in the bicomplex is a chain complex, and <fr:tex display="inline"><![CDATA[\delta ]]></fr:tex> are chain maps between the column complexes. Similarly, each row forms a chain complex, and <fr:tex display="inline"><![CDATA[d]]></fr:tex> are chain maps between the row complexes.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000N/</fr:uri>
+            <fr:display-uri>hmlg-000N</fr:display-uri>
+            <fr:route>/forest/hmlg-000N/</fr:route>
+            <fr:title text="signs in bicomplexes">signs in bicomplexes</fr:title>
+            <fr:taxon>Remark</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Some sources require a <fr:link href="/forest/hmlg-000K/" title="bicomplex" uri="https://trebor-huang.github.io/forest/hmlg-000K/" display-uri="hmlg-000K" type="local">bicomplex</fr:link> to have anti-commuting squares. In this way, the <fr:link href="/forest/hmlg-000M/" title="total complex" uri="https://trebor-huang.github.io/forest/hmlg-000M/" display-uri="hmlg-000M" type="local">total complex</fr:link> has the simpler differential <fr:tex display="inline"><![CDATA[\partial  = d + \delta ]]></fr:tex>. These two definitions are convertible by flipping the signs of the horizontal boundary maps in every other row.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

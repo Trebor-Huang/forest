@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>17</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-0031/</fr:uri>
+    <fr:display-uri>hmlg-0031</fr:display-uri>
+    <fr:route>/forest/hmlg-0031/</fr:route>
+    <fr:title text="quasi-isomorphism between projective complexes is homotopy equivalence">quasi-isomorphism between projective complexes is homotopy equivalence</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Given two chain complexes <fr:tex display="inline"><![CDATA[C_\bullet ]]></fr:tex>, <fr:tex display="inline"><![CDATA[D_\bullet ]]></fr:tex> and a <fr:link href="/forest/hmlg-000C/" title="quasi-isomorphism" uri="https://trebor-huang.github.io/forest/hmlg-000C/" display-uri="hmlg-000C" type="local">quasi-isomorphism</fr:link> <fr:tex display="inline"><![CDATA[f : C_\bullet  \to  D_\bullet ]]></fr:tex>, if all the objects involved are <fr:link href="/forest/hmlg-0004/" title="projective object" uri="https://trebor-huang.github.io/forest/hmlg-0004/" display-uri="hmlg-0004" type="local">projective</fr:link>, then <fr:tex display="inline"><![CDATA[f]]></fr:tex> has a <fr:link href="/forest/hmlg-0016/" title="chain homotopy" uri="https://trebor-huang.github.io/forest/hmlg-0016/" display-uri="hmlg-0016" type="local">homotopy</fr:link> inverse.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2025</fr:year><fr:month>2</fr:month><fr:day>17</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    Consider the mapping cone <fr:tex display="inline"><![CDATA[\operatorname {Cone}(f)]]></fr:tex>, whose objects are given by <fr:tex display="inline"><![CDATA[\operatorname {Cone}_n (f) = C_{n-1} \oplus  D_n]]></fr:tex>. Since direct sums of projective objects are still projective, <fr:tex display="inline"><![CDATA[\operatorname {Cone}(f)]]></fr:tex> is also a chain complex of projective objects. We have a short exact sequence of chain complexes <fr:tex display="inline"><![CDATA[0 \to  D_\bullet  \to  \operatorname {Cone}_\bullet  (f) \to  C_{\bullet  - 1} \to  0]]></fr:tex>, which induces a <fr:link href="/forest/hmlg-0012/" title="long exact sequence of homologies" uri="https://trebor-huang.github.io/forest/hmlg-0012/" display-uri="hmlg-0012" type="local">long exact sequence of homologies</fr:link>, in which the boundary maps <fr:tex display="inline"><![CDATA[H_n (C) \to  H_n (D)]]></fr:tex> are given by <fr:tex display="inline"><![CDATA[f]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    However, we know <fr:tex display="inline"><![CDATA[f]]></fr:tex> is a quasi-isomorphism. Therefore the boundary maps are all isomorphisms. So by exactness of the sequence, <fr:tex display="inline"><![CDATA[H_n (\operatorname {Cone}(f))]]></fr:tex> must all be zero. But this means <fr:tex display="inline"><![CDATA[\operatorname {Cone}(f)]]></fr:tex> is an <fr:link href="/forest/hmlg-000D/" title="acyclic chain complex" uri="https://trebor-huang.github.io/forest/hmlg-000D/" display-uri="hmlg-000D" type="local">acyclic complex</fr:link>, and therefore a projective resolution of <fr:tex display="inline"><![CDATA[0]]></fr:tex>. Since projective resolutions are unique up to chain homotopy, we have a chain homotopy from <fr:tex display="inline"><![CDATA[\operatorname {Cone}(f)]]></fr:tex> to <fr:tex display="inline"><![CDATA[0]]></fr:tex>. Throwing away the trivial components, we get a degree 1 map <fr:tex display="inline"><![CDATA[h_n : \operatorname {Cone}_n (f) \to  \operatorname {Cone}_{n+1} (f)]]></fr:tex> such that <fr:tex display="inline"><![CDATA[d_{n+1} h_n + h_{n-1} d_n = 1]]></fr:tex>. Writing it down in components, we have
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      h_n^{CC} &: C_{n-1} \to  C_n \\
+      h_n^{CD} &: C_{n-1} \to  D_{n+1} \\
+      h_n^{DC} &: D_n \to  C_n \\
+      h_n^{DD} &: D_n \to  D_{n+1} \\
+    \end {aligned}]]></fr:tex>
+    such that
+    <fr:tex display="block"><![CDATA[\begin {aligned}
+      h_n^{CC} d^C_n + d^C_{n+1} h_{n+1}^{CC} + 1 &= h^{DC}_n f_{n} \\
+      d^C_n h^{DC}_n &= h^{DC}_n d^D_{n+1} \\
+      f_n h^{CC}_n + d^D_{n+1} h^{CD}_n + h_n^{DD} f_n &= h^{CD}_n d^C_n \\
+      f_n h^{DC}_n + d^D_{n+1} h^{DD}_n + h^{DD}_n d^D_{n+1} &= 1.
+    \end {aligned}]]></fr:tex>
+    The second equation shows that <fr:tex display="inline"><![CDATA[h^{DC}_\bullet ]]></fr:tex> forms a chain map. The first and fourth equation then shows that <fr:tex display="inline"><![CDATA[h^{DC} f]]></fr:tex> and <fr:tex display="inline"><![CDATA[f h^{DC}]]></fr:tex> are homotopic to the identity, respectively, with homotopies given by <fr:tex display="inline"><![CDATA[h^{CC}]]></fr:tex> and <fr:tex display="inline"><![CDATA[h^{DD}]]></fr:tex>. Therefore <fr:tex display="inline"><![CDATA[f]]></fr:tex> has a homotopy inverse.
+  </html:p>
+
+  <html:p>
+    Curiously, there is an extra equation here, showing that <fr:tex display="inline"><![CDATA[h^{CD}]]></fr:tex> is not a chain map and giving the exact deviation.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0016/</fr:uri>
+            <fr:display-uri>hmlg-0016</fr:display-uri>
+            <fr:route>/forest/hmlg-0016/</fr:route>
+            <fr:title text="chain homotopy">chain homotopy</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given two chain complexes <fr:tex display="inline"><![CDATA[C_\bullet ]]></fr:tex> and <fr:tex display="inline"><![CDATA[D_\bullet ]]></fr:tex> with two <fr:link href="/forest/hmlg-0008/" title="chain map" uri="https://trebor-huang.github.io/forest/hmlg-0008/" display-uri="hmlg-0008" type="local">chain maps</fr:link> <fr:tex display="inline"><![CDATA[f, g : C \to  D]]></fr:tex> between them, a <html:strong>chain homotopy</html:strong> from <fr:tex display="inline"><![CDATA[f]]></fr:tex> to <fr:tex display="inline"><![CDATA[g]]></fr:tex> is given by a family of maps <fr:tex display="inline"><![CDATA[h_n : C_n \to  D_{n+1}]]></fr:tex>, such that
+  <fr:tex display="block"><![CDATA[d_{n+1} \mathbin {\circ } h_n + h_{n-1} \mathbin {\circ } d_n = f_n - g_n.]]></fr:tex>
+  Note that the two <fr:tex display="inline"><![CDATA[d]]></fr:tex>’s denote the boundary map of different chain complexes.
+</html:p>
+            <html:p>
+  The chain homotopy can be written as <fr:tex display="inline"><![CDATA[h : f \to  g]]></fr:tex> or as <fr:tex display="inline"><![CDATA[h : C \to  D]]></fr:tex>. This causes no confusion, and the latter is convenient in situations where the maps <fr:tex display="inline"><![CDATA[f, g]]></fr:tex> matter less than their difference <fr:tex display="inline"><![CDATA[f - g]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0012/</fr:uri>
+            <fr:display-uri>hmlg-0012</fr:display-uri>
+            <fr:route>/forest/hmlg-0012/</fr:route>
+            <fr:title text="long exact sequence of homologies">long exact sequence of homologies</fr:title>
+            <fr:taxon>Construction</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a short exact sequence of chain complexes
+  <fr:tex display="block"><![CDATA[0 \to  A_\bullet  \to  B_\bullet  \to  C_\bullet  \to  0,]]></fr:tex>
+  there is a long exact sequence of homology groups
+  <fr:tex display="block"><![CDATA[\cdots  \to  H_{n+1}(C) \xrightarrow {\partial } H_n(A) \to  H_n (B) \to  H_n (C) \xrightarrow {\partial } H_{n-1} (A) \to  \cdots ]]></fr:tex>
+  The map <fr:tex display="inline"><![CDATA[\partial ]]></fr:tex> here is, after unpacking some quotients, simply the boundary map <fr:tex display="inline"><![CDATA[B_n \to  B_{n-1}]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000D/</fr:uri>
+            <fr:display-uri>hmlg-000D</fr:display-uri>
+            <fr:route>/forest/hmlg-000D/</fr:route>
+            <fr:title text="acyclic chain complex">acyclic chain complex</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  If all the homology groups vanish, then the chain complex is said fo be <html:strong>acyclic</html:strong> or <html:strong>exact</html:strong>. Equivalently, every cycle is a boundary.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000C/</fr:uri>
+            <fr:display-uri>hmlg-000C</fr:display-uri>
+            <fr:route>/forest/hmlg-000C/</fr:route>
+            <fr:title text="quasi-isomorphism">quasi-isomorphism</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  A <fr:link href="/forest/hmlg-0008/" title="chain map" uri="https://trebor-huang.github.io/forest/hmlg-0008/" display-uri="hmlg-0008" type="local">chain map</fr:link> is a <html:strong>quasi-isomorphism</html:strong> if it induces isomorphisms on the <fr:link href="/forest/hmlg-0007/" title="components of a chain complex" uri="https://trebor-huang.github.io/forest/hmlg-0007/" display-uri="hmlg-0007" type="local">homology groups</fr:link>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0004/</fr:uri>
+            <fr:display-uri>hmlg-0004</fr:display-uri>
+            <fr:route>/forest/hmlg-0004/</fr:route>
+            <fr:title text="projective object">projective object</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>In an abelian category, an object <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <html:strong>projective</html:strong> iff for every morphism <fr:tex display="inline"><![CDATA[P \to  B]]></fr:tex> can be lifted through an epimorphism <fr:tex display="inline"><![CDATA[A \twoheadrightarrow  B]]></fr:tex>, i.e. there exists a (non-unique) morphism <fr:tex display="inline"><![CDATA[P \to  A]]></fr:tex> making the triangle commute.</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

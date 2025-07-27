@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>2</fr:month>
+      <fr:day>20</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-0015/</fr:uri>
+    <fr:display-uri>hmlg-0015</fr:display-uri>
+    <fr:route>/forest/hmlg-0015/</fr:route>
+    <fr:title text="filtered chain complex">filtered chain complex</fr:title>
+    <fr:taxon>Visualization</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  Combining <fr:link href="/forest/hmlg-000A/" title="chain complex" uri="https://trebor-huang.github.io/forest/hmlg-000A/" display-uri="hmlg-000A" type="local">Visualization <fr:contextual-number uri="https://trebor-huang.github.io/forest/hmlg-000A/" display-uri="hmlg-000A" /></fr:link> and <fr:link href="/forest/hmlg-0014/" title="filtered object" uri="https://trebor-huang.github.io/forest/hmlg-0014/" display-uri="hmlg-0014" type="local">Visualization <fr:contextual-number uri="https://trebor-huang.github.io/forest/hmlg-0014/" display-uri="hmlg-0014" /></fr:link>, we arrive at the following picture. Each family of colors corresponds to the filtration <fr:tex display="inline"><![CDATA[F_\bullet  C_n]]></fr:tex> in one dimension, and the different shades corresponds to the degree in the filtration.
+</html:p>
+  <html:span class="tikz">
+    <fr:resource hash="1b0bc236e964ca3af53d1a4230f7c01d"><fr:resource-content><html:img src="/forest/1b0bc236e964ca3af53d1a4230f7c01d.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
+      \usetikzlibrary{decorations.pathreplacing}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzpicture}
+  \tikzset {every path/.style={thick, fill opacity = 0.2, line join = round}}
+  \foreach  \depth  in {4,3,2,1} {
+    \fill [blue!80!yellow] (-4,4) -- (0,0) -- ({\depth }, 0) -- ({\depth  - 4}, 4) -- cycle;
+    \fill [green!80!purple] (0,0) -- (4,4) -- ({\depth  + 4}, 4) -- ({\depth }, 0) -- cycle;
+    \fill [yellow!80!red] (4,4) -- (8,0) -- ({\depth  + 8}, 0) -- ({\depth  + 4}, 4) -- cycle;
+  }
+
+  \foreach  \depth  in {4,3,2,1} {
+    \draw  ({\depth  - 5},4) -- ({\depth  - 1},0) -- ({\depth }, 0) -- ({\depth  - 4}, 4) -- cycle;
+    \draw  ({\depth  - 1},0) -- ({\depth  + 3},4) -- ({\depth  + 4}, 4) -- ({\depth }, 0) -- cycle;
+    \draw  ({\depth  + 3},4) -- ({\depth  + 7},0) -- ({\depth  + 8}, 0) -- ({\depth  + 4}, 4) -- cycle;
+  }
+\end {tikzpicture}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+<html:p>
+  Note that we arranged so that only the higher degree (i.e. the lighter color) components may touch the lower degree components in the next dimension. So the intersection is a triangle shape instead of a complete diamond grid. This corresponds to the requirement that the boundary map sends <fr:tex display="inline"><![CDATA[F_i C_j]]></fr:tex> to <fr:tex display="inline"><![CDATA[F_i C_{j+1}]]></fr:tex>.
+</html:p><html:p>
+  We can see the associated spectral sequences directly from the visualization. We start with the graded components, which form strands of chain complexes. Here the second degree is highlighted.
+  
+  <html:span class="tikz">
+    <fr:resource hash="e2904413301f156cb054d096081fa0a6"><fr:resource-content><html:img src="/forest/e2904413301f156cb054d096081fa0a6.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
+      \usetikzlibrary{decorations.pathreplacing}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzpicture}
+    \tikzset {every path/.style={thick, fill opacity = 0.4, line join = round}}
+    \foreach  \depth  in {2} {
+      \fill [blue!80!yellow] ({\depth  - 5},4) -- ({\depth  - 1},0) -- ({\depth }, 0) -- ({\depth  - 4}, 4) -- cycle;
+      \fill [green!80!purple] ({\depth  - 1},0) -- ({\depth  + 3},4) -- ({\depth  + 4}, 4) -- ({\depth }, 0) -- cycle;
+      \fill [yellow!80!red] ({\depth  + 3},4) -- ({\depth  + 7},0) -- ({\depth  + 8}, 0) -- ({\depth  + 4}, 4) -- cycle;
+    }
+
+    \foreach  \depth  in {4,3,2,1} {
+      \draw  ({\depth  - 5},4) -- ({\depth  - 1},0) -- ({\depth }, 0) -- ({\depth  - 4}, 4) -- cycle;
+      \draw  ({\depth  - 1},0) -- ({\depth  + 3},4) -- ({\depth  + 4}, 4) -- ({\depth }, 0) -- cycle;
+      \draw  ({\depth  + 3},4) -- ({\depth  + 7},0) -- ({\depth  + 8}, 0) -- ({\depth  + 4}, 4) -- cycle;
+    }
+  \end {tikzpicture}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+  The homology chops off the intersections, and so we enter the first page of the spectral sequence, consisting of strands with the top and bottom part cut off. Repeatedly taking homology, we are finally left with the rectangular part in the middle, which is the graded components of the desired homology group of the entire complex.
+</html:p></fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0014/</fr:uri>
+            <fr:display-uri>hmlg-0014</fr:display-uri>
+            <fr:route>/forest/hmlg-0014/</fr:route>
+            <fr:title text="filtered object">filtered object</fr:title>
+            <fr:taxon>Visualization</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  We can visualize a filtered object <fr:tex display="inline"><![CDATA[F_1 A \subseteq  F_2 A \subseteq  F_3 A \subseteq  A]]></fr:tex> as nested rectangles. The graded components of this filtration are the individual rectangular regions.
+</html:p>
+  <html:span class="tikz">
+    <fr:resource hash="6768e0511351b64e03293bedb4a92f13"><fr:resource-content><html:img src="/forest/6768e0511351b64e03293bedb4a92f13.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
+      \usetikzlibrary{decorations.pathreplacing}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzpicture}
+  \tikzset {every path/.style={thick, fill = blue!80!yellow, fill opacity = 0.1}}
+  \filldraw  (0,-1) rectangle (4,1);
+  \filldraw  (0,-1) rectangle (3,1);
+  \filldraw  (0,-1) rectangle (2,1);
+  \filldraw  (0,-1) rectangle (1,1);
+\end {tikzpicture}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+</fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000A/</fr:uri>
+            <fr:display-uri>hmlg-000A</fr:display-uri>
+            <fr:route>/forest/hmlg-000A/</fr:route>
+            <fr:title text="chain complex">chain complex</fr:title>
+            <fr:taxon>Visualization</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Since the boundary subgroup in one dimension can also be considered as a quotient in a lower dimension, it may be beneficial to identify the two in a visualization. This leads to the following picture. Regions appearing to the right are to be considered as quotients, and those to the left as subobjects. Further development of this visualization scheme can be seen <fr:link href="https://www.3blue1brown.com/blog/exact-sequence-picturebook" type="external">here</fr:link>.
+</html:p>
+  <html:span class="tikz">
+    <fr:resource hash="e6f840e52babb21ae173e2964ca5c1be"><fr:resource-content><html:img src="/forest/e6f840e52babb21ae173e2964ca5c1be.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, mathtools, amssymb, stmaryrd, mathrsfs}
+      \usetikzlibrary{decorations.pathreplacing}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzpicture}
+    \clip (-1.9, -2.4) rectangle (5.9, 2);
+  \tikzset{every path/.style={thick}}
+
+  % The circles
+  \draw (-2,0) circle (1.6);
+
+  \draw (0,0) circle (1.6);
+  \node at (0, -2) {\(C_{n+1}\)};
+  \node at (0,1) {\(H_{n+1}\)};
+
+  \node at (1,0) {\(B_n\)};
+  \draw (2,0) circle (1.6);
+  \node at (2, -2) {\(C_{n}\)};
+  \node at (2,1) {\(H_n\)};
+
+  \node at (3,0) {\(B_{n-1}\)};
+  \draw (4,0) circle (1.6);
+  \node at (4, -2) {\(C_{n-1}\)};
+  \node at (4,1) {\(H_{n-1}\)};
+
+  \draw (6,0) circle (1.6);
+\end {tikzpicture}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+<html:p>
+  We chose to draw circles to emphasize the individual chain groups. In more complicated situations, it is more convenient to draw a chain of rectangles, with each chain group spanning three rectangular regions. We would then need other means to convey the confines of each object.
+</html:p></fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>6</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/algm-000R/</fr:uri>
+    <fr:display-uri>algm-000R</fr:display-uri>
+    <fr:route>/forest/algm-000R/</fr:route>
+    <fr:title text="scheme">scheme</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A <html:strong>scheme</html:strong> is a <fr:link href="/forest/algm-000L/" title="locally ringed space" uri="https://trebor-huang.github.io/forest/algm-000L/" display-uri="algm-000L" type="local">locally ringed space</fr:link> with an open covering on which the space is isomorphic to <fr:link href="/forest/algm-000Q/" title="affine scheme" uri="https://trebor-huang.github.io/forest/algm-000Q/" display-uri="algm-000Q" type="local">affine schemes</fr:link>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-0022/</fr:uri>
+            <fr:display-uri>algm-0022</fr:display-uri>
+            <fr:route>/forest/algm-0022/</fr:route>
+            <fr:title text="dense subsite of affine opens">dense subsite of affine opens</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/algm-000R/" title="scheme" uri="https://trebor-huang.github.io/forest/algm-000R/" display-uri="algm-000R" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex>, the underlying locale (equipped with the canonical coverage) has a <fr:link href="/forest/algm-0021/" title="dense subsite" uri="https://trebor-huang.github.io/forest/algm-0021/" display-uri="algm-0021" type="local">dense subsite</fr:link> whose objects are affine opens, and morphisms are distinguished open subspaces. Note that this isn’t a full subcategory, since <fr:link href="/forest/algm-0020/" title="a non-distinguished affine subscheme" uri="https://trebor-huang.github.io/forest/algm-0020/" display-uri="algm-0020" type="local">there exist affine open subspaces that are not distinguished</fr:link>.
+</html:p>
+            <html:p>
+  Since schemes are covered by affine schemes, and distinguished opens form a basis in the <fr:link href="/forest/algm-0007/" title="localic spectrum of a commutative ring" uri="https://trebor-huang.github.io/forest/algm-0007/" display-uri="algm-0007" type="local">localic spectrum of a commutative ring</fr:link>, every open in <fr:tex display="inline"><![CDATA[S]]></fr:tex> is covered by affine opens. On the other hand, <fr:link href="/forest/algm-0016/" title="Nike’s trick" uri="https://trebor-huang.github.io/forest/algm-0016/" display-uri="algm-0016" type="local">Nike’s trick</fr:link> guarantees the condition on morphisms for dense subsites.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>8</fr:month>
+              <fr:day>22</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-001Y/</fr:uri>
+            <fr:display-uri>algm-001Y</fr:display-uri>
+            <fr:route>/forest/algm-001Y/</fr:route>
+            <fr:title text="affinification">affinification</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/algm-000R/" title="scheme" uri="https://trebor-huang.github.io/forest/algm-000R/" display-uri="algm-000R" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex>, we can produce a best <fr:link href="/forest/algm-000Q/" title="affine scheme" uri="https://trebor-huang.github.io/forest/algm-000Q/" display-uri="algm-000Q" type="local">affine</fr:link> approximation <fr:tex display="inline"><![CDATA[S \to  S']]></fr:tex> for it. This serves as the adjoint unit of the <fr:link href="/forest/algm-0014/" title="adjunction of global section and \Spec " uri="https://trebor-huang.github.io/forest/algm-0014/" display-uri="algm-0014" type="local">adjunction of global section and <fr:tex display="inline"><![CDATA[\Spec ]]></fr:tex></fr:link>. Here we give a construction from the ground up.
+</html:p>
+            <html:p>
+  We define <fr:tex display="inline"><![CDATA[S' = \operatorname {Spec} \Gamma (\top , \mathscr {O}_X)]]></fr:tex>. For the map <fr:tex display="inline"><![CDATA[S \to  S']]></fr:tex>, we define the preimage of the distinguished open <fr:tex display="inline"><![CDATA[D(f)]]></fr:tex> to be the non-vanishing open of <fr:tex display="inline"><![CDATA[f \in  \Gamma (\top , \mathscr {O}_X)]]></fr:tex>, which is defined on each affine subscheme as the distinguished open of <fr:tex display="inline"><![CDATA[f]]></fr:tex>. This is obviously continuous. We can then pull back a section <fr:tex display="inline"><![CDATA[f/g]]></fr:tex> by considering them as an element of <fr:tex display="inline"><![CDATA[\Gamma (\top , \mathscr {O}_X)]]></fr:tex> and restricting them.
+</html:p>
+            <html:p>
+  A scheme is affine iff the affinification is an isomorphism. This is a formal consequence that affine schemes form a full subcategory of schemes.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-0010/</fr:uri>
+            <fr:display-uri>algm-0010</fr:display-uri>
+            <fr:route>/forest/algm-0010/</fr:route>
+            <fr:title text="structure sheaf of \Proj (S)">structure sheaf of <fr:tex display="inline"><![CDATA[\Proj (S)]]></fr:tex></fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Fix a <fr:link href="/forest/hmlg-001L/" title="graded ring" uri="https://trebor-huang.github.io/forest/hmlg-001L/" display-uri="hmlg-001L" type="local">graded ring</fr:link> <fr:tex display="inline"><![CDATA[S]]></fr:tex>. For a positively graded element <fr:tex display="inline"><![CDATA[f]]></fr:tex>, we have a graded ring localization <fr:tex display="inline"><![CDATA[S[f^{-1}]_\bullet ]]></fr:tex>. Let <fr:tex display="inline"><![CDATA[\Gamma (D_+(f), \mathscr {O})]]></fr:tex> be the zeroth degree component <fr:tex display="inline"><![CDATA[S[f^{-1}]_0]]></fr:tex>. This defines a sheaf over the <fr:link href="/forest/algm-000Y/" title="projective spectrum of a graded ring" uri="https://trebor-huang.github.io/forest/algm-000Y/" display-uri="algm-000Y" type="local">projective spectrum</fr:link>, and moreover gives a <fr:link href="/forest/algm-000R/" title="scheme" uri="https://trebor-huang.github.io/forest/algm-000R/" display-uri="algm-000R" type="local">scheme</fr:link> <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex>.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>3</fr:month><fr:day>12</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We claim that <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> can alternatively be given by gluing affine schemes. We assign <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> the affine scheme <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> (which is possible because the open subspace <fr:tex display="inline"><![CDATA[D_+ (f)]]></fr:tex> is homeomorphic to <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> as a space). Given two positively graded elements <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex>, we have an isomorphism between <fr:tex display="inline"><![CDATA[\operatorname {Proj}(S)]]></fr:tex> restricted to <fr:tex display="inline"><![CDATA[D_+ (f g)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {Spec}(S[f^{-1}]_0)]]></fr:tex> restricted to <fr:tex display="inline"><![CDATA[D(g^{\deg  f}/f^{\deg  g})]]></fr:tex>, given by the obvious ring isomorphism. We can verify that this satisfies the cocycle condition, and hence defines a scheme.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-000Q/</fr:uri>
+            <fr:display-uri>algm-000Q</fr:display-uri>
+            <fr:route>/forest/algm-000Q/</fr:route>
+            <fr:title text="affine scheme">affine scheme</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  An <html:strong>affine scheme</html:strong> is a <fr:link href="/forest/algm-000L/" title="locally ringed space" uri="https://trebor-huang.github.io/forest/algm-000L/" display-uri="algm-000L" type="local">locally ringed space</fr:link> of the form <fr:tex display="inline"><![CDATA[\operatorname {Spec}(R)]]></fr:tex> for some commutative ring <fr:tex display="inline"><![CDATA[R]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>5</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-000L/</fr:uri>
+            <fr:display-uri>algm-000L</fr:display-uri>
+            <fr:route>/forest/algm-000L/</fr:route>
+            <fr:title text="locally ringed space">locally ringed space</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/algm-000M/" title="ringed space" uri="https://trebor-huang.github.io/forest/algm-000M/" display-uri="algm-000M" type="local">ringed space</fr:link>, i.e. a space <fr:tex display="inline"><![CDATA[X]]></fr:tex> with a sheaf of rings <fr:tex display="inline"><![CDATA[\mathscr {O}]]></fr:tex>, it is said to be <html:strong>locally ringed</html:strong> iff the following conditions hold.
+</html:p>
+            <html:ul><html:li>If <fr:tex display="inline"><![CDATA[\Gamma (U, \mathscr {O}) = 0]]></fr:tex>, then <fr:tex display="inline"><![CDATA[U]]></fr:tex> is empty.</html:li>
+  <html:li>Suppose <fr:tex display="inline"><![CDATA[f + g \in  \Gamma (U, \mathscr {O})]]></fr:tex> is invertible, then we can cover <fr:tex display="inline"><![CDATA[U]]></fr:tex> with two open sets such that <fr:tex display="inline"><![CDATA[f]]></fr:tex> and <fr:tex display="inline"><![CDATA[g]]></fr:tex> are invertible when restricted respectively.</html:li></html:ul>
+            <html:p>
+  This can be unified as one condition: If a finite sum in <fr:tex display="inline"><![CDATA[\Gamma (U, \mathscr {O})]]></fr:tex> is invertible, then each summand is invertible when restricted to an open, which jointly covers <fr:tex display="inline"><![CDATA[U]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

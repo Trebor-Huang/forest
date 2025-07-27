@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>7</fr:month>
+      <fr:day>12</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/hmlg-002W/</fr:uri>
+    <fr:display-uri>hmlg-002W</fr:display-uri>
+    <fr:route>/forest/hmlg-002W/</fr:route>
+    <fr:title text="additive functor is faithful iff it reflects exactness">additive functor is faithful iff it reflects exactness</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter><html:p>
+  An <fr:link href="/forest/hmlg-000S/" title="additive functor" uri="https://trebor-huang.github.io/forest/hmlg-000S/" display-uri="hmlg-000S" type="local">additive functor</fr:link> is faithful iff it reflects exactness.
+</html:p><html:p>
+  This implies that faithful additive functors reflects kernels, cokernels, etc. Note that faithful functors need not preserve kernels or cokernels. This is because we can take the direct sum of a faithful functor with an arbitrary additive functor and the result is still faithful. The second summand can behave badly.
+</html:p>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>7</fr:month><fr:day>12</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    We first prove the forward implication. Given a sequence
+    <fr:tex display="block"><![CDATA[X \xrightarrow {f} Y \xrightarrow {g} Z]]></fr:tex>
+    whose image under <fr:tex display="inline"><![CDATA[F]]></fr:tex> is exact, by faithfulness <fr:tex display="inline"><![CDATA[F(g \mathbin {\circ } f) = 0]]></fr:tex> implies <fr:tex display="inline"><![CDATA[g \mathbin {\circ } f = 0]]></fr:tex>. Now we wish to prove the composite <fr:tex display="inline"><![CDATA[\ker  g \to  Y \to  \operatorname {coker} f]]></fr:tex> is zero. We can decompose its image under <fr:tex display="inline"><![CDATA[F]]></fr:tex> as
+    <fr:tex display="block"><![CDATA[F(\ker  g) \to  \ker  Fg \to  FY \to  \operatorname {coker} Ff \to  F(\operatorname {coker} f).]]></fr:tex>
+    But the inner two morphisms compose to zero, so by faithfulness we get our result.
+  </html:p>
+
+  <html:p>
+    On the other hand, suppose <fr:tex display="inline"><![CDATA[F]]></fr:tex> reflects exactness. Given a morphism <fr:tex display="inline"><![CDATA[f : X \to  Y]]></fr:tex>, suppose <fr:tex display="inline"><![CDATA[Ff = 0]]></fr:tex>, then <fr:tex display="inline"><![CDATA[FX \xrightarrow {\textrm {id}} FX \xrightarrow {Ff} FY]]></fr:tex> is exact. Hence <fr:tex display="inline"><![CDATA[X \xrightarrow {\textrm {id}} X \xrightarrow {f} Y]]></fr:tex> is also exact, so <fr:tex display="inline"><![CDATA[f = 0]]></fr:tex> too.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>18</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-000S/</fr:uri>
+            <fr:display-uri>hmlg-000S</fr:display-uri>
+            <fr:route>/forest/hmlg-000S/</fr:route>
+            <fr:title text="additive functor">additive functor</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given two <fr:link href="/forest/hmlg-000P/" title="additive category" uri="https://trebor-huang.github.io/forest/hmlg-000P/" display-uri="hmlg-000P" type="local">additive categories</fr:link> and a functor <fr:tex display="inline"><![CDATA[F : \mathcal {C} \to  \mathcal {D}]]></fr:tex> between them, the following are equivalent. In this case, we call the functor <html:strong>additive</html:strong>.
+</html:p><html:ul><html:li>The functor preserves finite products.</html:li>
+  <html:li>The functor preserves finite coproducts.</html:li>
+  <html:li>The functor is a homomorphism on the abelian groups <fr:tex display="inline"><![CDATA[\hom _{\mathcal {C}}(X, Y)]]></fr:tex>, i.e. it is an <fr:tex display="inline"><![CDATA[\mathsf {Ab}]]></fr:tex>-enriched functor.</html:li></html:ul>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>2</fr:month><fr:day>18</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    For the equivalence of the first two claims, we have a composition
+    <fr:tex display="block"><![CDATA[F(X) + F(Y) \to  F(X + Y) \stackrel {\sim \,}{\to } F(X \times  Y) \to  F(X) \times  F(Y),]]></fr:tex>
+    where the middle morphism comes from the canonical isomorphism <fr:tex display="inline"><![CDATA[X + Y \stackrel {\sim \,}{\to } F(X \times  Y)]]></fr:tex>. The first two claim is equivalent to the right and left arrows being iso, respectively. Recall that a morphism from a coproduct to a product is determined by a matrix of morphisms. With this fact and the functoriality of <fr:tex display="inline"><![CDATA[F]]></fr:tex>, we can compute that the composition is the canonical isomorphism from <fr:tex display="inline"><![CDATA[F(X) + F(Y)]]></fr:tex> to <fr:tex display="inline"><![CDATA[F(X) \times  F(Y)]]></fr:tex>. Therefore the leftmost arrow being iso is equivalent to the rightmost arrow being iso.
+  </html:p>
+
+  <html:p>
+    Since the abelian group structure on morphisms is <fr:link href="/forest/hmlg-000R/" title="being an additive category is a property" uri="https://trebor-huang.github.io/forest/hmlg-000R/" display-uri="hmlg-000R" type="local">uniquely determined</fr:link> from the finite products and coproducts in an additive category, a functor satisfying the first two conditions automatically satisfies the third. Conversely, we need to prove the canonical maps <fr:tex display="inline"><![CDATA[F(1) \to  1]]></fr:tex> and <fr:tex display="inline"><![CDATA[F(X \times  Y) \to  F(X) \times  F(Y)]]></fr:tex> are isomorphisms. For the first one, since <fr:tex display="inline"><![CDATA[1]]></fr:tex> is also the initial object, any morphism into it is automatically iso. For the second one, we again look at the diagram which composes to an isomorphism:
+    <fr:tex display="block"><![CDATA[F(X) + F(Y) \to  F(X + Y) \stackrel {\sim \,}{\to } F(X \times  Y) \to  F(X) \times  F(Y).]]></fr:tex>
+    Using the bilinearity of composition and that <fr:tex display="inline"><![CDATA[F]]></fr:tex> preserves addition on morphisms, we can verify that this provides a two-sided inverse.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

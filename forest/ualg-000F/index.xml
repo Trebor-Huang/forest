@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>21</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/ualg-000F/</fr:uri>
+    <fr:display-uri>ualg-000F</fr:display-uri>
+    <fr:route>/forest/ualg-000F/</fr:route>
+    <fr:title text="reflexive pair">reflexive pair</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  A <html:strong>reflexive pair</html:strong> is the categorical translation of a reflexive relation. It is defined as a pair of arrows <fr:tex display="inline"><![CDATA[\partial _0, \partial _1 : X \rightrightarrows  Y]]></fr:tex> with a common section <fr:tex display="inline"><![CDATA[r : Y \to  X]]></fr:tex>, i.e. an arrow <fr:tex display="inline"><![CDATA[r]]></fr:tex> such that <fr:tex display="inline"><![CDATA[\partial _0 \mathbin {\circ } r = \partial _1 \mathbin {\circ } r = \textrm {id}_Y]]></fr:tex>. A coequalizer of a reflexive pair is called a <html:strong>reflexive coequalizer</html:strong>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/ualg-000E/</fr:uri>
+            <fr:display-uri>ualg-000E</fr:display-uri>
+            <fr:route>/forest/ualg-000E/</fr:route>
+            <fr:title text="crude monadicity theorem">crude monadicity theorem</fr:title>
+            <fr:taxon>Theorem</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Let <fr:tex display="inline"><![CDATA[G : \mathcal {D} \to  \mathcal {C}]]></fr:tex> be a functor with a left adjoint <fr:tex display="inline"><![CDATA[F]]></fr:tex>. <fr:tex display="inline"><![CDATA[M = G \mathbin {\circ } F]]></fr:tex> is the corresponding monad on <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>. This gives a <fr:link href="/forest/ualg-0009/" title="the Eilenberg–Moore category induces the terminal decomposition of a monad" uri="https://trebor-huang.github.io/forest/ualg-0009/" display-uri="ualg-0009" type="local">comparison functor</fr:link> <fr:tex display="inline"><![CDATA[K : \mathcal {A} \to  \mathcal {C}^M]]></fr:tex>.
+</html:p><html:ol><html:li>If <fr:tex display="inline"><![CDATA[\mathcal {D}]]></fr:tex> has all coequalizers (we can weaken this to <fr:link href="/forest/ualg-000F/" title="reflexive pair" uri="https://trebor-huang.github.io/forest/ualg-000F/" display-uri="ualg-000F" type="local">reflexive coequalizers</fr:link>), then <fr:tex display="inline"><![CDATA[K]]></fr:tex> has a left adjoint.</html:li>
+  <html:li>If moreover <fr:tex display="inline"><![CDATA[G]]></fr:tex> preserves these reflexive coequalizers, the unit <fr:tex display="inline"><![CDATA[\textrm {Id} \to  K \mathbin {\circ } L]]></fr:tex> is an isomorphism.</html:li>
+  <html:li>Finally, if <fr:tex display="inline"><![CDATA[G]]></fr:tex> reflects isomorphisms, then the counit <fr:tex display="inline"><![CDATA[L \mathbin {\circ } K \to  \textrm {Id}]]></fr:tex> is also an isomorphism, making <fr:tex display="inline"><![CDATA[G]]></fr:tex> <fr:link href="/forest/ualg-000A/" title="monadic functor" uri="https://trebor-huang.github.io/forest/ualg-000A/" display-uri="ualg-000A" type="local">monadic</fr:link>.</html:li></html:ol>
+  
+    
+    <fr:tree show-metadata="false" toc="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2024</fr:year><fr:month>4</fr:month><fr:day>20</fr:day></fr:date><fr:taxon>Proof</fr:taxon></fr:frontmatter><fr:mainmatter>
+  <html:p>
+    For the first claim, we need a functor <fr:tex display="inline"><![CDATA[L]]></fr:tex> such that arrows from <fr:tex display="inline"><![CDATA[L(GFA \xrightarrow {\alpha } A)]]></fr:tex> to <fr:tex display="inline"><![CDATA[X]]></fr:tex> is in bijection with commutative squares
+    
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="346267e6fbc72d83f44c266a919b1e18"><fr:resource-content><html:img src="/forest/346267e6fbc72d83f44c266a919b1e18.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+      GFA & GFGX \\
+      A & GX
+      \arrow [from=1-1, to=1-2]
+      \arrow ["{\alpha }"', from=1-1, to=2-1]
+      \arrow ["{G \epsilon }", from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+    which are equivalent by <fr:tex display="inline"><![CDATA[F \dashv  G]]></fr:tex> to the commutative squares
+    
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="fdeff1fe60124ea02acb75c2959fb83d"><fr:resource-content><html:img src="/forest/fdeff1fe60124ea02acb75c2959fb83d.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+      FGFA & FGX \\
+      FA & X
+      \arrow ["FG\varphi ", from=1-1, to=1-2]
+      \arrow ["F\alpha "', from=1-1, to=2-1]
+      \arrow ["\epsilon ", from=1-2, to=2-2]
+      \arrow ["\varphi ", from=2-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+    Further notice that <fr:tex display="inline"><![CDATA[\epsilon  \mathbin {\circ } FG\varphi  = \varphi  \mathbin {\circ } \epsilon ]]></fr:tex> by naturality. So it becomes obvious that <fr:tex display="inline"><![CDATA[L]]></fr:tex> should be defined as the coequalizer of the pair <fr:tex display="block"><![CDATA[F \alpha , \epsilon  : FGFA \rightrightarrows  FA.]]></fr:tex> This is reflexive by the common section <fr:tex display="inline"><![CDATA[F\eta ]]></fr:tex>.
+  </html:p>
+
+  <html:p>
+    For the second point, we unfold the unit as a natural family of commutative squares
+    
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="c6c3ab8a621da1af78d1e2f722fa4c0e"><fr:resource-content><html:img src="/forest/c6c3ab8a621da1af78d1e2f722fa4c0e.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+      GFA & {GFG\operatorname *{colim}(FGFA \rightrightarrows  FA)} \\
+      A & {G\operatorname *{colim}(FGFA \rightrightarrows  FA)}
+      \arrow [from=1-1, to=1-2]
+      \arrow [from=1-1, to=2-1]
+      \arrow [from=1-2, to=2-2]
+      \arrow [from=2-1, to=2-2]
+    \end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+    and when <fr:tex display="inline"><![CDATA[G]]></fr:tex> preserves the coequalizers in the diagram, the problem is reduced to showing that the coequalizer of <fr:tex display="inline"><![CDATA[GF\alpha ]]></fr:tex> and <fr:tex display="inline"><![CDATA[G\epsilon  : GFGFA \rightrightarrows  GFA]]></fr:tex> is isomorphic to <fr:tex display="inline"><![CDATA[A]]></fr:tex> via the bottom map, which is just the unit <fr:tex display="inline"><![CDATA[\eta  : A \to  GFA]]></fr:tex> composed with the coequalizing map. This is a routine diagram chase.
+  </html:p>
+
+  <html:p>
+    For the final point, we would like the coequalizer of <fr:tex display="inline"><![CDATA[FG\epsilon , \epsilon  : FGFGX \rightrightarrows  FGX]]></fr:tex> to be isomorphic to <fr:tex display="inline"><![CDATA[X]]></fr:tex>. If we apply <fr:tex display="inline"><![CDATA[G]]></fr:tex> to the diagram, we get an isomorphism to <fr:tex display="inline"><![CDATA[GX]]></fr:tex> by the previous point. So if <fr:tex display="inline"><![CDATA[G]]></fr:tex> reflects isomorphisms, we’re done.
+  </html:p>
+</fr:mainmatter></fr:tree>
+  
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>3</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/algm-001I/</fr:uri>
+    <fr:display-uri>algm-001I</fr:display-uri>
+    <fr:route>/forest/algm-001I/</fr:route>
+    <fr:title text="sheaf condition in terms of plus construction">sheaf condition in terms of plus construction</fr:title>
+    <fr:taxon>Theorem</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Given a presheaf <fr:tex display="inline"><![CDATA[P]]></fr:tex>, the morphism <fr:tex display="inline"><![CDATA[P \to  P^+]]></fr:tex> to its <fr:link href="/forest/algm-001E/" title="plus construction" uri="https://trebor-huang.github.io/forest/algm-001E/" display-uri="algm-001E" type="local">plus construction</fr:link> is a monomorphism iff <fr:tex display="inline"><![CDATA[P]]></fr:tex> is <fr:link href="/forest/algm-001F/" title="sheaf" uri="https://trebor-huang.github.io/forest/algm-001F/" display-uri="algm-001F" type="local">separated</fr:link>, and it is an isomorphism iff <fr:tex display="inline"><![CDATA[P]]></fr:tex> is a <fr:link href="/forest/algm-001F/" title="sheaf" uri="https://trebor-huang.github.io/forest/algm-001F/" display-uri="algm-001F" type="local">sheaf</fr:link>.
+</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-001E/</fr:uri>
+            <fr:display-uri>algm-001E</fr:display-uri>
+            <fr:route>/forest/algm-001E/</fr:route>
+            <fr:title text="plus construction">plus construction</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a <fr:link href="/forest/algm-001A/" title="Grothendieck coverage" uri="https://trebor-huang.github.io/forest/algm-001A/" display-uri="algm-001A" type="local">Grothendieck coverage</fr:link> on <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> and a presheaf <fr:tex display="inline"><![CDATA[P : \mathcal {C}^\textrm {op} \to  \mathsf {Set}]]></fr:tex>, the <html:strong>plus construction</html:strong> produces a new presheaf <fr:tex display="inline"><![CDATA[P^+]]></fr:tex> by taking a directed limit over all the <fr:link href="/forest/algm-001D/" title="descent data of presheaves" uri="https://trebor-huang.github.io/forest/algm-001D/" display-uri="algm-001D" type="local">descent data</fr:link>. More precisely, we assign <fr:tex display="block"><![CDATA[\Gamma (A, P^+) = \operatorname *{colim}_{S \text { covers } A} \hom (S, P).]]></fr:tex> This means the sections of <fr:tex display="inline"><![CDATA[P^+]]></fr:tex> are compatible families of sections of <fr:tex display="inline"><![CDATA[P]]></fr:tex>, and two families are considered equal if they are equal on a common covering subsieve.
+</html:p>
+            <html:p>
+  Given a map <fr:tex display="inline"><![CDATA[g : B \to  A]]></fr:tex>, we have a <fr:link href="/forest/algm-001C/" title="pullback of sieves" uri="https://trebor-huang.github.io/forest/algm-001C/" display-uri="algm-001C" type="local">pullback</fr:link> <fr:tex display="inline"><![CDATA[\hom (S, P) \to  \hom (g^*S, P)]]></fr:tex>. This induces the functorial action of <fr:tex display="inline"><![CDATA[P^+]]></fr:tex>. There is an obvious natural transformation <fr:tex display="inline"><![CDATA[P \to  P^+]]></fr:tex>.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/algm-001F/</fr:uri>
+            <fr:display-uri>algm-001F</fr:display-uri>
+            <fr:route>/forest/algm-001F/</fr:route>
+            <fr:title text="sheaf">sheaf</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  Given a category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex> equipped with a <fr:link href="/forest/algm-0019/" title="coverage" uri="https://trebor-huang.github.io/forest/algm-0019/" display-uri="algm-0019" type="local">coverage</fr:link>, we define a presheaf <fr:tex display="inline"><![CDATA[P : \mathcal {C}^\textrm {op} \to  \mathsf {Set}]]></fr:tex> to be a <html:strong>sheaf</html:strong> if it satisfies the <html:strong>sheaf condition</html:strong>: for every cover of <fr:tex display="inline"><![CDATA[A]]></fr:tex>, the map from sections of <fr:tex display="inline"><![CDATA[A]]></fr:tex> to <fr:link href="/forest/algm-001D/" title="descent data of presheaves" uri="https://trebor-huang.github.io/forest/algm-001D/" display-uri="algm-001D" type="local">descent data</fr:link> of the cover is a bijection. It is a <html:strong>separated presheaf</html:strong> if the map is an injection.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
