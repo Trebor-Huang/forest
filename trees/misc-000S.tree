@@ -1,0 +1,13 @@
+\date{2025-07-27T08:34:01Z}
+\title{angle between a space-like and a time-like vector}
+\author{trebor}
+\import{common}
+\taxon{Definition}
+
+\p{
+  Given a wedge formed by two vectors #{a} and #{b} where #{a} is space-like and #{b} is time-like, we define the angle as
+  ##{
+    \angle a b = \ln \frac{a \cdot b + |a \times b|}{-i |a| \cdot |b|} - \frac{1}{2} \pi i.
+  }
+  This is the same formula as \ref{misc-000R}, but we specify the factor of #{i} in the denominator to contribute #{- \frac{1}{2} \pi i} to the result.
+}

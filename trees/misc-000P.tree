@@ -1,0 +1,49 @@
+\date{2025-07-27T07:16:07Z}
+\title{Angles in the Minkowski plane}
+\author{trebor}
+\import{common}
+
+\p{
+  We define the angle of a wedge in the [[misc-000Q]] by a case analysis. The angle between two vectors are then defined by choosing a wedge between them in a consistent way.
+}
+
+\tikz{
+  \draw (-1.5, -1.5) -- (1.5, 1.5);
+  \draw (-1.5, 1.5) -- (1.5, -1.5);
+  \draw [red, domain=-1:1, samples=100] plot ({cosh(\x)}, {sinh(\x)});
+  \draw [red, domain=-1:1, samples=100] plot ({-cosh(\x)}, {-sinh(\x)});
+  \draw [blue, domain=-1:1, samples=100] plot ({sinh(\x)}, {cosh(\x)});
+  \draw [blue, domain=-1:1, samples=100] plot ({-sinh(\x)}, {-cosh(\x)});
+
+  \coordinate (a) at ({cosh(0.4)}, {-sinh(0.4)});
+  \coordinate (b) at ({cosh(0.3)}, {sinh(0.3)});
+  \coordinate (c) at ({sinh(0.3)}, {cosh(0.3)});
+  \coordinate (d) at ({-sinh(0.3)}, {cosh(0.3)});
+  \coordinate (e) at ({-0.8}, {0.8});
+  \coordinate (f) at ({-0.8}, {-0.8});
+
+  \fill (a) circle (0.04);
+  \draw [dotted] (0,0) -- (a);
+  \fill (b) circle (0.04);
+  \draw [dotted] (0,0) -- (b);
+  \fill (c) circle (0.04);
+  \draw [dotted] (0,0) -- (c);
+  \fill (d) circle (0.04);
+  \draw [dotted] (0,0) -- (d);
+  % \fill (e) circle (0.04);
+  % \fill (f) circle (0.04);
+}
+
+\transclude{misc-000R}
+
+\transclude{misc-000S}
+
+\transclude{misc-000T}
+
+\p{
+  Such a definition is additive. Therefore, for more general angles, we can always break it up into smaller fragments, and the sum is well-defined. Under this convention a whole turn has total angle #{-2 \pi i}.
+}
+
+\p{
+  Angles involving a null edge will be infinite. This has to do with the fact that they have zero geodesic length, although it is still meaningful to compare the ratio of lengths of null segments. If we specify a unit length of null segments, then it is possible to \em{renormalize} the infinite angles, giving a finite value, while retaining additivity.
+}

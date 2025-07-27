@@ -1,0 +1,13 @@
+\date{2025-07-27T07:18:28Z}
+\title{Minkowski plane}
+\author{trebor}
+\import{common}
+\taxon{Definition}
+
+\p{
+  The \strong{Minkowski plane} is the plane #{\mathbb{R}^2} equipped with the bilinear form #{(x_1, t_1) \cdot (x_2, t_2) = x_1 x_2 - t_1 t_2}. We write #{|v|} for the square root of #{v \cdot v}, picking the principal branch. Heuristically, we are taking the square root of #{v \cdot v + i \epsilon}, where #{\epsilon} is a positive infinitesimal constant.
+}
+
+\p{
+  The cross product is given by #{(x_1, t_1) \times (x_2, t_2) = x_1 t_2 - x_2 t_1}, identical to the Euclidean case.
+}

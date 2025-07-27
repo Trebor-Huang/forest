@@ -1,0 +1,16 @@
+\date{2025-07-27T08:27:01Z}
+\title{angle in a space-like wedge}
+\author{trebor}
+\import{common}
+\taxon{Definition}
+
+\p{
+  Given a wedge formed by two vectors #{a} and #{b} contained in a space-like region, we define the angle as
+  ##{
+    \angle a b = \arcosh \frac{a \cdot b}{|a| \cdot |b|}.
+  }
+  Since #{\arcosh k = \ln (k + \sqrt{k^2 - 1})}, we can re-express it using the cross product:
+  ##{
+    \angle a b = \ln \frac{a \cdot b + |a \times b|}{|a| \cdot |b|}.
+  }
+}
