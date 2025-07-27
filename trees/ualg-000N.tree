@@ -1,0 +1,14 @@
+\date{2025-06-27T11:38:51Z}
+\title{monadic functors are conservative and faithful}
+\author{trebor}
+\import{common}
+\taxon{Theorem}
+\p{
+  Given a [[ualg-000A]] #{F}, if #{F(f)} is an isomorphism, then #{f} is too.
+}
+
+\proof{
+  \p{
+    It suffices to consider the case where #{F} is the projection functor from the [Eilenberg–Moore category](ualg-0002) #{\CatVar{C}^M}. Morphisms between #{MX \to X} and #{MY \to Y} are given by morphisms #{f : X \to Y} satisfying some condition. Therefore the functor #{F} must be faithful. Furthermore, if #{f} is an isomorphism, then #{f^{-1}} also satisfy the condition (that is, the square made by #{f, Mf} and the two algebra maps commute). Therefore #{F} must be conservative.
+  }
+}
