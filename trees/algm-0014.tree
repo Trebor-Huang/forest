@@ -1,8 +1,8 @@
 \date{2024-03-12}
+\import{common}
 \title{adjunction of global section and #{\Spec}}
 \taxon{Theorem}
 \author{trebor}
-\import{common}
 
 \p{
   We have an adjunction of functors ##{\Cat{CRing}^\op \xtofrom[\section(\top, \sheaf{O}_{(-)})]{\Spec} \Cat{Sch},} with #{\Spec} being the right adjoint (or #{\Spec : \Cat{CRing} \to \Cat{Sch}^\op} being the left adjoint). In fact, we can replace #{\Cat{Sch}} with the category of [locally ringed spaces](algm-000L) #{\Cat{LRS}}, of whom #{\Cat{Sch}} is a full subcategory.

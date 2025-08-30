@@ -1,8 +1,8 @@
 \date{2024-03-12}
+\import{common}
 \title{structure sheaf of #{\Proj(S)}}
 \taxon{Definition}
 \author{trebor}
-\import{common}
 
 \p{
   Fix a [[hmlg-001L]] #{S}. For a positively graded element #{f}, we have a graded ring localization #{S[f^{-1}]_\bullet}. Let #{\section(D_+(f), \sheaf{O})} be the zeroth degree component #{S[f^{-1}]_0}. This defines a sheaf over the [projective spectrum](algm-000Y), and moreover gives a [[algm-000R]] #{\Proj(S)}.
