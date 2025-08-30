@@ -334,14 +334,22 @@ nav#toc li {
 .doi,
 .orcid,
 .edit-button,
-.link.raw {
+.link.raw,
+.link.github,
+.link.mastodon,
+.link.email,
+.meta-item .link.external {
   color: gray;
   font-weight: 200;
   font-family: var(--monospace);
   hyphenate-character: "";
 }
 
-.doi, .orcid, .link.raw {
+.doi, .orcid, .link.raw,
+.link.github,
+.link.mastodon,
+.link.email,
+.meta-item .link.external {
   line-break: anywhere;
 }
 
@@ -359,31 +367,54 @@ nav#toc li {
 .link.external,
 a.link.local,
 .link.local a,
-a.slug {
+a.slug,
+.link.github,
+.link.mastodon,
+.link.email {
   text-decoration: underline #11222255;
   -webkit-text-decoration: underline #11222255;
   text-decoration-thickness: 1px;
 }
 
-.link.external::after /*, .edit-button::after*/ {
+.link.external:not(.tag *)::after,
+.link.github::after,
+.link.mastodon::after,
+.link.email::after {
   background-size: 100% 100%;
   content: "";
   display: inline-block;
-  height: 0.7em;
-  width: 0.7em;
   vertical-align: text-top;
-  margin-top: 0.1em;
-}
-
-.link.external::after {
-  background-image: url("link-external.svg");
+  margin-top: 0.2em;
   margin-left: 1pt;
 }
 
-/* .edit-button::after {
-  background-image: url("edit.svg");
-  margin-left: -2pt;
-} */
+.link.external:not(.tag *)::after {
+  background-image: url("link-external.svg");
+  height: 0.7em;
+  width: 0.7em;
+}
+
+.link.github::after {
+  background-image: url("github.svg");
+  height: 0.9em;
+  width: 0.9em;
+  margin-left: 3pt;
+  margin-top: 0.1em;
+}
+
+.link.email::after {
+  background-image: url("email.svg");
+  height: 0.75em;
+  width: 0.8em;
+  margin-top: -0.1em;
+}
+
+.link.mastodon::after {
+  background-image: url("mastodon.svg");
+  height: 1em;
+  width: 1em;
+  margin-top: 0.1em;
+}
 
 ninja-keys::part(ninja-action) {
   white-space: nowrap;
@@ -576,10 +607,6 @@ span.tikz {  /* tikzcd blocks also has a tikz tag */
   text-indent: 0;
 }
 
-span.tikzcd img {
-  filter: url('#filter');
-}
-
 figure {
   text-align: center;
 }
@@ -670,6 +697,14 @@ ol li ol li ol {
 
   .block:hover {
     border-right: 0;
+  }
+
+  body {
+    -webkit-text-stroke-width: 0.25pt;
+  }
+
+  span.tikzcd img {
+    filter: url('#filter');
   }
 }
 

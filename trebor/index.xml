@@ -8,14 +8,52 @@
     <fr:route>/forest/trebor/</fr:route>
     <fr:title text="Trebor">Trebor</fr:title>
     <fr:taxon>Person</fr:taxon>
-    <fr:meta name="institution">Tsinghua University</fr:meta>
-    <fr:meta name="position">Bachelor Student</fr:meta>
-    <fr:meta name="external">https://github.com/Trebor-Huang</fr:meta>
+    <fr:meta name="institution">Indiana University, Bloomington</fr:meta>
+    <fr:meta name="position">PhD Student</fr:meta>
+    <fr:meta name="github">https://github.com/Trebor-Huang</fr:meta>
+    <fr:meta name="mastodon">https://types.pl/@trebor</fr:meta>
+    <fr:meta name="email">xh40@iu.edu</fr:meta>
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>
-  My name is 黄栩 (<html:em>Huang Xu</html:em>), but I go by the name <html:em>Trebor</html:em> online. I’m interested in (homotopy) type theory, category theory and jazz.
+  My name is 黄栩 (<html:em>Huang, Xu</html:em>), but I go by the name <html:em>Trebor</html:em> online. I’m interested in the syntax and semantics of dependent type theory, in particular homotopy type theory and cubical type theory.
 </html:p>
+    <html:p>
+  I am currently a PhD student at Indiana University Bloomington, supervised by <fr:link href="/forest/angiuli/" title="Carlo Angiuli" uri="https://trebor-huang.github.io/forest/angiuli/" display-uri="angiuli" type="local">Carlo Angiuli</fr:link>. I graduated from Tsinghua University.
+</html:p>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Writings">Writings</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:ul><html:li><html:em><fr:link href="/forest/stc-hard-way/" title="Synthetic Tait Computability the Hard Way" uri="https://trebor-huang.github.io/forest/stc-hard-way/" display-uri="stc-hard-way" type="local">Synthetic Tait Computability the Hard Way</fr:link></html:em>, ArXiv preprint.
+    </html:li>
+    <html:li><html:em><fr:link href="/forest/exp-locale/" title="Exponentiable locales, revisited" uri="https://trebor-huang.github.io/forest/exp-locale/" display-uri="exp-locale" type="local">Exponentiable locales, revisited</fr:link></html:em>, ArXiv preprint.
+    </html:li>
+    <html:li><html:em>Recursion formula for <fr:tex display="inline"><![CDATA[U_q (\mathfrak {e}_6)]]></fr:tex> knot invariants</html:em>, Undergraduate Thesis. <html:span class="tag">[<fr:link href="https://trebor-huang.github.io/thesis-slides.pdf" type="external">Slides</fr:link>]</html:span>.
+    </html:li></html:ul>
+        <html:p>
+    I am also writing some expository material about type theory in Chinese. Mainly <html:em><fr:link href="/forest/history/" title="History of Type Theory" uri="https://trebor-huang.github.io/forest/history/" display-uri="history" type="local">History of Type Theory</fr:link></html:em> and <html:em><fr:link href="/forest/models/" title="Models of Dependent Type Theory" uri="https://trebor-huang.github.io/forest/models/" display-uri="models" type="local">Models of Dependent Type Theory</fr:link></html:em> (unfinished).
+  </html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Random fun stuff">Random fun stuff</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:ul><html:li><fr:link href="/forest/trebor-0001/" title="Trebor’s forest" uri="https://trebor-huang.github.io/forest/trebor-0001/" display-uri="trebor-0001" type="local">This site</fr:link> itself is my forest, where I write about stuff I learned.
+    </html:li>
+    <html:li><fr:link href="https://trebor-huang.github.io/LieSphereGeometry/" type="external">Lie Sphere Geometry,</fr:link> an interesting geometry with <fr:tex display="inline"><![CDATA[\textrm {O}(3, 2)]]></fr:tex> symmetry where points, lines and circles are on the same footing. <html:span class="tag">[<fr:link href="https://github.com/Trebor-Huang/LieSphereGeometry" type="external">GitHub repo</fr:link>]</html:span>.
+    </html:li>
+    <html:li><fr:link href="https://trebor-huang.github.io/Mathieu/" type="external">Mathieu,</fr:link> a puzzle whose configuration space is the <fr:tex display="inline"><![CDATA[M_{24}]]></fr:tex> sporadic group.
+    </html:li>
+    <html:li><fr:link href="https://trebor-huang.github.io/ASKL/main.htm" type="external">ASKL,</fr:link> a 4K rhythm game supporting the Malody format.
+    </html:li></html:ul>
+      </fr:mainmatter>
+    </fr:tree>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -23,7 +61,95 @@
         <fr:authors />
         <fr:title text="References">References</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/exp-locale/</fr:uri>
+            <fr:display-uri>exp-locale</fr:display-uri>
+            <fr:route>/forest/exp-locale/</fr:route>
+            <fr:title text="Exponentiable locales, revisited">Exponentiable locales, revisited</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="doi">10.48550/arXiv.2507.15579</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We give a moderately motivated exposition of exponentiable locales and the construction of exponentials in <fr:tex display="inline"><![CDATA[\textsf {Loc}]]></fr:tex>, without assuming prior knowledge of exponential topological spaces or continuous posets.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/history/</fr:uri>
+            <fr:display-uri>history</fr:display-uri>
+            <fr:route>/forest/history/</fr:route>
+            <fr:title text="History of Type Theory">History of Type Theory</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="external">https://github.com/Trebor-Huang/history</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2023</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>3</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/stc-hard-way/</fr:uri>
+            <fr:display-uri>stc-hard-way</fr:display-uri>
+            <fr:route>/forest/stc-hard-way/</fr:route>
+            <fr:title text="Synthetic Tait Computability the Hard Way">Synthetic Tait Computability the Hard Way</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="doi">10.48550/arXiv.2310.02051</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We walk through a few proofs of canonicity and normalization, each one with more aspects dissected and re-expressed in category theory, so that readers can compare the difference across proofs. During this process we isolate the different ideas that make up the proofs. Finally we arrive at synthetic Tait computability as proposed by J. Sterling. We also give a synthetic proof for parametricity of system F.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:uri>https://trebor-huang.github.io/forest/models/</fr:uri>
+            <fr:display-uri>models</fr:display-uri>
+            <fr:route>/forest/models/</fr:route>
+            <fr:title text="Models of Dependent Type Theory">Models of Dependent Type Theory</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="external">https://github.com/Trebor-Huang/model</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
@@ -44,14 +170,184 @@
         <fr:authors />
         <fr:title text="Related">Related</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>2</fr:month>
+              <fr:day>16</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/trebor-0001/</fr:uri>
+            <fr:display-uri>trebor-0001</fr:display-uri>
+            <fr:route>/forest/trebor-0001/</fr:route>
+            <fr:title text="Trebor’s forest">Trebor’s forest</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  This is my forest. Forests are <fr:link href="https://www.forester-notes.org/tfmt-000V" type="external">a way of organizing notes</fr:link>. Some of the contents here:
+</html:p>
+            <html:ul><html:li><fr:link href="/forest/tile-0001/" title="Generating aperiodic tilings with substitution systems" uri="https://trebor-huang.github.io/forest/tile-0001/" display-uri="tile-0001" type="local">Generating aperiodic tilings with substitution systems</fr:link></html:li>
+  <html:li><fr:link href="/forest/hmlg-0001/" title="Homological Algebra" uri="https://trebor-huang.github.io/forest/hmlg-0001/" display-uri="hmlg-0001" type="local">Notes on homological algebra</fr:link></html:li>
+  <html:li><fr:link href="/forest/hmlg-001K/" title="Effective homology" uri="https://trebor-huang.github.io/forest/hmlg-001K/" display-uri="hmlg-001K" type="local">Effective homology</fr:link></html:li>
+  <html:li>Algebraic geometry (Under namespace <html:code>algm</html:code>, not organized)</html:li>
+  <html:li><fr:link href="/forest/ualg-000H/" title="Beck monadicity theorem" uri="https://trebor-huang.github.io/forest/ualg-000H/" display-uri="ualg-000H" type="local">Beck monadicity theorem</fr:link></html:li>
+  <html:li>On <fr:link href="/forest/hmlg-002Y/" title="Ghost and phantom maps" uri="https://trebor-huang.github.io/forest/hmlg-002Y/" display-uri="hmlg-002Y" type="local">Ghost and phantom maps</fr:link></html:li></html:ul>
+            <html:p>
+  On a computer, you can press Ctrl–K to search for trees.
+</html:p>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:uri>https://trebor-huang.github.io/forest/trebor-0002/</fr:uri>
+                <fr:display-uri>trebor-0002</fr:display-uri>
+                <fr:route>/forest/trebor-0002/</fr:route>
+                <fr:title text="Style of writing">Style of writing</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>
+  I try to adhere to several principles when composing trees.
+</html:p>
+                <html:ul><html:li>
+    If a definition or a lemma would present itself during a proof attempt, then do not introduce it until that part of the proof. The nature of forests makes this kind of organization more viable, as each definition is a tree by itself.
+  </html:li>
+  <html:li>
+    If a part of a proof has an easy constructive phrasing, use it and avoid classical reasoning. But if it requires some complication, then the classical way is used.
+  </html:li>
+  <html:li>
+    Avoid abstraction leaks. Even if A is defined as B, do not use them interchangeably. For instance, an ideal is defined as a subset of a ring satisfying certain conditions. But we will insist on writing ideals as numbers, for example saying <fr:tex display="inline"><![CDATA[\mathfrak {a} \mid  x]]></fr:tex> instead of <fr:tex display="inline"><![CDATA[x \in  \mathfrak {a}]]></fr:tex>. This is not too heretic, since algebraic number theory already uses this kind of notation. Similarly, although prime ideals correspond to points in <fr:tex display="inline"><![CDATA[\operatorname {Spec}(A)]]></fr:tex>, we do not identify them.
+  </html:li>
+  <html:li>
+    Apply <fr:link href="https://ncatlab.org/nlab/show/biased+definition" type="external">unbiased terminology</fr:link> and <fr:link href="https://ncatlab.org/nlab/show/negative+thinking" type="external">negative thinking</fr:link>.
+  </html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:uri>https://trebor-huang.github.io/forest/angiuli/</fr:uri>
+            <fr:display-uri>angiuli</fr:display-uri>
+            <fr:route>/forest/angiuli/</fr:route>
+            <fr:title text="Carlo Angiuli">Carlo Angiuli</fr:title>
+            <fr:taxon>Person</fr:taxon>
+            <fr:meta name="institution">Indiana University, Bloomington</fr:meta>
+            <fr:meta name="position">Assistant Professor</fr:meta>
+            <fr:meta name="external">https://carloangiuli.com/</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
         <fr:authors />
         <fr:title text="Contributions">Contributions</fr:title>
       </fr:frontmatter>
-      <fr:mainmatter />
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>21</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/exp-locale/</fr:uri>
+            <fr:display-uri>exp-locale</fr:display-uri>
+            <fr:route>/forest/exp-locale/</fr:route>
+            <fr:title text="Exponentiable locales, revisited">Exponentiable locales, revisited</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="doi">10.48550/arXiv.2507.15579</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We give a moderately motivated exposition of exponentiable locales and the construction of exponentials in <fr:tex display="inline"><![CDATA[\textsf {Loc}]]></fr:tex>, without assuming prior knowledge of exponential topological spaces or continuous posets.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/history/</fr:uri>
+            <fr:display-uri>history</fr:display-uri>
+            <fr:route>/forest/history/</fr:route>
+            <fr:title text="History of Type Theory">History of Type Theory</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="external">https://github.com/Trebor-Huang/history</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2023</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>3</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/stc-hard-way/</fr:uri>
+            <fr:display-uri>stc-hard-way</fr:display-uri>
+            <fr:route>/forest/stc-hard-way/</fr:route>
+            <fr:title text="Synthetic Tait Computability the Hard Way">Synthetic Tait Computability the Hard Way</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="doi">10.48550/arXiv.2310.02051</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We walk through a few proofs of canonicity and normalization, each one with more aspects dissected and re-expressed in category theory, so that readers can compare the difference across proofs. During this process we isolate the different ideas that make up the proofs. Finally we arrive at synthetic Tait computability as proposed by J. Sterling. We also give a synthetic proof for parametricity of system F.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:uri>https://trebor-huang.github.io/forest/models/</fr:uri>
+            <fr:display-uri>models</fr:display-uri>
+            <fr:route>/forest/models/</fr:route>
+            <fr:title text="Models of Dependent Type Theory">Models of Dependent Type Theory</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="external">https://github.com/Trebor-Huang/model</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+      </fr:mainmatter>
     </fr:tree>
   </fr:backmatter>
 </fr:tree>

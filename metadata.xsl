@@ -146,6 +146,30 @@
     </li>
   </xsl:template>
 
+  <xsl:template match="f:meta[@name='github']">
+    <li class="meta-item">
+      <a class="link github" href="{.}">
+        <xsl:value-of select="." />
+      </a>
+    </li>
+  </xsl:template>
+
+  <xsl:template match="f:meta[@name='mastodon']">
+    <li class="meta-item">
+      <a class="link mastodon" href="{.}">
+        <xsl:value-of select="." />
+      </a>
+    </li>
+  </xsl:template>
+
+  <xsl:template match="f:meta[@name='email']">
+    <li class="meta-item">
+      <a class="link email" href="mailto:{.}">
+        <xsl:value-of select="." />
+      </a>
+    </li>
+  </xsl:template>
+
   <xsl:template match="f:meta[@name='slides']">
     <li class="meta-item">
       <a class="link external" href="{.}">
