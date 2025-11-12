@@ -19,7 +19,7 @@
     <fr:taxon>Definition</fr:taxon>
   </fr:frontmatter>
   <fr:mainmatter><html:p>
-  Given a locally small category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, if the Yoneda embedding <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} : \mathcal {C} \to  \mathsf {Psh}(\mathcal {C})]]></fr:tex> has a left adjoint <fr:tex display="inline"><![CDATA[\operatorname {?}]]></fr:tex>, then we say teh category is <html:strong>total</html:strong>, or <html:strong>totally cocomplete</html:strong>. This is equivalent to requiring the colimit of <fr:tex display="inline"><![CDATA[\pi _F : \int  F \to  \mathcal {C}]]></fr:tex> to exist for every presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex>, which is the value of <fr:tex display="inline"><![CDATA[L(F)]]></fr:tex>. Notice that <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> being fully faithful implies the counit <fr:tex display="inline"><![CDATA[\operatorname {?}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)) \to  A]]></fr:tex> is an isomorphism.
+  Given a locally small category <fr:tex display="inline"><![CDATA[\mathcal {C}]]></fr:tex>, if the Yoneda embedding <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} : \mathcal {C} \to  \mathsf {Psh}(\mathcal {C})]]></fr:tex> has a left adjoint <fr:tex display="inline"><![CDATA[\operatorname {?}]]></fr:tex>, then we say the category is <html:strong>total</html:strong>, or <html:strong>totally cocomplete</html:strong>. This is equivalent to requiring the colimit of <fr:tex display="inline"><![CDATA[\pi _F : \int  F \to  \mathcal {C}]]></fr:tex> to exist for every presheaf <fr:tex display="inline"><![CDATA[F]]></fr:tex>, which is the value of <fr:tex display="inline"><![CDATA[\operatorname {?}(F)]]></fr:tex>. Notice that <fr:tex display="inline"><![CDATA[\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}]]></fr:tex> being fully faithful implies the counit <fr:tex display="inline"><![CDATA[\operatorname {?}(\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}}(A)) \to  A]]></fr:tex> is an isomorphism.
 </html:p>
   
     
@@ -154,7 +154,7 @@
             <fr:uri>https://trebor-huang.github.io/forest/algm-002E/</fr:uri>
             <fr:display-uri>algm-002E</fr:display-uri>
             <fr:route>/forest/algm-002E/</fr:route>
-            <fr:title text="\Set  is total and cototal"><fr:tex display="inline"><![CDATA[\Set ]]></fr:tex> is total and cototal</fr:title>
+            <fr:title text="\mathsf {Set} is total and cototal"><fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex> is total and cototal</fr:title>
             <fr:taxon>Theorem</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter><html:p>
@@ -212,7 +212,7 @@
       &= \hom (Y^* (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (B)), A) \\
       &= \hom (\hom (Y, B), A) = A^{B^Y}.
     \end {aligned}]]></fr:tex>
-    Using the fact that <fr:link href="/forest/algm-002E/" title="\Set  is total and cototal" uri="https://trebor-huang.github.io/forest/algm-002E/" display-uri="algm-002E" type="local"><fr:tex display="inline"><![CDATA[\Set ]]></fr:tex> is total and cototal</fr:link> and writing <fr:tex display="inline"><![CDATA[\operatorname {¿}]]></fr:tex> as the witness of cototality, we calculate
+    Using the fact that <fr:link href="/forest/algm-002E/" title="\mathsf {Set} is total and cototal" uri="https://trebor-huang.github.io/forest/algm-002E/" display-uri="algm-002E" type="local"><fr:tex display="inline"><![CDATA[\mathsf {Set}]]></fr:tex> is total and cototal</fr:link> and writing <fr:tex display="inline"><![CDATA[\operatorname {¿}]]></fr:tex> as the witness of cototality, we calculate
     <fr:tex display="block"><![CDATA[\begin {aligned}
       \operatorname {wave}(Y, X) &= \hom _{\mathsf {Psh}(\mathcal {C}) \to  \mathsf {Set}} (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?}, Y^*) \\
       &= \hom _{\mathsf {Set} \to  \mathsf {Set}} (\mathop {\mkern {-2mu}\text {よ}\mkern {-2mu}} (X^\textrm {op}) \mathbin {\circ } \operatorname {?} \mathbin {\circ } Y_*, \textrm {Id}) \\
