@@ -459,7 +459,7 @@
   <fr:tex display="block"><![CDATA[E_{n,p,r} = \frac {k^{-1} \operatorname {im}(i^r : \pi _n (X_{p+r}) \to  \pi _n (X_p))}{j \ker (i^r : \pi _{n-1} (X_{p+r-1}) \to  \pi _{n-1} (X_{p-1}))}.]]></fr:tex>
   As a sanity check, <fr:tex display="inline"><![CDATA[E_{n, p, 0} = \pi _n (F_p)]]></fr:tex>, being the “initial condition” for our sequence. Note that this is also the only data we have, as <fr:tex display="inline"><![CDATA[\pi _n (X_p)]]></fr:tex> are all unknown. Therefore we want some way to compute <fr:tex display="inline"><![CDATA[E_{n,p,r+1}]]></fr:tex> from the data of <fr:tex display="inline"><![CDATA[E_{n,p,r}]]></fr:tex>. (As is the case for all spectral sequences, the “computation” relies on knowing some differentials, but they are often unique by formal reasons.)
 </html:p><html:p>
-  Removing the unknown components from the diagram, we are left with the following diagram:
+  Removing the unknown components from the diagram, we are left with the following sequence:
 
   <html:span class="tikz tikzcd">
     <fr:resource hash="9b761f6ea97e2b67179ba4651a6e2ac9"><fr:resource-content><html:img src="/forest/9b761f6ea97e2b67179ba4651a6e2ac9.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
@@ -486,9 +486,9 @@
   Let’s call the maps <fr:tex display="inline"><![CDATA[d = j i^{-r} k]]></fr:tex>. We immediately notice that by exactness of the original triangles, <fr:tex display="inline"><![CDATA[d^2 = j i^{-r} \cancel {k j} i^{-r} k = 0]]></fr:tex>. Therefore <fr:tex display="inline"><![CDATA[E_{n,p,r}]]></fr:tex> forms a chain complex. We can calculate
   <fr:tex display="block"><![CDATA[\begin {aligned}
     \ker  d &= k^{-1} \{ i^r (x) \mid  x \in  \pi _n (X_{p+r}), j(x) = 0 \} \\
-    \operatorname {im} d &= j \{ x \in  \pi _n (X_{p+r-1}) \mid  \exists  y, k(y) = i^r(x) \}.
+    \operatorname {im} d &= j \{ x \in  \pi _{n-1} (X_{p+r-1}) \mid  \exists  y, k(y) = i^r(x) \}.
   \end {aligned}]]></fr:tex>
-  Finally by exactness of the original triangle, <fr:tex display="inline"><![CDATA[\ker  j = \operatorname {im} i]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {im} k = \ker  i]]></fr:tex>. Therefore the homology of <fr:tex display="inline"><![CDATA[d]]></fr:tex> is exactly <fr:tex display="inline"><![CDATA[E_{n,p,r+1}]]></fr:tex>, the required next group.
+  Finally by exactness of the original triangle, <fr:tex display="inline"><![CDATA[\ker  j = \operatorname {im} i]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {im} k = \ker  i]]></fr:tex>. Therefore the homology of <fr:tex display="inline"><![CDATA[d]]></fr:tex> is exactly <fr:tex display="inline"><![CDATA[E_{n,p-1,r+1}]]></fr:tex>, the required next group.
 </html:p><html:p>
   Summarizing with the indices aligned with convention, given a tower of maps <fr:tex display="inline"><![CDATA[X = X_n \to  \cdots  \to  X_1 \to  X_0 = 1]]></fr:tex> between simply connected spaces, we have a spectral sequence
   <fr:tex display="block"><![CDATA[E^2_{p,q} = \pi _{p+q} (F_q) \Rightarrow  \pi _{p+q} (X).]]></fr:tex>
