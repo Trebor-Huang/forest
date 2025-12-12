@@ -26,7 +26,8 @@
   <html:li><fr:link href="/forest/hmlg-001K/" title="Effective homology" uri="https://trebor-huang.github.io/forest/hmlg-001K/" display-uri="hmlg-001K" type="local">Effective homology</fr:link></html:li>
   <html:li>Algebraic geometry (Under namespace <html:code>algm</html:code>, not organized)</html:li>
   <html:li><fr:link href="/forest/ualg-000H/" title="Beck monadicity theorem" uri="https://trebor-huang.github.io/forest/ualg-000H/" display-uri="ualg-000H" type="local">Beck monadicity theorem</fr:link></html:li>
-  <html:li>On <fr:link href="/forest/hmlg-002Y/" title="Ghost and phantom maps" uri="https://trebor-huang.github.io/forest/hmlg-002Y/" display-uri="hmlg-002Y" type="local">Ghost and phantom maps</fr:link></html:li></html:ul>
+  <html:li>On <fr:link href="/forest/hmlg-002Y/" title="Ghost and phantom maps" uri="https://trebor-huang.github.io/forest/hmlg-002Y/" display-uri="hmlg-002Y" type="local">Ghost and phantom maps</fr:link></html:li>
+  <html:li><fr:link href="/forest/hmlg-0032/" title="Spectral sequence of a tower of fibrations" uri="https://trebor-huang.github.io/forest/hmlg-0032/" display-uri="hmlg-0032" type="local">Spectral sequence of a tower of fibrations</fr:link></html:li></html:ul>
     <html:p>
   On a computer, you can press Ctrl–K to search for trees.
 </html:p>
@@ -151,6 +152,141 @@
         <fr:title text="Related">Related</fr:title>
       </fr:frontmatter>
       <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>12</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/hmlg-0032/</fr:uri>
+            <fr:display-uri>hmlg-0032</fr:display-uri>
+            <fr:route>/forest/hmlg-0032/</fr:route>
+            <fr:title text="Spectral sequence of a tower of fibrations">Spectral sequence of a tower of fibrations</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  Given a tower of maps <fr:tex display="inline"><![CDATA[X_n \to  \cdots  \to  X_1 \to  X_0 = 1]]></fr:tex>, where we assume finite <fr:tex display="inline"><![CDATA[n]]></fr:tex> for simplicity, we wish to compute the homotopy groups of <fr:tex display="inline"><![CDATA[X = X_n]]></fr:tex> from the knowledge of the homotopy groups of the fibers <fr:tex display="inline"><![CDATA[F_n = \operatorname {fib}(X_n \to  X_{n-1})]]></fr:tex>.
+</html:p><html:p>
+  For each fiber sequence <fr:tex display="inline"><![CDATA[F_n \to  X_n \to  X_{n-1}]]></fr:tex>, there is a long exact sequence of homotopy groups, and we wish to arrange these information suitably so that knowing <fr:tex display="inline"><![CDATA[\pi _n (F_p)]]></fr:tex> allows us to piece together <fr:tex display="inline"><![CDATA[\pi _n (X)]]></fr:tex>. This can be achieved using <html:em>spectral sequences</html:em>. See <fr:link href="https://ncatlab.org/nlab/show/spectral+sequences+in+homotopy+type+theory" type="external">this link</fr:link> for another exposition.
+</html:p>
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="eb01810d470d42592eacbc89e5cb1db7"><fr:resource-content><html:img src="/forest/eb01810d470d42592eacbc89e5cb1db7.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+  && {\pi _\bullet  (F_{p+1})} && {\pi _\bullet  (F_{p})} \\
+  {} & {\pi _\bullet  (X_{p+1})} && {\pi _\bullet  (X_{p})} && {\pi _\bullet  (X_{p-1})} & {}
+  \arrow ["k"{description}, from=1-3, to=2-2]
+  \arrow ["k"{description}, from=1-5, to=2-4]
+  \arrow [from=2-1, to=2-2]
+  \arrow ["i"{description}, from=2-2, to=2-4]
+  \arrow ["{j^{(+1)}}"', from=2-4, to=1-3]
+  \arrow ["i"{description}, from=2-4, to=2-6]
+  \arrow ["{j^{(+1)}}"', from=2-6, to=1-5]
+  \arrow [from=2-6, to=2-7]
+\end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+<html:p>
+  The main difficulty of analyzing the situation is that <fr:tex display="inline"><![CDATA[\pi _n (F_p)]]></fr:tex> is split into two parts that gets appropriated into <fr:tex display="inline"><![CDATA[\pi _{n} (X_p)]]></fr:tex> and <fr:tex display="inline"><![CDATA[\pi _{n-1} (X_{p-1})]]></fr:tex>. This gives multiple possibilities. The case would be easier if, in the rolled-up long exact sequence, one edge of the triangle is always zero. Then the exact sequence splits into various <fr:link href="/forest/hmlg-000H/" title="short exact sequence" uri="https://trebor-huang.github.io/forest/hmlg-000H/" display-uri="hmlg-000H" type="local">short exact sequences</fr:link>. Since <fr:tex display="inline"><![CDATA[F_p]]></fr:tex> is a fiber, the natural direction is for <fr:tex display="inline"><![CDATA[j]]></fr:tex> to be zero, implying <fr:tex display="inline"><![CDATA[i]]></fr:tex> is epi and <fr:tex display="inline"><![CDATA[k]]></fr:tex> is mono.
+</html:p><html:p>
+  To do this, we consider <html:em>collapsing <fr:tex display="inline"><![CDATA[i]]></fr:tex> to its image</html:em>, i.e. consider turing <fr:tex display="inline"><![CDATA[i]]></fr:tex> into <fr:tex display="block"><![CDATA[i' : i (\pi _n (X_p)) \to  i (\pi _n (X_{p-1})),]]></fr:tex> repeatedly. From one angle, this makes <fr:tex display="inline"><![CDATA[i]]></fr:tex> iteratively more surjective. From another angle, in the limit, if we consider <fr:tex display="inline"><![CDATA[X_p = X_n]]></fr:tex> where <fr:tex display="inline"><![CDATA[p \ge  n]]></fr:tex>, and <fr:tex display="inline"><![CDATA[X_p = 1]]></fr:tex> where <fr:tex display="inline"><![CDATA[p \le  0]]></fr:tex> (so <fr:tex display="inline"><![CDATA[F_p = 1]]></fr:tex> for out-of-bounds indices), then the maps eventually become <fr:tex display="block"><![CDATA[\operatorname {im}(\pi _n(X) \to  \pi _n(X_p)) \to  \operatorname {im}(\pi _n(X) \to  \pi _n(X_{p-1})),]]></fr:tex> which are surjective. If we still have long exact sequences for these maps, then this produces a filtration <fr:tex display="inline"><![CDATA[F^p \pi _n (X) = \ker (\pi _n (X) \to  \pi _n (X_p))]]></fr:tex> whose associated graded is known.
+</html:p><html:p>
+  Now we need to construct a long exact sequence at the top:
+
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="ba4205998a1b5d33f0cf519a6ae9bff7"><fr:resource-content><html:img src="/forest/ba4205998a1b5d33f0cf519a6ae9bff7.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+  & {?} \\
+  {i^r \pi _n (X_{p+r})} && {i^r \pi _n (X_{p+r-1})} \\
+  & {\pi _n (F_p)} \\
+  {\pi _n (X_p)} && {\pi _n (X_{p-1})}
+  \arrow [from=1-2, to=2-1]
+  \arrow ["{i}"', from=2-1, to=2-3]
+  \arrow [hook, from=2-1, to=4-1]
+  \arrow [from=2-3, to=1-2]
+  \arrow [hook, from=2-3, to=4-3]
+  \arrow ["k"{description}, from=3-2, to=4-1]
+  \arrow ["i"', from=4-1, to=4-3]
+  \arrow ["j"{description}, from=4-3, to=3-2]
+\end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+  The most straightforward choice is attempting to lift the long exact sequence below. From the perspective of <fr:tex display="inline"><![CDATA[k]]></fr:tex>, we want the question mark to be <fr:tex display="inline"><![CDATA[k^{-1}i^r \pi _n (X_{p+r})]]></fr:tex>. This is sufficient for the bottom-left corner, as the image of this under <fr:tex display="inline"><![CDATA[k]]></fr:tex> is exactly <fr:tex display="inline"><![CDATA[\operatorname {im} k \cap  \operatorname {im} i^r = \ker  i \cap  \operatorname {im} i^r]]></fr:tex>, so this corner is exact.
+</html:p><html:p>
+  However, the top-right map cannot simply be <fr:tex display="inline"><![CDATA[j]]></fr:tex>, as <fr:tex display="inline"><![CDATA[j \mathbin {\circ } i = 0]]></fr:tex>, so applying <fr:tex display="inline"><![CDATA[j]]></fr:tex> to the image of <fr:tex display="inline"><![CDATA[i^r]]></fr:tex> is identically zero. With this in mind, the next obvious choice is to have it send <fr:tex display="inline"><![CDATA[i^r(x)]]></fr:tex> to <fr:tex display="inline"><![CDATA[j(x)]]></fr:tex> (i.e. <fr:tex display="inline"><![CDATA[j \mathbin {\circ } i^{-r}]]></fr:tex>), since we cannot have any iteration of <fr:tex display="inline"><![CDATA[i]]></fr:tex> in the argument of <fr:tex display="inline"><![CDATA[j]]></fr:tex>. However, this is not well-defined, and introduces an intertermination of <fr:tex display="inline"><![CDATA[j \ker  (i^r : \pi _n (X_{p+r-1}) \to  \pi _n (X_{p-1}))]]></fr:tex>. To solve this, we simply quotient by that factor in the codomain:
+
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="2f5ac63366fddff3b0b5a35a8119c621"><fr:resource-content><html:img src="/forest/2f5ac63366fddff3b0b5a35a8119c621.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}
+  & {\mkern -24mu{\dfrac {k^{-1} \operatorname {im}(i^r : \pi _n (X_{p+r}) \to  \pi _n (X_p))}{j \ker (i^r : \pi _{n-1} (X_{p+r-1}) \to  \pi _{n-1} (X_{p-1}))}}\mkern -24mu} \\
+  {i^r \pi _n (X_{p+r})} && {i^r \pi _n (X_{p+r-1})} \\
+  & {\pi _n (F_p)} \\
+  {\pi _n (X_p)} && {\pi _n (X_{p-1})}
+  \arrow ["k"', from=1-2, to=2-1]
+  \arrow ["{i}"', from=2-1, to=2-3]
+  \arrow [hook, from=2-1, to=4-1]
+  \arrow ["{j i^{-r}}"', from=2-3, to=1-2]
+  \arrow [hook, from=2-3, to=4-3]
+  \arrow ["k"{description}, from=3-2, to=4-1]
+  \arrow ["i"', from=4-1, to=4-3]
+  \arrow ["j"{description}, from=4-3, to=3-2]
+\end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+  This is ok, as <fr:tex display="inline"><![CDATA[k \mathbin {\circ } j = 0]]></fr:tex>, so the quotiented subgroup is already in the kernel of <fr:tex display="inline"><![CDATA[k]]></fr:tex>. We can now check that the triangle is indeed exact.
+</html:p><html:p>
+  We have constructed a sequence of exact triangles such that for large enough <fr:tex display="inline"><![CDATA[r]]></fr:tex>, they split into short exact sequences. So now the goal is to give a tractible way to compute the object
+  <fr:tex display="block"><![CDATA[E_{n,p,r} = \frac {k^{-1} \operatorname {im}(i^r : \pi _n (X_{p+r}) \to  \pi _n (X_p))}{j \ker (i^r : \pi _{n-1} (X_{p+r-1}) \to  \pi _{n-1} (X_{p-1}))}.]]></fr:tex>
+  As a sanity check, <fr:tex display="inline"><![CDATA[E_{n, p, 0} = \pi _n (F_p)]]></fr:tex>, being the “initial condition” for our sequence. Note that this is also the only data we have, as <fr:tex display="inline"><![CDATA[\pi _n (X_p)]]></fr:tex> are all unknown. Therefore we want some way to compute <fr:tex display="inline"><![CDATA[E_{n,p,r+1}]]></fr:tex> from the data of <fr:tex display="inline"><![CDATA[E_{n,p,r}]]></fr:tex>. (As is the case for all spectral sequences, the “computation” relies on knowing some differentials, but they are often unique by formal reasons.)
+</html:p><html:p>
+  Removing the unknown components from the diagram, we are left with the following diagram:
+
+  <html:span class="tikz tikzcd">
+    <fr:resource hash="9b761f6ea97e2b67179ba4651a6e2ac9"><fr:resource-content><html:img src="/forest/9b761f6ea97e2b67179ba4651a6e2ac9.svg" /></fr:resource-content><fr:resource-source type="latex" part="preamble"><![CDATA[
+            \usepackage{mlmodern, tikz, tikz-cd, quiver, mathtools, amssymb, stmaryrd, mathrsfs}
+    ]]></fr:resource-source><fr:resource-source type="latex" part="body"><![CDATA[
+      \begin {tikzcd}[column sep=small]
+  & {E_{n,p+1,r}} && {E_{n,p,r}} && {E_{n,p-1,r}} \\
+  \textcolor {rgb,255:red,128;green,128;blue,128}{\cdots } && \textcolor {rgb,255:red,128;green,128;blue,128}{{i^r \pi _n (X_{p+r})}} && \textcolor {rgb,255:red,128;green,128;blue,128}{{i^r \pi _n (X_{p+r-1})}} && \textcolor {rgb,255:red,128;green,128;blue,128}{\cdots }
+  \arrow [color={rgb,255:red,128;green,128;blue,128}, from=1-2, to=2-1]
+  \arrow [from=1-4, to=1-2]
+  \arrow ["k"{description}, color={rgb,255:red,128;green,128;blue,128}, from=1-4, to=2-3]
+  \arrow [from=1-6, to=1-4]
+  \arrow [color={rgb,255:red,128;green,128;blue,128}, from=1-6, to=2-5]
+  \arrow [color={rgb,255:red,128;green,128;blue,128}, from=2-1, to=2-3]
+  \arrow [color={rgb,255:red,128;green,128;blue,128}, from=2-3, to=1-2]
+  \arrow [color={rgb,255:red,128;green,128;blue,128}, from=2-3, to=2-5]
+  \arrow ["{ji^{-r}}"{description}, color={rgb,255:red,128;green,128;blue,128}, from=2-5, to=1-4]
+  \arrow [color={rgb,255:red,128;green,128;blue,128}, from=2-5, to=2-7]
+  \arrow [color={rgb,255:red,128;green,128;blue,128}, from=2-7, to=1-6]
+\end {tikzcd}
+    ]]></fr:resource-source></fr:resource>
+  </html:span>
+
+  Let’s call the maps <fr:tex display="inline"><![CDATA[d = j i^{-r} k]]></fr:tex>. We immediately notice that by exactness of the original triangles, <fr:tex display="inline"><![CDATA[d^2 = j i^{-r} \cancel {k j} i^{-r} k = 0]]></fr:tex>. Therefore <fr:tex display="inline"><![CDATA[E_{n,p,r}]]></fr:tex> forms a chain complex. We can calculate
+  <fr:tex display="block"><![CDATA[\begin {aligned}
+    \ker  d &= k^{-1} \{ i^r (x) \mid  x \in  \pi _n (X_{p+r}), j(x) = 0 \} \\
+    \operatorname {im} d &= j \{ x \in  \pi _n (X_{p+r-1}) \mid  \exists  y, k(y) = i^r(x) \}.
+  \end {aligned}]]></fr:tex>
+  Finally by exactness of the original triangle, <fr:tex display="inline"><![CDATA[\ker  j = \operatorname {im} i]]></fr:tex>, and <fr:tex display="inline"><![CDATA[\operatorname {im} k = \ker  i]]></fr:tex>. Therefore the homology of <fr:tex display="inline"><![CDATA[d]]></fr:tex> is exactly <fr:tex display="inline"><![CDATA[E_{n,p,r+1}]]></fr:tex>, the required next group.
+</html:p><html:p>
+  Summarizing with the indices aligned with convention, given a tower of maps <fr:tex display="inline"><![CDATA[X = X_n \to  \cdots  \to  X_1 \to  X_0 = 1]]></fr:tex> between simply connected spaces, we have a spectral sequence
+  <fr:tex display="block"><![CDATA[E^2_{p,q} = \pi _{p+q} (F_q) \Rightarrow  \pi _{p+q} (X).]]></fr:tex>
+  With some more work, we can deal with infinite towers and non-simply connected spaces, with sufficiently nice hypotheses.
+</html:p></fr:mainmatter>
+        </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
