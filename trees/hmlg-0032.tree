@@ -51,9 +51,9 @@
 }
 
 \p{
-  However, the top-right map cannot simply be #{j}, as #{j \compose i = 0}, so applying #{j} to the image of #{i^r} is identically zero. With this in mind, the next obvious choice is to have it send #{i^r(x)} to #{j(x)} (i.e. #{j \compose i^{-r}}), since we cannot have any iteration of #{i} in the argument of #{j}. However, this is not well-defined, and introduces an intertermination of #{j \ker (i^r : \pi_n (X_{p+r-1}) \to \pi_n (X_{p-1}))}. To solve this, we simply quotient by that factor in the codomain:
+  However, the top-right map cannot simply be #{j}, as #{j \compose i = 0}, so applying #{j} to the image of #{i^r} is identically zero. With this in mind, the next obvious choice is to have it send #{i^r(x)} to #{j(x)} (i.e. #{j \compose i^{-r}}), since we cannot have any iteration of #{i} in the argument of #{j}. However, this is not well-defined, and introduces an intertermination of #{j \ker (i^r : \pi_n (X_{p+r-1}) \to \pi_n (X_{p-1}))}. To solve this, we simply quotient by that factor in the codomain. (Note that since the triangle isn’t actually closed, but a rolled-up spiral, the indices of #{j} needs a suitable shifting.)
 \tikzcd{
-  & {\mkern-24mu{\dfrac{k^{-1} \im(i^r : \pi_n (X_{p+r}) \to \pi_n (X_p))}{j \ker(i^r : \pi_{n-1} (X_{p+r-1}) \to \pi_{n-1} (X_{p-1}))}}\mkern-24mu} \\
+  & {\mkern-24mu{\dfrac{k^{-1} \im(i^r : \pi_n (X_{p+r}) \to \pi_n (X_p))}{j \ker(i^r : \pi_{n-1} (X_{p-1}) \to \pi_{n-1} (X_{p-r-1}))}}\mkern-24mu} \\
   {i^r \pi_n (X_{p+r})} && {i^r \pi_n (X_{p+r-1})} \\
   & {\pi_n (F_p)} \\
   {\pi_n (X_p)} && {\pi_n (X_{p-1})}
@@ -71,33 +71,33 @@
 
 \p{
   We have constructed a sequence of exact triangles such that for large enough #{r}, they split into short exact sequences. So now the goal is to give a tractible way to compute the object
-  ##{E_{n,p,r} = \frac{k^{-1} \im(i^r : \pi_n (X_{p+r}) \to \pi_n (X_p))}{j \ker(i^r : \pi_{n-1} (X_{p+r-1}) \to \pi_{n-1} (X_{p-1}))}.}
-  As a sanity check, #{E_{n, p, 0} = \pi_n (F_p)}, being the “initial condition” for our sequence. Note that this is also the only data we have, as #{\pi_n (X_p)} are all unknown. Therefore we want some way to compute #{E_{n,p,r+1}} from the data of #{E_{n,p,r}}. (As is the case for all spectral sequences, the “computation” relies on knowing some differentials, but they are often unique by formal reasons.)
+  ##{E_{n,p,r} = \frac{k^{-1} \im(i^r : \pi_n (X_{p+r}) \to \pi_n (X_p))}{j \ker(i^r : \pi_{n-1} (X_{p-1}) \to \pi_{n-1} (X_{p-r-1}))}.}
+  As a sanity check, #{E_{n, p, 0} = \pi_n (F_p)}, being the “initial condition” for our sequence. Note that this is also the only data we have, as #{\pi_n (X_p)} are all unknown. Therefore we want some way to compute #{E_{\bullet,\bullet,r+1}} from the data of #{E_{\bullet,\bullet,r}}. (As is the case for all spectral sequences, the “computation” relies on knowing some differentials, but they are often unique by formal reasons.)
 }
 
 \p{
   Removing the unknown components from the diagram, we are left with the following sequence:
 \tikzcd{[column sep=small]
   & {E_{n,p+1,r}} && {E_{n,p,r}} && {E_{n,p-1,r}} \\
-  \textcolor{rgb,255:red,128;green,128;blue,128}{\cdots} && \textcolor{rgb,255:red,128;green,128;blue,128}{{i^r \pi_n (X_{p+r})}} && \textcolor{rgb,255:red,128;green,128;blue,128}{{i^r \pi_n (X_{p+r-1})}} && \textcolor{rgb,255:red,128;green,128;blue,128}{\cdots}
-  \arrow[color={rgb,255:red,128;green,128;blue,128}, from=1-2, to=2-1]
+  \textcolor{gray}{\cdots} && \textcolor{gray}{{i^r \pi_n (X_{p+r})}} && \textcolor{gray}{{i^r \pi_n (X_{p+r-1})}} && \textcolor{gray}{\cdots}
+  \arrow[color={gray}, from=1-2, to=2-1]
   \arrow[from=1-4, to=1-2]
-  \arrow["k"{description}, color={rgb,255:red,128;green,128;blue,128}, from=1-4, to=2-3]
+  \arrow["k"{description}, color={gray}, from=1-4, to=2-3]
   \arrow[from=1-6, to=1-4]
-  \arrow[color={rgb,255:red,128;green,128;blue,128}, from=1-6, to=2-5]
-  \arrow[color={rgb,255:red,128;green,128;blue,128}, from=2-1, to=2-3]
-  \arrow[color={rgb,255:red,128;green,128;blue,128}, from=2-3, to=1-2]
-  \arrow[color={rgb,255:red,128;green,128;blue,128}, from=2-3, to=2-5]
-  \arrow["{ji^{-r}}"{description}, color={rgb,255:red,128;green,128;blue,128}, from=2-5, to=1-4]
-  \arrow[color={rgb,255:red,128;green,128;blue,128}, from=2-5, to=2-7]
-  \arrow[color={rgb,255:red,128;green,128;blue,128}, from=2-7, to=1-6]
+  \arrow[color={gray}, from=1-6, to=2-5]
+  \arrow[color={gray}, from=2-1, to=2-3]
+  \arrow[color={gray}, from=2-3, to=1-2]
+  \arrow[color={gray}, from=2-3, to=2-5]
+  \arrow["{ji^{-r}}"{description}, color={gray}, from=2-5, to=1-4]
+  \arrow[color={gray}, from=2-5, to=2-7]
+  \arrow[color={gray}, from=2-7, to=1-6]
 }
-  Let’s call the maps #{d = j i^{-r} k}. We immediately notice that by exactness of the original triangles, #{d^2 = j i^{-r} \cancel{k j} i^{-r} k = 0}. Therefore #{E_{n,p,r}} forms a chain complex. We can calculate
+  It’s clear that the only maps we can use are the compositions #{d = j i^{-r} k}. Again, since the triangles isn’t actually closed, #{d} sends #{E_{n, p, r}} to #{E_{n+1, p+r, r}} instead of #{E_{n, p+1, r}} as suggested in the diagram. We immediately notice that by exactness of the original triangles, #{d^2 = j i^{-r} \cancel{k j} i^{-r} k = 0}. Therefore #{E_{n,p,r}} forms a chain complex. We can calculate at #{E_{n, p, r}}:
   ##{\begin{aligned}
     \ker d &= k^{-1} \{ i^r (x) \mid x \in \pi_n (X_{p+r}), j(x) = 0 \} \\
-    \im d &= j \{ x \in \pi_{n-1} (X_{p+r-1}) \mid \exists y, k(y) = i^r(x) \}.
+    \im d &= j \{ x \in \pi_{n-1} (X_{p-1}) \mid \exists y, k(y) = i^r(x) \}.
   \end{aligned}}
-  Finally by exactness of the original triangle, #{\ker j = \im i}, and #{\im k = \ker i}. Therefore the homology of #{d} is exactly #{E_{n,p-1,r+1}}, the required next group.
+  Finally by exactness of the original triangle, #{\ker j = \im i}, and #{\im k = \ker i}. Therefore the homology of #{d} is exactly #{E_{n,p,r+1}}.
 }
 
 \p{
