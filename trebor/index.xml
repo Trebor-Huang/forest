@@ -27,7 +27,11 @@
         <fr:title text="Writings">Writings</fr:title>
       </fr:frontmatter>
       <fr:mainmatter>
-        <html:ul><html:li><html:em><fr:link href="/forest/stc-hard-way/" title="Synthetic Tait Computability the Hard Way" uri="https://trebor-huang.github.io/forest/stc-hard-way/" display-uri="stc-hard-way" type="local">Synthetic Tait Computability the Hard Way</fr:link></html:em>, ArXiv preprint.
+        <html:ul><html:li><html:em>Fat cell structures and generalized algebraic theories</html:em>, to appear in LICS 2026.
+    </html:li>
+    <html:li><html:em><fr:link href="/forest/cubical-normal-form/" title="Normal forms in Cubical Type Theory" uri="https://trebor-huang.github.io/forest/cubical-normal-form/" display-uri="cubical-normal-form" type="local">Normal forms in Cubical Type Theory</fr:link></html:em>, ArXiv preprint.
+    </html:li>
+    <html:li><html:em><fr:link href="/forest/stc-hard-way/" title="Synthetic Tait Computability the Hard Way" uri="https://trebor-huang.github.io/forest/stc-hard-way/" display-uri="stc-hard-way" type="local">Synthetic Tait Computability the Hard Way</fr:link></html:em>, ArXiv preprint.
     </html:li>
     <html:li><html:em><fr:link href="/forest/exp-locale/" title="Exponentiable locales, revisited" uri="https://trebor-huang.github.io/forest/exp-locale/" display-uri="exp-locale" type="local">Exponentiable locales, revisited</fr:link></html:em>, ArXiv preprint.
     </html:li>
@@ -48,8 +52,6 @@
     </html:li>
     <html:li><fr:link href="https://trebor-huang.github.io/LieSphereGeometry/" type="external">Lie Sphere Geometry,</fr:link> an interesting geometry with <fr:tex display="inline"><![CDATA[\textrm {O}(3, 2)]]></fr:tex> symmetry where points, lines and circles are on the same footing. <html:span class="tag">[<fr:link href="https://github.com/Trebor-Huang/LieSphereGeometry" type="external">GitHub repo</fr:link>]</html:span>.
     </html:li>
-    <html:li><fr:link href="https://trebor-huang.github.io/Mathieu/" type="external">Mathieu,</fr:link> a puzzle whose configuration space is the <fr:tex display="inline"><![CDATA[M_{24}]]></fr:tex> sporadic group.
-    </html:li>
     <html:li><fr:link href="https://trebor-huang.github.io/ASKL/main.htm" type="external">ASKL,</fr:link> a 4K rhythm game supporting the Malody format.
     </html:li></html:ul>
       </fr:mainmatter>
@@ -62,6 +64,31 @@
         <fr:title text="References">References</fr:title>
       </fr:frontmatter>
       <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/cubical-normal-form/</fr:uri>
+            <fr:display-uri>cubical-normal-form</fr:display-uri>
+            <fr:route>/forest/cubical-normal-form/</fr:route>
+            <fr:title text="Normal forms in Cubical Type Theory">Normal forms in Cubical Type Theory</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="doi">10.48550/arXiv.2603.24923</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  This note documents the specification of normal forms in cubical type theory. The definition is already present in the proof of normalization for cubical type theory, but we present it in a more traditional style explicitly for reference. 
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
@@ -261,6 +288,31 @@
         <fr:title text="Contributions">Contributions</fr:title>
       </fr:frontmatter>
       <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>26</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/cubical-normal-form/</fr:uri>
+            <fr:display-uri>cubical-normal-form</fr:display-uri>
+            <fr:route>/forest/cubical-normal-form/</fr:route>
+            <fr:title text="Normal forms in Cubical Type Theory">Normal forms in Cubical Type Theory</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="doi">10.48550/arXiv.2603.24923</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  This note documents the specification of normal forms in cubical type theory. The definition is already present in the proof of normalization for cubical type theory, but we present it in a more traditional style explicitly for reference. 
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>

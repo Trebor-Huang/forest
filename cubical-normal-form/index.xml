@@ -7,14 +7,23 @@
         <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
       </fr:author>
     </fr:authors>
-    <fr:uri>https://trebor-huang.github.io/forest/models/</fr:uri>
-    <fr:display-uri>models</fr:display-uri>
-    <fr:route>/forest/models/</fr:route>
-    <fr:title text="Models of Dependent Type Theory">Models of Dependent Type Theory</fr:title>
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>26</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/cubical-normal-form/</fr:uri>
+    <fr:display-uri>cubical-normal-form</fr:display-uri>
+    <fr:route>/forest/cubical-normal-form/</fr:route>
+    <fr:title text="Normal forms in Cubical Type Theory">Normal forms in Cubical Type Theory</fr:title>
     <fr:taxon>Reference</fr:taxon>
-    <fr:meta name="external">https://github.com/Trebor-Huang/model</fr:meta>
+    <fr:meta name="doi">10.48550/arXiv.2603.24923</fr:meta>
   </fr:frontmatter>
-  <fr:mainmatter />
+  <fr:mainmatter>
+    <html:p>
+  This note documents the specification of normal forms in cubical type theory. The definition is already present in the proof of normalization for cubical type theory, but we present it in a more traditional style explicitly for reference. 
+</html:p>
+  </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
