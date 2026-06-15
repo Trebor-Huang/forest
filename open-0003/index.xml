@@ -125,6 +125,11 @@
 </html:p><html:p>
   There has been a line of work defining and working with <fr:link href="https://arxiv.org/abs/2503.24279" type="external">the effective 2-topos</fr:link>. On the other hand, trying to directly define assemblies in cubical sets gives the <fr:link href="https://arxiv.org/abs/1803.06649" type="external">cubical assemblies</fr:link>, which unfortunately does not satisfy some principles that we expect of the effective topos, such as the Church thesis. There are <fr:link href="https://arxiv.org/abs/1905.03014" type="external">ways</fr:link> to fix this problem, but it is ad hoc and doesn’t seem to be satisfactory as an answer to the question.
 </html:p></fr:mainmatter></fr:tree>
+  <fr:tree show-metadata="false" expanded="false" numbered="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2026</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:uri>https://trebor-huang.github.io/forest/open-0009/</fr:uri><fr:display-uri>open-0009</fr:display-uri><fr:route>/forest/open-0009/</fr:route><fr:title text="Computational interpretation of propositional resizing">Computational interpretation of propositional resizing</fr:title><fr:taxon>Question</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  Give a computational interpretation of propositional resizing in homotopy type theory.
+</html:p><html:p>
+  A naïve approach does not work here, since the computation needs to somehow get stuck on the proof of propositionality. Otherwise, we can assume (falsely) that any type is a proposition, which allows us to replicate Russell’s paradox and produce non-terminating reduction in a false context. This is related to <fr:link href="/forest/open-0008/" title="Higher effective topos" uri="https://trebor-huang.github.io/forest/open-0008/" display-uri="open-0008" type="local">Question <fr:contextual-number uri="https://trebor-huang.github.io/forest/open-0008/" display-uri="open-0008" /></fr:link>.
+</html:p></fr:mainmatter></fr:tree>
 </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
