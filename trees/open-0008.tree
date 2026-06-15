@@ -1,0 +1,13 @@
+\date{2026-06-15T09:22:27Z}
+\import{common}
+\title{Higher effective topos}
+\author{trebor}
+\taxon{Question}
+
+\p{
+  Define an elementary #{\infty}-topos version of the effective topos. In particular, the #{1}-truncated objects should recover exactly the effective topos.
+}
+
+\p{
+  There has been a line of work defining and working with [the effective 2-topos](https://arxiv.org/abs/2503.24279). On the other hand, trying to directly define assemblies in cubical sets gives the [cubical assemblies](https://arxiv.org/abs/1803.06649), which unfortunately does not satisfy some principles that we expect of the effective topos, such as the Church thesis. There are [ways](https://arxiv.org/abs/1905.03014) to fix this problem, but it is ad hoc and doesn’t seem to be satisfactory as an answer to the question.
+}

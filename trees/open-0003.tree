@@ -1,0 +1,25 @@
+\date{2026-06-15T07:59:33Z}
+\import{common}
+\title{#{\infty}-categories in vanilla HoTT}
+\author{trebor}
+\taxon{Question}
+
+\p{
+  Formalize, or prove the impossibility for a definition of #{(\infty, 1)}-categories in the style of synthetic homotopy theory in HoTT.
+}
+
+\p{
+  Defining #{\infty}-categories following the usual, classical definition in HoTT is generally considered unproblematic, and just a matter of effort. There has been various projects working towards this.
+}
+
+\p{
+  A definition of #{\infty}-categories synthetically should have the correct interpretation in the canonical model of HoTT in #{\infty}-groupoids (or more concretely, simplicial sets), up to equivalence. We should also be able to extract the #{\hom}-types, and define composition and the #{n}-associator for each concrete number #{n}. More generally, [the axioms](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view) developed by Cisinski and others should be provable.
+}
+
+\p{
+  There has been various approaches to defining #{\infty}-categories in \em{extensions} of HoTT. They generally correspond to the two styles of defining categories:
+}
+\ul{
+  \li{Defining #{\hom}-sets as families of sets over the collection of objects. Generalizing to #{\infty}-categories requires arbitrarily long chains of dependencies. This is the idea of the work of [displayed type theory](https://arxiv.org/abs/2311.18781).}
+  \li{Defining the total collection of arrows, with two projections #{\operatorname{dom}} and #{\operatorname{cod}}. Generalizing to #{\infty}-categories requires the definition of (semi-)simplicial spaces, which require an infinite tower of coherences between these projection maps. This leads to the work of [two-level type theory](https://arxiv.org/abs/1705.03307).}
+}

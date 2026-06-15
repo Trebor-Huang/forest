@@ -1,0 +1,17 @@
+\date{2026-06-15T08:59:50Z}
+\import{common}
+\title{Meta-theory of complex inductive definitions}
+\author{trebor}
+\taxon{Question}
+
+\p{
+  Specify a schema of inductive definitions that can handle arbitrary interleaving, nesting and dependency of induction and recursion. Prove or disprove the consistency, canonicity and normalization of these inductive definitions, as well as their compatibility with excluded middle, the axiom of choice and univalence.
+}
+
+\p{
+  Agda is extremely permissive on the validity of inductive definitions, far surpassing any literature. The declaration and definitions can be arbitrarily interleaved, and later definitions can refer to previous declarations freely (subject to termination checking). The strict-positivity checking is an “open” condition, meaning that each new feature of the type theory adds to the possible inductive definitions. So a “closed” approach such as reducing inductive types to #{\mathsf{W}}-types seems inappropriate.
+}
+
+\p{
+  Some of these inductive types have been found to be inconsistent, or incompatible with excluded middle or univalence. However, fixing these inconsistencies reactively is not an ideal solution. Given that a large portion of these definitions seems intuitive, it should be possible to establish at least their consistency relative to set theory with well-known large cardinal axioms. See also [this StackExchange question](https://proofassistants.stackexchange.com/questions/1981/what-are-the-complex-induction-patterns-supported-by-agda).
+}

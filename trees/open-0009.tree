@@ -1,0 +1,12 @@
+\date{2026-06-15T09:33:51Z}
+\import{common}
+\title{Computational interpretation of propositional resizing}
+\author{trebor}
+
+\p{
+  Give a computational interpretation of propositional resizing in homotopy type theory.
+}
+
+\p{
+  A naïve approach does not work here, since the computation needs to somehow get stuck on the proof of propositionality. Otherwise, we can assume (falsely) that any type is a proposition, which allows us to replicate Russell’s paradox and produce non-terminating reduction in a false context. This is related to \ref{open-0008}.
+}

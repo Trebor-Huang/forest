@@ -1,0 +1,22 @@
+\date{2026-06-15T08:23:17Z}
+\import{common}
+\title{The theory of presentable and accessible categories in type theory}
+\author{trebor}
+\taxon{Question}
+
+\p{
+  Is it possible to develop the theory of presentable and accessible categories in a constructive (or even predicative) type theory? Barring this, how can we develop this theory in a type-theory idiomatic way?
+}
+
+\p{
+  It is known that the classical theory of presentable and accessible categories heavily relies on the axiom of choice. There are several questions on MathOverflow on this topic:
+}
+\ul{
+  \li{[Locally presentable and accessible categories without the axiom of choice?](https://mathoverflow.net/questions/459374/locally-presentable-and-accessible-categories-without-the-axiom-of-choice)}
+  \li{[Accessibility of small categories without choice](https://mathoverflow.net/questions/512002/accessibility-of-small-categories-without-choice)}
+  \li{[Obstructions to the theory of locally presentable categories without choice](https://mathoverflow.net/questions/512250/obstructions-to-the-theory-of-locally-presentable-categories-without-choice)}
+}
+
+\p{
+  We can avoid a lot of choice unique up to unique isomorphism in a univalent type theory. It may also be possible to redefine notions of size using an inductive-recursively defined Tarski universe. I suspect this to be easier to use than trying to develop a theory of cardinals.
+}

@@ -1,0 +1,21 @@
+\date{2026-06-14T16:48:39Z}
+\import{common}
+\title{Strongly total functions on Church numerals}
+\author{trebor}
+\taxon{Question}
+
+\p{
+  What are all the total functions #{f : \mathbb{N} \to \mathbb{N}} on natural numbers such that there exists an untyped #{\lambda}-calculus term #{t} such that #{t c_n} (where #{c_n} is the #{n}-th Church numeral) is strongly normalizing for each #{n}, and evaluates to #{c_{f(n)}}? This is raised on [MathOverflow](https://mathoverflow.net/questions/295380/is-every-total-computable-function-definable-by-a-strongly-total-lambda-term).
+}
+
+\p{
+  In some sense, this is asking for a kind of limit on type systems that guarantee strong normalization. This class of total functions includes for example all the functions of type #{\mathbb{N} \to \mathbb{N}} in system #{\mathrm{F}}, where #{\mathbb{N}} is encoded as #{\forall \alpha. (\alpha \to \alpha) \to (\alpha \to \alpha)}. These are the functions provably total in second order Peano arithmetic. Similarly system #{\mathrm{F}\omega} gives all the functions provably total in higher order logic. These are all we get out of the #{\lambda}-cube.
+}
+
+\p{
+  However, note that it’s not necessarily true that system #{\mathrm{F}} can only provide us with these functions. It is possible that a term #{t} has the property that each #{t c_n} is typable (hence strongly normalizing) in system #{\mathrm{F}}, but the types assigned to #{t} or #{c_n} depends on #{n}. I’m also interested to see if there are these wild total functions.
+}
+
+\p{
+  Perhaps one direction of attack is to consider higher order logic equipped with stronger and stronger large cardinal axioms. We then somehow translate them to strongly normalizing type systems (with more and more universes).
+}
