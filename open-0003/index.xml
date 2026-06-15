@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>15</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/open-0003/</fr:uri>
+    <fr:display-uri>open-0003</fr:display-uri>
+    <fr:route>/forest/open-0003/</fr:route>
+    <fr:title text="\infty -categories in vanilla HoTT"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories in vanilla HoTT</fr:title>
+    <fr:taxon>Question</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>
+  Formalize, or prove the impossibility for a definition of <fr:tex display="inline"><![CDATA[(\infty , 1)]]></fr:tex>-categories in the style of synthetic homotopy theory in HoTT.
+</html:p>
+    <html:p>
+  Defining <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories following the usual, classical definition in HoTT is generally considered unproblematic, and just a matter of effort. There has been various projects working towards this.
+</html:p>
+    <html:p>
+  A definition of <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories synthetically should have the correct interpretation in the canonical model of HoTT in <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-groupoids (or more concretely, simplicial sets), up to equivalence. We should also be able to extract the <fr:tex display="inline"><![CDATA[\hom ]]></fr:tex>-types, and define composition and the <fr:tex display="inline"><![CDATA[n]]></fr:tex>-associator for each concrete number <fr:tex display="inline"><![CDATA[n]]></fr:tex>. More generally, <fr:link href="https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view" type="external">the axioms</fr:link> developed by Cisinski and others should be provable.
+</html:p>
+    <html:p>
+  There has been various approaches to defining <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories in <html:em>extensions</html:em> of HoTT. They generally correspond to the two styles of defining categories:
+</html:p>
+    <html:ul><html:li>Defining <fr:tex display="inline"><![CDATA[\hom ]]></fr:tex>-sets as families of sets over the collection of objects. Generalizing to <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories requires arbitrarily long chains of dependencies. This is the idea of the work of <fr:link href="https://arxiv.org/abs/2311.18781" type="external">displayed type theory</fr:link>.</html:li>
+  <html:li>Defining the total collection of arrows, with two projections <fr:tex display="inline"><![CDATA[\operatorname {dom}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {cod}]]></fr:tex>. Generalizing to <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories requires the definition of (semi-)simplicial spaces, which require an infinite tower of coherences between these projection maps. This leads to the work of <fr:link href="https://arxiv.org/abs/1705.03307" type="external">two-level type theory</fr:link>.</html:li></html:ul>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>14</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/trebor-0003/</fr:uri>
+            <fr:display-uri>trebor-0003</fr:display-uri>
+            <fr:route>/forest/trebor-0003/</fr:route>
+            <fr:title text="List of open problems">List of open problems</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter><html:p>
+  The following is a list of open (to my knowledge) problems that I’m interested in, with some thoughts on them. They are mostly in type theory, constructive logic and computability theory. I think about them from time to time, and if any problem is already solved in the literature, or has a new claimed solution, please contact <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">me</fr:link>!
+</html:p>
+  
+  
+  <fr:tree show-metadata="false" expanded="false" numbered="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2026</fr:year><fr:month>6</fr:month><fr:day>14</fr:day></fr:date><fr:uri>https://trebor-huang.github.io/forest/open-0001/</fr:uri><fr:display-uri>open-0001</fr:display-uri><fr:route>/forest/open-0001/</fr:route><fr:title text="Strongly total functions on Church numerals">Strongly total functions on Church numerals</fr:title><fr:taxon>Question</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  What are all the total functions <fr:tex display="inline"><![CDATA[f : \mathbb {N} \to  \mathbb {N}]]></fr:tex> on natural numbers such that there exists an untyped <fr:tex display="inline"><![CDATA[\lambda ]]></fr:tex>-calculus term <fr:tex display="inline"><![CDATA[t]]></fr:tex> such that <fr:tex display="inline"><![CDATA[t c_n]]></fr:tex> (where <fr:tex display="inline"><![CDATA[c_n]]></fr:tex> is the <fr:tex display="inline"><![CDATA[n]]></fr:tex>-th Church numeral) is strongly normalizing for each <fr:tex display="inline"><![CDATA[n]]></fr:tex>, and evaluates to <fr:tex display="inline"><![CDATA[c_{f(n)}]]></fr:tex>? This is raised on <fr:link href="https://mathoverflow.net/questions/295380/is-every-total-computable-function-definable-by-a-strongly-total-lambda-term" type="external">MathOverflow</fr:link>.
+</html:p><html:p>
+  In some sense, this is asking for a kind of limit on type systems that guarantee strong normalization. This class of total functions includes for example all the functions of type <fr:tex display="inline"><![CDATA[\mathbb {N} \to  \mathbb {N}]]></fr:tex> in system <fr:tex display="inline"><![CDATA[\mathrm {F}]]></fr:tex>, where <fr:tex display="inline"><![CDATA[\mathbb {N}]]></fr:tex> is encoded as <fr:tex display="inline"><![CDATA[\forall  \alpha . (\alpha  \to  \alpha ) \to  (\alpha  \to  \alpha )]]></fr:tex>. These are the functions provably total in second order Peano arithmetic. Similarly system <fr:tex display="inline"><![CDATA[\mathrm {F}\omega ]]></fr:tex> gives all the functions provably total in higher order logic. These are all we get out of the <fr:tex display="inline"><![CDATA[\lambda ]]></fr:tex>-cube.
+</html:p><html:p>
+  However, note that it’s not necessarily true that system <fr:tex display="inline"><![CDATA[\mathrm {F}]]></fr:tex> can only provide us with these functions. It is possible that a term <fr:tex display="inline"><![CDATA[t]]></fr:tex> has the property that each <fr:tex display="inline"><![CDATA[t c_n]]></fr:tex> is typable (hence strongly normalizing) in system <fr:tex display="inline"><![CDATA[\mathrm {F}]]></fr:tex>, but the types assigned to <fr:tex display="inline"><![CDATA[t]]></fr:tex> or <fr:tex display="inline"><![CDATA[c_n]]></fr:tex> depends on <fr:tex display="inline"><![CDATA[n]]></fr:tex>. I’m also interested to see if there are these wild total functions.
+</html:p><html:p>
+  Perhaps one direction of attack is to consider higher order logic equipped with stronger and stronger large cardinal axioms. We then somehow translate them to strongly normalizing type systems (with more and more universes).
+</html:p></fr:mainmatter></fr:tree>
+  <fr:tree show-metadata="false" expanded="false" numbered="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2026</fr:year><fr:month>6</fr:month><fr:day>14</fr:day></fr:date><fr:uri>https://trebor-huang.github.io/forest/open-0002/</fr:uri><fr:display-uri>open-0002</fr:display-uri><fr:route>/forest/open-0002/</fr:route><fr:title text="Dimensionlity of the rational number locale">Dimensionlity of the rational number locale</fr:title><fr:taxon>Question</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  Classify the locales <fr:tex display="inline"><![CDATA[\mathbb {Q}^n]]></fr:tex> up to homeomorphism. This is raised on <fr:link href="https://mathoverflow.net/questions/495142/dimensionality-of-the-rational-numbers-locale" type="external">MathOverflow</fr:link>.
+</html:p><html:p>
+  It is well-known that <fr:tex display="inline"><![CDATA[\mathbb {Q}]]></fr:tex> is not homeomorphic to <fr:tex display="inline"><![CDATA[\mathbb {Q}^2]]></fr:tex> as locales, which is in stark contrast with topological spaces where <fr:tex display="inline"><![CDATA[\mathbb {Q}^n]]></fr:tex> are all homeomorphic. The proof is a delicate analysis on rectangles on the rational plane. Perhaps similar arguments can be carried out on higher dimensional spaces, but I haven’t given too much thought to it.
+</html:p></fr:mainmatter></fr:tree>
+  <fr:tree show-metadata="false" expanded="false" numbered="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2026</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:uri>https://trebor-huang.github.io/forest/open-0003/</fr:uri><fr:display-uri>open-0003</fr:display-uri><fr:route>/forest/open-0003/</fr:route><fr:title text="\infty -categories in vanilla HoTT"><fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories in vanilla HoTT</fr:title><fr:taxon>Question</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  Formalize, or prove the impossibility for a definition of <fr:tex display="inline"><![CDATA[(\infty , 1)]]></fr:tex>-categories in the style of synthetic homotopy theory in HoTT.
+</html:p><html:p>
+  Defining <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories following the usual, classical definition in HoTT is generally considered unproblematic, and just a matter of effort. There has been various projects working towards this.
+</html:p><html:p>
+  A definition of <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories synthetically should have the correct interpretation in the canonical model of HoTT in <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-groupoids (or more concretely, simplicial sets), up to equivalence. We should also be able to extract the <fr:tex display="inline"><![CDATA[\hom ]]></fr:tex>-types, and define composition and the <fr:tex display="inline"><![CDATA[n]]></fr:tex>-associator for each concrete number <fr:tex display="inline"><![CDATA[n]]></fr:tex>. More generally, <fr:link href="https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view" type="external">the axioms</fr:link> developed by Cisinski and others should be provable.
+</html:p><html:p>
+  There has been various approaches to defining <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories in <html:em>extensions</html:em> of HoTT. They generally correspond to the two styles of defining categories:
+</html:p><html:ul><html:li>Defining <fr:tex display="inline"><![CDATA[\hom ]]></fr:tex>-sets as families of sets over the collection of objects. Generalizing to <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories requires arbitrarily long chains of dependencies. This is the idea of the work of <fr:link href="https://arxiv.org/abs/2311.18781" type="external">displayed type theory</fr:link>.</html:li>
+  <html:li>Defining the total collection of arrows, with two projections <fr:tex display="inline"><![CDATA[\operatorname {dom}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\operatorname {cod}]]></fr:tex>. Generalizing to <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-categories requires the definition of (semi-)simplicial spaces, which require an infinite tower of coherences between these projection maps. This leads to the work of <fr:link href="https://arxiv.org/abs/1705.03307" type="external">two-level type theory</fr:link>.</html:li></html:ul></fr:mainmatter></fr:tree>
+  <fr:tree show-metadata="false" expanded="false" numbered="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2026</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:uri>https://trebor-huang.github.io/forest/open-0004/</fr:uri><fr:display-uri>open-0004</fr:display-uri><fr:route>/forest/open-0004/</fr:route><fr:title text="The theory of presentable and accessible categories in type theory">The theory of presentable and accessible categories in type theory</fr:title><fr:taxon>Question</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  Is it possible to develop the theory of presentable and accessible categories in a constructive (or even predicative) type theory? Barring this, how can we develop this theory in a type-theory idiomatic way?
+</html:p><html:p>
+  It is known that the classical theory of presentable and accessible categories heavily relies on the axiom of choice. There are several questions on MathOverflow on this topic:
+</html:p><html:ul><html:li><fr:link href="https://mathoverflow.net/questions/459374/locally-presentable-and-accessible-categories-without-the-axiom-of-choice" type="external">Locally presentable and accessible categories without the axiom of choice?</fr:link></html:li>
+  <html:li><fr:link href="https://mathoverflow.net/questions/512002/accessibility-of-small-categories-without-choice" type="external">Accessibility of small categories without choice</fr:link></html:li>
+  <html:li><fr:link href="https://mathoverflow.net/questions/512250/obstructions-to-the-theory-of-locally-presentable-categories-without-choice" type="external">Obstructions to the theory of locally presentable categories without choice</fr:link></html:li></html:ul><html:p>
+  We can avoid a lot of choice unique up to unique isomorphism in a univalent type theory. It may also be possible to redefine notions of size using an inductive-recursively defined Tarski universe. I suspect this to be easier to use than trying to develop a theory of cardinals.
+</html:p></fr:mainmatter></fr:tree>
+  <fr:tree show-metadata="false" expanded="false" numbered="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2026</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:uri>https://trebor-huang.github.io/forest/open-0005/</fr:uri><fr:display-uri>open-0005</fr:display-uri><fr:route>/forest/open-0005/</fr:route><fr:title text="Recursively realizable one-variable formula in propositional logic">Recursively realizable one-variable formula in propositional logic</fr:title><fr:taxon>Question</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  What are all the propositional formulas involving one propositional variable that are realizable with recursive functions? In other words, what propositions are true in the computable world?
+</html:p><html:p>
+  Constructive logic is realizable with computable functions, and so we can restrict our attention to the free Heyting algebra generated by one element, also known as the <fr:link href="https://commons.wikimedia.org/wiki/File:Rieger-Nishimura.svg" type="external">Rieger–Nishimura lattice</fr:link>, and asking if any proposition other than <fr:tex display="inline"><![CDATA[\top ]]></fr:tex> is realizable. According to this <fr:link href="https://www.jstor.org/stable/25470303" type="external">survey</fr:link>, although there are propositions unprovable in constructive logic but realizable computably, the existence of such one-variable propositions is still open.
+</html:p></fr:mainmatter></fr:tree>
+  <fr:tree show-metadata="false" expanded="false" numbered="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2026</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:uri>https://trebor-huang.github.io/forest/open-0006/</fr:uri><fr:display-uri>open-0006</fr:display-uri><fr:route>/forest/open-0006/</fr:route><fr:title text="The orthogonal and unitary groups in synthetic homotopy theory">The orthogonal and unitary groups in synthetic homotopy theory</fr:title><fr:taxon>Question</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  Define the orthogonal groups <fr:tex display="inline"><![CDATA[\mathrm {O}(n)]]></fr:tex> and the unitary groups <fr:tex display="inline"><![CDATA[\mathrm {U}(n)]]></fr:tex> in synthetic homotopy theory, together with their actions on the spheres of corresponding dimensions. Their deloopings as well as the direct limits <fr:tex display="inline"><![CDATA[\mathrm {O}]]></fr:tex>, <fr:tex display="inline"><![CDATA[\mathrm {BO}]]></fr:tex> etc. are also of interest. These definitions are necessary for the study of Bott periodicity, as well as the <fr:tex display="inline"><![CDATA[J]]></fr:tex>-homomorphism in the homotopy groups of spheres.
+</html:p><html:p>
+  There has been <fr:link href="https://www.davidjaz.com/Talks/DJM-Hottest-Dec-2023.pdf" type="external">work</fr:link> on defining the tangent unit sphere bundle of spheres. It is plausible that we can build on this construction to define the orthogonal group. It is however unclear how we would define the group operation. See also <fr:link href="https://www.math.uwo.ca/faculty/kapulkin/seminars/hottestfiles/Christensen-2024-04-11-HoTTEST.pdf" type="external">these slides</fr:link>.
+</html:p></fr:mainmatter></fr:tree>
+  <fr:tree show-metadata="false" expanded="false" numbered="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2026</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:uri>https://trebor-huang.github.io/forest/open-0007/</fr:uri><fr:display-uri>open-0007</fr:display-uri><fr:route>/forest/open-0007/</fr:route><fr:title text="Meta-theory of complex inductive definitions">Meta-theory of complex inductive definitions</fr:title><fr:taxon>Question</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  Specify a schema of inductive definitions that can handle arbitrary interleaving, nesting and dependency of induction and recursion. Prove or disprove the consistency, canonicity and normalization of these inductive definitions, as well as their compatibility with excluded middle, the axiom of choice and univalence.
+</html:p><html:p>
+  Agda is extremely permissive on the validity of inductive definitions, far surpassing any literature. The declaration and definitions can be arbitrarily interleaved, and later definitions can refer to previous declarations freely (subject to termination checking). The strict-positivity checking is an “open” condition, meaning that each new feature of the type theory adds to the possible inductive definitions. So a “closed” approach such as reducing inductive types to <fr:tex display="inline"><![CDATA[\mathsf {W}]]></fr:tex>-types seems inappropriate.
+</html:p><html:p>
+  Some of these inductive types have been found to be inconsistent, or incompatible with excluded middle or univalence. However, fixing these inconsistencies reactively is not an ideal solution. Given that a large portion of these definitions seems intuitive, it should be possible to establish at least their consistency relative to set theory with well-known large cardinal axioms. See also <fr:link href="https://proofassistants.stackexchange.com/questions/1981/what-are-the-complex-induction-patterns-supported-by-agda" type="external">this StackExchange question</fr:link>.
+</html:p></fr:mainmatter></fr:tree>
+  <fr:tree show-metadata="false" expanded="false" numbered="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link></fr:author></fr:authors><fr:date><fr:year>2026</fr:year><fr:month>6</fr:month><fr:day>15</fr:day></fr:date><fr:uri>https://trebor-huang.github.io/forest/open-0008/</fr:uri><fr:display-uri>open-0008</fr:display-uri><fr:route>/forest/open-0008/</fr:route><fr:title text="Higher effective topos">Higher effective topos</fr:title><fr:taxon>Question</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>
+  Define an elementary <fr:tex display="inline"><![CDATA[\infty ]]></fr:tex>-topos version of the effective topos. In particular, the <fr:tex display="inline"><![CDATA[1]]></fr:tex>-truncated objects should recover exactly the effective topos.
+</html:p><html:p>
+  There has been a line of work defining and working with <fr:link href="https://arxiv.org/abs/2503.24279" type="external">the effective 2-topos</fr:link>. On the other hand, trying to directly define assemblies in cubical sets gives the <fr:link href="https://arxiv.org/abs/1803.06649" type="external">cubical assemblies</fr:link>, which unfortunately does not satisfy some principles that we expect of the effective topos, such as the Church thesis. There are <fr:link href="https://arxiv.org/abs/1905.03014" type="external">ways</fr:link> to fix this problem, but it is ad hoc and doesn’t seem to be satisfactory as an answer to the question.
+</html:p></fr:mainmatter></fr:tree>
+</fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
