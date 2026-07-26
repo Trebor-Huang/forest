@@ -1,0 +1,111 @@
+\date{2026-07-25T16:58:37Z}
+\import{common}
+\title{论计算模型之区别}
+\author{trebor}
+
+\p{
+  1930 年代, 人们相继提出了三种可计算性的定义: 递归函数、#{\lambda} 演算与 Turing 机. 对于任何自然数上的部分函数 #{\varphi : \mathbb{N} \rightharpoonup \mathbb{N}}, 如果它可以用其中一种方法实现, 则这三种方法都可以表达 #{\varphi}. 此结论非常不平凡, 因为这三种计算模型的思路完全不同. 由此导出了著名的 \strong{Church–Turing 论题}: 任何合理的计算模型都应该定义相同的子集 #{\mathsf{Rec} \subseteq (\mathbb N \rightharpoonup \mathbb{N})}.
+}
+
+\p{
+  许多科普介绍习惯将这个论题简化为 “一切合理的计算模型都等价”. 因此, 如果只论是否可计算, 而不论计算的复杂度等等, 那么不同的计算模型就没有任何区别, 从而也不需要再进一步研究. 这样的观点完全错误. 事实上, 尽管许多计算模型能表达的函数 #{\mathbb N \rightharpoonup \mathbb N} 相同, 但是它们是互不等价的, 例如对于 #{(\mathbb N \to \mathbb N) \to \mathbb N} 的可计算函数可以有不同定义. 本文将简单介绍这样的区别, 特别是 #{\lambda} 演算与 Turing 机之区别.
+}
+
+\p{
+  对此的研究可以产生有趣的计算机科学与数学理论, 因此本文的目标是让更多人了解相关的子领域. 另外, 应当警惕为了某个漂亮的叙事能保持成立, 就扭曲对数学事实的诠释, 或者认为某个数学定义是 “不值得研究” 的现象. 有时抛弃旧的数学定义是正确的做法, 但盲目从之是对数学发展有害的.
+}
+
+\subtree{
+  \title{诉诸权威}
+  \taxon{论据}
+  \p{
+    正式介绍之前, 我先列举一些相关文献, 读者可以参阅.
+  }
+  \ul{
+    \li{John Longley 与 Dag Normann 的书 [\em{Higher Order Computability}](https://link.springer.com/book/10.1007/978-3-662-47992-6) (高阶可计算性). 其中提到 “与一阶函数中熟知的情况不同, 对高阶函数类型有几种不同的可计算性定义, 各自催生了一系列研究”.}
+    \li{[Longley 的博士论文](https://era.ed.ac.uk/items/30792c45-ea48-48e1-9b66-a0043f853d7d)第零章. 其中他提到研究编程语言的语义时从 Turing 机构造的模型有一定缺陷, 希望换成 #{\lambda} 演算. }
+    \li{Andrej Bauer 在有关问题下的 [Stack Exchange 回答](https://cstheory.stackexchange.com/a/1128). }
+  }
+  \p{
+    这些文章中都明确指出存在不等价的计算模型.
+  }
+}
+
+\subtree{
+  \title{并行或门问题}
+  \taxon{论据}
+  \p{
+    假设有两个可能不停机的程序, 各自输出 “真” 或 “假”. 是否可以写出程序, 使其中之一计算为真时输出真, 二者都计算为假时输出假, 其余时候可以不停机?
+  }
+
+  \p{
+    这里的关键问题在于不可以顺序地运行程序, 而必须并行计算. 对于 Turing 机而言, 可以交替地逐步模拟这两个程序, 直到其中一个停机为止. 然而, 对于纯 #{\lambda} 演算来说, 不存在这样的并行化运算. 事实上, 这个性质非常稳健: 无论在 #{\lambda} 演算中 “真” 与 “假” 的编码是什么, 只要它们是不相等的既约 (normal) 形式, 就不存在并行或门. [Jörg Endrullis 与 Roel de Vrijer](https://joerg.endrullis.de/assets/papers/lambda-reduction-under-substitution-2008.pdf) 的证明比较初等, 读者可以参阅.
+  }
+
+  \p{
+    可以认为 Turing 机是一种高度并行的计算模型, 而 #{\lambda} 演算则是顺序 (sequential) 的. 这乍看比较令人惊讶, 因为 Turing 机的运行是逐步的, 而 #{\lambda} 演算则完全没有规定 #{\beta} 归约的顺序, 可以并行执行. 然而, 对 #{\lambda} 演算的研究反复证明了其顺序性, 并且有各种语法与语义的定理刻画此性质. 其中最著名的 \strong{Berry 顺序性}, 大致是说假如为某个程序输入一些 #{\bot} 值, 那么求值结果中的每个发散的部分都至多对应原输入中的一处 #{\bot}. 换言之, 每个发散的部分要么是程序本身不停机, 要么可以溯源到确定的一处 #{\bot}, 不会出现并行等待两个部分的情况. 相反地, 对 Turing 可计算性, 特别是 Turing 度结构的研究中, 会反复应用并行求值的技巧, 尤其是燕尾榫式 (dovetailing) 计算, 可以在一列无限个程序中找到停机的程序.
+  }
+
+  \p{
+    这件事在编程语言的语义学中有重要影响. 普通的函数式编程语言, 如果未配有并行化原语 (如 Haskell 的 [\code{unamb}](https://wiki.haskell.org/index.php?title=Unamb) 库), 是无法写出并行或门的. 这导致一些直观上有区别的程序实际上在语言内无法观测到区别.
+  }
+}
+
+\subtree{
+  \title{Curry 化问题}
+  \taxon{论据}
+  \def\realizes{\Vdash}
+  \def\bind{\mathpunct{.}}
+  \p{
+    对于 Turing 机而言, 给定程序 #{f} (不妨说是计算某个 #{\mathbb N \to \mathbb N} 函数的程序), 不难输出一段 Python 代码, 计算同一个函数. 然而, 对于 #{\lambda} 演算而言, 由于函数是黑盒, 无法从函数 #{f} 计算出对应的 Python 代码.
+  }
+
+  \p{
+    当然, 读者对此的第一反应大概是这并不是公平的比较, 因为 Turing 机中的函数编码成了状态转移表, 印在纸带上, 而 #{\lambda} 演算中的函数就是 #{\lambda} 函数.
+    为了方便讨论编码问题, 我们简单作些定义. 令\strong{可计算集合}包含集合 #{X} 与二元关系 #{r \realizes_X x}, 其中 #{r} 是程序, 而 #{x \in X}, 表达 #{r} 编码元素 #{x}. 要求每个元素都至少有一个程序编码 (还可以要求一个程序至多编码一个元素, 是否做此要求对后续讨论均无影响).
+    #{\lambda} 演算中的自然数编码是 #{\underline{n} \realizes_{\mathbb N} n}, 其中 #{\underline{n} = \lambda f \bind \lambda x \bind f(f(\cdots f(x)))} 是 Church 编码. 原先 #{\mathbb N \to \mathbb N} 可计算函数的编码为 #{r \realizes_{\mathbb N \to \mathbb N} f} 当且仅当对任何 #{n \in \mathbb N} 都满足 #{r(\underline{n})} 归约到 #{\underline{f(n)}}.
+  }
+
+  \p{
+    倘若用 #{\lambda} 表达式的字符串编码函数 #{f}, 那么由此生成对应的 Python 代码就与 Turing 机的情况一样简单. 但是修改了编码会导致更严重的问题, 即 Curry 化变得不可计算.
+    具体来说, Curry 化由二元函数 #{F : X \times \mathbb{N} \to \mathbb{N}} 计算二重函数 #{X \to (\mathbb N \to \mathbb N)}. 我们将函数的编码修改为 #{r \realizes_{X \to Y} f} 当且仅当 #{r} 是符合语法的 #{\lambda} 表达式字符串, 使得 #{t \realizes_X x} 时有 #{\mathsf{parse}(r)(t) \realizes_Y f(x)}. 令 #{X} 对应的集合是 #{\mathbb N \to \{0, 1\}} 的可计算函数, 而 #{r \realizes_X f} 当且仅当对任何 #{n \in \mathbb N} 有 #{r(\underline{n}) \realizes_{\mathbb N} f(n)}. 此时考虑二元函数 #{F(r, c) = r(c)}, 是 #{X \times \mathbb N \to \mathbb N} 的函数. 然而无法由此得到 #{X \to (\mathbb N \to \mathbb N)} 的函数, 因为 #{X} 的编码就是 #{\lambda} 函数, 是黑盒, 无法由此得到 #{\lambda} 表达式字符串.
+  }
+
+  \p{
+    无论如何选择编码, 要么存在无法将函数变为 Python 程序的区别, 要么存在 Curry 化无法进行的区别 (Turing 机的 Curry 化就是著名的 #{\mathsf S^m_n} 定理), 总之总是无法消除 Turing 机与 #{\lambda} 演算的区别.
+  }
+
+  \p{
+    退一步说, Church–Turing 论题的精华在于不同的计算模型完全靠不同的指导观念定义, 却恰好一致. 毋庸置疑, #{\lambda} 演算的核心观念就是一切皆函数、函数是一等公民. 因此这里本就不存在不公平的比较. 假如 Church–Turing 论题需要特意设计匹配的编码, 而不能取各个计算模型中自然的编码方式, 那么它就变成了正确的废话, 毫无意义.
+  }
+}
+
+\subtree{
+  \title{连续性问题}
+  \taxon{论据}
+  \p{
+    给定某个程序 #{F : (\mathbb N \to \mathbb N) \to \mathbb N}, 若 #{F(f)} 停机, 那么 #{F} 最多只可能计算了有限多个 #{f(n_1), f(n_2), \dots, f(n_k)} 的值. 修改 #{f} 其他点处的取值不会影响 #{F(f)} 的结果. 这种有限性的论证极大限制了可以写出的程序. 在数学上, 某个函数 #{F} 如果满足对任何 #{f : \mathbb N \to \mathbb N} 都存在有限个自然数, 使得若 #{f} 与 #{f'} 在这些点相等则 #{F(f) = F(f')}, 就说 #{F} 是\strong{连续函数} (其中 #{(\mathbb N \to \mathbb N) = \mathbb N^{\mathbb N}} 采用乘积拓扑).
+  }
+
+  \p{
+    因此, 我们可以将数据类型视作拓扑空间, 可计算函数视作连续函数, 半可判定的性质则对应开集. 这一套程序与拓扑学之间的联系, 读者可以参考 [Martín Escardó](https://martinescardo.github.io/papers/entcs87.pdf) 的讲解. 利用这种连续性, 可以构造出[看似决不可能的程序](https://math.andrej.com/2007/09/28/seemingly-impossible-functional-programs/). 例如, 给定函数 #{F : (\mathbb{N} \to 2) \to 2}, 可以判定是否存在 #{f : \mathbb N \to 2} 使得 #{F(f)} 为真. 这可以用于精确实数运算, 例如计算 Riemann 积分等.
+  }
+
+  \p{
+    然而, 这些构造在 Turing 机或者 #{\lambda} 演算的计算模型中是不成立的. 这是来自可计算性理论中的一个熟知的反例, 即 Kleene 树: 这是一棵可判定二叉树 (即有可计算函数 #{\mathsf{List}(2) \to 2} 判定完全二叉树某个节点是否在其中), 有无限多节点 (存在可计算函数 #{\mathbb{N} \to \mathsf{List}(2)} 列出全部节点), 但是无法找到可计算的无限长道路 (即无限长的 01-列表, 或者 #{\mathbb N \to 2}). 其构造的核心想法是, 对于任何一个可计算的无限长道路都选择路上的某一个点剪去. 由于可计算函数只有可数多个, 这样做有足够时间剪去所有的可计算道路. 因此, 这些计算模型中的 “拓扑学” 性质极差, 甚至出现 Cantor 空间 #{2^{\mathbb{N}}} 与 Baire 空间 #{\mathbb{N}^{\mathbb{N}}} 同胚的现象.
+  }
+
+  \p{
+    要解决这个问题, 需要提出新的计算模型. 这类模型就是 \strong{Kleene 第二模型}或者其变体. Turing 机对应的是 Kleene 第一模型. 其中要求例如 #{F : \mathbb{N}^{\mathbb{N}} \to \mathbb{N}^{\mathbb{N}}} 的函数不仅需要可计算, 而且需要对任何函数 #{f : \mathbb{N}^{\mathbb{N}}} 停机, 包括那些不可计算的函数. 这样就保证了函数 #{F} 不能投机取巧, 只应付可数个可计算函数. 读者可以阅读 [Andrej Bauer 的博士论文](https://math.andrej.com/wp-content/uploads/2006/04/thesis.pdf)了解. 这里提到的计算模型就是 #{(\mathbb B, \mathbb B_\sharp)}.
+  }
+}
+
+\subtree{
+  \title{可计算性的结构}
+  \p{
+    以上介绍了计算模型在一阶函数之外可以出现的各种精妙区别. 其中最直白的体现在于高阶函数的可计算性. 高阶函数在当代程序语言中随处可见. 只学习一阶函数 (即自然数, 或者显然有到自然数的编码的事物之间的函数) 的可计算性, 却对高阶函数的可计算性理论毫不了解, 应当是不合理的. 甚至可以说, 这些比起经典递归论而言更接近实际编程会遇到的现象. 对这些事物持开放态度, 可以使我们看到经典可计算性之外的奇妙现象, 例如是否有并行性、Berry 稳定性、连续性等等.
+  }
+  \p{
+    除此之外, 还有许许多多可以扩展计算模型性质的方法, 譬如添加计算续体 (continuation) 或者一般的副作用等等. 这又能给各种计算模型更多独特之处. 对这些事情的不了解, 也是编程语言社区中对语言的所谓 Turing 完备性一些争论的来源. 希望本文能激发读者进一步学习的兴趣.
+  }
+}
