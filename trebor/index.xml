@@ -27,8 +27,7 @@
         <fr:title text="Writings">Writings</fr:title>
       </fr:frontmatter>
       <fr:mainmatter>
-        <html:ul><html:li><html:em>Fat cell structures and generalized algebraic theories</html:em> (with <fr:link href="/forest/angiuli/" title="Carlo Angiuli" uri="https://trebor-huang.github.io/forest/angiuli/" display-uri="angiuli" type="local">Carlo Angiuli</fr:link>), to appear in LICS 2026.
-    </html:li>
+        <html:ul><html:li><html:em><fr:link href="/forest/fat-cell-structure/" title="Fat Cell Structures and Generalized Algebraic Theories" uri="https://trebor-huang.github.io/forest/fat-cell-structure/" display-uri="fat-cell-structure" type="local">Fat Cell Structures and Generalized Algebraic Theories</fr:link></html:em> (with <fr:link href="/forest/angiuli/" title="Carlo Angiuli" uri="https://trebor-huang.github.io/forest/angiuli/" display-uri="angiuli" type="local">Carlo Angiuli</fr:link>), LICS 2026. <html:span class="tag">[<fr:link href="https://trebor-huang.github.io/cell-structure-slides.pdf" type="external">Slides</fr:link>]</html:span></html:li>
     <html:li><html:em><fr:link href="/forest/cubical-normal-form/" title="Normal forms in Cubical Type Theory" uri="https://trebor-huang.github.io/forest/cubical-normal-form/" display-uri="cubical-normal-form" type="local">Normal forms in Cubical Type Theory</fr:link></html:em>, ArXiv preprint.
     </html:li>
     <html:li><html:em><fr:link href="/forest/stc-hard-way/" title="Synthetic Tait Computability the Hard Way" uri="https://trebor-huang.github.io/forest/stc-hard-way/" display-uri="stc-hard-way" type="local">Synthetic Tait Computability the Hard Way</fr:link></html:em>, ArXiv preprint.
@@ -67,6 +66,34 @@
         <fr:title text="References">References</fr:title>
       </fr:frontmatter>
       <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+              <fr:author>
+                <fr:link href="/forest/angiuli/" title="Carlo Angiuli" uri="https://trebor-huang.github.io/forest/angiuli/" display-uri="angiuli" type="local">Carlo Angiuli</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>7</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/fat-cell-structure/</fr:uri>
+            <fr:display-uri>fat-cell-structure</fr:display-uri>
+            <fr:route>/forest/fat-cell-structure/</fr:route>
+            <fr:title text="Fat Cell Structures and Generalized Algebraic Theories">Fat Cell Structures and Generalized Algebraic Theories</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="doi">10.4230/LIPIcs.LICS.2026.58</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We give a new syntax-independent account of finitely-presented generalized algebraic theories (GATs) as finite cell complexes in the category of categories with families (CwFs), in which GATs are constructed by successive pushouts along the CwF morphisms generically postulating a sort, an operation, or an equation. Inspired by the fat small object argument of Makkai, Rosický, and Vokřínek, we introduce fat GAT presentations, thereby allowing infinite presentations with non-linear dependency structure. Then, motivated by wanting our GATs to self-describe, we extend presentations to admit infinitary arities, including infinitely deep dependency chains. Finally, we verify that these generalized GATs satisfy expected semantic properties including Frey’s Gabriel–Ulmer duality.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>
@@ -397,7 +424,8 @@
   <html:li>Algebraic geometry (Under namespace <html:code>algm</html:code>, not organized)</html:li>
   <html:li><fr:link href="/forest/ualg-000H/" title="Beck monadicity theorem" uri="https://trebor-huang.github.io/forest/ualg-000H/" display-uri="ualg-000H" type="local">Beck monadicity theorem</fr:link></html:li>
   <html:li>On <fr:link href="/forest/hmlg-002Y/" title="Ghost and phantom maps" uri="https://trebor-huang.github.io/forest/hmlg-002Y/" display-uri="hmlg-002Y" type="local">Ghost and phantom maps</fr:link></html:li>
-  <html:li><fr:link href="/forest/hmlg-0032/" title="Spectral sequence of a tower of fibrations" uri="https://trebor-huang.github.io/forest/hmlg-0032/" display-uri="hmlg-0032" type="local">Spectral sequence of a tower of fibrations</fr:link></html:li></html:ul>
+  <html:li><fr:link href="/forest/hmlg-0032/" title="Spectral sequence of a tower of fibrations" uri="https://trebor-huang.github.io/forest/hmlg-0032/" display-uri="hmlg-0032" type="local">Spectral sequence of a tower of fibrations</fr:link></html:li>
+  <html:li><fr:link href="/forest/misc-000U/" title="论计算模型之区别" uri="https://trebor-huang.github.io/forest/misc-000U/" display-uri="misc-000U" type="local">论计算模型之区别</fr:link></html:li></html:ul>
             <html:p>
   On a computer, you can press Ctrl–K to search for trees.
 </html:p>
@@ -460,6 +488,34 @@
         <fr:title text="Contributions">Contributions</fr:title>
       </fr:frontmatter>
       <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
+              </fr:author>
+              <fr:author>
+                <fr:link href="/forest/angiuli/" title="Carlo Angiuli" uri="https://trebor-huang.github.io/forest/angiuli/" display-uri="angiuli" type="local">Carlo Angiuli</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>7</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://trebor-huang.github.io/forest/fat-cell-structure/</fr:uri>
+            <fr:display-uri>fat-cell-structure</fr:display-uri>
+            <fr:route>/forest/fat-cell-structure/</fr:route>
+            <fr:title text="Fat Cell Structures and Generalized Algebraic Theories">Fat Cell Structures and Generalized Algebraic Theories</fr:title>
+            <fr:taxon>Reference</fr:taxon>
+            <fr:meta name="doi">10.4230/LIPIcs.LICS.2026.58</fr:meta>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+  We give a new syntax-independent account of finitely-presented generalized algebraic theories (GATs) as finite cell complexes in the category of categories with families (CwFs), in which GATs are constructed by successive pushouts along the CwF morphisms generically postulating a sort, an operation, or an equation. Inspired by the fat small object argument of Makkai, Rosický, and Vokřínek, we introduce fat GAT presentations, thereby allowing infinite presentations with non-linear dependency structure. Then, motivated by wanting our GATs to self-describe, we extend presentations to admit infinitary arities, including infinitely deep dependency chains. Finally, we verify that these generalized GATs satisfy expected semantic properties including Frey’s Gabriel–Ulmer duality.
+</html:p>
+          </fr:mainmatter>
+        </fr:tree>
         <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
           <fr:frontmatter>
             <fr:authors>

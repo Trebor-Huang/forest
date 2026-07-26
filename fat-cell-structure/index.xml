@@ -6,15 +6,27 @@
       <fr:author>
         <fr:link href="/forest/trebor/" title="Trebor" uri="https://trebor-huang.github.io/forest/trebor/" display-uri="trebor" type="local">Trebor</fr:link>
       </fr:author>
+      <fr:author>
+        <fr:link href="/forest/angiuli/" title="Carlo Angiuli" uri="https://trebor-huang.github.io/forest/angiuli/" display-uri="angiuli" type="local">Carlo Angiuli</fr:link>
+      </fr:author>
     </fr:authors>
-    <fr:uri>https://trebor-huang.github.io/forest/models/</fr:uri>
-    <fr:display-uri>models</fr:display-uri>
-    <fr:route>/forest/models/</fr:route>
-    <fr:title text="Models of Dependent Type Theory">Models of Dependent Type Theory</fr:title>
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>7</fr:month>
+      <fr:day>9</fr:day>
+    </fr:date>
+    <fr:uri>https://trebor-huang.github.io/forest/fat-cell-structure/</fr:uri>
+    <fr:display-uri>fat-cell-structure</fr:display-uri>
+    <fr:route>/forest/fat-cell-structure/</fr:route>
+    <fr:title text="Fat Cell Structures and Generalized Algebraic Theories">Fat Cell Structures and Generalized Algebraic Theories</fr:title>
     <fr:taxon>Reference</fr:taxon>
-    <fr:meta name="external">https://github.com/Trebor-Huang/model</fr:meta>
+    <fr:meta name="doi">10.4230/LIPIcs.LICS.2026.58</fr:meta>
   </fr:frontmatter>
-  <fr:mainmatter />
+  <fr:mainmatter>
+    <html:p>
+  We give a new syntax-independent account of finitely-presented generalized algebraic theories (GATs) as finite cell complexes in the category of categories with families (CwFs), in which GATs are constructed by successive pushouts along the CwF morphisms generically postulating a sort, an operation, or an equation. Inspired by the fat small object argument of Makkai, Rosický, and Vokřínek, we introduce fat GAT presentations, thereby allowing infinite presentations with non-linear dependency structure. Then, motivated by wanting our GATs to self-describe, we extend presentations to admit infinitary arities, including infinitely deep dependency chains. Finally, we verify that these generalized GATs satisfy expected semantic properties including Frey’s Gabriel–Ulmer duality.
+</html:p>
+  </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
